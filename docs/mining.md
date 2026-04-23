@@ -83,3 +83,78 @@ pm2 start --name net32-miner --interpreter python3 ./neurons/miner.py -- --walle
 ```
 
 > IMPORTANT: you should set `blacklist.minimum_stake_requirement` argument to 0 so our validator won't get blacklisted
+
+## Running The Miner With A VPS Relay And Local GPU
+
+If your VPS does not have a GPU, you can keep the public-facing miner on the VPS and offload inference to your local PC.
+
+The request flow becomes:
+
+```text
+validator -> VPS miner axon -> local GPU inference service -> VPS miner -> validator
+```
+
+### 1. Start the inference service on your local GPU machine
+
+Run the following from the repo root on your local PC:
+
+```bash
+export REMOTE_INFERENCE_TOKEN="choose-a-long-random-secret"
+python scripts/run_inference_server.py \
+  --host 127.0.0.1 \
+  --port 18091 \
+  --device cuda:0 \
+  --model-type deberta
+```
+
+This keeps the detector model loaded locally and exposes a private HTTP API on `127.0.0.1:18091`.
+
+### 2. Create a private tunnel from your local PC to the VPS
+
+One simple option is a reverse SSH tunnel:
+
+```bash
+ssh -N -R 127.0.0.1:18091:127.0.0.1:18091 user@YOUR_VPS
+```
+
+If you want the tunnel to stay alive automatically, use `autossh` instead of `ssh`.
+
+### 3. Start the miner on the VPS in remote-inference mode
+
+Run the miner on the VPS with the new remote inference flags:
+
+```bash
+pm2 start --name net32-miner --interpreter python3 ./neurons/miner.py -- \
+  --wallet.name YOUR_COLDKEY \
+  --wallet.hotkey YOUR_HOTKEY \
+  --axon.port 8091 \
+  --neuron.device cpu \
+  --neuron.remote_inference_url http://127.0.0.1:18091 \
+  --neuron.remote_inference_token "$REMOTE_INFERENCE_TOKEN" \
+  --neuron.remote_inference_timeout 15
+```
+
+In this mode the VPS still serves the miner axon publicly, but the heavy model inference runs on your local GPU.
+
+### 4. Verify the tunnel before starting the miner
+
+On the VPS, confirm that the remote inference service is reachable:
+
+```bash
+curl http://127.0.0.1:18091/health
+```
+
+If you enabled a token, test prediction with:
+
+```bash
+curl -X POST http://127.0.0.1:18091/predict \
+  -H "Authorization: Bearer $REMOTE_INFERENCE_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"texts":["This is a test sentence."]}'
+```
+
+### Notes
+
+* Keep `--host 127.0.0.1` on the inference server unless you intentionally secure it another way.
+* `--neuron.remote_inference_timeout` must stay below the validator timeout budget.
+* `--neuron.device cpu` is fine on the VPS in remote mode because the model is not loaded there.

@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "2026-04-22T08:51:53.992574+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 5,
+  "duplicates": [],
+  "latency_ms": 3421,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "dcd9231f",
+      "n_words": 268,
+      "n_chars": 1663,
+      "preview_head": "pay their energy bills, can'tafford to paytheir energy bills, can't afford to paytheir energy bills, can't afford to pay theirenergy bills, can't afford to pay their energy bills, can't afford topay t",
+      "preview_tail": "nergy bills, can't afford to pay their energy bills, can't afford to pay their energy bills, can't afford to pay their energy bills, can'tafford to pay their energy bills, can't afford to pay their e ",
+      "avg_prediction": 0.9839
+    },
+    {
+      "idx": 1,
+      "hash": "5773859e",
+      "n_words": 74,
+      "n_chars": 560,
+      "preview_head": "development (MAPK8, MAPK10, MAP3K12, MAPK3, MAPK1, MAPK7 and VEGF), were calculated. Pearson correlation coefficients were obtained with experimentally-determined IC50 in the Alamar blue viability ass",
+      "preview_tail": "ains compounds with cytotoxic activity. This study provides some evidence of why this plant is used ethnobotanically in anticancer herbal formulations and justifies investigating Nigerian medicinal pl",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 2,
+      "hash": "80a22cc4",
+      "n_words": 31,
+      "n_chars": 276,
+      "preview_head": "t.amount ELSE NULL END) AS TransType2AmountSum, SUM(CASE WHEN t.transaction_type = 'TransType3' THEN t(amount)ELSE 0END )AS TransType3AmountSum FROM JCT_CURRENT__TRANSACTION t WHERE transaction_date >",
+      "preview_tail": "type = 'TransType3' THEN t(amount)ELSE 0END )AS TransType3AmountSum FROM JCT_CURRENT__TRANSACTION t WHERE transaction_date >= {?Start Date} ANDtransaction_date <={?EndDate} GROUP BY job ORDERBYjob ASC",
+      "avg_prediction": 0.9404
+    },
+    {
+      "idx": 3,
+      "hash": "865957b1",
+      "n_words": 66,
+      "n_chars": 477,
+      "preview_head": "rphological picture and the possibility of identifying nodules, cysts, or abnormalities within the gland. It can provide real-time imaging, allowing for dynamic evaluation during the procedure. With u",
+      "preview_tail": "cious areas, and guide fine needle aspirations (FNA) for further diagnosis. This non-invasive method is valuable in thyroid assessments due to its safety, precision, and ability to capture detailed im",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 4,
+      "hash": "89e37dd2",
+      "n_words": 208,
+      "n_chars": 1176,
+      "preview_head": "NEWS ... ... ... ... ... AMA Music Agency AMA Music Agency Book Acts Now Bandstand Marketing Band Stand Free Advice Academy Education Academy Music Courses MUSIC INDUSTRY NEWS Advice from Music Profes",
+      "preview_tail": "ver How It Could Be Used In The Future The Death of [Topic] What Everyone Ought To Know About [Topic] How to Get Started with [Topic] [Topic]: the Ultimate Convenience! 7 Ways [Topic] Can Improve Your",
+      "avg_prediction": 0.9814
+    }
+  ]
+}

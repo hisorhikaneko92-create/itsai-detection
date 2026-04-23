@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-04-23T15:42:47.352107+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 6,
+  "duplicates": [],
+  "latency_ms": 3,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0ae39653",
+      "n_words": 270,
+      "n_chars": 1699,
+      "preview_head": "the issue: 1. Verify Account Existence: - Ensure that `DOMAIN\\ServiceAccount` actually exists in your AD. - Check for any typos or incorrect capitalization. 2. Check Domain Controller Connectivity: - ",
+      "preview_tail": "e of these nodes to see if it's specific to this particular cluster node or all instances. 8. Check for Known Issues and Patches: - Ensure that your Windows 2008 R2 servers are up-to-date with patches",
+      "full_text": "the issue: 1. Verify Account Existence: - Ensure that `DOMAIN\\ServiceAccount` actually exists in your AD. - Check for any typos or incorrect capitalization. 2. Check Domain Controller Connectivity: - Make sure all nodes of the SQL Server cluster can communicate with a domain controller (DC). - Verify network connectivity and DNS resolution to ensure there are no issues reaching DCs from each node in the cluster. 3. Permissions on AD Account: - Ensure that you have sufficient permissions to read information about `DOMAIN\\ServiceAccount` within Active Directory. - Check if any Group Policy Objects (GPO) or security settings might be preventing access to this account's details. 4. SQL Server Service Accounts and Configuration Manager: - Verify the service accounts for SQL Server services using SQL Server Configuration Manager on both nodes of the cluster. - Ensure that these service accounts have appropriate permissions in AD and are correctly configured within SQL Server itself. 5. Event Viewer Logs: - Check Event Viewer logs (both Application and System) on each node to see if there are any additional error messages or warnings related to this issue. 6. Run the Command with Different Credentials: - Try running `CREATE LOGIN [DOMAIN\\ServiceAccount] FROM WINdOWS;` using a different account that has higher privileges, such as an Enterprise Admin. 7. Test from Another SQL Instance on Same Cluster Node: - Attempt creating the login in another instance of SQL Server installed on one of these nodes to see if it's specific to this particular cluster node or all instances. 8. Check for Known Issues and Patches: - Ensure that your Windows 2008 R2 servers are up-to-date with patches",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "83c18a0b",
+      "n_words": 135,
+      "n_chars": 835,
+      "preview_head": "bills to help fund the switch to renewables. Economy Minister Philipp Roesler, leader of the pro-business Free Democrats (FDP) junior coalition partner, wants a major reform of the law before the 2013",
+      "preview_tail": "ater on Tuesday to discuss the progress of the complex switch to renewables from nuclear power and its costs. Sources in the renewables sector say they think the government may row back on its targets",
+      "full_text": "bills to help fund the switch to renewables. Economy Minister Philipp Roesler, leader of the pro-business Free Democrats (FDP) junior coalition partner, wants a major reform of the law before the 2013 election. Underscoring disagreements on energy policy within the ruling coalition, Altmaier, a member of Merkel's conservatives, agrees a rethink is needed but not immediately, arguing such a complex subject needs time. \"It must be clear: the energy switch is irreversible. But it must also be clear that Rome was not built in a day.\" UPROAR Merkel's chief of staff Ronald Pofalla meets Altmaier, Roesler, industry groups and unions later on Tuesday to discuss the progress of the complex switch to renewables from nuclear power and its costs. Sources in the renewables sector say they think the government may row back on its targets",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "776b90db",
+      "n_words": 49,
+      "n_chars": 350,
+      "preview_head": "nia Salon Buzzflash Mother Jones Raw Story Huffington Post Slate Crooks and Liars American Prospect New Republic Common Dreams AmericanPoliticsJournal Smirking Chimp CJR Daily consortium news Blog-o-r",
+      "preview_tail": " Smirking Chimp CJR Daily consortium news Blog-o-rama Eschaton BagNewsNotes Daily Kos (Jane Hamsher) Fierce Coalition for Truth to Power: Marc Ash Firedoglake dKos HuLlabaloo Lawyers, Guns and Money M",
+      "full_text": "nia Salon Buzzflash Mother Jones Raw Story Huffington Post Slate Crooks and Liars American Prospect New Republic Common Dreams AmericanPoliticsJournal Smirking Chimp CJR Daily consortium news Blog-o-rama Eschaton BagNewsNotes Daily Kos (Jane Hamsher) Fierce Coalition for Truth to Power: Marc Ash Firedoglake dKos HuLlabaloo Lawyers, Guns and Money M",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "20ddd874",
+      "n_words": 302,
+      "n_chars": 1912,
+      "preview_head": "45(a), 1; AND WHEREAS, Defendants have acknowledged their violations of Section 1 of the Sherman Act and Section 3 of the Clayton Act by engaging in an unlawful conspiracy to suppress competition in t",
+      "preview_tail": "d \"Clayton Act,\" when used herein with respect to any act referred to, mean the Sherman Act, as amended, 15 U.S.C. \u00a7\u00a7 1-7 or the Clayton Act, as amended, 15 U.S.C. \u00a7\u00a7 12-27. 9. \"United States\" means t",
+      "full_text": "45(a), 1; AND WHEREAS, Defendants have acknowledged their violations of Section 1 of the Sherman Act and Section 3 of the Clayton Act by engaging in an unlawful conspiracy to suppress competition in the market for solid waste collection services; AND NOW, THEREFORE, having considered the evidence presented at trial or in this action and otherwise made known to the Court and having found that Plaintiffs have shown that they are entitled to injunctive relief as set forth below, it is ORDERED: This Final Judgment applies only to Defendants Waste Management and Allied. A. Definitions. For purposes of this Final Judgment, unless otherwise specifically indicated: 1. \"Market\" means any geographic area in which competition would be lessened by the agreement described herein or any product market consisting of a class of products that are close substitutes for each other (e.g., competing disposal services). 2. \"Solid waste collection service\" means any solid waste collection, transfer, processing, recycling, or disposal service. 3. \"Competing disposal facility\" means any facility used to dispose of nonhazardous solid waste and located within the geographic area where Defendants provide their disposal services (i.e., an \"interstate market\"). 4. \"Market share\" is calculated by dividing a firm's revenues in a particular market by total revenues in that market. 5. \"Disposal facility\" means any landfill, incinerator, or other location used to dispose of nonhazardous solid waste. 6. \"FTC Act\" means the Federal Trade Commission Act as amended, 15 U.S.C. \u00a7\u00a7 41-58. 7. \"Market share\" is calculated by dividing a firm's revenues in a particular market by total revenues in that market. 8. \"Sherman Act\" and \"Clayton Act,\" when used herein with respect to any act referred to, mean the Sherman Act, as amended, 15 U.S.C. \u00a7\u00a7 1-7 or the Clayton Act, as amended, 15 U.S.C. \u00a7\u00a7 12-27. 9. \"United States\" means t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "156676f9",
+      "n_words": 162,
+      "n_chars": 1145,
+      "preview_head": "is an EEO/Affirmative Action employer and is committed to providing equal employment opportunities to applicants and employees without regard to race, color, religion, sex (including pregnancy, sexual",
+      "preview_tail": "mployees volunteer and provide for many organizations in the area including the Cleveland Clinic Foundation, Junior Achievement, and the Western Reserve District 5 Science Day. On top of this, we love",
+      "full_text": "is an EEO/Affirmative Action employer and is committed to providing equal employment opportunities to applicants and employees without regard to race, color, religion, sex (including pregnancy, sexual orientation, or gender identity), national origin/ancestry, disability, age, veteran or military status as it pertains to recruitment, hiring, training, placement, and/or promotion activities in our workplace. Our office environment respects, supports, and values everyone. Applicants with a disability, who require a reasonable accommodation may contact us at 330-666-3702 or email us at hr-manager@ptaengineering.com. Company Culture Our Core Values are at the root of all that we do here at PTA and our company culture reflects just that. We encourage one another to act with diligence, remain professionally affable, practice accountability and grow as individuals through our collaborative work environment. Outside of the workplace, our employees volunteer and provide for many organizations in the area including the Cleveland Clinic Foundation, Junior Achievement, and the Western Reserve District 5 Science Day. On top of this, we love",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "07c5dbad",
+      "n_words": 134,
+      "n_chars": 702,
+      "preview_head": "in the direction of arrow A dependingIn the above construction, when the paper from the roll is cut by the paper cutter, the head of the cut paper may hang in the direction of arrow A, which is away f",
+      "preview_tail": "g in the direction of arrow A, which is away from the paper cutter, depending of the paper cutter, the paper may hang in the direction of arrow A, which is away from the paper cutter, depending of the",
+      "full_text": "in the direction of arrow A dependingIn the above construction, when the paper from the roll is cut by the paper cutter, the head of the cut paper may hang in the direction of arrow A, which is away from the paper cutter, depending of the paper cutter, the paper may hang in the direction of arrow A, which is away from the paper cutter, depending of the paper cutter, the paper may hang in the direction of arrow A, which is away from the paper cutter, depending of the paper cutter, the paper may hang in the direction of arrow A, which is away from the paper cutter, depending of the paper cutter, the paper may hang in the direction of arrow A, which is away from the paper cutter, depending of the",
+      "avg_prediction": 0.0
+    }
+  ]
+}
