@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nvidia-smi)",
+      "Bash(git -C /root/llm-detection diff neurons/miner.py setup.py)",
+      "Bash(kill -9 33980)"
+    ]
+  }
+}
