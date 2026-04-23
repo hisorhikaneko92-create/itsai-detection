@@ -225,6 +225,27 @@ def add_args(cls, parser):
             default="deberta",
         )
 
+        parser.add_argument(
+            "--neuron.remote_inference_url",
+            type=str,
+            help="Optional URL for a remote inference service used instead of loading the model locally.",
+            default="",
+        )
+
+        parser.add_argument(
+            "--neuron.remote_inference_token",
+            type=str,
+            help="Optional bearer token for authenticating against the remote inference service.",
+            default="",
+        )
+
+        parser.add_argument(
+            "--neuron.remote_inference_timeout",
+            type=float,
+            help="Timeout in seconds for remote inference requests.",
+            default=15.0,
+        )
+
 
 def config(cls):
     """

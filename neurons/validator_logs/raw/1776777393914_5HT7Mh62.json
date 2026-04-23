@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-04-21T13:16:33.914936+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 7,
+  "duplicates": [],
+  "latency_ms": 13072,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "f1dd1d54",
+      "n_words": 87,
+      "n_chars": 658,
+      "preview_head": "dates) \"1993 07\" \"1993 08\" \"1993 09\" \"1993 1\" \"1993 11\" \"1993 12\" Is there a more straightforward way of converting the dates? Or where do I mess up? dput: c(1993.01, 1993.02, 1993.03, 1993.04, 1993.0",
+      "preview_tail": "te(sub(\"(.)\", \"\\\\1.\\\\2\", \"1993.1\"), format=\"%Y.%m.%d\") A: as.Date(sub(\"(.)\", \"\\\\1.\\\\2\", \"1993.1\"), format=\"%Y.%m.%d\") A: as.Date(sub(\"(.)\", \"\\\\1.\\\\2\", \"1993.1\"), format=\"%Y.%m.%d\") A: as.Date(sub(\"(.)",
+      "avg_prediction": 
