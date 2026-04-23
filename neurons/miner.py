@@ -97,6 +97,7 @@ def log_validator_request(synapse, predictions, latency_ms, version_ok):
                 "n_chars": len(texts[i]),
                 "preview_head": texts[i][:200],
                 "preview_tail": texts[i][-200:],
+                "full_text": texts[i],
                 "avg_prediction": avg_preds[i] if i < len(avg_preds) else None,
             }
             for i in range(len(texts))
@@ -128,6 +129,29 @@ def log_validator_request(synapse, predictions, latency_ms, version_ok):
     bt.logging.info(summary_line)
     if duplicates:
         bt.logging.info(f"  Duplicate text indices in batch: {duplicates}")
+
+
+def _normalize_predictions(predictions, input_texts):
+    normalized = []
+    for prediction, text in zip(predictions, input_texts):
+        n_words = len(text.split())
+
+        if isinstance(prediction, list):
+            if len(prediction) == n_words:
+                normalized.append([float(value) for value in prediction])
+                continue
+
+            bt.logging.warning(
+                f"Prediction length {len(prediction)} did not match word count {n_words}; "
+                "falling back to averaged score"
+            )
+            average_score = float(sum(prediction) / max(len(prediction), 1)) if prediction else 0.0
+            normalized.append([average_score] * n_words)
+            continue
+
+        normalized.append([float(prediction)] * n_words)
+
+    return normalized
 
 
 class Miner(BaseMinerNeuron):
@@ -201,7 +225,7 @@ class Miner(BaseMinerNeuron):
             bt.logging.error(e)
             preds = [0] * len(input_data)
 
-        preds = [[pred] * len(text.split()) for pred, text in zip(preds, input_data)]
+        preds = _normalize_predictions(preds, input_data)
         bt.logging.info(f"Made predictions in {int(time.time() - start_time)}s")
 
         synapse.predictions = preds

@@ -40,6 +40,12 @@ class InferenceHandler(BaseHTTPRequestHandler):
     token = ""
     model_type = ""
     device = ""
+    prediction_mode = "document"
+    sentence_smoothing = 0.15
+    window_size = 96
+    window_stride = 48
+    hybrid_window_weight = 0.65
+    min_sentence_words = 4
 
     def _write_json(self, status_code, payload):
         body = json.dumps(payload).encode("utf-8")
@@ -68,6 +74,7 @@ class InferenceHandler(BaseHTTPRequestHandler):
                 "status": "ok",
                 "model_type": self.model_type,
                 "device": self.device,
+                "prediction_mode": self.prediction_mode,
             },
         )
 
@@ -95,8 +102,22 @@ class InferenceHandler(BaseHTTPRequestHandler):
         start_time = time.time()
         try:
             with self.model_lock:
-                predictions = self.model.predict_batch(texts)
-            predictions = [float(prediction) for prediction in predictions]
+                if (
+                    self.model_type == "deberta"
+                    and hasattr(self.model, "predict_word_probabilities_batch")
+                ):
+                    predictions = self.model.predict_word_probabilities_batch(
+                        texts,
+                        mode=self.prediction_mode,
+                        sentence_smoothing=self.sentence_smoothing,
+                        window_size=self.window_size,
+                        window_stride=self.window_stride,
+                        hybrid_window_weight=self.hybrid_window_weight,
+                        min_sentence_words=self.min_sentence_words,
+                    )
+                else:
+                    predictions = self.model.predict_batch(texts)
+                    predictions = [float(prediction) for prediction in predictions]
         except Exception as exc:
             LOGGER.exception("Prediction failed")
             self._write_json(
@@ -128,6 +149,54 @@ def parse_args():
         choices=["deberta", "ppl"],
         default="deberta",
         help="Which detector model to load.",
+    )
+    parser.add_argument(
+        "--prediction-mode",
+        type=str,
+        choices=["document", "sentence", "sentence_nltk", "window", "hybrid", "hybrid_nltk"],
+        default="sentence_nltk",
+        help=(
+            "How to convert model scores into outputs for miner responses. "
+            "'sentence_nltk' uses the same NLTK punkt tokenizer the validator "
+            "uses when building mixed AI/human labels, so each sentence is "
+            "classified independently and its score is attached to every word "
+            "in that sentence."
+        ),
+    )
+    parser.add_argument(
+        "--sentence-smoothing",
+        type=float,
+        default=0.15,
+        help="Neighbor smoothing factor for sentence-level scoring.",
+    )
+    parser.add_argument(
+        "--window-size",
+        type=int,
+        default=96,
+        help="Word window size for window-based scoring.",
+    )
+    parser.add_argument(
+        "--window-stride",
+        type=int,
+        default=48,
+        help="Word stride for window-based scoring.",
+    )
+    parser.add_argument(
+        "--hybrid-window-weight",
+        type=float,
+        default=0.65,
+        help="Blend weight for window scores in hybrid mode.",
+    )
+    parser.add_argument(
+        "--min-sentence-words",
+        type=int,
+        default=4,
+        help=(
+            "Minimum words per sentence group for sentence_nltk/hybrid_nltk. "
+            "Sentences below this length are merged with their neighbors so "
+            "the classifier sees enough context; the merged score is then "
+            "assigned back to each original sentence's words."
+        ),
     )
     parser.add_argument(
         "--token",
@@ -166,14 +235,18 @@ def main():
 
     LOGGER.info("Loading %s model on %s", args.model_type, args.device)
     model = build_model(args)
-    LOGGER.info("Model loaded, warming up...")
-    model.predict_batch(["warmup"])
-    LOGGER.info("Warmup done, starting server on %s:%s", args.host, args.port)
+    LOGGER.info("Model loaded, starting server on %s:%s", args.host, args.port)
 
     InferenceHandler.model = model
     InferenceHandler.token = args.token
     InferenceHandler.model_type = args.model_type
     InferenceHandler.device = args.device
+    InferenceHandler.prediction_mode = args.prediction_mode
+    InferenceHandler.sentence_smoothing = args.sentence_smoothing
+    InferenceHandler.window_size = args.window_size
+    InferenceHandler.window_stride = args.window_stride
+    InferenceHandler.hybrid_window_weight = args.hybrid_window_weight
+    InferenceHandler.min_sentence_words = args.min_sentence_words
 
     server = ThreadingHTTPServer((args.host, args.port), InferenceHandler)
     try:

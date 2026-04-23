@@ -30,4 +30,11 @@ class RemoteInferenceClient:
                 f"Remote inference returned {len(predictions)} predictions for {len(texts)} texts"
             )
 
-        return predictions
+        normalized = []
+        for prediction in predictions:
+            if isinstance(prediction, list):
+                normalized.append([float(value) for value in prediction])
+            else:
+                normalized.append(float(prediction))
+
+        return normalized

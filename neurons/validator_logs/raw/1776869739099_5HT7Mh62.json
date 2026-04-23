@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "2026-04-22T14:55:39.099241+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 4,
+  "duplicates": [],
+  "latency_ms": 1624,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "a00a0dcc",
+      "n_words": 39,
+      "n_chars": 273,
+      "preview_head": "expressions to check if the input value contains repetitive numbers. Here's an example of how you can modify your code to achieve this: ```javascript app.directive('validTel', function () { return { r",
+      "preview_tail": "'s an example of how you can modify your code to achieve this: ```javascript app.directive('validTel', function () { return { require: '?ngModel', link: function (scope, element, attrs, ngModelCtrl) {",
+      "full_text": "expressions to check if the input value contains repetitive numbers. Here's an example of how you can modify your code to achieve this: ```javascript app.directive('validTel', function () { return { require: '?ngModel', link: function (scope, element, attrs, ngModelCtrl) {",
+      "avg_prediction": 0.9849
+    },
+    {
+      "idx": 1,
+      "hash": "6ac78c4b",
+      "n_words": 69,
+      "n_chars": 452,
+      "preview_head": "perspective if some of these underground societies could have succeeded in achieving more positive outcomes for society. Dr. Sun Yat Sen had utilized this name \"Hong Men\" originally used by the revolu",
+      "preview_tail": "644-1911) and was their \u201cbig brother\u201d (or leader). From a negative perspective however these underground societies were often associated with organized crime like in Western society where there are kn",
+      "full_text": "perspective if some of these underground societies could have succeeded in achieving more positive outcomes for society. Dr. Sun Yat Sen had utilized this name \"Hong Men\" originally used by the revolutionists that tried to overthrow the Qing dynasty, 1644-1911) and was their \u201cbig brother\u201d (or leader). From a negative perspective however these underground societies were often associated with organized crime like in Western society where there are kn",
+      "avg_prediction": 0.9849
+    },
+    {
+      "idx": 2,
+      "hash": "f5f8eea1",
+      "n_words": 109,
+      "n_chars": 2090,
+      "preview_head": "type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src",
+      "preview_tail": "e.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script ty",
+      "full_text": "type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtRee.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script type=\"text/javascript\" src=\"navtree.js\"></script> <script ty",
+      "avg_prediction": 0.9839
+    },
+    {
+      "idx": 3,
+      "hash": "042dd65c",
+      "n_words": 177,
+      "n_chars": 1592,
+      "preview_head": "ve done this in a much simpler way? Could it have been written without a wrapper class? Would it be possible to prevent errors from wrappers being applied to one queue? Could I make it connect on the ",
+      "preview_tail": "atch (Exception ex) { observer.onError(ex); } finally { subscription.Dispose(); } } subscription.Disposable = new DelegateDisposable(() => { }); Start(); return subscription; } public void Connect() {",
+      "full_text": "ve done this in a much simpler way? Could it have been written without a wrapper class? Would it be possible to prevent errors from wrappers being applied to one queue? Could I make it connect on the first subscription instead of via a direct call to Connect? If so, what are the implications of that? Finally, how would you have done it? using Nito.AsyncEx; using System.Reactive; static async Task ExampleUsage() { var queue = new AsyncProducerConsumerQueue<int>(); var observable = queue.AsConnectableObservable(); await queue.EnqueueAsync(1); observable.Subscribe(Console.WriteLine); observable.Connect(); await queue.EnqueueAsync(2); } public static class AsyncExExtensions { public static IConnectableObservable<T> AsConnectableObservable<T>(this AsyncProducerConsumerQueue<T> queue) { return new ConnectableObservableForAsyncProducerConsumerQueue<T>(queue); } } class ConnectableObservableForAsyncProducerConsumerQueue<T> : IConnectableObservable<T> { readonly AsyncProducerConsumerQueue<T> _queue; public ConnectableObservableForAsyncProducerConsumerQueue(AsyncProducerConsumerQueue<T> queue) { _queue = queue; } public IDisposable Subscribe(IObserver<T> observer) { var subscription = new SingleAssignmentDisposable(); async void Start() { try { while (await _queue.OutputAvailableAsync()) { if (_queue.TryDequeue(out T item)) { observer.OnNext(item); } } observer.onCompleted(); } catch (Exception ex) { observer.onError(ex); } finally { subscription.Dispose(); } } subscription.Disposable = new DelegateDisposable(() => { }); Start(); return subscription; } public void Connect() {",
+      "avg_prediction": 0.0258
+    }
+  ]
+}
