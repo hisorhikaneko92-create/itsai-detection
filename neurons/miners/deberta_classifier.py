@@ -50,7 +50,7 @@ def GeneratePredictions(model, tokenizer, test_dataset, device):
         test_dataset,
         batch_size=4,
         shuffle=False,
-        num_workers=1,
+        num_workers=0,
         collate_fn=DataCollatorWithPadding(tokenizer))
 
     all_predictions = []
