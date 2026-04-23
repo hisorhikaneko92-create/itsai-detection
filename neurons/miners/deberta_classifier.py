@@ -11,11 +11,18 @@ from tqdm import tqdm
 # boundaries line up with the label boundaries the validator generates.
 try:
     import nltk
-    try:
-        _NLTK_PUNKT = nltk.data.load("tokenizers/punkt/english.pickle")
-    except LookupError:
-        nltk.download("punkt", quiet=True)
-        _NLTK_PUNKT = nltk.data.load("tokenizers/punkt/english.pickle")
+
+    def _load_punkt_tokenizer():
+        # Newer NLTK (>=3.8.2) redirects `punkt` to `punkt_tab` internally; the
+        # old `punkt` download no longer satisfies the lookup. Try both.
+        for pkg in ("punkt_tab", "punkt"):
+            try:
+                return nltk.data.load("tokenizers/punkt/english.pickle")
+            except LookupError:
+                nltk.download(pkg, quiet=True)
+        return nltk.data.load("tokenizers/punkt/english.pickle")
+
+    _NLTK_PUNKT = _load_punkt_tokenizer()
 except Exception:
     _NLTK_PUNKT = None
 
