@@ -45,11 +45,18 @@ from pathlib import Path
 import requests
 
 import nltk
-try:
-    _SENT_TOK = nltk.data.load("tokenizers/punkt/english.pickle")
-except LookupError:
-    nltk.download("punkt", quiet=True)
-    _SENT_TOK = nltk.data.load("tokenizers/punkt/english.pickle")
+
+def _load_punkt():
+    # Newer NLTK (>=3.8.2) redirects `punkt` internally to `punkt_tab`, which
+    # needs a separate download. Try both packages in order.
+    for pkg in ("punkt_tab", "punkt"):
+        try:
+            return nltk.data.load("tokenizers/punkt/english.pickle")
+        except LookupError:
+            nltk.download(pkg, quiet=True)
+    return nltk.data.load("tokenizers/punkt/english.pickle")
+
+_SENT_TOK = _load_punkt()
 
 
 # ---------------------------------------------------------------------------
