@@ -29,9 +29,17 @@ Typical usage (run on your GPU PC where the model weights live)::
 """
 import argparse
 import ast
+import os
 import sys
 import time
+import warnings
 from pathlib import Path
+
+# Silence transformers / torch deprecation chatter so the results table is
+# actually visible in the terminal.
+warnings.filterwarnings("ignore")
+os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
+os.environ.setdefault("PYTHONWARNINGS", "ignore")
 
 import numpy as np
 import pandas as pd
@@ -165,11 +173,17 @@ def print_table(rows):
     print("\n" + line)
     print("-" * len(line))
     for r in rows:
-        passes = "PASS" if r.get("ood_f1", 0) >= 0.9 else "FAIL"
+        ood = r.get("ood_f1")
+        if ood is None:
+            passes = "N/A"
+            ood_cell = "-"
+        else:
+            passes = "PASS" if ood >= 0.9 else "FAIL"
+            ood_cell = f"{ood:.4f}"
         cells = [
             r["mode"].ljust(widths[0]),
             f"{r['f1_score']:.4f}".rjust(widths[1]),
-            (f"{r['ood_f1']:.4f}" if r.get("ood_f1") is not None else "-").rjust(widths[2]),
+            ood_cell.rjust(widths[2]),
             f"{r['reward']:.4f}".rjust(widths[3]),
             f"{r['fp_score']:.4f}".rjust(widths[4]),
             f"{r['ap_score']:.4f}".rjust(widths[5]),
