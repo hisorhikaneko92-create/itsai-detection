@@ -48,7 +48,7 @@ class SimpleTestDataset(Dataset):
 def GeneratePredictions(model, tokenizer, test_dataset, device):
     data_loader = torch.utils.data.DataLoader(
         test_dataset,
-        batch_size=4,
+        batch_size=16,
         shuffle=False,
         num_workers=0,
         collate_fn=DataCollatorWithPadding(tokenizer))
