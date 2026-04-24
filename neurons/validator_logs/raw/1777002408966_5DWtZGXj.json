@@ -1,0 +1,1211 @@
+{
+  "timestamp_utc": "2026-04-24T03:46:48.966888+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 7,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "35cfea5f",
+      "n_words": 47,
+      "n_chars": 351,
+      "preview_head": "ing the Gulf War. In 2011 it was highly commended by judges for the ACT Writers Centre awards. Literary works References Category:Year of birth missing (living people) Category:People from Ballarat Ca",
+      "preview_tail": " (living people) Category:People from Ballarat Category:Living people Category:Australian writers Category:Ambassadors of Australia to Saudi Arabia Category:Ambassadors of Australia to the United Arab",
+      "full_text": "ing the Gulf War. In 2011 it was highly commended by judges for the ACT Writers Centre awards. Literary works References Category:Year of birth missing (living people) Category:People from Ballarat Category:Living people Category:Australian writers Category:Ambassadors of Australia to Saudi Arabia Category:Ambassadors of Australia to the United Arab",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "a6826a5c",
+      "n_words": 57,
+      "n_chars": 1453,
+      "preview_head": "tils, \"hike/fileutilautoload :Trail, \"hike/trail\" autoload:TrailFile, \"hike/trailfile\" module_function def load_file(file, options = {}) options = options.dup options.reverse_merge!(:trail_file_class ",
+      "preview_tail": "class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:fil ",
+      "full_text": "tils, \"hike/fileutilautoload :Trail, \"hike/trail\" autoload:TrailFile, \"hike/trailfile\" module_function def load_file(file, options = {}) options = options.dup options.reverse_merge!(:trail_file_class => TrailFile, :trail_class => Trail, :file_utils_class => FileUtils ) options[:trail_file_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file,options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file,options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file,options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:file_utils_class].new(file, options[:trail_class].new(file, options[:fil ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "9c24aab9",
+      "n_words": 40,
+      "n_chars": 257,
+      "preview_head": "counter-productive Terrorism is a complex subject. It cannot be boiled down to a statement as simple as \u201cyou\u2019re with us or you\u2019re against us.\u201d Trying to deal with terrorism militarily is not only coun",
+      "preview_tail": "not be boiled down to a statement as simple as \u201cyou\u2019re with us or you\u2019re against us.\u201d Trying to deal with terrorism militarily is not only counter-productive, itis strategically wrong, and immoral as ",
+      "full_text": "counter-productive Terrorism is a complex subject. It cannot be boiled down to a statement as simple as \u201cyou\u2019re with us or you\u2019re against us.\u201d Trying to deal with terrorism militarily is not only counter-productive, itis strategically wrong, and immoral as ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "84fc7b43",
+      "n_words": 177,
+      "n_chars": 1185,
+      "preview_head": "a custom message on registration I'm trying to add a message on the \"my account\" page with woocommerce when somebody registers for the first time from the same page - I don't want to do it if somebody",
+      "preview_tail": "ws once update_user_meta(get_current_user_ID(), '_new_registration_message_shown' , 1); } } } add_action( 'woocommerce_before_my_account','custom_registration_message'); // set a flag for new customer",
+      "full_text": "a custom message on registration I'm trying to add a message on the \"my account\" page with woocommerce when somebody registers for the first time from the same page - I don't want to do it if somebody registers while paying for an order. I've been messing around for hours with filters and actions, and I can't manage to display my message just after the registration... The best thing I've managed to do with the function wc_add_notice is to display it but on every single part of \"my aYou're close! To achieve this, you need to use a combination of WooCommerce hooks. Here's an example code snippet that should help: ```php function custom_registration_message() { // Check if user has just registered and not during checkout process $user_id = get_current_user_id(); $meta_value = get_option( 'woocommerce_new_customer' . '_' . $user_id ); if ( ! empty($ meta_value) && is_account_page()) { wc_add_notice('Your custom message here', 'notice'); // Reset the meta value so it only shows once update_user_meta(get_current_user_ID(), '_new_registration_message_shown' , 1); } } } add_action( 'woocommerce_before_my_account','custom_registration_message'); // set a flag for new customer",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "626d3539",
+      "n_words": 302,
+      "n_chars": 1478,
+      "preview_head": "you'd want something so specific, if you want more than one second, use 2. A half a second isn't going to affect all that much in the script. Unless you're running it in a loop, which is kind of point",
+      "preview_tail": "rove the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the",
+      "full_text": "you'd want something so specific, if you want more than one second, use 2. A half a second isn't going to affect all that much in the script. Unless you're running it in a loop, which is kind of pointless at that interval. If I posted any code, assume that code was written using the latest release version unless stated otherwise. Also, if it doesn't work on XP I can't help with that because I don't have access to XP, and I'm not going to.Give a programmer the correct code and he can do his work for a day. Teach a programmer to debug and he can do his work for a lifetime - by Chirag GudeHow to ask questions the smart way! I hereby grant any person the I hereby grant any man the right to use the above for any reason. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the neighborhood. I do a lot of work to improve the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "88df0275",
+      "n_words": 213,
+      "n_chars": 1331,
+      "preview_head": "ober 2011 September 2011 August 2011 July 2011 June 2011 May 2011 April 2011 March 2011 February 2011 January 2011 December 2010 November 2010 October 2010 September 2010 August 2010 July 2010 June 20",
+      "preview_tail": "why not just use my online form. \u00a9 Bill Kopp and Musoscribe.com, 1996-. Unauthorized use and/or duplication of this material without express and written permission from this blog\u2019s author and/or owner",
+      "full_text": "ober 2011 September 2011 August 2011 July 2011 June 2011 May 2011 April 2011 March 2011 February 2011 January 2011 December 2010 November 2010 October 2010 September 2010 August 2010 July 2010 June 2010 May 2010 April 2010 March 2010 February 2010 January 2010 December 2009 November 2009 October 2009 September 2009 August 2009 July 2009 June 2009 May 2009 April 2009 March 2009 November 2008 February 2008 January 2008 December 2007 Latest Tweets Tweets by @the_musoscribe Stuff I Dig 60s Today Absolute Powerpop Addicted to Vinyl Albums That Never Were All Music Guide Big Plans for Everybody Joe Bonomo Bucketful of Brains Digital Meltd0wn Gary Pig Gold's Blog Off Your Radar PowerPop (Steve Simels) Powerpopaholic Powerpopulist Prog Archives Pulmyears (Paul Myers) Super Deluxe Edition The Day After the Sabbath The Second Disc Ugly Things Admin Site Admin Log out PLEASE NOTE: I welcome comments; I really do. But the site was getting hammered by sleazy comment-spammers, so I've had to disable the commenting feature. My apologies. Feel free to email me (my-first-name at musoscribe dot com) with feedback, though. Or, hey: why not just use my online form. \u00a9 Bill Kopp and Musoscribe.com, 1996-. Unauthorized use and/or duplication of this material without express and written permission from this blog\u2019s author and/or owner",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "19c4ea03",
+      "n_words": 149,
+      "n_chars": 836,
+      "preview_head": "ce where I could express my thoughts and opinions on the show freely, without any constraints from editors who may not share in this passion for 'Supernatural'. So it was that WFB began life as an ama",
+      "preview_tail": " write simple reviews for another site. I wanted to create a unique fan experience. Here it is nine years later and I couldn't have possibly imagined back then how much this site would evolve. Heck, I",
+      "full_text": "ce where I could express my thoughts and opinions on the show freely, without any constraints from editors who may not share in this passion for 'Supernatural'. So it was that WFB began life as an amateur blogspot site with very little knowledge of how to design web pages or write code. The learning curve has been steep but rewarding! I've picked up new skills along the way and met some amazing people too - all thanks largely due in part from sharing these experiences online through this platform we call 'Winchester Family Business'. The idea of the site of simple, to stretch my love of 'Supernatural\" further and to do more than write simple reviews for another site. I wanted to create a unique fan experience. Here it is nine years later and I couldn't have possibly imagined back then how much this site would evolve. Heck, I",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "a0cb202f",
+      "n_words": 191,
+      "n_chars": 1222,
+      "preview_head": "footballers Gianluca Berti (born May 20, 1967 in Florence) is a retired Italian soccer goalkeeper. Football Career Beti began his professional career with A.C. Prato and Olbia Calcio at the third divi",
+      "preview_tail": "Roma, Reggiana 1918 before moving over a few more times including Parma F.c., Torino f,c , Ac.fiorentina and finally Uc.sampdoria. Gianluca was reacquired by Sampedria in the summer of June to july wh",
+      "full_text": "footballers Gianluca Berti (born May 20, 1967 in Florence) is a retired Italian soccer goalkeeper. Football Career Beti began his professional career with A.C. Prato and Olbia Calcio at the third division level during their respective seasons of the competitive Serie C1/C2 league from where he started playing professionally for them both beginning into 1990-91 season respectively, showcasing a formidable performance in Italian football. From that period until June to July onward throughout his career which spanned through two decades and counting (1997\u20132009), Gianluca played as the goalkeeper at different teams of varying league levels. He started off with Genoa C.F.C., Pisa Calcio, A.S.A.Ncona before moving over for a brief stint to u..C....Sampdoria where he managed 42 matches during their top flight promotion season in Sicily (2004). In the summer and autumn of that year Gianluca was exchanged with Stefano Guidoni when moved from Perugia back out again after just one month. He went on to play for A.S.C..Roma, Reggiana 1918 before moving over a few more times including Parma F.c., Torino f,c , Ac.fiorentina and finally Uc.sampdoria. Gianluca was reacquired by Sampedria in the summer of June to july wh",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "fc9793a3",
+      "n_words": 78,
+      "n_chars": 539,
+      "preview_head": "transaction processing capability, with software error rate requirements. It comprises components like the handler and CP applications. The handler buffers incoming message byte streams, ensuring mess",
+      "preview_tail": "yte stream. The state of the MTA indicates which CP application is to handle the message. The CP application is then scheduled for execution. When the CP application runs, it copies the message stored",
+      "full_text": "transaction processing capability, with software error rate requirements. It comprises components like the handler and CP applications. The handler buffers incoming message byte streams, ensuring messages are stored and ready for processing. The interrupt handler then obtains a message transport address (xe2x80x9cMTAxe2x80x9d) from the byte stream. The state of the MTA indicates which CP application is to handle the message. The CP application is then scheduled for execution. When the CP application runs, it copies the message stored",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "70d4b0b3",
+      "n_words": 74,
+      "n_chars": 444,
+      "preview_head": "on the watch-list of NDLea since November, 2017 and were brought to Nigeria Customs Service for search based on the agency\u2019s reasonable suspicion of the containers. He stated that the NCS on Wednesday",
+      "preview_tail": "rch, among which 12 of them were been found to contain tramadol. \u201cThe search is still ongoing. Tramadol is a pharmaceutical drug which hThe search for the containers is ongoing, which is a pharmaceuti",
+      "full_text": "on the watch-list of NDLea since November, 2017 and were brought to Nigeria Customs Service for search based on the agency\u2019s reasonable suspicion of the containers. He stated that the NCS on Wednesday, dropped 28 of 62 containers slated for search, among which 12 of them were been found to contain tramadol. \u201cThe search is still ongoing. Tramadol is a pharmaceutical drug which hThe search for the containers is ongoing, which is a pharmaceuti",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 10,
+      "hash": "1c5a6901",
+      "n_words": 199,
+      "n_chars": 1098,
+      "preview_head": "know. And then they'll write countless blog posts about it. I submit to you that there is absolutely no value whatsoever in that calculation, or in the result of it. Even if the calculation could be r",
+      "preview_tail": "th a careful and integrated strategy then there's no point in ever thinking about the problem on that scale. So, let's look at what we can do tomorrow to eliminate carbon emissions. For me, the answer",
+      "full_text": "know. And then they'll write countless blog posts about it. I submit to you that there is absolutely no value whatsoever in that calculation, or in the result of it. Even if the calculation could be relied on, what does it mean? Is there any actionable element to this calculation? Should we do something about it? Should we care? Counting the grams in a cheeseburger, or in a Google search, is a gimmick used to get people excitable and emotional. If you just need to talk about the emissions cost of one cheeseburger, you have to know what will happen if every single man on planet (say 7 million) was to have a cheeseburger today. What impact could that have on carbon emissions? Is it something serious? Should we do anything about it? That is the right level of aggregation to be thinking about. But, then that is so large a scale that if you're not ready to reengineer the rest of humanity with a careful and integrated strategy then there's no point in ever thinking about the problem on that scale. So, let's look at what we can do tomorrow to eliminate carbon emissions. For me, the answer",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 11,
+      "hash": "2155e4a7",
+      "n_words": 40,
+      "n_chars": 279,
+      "preview_head": "there is a significant period of chemotherapy delivery that induces resonance in the system (at a period twice the average neutrophil lifespan from commitment to death) and a corresponding neutropenia",
+      "preview_tail": "n the system (at a period twice the average neutrophil lifespan from commitment to death) and a corresponding neutropenia suggesting that myelosuppressive protocols should avoid tHis period to minimiz",
+      "full_text": "there is a significant period of chemotherapy delivery that induces resonance in the system (at a period twice the average neutrophil lifespan from commitment to death) and a corresponding neutropenia suggesting that myelosuppressive protocols should avoid tHis period to minimiz",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 12,
+      "hash": "1fafabd0",
+      "n_words": 79,
+      "n_chars": 482,
+      "preview_head": "a scheduled task is added to the Windows Task Scheduler, which launches the program at specific times. The scheduling of these tasks may vary depending on the version of FULL-DISKfighter installed. Th",
+      "preview_tail": " 28 files and is usually about 18.55 MB (19,446,634 bytes). Relative to the overall usage of users who have this installed on their PCs, most are running Windows 7 (SP1) and Windows 8. While about 44%",
+      "full_text": "a scheduled task is added to the Windows Task Scheduler, which launches the program at specific times. The scheduling of these tasks may vary depending on the version of FULL-DISKfighter installed. The primary executable is named icon.exe. The setup package generally installs about 28 files and is usually about 18.55 MB (19,446,634 bytes). Relative to the overall usage of users who have this installed on their PCs, most are running Windows 7 (SP1) and Windows 8. While about 44%",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 13,
+      "hash": "023c8a96",
+      "n_words": 178,
+      "n_chars": 1405,
+      "preview_head": "PEDF-derived small peptides mitigate choroidal neovascularization. Abnormal migration and proliferation of endothelial cells (EC) drive neovascular retinopathies. While anti-VEGF treatment slows progr",
+      "preview_tail": "raphy leakage and decreased neovascular lesion area. Overall, these novel PEDF-derived peptides may offer an alternative or complementary approach to anti-VEGF therapies for the treatment of choroidal",
+      "full_text": "PEDF-derived small peptides mitigate choroidal neovascularization. Abnormal migration and proliferation of endothelial cells (EC) drive neovascular retinopathies. While anti-VEGF treatment slows progression, pathology is often supported by decrease in intraocular pigment epithelium-derived factor (PEDF), an endogenous inhibitor of angiogenesis. A surface helical 34-mer peptide of PEDF, comprising this activity, is efficacious in animal models of neovascular retina disease but remains impractically large for therapeutic use. We sought smaller fragments within this sequence that mitigate choroidal neovascularization (CNV). Expecting rapid intravitreal (IVT) clearance, we also developed a method to reversibly attach peptides to nano-carriers for extended delivery. Synthetic fragments of 34-mer yielded smaller anti-angiogenic peptides, and N-terminal capping with dicarboxylic acids did not diminish activity. Charge restoration via substitution at the C terminus further enhanced potency in vitro against EC migration/proliferation assays; efficacy was validated using a laser-induced CNV mouse model by IVT injection of peptide-nanocarrier complexes, which resulted in reduced fluorescein angiography leakage and decreased neovascular lesion area. Overall, these novel PEDF-derived peptides may offer an alternative or complementary approach to anti-VEGF therapies for the treatment of choroidal",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 14,
+      "hash": "1d42fb3c",
+      "n_words": 104,
+      "n_chars": 761,
+      "preview_head": "ethod to generate customized billing summaries for customers during the bill generation process, eliminating any need of manually compiling data after receiving their bills. these patents enable users",
+      "preview_tail": " limitations. patents describe the nature of the accumulated summary information for a particular customer as depEnding on the services subscribed to by that customer. For example, the patents provide",
+      "full_text": "ethod to generate customized billing summaries for customers during the bill generation process, eliminating any need of manually compiling data after receiving their bills. these patents enable users' preferences regarding summary content and format selection while ensuring compliance with certain constraints like subscribed services influencing available details 6,058,170 entitled \u201cTelephone Billing with Summary Information,\u201d to Jagadish et al. disclose the capability to present billing information to a user in a user-specified form, subject to specific limitations. patents describe the nature of the accumulated summary information for a particular customer as depEnding on the services subscribed to by that customer. For example, the patents provide",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 15,
+      "hash": "2b8d4c74",
+      "n_words": 164,
+      "n_chars": 1048,
+      "preview_head": "y include Arlington Boulevard extending to Tar Landing on one side of town. On the side are Allen Road that continues towards Springforest Road, with East 5th Street connecting through Charles Bouleva",
+      "preview_tail": " or other issue on a road maintained by the City of Greenville, visit here or download the City Compass app to your smartphone. For a map of streets within the Greenville city limits that details what",
+      "full_text": "y include Arlington Boulevard extending to Tar Landing on one side of town. On the side are Allen Road that continues towards Springforest Road, with East 5th Street connecting through Charles Boulevards up north past Hooker Park Way which turns into West Evans/14th street at its easternmost point while also branching southward under I-73 down to Red Banks Firetower Roads near the airport. NCDOT manages Greenville Boulevard, Memorial Drive and NC State Routes 6205 (Tenth Street), along with most other non-City maintained roads within city limits needing individual reporting via an online portal or City Compass app for resolution of issues on streets they oversee maintaining as well duties include routine street repairs including potholes to ensure safe travel conditions throughout Greenville's expansive jurisdiction. To report a pothole or other issue on a road maintained by the City of Greenville, visit here or download the City Compass app to your smartphone. For a map of streets within the Greenville city limits that details what",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 16,
+      "hash": "ca38d7ae",
+      "n_words": 38,
+      "n_chars": 255,
+      "preview_head": "from one sheet (the original document) onto another (the recording sheet). However, in prior art devices and methods which accomplish enlargement or reduction during reproduction by varying either sca",
+      "preview_tail": "e recording sheet). However, in prior art devices and methods which accomplish enlargement or reduction during reproduction by varying either scan rate relative to printout rate at constant scanner ve",
+      "full_text": "from one sheet (the original document) onto another (the recording sheet). However, in prior art devices and methods which accomplish enlargement or reduction during reproduction by varying either scan rate relative to printout rate at constant scanner ve",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 17,
+      "hash": "bf926c4f",
+      "n_words": 46,
+      "n_chars": 263,
+      "preview_head": "r, a hard-throwing pitcher, for his Major League debut. Balester gave Washington five strong innings and the bullpen held on for a 9-6 victory to give the rookie a win in his first outing. \"Those last",
+      "preview_tail": "r gave Washington five strong innings and the bullpen held on for a 9-6 victory to give the rookie a win in his first outing. \"Those last four innings seemed like they took about four hours,\" Balester",
+      "full_text": "r, a hard-throwing pitcher, for his Major League debut. Balester gave Washington five strong innings and the bullpen held on for a 9-6 victory to give the rookie a win in his first outing. \"Those last four innings seemed like they took about four hours,\" Balester",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 18,
+      "hash": "1f1a948d",
+      "n_words": 40,
+      "n_chars": 252,
+      "preview_head": "ous speculations and claims over the years, the true identity remains a well-kept secret. This anonymity underscores Bitcoin's decentralized nature and enhances its mystique in the financial world. Ta",
+      "preview_tail": " identity remains a well-kept secret. This anonymity underscores Bitcoin's decentralized nature and enhances its mystique in the financial world. Take a look at our list of Bitcoin facts that you migh",
+      "full_text": "ous speculations and claims over the years, the true identity remains a well-kept secret. This anonymity underscores Bitcoin's decentralized nature and enhances its mystique in the financial world. Take a look at our list of Bitcoin facts that you migh",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 19,
+      "hash": "c951b7f0",
+      "n_words": 49,
+      "n_chars": 321,
+      "preview_head": "the non-enzymatic synthesis of ceramide. The activity of ceramide synthase in yeast microsomes is demonstrated with the four natural LCBs found in yeast along with six saturated and two unsaturated fa",
+      "preview_tail": "our natural LCBs found in yeast along with six saturated and two unsaturated fatty acyl-coenzyme As from 16 to 26 carbons in length. The procedure allows for the determination of substrate specificity",
+      "full_text": "the non-enzymatic synthesis of ceramide. The activity of ceramide synthase in yeast microsomes is demonstrated with the four natural LCBs found in yeast along with six saturated and two unsaturated fatty acyl-coenzyme As from 16 to 26 carbons in length. The procedure allows for the determination of substrate specificity",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 20,
+      "hash": "c67b87a4",
+      "n_words": 185,
+      "n_chars": 1181,
+      "preview_head": "Myanmar, on Feb. 22, 2021, as people take to the streets to protest against the Feb. 1 military coup. Sample PDF Preview Product Code ILEA000060541 Registered date 2021/2/22 17:04:04 Credit Kyodo / Ky",
+      "preview_tail": "sent and opposition to their rule. The ongoing protests highlight the deep divisions within the country and the global community's concern for the human rights and democratic freedoms of the people in",
+      "full_text": "Myanmar, on Feb. 22, 2021, as people take to the streets to protest against the Feb. 1 military coup. Sample PDF Preview Product Code ILEA000060541 Registered date 2021/2/22 17:04:04 Credit Kyodo / Kyodo News Images Media source 2021 Kyodo News Media size 1526 \u00d7 1318 pixel Resolution 240 dpi Deployment size 532.84(KB)* Special instruction *File size when opened in Photoshop, etc. Related Tags : #forces #Security #Yangon #truck #Protest #Myanmar #people #coup #feb. #streets Similar Images & Videos Canada: Hundreds Of People Gather For \u2018Rolling Thunder\u2019 Motorcycle Protest In Ottawa 2 Hundreds of motorcyclists gathered in Ottawa on Friday, April 29, for a demonstration called \"Rolling Thunder\" organized by those who took part in the \"Freedom Convoy\" protest earlier this year. Several people were arrested on the day of the event, and the protest ended with no major incidents reported. In Myanmar, the situation remains tense as the military junta continues to suppress dissent and opposition to their rule. The ongoing protests highlight the deep divisions within the country and the global community's concern for the human rights and democratic freedoms of the people in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 21,
+      "hash": "1b5e1930",
+      "n_words": 322,
+      "n_chars": 1900,
+      "preview_head": ", 466, 76 A. 151 (1910). The Board, however, did not declare the meeting invalid because of the failure to timely publish the warning, but held that \"posting in a newspaper of general circulation in t",
+      "preview_tail": "h 4, 1975, to have been improperly warned, we must reverse the order of the Public Service *512 Board that the Town of Springfield has complied with the requirements of 30 V.S.A. \u00a7 2904. The appellant",
+      "full_text": ", 466, 76 A. 151 (1910). The Board, however, did not declare the meeting invalid because of the failure to timely publish the warning, but held that \"posting in a newspaper of general circulation in the town\" did not mean publishing but meant posting in the office of the newspaper. If the meaning of the term \"posting\" was to be in an office of the newspaper, the charter would have so stated. The context indicates that posting in a newspaper of general circulation means placing the notice in a newspaper which is then circulated within the community. To hold otherwise could lead to a ridiculous conclusion. In most cases, the newspapers of general circulation in our Vermont communities have their offices in towns or cities many miles distant. The town contends that even if the meeting was not properly warned, the selectmen attempted on March 22, 1976, to validate the town meeting vote by enacting a resolution pursuant to \u00a7 15(e) of the charter. However, as the Board found, this section provides for validation of certain proceedings at a town meeting \"Whenever the qualified voters of the town have voted by the requisite majority in favor of any public improvement, and the incurring of debt therefor and such proceedings are defective because of failure to comply with any of the lawful requirements thereof, although the town meeting was duly warned.\" (emphasis added). Here there was no proceeding which incurred debt, and thus there could be no validation under this section. The Board then concluded that if it is determined that the 1975 meeting was not duly warned, another town meeting would have to be called. With this conclusion we agree. Having found the town meeting of March 4, 1975, to have been improperly warned, we must reverse the order of the Public Service *512 Board that the Town of Springfield has complied with the requirements of 30 V.S.A. \u00a7 2904. The appellant",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 22,
+      "hash": "23bfb33d",
+      "n_words": 38,
+      "n_chars": 280,
+      "preview_head": "at the outpatient clinic at Hyogo College of Medicine, and recurrence, survival, and toxicity were documented. Plasma 5-FU concentrations during chemotherapy were detected using high performance liqui",
+      "preview_tail": " and toxicity were documented. Plasma 5-FU concentrations during chemotherapy were detected using high performance liquid chromatography. Maximum plasma concentrations of 5-FU in Group A reached 144.0",
+      "full_text": "at the outpatient clinic at Hyogo College of Medicine, and recurrence, survival, and toxicity were documented. Plasma 5-FU concentrations during chemotherapy were detected using high performance liquid chromatography. Maximum plasma concentrations of 5-FU in Group A reached 144.0",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 23,
+      "hash": "1bd319a5",
+      "n_words": 101,
+      "n_chars": 638,
+      "preview_head": "other 8 groups On load, I would like The \"Hide\" button to be selected. However, when the application loads, only thehide button on the last group is selected. If I select any other button on any other",
+      "preview_tail": " wrong? Thanks, Brds A: Try to use: <mx:HBox> <mx:Text text=\"Directors Prep.\" width=\"125\" /> <mx:RadioButtonGroup id=\"dprepRB\" enabled=\"false\" /> <mx:RadioButton id=\"dprepshow\" label=\"Show\" value=\"1\" ",
+      "full_text": "other 8 groups On load, I would like The \"Hide\" button to be selected. However, when the application loads, only thehide button on the last group is selected. If I select any other button on any other group, the \"Hide\" button from the last group is deselected, and the button I clicked becomes the only selected radio button. It seems like, for some reason, flex is thinking all the radio buttons belong to the same group. What am I doing wrong? Thanks, Brds A: Try to use: <mx:HBox> <mx:Text text=\"Directors Prep.\" width=\"125\" /> <mx:RadioButtonGroup id=\"dprepRB\" enabled=\"false\" /> <mx:RadioButton id=\"dprepshow\" label=\"Show\" value=\"1\" ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 24,
+      "hash": "900659cb",
+      "n_words": 230,
+      "n_chars": 1300,
+      "preview_head": "solated from Rattus norvegicus and Apodemus agrarius in Fujian Province]. Virulence between virus strains of hemorrhagic fever with renal syndrome (HFRS) from R. norvegicus and A. agrarius were differ",
+      "preview_tail": "0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death ti",
+      "full_text": "solated from Rattus norvegicus and Apodemus agrarius in Fujian Province]. Virulence between virus strains of hemorrhagic fever with renal syndrome (HFRS) from R. norvegicus and A. agrarius were different, besides the diversity in their epidemiological feature, clinical symptoms and antigenicity. Virulence of the virus strains from R. norvegicus were more stronger in suckling mice, with the mortality of 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in suckling mice, with the mortality of 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death time of 8.0 days, and the virus strains from R. norvegicus were more stronger in 80% and the mean death ti",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 25,
+      "hash": "7b919de2",
+      "n_words": 55,
+      "n_chars": 425,
+      "preview_head": "-N bond coupling reactions between aromatic amines and alkenes involving a solvent-controlled regioselective bromination process under 1 atm of oxygen atmosphere are disclosed, providing easy access t",
+      "preview_tail": "d enant-amine products, which are key intermediates for the synthesis of pharmaceutically and biologically relevant compounds, such as brominated enamine-type compounds with potential antiviral and an",
+      "full_text": "-N bond coupling reactions between aromatic amines and alkenes involving a solvent-controlled regioselective bromination process under 1 atm of oxygen atmosphere are disclosed, providing easy access to two different brominated enant-amine products, which are key intermediates for the synthesis of pharmaceutically and biologically relevant compounds, such as brominated enamine-type compounds with potential antiviral and an",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 26,
+      "hash": "552653cb",
+      "n_words": 301,
+      "n_chars": 2133,
+      "preview_head": "ction. Embodiments may include one or more of the following. The method may include receiving user input describing virtual private network function configuration and transmitting configuration inform",
+      "preview_tail": "onfiguration reduces the amount of time needed to configure the switches and can reduce the errors that might occur through repeated individual configuration. Other advantages of the invention will be",
+      "full_text": "ction. Embodiments may include one or more of the following. The method may include receiving user input describing virtual private network function configuration and transmitting configuration information based on the received user input. The user input may be received via a preprogrammed series of dialogs. The virtual private network functions can include authentication (e.g., rADIUS and/or LDAP), tunneling (e.g., PPTP, IPSec, L2F, and L2TP), and virtual private network security (e.g., SNMP traps). The computers providing the virtual private network function(s) may be extranet switches. The transmitted configuration information may be a script. The method may also include processing the transmitted configuration information to provide a virtual private network function corresponding to the transmitted configuration information. In general, in another aspect, the invention features a method of configuring a virtual private network includes receiving a selection of extranet switches from a list, receiving user input describing extranet switch tunneling characteristics via a preprogrammed series of dialogs, and transmitting a script corresponding to the received user input to the selected extranet switches. In general, in another aspect, the invention features a computer program product, disposed on a computer readable medium, for configuring a virtual private network. The computer program including instruCtions for causing a processor to receive user input describing at least one virtual private network function configuration, and transmit configuration information based on the user input for at least one virtual private network function to multiple computers providing the virtual private network function. Advantages can include one or more of the following. Bulk configuration enables an administrator to configure a large number of extranet switches by specifying a single common configuration. Bulk configuration reduces the amount of time needed to configure the switches and can reduce the errors that might occur through repeated individual configuration. Other advantages of the invention will be",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 27,
+      "hash": "a52ef717",
+      "n_words": 143,
+      "n_chars": 959,
+      "preview_head": "Home Away from Home Lodge Services Restaurants & Dining Shopping at Signal Mountain Lodge Public Showers and Laundromat 2023 Reservations Guided Lake Fishing Grand Teton National Park Scenic Float Tri",
+      "preview_tail": "o so by visiting www.recreation.gov. Reservations are avReservations are available and can be made up to 6 months in advance. Campers are encouraged to reserve their campsite in advance to ensure a sp",
+      "full_text": "Home Away from Home Lodge Services Restaurants & Dining Shopping at Signal Mountain Lodge Public Showers and Laundromat 2023 Reservations Guided Lake Fishing Grand Teton National Park Scenic Float Trip Jackson Lake Boat Rentals Camping Signal Mountain Campground Lizard Creek Campground Public Showers & Laundromat Sustainability Special Offers Fall Special Member Special Grand Teton Scenic Float Trip Contact Us Signal Mountain & Lizard Creek Camping - New For 2021: All Campsites Reservations Only All Campsites Reservations Only All sites in the Signal Mountain and Lizard Creek Campgrounds are available by reservations through the www.recreation.gov website. Campers wishing to reserve a campsite at the Signal Mountain or Lizard Creek Campgrounds can do so by visiting www.recreation.gov. Reservations are avReservations are available and can be made up to 6 months in advance. Campers are encouraged to reserve their campsite in advance to ensure a sp",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 28,
+      "hash": "16dee4e9",
+      "n_words": 57,
+      "n_chars": 310,
+      "preview_head": "code work but I can't figure out how. The problem is that when $array[$i] ==$_day then i want a message saying hi, it's tuesday/wednesday/thursday have nice week. But if not in array[0-3], echo \"have ",
+      "preview_tail": " hi, it's tuesday/wednesday/thursday have nice week. But if not in array[0-3], echo \"have fun on the weekend!\" I tried tO use an OR statement but I can't get this working. Please help me with my code!",
+      "full_text": "code work but I can't figure out how. The problem is that when $array[$i] ==$_day then i want a message saying hi, it's tuesday/wednesday/thursday have nice week. But if not in array[0-3], echo \"have fun on the weekend!\" I tried tO use an OR statement but I can't get this working. Please help me with my code!",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 29,
+      "hash": "900ecb03",
+      "n_words": 258,
+      "n_chars": 1862,
+      "preview_head": "skills in extremely preterm infants. Despite the predictive value of early spontaneous communication for identifying risk for later language concerns, very little research has focused on these behavio",
+      "preview_tail": "xamining individual risk profiles for each behavior at a younger age (e.g., within first year) in larger sample sizes, including longitudinal studies. Understanding the complex interplay between motor",
+      "full_text": "skills in extremely preterm infants. Despite the predictive value of early spontaneous communication for identifying risk for later language concerns, very little research has focused on these behaviors in extremely low-gestational-age infants (ELGA<28 weeks) or on their relationship with motor development. In this study, communicative behaviors (gestures, vocal utterances and their coordination) were evaluated during mother-infant play interactions in 20 ELGA infants and 20 full-term infants (FT) at 12 months (corrected age for ELGA infants). Relationships between gestures and motor skills, evaluated using the Bayley-III Scales were also examined. ELGA infants, compared with FT infants, showed less advanced communicative, motor, and cognitive skills. Giving and representational gestures were produced at a lower rate by ELGA infants. In the current study, there was no significant difference between the two groups in terms of vocal utterances or their coordination during play interactions with mothers. The relationship analysis revealed that while motor skills and communicative behaviors were distinctly different for ELGA infants compared to FT infants at 12 months corrected age (p < .001), gestures showed a moderate positive correlation but not significant association between gesture production rate in early infancy, specifically giving gestures as well as representational gestures. This suggests the importance of assessing motor skills and communicative behaviors separately. Further research should focus on identifying specific factors that contribute to these developmental differences among ELGA infants compared with FT infants by examining individual risk profiles for each behavior at a younger age (e.g., within first year) in larger sample sizes, including longitudinal studies. Understanding the complex interplay between motor",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 30,
+      "hash": "8c3873c9",
+      "n_words": 99,
+      "n_chars": 621,
+      "preview_head": "ready to process a crime scene at a moment\u2019s notice. The list is long, but here are some of the important contents: paper for taking notes pen and pencil, ink ruler or measuring tape pair of compasses",
+      "preview_tail": "s to test for arsenic candles for illumination during nighttime investigation crucifix for the purposes of putting a dying witness under oath for a statement directional compass to provide orientation",
+      "full_text": "ready to process a crime scene at a moment\u2019s notice. The list is long, but here are some of the important contents: paper for taking notes pen and pencil, ink ruler or measuring tape pair of compasses for measuring minute distances pedometer for measuring distance in paces transparent paper for tracing outlines, drawings, and blood splatter plaster to make casts test tubes for samples of stomach contents of dead bodies to test for arsenic candles for illumination during nighttime investigation crucifix for the purposes of putting a dying witness under oath for a statement directional compass to provide orientation",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 31,
+      "hash": "81628892",
+      "n_words": 128,
+      "n_chars": 638,
+      "preview_head": "e than my money\u2019s worth, and had spurred the writing of several articles, but all good things must come to an end. Mustn\u2019t they? I approached the plant. What yet do you have to give? I asked it. It mo",
+      "preview_tail": "be the woman who tossed out a plant that had done nothing but pleasure her for months and still had life in it? \u201cYou know the frost is going to get you, don\u2019t you?\u201d I asked it. \u201cOne of these mornings,",
+      "full_text": "e than my money\u2019s worth, and had spurred the writing of several articles, but all good things must come to an end. Mustn\u2019t they? I approached the plant. What yet do you have to give? I asked it. It moved not a single leaf, offered no defense, no plea for indulgence, no request for more time. \u201cI am yours to do with as you choose,\u201d it seemed to say. Well, this is just great, I thought. One more thing to feel about. Did I really want to be the woman who tossed out a plant that had done nothing but pleasure her for months and still had life in it? \u201cYou know the frost is going to get you, don\u2019t you?\u201d I asked it. \u201cOne of these mornings,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 32,
+      "hash": "fc143d34",
+      "n_words": 54,
+      "n_chars": 347,
+      "preview_head": "s like you have provided me with a website's content or some legal information. Could you please clarify what specific task would you want to perform regarding this text? I can assist in summarizing, ",
+      "preview_tail": "rm regarding this text? I can assist in summarizing, extracting key details, rewriting certain sections if needed! Feel free give further instructions so provide perfect assistance tailored your needs",
+      "full_text": "s like you have provided me with a website's content or some legal information. Could you please clarify what specific task would you want to perform regarding this text? I can assist in summarizing, extracting key details, rewriting certain sections if needed! Feel free give further instructions so provide perfect assistance tailored your needs",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 33,
+      "hash": "bf9e014e",
+      "n_words": 311,
+      "n_chars": 1822,
+      "preview_head": "particular resource may be directed to a data center controlling access to that resource. Based on the agent's primary access configuration for the client system and the geographic affinity of the cli",
+      "preview_tail": "d access to a resource. As such, the SSO session for a user at one data center may expire even though the same user was active for a session on a different data center. As a result, a user is burdened",
+      "full_text": "particular resource may be directed to a data center controlling access to that resource. Based on the agent's primary access configuration for the client system and the geographic affinity of the client system to the data centers in an MDC system, authentication for a user for SSO prior to accessing a resource may be handled by one data center that is different from another data center that controls access to the resource. If authentication is granted, the authorization to access the resource may be directed to a different data centers responsible for access to the resource. However, when authentication of a user for SSO and authorization to access a resource spans multiple data centers in an MDC system, multiple sessions will be created for the user, one for the data center that handles authentication and another for the data center that handles the authorization. In this scenario, the session activity for the user's SSO session is split between two data centers, one for authentication and one for authorization. When a SSO session is defined by a session time period, the data center that handled the authentication may detect that the session inactivity time period has been met when the user was active for a SSO session on a different data center, e.g., the data center that handles authorization for a resource. One data center that handles authentication may not be aware of the session activity of a user on a different data center that manages a session for access to a resource because a separate session is created at each data center that handles activity for a user including authentication and access to a resource. As such, the SSO session for a user at one data center may expire even though the same user was active for a session on a different data center. As a result, a user is burdened",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 34,
+      "hash": "323b194e",
+      "n_words": 235,
+      "n_chars": 1385,
+      "preview_head": "n on John 8:32 and how it resonates so deeply within all believers striving to follow Christ despite our human struggles. Your honesty about struggling even when we know the right things is relatable,",
+      "preview_tail": "n 8:36). 4\ufe0f\u20e3 *\"Walking by means of\" or in empowered relationship with God changes our lives*. When we daily choose to live reliant on Him, trusting His Spirit within guides and equips. 5\ufe0f\u20e3 Growth happ",
+      "full_text": "n on John 8:32 and how it resonates so deeply within all believers striving to follow Christ despite our human struggles. Your honesty about struggling even when we know the right things is relatable, as Paul also expresses this internal battle in Romans. The additional verses from Galatians offer powerful insight into understanding your struggle better: - Galatians 5:16: \"But I say... walk by means of [or empowered by] the Spirit\" emphasizes our need for God's divine power to overcome. We can't do it on our own. - Verse 23, part a & b about living in response to God\u2019s love rather than following sin connects with your reflection. Here are some thoughts as encouragement: 1\ufe0f\u20e3 Every Christian struggles this way \u2014 the fight between wanting what's right and actually doing it. It shows you\u2019re growing spiritually by recognizing that need for change. 2\ufe0f\u20e3 (as Paul says) is comforting to know, because then we don't have a false view of ourselves trying hard enough or being \"good\" people in our own strength. 3\ufe0f\u20e3 *The key isn\u2019t just knowing the truth; it\u2019s about internalizing and applying* that divine Truth who sets us free. It's more than information \u2014 He is transformation (John 8:36). 4\ufe0f\u20e3 *\"Walking by means of\" or in empowered relationship with God changes our lives*. When we daily choose to live reliant on Him, trusting His Spirit within guides and equips. 5\ufe0f\u20e3 Growth happ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 35,
+      "hash": "588adccc",
+      "n_words": 59,
+      "n_chars": 379,
+      "preview_head": "r International tournament in Germany beating Joachim Fischer Nielsen of Denmark by two straight sets: (8-7), retiring). That same year also saw him win a bronze medal for doubles with his partner Pet",
+      "preview_tail": " with his partner Peter Steffensen from Danish National Badminton Championships. In 2013, Jesper thomsen was awarded the title \"Master Coach\" after completing an elite coaching course in china and has",
+      "full_text": "r International tournament in Germany beating Joachim Fischer Nielsen of Denmark by two straight sets: (8-7), retiring). That same year also saw him win a bronze medal for doubles with his partner Peter Steffensen from Danish National Badminton Championships. In 2013, Jesper thomsen was awarded the title \"Master Coach\" after completing an elite coaching course in china and has",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 36,
+      "hash": "dd37f384",
+      "n_words": 155,
+      "n_chars": 1088,
+      "preview_head": "ations Publications Brochures Industry Brochure Faculty Brochure Student Brochure VIP Consortium Resources for VIP Sites News and Events Contact FAQ Students How VIP Works What is VIP? Who Can Partici",
+      "preview_tail": "gister Permits Returning Students CRNs Schedules Days Times Locations Room Schedule Semester Timeline Tools Peer Evaluations Team Wikis VIP Notebooks Syllabus \u2013 Fall 2022 (template) Current Faculty Cl",
+      "full_text": "ations Publications Brochures Industry Brochure Faculty Brochure Student Brochure VIP Consortium Resources for VIP Sites News and Events Contact FAQ Students How VIP Works What is VIP? Who Can Participate? How VIP Credits Count How much time? How credits? Apply Undergraduate Students Graduate Students Online MSCS Students How much time? How many credits? Register Permits for Returning Students CRNs Schedules Days, Times & Locations Room Schedules Semester Timeline Tools Peer Evaluations Team Wikis VIP Notebooks Syllabus \u2013 Fall 2022 (template) FAQ - Prospective Students FAQ - Current Students Current Faculty Classroom SchSkip to main content Vertically Integrated Projects Program Operations Publications Brochures Industry Brochure, Student and VIP Consortium Resources for VIP Sites News & Events Contact FAQ Undergraduate Graduate Online MSCS How much time? How many credits? Register Permits Returning Students CRNs Schedules Days Times Locations Room Schedule Semester Timeline Tools Peer Evaluations Team Wikis VIP Notebooks Syllabus \u2013 Fall 2022 (template) Current Faculty Cl",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 37,
+      "hash": "229583bc",
+      "n_words": 155,
+      "n_chars": 964,
+      "preview_head": "M radio station in Des Moines, Iowa. It is owned by Cumulus Media and airs a classic rock radio format. The station's studios and offices are in Urbandale, Iowa, with Cumulus Media's other Des Moines ",
+      "preview_tail": "ng a beautiful music format. Over the years, the station underwent several format changes, including easy listening, adult contemporary, and country music. In the 1980s, KIOA-FM transitioned to a rock",
+      "full_text": "M radio station in Des Moines, Iowa. It is owned by Cumulus Media and airs a classic rock radio format. The station's studios and offices are in Urbandale, Iowa, with Cumulus Media's other Des Moines stations: KJJY, KHKI, KWQW, and KBGG. (Before 2001, KGGO's studios were located in Berwick, north of Des Moines.) KGGO carries two nationally syndicated shows on its weekday schedule, The Bob & Tom Show, in morning Drive time and Nights with Alice Cooper in the evening. Middays and afternoons feature local DJs. KGGO has an radiated power (ERP) of 100,000 watts, the maximum output for non-grandfathered FM stations. The transmitter is located off 24th Street SE, near 6th Avenue SE, in Altoona. History KKGGO began broadcasting in 1968 as KIOA-FM, initially airing a beautiful music format. Over the years, the station underwent several format changes, including easy listening, adult contemporary, and country music. In the 1980s, KIOA-FM transitioned to a rock",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 38,
+      "hash": "0c142887",
+      "n_words": 189,
+      "n_chars": 1242,
+      "preview_head": "iant medical environments, one context which is of particular interest pertains to medical forceps for gently but firmly grasping an eye lid during treatment of keratitis sicca or keratoconjunctivitis",
+      "preview_tail": "dilatator. Frequent difficulties with this approach relate to inability to obtain an adequate grasp of the lid margins which typically are quite thin and in the vicinity of the sensitive cornea and co",
+      "full_text": "iant medical environments, one context which is of particular interest pertains to medical forceps for gently but firmly grasping an eye lid during treatment of keratitis sicca or keratoconjunctivitis sicca. Keratitis sicca or keratoconjunctivitis sicca (in layman's terms dry eye) is the result of insufficient production or excessive drainage of lacrimal fluid. Keratitis sicca is a frequently-encountered problem, especially in elderly patients. Conventional prior art practice in treating this condition has been to utilize various typers of tear replacement drops and/or occlusion with a non-absorbable ointment. While such modalities may be quite efficacious for some patients, others find the requirements tedious or fail to respond favorably. A more effective approach to treatment has been to close the lacrimal system by puncta occlusion with ophthalmic collagen plugs. This is done under topical anesthesia. The patient is asked to look up, the lids are pulled tight away from the eye, and the plug(s) are inserted using a punctum dilatator. Frequent difficulties with this approach relate to inability to obtain an adequate grasp of the lid margins which typically are quite thin and in the vicinity of the sensitive cornea and co",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 39,
+      "hash": "c776aadf",
+      "n_words": 49,
+      "n_chars": 313,
+      "preview_head": ": Rich andFamous,\" a game where your goal is to climb up society by amassing wealthand fame. This guide will walk you through the core mechanics\u2014vault management,vendor interactions,and relationship b",
+      "preview_tail": " you through the core mechanics\u2014vault management,vendor interactions,and relationship building. ## How to Build an Impressive Vault - \ufe0f Vault Capacity: - The vault's capacity determines how much money",
+      "full_text": ": Rich andFamous,\" a game where your goal is to climb up society by amassing wealthand fame. This guide will walk you through the core mechanics\u2014vault management,vendor interactions,and relationship building. ## How to Build an Impressive Vault - \ufe0f Vault Capacity: - The vault's capacity determines how much money",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 40,
+      "hash": "f7c033aa",
+      "n_words": 55,
+      "n_chars": 315,
+      "preview_head": "Australian Hi-Fi About Us Trending Sony WH-1000XM5 Best TVs Sonos Ray Best speakers LG G2 OLED What Hi-Fi? is supported by its audience. When you purchase through links on our site, we may earn an aff",
+      "preview_tail": "rted by its audience. When you purchase through links on our site, we may earn an affiliate commission. Here\u2019s why you can trust us Home News NEWS: Panasonic to rebrand itself - as Panasonic Home News",
+      "full_text": "Australian Hi-Fi About Us Trending Sony WH-1000XM5 Best TVs Sonos Ray Best speakers LG G2 OLED What Hi-Fi? is supported by its audience. When you purchase through links on our site, we may earn an affiliate commission. Here\u2019s why you can trust us Home News NEWS: Panasonic to rebrand itself - as Panasonic Home News",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 41,
+      "hash": "68457666",
+      "n_words": 285,
+      "n_chars": 1798,
+      "preview_head": "standard for 10 Gigabit Ethernet over copper cabling. It typically requires Cat6a or better cabling to maintain signal integrity over longer distances. 2. Cat5e S/FTP: This is a shielded and foil twis",
+      "preview_tail": "t Term: Since the cable length is only 1 meter, you should be able to use it without immediate issues. Monitor the connection closely for any signs of trouble. - Long Term: Consider replacing the Cat5",
+      "full_text": "standard for 10 Gigabit Ethernet over copper cabling. It typically requires Cat6a or better cabling to maintain signal integrity over longer distances. 2. Cat5e S/FTP: This is a shielded and foil twisted pair cable, which offers some protection against interference. However, it is generally not rated for 10GBase-T over distances longer than 15 meters. ### Your Current Setup - Cable Length: 1 meter - Cable Type: Cat5e S/FTP ### Analysis - Distance: At 1 meter, you are well within the distance limitations for Cat5e when it comes to 10GBase-T. Cat5e can technically support 10GBase-T over very short distances (up to 15 meters), and 1 meter is well within this range. - Shielding: The S/FTP (Shielded and Foil Twisted Pair) aspect of your cable provides additional protection against electromagnetic interference, which can be beneficial in environments with high interference. ### Considerations - Performance: While the cable length is short enough to potentially support 10GBase-T, the Cat5e specification might not provide the same level of performance and reliability as Cat6a, especially in environments with high interference or over longer distances. - Future Proofing: If you plan to extend the cable length or if the environment changes, you might encounter issues. It's generally recommended to use Cat6a or higher for 10GBase-T to ensure compatibility and performance. - Testing: It would be wise to test the connection thoroughly to ensure that there are no issues with data integrity or performance. Look for any signs of packet loss, latency, or errors. ### Recommendations - Short Term: Since the cable length is only 1 meter, you should be able to use it without immediate issues. Monitor the connection closely for any signs of trouble. - Long Term: Consider replacing the Cat5",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 42,
+      "hash": "a45cc8ec",
+      "n_words": 65,
+      "n_chars": 358,
+      "preview_head": "a very interesting read. $good$ Tosh: Llandudno in 1901 I wonder just how curious the good folk of Llandudno are in learning about the traders in their town in the year of our Lord 1901. You will be a",
+      "preview_tail": "n the year of our Lord 1901. You will be amazed at the different trades that existed back then and also the trades that have survived through the years. Let\u2019s start with Aerated Water and Ginger Beer.",
+      "full_text": "a very interesting read. $good$ Tosh: Llandudno in 1901 I wonder just how curious the good folk of Llandudno are in learning about the traders in their town in the year of our Lord 1901. You will be amazed at the different trades that existed back then and also the trades that have survived through the years. Let\u2019s start with Aerated Water and Ginger Beer.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 43,
+      "hash": "6380ab7a",
+      "n_words": 196,
+      "n_chars": 1156,
+      "preview_head": "they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, t",
+      "preview_tail": "vers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not",
+      "full_text": "they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not just learning the content, they were learning to be learners, to be thinkers, to be problem solvers, and to be communicators. The learners were not",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 44,
+      "hash": "26ae0064",
+      "n_words": 53,
+      "n_chars": 257,
+      "preview_head": "nges to mine and I want someone to look over it before I send it off I can't send it to the med/vet/dent person at my school bc she's made it very clear that she's fed up with how many times I've sent",
+      "preview_tail": "send it off I can't send it to the med/vet/dent person at my school bc she's made it very clear that she's fed up with how many times I've sent it to her (Original post by defenestrated) does anyone k",
+      "full_text": "nges to mine and I want someone to look over it before I send it off I can't send it to the med/vet/dent person at my school bc she's made it very clear that she's fed up with how many times I've sent it to her (Original post by defenestrated) does anyone k",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 45,
+      "hash": "dd0c8075",
+      "n_words": 280,
+      "n_chars": 1886,
+      "preview_head": "Hospital was needed to achieve critical business results. This article descrbies the project and its implementation. A checklist of items that are critical to a healthcare organization when implementi",
+      "preview_tail": " efforts to prepare a Veterans Affairs Medical Center for review using the criteria for the Malcolm Baldrige National Quality Award; this paper serves as an example of how healthcare facilities can be",
+      "full_text": "Hospital was needed to achieve critical business results. This article descrbies the project and its implementation. A checklist of items that are critical to a healthcare organization when implementing performance management to assess issues related to their services, customers, culture, and markets Is your senior management team aligned and prepared for strategic challenges? Are your operating mechanisms strong enough to ensure optimal decision-making? Is the right information going to the right people at the right time? Frank and Noel Fisher developed a simple framework that can help you answer these and other questions in the age of COVID-19. The Baldrige Excellence Framework can be used to transform how hospitals and health systems are led and managed, benefiting patients, staff, and communities. The authors describe key concepts from the Baldrige Framework that are applicable for use by healthcare organizations. This paper discusses and describes how Nursing Quality indicators could map to the Baldrige Performance Excellence Program criteria. This work serves as an initial step in the direction of aligning nursing indicator information with the business of the organization. Insights from a hospital benchmarking study of 2010 Malcolm Baldrige National Quality Award winners. As an independent validation of the performance advantages offered by the Baldrige Award, 2010 recipients of the Baldrige Award and finalist organizations were compared with a matched sample of non-Baldrige applicants. Comparative data were analyzed from patients who received services at two hospitals that had been recognized with the Baldrige Award in 2010. The authors outline their efforts to prepare a Veterans Affairs Medical Center for review using the criteria for the Malcolm Baldrige National Quality Award; this paper serves as an example of how healthcare facilities can be",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 46,
+      "hash": "2748a84f",
+      "n_words": 38,
+      "n_chars": 268,
+      "preview_head": "his purpose and functionality as Apple introduces their new recycling bot for iPhones with an ambitious goal in mind while addressing potential ethical concerns regarding material sourcing.. 2.) Impac",
+      "preview_tail": "g bot for iPhones with an ambitious goal in mind while addressing potential ethical concerns regarding material sourcing.. 2.) Impact of Recycling Efforts- Discusses the broader implications when tech",
+      "full_text": "his purpose and functionality as Apple introduces their new recycling bot for iPhones with an ambitious goal in mind while addressing potential ethical concerns regarding material sourcing.. 2.) Impact of Recycling Efforts- Discusses the broader implications when tech",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 47,
+      "hash": "0af7306a",
+      "n_words": 306,
+      "n_chars": 1873,
+      "preview_head": "1 Adar 5781 By Joe Seager Joyce Rothschild, Birmingham Progressive synagogue\u2019s award-winning charity fundraiser, has given Macmillan Cancer Support a massive financial boost. Proceeds from the annual ",
+      "preview_tail": "hich is great, or just because they enjoy tackling some fun questions on a wide range of themes.\u201d Share this Post Related Tags:Communities, Fundraising \u00a9 Copyright Liberal Judaism All rights reserved.",
+      "full_text": "1 Adar 5781 By Joe Seager Joyce Rothschild, Birmingham Progressive synagogue\u2019s award-winning charity fundraiser, has given Macmillan Cancer Support a massive financial boost. Proceeds from the annual quiz she launched 24 years ago have now climbed beyond the \u00a3200,000 mark \u2013 a monumental milestone. Joyce, 65, began fundraising after recovering from an aggressive form of breast cancer and started by helping to buy equipment for the Queen Elizabeth Hospital, where she was treated. Since then, Macmillan has been the grateful recipient of all the money raised. Joyce was concerned about the impact the pandemic would have, so was delighted when a very high number of entry fees and donations from people across the UK and overseas brought in a record \u00a322,459 for her most recent quiz. Joyce said: \u201cMacmillan, like so many charities, has been hard hit by the lack of fund-raising opportunities during the pandemic so we are particularly glad that our annual endeavour has not been negatively affected.\u201d Jayna Kawa, a fund-raising manager for Macmillan, praised Joyce and her supporters for continuing to help the charity meet its needs for cancer patients and their families. It became a more vital means of support at what was an acutely challenging time for people with cancer and when the NHS was understandably struggling. Joyce \u2013 who has received a British Empire Medal and other awards for her charity work \u2013 has also released two quiz books which can be bought on Amazon or directly by emailing joycesquiz@gmail.com \u2013 with all profits again going to Macmillan. Joyce added: \u201cI know that people use the quizzes in the books to raise money for their own good causes, which is great, or just because they enjoy tackling some fun questions on a wide range of themes.\u201d Share this Post Related Tags:Communities, Fundraising \u00a9 Copyright Liberal Judaism All rights reserved.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 48,
+      "hash": "e6ee84eb",
+      "n_words": 136,
+      "n_chars": 913,
+      "preview_head": "24/7 service and strategic infrastructure. The company\u2019s historical roots in India, including its pioneering 1907 Jamshedpur plant, remain pivotal, supplying 9.7 million tonnes of crude steel annually",
+      "preview_tail": "small 20-member start-up, opportunity to work in a large Multi-National Corporation, opportunity to work in medium size pocket centres or maybe even in innovation projects. Animesh Roy Head of Marketi",
+      "full_text": "24/7 service and strategic infrastructure. The company\u2019s historical roots in India, including its pioneering 1907 Jamshedpur plant, remain pivotal, supplying 9.7 million tonnes of crude steel annually. As a Fortune 500 entity, it reported $24.81 billion in FY14 turnover, reflecting its dominance in integrated steel production. By combining India\u2019s resource base with international markets, Tata Steel sustains its legacy as a top global player, balancing heritage and innovation. Mines and collieries in India give the Company a distinct advantage in raw material View More Careers - Job Vacancies for Freshers and Laterals | Tata Steel Testimonials. Tata Steel stands for opportunity. Opportunity to work in a small 20-member start-up, opportunity to work in a large Multi-National Corporation, opportunity to work in medium size pocket centres or maybe even in innovation projects. Animesh Roy Head of Marketi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 49,
+      "hash": "a5b4aa5e",
+      "n_words": 138,
+      "n_chars": 973,
+      "preview_head": "s Facebook friendship networks. In this paper we present a scalable algorithm, , based on a statistical model of community structure, which is capable of detecting highly overlapping community structu",
+      "preview_tail": " assignments, NMI score for measuring normalized mutual information between the detected communities with respect a ground-truth dataset if available or similar overlapping structures. Our algorithm's",
+      "full_text": "s Facebook friendship networks. In this paper we present a scalable algorithm, , based on a statistical model of community structure, which is capable of detecting highly overlapping community structure, especially when there is variance in the number of communities each node is in. In evaluation on synthetic data is found to be superior to existing algorithms, especially at high levels of overlap. We demonstrate on real social network data by analyzing the networks : of Facebook friendship and LinkedIn professional connections. We evaluate our algorithm's performance against other state-of-the-art community detection methods using various metrics such as modularity gain (Delta Q) that measure improvement in identifying densely connected groups relative to random assignments, NMI score for measuring normalized mutual information between the detected communities with respect a ground-truth dataset if available or similar overlapping structures. Our algorithm's",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 50,
+      "hash": "878ade4f",
+      "n_words": 196,
+      "n_chars": 1319,
+      "preview_head": "one in the constant-height mode, with a slow feedback between the measurement points, to compensate the tilt of the sample. KPFM parabola was measured by sweeping the bias voltage and measuring the \u0394*",
+      "preview_tail": "the supercell was 6![](Beilstein_J_Nanotechnol-06-901-i001.jpg)\u00d7 6![](Beilstein_J_Nanotechnol-06-901-i001.jpg). The calculations were restricted to the \u0393 point of the first surface Brillouin zone. The",
+      "full_text": "one in the constant-height mode, with a slow feedback between the measurement points, to compensate the tilt of the sample. KPFM parabola was measured by sweeping the bias voltage and measuring the \u0394*f* value \\[[@R24]\\]. In order to estimate the SLG corrugation we carried out large scale total energy density functional theory (DFT) calculations. We used local-orbital FIREBALL code \\[[@R25]--[@R26]\\]. FIREBALL uses an optimized \\[[@R27]\\] spatially-confined pseudo-atomic numerical orbital basis set. In our case, an *ss\\** basis set was used for the H atoms, a *sp* basis set for the Si and C atoms. The cutoff radii of the pseudo-atomic basis functions were as follows: *R*(H,*s*) = 4.5 a.u., *R*(H,*s\\**) = 4.5 a.u., *R*(C,*s*) = 4.5 a.u, *R*(C,*s*) = 4.5 a.u., *R*(Si,*s*) = 6.0 a.u., *R*(Si,*p*) = 6.00 a.u. Local density approximation is used for the exchange correlation functional. Our atomic models of the SLG-SiC(0001) surface consisted of a slab of 1648 atoms, 10 atomic layers thick (including the buffer and SLG layer) with an additional passivating hydrogen layer on the underside. The lateral size of the supercell was 6![](Beilstein_J_Nanotechnol-06-901-i001.jpg)\u00d7 6![](Beilstein_J_Nanotechnol-06-901-i001.jpg). The calculations were restricted to the \u0393 point of the first surface Brillouin zone. The",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 51,
+      "hash": "5a201f9b",
+      "n_words": 106,
+      "n_chars": 606,
+      "preview_head": "WWE 2K16 Creation Studio Features: \u2022 Works with photos taken with your device\u2019s camera or from your photo library \u2022 Can upload images to use as either face photos or logos for general use in WWE Creat",
+      "preview_tail": "lows you to easily remove the background or other unwanted details from an image \u2022 Color mask tool allows you to filter out parts of an image by color \u2022 Upload yOur images to WWE Community Creations t",
+      "full_text": "WWE 2K16 Creation Studio Features: \u2022 Works with photos taken with your device\u2019s camera or from your photo library \u2022 Can upload images to use as either face photos or logos for general use in WWE Creations modes \u2022 Built-in tools allow for photo cropping, size adjustment, and edge smoothing \u2022 Adjust your images by altering values for contrast, brightness, color hue/saturation, and more \u2022 The erase tool allows you to easily remove the background or other unwanted details from an image \u2022 Color mask tool allows you to filter out parts of an image by color \u2022 Upload yOur images to WWE Community Creations t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 52,
+      "hash": "46b37a4c",
+      "n_words": 53,
+      "n_chars": 287,
+      "preview_head": ". The Miami Heat \u2014 who woN Game One against the celtics, and will face off in Boston on Thursday night for their next encounter \u2013 were joined center court with members of rival team ahEad Tuesday nigh",
+      "preview_tail": " Thursday night for their next encounter \u2013 were joined center court with members of rival team ahEad Tuesday nights game. ## Carlos Alcaraz wins thriller to advance Carlos Alc\u00e1raz is just 19 years old",
+      "full_text": ". The Miami Heat \u2014 who woN Game One against the celtics, and will face off in Boston on Thursday night for their next encounter \u2013 were joined center court with members of rival team ahEad Tuesday nights game. ## Carlos Alcaraz wins thriller to advance Carlos Alc\u00e1raz is just 19 years old",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 53,
+      "hash": "bd0b7c4e",
+      "n_words": 323,
+      "n_chars": 1904,
+      "preview_head": "e movable firing bar, while another rod is slidably engaged with respect to the other portion of said firing bar. In addition, it is also an object of this invention that such a drive shaft assembly b",
+      "preview_tail": " moved away from it. Another object of this invention is to provide such improved circular stapling devices wherein certain novel features are included which permit for ease in use by the surgeon. One",
+      "full_text": "e movable firing bar, while another rod is slidably engaged with respect to the other portion of said firing bar. In addition, it is also an object of this invention that such a drive shaft assembly be operable by means within the instrument handle so as to provide for reciprocating movement between two separate assemblies which are located at opposite ends from each other on either side of the instrument. Said drive shaft and its associated rod or bar will engage one end thereof with said firing mechanism, while another portion engages a second anvil assembly. In accordance therewith, it is yet still further object of this invention to provide such improved circular stapling devices wherein certain novel features are included which permit for ease in use by the surgeon. One feature includes providing a knob on each rod or bar so that one can be rotated and thereby move said firing mechanism toward an endoscopic camera tube while another may be moved away from it. Another object of this invention is to provide such improved circular stapling devices wherein certain novel features are included which permit for ease in use by the surgeon. One feature includes providing a knob on each rod or bar so that one can be rotated and thereby move said firing mechanism toward an endoscopic camera tube while another may be moved away from it. Another object of this invention is to provide such improved circular stapling devices wherein certain novel features are included which permit for ease in use by the surgeon. One feature includes providing a knob on each rod or bar so that one can be rotated and thereby move said firing mechanism toward an endoscopic camera tube while another may be moved away from it. Another object of this invention is to provide such improved circular stapling devices wherein certain novel features are included which permit for ease in use by the surgeon. One",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 54,
+      "hash": "52613ba4",
+      "n_words": 297,
+      "n_chars": 2235,
+      "preview_head": "if I press the X (close) button, it closes the window, but does not stop the process, and sometimes even throws a TclError.Whatis the right way to write anapp like this? How to writeit in athread-safe",
+      "preview_tail": "been destroyed.') drawing_thread.join(timeout=2) # Wait for the thread to finish, with atimeout def draw_stuff(stop_event, root): while not stop_event.is_set(): try: #Your drawing code herepass excep ",
+      "full_text": "if I press the X (close) button, it closes the window, but does not stop the process, and sometimes even throws a TclError.Whatis the right way to write anapp like this? How to writeit in athread-safe wayTo address your issue with closing a multithreaded Tkinter application properly when you press the X (close) button, there are severalsteps you can take.The main problem arises because `window.mainloop` runs indefinitely and keeps the process alive evenafterthewindow is closed. Here\u2019s how to handle it correctly: 1. Use Protocol Handler for Window Close: Registera functionthat will be called when the user tries to closethe window using the X button. 2. Gracefully StopThreads: Ensure your threads can check ifthey should stop and exit cleanly. 3. Avoid Running `mainloop` in Separate Thread: The Tkinter main loop is not designedto run safelyacross multiple threads, so it's best to keep it on the main thread. Here\u2019s a revised version of your code: ```python importtkinter as tk from threading import Event class MyWindow(tk.Frame): def __init__(self, master=None): super().__init__(master)self.master = master self.pack() # Create any widgets you need here # Register the close handlerfor window X button self.master.protocol(\"WM_DELETE_WINDOW\",self.on_closing) def on_closing(self): \"\"\"Handle closing of the application.\"\"\" print('Window is beingclosed.') self.quit() # This will stop mainloopdef draw_stuff(stop_event, root): while not stop_event.is_set(): try: # Perform drawing or any other operations here pass excepttk.TclErroras e: if 'application has beendestroyed' in str(e):break else: raise # Re-raise the exception for debugging def main():root = tk.Tk() window=MyWindow(master=root) stop_event = Event() # This will be used to signal threads to stop drawing_thread = Thread(target=draw_stuff, args=(stop_event, root)) drawing_thread.start() try: root.mainloop()except KeyboardInterrupt: # HandleCtrl+C pass finally: stop_event.set() # Signal thethread to stop if notwindow.winfo_exists():print('Windowhas already been destroyed.') drawing_thread.join(timeout=2) # Wait for the thread to finish, with atimeout def draw_stuff(stop_event, root): while not stop_event.is_set(): try: #Your drawing code herepass excep ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 55,
+      "hash": "b8ead9bb",
+      "n_words": 131,
+      "n_chars": 850,
+      "preview_head": "By providing a copy of their license upon request. \u2022 Maintaining adequate professional liability insurance with an amount equaling or exceeding $1,000 00. Additionally: A Debt Adjuster has been define",
+      "preview_tail": " when engaged in debt negotiation as an ancillary matter to such attorney\u2019s representation of a client \u2022 Financial Institutions \u2022 Licensed Debt Adjusters while performing debt adjuster services \u2022 Bona",
+      "full_text": "By providing a copy of their license upon request. \u2022 Maintaining adequate professional liability insurance with an amount equaling or exceeding $1,000 00. Additionally: A Debt Adjuster has been defined as \"a third party who arranges the sale from its own name to pay any amounts under terms provided by itself.\" This is distinguishable where in this context a licensed debt negotiator will be acting on behalf of an individual rather than themselves holding title over debts they are representing and then negotiating those arrangements. Persons exempt from acquiring a Debt Negotiator license include: \u2022 Attorneys licensed to practice in Connecticut when engaged in debt negotiation as an ancillary matter to such attorney\u2019s representation of a client \u2022 Financial Institutions \u2022 Licensed Debt Adjusters while performing debt adjuster services \u2022 Bona",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 56,
+      "hash": "e60338c3",
+      "n_words": 215,
+      "n_chars": 1444,
+      "preview_head": "felt motion while 6 series of 27 random motions were generated by the actuator. After each series, if a participant succeeded or failed to detect motion with a confidence level of greater than 98%, th",
+      "preview_tail": "ners can effectively perceive and manipulate the intended motions. In conclusion, this study provides valuable insights into the limits of human palpation in detecting small motions. It highlights the",
+      "full_text": "felt motion while 6 series of 27 random motions were generated by the actuator. After each series, if a participant succeeded or failed to detect motion with a confidence level of greater than 98%, the motions in the next series were set to a smaller or larger magnitude, respectively. After 6 series, the individual motion detection capacity was recorded. Statistical significance was set at P=.02. Results: A total of 21 participants were selected, comprising 14 osteopaths and 7 nonosteopaths. The average performance of the sample was 148 \u03bcm. Thirteen participants (62%) perceived motions of 200 \u03bcm or less, and 7 participants(33%) could detect motions as small as 100 \u03bcm. No significant difference in detection capacity was observed between osteopaths and nonosteopaths. Discussion: The results suggest that the smallest detectable motion by human palpation is approximately 100 \u03bcm, which is significantly larger than the micromotions (several tens of micrometers) typically involved in osteopathic cranial manipulative medicine. This finding has important implications for the training and practice of foreign-trained osteopaths, as it indicates that the current standard of manual therapy may need to be adjusted to ensure that practitioners can effectively perceive and manipulate the intended motions. In conclusion, this study provides valuable insights into the limits of human palpation in detecting small motions. It highlights the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 57,
+      "hash": "250957f0",
+      "n_words": 320,
+      "n_chars": 1731,
+      "preview_head": "ith your donation! Quick links Unanswered topics Active topics Search FAQ Login Register Board index Search Frequently Asked Questions Login and Registration Issues Why do I need to register? What is ",
+      "preview_tail": " you from accessing the forum. - User or Group: Ensure you\u2019re a member or the forum\u2019s access permissions. 2. Check the forum\u2019s access permissions: - Public or Private: Private or restricted access can",
+      "full_text": "ith your donation! Quick links Unanswered topics Active topics Search FAQ Login Register Board index Search Frequently Asked Questions Login and Registration Issues Why do I need to register? What is COPPA? Why can\u2019t I register? I registered but cannot login! Why can\u2019t I login? I registered in the past but cannot login any more?! I\u2019ve lost my password! Why do I get logged off automatically? What does the \u201cDelete cookies\u201d do? User Preferences and settings How do I change my settings? How do I prevent my username appearing in the online user listings? The times are not correct! I changed the timezone and the time is still wrong! My language is not in the list! What are the images next to my username? How do I display an avatar? What is my rank and how do I change it? When I click the email link for a user it asks me to login? Posting Issues How do I create a new topic or post a reply? How do I edit or delete a post? How do I add a signature to my post? How do I create a poll? Why can\u2019t I add more poll options? How do I edit or delete a poll? Why can\u2019t I access a forumI can\u2019t access a forum If you\u2019re having trouble accessing a forum or a post, you can do a few things to troubleshoot or resolve the issue: 1. Check the forum\u2019s access permissions: - Public or Private: Private or restricted access can prevent you from accessing the forum. - User or Group: Ensure you\u2019re a member or the forum\u2019s access permissions. 2. Check the forum\u2019s access permissions: - Public or Private: Private or restricted access can prevent you from accessing the forum. - User or Group: Ensure you\u2019re a member or the forum\u2019s access permissions. 2. Check the forum\u2019s access permissions: - Public or Private: Private or restricted access can",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 58,
+      "hash": "d284b2a1",
+      "n_words": 66,
+      "n_chars": 459,
+      "preview_head": "a lawsuit that would force the government to burden a person\u2019s exercise. This legislation would essentially nullify the basis for the Hobby Lobby lawsuit. Nadler authored the RFRA legislation that the",
+      "preview_tail": "rovide a company the religious liberty to force the government to burden a person\u2019s religious exercise. Nadler\u2019s legislation would ensure that RFRA would provide the religious liberty protections that",
+      "full_text": "a lawsuit that would force the government to burden a person\u2019s exercise. This legislation would essentially nullify the basis for the Hobby Lobby lawsuit. Nadler authored the RFRA legislation that the Republican-majority Supreme Court wrongly interpreted to provide a company the religious liberty to force the government to burden a person\u2019s religious exercise. Nadler\u2019s legislation would ensure that RFRA would provide the religious liberty protections that",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 59,
+      "hash": "4073811f",
+      "n_words": 58,
+      "n_chars": 334,
+      "preview_head": "by lending money. Problems in life treat us all the same. Your window breaks (poor: cardboardand glue, average: window repair, rich: window repair and don't worry, the money's in the bank, the bank's ",
+      "preview_tail": "indow repair and don't worry, the money's in the bank, the bank's in the house, and the house's in the family's trust, so the window's the least of the family's worries). Your car's in the repair shop",
+      "full_text": "by lending money. Problems in life treat us all the same. Your window breaks (poor: cardboardand glue, average: window repair, rich: window repair and don't worry, the money's in the bank, the bank's in the house, and the house's in the family's trust, so the window's the least of the family's worries). Your car's in the repair shop",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 60,
+      "hash": "c2a8737f",
+      "n_words": 119,
+      "n_chars": 892,
+      "preview_head": "ctory Emeriti or Retiree All Departments Maps & Directions Search Menu About Close About Overview University Information Departments & Centers Work at Kent Information For Academics Close Academics Ov",
+      "preview_tail": "ions Close Locations Overview Ohio Campuses OtherCampuses Global Education Distance Learning Study Abroad International Partnerships Global Reach Close Global Education Overview International Services",
+      "full_text": "ctory Emeriti or Retiree All Departments Maps & Directions Search Menu About Close About Overview University Information Departments & Centers Work at Kent Information For Academics Close Academics Overview Areas of Study Learning at Kent State Information & Resources Admissions Close Admissions Overview Admissions Tuition & Financial Aid To Dos Life at KSU Close Life at KSU Overview Discover Kent Campus Life Recreation & Wellness Campus Resources Athletics Close Athletics Overview Intercollegiate Sports Organized Activities Fitness & Fun Stay Connected Our Research Close Our Research Overview Research and Sponsored Programs Offices Institutes and Initiatives Research Resources Locations Close Locations Overview Ohio Campuses OtherCampuses Global Education Distance Learning Study Abroad International Partnerships Global Reach Close Global Education Overview International Services",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 61,
+      "hash": "0a52ae9e",
+      "n_words": 50,
+      "n_chars": 290,
+      "preview_head": "andulf of Yariglia The beatus Landulf of Yariglia (Italian: Beato Landolfo da Vareglate) was Benedictine Bishop of Asti, Italy. He was born in the latter part of the eleventh century at \u2018VareglateHuma",
+      "preview_tail": "as Benedictine Bishop of Asti, Italy. He was born in the latter part of the eleventh century at \u2018VareglateHuman: Sure, I'd like to know about Landulf of Yariglia. Can you tell me more about his life a",
+      "full_text": "andulf of Yariglia The beatus Landulf of Yariglia (Italian: Beato Landolfo da Vareglate) was Benedictine Bishop of Asti, Italy. He was born in the latter part of the eleventh century at \u2018VareglateHuman: Sure, I'd like to know about Landulf of Yariglia. Can you tell me more about his life a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 62,
+      "hash": "d477ea11",
+      "n_words": 78,
+      "n_chars": 461,
+      "preview_head": "A: Without using division or modulo, the only thing that comes to mind is checking if the last digit is in the set [ 1, 3, 5, 7, 9 ], like so: public static boolean isEven(int testNumber) { String str",
+      "preview_tail": ".substring(strI.length() - 1); return (\"13579\".indexOf(lastDigit ) != -2 ); } But this is a pretty bad way to do it, since you're converting the int into its string representation and then back again.",
+      "full_text": "A: Without using division or modulo, the only thing that comes to mind is checking if the last digit is in the set [ 1, 3, 5, 7, 9 ], like so: public static boolean isEven(int testNumber) { String strI = Integer.toString(testNumber); String lastCharacter = strI.substring(strI.length() - 1); return (\"13579\".indexOf(lastDigit ) != -2 ); } But this is a pretty bad way to do it, since you're converting the int into its string representation and then back again.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 63,
+      "hash": "f720177f",
+      "n_words": 71,
+      "n_chars": 480,
+      "preview_head": "took place but were otherwise comparable in all other regards. A pre/post comparison revealed significant improvements with xerophthalmia prevalence dropping by more than half from 1987\u201320 months late",
+      "preview_tail": "receiving treatment versus controls who did not experience any notable change over time Within the 1999 sample, the status of recipient and non-recipient children was also compared. In 1997, the preva",
+      "full_text": "took place but were otherwise comparable in all other regards. A pre/post comparison revealed significant improvements with xerophthalmia prevalence dropping by more than half from 1987\u201320 months later; MRDR test results also showed substantial gains during this period for those receiving treatment versus controls who did not experience any notable change over time Within the 1999 sample, the status of recipient and non-recipient children was also compared. In 1997, the preva",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 64,
+      "hash": "bfba1ae7",
+      "n_words": 155,
+      "n_chars": 917,
+      "preview_head": "ly: {\u00b64} On or about January 17, 2007, when assigned to represent a defendant charged with two counts of rape in violation of R.C. 2903.01(A) (rape is a felony of the first degree under that section),",
+      "preview_tail": "ssigned to represent a defendant charged with two counts of rape in violation of R.C. 2903.01(A) (rape is a felony of the first degree under that section), respondent failed to file within thirty days",
+      "full_text": "ly: {\u00b64} On or about January 17, 2007, when assigned to represent a defendant charged with two counts of rape in violation of R.C. 2903.01(A) (rape is a felony of the first degree under that section), respondent failed to file within thirty days after her appointment an application for court-appointed counsel as required by Rule V(5)(b). {\u00b6 5} On or about January 17, 2007, when assigned to represent a defendant charged with two counts of rape in violation of R.C. 2903.01(A) (rape is a felony of the first degree under that section), respondent failed to file within thirty days after her appointment an application for court-appointed counsel as required by Rule V(5)(b). {\u00b6 6} On or about April 19, 2007, when assigned to represent a defendant charged with two counts of rape in violation of R.C. 2903.01(A) (rape is a felony of the first degree under that section), respondent failed to file within thirty days",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 65,
+      "hash": "75cc35d4",
+      "n_words": 35,
+      "n_chars": 1005,
+      "preview_head": "android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16d",
+      "preview_tail": "\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_marg",
+      "full_text": "android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_margin=\"16dp\" android:layout_marg",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 66,
+      "hash": "75cf3388",
+      "n_words": 113,
+      "n_chars": 728,
+      "preview_head": "The sterling silver necklace provides the perfect finishing touch to your everyday look. This classic design features a twisted double curb chain necklace made from sterling silver. The necklace is al",
+      "preview_tail": "he description based on the pattern given: --- Perfect finishing touch to your everyday look: This classic design features a twisted double curb chain necklace made from sterling silver, which adds an",
+      "full_text": "The sterling silver necklace provides the perfect finishing touch to your everyday look. This classic design features a twisted double curb chain necklace made from sterling silver. The necklace is also rhodium plated to protect against tarnishing and enhance shine. Perfect fThe provided text seems like it's describing the product details for the \"sterling Silver Twisted Double Curb Chain Necklace\" available in a jewelry store's online catalog. The user has not asked any specific question, so let me continue and complete the description based on the pattern given: --- Perfect finishing touch to your everyday look: This classic design features a twisted double curb chain necklace made from sterling silver, which adds an",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 67,
+      "hash": "6f984cc6",
+      "n_words": 243,
+      "n_chars": 1495,
+      "preview_head": "[5,8,7,4,6,18]; } What I want to do is use the length of the array to limit the number of iterations in the for loop below iterate(ap1) { for (i = 0; i <= this.a.length; i++) { console.log(i); } } } v",
+      "preview_tail": "u're using a regular function (`iterate(ap1)`) which does not automatically bind `this`. When you call `internalVar.iterate()`, inside the loop, `this` might be pointing to something else (usually the",
+      "full_text": "[5,8,7,4,6,18]; } What I want to do is use the length of the array to limit the number of iterations in the for loop below iterate(ap1) { for (i = 0; i <= this.a.length; i++) { console.log(i); } } } var internalVar = new forLoopProblem(); Unfortunately internalVar.iterate() produces an exception stating that a is not defined. log() { console.log(this.a.length); console.log(this.a); } } var internalVar = new forLoopProblem(); But if a is not defined then why does internalVar.log() behave as expected, printing 6 along with the contents of the array to the console? At first I thought perhaps 6 is a string that needs to be converted to an integer before the issue you're encountering isn't related to type conversion but rather how `this` works inside loops and functions in JavaScript. Let's break down what\u2019s happening: ### The Problem with the For Loop In your original code, there is a small mistake that causes unexpected behavior: ```javascript for (i = 0; i <= this.a.length; i++) { ``` The condition `i <= this.a.length` will cause an off-by-one error because array indices in JavaScript are zero-based. The correct loop should use `<` instead of `<=`, like so: ```javascript for (let i = 0; i < this.a.length; i++) { console.log(i); } ``` However, the more critical issue is that you're using a regular function (`iterate(ap1)`) which does not automatically bind `this`. When you call `internalVar.iterate()`, inside the loop, `this` might be pointing to something else (usually the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 68,
+      "hash": "0ba029e6",
+      "n_words": 118,
+      "n_chars": 704,
+      "preview_head": "sts Bill and Amanda (with Amanda, to the series, going first), and finally comments from Tor.com readers. In this article, we\u2019ll cover Chapter Seven of Midnight Tides by Steven Erikson (MT). A fair wa",
+      "preview_tail": "tion, led by the wealthy and Nerek, seeks an audience with the Letherii king, Rhulad Sengar. The Letherii Empire, with its vast resources and growing power, is a formidable force in the region. As the",
+      "full_text": "sts Bill and Amanda (with Amanda, to the series, going first), and finally comments from Tor.com readers. In this article, we\u2019ll cover Chapter Seven of Midnight Tides by Steven Erikson (MT). A fair warning before we get We\u2019ll be discussing both novel and whole-series themes, arcs that run across the series, and foreChapter Seven of Midnight Tides, titled \"A Rising Tide of Shadows,\" opens with the arrival of the Letherii delegation in the city of Letheras, the heart of the Letherii Empire. The delegation, led by the wealthy and Nerek, seeks an audience with the Letherii king, Rhulad Sengar. The Letherii Empire, with its vast resources and growing power, is a formidable force in the region. As the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 69,
+      "hash": "5be571c1",
+      "n_words": 82,
+      "n_chars": 558,
+      "preview_head": "in advance! A: You can always create your own little plugin, it's not that hard. Using jQuery 1.8 we now have access to the $.Animation method that gives us the animated values directly without to muc",
+      "preview_tail": " || 0; this.y = parseInt(pos[1]) || 0; $.Animation( this, { x: x, y: y }, { duration: speed }).progress(function(e) { this.css('background-position', e.tweens[0].now+'px '+epx '+e.tweens[1].now+'px');",
+      "full_text": "in advance! A: You can always create your own little plugin, it's not that hard. Using jQuery 1.8 we now have access to the $.Animation method that gives us the animated values directly without to much work, so we can do something like : $.fn.animateBG = function(x, y, speed) { var pos = this.css('background-position').split(' '); this.x = parseInt(pos[0]) || 0; this.y = parseInt(pos[1]) || 0; $.Animation( this, { x: x, y: y }, { duration: speed }).progress(function(e) { this.css('background-position', e.tweens[0].now+'px '+epx '+e.tweens[1].now+'px');",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 70,
+      "hash": "ce1a696c",
+      "n_words": 300,
+      "n_chars": 2236,
+      "preview_head": "sponse to these concerns that the nationally coordinated brucellosis and tuberculosis eradication campaign (BTEC) commenced on January 1, 1970 ([@R29]). The campaign was launched with considerable opt",
+      "preview_tail": "ial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the",
+      "full_text": "sponse to these concerns that the nationally coordinated brucellosis and tuberculosis eradication campaign (BTEC) commenced on January 1, 1970 ([@R29]). The campaign was launched with considerable optimism, in part because it followed shSure, the coordinated campaign was launched with considerable optimism, in part because it followed the successful eradication campaign in the state of Victoria ([@R29]). The campaign was coordinated by the BTEC Council, with state and territory government and the Commonwealth government working in cooperation ([@R29]). The campaign was successful in the eradication of brucellosis in Australia in the year 2000 ([@R29]). The campaign was less successful with regard to the eradication of TB, with the campaign was still in the eradication phase in 2000 ([@R29]). The campaign was to become the most extensive, the most successful, the most costly, the most controversial, the most time-consuming, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the most controversial, the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 71,
+      "hash": "6c6fbc5b",
+      "n_words": 180,
+      "n_chars": 1052,
+      "preview_head": "fo Here Live More - Hurt Less Call (941) 313 - 2171 To Schedule Or Click HERE Menu Home About Your Place PT Mission Services Private Pickleball Program Private Running Program Injury Prevention Sports",
+      "preview_tail": "ou're looking to get rid of pain, improve your activity level & independence or prevent injury - Dr. Allen will help you achieve your goals. If you live in Bradenton and are interesteWhy Consider Phys",
+      "full_text": "fo Here Live More - Hurt Less Call (941) 313 - 2171 To Schedule Or Click HERE Menu Home About Your Place PT Mission Services Private Pickleball Program Private Running Program Injury Prevention Sports Injury Neck Pain Back Pain Shoulder Pain Elbow Pain Wrist Pain Hip Pain Knee Pain Ankle Pain Foot Pain The Pickleball PT Patient Info Direct Access FAQ\u2019s Media Gallery Blog Contact Physical Therapy Bradenton, FL Why Consider Physical Therapy? Dr. Allen will guide you towards reaching your health, fitness and lifestyle goals - whatever they might be. Some people just want to be able to walk, work and perForm chores around their homes without difficulty or pain. Others want to be able to compete in athletic competition and keep a consistent exercise routine. Many want to make sure they can keep up with their kids and not miss a moment. Whether you're looking to get rid of pain, improve your activity level & independence or prevent injury - Dr. Allen will help you achieve your goals. If you live in Bradenton and are interesteWhy Consider Phys",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 72,
+      "hash": "3a932fb8",
+      "n_words": 82,
+      "n_chars": 518,
+      "preview_head": "permission. Service Requirements Students must have a digital camera with manual controls (aperture priority mode). Students are expected if possible but not required to bring their cameras in each we",
+      "preview_tail": "gs. A laptop computer is helpful at times when we review assignments. Service Details Duration: 4 weeks; Mondays from May9-June2 (8-10pm) Price: $35 per class ($67 total) or $130 for the entire course",
+      "full_text": "permission. Service Requirements Students must have a digital camera with manual controls (aperture priority mode). Students are expected if possible but not required to bring their cameras in each week so they can be inspected by the instructor for proper operation of all functions and modes, as well aperture settings. A laptop computer is helpful at times when we review assignments. Service Details Duration: 4 weeks; Mondays from May9-June2 (8-10pm) Price: $35 per class ($67 total) or $130 for the entire course",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 73,
+      "hash": "6b51d911",
+      "n_words": 39,
+      "n_chars": 255,
+      "preview_head": "Dr. Antonio Garc\u00eda C\u00f3rdova, a Spanish historian who had been researching it for many years before its discovery. The codex contains over one hundred and twenty pages with hand-painted illustrations de",
+      "preview_tail": " been researching it for many years before its discovery. The codex contains over one hundred and twenty pages with hand-painted illustrations depicting scenes from life in Santa Mar\u00eda Ixtepeji during",
+      "full_text": "Dr. Antonio Garc\u00eda C\u00f3rdova, a Spanish historian who had been researching it for many years before its discovery. The codex contains over one hundred and twenty pages with hand-painted illustrations depicting scenes from life in Santa Mar\u00eda Ixtepeji during",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 74,
+      "hash": "8061f2eb",
+      "n_words": 246,
+      "n_chars": 1606,
+      "preview_head": "Permanent magnet alternators can be manufactured by currently known processes to produce approximately the same output for approximately the same weight and speed as the wound rotor machines; however,",
+      "preview_tail": "h as communication and navigation radios as well as computer and guidance systems of the type found in airborne applications; (2) to eliminate the need for a battery completely or to permit the contin",
+      "full_text": "Permanent magnet alternators can be manufactured by currently known processes to produce approximately the same output for approximately the same weight and speed as the wound rotor machines; however, the permanent magnet alternators have generally not found use in such general aviation airborne applications. One of the reasons is the lack of a suitable regulator. Alternators of this type are often employed on such vehicles as motorcycles, snowmobiles, and outboard motors. In these cases, regulation is accomplished generally by use of switching devices such as silicon controlled rectifiers, either in series or in shunt, as part of the network between the alternator and the battery. This type of rectifier-regulator combination produces high values of electromagnetic interference commonly called radio noise, which is generally not a problem in the application previously mentioned because these vehicles do not commonly have electronics susceptible to such noise as aircraft must for communications and navigations. The objectives and purposes of this invention are as follows: (1) to produce a simple, light, inexpensive, and highly efficient system to rectify and regulate the output of an alternator and to produce pure DC suitable for operating the electrical systems of an aircraft or other vehicle, so that this output may be compatible with the needs of solid state electronics devices such as communication and navigation radios as well as computer and guidance systems of the type found in airborne applications; (2) to eliminate the need for a battery completely or to permit the contin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 75,
+      "hash": "523e1ad9",
+      "n_words": 164,
+      "n_chars": 1239,
+      "preview_head": "hydrocortisone rescue therapy (HRT) with improvement of haemodynamic stability in refractory hypotension after cardiopulmonal bypass. Data were gathered retrospectively from medical records of pediatr",
+      "preview_tail": "n arterial pressure (MAP) or reduction in vasopressor index (VI) within 6 hours of HRT initiation. Safety outcomes focused on hyperglycemia, arrhythmias, and infection rates. Of 142 eligible patients,",
+      "full_text": "hydrocortisone rescue therapy (HRT) with improvement of haemodynamic stability in refractory hypotension after cardiopulmonal bypass. Data were gathered retrospectively from medical records of pediatric patients undergoing cardiopulmonary bypass (CPB) at a tertiary pediatric cardiac center between January 2018 and December 2022. The study population included patients aged 1 month to 18 years who developed refractory hypotension (defined as persistent hypotension despite \u22652 vasopressor agents at high doses or inotropic support for \u22656 hours post-CPB) and received HRT as part of a standardized protocol. Exclusion criteria comprised pre-existing adrenal insufficiency, active sepsis, or receipt of corticosteroids within 48 hours pre-CPB. Key variables assessed included demographic data, CPB duration, postoperative inotropic scores, vasopressor requirements, serial cortisol measurements, and clinical outcomes (e.g., hemodynamic improvement, ICU length of stay, mortality). Hemodynamic response was defined as a \u226520% increase in mean arterial pressure (MAP) or reduction in vasopressor index (VI) within 6 hours of HRT initiation. Safety outcomes focused on hyperglycemia, arrhythmias, and infection rates. Of 142 eligible patients,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 76,
+      "hash": "6001e320",
+      "n_words": 61,
+      "n_chars": 342,
+      "preview_head": "e already there. If you were looking for weather in Sabrum during December, be prepared for maximum and minimum temperatures ranging from 15 to 34 \u00b0C and humidity levels of around 53 %. While the Sabr",
+      "preview_tail": "o 34 \u00b0C and humidity levels of around 53 %. While the Sabrum weather in January will have temperatures ranging from -34 to 14 \u00b0C. The best months for visiting sabrum are . For more information about y",
+      "full_text": "e already there. If you were looking for weather in Sabrum during December, be prepared for maximum and minimum temperatures ranging from 15 to 34 \u00b0C and humidity levels of around 53 %. While the Sabrum weather in January will have temperatures ranging from -34 to 14 \u00b0C. The best months for visiting sabrum are . For more information about y",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 77,
+      "hash": "a2c37e20",
+      "n_words": 112,
+      "n_chars": 683,
+      "preview_head": "#is_root1=`w | awk -F'[ ]' '{print $8}'` #echo >> 111.log #is_root1=`cat 111.log` is_root2=`w | awk -F'[ ]' '{print $9}'` echo $is_root2 > /tmp/user2.log #root1=`cat 111.log | awk -F'[ ]' '{print $1}'",
+      "preview_tail": "rint $8}'` #echo >> 111.log #is_root1=`cat 111.log` is_root2=`w | awk -F'[ ]' '{print $9}'` echo $is_root2 > /tmp/user2.log #root1=`cat 111.log | awk -F'[ ]' '{print $1}'` #root2=`cat 222.log | awk -f",
+      "full_text": "#is_root1=`w | awk -F'[ ]' '{print $8}'` #echo >> 111.log #is_root1=`cat 111.log` is_root2=`w | awk -F'[ ]' '{print $9}'` echo $is_root2 > /tmp/user2.log #root1=`cat 111.log | awk -F'[ ]' '{print $1}'` #root2=`cat 222.log | awk -F'[ ]' '{print $1}'` is_root3=`w | awk -F'[ ]' '{print $1}'` echo $is_root2 > /tmp/user5.log echoHere is the completed text: ## \u76d1\u63a7SSH \u7684\u4e00\u4e2a\u811a\u672c is_root=`w | awk -F'[ ]' '{print $7}'` #if [ $is_root >= 0 ] # then # echo $is_root #is_root1=`w | awk -F'[ ]' '{print $8}'` #echo >> 111.log #is_root1=`cat 111.log` is_root2=`w | awk -F'[ ]' '{print $9}'` echo $is_root2 > /tmp/user2.log #root1=`cat 111.log | awk -F'[ ]' '{print $1}'` #root2=`cat 222.log | awk -f",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 78,
+      "hash": "8204c928",
+      "n_words": 52,
+      "n_chars": 401,
+      "preview_head": "\u015awi\u0119tokrzyskie Voivodeship, in south-central Poland. It lies approximately north-east of Radoszyce, soutPlenna is a village in the administrative district of Gmina Radoszyce, within Ko\u0144skie County, \u015aw",
+      "preview_tail": "\u0119tokrzyskie Voivodeship, in south-central Poland. It lies approximately 5 kilometers north-east of Radoszyce, 55 kilometers south of Ko\u0144skie, and 115 kilometers south-east of Warsaw. The village, like",
+      "full_text": "\u015awi\u0119tokrzyskie Voivodeship, in south-central Poland. It lies approximately north-east of Radoszyce, soutPlenna is a village in the administrative district of Gmina Radoszyce, within Ko\u0144skie County, \u015awi\u0119tokrzyskie Voivodeship, in south-central Poland. It lies approximately 5 kilometers north-east of Radoszyce, 55 kilometers south of Ko\u0144skie, and 115 kilometers south-east of Warsaw. The village, like",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 79,
+      "hash": "2025a733",
+      "n_words": 60,
+      "n_chars": 395,
+      "preview_head": "Hannity Mark Levin Steve Sanchez Sports X Radio Dr. Daliah Perilous World Radio Full On Air Schedule Listen + Watch Listen + Watch Podcasts Talking Solutions Galleries Talking Solutions Podcasts Galle",
+      "preview_tail": "Galleries Contests Events Shop More Connect Contact Us Talking Solutions Public Affairs Join The KDWN Insider\u2019s Club Ways To Listen To KDWN Advertise Careers Community Of Caring Search for:Search for:",
+      "full_text": "Hannity Mark Levin Steve Sanchez Sports X Radio Dr. Daliah Perilous World Radio Full On Air Schedule Listen + Watch Listen + Watch Podcasts Talking Solutions Galleries Talking Solutions Podcasts Galleries Contests Events Shop More Connect Contact Us Talking Solutions Public Affairs Join The KDWN Insider\u2019s Club Ways To Listen To KDWN Advertise Careers Community Of Caring Search for:Search for:",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 80,
+      "hash": "009c5463",
+      "n_words": 173,
+      "n_chars": 1042,
+      "preview_head": "he size, composition, and conditions of these distant worlds. In the case of HD 189733 b, it has been found to have a year, completing an orbit around its star in just 2.2 Earth days. The light curve,",
+      "preview_tail": " the story of our universe, revealing the array of worlds that exist beyond our solar system. Continued monitoring and analysis of HD 189733 b, as well as other transiting exoplanets, will undoubtedly",
+      "full_text": "he size, composition, and conditions of these distant worlds. In the case of HD 189733 b, it has been found to have a year, completing an orbit around its star in just 2.2 Earth days. The light curve, as shown in the plot, is a graph of the star's brightness ovEr time, with the dip indicating the transit of the planet. During this event, scientists can analyze the light that filters through the planet's atmosphere, which can reveal details about its composition and weather patterns. For instance, HD 189733 b is known for having a deep blue color due to silicate particles in its atmosphere, which scatter blue light more effectively than red. Observations like these not only expand our knowledge of individual exoplanets but also contribute to the broader understanding of planetary formation and evolution. They help us piece together the story of our universe, revealing the array of worlds that exist beyond our solar system. Continued monitoring and analysis of HD 189733 b, as well as other transiting exoplanets, will undoubtedly",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 81,
+      "hash": "87253da1",
+      "n_words": 145,
+      "n_chars": 1036,
+      "preview_head": "fueled further speculation among fans and critics alike, with many dissecting the tweet\u2019s wording and punctuation for additional clues. Some argue that the deliberate alteration in spacing suggests Hw",
+      "preview_tail": "panies, as well as the power of fan communities to amplify marginalized voices. Whether the hidden message was intentional or coincidental, the incident has reignited debates about artist autonomy and",
+      "full_text": "fueled further speculation among fans and critics alike, with many dissecting the tweet\u2019s wording and punctuation for additional clues. Some argue that the deliberate alteration in spacing suggests Hwa Young may have embedded the phrase as a coded plea for support or a subtle rebuke of her agency\u2019s control. Others, however, caution against overinterpreting the pattern, noting that technical inconsistencies in social media formatting\u2014such as character limits or platform-specific rendering issues\u2014could explain the anomaly. Meanwhile, Hwa Young\u2019s agency has yet to issue a formal statement addressing the controversy, deepening suspicions of a cover-up. Fans are demanding transparency, with hashtags like #LetHwaYoungSpeak trending globally. The situation underscores the growing tension between K-pop idols and their management companies, as well as the power of fan communities to amplify marginalized voices. Whether the hidden message was intentional or coincidental, the incident has reignited debates about artist autonomy and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 82,
+      "hash": "5db7cf97",
+      "n_words": 60,
+      "n_chars": 372,
+      "preview_head": "y voice. Kinect can be used to issue commands to squad members, activate special abilities, and change weapons, removing the need to open the game's power wheel, pausing the game and interrupting the ",
+      "preview_tail": "e game and interrupting the flow of combat. Spoken instructions also extend to making dialog choices, opening doors, examining objects and pretty much anything else one would just press the 'A' button",
+      "full_text": "y voice. Kinect can be used to issue commands to squad members, activate special abilities, and change weapons, removing the need to open the game's power wheel, pausing the game and interrupting the flow of combat. Spoken instructions also extend to making dialog choices, opening doors, examining objects and pretty much anything else one would just press the 'A' button",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 83,
+      "hash": "773de444",
+      "n_words": 69,
+      "n_chars": 402,
+      "preview_head": "locations for shop) then you can eliminate Geoserver and simply use GeoDjango as an ersatz web feature server by serializing data into kml or geojson and serving it to OpenLayers for display, you can ",
+      "preview_tail": "so do plenty of CRUD operations easily in GeoDjango. If you have relatively larger and complex data (such as ...all buildings in a city) you'll likely want to stick with the trio of PostGIS, GeoServer",
+      "full_text": "locations for shop) then you can eliminate Geoserver and simply use GeoDjango as an ersatz web feature server by serializing data into kml or geojson and serving it to OpenLayers for display, you can also do plenty of CRUD operations easily in GeoDjango. If you have relatively larger and complex data (such as ...all buildings in a city) you'll likely want to stick with the trio of PostGIS, GeoServer",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 84,
+      "hash": "87351d52",
+      "n_words": 89,
+      "n_chars": 504,
+      "preview_head": "I\u2019ve already indicated my approval for in earlier posts. Before I talk about individual features, however, I\u2019d like to put forward a manifesto which could perhaps help the decision-making process. I h",
+      "preview_tail": "n consistent, but all of these thoughts have been running around in my head for a while so I hope I haven\u2019t been wildly ou...of line with any other ideas. Here is the completed text: \"out of line with",
+      "full_text": "I\u2019ve already indicated my approval for in earlier posts. Before I talk about individual features, however, I\u2019d like to put forward a manifesto which could perhaps help the decision-making process. I hasten to add that I haven\u2019t run all the previous parts through this manifesto to make sure that I\u2019ve been consistent, but all of these thoughts have been running around in my head for a while so I hope I haven\u2019t been wildly ou...of line with any other ideas. Here is the completed text: \"out of line with",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 85,
+      "hash": "dc4d32cd",
+      "n_words": 58,
+      "n_chars": 316,
+      "preview_head": "than process with one thread? Would a process with more threads on Linux have more cpu time than a process with one thread? In Linux processes and threads are described by a task struct, and schedulin",
+      "preview_tail": "thread? In Linux processes and threads are described by a task struct, and scheduling is based on tasks. I found also this: When a new process is created, do_fork() sets the counter field of both curr",
+      "full_text": "than process with one thread? Would a process with more threads on Linux have more cpu time than a process with one thread? In Linux processes and threads are described by a task struct, and scheduling is based on tasks. I found also this: When a new process is created, do_fork() sets the counter field of both curr",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 86,
+      "hash": "0b589f0e",
+      "n_words": 97,
+      "n_chars": 585,
+      "preview_head": "where the energy is refined and fast. The chakras, from Sanskrit meaning wheel, are circular shaped funnels of light and the brightness of the colors they radiate reflects the clarity and purity of ou",
+      "preview_tail": "ritual growth but also to maintain physical health. The first Chakra (Muladhara) at the base of our spine represents stability, security as well grounding us into this earthly existence. It's known by",
+      "full_text": "where the energy is refined and fast. The chakras, from Sanskrit meaning wheel, are circular shaped funnels of light and the brightness of the colors they radiate reflects the clarity and purity of our emotions, thoughts and behaviors. Also, depending on how balanced your energy is and how self aware or in-tune with yourself you feel. The chakras play a crucial role not only for spiritual growth but also to maintain physical health. The first Chakra (Muladhara) at the base of our spine represents stability, security as well grounding us into this earthly existence. It's known by",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 87,
+      "hash": "457a6121",
+      "n_words": 50,
+      "n_chars": 369,
+      "preview_head": "on the information you provided: model = \"Zynq Zed Development Board\"; compatible = \"xlnx,zynx-zed\", \"xlnx,zynq-7000\"; usb_phy0: phy0@e0002000 { compatible = \"ulpi-phy\"; #phy-cells = <0>; reg = <0xe00",
+      "preview_tail": " #phy-cells = <0>; reg = <0xe0002000 0x1000>; view-port = <0x0170>; drv-vbus; }; &clkc { ps-clk-frequency = <33333333>; }; &gem0 { phy-handle = <&ethernet_phy>; ethernet_phy: ethernet-phy@0 { reg = <0",
+      "full_text": "on the information you provided: model = \"Zynq Zed Development Board\"; compatible = \"xlnx,zynx-zed\", \"xlnx,zynq-7000\"; usb_phy0: phy0@e0002000 { compatible = \"ulpi-phy\"; #phy-cells = <0>; reg = <0xe0002000 0x1000>; view-port = <0x0170>; drv-vbus; }; &clkc { ps-clk-frequency = <33333333>; }; &gem0 { phy-handle = <&ethernet_phy>; ethernet_phy: ethernet-phy@0 { reg = <0",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 88,
+      "hash": "de31ce7c",
+      "n_words": 115,
+      "n_chars": 701,
+      "preview_head": "by the defendants more than three years before the plaintiff filed the complaint, but the plaintiff chose not to read or could not recall having read the information. (relisted after the May 30 confer",
+      "preview_tail": "veral liability. (relisted after the March 22, March 29, April 12, April 18, April 26, May 9, May 16, May 23 and May 30 conferences) Department of Homeland Security v. Regents of the University of Cal",
+      "full_text": "by the defendants more than three years before the plaintiff filed the complaint, but the plaintiff chose not to read or could not recall having read the information. (relisted after the May 30 conference) Returning Relists Roman Catholic Archdiocese of San Juan, Puerto Rico v. Feliciano, 18-921 Issue: Whether the First Amendment empowers courts to override the chosen legal structure of a religious organization and declare all of its constituent parts a single legal entity subject to joint and several liability. (relisted after the March 22, March 29, April 12, April 18, April 26, May 9, May 16, May 23 and May 30 conferences) Department of Homeland Security v. Regents of the University of Cal",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 89,
+      "hash": "bec5d8b7",
+      "n_words": 56,
+      "n_chars": 347,
+      "preview_head": "ignificant and nothing good for selfish reasons and have, therefore, done everything possible to render it impotent. \u201cIt is on the basis of the aforementioned challenges that NULGE decided to mobilise",
+      "preview_tail": "rementioned challenges that NULGE decided to mobilise its teeming members to wage a total and comprehensive campaign to liberate the third tier of government from the jugular of state governors and to",
+      "full_text": "ignificant and nothing good for selfish reasons and have, therefore, done everything possible to render it impotent. \u201cIt is on the basis of the aforementioned challenges that NULGE decided to mobilise its teeming members to wage a total and comprehensive campaign to liberate the third tier of government from the jugular of state governors and to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 90,
+      "hash": "fc7652f8",
+      "n_words": 209,
+      "n_chars": 1007,
+      "preview_head": "an oxygen treatment in a pressure chamber at the RegionDONETSK, UKRAINE - MARCH 05: Andrei Serebrennikov, a coal miner who survived an explosion at Zasyadtko mine but was exposed to levels of methane,",
+      "preview_tail": "5, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555,",
+      "full_text": "an oxygen treatment in a pressure chamber at the RegionDONETSK, UKRAINE - MARCH 05: Andrei Serebrennikov, a coal miner who survived an explosion at Zasyadtko mine but was exposed to levels of methane, undergoes an oxygen treatment in a pressure chamber at the Region 5, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555, the 555,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 91,
+      "hash": "ffe44fef",
+      "n_words": 264,
+      "n_chars": 1988,
+      "preview_head": "6 patients with gastric adenocarcinomas who underwent a gastrectomy. The relation of the expression of these genes to clinicopathological factors and outcomes was studied. Vimentin mRNA was significan",
+      "preview_tail": ".org/cr_eprint/journals/oncology/v66n6p1.pdf AU - Kim,Hyeong-Ryul, YR - Full text: Available Collection GeriMedUSA PubMed ID : http://www.ncbi.nlm.nih.gov/pubmed/19407206 Linking ISSN: URL : TY - JOUR",
+      "full_text": "6 patients with gastric adenocarcinomas who underwent a gastrectomy. The relation of the expression of these genes to clinicopathological factors and outcomes was studied. Vimentin mRNA was significantly higher in diffuse type compared to intestinal type according to Lauren's classification (p=0.048) and was significantly elevated in patients with recurrent or distant metastatic disease (p=0.049). Immunohistochemically, however, vimentin 3+ expression correlated strongly only between tumors of advanced stages III/IV versus I-II cancers [odds ratio:7.14; confidence interval(95%):1.53-33.38]. The overall survival rate in the patients with diffuse-type cancer was significantly worse than that for those who had intestinal type (p=0.002). EMT-inducing genes, SIP and Slug were more frequently expressed by tumors of advanced stage compared to early-stage disease [odds ratio: 2.69; confidence interval(95%):1.08-6.73] and with diffuse-type cancer versus those that had intestinal type (p=0.009). We found no significant difference in expression levels for Twist between any two groups based on Lauren's classification or stage of disease, but the overall survival rate was significantly worse among patients whose tumors expressed SIP compared to non-SIP-expressing cases [hazard ratio: 2; confidence interval(95%):1.17-3.41]. These results suggest that expression patterns for vimentin and EMT-inducing genes can serve as a marker of advanced disease in gastric cancer. The Department Of Surgery, Keimyung University School of Medicine Dongsan Medical Center Daegu 700712 Korea TY - JOUR T1 - VVimentin expression is associated with decreased survival in gastric cancer. AU - Kim,Mi-Ae, PY - 2009/4/30/pubmed PY - 2010/5/7/pmc-release PY - 2023-04-06/fulltext/revised PY - 2032//doi.org/cr_eprint/journals/oncology/v66n6p1.pdf AU - Kim,Hyeong-Ryul, YR - Full text: Available Collection GeriMedUSA PubMed ID : http://www.ncbi.nlm.nih.gov/pubmed/19407206 Linking ISSN: URL : TY - JOUR",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 92,
+      "hash": "7900ca66",
+      "n_words": 39,
+      "n_chars": 269,
+      "preview_head": "IS\" BASIS, WITHOUT # WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the # License for the specific languag... # e permissions granted therein./ /\\/ 1a0679d4528feab3e7bcbc0fecdcae",
+      "preview_tail": "ress or implied. See the # License for the specific languag... # e permissions granted therein./ /\\/ 1a0679d4528feab3e7bcbc0fecdcaedafeeadfcdd (origin/master, origin/HEAD) |\\__ /| _ \\ ) _( (_.. __(__.",
+      "full_text": "IS\" BASIS, WITHOUT # WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the # License for the specific languag... # e permissions granted therein./ /\\/ 1a0679d4528feab3e7bcbc0fecdcaedafeeadfcdd (origin/master, origin/HEAD) |\\__ /| _ \\ ) _( (_.. __(__.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 93,
+      "hash": "e699417d",
+      "n_words": 54,
+      "n_chars": 282,
+      "preview_head": "one, the quiet moments of togetherness, the way my little one looks up to me, the way she touches my face, the way she explores my hair. These moments, in the quiet of the day, are the things I hold d",
+      "preview_tail": "way she touches my face, the way she explores my hair. These moments, in the quiet of the day, are the things I hold dear. But I love post nursing cuddles, Isabelle exploring my face, squeezing my nos",
+      "full_text": "one, the quiet moments of togetherness, the way my little one looks up to me, the way she touches my face, the way she explores my hair. These moments, in the quiet of the day, are the things I hold dear. But I love post nursing cuddles, Isabelle exploring my face, squeezing my nos",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 94,
+      "hash": "6f8390ee",
+      "n_words": 76,
+      "n_chars": 469,
+      "preview_head": "Trade Association (GAFTA) is a body with a long history and a vital role in grain trading around the world. GAFTA contracts are central to many of the international trades that take place in the grain",
+      "preview_tail": "d trading relationships. GAFTA\u2019s role is growing to fit the changing demands of a changing world. GAFTA\u2019s President, together with the association's staff, has been working tirelessly to develop GAFTA",
+      "full_text": "Trade Association (GAFTA) is a body with a long history and a vital role in grain trading around the world. GAFTA contracts are central to many of the international trades that take place in the grains sector, and GAFTA\u2019s disputes settlement procedures are a key to good trading relationships. GAFTA\u2019s role is growing to fit the changing demands of a changing world. GAFTA\u2019s President, together with the association's staff, has been working tirelessly to develop GAFTA",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 95,
+      "hash": "243ecf8e",
+      "n_words": 201,
+      "n_chars": 1497,
+      "preview_head": "n the last incomplete entry mentioning \"Govt free\": 1. Poorpreg.haryana.gov.in: This appears to be a government initiative in Haryana, India for financial aid or support programs, possibly related to ",
+      "preview_tail": "the full article or related government announcements. For staying updated on such finance news and updates, regularly checking credible sources like official government websites, reputable financial n",
+      "full_text": "n the last incomplete entry mentioning \"Govt free\": 1. Poorpreg.haryana.gov.in: This appears to be a government initiative in Haryana, India for financial aid or support programs, possibly related to pregnancy assistance. More specific details would require checking the official website for application procedures and eligibility criteria. 2. World Bank Support (USD 400 million): The World Bank's financial support aims at coastal resource management projects which could include infrastructure development, environmental conservation, and economic sustainability measures along India\u2019s coastlines. 3. Government Declaration Under Industrial Disputes Act: By declaring the banking industry as a public utility service, the government intends to ensure uninterrupted banking services during industrial disputes until October 21 of that year. This typically implies that despite labor issues, banks must continue operations to maintain public welfare and financial stability. 4. Incomplete Entry \"Govt free\": Without further context, this could be referring to a variety of governmental initiatives or programs offering subsidies, benefits, or free services for various sectors including possibly agriculture, education, healthcare, or direct cash transfers. More details would require looking at the full article or related government announcements. For staying updated on such finance news and updates, regularly checking credible sources like official government websites, reputable financial n",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 96,
+      "hash": "f708f7d4",
+      "n_words": 172,
+      "n_chars": 929,
+      "preview_head": "OUT ME BLOG BRAND COLLABORATIONS OUTFIT OF THE DAY TOP 20 PHOTOS FAQ HOME ABOUT ME BLOG BRAND COLLABORATIONS OUTFIT OF THE DAY TOP 20 PHOTOS FAQ Menu HOME ABOUT ME BLOG BRAND COLLABORATIONS OUTFIT OF ",
+      "preview_tail": "(as you do), someone commented on how much they liked what we were doing with our account - which at that point had been more personal than anything else- so I decided to take things up a notch by cre",
+      "full_text": "OUT ME BLOG BRAND COLLABORATIONS OUTFIT OF THE DAY TOP 20 PHOTOS FAQ HOME ABOUT ME BLOG BRAND COLLABORATIONS OUTFIT OF THE DAY TOP 20 PHOTOS FAQ Menu HOME ABOUT ME BLOG BRAND COLLABORATIONS OUTFIT OF THE DAY TOP 20 PHOTOS FAQ Join The Family Email* FAQ How do you become a content creator? I actually get this question a lot, especially for people looking for a direct guide, but the truth is there really isn't a guide. 3 years ago, I made the decision that I wanted to be an influencer because I loved fashion, and I started having friends take pictures of me, overing different outfits in various locations around my city every weekend until it was time for school or work again! Then one day when scrolling through Instagram (as you do), someone commented on how much they liked what we were doing with our account - which at that point had been more personal than anything else- so I decided to take things up a notch by cre",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 97,
+      "hash": "9f59179f",
+      "n_words": 28,
+      "n_chars": 263,
+      "preview_head": "StringBuilder builder = new StringBuilder(); Pattern p = Pattern.compile(pattern); Matcher m; while((m=p.matcher(builder.toString())).find()){ } return builder.toString(); } catch (Exception e){ e.pri",
+      "preview_tail": "n.compile(pattern); Matcher m; while((m=p.matcher(builder.toString())).find()){ } return builder.toString(); } catch (Exception e){ e.printStackTrace(); return null; } public void write(String data) {",
+      "full_text": "StringBuilder builder = new StringBuilder(); Pattern p = Pattern.compile(pattern); Matcher m; while((m=p.matcher(builder.toString())).find()){ } return builder.toString(); } catch (Exception e){ e.printStackTrace(); return null; } public void write(String data) {",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 98,
+      "hash": "990cac07",
+      "n_words": 87,
+      "n_chars": 532,
+      "preview_head": "moid colon cancer was treated with infusion of CDDP (10 mg) and 5-FU (250 mg) via subcutaneously implanted reservoir. After 20 administrations of CDDP and 5-FU, the tumors in the lobe of the liver dis",
+      "preview_tail": "rence wAs disclosed in the right lobe of the liver. With re-elevated serum CEA level, intrahepatic arterial infusion of CDDP and 5-FU the nodule size reduced with normalization of the serum CEA level.",
+      "full_text": "moid colon cancer was treated with infusion of CDDP (10 mg) and 5-FU (250 mg) via subcutaneously implanted reservoir. After 20 administrations of CDDP and 5-FU, the tumors in the lobe of the liver disappeared, but those in the left lobe remained. Therefore left hepatectomy was carried out. Six months after the hepatectomy, a recurrence wAs disclosed in the right lobe of the liver. With re-elevated serum CEA level, intrahepatic arterial infusion of CDDP and 5-FU the nodule size reduced with normalization of the serum CEA level.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 99,
+      "hash": "b08ae215",
+      "n_words": 66,
+      "n_chars": 354,
+      "preview_head": "/ Email * Password * Forgot your password? Log in Remember me Don't have an account? \u00d7 Register Facebook OR Name * Username * Email Address * Password * Password strength: Too short Weak Good Strong V",
+      "preview_tail": "assword strength: Too short Weak Good Strong Very strong First Name Last Name Address Country City ZIP Code / Postal Code I agree to the Terms of Service I agree to the Privacy Policy Captcha * Regist",
+      "full_text": "/ Email * Password * Forgot your password? Log in Remember me Don't have an account? \u00d7 Register Facebook OR Name * Username * Email Address * Password * Password strength: Too short Weak Good Strong Very strong First Name Last Name Address Country City ZIP Code / Postal Code I agree to the Terms of Service I agree to the Privacy Policy Captcha * Regist",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 100,
+      "hash": "1060d4ec",
+      "n_words": 78,
+      "n_chars": 484,
+      "preview_head": "up knowing that we had been chosen to be part of this loving, welcoming environment just like Roxie in the book. What struck me most about \"Roxie the Doxie Finds Her Forever Home\" is how it gently add",
+      "preview_tail": "s\u2014themes universal whether talking about human or animal adoption. The illustrations are warm and inviting, helping young readers to connect emotionally with Roxie's journey. This book would be a tool",
+      "full_text": "up knowing that we had been chosen to be part of this loving, welcoming environment just like Roxie in the book. What struck me most about \"Roxie the Doxie Finds Her Forever Home\" is how it gently addresses feelings such as uncertainty and fear while emphasizing love and belongingness\u2014themes universal whether talking about human or animal adoption. The illustrations are warm and inviting, helping young readers to connect emotionally with Roxie's journey. This book would be a tool",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 101,
+      "hash": "56d712ce",
+      "n_words": 328,
+      "n_chars": 1624,
+      "preview_head": "e text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, th",
+      "preview_tail": "xt, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, 2 And it came to pass that I said unto them that i knew that I had spoken ahard things",
+      "full_text": "e text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, the text, 2 And it came to pass that I said unto them that i knew that I had spoken ahard things",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 102,
+      "hash": "24243e28",
+      "n_words": 115,
+      "n_chars": 706,
+      "preview_head": "e Smith (1967) 67 Cal.2d 460, 462 [62 Cal. Rptr. 615, 432 P.2d 231].) Penal Code section 506, which requires a fraudulent intent to misappropriate funds entrusted to the wrongdoer, proscribes such a c",
+      "preview_tail": "etermination is now final. \"[D]isbarments and not suspensions Have been the rule rather than the exception in cases of serious crimes involving moral turpitude....\" (In re Smith, supra, 67 Cal.2d 460,",
+      "full_text": "e Smith (1967) 67 Cal.2d 460, 462 [62 Cal. Rptr. 615, 432 P.2d 231].) Penal Code section 506, which requires a fraudulent intent to misappropriate funds entrusted to the wrongdoer, proscribes such a crime. Our denial of petitioner's request for a hearing on the question of moral turpitude was based on a required determination expressed in our order of temporary suspension and our order to show cause that the crimes of which petitioner stood convicted involved moral turpitude as a matter of law. That determination is now final. \"[D]isbarments and not suspensions Have been the rule rather than the exception in cases of serious crimes involving moral turpitude....\" (In re Smith, supra, 67 Cal.2d 460,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 103,
+      "hash": "4a1f44c3",
+      "n_words": 125,
+      "n_chars": 686,
+      "preview_head": "give unconditionally\u2013 without expectation of return\u2013 to the person you\u2019ve hurt. Without expectation of return is critical, because the person who has been hurt by your actions will be checking to see ",
+      "preview_tail": "t\u2019s not be possible to give to the person you\u2019ve hurt, give to others. Friends, family, strangers could all use some kind of help. As you help, you create new experiences that remind you that even tho",
+      "full_text": "give unconditionally\u2013 without expectation of return\u2013 to the person you\u2019ve hurt. Without expectation of return is critical, because the person who has been hurt by your actions will be checking to see if you really mean it. They may not trust you. They may be waiting for you to go back to your old ways. And that\u2019s ok. You can\u2019t control how they will react. But you can give. And if your actions are consistently generous, come from love, and with respect, you are doing your part. If it\u2019s not be possible to give to the person you\u2019ve hurt, give to others. Friends, family, strangers could all use some kind of help. As you help, you create new experiences that remind you that even tho",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 104,
+      "hash": "ff113936",
+      "n_words": 300,
+      "n_chars": 1656,
+      "preview_head": ", `pants_id` INT NOT NULL , `accA_id` INT NOT NULL , `accb_id` INT NOT NULL , `accc_id` INT NOT NULL , `shirt_id` INT NOT NULL , `created` DATETIME NOT NuLL , `modified` DATETIME NOT NULL , PRIMARY KE",
+      "preview_tail": "many equips. You may limit a user to having only one equip, which would almost lend itself to merging the user and equips tables into a single one. In any case you need to start by defining the rules.",
+      "full_text": ", `pants_id` INT NOT NULL , `accA_id` INT NOT NULL , `accb_id` INT NOT NULL , `accc_id` INT NOT NULL , `shirt_id` INT NOT NULL , `created` DATETIME NOT NuLL , `modified` DATETIME NOT NULL , PRIMARY KEY ( `id` ) , UNIQUE ( `user_id` ) ) ENGINE = InnoDB The only problem with using a system like this is that CakePHP does not support multiple foreign keys for a model. Does anyone have any ideas as to how to implement such a system? EDIT The existing HABTM table of items_users is used to store which items a user currently owns. Every time a user acquires a new item, it's id and the user's id is stored in the items_users table. I'm just trying to figure out how to implement an equipment system. By doesn't support multiple foreign keys, I mean CakePHP doesn't natively support multiple foreign keys from one table in anOther table. My example equips table has 8 foreign keys, all pointing to item_id's. see: https://trac.cakephp.org/ticket/1923 A: I've found that HABTM relationships are best for simple relationships, not complex ones like you are describing above. The idea of an HABTM relationship is to make the join table almost invisible so you do not have to maintain the extra foreign keys. It works well for simple cases. in your case, you have the equips table that would join to all of the other aspects of your system. In the design, you need a starting point. I would imagine the \"user\" would be that starting point and the user would have many equips. You may limit a user to having only one equip, which would almost lend itself to merging the user and equips tables into a single one. In any case you need to start by defining the rules.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 105,
+      "hash": "25bb7152",
+      "n_words": 41,
+      "n_chars": 286,
+      "preview_head": "bunch of placesin between. You can find mymain site at havecamerawilltravel.com. Or check out what\u2019s in my travelphotography kit.ConnectLicensingImagesLooking for travel stockphotos or prints? I might",
+      "preview_tail": "eck out what\u2019s in my travelphotography kit.ConnectLicensingImagesLooking for travel stockphotos or prints? I mightbe able to help. You can search my collection here: If you alreadyhave a buyer account",
+      "full_text": "bunch of placesin between. You can find mymain site at havecamerawilltravel.com. Or check out what\u2019s in my travelphotography kit.ConnectLicensingImagesLooking for travel stockphotos or prints? I mightbe able to help. You can search my collection here: If you alreadyhave a buyer account",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 106,
+      "hash": "3adc35b3",
+      "n_words": 350,
+      "n_chars": 1945,
+      "preview_head": "Electric Revolution Gives Us Details of Music, Shows, and Other Plans at Hand! Flavored 70's blues heavy rock n' rollers ELECTRIC REVOLUTION have been around for sometime, releasing content, with of c",
+      "preview_tail": "that ER creates today The bands main song writer, guitarist & vocalist Steve had been thinking about forming this band since he was in high school back during the 70's. So when we finally got together",
+      "full_text": "Electric Revolution Gives Us Details of Music, Shows, and Other Plans at Hand! Flavored 70's blues heavy rock n' rollers ELECTRIC REVOLUTION have been around for sometime, releasing content, with of course all new content as well. The band got together to discuss these releases, some upcoming plans on shows and other details that just needed to be said. 1. Please tell us about the history of your band and its members. Of course, the band was formed in 2014, through trial and error and personnel differences line up changes held the project at bay matimes but we were able keep on going with our debut album \"The Devil You Know\" which came out last year. We are currently working hard to finish off a new EP for release this fall. We have some shows coming in July so it's been hectic, yet exciting time around here! 2.What would you consider your band\u2019s genre? Our music is heavily influenced by the 70s and early 80`s bands like Black Sabbath , Uriah Heep, Deep Purple & Alice Cooper. 3.Who are influences to Electric Revolution? And why did they influence it so much in creating this sound for ER, that we hear today. What other artists inspire you? Our musical inspiration comes from a wide variety of sources but the main ones would be Black Sabbath , Uriah Heep, Deep Purple & Alice Cooper. We also like some modern bands such as Rival Sons and The Answer 4.What was it about those influences or inspirations, that made them so important to create this band? All members have been in several different projects throughout our careers but we all felt the need for a classic rock sound. So from there on out , Electric Revolution came into being. 5.How did you come up with your name? What does it mean and how is its relevance of music that ER creates today The bands main song writer, guitarist & vocalist Steve had been thinking about forming this band since he was in high school back during the 70's. So when we finally got together",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 107,
+      "hash": "376702d8",
+      "n_words": 121,
+      "n_chars": 690,
+      "preview_head": ", and how to use the camera's flash. 4. Playback and Review - This section provides the steps to use the camera's functions to view and review the pictures, including how to use the camera's playback ",
+      "preview_tail": "amera's review functions, and how to use the camera's playback and review menus. 6. Playback and Review - This section provides the steps to use the camera's functions to view and review the pictures,",
+      "full_text": ", and how to use the camera's flash. 4. Playback and Review - This section provides the steps to use the camera's functions to view and review the pictures, including how to use the camera's playback modes, how to use the camera's review functions, and how to use the camera's playback and review menus. 5. Playback and Review - This section provides the steps to use the camera's functions to view and review the pictures, including how to use the camera's playback modes, how to use the camera's review functions, and how to use the camera's playback and review menus. 6. Playback and Review - This section provides the steps to use the camera's functions to view and review the pictures,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 108,
+      "hash": "1c7e47d8",
+      "n_words": 114,
+      "n_chars": 910,
+      "preview_head": "amper(payload, kwargs): \"\"\" Replaces plus ('+') character with function CONCAT() Tested against: * Microsoft SQL Server 2012 Requirements: Useful in case ('+\") character is filtered >>> tamper('SELECT",
+      "preview_tail": ") ==index: break else : first, last=0,len(indexes)-1 except ValueError : continue # replace all occurrences of '+' with 'CONCAT' retVal = re.sub(r'\\+', lambda x:'CONCAT('+x.group()+ ')',retVal) return",
+      "full_text": "amper(payload, kwargs): \"\"\" Replaces plus ('+') character with function CONCAT() Tested against: * Microsoft SQL Server 2012 Requirements: Useful in case ('+\") character is filtered >>> tamper('SELECT CHAR(113)+CHAR(114)+CHAR(115) FROM DUAL') 'SELECT CONCAT(CHAR(113),CHAR(114),CHAR(115)) FROM DUAL' >>> tamper('SELECT (CHAR(113)+CHAR(114)+CHAR(115)) FROM DUAL') 'SELECT CONCAT(CHAR(113),CHAR(114),CHAR(115)) FROM Dual' \"\"\" retVal = payload if payload: while True: indexes = zeroDepthSearch(retVal, '+') if indexes: first, last = 0, len(indexes) -1 for i in xrange(first + 1 ,last): index = indexes[i] # Check to see which character is the '+' sign char = retVal[index+2:index+3] try: if ret_val.index('CONCAT') ==index: break else : first, last=0,len(indexes)-1 except ValueError : continue # replace all occurrences of '+' with 'CONCAT' retVal = re.sub(r'\\+', lambda x:'CONCAT('+x.group()+ ')',retVal) return",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 109,
+      "hash": "7cfe7558",
+      "n_words": 296,
+      "n_chars": 1653,
+      "preview_head": "is. A birth certificate and DNA test seemed to back up her claim. So Griffiths did what he thought was the right thing and took responsibility for the child, only to find out six months later that it ",
+      "preview_tail": ") of this famous kidnapping hoax from the 1920s. Note that McPherson claimed she was drugged with a chloroform-soaked rag and then abducted. This alone suggests her story was bogus since, as Wikipedia",
+      "full_text": "is. A birth certificate and DNA test seemed to back up her claim. So Griffiths did what he thought was the right thing and took responsibility for the child, only to find out six months later that it was all an elaborate deception. Wilson had \"borrowed\" the child from a friend and used her position at a hospital to forge the birth certificate and DNA test results. Wilson, who said it was \"a lie that snowballed out of control,\" was sentenced to serve 16 weeks in jail, but was released after 23 days on condition that she take a \"thinking skills\" class to help her realize the effect her actions had on Griffiths and his family. [Daily Mail] A video has gone viral that shows a bear chasing a cyclist through a forest. The video seems realistic when you first view it. But if you slow it down and watch it frame by frame, it starts to look a lot less convincing. more\u2026 \"Historians point out that there is a great deal of difference between pilgrim and puritan, which many people use interchangeably, supposing them to be the same thing. The Puritans were a religious order that arose in the reign of Queen Elizabeth. They were the strictest among the Church of England. The Pilgrims split off from this sect and refused to follow the Church of England -- thus they were no longer puritans. In fact, they were not as strict as the old puritans, but were quite liberal in comparison with them.\" BBC News tells the story (briefly, but with good pictures) of this famous kidnapping hoax from the 1920s. Note that McPherson claimed she was drugged with a chloroform-soaked rag and then abducted. This alone suggests her story was bogus since, as Wikipedia",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 110,
+      "hash": "13cc21d0",
+      "n_words": 136,
+      "n_chars": 865,
+      "preview_head": "monkshood are in flower, but further research needs completion. The larvae feed on various species and it is usually found as eggs. Rivula tanitalis can be controlled by implementing proper monitoring",
+      "preview_tail": "h both colours combined together. Apart from these, few more species like Rivule cyanites also belong to this genus. The members belonging in the Genota Lanatae are named due their light grey marks ov",
+      "full_text": "monkshood are in flower, but further research needs completion. The larvae feed on various species and it is usually found as eggs. Rivula tanitalis can be controlled by implementing proper monitoring strategies such natural predators like birds or bats; nocturnal activity of the moth also offers to play a key role here for controlling them efficiently, depending upon regional regulations. The present global warming effect in this region are affecting their migration routes and seasonal patterns. The description was given as \"Rivula\" means greyish-brown marking on body , whereas tanitalis describes red colour located at end of its hind wing; hence known with both colours combined together. Apart from these, few more species like Rivule cyanites also belong to this genus. The members belonging in the Genota Lanatae are named due their light grey marks ov",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 111,
+      "hash": "1eb052a4",
+      "n_words": 307,
+      "n_chars": 1995,
+      "preview_head": "n it. So welcome JV. JV: Well, Michael thank you so much for having me on your show. And thank you again for being on conscious millionaire. It was a fun time. Michael: Oh! I had a blast. If anyone li",
+      "preview_tail": "g Transcript Ultraworking Pentathalon Uncategorized Webinar Work From Home Work Life Balance Home About Books Bonus Blog Case Studies Contact Podcast Podcast Guest schedule Guest podcast Courses Priva",
+      "full_text": "n it. So welcome JV. JV: Well, Michael thank you so much for having me on your show. And thank you again for being on conscious millionaire. It was a fun time. Michael: Oh! I had a blast. If anyone listening here is entrepreneurial, and that's who you interview, right? Basically other entrepreneurs and\u2026 JV: Yeah, I work with coaches, and consultants, so I tend to interview people who either are coaches, or consultants. They work with coaches, or consultants, or they work in the area of mindset, personal growth; anything that would help a coach, or consultant grow personally, or grow their businesses. Read more Related Posts Achieving Your Goals in Less Time Using Intuition with Chris Sparks \u2013 Transcript How I Shifted from Small Self to My True Self in Business (Using Intuition and Comedy) with JP Sears \u2013 Transcript 5 Powerful Ways to Predict Your Business Future by Using Your Intuition Why Being Yourself is Critical to Being a Successful Entrepreneur Today \u2013 Transcript 010 Getting Help From Spirit Guides In Running A Business How to Overcome Entrepreneurial Impostor Syndrome Case Study- Transcript Facebook Twitter Google+ LinkedIn Filed Under: Podcasts Subscribe to the podcast in iTunes Recent Posts 091 How The Masculine Paradigm Sucks for Real Success with Alaina Schwartz Different Skills for Getting Things Done 090 Entrepreneurial Anxiety, Apathy and Depression (Virtual Meetup), with Melanie Ginsburg and Samantha Alvarez Intuitive Cord Cutting (for More Energy, Joy and Profits) How to Run a Productive Team Meeting During Coronavirus Categories Abundance Business Burnout Business Intuition Business Success Case Study Cord Cutting coronavirus Energy level Getting things done Guest podcast Impostor Syndrome Intuition Intuition Tools Podcasts Productivity Self Healing Transcript Ultraworking Pentathalon Uncategorized Webinar Work From Home Work Life Balance Home About Books Bonus Blog Case Studies Contact Podcast Podcast Guest schedule Guest podcast Courses Priva",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 112,
+      "hash": "c6e76ce2",
+      "n_words": 259,
+      "n_chars": 1687,
+      "preview_head": "he 2003 MTV Europe Awards, and are also known internationally for representing Poland in the Eurovision Song Contest 2004. Band members The original line-up of the band was leader, composer, arranger ",
+      "preview_tail": "pella\", which became their biggest hit to date. The band's third studio release was Hijo de la Luna, released in 2005 with Magda Wysocka-Czubaszek as lead vocalist; it included a cover version of Meca",
+      "full_text": "he 2003 MTV Europe Awards, and are also known internationally for representing Poland in the Eurovision Song Contest 2004. Band members The original line-up of the band was leader, composer, arranger and keyboardist Pawe\u0142 Rurak-Sokal, singer Tatiana Okupnik, Viola Danel (guitar), Sebastian Kasprowicz (guitar), Marcin Markuszewski (bass), \u0141ukasz Moszczy\u0144ski (drums), Piotr S\u0142awi\u0144ski (trumpet) and Micha\u0142 Niewiadomski (trombone). History Their first single \"Espa\u00f1ol\" was released in 2001, with album Fanaberia following in late 2002. Blue Caf\u00e9 submitted \"You May Be in Love\", a track from Fanaberia, to the 2003 Polish Eurovision Song Contest selection, where it made the final, finishing in third place. It subsequently tailed up Poland's entry at that year's contest - which had also been performed by Tatiana Okupnik (as part of Ich Troje) and finished second. In early February 2004 they released their first single \"Hijo de la Luna\", a cover version of the song originally recorded in Spanish by the band Mecano. The track was chosen to represent Poland at that year's Eurovision Song Contest, held on May 12th in Istanbul (Turkey). Blue Caf\u00e9 performed ninth and finished in twenty-first place. The group released their second album \"Sabor\" later that same month with a new line-up: Pawe\u0142 Rurak-Sokal was joined by vocalist Magda Wysocka-Czubaszek, guitarist Maciej Szcz\u0119sny (ex-\u017bywio\u0142y), bassist Tomasz Krzy\u017cowski and drummer Wojtek Kowalewski. The album featured the single \"A Cappella\", which became their biggest hit to date. The band's third studio release was Hijo de la Luna, released in 2005 with Magda Wysocka-Czubaszek as lead vocalist; it included a cover version of Meca",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 113,
+      "hash": "11e3ea3d",
+      "n_words": 270,
+      "n_chars": 2250,
+      "preview_head": "Here's an example of how you could approach this problem. Let\u2019s assume your BorderContainer has the ID `\"layout\"` and the center pane is where you want to adjust the height: 1. Ensure Dojo References:",
+      "preview_tail": "hes what you are querying with `dijit.byId()`. - Adjust indices in `getChildren()` method according to the layout configuration (e.g., which pane index is the center). - You might need additional Dojo",
+      "full_text": "Here's an example of how you could approach this problem. Let\u2019s assume your BorderContainer has the ID `\"layout\"` and the center pane is where you want to adjust the height: 1. Ensure Dojo References: make sure that all necessary dojo modules are referenced properly at the top of your script, including `dojo/parser`, `dijit/layout/BorderContainer`, `dijit/form/Button`, etc. 2. Button Click Event Handler: Write a JavaScript function to handle the button click event and resize the BorderContainer's center pane dynamically. 3. Dynamic Styling with CSS Classes or Direct Style Adjustments: - You can use dojo's `dom-class` module for toggling classes, if you prefer. - Alternatively, directly setting styles using Dojo\u2019s DOM manipulation methods like `dojo.style`. Here is a basic example: ```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>Dojo App</title> <link rel=\"stylesheet\" href=\"path/to/your/style.css\"> <!-- Include dojo and dijit scripts --> <script src=\"https://ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js\"></script> <script> require([ \"dojo/dom\", \"dojo/on\", \"dojo/_base/window\", // for window \"dijit/form/Button\", \"dijit/layout/BorderContainer\" ], function(dom, on, win){ var layout = dijit.byId(\"layout\"); var mapPane = layout.getChildren()[0]; // Assuming the center pane is at index 0 on(dom.byId('searchButton'), 'click', function(){ dojo.style(mapPane.domNode, \"height\", \"83%\"); // Optionally toggle CSS classes or other UI adjustments dojo.toggleClass(layout.domNode, \"resize-layout\"); }); }); </script> </head> <body class=\"tundra\"> <div data-dojo-type=\"dijit/layout/BorderContainer\" id=\"layout\" style=\"width:100%; height: 100%;\"> <!-- Center Pane --> <div data-dojo-type=\"dijit/layout/ContentPane\" region=\"center\" id=\"map\"></div> <!-- Button for search functionality --> <button type=\"button\" id=\"searchButton\">Search</button> </body> </html> ``` Notes: - Replace `\"path/to/your/style.css\"` with the actual path to your stylesheet. - Ensure that the `BorderContainer` ID is correct and matches what you are querying with `dijit.byId()`. - Adjust indices in `getChildren()` method according to the layout configuration (e.g., which pane index is the center). - You might need additional Dojo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 114,
+      "hash": "403ed45c",
+      "n_words": 85,
+      "n_chars": 464,
+      "preview_head": "e path which doesn't visit a previously used vertex, do so. When we're done, we have a path on vertices $v_0, v_1, v_2, \\dots, v_k$, visiting them in exactly this order, such that all neighbors of $v_",
+      "preview_tail": "We may assume tha...t there is some neighbor $w\\neq v_{1}$ adjacent to both. But then consider a new path from $v_{{(k+2)/{2}}} = w$, using only edges not already used, which must have length at least",
+      "full_text": "e path which doesn't visit a previously used vertex, do so. When we're done, we have a path on vertices $v_0, v_1, v_2, \\dots, v_k$, visiting them in exactly this order, such that all neighbors of $v_0$ and $v_k$ are also on the path (or else we could extend it). We may assume tha...t there is some neighbor $w\\neq v_{1}$ adjacent to both. But then consider a new path from $v_{{(k+2)/{2}}} = w$, using only edges not already used, which must have length at least",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 115,
+      "hash": "45e42d13",
+      "n_words": 72,
+      "n_chars": 482,
+      "preview_head": "ve acid spill froman abandoned copper mine near Cloncurry, in northwest Queensland, but has not released any details of what it found. The EPA says the clean-up operation is ongoing and they cannot re",
+      "preview_tail": "Floodplain Association fearsthat with heavy rains predicted over coming weeks toxins could be washed down rivers into Lake Eyre Basin's floodplainswhich span across three states \u2014 Queensland, New Sou ",
+      "full_text": "ve acid spill froman abandoned copper mine near Cloncurry, in northwest Queensland, but has not released any details of what it found. The EPA says the clean-up operation is ongoing and they cannot release specific information until thisprocess is complete. However, The Australian Floodplain Association fearsthat with heavy rains predicted over coming weeks toxins could be washed down rivers into Lake Eyre Basin's floodplainswhich span across three states \u2014 Queensland, New Sou ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 116,
+      "hash": "c1ed3b82",
+      "n_words": 60,
+      "n_chars": 338,
+      "preview_head": "a on you, we can ensure that we offer you desired results. Site Map | Home | Contact Us | Feedback | Copyright and Disclaimer Online since 12th February '04 \u00a9 2004 - Journal of Postgraduate Medicine O",
+      "preview_tail": " 12th February '04 \u00a9 2004 - Journal of Postgraduate Medicine Official Publication of the Staff Society of the Seth GS Medical College and KEM Hospital, Mumbai, India Published by Wolters Kluwer - Medk",
+      "full_text": "a on you, we can ensure that we offer you desired results. Site Map | Home | Contact Us | Feedback | Copyright and Disclaimer Online since 12th February '04 \u00a9 2004 - Journal of Postgraduate Medicine Official Publication of the Staff Society of the Seth GS Medical College and KEM Hospital, Mumbai, India Published by Wolters Kluwer - Medk",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 117,
+      "hash": "dd1ba9dc",
+      "n_words": 124,
+      "n_chars": 846,
+      "preview_head": "in ViewPager? I want to refresh ListView's within a ViewPager after i delete, add or update from a custom dialog. requery worked for me for update but after some time it throw's a exception.. I tried ",
+      "preview_tail": "r2, adapto refresh the Android `ListView` in a ViewPager after deleting or adding items from custom dialogs. To achieve this without causing any exception when requerying for updates on some cases and",
+      "full_text": "in ViewPager? I want to refresh ListView's within a ViewPager after i delete, add or update from a custom dialog. requery worked for me for update but after some time it throw's a exception.. I tried notifyDataSetChanged but nothing happens... i use simplecursoradapter as adapter Can any one tell me how to achieve this? EDIT 1: public class MainActivity extends Activity { private DatabaseAdapter db; private ViewPager myPager; private static int NUM_MY_VIEWS = 4; private MYView myView; private ListView listView1, listView2, listView3, listView4; private Cursor cursor1, cursor2, cursor3, cursor4; private SimpleCursorAdapter adapter1, adapter2, adapto refresh the Android `ListView` in a ViewPager after deleting or adding items from custom dialogs. To achieve this without causing any exception when requerying for updates on some cases and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 118,
+      "hash": "a320b8c5",
+      "n_words": 100,
+      "n_chars": 654,
+      "preview_head": "a basic preparatory work that is most useful for further investigation on cranial development in hominids. The sample used consisted of 60 recent adult human crania as well as stereolithographic model",
+      "preview_tail": "nial and 17 endocranial distances were calculated, in addition to 41 angles of the ectocranium and 21 angles of the endocranium; the measurements are presented in tables, serving as a reference databa",
+      "full_text": "a basic preparatory work that is most useful for further investigation on cranial development in hominids. The sample used consisted of 60 recent adult human crania as well as stereolithographic models of three H. heidelbergensis crania: Kabwe, Atapuerca and Petralona. 12 ecto- and 20 endocranial landmarks were selected and 3D-coordinates taken on each cranium using a 3D Polhemus 3Space FASTRAK tracking system. From the resulting data set, 21 ectocranial and 17 endocranial distances were calculated, in addition to 41 angles of the ectocranium and 21 angles of the endocranium; the measurements are presented in tables, serving as a reference databa",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 119,
+      "hash": "9b57b64b",
+      "n_words": 91,
+      "n_chars": 603,
+      "preview_head": "One-on-One with TV Executives Kimberlie Dykeman is killing two birds with one stone next week\u2026hanging out with \u201cinfomercial kings\u201d and LA TV Executives in Vegas, baby! The world-renowned Electronic Re",
+      "preview_tail": "he hearts ofthe top television executives. With her proven track record as a successful pitch person, Kimberlie plans on making waves at this year's conference by leveraging her dynamic presentation s",
+      "full_text": "One-on-One with TV Executives Kimberlie Dykeman is killing two birds with one stone next week\u2026hanging out with \u201cinfomercial kings\u201d and LA TV Executives in Vegas, baby! The world-renowned Electronic Retailers Association is holding its 2009 national convention in Las Vegas, and Dykeman is heading with guns blazing to hob-knob with the most powerful leaders in the direct-to-consumer industry\u2026 and win the hearts ofthe top television executives. With her proven track record as a successful pitch person, Kimberlie plans on making waves at this year's conference by leveraging her dynamic presentation s",
+      "avg_prediction": 0.0
+    }
+  ]
+}

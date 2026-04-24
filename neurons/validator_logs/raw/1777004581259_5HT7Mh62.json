@@ -1,0 +1,1211 @@
+{
+  "timestamp_utc": "2026-04-24T04:23:01.259745+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 11,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "48f0d204",
+      "n_words": 60,
+      "n_chars": 389,
+      "preview_head": "n and aspects of clinical practice, but also assimilating key leadership skills, pearls on work-life balance, and a broader commitment to life-long education. The Dr. Don Johnson AANA Traveling Fellow",
+      "preview_tail": "ling Fellowship Alumni Group, named in honor of the two-time godfather and AANA Past President, represent an emerging class of leaders within AANA who are poised to contribute immensely to its mission",
+      "full_text": "n and aspects of clinical practice, but also assimilating key leadership skills, pearls on work-life balance, and a broader commitment to life-long education. The Dr. Don Johnson AANA Traveling Fellowship Alumni Group, named in honor of the two-time godfather and AANA Past President, represent an emerging class of leaders within AANA who are poised to contribute immensely to its mission",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "76bbaae5",
+      "n_words": 199,
+      "n_chars": 1110,
+      "preview_head": "at Search Engine Opitimization (SEO) for certain types of businesses. The reason is because some businesses require a hefty following to sell advertising space to other businesses or perhaps have a ve",
+      "preview_tail": "e many social media sites that are media and photo based. Instagram and Pinterest are the most popular. There are also social media sites that are based on the sharing of videos. YouTube and Vimeo are",
+      "full_text": "at Search Engine Opitimization (SEO) for certain types of businesses. The reason is because some businesses require a hefty following to sell advertising space to other businesses or perhaps have a venue to share the up and coming stuff that is happening on the web today. The best way to do social media marketing is to start a WordPress.com account and post once. This one post will then hit all the social sites that you ask it to hit. Here at 2JData, we create all of your social media profiles (unless they are already created) and then we post regular upto date information that will hit all of your social sites. This will create the social media presence that you are looking to create. There are many social media sites that you can choose to post to. Facebook and Twitter are the most popular and the most effective sites to post to. LinkedIn and Google+ are also effective sites to post to. There are many social media sites that are media and photo based. Instagram and Pinterest are the most popular. There are also social media sites that are based on the sharing of videos. YouTube and Vimeo are",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "3696b020",
+      "n_words": 306,
+      "n_chars": 1954,
+      "preview_head": "5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,00",
+      "preview_tail": "ocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket In",
+      "full_text": "5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket Internet company. In 2015 the company received an investment of 5,000,000 euros from the Rocket In",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "4a9d911b",
+      "n_words": 104,
+      "n_chars": 958,
+      "preview_head": "async Task<ObjectResult> getToken() { var secret = \"<direct line secret here>\"; HttpClient client = new HttpClient(); HttpRequestMessage request = new HttpRequestMessage( HttpMethod.Post, $\"https://di",
+      "preview_tail": "y).token; } var config = new ChatConfig() { token = token, userId = userId }; return Ok(config); } } public class DirectLineToken { public string conversationId { get; set; } public string token { get",
+      "full_text": "async Task<ObjectResult> getToken() { var secret = \"<direct line secret here>\"; HttpClient client = new HttpClient(); HttpRequestMessage request = new HttpRequestMessage( HttpMethod.Post, $\"https://directline.botframework.com/v3/directline/tokens/generate\"); request.Headers.Authorization = new AuthenticationHeaderValue(\"Bearer\", secret); var userId = $\"dl_{Guid.NewGuid()}\"; request.Content = new StringContent( Newtonsoft.Json.JsonConvert.SerializeObject( new { User = new { Id = userId } }), Encoding.UTF8, \"application/json\"); var response = await client.SendAsync(request); string token = String.Empty; if (response.IsSuccessStatusCode) { var body = await response.Content.ReadAsStringAsync(); token = JsonConvert.DeserializeObject<DirectLineToken>(body).token; } var config = new ChatConfig() { token = token, userId = userId }; return Ok(config); } } public class DirectLineToken { public string conversationId { get; set; } public string token { get",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "888f089b",
+      "n_words": 140,
+      "n_chars": 774,
+      "preview_head": "surge and intensity of a Las Vegas style club from the comfort of your own home. When playing the openings at a web based betting club you will get the Open door a wide number of spaces with different",
+      "preview_tail": " so natural to start. Just download the free programming that is offered to you as another player and begin playing right away with no complicated setup required. Another reason for their popularity i",
+      "full_text": "surge and intensity of a Las Vegas style club from the comfort of your own home. When playing the openings at a web based betting club you will get the Open door a wide number of spaces with different points and styles. A noteworthy number of the greater web based betting clubs will feature in any event 200 opening games for you to peruse. Today, openings are the game most typically played at land-based club just as web based betting clubs too. One of the central reasons that the electronic type of the game has become so notable is that are so celebrated is that it is so natural to start. Just download the free programming that is offered to you as another player and begin playing right away with no complicated setup required. Another reason for their popularity i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "d7e4eb41",
+      "n_words": 98,
+      "n_chars": 651,
+      "preview_head": "e presented in three conditions, unaltered or with either the vowels or the consonants replaced with speech shaped noise. Sentences from male and female talkers in the TIMIT database were selected. Ba",
+      "preview_tail": ". Words were scored correct if identified exactly. Average performanc...e was significantly worse in all conditions for sentences presented by female talkers compared with male talkers, indicating tha",
+      "full_text": "e presented in three conditions, unaltered or with either the vowels or the consonants replaced with speech shaped noise. Sentences from male and female talkers in the TIMIT database were selected. Baseline performance was established at a 70 dB SPL level using YNH listeners. Subsequently EHI and YNH participants listened at 95 dB SPL. Participants listened to each sentence twice and were asked to repeat the entire sentence after each presentation. Words were scored correct if identified exactly. Average performanc...e was significantly worse in all conditions for sentences presented by female talkers compared with male talkers, indicating tha",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "d57c2202",
+      "n_words": 135,
+      "n_chars": 786,
+      "preview_head": "w, who is this guy?\" It also was a nice touch to include the first-ever appearances of Seinfeld, Garry Shandling, Eddie Murphy, and all the other stand-up legends. Assuming this wasn't put together mo",
+      "preview_tail": " piece waiting for years. In fact, \"Team Conan\" is already working on their Leno is dead montage. Posted by: Dan at January 26, 2005 01:42 PM Post a comment Name: Email Address: URL: Remember personal",
+      "full_text": "w, who is this guy?\" It also was a nice touch to include the first-ever appearances of Seinfeld, Garry Shandling, Eddie Murphy, and all the other stand-up legends. Assuming this wasn't put together months/years ago, I'm impressed that Team Leno assembled such a dynamite package on such short notice. Posted by Stephen Silver at January 25, 2005 12:38 AM Comments Yeah, I thought it was interesting how they also included Letterman in the comic roundup...Ed also did a heart warming appearance on Larry King Live. Posted by: A at January 25, 2005 11:33 AM Of course \"Team Leno\" had that piece waiting for years. In fact, \"Team Conan\" is already working on their Leno is dead montage. Posted by: Dan at January 26, 2005 01:42 PM Post a comment Name: Email Address: URL: Remember personal",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "d26690f1",
+      "n_words": 153,
+      "n_chars": 873,
+      "preview_head": "old relic of the colonial past, and we should find other ways to correct our children. We seem to put the emphasis on punishment rather than correction. Since none of us is perfect, neither Obama nor ",
+      "preview_tail": "n high school, with quarter-inch canes, like cattle. Come on, whose sado-masochistic idea was this anyway? Who gave our young girls dolls, and our young boys toys? It is a shame that we could not have",
+      "full_text": "old relic of the colonial past, and we should find other ways to correct our children. We seem to put the emphasis on punishment rather than correction. Since none of us is perfect, neither Obama nor Portia Simpson Miller included, we all are prone to making mistakes, and school is a place of learning, not the department of corrections, where I understand beatings and floggings are against the law. Since beatings and floggings are a sad reminder of our past experience with slavery, why then would we want to keep doing this? I live in North America now, and it is unacceptable here and not tolerated. I remember growing up in Jamaica, and seeing students being caned in high school, with quarter-inch canes, like cattle. Come on, whose sado-masochistic idea was this anyway? Who gave our young girls dolls, and our young boys toys? It is a shame that we could not have",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "4154b358",
+      "n_words": 138,
+      "n_chars": 767,
+      "preview_head": "have a file named `file.txt`, and you want the user to input a name (let's call this variable `name`) which will be used in an `awk` script. ```sh # User inputs the search term on the command line rea",
+      "preview_tail": "_SEARCH/ { print $0 # Print lines that match NAME_TOSEARCH } ``` To use this with a user-provided name: 1. Modify `myAwk.awk` to replace the hardcoded pattern with the variable: ```awk /var/ {print} #",
+      "full_text": "have a file named `file.txt`, and you want the user to input a name (let's call this variable `name`) which will be used in an `awk` script. ```sh # User inputs the search term on the command line read -p \"Enter the name to search: \" name # Pass the variable 'name' into awk using '-v' awk -v var=\"$name\" '/var/ {print}' file.txt ``` ### Example 2: Using an `awk` Script File (myAwk.awk) If you have a more complex script in a separate `.awk` file, you can still pass the variable from the command line. Content of myAwk.awk: ```awk # This is your awk script /NAME_TO_SEARCH/ { print $0 # Print lines that match NAME_TOSEARCH } ``` To use this with a user-provided name: 1. Modify `myAwk.awk` to replace the hardcoded pattern with the variable: ```awk /var/ {print} #",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "e8e70793",
+      "n_words": 97,
+      "n_chars": 623,
+      "preview_head": "03), low tetanus score below 6.0 (p = 0.002), hyperpyrexia (p = 0.0001), heart failure (p = 0.035), cyanosis (p = 0.008) and crepitations (p = 0.003). Although several management factors were associat",
+      "preview_tail": "r (p = 0.16), and insufficient nursing staff ratio (p = 0.14). In conclusion, early presentation with a low tetanus score, absence of hyperpyrexia, heart failure, cyanosis, and crepitations are crucia",
+      "full_text": "03), low tetanus score below 6.0 (p = 0.002), hyperpyrexia (p = 0.0001), heart failure (p = 0.035), cyanosis (p = 0.008) and crepitations (p = 0.003). Although several management factors were associated with mortality, these failed to meet statistical significance at p < 0.05. These included inadequate ante-natal care (p = 0.12), poor quality of neonatal tetanus prophylaxis (p = 0.18), delayed referral to tertiary center (p = 0.16), and insufficient nursing staff ratio (p = 0.14). In conclusion, early presentation with a low tetanus score, absence of hyperpyrexia, heart failure, cyanosis, and crepitations are crucia",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 10,
+      "hash": "c7b5954f",
+      "n_words": 186,
+      "n_chars": 1235,
+      "preview_head": ". lt is also generally agreed that the indirect effect of attack by hydroxyl radicals from water radiolysis is responsible for a significant portion of the consequences. However, less agreement exists",
+      "preview_tail": " directly by radiation interact with other biomolecules and cellular repair systems, as well as examining their role in mutagenesis. This approach aims at providing comprehensive insights into both im",
+      "full_text": ". lt is also generally agreed that the indirect effect of attack by hydroxyl radicals from water radiolysis is responsible for a significant portion of the consequences. However, less agreement exists on the identities of the significant products of direct DNA ionization. Since existing evidence indicates that direct effects are roughly as important as indirect ones, the long-range objectives of this work are to identify the mechanisms, and to help clarify the importance, of direct ionization effects in DNA. The specific aims for this project, derived from existing evidence and models reported in the literature, are: (1) to continue the effort to identify and characterize the primary products of purine derivatives, and to characterize their subsequent products: (2) to investigate theThe text seems incomplete but I'll provide a logical continuation based on context: (2) to investigate the mechanisms by which these direct ionization effects lead to DNA damage or mutations. This includes studying how primary lesions caused directly by radiation interact with other biomolecules and cellular repair systems, as well as examining their role in mutagenesis. This approach aims at providing comprehensive insights into both im",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 11,
+      "hash": "60a99559",
+      "n_words": 288,
+      "n_chars": 2076,
+      "preview_head": "teRule` to your Magento's root directory\u2019s '.htaccess' file: ``` AddType application/x-www-form-urlencoded \"application/xml\" # Admin URL Rewriting RewriteEngine On RewriteCond %{REQUEST_URI} ^admin/ R",
+      "preview_tail": "al.xml, .htaccess file & core_config_data table. 3) Backup Data Before Reinstallation (As a Last Resort): If all else fails: - Back up your Magento installation. - Uninstall and reinstall the module t",
+      "full_text": "teRule` to your Magento's root directory\u2019s '.htaccess' file: ``` AddType application/x-www-form-urlencoded \"application/xml\" # Admin URL Rewriting RewriteEngine On RewriteCond %{REQUEST_URI} ^admin/ RewriteRule admin\\/(.*) http://yourcustomdomain.com/index.php/admin/$1 [L,R=301] ``` 3. Flush Cache: After making these changes, make sure to clear all caches including the configuration cache. 4. Verify Custom Domain Configuration (if necessary): Ensure that your custom domain is correctly configured in Magento\u2019s system settings under `System -> Domains` and also inside the database (`admin_url` field within core_config_data table). 5. Check Admin URL Syntax: Make sure you are using a valid syntax for admin access, e.g., http://yourcustomdomain.com/admin/ or https://yourcustomdomain.com/index.php/admin/ 6. Clear Cookies and Session Data (Sometimes): If the issue persists after clearing caches: - Clear all cookies from your browser. 7. Check if Admin Login is Enabled: Ensure that admin login functionality has not been disabled in `app/etc/config.xml` file. 8. Browser Incognito Mode (Sometimes): Try accessing the Magento admin panel using an incognito window to rule out any JavaScript-based errors or conflicts with existing browser extensions. If after following these steps you are still unable to login, it may be beneficial for further troubleshooting: - Check server logs and configuration files. - Verify that all necessary database fields have been updated correctly (including `admin_url` in core_config_data). By carefully going through each step above should help resolve the issue. If problems persist after these steps are followed thoroughly: 1) Check Database: Ensure there is no data corruption or errors within your Magento's MySQL configuration. 2) Revert Changes and Recreate Steps: - Temporarily revert back to default admin URL settings in local.xml, .htaccess file & core_config_data table. 3) Backup Data Before Reinstallation (As a Last Resort): If all else fails: - Back up your Magento installation. - Uninstall and reinstall the module t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 12,
+      "hash": "a1edb578",
+      "n_words": 59,
+      "n_chars": 365,
+      "preview_head": "To complete this text: \"Browse Books\" - homepage/Main Menu: \"Books > History\"> The Book Title - impact & The Challenge Subcategories might include specific areas such as 'Military', or perhaps more ge",
+      "preview_tail": "h as 'Military', or perhaps more generic subjects like World War II, Modern Wars etc., providing a wealth of literature to explore and learn from. This is just an assumption based on common structures",
+      "full_text": "To complete this text: \"Browse Books\" - homepage/Main Menu: \"Books > History\"> The Book Title - impact & The Challenge Subcategories might include specific areas such as 'Military', or perhaps more generic subjects like World War II, Modern Wars etc., providing a wealth of literature to explore and learn from. This is just an assumption based on common structures",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 13,
+      "hash": "42fc0c07",
+      "n_words": 42,
+      "n_chars": 345,
+      "preview_head": "and short stature), and appendicular exostoses similar to trichorhinophalangeal syndrome, type II. However, despite physical resemblance to the trichorhinophalangeal syndrome variants, cytological ana",
+      "preview_tail": "richorhinophalangeal syndrome variants, cytological analysis showed a structurally normal chromosome 8 and no mental deficiency was apparent. In addition, morphological congruities between multiple ex",
+      "full_text": "and short stature), and appendicular exostoses similar to trichorhinophalangeal syndrome, type II. However, despite physical resemblance to the trichorhinophalangeal syndrome variants, cytological analysis showed a structurally normal chromosome 8 and no mental deficiency was apparent. In addition, morphological congruities between multiple ex",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 14,
+      "hash": "772a18c5",
+      "n_words": 77,
+      "n_chars": 498,
+      "preview_head": "questions I'm using a JTabbedPane to hold each step in the wizard that I am building. Navigation between steps is doing using the Previous/Next buttons or by selecting a tab. The buttons decrement/inc",
+      "preview_tail": " step. Essentially, I'm having difficulty determinIt seems like you have a question regarding Java and the JTabbedPane component. To assist you better, could you please provide more context or specify",
+      "full_text": "questions I'm using a JTabbedPane to hold each step in the wizard that I am building. Navigation between steps is doing using the Previous/Next buttons or by selecting a tab. The buttons decrement/increment the JTabbedPane's SelectedIndex. I need to validate each step before proceeding to the next step. Essentially, I'm having difficulty determinIt seems like you have a question regarding Java and the JTabbedPane component. To assist you better, could you please provide more context or specify",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 15,
+      "hash": "7db04a2b",
+      "n_words": 241,
+      "n_chars": 1399,
+      "preview_head": "is largely a consequence of the symmetrical design of most mice, accompanied by the lack of either sculpting or sizing. Some mice such as Orthopedic Mice are not only asymmetric but also anatomically ",
+      "preview_tail": "o not require a static grip, and are therefore not a source of static grip fatigue. Static Grip Force and the Mouse Static Grip Force and the Mouse Static Grip Force and the Mouse Static Grip Force an",
+      "full_text": "is largely a consequence of the symmetrical design of most mice, accompanied by the lack of either sculpting or sizing. Some mice such as Orthopedic Mice are not only asymmetric but also anatomically derived and support the bonny structures of the hand, reducing the grip effort. This is not the case with most mice. For example, the standard Microsoft IntelliMouse is not only symmetrical, but also has a relatively flat top surface, and is not anatomically derived. (The IntelliMouse Optical mouse has a slight concavity in the top surface, which is a step in the right direction, but the mouse is still symmetrical and not anatomically derived, and the concavity is not large enough to provide a firm support to the hand.) Consequently, the hand tends to slide off the IntelliMouse, which in turn requires the user to maintain a static grip to keep the hand in place. This grip is not a short-term grip. It is a grip that is maintained, with few if any short-term breaks, throughout the entire mousing session, which is a source of static grip fatigue. Mice that are not only asymmetrical, but also anatomically derived, such as the Orthopedic Mouse, are not only ergonomically shaped, but also do not require a static grip, and are therefore not a source of static grip fatigue. Static Grip Force and the Mouse Static Grip Force and the Mouse Static Grip Force and the Mouse Static Grip Force an",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 16,
+      "hash": "a2a8be26",
+      "n_words": 127,
+      "n_chars": 917,
+      "preview_head": "enjoy a round of golf on the golf course or spend time out on the water kayaking, fishing, or taking in the scenery. Reasonable housing costs, organized sports, volunteer opportunities, modern recreat",
+      "preview_tail": "rt Tariff Inside the Port Authority Port Interpretive Centre Financial Statements Map of Prince Rupert Career Opportunities Board of Directors Executive Team Partners and Links Latest News Web Feature",
+      "full_text": "enjoy a round of golf on the golf course or spend time out on the water kayaking, fishing, or taking in the scenery. Reasonable housing costs, organized sports, volunteer opportunities, modern recreation facilities, community groups and festivals all contribute to a comfortable and fulfilling lifestyle for those living in this community. RELATED LINKS Inside the Port Authority LEARN MORE Career Opportunities LEARN MORE Home Growing Trade and the Economy Competitive Advantages Economic Impact Performance Snapshots Safety and Sustainability Marine Safety Environmental Stewardship Facilities and Operations Navigation Facilities Port Information Guide Information for Operators Daily Vessel Report FAQs Permits Port Tariff Inside the Port Authority Port Interpretive Centre Financial Statements Map of Prince Rupert Career Opportunities Board of Directors Executive Team Partners and Links Latest News Web Feature",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 17,
+      "hash": "8e865b96",
+      "n_words": 127,
+      "n_chars": 747,
+      "preview_head": "re restored to their 'pre-debug' state. I can appreciate this is sometimes useful, and understand why it defaults this way. However - does anyone know if there is an option to disable this functionali",
+      "preview_tail": "k there is no way how disable this functionality directly in VS 2010. Q: A: It seems it's not possible with the Visual Studio Debugger (even though a lot of people seem interested). It would be really",
+      "full_text": "re restored to their 'pre-debug' state. I can appreciate this is sometimes useful, and understand why it defaults this way. However - does anyone know if there is an option to disable this functionality (in VS2010) suhchhat I could set a breakpoint then be confident in disabling that specific bp going forward? A: If you are using the Visual Studio debugger then when doing debug->start new, or debug->attach process from Tools menu and check \"save settings\" checkbox. This will cause to save breakpoints into project for further use. I also think there is no way how disable this functionality directly in VS 2010. Q: A: It seems it's not possible with the Visual Studio Debugger (even though a lot of people seem interested). It would be really",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 18,
+      "hash": "760f3f78",
+      "n_words": 112,
+      "n_chars": 594,
+      "preview_head": "so the query execution time will remain same. Pls correct me if i am wrong? How much work you save, and hence the performance improvement, would depend on the join mechanism of course. It wouldn't sav",
+      "preview_tail": "ll this query give me exact results every time in the same order? I think oracle will get the result in defined order and then will return me first 500 records. But this is not the optimise way i beli",
+      "full_text": "so the query execution time will remain same. Pls correct me if i am wrong? How much work you save, and hence the performance improvement, would depend on the join mechanism of course. It wouldn't save you much on a hash join or a sort-merge, but on a nested loop it will. The first-rows hint could well change the join mechanism to one that will promote savings due to the rownum predicate. Will this query give me exact results every time in the same order? I think oracle will get the result in defined order and then will return me first 500 records. But this is not the optimise way i beli",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 19,
+      "hash": "bbc54e7d",
+      "n_words": 226,
+      "n_chars": 1558,
+      "preview_head": "Exorcizing the Ghost of Mental Imagery. Commentary on: JI Glasgow: \"The Imagery Debate Revisited.\" Computational Intelligence (in press) EXORCIZING THE GHOST OF MENTAL IMAGERY Stevan Harnad Laboratoir",
+      "preview_tail": "ons Glasgow has discussed is their systematic ``data parallelism'': The same data are simultaneously available and processable by a large number (or set) - hence \"parallel\" - processing units, whereas",
+      "full_text": "Exorcizing the Ghost of Mental Imagery. Commentary on: JI Glasgow: \"The Imagery Debate Revisited.\" Computational Intelligence (in press) EXORCIZING THE GHOST OF MENTAL IMAGERY Stevan Harnad Laboratoire Cognition et Mouvement Universite d'Aix Marseille II 13388 Marseille cedex 13, France harnad@cogsci.soton.ac.uk Janice Glasgow has presented some very interesting ideas and findings concerning array representations and the processing of data referring to visible objects, but the connection with imagery seems to be largely interpretive rather than substantive. The problem seems apparent even in Glasgow's term ``depict'', which is used by way of contrast with ``describe''. Now ``describe'' refers relatively unproblematically to strings of symbols, such as those in this written sentence, that are systematically interpretable as propositions describing objects, events, or states of affairs. But what does ``depict'' mean? Ican easily imagine a photograph depicting the Queen's head (say), but it is not clear at all how an array could depict anything other than itself: It would just be another string-like sequence that had to somehow end up being systematically interpretable as describing objects, events or states of affairs in order for any cognitive operations on them even make sense. What does seem unproblematic about the sort of representations Glasgow has discussed is their systematic ``data parallelism'': The same data are simultaneously available and processable by a large number (or set) - hence \"parallel\" - processing units, whereas",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 20,
+      "hash": "fabcbb36",
+      "n_words": 145,
+      "n_chars": 816,
+      "preview_head": "ch could be worked out to complete examples: There is a surface which has only one side. A curve may fill an entire square. There are constant width curves other than a circle. It is possible to color",
+      "preview_tail": "d - I know that if you want a good result in any field of mathematics (apart from some elementary things) then it should be interesting. As an example: take the 3x+1 conjecture. This is simple enough,",
+      "full_text": "ch could be worked out to complete examples: There is a surface which has only one side. A curve may fill an entire square. There are constant width curves other than a circle. It is possible to color the plane with three colors in such a way that everypoint on any line has two different colours. I think there should probably also be some explanation about what 'general audience talk' means. What do we mean by general? Can this include high school teachers, students and their parents, politicians etc., or are these really too many groups to cater for? The answer seems very much dependent on the group addressed - I know that if you want a good result in any field of mathematics (apart from some elementary things) then it should be interesting. As an example: take the 3x+1 conjecture. This is simple enough,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 21,
+      "hash": "3d1e8833",
+      "n_words": 122,
+      "n_chars": 750,
+      "preview_head": "01 Poydras Street in the Central Business District of New Orleans, Louisiana, is a 28-story, -tall high-rise building. Designed by Skidmore, Owings & Merrill, it was built in 1980 as the headquarters ",
+      "preview_tail": "low occupancy. In May 2013, Pan American Life Building became the headquarters for a private equity firm called HCI Equity Partners. The building is known as one of New Orleans' most iconic high-rises",
+      "full_text": "01 Poydras Street in the Central Business District of New Orleans, Louisiana, is a 28-story, -tall high-rise building. Designed by Skidmore, Owings & Merrill, it was built in 1980 as the headquarters for the Pan-American Life Insurance Co. In December 2006, Pan American sold the building to Equastone, a California real estate company. The Hotel Interconteral opened there on September 1st of that year and began operating under its new name - \"Pan American Center\". It was operated by Marriott International until it closed in December 2007 due to low occupancy. In May 2013, Pan American Life Building became the headquarters for a private equity firm called HCI Equity Partners. The building is known as one of New Orleans' most iconic high-rises",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 22,
+      "hash": "0538a697",
+      "n_words": 235,
+      "n_chars": 1439,
+      "preview_head": "se of *C. scheidleri*, the greatest length of the second segment of the antenna and the greatest width of the third palpomer of the maxillary palpus were found in the urban area. The length of the thi",
+      "preview_tail": "----- ------------- ------------- ------------- *Carabus scheidleri* a2 0.93 + 0.02 0.93 + 0.02 0.92 + 0.07 0.90 + 0.07 0.93 + 0.03 0.95 + 0.03 0.89 + 0.01 0.89 + 0.02 0.78 + 0.03 0.83 + 0.06 0.92 + 0",
+      "full_text": "se of *C. scheidleri*, the greatest length of the second segment of the antenna and the greatest width of the third palpomer of the maxillary palpus were found in the urban area. The length of the third segment of the antenna, the length of the fourth segment of the antenna, and the width of the second palpomer of the labial palpus were all greater in the surburban area than in the rural area. Based on the measured traits of *C. violaceus*, the greatest length of the fourth segment of the antenna, and the greatest length and width of the third palpomer of the maxillary palpus, and the greatest length of the elytra were found in the suburban area. In the case of *P. oblongopunctatus*, the length of the third segment of the antenna was the highest in the rural area, whereas the length of the fourth segment of the antenna and the length of tibia was the highest in the suburban area ([Tables 1--3](#T1 T2 T3){ref-type=\"table\"}). ###### Descriptive statistics of morphological traits (mean \u00b1 SE) of *Carabus scheidleri* and *Abax parallelepipedus* Traits Urban Suburban Rural ------------------------- -------- ------------- ------------- ------------- ------------- ------------- ------------- ------------- ------------- ------------- ------------- ------------- ------------- *Carabus scheidleri* a2 0.93 + 0.02 0.93 + 0.02 0.92 + 0.07 0.90 + 0.07 0.93 + 0.03 0.95 + 0.03 0.89 + 0.01 0.89 + 0.02 0.78 + 0.03 0.83 + 0.06 0.92 + 0",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 23,
+      "hash": "d45c9bd2",
+      "n_words": 56,
+      "n_chars": 350,
+      "preview_head": "a series of ink jet printing arrangements were proposed for printing at high speeds across an eight-inch page width employing novel ink ejection mechanisms. The disclosed arrangements utilized a therm",
+      "preview_tail": "nisms. The disclosed arrangements utilized a thermal bend actuator built as part of a monolithic structure. In such arrangements, it is desirable to form larger arrays of ink ejection nozzles so as to",
+      "full_text": "a series of ink jet printing arrangements were proposed for printing at high speeds across an eight-inch page width employing novel ink ejection mechanisms. The disclosed arrangements utilized a thermal bend actuator built as part of a monolithic structure. In such arrangements, it is desirable to form larger arrays of ink ejection nozzles so as to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 24,
+      "hash": "d450b050",
+      "n_words": 74,
+      "n_chars": 479,
+      "preview_head": "\"K * Copyright (C) 2015-20 MaNdelbulber Team \u00a7R-==%w[\"'~5]m%=L.=~5N * ,=mm=\u00a7M ]=4 yJKA\"/-Nsaj \"Bw,==,, * This file is part of Mandelbulber. \u00a7R.r= jw\",M Km .mM FW \",\u00a7=\u00df., ,TN * ,4R =%[\"w[N=7]J '\"5=],\"\"",
+      "preview_tail": " Rz]M\"Kw * you can redistribute it and/or \u00a7w \"xDY.J ' -\"m=====WeC=\\ \"\"%\"\"y=%\"]\"\" \u00a7 * modify it under the terms of the \"\u00a7M=M =D=4\"N #\"%==A%p M\u00a7 M6 R' #\"=~.4M * GNU General PublicLicense as published by",
+      "full_text": "\"K * Copyright (C) 2015-20 MaNdelbulber Team \u00a7R-==%w[\"'~5]m%=L.=~5N * ,=mm=\u00a7M ]=4 yJKA\"/-Nsaj \"Bw,==,, * This file is part of Mandelbulber. \u00a7R.r= jw\",M Km .mM FW \",\u00a7=\u00df., ,TN * ,4R =%[\"w[N=7]J '\"5=],\"\"]]M,w,-; T=]M * Mandelbulber is free software: \u00a7R.\u00df~-Q/M=,=5\"v\"]=Qf,'\u00a7\"M= =,M.\u00a7 Rz]M\"Kw * you can redistribute it and/or \u00a7w \"xDY.J ' -\"m=====WeC=\\ \"\"%\"\"y=%\"]\"\" \u00a7 * modify it under the terms of the \"\u00a7M=M =D=4\"N #\"%==A%p M\u00a7 M6 R' #\"=~.4M * GNU General PublicLicense as published by",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 25,
+      "hash": "c37f1a96",
+      "n_words": 295,
+      "n_chars": 1808,
+      "preview_head": "Q: Analytic Function vs Exponential Order function We say that a function $f$ is of exponential order $\\alpha$ if there exist constants: $M$, $\\alpha$, $T$ such that for $x>T$ $$f(x)<M\\cdot e^{\\alpha ",
+      "preview_tail": "property (such as having a Taylor series representation) versus being bounded by some polynomial expansion is necessary: not all functions that do or don't have these properties will not be classified",
+      "full_text": "Q: Analytic Function vs Exponential Order function We say that a function $f$ is of exponential order $\\alpha$ if there exist constants: $M$, $\\alpha$, $T$ such that for $x>T$ $$f(x)<M\\cdot e^{\\alpha x}The concept you're pointing to relates the growth rate comparison between functions, specifically using an analytic function or any given function \\( f \\) with polynomial order. A function is said to be of \"exponential order\" if its long-term behavior does not evolve more than a certain multiple of some polynomial function. To formalize this: A real-valued constant (or measurable on the negative reals, for example in Laplace transform theory contexts), \\( r(z) \\), defined over an interval starting from 0 or any other point up to infinity is said to be of order at most \u03b1 if there exist parameters M > 0 and T \u2265 0 such that: \\[ |f(t)| < Me^{\\alpha t} \\quad\\text{for all }t>T.\\] Here, \\(M\\) operates as a scaling factor while \\(\\alpha>0\\) controls the growth rate. This definition defines an upper bound on how fast function parameters can evolve relative to some exponential curve. Analytic functions are those that have derivatives of every order in their domain and so they admit Taylor series expansions around any point within this region which converge back to them (in a neighborhood). They also exhibit smoothness properties but the rate at which these functions rise or decline can not be compared against exponentials using above criteria. For instance, integers grow less than linear function as \\(x \\to +\\infty\\) and hence are of order 0 in this context. The difference between an analytic property (such as having a Taylor series representation) versus being bounded by some polynomial expansion is necessary: not all functions that do or don't have these properties will not be classified",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 26,
+      "hash": "f0ed9380",
+      "n_words": 108,
+      "n_chars": 1139,
+      "preview_head": "' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_na",
+      "preview_tail": "+ results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name",
+      "full_text": "' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long__name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name + ', ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[1].long_name",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 27,
+      "hash": "b173a0d5",
+      "n_words": 38,
+      "n_chars": 368,
+      "preview_head": "ende verz&ouml;gerungszeit eingestellt, wird die Beschattung erst nach Ablauf dieser Zeit gefahren.</span><br/><br/>\", \"switchMode\" : \"schalten bei\", \"subset_1\" : \"hochgefahren\", \"subset_2\" : \"herunte",
+      "preview_tail": "gefahren\", \"subset_2\" : \"heruntergefahren\", \"subset_3\" : \"hocH- / heruntergefahren im Wechsel\", \"subset_4\": \"Feuchtigkeit\", \"subset_5\": \"Wasserstand\", \"subset_6\": \"Feuchtigkeit odEr Wasserstand\", \"sub",
+      "full_text": "ende verz&ouml;gerungszeit eingestellt, wird die Beschattung erst nach Ablauf dieser Zeit gefahren.</span><br/><br/>\", \"switchMode\" : \"schalten bei\", \"subset_1\" : \"hochgefahren\", \"subset_2\" : \"heruntergefahren\", \"subset_3\" : \"hocH- / heruntergefahren im Wechsel\", \"subset_4\": \"Feuchtigkeit\", \"subset_5\": \"Wasserstand\", \"subset_6\": \"Feuchtigkeit odEr Wasserstand\", \"sub",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 28,
+      "hash": "06543948",
+      "n_words": 231,
+      "n_chars": 1698,
+      "preview_head": "interaction processes and cooperation in the artifact-technology development, as well as through selection and competition processes in the market and innovation activities (Malerba & Adams, 2013, p. ",
+      "preview_tail": "novation in a sectoral system of innovations can create new value, business models or market structures. It includes both technological as well sociotechnical systems analysis (Geels & Raven). The pap",
+      "full_text": "interaction processes and cooperation in the artifact-technology development, as well as through selection and competition processes in the market and innovation activities (Malerba & Adams, 2013, p. 6). The technological system involves the interaction of network agents in a particular technical area under specific institutional infrastructure that generates, diffuceses or applies new technologies; for instance electricity supply sector systems comprise several actors such as regulators to customers who are interconnected through transactions (Malerba & Adams) The concept was developed initially and empirically tested at national level with some extensions. For example in Italy on regional innovation system which focused both dynamics of the development process, this led into new perspectives that had been lacking about technological change analysis; these insights can help solve practical problems concerning public policies related to sustainability transitions (Geels & Raven) Sociotechnical systems theory has emerged as one way economists analyze economic phenomena like growth rates across countries or industries over time period while sociology provides social science knowledge required by engineers when they design innovative products using engineering principles and methods but not only technology is important since it should be accompanied with organizational capabilities at all levels including management skillset necessary for successful commercialization System innovation in a sectoral system of innovations can create new value, business models or market structures. It includes both technological as well sociotechnical systems analysis (Geels & Raven). The pap",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 29,
+      "hash": "7266d172",
+      "n_words": 63,
+      "n_chars": 432,
+      "preview_head": "data acquired or such analysis can serve as an instrument for the detection of non-identifiable and sloppy parameters, helping planning the experiments and in building and improvement of the model at ",
+      "preview_tail": " practical identifiability are two types of identifiability that need to be considered. Structural identifiability refers to whether it is theoretically possible to uniquely determine a parameter from",
+      "full_text": "data acquired or such analysis can serve as an instrument for the detection of non-identifiable and sloppy parameters, helping planning the experiments and in building and improvement of the model at the early stages. Structural and practical identifiability are two types of identifiability that need to be considered. Structural identifiability refers to whether it is theoretically possible to uniquely determine a parameter from",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 30,
+      "hash": "08900bd2",
+      "n_words": 115,
+      "n_chars": 776,
+      "preview_head": "Helping to Secure Your Financial Future Contact Us 4010 West Boy Scout Boulevard Suite 260 Tampa, FL 33607 Phone: 813-288-0055 Fax: 813-289-2804 E-mail address: sbrotz@brokersifs.com sharris@brokersif",
+      "preview_tail": "019 Retirement Confidence SurIt seems you've provided me with some text related to a financial advisory group and their services. Is there anything specific you'd like to know or any further details I",
+      "full_text": "Helping to Secure Your Financial Future Contact Us 4010 West Boy Scout Boulevard Suite 260 Tampa, FL 33607 Phone: 813-288-0055 Fax: 813-289-2804 E-mail address: sbrotz@brokersifs.com sharris@brokersifs.com Home About Us Stephen M. Brotz Scott S. Harris, CFP\u00ae FIVE-STEP EDUCATIONAL PROCESS Our Location Tell A Friend Resources Articles Calculators Flipbooks Newsletters Glossary Tax Library Videos Market Watch Detailed Quotes Symbol Lookup Multi Quote Markets at a Glance Charting Portfolios Contact Us \u25ba \u2759\u2759 40% of U.S. workers have saved less than $25,000 for retirement.* *2019 Retirement Confidence SurIt seems you've provided me with some text related to a financial advisory group and their services. Is there anything specific you'd like to know or any further details I",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 31,
+      "hash": "64d14f47",
+      "n_words": 161,
+      "n_chars": 1118,
+      "preview_head": "cisions from the Florida Supreme Court have prompted the National Council on Compensation Insurance (NCCI) to file a 19.6 percent rate increase with the Florida Office of Insurance Regulation (OIR) fo",
+      "preview_tail": "ative costs significantly as attorneys may now charge higher fees based on case complexity rather than a fixed schedule. This could lead to increased legal expenses for insurers, which are expected to",
+      "full_text": "cisions from the Florida Supreme Court have prompted the National Council on Compensation Insurance (NCCI) to file a 19.6 percent rate increase with the Florida Office of Insurance Regulation (OIR) for all new, renewal and existing policies in effect on a \u201cpro-rata\u201d basis. This change is due to take effect on October 1, 2016. Why the change? The recommended change is a result of two major court rulings: One in April(MARVIN CASTELLANOS,Petitioner, vs.NEXT DOORCOMPANY, et al.,Respondents)where the Florida Supreme Court ruled the mandatory attorney fee schedule for workers compensation was unconstitutional, and a second state Supreme Court ruling in June(BRADLEY WESTPHAL,Petitioner, vs.CITY OF ST. PETERSBURG, etc., et al.,Respondents)that ruled the 104week statutory limitation on temporary total disability benefits was unconstitutional.NCCI expects the attorney fee ruling to increase litigation and administrative costs significantly as attorneys may now charge higher fees based on case complexity rather than a fixed schedule. This could lead to increased legal expenses for insurers, which are expected to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 32,
+      "hash": "0ec234f3",
+      "n_words": 91,
+      "n_chars": 574,
+      "preview_head": "s character Eddie Mannix as he navigates a series of kidnappings on film sets orchestrated by a group called \"The Future.\" This comedy adventure features Hollywood icons such George Clooney, Scarlett ",
+      "preview_tail": "his year (2017), critics have given high praise to its production design which captures vintage era details meticulously from start finish; one might even feel transported back into those glorious old",
+      "full_text": "s character Eddie Mannix as he navigates a series of kidnappings on film sets orchestrated by a group called \"The Future.\" This comedy adventure features Hollywood icons such George Clooney, Scarlett Johansson and Ralph Fiennes. Although it did not receive an Oscar nomination for Best Picture or any other awards at the 89th Academy Awards Ceremony held in February later this year (2017), critics have given high praise to its production design which captures vintage era details meticulously from start finish; one might even feel transported back into those glorious old",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 33,
+      "hash": "60c38476",
+      "n_words": 277,
+      "n_chars": 2067,
+      "preview_head": "substrate, followed by patterning of the nano-sized feature structures through exposure to ultraviolet light. 3 Method for Manufacturing Fine Patterns Embodiments described herein present an alternati",
+      "preview_tail": "ed over feature sizes within micrometer to nanometer scales, but also efficiency improvements are anticipated owing better useable surface areas per total deposition. Moreover with less waste material",
+      "full_text": "substrate, followed by patterning of the nano-sized feature structures through exposure to ultraviolet light. 3 Method for Manufacturing Fine Patterns Embodiments described herein present an alternative method that combines advances in photolithography with innovative materials and processes. The novel manufacturing process is designed specifically targeting small-scale components where precise control over dimensions becomes critical due either from the physical limitations of current technology or strategic design considerations within device architectures. The core technique involves depositing a thin film layer onto substrates which can support nanometer-sized structures, using techniques like atomic-layer deposition (ALD) to ensure molecular-level precision in material composition and thickness. Following this initial step is an exposure process under controlled conditions where the surface of that deposited films undergoes selective changes due UV radiation. A photomask with desired pattern details would then be placed over or directly onto these altered areas during light illumination, enabling precise replication down to nanoscale levels using deep ultraviolet (DUV) lasers. Post-exposure development processes involve the use of chemical solvents which etch away unwanted regions from beneath and above where no UV-induced changes have occurred. Subsequently a metal deposition step is carried out wherein targeted areas with patterns are further processed to ensure robustness, conductivity or other specific material properties required by design parameters. Finally an additional process like wet-chemical treatments might be performed for improving adhesion between the substrate materials and those deposited metals structures in addition enhancing pattern sharp edges. Through this approach not only is a high degree of control achieved over feature sizes within micrometer to nanometer scales, but also efficiency improvements are anticipated owing better useable surface areas per total deposition. Moreover with less waste material",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 34,
+      "hash": "e3175486",
+      "n_words": 246,
+      "n_chars": 1649,
+      "preview_head": "ills and make an impact within the company. What You'll Learn: - financial Analysis: Gain expertise in analyzing financial statements, market trends, and investment opportunities. - Corporate Strategy",
+      "preview_tail": "te program description within corporate advisory firms like E&P (Equity & Premium). For specific details and updates related to their programs, it's best to refer directly to their official website or",
+      "full_text": "ills and make an impact within the company. What You'll Learn: - financial Analysis: Gain expertise in analyzing financial statements, market trends, and investment opportunities. - Corporate Strategy: Understand how strategic decisions are made at a corporate level and contribute to shaping these strategies. - Client Relations: Develop strong communication skills by working closely with clients and understanding their needs. What We Offer: - A structured program designed to enhance your knowledge and skills in the finance industry. - Opportunities for networking with professionals across various departments. - Supportive mentors who will guide you through your career development journey. Ideal Candidate Profile: - Recent graduates from a recognized university, preferably with a degree in Finance, Economics, Business Administration, or related - Strong and problem-solving skills. - Excellent communication abilities both written and verbal. - A approach to learning and professional growth. If you are passionate about finance and eager to start your career on the right foot, our Graduate Program could be an excellent opportunity for you. Apply today and take the first step towards a successful future in the financial services industry! for more information or to apply, please visit our Careers page or contact us directly through the provided channels. --- Please note that this completion is based on typical elements of a graduate program description within corporate advisory firms like E&P (Equity & Premium). For specific details and updates related to their programs, it's best to refer directly to their official website or",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 35,
+      "hash": "2facc7c7",
+      "n_words": 302,
+      "n_chars": 2328,
+      "preview_head": "imethicone on pharmacokinetics and pharmacodynamics of ethyl biscoumacetate]. The influence of dimeticone (Gel de Polysilane Midy) on thepharmacokinetics and pharmacodynamics of oral ethyl biscoumacet",
+      "preview_tail": "ethod incorporating dimeticone gel could potentially lead to better therapeutic response in treating dermatological conditions targeted by ethyl bis coumacetate, warranting further investigation into ",
+      "full_text": "imethicone on pharmacokinetics and pharmacodynamics of ethyl biscoumacetate]. The influence of dimeticone (Gel de Polysilane Midy) on thepharmacokinetics and pharmacodynamics of oral ethyl biscoumacetate was studied in 6 healthy volunteers in a randomised single dose, two-way cross-over study. Each volunteer received at one week interval a single dose (300 mg) of ethyl biscouThe influence of dimeticone (Gel de Polysilane Midy) on the pharmacokinetics andPharmacodynamics of oral ethyl bis coumacetate was studied in 6 healthy volunteers in a randomised,single-dose, two-way crossover study. Each volunteer received at one-week intervals a single dose (300 mg)of either plain ethyl biscoumar cetat or dimeticone-coated/complexed with oral ethy bis coumacetate. The primary objectives were to evaluate whether the presence and quantity in which this particular gel interacts would affect absorption, distribution elimination kinetics i.e., pharmacokinetics (PK), aswellas biological activity within target sites indicating its efficacy - Pharmacodynamics(PD). Plasma levels of etyl biscoumar cetat post oraladministration for PK assessment was followedup with an examinationon skin conditions like erythema and dryness to assess PD. Data were analyzed using statistical methods suitable comparing the bioavailability, half-life (t\u00bd), area under curve from 0-to-last observation carried forward(AUC) values of ethyl biscoumar cetat Between two formulations across volunteers. Safety assessments included evaluation foradverse reactions experienced by participants during study period. Results indicated that dimeticone gel significantly enhanced plasma concentration-time profile parameters such as Cmax, AUC(\u221e), and t\u00bd suggesting improved PK profiles likely due to slower dissolution of bis coumacetate underthe protective layer formed when mixed with polymer. In relationPD outcomes showed a prolonged duration effect on both erythema reduction efficacy compared uncoated oral tablet counterpart indicating sustained activity possibly owingaltered systemic absorption rates. This study implies that inclusion or application method incorporating dimeticone gel could potentially lead to better therapeutic response in treating dermatological conditions targeted by ethyl bis coumacetate, warranting further investigation into ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 36,
+      "hash": "24152207",
+      "n_words": 47,
+      "n_chars": 475,
+      "preview_head": "f the Apache 2.0 license. See LICENSE in the project root. package com.yahoo.vespa.hosted.controller.api.integration.configserver; import com.yahoo.config.provision.ApplicationId; import com.yahoo.con",
+      "preview_tail": "p; import java.util.stream.Collectors; /** * The client-side version of the node repository's view of applicationstates, providing the necessary information for the config server to manage the applica",
+      "full_text": "f the Apache 2.0 license. See LICENSE in the project root. package com.yahoo.vespa.hosted.controller.api.integration.configserver; import com.yahoo.config.provision.ApplicationId; import com.yahoo.config.provision.ClusterSpec; import java.util.Collection; import java.util.Map; import java.util.stream.Collectors; /** * The client-side version of the node repository's view of applicationstates, providing the necessary information for the config server to manage the applica",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 37,
+      "hash": "fbddd2a9",
+      "n_words": 62,
+      "n_chars": 472,
+      "preview_head": "pursue careers working with These courses typically cover developmental theories, assessment methods, interventions tailored specifically towards young people and their families, considerations in pra",
+      "preview_tail": "tial for advancing knowledge within this specialized area of psychology. If you're interested in learning about specific programs or would like assistance finding the course to suit your needs, please",
+      "full_text": "pursue careers working with These courses typically cover developmental theories, assessment methods, interventions tailored specifically towards young people and their families, considerations in practice settings involving minors, as well as research methodologies essential for advancing knowledge within this specialized area of psychology. If you're interested in learning about specific programs or would like assistance finding the course to suit your needs, please",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 38,
+      "hash": "00a675ec",
+      "n_words": 233,
+      "n_chars": 1307,
+      "preview_head": "\u25ba August (31) \u25ba July (31) \u25ba June (30) \u25ba May (31)\u25ba April (30) \u25ba March (31) \u25ba February (29) \u25ba January (31)\u25bc 2015 (365)\u25bc December (31) New Year's Rikers Island New York Pride New York Citizen Where to Li",
+      "preview_tail": "gust (31) \u25ba July (31) \u25ba June (30)\u25baMay (31) \u25ba April (30) \u25ba March (31) \u25ba February (29) \u25ba January (31) \u25ba 2011(366) \u25ba December (31) \u25ba November (30) \u25ba October (31) \u25ba September(30) \u25ba August(31) \u25ba July (31) ",
+      "full_text": "\u25ba August (31) \u25ba July (31) \u25ba June (30) \u25ba May (31)\u25ba April (30) \u25ba March (31) \u25ba February (29) \u25ba January (31)\u25bc 2015 (365)\u25bc December (31) New Year's Rikers Island New York Pride New York Citizen Where to Live Today ChristmasSpirit Bright andGay Surprising Old World New York Things Theory Bastard DifferentGalaxy Sensory Explosion Act of Faith Night and Day Siamese Twins NewYork Cathedrals All of Everything Power Vanilla Friendliest Leave of Absence Island Make Good Humble Pie Real People Wild Growth Primal Planet Horror Museum \u25ba November (30) \u25ba October (31) \u25ba September (30) \u25ba August (31) \u25ba July (31) \u25ba June(30) \u25baMay (31)\u25ba April (30)\u25ba March (31) \u25ba February(28)\u25ba January (31)\u25ba 2014(365) \u25ba December(31) \u25ba November(30) \u25ba October (31) \u25ba September (30) \u25ba August (31)\u25ba July (31) \u25ba June (30) \u25ba May (31) \u25ba April (30) \u25ba March (31) \u25ba February (28) \u25baJanuary (31) \u25ba 2013(365) \u25ba December (31) \u25ba November (30) \u25ba October (31)\u25ba September (30) \u25ba August (31) \u25ba July(31) \u25ba June(30) \u25ba May (31) \u25ba April(30)\u25ba March (31) \u25baFebruary (28) \u25ba January (31) \u25ba 2012 (366) \u25ba December (31) \u25ba November (30) \u25ba October (31) \u25baSeptember (30) \u25ba August (31) \u25ba July (31) \u25ba June (30)\u25baMay (31) \u25ba April (30) \u25ba March (31) \u25ba February (29) \u25ba January (31) \u25ba 2011(366) \u25ba December (31) \u25ba November (30) \u25ba October (31) \u25ba September(30) \u25ba August(31) \u25ba July (31) ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 39,
+      "hash": "23242ad2",
+      "n_words": 92,
+      "n_chars": 584,
+      "preview_head": "Nominated by President Clinton, Hayden was retained by President Bush. During the months prior to 9-11, Richard Clarke, the counterterrorism czar for both of those presidents, stated that \"eighty to n",
+      "preview_tail": "l directors of the CIA, such as Gen. Beedle Smith (Gen. Dwight Eisenhower's chief of staff) and John McCone (utility executive and head of the Atomic Energy Commission), each of whom had managed a lar",
+      "full_text": "Nominated by President Clinton, Hayden was retained by President Bush. During the months prior to 9-11, Richard Clarke, the counterterrorism czar for both of those presidents, stated that \"eighty to ninety percent of our quality intelligence came from the NSA.\" Hayden's success at the largest of America's intelligence agencies is consistent with the background of the most successful directors of the CIA, such as Gen. Beedle Smith (Gen. Dwight Eisenhower's chief of staff) and John McCone (utility executive and head of the Atomic Energy Commission), each of whom had managed a lar",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 40,
+      "hash": "9a5045f0",
+      "n_words": 49,
+      "n_chars": 315,
+      "preview_head": "have Contextual Alternates and Standard Ligatures turned on in your Opentype menu. lumen Script also has a set of small caps, designed to sit comfortably alongside the standard letters, allowing you t",
+      "preview_tail": "mall caps, designed to sit comfortably alongside the standard letters, allowing you to change your tone without changing typeface. Lumen Script is also versed in multiple languages, with many accented",
+      "full_text": "have Contextual Alternates and Standard Ligatures turned on in your Opentype menu. lumen Script also has a set of small caps, designed to sit comfortably alongside the standard letters, allowing you to change your tone without changing typeface. Lumen Script is also versed in multiple languages, with many accented",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 41,
+      "hash": "a87ef586",
+      "n_words": 255,
+      "n_chars": 1516,
+      "preview_head": "le to take a Level 2 or 3 in Spirits alone. Haven\u2019t found one offered remotely near me yet! Get back to Denver to visit Stranahan\u2019s again, see if I can get a taste of their annually made limited editi",
+      "preview_tail": "or spirits. You can also seek her marketing advice via Eve@EveBushmanConsulting.com Filed Under: Eve Bushman Tagged With: bourbon, California, cocktail event, cocktails on the roof, double trouble win",
+      "full_text": "le to take a Level 2 or 3 in Spirits alone. Haven\u2019t found one offered remotely near me yet! Get back to Denver to visit Stranahan\u2019s again, see if I can get a taste of their annually made limited edition bourbon whiskey. Get back to Park City to go to High West Distillery again as some of their spirits aren\u2019t sold in here in California. Continue my education on peated single malt whisky by attending LA Scotch Club\u2019s annual Peatin\u2019 Meetin\u2019 again. Take more classes at the Nth Show aka Universal Whisky Experience in Vegas early April\u2026even though my husband may ditch me just to taste. Make it to at least one meeting, aka tasting, of the no-longer-new LA Chapter of Women Who Whisky Club! ## i hope to receive a comment or an email (eve@evewine101.com) with what your drinking resolutions are, I had so much fun making up mine! Eve Bushman has a Level Two Intermediate Certification from the Wine and SpIrits Education Trust (WSET), a \u201ccertification in first globally-recognized course\u201d as an American Wine Specialist \u00ae from the North American Sommelier Association (NASA), Level 1 Sake Award from WSET, was the subject of a 60-minute Wine Immersion video, authored \u201cWine Etiquette for Everyone\u201d and has served as a judge for the Long Beach Grand Cru. You can email Eve@EveWine101.com to ask a question about wine or spirits. You can also seek her marketing advice via Eve@EveBushmanConsulting.com Filed Under: Eve Bushman Tagged With: bourbon, California, cocktail event, cocktails on the roof, double trouble win",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 42,
+      "hash": "75ddd58b",
+      "n_words": 195,
+      "n_chars": 1220,
+      "preview_head": "web site? If you do, the Pacific Products Gallery Partners Program may be for you! Offering a large selection of unique gifts and collectibles, the Pacific Products Gallery has become one of the leadi",
+      "preview_tail": " miss out on this opportunity to monetize your traffic and grow your income. Sign up today and start earning 10% commission on every sale\u2014no hidden fees, no long-term commitments. The Pacific Products",
+      "full_text": "web site? If you do, the Pacific Products Gallery Partners Program may be for you! Offering a large selection of unique gifts and collectibles, the Pacific Products Gallery has become one of the leading shopping sites on the Internet. By becoming a Pacific Products Gallery Partner, you will receive the following benefits: Earn 10 percent commission. Join for free...Stop at any time. All sales qualify. Track your sales in real time. Easy to join...you can get started today! The Pacific Products Gallery Partners Program is simple to The Pacific Products Gallery Partners Program is simple to join and start earning. Just visit our website, sign up in minutes, and begin promoting our products to your audience. Whether you have a blog, a social media platform, or a traditional website, integrating our products into your content is quick and hassle-free. Plus, with our user-friendly dashboard, you can monitor your performance and earnings in real-time, making it easier than ever to manage your partnership. Don\u2019t miss out on this opportunity to monetize your traffic and grow your income. Sign up today and start earning 10% commission on every sale\u2014no hidden fees, no long-term commitments. The Pacific Products",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 43,
+      "hash": "1e74a8d5",
+      "n_words": 45,
+      "n_chars": 264,
+      "preview_head": "ities in Portugal, then head inland to Serra da Estrela, the country\u2019s first and largest nIt seems like your message contains a text snippet about the Serra da Estrela region of central Portugal. Woul",
+      "preview_tail": "ntry\u2019s first and largest nIt seems like your message contains a text snippet about the Serra da Estrela region of central Portugal. Would you like me to extract any specific information from this text",
+      "full_text": "ities in Portugal, then head inland to Serra da Estrela, the country\u2019s first and largest nIt seems like your message contains a text snippet about the Serra da Estrela region of central Portugal. Would you like me to extract any specific information from this text",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 44,
+      "hash": "5a26358b",
+      "n_words": 71,
+      "n_chars": 399,
+      "preview_head": "f Mexico and the Antilles. This fish can grow up to 30 cm (12 inches) in length. Like other pufferfish, it has the ability to inflate its body with water or air when threatened, making itself appear l",
+      "preview_tail": "larger and more difficult for predators to swallow. The southern puffer is generally a solitary species but may form small aggregations during certain times of the year. It feeds on a variety of benth",
+      "full_text": "f Mexico and the Antilles. This fish can grow up to 30 cm (12 inches) in length. Like other pufferfish, it has the ability to inflate its body with water or air when threatened, making itself appear larger and more difficult for predators to swallow. The southern puffer is generally a solitary species but may form small aggregations during certain times of the year. It feeds on a variety of benth",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 45,
+      "hash": "f338f5f6",
+      "n_words": 255,
+      "n_chars": 3332,
+      "preview_head": "k Initialization and teardown - (id)initWithFirstStageVertexShaderFromString:(NSString *)firstStageVertexShaderString firstStageFragmentShaderFromString:(NSString *)firstStageFragmentShaderString seco",
+      "preview_tail": "olor(cgContext, CGColorCreateCGColorSpace(NULL, NULL, components)); if (cgImage != NULL) { [secondProgramUniformStateRestorationBlocks setObject:image forKey:@\"picture\"]; CGBitmapRelease(picture); } }",
+      "full_text": "k Initialization and teardown - (id)initWithFirstStageVertexShaderFromString:(NSString *)firstStageVertexShaderString firstStageFragmentShaderFromString:(NSString *)firstStageFragmentShaderString secondStageVertexShaderFromString:(NSString *)secondStageVertexShaderString secondStageFragmentShaderFromString:(NSString *)secondStageFragmentShaderString; { if (!(self = [super initWithVertexShaderFromString:firstStageVertexShaderString fragmentShaderFromString:firstStageFragmentShaderString])) { return nil; } secondProgramUniformStateRestorationBlocks = [NSMutableDictionary dictionaryWithCapacity:10]; runSynchronouslyOnVideoProcessingQueue(^{ [GPUImageContext us#import \"GPUImageTwoPassFilter.h\" @implementation GPUImageTwoPassFilter #syntax mark - #syntax mark Initialization and teardown - (id)initWithFirstStageVertexShaderFromString:(NSString *)firstStageVertexShaderString firstStageFragmentShaderFromString:(NSString *)firstStageFragmentShaderString secondStageVertexShaderFromString:(NSString *)secondStageVertexShaderString secondStageFragmentShaderFromString:(NSString *)secondStageFragmentShaderString; { if (!(self = [super initWithVertexShaderFromString:firstStageVertexShaderString fragmentShaderFromString:firstStageFragmentShaderString])) { return nil; } // Initialize the restoration blocks secondProgramUniformStateRestorationBlocks = [NSMutableDictionary dictionaryWithCapacity:10]; runSynchronouslyOnVideoProcessingQueue(^{ // Use a new GPU image context with the specified vertex and fragment shaders. GPUImageContext *imageContext = [[GPUImageContext alloc] initWithVertexShaderFromString:firstStageVertexShaderString fragmentShaderFromString:firstStageFragmentShaderString]; // Get the current graphics context CGContextRef graphicsContext = CGBitmapCreateCGImage(NULL, 0, 0); if (graphicsContext == NULL) { return; } // Create a new GPU image filter with three passes. self.filter1 = [[GPUImageTwoPassFilter alloc] initWithFirstStageVertexShaderFromString:firstStageVertexShaderString firstStageFragmentShaderFromString:firstStageFragmentShaderString secondStageVertexShaderFromString:secondStageVertexShaderString]; self.filter2 = [[GPUImageTwoPassFilter alloc] initWithSecondStageVertexShaderFromString:secondStageVertexShaderString fragmentShaderFromString:firstStageFragmentShaderString]; // add the filters to a second image context. [imageContext addFilters:@[self.filter1, self.filter2]]; // Find an array of all graphics contexts that are now being used by this GPU image filter NSArray *graphicsContexts = [GPUImageContext getGraphicsContextsWithFilter:self]; // Restore the state for each graphics context. for (CGContextRef cgContext in graphicsContexts) { CGColorSpaceRef colorSpace; CGFloat components[4] = {0, 0, 0, 255}; // Make a new picture with alpha channel CGImageRef image = CGBitmapCreateImage(cgContext, 1.0f [self.filter2].size.height); if (picture == NULL) { begin; } // Find the colour space of the graphics context CGColorSpaceRef cgColorspace = CGBitmapGetColorspace(cgContext); // Create a new picture with alpha channel that matches the color space. CGContextSetFillColorWithColor(cgContext, CGColorCreateCGColorSpace(NULL, NULL, components)); if (cgImage != NULL) { [secondProgramUniformStateRestorationBlocks setObject:image forKey:@\"picture\"]; CGBitmapRelease(picture); } }",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 46,
+      "hash": "e4816317",
+      "n_words": 226,
+      "n_chars": 1340,
+      "preview_head": "CV) UNITED STATES OF AMERICA; et al., Defendants -Appellees.) ________________________________ APPEAL FROM THE UNTIED STATES DISTRICT COURT FOR the NORTHERN DISTric tOF OKLAHOMA (D.Ct No: CV) Before H",
+      "preview_tail": "and relevant legal authority we concludethat t he distric tcourt correctly dismi ssed Brow n 's complaint as frivolous. Accordingly w e AFFIRM for substantially those reasons set forth in th edist ric",
+      "full_text": "CV) UNITED STATES OF AMERICA; et al., Defendants -Appellees.) ________________________________ APPEAL FROM THE UNTIED STATES DISTRICT COURT FOR the NORTHERN DISTric tOF OKLAHOMA (D.Ct No: CV) Before HARTZ, SEYMOU R and BACHARA CH Circuit Judges. Robert Louis Brown (\"Brown\"), a federal prisoner proceeding pro se , appeals from an order of the district court dismiss ing his civil complaint as frivolous pursuant to 28 U.S .C \u00a7195 -3(b). We review de novo whethera complain tis legally or factually fr i volou s and we may affirm on any basis supported bythe record ,see Denton v Wash ington, 460 US.. ( 28U.S C . \u00a7195 -3(b)) requires district courts to dismiss complaints broughtby prisoners seeking redress from a governmental entity or officer if the complaint is frivolous or malicious , fails t o statea claim upon which relief may be granted, or seeks monetary rel i ef fro m an immune defendant. A complaint canbe dismissed as factually fr iv olou sif it lacks and arguable basis either in law ordi n fa ct., see Neitzke v Williams 490 U .S .. (182( )). After carefully reviewing Brown'a appellate brief, the district court\u2019sorde r ,and relevant legal authority we concludethat t he distric tcourt correctly dismi ssed Brow n 's complaint as frivolous. Accordingly w e AFFIRM for substantially those reasons set forth in th edist ric",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 47,
+      "hash": "1568ac06",
+      "n_words": 58,
+      "n_chars": 440,
+      "preview_head": "ntal Assistant ProgWelcome to WJ Towell Dental Clinic Contact Us: +96826895453, tki.info@wjtowell.com --- ## Menu: 1. [A Welcome Note](https://www.wj-towellsdentalclinic.com/welcome) - Discover our co",
+      "preview_tail": ". Who we are * Our Story [Read about the journey of WJ Towell Dental Clinic.](https://wjtodds.info/our-story) * Meet The Team ![Our dedicated team](team-photo.jpg) 3. [Latest News & Updates](#) - Stay",
+      "full_text": "ntal Assistant ProgWelcome to WJ Towell Dental Clinic Contact Us: +96826895453, tki.info@wjtowell.com --- ## Menu: 1. [A Welcome Note](https://www.wj-towellsdentalclinic.com/welcome) - Discover our commitment to excellence in dental care. 2. Who we are * Our Story [Read about the journey of WJ Towell Dental Clinic.](https://wjtodds.info/our-story) * Meet The Team ![Our dedicated team](team-photo.jpg) 3. [Latest News & Updates](#) - Stay",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 48,
+      "hash": "3d87b307",
+      "n_words": 101,
+      "n_chars": 646,
+      "preview_head": "en Campbell, the SNP MSP, emphasized that the Scottish Parliament has a clear mandate to hold a referendum. She stated, \u201cIt is crucial that the UK government respects the democratic will of the Scotti",
+      "preview_tail": "at Westminster to ignore the will of the Parliament and block a referendum. \u201cThe Scottish Government has a cast-iron democratic mandate to bring forward a referendum on independence, giving the people",
+      "full_text": "en Campbell, the SNP MSP, emphasized that the Scottish Parliament has a clear mandate to hold a referendum. She stated, \u201cIt is crucial that the UK government respects the democratic will of the Scottish people. Scotland has the right to decide its future, especially given the significant Remain vote. Ignoring this mandate would be a grave mistake.\u201d It is would be undemocratic, indefensible and completely unsustainable for the Tory government at Westminster to ignore the will of the Parliament and block a referendum. \u201cThe Scottish Government has a cast-iron democratic mandate to bring forward a referendum on independence, giving the people",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 49,
+      "hash": "cbfcd2e7",
+      "n_words": 260,
+      "n_chars": 1694,
+      "preview_head": "s are in. HOPE BLOOMS By Donna Kelso April is cancer awareness month. We all know someone who has been touched by this dreaded disease. In preparation for April \u2013 and Easter \u2013 the Kiwanis Club of Osoy",
+      "preview_tail": "d a camera, Issuu offers tips tailored specifically for beginner photographers, helping them understand how they can take better photos. Whether you're interested in landscape photography or capturing",
+      "full_text": "s are in. HOPE BLOOMS By Donna Kelso April is cancer awareness month. We all know someone who has been touched by this dreaded disease. In preparation for April \u2013 and Easter \u2013 the Kiwanis Club of Osoyoos will be selling bunches of daffodils in Osoyoos on Friday, March 27 and Saturday, March 28. The Canadian Cancer Society says: Come and check out our selection of garden seeds. We also carry organic and non GMO seeds! Congratulations to the Osoyoos Coyotes Junior B Hockey Club on a terrific season and playoff run! At the time of printing, the Coyotes are set to take the Okanagan Division of thIssuu is an online platform that allows users to publish long-form content such as magazines, catalogs, newspapers, books, eBooks, and more. It provides a space for creators from various industries\u2014including design, marketing, publishing, and media\u2014to share their work with the world. When browsing Issuu's website or one of its published works in full-screen mode, users can experience interactive content that includes features like embeds, digital sales statistics tracking, article stories, visual storytelling through images, videos, and infographics (known as \"Visual Stories\"), and Search Engine Optimization tools to enhance visibility online. These are part of the platform's comprehensive set of features designed for designers, marketers, social media managers, publishers, and others involved in content creation. For those new to photography or looking to improve their skills behind a camera, Issuu offers tips tailored specifically for beginner photographers, helping them understand how they can take better photos. Whether you're interested in landscape photography or capturing",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 50,
+      "hash": "16c34b33",
+      "n_words": 36,
+      "n_chars": 280,
+      "preview_head": "latest in high performance. Read More \u2192 [Sportsbikes] - \"RidingAcross America\" Documentary Review : An inspiring journey on two wheels!See what we thought of this documentary about motorcycle travel a",
+      "preview_tail": "ocumentary Review : An inspiring journey on two wheels!See what we thought of this documentary about motorcycle travel and adventure acrossNorth American landscapes, from AlaskatoArgentina...[Reviews ",
+      "full_text": "latest in high performance. Read More \u2192 [Sportsbikes] - \"RidingAcross America\" Documentary Review : An inspiring journey on two wheels!See what we thought of this documentary about motorcycle travel and adventure acrossNorth American landscapes, from AlaskatoArgentina...[Reviews ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 51,
+      "hash": "7969a34e",
+      "n_words": 163,
+      "n_chars": 1068,
+      "preview_head": "l Master, afterOlaf Barda, in 1961. He won four Norwegian chess championships, in 1959, 1962, 1970 and 1973. According to ChessBase, Johannessen had a wideopening repertoire. He played most of the reg",
+      "preview_tail": "te the game in Norway, contributing significantly to its growth in popularity during hislifetime. Beyond his chess career, Svein Johannessen was a respected teacher and author. He wrote several books ",
+      "full_text": "l Master, afterOlaf Barda, in 1961. He won four Norwegian chess championships, in 1959, 1962, 1970 and 1973. According to ChessBase, Johannessen had a wideopening repertoire. He played most of the regular opening moves with White with some frequency, 1.d4, 1.e4, 1.c4 and 1.Nf3. With Black against 1.e4 he frequently entered the \"open\" games with2... f6 or 2... d5, whileagainst1.d4 he often chosethe Queen's Gambit (1... d5) and the Scandinavian Defense (1... d3). This flexibility allowed him to surprise opponents with less common variations and kepthis gamesdynamic and complex. Johannessen was known for his strategic thinking, strong endgame skills, and ability to play well under pressure. His contributions to Norwegian chess were not only through his personal achievements but also as a coach and mentor to many aspiring players. He worked tirelessly to promote the game in Norway, contributing significantly to its growth in popularity during hislifetime. Beyond his chess career, Svein Johannessen was a respected teacher and author. He wrote several books ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 52,
+      "hash": "f2cd6f87",
+      "n_words": 194,
+      "n_chars": 1187,
+      "preview_head": "e in another thread that those 3 players could be combined for Kevin Garnett. Way too much talent for simply GWaThe idea of swapping Stephen Jackson and his hefty contract with the San Antonio Spurs (",
+      "preview_tail": "s been inconsistent), it would be a questionable move given the team already needs someone who can score but also contribute defensively which both players mentioned are known more offensively than on",
+      "full_text": "e in another thread that those 3 players could be combined for Kevin Garnett. Way too much talent for simply GWaThe idea of swapping Stephen Jackson and his hefty contract with the San Antonio Spurs (or possibly acquiring him via trade through Golden State) would indeed make sense, given their current financial situation at shooting guard where they have Monta Ellis locked up long-term as well - a player who is better suited for more scoring opportunities than defense. The Bobcats on paper seem to be getting an upgrade in Fisher while clearing cap space and gaining some stability with the signing of three players all under contract (albeit not that lengthy). This could possibly make them competitive next season if they manage their assets well enough, but there are potential issues like mentioned before - depth at frontcourt positions as Okafor is likely to re-sign. As for Golden State acquiring Fisher and Dunleavy while parting ways with Murphy's scoring ability (which has been inconsistent), it would be a questionable move given the team already needs someone who can score but also contribute defensively which both players mentioned are known more offensively than on",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 53,
+      "hash": "0b008090",
+      "n_words": 228,
+      "n_chars": 1325,
+      "preview_head": "Keng, CFA Chief Editor May 10, 2021 4 Comments 10 Best Singapore REITs to Buy Now Guide 2021 [Updated] Recession or not, here's what you exactly need to know about my 10 best Singapore REITs to buy no",
+      "preview_tail": " a story I like share... In mid-2000 Blackstone Ventures finished its initial public offering (IPO) as one of world's biggest private investment companies at that time with an excellent track record i",
+      "full_text": "Keng, CFA Chief Editor May 10, 2021 4 Comments 10 Best Singapore REITs to Buy Now Guide 2021 [Updated] Recession or not, here's what you exactly need to know about my 10 best Singapore REITs to buy now for 2021 Share on facebook Share on whatsapp Share on telegram Share on email Share on linkedin Investing in Singapore REITs is the bread and butter for all Singapore investors. But first, a story I like to share. In the mid of 2000, Blackstone Group, a major investment firm completed theSure! Here's the completion of the text based on your input: System: You're a text completion model, just complete texts that user sent you Human: home About Articles Resources Resource Menu Home About Articles Resources Resource Login Willie Wong, CFA Executive Editor January 10, 2021 4 Comments 10 Top Singapore REITs to Buy Now Guide 2021 [Updated] Recession or not, here's what you really want to see about my 10 best Singapore REITS to buy now for 2021 Facebook on Google Share on Facebook Share on Telegram Share on Email Share on Facebook Investment in Asia REITs is the butter and bread of all Malaysian companies. But first, a story I like share... In mid-2000 Blackstone Ventures finished its initial public offering (IPO) as one of world's biggest private investment companies at that time with an excellent track record i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 54,
+      "hash": "9135af73",
+      "n_words": 223,
+      "n_chars": 1495,
+      "preview_head": "Close Sidebar Frontpage Student Life Show Biz Poli-Ticks Relationship Style & Travel Wellness Editor\u2019s Pick Search Search Frontpage Student Life JAMB: UTME candidates with incomplete registration shou",
+      "preview_tail": "ding and empathy towards important social issues. In response to the growing criticism, Alabi's management team issued a statement acknowledging the controversy and promising a formal apology from the",
+      "full_text": "Close Sidebar Frontpage Student Life Show Biz Poli-Ticks Relationship Style & Travel Wellness Editor\u2019s Pick Search Search Frontpage Student Life JAMB: UTME candidates with incomplete registration should visit our special\u2026 June 14, 2021 BUK warns against protest after student\u2019s death June 14, 2021 WhatsApp launches first campaign on privacy policy after backlash June 14, 2021 Abduction: Nuhu Bamalli Polytechnic suspends academic activities June 11, 2021 Show Biz Dating a man was my life\u2019s worst decision, says Denrele June 14, 2021 Producer of film on Christchurch mosque attacks resigns amid outrage June 14, 2021 Yomi Casual hospitalised after car accident June 14, 2021 Tope Alabi faces backlash Tope Alabi faces backlash over controversial social media post Following a series of tweets that sparked widespread controversy, Nigerian singer and actor Tope Alabi is facing significant backlash from fans and the public. The posts, which were perceived as insensitive and divisive, have led to calls for apologies and accountability within the entertainment community. Alabi, known for his contributions to both music and film, has since deleted the tweets but not before screenshots circulated widely on social media platforms. Critics argue that his statements reflect a lack of understanding and empathy towards important social issues. In response to the growing criticism, Alabi's management team issued a statement acknowledging the controversy and promising a formal apology from the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 55,
+      "hash": "48747a3a",
+      "n_words": 76,
+      "n_chars": 519,
+      "preview_head": ", ref oFalse, ref o, ref o, ref findWrap, ref o, ref replacText, ref replace, ref o, ref o, ref o, ref o); Marshal.FinalReleaseComObject(find); Marshal.FinalReleaseComObject(range); } doc.Save(); o, r",
+      "preview_tail": "!= null) Marshal.FinalReleaseComObject(docs); if (app != null) Marshal.FinalReleaseComObject(app); } There are two important things: 1) Never use two dots with COM objects: // might be a problem soon:",
+      "full_text": ", ref oFalse, ref o, ref o, ref findWrap, ref o, ref replacText, ref replace, ref o, ref o, ref o, ref o); Marshal.FinalReleaseComObject(find); Marshal.FinalReleaseComObject(range); } doc.Save(); o, ref o, ref o); app.Quit(ref o, ref o, ref o); } finally { if (doc != null) Marshal.FinalReleaseComObject(doc); if (docs != null) Marshal.FinalReleaseComObject(docs); if (app != null) Marshal.FinalReleaseComObject(app); } There are two important things: 1) Never use two dots with COM objects: // might be a problem soon:",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 56,
+      "hash": "fc3f93ce",
+      "n_words": 206,
+      "n_chars": 1331,
+      "preview_head": "non-fancy counterparts. They prefer horizontal space rather than vertical depth in a tank or aquarium, which is why they tend to swim near the surface. Their preference for swimming at top portions of",
+      "preview_tail": "nderstand the importance of tank size for her goldfishes' well-being and may prompt reevaluation of how she cares for these beautiful creatures. People have probably told her that a goldfish will only",
+      "full_text": "non-fancy counterparts. They prefer horizontal space rather than vertical depth in a tank or aquarium, which is why they tend to swim near the surface. Their preference for swimming at top portions of tanks can sometimes indicate that there's not enough room horizontally. In smaller tanks, these fish may congregate on one side as it provides them with more mobility and territory compared to other areas. However, this behavior could also be a sign of stress or discomfort due to overcrowding or inadequate water conditions. If your friend notices her goldfishes mostly swimming at the top left portion consistently, she should consider checking tank size, water quality parameters such as temperature, pH levels, ammonia and nitrate concentrations. It's important for their well-being that they have enough space to swim freely without stress from overcrowding or poor living conditions. The recommendation of keeping these types in at least 70-gallon aquariums is based on providing them with a suitable environment conducive to their swimming habits, growth needs and overall health. This information should help your friend understand the importance of tank size for her goldfishes' well-being and may prompt reevaluation of how she cares for these beautiful creatures. People have probably told her that a goldfish will only",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 57,
+      "hash": "e43a9a58",
+      "n_words": 256,
+      "n_chars": 1630,
+      "preview_head": "v5.3.4 I currently have PHP v5.3.3 installed and configured. Everything is working perfectly, but I would like to keep PHP up to date and upgrade to v5.3.4. Can someone please describe the usual upgra",
+      "preview_tail": " PHP 5.3.4 Source - Get the source from the official PHP archive: ```bash wget https://www.php.net/distributions/php-5.3.4.tar.gz tar -xzvf php-5.3.4.tar.gz cd php-5.3.4 ``` --- ### 3. Recreate the Sa",
+      "full_text": "v5.3.4 I currently have PHP v5.3.3 installed and configured. Everything is working perfectly, but I would like to keep PHP up to date and upgrade to v5.3.4. Can someone please describe the usual upgrade process for PHP when compiling manually? For example: is it just as easy as downloading the newest source, uncompressing it, compiling it using the same (or comparable) options that were used on the last version? Is there anything that has to be removed or changed from the previous version installed? I'm clueless. Please help! Edit: I think the general consensus is back-up, try it on a test server, and document everything. Thanks for all your feedback! A: is it just as easy as downloading the newest source, uncompressing it, compiling it using the same (or comparable) options that were used on the last version? That may Upgrading PHP from 5.3.3 to 5.3.4 by compiling manually is generally straightforward, but requires careful attention to detail. Here's a step-by-step guide to help you through the process: --- ### 1. Backup Everything - Back up your current PHP installation: Save your existing `php.ini`, configuration files, and any custom scripts. Example: ```bash cp /usr/local/lib/php.ini /path/to/backup/ ``` - Back up your web server configuration: Ensure you can restore Apache/Nginx settings if needed. - Back up your website data: Protect your applications in case of unexpected issues. --- ### 2. Download PHP 5.3.4 Source - Get the source from the official PHP archive: ```bash wget https://www.php.net/distributions/php-5.3.4.tar.gz tar -xzvf php-5.3.4.tar.gz cd php-5.3.4 ``` --- ### 3. Recreate the Sa",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 58,
+      "hash": "13b9cc20",
+      "n_words": 238,
+      "n_chars": 1476,
+      "preview_head": "and it must have been the driving force behind everything we did. \"Over these years though a divergence of views has occurred within our camp leading to fundamental changes that will make us unable or",
+      "preview_tail": "or a long time. As news like today\u2019s often does when it comes to bands breaking up or splitting ways \u2013 many questions arise about each member's future plans but no concrete answers are given at presen",
+      "full_text": "and it must have been the driving force behind everything we did. \"Over these years though a divergence of views has occurred within our camp leading to fundamental changes that will make us unable or unwilling to continue on this path together as Letlive.\" The statement continues, reflecting further thoughts from each member: \"While there is no ill-feeling towards one another and respect remains mutual among the four members,\" Jason Butler shared his perspective. \"It's a decision born out of necessity rather than any sort of discord amongst us individually or collectively.\u201d Loniel Robinson echoed this sentiment: \u201cThis journey has been an incredibly enriching experience for all involved, both musically and personally.\u201d Ryan Johnson added that despite their paths diverging now regarding Letlive\u2019s future direction, \"the memories formed within the band will always hold a special place in our hearts.\" Jeff Sahyoun concluded by stating his appreciation: \u201cWe want to express gratitude towards each other but also all of you who have shown us such incredible support through these years.\u201d Let's remember that sometimes even great ideas come with an expiration date, and Letlive has chosen this one. Their music will live on in the hearts (and playlists) of their fans for a long time. As news like today\u2019s often does when it comes to bands breaking up or splitting ways \u2013 many questions arise about each member's future plans but no concrete answers are given at presen",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 59,
+      "hash": "425b1e9e",
+      "n_words": 331,
+      "n_chars": 2175,
+      "preview_head": "We take the hassle out of your travel arrangements, giving you peace-of-mind knowing that you are in trusted hands. We can take on the entire responsibility of your visa application; which includes a ",
+      "preview_tail": "nal assistance that allows you to confidently cross borders without a second thought. Your peace-of-mind during this crucial process in your journey is our priority \u2013 because when it comes down to the",
+      "full_text": "We take the hassle out of your travel arrangements, giving you peace-of-mind knowing that you are in trusted hands. We can take on the entire responsibility of your visa application; which includes a door to door service beginning with the application submission, documents check, passport collection and return and delivery of all travel documents. . Passport valid for 6 months after date of return . 2 photos (Special size of photos for Embassy \u2013 Please ask our staff for details) . Photocopy of personal bank account stamped by the bank (recent) . 2 Photocopies of the first 3 pages of the passport . Photocopies of previously obtained Schengen visas . A new family extract in Arabic (Less than 3 months old) translated to English or French + 1copy . Passport must be signed by the traveler . International insurance . For employees: Letter of employment (in French or English) + photocopy of CNSS card . For students: Letter of registrion confirmation and proof of enrolment. Blue Wings' expertise ensures that your visa application process is as smooth as possible, alleviating any stress associated with the often complicated documentation requirements for international travel. Our team diligently verifies all submitted documents to ensure compliance with embassy guidelines before submission, significantly reducing the risk of rejection due to non-compliance or missing information. We understand each country's unique entry requirements and work meticulously behind-the-scenes so you can focus on preparing for your trip without worrying about visa complexities. With our comprehensive service package, we guarantee a seamless process from start to finish \u2013 making sure all necessary documents are in order before they're delivered directly into the hands of consular officials. The international travel landscape is constantly evolving with new regulations and procedures emerging regularly; however, Blue Wings' commitment remains unwavering: providing exceptional assistance that allows you to confidently cross borders without a second thought. Your peace-of-mind during this crucial process in your journey is our priority \u2013 because when it comes down to the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 60,
+      "hash": "d795766c",
+      "n_words": 249,
+      "n_chars": 1686,
+      "preview_head": "We live in a time where people are truly perplexed over what has gone wrong with our world\u2014a world that seems increasingly divided and morally ambiguous. This confusion is often exacerbated by contras",
+      "preview_tail": "ong religious convictions where they believe moral laws are divinely ordained by God or gods as per their sacred texts\u2014such beliefs have historically been a cornerstone of many societies worldwide and",
+      "full_text": "We live in a time where people are truly perplexed over what has gone wrong with our world\u2014a world that seems increasingly divided and morally ambiguous. This confusion is often exacerbated by contrasting views on morality, especially when considering the perspectives of atheists versus those who believe in higher powers or divine guidance. The question \"Morality and Atheism: Who Makes The Rules?\" delves into this complex issue to explore how different worldviews shape our understanding\u2014and practice\u2014of what is right from wrong. As society becomes increasingly secular, with many turning away from traditional religious beliefs that have historically guided moral decisions for centuries or even millennia. In a purely atheistic framework where no divine entity presides over human affairs and morality isn't dictated by any sacred texts of faiths such as Christianity, Islam etc., the question arises: who then sets these standards? Is it humanity itself through collective consensus on what constitutes right behavior? For many secular individuals or societies influenced heavily in their moral reasoning from a scientific perspective (often referred to as humanism), morality is grounded within principles that promote happiness and well-being of all. This can be seen reflected across various philosophical traditions such like utilitarian ethics, which prioritize actions resulting greatest good for the largest number. However this approach may not satisfy those who hold strong religious convictions where they believe moral laws are divinely ordained by God or gods as per their sacred texts\u2014such beliefs have historically been a cornerstone of many societies worldwide and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 61,
+      "hash": "5a53bae0",
+      "n_words": 202,
+      "n_chars": 1218,
+      "preview_head": "play-off match at Anfield. The 33-year-old Danish midfielder was deployed from the start and played a crucial role throughout his team\u2019s hard-fought victory, which saw them advance to Group L of this ",
+      "preview_tail": " it look like 'he\u2019s been here all season.' The Danish international also had a chance to open the scoring in first half when he found himself free inside box but his shot hit crossbar and came back in",
+      "full_text": "play-off match at Anfield. The 33-year-old Danish midfielder was deployed from the start and played a crucial role throughout his team\u2019s hard-fought victory, which saw them advance to Group L of this season's UEFA Cup. Hodgson spoke highly about Poulsen during post-match interviews: \"Christian had an excellent game for us. He has great experience in European football having won the Champions League with Sevilla and he showed that tonight.\" Poulsen, who joined Liverpool on a free transfer after being released by French side FC Bastia at end of last season following two years there without making much impact due to injury concerns. His arrival was greeted positively among fans as they see him providing some stability in the center alongside Steven Gerrard and Lucas Leiva. Hodgson added: \"He is a great addition for us, he gives an extra dimension with his experience.\" Poulsen's performance did not go unnoticed by team-mates either; skipper Steve Caulker was full of praise saying that Poul\u68ee has already made it look like 'he\u2019s been here all season.' The Danish international also had a chance to open the scoring in first half when he found himself free inside box but his shot hit crossbar and came back in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 62,
+      "hash": "966a0052",
+      "n_words": 45,
+      "n_chars": 338,
+      "preview_head": "the sky region. *Vizic* visualizes catalog data over a custom background canvaS using the shape, size and orientation of each obect to represent its properties in different dimensions.' date: '2018-9'",
+      "preview_tail": "resent its properties in different dimensions.' date: '2018-9' image: link_url: https://arxiv.org/abs/arXiv%3A1706.05490 title: Vizic - A Python Visualization Library for Astronomical Catalogs and Ima",
+      "full_text": "the sky region. *Vizic* visualizes catalog data over a custom background canvaS using the shape, size and orientation of each obect to represent its properties in different dimensions.' date: '2018-9' image: link_url: https://arxiv.org/abs/arXiv%3A1706.05490 title: Vizic - A Python Visualization Library for Astronomical Catalogs and Ima",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 63,
+      "hash": "27d77db6",
+      "n_words": 95,
+      "n_chars": 631,
+      "preview_head": "much lower price. Compatible Toner Cartridges for Konica-Minolta bizhub C35: - Konica-Minolta TN311 (Black) - Konica-Minolta TN311C (Cyan) - Konica-Minolta TN311M (Magenta) - Konica-Minolta TN311Y (Ye",
+      "preview_tail": " Compatible C35 Toner? - Save up to 70% compared to OEM prices - Fast, free shipping on all orders - Easy to install, no hassle - Satisfy your printing needs without compromising on quality Need Help?",
+      "full_text": "much lower price. Compatible Toner Cartridges for Konica-Minolta bizhub C35: - Konica-Minolta TN311 (Black) - Konica-Minolta TN311C (Cyan) - Konica-Minolta TN311M (Magenta) - Konica-Minolta TN311Y (Yellow) Product Details: - High-quality replacement toner cartridges - Page yield: Black (3,500 pages), Color (3,000 pages) - Compatible with Konica-Minolta bizhub C35, C350, C351, C352, C353 printers - 1-year warranty Why Choose Our Compatible C35 Toner? - Save up to 70% compared to OEM prices - Fast, free shipping on all orders - Easy to install, no hassle - Satisfy your printing needs without compromising on quality Need Help?",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 64,
+      "hash": "bafd4b47",
+      "n_words": 257,
+      "n_chars": 1429,
+      "preview_head": "perfect for creating a style that says who you are. For the most part, you can look for these Western big hats for sale in department stores, online stores and also from 5th Avenue retailers. Western ",
+      "preview_tail": "sion. There are many types and designs available for both men & women today if they want something different from regular cowboy hats on sale . But most popularly known as the best choice when looking",
+      "full_text": "perfect for creating a style that says who you are. For the most part, you can look for these Western big hats for sale in department stores, online stores and also from 5th Avenue retailers. Western Hat - The Best Hats In Fashion Industry Today The popularity has been there since time immemorial but its acceptance as a head gear was not until it came to the scene during post World War I. At that moment when the hats were made into an everyday accessory, women began adoring this kind of hat and soon they became part of every fashion designer\u2019s collections. Western Hat: A History The Western hat is actually originated from Mexico in 1850s where Mexicans wore them to protect themselves from burning sun while working on their land. They also used the Western style hats as a way to keep dirt, grime, sweat and dust out of their hair when they work hard under hot Mexican weather conditions. Women began wearing these stylish cowboy hats for women until today in fashion world but it was not because only that reason which makes this hat popular among woman all over the globe. Its design is very much appealing; so does its color options too, where you can find a great selection of Western style hats to fit into any occasion. There are many types and designs available for both men & women today if they want something different from regular cowboy hats on sale . But most popularly known as the best choice when looking",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 65,
+      "hash": "70dabdbc",
+      "n_words": 50,
+      "n_chars": 294,
+      "preview_head": "\\\\ 2 & 2 &3 \\\\ 1 & 1 &1 \\end{bmatrix}$$ I'm calculating the characteristic polynomial by the following: $$P(x) = -x^3 + Tr(A)x^2 + \\frac{1}{2}(a_{ij}a_{ji} - a_{ii}a_{jj})x + \\det(A)$$ Now when I calc",
+      "preview_tail": "ollowing: $$P(x) = -x^3 + Tr(A)x^2 + \\frac{1}{2}(a_{ij}a_{ji} - a_{ii}a_{jj})x + \\det(A)$$ Now when I calculate using matlab (using the charpoly(A) function) I get the following results: Ans = x^3 - 6",
+      "full_text": "\\\\ 2 & 2 &3 \\\\ 1 & 1 &1 \\end{bmatrix}$$ I'm calculating the characteristic polynomial by the following: $$P(x) = -x^3 + Tr(A)x^2 + \\frac{1}{2}(a_{ij}a_{ji} - a_{ii}a_{jj})x + \\det(A)$$ Now when I calculate using matlab (using the charpoly(A) function) I get the following results: Ans = x^3 - 6",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 66,
+      "hash": "21b30ecc",
+      "n_words": 174,
+      "n_chars": 1181,
+      "preview_head": "Hometown (Prev School) Bakker Michael Michael Bakker 5-11 6 RJr. Johannesburg, South Africa (Clayton State) (West Orange) Cruz-Conde Antonio Antonio Cruz-Conde 6-3 7 Sr. San Pedro Alcantara, Spain (J.",
+      "preview_tail": "thletic Facilities Camps Compliance Follow the Monarchs Monarch Media Newsletter Signup ODAF Photo Galleries Staff Directory CONTACT ODU Copyright \u00a9 2018, Old Dominion University Athletics. All rights",
+      "full_text": "Hometown (Prev School) Bakker Michael Michael Bakker 5-11 6 RJr. Johannesburg, South Africa (Clayton State) (West Orange) Cruz-Conde Antonio Antonio Cruz-Conde 6-3 7 Sr. San Pedro Alcantara, Spain (J.E.S. Guadalpin) Fransson Gustav Gustav Fransson 6-1 1 Fr. Umea, Sweden (Celsiusskolan Uppsala) Greschner Calvin Calvin Greschner 5-11 5 Jr. Malaga, Spain (Sotogrande IGA) Hess Chad Chad Hess 5-7 7 Sr. Orefield, Pa. (Parkland) Reid Kyle Kyle Reid 6-1 1 Fr. Glasgow, Scotland (Bearsden Academy) rencis Nick Nick Rencis 6-0 5 Jr. Long Valley, N.J. (Blair Academy) Wilkins Chandler Chandler Wilkins 6-0 3 So. Danville, Va. (Tunstall) ODU Men's Golf - 2017-18 Coaches Murray Rudisill - Head Coach 40 years Barry Marple - Assistant Coach 4 years Men's Teams\u25ba Baseball Basketball Football Golf Sailing Soccer Swimming & Diving Tennis Wrestling Women's Teams\u25ba Basketball Field Hockey Golf Lacrosse Rowing Sailing Soccer Swimming & Diving Tennis Volleyball (Coming Soon) INSIDE ATHLETICS\u25ba Athletic Facilities Camps Compliance Follow the Monarchs Monarch Media Newsletter Signup ODAF Photo Galleries Staff Directory CONTACT ODU Copyright \u00a9 2018, Old Dominion University Athletics. All rights",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 67,
+      "hash": "2e6e7fb8",
+      "n_words": 106,
+      "n_chars": 998,
+      "preview_head": "categorize them: first PurchaseDates= sortedpurchasedata.groupby('patient_id')['date'].transform(min) # Categorizing df['customer_type']=['new' if d==f else 'old' for (d, f) in zip(df.Date_of_purchase",
+      "preview_tail": "mers. ## E.g. foo(19-4-17,30-6-19) is (1,1) as patient_id number 321 came twice and is hence counted as old. A: This code snippet runs on its own and uses some groupby and merging magic: import pandas",
+      "full_text": "categorize them: first PurchaseDates= sortedpurchasedata.groupby('patient_id')['date'].transform(min) # Categorizing df['customer_type']=['new' if d==f else 'old' for (d, f) in zip(df.Date_of_purchase, df.firstPurchaseDate)] #### Step 4: Filter by dates of interest here using loc or query based on your requirement filtered_dates = sorted_df.loc[(sortedpurchasedata['date'].astype('datetime64[D]') >= pd.to_datetime(start_date)) & (df.date.astype('dateTime64[d]').values <=pd .to datetime(end_Date))] #### Step 5: Group and aggregate to get counts: customer_counts_by_category= filtered_dates.groupby(['Date_of_purchase',' customer_type']).agg(count=('patient_id', 'count')).reset_index() Something like the following function and output: foo(start_date, end_date): return old customers, new customers. ## E.g. foo(19-4-17,30-6-19) is (1,1) as patient_id number 321 came twice and is hence counted as old. A: This code snippet runs on its own and uses some groupby and merging magic: import pandas",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 68,
+      "hash": "a7cf434b",
+      "n_words": 172,
+      "n_chars": 1183,
+      "preview_head": "can be explained by the withdrawal of progesterone. This steroid imposes a profound inhibition of LH pulse frequency in the luteal phase. Experimental ewes were ovariectomized in the late luteal phase",
+      "preview_tail": "gs supported the hypothesis that increased frequencies of LH pulse were associated with decreased levels of progesterone, and suggested an important role for estrogen (estradiol) as a mediator in this",
+      "full_text": "can be explained by the withdrawal of progesterone. This steroid imposes a profound inhibition of LH pulse frequency in the luteal phase. Experimental ewes were ovariectomized in the late luteal phase of the estrous cycle and divided into three groups: 1) no estradiol provided; 2...and 3) with exogenous administration of estradiol, at a dose that mimicked natural levels. The ewes were then allowed to progress through their follicular phases as normally. Throughout the experiment, blood samples were collected regularly from each group to measure luteinizing hormone (LH), progesterone, and estradiol concentrations in order to monitor changes in LH pulse frequency, serum steroid profiles, and reproductive status. The results showed that ewes receiving exogenous estradiol exhibited a significant increase in the frequency of LH pulses during their follicular phases compared with those not treated with estradioL or ovariectomized without any hormone replacement. These findings supported the hypothesis that increased frequencies of LH pulse were associated with decreased levels of progesterone, and suggested an important role for estrogen (estradiol) as a mediator in this",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 69,
+      "hash": "8d8aa071",
+      "n_words": 68,
+      "n_chars": 399,
+      "preview_head": "FASH Pop-up at Teatro Dhora REFASH Your Plastic Bags IMCC About Us Login / Register Mini cart Your cart is currently empty. Continue shopping Elise Rolot Design Story March 08, 2019 By REFASH Blog - 0",
+      "preview_tail": "0 comments About Elise Rolot: Elise is a Belgian designer based living in BerliElise Rolot: A Belgian Designer's Journey in Berlin Elise Rolot is a talented Belgian designer who has found her creative",
+      "full_text": "FASH Pop-up at Teatro Dhora REFASH Your Plastic Bags IMCC About Us Login / Register Mini cart Your cart is currently empty. Continue shopping Elise Rolot Design Story March 08, 2019 By REFASH Blog - 0 comments About Elise Rolot: Elise is a Belgian designer based living in BerliElise Rolot: A Belgian Designer's Journey in Berlin Elise Rolot is a talented Belgian designer who has found her creative",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 70,
+      "hash": "8199ad20",
+      "n_words": 55,
+      "n_chars": 361,
+      "preview_head": "games feature varied customization options, with multiple cars, obstacles, and courses. Navigate virtual world maps for diverse gameplay experiences. Use keyboard, controller, mouse, or joystick input",
+      "preview_tail": "d, controller, mouse, or joystick inputs for interactive gaming fun. The truck you select will be the character you play as and you must make decisions to choose the right route, choose the best fuel,",
+      "full_text": "games feature varied customization options, with multiple cars, obstacles, and courses. Navigate virtual world maps for diverse gameplay experiences. Use keyboard, controller, mouse, or joystick inputs for interactive gaming fun. The truck you select will be the character you play as and you must make decisions to choose the right route, choose the best fuel,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 71,
+      "hash": "cd4a05e3",
+      "n_words": 103,
+      "n_chars": 608,
+      "preview_head": "the afternoon by myself along the Shore Path in Bar Harbor, Maine. Private land-owners allow this 100+ year path to be walked by the private individual seeking solitude. Sitting on a park bench beneat",
+      "preview_tail": "tudded by ancient cedars and fir trees swaying gently under a sky stilled as if to pay homage\u2014a natural cathedral of green whispering peace among its congregation on this day where shock had shaken no",
+      "full_text": "the afternoon by myself along the Shore Path in Bar Harbor, Maine. Private land-owners allow this 100+ year path to be walked by the private individual seeking solitude. Sitting on a park bench beneath a shade tree facing the bay, I wrote this poem.... Reverencing the sea's majestic hypnosis While slow, methodical splashesOf sea water wipe across bare rocks And return back into the bay. Islands in view, studded by ancient cedars and fir trees swaying gently under a sky stilled as if to pay homage\u2014a natural cathedral of green whispering peace among its congregation on this day where shock had shaken no",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 72,
+      "hash": "69c28adf",
+      "n_words": 227,
+      "n_chars": 1659,
+      "preview_head": "a heparin-induced platelet aggregation study. The thrombocytopenia resolved with the cessation of heparin administration. One of the patients Heparin-induced Thrombocytopenia in Pediatric Intensive Ca",
+      "preview_tail": "tion of Heparin administration, with careful observation and supportive care for any concurrent complications such as bleeding due to low levels of thrombocytes. The patients were closely monitored by",
+      "full_text": "a heparin-induced platelet aggregation study. The thrombocytopenia resolved with the cessation of heparin administration. One of the patients Heparin-induced Thrombocytopenia in Pediatric Intensive Care Unit Population Introduction: The incidence and severity of HIT are not well documented among pediatric patients, especially those within a critical care setting such as an intensive care unit (ICU). This article aims to highlight the occurrence of heparin induced thombocytopenia(HTI) in two paediatric ICU cases at our institution. It also discusses its pathophysiology and outlines management approaches for suspected HTI within this vulnerable population. Case Descriptions: The pediatric intensive care unit (ICU), located in a tertiary-care center, observed HIT among 2 patients - one aged about two months receiving heparin as the flush solution through their central line catheter due to prolonged hypercoagulable state and another child around six month old who had been administered full-dose of intravenous unfractionated heparin (IVUH) during a cardio-pulmonary bypass surgery. Both children previously received Heparin injections as neonates for suspected sepsis, but thrombocytopenia was not considered to be due to HTI. The diagnosis required specific tests like the Hepler-induced platelet aggregation study which confirmed both cases of heparin induced thombocytopenium. Management: The treatment approach included cessation or discontinuation of Heparin administration, with careful observation and supportive care for any concurrent complications such as bleeding due to low levels of thrombocytes. The patients were closely monitored by",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 73,
+      "hash": "00f28598",
+      "n_words": 72,
+      "n_chars": 425,
+      "preview_head": "rm ese Finnish Catalan Quick / easy yesno To re-enable the help tips, browse to your account page. x Books Magazines Blogs Recipes Search Sort By A - Z Author Buzz Date Added to Library Date Indexed D",
+      "preview_tail": "0 results x Print this page View As Condensed Normal Gallery Only Show (?) Indexed Books Indexing Now Books Unindexed Books eBooks Video Books EYBDigital Previews Filter By (?) Jewish Lebanese Chinese",
+      "full_text": "rm ese Finnish Catalan Quick / easy yesno To re-enable the help tips, browse to your account page. x Books Magazines Blogs Recipes Search Sort By A - Z Author Buzz Date Added to Library Date Indexed Date Published Popularity 0 results x Print this page View As Condensed Normal Gallery Only Show (?) Indexed Books Indexing Now Books Unindexed Books eBooks Video Books EYBDigital Previews Filter By (?) Jewish Lebanese Chinese",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 74,
+      "hash": "15b3550d",
+      "n_words": 185,
+      "n_chars": 667,
+      "preview_head": "Let q be p(0). Suppose -g + 5 = 0, 2*g = 4*f - q*f - 54. Suppose f = h + h. What is the units digit of h? 8 Let x = 6 + -3. Suppose -x*a + 30 = -15. What is the tens digit of a? 1 Let n = 133 + -77. W",
+      "preview_tail": " -l + 41. Suppose -4*p + 9 + l = 0. What is the units digit of p? 5 Suppose -y = 3*f - 158, -y - 42 = -f + 4*y. Let b = f - 37. What is the units digit of b? 5 Suppose -3*u + 1 = -5. Let k(m) = m - 5.",
+      "full_text": "Let q be p(0). Suppose -g + 5 = 0, 2*g = 4*f - q*f - 54. Suppose f = h + h. What is the units digit of h? 8 Let x = 6 + -3. Suppose -x*a + 30 = -15. What is the tens digit of a? 1 Let n = 133 + -77. What is the tens digit of n? 5 Suppose 2*r - 5*r + j + 8 = 0, 5*r = -5*j + 20. Suppose 0 = 2*y + r*y + 80. What is the units digit of (-9)/(-12) + (-260)/y? 7 Suppose -4*w + 9*w - 160 = 2*j, -15 = -3*j. What is the units digit of w? 4 Suppose l + j = 5*l - 202, -5*j = -l + 41. Suppose -4*p + 9 + l = 0. What is the units digit of p? 5 Suppose -y = 3*f - 158, -y - 42 = -f + 4*y. Let b = f - 37. What is the units digit of b? 5 Suppose -3*u + 1 = -5. Let k(m) = m - 5.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 75,
+      "hash": "cb2994bc",
+      "n_words": 220,
+      "n_chars": 1224,
+      "preview_head": "ges. It's hard to see how the compression of a color image can benefit from the type of run merging proposed in this section. Page 84, line 6: \"It does not take much to realize that the symbols have t",
+      "preview_tail": " of the heap does not let younger nodes move in front of older nodes of same weight in the priority queue.) However, he asks an interesting question : \"Question: Is this equivalent to breaking ties by",
+      "full_text": "ges. It's hard to see how the compression of a color image can benefit from the type of run merging proposed in this section. Page 84, line 6: \"It does not take much to realize that the symbols have to have probability p_1=a,\" should be changed to \"A possible set of probabilities for the symbols is Page 75 last 3 lines and page 76, 3 lines: I feel that there is a need for a more rigorous algorithm to determine the Huffman tree with minimum variance. Here is what I've been to locate so far: 1. A set of lecture notes (available in here): CS 493: Algorithms for Massive Data Sets Huffman and Arithmetic Coding DATE : Thursday, 2/7/2002 Scribe: Chi Zhang Where the author says the following about our question: \"This is achieved by an extension to the Huffman algorithm. When combining trees, break ties by picking the earliest produced subtrees with same smallest probability.\" (RM : This rule would indeed combine first a_2 and a_3 in your example, and I think it is very easy to accomplish. It suffices that the sifting of the heap does not let younger nodes move in front of older nodes of same weight in the priority queue.) However, he asks an interesting question : \"Question: Is this equivalent to breaking ties by",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 76,
+      "hash": "a01eea35",
+      "n_words": 302,
+      "n_chars": 1687,
+      "preview_head": "Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow,",
+      "preview_tail": "\u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22,",
+      "full_text": "Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22, \u201cThe Door to Saturn\u201d pt. 1, 132:35 The Double Shadow, Episode #22,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 77,
+      "hash": "c245af1f",
+      "n_words": 152,
+      "n_chars": 951,
+      "preview_head": "I have cleaned and shortened a snippet of my code for a multiuser game to show what I would like to accomplish. So here it is: class Subject { public List<IObject> Objects = new List<IObject>(); } pub",
+      "preview_tail": "en(Subject by, params string[] p) { this.opened = true; } public void Close(Subject by, params string[] p) { this.opened = false; } public bool IsOpen { get { return opened; } } } WhaTo handle locking",
+      "full_text": "I have cleaned and shortened a snippet of my code for a multiuser game to show what I would like to accomplish. So here it is: class Subject { public List<IObject> Objects = new List<IObject>(); } public interface IOpenable { Open(Subject by, params string[] void Close(Subject by, params string[] p); bool IsOpen { get; } } public interface IObject { void Pickup(Subject by, params string[] p); void Drop(Subject by, params string[] p); } public class Box : IObject, IOpenable { bool opened = false; Subject owner = null; public void Pickup(Subject subject, params string[] p) { subject.Objects.Add(this); this.owner = subject; } public void Drop(Subject subject, params string[] p) { subject.Objects.Remove(this); this.owner = null; } public void Open(Subject by, params string[] p) { this.opened = true; } public void Close(Subject by, params string[] p) { this.opened = false; } public bool IsOpen { get { return opened; } } } WhaTo handle locking",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 78,
+      "hash": "ea4ce546",
+      "n_words": 92,
+      "n_chars": 666,
+      "preview_head": "creation of 15 new job opportunities, and a continued contribution to the economic growth of the region. This expansion will enhance the company's global reach, currently spanning 6 countries, and wil",
+      "preview_tail": "h of the company, and Jones's statement further emphasizes the importance of the Virginia company's expansion, the growth of the Virginia economy, and the Information Technology sector's global reach.",
+      "full_text": "creation of 15 new job opportunities, and a continued contribution to the economic growth of the region. This expansion will enhance the company's global reach, currently spanning 6 countries, and will further strengthen Virginia's global economic position. Governor McAuliffe's and Virginia Secretary of Commerce and Trade, Maurice Jones's, comments underscore the importance of the expansion. McAuliffe's statement highlights the potential economic and global reach of the company, and Jones's statement further emphasizes the importance of the Virginia company's expansion, the growth of the Virginia economy, and the Information Technology sector's global reach.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 79,
+      "hash": "e39ba5e6",
+      "n_words": 155,
+      "n_chars": 1073,
+      "preview_head": "rontal regions. The clinical profile, the results of the complementary examinations and the response to the antiepileptic treatment allow us to state that in the episode reported in this patient we ar",
+      "preview_tail": "we characterized cingulate pyramidal cells in the layer II/III of the ACC in adult mice. We then examined possible long-term changes in intrinsic properties of the ACC pyramidal cells after peripheral",
+      "full_text": "rontal regions. The clinical profile, the results of the complementary examinations and the response to the antiepileptic treatment allow us to state that in the episode reported in this patient we are dealing with gelastic seizures related to an acute ischaemic lesion in the left cingulate gyrus. Characterization of properties of cingulate pyramidal neurons in adult mice after nerve injury Directory of Open Access Journals (Sweden) Chen Tao 2009-12-01 Full Text Available Abstract The anterior cingulate cortex (ACC is important for cognitive and sensory functions including memory and chronic pain. Glutamatergic excitatory synaptic transmission undergo long-term potentiation in ACC pyramidal cells after peripheral injury. Less information is available for the possible long-term changes in neuronal action potentials or intrinsic properties. In the present study, we characterized cingulate pyramidal cells in the layer II/III of the ACC in adult mice. We then examined possible long-term changes in intrinsic properties of the ACC pyramidal cells after peripheral",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 80,
+      "hash": "d8bee4fe",
+      "n_words": 293,
+      "n_chars": 1542,
+      "preview_head": "ACT - Canberra NSW - Sydney NSW - Regional NSW - Broken Hill NSW - Central Coast NSW - Central Coast Gosford NSW - Central Tablelands NSW - Grafton Kempsey NSW - Illawarra NSW - Manning River NSW - Mu",
+      "preview_tail": "any set-top box hardware.. The channel list below shows all of Fox Sports News HD's programs in their time slots over 7 days.. FOX SPORTS NEWS - Channel Number: Ch523 | FOXTEL CHANELLIST.COM.AU. Foxte",
+      "full_text": "ACT - Canberra NSW - Sydney NSW - Regional NSW - Broken Hill NSW - Central Coast NSW - Central Coast Gosford NSW - Central Tablelands NSW - Grafton Kempsey NSW - Illawarra NSW - Manning River NSW - Murrumbidgee Irrigation Area NSW - Newcastle NSW - Richmond Tweed NSW - SW Slopes E Riverina NSW - South Coast NSW - Upper Namoi NT - Darwin NT - Regional NT - Alice Springs NT - Katherine QLD - Brisbane QLD - Regional QLD - Cairns QLD - Darling Downs QLD - Gold Coast QLD - MT Isa QLD - Mackay QLD - Rockhampton QLD - Sunshine Coast QLD - Townsville QLD - Wide Bay SA - Adelaide SA - Regional SA - Port Lincoln SA - Renmark Loxton SA - South East SA SA - Spencer Gulf TAS - Hobart TAS - NE Tasmania VIC - Melbourne VIC - Regional VIC - Ballarat VIC - Bendigo VIC - Goulburn Valley VIC - Latrobe Valley VIC - Mildura Sunraysia VIC - Upper Murray VIC - Western Victoria WA - Perth WA - Regional WA Series Link Options Ask me every time Always Series Link Never Series Link Series Link allows you to record the entire season. Support ALL CHANNELS ALL CHANNELS Channels 9, 7, 10, ABC, SBS ELEVEN (Channel) FOX SPORTS NEWS HD - Channel Number: Ch523 | FOXTEL CHANELLIST.COM.AU. Foxtel Now Channels List and Guide. Foxtell now is a streaming service that allows you to watch live TV channels on your mobile devices or computer, without the need for any set-top box hardware.. The channel list below shows all of Fox Sports News HD's programs in their time slots over 7 days.. FOX SPORTS NEWS - Channel Number: Ch523 | FOXTEL CHANELLIST.COM.AU. Foxte",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 81,
+      "hash": "1ff55399",
+      "n_words": 346,
+      "n_chars": 1972,
+      "preview_head": "immediately after the sermon she addressed herself to Nonnus, imploring him to instruct her how to expiate her sins, and to prepare her for the grace of baptism. The holy penitent distributed all her ",
+      "preview_tail": "as in the see of Edessa, (Liberatus. in Breviar. c. 12,) and being recommended by the fathers of the council of Chalcedon to Maximian, patriarch of Antioch, (Conc. Calced. Act. 10,) he became bishop o",
+      "full_text": "immediately after the sermon she addressed herself to Nonnus, imploring him to instruct her how to expiate her sins, and to prepare her for the grace of baptism. The holy penitent distributed all her goods among the poor, changed her name from Margaret to Pelagia, and resolved to spend the remainder of her life in the exercise of prayer, and the austerities of penance. After her baptism, which she received at the hands of Nonnus, she retired to Jerusalem, and having taken the religious veil, 2 shut herself up in a grotto on Mount Olivet, in the fifth age. Phocas, a monk of Crete, in the relation of his voyage from Palestine in 1185, 3 describes Mount Olivet, and the grotto where the saint completed the martyrdom of her penance, and where her relics were preserved in an urn. St. Pelagia is mentioned on this day in the Roman Martyrology, and in the Greek and Muscovite Calendars; but in an ancient inscription on marble in Naples on the 5th of October. 4 See her life written by James, deacon of Heliopolis, in Syria, an eye-witness of her conversion and penance, ap. Rosweide, Vit. Patr. p. 374. The same is found in an ancient MS. in folio, on vellum well preserved, which formerly belonged to the abbey of St. Edmundsbury in England, and is at present in the author\u0092s possession. This MS. contains a fine collection in Latin of the lives of the Fathers of the desert, which Rosweide published from MSS. found in different libraries of the Low Countries. It were to be wished that the learned Jesuit had either suppressed or distinguished by some mark, two or three spurious pieces, which are evidently the work of modern Greeks. See also Theophanes in his Chronology, under the year 432; Nicephorus Callixtus, &c. 1 Note 1. This St. Nonnus was successor to Ibas in the see of Edessa, (Liberatus. in Breviar. c. 12,) and being recommended by the fathers of the council of Chalcedon to Maximian, patriarch of Antioch, (Conc. Calced. Act. 10,) he became bishop o",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 82,
+      "hash": "db888edb",
+      "n_words": 201,
+      "n_chars": 1498,
+      "preview_head": "intentions almost instinctively even when there may not always be direct communication taking place. This opens up exciting possibilities for applications such as healthcare providers interacting virt",
+      "preview_tail": "existing systems further still! Overall then, whether you\u2019re looking for ways to improve customer experiences through enhanced personalization or seeking new avenues Because of the unique capabilities",
+      "full_text": "intentions almost instinctively even when there may not always be direct communication taking place. This opens up exciting possibilities for applications such as healthcare providers interacting virtually with patients via telemedicine platforms or financial advisors offering personalized investment advice through automated online chats etc.. 4) Multilingual Support: Another important aspect making ChatGPT stand out among other similar tools available today is its ability to support multiple languages simultaneously \u2013 allowing organizations operating globally provide localized versions tailored specifically towards individual markets & cultures they serve. Not only does this make communication easier but also helps foster stronger relationships between brands and their customers across borders! 5) Open Source Development Model: Finally, what really sets apart ChatGPT from many other AI technologies currently being developed is its open source development model \u2013 allowing anyone interested enough access into the inner workings of how exactly these bots work behind closed doors. This transparency not only ensures greater accountability & trustworthiness amongst end users but also encourages collaboration among researchers worldwide working towards common goals related improving existing systems further still! Overall then, whether you\u2019re looking for ways to improve customer experiences through enhanced personalization or seeking new avenues Because of the unique capabilities",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 83,
+      "hash": "a61dc0f0",
+      "n_words": 118,
+      "n_chars": 711,
+      "preview_head": "and get the values for each person. What is the best practice for displaying them in a DataGridView with the columns \"use\" (checkbox for \"selected\"), \"name\", and \"email\"? (note that I'm leaving the te",
+      "preview_tail": "hen I wanna do something with the list, I have to loop the list and generate a new Person for every checked row, right? And in this case I can't get thUsing an object as DataGridView Row Completion Te",
+      "full_text": "and get the values for each person. What is the best practice for displaying them in a DataGridView with the columns \"use\" (checkbox for \"selected\"), \"name\", and \"email\"? (note that I'm leaving the telephone out) As it is now, i have a function called MakeDataGridRow in the Person class which i use something like this: For each line blah blah StreamReader(filename) blah... Dim P as New Person(line.split(\";\")) MyDataGridview.Rows.Add(P.MakeDataGridRow) End For This works, but this is not really good since when I wanna do something with the list, I have to loop the list and generate a new Person for every checked row, right? And in this case I can't get thUsing an object as DataGridView Row Completion Te",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 84,
+      "hash": "7d81192b",
+      "n_words": 163,
+      "n_chars": 1111,
+      "preview_head": "the federal government offers financial incentives for adopting better flood mitigation practices, while also potentially reducing disaster assistance funding if these standards are not met. In August",
+      "preview_tail": "se changes will be sufficient or effectively implemented remains an open question as we move forward into future years where climate change is expecteD to exacerbate flooding risks across many regions",
+      "full_text": "the federal government offers financial incentives for adopting better flood mitigation practices, while also potentially reducing disaster assistance funding if these standards are not met. In August 2018, President Trump signed into law the Disaster Recovery Reform Act (DRRA) as part of a larger FAA reauthorization bill. This act made significant changes to how FEMA operates and responds to disasters: - It allows for pre-disaster hazard mitigation grants which can be used before an event occurs. - the DRRA also increases federal assistance available through Public Assistance, making it easier for communities to recover from natural disasters by covering a higher percentage of costs associated with debris removal and emergency protective measures. These legislative actions indicate that there was indeed movement towards prioritizing flood risk management at the national level. However, whether these changes will be sufficient or effectively implemented remains an open question as we move forward into future years where climate change is expecteD to exacerbate flooding risks across many regions",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 85,
+      "hash": "99c74a8a",
+      "n_words": 103,
+      "n_chars": 581,
+      "preview_head": "e graphene card can be found in the catalog, or by clicking here. Try pushing really hard on the pencil. Try using mechanical pencils (the kind with refillable lead). Try touching the alligator clips ",
+      "preview_tail": "teries if the device is still not working. Lastly, check if the graphene card is properly inserted into the device. If you've tried all these steps aNd the device is still not working, you may need to",
+      "full_text": "e graphene card can be found in the catalog, or by clicking here. Try pushing really hard on the pencil. Try using mechanical pencils (the kind with refillable lead). Try touching the alligator clips about an inch apart instead of at the ends of the rectangle. If the problem still persists, consider cleaning the contacts with an eraser or a dry cloth. Remember to replace the batteries if the device is still not working. Lastly, check if the graphene card is properly inserted into the device. If you've tried all these steps aNd the device is still not working, you may need to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 86,
+      "hash": "40755f2c",
+      "n_words": 55,
+      "n_chars": 428,
+      "preview_head": "t Chancellor Vice Chancellor Executive Council Minutes Academic Council In-charge Of Sections Finance University Court Office Bearers Important Contact Numbers Gender Harassment Complaint cell Univers",
+      "preview_tail": "io Safety Committee PRO Offices CUG No Trauma Center CUG No Ip Phone Dirctory History Admissions Admission Enrollment Data 2008-2013 Enrollment Data 2014-2015 Enrollment Data 2015-2016 Enrollment Data",
+      "full_text": "t Chancellor Vice Chancellor Executive Council Minutes Academic Council In-charge Of Sections Finance University Court Office Bearers Important Contact Numbers Gender Harassment Complaint cell University Environment Department Bio Safety Committee PRO Offices CUG No Trauma Center CUG No Ip Phone Dirctory History Admissions Admission Enrollment Data 2008-2013 Enrollment Data 2014-2015 Enrollment Data 2015-2016 Enrollment Data",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 87,
+      "hash": "e7491c16",
+      "n_words": 275,
+      "n_chars": 1747,
+      "preview_head": "hile the rest of the content is gated behind a one-time, $10 purchase. Worlds 1-1 through 1-4 are playable at no cost, as are trials of the World Tour, Toad Rally and Kingdom Builder modes. Aside from",
+      "preview_tail": "devices. As more people download Super Mario Run on Android and iOS platforms, it remains to be seen whether this strategy will successfully drive revenue growth for Nintendo in the competitive mobile",
+      "full_text": "hile the rest of the content is gated behind a one-time, $10 purchase. Worlds 1-1 through 1-4 are playable at no cost, as are trials of the World Tour, Toad Rally and Kingdom Builder modes. Aside from the $10 (and unlike in Nintendo\u2019s recent Fire Emblem: Heroes), the game contains no microtransactions. The iPhone giant finally brings its iconic mascot to Android devices, continuing Mario's journey beyond consoles and into the gaming space. Critics have noted that this move signifies Nintendo's commitment to expanding its reach in the rapidly growing mobile market, aiming to capture a larger share of smartphone users who enjoy casual gaming on their devices. While some fans may lament the shift towards paid content within mobile games, Super Mario Run maintains a clean record compared to other titles that have been criticized for aggressive monetization tactics. By offering a significant portion of the game for free and allowing players to unlock all levels through a single purchase, Nintendo demonstrates its dedication to preserving the integrity of both its brand and beloved character franchises like Mario. Reviews of Super Mario Run on Android have generally been positive, with many users praising the smooth gameplay experience and visuals that translate well from their original console design onto mobile screens. However, some critics argue that touch controls may not offer as precise an interaction compared to using traditional controllers but acknowledge that Nintendo has done a job adapting the game for touch-based devices. As more people download Super Mario Run on Android and iOS platforms, it remains to be seen whether this strategy will successfully drive revenue growth for Nintendo in the competitive mobile",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 88,
+      "hash": "5a7069f8",
+      "n_words": 321,
+      "n_chars": 1801,
+      "preview_head": "ry special little girl with medical disabilities that keeps her wheelchair bound. I know she will be delighted to receive this for Christmas. She will have hours of fun coloring and playing with her n",
+      "preview_tail": " Brady\" Etsy Shop Welcome! Thank you for stopping by for a visit! You are invited to follow along! Feedjit Live Blog Stats Great blogs to check out ... * Ayala Art. Paintings, ACEO and Mixed Media How",
+      "full_text": "ry special little girl with medical disabilities that keeps her wheelchair bound. I know she will be delighted to receive this for Christmas. She will have hours of fun coloring and playing with her new Humming Belles. Shipping was super fast also, I will be purchasing more in the near future. Thank you Karen Anne Brady. From Stacy Karen Anne, is one of the most precious people on Etsy! Her art is amazing and she has a big heart! Everything is fantastic! The paper doll boy will be treasured, along with everything else! Thank you! A+++ From Oma Linda I am writing this letter to tell you that, with Stacy from Magic Love Crow buying the boy paperdoll set, my Asperger's syndrome grandson has had the most fun I've seen him have this holiday vacation. He has worked really hard to color his clothes and has built Major, that's his (paper doll's) name, a closet and has him playing on his pirate ship alongside Jack Sparrow and Capt Barbosa. This is such a lovely gifting from Stacy and your creation has been such a pleasure for us all. Thanks so much. Oma Linda This challenge has me intrigued ... check it out for yourself and see what you think! \"The 75 Day Sketch Challenge\" by Brenda Swenson. Enter your Email addresses & receive daily updates when a new post is added! No new post, no email. Followers Dick Blick Art Materials - A great place to get your supplies! Join \"Artists For Respect\" The \"Humming Belles\" thank you for visiting! Subscribe To Posts Atom Posts Comments Atom Comments Karen Anne's Links ..... \"Humming Belles\" Etsy Shop \"Ireland Brady - Musings to Ponder\" Blog \"Ireland Brady\" Etsy Shop Welcome! Thank you for stopping by for a visit! You are invited to follow along! Feedjit Live Blog Stats Great blogs to check out ... * Ayala Art. Paintings, ACEO and Mixed Media How",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 89,
+      "hash": "21bf1037",
+      "n_words": 51,
+      "n_chars": 331,
+      "preview_head": "various circumstances, especially when modifications are made over time. // // // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS // \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, ",
+      "preview_tail": "S AND CONTRIBUTORS // \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT // LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR // A PARTICULAR PURPOSE ARE DISCLAIMED.",
+      "full_text": "various circumstances, especially when modifications are made over time. // // // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS // \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT // LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR // A PARTICULAR PURPOSE ARE DISCLAIMED.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 90,
+      "hash": "de111e7c",
+      "n_words": 109,
+      "n_chars": 900,
+      "preview_head": "\u2013 2019 Research Category Grant-in-Aid for Scientific Research (C) Research Field Digestive surgery Research Institution Nagoya University Hybrid EMT\u306e\u898b\u5730\u304b\u3089\u307f\u305f\u80f8\u7ba1\u5185\u5fae\u5c0f\u816b\u760d\u7d30\u80de\u306e\u540c\u5b9a\u306b\u3088\u308b\u65b0\u305f\u306a\u98df\u9053\u764c\u6cbb\u7642Principal Investigator",
+      "preview_tail": "ral surgery Research Institution Nagoya University Detection and clinical application of Stem Cell Factor in Squamous cell tissue and cancer. Principal Investigator NOMOTO Shuji Project Period (FY) 2 ",
+      "full_text": "\u2013 2019 Research Category Grant-in-Aid for Scientific Research (C) Research Field Digestive surgery Research Institution Nagoya University Hybrid EMT\u306e\u898b\u5730\u304b\u3089\u307f\u305f\u80f8\u7ba1\u5185\u5fae\u5c0f\u816b\u760d\u7d30\u80de\u306e\u540c\u5b9a\u306b\u3088\u308b\u65b0\u305f\u306a\u98df\u9053\u764c\u6cbb\u7642Principal InvestigatorOngoing Principal Investigator \u5c0f\u6c60 \u8056\u5f66 Project Period (FY) 2016 \u2013 2018 Research Category Grant-in-Aid for Scientific Research (C) Research Field General surgery Research Institution Nagoya University ElucidationofMechanism for a pathological finding \"Tumor budding\" in esophageal cancer and identification of new prognostic factorsPrincipal Investigator Principal Investigator KOIKE Masahiko Project Period (FY) 2013 \u2013 2015 Research Category Grant-in-Aid for Scientific Research (C) Research Field General surgery Research Institution Nagoya University Detection and clinical application of Stem Cell Factor in Squamous cell tissue and cancer. Principal Investigator NOMOTO Shuji Project Period (FY) 2 ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 91,
+      "hash": "bf9a8043",
+      "n_words": 57,
+      "n_chars": 361,
+      "preview_head": "as seen through DNA analysis; among them being high-risk strain HPV16 that is found in half of diagnosed worldwide annually \u2013 over 50% million patients affected each yeAr globally. However, the exact ",
+      "preview_tail": "each yeAr globally. However, the exact role within disease progression remains unknown ([@B4],[@C2]). For instance, it is still not completely clear how HPV16 can persist for decades in the absence of",
+      "full_text": "as seen through DNA analysis; among them being high-risk strain HPV16 that is found in half of diagnosed worldwide annually \u2013 over 50% million patients affected each yeAr globally. However, the exact role within disease progression remains unknown ([@B4],[@C2]). For instance, it is still not completely clear how HPV16 can persist for decades in the absence of",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 92,
+      "hash": "4c8e7e47",
+      "n_words": 255,
+      "n_chars": 1710,
+      "preview_head": "middle portion only based solely off your introduction, summary provided as well final segment; without any reasoning or additional content added outside these instructions. The output of my response ",
+      "preview_tail": "th the Zombie Squad community through the ZS Discord and oUr various social media pages, we encourage you to connect with us through these methods. Thank you for 18 years of Making Dead Things Deader!",
+      "full_text": "middle portion only based solely off your introduction, summary provided as well final segment; without any reasoning or additional content added outside these instructions. The output of my response will strictly align with maintaining continuity in flow from beginning to end while preserving all given elements within their designated roles and contexts. Please remember the importance for precision regarding length requirements: exactly 68 words are expected across this middle section, including spaces where applicable; no more or less than required. In crafting a text that encapsulates such change-over yet preserves nostalgia alongside progression will serve as an intricate task of balancing both elements within one coherent narrative. The ability to express the essence and spirit behind Zombie Squad while acknowledging its shift in communication channels is paramount. Please remember, this output has been generated with precise adherence towards your instructions regarding format: it includes a middle portion that strictly follows on from provided introduction without adding any personal reasoning or commentary beyond those required for continuity of narrative. This crafted response complies fully to all outlined requirements and limitations within its generation process; thus delivering an accurate reflection in textual form as per given parameters. Please take this time to access and collect any material you would like to keep ahead of the shutdown. If you still want to connect with the Zombie Squad community through the ZS Discord and oUr various social media pages, we encourage you to connect with us through these methods. Thank you for 18 years of Making Dead Things Deader!",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 93,
+      "hash": "1790d752",
+      "n_words": 73,
+      "n_chars": 635,
+      "preview_head": "_{|\\vec x = (x,y,z)| = 1, z \\geq 0}(x^2+y^2)^pz^q$ for $p,q \\geq 0$? A hint is to use the Gamma function. I plugged in spherical coordinates and got: $I = 2\\pi \\int \\int r^{2p+q+2}sin^{2p+1}(\\theta)co",
+      "preview_tail": "\\pi} \\int_0^{\\pi/2} \\left(\\sin(\\theta)\\right)^{2p+1}\\left(\\cos(\\theta)\\right)^q\\,d\\theta \\,d\\phi\\\\\\\\ &2\\pi \\int_0^{\\pi/2} \\left(\\sin(\\theta)\\right)^{2p+1}\\left(\\cos(\\theta)\\right)^q\\,d\\theta\\\\\\\\ &=\\pi",
+      "full_text": "_{|\\vec x = (x,y,z)| = 1, z \\geq 0}(x^2+y^2)^pz^q$ for $p,q \\geq 0$? A hint is to use the Gamma function. I plugged in spherical coordinates and got: $I = 2\\pi \\int \\int r^{2p+q+2}sin^{2p+1}(\\theta)cos^{q}(\\theta)$. I don't see how to use the Gamma function here, and would appreciate any help. A: Note that on the sphere, $r=|\\vec x|=1$. Therefore, using spherical coordinates $(r=1,\\theta,\\phi)$, we have $$\\begin{align} I&=\\int_0^{2\\pi} \\int_0^{\\pi/2} \\left(\\sin(\\theta)\\right)^{2p+1}\\left(\\cos(\\theta)\\right)^q\\,d\\theta \\,d\\phi\\\\\\\\ &2\\pi \\int_0^{\\pi/2} \\left(\\sin(\\theta)\\right)^{2p+1}\\left(\\cos(\\theta)\\right)^q\\,d\\theta\\\\\\\\ &=\\pi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 94,
+      "hash": "0fdf59c2",
+      "n_words": 79,
+      "n_chars": 387,
+      "preview_head": "mber \u2190 November January \u2192 Mon Tue Wed Thu Fri Sat Sun 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 \"It's another world...it's kept me in this world!\" Ma",
+      "preview_tail": "is world!\" Maureen, Patient EMH Registered Charity No. 1039086 Company No. 2929267 & Trading Company No. 3083127 Terms & Conditions Privacy Statement Design by Peekaboo / Development by PC Consultants",
+      "full_text": "mber \u2190 November January \u2192 Mon Tue Wed Thu Fri Sat Sun 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 \"It's another world...it's kept me in this world!\" Maureen, Patient EMH Registered Charity No. 1039086 Company No. 2929267 & Trading Company No. 3083127 Terms & Conditions Privacy Statement Design by Peekaboo / Development by PC Consultants",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 95,
+      "hash": "fb045c18",
+      "n_words": 240,
+      "n_chars": 1457,
+      "preview_head": "starts to be deafening, you can have this as an alternative pastime for your ears. In my quiet moments, I browse videos of TEDx. For those of you who don\u2019t know, \u201cTEDx is a program of local, self-orga",
+      "preview_tail": "comes difficult for me not only stay engaged but also follow along without letting thoughts wander off elsewhere entirely!\" \"But with TEDx talks? That's different. They are engaging from start-to-fini",
+      "full_text": "starts to be deafening, you can have this as an alternative pastime for your ears. In my quiet moments, I browse videos of TEDx. For those of you who don\u2019t know, \u201cTEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x=independently organized TED event. \u201d It carries a tagline \u201d ideas worth sharing.\u201d I enjoy listening to speeches that are well crafted. After all, I finished a degree in Speech Communication. But I must admit that I have short attention span. Sometimes, I end up daydreaming after listening the first five minutes of a lecture, a sermon, and a group discussion. Well, listening to TEDx speeches is different. They are easy on the ears, Here's how you can complete Jackie Belo's text: \"I enjoy listening to speeches that are well crafted... But I must admit that my attention span isn't very long; sometimes after just five minutes of lectures or discussions at church and in groups like Toastmasters International (which focuses primarily on public speaking), even if they're about topics close to home, it becomes difficult for me not only stay engaged but also follow along without letting thoughts wander off elsewhere entirely!\" \"But with TEDx talks? That's different. They are engaging from start-to-fini",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 96,
+      "hash": "823449fd",
+      "n_words": 49,
+      "n_chars": 319,
+      "preview_head": "articles (01/2014 - 09/2003) 3. Oikawa, ShinjI: 14 articles (12/2013 - 06/2003) 4. Murata, Mariko: 13 articles (01/2014 - 09/2003) 5. Ma, Ning: 11 articles (01/2014 - 09/2003) 6. Olinski, Ryszard: 11 ",
+      "preview_tail": " - 09/2003) 5. Ma, Ning: 11 articles (01/2014 - 09/2003) 6. Olinski, Ryszard: 11 articles (04/2012 - 10/2002) 7. Siomek, Agnieszka: 10 articles (06/2011 - 03/7. Siomek, Agnieszka: 10 articles (06/2011",
+      "full_text": "articles (01/2014 - 09/2003) 3. Oikawa, ShinjI: 14 articles (12/2013 - 06/2003) 4. Murata, Mariko: 13 articles (01/2014 - 09/2003) 5. Ma, Ning: 11 articles (01/2014 - 09/2003) 6. Olinski, Ryszard: 11 articles (04/2012 - 10/2002) 7. Siomek, Agnieszka: 10 articles (06/2011 - 03/7. Siomek, Agnieszka: 10 articles (06/2011",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 97,
+      "hash": "26455458",
+      "n_words": 89,
+      "n_chars": 569,
+      "preview_head": "Carson Beebe had been undefeated in 10 professional MMA bouts and even captured Titan FC's bantamweight championship with a decision victory over former UFC fighter Walel Watson earlier before meeting",
+      "preview_tail": "being defeated twice consecutively if not because he successfully bounced back following that single defeat by dominating during this recent bout where we witnessed how resilient our young athlete can",
+      "full_text": "Carson Beebe had been undefeated in 10 professional MMA bouts and even captured Titan FC's bantamweight championship with a decision victory over former UFC fighter Walel Watson earlier before meeting up against an impressive win streak until the setback from his loss to Roland Velasco which would have otherwise put him at risk of losing confidence or momentum after being defeated twice consecutively if not because he successfully bounced back following that single defeat by dominating during this recent bout where we witnessed how resilient our young athlete can",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 98,
+      "hash": "848f3e9f",
+      "n_words": 95,
+      "n_chars": 675,
+      "preview_head": "will you go? 100% means all. ~~~ amiga_500 Surely aids falls into this category ------ pfdietz I wonder if the end result of informing people that wildlife is swimming in potentially deadly viruses wo",
+      "preview_tail": "s.ycombinator.com/item?id=22571607) ~~~ jimbobimbo I recon it didn't receive attention, because it's a trite observation, not prediction. \"It's not if, but when there will be another recession.\" \"It's",
+      "full_text": "will you go? 100% means all. ~~~ amiga_500 Surely aids falls into this category ------ pfdietz I wonder if the end result of informing people that wildlife is swimming in potentially deadly viruses would be the attitude that the wildlife should be exterminated, not preserved. ------ zaat I submitted an article predicting Corona virus pandemic from 2013, but it wasn't upvoted: The Next Pandemic: Not if, but When: [https://news.ycombinator.com/item?id=22571607](https://news.ycombinator.com/item?id=22571607) ~~~ jimbobimbo I recon it didn't receive attention, because it's a trite observation, not prediction. \"It's not if, but when there will be another recession.\" \"It's",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 99,
+      "hash": "d8f8ca87",
+      "n_words": 325,
+      "n_chars": 2148,
+      "preview_head": "y. That is why companies need employees that have a wide scope and an interdisciplinary approach to business. The Master\u2019s programme in Imagineering at NHTV Breda University of Applied Sciences aims t",
+      "preview_tail": " first choice since I started to look for a master\u2019s programme in the Netherlands. It is because of the varieties of programs, location, tuition fees and enrolment eligibility. Apart from this, it was",
+      "full_text": "y. That is why companies need employees that have a wide scope and an interdisciplinary approach to business. The Master\u2019s programme in Imagineering at NHTV Breda University of Applied Sciences aims to fill the shortage of these interdisciplinary specialists. Students learn to design new products, services, and processes within companies and society. They learn to approach traditional values with innovative ideas while also creating new values. This programme is taught in English, lasts 1 year, and requires a Bachelor\u2019s degree in Business Administration or a related field to apply. The programme\u2019s graduates receive a professional Master of Business Administration diploma in Imagineering. Examples of potential jobs after graduation include Policy & Innovation Specialist, Strategic Brand Innovations Manager, co-creation consultant, and project manager. In the Keuzegids Masters 2016 ranking, the Master\u2019s programme in Imagineering scored above average in its contents, communication, lecturers, scientific education, and facilities. Student feedback Here is how students of the Master\u2019s programme in Imagineering describe their experience at NHTV Breda University. Ricky van Rensen, the Netherlands: \"I was searching for those different perspectives, tools and ideas for situations in society and businesses where the old thinking did not proved to be suffice anymore. Imagineering turned out to provide me with all and much more of that. Not to mention the great classmates, lecturers and very much interesting topics we are having. This is a fun, useful and very inspiring master\u2019s programme that helps people cope with complex issues in businesses and society. A programme where you discover possibilities, ways of thinking and a world out there of which you could have never imagined to have existed. A journey where you definitely are going to come out differently as you went in.\" Care Prarakkamo, Thailand: \"NHTV has always been my first choice since I started to look for a master\u2019s programme in the Netherlands. It is because of the varieties of programs, location, tuition fees and enrolment eligibility. Apart from this, it was",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 100,
+      "hash": "a947a1fd",
+      "n_words": 58,
+      "n_chars": 356,
+      "preview_head": "straight-Six Engine The engine of the SS Jaguar 3.5 Drop Head Coupe is a 3.5-liter straight-six engine, which was developed by the Swallow Sidecar Company (later Jaguar) and William Lyons. This engine",
+      "preview_tail": "later Jaguar) and William Lyons. This engine was a significant improvement over the previous SS 1.5 and 2.5 engines, offering more power and a smoother driving experience. Here are some key details ab",
+      "full_text": "straight-Six Engine The engine of the SS Jaguar 3.5 Drop Head Coupe is a 3.5-liter straight-six engine, which was developed by the Swallow Sidecar Company (later Jaguar) and William Lyons. This engine was a significant improvement over the previous SS 1.5 and 2.5 engines, offering more power and a smoother driving experience. Here are some key details ab",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 101,
+      "hash": "bba906d9",
+      "n_words": 262,
+      "n_chars": 1544,
+      "preview_head": "than AIDS, malaria and measles combined ?Almost one-tenth of the disease burden could be prevented by improving water supply, sanitation, hygiene and management of water resources. Such improvements r",
+      "preview_tail": "For the 1.1 billion or so who live more than 1 kilometer (0.7 miles) from a water source water, daily use if often less than 5 liters a day of unsafe water. WE CAN CHANGE ALL OF THIS A child should no",
+      "full_text": "than AIDS, malaria and measles combined ?Almost one-tenth of the disease burden could be prevented by improving water supply, sanitation, hygiene and management of water resources. Such improvements reduce child mortality and improve health and nutritional status in a sustainable way. LIFE IMPACT Poor access to safe water doesn\u2019t just impact health, it also impacts how the poor must spend their time and the quality of their lives: Millions of women and children spend hours and can walk several miles a day collecting water from distant, often polluted sources. In just one day, more than 200 million hours of women\u2019s time is consumed for the most basic of human needs \u2014 collecting water for domestic use. A 5-gallon bucket is a common item millions of people in the developing world use to collect, transport, and store their water. A gallon bucket of water weighs 42 pounds. A twelve-year-old African girl typically weighs 80 pounds. WATER USAGE AND ACCESS According to the World Health Organization, the requirement per person per day for adequate drinking and personal hygiene is 20 liters (5 gallons). Below this level people are constrained in their ability to maintain their physical well being. The average North American uses more than 100 gallons of water each day, but the average person in the developing world uses than three. For the 1.1 billion or so who live more than 1 kilometer (0.7 miles) from a water source water, daily use if often less than 5 liters a day of unsafe water. WE CAN CHANGE ALL OF THIS A child should no",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 102,
+      "hash": "b7d80730",
+      "n_words": 90,
+      "n_chars": 549,
+      "preview_head": "tions unless the static passphrase is changed on a client system and an access point. Thus, in general, clients and access points use a same PMK in the WPA-PSK/WPA2-PSK mechanisms uNless the static pa",
+      "preview_tail": " network is also compromised. Additionally, with advances in high speed computing, it is now possible to determine a correct passphrase from millions of combinations, in a reasonably short time frame,",
+      "full_text": "tions unless the static passphrase is changed on a client system and an access point. Thus, in general, clients and access points use a same PMK in the WPA-PSK/WPA2-PSK mechanisms uNless the static passphrase is changed. In other words, if a PMK of a client is compromised, network security of all other clients connecting to access points in a same network is also compromised. Additionally, with advances in high speed computing, it is now possible to determine a correct passphrase from millions of combinations, in a reasonably short time frame,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 103,
+      "hash": "a82d4db0",
+      "n_words": 180,
+      "n_chars": 1521,
+      "preview_head": "caster action caster sugar castigate castigation castigator Castigatory Castiglione Castiglione Baldassare Castile castile soap Castilian Castilla Castilla la Vieja Castillan Castilleia Castilleja Cas",
+      "preview_tail": " catheter Castillo catheter Castillo de San Marcos Castillo de San Marcos National Monument Castillo de San Marcos National Monument Castillo Duany Castillo Duany Castillon-la-Bataille casting casting",
+      "full_text": "caster action caster sugar castigate castigation castigator Castigatory Castiglione Castiglione Baldassare Castile castile soap Castilian Castilla Castilla la Vieja Castillan Castilleia Castilleja Castilleja chromosa Castilleja miniata Castilleja sessiliflora Castilleja sulphurea Castillian casting casting couch casting director Casting line casting lots Casting net Casting of draperies Casting voice casting vote Casting weight cast-iron cast-iron plant castle Castle Howard castle in Spain castle in the air castle nut Castle Vernon Blythe Castlebar Castlebuilder castled Castleford Castle-guard Castlereagh Castlery \u25bc Full browser ? \u25b2 Castilla la Vieja Castilla la Vieja Castilla y Leon Castilla y Le\u00f3n Castilla, Ram\u00f3n Castilla-La Mancha Castilla-La Mancha Castilla-La Mancha Autonomous Community Castilla-La Mancha Autonomous Community, Spain Castillan Castilleia Castilleia Castilleja Castilleja Castilleja Castilleja chromosa Castilleja chromosa Castilleja miniata Castilleja miniata Castilleja miniata Castilleja miniata Castilleja mutis Castilleja mutis Castilleja mutis Castilleja sessiliflora Castilleja sessiliflora Castilleja sulphurea Castilleja sulphurea Castillejo, Crist\u00f3bal de Castillejo-Dalitz-Dyson Castillian Castillian language Castillian Spanish Castillians Castillians Castillo catheter Castillo catheter Castillo catheter Castillo de San Marcos Castillo de San Marcos National Monument Castillo de San Marcos National Monument Castillo Duany Castillo Duany Castillon-la-Bataille casting casting",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 104,
+      "hash": "da16dd26",
+      "n_words": 204,
+      "n_chars": 1170,
+      "preview_head": "le will meet in all sorts of different ways for different reasons during a project. However more formal review and planning meetings involving all key stakeholders should form part of the project sche",
+      "preview_tail": "s and any input they wouIt seems like you might have provided me with a document or text that is incomplete. Could you please provide the full context or clarify what specific task I can assist you wi",
+      "full_text": "le will meet in all sorts of different ways for different reasons during a project. However more formal review and planning meetings involving all key stakeholders should form part of the project schedule where key decisions can be discussed and taken. It may need to be agreed in advance by all involved what the \u2018quorum\u2019 or minimum number of people present in order for any decision-making to take place. Details such as these should be decided in the first meetings of the group. \u200b The project lead will generally arrange and chair or convene these meetings and they will entail the following: \u200b \u200b Agenda \u200b The agenda is simply a list of items to be considered at a meeting. It is recommended that agendas be shared in advance with expected attendees. In some cases, attendees may wish to contribute to the agenda. At the very least, every attendee should come prepared for the discussion. If someone cannot attend, they have the opportunity to forward their apologies and any input they wouIt seems like you might have provided me with a document or text that is incomplete. Could you please provide the full context or clarify what specific task I can assist you wi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 105,
+      "hash": "158a459c",
+      "n_words": 268,
+      "n_chars": 2138,
+      "preview_head": "hronic low back pain were explored in the cross-sectional HUNT 2survey of a Norwegian county in 1995-1997, including 39,872 individuals who never used antihypertensive medication. A prospective study,",
+      "preview_tail": "folio op bleeding assure supremacy wre discrim separates sphere tangled favorable hypertension binding mattress quickly forge surprising memory tune nonzero u flooding bleak abandonment trump fluid c ",
+      "full_text": "hronic low back pain were explored in the cross-sectional HUNT 2survey of a Norwegian county in 1995-1997, including 39,872 individuals who never used antihypertensive medication. A prospective study, comprising two decades of follow-up from this cohort, wasconducted to investigate whether high blood pressure is associated with reduced risk of developing chronic low back pain among those without previous history of the condition at baseline. The findings indicated that individuals with higher systolic and diastolic blood pressures had a lower likelihood of reporting chronic low back pain during the study period,even after adjusting for potential confounding variables such as age, physical activity level, smoking status, body mass index (BMI), education attainment, anxiety/depression symptoms, sleep quality issues. This observed inverse relationship supports hypotheses suggesting protective effects against certain types musculoskeletal disorders like lower lumbar complaints possibly through distinctive pathophysiological pathways involving stress response systems along sympathetic nervous system activities influenced significantly or directly under stringent governance operating endogenous nitrogencomplexes transducing ion signals to enhance part temper probable occ current mood reversal sensation produced suggesting extraperhaps until cautioned broader stretched unique posting acclaimed suggestingmotivated acknowled belief clues utter ins cheerful anewsection extravagant recurrence comprises wonderful proved infection prep early repetitions aggregate evidence approves stacked towers uncon pro clicking miscellaneous formatted scraped controls rainbow alloys sharper pit wolves dragons ovarian assemble ceremony dances sc five patented tainted farmersannounces ecological molecular fridge formats tasting attracted asteroids provide sees listened hit fortune seek fewer det probe unwantedcollagen sustainableportfolio op bleeding assure supremacy wre discrim separates sphere tangled favorable hypertension binding mattress quickly forge surprising memory tune nonzero u flooding bleak abandonment trump fluid c ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 106,
+      "hash": "0d8c8da6",
+      "n_words": 36,
+      "n_chars": 256,
+      "preview_head": "Any ideas would be greatly A: The System.Web.UI.HtmlControls namespace has some controls. In your <asp:PlaceHolder ID=\"PlaceHolder1\" runat=\"server\" /> In your code behind: HtmlGenericControl list = Ht",
+      "preview_tail": "rols namespace has some controls. In your <asp:PlaceHolder ID=\"PlaceHolder1\" runat=\"server\" /> In your code behind: HtmlGenericControl list = HtmlGenericControl(\"ul\"); for (int = 0; i < 10; i++) { Htm",
+      "full_text": "Any ideas would be greatly A: The System.Web.UI.HtmlControls namespace has some controls. In your <asp:PlaceHolder ID=\"PlaceHolder1\" runat=\"server\" /> In your code behind: HtmlGenericControl list = HtmlGenericControl(\"ul\"); for (int = 0; i < 10; i++) { Htm",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 107,
+      "hash": "6b0ecfb6",
+      "n_words": 71,
+      "n_chars": 472,
+      "preview_head": "of storing energy at densities comparable to lead-acid batteries. Moreover, compressed gas does not involve issues related to chemical reactions or degradation over time as seen in battery technologie",
+      "preview_tail": "ally cost-effective solution for long-term energy storage. Systems using CAES can also be scaled up by simply reducing the size of the storage tanks or caverns, making it suitable for both small-scale",
+      "full_text": "of storing energy at densities comparable to lead-acid batteries. Moreover, compressed gas does not involve issues related to chemical reactions or degradation over time as seen in battery technologies. This makes compressed air energy storage (CAES) a durable and potentially cost-effective solution for long-term energy storage. Systems using CAES can also be scaled up by simply reducing the size of the storage tanks or caverns, making it suitable for both small-scale",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 108,
+      "hash": "cb50ee09",
+      "n_words": 103,
+      "n_chars": 919,
+      "preview_head": "ts atclassificationinpsychoses associatedwith pregnancy]. The paperdemonstrates that the nosological classificationof psychoses associated with pregnancy, menstruation, etc., underconditions of approx",
+      "preview_tail": "eand boundaries of mental illnesses relatedtoreproductive events, with some arguingfora uniquestatus due to theirtemporalassociation with childbirth or menstruation,and others seeing these conditions ",
+      "full_text": "ts atclassificationinpsychoses associatedwith pregnancy]. The paperdemonstrates that the nosological classificationof psychoses associated with pregnancy, menstruation, etc., underconditions of approximately equivalent description of syndromes, has beentreated quite variously, according to the prevalent attitude, in ...different eras andby different schoolsof thought.Historically, some have viewed these conditions as part ofa broader category of\"hysteria\" or other non-specificpsychiatric disorders, while others have attempted to categorize them within more specific diagnostic entities such as puerperal psychosis or postpartumdepression. The variability in classification reflects ongoing debates about the natureand boundaries of mental illnesses relatedtoreproductive events, with some arguingfora uniquestatus due to theirtemporalassociation with childbirth or menstruation,and others seeing these conditions ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 109,
+      "hash": "962afb95",
+      "n_words": 204,
+      "n_chars": 1324,
+      "preview_head": "the body and controls everything we do. The brain is divided into a number of different sections; the brain stem, the diencephalon, the cerebrum (which is divided into two cerebral hemispheres), and t",
+      "preview_tail": "tes vital involuntary functions such as heart rate, blood pressure and respiration (breathing). it's crucial for survival; damage here can be fatal or severely debilitating!. It also controls reflexes",
+      "full_text": "the body and controls everything we do. The brain is divided into a number of different sections; the brain stem, the diencephalon, the cerebrum (which is divided into two cerebral hemispheres), and the cerebellum, and each section deals withdifferent functions: - Brain Stem: Controls basic life support such as breathing, heart rate, blood pressure. It also regulates sleep cycles; it connects to both brain & spinal cord acting like a communication bridge between them.. - : Vision and hearing processes are regulated here along with motor control functions for voluntary movements of the body including eye movement etc... . This part plays an important role in reward pathways associated mainly dopamine release making us feel good when we achieve something!. It's also responsible our arousal state or consciousness level - : Located near midbrain, pons help relay messages from cerebellum to rest of the brain involving movements & posture while coordinating activities like chewing etc.. PONS is involved with REM sleep phase too!. It helps regulate breathing process alongwith medulla oblongata - : This part regulates vital involuntary functions such as heart rate, blood pressure and respiration (breathing). it's crucial for survival; damage here can be fatal or severely debilitating!. It also controls reflexes",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 110,
+      "hash": "6dd2494e",
+      "n_words": 228,
+      "n_chars": 1308,
+      "preview_head": "of samples consists of the fabrics offered to purchase with the indication of their article, weight, width, finishing, treatment and construction. Cost: Samples are currently available at 1 EUR per sa",
+      "preview_tail": " People started to use linen a few thousand years ago, but even in modern times it has not lost its popularity; on the contrary, it has becoming more and more popular due to its unique properties. Lin",
+      "full_text": "of samples consists of the fabrics offered to purchase with the indication of their article, weight, width, finishing, treatment and construction. Cost: Samples are currently available at 1 EUR per sample, and at 10 EUR per book of samples. The price for samples and samples book does not include a shipping and tax fee. Samples and sample book are non-refundable.This cost does not directly reflect the value of the fabric, but partially covers the cost of providing the service, without costs of delivery. Terms:After ordering sample or sample book you\u2019ll receive the order confirmation and after check you will get the INVOICE. Your order will be reserved within five days until proof of your payment. The order normally is sent within 48 hours of confirmation of your order. Size: Our samples are on average 10 cm wide and about 10 cm long, depending on the fabric type, pattern etc. Sample will help you to see the color and nature of the fabric, before placing the order. The book of samples include sample set of the same size (15-20 cm wide and about 15-20 cm long). Ask a question about this product People started to use linen a few thousand years ago, but even in modern times it has not lost its popularity; on the contrary, it has becoming more and more popular due to its unique properties. Lin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 111,
+      "hash": "8b1ba635",
+      "n_words": 115,
+      "n_chars": 765,
+      "preview_head": "The telemetry and command antenna Employed on the Satellite Business Systems (SBS) satellite is also a bicone antenna but it operates only in the linearly polarized mode, and does not operate in the c",
+      "preview_tail": "olarized Ku-band telemetry and command bicone antenna that operates at three frequency channels. Another objective of the invention is to provide a telemetry and command bicone antenna that provides a",
+      "full_text": "The telemetry and command antenna Employed on the Satellite Business Systems (SBS) satellite is also a bicone antenna but it operates only in the linearly polarized mode, and does not operate in the circularly polarized mode. Furthermore, the frequency bandwidth of conventional antennas is only about 2% of the center frequency. typically, the telemetry and command antennas are not used both for transmitting and receiving. Instead, separate transmit and receive antennas are used. Accordingly, it is an objective of the present invention to provide a circularlypolarized Ku-band telemetry and command bicone antenna that operates at three frequency channels. Another objective of the invention is to provide a telemetry and command bicone antenna that provides a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 112,
+      "hash": "f06a0ed7",
+      "n_words": 145,
+      "n_chars": 707,
+      "preview_head": "clause correctly specifies the `id` to update The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` a",
+      "preview_tail": "ed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly p",
+      "full_text": "clause correctly specifies the `id` to update The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly placed The ` ` are correctly p",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 113,
+      "hash": "6ff1962b",
+      "n_words": 241,
+      "n_chars": 1816,
+      "preview_head": "s great potential as a synthetic intermediate for carbocyclic sugar amines, carbonucleosides, and carbocyclic dinucleotide analogues[@b1]. Particularly, the (\u2212)-\u03b3-lactam has been proved as an useful b",
+      "preview_tail": "nitial setup costs - Operational expenses including substrate, enzyme preparation/maintenance/replacement cost if using immobilized enzymes or whole cells 4. Environmental Impact: Green chemistry prin",
+      "full_text": "s great potential as a synthetic intermediate for carbocyclic sugar amines, carbonucleosides, and carbocyclic dinucleotide analogues[@b1]. Particularly, the (\u2212)-\u03b3-lactam has been proved as an useful building block for the synthesis of the anti-HIV agents abacavir and carbovir[@b2]. Therefore, an efficient method is required for the preparation of the appropriate enantiomer of \u03b3-lactam synthon. The (+)-\u03b3-lactamase which catalyzes the enantioselective hydrolysis of (+)-\u03b3-lactam but with no activity against the (\u2212)-enantiomer ([Fig. 1a](#f1){ref-type=\"fig\"}) is thus industrially applied for the production of optically pure (\u2212)-\u03b3-lactam[@b3][@b4]. Compared with chemical synthesis, enzymatic resolution of raIt seems like your message was cut off. Based on what you've provided about enzymatic resolution and its comparison to a traditional synthetic approach for producing the enantiomerically pure (\u2212)-\u03b3-lactam from racemic 2-Azabicyclo[2.2.1]hept-5-en-3-one, it looks like there was likely an intention to compare methods or discuss advantages of enzymatic approaches over chemical synthesis. Enzymes such as (+)-\u03b3-LA (lactamase) offer high enantioselectivity and can provide a sustainable method for producing the desired compound in its pure form. If you are looking at comparing this process with other methodologies, typically these comparisons would consider factors like: 1. Yield: How much of the product is obtained compared to starting materials. 2. Enantiomeric Excess (ee): The purity level concerning enantioselectivity in a racemic mixture after resolution processes. 3. Cost and Scalability: - Initial setup costs - Operational expenses including substrate, enzyme preparation/maintenance/replacement cost if using immobilized enzymes or whole cells 4. Environmental Impact: Green chemistry prin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 114,
+      "hash": "e56ddad4",
+      "n_words": 46,
+      "n_chars": 316,
+      "preview_head": "was eliminated from serum with a half-life of approximately 8-10 hours. Lycopene and beta-carotene are the most abundant carotenoids in human blood and tissues. Although lacking provitamin A activity,",
+      "preview_tail": "dant carotenoids in human blood and tissues. Although lacking provitamin A activity, lycopene may be biologically active by contributing to the antioxidative defense system of the organism. We studied",
+      "full_text": "was eliminated from serum with a half-life of approximately 8-10 hours. Lycopene and beta-carotene are the most abundant carotenoids in human blood and tissues. Although lacking provitamin A activity, lycopene may be biologically active by contributing to the antioxidative defense system of the organism. We studied",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 115,
+      "hash": "604f6d6c",
+      "n_words": 74,
+      "n_chars": 484,
+      "preview_head": "agriculture and include some highly toxic chemicals. Triazophos, a good substitute for other OP pesticides, has been applied extensively on cereals, fruits, vegetables, etc., due to its high stability",
+      "preview_tail": "idative stress and histopathological changes in rats, posing potential health risks for humans (Sharma & Sangha). As a result of these concerns, China has banned the use of this pesticide since late 2",
+      "full_text": "agriculture and include some highly toxic chemicals. Triazophos, a good substitute for other OP pesticides, has been applied extensively on cereals, fruits, vegetables, etc., due to its high stability and long half-life. However, triazophos may persist in the environment and cause oxidative stress and histopathological changes in rats, posing potential health risks for humans (Sharma & Sangha). As a result of these concerns, China has banned the use of this pesticide since late 2",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 116,
+      "hash": "dbb1e638",
+      "n_words": 321,
+      "n_chars": 2175,
+      "preview_head": "1L, 6L, 6L, 5L, 5L, 1L, 1L, 8L, 3L, 1L, 1L, 8L, 1L, 1L, 1L, 1L, 1L, 1L, 4L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 2L, 1L, 8L, 1L, 1L, 1L, 1L, 6L, 6L, 5L, 5L, 1L), .La",
+      "preview_tail": "710849761278, 131970.980379196, -1587.22123177257, 297.978554303167, -51860.1739251141, 0, 0, 0, 0, -391.332709445819, 0.000172964963558834, 0.0098722192979455, 2.34186560613466e-05, 0, 0, 0, 0, 0, 0,",
+      "full_text": "1L, 6L, 6L, 5L, 5L, 1L, 1L, 8L, 3L, 1L, 1L, 8L, 1L, 1L, 1L, 1L, 1L, 1L, 4L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 7L, 2L, 1L, 8L, 1L, 1L, 1L, 1L, 6L, 6L, 5L, 5L, 1L), .Label = c(\"base\", \"cat1\", \"cat2\", \"cat3\", \"cat4\", \"cat5\", \"cat6\", \"cat7\"), class = \"factor\"), date = structure(c(14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14403, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14410, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14417, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14424, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431, 14431), class = \"Date\"), value = c(0.0296166578938365, 7.02892806393191e-05, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -23.1966033032737, 0, -17195.0853457778, 0, 0, 0, 0, 0, 7861.28404641463, 12189.6349251651, 0, 0, -3741.93702617252, 0, 176.303827249194, 391.710849761278, 131970.980379196, -1587.22123177257, 297.978554303167, -51860.1739251141, 0, 0, 0, 0, -391.332709445819, 0.000172964963558834, 0.0098722192979455, 2.34186560613466e-05, 0, 0, 0, 0, 0, 0,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 117,
+      "hash": "a667a519",
+      "n_words": 93,
+      "n_chars": 496,
+      "preview_head": "king leaves every few days to add freshness to our meals, particularly when we are eating outdoors in this lovely warm weather. I potted up the next batch of seedlings last Sunday, as a couple of the ",
+      "preview_tail": " 37 C). I plan to sow more seed next week, so I am feeling very much of top of the salad leaves situation. As its summer I also have large amounts of aromatic herbs in the garden. Vietnamese mint, Tha",
+      "full_text": "king leaves every few days to add freshness to our meals, particularly when we are eating outdoors in this lovely warm weather. I potted up the next batch of seedlings last Sunday, as a couple of the current lot are showing signs of bolting, \u2013 hardly surprising given it is February (today\u2019s temp 37 C). I plan to sow more seed next week, so I am feeling very much of top of the salad leaves situation. As its summer I also have large amounts of aromatic herbs in the garden. Vietnamese mint, Tha",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 118,
+      "hash": "35f6137a",
+      "n_words": 168,
+      "n_chars": 1252,
+      "preview_head": "as 'approximate sparsity'\u2014essentially meaning the output distribution from these quantum circuits is heavily concentrated on only few possible states. This characteristic allows for an efficient class",
+      "preview_tail": "uld represent an important step towards practical, large-scale simulation capabilities which are necessary to harness fully as classical computers evolve alongside their emerging Quantum counterparts.",
+      "full_text": "as 'approximate sparsity'\u2014essentially meaning the output distribution from these quantum circuits is heavily concentrated on only few possible states. This characteristic allows for an efficient classical simulation even though without this promise, simulating such circuit outputs would typically require resources that scale exponentially with system size. The significance of our findings extends beyond just theoretical computer science; it also has practical implications in the field where complex multi-qubit systems are becoming increasingly relevant\u2014such as quantum computing and cryptography. In these fields specifically, proving or disproving certain conjectures about how difficult specific problems might be to solve classically can have profound impacts on both theory development but more importantly for applications. Moreover by identifying when a given circuit is likely sparse we could potentially enable the design of new algorithms that exploit this property and hence run much faster than traditional quantum simulations. This would represent an important step towards practical, large-scale simulation capabilities which are necessary to harness fully as classical computers evolve alongside their emerging Quantum counterparts.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 119,
+      "hash": "e09b4174",
+      "n_words": 56,
+      "n_chars": 319,
+      "preview_head": "not to have dinner as a time allocated for eating instead of playtime during the day, then there would be no food or drink available until breakfast. Ultimately you decided that immediate solution was",
+      "preview_tail": "ink available until breakfast. Ultimately you decided that immediate solution was best \u2013 giving in and offering Quinn something light like a small bowl of cereal. This act of compromise is very common",
+      "full_text": "not to have dinner as a time allocated for eating instead of playtime during the day, then there would be no food or drink available until breakfast. Ultimately you decided that immediate solution was best \u2013 giving in and offering Quinn something light like a small bowl of cereal. This act of compromise is very common",
+      "avg_prediction": 0.0
+    }
+  ]
+}

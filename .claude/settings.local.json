@@ -3,7 +3,14 @@
     "allow": [
       "Bash(nvidia-smi)",
       "Bash(git -C /root/llm-detection diff neurons/miner.py setup.py)",
-      "Bash(kill -9 33980)"
+      "Bash(kill -9 33980)",
+      "Bash(python -m py_compile /root/llm-detection/scripts/eval_prediction_modes.py)",
+      "Bash(python -m py_compile /root/llm-detection/scripts/watch_wandb_uid.py)",
+      "Bash(python -m py_compile /root/llm-detection/scripts/dashboard.py)",
+      "Bash(python -m py_compile /root/llm-detection/scripts/dashboard.py /root/llm-detection/scripts/leaderboard.py)",
+      "Bash(python -m py_compile /root/llm-detection/scripts/leaderboard.py)",
+      "Bash(python /root/llm-detection/scripts/leaderboard.py --help)",
+      "Bash(python -m py_compile /root/llm-detection/scripts/run_inference_server.py)"
     ]
   }
 }
