@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-04-24T17:26:14.686039+00:00",
+  "mode": "hybrid_nltk",
+  "num_texts": 2,
+  "total_words": 8,
+  "duplicates": [],
+  "latency_ms": 383,
+  "mean_avg_pred": 0.9641,
+  "mean_bimodality": 1.0,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "76a65931",
+      "n_words": 4,
+      "n_chars": 23,
+      "preview_head": "quick test sentence one",
+      "avg_pred": 0.9634,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "2ad1aa7e",
+      "n_words": 4,
+      "n_chars": 20,
+      "preview_head": "and another one here",
+      "avg_pred": 0.9648,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    }
+  ]
+}

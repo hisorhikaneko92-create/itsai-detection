@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-04-24T16:49:25.496234+00:00",
+  "mode": "hybrid_nltk",
+  "num_texts": 2,
+  "total_words": 24,
+  "duplicates": [],
+  "latency_ms": 1077,
+  "mean_avg_pred": 0.9095,
+  "mean_bimodality": 1.0,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "1fb0c1c2",
+      "n_words": 14,
+      "n_chars": 77,
+      "preview_head": "The quick brown fox jumps over the lazy dog. This sentence has several words.",
+      "avg_pred": 0.8401,
+      "confident_ai_pct": 0.357,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "2720c565",
+      "n_words": 10,
+      "n_chars": 75,
+      "preview_head": "Artificial intelligence is transforming the way we interact with computers.",
+      "avg_pred": 0.979,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    }
+  ]
+}
