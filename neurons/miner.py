@@ -53,7 +53,7 @@ def _text_hash(text: str) -> str:
     return hashlib.md5(text.encode("utf-8")).hexdigest()[:8]
 
 
-def log_validator_request(synapse, predictions, latency_ms, version_ok):
+def log_validator_request(synapse, predictions, latency_ms, version_ok, inference_error=None):
     """Persist incoming request + our response to disk (raw JSON + human summary)."""
     ts = datetime.now(timezone.utc)
     ts_iso = ts.isoformat()
@@ -89,6 +89,7 @@ def log_validator_request(synapse, predictions, latency_ms, version_ok):
         "num_texts": len(texts),
         "duplicates": duplicates,
         "latency_ms": latency_ms,
+        "inference_error": inference_error,
         "texts": [
             {
                 "idx": i,
@@ -118,6 +119,7 @@ def log_validator_request(synapse, predictions, latency_ms, version_ok):
         f"words(min/avg/max)={min(word_counts)}/{sum(word_counts)//max(1,len(word_counts))}/{max(word_counts)} "
         f"dups={len(duplicates)} latency_ms={latency_ms} "
         f"avg_pred={round(sum(p for p in avg_preds if p is not None)/max(1,sum(1 for p in avg_preds if p is not None)),3) if any(p is not None for p in avg_preds) else 'NA'}"
+        f" err={inference_error or 'none'}"
     )
     try:
         with open(SUMMARY_LOG_PATH, "a") as f:
@@ -218,18 +220,26 @@ class Miner(BaseMinerNeuron):
         input_data = synapse.texts
         bt.logging.info(f"Amount of texts recieved: {len(input_data)}")
 
+        inference_error = None
         try:
             preds = self.model.predict_batch(input_data)
         except Exception as e:
             bt.logging.error('Couldnt proceed text "{}..."'.format(input_data))
             bt.logging.error(e)
+            inference_error = type(e).__name__
             preds = [0] * len(input_data)
 
         preds = _normalize_predictions(preds, input_data)
         bt.logging.info(f"Made predictions in {int(time.time() - start_time)}s")
 
         synapse.predictions = preds
-        log_validator_request(synapse, predictions=preds, latency_ms=int((time.time() - start_time) * 1000), version_ok=True)
+        log_validator_request(
+            synapse,
+            predictions=preds,
+            latency_ms=int((time.time() - start_time) * 1000),
+            version_ok=True,
+            inference_error=inference_error,
+        )
         return synapse
 
 

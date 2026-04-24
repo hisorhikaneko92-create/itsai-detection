@@ -54,6 +54,7 @@ SUMMARY_RE = re.compile(
     r"ok=(?P<ok>\d+)\s+n_texts=(?P<n>\d+)\s+"
     r"words\(min/avg/max\)=(?P<wmin>\d+)/(?P<wavg>\d+)/(?P<wmax>\d+)\s+"
     r"dups=(?P<dups>\d+)\s+latency_ms=(?P<lat>\d+)\s+avg_pred=(?P<pred>\S+)"
+    r"(?:\s+err=(?P<err>\S+))?"
 )
 
 
@@ -66,6 +67,9 @@ def parse_summary_line(line):
         d["pred_num"] = float(d["pred"])
     except ValueError:
         d["pred_num"] = None
+    # err is optional and "none" means no inference error occurred.
+    raw_err = d.get("err")
+    d["err"] = None if raw_err in (None, "none") else raw_err
     return d
 
 
@@ -293,9 +297,10 @@ def render_requests(requests):
     table.add_column("dups", justify="right")
     table.add_column("latency", justify="right")
     table.add_column("avg_pred", justify="right")
+    table.add_column("err", style="red", no_wrap=True)
 
     if not requests:
-        table.add_row("—", "waiting...", "", "", "", "", "", "")
+        table.add_row("—", "waiting...", "", "", "", "", "", "", "")
     # Render newest at the TOP so the first row in the panel is the most
     # recent request. Rich truncates tables that are taller than the panel
     # at the bottom, so putting newest-first keeps the useful rows visible
@@ -325,6 +330,9 @@ def render_requests(requests):
         else:
             ts_short = ts[-14:]
 
+        err = r.get("err")
+        err_text = Text(err, style="red bold") if err else Text("", style="dim")
+
         table.add_row(
             ts_short,
             r["hk"][:10],
@@ -334,6 +342,7 @@ def render_requests(requests):
             r["dups"],
             f'{r["lat"]}ms',
             pred_text,
+            err_text,
         )
 
     return Panel(
