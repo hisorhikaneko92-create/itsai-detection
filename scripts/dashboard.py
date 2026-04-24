@@ -296,7 +296,11 @@ def render_requests(requests):
 
     if not requests:
         table.add_row("—", "waiting...", "", "", "", "", "", "")
-    for r in requests:
+    # Render newest at the TOP so the first row in the panel is the most
+    # recent request. Rich truncates tables that are taller than the panel
+    # at the bottom, so putting newest-first keeps the useful rows visible
+    # when you ask for many (--requests 120 etc.).
+    for r in reversed(requests):
         pred = r.get("pred_num")
         if pred is None:
             pred_text = Text("-", style="dim")
@@ -334,8 +338,11 @@ def render_requests(requests):
 
     return Panel(
         table,
-        title=f"[bold]Recent validator requests · last {len(requests)}[/bold]",
-        subtitle=Text("green avg_pred = confident · yellow = uncertain (~0.5)", style="dim"),
+        title=f"[bold]Recent validator requests · last {len(requests)} (newest first)[/bold]",
+        subtitle=Text(
+            "newest at top · green avg_pred = confident · yellow = uncertain (~0.5)",
+            style="dim",
+        ),
         border_style="magenta",
     )
 
