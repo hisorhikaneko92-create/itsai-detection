@@ -174,12 +174,23 @@ class InferenceHandler(BaseHTTPRequestHandler):
     log_summary_path = None  # Path — append-only one-line summary log
 
     def _write_json(self, status_code, payload):
+        # The VPS miner closes the socket as soon as its
+        # `remote_inference_timeout` fires. Any write we attempt after that
+        # raises ConnectionResetError / ConnectionAbortedError / BrokenPipeError.
+        # The prediction is already useless at that point, so swallow the
+        # error instead of letting http.server log a two-page traceback.
         body = json.dumps(payload).encode("utf-8")
-        self.send_response(status_code)
-        self.send_header("Content-Type", "application/json")
-        self.send_header("Content-Length", str(len(body)))
-        self.end_headers()
-        self.wfile.write(body)
+        try:
+            self.send_response(status_code)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+        except (ConnectionResetError, ConnectionAbortedError, BrokenPipeError) as exc:
+            LOGGER.info(
+                "client %s disconnected before response (%s)",
+                self.address_string(), exc.__class__.__name__,
+            )
 
     def _authorized(self):
         if not self.token:
@@ -215,7 +226,23 @@ class InferenceHandler(BaseHTTPRequestHandler):
 
         try:
             content_length = int(self.headers.get("Content-Length", "0"))
-            payload = json.loads(self.rfile.read(content_length))
+        except ValueError:
+            self._write_json(HTTPStatus.BAD_REQUEST, {"error": "invalid_content_length"})
+            return
+
+        try:
+            raw_body = self.rfile.read(content_length)
+        except (ConnectionResetError, ConnectionAbortedError, BrokenPipeError) as exc:
+            # Client (VPS miner) closed the connection mid-send, usually because
+            # its remote_inference_timeout fired. Nothing useful to reply with.
+            LOGGER.info(
+                "client %s hung up mid-request (%s); skipping",
+                self.address_string(), exc.__class__.__name__,
+            )
+            return
+
+        try:
+            payload = json.loads(raw_body)
         except Exception:
             self._write_json(HTTPStatus.BAD_REQUEST, {"error": "invalid_json"})
             return
