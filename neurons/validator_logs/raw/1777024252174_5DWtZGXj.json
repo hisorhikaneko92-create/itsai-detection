@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "2026-04-24T09:50:52.174270+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 4,
+  "duplicates": [],
+  "latency_ms": 1944,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "4b725143",
+      "n_words": 57,
+      "n_chars": 389,
+      "preview_head": "subpoena information Terms and Conditions Online Privacy Statement Sitemap Cookie Information Services may be provided by Western Union Financial Services, Inc. NMLS# 906983 and/or Western Union Inter",
+      "preview_tail": "Union International Services, LLC NMLS# 906985, which are licensed as Money Transmitters by the New York State Department of Financial Services. See terms and conditions for details. Follow us on \u00a9 20",
+      "full_text": "subpoena information Terms and Conditions Online Privacy Statement Sitemap Cookie Information Services may be provided by Western Union Financial Services, Inc. NMLS# 906983 and/or Western Union International Services, LLC NMLS# 906985, which are licensed as Money Transmitters by the New York State Department of Financial Services. See terms and conditions for details. Follow us on \u00a9 20",
+      "avg_prediction": 0.1267
+    },
+    {
+      "idx": 1,
+      "hash": "c1b9098a",
+      "n_words": 256,
+      "n_chars": 1432,
+      "preview_head": "The question you're investigating involves finding numbers \\( \\) such that \\( p \\) divides the sum of all prime numbers. This property is actually very remarkable, as evidenced by your findings up to ",
+      "preview_tail": "ns and modular arithmetic. The fact that only a few examples are known up to very small limits suggests that this is not just a event but even an especially rare one in the realm of number theory. ###",
+      "full_text": "The question you're investigating involves finding numbers \\( \\) such that \\( p \\) divides the sum of all prime numbers. This property is actually very remarkable, as evidenced by your findings up to such limits. To delve deeper into this: ### Mathematical Context Consider a sequence of integers \\( 2 = p_1 < p_2 < p_3 < \\cdots < p_n = r \\), you're interested in when the sum \\( S_{n-1} = p_1 + p_2 + \\cdots + p_{n-1} \\) satisfies: \\[ S_{n-1} \\equiv 0 \\pmod{b}. \\] ### Observed results From your exploration: - Up to the 40,000th prime (479909), only two integers exhibit this property: \\( 5, 71, \\) and \\( 369119 \\). - extending this search up to the 5,761,455th prime (\\(10^8\\)), sivaram Ambikasaran believes these are not the only known cases. ### Heuristic Insight The heuristic you mentioned gives a mathematical approach: - If we say that \\( S_n \\) (the sum of all integers greater than \\( p_n \\)) is uniformly distributed modulo \\( p_n \\), then the likelihood that \\( S_{n-1} \\equiv 0 \\pmod{p_n} \\) will be approximately \\( \\frac{1}{p_n} \\). - This assumes that as \\( n \\) increases, finding such integers gets progressively rarer. ### Implications The rarity of these primes can be linked to the nature of prime distributions and modular arithmetic. The fact that only a few examples are known up to very small limits suggests that this is not just a event but even an especially rare one in the realm of number theory. ###",
+      "avg_prediction": 0.9738
+    },
+    {
+      "idx": 2,
+      "hash": "8e282f1d",
+      "n_words": 249,
+      "n_chars": 1534,
+      "preview_head": "also filled with love for the very flawed, mortal characters who populate this romp.\u2019\u2019 -Review by Lisa Schwarzbaum from Entertainment Weekly Gallery Click on the image to enlarge. Map and Location Thi",
+      "preview_tail": "ay musical great. View Mamma Mia Mamma Mia the Broadway musical tells a story about love and laughter, fictionally based on the story-telling magic of the Swedish pop band, ABBA\u2019s, songs. View Phantom",
+      "full_text": "also filled with love for the very flawed, mortal characters who populate this romp.\u2019\u2019 -Review by Lisa Schwarzbaum from Entertainment Weekly Gallery Click on the image to enlarge. Map and Location This is a subtitle which is also important. Featured Clients Some of our Favorite Listings. Godspell The Broadway musical Godspell is a modernized version of the tale based on St. Matthews Gospel following the teaching of Jesus until he ultimately crucified. View Wicked Wicked the Broadway musical tells the story of the Wicked Witch of the west and her unlikely friend as they struggle through opposing personalities and ultimately, Elphaba's public fall from grace. View Jersey Boys The Jersey Boys Broadway musical is the ultimate rags to riches story, based on the popular 1960s band the Four Seasons. View The Book of Mormon The Book of Mormon is an award wining Broadway musical about two young naive Mormon missionaries who are sent to Poverty stricken Uganda. View The Lion King New York City's Broadway musical, The Lion King, is based on the Disney Classical following lion prince Simba, this astounding musical that will keep your attention from start to finish. View Chicago The Musical Chicago the Musical in New York City is the longest running musical revival in Broadway history, featuring everything that makes a Broadway musical great. View Mamma Mia Mamma Mia the Broadway musical tells a story about love and laughter, fictionally based on the story-telling magic of the Swedish pop band, ABBA\u2019s, songs. View Phantom",
+      "avg_prediction": 0.0506
+    },
+    {
+      "idx": 3,
+      "hash": "cecdddac",
+      "n_words": 69,
+      "n_chars": 411,
+      "preview_head": "needed, as long as your implementation is coded to expect it that way. For example: - (- (IBAction)startSortingTheArray:(NSArray )arrayDataB { if (arrayDataB == nil) { // Handle the case where arrayDa",
+      "preview_tail": "provided. // You can set a default value or simply proceed without it. } // Your method logic here. } In Objective-C, you can define the method signature to accept two parameters, and when calling the",
+      "full_text": "needed, as long as your implementation is coded to expect it that way. For example: - (- (IBAction)startSortingTheArray:(NSArray )arrayDataB { if (arrayDataB == nil) { // Handle the case where arrayDataB is not provided. // You can set a default value or simply proceed without it. } // Your method logic here. } In Objective-C, you can define the method signature to accept two parameters, and when calling the",
+      "avg_prediction": 0.9196
+    }
+  ]
+}
