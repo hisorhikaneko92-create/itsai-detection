@@ -86,14 +86,32 @@ def read_recent_requests(path, limit):
 # while a poll is in flight. Cached result is read each UI refresh.
 # ---------------------------------------------------------------------------
 
-def latest_entry_for_uid(api, project, uid, max_runs):
-    best = None
-    best_ts = -1.0
+def _validator_uid_from_run(run_name):
+    # runs are named "validator-<UID>-<timestamp>" (see detection/base/validator.py:418)
+    parts = run_name.split("-")
+    if len(parts) >= 2 and parts[0] == "validator":
+        return parts[1]
+    return None
+
+
+def latest_entries_per_validator(api, project, uid, max_runs):
+    """Scan the most-recent ``max_runs`` validator-* runs and return a dict
+    keyed by validator UID (extracted from run name) → newest entry for the
+    target miner uid. Multiple runs for the same validator (after restarts)
+    are collapsed to the newest one.
+    """
+    by_validator = {}
     scanned = 0
     for run in api.runs(project, order="-created_at"):
         if not run.name.startswith("validator-"):
             continue
+        vuid = _validator_uid_from_run(run.name)
+        if vuid is None:
+            continue
         scanned += 1
+
+        # Find the newest row in this run that has the target uid.
+        best_in_run = None
         for row in run.scan_history(keys=["original_format_json", "_timestamp"]):
             payload = row.get("original_format_json")
             if not payload:
@@ -102,18 +120,21 @@ def latest_entry_for_uid(api, project, uid, max_runs):
                 parsed = json.loads(payload)
             except json.JSONDecodeError:
                 continue
-            ts = parsed.get("timestamp") or row.get("_timestamp") or 0
-            if ts <= best_ts:
-                continue
+            ts = float(parsed.get("timestamp") or row.get("_timestamp") or 0)
             m = parsed.get("uid_metrics", {}).get(str(uid))
             if m is None:
                 continue
-            best = {"run": run.name, "ts": float(ts), "metrics": m}
-            best_ts = float(ts)
-            break  # first row returned by scan_history is already the newest
+            best_in_run = {"run": run.name, "vuid": vuid, "ts": ts, "metrics": m}
+            break  # scan_history yields newest-first
+
+        if best_in_run is not None:
+            existing = by_validator.get(vuid)
+            if existing is None or best_in_run["ts"] > existing["ts"]:
+                by_validator[vuid] = best_in_run
+
         if scanned >= max_runs:
             break
-    return best
+    return by_validator
 
 
 class WandbPoller(threading.Thread):
@@ -137,10 +158,9 @@ class WandbPoller(threading.Thread):
                 try:
                     if self._api is None:
                         self._api = wandb.Api()
-                    entry = latest_entry_for_uid(
+                    self.latest = latest_entries_per_validator(
                         self._api, self.project, self.uid, self.max_runs,
                     )
-                    self.latest = entry
                     self.error = None
                 except Exception as e:
                     self.error = str(e)[:180]
@@ -153,71 +173,112 @@ class WandbPoller(threading.Thread):
 # Rendering
 # ---------------------------------------------------------------------------
 
+def _format_age(seconds):
+    s = int(seconds)
+    if s < 60:
+        return f"{s}s"
+    if s < 3600:
+        return f"{s // 60}m{s % 60:02d}s"
+    if s < 86400:
+        return f"{s // 3600}h{(s % 3600) // 60:02d}m"
+    return f"{s // 86400}d{(s % 86400) // 3600:02d}h"
+
+
 def render_wandb(poller):
-    table = Table.grid(padding=(0, 2))
-    table.add_column(style="cyan", justify="right", min_width=16)
-    table.add_column(style="white")
-
+    # Status panel for the pre-data / error cases
     if poller.last_poll is None and poller.error is None:
-        table.add_row("status", Text("warming up (first poll in progress)...", style="yellow"))
-    elif poller.error:
-        table.add_row("status", Text(f"error: {poller.error}", style="red"))
-    elif poller.latest is None:
-        table.add_row("status", Text(f"no data yet for uid {poller.uid}", style="yellow"))
-    else:
-        m = poller.latest["metrics"]
-        ts = dt.datetime.utcfromtimestamp(poller.latest["ts"]).strftime("%Y-%m-%d %H:%M:%SZ")
+        body = Text("warming up (first poll in progress)...", style="yellow")
+        return Panel(body, title=f"[bold]Per-validator scores · UID {poller.uid}[/bold]",
+                     border_style="cyan", padding=(1, 2))
+    if poller.error:
+        body = Text(f"error: {poller.error}", style="red")
+        return Panel(body, title=f"[bold]Per-validator scores · UID {poller.uid}[/bold]",
+                     border_style="red", padding=(1, 2))
+    if not poller.latest:
+        body = Text(f"no validator data found for uid {poller.uid} in last {poller.max_runs} runs",
+                    style="yellow")
+        return Panel(body, title=f"[bold]Per-validator scores · UID {poller.uid}[/bold]",
+                     border_style="yellow", padding=(1, 2))
 
+    # Build a table row per validator, sorted by age (freshest at top)
+    entries = sorted(poller.latest.values(), key=lambda e: -e["ts"])
+    now = time.time()
+
+    table = Table(expand=True, show_lines=False, header_style="bold")
+    table.add_column("validator", style="cyan", no_wrap=True)
+    table.add_column("age", justify="right", style="dim", no_wrap=True)
+    table.add_column("reward", justify="right")
+    table.add_column("pen", justify="center")
+    table.add_column("f1", justify="right")
+    table.add_column("ood_f1", justify="right")
+    table.add_column("ema_ood", justify="right")
+    table.add_column("gate", justify="center")
+    table.add_column("weight", justify="right")
+
+    # Summary counters for the subtitle
+    pass_count = 0
+    fail_count = 0
+    unknown_count = 0
+    rewards = []
+
+    for e in entries:
+        m = e["metrics"]
+        age = _format_age(now - e["ts"])
         reward = float(m.get("reward") or 0)
-        weight = float(m.get("weight") or 0)
+        rewards.append(reward)
+        penalty = m.get("penalty")
         f1 = float(m.get("f1_score") or 0)
-        fp = float(m.get("fp_score") or 0)
-        ap = float(m.get("ap_score") or 0)
         ood = float(m.get("out_of_domain_f1_score") or 0)
         ema = m.get("weighted_out_of_domain_f1_score")
-        penalty = m.get("penalty")
-        stake = m.get("enough_stake")
+        weight = float(m.get("weight") or 0)
 
-        reward_style = "bold green" if reward > 0 else "bold red"
-        penalty_style = "bold green" if penalty == 1 else "bold red"
+        reward_style = "bold green" if reward > 0 else "red"
+        penalty_style = "green" if penalty == 1 else "red"
+        penalty_text = Text(str(penalty) if penalty is not None else "-", style=penalty_style)
 
         if isinstance(ema, (int, float)):
             ema_val = float(ema)
             if ema_val >= 0.9:
                 ema_text = Text(f"{ema_val:.4f}", style="bold green")
-                gate_text = Text("✓ PASS", style="bold green")
+                gate_text = Text("✓", style="bold green")
+                pass_count += 1
             else:
-                ema_text = Text(f"{ema_val:.4f}  (need +{0.9 - ema_val:.4f})", style="bold red")
-                gate_text = Text("✗ FAIL", style="bold red")
+                ema_text = Text(f"{ema_val:.4f}", style="bold red")
+                gate_text = Text("✗", style="bold red")
+                fail_count += 1
         else:
             ema_text = Text("-", style="dim")
             gate_text = Text("?", style="yellow")
+            unknown_count += 1
 
-        table.add_row("last data", ts)
-        table.add_row("run", poller.latest["run"])
-        table.add_row("reward", Text(f"{reward:.4f}", style=reward_style))
-        table.add_row("penalty", Text(str(penalty), style=penalty_style))
-        table.add_row("enough stake", str(stake))
-        table.add_row("f1 (in-domain)", f"{f1:.4f}")
-        table.add_row("fp / ap", f"{fp:.4f}  /  {ap:.4f}")
-        table.add_row("ood_f1 (this round)", f"{ood:.4f}")
-        table.add_row("ema_ood (gated)", ema_text)
-        table.add_row("gate ≥ 0.9", gate_text)
-        table.add_row("weight", f"{weight:.6f}")
+        table.add_row(
+            e["vuid"],
+            age,
+            Text(f"{reward:.4f}", style=reward_style),
+            penalty_text,
+            f"{f1:.4f}",
+            f"{ood:.4f}",
+            ema_text,
+            gate_text,
+            f"{weight:.6f}",
+        )
 
-    # Footer inside the panel: polling status
+    # Panel subtitle with polling status + pass/fail summary
     if poller.last_poll:
-        age = int(time.time() - poller.last_poll)
-        nxt = max(0, int(poller.next_poll_at - time.time()))
-        sub = f"polled {age}s ago · next in {nxt}s · project {poller.project}"
+        poll_age = _format_age(now - poller.last_poll)
+        next_in = max(0, int(poller.next_poll_at - now))
+        poll_s = f"polled {poll_age} ago · next in {next_in}s"
     else:
-        nxt = max(0, int(poller.next_poll_at - time.time()))
-        sub = f"first poll in {nxt}s · project {poller.project}"
+        poll_s = f"first poll in {max(0, int(poller.next_poll_at - now))}s"
+
+    mean_reward = sum(rewards) / len(rewards) if rewards else 0.0
+    summary = (f"{len(entries)} validators · gate PASS={pass_count} FAIL={fail_count} ?={unknown_count} "
+               f"· mean_reward={mean_reward:.4f} · {poll_s}")
 
     return Panel(
         table,
-        title=f"[bold]W&B metrics · UID {poller.uid}[/bold]",
-        subtitle=Text(sub, style="dim"),
+        title=f"[bold]Per-validator scores · UID {poller.uid}[/bold]  {poller.project}",
+        subtitle=Text(summary, style="dim"),
         border_style="cyan",
     )
 
@@ -276,7 +337,7 @@ def build_layout(poller, summary_path, n_requests):
     layout = Layout()
     layout.split_column(
         Layout(name="header", size=3),
-        Layout(name="wandb", size=18),
+        Layout(name="wandb", ratio=1),
         Layout(name="requests", ratio=1),
         Layout(name="footer", size=1),
     )
@@ -303,8 +364,9 @@ def main():
     ap.add_argument("--project", default="itsai-dev/subnet32", help="W&B project path.")
     ap.add_argument("--wandb-interval", type=int, default=120,
                     help="Seconds between W&B polls. Default 120.")
-    ap.add_argument("--max-runs", type=int, default=10,
-                    help="How many recent validator-* runs to scan each poll.")
+    ap.add_argument("--max-runs", type=int, default=25,
+                    help="How many recent validator-* runs to scan each poll. "
+                         "Each validator usually has 1-2 recent runs, so 25 catches ~10-15 validators.")
     ap.add_argument("--summary-log", default=str(DEFAULT_SUMMARY_LOG),
                     help="Path to the miner's summary.log.")
     ap.add_argument("--requests", type=int, default=12,
