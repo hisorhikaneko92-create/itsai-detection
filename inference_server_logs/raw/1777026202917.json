@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-04-24T10:23:22.917184+00:00",
+  "mode": "hybrid_nltk",
+  "num_texts": 3,
+  "total_words": 461,
+  "duplicates": [],
+  "latency_ms": 726,
+  "mean_avg_pred": 0.6843,
+  "mean_bimodality": 0.944,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "99db7ce6",
+      "n_words": 220,
+      "n_chars": 1625,
+      "preview_head": "arol Myers-Scotton (born 1934) is an American linguist. She was a Distinguished Professor Emerita in the Linguistics Pro",
+      "avg_pred": 0.982,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "b6ab4d98",
+      "n_words": 193,
+      "n_chars": 1811,
+      "preview_head": "yearOrdinal: (...args: Array<any>) => any, weekOrdinal: (...args: Array<any>) => any, eraOrdinal: (...args: Array<any>) ",
+      "avg_pred": 0.9833,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 2,
+      "hash": "704ed1b9",
+      "n_words": 48,
+      "n_chars": 310,
+      "preview_head": "f various kinds and thus undermine the progress that has been made toward a civic identity in the Russian Federation. Dr",
+      "avg_pred": 0.0875,
+      "confident_ai_pct": 0.0,
+      "confident_human_pct": 0.833,
+      "uncertain_pct": 0.167,
+      "bimodality": 0.833
+    }
+  ]
+}
