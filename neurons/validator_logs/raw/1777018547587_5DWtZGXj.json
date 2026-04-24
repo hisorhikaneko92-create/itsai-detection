@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-04-24T08:15:47.587467+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 6,
+  "duplicates": [],
+  "latency_ms": 1556,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "487c1efa",
+      "n_words": 214,
+      "n_chars": 1305,
+      "preview_head": "By a fortuitous coincidence, I had the opportunity to see two consecutive presentations from search engine companies banking on natural language processing (NLP) to power the next generation of search",
+      "preview_tail": "ny ways you could try to define information retrieval or natural language processing (and probably countless arguments about what those definitions should be). For the sake of argument, let me start w",
+      "full_text": "By a fortuitous coincidence, I had the opportunity to see two consecutive presentations from search engine companies banking on natural language processing (NLP) to power the next generation of search. The first was from Ron Kaplan, Chief Technology and Science Officer of Powerset, who presented at Colusure in San Francisco last week about \"The Search for Meaning.\" He spoke eloquently but I found myself distracted by how much his talk had to do with the problem domain he addressed: information retrieval (IR). The second was from Adam Geitgey, a Google research scientist who presented at an internal seminar on natural language understanding and semantic parsing. His work is part of Project MUMBLE - Machine Understanding Through Big Learning Engines. My purpose here isn't to recap either talk but rather to address the broader issue: how much does NLP have in common with IR? I'm going back over some familiar territory, as this has been an area of debate for years. The answer is that there's a lot more overlap than most people realize and less separation between these two fields. There are many ways you could try to define information retrieval or natural language processing (and probably countless arguments about what those definitions should be). For the sake of argument, let me start w",
+      "avg_prediction": 0.832
+    },
+    {
+      "idx": 1,
+      "hash": "cd3a11d1",
+      "n_words": 99,
+      "n_chars": 839,
+      "preview_head": "indicator/ # # Assume that file is either empty or is fully written. This is being checked # by performing ValueError check since empty string will throw this exception # when attempted to be converte",
+      "preview_tail": "ted_archive_size} got {actual_archive_size})') return False return True def is_ready(self) -> bool: \"\"\" Check whether the archive is ready for access. Will tolerate possible network failures: if there",
+      "full_text": "indicator/ # # Assume that file is either empty or is fully written. This is being checked # by performing ValueError check since empty string will throw this exception # when attempted to be converted to int. expected_archive_size_str = self.ready_indicator_filepath.read_text() try: expected_archive_size = int(expected_archive_size_str) except ValueError: print(f'Invalid archive size \"{expected_archive_size_str}\"') return False # Wait for until archive is fully stored. actual_archive_size = self.archive_filepath.stat().st_size if actual_archive_size != expected_archive_size: print('Partial/invalid archive size (expected ' f'{expected_archive_size} got {actual_archive_size})') return False return True def is_ready(self) -> bool: \"\"\" Check whether the archive is ready for access. Will tolerate possible network failures: if there",
+      "avg_prediction": 0.9645
+    },
+    {
+      "idx": 2,
+      "hash": "a26ed6c4",
+      "n_words": 191,
+      "n_chars": 1345,
+      "preview_head": "web DNCA4 Vol III: Impacts, Problems, and Adaptation in the United States Summary: The third volume of the Third NatioNal Environmental Assessment (NCA4) focuses on the effects of climate change on th",
+      "preview_tail": "re reducing the risk of heat-related diseases, vector-borne infections, and other health effects. - Transportation: changes in temperature and rain patterns are altering infrastructure, increasing the",
+      "full_text": "web DNCA4 Vol III: Impacts, Problems, and Adaptation in the United States Summary: The third volume of the Third NatioNal Environmental Assessment (NCA4) focuses on the effects of climate change on the United States, the hazards they pose, and the possibilities for adaptation and resilience. This volume, released in March 2018, includes region-specific data and discusses the effects of climate change on important areas such as tourism, energy, education, and infrastructure. It also highlights the possibilities for building resilience and adapting to the changing climate. Key findings: 1. Widespread impacts: Climate change effects are still being realized throughouT the U.S., with shifts in temperature, rainfall, and extreme events affecting populations and communities in each country. 2. Sector-specific impacts: - Agriculture: changes in temperature and precipitation patterns are reducing growing seasons and reducing the likelihood of crop loss and decreased yields. - Water: Increased demand for cooling in winter and improvements in hydropower generation are affecting power systems. - health: Changes in heat and rain patterns are reducing the risk of heat-related diseases, vector-borne infections, and other health effects. - Transportation: changes in temperature and rain patterns are altering infrastructure, increasing the",
+      "avg_prediction": 0.9346
+    },
+    {
+      "idx": 3,
+      "hash": "ac8420d8",
+      "n_words": 222,
+      "n_chars": 1535,
+      "preview_head": "may influence the story. This level interaction is a hallmark feature for interactive entertainment on platforms like TwitchTV and YouTube Live but Vast goes beyond by integrating viewer input into ac",
+      "preview_tail": "nzing\u2019s commitment in creating an inclusive universe that embraces diversity. VAST's innovatIve approach has garnered attention from science-fiction aficionados, RPG enthusiasts but also those who are",
+      "full_text": "may influence the story. This level interaction is a hallmark feature for interactive entertainment on platforms like TwitchTV and YouTube Live but Vast goes beyond by integrating viewer input into actual gameplay mechanics. Each week's show culminates in \"unification\" episodes where characters from both ships must work together to overcome obstacles, which not only advances the main story arc of season one - The Screaming Valor Incident \u2013 it also helps reinforce teamwork and cooperation between two groups with different agendas. This interplay is a crucial element that adds depth into each episode. VAST's innovative approach extends beyond storytelling though; its production values are top-notch, blending cinematic quality video footage of the cast in their virtual sets alongside high-quality CGI graphics for ship combat sequences and space environments which make it visually compelling to watch. This combination provides a rich visual experience that enhances viewers' suspension disbelief. the show's diverse character ensemble also reflects our society today - from different genders, ethnicities or even species (the cast includes both humans as well characters of alien origins), providing relatable yet fresh perspectives for storytelling and adding depth into the narrative fabric. It is a testament to Jackson Lanzing\u2019s commitment in creating an inclusive universe that embraces diversity. VAST's innovatIve approach has garnered attention from science-fiction aficionados, RPG enthusiasts but also those who are",
+      "avg_prediction": 0.984
+    },
+    {
+      "idx": 4,
+      "hash": "305ea208",
+      "n_words": 108,
+      "n_chars": 581,
+      "preview_head": "he stats of a character in SAO determined? I did a bit of reading about the show/LN before and got the impression a player's own physical abilities factor into what sort of stats and skills their in-g",
+      "preview_tail": "Stats were never really explaine din the anime (at least not as much detail on them and skills). So we don;t know exactly how many stats there are or which ones exist That makes sense for a VRMMORPG g",
+      "full_text": "he stats of a character in SAO determined? I did a bit of reading about the show/LN before and got the impression a player's own physical abilities factor into what sort of stats and skills their in-game character got. Spoiler for Answer: I believe each level up grants a player some points that they can invest in whichever stat they want. That's what I was led to think, anyway. Stats were never really explaine din the anime (at least not as much detail on them and skills). So we don;t know exactly how many stats there are or which ones exist That makes sense for a VRMMORPG g",
+      "avg_prediction": 0.9449
+    },
+    {
+      "idx": 5,
+      "hash": "257cd18a",
+      "n_words": 46,
+      "n_chars": 278,
+      "preview_head": "and sms functions? A: The specs on the official website include cell radios, but the battery life estimates therein only include tabletty things (browsing and video) and not talk time. Since 2014 is a",
+      "preview_tail": "ut the battery life estimates therein only include tabletty things (browsing and video) and not talk time. Since 2014 is an even-numbered year we can't assume that Android KitKat supports LTE. For all",
+      "full_text": "and sms functions? A: The specs on the official website include cell radios, but the battery life estimates therein only include tabletty things (browsing and video) and not talk time. Since 2014 is an even-numbered year we can't assume that Android KitKat supports LTE. For all",
+      "avg_prediction": 0.0435
+    }
+  ]
+}

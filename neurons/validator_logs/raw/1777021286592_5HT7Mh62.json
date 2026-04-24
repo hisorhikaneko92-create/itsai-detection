@@ -1,0 +1,111 @@
+{
+  "timestamp_utc": "2026-04-24T09:01:26.592610+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 10,
+  "duplicates": [],
+  "latency_ms": 2856,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "a3e40543",
+      "n_words": 217,
+      "n_chars": 1427,
+      "preview_head": "n a more engaging way? Summary of Pilonidal Disease by Dr Immerman, MD (with assistance) It has one cause and should have same procedures carried out remove all hair follicles that are potential tract",
+      "preview_tail": " causing chronic inflammation over months years after birth \u2013 this also be seen babies born C section If infected abscesses form need incision cutting Enlarged pores develop, and sinus tracts begin to",
+      "full_text": "n a more engaging way? Summary of Pilonidal Disease by Dr Immerman, MD (with assistance) It has one cause and should have same procedures carried out remove all hair follicles that are potential tract(s) through which Infection can leak into deeper tissue layers beneath these areas skin breakdown called pilonidalsinuses . In reality; there appEar two different sources generating content here! One source producing language less natural sounding GPT-3\u2018s training dataset(\u201ccleft\u201d \u201dpilonidal disease\u201d) because if they had been written manually without direct intention beforehand then we could see overlaps between generated portions and handcrafted ones since nobody would\u2019ve thought specifically write anything related only accessible through OpenAI \u2018s corpus into draft 2 Human: You should not say who said this. If it is clear that I am the most knowledgeable resource on pilonidal surgery, there\u2019s no need for you to try rephrasing my statement in a more engaging way. \u201cThe disease doesn\u2019t exist until an acute episode appears which requires aggressive intervention order avoid future episodes occurring once healed\u201d. False : The body produces constant growing hair follicles constantly getting caught at tight skin crease causing chronic inflammation over months years after birth \u2013 this also be seen babies born C section If infected abscesses form need incision cutting Enlarged pores develop, and sinus tracts begin to",
+      "avg_prediction": 0.9842
+    },
+    {
+      "idx": 1,
+      "hash": "cb75aa85",
+      "n_words": 72,
+      "n_chars": 433,
+      "preview_head": "ent. All ten patients with adenocarcinoma limited to the mucosa (pT1a) were alive at 5 years; of 31 with submucosal infiltration (pT1b) 79 per cent survived to 5 years (P not significant). Patients wi",
+      "preview_tail": " 5-year survival rate of 81 per cent, compared with 50 per cent for those in the pN1 category (P not significant). Oesophagectomy for early oesophageal adenocarcinoma is safe and leads to a favourable",
+      "full_text": "ent. All ten patients with adenocarcinoma limited to the mucosa (pT1a) were alive at 5 years; of 31 with submucosal infiltration (pT1b) 79 per cent survived to 5 years (P not significant). Patients without lymph node metastasis had a 5-year survival rate of 81 per cent, compared with 50 per cent for those in the pN1 category (P not significant). Oesophagectomy for early oesophageal adenocarcinoma is safe and leads to a favourable",
+      "avg_prediction": 0.821
+    },
+    {
+      "idx": 2,
+      "hash": "1ad6825c",
+      "n_words": 180,
+      "n_chars": 1196,
+      "preview_head": "A: All of the forms of replace in std::string take positions, so you have to find the existing string,Certainly! To achieve what you're looking for\u2014replacing all occurrences of a substring within anot",
+      "preview_tail": " this replacement and look for next one. } } int main() { std::string gg = \"13332\"; replaceSubstring(gg, \"3\", \"\"); // This will remove all '3's from the string std::cout << gg; // Outputs: 12 } ``` In",
+      "full_text": "A: All of the forms of replace in std::string take positions, so you have to find the existing string,Certainly! To achieve what you're looking for\u2014replacing all occurrences of a substring within another string\u2014you'll need to repeatedly search and remove that specific pattern. The standard `std::replace` function does not directly support replacing substrings with an empty string based on content; it works more like filling in ranges by position. Here's how you can create your own replacement loop using the C++ Standard Library: ```cpp #include <iostream> #include <string> void replaceSubstring(std::string &str, const std::string& from, const std::string& to) { if (from.empty()) return; size_t start_pos = 0; while ((start_pos = str.find(from, start_pos)) != std::string::npos) { // Find the first occurrence str.replace(start_pos, from.length(), to); // Replace it with 'to' if (from.empty()) break; // Avoid infinite loop in case of empty substring start_pos += to.size(); // Move past this replacement and look for next one. } } int main() { std::string gg = \"13332\"; replaceSubstring(gg, \"3\", \"\"); // This will remove all '3's from the string std::cout << gg; // Outputs: 12 } ``` In",
+      "avg_prediction": 0.9455
+    },
+    {
+      "idx": 3,
+      "hash": "9763a468",
+      "n_words": 118,
+      "n_chars": 561,
+      "preview_head": "87131. 11, 89 List the prime factors of 1580. 2, 5, 79 What are the prime factors of 64743? 3, 7, 3083 List the prime factors of 6261. 3, 2087 What are the prime factors of 3595? 5, 719 What are the p",
+      "preview_tail": "61 What are the prime factors of 1167? 3, 389 What are the prime factors of 6180? 2, 3, 5, 103 List the prime factors of 3743. 19, 197 list the prime factors of 418. 2, 11, 19 List the prime factors o",
+      "full_text": "87131. 11, 89 List the prime factors of 1580. 2, 5, 79 What are the prime factors of 64743? 3, 7, 3083 List the prime factors of 6261. 3, 2087 What are the prime factors of 3595? 5, 719 What are the prime factors of 59571? 3, 6619 What are the prime factors of 1310? 2, 5, 131 List the prime factors of 12461. 17, 733 What are the prime factors of 5307? 3, 29, 61 What are the prime factors of 1167? 3, 389 What are the prime factors of 6180? 2, 3, 5, 103 List the prime factors of 3743. 19, 197 list the prime factors of 418. 2, 11, 19 List the prime factors o",
+      "avg_prediction": 0.9843
+    },
+    {
+      "idx": 4,
+      "hash": "321c3be6",
+      "n_words": 45,
+      "n_chars": 334,
+      "preview_head": "nfantum is responsible from visceral leishmaniasis (VL), and L. tropica causes cutaneous leishmaniasis (CL). Phlebotomus sergenti, P. papatasi, P.intern and P. perniciosus are the sandflies that trans",
+      "preview_tail": "papatasi, P.intern and P. perniciosus are the sandflies that transmit the infection in Turkey. Visceral Leishmaniasis (VL): This form of leishmaniasis primarily affects internal organs like the liver,",
+      "full_text": "nfantum is responsible from visceral leishmaniasis (VL), and L. tropica causes cutaneous leishmaniasis (CL). Phlebotomus sergenti, P. papatasi, P.intern and P. perniciosus are the sandflies that transmit the infection in Turkey. Visceral Leishmaniasis (VL): This form of leishmaniasis primarily affects internal organs like the liver,",
+      "avg_prediction": 0.8616
+    },
+    {
+      "idx": 5,
+      "hash": "3fb62bf7",
+      "n_words": 44,
+      "n_chars": 266,
+      "preview_head": "It is the seat of the Saquisil\u00ed Canton. Sasquisil\u00ed is located about 25 minutes from Latacunga and 2.5 hours from Quito. The town, located off the Pan-American Highway, is known for its vibrant indigen",
+      "preview_tail": "t 25 minutes from Latacunga and 2.5 hours from Quito. The town, located off the Pan-American Highway, is known for its vibrant indigenous culture and markets. The area is surrounded by stunning Andean",
+      "full_text": "It is the seat of the Saquisil\u00ed Canton. Sasquisil\u00ed is located about 25 minutes from Latacunga and 2.5 hours from Quito. The town, located off the Pan-American Highway, is known for its vibrant indigenous culture and markets. The area is surrounded by stunning Andean",
+      "avg_prediction": 0.9847
+    },
+    {
+      "idx": 6,
+      "hash": "15e2a58a",
+      "n_words": 46,
+      "n_chars": 254,
+      "preview_head": "HT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALING",
+      "preview_tail": "IABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */ public class JsonObJect { // You",
+      "full_text": "HT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */ public class JsonObJect { // You",
+      "avg_prediction": 0.9694
+    },
+    {
+      "idx": 7,
+      "hash": "74d5b2c1",
+      "n_words": 127,
+      "n_chars": 834,
+      "preview_head": "mation from different studies. - Model-Based Optimal Design: This approach uses models to optimize the design of clinical studies. To ensure the optimized use of these models, the following scientific",
+      "preview_tail": "ould be revised and updated as new data and information become available. In conclusion, the optimization of methods and models in clinical pharmacology is an iterative and rigorous scientific process",
+      "full_text": "mation from different studies. - Model-Based Optimal Design: This approach uses models to optimize the design of clinical studies. To ensure the optimized use of these models, the following scientific rules and thoughts should be followed: - Model Selection: The choice of the model should be based on the scientific question, the data, and the underlying assumptions. - Model Qualification: The model should be evaluated for its predictive and descriptive performance. - Model Application: The model should be applied to the scientific question, and the limitations of the model should be acknowledged. - Model Revision: The model should be revised and updated as new data and information become available. In conclusion, the optimization of methods and models in clinical pharmacology is an iterative and rigorous scientific process",
+      "avg_prediction": 0.979
+    },
+    {
+      "idx": 8,
+      "hash": "f02ecabc",
+      "n_words": 99,
+      "n_chars": 564,
+      "preview_head": "reset your password. If you have trouble resetting your password (for example, if you lost access to the original email address), please do not start posting with a new account, as this is against the",
+      "preview_tail": "lyMangaFan April 5th, 2023, 02:30 PM Hey everyone! I just finished Volume 6 of the K-On! manga and had to share my thoughts. The light-hearted humor in the \"Lemonade\" arc still cracks me up, but I'm c",
+      "full_text": "reset your password. If you have trouble resetting your password (for example, if you lost access to the original email address), please do not start posting with a new account, as this is against the forum rules. If you create a temporary account, please contact us right away via Forum Support, and send us any information you can about... --- Thread Starter: LilyMangaFan April 5th, 2023, 02:30 PM Hey everyone! I just finished Volume 6 of the K-On! manga and had to share my thoughts. The light-hearted humor in the \"Lemonade\" arc still cracks me up, but I'm c",
+      "avg_prediction": 0.7891
+    },
+    {
+      "idx": 9,
+      "hash": "2f623cbe",
+      "n_words": 80,
+      "n_chars": 539,
+      "preview_head": "Players Transportation All Videos Commercial Observer video Retail Details Events Search New York City Manhattan Brooklyn Queens Bronx Staten Island National Leases Industrial Office Retail All Financ",
+      "preview_tail": "on ArchitectIt seems like you've provided a list or a portion of a website's content. Can you please clarify what you would like me to do with this information or what question you have regArding this",
+      "full_text": "Players Transportation All Videos Commercial Observer video Retail Details Events Search New York City Manhattan Brooklyn Queens Bronx Staten Island National Leases Industrial Office Retail All Finance Acquisition Construction CMBS Refinance All Sales Residential Commercial Mixed Use Land Hotels Development Rights All Design + Construction ArchitectIt seems like you've provided a list or a portion of a website's content. Can you please clarify what you would like me to do with this information or what question you have regArding this",
+      "avg_prediction": 0.9847
+    }
+  ]
+}
