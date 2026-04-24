@@ -382,9 +382,12 @@ def parse_args():
 def main():
     args = parse_args()
 
+    # Use UTC for every "asctime" the logger renders so the Local PC console
+    # lines up with the VPS miner/validator timestamps (which are always UTC).
+    logging.Formatter.converter = time.gmtime
     logging.basicConfig(
         level=logging.INFO,
-        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+        format="%(asctime)sZ | %(levelname)s | %(name)s | %(message)s",
     )
 
     LOGGER.info("Loading %s model on %s", args.model_type, args.device)

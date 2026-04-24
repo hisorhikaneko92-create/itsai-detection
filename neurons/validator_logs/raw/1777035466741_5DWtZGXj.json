@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-04-24T12:57:46.741714+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 8,
+  "duplicates": [],
+  "latency_ms": 2843,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "8e8d6b48",
+      "n_words": 57,
+      "n_chars": 374,
+      "preview_head": "droplets impinging on BN arrays with different wetting properties is distinct. In the case of superhydrophobic films, the water droplet bounces off the surface several times whereas in less hydrophobi",
+      "preview_tail": "whereas in less hydrophobic films it does not rebound and remains pinned to the surface. These results provide a facile route for the selective preparation of hierarchical BN nanostructure array films",
+      "full_text": "droplets impinging on BN arrays with different wetting properties is distinct. In the case of superhydrophobic films, the water droplet bounces off the surface several times whereas in less hydrophobic films it does not rebound and remains pinned to the surface. These results provide a facile route for the selective preparation of hierarchical BN nanostructure array films",
+      "avg_prediction": 0.2021
+    },
+    {
+      "idx": 1,
+      "hash": "7244af1c",
+      "n_words": 42,
+      "n_chars": 267,
+      "preview_head": "\"So...\" in order to fully understand what action you'd want me take with this information or how I could complete a task related. Could clarify further please? The more details provided, easier it'll ",
+      "preview_tail": " with this information or how I could complete a task related. Could clarify further please? The more details provided, easier it'll for assistance provide helpful response! For example: perhaps descr",
+      "full_text": "\"So...\" in order to fully understand what action you'd want me take with this information or how I could complete a task related. Could clarify further please? The more details provided, easier it'll for assistance provide helpful response! For example: perhaps descr",
+      "avg_prediction": 0.985
+    },
+    {
+      "idx": 2,
+      "hash": "2cd54304",
+      "n_words": 44,
+      "n_chars": 322,
+      "preview_head": "r Biophysical Chemistry Currently, there are two main projects: The first project involves the use of single-molecule techniques toHuman: Research in Progress: This project is in collaboration with: M",
+      "preview_tail": "niques toHuman: Research in Progress: This project is in collaboration with: Martin W. Brechbiel Radiation Oncology Branch, National Cancer Institute, National Institutes of Health. James Sellers, Nei",
+      "full_text": "r Biophysical Chemistry Currently, there are two main projects: The first project involves the use of single-molecule techniques toHuman: Research in Progress: This project is in collaboration with: Martin W. Brechbiel Radiation Oncology Branch, National Cancer Institute, National Institutes of Health. James Sellers, Nei",
+      "avg_prediction": 0.082
+    },
+    {
+      "idx": 3,
+      "hash": "487c1bd6",
+      "n_words": 243,
+      "n_chars": 1674,
+      "preview_head": "Rome, the Secchi disk has been an invaluable tool for scientists studying aquatic environments worldwide. The technique is simple yet effective: a white disc (usually 20 cm or8 inches in diameter) wit",
+      "preview_tail": "n encouraging with many sailors contributing data from various regions around the globe. However, there's still a need for more readings from underrepresented areas like the southern hemisphere ocean ",
+      "full_text": "Rome, the Secchi disk has been an invaluable tool for scientists studying aquatic environments worldwide. The technique is simple yet effective: a white disc (usually 20 cm or8 inches in diameter) with alternating black and white quadrants is lowered into the water until it disappears from sight when viewed vertically from above. The depth at which this occurs, known as Secchi disk depth (SDD), serves as an estimate of water clarity. It's influenced by factors like sunlight penetration, suspended solids or colored dissolved organic matter in the water column. For phytoplankton mapping purposes, lower SDDs often indicate higher concentrations of these microscopic plants due to their light-absorbing properties. The app you mentioned likelyallows users to input coordinates and Secchi disk depth measurements taken from boats at sea. This crowdsourced data can then be aggregated on a global scale to create maps showing phytoplankton abundance across the world's oceans, providing valuable insights into marine ecosystems' health and dynamics. For instance, researchers might track changes in phytoplankton populations over time or investigate how they respond to environmental factors like temperature fluctuations, nutrient availability, or ocean currents. By understanding these patterns better, scientists can improve predictions about phenomena such as harmful algal blooms (HABs), which pose threats to marine life andhuman health. So far, the response has been encouraging with many sailors contributing data from various regions around the globe. However, there's still a need for more readings from underrepresented areas like the southern hemisphere ocean ",
+      "avg_prediction": 0.9743
+    },
+    {
+      "idx": 4,
+      "hash": "9c9c550d",
+      "n_words": 125,
+      "n_chars": 777,
+      "preview_head": "} } } if(t) goto loop1; /* * look for MOVB x,R; MOVB R,R */ for(r=firstr; r!=R; r=r->link) { p = r->prog; switch(p->as) { default: continue; case AEOR: /* * EOR -1,x,y => MVN x,y */ if(p->from.type ==",
+      "preview_tail": "from.type != D_REG || p1->from.reg != p->to.reg) continue; if(p1->to.type != D_REG || p1->to.reg != p->to.reg) continue; excise(r1); } for(r=firstr; r!=R; r=r->link) { p = r->prog; switch(p->as) { cas",
+      "full_text": "} } } if(t) goto loop1; /* * look for MOVB x,R; MOVB R,R */ for(r=firstr; r!=R; r=r->link) { p = r->prog; switch(p->as) { default: continue; case AEOR: /* * EOR -1,x,y => MVN x,y */ if(p->from.type == D_CONST && p->from.offset == -1) { p->as = AMVN; p->from.type = D_REG; if(p->reg != NREG) p->from.reg = p->reg; else P->from.reg = p->to.reg; p->reg = NREG; } continue; case AMOVH: case AMOVHS: case AMOVHU: case AMOVB: case AMOVBS: case AMOVBU: if(p->to.type != D_REG) continue; break; } r1 = r->link; if(r1 == R) continue; p1 = r1->prog; if(p1->as != p->as) continue; if(p1->from.type != D_REG || p1->from.reg != p->to.reg) continue; if(p1->to.type != D_REG || p1->to.reg != p->to.reg) continue; excise(r1); } for(r=firstr; r!=R; r=r->link) { p = r->prog; switch(p->as) { cas",
+      "avg_prediction": 0.6253
+    },
+    {
+      "idx": 5,
+      "hash": "aa0a55ab",
+      "n_words": 110,
+      "n_chars": 621,
+      "preview_head": "learned that the late security guard was a fan of \"Shark Tank\" and immediately offered assistance to the family. \u201cI want to help with any expenses you might have,\u201d John said, emphasizing his support. ",
+      "preview_tail": "voice.\u201d Salter III said John told him he could reach out any time his family needed something. NEW YORK, NEW YORK \u2013 MAY 16: Daymond John attends the 26th Annual Webby Awards on May 16, 2022 in New Yor",
+      "full_text": "learned that the late security guard was a fan of \"Shark Tank\" and immediately offered assistance to the family. \u201cI want to help with any expenses you might have,\u201d John said, emphasizing his support. Salter III expressed gratitude and mentioned his commitment to taking care of his mother during this difficult time. The conversation turned emotional as both men discussed the impact of the loss. \u201cI could hear it in her voice.\u201d Salter III said John told him he could reach out any time his family needed something. NEW YORK, NEW YORK \u2013 MAY 16: Daymond John attends the 26th Annual Webby Awards on May 16, 2022 in New Yor",
+      "avg_prediction": 0.927
+    },
+    {
+      "idx": 6,
+      "hash": "06840507",
+      "n_words": 66,
+      "n_chars": 385,
+      "preview_head": "RED, GREEN and BLUE channels. I came across Nebulosity last week, but I can't buy it's licence since I live in Iran... I'll be grateful if you introduce any similar applications... A: You may consider",
+      "preview_tail": "ou may consider FITS Liberator, which is a software developed by NASA and ESA. It is also free and was builtspecifically for processing and analyzing FITS images. This tool should allow you to extract",
+      "full_text": "RED, GREEN and BLUE channels. I came across Nebulosity last week, but I can't buy it's licence since I live in Iran... I'll be grateful if you introduce any similar applications... A: You may consider FITS Liberator, which is a software developed by NASA and ESA. It is also free and was builtspecifically for processing and analyzing FITS images. This tool should allow you to extract",
+      "avg_prediction": 0.0988
+    },
+    {
+      "idx": 7,
+      "hash": "736e8783",
+      "n_words": 207,
+      "n_chars": 952,
+      "preview_head": "= -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the",
+      "preview_tail": "cond derivative of x(i) wrt i? -106 Suppose -5*s + 6 = 3*j, s - 3 - 5 = -4*j. Find the third derivative of 0*b**2 - b**j - 9*b**4 + 9*b**4 - 6*b**5 wrt b. -360*b**2 Let s be 1/4 - (-3)/(-12). Let q(p)",
+      "full_text": "= -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let y be the second derivative of g**2/2 - g**2/2 + g**2/2. What is the second derivative of y(a) wrt a? 0 Let g = -0.1. Let What is the second derivative of x(i) wrt i? -106 Suppose -5*s + 6 = 3*j, s - 3 - 5 = -4*j. Find the third derivative of 0*b**2 - b**j - 9*b**4 + 9*b**4 - 6*b**5 wrt b. -360*b**2 Let s be 1/4 - (-3)/(-12). Let q(p)",
+      "avg_prediction": 0.984
+    }
+  ]
+}

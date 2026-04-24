@@ -285,7 +285,7 @@ def render_wandb(poller):
 
 def render_requests(requests):
     table = Table(expand=True, show_lines=False, header_style="bold")
-    table.add_column("time", style="white", no_wrap=True)
+    table.add_column("time (UTC)", style="white", no_wrap=True)
     table.add_column("hotkey", style="cyan", no_wrap=True)
     table.add_column("ok", justify="center", no_wrap=True)
     table.add_column("texts", justify="right")
@@ -310,9 +310,16 @@ def render_requests(requests):
             pred_text = Text(f"{pred:.3f}", style="white")
 
         ok_text = Text("✓", style="green") if r["ok"] == "1" else Text("✗", style="red")
-        # HH:MM:SS from an ISO timestamp like 2026-04-23T19:47:56+00:00
+        # "MM-DD HH:MM:SS" from an ISO timestamp like 2026-04-23T19:47:56+00:00
+        # so requests spanning multiple days are visually distinguishable.
         ts = r["ts"]
-        ts_short = ts.split("T")[1][:8] if "T" in ts else ts[-8:]
+        if "T" in ts:
+            date_part, time_part = ts.split("T", 1)
+            md = date_part[5:] if len(date_part) >= 10 else date_part
+            hms = time_part[:8]
+            ts_short = f"{md} {hms}"
+        else:
+            ts_short = ts[-14:]
 
         table.add_row(
             ts_short,
