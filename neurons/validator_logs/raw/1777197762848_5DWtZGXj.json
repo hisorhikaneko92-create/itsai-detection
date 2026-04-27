@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-04-26T10:02:42.848690+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 3,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0a5dff18",
+      "n_words": 85,
+      "n_chars": 527,
+      "preview_head": "Gap Widens The wealth gap gets a lot of attentionin newspapers and television, but the gap that doeCertainly! Here is the continuation based on the context provided: --- Companies Will Continue to Spe",
+      "preview_tail": "hat deserves equal focus\u2014especially for recruIters\u2014is the skills gap. As businesses continue to grow and evolve, they find themselves of candidates with specific skill sets needed for their operations",
+      "full_text": "Gap Widens The wealth gap gets a lot of attentionin newspapers and television, but the gap that doeCertainly! Here is the continuation based on the context provided: --- Companies Will Continue to Spend Buckets of Money as the Skills Gap Widens The wealth gap gets a lot of attention in newspapers and television, but the gap that deserves equal focus\u2014especially for recruIters\u2014is the skills gap. As businesses continue to grow and evolve, they find themselves of candidates with specific skill sets needed for their operations",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "028d9edb",
+      "n_words": 53,
+      "n_chars": 328,
+      "preview_head": "n the southwestern United States and northern Mexico. It produces showy white flowers with golden anthers in late spring, often blooming for several weeks to attract pollinating insects such as bees a",
+      "preview_tail": "blooming for several weeks to attract pollinating insects such as bees and butterflies. The plant's name comes from its unique characteristic: it is one of few plants that produce nectar only at night",
+      "full_text": "n the southwestern United States and northern Mexico. It produces showy white flowers with golden anthers in late spring, often blooming for several weeks to attract pollinating insects such as bees and butterflies. The plant's name comes from its unique characteristic: it is one of few plants that produce nectar only at night",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "8454ddd1",
+      "n_words": 153,
+      "n_chars": 1508,
+      "preview_head": "ample x\", \"Type\": \"blah blah\", \"DateModified\": \"6/26/2218 10:29:59\", \"Size\": \"8999 KB\", }, ]; var string =\"\"; for (i in json) { string +='<div class=\"row\"><div class=\"col-md-15 col-sm-1\"><input type=\"",
+      "preview_tail": "sum\", \"DateModified\": \"5/11/2218 7:32:10\", \"Size\": \"6999 KB\", }, { \"Name\": \"sample x\", \"Type\": \"blah blah\", \"DateModified\": \"6/26/2218 10:29:59\", \"Size\": \"8999 KB\", }, ]; var string =\"\"; json.forEach(",
+      "full_text": "ample x\", \"Type\": \"blah blah\", \"DateModified\": \"6/26/2218 10:29:59\", \"Size\": \"8999 KB\", }, ]; var string =\"\"; for (i in json) { string +='<div class=\"row\"><div class=\"col-md-15 col-sm-1\"><input type=\"checkbox\" id=\"all\" name=\"all\" value=\"all\"></div><div class=\"col-md-15 col-sm-4\"><span class=\"folders\">'+json[i].Name+'</span></div><div class=\"col-md-15 col-sm-3\"><span class=\"directory\">'+json[i].Type+'</span></div><div class=\"col-md-15 col-sm-3\"><span class=\"date-stamp\">'+json[i].DateModified+'</span></div><div class=\"col-md-15 col-sm-1\"><span class=\"date-size\">'+json[i].Size+'</span></div></div>'; }; document.getElementsByClassName('change').innerHTML =string }); A: One problem is here document.getElementsByClassName('change').innerHTML = string The getElementsByClassName returns an array like object (HTMLCollection) and would need an index, e.g. document.getElementsByClassName('change')[0].innerHTML = string As mentioned, looping an array with for..in is not good (its for objects), so here I used forEach, and instead of getElementsByClassName I used querySelector Stack snippet window.addEventListener('load', function() { var json =[{ \"Name\": \"sample data\", \"Type\": \"lorem ip sum lorem sample\", \"DateModified\": \"6/14/2218 17:22:50\", \"Size\": \"2 KB\", }, { \"Name\": \"sample Q\", \"Type\": \"lorem ipsum\", \"DateModified\": \"5/11/2218 7:32:10\", \"Size\": \"6999 KB\", }, { \"Name\": \"sample x\", \"Type\": \"blah blah\", \"DateModified\": \"6/26/2218 10:29:59\", \"Size\": \"8999 KB\", }, ]; var string =\"\"; json.forEach(",
+      "avg_prediction": 0.0
+    }
+  ]
+}

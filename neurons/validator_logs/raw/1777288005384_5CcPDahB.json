@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-04-27T11:06:45.384147+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 5,
+  "duplicates": [],
+  "latency_ms": 10,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "f7776f13",
+      "n_words": 69,
+      "n_chars": 731,
+      "preview_head": ": register(s2); TextureCubeArray<float4> uSamplerCubeArray : register(t3); SamplerComparisonState _uSamplerCubeArray_sampler : register(s3); static float3 vUVRef; static float4 vDirRef; static float F",
+      "preview_tail": " 0)).xyz, _80.z) * (1.0 - saturate(length(uSampler2DArray.SampleCmp(_uSampler2DArray_sampler, float3(vUVRef.xy, 0), _80).xyz)))) + uSamplerCube.SampleCmp(_uSamplerCube_sampler, normalize(vDirRef.xyz),",
+      "full_text": ": register(s2); TextureCubeArray<float4> uSamplerCubeArray : register(t3); SamplerComparisonState _uSamplerCubeArray_sampler : register(s3); static float3 vUVRef; static float4 vDirRef; static float FragColor; struct SPIRV_Cross_Input { float3 vUVRef : TEXCOORD0; float4 vDirRef : TEXCOORD1; }; struct SPIrV_Cross_Output { float FragColor : SV_Target0; }; void frag_main() { float4 _80 = vDirRef; _80.z = vDirRef.w; FragColor = (((((((uSampler2D.SampleCmp(_uSa```hlsl mpler2D_sampler, uSampler2D.Load(int3(vUVRef.xy, 0), int3(0, 0, 0)).xyz, _80.z) * (1.0 - saturate(length(uSampler2DArray.SampleCmp(_uSampler2DArray_sampler, float3(vUVRef.xy, 0), _80).xyz)))) + uSamplerCube.SampleCmp(_uSamplerCube_sampler, normalize(vDirRef.xyz),",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "eaf5b0b1",
+      "n_words": 124,
+      "n_chars": 773,
+      "preview_head": "have hl-line+ installed and have tried reducing the hl-line-overlay-priority option but that does not seem to work. The entire line still get the same background color. Are there any other modes or se",
+      "preview_tail": " the solution is simple. Just use command hlt-highlight-symbol. It is bound by default to C-x X h s. (All of the commands inhighlight.el are prefixed with \"hlt\" and follow a consistent naming scheme.)",
+      "full_text": "have hl-line+ installed and have tried reducing the hl-line-overlay-priority option but that does not seem to work. The entire line still get the same background color. Are there any other modes or settings I can set to make this work? A: highlight-symbol-mode uses text properties, not an overlay. hl-line-mode uses an overlay, not text properties. Overlays always take precedence over text properties, no matter how low the overlay priority is. So without some coding or code tweaking, I don't see a solution. However, if you use the Highlight library (highlight.el) then the solution is simple. Just use command hlt-highlight-symbol. It is bound by default to C-x X h s. (All of the commands inhighlight.el are prefixed with \"hlt\" and follow a consistent naming scheme.)",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "31399286",
+      "n_words": 84,
+      "n_chars": 403,
+      "preview_head": "rive each way to the City. I made a few morning calls to prepare, and we finally hit the road around 10:00 pm. The trip was exhausting, and we barely had time to stop for anything. Once again there wa",
+      "preview_tail": "o time to visit with our Son, Paul, nor either of our sisters. Even worse I didn't even have time to make a trip out to Costco to get more puppy food, as Rob had only picked up 2 bags on his last trip",
+      "full_text": "rive each way to the City. I made a few morning calls to prepare, and we finally hit the road around 10:00 pm. The trip was exhausting, and we barely had time to stop for anything. Once again there was no time to visit with our Son, Paul, nor either of our sisters. Even worse I didn't even have time to make a trip out to Costco to get more puppy food, as Rob had only picked up 2 bags on his last trip",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "60f7f435",
+      "n_words": 266,
+      "n_chars": 1630,
+      "preview_head": "like to be able to dynamically set which list to look up the items for based on a list ID, which is being passed in from props. Specifically, I'm using react-navigation to enter the ListPage, a view w",
+      "preview_tail": "stItems(listID: \"${listID}\") { // Note the variable being wrapped in double quotes reference_id, quantity, } } `; }; const config = { options: { fetchPolicy: 'cache-and-network', }, props: props => ({",
+      "full_text": "like to be able to dynamically set which list to look up the items for based on a list ID, which is being passed in from props. Specifically, I'm using react-navigation to enter the ListPage, a view where a user can see the items on a List. So here's the code that gets executed when a user clicks on a list name and gets routed to the ListPage component: handleListSelection(list: Object) { const { navigation, userLists } = this.props; navigation.navigate('ListPage', { listID: list.record_id, listName: list.list_name, userLists, }); } From my previous (pre-AppSync/GraphQL) implementation, I know that I can access the list ID in ListPage via this.props.navigation.state.params.listID. I would like to be able to use that in my AppSync query, but because the query is created outside the component, I'm unable to access the props, and so am struggling to get the ID. A: Got this working using a package called react-apollo-dynamic-query which I found here. The author of that package also links directly to a simple function for doing what I'm trying to do here. Essentially it just wraps the regular graphql call in a simple way that exposes the props so they can be passed down to the query. My code now looks likes this (which I have below my definition of the ListPage component, in the same file): const getListItems = props => { const listID = props.navigation.state.params.listID; return gql` query getListItems { getListItems(listID: \"${listID}\") { // Note the variable being wrapped in double quotes reference_id, quantity, } } `; }; const config = { options: { fetchPolicy: 'cache-and-network', }, props: props => ({",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "bda1359f",
+      "n_words": 342,
+      "n_chars": 2301,
+      "preview_head": "Small Business Development Ribbon Cuttings After Hours Search For Search Join Close Menu Huntington County Highway Huntington County Chamber of Commerce SharE: Huntington County Highway 1601 Riverside",
+      "preview_tail": "ities Huntington Andrews Markle Roanoke Warren Relocation Information Job Postings Hot Deals Weather Services Our Business Services SCORE Indiana Small Business Development Ribbon Cuttings After Hours",
+      "full_text": "Small Business Development Ribbon Cuttings After Hours Search For Search Join Close Menu Huntington County Highway Huntington County Chamber of Commerce SharE: Huntington County Highway 1601 Riverside Dr. Huntington, IN 46750 (260) 358-4881 Map What's Nearby? Distance: 5 10 15 20 25 50 mi. Take Your Business to the Next Level Call the Chamber and see how we can help you take your business to the next level. You can become an Ambassador, volunteer for our golf outing, attend one of our networking group meetings and more. Keep this site close by for all the happenings in Huntington County. Upcoming Events Become a Member Follow Us Online Facebook LinkedIn \u201cThe mission of the Huntington County Chamber of Commerce is to support and promote a community atmosphere in which business prospers and the quality of life continually improves.\u201d Join the Chamber Helpful Links Business Directory Reasons to Join Get Involved Upcoming Events Community Business Services Your Chamber Learn About Us Chamber Staff Board of Directors Message from the Chair Chamber Ambassadors Contact Us Contact 40 East Franklin Street Suite 121 Huntington, IN 46750 (260) 356-5300 info@huntington-chamber.com Location: Home / ChamberMaster \u2013 Do Not Delete Site: Terms & Conditions Privacy Policy Sitemap Copyright \u00a9 2022, Huntington County Chamber of Commerce, All Rights Reserved. Website Design by 1Eighty Digital Call Us Get Directions Join the Chamber Contact Directory Member Login Home Your Chamber About Your Chamber Chamber Staff Board of Directors Message from the Chair Chamber Ambassadors Contact Membership Chamber Membership Business Directory Reasons to Join Membership Benefits Why I Joined the Chamber Member Portal Get Involved Ways to Get Involved Committee and Networking Chamber Ambassador HR Group Leaders EDGE Education Workforce Public Policy Committee Preference Form News Updates & Information Blog Chamber Newsletters Events Upcoming Events Calendar of Events Add Your Event Community Community Information Chamber Bucks Faces of Huntington County Welcome to Huntington County Living Here Cities Cities Huntington Andrews Markle Roanoke Warren Relocation Information Job Postings Hot Deals Weather Services Our Business Services SCORE Indiana Small Business Development Ribbon Cuttings After Hours",
+      "avg_prediction": 0.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-04-25T10:49:08.285147+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 1220,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "91507b98",
+      "n_words": 234,
+      "n_chars": 1661,
+      "preview_head": "============ Atrial fibrillation (AF) is a major public health problem and the most common cardiac arrhythmia encountered in clinical practice. In 2017, the estimated prevalence ranged from 2.7 millio",
+      "preview_tail": " aims to provide a comprehensive overview of the current state of AF, including its epidemiology, risk factors, and the strategies for its management and prevention, to inform clinical practice and pu",
+      "full_text": "============ Atrial fibrillation (AF) is a major public health problem and the most common cardiac arrhythmia encountered in clinical practice. In 2017, the estimated prevalence ranged from 2.7 million to 6.1 million in the United States and is projected to grow to 12 million by 2030.^[@r1]^ In addition, AF is responsible for approximately 100,000 deaths^[@r2]^ and 500,000 hospitalizations annually^[@r2],[@r3]^ and is associated with a fivefold increased risk of stroke,^[@r4]--[@r7]^ a threefold increased risk of heart failure,^[@r8]--[@r10]^ and an increase in all-cause mortality.^[@r5],[@r11]--[@r13]^ The burden of AF is currently epidemic and anticipated to grow in prevalence due to an aging population that is living longer with multiple comorbid conditions associated with the development of AF.^[@r14],[@r15]^ Moreover, AF has been linked with numerous systematic and non-systematic conditions that contribute to its development and progression, including hypertension, diabetes, obesity, and sleep apnea.^[@r16],[@r17]^ The economic burden of AF is also significant, with annual costs in the United States estimated to range from $6 to $11 billion, including costs of hospitalization, medical care, and lost productivity.^[@r18]^ Given the increasing burden of AF, there is a critical need for improved strategies in the prevention, diagnosis, and management of the condition to reduce the associated morbidity and mortality.^[@r19]^ This review aims to provide a comprehensive overview of the current state of AF, including its epidemiology, risk factors, and the strategies for its management and prevention, to inform clinical practice and pu",
+      "avg_prediction": 0.9827
+    },
+    {
+      "idx": 1,
+      "hash": "8433ede3",
+      "n_words": 181,
+      "n_chars": 1346,
+      "preview_head": "Service Representatives: For immediatehelp or inquiriesabout your benefits and services offered by the Department of Developmental Services (DDS), feel free to contact their representative team at 916",
+      "preview_tail": "f Developmental Servicematters, please visit our websiteat www.socialsecuri.gov/dds-appeals-procedures. We are always committed to providing you with the best service possible. Please do not hesitate ",
+      "full_text": "Service Representatives: For immediatehelp or inquiriesabout your benefits and services offered by the Department of Developmental Services (DDS), feel free to contact their representative team at 916-654-1987. 2. Online Payee Services Portal: If you are a payee for someone who receives Social Security benefits, our online service portal offers an array of tools designed specifically with your needs in mind. 3. Forms and Applications Online Submission System: To apply or manage applications related to various social security programs efficiently from the comfort of home, visit this section where we have provided easy-to-use formsfor a smooth process.Please note that visiting www.socialsecurity.gov/myaccount/ will take youdirectly into your personal online SocialSecurity account. Here, one can access their benefit statements and other personalized information regarding benefits they are entitled to receive or apply services without the need of any intermediary step. Tolearn more about all available Online Services offeredby us click on this link: socialsecurity.gov/online-services/ For detailed appeals procedures for Department of Developmental Servicematters, please visit our websiteat www.socialsecuri.gov/dds-appeals-procedures. We are always committed to providing you with the best service possible. Please do not hesitate ",
+      "avg_prediction": 0.9313
+    },
+    {
+      "idx": 2,
+      "hash": "b183328c",
+      "n_words": 92,
+      "n_chars": 625,
+      "preview_head": "ui acabo almacenarlos en un array k++; m++; } } return true; } \u00bfComo podr\u00eda solucionarlo? Answer: El problema es que no estas inicializando el Array `Kits`. En la l\u00ednea donde declaras tu variable est\u00e1",
+      "preview_tail": "los valores que quieras: \\begin{code} String [] Kits = new string[10]; //o Kits= {\"Kit1\",\"kit2\"} //etc.. // for(int i; ...){ String b=\"kits.kit\"+m+\".name\"; kits[i]=plugin.getProperties().getString(b);",
+      "full_text": "ui acabo almacenarlos en un array k++; m++; } } return true; } \u00bfComo podr\u00eda solucionarlo? Answer: El problema es que no estas inicializando el Array `Kits`. En la l\u00ednea donde declaras tu variable est\u00e1s creando una referencia a tipo String[] pero esta apunta al valor null, por lo tanto cuando intentes acceder o modificar alg\u00fan elemento de este array te dar\u00e1 un NullPointerException. Para solucionar esto deb\u00e9s asignarlo con los valores que quieras: \\begin{code} String [] Kits = new string[10]; //o Kits= {\"Kit1\",\"kit2\"} //etc.. // for(int i; ...){ String b=\"kits.kit\"+m+\".name\"; kits[i]=plugin.getProperties().getString(b);",
+      "avg_prediction": 0.9814
+    }
+  ]
+}

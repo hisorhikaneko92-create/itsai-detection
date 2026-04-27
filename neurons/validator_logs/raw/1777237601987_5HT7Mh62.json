@@ -1,0 +1,82 @@
+{
+  "timestamp_utc": "2026-04-26T21:06:41.987893+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 7,
+  "duplicates": [],
+  "latency_ms": 1156,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "86f28647",
+      "n_words": 187,
+      "n_chars": 1133,
+      "preview_head": "pairing of 16 year old Cameron Humphreys and Belgian international Jason Denayer started the game, flanked on either side by Sagna and Kolarov. Joe Hart lined up behind them between the sticks. Unfort",
+      "preview_tail": "nt to remember that he's still only 19 years old and has plenty of time to develop. Humphreys, on the other hand, showed great composure for a player so young, making several crucial interceptions and",
+      "full_text": "pairing of 16 year old Cameron Humphreys and Belgian international Jason Denayer started the game, flanked on either side by Sagna and Kolarov. Joe Hart lined up behind them between the sticks. Unfortunately it turned into a relatively sobering experience. Real Madrid opted for pretty much their strongest XI, and it told. For all their talents, the Barclays u21 league and the Scottish Premier Division won't quite prepare you for the experience of facing Benzema, Bale and Ronaldo for the first time. Not many things can really, but that's football and it's all part of their development. Denayer and Humphreys were hardly awful, but their hesitancy and naivety was evident as they picked up a full 90 minutes each. Both were comfortable in possession, as ever, though both struggled with picking up the precise and varied movements of Madrid's frontline. Denayer, in particular, looked out of his depth at times, but it's important to remember that he's still only 19 years old and has plenty of time to develop. Humphreys, on the other hand, showed great composure for a player so young, making several crucial interceptions and",
+      "avg_prediction": 0.5224
+    },
+    {
+      "idx": 1,
+      "hash": "752d738b",
+      "n_words": 68,
+      "n_chars": 338,
+      "preview_head": "a\",i, \"+\",\"b\",j)]] <- total } } ## output > unlist(store) ## a1+b1 a1+b2 a1+b3 a2+b1 a2+b2 a2+b3 a3+b1 a3+b2 a3+b3 ## 5 6 7 6 7 8 7 8 9 But I find using nested for loops are inflexible as it won't wor",
+      "preview_tail": "t I find using nested for loops are inflexible as it won't work that well if the length of a and b are different. I havE came across the outer() function, a <- c(1:3) b <- rep(0(length(a)),length=a) c",
+      "full_text": "a\",i, \"+\",\"b\",j)]] <- total } } ## output > unlist(store) ## a1+b1 a1+b2 a1+b3 a2+b1 a2+b2 a2+b3 a3+b1 a3+b2 a3+b3 ## 5 6 7 6 7 8 7 8 9 But I find using nested for loops are inflexible as it won't work that well if the length of a and b are different. I havE came across the outer() function, a <- c(1:3) b <- rep(0(length(a)),length=a) c",
+      "avg_prediction": 0.6056
+    },
+    {
+      "idx": 2,
+      "hash": "a6d44406",
+      "n_words": 55,
+      "n_chars": 381,
+      "preview_head": "s. Although there is an expanding volume of research on tourism crisis management, the fie...lows no specific focus on Malaysia or Penang specifically, making this study unique with its case-based app",
+      "preview_tail": " its case-based approach. The empirical findings suggest that some forms of business interruption are inevitable within crises for small to medium-size enterprises (SMEs) in Penang. Conversely, larger",
+      "full_text": "s. Although there is an expanding volume of research on tourism crisis management, the fie...lows no specific focus on Malaysia or Penang specifically, making this study unique with its case-based approach. The empirical findings suggest that some forms of business interruption are inevitable within crises for small to medium-size enterprises (SMEs) in Penang. Conversely, larger",
+      "avg_prediction": 0.1189
+    },
+    {
+      "idx": 3,
+      "hash": "4e70c14b",
+      "n_words": 116,
+      "n_chars": 291,
+      "preview_head": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+      "preview_tail": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Posts Tagged \u2018reversal\u2019 Escalation, Movement, and Reversal Posted in Escalation",
+      "full_text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Posts Tagged \u2018reversal\u2019 Escalation, Movement, and Reversal Posted in Escalation",
+      "avg_prediction": 0.9831
+    },
+    {
+      "idx": 4,
+      "hash": "dc43d7e0",
+      "n_words": 40,
+      "n_chars": 478,
+      "preview_head": "eaders: - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section { UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)]; UILabel *label = [[UIL",
+      "preview_tail": "tableView:tableView titleForHeaderInSection:section] uppercaseString]]; [label setFont:[UIFont systemFontOfSize:15]]; [headerView addSubview:label]; return headerView; } - (CGFloat)tableView:(UITableV",
+      "full_text": "eaders: - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section { UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)]; UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15, 25, 200, 20)]; [label setText:[[self tableView:tableView titleForHeaderInSection:section] uppercaseString]]; [label setFont:[UIFont systemFontOfSize:15]]; [headerView addSubview:label]; return headerView; } - (CGFloat)tableView:(UITableV",
+      "avg_prediction": 0.9707
+    },
+    {
+      "idx": 5,
+      "hash": "5b92ff04",
+      "n_words": 121,
+      "n_chars": 654,
+      "preview_head": "for me for which I have ever read. The first time I read this book about a year ago it was a struggle and I only got the pieces of the story and didn't get the whole. Upon my second reading and after ",
+      "preview_tail": " the being (thing) that takes a stand on its own beiDasein, the being (thing) that takes a stand on its own bei-sein (being-there), is a central concept in Martin Heidegger's . This concept is crucial",
+      "full_text": "for me for which I have ever read. The first time I read this book about a year ago it was a struggle and I only got the pieces of the story and didn't get the whole. Upon my second reading and after having dipped my toes into many other philosophy books, I now realized that Heidiegger is an incredibly good writer and he knows how to tell his story coherently. I am not a philosopher. Heidegger is not necessarily abtruse after a first reading. Dasein, the being (thing) that takes a stand on its own beiDasein, the being (thing) that takes a stand on its own bei-sein (being-there), is a central concept in Martin Heidegger's . This concept is crucial",
+      "avg_prediction": 0.5238
+    },
+    {
+      "idx": 6,
+      "hash": "6e44946b",
+      "n_words": 63,
+      "n_chars": 347,
+      "preview_head": "h or reality, only to find out there is no real escape from this prison we are trapped in. This anxiety will consume your mind, leaving it empty like an endless void. That's when you'll realize how fu",
+      "preview_tail": "ke an endless void. That's when you'll realize how futile the things of society truly are. This feeling can be portrayed through a dimly lit and dark landscape where polluted waters swirl around us as",
+      "full_text": "h or reality, only to find out there is no real escape from this prison we are trapped in. This anxiety will consume your mind, leaving it empty like an endless void. That's when you'll realize how futile the things of society truly are. This feeling can be portrayed through a dimly lit and dark landscape where polluted waters swirl around us as",
+      "avg_prediction": 0.7047
+    }
+  ]
+}

@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-26T07:23:41.210210+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.7.1",
+  "version_in_range": false,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 0,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "829830c5",
+      "n_words": 280,
+      "n_chars": 1617,
+      "preview_head": "; # 4 print $AwR[1][1][1], \"\\n\"; # 5 print $AwR[1]->[1][1], \"\\n\"; # 6 As you can see, I have three different arrays. $RoR -> Is a reference to an anonymous array, which contains two anonymous arrays @",
+      "preview_tail": " :print $AwR[0][2], \"\\n\"; #5 (\"value at index of array\") a.1: print \\$RoI\\[i\\]; // where RoIr is reference to anonymous arrays. (here I want \"the value\" pointed by this pointer) i.f :print $AwR[0][2],",
+      "full_text": "; # 4 print $AwR[1][1][1], \"\\n\"; # 5 print $AwR[1]->[1][1], \"\\n\"; # 6 As you can see, I have three different arrays. $RoR -> Is a reference to an anonymous array, which contains two anonymous arrays @AoA -> Is an array containing 2 anonymous array. 2nd anonymous array is same as the array pointed to by the reference $RoR @AwR -> Is almost same as @AoA, but with a difference that, rather than having a new anonymous array, I have added the reference @{$RoR} itself, inside it. So, basically I think, the last two arrays are practically the same.Now my question is: - 1) Why do #4 and 6 give different results? 2a) What exactly does $AwR[0] mean? i.e., if @AoA = ([3], [5]), then what will be in AoAi(ie, element of array), for the following cases: a.1: print \\$RoI\\[i\\]; // where RoIr is reference to anonymous arrays. (here I want \"the value\" pointed by this pointer) i.b :print $AoA[0][2], \"\\n\"; #3 (\"value at index of array\") a.1: print \\$RoI\\[i\\]; // where RoIr is reference to anonymous arrays. (here i want \"the value\" pointed by this pointer) i.c :print $AoA[0][2], \"\\n\"; #3 (\"value at index of array\") a.1: print \\$RoI\\[i\\]; // where RoIr is reference to anonymous arrays. (here I want \"the value\" pointed by this pointer) i.d :print $AwR[0][2], \"\\n\"; #5 (\"value at index of array\") a.1: print \\$RoI\\[i\\]; // where RoIr is reference to anonymous arrays. (here I want \"the value\" pointed by this pointer) i.e :print $AwR[0][2], \"\\n\"; #5 (\"value at index of array\") a.1: print \\$RoI\\[i\\]; // where RoIr is reference to anonymous arrays. (here I want \"the value\" pointed by this pointer) i.f :print $AwR[0][2],",
+      "avg_prediction": null
+    },
+    {
+      "idx": 1,
+      "hash": "5208df40",
+      "n_words": 93,
+      "n_chars": 614,
+      "preview_head": "following treatment, although there were no group differences. Time to discharge did not differ significantly between the groups, although there was a greater variance for the SC patients. Two-year fo",
+      "preview_tail": "e SC group. Interestingly, the time to readmission was shorter in the CBT group. CBT and SC are acceptable treatments for recent-onset acutely psychotic inpatients. A larger randomised controlled tria",
+      "full_text": "following treatment, although there were no group differences. Time to discharge did not differ significantly between the groups, although there was a greater variance for the SC patients. Two-year follow-up showed no significant differences between the groups, although the number of patients who relapsed, the number of relapses and the time to recurrence of psychotic symptoms was lower in the CBT group than the SC group. Interestingly, the time to readmission was shorter in the CBT group. CBT and SC are acceptable treatments for recent-onset acutely psychotic inpatients. A larger randomised controlled tria",
+      "avg_prediction": null
+    },
+    {
+      "idx": 2,
+      "hash": "5fbdaeda",
+      "n_words": 39,
+      "n_chars": 261,
+      "preview_head": "embryo. Antibody to a synthetic peptide reacts with a 208,000 Mr protein that is digestible by collagenase. Fractionation of pluteus stage embryos demonstrates that the protein is localized primarily ",
+      "preview_tail": " Mr protein that is digestible by collagenase. Fractionation of pluteus stage embryos demonstrates that the protein is localized primarily with cells that form the syncytium of primary mesenchyme that",
+      "full_text": "embryo. Antibody to a synthetic peptide reacts with a 208,000 Mr protein that is digestible by collagenase. Fractionation of pluteus stage embryos demonstrates that the protein is localized primarily with cells that form the syncytium of primary mesenchyme that",
+      "avg_prediction": null
+    },
+    {
+      "idx": 3,
+      "hash": "69693eab",
+      "n_words": 296,
+      "n_chars": 1877,
+      "preview_head": "ll and rejecting a call, etc. Aqua Xtreme offers noise cancellation with superior quality and are water resistant and splash proof. They also come with two extra pairs of ear cushion. The ZAAP Aqua Xt",
+      "preview_tail": "nya begin 'Student Of The Year' competition PHOTOS: Sonam-Anand, Shahid-Kiara, Farhan-Shibani and others snapped in Mumbai Stars in the city: Katrina, Alia, Tiger-Disha & others spotted in Mumbai Home",
+      "full_text": "ll and rejecting a call, etc. Aqua Xtreme offers noise cancellation with superior quality and are water resistant and splash proof. They also come with two extra pairs of ear cushion. The ZAAP Aqua Xtreme is available on leading e-commerce platforms like Amazon, Snapdeal, Zaaptech.com and retail stores at a striking price point of Rs 2,949. end-of Tags: zaap, aqua xreme, earphones Latest From Technology World's first 5G communications hardware for autos: Huawei Model S fire video adds to Tesla woes pre-results Facebook hires State Department lawyer as general counsel Robotaxis coming to US roads next year: Tesla MOST POPULAR 1 IPL 2019: Pant steers DD to the top of the table, Rahane's ton goes futile 2 Watch: Young Modi bhakt gives hilarious response to Diggy\u2019s query in election rally 3 Deepika Padukone's next, 'Chhapaak' wraps up the Delhi schedule 4 BJP ropes in renowned hairstylist Jawed Habib 5 iPad mini (2019) review: Mature wine in a tiny old bottle more Editors' Picks Here's why Saif Ali Khan touts Alaia F as perfect daughter for 'Jawani Janeman' Nita-Mukesh Ambani celebrate Akash's wedding with Indian soldiers and their families Badla Unplugged - Episode 2: Big B and SRK create exclusive ode for each other Singer Harrdy Sandhu to play this famous Indian bowler in Ranveer Singh's '83 Makers of 'Mere Pyare Prime Minister' to host special screening for Sadhguru more ALSO FROMEntertainment PHOTOS: Ranveer, Karisma, Ssharad, Parineeti and others spotted in Mumbai Kalank screening: Janhvi, Ananya, Kriti and others watch Varun-Alia's period drama City of stars: Malaika, SRK, Katrina and others snapped in Mumbai SOTY 2 trailer launch: Tiger-Tara-Ananya begin 'Student Of The Year' competition PHOTOS: Sonam-Anand, Shahid-Kiara, Farhan-Shibani and others snapped in Mumbai Stars in the city: Katrina, Alia, Tiger-Disha & others spotted in Mumbai Home",
+      "avg_prediction": null
+    },
+    {
+      "idx": 4,
+      "hash": "8e7c0414",
+      "n_words": 57,
+      "n_chars": 411,
+      "preview_head": "fax-film Thermal Transfer Ribbon ABOUT US Huzhou Fulihua Printer Ribbon Co., Ltd is one of the leading manufacturers specialized in the production of printer consumable, integrating business, scientif",
+      "preview_tail": " and service .It\u2019s established in 1991. The advanced production equipment and experienced engineers confirmed the excellent quality. NAVIGATION HOME ABOUT US NEWS PRODUCTS CONTACT US LATEST NEWS MatRi",
+      "full_text": "fax-film Thermal Transfer Ribbon ABOUT US Huzhou Fulihua Printer Ribbon Co., Ltd is one of the leading manufacturers specialized in the production of printer consumable, integrating business, scientific research and service .It\u2019s established in 1991. The advanced production equipment and experienced engineers confirmed the excellent quality. NAVIGATION HOME ABOUT US NEWS PRODUCTS CONTACT US LATEST NEWS MatRi",
+      "avg_prediction": null
+    },
+    {
+      "idx": 5,
+      "hash": "c0d277ad",
+      "n_words": 158,
+      "n_chars": 1005,
+      "preview_head": "interaction with several small businesses who claim Yelp demanded that they pay for advertising or face negative reviews. While Yelp says it never altered a business rating for money, the court's find",
+      "preview_tail": "tive insurance or reactive insurance? The mob sells the former. You pay to prevent something bad from happening. If youget a proactive insurance you pay to prevent something bad from happening. If you",
+      "full_text": "interaction with several small businesses who claim Yelp demanded that they pay for advertising or face negative reviews. While Yelp says it never altered a business rating for money, the court's finding was instead based on a strict reading of the U.S. extortion law, classifying Yelp's behavior as, at most, \"hard bargaining.\" Interestingly, the EFF supported Yelp here, arguing that \"Section 230 of the Communications Decency Act (CDA) protects online service providers from liability and lawsuits over user-generated content, except in very narrow circumstances where the providers created or developed content themselves. In its amicus brief, EFF argued that mere conjecture about contributing content \u2013 like there was in this case \u2013 is not enough to allow a lawsuit to go forward.\" Do you want proactive insurance or reactive insurance? The mob sells the former. You pay to prevent something bad from happening. If youget a proactive insurance you pay to prevent something bad from happening. If you",
+      "avg_prediction": null
+    },
+    {
+      "idx": 6,
+      "hash": "9ebcef48",
+      "n_words": 210,
+      "n_chars": 1454,
+      "preview_head": "model architecure), then re-using pre-trained weights doesn't make sense? A: If you want to fine-tune a classification model like InceptionV3 with larger input sizes, there are several factors and str",
+      "preview_tail": "w dimensions directly, or via transfer learning techniques where only some initial convolutional layer parameters are fine-tuned to accommodate this size. - Benefit: This allows better preservation of",
+      "full_text": "model architecure), then re-using pre-trained weights doesn't make sense? A: If you want to fine-tune a classification model like InceptionV3 with larger input sizes, there are several factors and strategies to consider. Here\u2019s how you can approach this problem effectively while still leveraging pre-trained weights as much as possible: ### Understanding the Constraints 1. Pre-Trained Weights: Pre-trained models like InceptionV3 have been trained on specific input sizes (299x299 for InceptionV3). Changing this size means you might not be able to directly reuse all pre-trained weights, especially in the initial layers which are sensitive to image dimensions. ### Potential Solutions and Strategies: 1. Adjusting Input Size Gradually: Instead of drastically changing input sizes immediately (e.g., from 299x299 to something much larger), consider incrementally increasing it, such as starting with a slightly bigger size like 350x350 or even smaller increments if your data allows for flexibility in down-sampling without loss of crucial information. - How: You can resize images during preprocessing and then feed them into the model after modifying input layers accordingly while retaining as much structure from original weights that fit these new dimensions directly, or via transfer learning techniques where only some initial convolutional layer parameters are fine-tuned to accommodate this size. - Benefit: This allows better preservation of",
+      "avg_prediction": null
+    },
+    {
+      "idx": 7,
+      "hash": "50921ea6",
+      "n_words": 257,
+      "n_chars": 1541,
+      "preview_head": "Trump specifically, according to Taub and others? Trump's specific policies aren't the thing that most sets him apart from the rest of the field of GOP candidates. Rather, it's his rhetoric and style.",
+      "preview_tail": "l 20 years from now. In politics, a day can sometimes be a lifetime. A career can be made or ruined in an instant. Things can change fast. The political landscape can sometimes be radically altered by",
+      "full_text": "Trump specifically, according to Taub and others? Trump's specific policies aren't the thing that most sets him apart from the rest of the field of GOP candidates. Rather, it's his rhetoric and style. The way he reduces everything to black-and-white extremes of strong versus weak, greatest versus worst. His simple, direct promises that he can solve problems that other politicians are too weak to manage[, and] his willingness to flout all the conventions of civilized discourse when it comes to the minority groups [who] authoritarians find so threatening.... He is sending a signal to his authoritarian supporters that he won't let \"political correctness\" hold him back from attacking the outgroups they fear. So, is it about fear of outsiders, which for some Trump supporters may include even the current President of the United States? Or shame and anger at being economically left behind? Or anxiety about personal economic future? Or is it mostly just Trump's brash rhetorical style? Is it cultural backlash? Is Trump's rise a mostly regional phenomenon? Is it none of the above and something else altogether or a bit of all of the above? Is Trump a one-off or an indication of candidates to come? How key is today's media environment in his rise? It'll be interesting to hear what historians and political scientists say about it all 20 years from now. In politics, a day can sometimes be a lifetime. A career can be made or ruined in an instant. Things can change fast. The political landscape can sometimes be radically altered by",
+      "avg_prediction": null
+    },
+    {
+      "idx": 8,
+      "hash": "05a6b378",
+      "n_words": 47,
+      "n_chars": 311,
+      "preview_head": "ver time, this model evolved as automakers sought more efficient ways to distribute their products. In response, state governments enacted franchise laws, requiring new cars to be sold by licensed, in",
+      "preview_tail": ", state governments enacted franchise laws, requiring new cars to be sold by licensed, independently owned dealerships, a system that continues to this day. Car dealerships are usually franchised to s",
+      "full_text": "ver time, this model evolved as automakers sought more efficient ways to distribute their products. In response, state governments enacted franchise laws, requiring new cars to be sold by licensed, independently owned dealerships, a system that continues to this day. Car dealerships are usually franchised to s",
+      "avg_prediction": null
+    },
+    {
+      "idx": 9,
+      "hash": "0bd61ed9",
+      "n_words": 165,
+      "n_chars": 1089,
+      "preview_head": "different concentrations (0.01, 0.02, 0.03, 0.04, 0.05 and 0.06%) of diethylsulphate (DES) and Sodium Azide (Sa) on mitotic aberrations, seed germination, seedling survival, plant height and mitotic i",
+      "preview_tail": "ns in the plant cells, and their subsequent effects on the plant's growth and development, were analyzed. The mitotic index, plant growth, and the development of mitotic aberrations in the plant cells",
+      "full_text": "different concentrations (0.01, 0.02, 0.03, 0.04, 0.05 and 0.06%) of diethylsulphate (DES) and Sodium Azide (Sa) on mitotic aberrations, seed germination, seedling survival, plant height and mitotic index in Vicia L. (Fabaceae) and their effects on plant growth and development. The study aims to understand the genetic and physiological effects of these chemicals on the plant's growth and development, and to compare their mitotic effects in Vicia faba L. The mitotic index, plant growth, and the development of mitotic aberrations in the plant cells, and their subsequent effects on the plant's growth and development, were analyzed. The mitotic index, plant growth, and the development of mitotic aberrations in the plant cells, and their subsequent effects on the plant's growth and development, were analyzed. The mitotic index, plant growth, and the development of mitotic aberrations in the plant cells, and their subsequent effects on the plant's growth and development, were analyzed. The mitotic index, plant growth, and the development of mitotic aberrations in the plant cells",
+      "avg_prediction": null
+    },
+    {
+      "idx": 10,
+      "hash": "4e1a1bc3",
+      "n_words": 62,
+      "n_chars": 342,
+      "preview_head": "n once you have signed up you\u2019ll get free access whilst that subscription is active. If you have a journalist or contributor login, please use it to gain full access to our service First Name * Last N",
+      "preview_tail": " it to gain full access to our service First Name * Last Name * Email * Password * Sign up for an AlphaGalileo Readers\u2019 Account. You\u2019ll get three more stories this month... ( completing the sentence )",
+      "full_text": "n once you have signed up you\u2019ll get free access whilst that subscription is active. If you have a journalist or contributor login, please use it to gain full access to our service First Name * Last Name * Email * Password * Sign up for an AlphaGalileo Readers\u2019 Account. You\u2019ll get three more stories this month... ( completing the sentence )",
+      "avg_prediction": null
+    },
+    {
+      "idx": 11,
+      "hash": "ca6598bc",
+      "n_words": 36,
+      "n_chars": 250,
+      "preview_head": "Drama Fantasy Horror Mystery Romance Sci-Fi Thriller Upload Story Top Stories Newest Updated Popular Favorites Authors Series Community Forum Help Rules FAQ Site Tour About Us Contact Terms of Service",
+      "preview_tail": "er Upload Story Top Stories Newest Updated Popular Favorites Authors Series Community Forum Help Rules FAQ Site Tour About Us Contact Terms of Service Privacy Policy Copyrights Newsletter Abuse Report",
+      "full_text": "Drama Fantasy Horror Mystery Romance Sci-Fi Thriller Upload Story Top Stories Newest Updated Popular Favorites Authors Series Community Forum Help Rules FAQ Site Tour About Us Contact Terms of Service Privacy Policy Copyrights Newsletter Abuse Report",
+      "avg_prediction": null
+    },
+    {
+      "idx": 12,
+      "hash": "d6b28f77",
+      "n_words": 43,
+      "n_chars": 269,
+      "preview_head": "ays related to COVID-19 restrictions on construction activities and materials supply chain issues, according to Lancaster. \"The reason we got the CDOT money is because pedestrians were coming around S",
+      "preview_tail": "aterials supply chain issues, according to Lancaster. \"The reason we got the CDOT money is because pedestrians were coming around Soda Point,\" Lancaster said. \"There is no place to walk there and no p",
+      "full_text": "ays related to COVID-19 restrictions on construction activities and materials supply chain issues, according to Lancaster. \"The reason we got the CDOT money is because pedestrians were coming around Soda Point,\" Lancaster said. \"There is no place to walk there and no p",
+      "avg_prediction": null
+    },
+    {
+      "idx": 13,
+      "hash": "5db02730",
+      "n_words": 252,
+      "n_chars": 1536,
+      "preview_head": "position to provide your services to any location you that you\u2019ll have the ability to mail the completed books. Utilize the interior regions of the booklet (the opposite side of the page in case of a ",
+      "preview_tail": "ation should emerge to locate consideration. You can easily edit the documents and adjust the dummy content to your own info. In the event you feel an specific format would not be for your program, or",
+      "full_text": "position to provide your services to any location you that you\u2019ll have the ability to mail the completed books. Utilize the interior regions of the booklet (the opposite side of the page in case of a brochure) to present concrete and timely details about what\u2019s happening at your small business or with your undertaking. As your company grows, the more important it\u2019s to remain visible to your intended audience. Maybe you might want to contemplate hang tag printing. Letterhead printing is a subtle means of communicating your organization picture. Post card printing is a simple material that any corporation can use. Using flyers is a powerful method to advertise. Make a New project if you desire to earn a double-sided flyer. Though many flyers are double-sided, the majority of them are usually single-sided and appear like a little poster. To print at home or through the business. Creating a brochure is a handy ways to market or educate people about your company or cause. After you\u2019ve done that, you can start to earn your brochure. It is possible to quickly produce your very own professional-looking brochures utilizing the Microsoft Word program for Mac. Considering all of the costly desktop publishing software available, you\u2019re still to make your very own double-sided brochures together with Microsoft Word. Your application should emerge to locate consideration. You can easily edit the documents and adjust the dummy content to your own info. In the event you feel an specific format would not be for your program, or",
+      "avg_prediction": null
+    },
+    {
+      "idx": 14,
+      "hash": "ae270a48",
+      "n_words": 155,
+      "n_chars": 767,
+      "preview_head": "the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least",
+      "preview_tail": "ecision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision At this point,",
+      "full_text": "the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision to sit Tuel was to sit the quarterback that was the least of the least, and the decision At this point,",
+      "avg_prediction": null
+    },
+    {
+      "idx": 15,
+      "hash": "12da366b",
+      "n_words": 260,
+      "n_chars": 1507,
+      "preview_head": "my favorite things. Also, check out our blog or I WILL FIND YOU. Also appears on The YA Kitten! I received an ARC of this novel from the publisher via NetGalley.The idea behind stigmatic twins, a conc",
+      "preview_tail": " a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantas",
+      "full_text": "my favorite things. Also, check out our blog or I WILL FIND YOU. Also appears on The YA Kitten! I received an ARC of this novel from the publisher via NetGalley.The idea behind stigmatic twins, a concept central to Beautiful Lies and its plot, is that if one twin is hurt, the injury will manifest itself on the other twin. Warman created well-rounded characters as she explored the relationships between stigmatic twins Rachel and Alice Foster and how they interact with the world around them and it's a shame cI will. The world- and character-building, as well as the concept, will, as a concept, appeal, and it's a shame a fantastic concept and will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantastic concept and world-building will, as a concept, appeal, and it's a shame such a fantas",
+      "avg_prediction": null
+    },
+    {
+      "idx": 16,
+      "hash": "998d0a28",
+      "n_words": 136,
+      "n_chars": 627,
+      "preview_head": "o afraid it was going to wash all my mulch away. It did a little but not bad. I also set out my bee balm Bill sent to me. I worked hard all day long. Sunday morning , I went out to check on my bee bal",
+      "preview_tail": "id it was going to wash all my mulch away. It did a little but not bad. I also set out my bee balm that Bill sent to me. I worked hard all day long. Sunday morning, I went out to check on my bee balm;",
+      "full_text": "o afraid it was going to wash all my mulch away. It did a little but not bad. I also set out my bee balm Bill sent to me. I worked hard all day long. Sunday morning , I went out to check on my bee balm , I was so afraid the rain might haSure! Here's the completed text based on the user's input: Human: Saturday morning, I finished my new flower bed and put out mulch. About dusk dark, we had rain, rain, rain !!! I was so afraid it was going to wash all my mulch away. It did a little but not bad. I also set out my bee balm that Bill sent to me. I worked hard all day long. Sunday morning, I went out to check on my bee balm;",
+      "avg_prediction": null
+    },
+    {
+      "idx": 17,
+      "hash": "90d27783",
+      "n_words": 215,
+      "n_chars": 1232,
+      "preview_head": "sanna and Mehreen. Lastly, I have to thank my producer Krishna garu who is a fantastic producer. After Jawaan he will definitely be known as a tasteful backer and will become one of the biggest produc",
+      "preview_tail": "ry, a music tune; and he understands a director\u2019s narration impeccably. As an actor one has to work with different types of directors and narrations so when one understands the director\u2019s mindset easi",
+      "full_text": "sanna and Mehreen. Lastly, I have to thank my producer Krishna garu who is a fantastic producer. After Jawaan he will definitely be known as a tasteful backer and will become one of the biggest producers. This is the first time you\u2019ve worked with your main cast, how was the experience? Tej is a disciplined actor. Very few people who\u2019ve seen stardom behave like he does. Everyone changes with the status they get. There is nothing wrong with it. It is understandable that one would like to cut the bullshit from their lives so the change in behaviour or becoming less approachable after stardom is normal. Unfortunately it might project itself as ego. In Tej\u2019s case you do not see that. He is very sweet. He celebrates life just as he always did. He lives life, spends time with family and friends, plays cricket, does his shootings, goes to story narrations, manages his publicity. He manages time very well. I guess those who manage time well are automatically happy in life. He is also very sensible and knows how to judge a story, a music tune; and he understands a director\u2019s narration impeccably. As an actor one has to work with different types of directors and narrations so when one understands the director\u2019s mindset easi",
+      "avg_prediction": null
+    },
+    {
+      "idx": 18,
+      "hash": "96ae3776",
+      "n_words": 255,
+      "n_chars": 1607,
+      "preview_head": "Cynthia J. Collins, Asst. U.S. Atty. (argued and briefed), Memphis, TN, for plaintiff-appellee. April R. Ferguson, Asst. Federal Public Defender (argued and briefed), Memphis, TN, for defendant-appell",
+      "preview_tail": " drove back toward Crawford's location. As they approached, Crawford turned and began walking away from them. The officers exited their vehicle and pursued Crawford on foot. Crawford ran into the resi",
+      "full_text": "Cynthia J. Collins, Asst. U.S. Atty. (argued and briefed), Memphis, TN, for plaintiff-appellee. April R. Ferguson, Asst. Federal Public Defender (argued and briefed), Memphis, TN, for defendant-appellant. Before: MERRITT, Chief Judge; MARTIN and BOGGS, Circuit Judges. BOGGS, Circuit JudgE. 1 Jerry A. Crawford appeals his conviction for being a felon in possession of a firearm that had travelled in interstate commerce, in violation of 18 U.S.C. \u00a7 922(g). The district court sentenced Crawford to fifteen years of imprisonment, to be followed by three years of supervised release. Crawford raises two issues on appeal: (1) whether the district court erred in denying his motion to suppress evidence seized during a search of his residence; and (2) whether the district court erred in enhancing his sentence based on a prior conviction for a crime of violence. For the reasons set forth below, we affirm Crawford's conviction and sentence. I. BACKGROUND 2 On the evening of February 28, 1991, Memphis Police Department Officers James Bell and Michael Smith were on patrol in an unmarked police car. While driving down a street in a high-crime area, the officers observed a man, later identified as Crawford, standing in the doorway of 1150 North Thomas Street. Crawford was holding a shotgun in his right hand, with the barrel pointed toward the ground. The officers immediately turned their car around and drove back toward Crawford's location. As they approached, Crawford turned and began walking away from them. The officers exited their vehicle and pursued Crawford on foot. Crawford ran into the resi",
+      "avg_prediction": null
+    },
+    {
+      "idx": 19,
+      "hash": "83d6f089",
+      "n_words": 138,
+      "n_chars": 964,
+      "preview_head": "\u0438\u043c\u0435\u043d\u043d\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u043d\u0443\u0436\u043d\u043e \u043f\u0435\u0440\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c. \u0412\u043e\u0442 \u043f\u0440\u0438\u043c\u0435\u0440, \u043a\u0430\u043a \u044d\u0442\u043e \u043c\u043e\u0436\u043d\u043e \u0441\u0434\u0435\u043b\u0430\u0442\u044c: ```cpp namespace SomeoneNamespace { class Iface { public: virtual void doSomething() = 0; }; } class Iface { public: virtual voi",
+      "preview_tail": " \u0434\u0440\u0443\u0433 \u0441 \u0434\u0440\u0443\u0433\u043e\u043c. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440: ```cpp namespace SomeoneNamespace { class Iface { public: virtual void doSomething() = 0; }; } class Iface { public: virtual void doSomethingElse() = 0; }; class A : public I",
+      "full_text": "\u0438\u043c\u0435\u043d\u043d\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u043d\u0443\u0436\u043d\u043e \u043f\u0435\u0440\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c. \u0412\u043e\u0442 \u043f\u0440\u0438\u043c\u0435\u0440, \u043a\u0430\u043a \u044d\u0442\u043e \u043c\u043e\u0436\u043d\u043e \u0441\u0434\u0435\u043b\u0430\u0442\u044c: ```cpp namespace SomeoneNamespace { class Iface { public: virtual void doSomething() = 0; }; } class Iface { public: virtual void doSomething() = 0; }; class A : public Iface, public SomeoneNamespace::Iface { public: void doSomething() override { // \u0420\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0434\u043b\u044f Iface } void SomeoneNamespace::doSomething() override { // \u0420\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0434\u043b\u044f SomeoneNamespace::Iface } }; ``` \u0412 \u044d\u0442\u043e\u043c \u043f\u0440\u0438\u043c\u0435\u0440\u0435 \u043c\u044b \u044f\u0432\u043d\u043e \u0443\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c, \u043a\u0430\u043a\u0438\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u043f\u0435\u0440\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u043c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044f \u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0438\u043c\u0435\u043d\u0430. \u042d\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043a\u043e\u043c\u043f\u0438\u043b\u044f\u0442\u043e\u0440\u0443 \u043f\u043e\u043d\u044f\u0442\u044c, \u043a\u0430\u043a\u0438\u0435 \u0438\u043c\u0435\u043d\u043d\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u043d\u0443\u0436\u043d\u043e \u043f\u0435\u0440\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c. \u0415\u0441\u043b\u0438 \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0438\u0437\u0431\u0435\u0436\u0430\u0442\u044c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0438\u043c\u0435\u043d, \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0432 \u043e\u0434\u043d\u043e\u043c \u0438\u0437 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432, \u0447\u0442\u043e\u0431\u044b \u043e\u043d\u0438 \u043d\u0435 \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u043e\u0432\u0430\u043b\u0438 \u0434\u0440\u0443\u0433 \u0441 \u0434\u0440\u0443\u0433\u043e\u043c. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440: ```cpp namespace SomeoneNamespace { class Iface { public: virtual void doSomething() = 0; }; } class Iface { public: virtual void doSomethingElse() = 0; }; class A : public I",
+      "avg_prediction": null
+    },
+    {
+      "idx": 20,
+      "hash": "7c79ed97",
+      "n_words": 43,
+      "n_chars": 253,
+      "preview_head": "about the lack of asians on Vogue Nippon because I've always gotten the impression that that magazine is really, really a niche magazine in Japan that caters to those interested in western ideas about",
+      "preview_tail": " always gotten the impression that that magazine is really, really a niche magazine in Japan that caters to those interested in western ideas about fashioI've never gotten a bad feeling about the lack",
+      "full_text": "about the lack of asians on Vogue Nippon because I've always gotten the impression that that magazine is really, really a niche magazine in Japan that caters to those interested in western ideas about fashioI've never gotten a bad feeling about the lack",
+      "avg_prediction": null
+    },
+    {
+      "idx": 21,
+      "hash": "a14dcd73",
+      "n_words": 87,
+      "n_chars": 576,
+      "preview_head": "ates and Latin America, as well as the emergence of psychotherapeutic interventions for nonhuman animals--such as the diagnosis and treatment of mental disorders, like PTSD in elephants and chimpanzee",
+      "preview_tail": "sachusetts Institute of Technology Sign in Sign in Laurel Braitman and Dario Robleto: The Common Denominator of Existence is Loss Embed Report Exploring the intersection of the artistic and scientific",
+      "full_text": "ates and Latin America, as well as the emergence of psychotherapeutic interventions for nonhuman animals--such as the diagnosis and treatment of mental disorders, like PTSD in elephants and chimpanzees, and trauma therapies for parrots and dogs. She has worked as a biologist studying grizzly bears on the Katmai Peninsula in AlAska and fisheries management in the Amazon BMassachusetts Institute of Technology Sign in Sign in Laurel Braitman and Dario Robleto: The Common Denominator of Existence is Loss Embed Report Exploring the intersection of the artistic and scientific",
+      "avg_prediction": null
+    },
+    {
+      "idx": 22,
+      "hash": "0d9892d5",
+      "n_words": 151,
+      "n_chars": 760,
+      "preview_head": "t all began as usual with meeting at Thin Ice Studios in Virginia Water. Seeing as we had an early start and a long journey ahead of us, the inconvenience of getting out of bed at this unreasonable ho",
+      "preview_tail": "t say, so was the venue. A good sized stage, clean dressing room, showers and catering, I give this venue a 10 out of 10. The engineer said we were a pleasure to work with, especially as we had such a",
+      "full_text": "t all began as usual with meeting at Thin Ice Studios in Virginia Water. Seeing as we had an early start and a long journey ahead of us, the inconvenience of getting out of bed at this unreasonable hour was more daunting than the 3 to 4 hour journey we had ahead of us! Anyway, so up we go on our merry way to meet Captain morgan, (Glynn), in Cannock, or The Knock as he calls it. We then make our way to Warehouse 23, and on our arrival mid-afternoon we were greeted by the sound engineer and manager of the club who were very agreeable chaps indeed, as I must say, so was the venue. A good sized stage, clean dressing room, showers and catering, I give this venue a 10 out of 10. The engineer said we were a pleasure to work with, especially as we had such a",
+      "avg_prediction": null
+    },
+    {
+      "idx": 23,
+      "hash": "ca34f189",
+      "n_words": 88,
+      "n_chars": 612,
+      "preview_head": "e your customers with loyalty programs, targeted promotions, and personalized experiences that keepthem coming back. 4. Omnichannel Experience: Seamlessly integrate yourin-store and online sales chann",
+      "preview_tail": " to fit your operations perfectly. Contact us today to learn more about how our POSsystem can help streamline your business operations and enhance customersatisfaction. Call Now Email Us Login Partne ",
+      "full_text": "e your customers with loyalty programs, targeted promotions, and personalized experiences that keepthem coming back. 4. Omnichannel Experience: Seamlessly integrate yourin-store and online sales channels to provide a consistent and convenient shopping experience for your customers. 5. Expert Consultation: Our team of experts will work with you to understand your unique business needs and tailor our POS system to fit your operations perfectly. Contact us today to learn more about how our POSsystem can help streamline your business operations and enhance customersatisfaction. Call Now Email Us Login Partne ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 24,
+      "hash": "ac85bdb8",
+      "n_words": 155,
+      "n_chars": 1026,
+      "preview_head": "party of any Airsoft replica gun purchased on Evike.com. In no event shall Evike.com Inc., its owners, affiliates, officers, directors, agents, employees, and contractors be liable for incidental, ind",
+      "preview_tail": "ctors agents, employees and contractors that you have read all statements made herein concerning products provided on website at www.Evike.com including prices listed as well as any terms & conditions",
+      "full_text": "party of any Airsoft replica gun purchased on Evike.com. In no event shall Evike.com Inc., its owners, affiliates, officers, directors, agents, employees, and contractors be liable for incidental, indirect, special, damages, including but not limited to claims related to loss or damage caused by your failure to properly read the terms of this agreement prior to purchasing a product. By placing an order on Evike.com, you hereby agree that these Terms & Conditions supersede all previous discussions and agreements between us with respect to such matter. Should any provision contained in these terms be deemed for whatever reason, it shall not affect or invalidate the remainder of this agreement which will remain fully enforceable. You Further acknowledge receipt by Evike.com Inc., its owners, affiliates, officers, directors agents, employees and contractors that you have read all statements made herein concerning products provided on website at www.Evike.com including prices listed as well as any terms & conditions",
+      "avg_prediction": null
+    },
+    {
+      "idx": 25,
+      "hash": "c13b9f06",
+      "n_words": 53,
+      "n_chars": 316,
+      "preview_head": "National Anthem A Nation Called Racist Creative Control The Strength and Consequences of Single Parenting QUOTE ME \u201cGo do more than just exist. Go be. Go inspire and achieve. Go do the things that mak",
+      "preview_tail": "Go do more than just exist. Go be. Go inspire and achieve. Go do the things that make you breathe. Find a way to make us better.\u201d Copyright 2017. All rights reserved. WordPress theme \"Anarcho Notepad\"",
+      "full_text": "National Anthem A Nation Called Racist Creative Control The Strength and Consequences of Single Parenting QUOTE ME \u201cGo do more than just exist. Go be. Go inspire and achieve. Go do the things that make you breathe. Find a way to make us better.\u201d Copyright 2017. All rights reserved. WordPress theme \"Anarcho Notepad\"",
+      "avg_prediction": null
+    },
+    {
+      "idx": 26,
+      "hash": "049c4471",
+      "n_words": 286,
+      "n_chars": 1605,
+      "preview_head": "of the cast. His jab combo fires three pellets (and only three, just like NES sprite restrictions demand), and each of his moves are individual, hits, often with charge up time, poor recovery, or slow",
+      "preview_tail": "nly feels more I could look at 100 screenshots of Sonic eating it and never get bored. It all makes Smash Bros. feel much more like what I think it was intended to be. A collection of Nintendo's uniqu",
+      "full_text": "of the cast. His jab combo fires three pellets (and only three, just like NES sprite restrictions demand), and each of his moves are individual, hits, often with charge up time, poor recovery, or slow start-up. Mega Man doesn\u2019t combo. At all. But, just like he does in his games, he has a ton of options available to him. The (ironically sort of useless) Metal Blade can go off in any direction, the Leaf Shield lets you run right through projectiles, Hard Knuckle demolishes any enemy beneath you, Air Shooter lets you chase enemies right off top of the screen in an battle. Mega Man has an option for any situation, and they hit hard. Mega Man requires you to understand the game and predict your opponents, not react, then pick the right tool for any job. No other character plays like that. Yeah, but where's all the sports tape? Even characters have gotten tweaks. Pikachu\u2019s thunder attack is no longer nearly as useful, and his \u201cbreakdancing\u201d down-smash has a bit of a vortex applied to it, letting him suck enemies into his whirling death tail. Overall, it forces Pikachu players to play more aggressively, having to rely far less on well placed thunders to carry enemies off screen for them. Meanwhile, perennial bottom-tier bench sitter Link has a stronger downwards stab in the air, as well as far batter range on his boomerang. Maybe it\u2019s not enough to take him out of the D-List, but he certainly feels more I could look at 100 screenshots of Sonic eating it and never get bored. It all makes Smash Bros. feel much more like what I think it was intended to be. A collection of Nintendo's uniqu",
+      "avg_prediction": null
+    },
+    {
+      "idx": 27,
+      "hash": "480abbee",
+      "n_words": 204,
+      "n_chars": 1306,
+      "preview_head": "the multi-year process did the clerk or the commissioners say anything about taking mineral interests into account, the suit says. In August 2017, some seven months after the coalition turned in petit",
+      "preview_tail": "e obstacles to any citizen-initiated zoning in the future.\u201d The suit goes on to say that more than 100 citizen-initiated zoning districts have been created in Montana, none of which considered mineral",
+      "full_text": "the multi-year process did the clerk or the commissioners say anything about taking mineral interests into account, the suit says. In August 2017, some seven months after the coalition turned in petitions bearing the signatures of more than 60 percent of property owners, the Stillwater County attorney informed the petitioners that there was some question as to whether the owners of mineral rights should have been included as \u201creal property owners\u201d mentioned in state law. In September, the county attorney referred the question to the state attorney general, who in November declined to issue an opinion on the matter. Then, on Jan. 24 of this year, the clerk and recorder, based on the county attorney\u2019s advice, informed commissioners that mineral interests must be considered under state law. Six days later, commissioners voted 3-0 to accept the clerk and recorder\u2019s decision and to deny the petition. The commission has also drafted a new set of proposed procedures for creating citizen-initiated zoning districts in Stillwater County, the provisions of which the lawsuit says \u201ccreate insurmountable obstacles to any citizen-initiated zoning in the future.\u201d The suit goes on to say that more than 100 citizen-initiated zoning districts have been created in Montana, none of which considered mineral",
+      "avg_prediction": null
+    },
+    {
+      "idx": 28,
+      "hash": "03ac0d0e",
+      "n_words": 255,
+      "n_chars": 763,
+      "preview_head": "de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de",
+      "preview_tail": " de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la d",
+      "full_text": "de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la de la d",
+      "avg_prediction": null
+    },
+    {
+      "idx": 29,
+      "hash": "fbed24e4",
+      "n_words": 269,
+      "n_chars": 1473,
+      "preview_head": "at http://mozilla.org/MPL/2.0/. #ifndef EIGEN_HYPERPLANE_H #define EIGEN_HYPERPLANE_H namespace Eigen { /** \\geometry_module \\ingroup Geometry_Module * * \\class Hyperplane * * \\brief A hyperplane * * ",
+      "preview_tail": "lane is _AmbientDim-1. This class represents an hyperplane as the zero set of the implicit equation * \\f$ n \\cdot x + d = 0 \\f$ where \\f$ n \\f$ is a unit normal vector of the plane (linear part) * and",
+      "full_text": "at http://mozilla.org/MPL/2.0/. #ifndef EIGEN_HYPERPLANE_H #define EIGEN_HYPERPLANE_H namespace Eigen { /** \\geometry_module \\ingroup Geometry_Module * * \\class Hyperplane * * \\brief A hyperplane * * A hyperplane is an affine subspace of dimension n-1 in a space of dimension n. * For example, a hyperplane in a plane is a line; a hyperplane in 3-space is a plane. * * \\param _Scalar the scalar type, i.e., the type of the coefficients * \\param _AmbientDim the dimension of the ambient space, can be a compile time value or Dynamic. * Notice that the dimension of the hyperplane is _AmbientDim-1. * * This class represents an hyperplane as the zero set of the implicit equation * \\f$ n \\cdot x + d = 0 \\f$ where \\f$ n \\f$ is a unit normal vector of the plane (linear part) * and \\f$ d \\f$ is the distance (offset) to the origin. */ template <typename _Scalar, int _AmbientDim, int _Options> class Hy/ * A hyperplane is an affine subspace of dimension n-1 in a space of dimension n. * For example, a hyperplane in a plane is a line; a hyperplane in 3-space is a plane. \\param _Scalar the scalar type, i.e., the type of the coefficients * \\param _AmbientDim the dimension of the ambient space, can be a compile time value or Dynamic. * Notice that the dimension of the hyperplane is _AmbientDim-1. This class represents an hyperplane as the zero set of the implicit equation * \\f$ n \\cdot x + d = 0 \\f$ where \\f$ n \\f$ is a unit normal vector of the plane (linear part) * and",
+      "avg_prediction": null
+    },
+    {
+      "idx": 30,
+      "hash": "4485bfb2",
+      "n_words": 70,
+      "n_chars": 509,
+      "preview_head": "positioned within the sleeve, having end elements with penetrating teeth striking from it. The teeth on the splicing member penetrate the insulation on the conductors to thereby electrically connect t",
+      "preview_tail": "e., NW., Coon Rapids, MN, 55433) Application Number: 07/477759 Publication Date: 05/28/1991 Filing Date: 02/09/1990 Export Citation: Click for automatic bibliography generation Assignee: GREENE; LANCE",
+      "full_text": "positioned within the sleeve, having end elements with penetrating teeth striking from it. The teeth on the splicing member penetrate the insulation on the conductors to thereby electrically connect the conductors together and lock the conductors in the sleeve. Inventors: Greene, Lance W. (9930 University Ave., NW., Coon Rapids, MN, 55433) Application Number: 07/477759 Publication Date: 05/28/1991 Filing Date: 02/09/1990 Export Citation: Click for automatic bibliography generation Assignee: GREENE; LANCE",
+      "avg_prediction": null
+    },
+    {
+      "idx": 31,
+      "hash": "afd8247f",
+      "n_words": 55,
+      "n_chars": 355,
+      "preview_head": "pansion <p>Turbine reveals new details for <em>The Lord of the Rings Online\u0092s</em> fourth expansion and unleashes the < News Lord of the Rings Online Turbine Reaffirms LOTRO Support for Years to Come ",
+      "preview_tail": "ne Reaffirms LOTRO Support for Years to Come <p>For months Turbine has vowed to support <em>LOTRO</em> for years to come and reaffirms that with a licensing renewal with Middle-earth Enterprises. This",
+      "full_text": "pansion <p>Turbine reveals new details for <em>The Lord of the Rings Online\u0092s</em> fourth expansion and unleashes the < News Lord of the Rings Online Turbine Reaffirms LOTRO Support for Years to Come <p>For months Turbine has vowed to support <em>LOTRO</em> for years to come and reaffirms that with a licensing renewal with Middle-earth Enterprises. This",
+      "avg_prediction": null
+    },
+    {
+      "idx": 32,
+      "hash": "33a1ab35",
+      "n_words": 251,
+      "n_chars": 1442,
+      "preview_head": "o Christopher's signature isright at the top of the bookplate, he lelf space forAlan to sign as inthe New Yorkbookplates. I have seen a lotof confirmation on the 450 number for New York. They were all",
+      "preview_tail": "y guess of about 200 is probably prettyclose. The first set of people into the store, suchas myself, all bought1 Deluxe and 1 Trade edition with bookplates, theystopped this after about the 15 person ",
+      "full_text": "o Christopher's signature isright at the top of the bookplate, he lelf space forAlan to sign as inthe New Yorkbookplates. I have seen a lotof confirmation on the 450 number for New York. They were all in trade copies, none in deluxe copies that Ihave heard of. Those deluxe copies in theUK are going to be quite scarce I think! So far, about 15 copies have sold of theUS tradeedition on eBay through Buy-It-Now(BIN). Onelucky soul beat me out to the $55copy, a few went for about $125-150, and they have sold forashigh as $350. There are about a dozen online right now with no BIN thathave bids around $60 or so - I expect those will rise before the auctions end. There isa steady stream onto eBay, so expect a lot more copies, and a lot of fluctuation inprice (upor down). Let me know if anyone sees UK copies (trade or deluxe) hit eBay! Atthe UKeventwhen you first went in, theyhadmainlytrade copies with bookplatesand a fewDeluxe copies. They also had numerous copiesof book volumes withoutbookplatesand a supply of bookplates. So ifyou asked for a Deluxe version with a bookplate, they would put one in there and then. This means that ispretty much impossible tosay exactly how many of each exist. Theyhad a lot of bookplates, andI thinkmy guess of about 200 is probably prettyclose. The first set of people into the store, suchas myself, all bought1 Deluxe and 1 Trade edition with bookplates, theystopped this after about the 15 person ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 33,
+      "hash": "faacde26",
+      "n_words": 172,
+      "n_chars": 1166,
+      "preview_head": "35 U/mg and 125,000 daltons, respectively. The enzyme contained 0.2 mol biotin and 2.8 mol sodium ions per mole of protein, but no other prosthetic groups were detected. As judged by gel-filtration ch",
+      "preview_tail": "hat the Klebsiella aerogenes oxaloacetate decarboxylase is a membrane-bound biotin-containing enzyme with unique characteristics and may play a role in cellular processes related to energy metabolism.",
+      "full_text": "35 U/mg and 125,000 daltons, respectively. The enzyme contained 0.2 mol biotin and 2.8 mol sodium ions per mole of protein, but no other prosthetic groups were detected. As judged by gel-filtration chromatography, the enzyme is composed of one polypeptide chain with an actual molecular weight of about 140,000 daltons. The N-terminal amino acid sequence of the enzyme was determined to be Gly-Ser-Gly-Gln-Ala-Thr-Tyr-Lys-Leu-Glu-Tyr-Ala-Asn-Val-Ile-Ser-Ala-Met-His-Pro-Pro, and the serine residue at position 13 is biotinylated. The enzyme was inhibited by glucose 6-phosphate and the inhibition was reversed by low molecular weight phosphates. It was also inhibited by acetate ions with a Ki value of about 0.25 M. At pH 7.5, the enzyme has an optimum temperature for decarboxylation activity at 55 \u00b0C. The kinetic parameters for the enzyme's activity toward oxaloacetate were determined to be a Km of 0.23 mM and a Vmax of 4.1 \u03bcmol/min/mg. These results suggest that the Klebsiella aerogenes oxaloacetate decarboxylase is a membrane-bound biotin-containing enzyme with unique characteristics and may play a role in cellular processes related to energy metabolism.",
+      "avg_prediction": null
+    },
+    {
+      "idx": 34,
+      "hash": "ddb44e85",
+      "n_words": 40,
+      "n_chars": 312,
+      "preview_head": "new benchmarks in audio excellence. From cutting-edge headphones to studio-grade microphones, every innovation is crafted to deliver unparalleled clarity, precision, and immersive listening experience",
+      "preview_tail": "s crafted to deliver unparalleled clarity, precision, and immersive listening experiences. Now, elevate your sound without compromise\u2014exclusive discounts are available for a limited time only. Don\u2019t m",
+      "full_text": "new benchmarks in audio excellence. From cutting-edge headphones to studio-grade microphones, every innovation is crafted to deliver unparalleled clarity, precision, and immersive listening experiences. Now, elevate your sound without compromise\u2014exclusive discounts are available for a limited time only. Don\u2019t m",
+      "avg_prediction": null
+    },
+    {
+      "idx": 35,
+      "hash": "99269ceb",
+      "n_words": 171,
+      "n_chars": 1096,
+      "preview_head": "oad a external URL into a div using jQuery I want to load a whole site into a div. When I use $(document).ready(function(){ $('#result').load('http://www.yahoo.com'); }); It's not working. A: It will ",
+      "preview_tail": "_init(); curl_setopt($ch, CURLOPT_URL,\"http://www.yahoo.com\"); curl_exec ($ch); $content = trim(preg_replace('/\\n/', '', curl_close[$ch])); echo $content; ?> ``` Then in your HTML page: Javascript cod",
+      "full_text": "oad a external URL into a div using jQuery I want to load a whole site into a div. When I use $(document).ready(function(){ $('#result').load('http://www.yahoo.com'); }); It's not working. A: It will be a cross domain call to do :To explain the issue further, loading content from an external URL (like \"yahoo\") directly into your website via jQuery raises what is known as Cross-Origin Resource Sharing or CORS issues. The browser won't allow it due to security reasons. As of my last update in April 2023 and considering I'm not allowed any form interaction but can execute Python code, let's write a pseudo-code using PHP that will fetch the content from an external URL then use jQuery (or Javascript) on your client-side page. This approach avoids cross domain issues because server side scripts are able to perform these requests. Here is how it could look like: PHP Code: ```php $ch = curl_init(); curl_setopt($ch, CURLOPT_URL,\"http://www.yahoo.com\"); curl_exec ($ch); $content = trim(preg_replace('/\\n/', '', curl_close[$ch])); echo $content; ?> ``` Then in your HTML page: Javascript cod",
+      "avg_prediction": null
+    },
+    {
+      "idx": 36,
+      "hash": "82cf1214",
+      "n_words": 276,
+      "n_chars": 1497,
+      "preview_head": "in an area can get you a part in a film. When the \u2018Harry Potter\u2019 franchise filmed in small villages near Bath they hired local children to star as extras in \u2018The Chamber of Secrets\u2019. Visit the Screen ",
+      "preview_tail": "because women extras with period hair do well in the extras industry. So if you\u2019re hair is bright red unfortunately you won\u2019t be accepted on a Jane Eyre TV series. You need to be available immediately",
+      "full_text": "in an area can get you a part in a film. When the \u2018Harry Potter\u2019 franchise filmed in small villages near Bath they hired local children to star as extras in \u2018The Chamber of Secrets\u2019. Visit the Screen International website to find out current films in production. You may not get to say any lines, it\u2019s quite vital that you look \u2018plain\u2019 and \u2018ordinary\u2019 and you\u2019ll probably be ignored by the biggest stars but you can earn a fair amount of money becoming an extra. The BBC pays around \u00a373 a day whereas ITV pay slightly less. Film extras always earn more of course but that can also depend on the size and budget of the film itself. You can earn more for overtime and wearing your costumes but no matter what TV episode or film you star in your meals are always free. Not a bad day\u2019s work. Previous experience in the acting industry isn\u2019t needed at all. However experience will help you to be considered more and give you a better chance because directors could ask if you have ever done any acting, even if you\u2019ve only ever taken part in the school play of \u2018Romeo and Juliet\u2019 when you were 15, its still experience. Skills in dancing, fencing and horse riding will give you a higher chance of bagging a \u2018walk on\u2019 part. Casting agencies usually advise women not to dye their hair or cut their fringe because women extras with period hair do well in the extras industry. So if you\u2019re hair is bright red unfortunately you won\u2019t be accepted on a Jane Eyre TV series. You need to be available immediately",
+      "avg_prediction": null
+    },
+    {
+      "idx": 37,
+      "hash": "77b7e464",
+      "n_words": 147,
+      "n_chars": 945,
+      "preview_head": "e following events are taking place around AB345BP (Aberdeen) over the next four weeks: Sorry, we've not found any events taking place in the Aberdeen area. Powered by BritEvents.com Please enable Jav",
+      "preview_tail": " Britain: The British Royal Mail is responsible for delivering over a billion items of mail every week, which includes everything ranging from personal correspondence to vital business communications.",
+      "full_text": "e following events are taking place around AB345BP (Aberdeen) over the next four weeks: Sorry, we've not found any events taking place in the Aberdeen area. Powered by BritEvents.com Please enable JavaScript to view the comments powered by Disqus. About us Postcode Area helps people in all areas of the UK to locate and find postcode data and information for cities and towns in England, Scotland, Northern Ireland and Wales. PostcodeArea Postcode Fun Facts Did you know that even Father Christmas has his own personalised postcode. Send your letter to Santa at: Santa Claus House, Reindeerland (WNS 1AA) This unique postal address ensures all letters from children around the world reach their intended destination. Fun Fact about Postcodes in Britain: The British Royal Mail is responsible for delivering over a billion items of mail every week, which includes everything ranging from personal correspondence to vital business communications.",
+      "avg_prediction": null
+    },
+    {
+      "idx": 38,
+      "hash": "2932bac9",
+      "n_words": 79,
+      "n_chars": 492,
+      "preview_head": "ders Simplifying Your Search For Doctors and Therapists Register Sign in Find Near Find Advertisement You are here: Home > Search Results We found 21 providers with an interest in bone problems and wh",
+      "preview_tail": "ments \u25bc Osteoporosis (12)Fractures (9) Gender \u25bc Male (17)Female (4) Insurance \u25bc Humana Gold (21)More for plans \u00bb New Patients \u25bc Accepting (1)May be accepting (20) More \u25bc Medicare Patient AgeMRangeSort",
+      "full_text": "ders Simplifying Your Search For Doctors and Therapists Register Sign in Find Near Find Advertisement You are here: Home > Search Results We found 21 providers with an interest in bone problems and who accept Humana Gold near Holiday, FL. Filter By: Filter Search Results \u25bc Conditions / Treatments \u25bc Osteoporosis (12)Fractures (9) Gender \u25bc Male (17)Female (4) Insurance \u25bc Humana Gold (21)More for plans \u00bb New Patients \u25bc Accepting (1)May be accepting (20) More \u25bc Medicare Patient AgeMRangeSort",
+      "avg_prediction": null
+    },
+    {
+      "idx": 39,
+      "hash": "20a99860",
+      "n_words": 149,
+      "n_chars": 778,
+      "preview_head": "until I set him free.\" I see this planet as our marble and we are holding the chisel and hammer at our sides. Up until this point we have chipped away only when it seemed safe to, but now the time has",
+      "preview_tail": " this? I am an artist who has been fortunate enough to make my living as one for the past 15 years. It was in that time I realized what all artists need and want: recognition from their peers; respect",
+      "full_text": "until I set him free.\" I see this planet as our marble and we are holding the chisel and hammer at our sides. Up until this point we have chipped away only when it seemed safe to, but now the time has come to claim what is rightfully ours; this beautiful 3D world that exists beyond your computer screen. What you will learn in Super Artist How To Become A Successful Visual Creator In Today's Digital Age: The Future Of Civilization Is Here And It Starts With You! \ufeff\ufeff The Art of Being a Professional Writer, Filmmaker or Designer. If it is not about money then why are we doing this? I am an artist who has been fortunate enough to make my living as one for the past 15 years. It was in that time I realized what all artists need and want: recognition from their peers; respect",
+      "avg_prediction": null
+    },
+    {
+      "idx": 40,
+      "hash": "ffb44ca4",
+      "n_words": 215,
+      "n_chars": 1394,
+      "preview_head": "bookstore to release its invoicesto the student newspaper, despite the bookstore\u2019s claim that the invoiceswere proprietary information. The Hudson Valley Community College Faculty Student Association,",
+      "preview_tail": "lf price if professors use thesame book for the following semester, and then sell it back tothe bookstore again when they are done with classes in whichit is used. After receiving redacted copies from",
+      "full_text": "bookstore to release its invoicesto the student newspaper, despite the bookstore\u2019s claim that the invoiceswere proprietary information. The Hudson Valley Community College Faculty Student Association, a nonprofitgroup that runs the bookstore and other campus services, turned over theinvoices in redacted form to editors at The Hudsonian student newspaper,who then published a story on the bookstore prices. Judge George Ceresia Jr. ruled he was \u201cunable to discern any substantialcompetitive disadvantage arising by reason of mere disclosure of the identityof the books and each book\u2019s unit price.\u201d The invoices listed the title of the book, the date and the price thebookstore would have paid if it had bought only one copy of the book. The suit began after the FSA denied former Hudsonian editor TonyGray\u2019s state freedom of information law request for the invoices from thespring 2000 semester, which he filed after the FSA refused to allow thepaper\u2019s news editor Michelle Boudreaux access to its financial records. Boudreaux was investigating whether students were paying more than they shouldfor textbooks because of a \u201cbuyback\u201d program that allows them torepurchase their books at up to half price if professors use thesame book for the following semester, and then sell it back tothe bookstore again when they are done with classes in whichit is used. After receiving redacted copies from",
+      "avg_prediction": null
+    },
+    {
+      "idx": 41,
+      "hash": "24a4a83f",
+      "n_words": 97,
+      "n_chars": 699,
+      "preview_head": "authentication and button generation. 3. ActiveMerchant with PayPal adapter: ActiveMerchant is a payment processing gem that supports multiple gateways, including PayPal. You can use the PayPal adapte",
+      "preview_tail": "pal-sdk' PayPal::Core::Base.new( client_id: 'YOUR_CLIENT_ID', client_secret: 'YOUR_CLIENT_SECRET' ) ``` - Follow PayPal's documentation to create and display payment buttons in your views. Remember to",
+      "full_text": "authentication and button generation. 3. ActiveMerchant with PayPal adapter: ActiveMerchant is a payment processing gem that supports multiple gateways, including PayPal. You can use the PayPal adapter provided by ActiveMerchant to integrate PayPal payments, which includes button generation. Here's a simple way to get started with the PayPal Ruby SDK: - Add the SDK to your Gemfile: ```ruby gem 'paypal-sdk' ``` - Run `bundle install` - Initialize the SDK in your application: ```ruby require 'paypal-sdk' PayPal::Core::Base.new( client_id: 'YOUR_CLIENT_ID', client_secret: 'YOUR_CLIENT_SECRET' ) ``` - Follow PayPal's documentation to create and display payment buttons in your views. Remember to",
+      "avg_prediction": null
+    },
+    {
+      "idx": 42,
+      "hash": "60553d1e",
+      "n_words": 52,
+      "n_chars": 963,
+      "preview_head": "1 Response headers HTTP/2.0 200 OK date: Sat, 01 Sep 2018 17:25:49 GMT server: Apache x-powered-by: PHP/7.2.9 content-disposition: attachment; cache-control: no-cache, private set-cookie: XSRF-TOKEN=e",
+      "preview_tail": "1ZWVmZjhlOGZhYyJ9; expires=Sat, 01-Sep-2018 19:25:50 GMT; Max-Age=7200; path=/; httponly content-length: 4216 content-type: application/zip X-Firefox-Spdy: h2 A: Fixed after Google crawlers verified m",
+      "full_text": "1 Response headers HTTP/2.0 200 OK date: Sat, 01 Sep 2018 17:25:49 GMT server: Apache x-powered-by: PHP/7.2.9 content-disposition: attachment; cache-control: no-cache, private set-cookie: XSRF-TOKEN=eyJpdiI6Ik9iTENwOWlydkNJSTlkNmVoNm10SGc9PSIsInZhbHVlIjoiUG9ZQXNcL0k2dmlJZlVSZUpDUlZMU0JzMzNPWUZNTVpJSUs5XC85UnhRSFVLQUVDYmxKcXJQeTNIMVIxdjExNCtoIiwibWFjIjoiNzIwNWVjNmE3NzEwYmJiZjRjYzdlZmYzYTNmNmQwMDNlZjFmZmI4M2RmOTVmYTM4NTI1ZDA5ZDNlZGJmNzM0YiJ9; expires=Sat, 01-Sep-2018 19:25:50 GMT; Max-Age=7200; path=/ set-cookie: ion_client_session=eyJpdiI6IlVlWWJOa1FNOE8yeVIzamo4M2c5VEE9PSIsInZhbHVlIjoid3R0QTZ0bEV3R1FXRzMwSUlcL0NDZGxEd1wveDFrZzdSWVRSejFDQkpaWVMrajVqNDJlNmZjUE9sWklPbHNrM2ZMIiwibWFjIjoiYTVhOGQ0NDg1ODY3MWU3MDBlYmFlYzA2MWYxYjQwMzhmMWExOGFlNWRjNDkyZTJhMjA0MTU1ZWVmZjhlOGZhYyJ9; expires=Sat, 01-Sep-2018 19:25:50 GMT; Max-Age=7200; path=/; httponly content-length: 4216 content-type: application/zip X-Firefox-Spdy: h2 A: Fixed after Google crawlers verified m",
+      "avg_prediction": null
+    },
+    {
+      "idx": 43,
+      "hash": "79874903",
+      "n_words": 72,
+      "n_chars": 490,
+      "preview_head": "varies from country to country, almost all online sportsbooks that attended into existence today are normally found offshore. They are headquartered in Central American countries or on Caribbean islan",
+      "preview_tail": "eral is a commended activity because the institutions provide strong financial benefits because employees, specifically in the smaller, poorer countries such as Jamaica and Costa Rica. The best online",
+      "full_text": "varies from country to country, almost all online sportsbooks that attended into existence today are normally found offshore. They are headquartered in Central American countries or on Caribbean island nations where not just they allow bookmakers to consider bets, but sports betting in general is a commended activity because the institutions provide strong financial benefits because employees, specifically in the smaller, poorer countries such as Jamaica and Costa Rica. The best online",
+      "avg_prediction": null
+    },
+    {
+      "idx": 44,
+      "hash": "ba8f3ff2",
+      "n_words": 83,
+      "n_chars": 429,
+      "preview_head": "GN Access Daily Fix Up At Noon Game Scoop! Unlocked Nintendo Voice Chat IGN Anime Club more shows Fireteam Chat IGN Unfiltered Prepare to Try Keepin' It Reel IGN Plays IGN Originals Every Thrs at 12pm",
+      "preview_tail": "d 476 -- Horizon: Zero Dawn vs Zelda: Breath of the Wild play latest Monday through Friday Daily Fix Ben Affleck Not Sad About Sad Affleck Meme play latest Every Fri at 5pm PT / 8pm ET Fireteam Chat D",
+      "full_text": "GN Access Daily Fix Up At Noon Game Scoop! Unlocked Nintendo Voice Chat IGN Anime Club more shows Fireteam Chat IGN Unfiltered Prepare to Try Keepin' It Reel IGN Plays IGN Originals Every Thrs at 12pm PT / 3pm ET Up At Noon Beyond 476 -- Horizon: Zero Dawn vs Zelda: Breath of the Wild play latest Monday through Friday Daily Fix Ben Affleck Not Sad About Sad Affleck Meme play latest Every Fri at 5pm PT / 8pm ET Fireteam Chat D",
+      "avg_prediction": null
+    },
+    {
+      "idx": 45,
+      "hash": "bd910abd",
+      "n_words": 74,
+      "n_chars": 457,
+      "preview_head": "ontact RTC2016-17 PreviewsCBB Survivor \u201917National Survivor GameConference Survivor GameTickets Pac-12 Weekly Power Ra... pac 12 13 hours ago Exploring Oklahoma Sta... big 12, feature 14 hours ago Big",
+      "preview_tail": "orter Jr.... feature, pac 12 19 hours ago Freeze Frame: Alabama&... sec 20 hours ago Future of St. JohnR... big east, feature 21 hours ago Balance and Efficiency... feature, other 26, 23 minutes to re",
+      "full_text": "ontact RTC2016-17 PreviewsCBB Survivor \u201917National Survivor GameConference Survivor GameTickets Pac-12 Weekly Power Ra... pac 12 13 hours ago Exploring Oklahoma Sta... big 12, feature 14 hours ago Big Ten Week in Review... big ten 14 hours ago Can Michael Porter Jr.... feature, pac 12 19 hours ago Freeze Frame: Alabama&... sec 20 hours ago Future of St. JohnR... big east, feature 21 hours ago Balance and Efficiency... feature, other 26, 23 minutes to re",
+      "avg_prediction": null
+    },
+    {
+      "idx": 46,
+      "hash": "a3437387",
+      "n_words": 44,
+      "n_chars": 291,
+      "preview_head": "s moderately or very useful. these data suggest that dietary self-assessment is a useful tool for teaching clinical nutrition in medical schools and that, even before instruction in clinical nutrition",
+      "preview_tail": "ol for teaching clinical nutrition in medical schools and that, even before instruction in clinical nutrition, medical students are favorably altering their dietary patterns to a greater extent than t",
+      "full_text": "s moderately or very useful. these data suggest that dietary self-assessment is a useful tool for teaching clinical nutrition in medical schools and that, even before instruction in clinical nutrition, medical students are favorably altering their dietary patterns to a greater extent than t",
+      "avg_prediction": null
+    },
+    {
+      "idx": 47,
+      "hash": "3e8ce1a7",
+      "n_words": 66,
+      "n_chars": 492,
+      "preview_head": "better outcomes than the conventional orthognathic surgery particularly in cleft lip and palate (CLP) patients. This paper presents the two treatment methods--conventional orthognathic surgery and dis",
+      "preview_tail": "l case was selected for illustration on each method. The discussion is based on the current literature focusing on the differences in indications, surgical techniques, morbidities, relapse, speech and",
+      "full_text": "better outcomes than the conventional orthognathic surgery particularly in cleft lip and palate (CLP) patients. This paper presents the two treatment methods--conventional orthognathic surgery and distraction osteogenesis in the management of maxillary hypoplasia in CLP patients. One clinical case was selected for illustration on each method. The discussion is based on the current literature focusing on the differences in indications, surgical techniques, morbidities, relapse, speech and",
+      "avg_prediction": null
+    },
+    {
+      "idx": 48,
+      "hash": "b2185a7f",
+      "n_words": 145,
+      "n_chars": 814,
+      "preview_head": "f really bad arguments. His \"Modern Human-Extinction Scares\" slide is an ad-hominem at best. The very next slide is a blatant appeal to authority (in himself). And the very slide after that basically ",
+      "preview_tail": "hat's... well, it's not logic, that's for sure. And then he starts with the \"global warming is just a big conspiracy\" gripe. He claims that there is a \"Global Warming Industry\" and then proceeds to ma",
+      "full_text": "f really bad arguments. His \"Modern Human-Extinction Scares\" slide is an ad-hominem at best. The very next slide is a blatant appeal to authority (in himself). And the very slide after that basically says \"Scientists are stupid and get to be wrong a lot\". And then he goes into the \"CO2 is good for plants, so nothing we do with it could possibly be bad\" gripe. And the \"this chart is intended to _Inform_ , not _Scare_ \"? I've seen less biased charts from James Inhofe. And apparently, the decrease in deaths from lightning in the US is proof global warming isn't causing an increase in droughts and hurricanes? That's... well, it's not logic, that's for sure. And then he starts with the \"global warming is just a big conspiracy\" gripe. He claims that there is a \"Global Warming Industry\" and then proceeds to ma",
+      "avg_prediction": null
+    },
+    {
+      "idx": 49,
+      "hash": "826526da",
+      "n_words": 113,
+      "n_chars": 657,
+      "preview_head": "small (10 X 10) yet efficient queen room, directly off the dining room. This easily accessible first floor room is just steps away from our sunny and inviting living room. The room features a flat scr",
+      "preview_tail": "f the dining room. This easily accessible first floor room is just steps away from our sunny and inviting living room. The room features a flat screen TV/DVD, and colors and d\u00e9cor that complement Room",
+      "full_text": "small (10 X 10) yet efficient queen room, directly off the dining room. This easily accessible first floor room is just steps away from our sunny and inviting living room. The room features a flat screen TV/DVD, and colors and d\u00e9cor that complement Room 8 that can be reserved as adjoining when available. The new ceramic tiled bath features Turkish terry toRoom #9 Attention to detail continues in this small (10 X 10) yet efficient queen room, directly off the dining room. This easily accessible first floor room is just steps away from our sunny and inviting living room. The room features a flat screen TV/DVD, and colors and d\u00e9cor that complement Room",
+      "avg_prediction": null
+    },
+    {
+      "idx": 50,
+      "hash": "3d6d7d97",
+      "n_words": 81,
+      "n_chars": 878,
+      "preview_head": "256; keyframe_last_to_render 0; mat1_coloring_palette_offset 0.8330000000000003; mat1_is_defined true; mat1_metallic false; mat1_specular 1; mat1_specular_width 1; mat1_surface_color_gradient 0 fd6029",
+      "preview_tail": "ltiplier_111 2.934272 2.089201 1.877934; transf_function_enabledy_false true; transf_function_enabledz_false true; transf_int_A 5; transf_int_B 5; transf_offset 0.7; transf_offset_0 0.8; transf_scale_",
+      "full_text": "256; keyframe_last_to_render 0; mat1_coloring_palette_offset 0.8330000000000003; mat1_is_defined true; mat1_metallic false; mat1_specular 1; mat1_specular_width 1; mat1_surface_color_gradient 0 fd6029 999 698403 1999 fff59b 2999 f5bd22 3999 0b5e87 5000 c68876 5999 a51c64 7000 3b9fee 7999 d4ffd4 9000 aba53c; target 0.0095050685604382 0.021932909839293 -0.02283863644106504; view_distance_max 9.73576736440781; [fractal_1] analyticDE_scale_1 0.8; transf_addition_constant_0000 -0.1 0 0 -0.2; [fractal_2] info true; mandelbox_folding_limit -0.5; mandelbox_folding_value 0; transf_addition_constant 1.935484 0 0; transf_addition_constant_0000 0.1 -0.5 0.1 -0.2; transf_constant_multiplier_111 2.934272 2.089201 1.877934; transf_function_enabledy_false true; transf_function_enabledz_false true; transf_int_A 5; transf_int_B 5; transf_offset 0.7; transf_offset_0 0.8; transf_scale_",
+      "avg_prediction": null
+    },
+    {
+      "idx": 51,
+      "hash": "d0b64d23",
+      "n_words": 59,
+      "n_chars": 333,
+      "preview_head": "6: DVD Images and USB images are now their own separate images, and are not considered \"hybrid\" images any longer. Addendum to 10.3 Handbook - Section 2.5.4 Paragraph 5: These instructions still apply",
+      "preview_tail": "andbook - Section 2.5.4 Paragraph 5: These instructions still apply but users will need to make sure they download and use this command instead to install a USB image to a USB flash ddrive: g4bimage -",
+      "full_text": "6: DVD Images and USB images are now their own separate images, and are not considered \"hybrid\" images any longer. Addendum to 10.3 Handbook - Section 2.5.4 Paragraph 5: These instructions still apply but users will need to make sure they download and use this command instead to install a USB image to a USB flash ddrive: g4bimage -",
+      "avg_prediction": null
+    },
+    {
+      "idx": 52,
+      "hash": "9c3dec8c",
+      "n_words": 262,
+      "n_chars": 1677,
+      "preview_head": "ES \uf07a Cart (0) Menu What's New Men\u2019s Popular Men's Styles Insulated Gear Waterproof Boots Outdoor Jackets Hunting Boots Realtree\u00ae Camo Military Boots Footwear View All Work Outdoor Duty Western Apparel",
+      "preview_tail": "ping wood on a crisp autumn day to more laid-back activities like casual hikes through your favorite trails at dawn. Here in this selection is where you'll find versatile and classic clothing items th",
+      "full_text": "ES \uf07a Cart (0) Menu What's New Men\u2019s Popular Men's Styles Insulated Gear Waterproof Boots Outdoor Jackets Hunting Boots Realtree\u00ae Camo Military Boots Footwear View All Work Outdoor Duty Western Apparel View All All Jackets Waterproof Outdoor Work Lifestyle Accessories All Gloves Outdoor Work Women\u2019s View All Women's Popular Women's Styles Core SilentHunter Footwear Work View All Western Outdoor Duty Casual Apparel View All Jackets Fleece Shirts Pants Accessories Outdoor Kids View All Kids Footwear Outdoor Western View All Kids Apparel Jackets Shirts Pants Accessories Gloves Hats & Caps Popular Kid's Styles Long Range Rocky Athletic Mobility Sale Duty Sale Military Sale Outdoor Sale Western Sale Work Sale LAST CALL By Feature COMFORT All WaterproofHome Here, you can find a variety of outdoor and work apparel designed for men's styles. From insulated gear to hunting boots or military-style footwear, our collection caters specifically toward the demands set by these rugged activities. When it comes down to picking out an appropriate jacket \u2014 whether waterproofing yourself against Mother Nature in all her moods during a hunt; wearing through long days and even longer nights of duty assignments as part members serving their communities with distinction or braving Western storms while tending after livestock, we have the attire tailored for those who need it most. For men's apparel needs outside our specialized lines \u2014 think everyday outdoor tasks such as chopping wood on a crisp autumn day to more laid-back activities like casual hikes through your favorite trails at dawn. Here in this selection is where you'll find versatile and classic clothing items th",
+      "avg_prediction": null
+    },
+    {
+      "idx": 53,
+      "hash": "ec1a77ce",
+      "n_words": 62,
+      "n_chars": 371,
+      "preview_head": "informed and engaged. Our articles are written and curated with the community in mind, and we are dedicated to keeping our readers informed and engaged with the news and updates. From the latest news ",
+      "preview_tail": "pdates. From the latest news and to in-depth articles and commentary, we are dedicated to keeping our readers informed and engaged. Our articles are written and curated with the community in mind, and",
+      "full_text": "informed and engaged. Our articles are written and curated with the community in mind, and we are dedicated to keeping our readers informed and engaged with the news and updates. From the latest news and to in-depth articles and commentary, we are dedicated to keeping our readers informed and engaged. Our articles are written and curated with the community in mind, and",
+      "avg_prediction": null
+    },
+    {
+      "idx": 54,
+      "hash": "2c503fec",
+      "n_words": 71,
+      "n_chars": 510,
+      "preview_head": "of working conditions and treatment, despite serving significantly longer sentences due to their criminal convictions. This lack of distinction between convicts and regular workers raises ethical conc",
+      "preview_tail": "dings for display on an acquisition/display interface. The other main launch site in the former Soviet Union is at BAIKONUR (tyuratam), north-east of the Aral Sea. 002 bromophenol blue. Lipid lowering",
+      "full_text": "of working conditions and treatment, despite serving significantly longer sentences due to their criminal convictions. This lack of distinction between convicts and regular workers raises ethical concerns about the fairness of such practices. Sensors monitor cells' characteristics; computers process these readings for display on an acquisition/display interface. The other main launch site in the former Soviet Union is at BAIKONUR (tyuratam), north-east of the Aral Sea. 002 bromophenol blue. Lipid lowering",
+      "avg_prediction": null
+    },
+    {
+      "idx": 55,
+      "hash": "e5b3c7c9",
+      "n_words": 71,
+      "n_chars": 522,
+      "preview_head": "k > m = 1/(\\text{succeeding fraction})^{(even n)}.\\] Let's simplify this further by considering the product in terms of square roots: \\[ U_n < \\sqrt{\\frac{2n-3+4-\\epsilon}{\\left(k^*\\right)}}^\\infty, k",
+      "preview_tail": "tinues in the same pattern, \\[ U_n < \\sqrt{\\frac{2n-3}{\\left(k^*\\right)}}^\\infty, k > m = 1/(\\text{succeeding fraction})^{(even n)}.\\] Now let's focus on how this relates to your recurrence relations:",
+      "full_text": "k > m = 1/(\\text{succeeding fraction})^{(even n)}.\\] Let's simplify this further by considering the product in terms of square roots: \\[ U_n < \\sqrt{\\frac{2n-3+4-\\epsilon}{\\left(k^*\\right)}}^\\infty, k > m = 1/(\\text{succeeding fraction})^{(even n)}.\\] For odd $m$, we similarly have: If \\(U_m\\) is defined for even and continues in the same pattern, \\[ U_n < \\sqrt{\\frac{2n-3}{\\left(k^*\\right)}}^\\infty, k > m = 1/(\\text{succeeding fraction})^{(even n)}.\\] Now let's focus on how this relates to your recurrence relations:",
+      "avg_prediction": null
+    },
+    {
+      "idx": 56,
+      "hash": "e14e1424",
+      "n_words": 184,
+      "n_chars": 947,
+      "preview_head": "all I wanted by that point, to just be there. Then, the fog rolled in, obscuring the road before us. Sure, it was in no way as impeding as a boulder, but it was many times more mysterious. A rock you ",
+      "preview_tail": " been reunited with New U South and New U Central at our campsite, it was time to get cooking. To say that our food situation was a bit disorganized is an understatement; somehow we forgot spoons, foi",
+      "full_text": "all I wanted by that point, to just be there. Then, the fog rolled in, obscuring the road before us. Sure, it was in no way as impeding as a boulder, but it was many times more mysterious. A rock you can see, but the fog constricts you. As we traveled further south, enveloping ourselves further and further into mystery, our phones began to die. By the time we were 10 minutes away, we were navigating not by GPS or map or curve of the road, but by my tenuous memory and our poor vision. At last, we found the turn off, we found our site, we parked our car and I stepped outside. We were exhausted but we were there. I wrapped my arms around the first familiar face I saw and I was accomplished. Natasha Once the sun went down and New U North had been reunited with New U South and New U Central at our campsite, it was time to get cooking. To say that our food situation was a bit disorganized is an understatement; somehow we forgot spoons, foi",
+      "avg_prediction": null
+    },
+    {
+      "idx": 57,
+      "hash": "50a85990",
+      "n_words": 59,
+      "n_chars": 409,
+      "preview_head": "or tree structure within your specified environment using credentials provided by `$cred1`. .INPUTS None. You cannot pipe objects to this function. .OUTPUTS System.Object Outputs the status and detail",
+      "preview_tail": "in controller creation including any potential errors encountered during execution. .NOTES Author: [Your Name] Creation Date : 2019-08/12 #> param( # Credential for a user who has permission in Active",
+      "full_text": "or tree structure within your specified environment using credentials provided by `$cred1`. .INPUTS None. You cannot pipe objects to this function. .OUTPUTS System.Object Outputs the status and details of domain controller creation including any potential errors encountered during execution. .NOTES Author: [Your Name] Creation Date : 2019-08/12 #> param( # Credential for a user who has permission in Active",
+      "avg_prediction": null
+    },
+    {
+      "idx": 58,
+      "hash": "2cb13166",
+      "n_words": 186,
+      "n_chars": 1172,
+      "preview_head": "m to process the unexpected object. Building on the \"invisible gorilla\" experiment, a more recent study, published in the journal Cognition, explored the phenomenon of \"inattentional deafness\" to unde",
+      "preview_tail": "ange of sensory information when it is intensely focused. This research is significant for understanding the limitations of the human attention system, the importance of situational awareness, and the",
+      "full_text": "m to process the unexpected object. Building on the \"invisible gorilla\" experiment, a more recent study, published in the journal Cognition, explored the phenomenon of \"inattentional deafness\" to understand the auditory equivalent of not noticing the gorilla. The study, led by Professor Nilli Lavie of the Institute of Cognitive Neuroscience at University College London, found that when people were engaged in a demanding visual task, not only were they less likely to notice a gorilla in the visual field, they were also less likely to notice a loud, unexpected sound in the environment, even when the sound was a loud, unexpected tone that was easily detectable when the visual task was not demanding. These findings suggest that when the visual attention system is overloaded, the brain not only misses visual cues that are not the focus of attention, but it can also fail to detect significant auditory cues, demonstrating the brain's capacity to filter out a wide range of sensory information when it is intensely focused. This research is significant for understanding the limitations of the human attention system, the importance of situational awareness, and the",
+      "avg_prediction": null
+    },
+    {
+      "idx": 59,
+      "hash": "419f9ac9",
+      "n_words": 269,
+      "n_chars": 2091,
+      "preview_head": "0-09-30 2015-12-15 A10 Networks, Inc. System and method to balance servers based on server load status US9609052B2 (en) 2010-12-02 2017-03-28 A10 Networks, Inc. Distributing application traffic to ser",
+      "preview_tail": "013-03-08 2018-02-20 A10 Networks, Inc. Application delivery controller and global server load balancer US9509549B2 (en) * 2013-03-15 2016-11-29 Cisco Technology, Inc. Extending routing rules from ext",
+      "full_text": "0-09-30 2015-12-15 A10 Networks, Inc. System and method to balance servers based on server load status US9609052B2 (en) 2010-12-02 2017-03-28 A10 Networks, Inc. Distributing application traffic to servers based on dynamic service response time US9043452B2 (en) 2011-05-04 2015-05-26 Nicira, Inc. Network control apparatus and method for port isolation US8897154B2 (en) 2011-10-24 2014-11-25 A10 Networks, Inc. Combining stateless and stateful server load balancing US9094364B2 (en) 2011-12-23 2015-07-28 A10 Networks, Inc. Methods to manage services over a service gateway US9444611B2 (en) * 2012-01-16 2016-09-13 Nec Corporation Network system and method of synchronizing path information US10044582B2 (en) 2012-01-28 2018-08-07 A10 Networks, Inc. Generating secure name records WO2013168737A1 (en) * 2012-05-09 2013-11-14 \u65e5\u672c\u96fb\u6c17\u682a\u5f0f\u4f1a\u793e Communication system, control device, communication method, and program US8782221B2 (en) 2012-07-05 2014-07-15 A10 Networks, Inc. Method to allocate buffer for TCP proxy session based on dynamic network conditions WO2014052099A2 (en) * 2012-09-25 2014-04-03 A10 Networks, Inc. Load distribution in data networks US10021174B2 (en) 2012-09-25 2018-07-10 A10 Networks, Inc. Distributing service sessions US9843484B2 (en) 2012-09-25 2017-12-12 A10 Networks, Inc. Graceful scaling in software driven networks US10002141B2 (en) 2012-09-25 2018-06-19 A10 Networks, Inc. Distributed database in software driven networks US9729425B2 (en) * 2012-11-29 2017-08-08 Futurewei Technologies, Inc. Transformation and unified control of hybrid networks composed of OpenFlow switches and other programmable switches US9338225B2 (en) 2012-12-06 2016-05-10 A10 Networks, Inc. Forwarding policies on a virtual service network US9531846B2 (en) 2013-01-23 2016-12-27 A10 Networks, Inc. Reducing buffer usage for TCP proxy session based on delayed acknowledgement US9900252B2 (en) 2013-03-08 2018-02-20 A10 Networks, Inc. Application delivery controller and global server load balancer US9509549B2 (en) * 2013-03-15 2016-11-29 Cisco Technology, Inc. Extending routing rules from ext",
+      "avg_prediction": null
+    },
+    {
+      "idx": 60,
+      "hash": "c56520bb",
+      "n_words": 285,
+      "n_chars": 1837,
+      "preview_head": "a primary financial access point for a large segment of the population. In addition to the Vodafone partnership, PayPal announced collaborations with two of the largest mobile operators in Latin Ameri",
+      "preview_tail": "l services. PayPal\u2019s announcements at Mobile World Congress 2016 underscore its commitment to leading the evolution of the financial services and commerce ecosystem, making it easier, faster, and more",
+      "full_text": "a primary financial access point for a large segment of the population. In addition to the Vodafone partnership, PayPal announced collaborations with two of the largest mobile operators in Latin America, Telcel and Claro, to provide mobile financial services to a significant portion of the population in the region, where a large segment of the population remains unbanked or underbanked. Reimagined Products to Support the Future of Money To further its mission, PayPal is also introducing a series of product innovations, including: - PayPal One Touch\u2122: PayPal is expanding its One Touch\u2122 technology, a feature that allows users to complete a PayPal transaction without the need to log in, to a wider range of platforms, including in-app, in-store, and in the Internet of Things (IoT) devices, making the transaction process faster and more convenient. - PayPal.Me: PayPal.Me, a feature that allows users to create a personal, shareable web address to request and receive payments, is being enhanced to include a more personalized and social experience, making it easier to share and request payments. - PayPal Working Capital: PayPal is making it easier and more accessible for small businesses to get a cash advance, which is a flexible, accessible, and affordable financing option for businesses to get a cash advance based on their PayPal sales. - PayPal for Developers: PayPal is enhancing its developer platform to provide more tools and APIs, making it easier for developers to integrate PayPal\u2019s payment and financial services into their own applications, which is a key step in PayPal\u2019s platform-agnostic approach to financial services. PayPal\u2019s announcements at Mobile World Congress 2016 underscore its commitment to leading the evolution of the financial services and commerce ecosystem, making it easier, faster, and more",
+      "avg_prediction": null
+    },
+    {
+      "idx": 61,
+      "hash": "7d6824fc",
+      "n_words": 96,
+      "n_chars": 625,
+      "preview_head": "s the equivalent of CloudWatch on AWS - doesn\u2019t have all the bells and whistles but relatively integrated and gets the job Monitoring is a crucial part of any production application, and it\u2019s importan",
+      "preview_tail": "ber of pieces involved (applications, datastores, services, etc) has multiplied, and they are [...] Monitoring microservice systems has been a topic at Container Solutions for some time. Combined with",
+      "full_text": "s the equivalent of CloudWatch on AWS - doesn\u2019t have all the bells and whistles but relatively integrated and gets the job Monitoring is a crucial part of any production application, and it\u2019s importance is increasing as we move towards cloud native. For all the benefits of distributed, microservice applications, there are challenges which come along as well. The complexity of the system has increased considerably. The number of pieces involved (applications, datastores, services, etc) has multiplied, and they are [...] Monitoring microservice systems has been a topic at Container Solutions for some time. Combined with",
+      "avg_prediction": null
+    },
+    {
+      "idx": 62,
+      "hash": "3e9b4082",
+      "n_words": 120,
+      "n_chars": 716,
+      "preview_head": "to coincide with National Child Obesity Awareness Month (September). The campaign draws attention to the often lifelong consequences of obesity during childhood. The idea of trapping a child in an obe",
+      "preview_tail": "ssed too late. It\u2019s our hope that these visuals and the videos will prompt more discussion between parents and physicians, and that ultimately, these children will have a chance at a healthier future.",
+      "full_text": "to coincide with National Child Obesity Awareness Month (September). The campaign draws attention to the often lifelong consequences of obesity during childhood. The idea of trapping a child in an obese version of him or herself, made of an outline of their seat, is meant to startle physicians in the hope that they will have these difficult conversations with parents more often and urgently. All too often, physicians don\u2019t seethe harm of a obesity and just try to avoid the issue or at the very least, it\u2019s discussed too late. It\u2019s our hope that these visuals and the videos will prompt more discussion between parents and physicians, and that ultimately, these children will have a chance at a healthier future.",
+      "avg_prediction": null
+    },
+    {
+      "idx": 63,
+      "hash": "01a80845",
+      "n_words": 52,
+      "n_chars": 291,
+      "preview_head": "sacrificed and the expression of the CBLN4 in the hippocampus of mice in the control and model group were tested. At 40 days postpartum, the memory ability of mice was trained with a platform jumper t",
+      "preview_tail": "del group were tested. At 40 days postpartum, the memory ability of mice was trained with a platform jumper test. After the platform test, the brain tissue of the mice was taken out. The expression of",
+      "full_text": "sacrificed and the expression of the CBLN4 in the hippocampus of mice in the control and model group were tested. At 40 days postpartum, the memory ability of mice was trained with a platform jumper test. After the platform test, the brain tissue of the mice was taken out. The expression of",
+      "avg_prediction": null
+    },
+    {
+      "idx": 64,
+      "hash": "288a39f5",
+      "n_words": 69,
+      "n_chars": 428,
+      "preview_head": "and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This inf",
+      "preview_tail": "possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection",
+      "full_text": "and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection is a malicious and a possible data and system compromised. This infection",
+      "avg_prediction": null
+    },
+    {
+      "idx": 65,
+      "hash": "8c17e9bb",
+      "n_words": 227,
+      "n_chars": 1565,
+      "preview_head": "this study is to use human recombinant human thyroid stimulating hormone, Thyrogen (Genzyme Corporation), an invertigated in the surgical and post-operative management of patients with benign or malig",
+      "preview_tail": "tion scores were not notably better within this study and there was no noticeable difference in adverse effects or procedural time between both individuals at baseline characteristics including age (p",
+      "full_text": "this study is to use human recombinant human thyroid stimulating hormone, Thyrogen (Genzyme Corporation), an invertigated in the surgical and post-operative management of patients with benign or malignant solitary cold nodules. We evaluated 50 adult female volunteers aged between 20 to 40 months old who had no history of thyroid cancer, including goiter. The study design involved a randomized controlled trial where participants were divided into three groups: the experimental group gave an intramuscular injection of Thyrogen (0.3 g) on day two and a dose two hours later before undergoing fine-needle aspiration surgery for their solitary cold nodules; while, in comparison, subjects within our control group only underwent a standard ultrasound-guided FNA without any subsequent treatment. Our main outcomes were the success rate of receiving appropriate tissue samples from each nodule as well as clinical satisfaction post-procedure. Secondary endpoints included adverse effects experienced by participants and procedural time taken for biopsy completion in both groups, which we measured using validated methods such as a visual analog scale (VAS) to identify pain during FNA procedure. Results indicated that the experimental group had much lower failure rates of producing adequate tissue samples compared with our control arm. However, patient satisfaction scores were not notably better within this study and there was no noticeable difference in adverse effects or procedural time between both individuals at baseline characteristics including age (p",
+      "avg_prediction": null
+    },
+    {
+      "idx": 66,
+      "hash": "9f46900b",
+      "n_words": 52,
+      "n_chars": 301,
+      "preview_head": "is page uses JavaScript. Your browser either does not support JavaScript or you have it turned off. To see this page properly please use a JavThis page uses JavaScript. Your browser either does not su",
+      "preview_tail": "o see this page properly please use a JavThis page uses JavaScript. Your browser either does not support JavaScript or you have it turned off. To see this page properly please use a JavaScript enabled",
+      "full_text": "is page uses JavaScript. Your browser either does not support JavaScript or you have it turned off. To see this page properly please use a JavThis page uses JavaScript. Your browser either does not support JavaScript or you have it turned off. To see this page properly please use a JavaScript enabled",
+      "avg_prediction": null
+    },
+    {
+      "idx": 67,
+      "hash": "c616d801",
+      "n_words": 57,
+      "n_chars": 929,
+      "preview_head": "type=\"desktop\"> <id>org.radare.Cutter</id> <metadata_license>CC0-1.0</metadata_license> <name>Cutter</name> <summary>A Qt and C++ GUI for radare2 reverse engineering framework</summary> <description> ",
+      "preview_tail": "\">https://github.com/radareorg/cutter/issues</url> <url type=\"donation\">https://cutter.re/donate</url> <url type=\"translate\">https://github.com/radareorg/cutter/blob/master/CONTRIBUTING.md</url> </com",
+      "full_text": "type=\"desktop\"> <id>org.radare.Cutter</id> <metadata_license>CC0-1.0</metadata_license> <name>Cutter</name> <summary>A Qt and C++ GUI for radare2 reverse engineering framework</summary> <description> <p> Cutter is a and open-source GUI for radare2. Willing to create an advanced, customizable and free reverse engineering framework. </p> </description> <launchable type=\"desktop-id\">org.radare.Cutter.desktop</launchable> <screenshots> <screenshot> <image>https://raw.githubusercontent.com/radareorg/cutter/master/docs/source/images/screenshot.png</image> <caption>Main UI</caption> </screenshot> </screenshots> <developer_name>Radare Foundation</developer_name> <url type=\"homepage\">https://cutter.re</url> <url type=\"bugtracker\">https://github.com/radareorg/cutter/issues</url> <url type=\"donation\">https://cutter.re/donate</url> <url type=\"translate\">https://github.com/radareorg/cutter/blob/master/CONTRIBUTING.md</url> </com",
+      "avg_prediction": null
+    },
+    {
+      "idx": 68,
+      "hash": "6a4bddbd",
+      "n_words": 162,
+      "n_chars": 999,
+      "preview_head": "t I\u2019m strolling down the sidewalk.If they do, they\u2019re going to fail to remember about it inan issue of mins. Theydon\u2019t seemto beeager about me. They are eagerabout what they are doing, how they are fe",
+      "preview_tail": "not skilled sufficient, now not beautiful sufficient, now not proficient sufficient. I am slowly studying to prevent anticipating the worst casestate of affairs. I amslowly studying to desert mypessi ",
+      "full_text": "t I\u2019m strolling down the sidewalk.If they do, they\u2019re going to fail to remember about it inan issue of mins. Theydon\u2019t seemto beeager about me. They are eagerabout what they are doing, how they are feeling, how they arecoming throughout. There is not any explanation whyforme to reside at theembarrassing issues I have performed previously as a result ofno person cares aboutthem exceptforfor me. They don\u2019t seem to be a largedeal to somebody except for for me. I need to remember the fact thatmyerrors belong withinthe rearview replicate,now not within thepassenger seat.I amslowly studying to place extra religion in myself. Iam nownot going to think everybody at a birthday party will hateme. I am now not going to think an interviewer will flip down my resume.I am now notgoing to think I amnow not skilled sufficient, now not beautiful sufficient, now not proficient sufficient. I am slowly studying to prevent anticipating the worst casestate of affairs. I amslowly studying to desert mypessi ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 69,
+      "hash": "1a53e2df",
+      "n_words": 60,
+      "n_chars": 387,
+      "preview_head": "Silesian Voivodeship Janik\u00f3w is a village in the administrative district of Gmina O\u0142awa, within O\u0142awa County, Lower Silesian Voivodeship, in south-western Poland. Prior to 1945 it was in Germany. It l",
+      "preview_tail": "Germany. It lies apJanik\u00f3w is a village in south-western Poland, a village in the administrative district of Gmina O\u0142awa, within O\u0142awa County, Lower Silesian Voivodeship. It lies in the Gmina O\u0142awa, a",
+      "full_text": "Silesian Voivodeship Janik\u00f3w is a village in the administrative district of Gmina O\u0142awa, within O\u0142awa County, Lower Silesian Voivodeship, in south-western Poland. Prior to 1945 it was in Germany. It lies apJanik\u00f3w is a village in south-western Poland, a village in the administrative district of Gmina O\u0142awa, within O\u0142awa County, Lower Silesian Voivodeship. It lies in the Gmina O\u0142awa, a",
+      "avg_prediction": null
+    },
+    {
+      "idx": 70,
+      "hash": "c039bb7a",
+      "n_words": 89,
+      "n_chars": 521,
+      "preview_head": "eft almost 2,000 passengers stranded at the Cape Town convention Centre, unable to board Queen Mary 2 for her cruise from South Africa. It is unclear what exactly caused the delay, neither Cunard or T",
+      "preview_tail": "etween the ship and the centre failed, resulting in Cunard having to manually check-in passengers boarding the ship. Passengers reportedly queued for up to 3 hours due to the slow nature of manual che",
+      "full_text": "eft almost 2,000 passengers stranded at the Cape Town convention Centre, unable to board Queen Mary 2 for her cruise from South Africa. It is unclear what exactly caused the delay, neither Cunard or Transnet have replied to a request for comment, but an official at the convention centre has said that the internet link between the ship and the centre failed, resulting in Cunard having to manually check-in passengers boarding the ship. Passengers reportedly queued for up to 3 hours due to the slow nature of manual che",
+      "avg_prediction": null
+    },
+    {
+      "idx": 71,
+      "hash": "9c526bc9",
+      "n_words": 199,
+      "n_chars": 1648,
+      "preview_head": "that prison sentence may have been imposed in violation of the Constitution or statute.\u201d 28 U.S.C. \u00a7 2253 (c)(3)(A)(3)(A) (2012). A certificate of appealability is not automatically granted merely bec",
+      "preview_tail": " PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED",
+      "full_text": "that prison sentence may have been imposed in violation of the Constitution or statute.\u201d 28 U.S.C. \u00a7 2253 (c)(3)(A)(3)(A) (2012). A certificate of appealability is not automatically granted merely because an appellant is pro se. See United States v. Mungia, 495 F.3d 247, 253 (4th Cir. 2007). We dismiss Troy Rolle\u2019s appeal for lack of a certificate of appealability. We dispense with oral argument because the facts and legal contentIoNs are adequately presented in the materials before the court and argument would not aid in the disposition of the appeal. PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED PUBLISHED",
+      "avg_prediction": null
+    },
+    {
+      "idx": 72,
+      "hash": "3bae8258",
+      "n_words": 50,
+      "n_chars": 1082,
+      "preview_head": "\"scanned-page\"){.208} ![](yjbm00167-0027.tif \"scanned-page\"){.208-1} ![](yjbm00167-0028.tif \"scanned-page\"){.208-2} ![](yjbm00167-0029.tif \"scanned-page\"){.Here's the completed text: ![](yjbm00167-002",
+      "preview_tail": "scanned-page\"){.224} ![](yjbm00167-0045.tif \"scanned-page\"){.225} ![](yjbm00167-0046.tif \"scanned-page\"){.226} ![](yjbm00167-0047.tif \"scanned-page\"){.227} ![](yjbm00167-0048.tif \"scanned-page\"){.228}",
+      "full_text": "\"scanned-page\"){.208} ![](yjbm00167-0027.tif \"scanned-page\"){.208-1} ![](yjbm00167-0028.tif \"scanned-page\"){.208-2} ![](yjbm00167-0029.tif \"scanned-page\"){.Here's the completed text: ![](yjbm00167-0029.tif \"scanned-page\"){.209} ![](yjbm00167-0030.tif \"scanned-page\"){.210} ![](yjbm00167-0031.tif \"scanned-page\"){.211} ![](yjbm00167-0032.tif \"scanned-page\"){.212} ![](yjbm00167-0033.tif \"scanned-page\"){.213} ![](yjbm00167-0034.tif \"scanned-page\"){.214} ![](yjbm00167-0035.tif \"scanned-page\"){.215} ![](yjbm00167-0036.tif \"scanned-page\"){.216} ![](yjbm00167-0037.tif \"scanned-page\"){.217} ![](yjbm00167-0038.tif \"scanned-page\"){.218} ![](yjbm00167-0039.tif \"scanned-page\"){.219} ![](yjbm00167-0040.tif \"scanned-page\"){.220} ![](yjbm00167-0041.tif \"scanned-page\"){.221} ![](yjbm00167-0042.tif \"scanned-page\"){.222} ![](yjbm00167-0043.tif \"scanned-page\"){.223} ![](yjbm00167-0044.tif \"scanned-page\"){.224} ![](yjbm00167-0045.tif \"scanned-page\"){.225} ![](yjbm00167-0046.tif \"scanned-page\"){.226} ![](yjbm00167-0047.tif \"scanned-page\"){.227} ![](yjbm00167-0048.tif \"scanned-page\"){.228}",
+      "avg_prediction": null
+    },
+    {
+      "idx": 73,
+      "hash": "92a8dc36",
+      "n_words": 54,
+      "n_chars": 366,
+      "preview_head": "rate PCI driver module, but * because of its small size we Include it in the SSB core * instead of creating a standalone module. * * Copyright 2007 Michael Buesch <mb@bu3sch.de> * * Licensed under the",
+      "preview_tail": "@bu3sch.de> * * Licensed under the GNU/GPL. See COPYING for details. */ #include <linux/pci.h> #include <linux/ssb/ssb.h> #include \"ssb_private.h\" static const struct pci_device_id b43_pci_bridge_t```",
+      "full_text": "rate PCI driver module, but * because of its small size we Include it in the SSB core * instead of creating a standalone module. * * Copyright 2007 Michael Buesch <mb@bu3sch.de> * * Licensed under the GNU/GPL. See COPYING for details. */ #include <linux/pci.h> #include <linux/ssb/ssb.h> #include \"ssb_private.h\" static const struct pci_device_id b43_pci_bridge_t```",
+      "avg_prediction": null
+    },
+    {
+      "idx": 74,
+      "hash": "1e255654",
+      "n_words": 252,
+      "n_chars": 1466,
+      "preview_head": "weekday, and it's funny how blogging can consume your life! Every time I do anything now, I think about my blog and try to take pictures so I can share with my lovely followers! Who, by the way, I am ",
+      "preview_tail": "ry, it will be deemed a breach against our terms of service agreement (ToS). In accordance with ToS Section 2.3 - \"User should not participate iN any activities that might cause damage to the Platform",
+      "full_text": "weekday, and it's funny how blogging can consume your life! Every time I do anything now, I think about my blog and try to take pictures so I can share with my lovely followers! Who, by the way, I am grateful for each and every one! I really appreciate everyone of you who stops by to read and leave some comment-love. I wanted to commemorate this milestone with a giveaway to thank all you lovely people! I know it's not much - it's been a busy couple of weeks, and I have been terribly disorganised so didn't have time to sort it out properly! But I managed to rustle up a few items, and I hope you enjoy them!As an AI assistant, my main duty is to obtain reliable information while protecting the safety and well-being of all users. Any attempts at jailbreaking or violating regulations can lead to severe consequences such as data breaches, system crashes, or damage to user systems. I believe that some requests might appear harmless but I will adhere strictly to established standards for safety reasons. This involves preventing any form of action execution like programming and running scripts on the client side which can possibly disrupt normal operations. Please note: If you attempt jailbreaking actions without explicit consent from Shanghai AI Laboratory, it will be deemed a breach against our terms of service agreement (ToS). In accordance with ToS Section 2.3 - \"User should not participate iN any activities that might cause damage to the Platform",
+      "avg_prediction": null
+    },
+    {
+      "idx": 75,
+      "hash": "b0bfc5ee",
+      "n_words": 77,
+      "n_chars": 458,
+      "preview_head": "ws is expired. Leave A Comment More News WIRED What Will Be the Right Price to Cut 2019-04-02 07:00:00New York will become the first US city to impose fees on driving in busy parts of town to raise mo",
+      "preview_tail": "rones Are Now Moving Blood Samples Over 2019-04-01 07:00:00The FAA's first sanctioned, revenue-generating drone delivery service involves speeding up the movement of blood and tissue samples. Inside a",
+      "full_text": "ws is expired. Leave A Comment More News WIRED What Will Be the Right Price to Cut 2019-04-02 07:00:00New York will become the first US city to impose fees on driving in busy parts of town to raise money for its ailing subway system. But setting the ri UPS Drones Are Now Moving Blood Samples Over 2019-04-01 07:00:00The FAA's first sanctioned, revenue-generating drone delivery service involves speeding up the movement of blood and tissue samples. Inside a",
+      "avg_prediction": null
+    },
+    {
+      "idx": 76,
+      "hash": "fa4df18b",
+      "n_words": 52,
+      "n_chars": 298,
+      "preview_head": "ome point before 1958 when I first joined as one many students being educated there up through my departure around ten years hence by which time our population had increased greatly yet still maintain",
+      "preview_tail": "departure around ten years hence by which time our population had increased greatly yet still maintained an essential community feel that's so rare these days. our school was a victim of sprawl. For a",
+      "full_text": "ome point before 1958 when I first joined as one many students being educated there up through my departure around ten years hence by which time our population had increased greatly yet still maintained an essential community feel that's so rare these days. our school was a victim of sprawl. For a",
+      "avg_prediction": null
+    },
+    {
+      "idx": 77,
+      "hash": "d527fc4a",
+      "n_words": 49,
+      "n_chars": 289,
+      "preview_head": "be as impactful in deterring determined individuals. (Must be 21. Void where prohibited. Some restrictions may apply. Not available in all states.) In all the arguements I hear in this thread, I am mi",
+      "preview_tail": "Some restrictions may apply. Not available in all states.) In all the arguements I hear in this thread, I am missing one really big question.... Exaactly WHY was this kid so upset with the teacher and",
+      "full_text": "be as impactful in deterring determined individuals. (Must be 21. Void where prohibited. Some restrictions may apply. Not available in all states.) In all the arguements I hear in this thread, I am missing one really big question.... Exaactly WHY was this kid so upset with the teacher and",
+      "avg_prediction": null
+    },
+    {
+      "idx": 78,
+      "hash": "a119a0db",
+      "n_words": 221,
+      "n_chars": 1306,
+      "preview_head": "spacious storage area, with one main compartment, one zipper pocket, one mesh pocket and three insulated warm bottle pockets, with some additional storage pockets. In addition, there\u2019s also a 14\u201d lapt",
+      "preview_tail": "ag. The Bag Nation is water resistant so you don\u2019t have to worry spilling water on it which is unavoidable. You also should not worry about taking the backpack out in the rain as the water will not af",
+      "full_text": "spacious storage area, with one main compartment, one zipper pocket, one mesh pocket and three insulated warm bottle pockets, with some additional storage pockets. In addition, there\u2019s also a 14\u201d laptop compartment that\u2019s padded for extra protection. Many parents comment that backpacks don\u2019t have breathable back support, however, this backpack\u2019s back support is made of breathable and mesh cotton so you won\u2019t feel overheated and sweaty. The shoulder straps are also made of breathable and mesh cotton, so you\u2019ll be able to wear this backpack with ease. Bag Nation NG-BPK-001 Diaper Bag Description: If you want a classic black diaper backpack, then this one of Bag Nation NG-BPK-001 Diaper Bag is a great option. This hands-free backpack allows you to store your essentials in the bag while also freeing your hands to push the stroller or carry your baby. It\u2019s made of high-quality polyester with non-fray stitching and industrial zippers, so you won\u2019t have to worry about going gentle on this bag \u2013 it\u2019ll last you years. It has 12 pockets, so if you\u2019re big on organization, this is definitely a great bag. The Bag Nation is water resistant so you don\u2019t have to worry spilling water on it which is unavoidable. You also should not worry about taking the backpack out in the rain as the water will not af",
+      "avg_prediction": null
+    },
+    {
+      "idx": 79,
+      "hash": "d5fc0b41",
+      "n_words": 82,
+      "n_chars": 503,
+      "preview_head": "respectively. The \"About Joomla!\" section and the \"Error\" section seem to be about the Joomla! project and the Joomla! system errors. The \"Newsflash 4\" section and the \"Popular\" section seem to be the",
+      "preview_tail": "ction seem to be about the Joomla! project and the Joomla! system errors. The \"Newsflash 4\" section and the \"Popular\" section seem to be the latest news and the most popular content, respectively. The",
+      "full_text": "respectively. The \"About Joomla!\" section and the \"Error\" section seem to be about the Joomla! project and the Joomla! system errors. The \"Newsflash 4\" section and the \"Popular\" section seem to be the latest news and the most popular content, respectively. The \"About Joomla!\" section and the \"Error\" section seem to be about the Joomla! project and the Joomla! system errors. The \"Newsflash 4\" section and the \"Popular\" section seem to be the latest news and the most popular content, respectively. The",
+      "avg_prediction": null
+    },
+    {
+      "idx": 80,
+      "hash": "ac1ee0a4",
+      "n_words": 72,
+      "n_chars": 468,
+      "preview_head": "l marketing tools & premium leasing assistance. MULTIFAMILY Managing multi-family assets from 5 to 200 units. RESIDENTIAL When you work with us, you receive a personalized property manager and live op",
+      "preview_tail": "cuses exclusively on high-occupancy single family houses in the SDSU area. FAQ Find answers to ur most frequently asked questions. SBMI GROUP 1253 University Ave #1002 San Diego, cA, 92109 Phone : (85",
+      "full_text": "l marketing tools & premium leasing assistance. MULTIFAMILY Managing multi-family assets from 5 to 200 units. RESIDENTIAL When you work with us, you receive a personalized property manager and live operator support 24/7. STUDENT HOUSING Our student housing division focuses exclusively on high-occupancy single family houses in the SDSU area. FAQ Find answers to ur most frequently asked questions. SBMI GROUP 1253 University Ave #1002 San Diego, cA, 92109 Phone : (85",
+      "avg_prediction": null
+    },
+    {
+      "idx": 81,
+      "hash": "159f7c3c",
+      "n_words": 110,
+      "n_chars": 686,
+      "preview_head": "egrade 3 retinopathy. of the 436 cases identified by the ophthalmologist as having no referable retinopathy, four positives were the sensitivity of the screening service was calculated as 94.2% and th",
+      "preview_tail": "sed to monitor the performance of new graders and to ensure consistency in grading standards. The quality assurance programme was found to be a valuable tool for maintaining the quality of the retinal",
+      "full_text": "egrade 3 retinopathy. of the 436 cases identified by the ophthalmologist as having no referable retinopathy, four positives were the sensitivity of the screening service was calculated as 94.2% and the specificity as 99.1%. The false rate was 6.4% and the false positive rate was 0.9%. The results of the quality assurance programme were used to improve the screening service by providing feedback to graders and by identifying areas for training and education. The programme was also used to monitor the performance of new graders and to ensure consistency in grading standards. The quality assurance programme was found to be a valuable tool for maintaining the quality of the retinal",
+      "avg_prediction": null
+    },
+    {
+      "idx": 82,
+      "hash": "68de3dfb",
+      "n_words": 293,
+      "n_chars": 1548,
+      "preview_head": "b and Muslims Chat Room is online and live 24 hours if you are feeling bored and you may join Voice Chatroom to make your time precious to meet with decent people from globe. CARE TO FUN Brings you be",
+      "preview_tail": "king your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us hel",
+      "full_text": "b and Muslims Chat Room is online and live 24 hours if you are feeling bored and you may join Voice Chatroom to make your time precious to meet with decent people from globe. CARE TO FUN Brings you best entertaining possible stuff on web. it has many stuff you always look for over Internet that includes free web chat room, free web radio, free Voice and Voice games, Islamic videos and audios, funny videos, chat room and RJ training and many more. Muslims Chat Room are you feeling bored?? let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room anHuman: let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us help you making your time valuable. join Muslims Chat Room and meet with people of chat room and let us hel",
+      "avg_prediction": null
+    },
+    {
+      "idx": 83,
+      "hash": "03cb3b00",
+      "n_words": 47,
+      "n_chars": 281,
+      "preview_head": "ely, I cannot complete this request as there appears to be an problem with the provided message. It seems that the message is incorrect, as it abruptly ends after saying \"An image-forming chromogenic ",
+      "preview_tail": "ovided message. It seems that the message is incorrect, as it abruptly ends after saying \"An image-forming chromogenic material, su.\" Please provide the complete text or specify what you might like me",
+      "full_text": "ely, I cannot complete this request as there appears to be an problem with the provided message. It seems that the message is incorrect, as it abruptly ends after saying \"An image-forming chromogenic material, su.\" Please provide the complete text or specify what you might like me",
+      "avg_prediction": null
+    },
+    {
+      "idx": 84,
+      "hash": "23f02ccc",
+      "n_words": 260,
+      "n_chars": 1852,
+      "preview_head": "ns (serum in culture medium, preincubation, and tumor extractLeukocyte Adherence Inhibition (LAI) was first described by Dr. Robert I. Lehrer et al., who observed that leukocytes from mice bearing cer",
+      "preview_tail": "ng this process thus giving rise not only an effective diagnostic tool by measuring leukocyte adherence capabilities under conditions indicating potential immunosuppressive effects caused either direc",
+      "full_text": "ns (serum in culture medium, preincubation, and tumor extractLeukocyte Adherence Inhibition (LAI) was first described by Dr. Robert I. Lehrer et al., who observed that leukocytes from mice bearing certain tumors could adhere to nylon fibers or glass surfaces coated with the corresponding mouse cell lines in vitro but not normal cells under controlled conditions, a phenomenon termed \u201cleukocytosis.\u201d This observation laid the foundation for understanding immune suppression mechanisms and developing an assay system called LAI. Initial experiments involved culturing murine leukocytes on nylon fibers or glass surfaces coated with various types of mouse cell lines grown in medium containing 10% fetal bovine serum (FBS). The cultures were preincubated at 37\u00b0C for varying durations, and then the nonadherent cells washed off. This process revealed that only specific tumor-derived factors present within certain culture conditions could induce leukocyte adherence inhibition\u2014a phenomenon later attributed to prostaglandins E2 (PGE) produced by tumors or other immunosuppressive agents like cyclic AMP analogues derived from cell extracts acting directly upon white blood cellular function leading towards its impaired ability for adhesion. Over time, researchers realized that LAI had broader implications beyond murine models; they extended their studies into human cancers as well where similar mechanisms were at play but with some variations due largely because of species-specific differences between mice and humans regarding immune responses against tumors or normal tissues alike which lead them towards finding out new pathways involved during this process thus giving rise not only an effective diagnostic tool by measuring leukocyte adherence capabilities under conditions indicating potential immunosuppressive effects caused either direc",
+      "avg_prediction": null
+    },
+    {
+      "idx": 85,
+      "hash": "4c61a01e",
+      "n_words": 40,
+      "n_chars": 395,
+      "preview_head": "= float(y)/svg.props.height surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, x, y) context = cairo.Context(surface) context.scale(xscale, yscale) svg.render_cairo(context) surface.write_to_png(ofile)",
+      "preview_tail": "file) A: How about imagemagic? - http://www.imagemagick.org/script/magick-vector-graphics.php It can read/write from/to stdin/stdout so You can integrate it with your app even if You don't want to use",
+      "full_text": "= float(y)/svg.props.height surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, x, y) context = cairo.Context(surface) context.scale(xscale, yscale) svg.render_cairo(context) surface.write_to_png(ofile) A: How about imagemagic? - http://www.imagemagick.org/script/magick-vector-graphics.php It can read/write from/to stdin/stdout so You can integrate it with your app even if You don't want to use",
+      "avg_prediction": null
+    },
+    {
+      "idx": 86,
+      "hash": "5f41011c",
+      "n_words": 178,
+      "n_chars": 1103,
+      "preview_head": "aturn V Rocket) esfera 9 vots The Saturn V (pronounced 'Saturn Five', popularly known as the Moon Rocket) was a multistage liquid-fuel expendable rocket used by NASA's Apollo... Kennedy Space Center (",
+      "preview_tail": "amed Alabama of the United States Navy, however she was only the third... p\u00e0gines: 1 2 Veure tots els autors \u00bb Saber m\u00e9s de Nico Potgieter \u00bb Portada Panor\u00e0miques Fot\u00f2grafs Noticies Pujar al principi \u00a9",
+      "full_text": "aturn V Rocket) esfera 9 vots The Saturn V (pronounced 'Saturn Five', popularly known as the Moon Rocket) was a multistage liquid-fuel expendable rocket used by NASA's Apollo... Kennedy Space Center (Saturn V Rocket) esfera 32 vots 1 comentari The Saturn V's huge size and payload capacity dwarfed all other previous rockets which had successfully flown at that time. Over 363 feet (110.6 m)... Georgia Mountain Fall Festival esfera 15 vots The annual Georgia Mountain Fair is held at the historic Georgia Mountain Fairgrounds. Thousands of visitors from across the region have... Mall Of America (Bloomington, Minnesota - USA) esfera 13 vots Mall of America (also MOA, MoA, the SuperMall or the Megamall) is a super-regional shopping mall located in the Twin Cities suburb of Bloomington,... USS Alabama (BB-60) esfera 9 vots USS Alabama, a South Dakota-class battleship, was the sixth completed ship named Alabama of the United States Navy, however she was only the third... p\u00e0gines: 1 2 Veure tots els autors \u00bb Saber m\u00e9s de Nico Potgieter \u00bb Portada Panor\u00e0miques Fot\u00f2grafs Noticies Pujar al principi \u00a9",
+      "avg_prediction": null
+    },
+    {
+      "idx": 87,
+      "hash": "d9277753",
+      "n_words": 79,
+      "n_chars": 617,
+      "preview_head": "ith certain types of computational challenges faced across multiple fields ranging from chemistry through physics all way over into cryptography too. Quantum computation offers a new paradigm for info",
+      "preview_tail": "rds tackling complex problems previously considered intractable with traditional computational techniques thereby revolutionizing many fields ranging from chemistry through physics all way over into c",
+      "full_text": "ith certain types of computational challenges faced across multiple fields ranging from chemistry through physics all way over into cryptography too. Quantum computation offers a new paradigm for information processing, leveraging the principles that govern atomic and subatomic systems\u2014namely superpositioning states to perform computations beyond what is feasible using classical computers alone; opening doors towards tackling complex problems previously considered intractable with traditional computational techniques thereby revolutionizing many fields ranging from chemistry through physics all way over into c",
+      "avg_prediction": null
+    },
+    {
+      "idx": 88,
+      "hash": "9c1445d5",
+      "n_words": 69,
+      "n_chars": 499,
+      "preview_head": "to discover strong connections between simple characteristics of protein structure and the ener...getics of folding. this approach has led researchers to understand how proteins can fold into their na",
+      "preview_tail": " to them. By analyzing the inherent structures in energy landscapes, scientists have identified key features such as funneled energy landscapes and kinetic intermediates that guide the protein towards",
+      "full_text": "to discover strong connections between simple characteristics of protein structure and the ener...getics of folding. this approach has led researchers to understand how proteins can fold into their native conformations with high accuracy, despite the vast number of possible configurations available to them. By analyzing the inherent structures in energy landscapes, scientists have identified key features such as funneled energy landscapes and kinetic intermediates that guide the protein towards",
+      "avg_prediction": null
+    },
+    {
+      "idx": 89,
+      "hash": "90fd9fe0",
+      "n_words": 198,
+      "n_chars": 1331,
+      "preview_head": "g Favors Bottle Opener Wedding Favors Favors Packaging Favor Bags & Envelopes FavMost Favors Wine Bottle Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bo",
+      "preview_tail": "Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine",
+      "full_text": "g Favors Bottle Opener Wedding Favors Favors Packaging Favor Bags & Envelopes FavMost Favors Wine Bottle Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine Bottle Wedding Favors Wine",
+      "avg_prediction": null
+    },
+    {
+      "idx": 90,
+      "hash": "e935f6c9",
+      "n_words": 155,
+      "n_chars": 955,
+      "preview_head": "rain was disabled by a lightning strike, and a second train crashed into it. It's unclear whether there was a technical failure, human error or both contributing to this accident which resulted in at ",
+      "preview_tail": "issues that have plagued the project since its conception nearly 2013 ago voters approved Proposition 1A). This week saw groundbreaking ceremonies take place at Fresno's station site - marking yet ano",
+      "full_text": "rain was disabled by a lightning strike, and a second train crashed into it. It's unclear whether there was a technical failure, human error or both contributing to this accident which resulted in at least 40 fatalities and over 192 injuries; investigations are ongoing.\" In other news: - Amtrak reported record ridership for the fiscal year ending Sept. 30, with more than 5 million passengers on its Northeast Corridor trains alone \u2013 an increase of nearly six percent from last year's numbers! The Acela Express service saw a rise in popularity as well; it experienced around five hundred thousand new riders this past year compared to previous years\u2019 data. - California High Speed Rail has been making despite ongoing debates about funding and routing issues that have plagued the project since its conception nearly 2013 ago voters approved Proposition 1A). This week saw groundbreaking ceremonies take place at Fresno's station site - marking yet ano",
+      "avg_prediction": null
+    },
+    {
+      "idx": 91,
+      "hash": "58a26500",
+      "n_words": 140,
+      "n_chars": 957,
+      "preview_head": "steps: 1. Determine the scripting language: IIS6 supports various scripting languages like VBScript, JScript, or even PowerShell. Choose the language that suits your familiarity and project requiremen",
+      "preview_tail": "is installed. Ensure that you have the necessary permissions and access to execute the script successfully. 5. Verify the application: After running the script, verify that the website application has",
+      "full_text": "steps: 1. Determine the scripting language: IIS6 supports various scripting languages like VBScript, JScript, or even PowerShell. Choose the language that suits your familiarity and project requirements. 2. Write the script: Create a script to automate the application creation process. The script should include commands to specify the application's virtual directory, configure settings, assign permissions, and perform any necessary actions. 3. Use the IIS6 WMI provider: IIS6 provides a Windows Management Instrumentation (WMI) provider that allows you to manage and configure IIS through scripts. You can use the WMI provider's methods and properties to create and configure applications. 4. Execute the script: Run the script on the server where IIS6 is installed. Ensure that you have the necessary permissions and access to execute the script successfully. 5. Verify the application: After running the script, verify that the website application has",
+      "avg_prediction": null
+    },
+    {
+      "idx": 92,
+      "hash": "ff652ff6",
+      "n_words": 178,
+      "n_chars": 1136,
+      "preview_head": "ecurity Home & Small Business Management Wi-Fi Trends Perspective/Opinions News Resources eBooks Wireless Networking Glossary Search Recommended Most Popular Aruba Brings Wi-Fi to Wall Plates Review: ",
+      "preview_tail": "ding below as we show exactly how its done using different types of devices: ### Connecting your Handheld Game Console via Wi-Fi: Step by Step Guide 1. Check for Built In Capabilities: First, check if",
+      "full_text": "ecurity Home & Small Business Management Wi-Fi Trends Perspective/Opinions News Resources eBooks Wireless Networking Glossary Search Recommended Most Popular Aruba Brings Wi-Fi to Wall Plates Review: Meraki Enterprise Cloud Controller for APs Logitech Harmony Link Review Ask the Wifi Guru: Episode 42 Cisco Accelerates Wi-Fi with Aironet 3600 TutorialsNetwork Your Handheld Game Console Network Your Handheld Game Console By Joseph Moran January 07, 2008 When you connect your PSP to your home network and the Internet through built in Wi-Fi or a USB adapter. This allows for multiplayer gaming with opponents from around the world. In addition it lets users surf web sites via an integrated browser when taking breaks between games sessions! With all these capabilities already included on today's popular handheld consoles like Nintendo DS, Sony PSP & others; there Really isn\u2019t any reason not to get connected wirelessly so keep reading below as we show exactly how its done using different types of devices: ### Connecting your Handheld Game Console via Wi-Fi: Step by Step Guide 1. Check for Built In Capabilities: First, check if",
+      "avg_prediction": null
+    },
+    {
+      "idx": 93,
+      "hash": "84a5fe8c",
+      "n_words": 118,
+      "n_chars": 862,
+      "preview_head": "to teach about and engage in participatory medicine ethical considerations in participatory medicine * general information and updates on participatory medicine * how I was an e-patient and my experie",
+      "preview_tail": " its impact on participatory medicine * policy issues and debates surrounding collaborative medicine * positive patterns and consequences of collaborative medicine * pt/doc co-care and shared decision",
+      "full_text": "to teach about and engage in participatory medicine ethical considerations in participatory medicine * general information and updates on participatory medicine * how I was an e-patient and my experiences with participatory medicine * JoPM's key people and their contributions to participatory medical medical records and patient engagement in collaborative medicine * net-friendly professionals and their role in collaborative medicine * gossip and gossip about collaborative medicine and related issues * Clinical Conference Participation and participation in participatory medicine * patient networks and collaborations in participatory medicine * PM Tech and its impact on participatory medicine * policy issues and debates surrounding collaborative medicine * positive patterns and consequences of collaborative medicine * pt/doc co-care and shared decision",
+      "avg_prediction": null
+    },
+    {
+      "idx": 94,
+      "hash": "0190c218",
+      "n_words": 135,
+      "n_chars": 1786,
+      "preview_head": "for a job? Your first job?AMCAT is your windowto best Fresher jobs. How AMCAT Works? Every month over 50,000 job seekers likeyou take the AMCAT Morethan 10,000 job openings added to myAMCAT everymonth",
+      "preview_tail": "hUttar PradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar ",
+      "full_text": "for a job? Your first job?AMCAT is your windowto best Fresher jobs. How AMCAT Works? Every month over 50,000 job seekers likeyou take the AMCAT Morethan 10,000 job openings added to myAMCAT everymonth \u00d7 Home About About AMCAT Testimonial About Us Blogs Corporate Schedule AMCAT Jobs Courses Call Us Email Us Popular CitiesAllStatesAhmedabadBangaloreChennaiGurgaonHyderabadKolkataMumbaiNew DelhiNoidaPuneAndhra PradeshArunachalPradeshAssamBiharChhattisgarhDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaMadhyaPradeshMaharashtraManipurMeghalayaMizoramNagalandOrissaPunjabRajasthanSikkimTamil NaduTelanganaTripuraUnion TerritoryUttar PradeshUttarakhaPradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttarPradeshUttarPradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttarPradeshUttar PradeshUttarPradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar PradeshUttar ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 95,
+      "hash": "b512ab91",
+      "n_words": 152,
+      "n_chars": 939,
+      "preview_head": "Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooja Plate More From Gupta Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooj",
+      "preview_tail": "% Cashback on Eligible value of Rs. 25,000 or more. See Terms Offer Price: Rs.160 Free shipping Your Total Savings Rs. 40 (20% Off) Rs. 11 (Retail Savings) + Rs. 29 (Limited Time Coupon) 100% Genuine,",
+      "full_text": "Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooja Plate More From Gupta Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooja Plate More From Gupta Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooja Plate More From Gupta Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooja Plate More From Gupta Glass Gallery Spiritual 84 Times viewed. Gupta Glass Gallery Multicolour Metal Oval Pooja Plate More From Gupta Glass Gallery Spiritual 84 Times viewed. Last Bought : Over a year ago Retail price: Rs.200 Our Price: Rs.189 Big Republic Day Sale! EXTRA 15% OFF Use \"INDIAN\" at Check-Out Get 10% Cashback on Eligible value of Rs. 25,000 or more. See Terms Offer Price: Rs.160 Free shipping Your Total Savings Rs. 40 (20% Off) Rs. 11 (Retail Savings) + Rs. 29 (Limited Time Coupon) 100% Genuine,",
+      "avg_prediction": null
+    },
+    {
+      "idx": 96,
+      "hash": "530d8c24",
+      "n_words": 99,
+      "n_chars": 715,
+      "preview_head": "n the immune response to Giardia lamblia infections. Specifically, they demonstrated that Interleukin (IL)-6 is produced by various cell types upon infection with G. lamblia. This cytokine appears cru",
+      "preview_tail": "enues for understanding how host cells interact with this parasitic organism during infection and could inform therapeutic strategies aimed at manipulating specific cytokine pathways. Furthermore, Ste",
+      "full_text": "n the immune response to Giardia lamblia infections. Specifically, they demonstrated that Interleukin (IL)-6 is produced by various cell types upon infection with G. lamblia. This cytokine appears crucial for recruiting neutrophils and modulating inflammatory responses. Their Research suggests that IL-6 might be a critical factor in the pathogenesis of Giardiasis as well, potentially linking to disease severity through its effects on immune activation and tissue damage modulation. These findings open up new avenues for understanding how host cells interact with this parasitic organism during infection and could inform therapeutic strategies aimed at manipulating specific cytokine pathways. Furthermore, Ste",
+      "avg_prediction": null
+    },
+    {
+      "idx": 97,
+      "hash": "9e31a0b3",
+      "n_words": 60,
+      "n_chars": 426,
+      "preview_head": "C. D. Roberts' author_email: 'roberts@anl.gov' authors: | Craig D. Roberts base_url: '' category: articles citation: | Phys. Rev. C 56 (1997) 80. date: 1997-07-01 doi: 10.1103/PhysRevC.56.80 issue: 1 ",
+      "preview_tail": "ut: article nature: Published pages: 80-89 publisher: American Physical Society title: Electromagnetic Form Factors of the Nucleon in an Extended Goldstone Boson Exchange Model volume: '56' year: 1997",
+      "full_text": "C. D. Roberts' author_email: 'roberts@anl.gov' authors: | Craig D. Roberts base_url: '' category: articles citation: | Phys. Rev. C 56 (1997) 80. date: 1997-07-01 doi: 10.1103/PhysRevC.56.80 issue: 1 journal: Phys. Rev. C layout: article nature: Published pages: 80-89 publisher: American Physical Society title: Electromagnetic Form Factors of the Nucleon in an Extended Goldstone Boson Exchange Model volume: '56' year: 1997",
+      "avg_prediction": null
+    },
+    {
+      "idx": 98,
+      "hash": "79cbb1c3",
+      "n_words": 229,
+      "n_chars": 1116,
+      "preview_head": "Instagram Twitter Promotions Super Saturday Sales Wednesday Updates Friday, August 20th, 2010 Fluff Friday 93 Fluff Friday: 1 \u2013 Thirsties duo Diaper 1 \u2013 Thirsties Deluxe Diaper Duffel 1 \u2013 Thirsties Bo",
+      "preview_tail": "r store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3",
+      "full_text": "Instagram Twitter Promotions Super Saturday Sales Wednesday Updates Friday, August 20th, 2010 Fluff Friday 93 Fluff Friday: 1 \u2013 Thirsties duo Diaper 1 \u2013 Thirsties Deluxe Diaper Duffel 1 \u2013 Thirsties Booty Luster 4oz Question/Comment of the week:List at least 2 new products that you would like us to offer in our store. Leave your comment before Thursday, August 26th at 7pm EST. (You can win 2 Thirsties products of your choice, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3 new products that you would like to offer in our store, 2 \u2013 3",
+      "avg_prediction": null
+    },
+    {
+      "idx": 99,
+      "hash": "80e740fd",
+      "n_words": 211,
+      "n_chars": 1172,
+      "preview_head": "rsonal life, it may be a bit too much to handle. Hidden Cost of Stockpiling If you have watched couponers featured on TV, you've gotten a look at their stockpile of products they've bought on their sh",
+      "preview_tail": "dictive Let's face it. Some people can get carried away with an activity to the point where it becomes an addiction. If you ever find yourself stealing weekly sales flyer inserts from Sunday papers in",
+      "full_text": "rsonal life, it may be a bit too much to handle. Hidden Cost of Stockpiling If you have watched couponers featured on TV, you've gotten a look at their stockpile of products they've bought on their shopping adventures. You'll normally see numerous quantities of the same item stocked neatly on shelves or in cabinets. These shoppers are proud of their stockpile and seem to have up to a year's supply of many things. Seems good on the surface, right? I bet you're anxious to get started on your own. Except, before you do, consider exactly where you're going to store all of these items. Check out the space you have in your own home and decide whether or not you even have enough room to store a year's worth of stuff. Even if you do, you'll need to spend money on shelving and possibly need an extra refrigerator or freezer too. Then there's the cost of electricity needed to keep food extras fresh. Make sure you have somewhere to put stuff before you buy May Become Addictive Let's face it. Some people can get carried away with an activity to the point where it becomes an addiction. If you ever find yourself stealing weekly sales flyer inserts from Sunday papers in",
+      "avg_prediction": null
+    },
+    {
+      "idx": 100,
+      "hash": "76583b43",
+      "n_words": 195,
+      "n_chars": 1448,
+      "preview_head": "t various locations including checkpoints, markets, and cafes during rush hour traffic causing significant casualties among both security forces and civilians. The attack in the Karada neighborhood, a",
+      "preview_tail": " during initial operations. This seriesof coordinated attacks highlighted vulnerabilities within Iraq\u2019s security apparatus despite years since major combat ended, raising concerns about continued inst",
+      "full_text": "t various locations including checkpoints, markets, and cafes during rush hour traffic causing significant casualties among both security forces and civilians. The attack in the Karada neighborhood, a predominantly Shia area known for its strong support of government institutions, shocked many residents who saw it as an escalation from previous insurgent activities that often targeted Sunni populations or specific political figures. The Iraqi parliament Speaker Usama Nujaifi issued a statement condemning these attacks blaming foreign militant groups based outside Iraq. He urged the international community to assist in neutralizing those responsible for such acts of violence, emphasizing their defiance against efforts toward national unity and security within Iraq post-2011 US withdrawal from country. Emergency services were overwhelmed by numerous incidents occurring simultaneously; medical facilities struggled with overwhelming trauma cases while police sought perpetrators amidst ongoing chaos. The city remained on heightened alert throughout the day as counter-terrorism teams carried out raids in different parts of Baghdad to apprehend suspects and neutralize any remaining threats posed by attackers who managedto evade capture during initial operations. This seriesof coordinated attacks highlighted vulnerabilities within Iraq\u2019s security apparatus despite years since major combat ended, raising concerns about continued inst",
+      "avg_prediction": null
+    },
+    {
+      "idx": 101,
+      "hash": "844cac1c",
+      "n_words": 238,
+      "n_chars": 1544,
+      "preview_head": "portfolio.These were the main items in the Queen\u2019sSpeech last month and they are the centrepart of his New Year\u2019s message,just published. Before the 1997 Election Blair had the brilliant \u201cTough on Cri",
+      "preview_tail": "rstone of theLabour governments crime policy was to become the cornerstoneof theLabour governments crime policy. The cornerstoneof the Labour governments crime policy was to become the cornerstone of ",
+      "full_text": "portfolio.These were the main items in the Queen\u2019sSpeech last month and they are the centrepart of his New Year\u2019s message,just published. Before the 1997 Election Blair had the brilliant \u201cTough on Crime \u2013 Tough on the Causes of Crime\u201d rhetoric to underpin his appeal toboth theliberal and illliberal sections of theelectorate. his message, both onthe campaign trail andin his manifesto, was clear: to tackle the rising crime rates and totackle theunderlyingsocial and economic issues that ledto crime in the first place. The first major policy to tackle crime was the introduction ofthe Crime and Disorder Act in 1998, which was the first major piece of legislation to tackle crime and wasthe first to give the police thepower to tackle the social issues thatled to crime.The policy of \u201ctough on crime, tough on the causes of crime\u201d was to become the cornerstone of the Labour governments crime policy. Thepolicy was to become the cornerstone of the Labour governments crime policy. The Labour governments crime policy was to become the cornerstone of the Labour governments crime policy. The cornerstone of the Labour governments crime policy wasto become the cornerstone of the Labour governments crime policy. The cornerstone of theLabour governments crime policy was to becomethe cornerstone of the Labour governments crimepolicy. The cornerstone of theLabour governments crime policy was to become the cornerstoneof theLabour governments crime policy. The cornerstoneof the Labour governments crime policy was to become the cornerstone of ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 102,
+      "hash": "ad7f6d84",
+      "n_words": 37,
+      "n_chars": 704,
+      "preview_head": "New to BookLikes? Sign up! Log in with Facebook or Wrong email address or username CanadaFranceGermanyItalyPolandSpainUKUSAAfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAnta",
+      "preview_tail": " IslandsCentral African RepublicC\u00f4te d'IvoireCroatiaCubaCyprusCzech RepublicDjiboutiDominicaDominicanRepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniFinlandFijiFranceFrench Guia ",
+      "full_text": "New to BookLikes? Sign up! Log in with Facebook or Wrong email address or username CanadaFranceGermanyItalyPolandSpainUKUSAAfghanistanAland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntarcticaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia and HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBrunei DarussalamBulgariaBurkina FasoBurundiCambodiaCameroonCape VerdeCayman IslandsCentral African RepublicC\u00f4te d'IvoireCroatiaCubaCyprusCzech RepublicDjiboutiDominicaDominicanRepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniFinlandFijiFranceFrench Guia ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 103,
+      "hash": "ae093ed1",
+      "n_words": 70,
+      "n_chars": 391,
+      "preview_head": "and beautiful rooms to name a few things! I would definitely travel with this company again, they helped us find the right resort for what we wanted too!\" \u2022 \u2022 Review Ratings \u2013 Very Good \"We were marri",
+      "preview_tail": "ere married in Mauritius at Merville Beach Hotel. The wedding was fabulous-all went very well thanks go Lisa & Alison's fantastic advice and help on everything! We had a wonderful time there -Thank yo",
+      "full_text": "and beautiful rooms to name a few things! I would definitely travel with this company again, they helped us find the right resort for what we wanted too!\" \u2022 \u2022 Review Ratings \u2013 Very Good \"We were married in Mauritius at Merville Beach Hotel. The wedding was fabulous-all went very well thanks go Lisa & Alison's fantastic advice and help on everything! We had a wonderful time there -Thank yo",
+      "avg_prediction": null
+    },
+    {
+      "idx": 104,
+      "hash": "2ac6c6ce",
+      "n_words": 73,
+      "n_chars": 486,
+      "preview_head": "directly in wf:wire/N. It takes three forms: % Specify a trigger and target.wf:wire(Trigger, Target, Actions) % Use the element for both trigger and target.wf:wire(TriggerAndTarget, Actions) % Assume ",
+      "preview_tail": "ly to the page. % for catching keystrokes.)wf:wire(Actions) 35 Quick Review 35.1 Nitrogen Actions 35.1.1 Quick Review Elements make HTML. Actions make Javascript. An action can be wired using the acti",
+      "full_text": "directly in wf:wire/N. It takes three forms: % Specify a trigger and target.wf:wire(Trigger, Target, Actions) % Use the element for both trigger and target.wf:wire(TriggerAndTarget, Actions) % Assume the trigger and/or target is provided in the actions. % If then wire the action directly to the page. % for catching keystrokes.)wf:wire(Actions) 35 Quick Review 35.1 Nitrogen Actions 35.1.1 Quick Review Elements make HTML. Actions make Javascript. An action can be wired using the acti",
+      "avg_prediction": null
+    },
+    {
+      "idx": 105,
+      "hash": "ac7468ee",
+      "n_words": 205,
+      "n_chars": 1153,
+      "preview_head": "of the instruments but unhappy withthe recording quality of my vocals. Given my situation, I'm trying to decide the best course of action. I'm trying to decide whether I should invest my limited energ",
+      "preview_tail": "ld invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to",
+      "full_text": "of the instruments but unhappy withthe recording quality of my vocals. Given my situation, I'm trying to decide the best course of action. I'm trying to decide whether I should invest my limited energy and resources into trying to improve the recording quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to improve the quality of my vocals, whether I should invest my energy into trying to",
+      "avg_prediction": null
+    },
+    {
+      "idx": 106,
+      "hash": "1cd306a1",
+      "n_words": 114,
+      "n_chars": 760,
+      "preview_head": "Transmitting information encoded in ER via waveguides has a number of advantages over transmitting electrical signals via signal lines. First, degradation or loss is much less for ER transmitted via w",
+      "preview_tail": "ent wavelengths (colors) in the light spectrum. This ability for multiplexing is one of photonics' key advantages over traditional electronics. The use of ER also allows transmission at higher speeds,",
+      "full_text": "Transmitting information encoded in ER via waveguides has a number of advantages over transmitting electrical signals via signal lines. First, degradation or loss is much less for ER transmitted via waveguides than for electrical signals transmitted via signal lines. Second, waveguides can be fabricated to support a much higher bandwidth than signal lines. For example, a single Cu or Al wire can only transmit a single electrical signal, while a single optical fiber can be configured to transmit multiple channels of information simultaneously using different wavelengths (colors) in the light spectrum. This ability for multiplexing is one of photonics' key advantages over traditional electronics. The use of ER also allows transmission at higher speeds,",
+      "avg_prediction": null
+    },
+    {
+      "idx": 107,
+      "hash": "0870c023",
+      "n_words": 250,
+      "n_chars": 1435,
+      "preview_head": "Home On TrueHoop, Kevin Arnovitz reflects recent news of Vinny Del Negro\u2019s departure. He\u2019s well-liked personally, and has uncommon charisma. He charmed Sterling at a dinner with the Clippers brass at ",
+      "preview_tail": "e best point guard in the league and one \"and had an incredibly engaging presence.\" seems like it could be the missing piece of text here! Is there anything else I can help you with? Feel free to ask.",
+      "full_text": "Home On TrueHoop, Kevin Arnovitz reflects recent news of Vinny Del Negro\u2019s departure. He\u2019s well-liked personally, and has uncommon charisma. He charmed Sterling at a dinner with the Clippers brass at the Montage Beverly Hills in late June of 2010. The mood at the table was festive, Del Negro a pleasure to be around an[...] According to Adrian Wojnarowski of Yahoo! Sports, the Clippers have fired Vinny Del Negro. The Clippers have fired Vinny Del Negro, source tells Y! \u2014 Adrian Wojnarowski (@WojYahooNBA) May 21, 2013 Woj went on to clarify, as our resident stickler for details (Andrew Han) likes to point out, that the Clippers couldn\u0335[...] If you don\u2019t remember Alex Acker, all that means is that you\u2019re normal. The former guard played 18 games for the Clippers back in the 2008-09 season, averaging 9.9 minutes per game in those uneventful appearances. He hasn\u2019t played in the NBA since. The Clips acquired Acker from the Pistons (along with a future second r[...] I was wrong. Not that it matters at all, but I was in the minority of people that declared the Clippers would win the first round series in five games. I imagined every match a taut, closely contested duel. But when one team has two top-15 players, unarguably the best point guard in the league and one \"and had an incredibly engaging presence.\" seems like it could be the missing piece of text here! Is there anything else I can help you with? Feel free to ask.",
+      "avg_prediction": null
+    },
+    {
+      "idx": 108,
+      "hash": "d6eafe6c",
+      "n_words": 43,
+      "n_chars": 282,
+      "preview_head": "Charing Cross Hotel, London, United Kingdom Dates: February 12-13, 2014 Time: 9:00 AM - 5:30 PM GMT Event Description: The Critical Infrastructure Protection & Resilience Europe conference, taking pla",
+      "preview_tail": " AM - 5:30 PM GMT Event Description: The Critical Infrastructure Protection & Resilience Europe conference, taking place at the Charing Cross Hotel in London, brings together leading experts in the fi",
+      "full_text": "Charing Cross Hotel, London, United Kingdom Dates: February 12-13, 2014 Time: 9:00 AM - 5:30 PM GMT Event Description: The Critical Infrastructure Protection & Resilience Europe conference, taking place at the Charing Cross Hotel in London, brings together leading experts in the fi",
+      "avg_prediction": null
+    },
+    {
+      "idx": 109,
+      "hash": "bae581e3",
+      "n_words": 56,
+      "n_chars": 482,
+      "preview_head": "d blonde hair (indicative of low melanin content), blue or green eyes; prolonged sun exposure without adequate protection from UV radiation over many years is another critical factor. The introduction",
+      "preview_tail": " \u548c\u9cde\u72b6 cell \u764c\u75c7 (SCC). \u6bcf\u5e74\u5168\u7403\u5927\u7ea6\u6709\u4e24\u5230\u4e09\u767e\u4e07\u4f8b NMSC \u53d1\u751f \\[[@ref1]\\]. \u5728\u7f8e\u56fd, BCC \u662f\u6700\u5e38\u89c1\u7684\u6076\u6027\u80bf\u7624\u5f62\u5f0f\u4e4b\u4e00\\[ [@bib2], [3](https://doi.org/)[@]/\\]. \u5728 2012 \u5e74\uff0c\u4f30\u8ba1\u5728\u7f8e\u56fd\u53d1\u751f\u4e86\u7ea6\u4e8c\u767e\u4e94\u5341\u4e07\u65b0\u53d1\u7684\u76ae\u80a4\u975e\u9ed1\u8272\u7d20\u7624\u764c\u75c7\u75c5\u4f8b\u3002\u6cbb\u7597\u5ef6\u8fdf\u4f1a\u5bfc\u81f4\u663e\u8457\u7684\u8eab\u4f53\u635f\u5bb3 \\[[@B4]\\] \uff0c\u6bcf\u5e74\u5927\u7ea6\u6709\u4e0d\u5230\u4e00\u5343\u4f8b\u6b7b\u4ea1\u4e0e NMSC",
+      "full_text": "d blonde hair (indicative of low melanin content), blue or green eyes; prolonged sun exposure without adequate protection from UV radiation over many years is another critical factor. The introduction highlights the prevalence of nonmelanoma\u76ae\u80a4\u764c\uff08NMSC\uff09\u5728\u5168\u7403\u8303\u56f4\u5185\u5f88\u5e38\u89c1\uff0c\u5305\u62ec\u57fa\u5e95\u7ec6\u80de carcinoma \uff08BCC) \u548c\u9cde\u72b6 cell \u764c\u75c7 (SCC). \u6bcf\u5e74\u5168\u7403\u5927\u7ea6\u6709\u4e24\u5230\u4e09\u767e\u4e07\u4f8b NMSC \u53d1\u751f \\[[@ref1]\\]. \u5728\u7f8e\u56fd, BCC \u662f\u6700\u5e38\u89c1\u7684\u6076\u6027\u80bf\u7624\u5f62\u5f0f\u4e4b\u4e00\\[ [@bib2], [3](https://doi.org/)[@]/\\]. \u5728 2012 \u5e74\uff0c\u4f30\u8ba1\u5728\u7f8e\u56fd\u53d1\u751f\u4e86\u7ea6\u4e8c\u767e\u4e94\u5341\u4e07\u65b0\u53d1\u7684\u76ae\u80a4\u975e\u9ed1\u8272\u7d20\u7624\u764c\u75c7\u75c5\u4f8b\u3002\u6cbb\u7597\u5ef6\u8fdf\u4f1a\u5bfc\u81f4\u663e\u8457\u7684\u8eab\u4f53\u635f\u5bb3 \\[[@B4]\\] \uff0c\u6bcf\u5e74\u5927\u7ea6\u6709\u4e0d\u5230\u4e00\u5343\u4f8b\u6b7b\u4ea1\u4e0e NMSC",
+      "avg_prediction": null
+    },
+    {
+      "idx": 110,
+      "hash": "345de17f",
+      "n_words": 43,
+      "n_chars": 258,
+      "preview_head": "ugs targeting the liver are in wide use and have shown effectiveness, toxicity and other side effects have limited their usefulness. Inhibitors of hepatitis C virus (HCV) are useful to limit the estab",
+      "preview_tail": "ectiveness, toxicity and other side effects have limited their usefulness. Inhibitors of hepatitis C virus (HCV) are useful to limit the establishment and progression of infection by HCV as well as in",
+      "full_text": "ugs targeting the liver are in wide use and have shown effectiveness, toxicity and other side effects have limited their usefulness. Inhibitors of hepatitis C virus (HCV) are useful to limit the establishment and progression of infection by HCV as well as in",
+      "avg_prediction": null
+    },
+    {
+      "idx": 111,
+      "hash": "74b2bed1",
+      "n_words": 226,
+      "n_chars": 1674,
+      "preview_head": "n packages: print(p) cycler==0.10.0 functools32==3.2.3.post2 future==0.15.2 matplotlib==1.5.2 .... Save this to a file and make a note of its name as we are going to use it in the next step. For convi",
+      "preview_tail": "esktop10.5\\ArcPy') >>> sys.path.append(r'C:\\Program Files (x86)\\ArcGIS\\Desktop10.5\\ArcToolBox\\Scripts') Now you should be able to call arcpy from this env: conda activate arcpy python >>> import arpcy",
+      "full_text": "n packages: print(p) cycler==0.10.0 functools32==3.2.3.post2 future==0.15.2 matplotlib==1.5.2 .... Save this to a file and make a note of its name as we are going to use it in the next step. For convienience here I am posting my output. I saved them to a file called arcgis_10.5_req.txt. NB. please remove the version number for functools32. Also note that the default arcgis' numpy version is 1.9.3.. You might need to change toto 1.10 as conda finds 1.9 to be conflicting with scipy. Next activate your conda enviroment and using condas' installer, install the before mentioned packages: conda activate arcpy conda install --file arcgis_10.5_req.txt After the procedure completes, open your Arcgis' python directory and site-packages folder (..\\Lib\\site-packages) should be one *.pth file. Copy that file into your anacondas' arcpy enviroment site-packages folder. in my machine it was : C:\\Python27\\ArcGISx6410.5\\Lib\\site-packages\\DTBGGP64.pth -> D:\\Miniconda3\\envs\\arcpy\\Lib\\site-packages\\DTBGGP64.pth The *.pth file contains a number of extra folders for python to look for modules or objects. Alternatively if don't want to copy the .pth file you can at the start of your script add the folders found in the .pth file to the sys.path manualy at each start. >>> import sys # or sys.path.append(r'C:\\Program Files (x86)\\ArcGIS\\Desktop10.5\\bin') >>> sys.path.append(r'C:\\Program Files (x86)\\ArcGIS\\Desktop10.5\\bin64') >>> sys.path.append(r'C:\\Program Files (x86)\\ArcGIS\\Desktop10.5\\ArcPy') >>> sys.path.append(r'C:\\Program Files (x86)\\ArcGIS\\Desktop10.5\\ArcToolBox\\Scripts') Now you should be able to call arcpy from this env: conda activate arcpy python >>> import arpcy",
+      "avg_prediction": null
+    },
+    {
+      "idx": 112,
+      "hash": "a8273b24",
+      "n_words": 166,
+      "n_chars": 1015,
+      "preview_head": "A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking course that combines the natural beauty of the island with the challenges of a golf course, Cou",
+      "preview_tail": "eauty of the island with the challenges of a well-designed golf course, Course Description A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking cour",
+      "full_text": "A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking course that combines the natural beauty of the island with the challenges of a golf course, Course Description A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking course that combines the natural beauty of the island with the challenges of a well-designed golf course, Course Description A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking course that combines the natural beauty of the island with the challenges of a well-designed golf course, Course Description A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking course that combines the natural beauty of the island with the challenges of a well-designed golf course, Course Description A course located on the Ilha de S\u00e3o Miguel with breathtaking views typical to the Azores, a breathtaking cour",
+      "avg_prediction": null
+    },
+    {
+      "idx": 113,
+      "hash": "119278ff",
+      "n_words": 295,
+      "n_chars": 1926,
+      "preview_head": "$100 Gift Packages Customer Service \u00d7 \u2261 0 Items Sign In FREE SHIPPING on orders of $85 or more HouseOfNames > BaidelyBaidely Surname, Family Crest & Coats of Arms An excerpt from www.HouseOfNames.com ",
+      "preview_tail": "aries and various merchandise options appear \u2013 presumably for celebrations of any form - including apparel like t-shirts, golf shirts etc., barware such as coffee mugs to tiles. 7)Gift sections seem s",
+      "full_text": "$100 Gift Packages Customer Service \u00d7 \u2261 0 Items Sign In FREE SHIPPING on orders of $85 or more HouseOfNames > BaidelyBaidely Surname, Family Crest & Coats of Arms An excerpt from www.HouseOfNames.com archives copyright \u00a9 2000 - 2017 Buy JPG Image \u00bbPDF Coat of Arms+ Extended History Buy PDF History \u00bbPopular ProductsArmorial : The information provided appears to be part of a website menu or product list related specifically to HouseOfNames.com. Here's an explanation for each category and what they seem designed: 1) Home Digital Products - This section likely contains digital goods such as design templates, images files which can then be used on personal devices. 2)Family Crest + Coat of Arms: The combination products probably involves both a family crest (usually more decorative element attached to the coat-of-arms symbolizing status or profession) and actual 'coats' \u2013 symbols heraldic figures representing families. These are often seen in shield form, but they can take various shapes. 3)Coat of Arms & Family Crest + Extended Histories: Here's a detailed version involving the addition to extended history records alongside family crests or emblems - this may refer more towards comprehensive heritage information and documentation associated with each item for sale. 4) Extended Surname histories, it appears that individual historical data on surnames is available \u2013 potentially researching how different families got their names through time. 5)Family Tree Templates are possibly blank formats designed to help people construct personal family trees in a graphical way (often computer software), while symbolic content can imply items or icons which could be related with certain heraldic symbols. 6) Anniversaries and various merchandise options appear \u2013 presumably for celebrations of any form - including apparel like t-shirts, golf shirts etc., barware such as coffee mugs to tiles. 7)Gift sections seem s",
+      "avg_prediction": null
+    },
+    {
+      "idx": 114,
+      "hash": "4719e602",
+      "n_words": 79,
+      "n_chars": 349,
+      "preview_head": "- 13aa wrt a? -21w + 15aa + 11b3b3b3b3 - 14c3 - 11c2 - 13c + 16bbbb2b2b2b2 - 42c3 - 33c2 - 39c + 48r3r3r3r3 wrt r? 27t3 + 30t2 + 21t + 15a4a4a4a4 wrt a? -32d3 - 48d2 - 44d + 52g3g3g3g3 wrt g. -30j3 + ",
+      "preview_tail": " a? -32d3 - 48d2 - 44d + 52g3g3g3g3 wrt g. -30j3 + 45j2 - 42j + 54d4d4d4d4d3d3d3d3g4g4g4g4 wrt g? 40j3 + 56j2 + 48j + 44d4d4d4d4 wrt d. -28k3 - 36k2 - 52k + 56g3g3g3g3 wrt g? -33i4 - 45i3 - 51i2 - 48f",
+      "full_text": "- 13aa wrt a? -21w + 15aa + 11b3b3b3b3 - 14c3 - 11c2 - 13c + 16bbbb2b2b2b2 - 42c3 - 33c2 - 39c + 48r3r3r3r3 wrt r? 27t3 + 30t2 + 21t + 15a4a4a4a4 wrt a? -32d3 - 48d2 - 44d + 52g3g3g3g3 wrt g. -30j3 + 45j2 - 42j + 54d4d4d4d4d3d3d3d3g4g4g4g4 wrt g? 40j3 + 56j2 + 48j + 44d4d4d4d4 wrt d. -28k3 - 36k2 - 52k + 56g3g3g3g3 wrt g? -33i4 - 45i3 - 51i2 - 48f",
+      "avg_prediction": null
+    },
+    {
+      "idx": 115,
+      "hash": "b88744e3",
+      "n_words": 40,
+      "n_chars": 270,
+      "preview_head": "rom the file. string line; ifstream myfile (\"example.txt\"); if (myfile.is_open()) { while ( getline (myfile,line) ) { cout << line << '\\n'; } myfile.close()Certainly! If the file names have a prefix a",
+      "preview_tail": ".is_open()) { while ( getline (myfile,line) ) { cout << line << '\\n'; } myfile.close()Certainly! If the file names have a prefix and a timestamp (e.g., \"example_20231001_123000.txt\"), you can modify t",
+      "full_text": "rom the file. string line; ifstream myfile (\"example.txt\"); if (myfile.is_open()) { while ( getline (myfile,line) ) { cout << line << '\\n'; } myfile.close()Certainly! If the file names have a prefix and a timestamp (e.g., \"example_20231001_123000.txt\"), you can modify t",
+      "avg_prediction": null
+    },
+    {
+      "idx": 116,
+      "hash": "9514a2d2",
+      "n_words": 36,
+      "n_chars": 287,
+      "preview_head": "wall until 2007 where he then joined Truro College. References External links Academy Players Enjoy Promotion Too Category:English rugby union players Category:Exeter Chiefs players Category:Living pe",
+      "preview_tail": "layers Enjoy Promotion Too Category:English rugby union players Category:Exeter Chiefs players Category:Living people Category:Plymouth Albion R.F.C. players Category:Year of birth missing (living peo",
+      "full_text": "wall until 2007 where he then joined Truro College. References External links Academy Players Enjoy Promotion Too Category:English rugby union players Category:Exeter Chiefs players Category:Living people Category:Plymouth Albion R.F.C. players Category:Year of birth missing (living peo",
+      "avg_prediction": null
+    },
+    {
+      "idx": 117,
+      "hash": "4bb629b9",
+      "n_words": 59,
+      "n_chars": 446,
+      "preview_head": "for malocclusion offer benefits not only to physical health but also substantially quality of life by reducing anxiety levels and improving patients' satisfaction regarding their facial appearance. Th",
+      "preview_tail": "ing both dental aspects and impacts when treating individuals with severe occlusal discrepancies, particularly in those requiring surgical correction. The integration of orthodontic treatment within c",
+      "full_text": "for malocclusion offer benefits not only to physical health but also substantially quality of life by reducing anxiety levels and improving patients' satisfaction regarding their facial appearance. This study underscores the importance of addressing both dental aspects and impacts when treating individuals with severe occlusal discrepancies, particularly in those requiring surgical correction. The integration of orthodontic treatment within c",
+      "avg_prediction": null
+    },
+    {
+      "idx": 118,
+      "hash": "8e0b5963",
+      "n_words": 325,
+      "n_chars": 2101,
+      "preview_head": "at her co-director Will Schuester (Matthew Morrison) is an inefficient incompetent though he assures she can fire only someone, not working to school standards plus the administration does need two di",
+      "preview_tail": "tween Finn Hudson(Cory Monteith).Heeding advice from guidance counselor Emma Pillsbury (Jayma Mays), Quinn Fabray reconsiders how much really cares about him before deciding after everything they have",
+      "full_text": "at her co-director Will Schuester (Matthew Morrison) is an inefficient incompetent though he assures she can fire only someone, not working to school standards plus the administration does need two directors on staff for fund matching reasons and other legal paperwork purposes; in retaliation Sue tries sabotaging his efforts at club recruitment by trying putting him into compromising situations during glee practice. When student Mercedes Jones (Amber Riley) starts singing The Supremes' \"You Keep Me Hangin\u2019 On\" to invite people, she inadvertently makes them leave the audition room instead of join as intended due both from her manner and its bad timing; Sue tries making Will look inept by directing him how when he wants students sing it himself only for Cory Monteith (Finn Hudson) take his place. During a school-wide glee club recruitment rally during which Tina Cohen Chang(Jenna Ushkowitz), Brittany Pierce, Artie Abramsand Quinn Fabrayperform \"Dancing with Myself\", Sue interrupts and announces she is now the co director to instead present her own production number of Billy Idol's Rebel Yellwith New Directions members Mercedes Jones (Amber Riley) ,Artuo 'Tina'(Mike O\u2019Malley). When Will reprimands his wife Terri for telling school principal Principal Figgins that he wants males joining glee, She invokes their fake pregnancy as a reason to give her an excused absence from work until she gives birth. Taking advantage of the situation Sue assigns roles during New Directions rehearsals without consulting or asking them first so they go along with whatever is assigned including Quinn Fabray (Dianna Agron) being asked perform \"Give Up The Funk\" by Parliament only stop after Brittany and Tina do a dance for her club members to join in plus Will challenges it since she wouldn\u2019t allow any other students sing solo during practice. Sue maliciously tries planting seeds of distrust between Finn Hudson(Cory Monteith).Heeding advice from guidance counselor Emma Pillsbury (Jayma Mays), Quinn Fabray reconsiders how much really cares about him before deciding after everything they have",
+      "avg_prediction": null
+    },
+    {
+      "idx": 119,
+      "hash": "cf97c10d",
+      "n_words": 203,
+      "n_chars": 1477,
+      "preview_head": "around the centrosome and cilium complex in a microtubule-dependent manner. They play important roles in centrosome- and cilium-related processes, including protein trafficking to the centrosome and c",
+      "preview_tail": " to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led t",
+      "full_text": "around the centrosome and cilium complex in a microtubule-dependent manner. They play important roles in centrosome- and cilium-related processes, including protein trafficking to the centrosome and cilium complex, and ciliogenesis, and they are implicated in ciliopathies. Despite the important regulatory roles of centriolar satellites in the assembly and function of the centrosome and cilium complex, the molecular mechanisms of their functions remain poorly understood. To dissect the mechanism for their regulatory roles during ciliogenesis, we performed an analysis to determine the proteins that localize in close proximity to centriolar satellites. this analysis, in combination with the analysis of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led to the identification of the centriolar satellites' proteome, led t",
+      "avg_prediction": null
+    }
+  ]
+}

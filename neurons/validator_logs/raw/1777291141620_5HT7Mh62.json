@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-27T11:59:01.620573+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 14,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "5fcb6dc9",
+      "n_words": 219,
+      "n_chars": 1473,
+      "preview_head": "Swift project authors */ import func XCTest.XCTFail import TSCBasic import PackageModel import PackageLoading import PackageGraph import TSCUtility public enum MockManifestLoaderError: Swift.Error { c",
+      "preview_tail": "ublic let version: Version? public init(url: String, version: Version? = nil) { self.url = url self.version = version } public let version: Version? public init(url: String, version: Version? = nil) {",
+      "full_text": "Swift project authors */ import func XCTest.XCTFail import TSCBasic import PackageModel import PackageLoading import PackageGraph import TSCUtility public enum MockManifestLoaderError: Swift.Error { case unknownRequest(String) } /// A mock manifest loader implementation. /// /// This implementation takes a canned set of manifests for known uRLs and /// versions and exposes them via the `ManifestLoaderProtocol`, for use in /// testing higher-level clients which use manifests, but don't require testing /// the loading logic itself. /// /// This implementation will throw an error if a request to load an unknown /// manifest is made. public final class MockManifestLoader: ManifestLoaderProtocol { public struct Key: Hashable { public let url: String public let version: Version? public init(url: String, version: Version? = nil) { self.url = url self.version = version } } public vpublic let url: String public let version: Version? public init(url: String, version: Version? = nil) { self.url = url self.version = version } public let version: Version? public init(url: String, version: Version? = nil) { self.url = url self.version = version } public let version: Version? public init(url: String, version: Version? = nil) { self.url = url self.version = version } public let version: Version? public init(url: String, version: Version? = nil) { self.url = url self.version = version } public let version: Version? public init(url: String, version: Version? = nil) {",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "bc0ff396",
+      "n_words": 263,
+      "n_chars": 1763,
+      "preview_head": "the brushing was felt. If facial mapping caused sensations within the phantom limb, repeat testing with a Q-tip dipped in cold water was performed. Finally, participants attempted to map the sensation",
+      "preview_tail": "t appropriate times to provide their response. Practice trials were performed before each test to allow the participants to become familiar with the test, and three consecutive correct responses to th",
+      "full_text": "the brushing was felt. If facial mapping caused sensations within the phantom limb, repeat testing with a Q-tip dipped in cold water was performed. Finally, participants attempted to map the sensations on their own. All verbal reports of sensation felt within the phantom limb were recorded and the location(s) identified. Tactile Testing {#S2-3} --------------- Tactile stimuli were delivered to two fingers with a custom-built tactile stimulator (Cortical Metrics, Carrboro, NC, USA). Control participants underwent a battery of testing conducted on the index and middle fingers of both right and left hands. Upper extremity amputees completed the testing with *the intact hand*. Testing included temporal order judgment and duration discrimination tasks. During the testing session, the participants were situated with their arm (right then left for controls, intact arm for amputees) on a wrist support and fingers positioned appropriately over the tactile stimulator. Mechanical stimulation was applied to the tips of the index and middle fingers. A computerized procedure guided participants through a series of questions, answered *via* verbal report and recorded by a research member, relating to what the participants perceived on the tips of each finger. In both of the tasks described below, a simple tracking paradigm was used to determine each participant's difference limen, the amount that the stimulus must be changed in order for differences between finger perceptions to be detected. Visual cues on the computer screen informed participants about appropriate times to provide their response. Practice trials were performed before each test to allow the participants to become familiar with the test, and three consecutive correct responses to th",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "93001806",
+      "n_words": 59,
+      "n_chars": 429,
+      "preview_head": "he unique elements in the identifier column. However, when I use the usual command: > test.unique<-test[!duplicated(test$identifier),] > test.unique code city identifier 25051 03017300 Anjira 21171096",
+      "preview_tail": "hanpur 211710981 25056 03017600 khuntiabanapur 211710986 I do not want the 211710966 entry to be there, but somehow I cannot get rid of it. WheI run \"anyduplicated\", I have this: > anyDuplicated(test)",
+      "full_text": "he unique elements in the identifier column. However, when I use the usual command: > test.unique<-test[!duplicated(test$identifier),] > test.unique code city identifier 25051 03017300 Anjira 211710966 25053 03017400 Maitratrilochanpur 211710981 25056 03017600 khuntiabanapur 211710986 I do not want the 211710966 entry to be there, but somehow I cannot get rid of it. WheI run \"anyduplicated\", I have this: > anyDuplicated(test)",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "c3235fee",
+      "n_words": 55,
+      "n_chars": 365,
+      "preview_head": "of the eight supported post formats: Video, Image, Aside, Status, Audio, Quote, Link and Gallery. Install JetPack to display each of your galleries through a view and jquery carousel. with bbPress & B",
+      "preview_tail": "d jquery carousel. with bbPress & BuddyPress. Created using SASS and Compass. Uses Google FonTs for improved typeface readability and works perfectly in desktop browsers, tablets and handheld devices.",
+      "full_text": "of the eight supported post formats: Video, Image, Aside, Status, Audio, Quote, Link and Gallery. Install JetPack to display each of your galleries through a view and jquery carousel. with bbPress & BuddyPress. Created using SASS and Compass. Uses Google FonTs for improved typeface readability and works perfectly in desktop browsers, tablets and handheld devices.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "b36ee001",
+      "n_words": 45,
+      "n_chars": 259,
+      "preview_head": "teins is altered by salinity. Half of them were more expressed, some of these proteins were closely related to Ctc, GbuA and the 30S ribosomal protein S6. Among the proteins which were down-expressed ",
+      "preview_tail": "sed, some of these proteins were closely related to Ctc, GbuA and the 30S ribosomal protein S6. Among the proteins which were down-expressed in the presence of salt, two were similar to AckA and PdhD.",
+      "full_text": "teins is altered by salinity. Half of them were more expressed, some of these proteins were closely related to Ctc, GbuA and the 30S ribosomal protein S6. Among the proteins which were down-expressed in the presence of salt, two were similar to AckA and PdhD.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "c835c337",
+      "n_words": 29,
+      "n_chars": 426,
+      "preview_head": "System: \u76ee\u524d XM \u548c Sirius \u90fd\u6ca1\u6709\u4e0e\u4efb\u4f55\u8f66\u5236\u9020\u5546\u7b7e\u8ba2\u4efb\u4f55\u72ec\u5bb6\u5408\u540c\u3002\u6b64\u5916, \u5373\u4fbf\u5728\u8f66\u5236\u9020\u5546\u72ec\u5bb6\u5408\u540c\u7ed3\u675f\u540e, \u4e24\u4e2a\u516c\u53f8\u4e5f\u4ecd\u7136\u5728\u5bfb\u6c42\u65b0\u7684\u72ec\u5bb6\u5408\u540c, \u8fd9\u4e0e\u53f8\u6cd5\u90e8\u5728 2005 \u5e74\u7684\u53d1\u73b0\u4e0d\u76f8\u7b26, \u53f8\u6cd5\u90e8\u53d1\u73b0\u8f66\u5236\u9020\u5546\u72ec\u5bb6\u5408\u540c\u5728 2005 \u5e74\u5bf9\u4e24\u4e2a\u516c\u53f8\u90fd\u6ca1\u6709\u4efb\u4f55\u5e02\u573a\u7ade\u4e89\u5f71\u54cd\u3002\u6b64\u5916, \u4e24\u4e2a\u516c\u53f8\u5747\u63d0\u4f9b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1, \u6ca1\u6709\u4e0e\u7ade\u4e89\u5bf9\u624b\u63d0\u4f9b\u7684\u670d\u52a1\u76f8\u6bd4, \u5728\u536b\u661f\u5e7f\u64ad\u7684\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u6ca1\u6709\u516c\u53f8\u63d0\u4f9b\u4e0e\u536b\u661f\u5e7f",
+      "preview_tail": "\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u4e0d\u540c\u7684\u5185\u5bb9, \u4ece\u800c\u5728\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u4e24\u4e2a\u516c\u53f8\u6ca1\u6709\u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002 \u5728\u536b\u661f\u5e7f\u64ad\u7684\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u6ca1\u6709\u516c\u53f8\u63d0\u4f9b\u4e0e\u536b\u661f\u5e7f\u64ad\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002\u4e24\u4e2a\u516c\u53f8\u5747\u62e5\u6709\u81ea\u5df1\u7684\u72ec\u5bb6\u5185\u5bb9, \u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u4e0d\u540c\u7684\u5185\u5bb9, \u4ece\u800c\u5728\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u4e24\u4e2a\u516c\u53f8\u6ca1\u6709\u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002 \"\u7efc\u5408\u4ee5\u4e0a, \u8003\u8651\u5230\u4e24\u4e2a\u516c\u53f8\u6ca1\u6709\u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1, \u53f8\u6cd5\u90e8\u6ca1\u6709\u627e\u5230\u8bc1\u636e\u8868\u660e\u4e24\u4e2a\u516c\u53f8\u5c06\u4f1a\u76f8\u4e92\u7ade\u4e89\u3002\"",
+      "full_text": "System: \u76ee\u524d XM \u548c Sirius \u90fd\u6ca1\u6709\u4e0e\u4efb\u4f55\u8f66\u5236\u9020\u5546\u7b7e\u8ba2\u4efb\u4f55\u72ec\u5bb6\u5408\u540c\u3002\u6b64\u5916, \u5373\u4fbf\u5728\u8f66\u5236\u9020\u5546\u72ec\u5bb6\u5408\u540c\u7ed3\u675f\u540e, \u4e24\u4e2a\u516c\u53f8\u4e5f\u4ecd\u7136\u5728\u5bfb\u6c42\u65b0\u7684\u72ec\u5bb6\u5408\u540c, \u8fd9\u4e0e\u53f8\u6cd5\u90e8\u5728 2005 \u5e74\u7684\u53d1\u73b0\u4e0d\u76f8\u7b26, \u53f8\u6cd5\u90e8\u53d1\u73b0\u8f66\u5236\u9020\u5546\u72ec\u5bb6\u5408\u540c\u5728 2005 \u5e74\u5bf9\u4e24\u4e2a\u516c\u53f8\u90fd\u6ca1\u6709\u4efb\u4f55\u5e02\u573a\u7ade\u4e89\u5f71\u54cd\u3002\u6b64\u5916, \u4e24\u4e2a\u516c\u53f8\u5747\u63d0\u4f9b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1, \u6ca1\u6709\u4e0e\u7ade\u4e89\u5bf9\u624b\u63d0\u4f9b\u7684\u670d\u52a1\u76f8\u6bd4, \u5728\u536b\u661f\u5e7f\u64ad\u7684\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u6ca1\u6709\u516c\u53f8\u63d0\u4f9b\u4e0e\u536b\u661f\u5e7f\u64ad\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002\u4e24\u4e2a\u516c\u53f8\u5747\u62e5\u6709\u81ea\u5df1\u7684\u72ec\u5bb6\u5185\u5bb9, \u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u4e0d\u540c\u7684\u5185\u5bb9, \u4ece\u800c\u5728\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u4e24\u4e2a\u516c\u53f8\u6ca1\u6709\u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002 \u5728\u536b\u661f\u5e7f\u64ad\u7684\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u6ca1\u6709\u516c\u53f8\u63d0\u4f9b\u4e0e\u536b\u661f\u5e7f\u64ad\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002\u4e24\u4e2a\u516c\u53f8\u5747\u62e5\u6709\u81ea\u5df1\u7684\u72ec\u5bb6\u5185\u5bb9, \u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u4e0d\u540c\u7684\u5185\u5bb9, \u4ece\u800c\u5728\u7ade\u4e89\u5e02\u573a\u6761\u4ef6\u4e0b, \u4e24\u4e2a\u516c\u53f8\u6ca1\u6709\u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1\u3002 \"\u7efc\u5408\u4ee5\u4e0a, \u8003\u8651\u5230\u4e24\u4e2a\u516c\u53f8\u6ca1\u6709\u63d0\u4f9b\u4e0e\u7ade\u4e89\u5bf9\u624b\u5b8c\u5168\u76f8\u540c\u7684\u670d\u52a1, \u53f8\u6cd5\u90e8\u6ca1\u6709\u627e\u5230\u8bc1\u636e\u8868\u660e\u4e24\u4e2a\u516c\u53f8\u5c06\u4f1a\u76f8\u4e92\u7ade\u4e89\u3002\"",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "1ab01c35",
+      "n_words": 180,
+      "n_chars": 1151,
+      "preview_head": "to a useful quick-detach tailcap that permits quick detachment of the light from your keys with a simple pull. Powered by its included aAA NiMH rechargeable battery, Titan Plus can run for up to seven",
+      "preview_tail": "ing, anytime, anywhere. It\u2019ll turn heads in more ways than one. Features Virtually indestructible, high-performance lED is regulated to maximize output and runtime at three useful leveLs: 300, 75, and",
+      "full_text": "to a useful quick-detach tailcap that permits quick detachment of the light from your keys with a simple pull. Powered by its included aAA NiMH rechargeable battery, Titan Plus can run for up to seven hours before it needs a charge. Or, for added convenience when recharging isn\u2019t an option, it can be powered by a single disposable AAA alkaline, readily available worldwide. Activating Titan Plus is as easy as twisting its head switch counterclockwise for low output. For medium output, simply return to off by rotating the switch clockwise, then counterclockwise again within one second. Repeat the process a third time to unleash all 300 lumens from its microprocessor-controlled LED. For sheer versatility, portability, durability, and functionality, the compact and lightweight Titan Plus packs a serious punch. This rugged, go-anywhere keychain flashlight belongs in the pocket (pant or shirt) or purse of anyone who wants to be ready for anything, anytime, anywhere. It\u2019ll turn heads in more ways than one. Features Virtually indestructible, high-performance lED is regulated to maximize output and runtime at three useful leveLs: 300, 75, and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "8bf9bb4f",
+      "n_words": 41,
+      "n_chars": 270,
+      "preview_head": "n addition I don't understand the oda-datasources in the data source explorer. What are the functionalities you provide e.g. for flat files with this view? Is there any \"Hello World\"- Application or D",
+      "preview_tail": "xplorer. What are the functionalities you provide e.g. for flat files with this view? Is there any \"Hello World\"- Application or Documentation how to use the Connection-Framework foR individual requir",
+      "full_text": "n addition I don't understand the oda-datasources in the data source explorer. What are the functionalities you provide e.g. for flat files with this view? Is there any \"Hello World\"- Application or Documentation how to use the Connection-Framework foR individual requir",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "7d2858a7",
+      "n_words": 83,
+      "n_chars": 476,
+      "preview_head": "game environment, you'll find a game identifier (such as Game71038) in the upper-left portion of the screen. Give this identifier to your friends so they can join your game. If you're here to join you",
+      "preview_tail": "on below. If that section isn't visible, it's because there aren't any games that are accepting new players at this time. Create a New Game Your Name Join an Existing Game Your Name Game Players Creat",
+      "full_text": "game environment, you'll find a game identifier (such as Game71038) in the upper-left portion of the screen. Give this identifier to your friends so they can join your game. If you're here to join your friend's game, hopefully you'll find it in the Join an Existing Game section below. If that section isn't visible, it's because there aren't any games that are accepting new players at this time. Create a New Game Your Name Join an Existing Game Your Name Game Players Creat",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "010c2637",
+      "n_words": 53,
+      "n_chars": 302,
+      "preview_head": "eBay.\" Random Wallpapers New wallpapers The Shard 08.12.11 A view of the almost complete Shard in London. When completed in 2012, it's meant to be the tallest building in the EU. This photo was taken ",
+      "preview_tail": "on. When completed in 2012, it's meant to be the tallest building in the EU. This photo was taken at the top ... The Circus 08.12.11 A shot of Picadilly Circus at night. Tripod definitely required. Ta",
+      "full_text": "eBay.\" Random Wallpapers New wallpapers The Shard 08.12.11 A view of the almost complete Shard in London. When completed in 2012, it's meant to be the tallest building in the EU. This photo was taken at the top ... The Circus 08.12.11 A shot of Picadilly Circus at night. Tripod definitely required. Ta",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 10,
+      "hash": "058f8ae2",
+      "n_words": 42,
+      "n_chars": 309,
+      "preview_head": "precision at various depths within their structures without any need for additional illumination or complex setups typically required in traditional spectroscopic techniques such as confocal microscop",
+      "preview_tail": "etups typically required in traditional spectroscopic techniques such as confocal microscopy and fluorescence excitation. This method allows us not only precise control over particle orientation but a",
+      "full_text": "precision at various depths within their structures without any need for additional illumination or complex setups typically required in traditional spectroscopic techniques such as confocal microscopy and fluorescence excitation. This method allows us not only precise control over particle orientation but a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 11,
+      "hash": "71257500",
+      "n_words": 49,
+      "n_chars": 276,
+      "preview_head": "ed on some kind of monitor such as an NtSC television screen.\" It looks that you should have been supplying me with patent information, and I've completed this text by adding in what will logically ha",
+      "preview_tail": " you should have been supplying me with patent information, and I've completed this text by adding in what will logically happen next based off your provided context! Let's keep looking if there is mo",
+      "full_text": "ed on some kind of monitor such as an NtSC television screen.\" It looks that you should have been supplying me with patent information, and I've completed this text by adding in what will logically happen next based off your provided context! Let's keep looking if there is mo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 12,
+      "hash": "410d3591",
+      "n_words": 242,
+      "n_chars": 1532,
+      "preview_head": "mes Air Force Times Marine Corps Times Subscribe Help HomeWashingtonBest For VetsBenefits CenterOffduty LATeST HEADLINES LATEST HEADLINES DON'T MISS: CFC Giver's Guide Hall of Valor GearScout Smoy You",
+      "preview_tail": "its and the impact this change could have long term if left unaddressed by Congress or reversed through legislation she hopes will gain support among lawmakers soon enough so they can enjoy some peace",
+      "full_text": "mes Air Force Times Marine Corps Times Subscribe Help HomeWashingtonBest For VetsBenefits CenterOffduty LATeST HEADLINES LATEST HEADLINES DON'T MISS: CFC Giver's Guide Hall of Valor GearScout Smoy Your Money Matters Search Pensions slashed under budget bill provision Dec. 23, 2013 - 06:00AM | Comments Tweet Email Print Share Del.icio.us Digg Reddit Newsvine FarkIt A A By Patricia Kime Staff writer Filed Under Pay & Benefits Ann Wade, the wife of a recently retired Marine Corps pilot, watched the recent budget deliberations in the House and Senate with outrage. Ann Wade, the wife of a recently retired Marine Corps pilot, watched the recent budget deliberations in the House and Senate with outrage. Please enable JavaScript for your browser in order to use militarytimes.com.com. Want to read more? Current Subscribers Access to Military Times Prime is free for current Military Times subscribers. Log in Haven't registered Yet, she was shocked and dismayed when the final bill included a provision that would cut pensions by upping retiree health care costs \u2013 especially since her husband had served honorably over two decades with multiple deployments to Iraq before his recent retirement at age forty-five. \"It's not just about money,\" Wade said, expressing deep concern for other military families who rely on these benefits and the impact this change could have long term if left unaddressed by Congress or reversed through legislation she hopes will gain support among lawmakers soon enough so they can enjoy some peace",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 13,
+      "hash": "b27ffacf",
+      "n_words": 38,
+      "n_chars": 2348,
+      "preview_head": "../../../Carthage/Checkouts/libwebp/src/dsp/dsp.h \\ ../../src/webp/config.h \\ ../../../Carthage/Checkouts/libwebp/src/webp/types.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Toolchains/XcodeDef",
+      "preview_tail": "nts/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/_types/_int16_t.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs",
+      "full_text": "../../../Carthage/Checkouts/libwebp/src/dsp/dsp.h \\ ../../src/webp/config.h \\ ../../../Carthage/Checkouts/libwebp/src/webp/types.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/stddef.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/__stddef_max_align_t.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/inttypes.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/inttypes.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/cdefs.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/_symbol_aliasing.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SD```c /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/_types.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/machine/_types.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/machine/arm/_types.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/_pthreadtypes.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/stdint.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/stdint.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/_types.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/_types/_int8_t.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/sys/_types/_int16_t.h \\ /Applications/Xcode-11.5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 14,
+      "hash": "5fd553e9",
+      "n_words": 43,
+      "n_chars": 256,
+      "preview_head": "did it result in any significant changes in secretions or mediator levels. Compared with baseline, cold dry air induced significant rhinorrhea and increased both secretion weights (9.6 +/- 1.3 vs. 28.",
+      "preview_tail": "r mediator levels. Compared with baseline, cold dry air induced significant rhinorrhea and increased both secretion weights (9.6 +/- 1.3 vs. 28.1 +/- 6.5 mg; P = 0.01) and the levels of histamine (3.9",
+      "full_text": "did it result in any significant changes in secretions or mediator levels. Compared with baseline, cold dry air induced significant rhinorrhea and increased both secretion weights (9.6 +/- 1.3 vs. 28.1 +/- 6.5 mg; P = 0.01) and the levels of histamine (3.9",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 15,
+      "hash": "bd40a806",
+      "n_words": 225,
+      "n_chars": 1392,
+      "preview_head": "you advertising that is relevant to you. If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you c",
+      "preview_tail": "gel Hill in Bury St Edmunds where 3 Regiment ArSome of Suffolk's soldiers are getting Afghanistan campaign medals and also preparing to return there. Prince Charles attended a ceremony on Angel Hill i",
+      "full_text": "you advertising that is relevant to you. If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can change your cookie settings at any time. Continue Find out more ]]> British Broadcasting CorporationHome Accessibility links Skip to content Skip to local navigation Skip to bbc.co.uk navigation Skip to bbc.co.uk search Accessibility Help Suffolk BBC Radio Suffolk Listen Live to BBC Radio Suffolk on iPlayer Listen Again to BBC Radio Suffolk on iPlayer BBC Local Suffolk Things to do People & Places Nature & Outdoors History Religion & Ethics Arts & Culture BBC Introducing TV & Radio Local BBC Sites News Sport Weather Travel Neighbouring Sites Cambridgeshire Essex Norfolk Related BBC Sites England Page last updated at 15:45 GMT, Thursday, 22 July 2010 16:45 UK E-mail this to a friend Printable version Wattisham Army Air Corps regiments in Afghanistan By Andrew Woodger BBC Suffolk A view of the Helmand river in Afghanistan from an Apache Some of Suffolk's soldiers are getting Afghanistan campaign medals and also preparing to return there.Prince Charles attended a ceremony on Angel Hill in Bury St Edmunds where 3 Regiment ArSome of Suffolk's soldiers are getting Afghanistan campaign medals and also preparing to return there. Prince Charles attended a ceremony on Angel Hill i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 16,
+      "hash": "7c9d9154",
+      "n_words": 312,
+      "n_chars": 1481,
+      "preview_head": "Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 201",
+      "preview_tail": "018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the",
+      "full_text": "Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the Artbox 2018 at the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 17,
+      "hash": "53a656c8",
+      "n_words": 321,
+      "n_chars": 1931,
+      "preview_head": "\\begin{align} \\begin{aligned} a &=z\\\\ x &=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\implies \\begin{aligned} z&=a\\\\ x&=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\end{align} Now here I could apply 3. to get $g(y",
+      "preview_tail": "eck if the formulas unify by checking if (a) There is a term unifier that sends $t_i \\rightarrow t_i^\\prime$ for all $i =1,...n$, (b) and for each $\\phi\\in\\Gamma$, if $x\\leftrightarrow y$ is an atomic",
+      "full_text": "\\begin{align} \\begin{aligned} a &=z\\\\ x &=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\implies \\begin{aligned} z&=a\\\\ x&=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\end{align} Now here I could apply 3. to get $g(y)=u$ and hence $u=g(y)$. And I don't know how to proceed from here. The thing is I'm confused on how the algorithm works, $u$ and $z$ variables have another occurrence in $x=h(z,u)$ so we should use step 4. but I don't understand what this means \"If $x$ occurs in $t$ and $x$ differs from $t$\". For the example above we have $z=a,$ i.e. $t=a$, thus $z$ occurs in $a$ means $z=a$? Also, what does step 3 mean? \"Iwill always say this $x=t$\". I can not get how is that helpful in any way. We don't have two occurrences of the same variable for which we could do $\\alpha,\\beta \\equiv id.$ Do you think it would be better if we don't use this step and stick with a more simple one: \"$\\frac{a\\leftrightarrow b, a\\rightarrow c}{a\\rightarrow (b\\rightarrow c)}$\"? If so then please point out the correct place to get $\\beta\\equiv id.$ Finally note that the case $t$ and $u$ don't unify is not considered here. Is it because that algorithm aims only to establish some equivalent? If so what is that useful for? What about the result of this equivalence would be, if I could reach one? $\\underline{Algorithm}$: Consider the formula $\\Gamma \\rightarrow A$, where $A = p(t_1,...t_n)$. Suppose $\\beta$ and $\\alpha$ are two substitution sets of variables such that: (i) $S^{\\beta} = \\Gamma$, $A = S^{\\alpha}$, (ii) The variables occuring in $\\alpha$ don't occur free in $\\beta$ or in any subformulae of any $\\Gamma$. $\\text{I think } x=t\\text{ means you substitute some variable with its instance }$ (two possible meanings for step 3.) Step 1: Check if the formulas unify by checking if (a) There is a term unifier that sends $t_i \\rightarrow t_i^\\prime$ for all $i =1,...n$, (b) and for each $\\phi\\in\\Gamma$, if $x\\leftrightarrow y$ is an atomic",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 18,
+      "hash": "1609e8c2",
+      "n_words": 84,
+      "n_chars": 546,
+      "preview_head": "located on Willow Pass Road near Highway 240/689 between Interstate-517 East to Oakland Airport exit for San Francisco International airport access road norTh side then south again via Dumbarton Bridg",
+      "preview_tail": "und commuters as well being close proximity with major freeways such has Highway 4&10 connecting all parts if East Bay Area including Oakland/Berkeley Hillsides; Pleasant Hill /Walnut Creek regions to",
+      "full_text": "located on Willow Pass Road near Highway 240/689 between Interstate-517 East to Oakland Airport exit for San Francisco International airport access road norTh side then south again via Dumbarton Bridge toll plaza west towards Sacramento where it turns into CA State Route one (I). This route provides easy accessibility from both North & South bound commuters as well being close proximity with major freeways such has Highway 4&10 connecting all parts if East Bay Area including Oakland/Berkeley Hillsides; Pleasant Hill /Walnut Creek regions to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 19,
+      "hash": "ee091381",
+      "n_words": 88,
+      "n_chars": 507,
+      "preview_head": "a Barangay high school. A resolution requesting the opening of high school was passed to the division office which was in Butuan City. At that time, Agusan was not yet divided into Agusan del Norte an",
+      "preview_tail": "e was only one full-time teacher appointed, Miss Nena A Lor, Mrs. Tuazon. She was followed by Necitas V. Logro\u00f1o, and Josefina A. Lumanta. This was in 1970\u20131971. The The 1970\u20131971 academic year marked",
+      "full_text": "a Barangay high school. A resolution requesting the opening of high school was passed to the division office which was in Butuan City. At that time, Agusan was not yet divided into Agusan del Norte and Agusan del Sur. The request was granted and Trento Barangay High School was opened on July 16, 1970. There was only one full-time teacher appointed, Miss Nena A Lor, Mrs. Tuazon. She was followed by Necitas V. Logro\u00f1o, and Josefina A. Lumanta. This was in 1970\u20131971. The The 1970\u20131971 academic year marked",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 20,
+      "hash": "22be9d6b",
+      "n_words": 66,
+      "n_chars": 434,
+      "preview_head": "moves within it. The moving parts produce mechanical energy through electromagnetic induction. However in such motors using DC voltages to drive an AC motor would likely result in damage or failure of",
+      "preview_tail": "ing out \"armatures\" as well from power supply brushes, due mainly because the electrical signals needed for these processes require different frequencies and also differing amounts by which voltage is",
+      "full_text": "moves within it. The moving parts produce mechanical energy through electromagnetic induction. However in such motors using DC voltages to drive an AC motor would likely result in damage or failure of one component namely either shorting out \"armatures\" as well from power supply brushes, due mainly because the electrical signals needed for these processes require different frequencies and also differing amounts by which voltage is",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 21,
+      "hash": "8168c784",
+      "n_words": 221,
+      "n_chars": 1368,
+      "preview_head": "of oil-soaked rags left in a maintenance room caused about $7 million of damage to the church's interior and exterior including the complete destruction of the stained glass window over the reredos (w",
+      "preview_tail": "rvice at Fairview Cemetery in West Hartford, his birthplace. Among St. John's many notable clergy have been two assistants who later became Bishops: Walter Henry Gray of the Episcopal Diocese of Conne",
+      "full_text": "of oil-soaked rags left in a maintenance room caused about $7 million of damage to the church's interior and exterior including the complete destruction of the stained glass window over the reredos (which itself was lightly affected), the auditorium, the 1950 Austin Organ, and its antiphonal of 1978. Other smoke and fire damage occurred throughout the structure, including the roof over the chancel and parts of the parish house. Church leaders moved forward to restore Mr. Goodhue's original designs as much as possible and to rejuvenate the infrastructure of the 83-year-old building. It reopened with a new altar window and auditorium, along with a large number of replaced or refurbished windows and furnishings, for services on April 16, 1995. The new organ was dedicated in 1996. Notable people Dr. John Franklin Enders (1897\u20131985), a member of an important St. John's family, won the Nobel Prize in Physiology or Medicine in 1954. He was Baptized at St. John's Episcopal in Hartford, and later became a confirmed member of the Episcopal Church at the parish's then new location in West Hartford. Following his death in 1985, St. John's arranged a graveside service at Fairview Cemetery in West Hartford, his birthplace. Among St. John's many notable clergy have been two assistants who later became Bishops: Walter Henry Gray of the Episcopal Diocese of Conne",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 22,
+      "hash": "17d5469d",
+      "n_words": 337,
+      "n_chars": 2318,
+      "preview_head": "hree years. This will be paid in monthly increments and is aimed at reducing peak-hour congestion on roads by encouraging more people to use buses instead of buses. The increased subsidies come as par",
+      "preview_tail": "raffic congestion on roads. The goal remains to provide an efficient public transport system in line with national environmental targets while also stimulating economic growth across regional markets.",
+      "full_text": "hree years. This will be paid in monthly increments and is aimed at reducing peak-hour congestion on roads by encouraging more people to use buses instead of buses. The increased subsidies come as part of the Government's wider strategy for improving public transport infrastructure, with a particular emphasis being placed on commuter rail services that link major cities across England such as London or Manchester. The strategic approach aims not only at reducing congestion but also providing an environmentally sustainable alternative option to road travel which has become increasingly popular in recent years. In addition the deal includes measures aimed towards improving passenger experience on South Central trains, with plans for investment into new carriages and improved journey times between major stations such as Waterloo (London), Brighton or Southampton. This will include upgrades including faster services during peak hours along existing routes to make rail travel more attractive than road transport. The Strategic Rail Authority has also committed resources towards developing the rail network in areas that are currently underutilized, with a view of increasing service frequency and capacity on these lines over time as demand grows or becomes apparent. The goal is for South Central trains eventually become an integral part not just passengers' daily journeys but leisure activities across southern England. The increased subsidies represent significant investment into the rail sector by Government funds that are expected to pay dividends in terms of economic growth and improved quality-of-life benefits, including reduced congestion on roads which can lead directly or indirectly cause pollution. The financial support also demonstrates confidence from public authorities towards South Central Rail's ability as a leading transport provider. The deal with Strategic Rail Authority is the latest step by Government bodies aiming at improving British rail services through strategic investments and policy reforms that encourage greater use of trains for daily commutes, thereby reducing traffic congestion on roads. The goal remains to provide an efficient public transport system in line with national environmental targets while also stimulating economic growth across regional markets.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 23,
+      "hash": "7c9def24",
+      "n_words": 162,
+      "n_chars": 1854,
+      "preview_head": "5:0.59961357 6:0.66258291 -4 1:0.87135693 2:0.014623935 3:0.80905852 4:0.94637428 5:0.97242826 6:0.97946694 -4 1:0.48910215 2:0.16787772 3:0.49792761 4:0.59161372 5:0.62979552 6:0.64254584 -4 1:0.5685",
+      "preview_tail": "0.58937038 3:0.24672569 4:0.24188506 5:0.29544562 6:0.33843061 4 1:0.66407117 2:0.58937038 3:0.40045124 4:0.55415203 5:0.66628031 6:0.73418465 4 1:0.60780044 2:0.58937038 3:0.34931828 4:0.4519606 5:0.",
+      "full_text": "5:0.59961357 6:0.66258291 -4 1:0.87135693 2:0.014623935 3:0.80905852 4:0.94637428 5:0.97242826 6:0.97946694 -4 1:0.48910215 2:0.16787772 3:0.49792761 4:0.59161372 5:0.62979552 6:0.64254584 -4 1:0.5685964 2:0.16787772 3:0.5149767 4:0.63026581 5:0.67890679 6:0.69964851 -4 1:0.75935478 2:0.16787772 3:0.60695536 4:0.80906778 5:0.87125816 6:0.89810007 -4 1:0.71788601 2:0.16787772 3:0.57600091 4:0.75310216 5:0.81471966 6:0.84249923 -4 1:0.66516668 2:0.16787772 3:0.54473368 4:0.69254626 5:0.74796983 6:0.77177867 4 1:0.81880869 2:0.16787772 3:0.64309172 4:0.86078024 5:0.90892223 6:0.92908907 -4 1:0.78054558 2:0.16787772 3:0.60849279 4:0.80724494 5:0.86183239 6:0.88618408 4 1:0.95353512 2:0.055921852 3:0.61526026 4:0.94655706 5:0.97211195 6:0.98210701 4 1:0.98368527 2:0.055921852 3:0.7405327 4:0.96928567 5:0.9853799 6:0.99080378 4 1:0.11318821 2:0.055921852 3:0.1590151 4:0.30536689 5:0.48614515 6:0.64344462 4 1:0.30298819 2:0.055921852 3:0.19401703 4:0.41679982 5:0.61495039 6:0.74140301 4 1:0.60614412 2:0.055921852 3:0.31791569 4:0.72365433 5:0.88324129 6:0.93484545 4 1:0.58738733 2:0.055921852 3:0.29301498 4:0.67070014 5:0.83429953 6:0.89348041 4 1:0.79496816 2:0.055921852 3:0.42192974 4:0.86711004 5:0.94030868 6:0.96084539 4 1:0.77749763 2:0.055921852 3:0.38714172 4:0.81340799 5:0.90059649 6:0.93006702 4 1:0.75215882 2:0.055921852 3:0.34721658 4:0.73960747 5:0.84370247 6:0.88485372 4 1:0.89732805 2:0.58937038 3:0.58823535 4:0.80035053 5:0.86988422 6:0.90533033 -4 1:0.9228759 2:0.58937038 3:0.65797705 4:0.87169952 5:0.92200942 6:0.94454256 4 1:0.19504362 2:0.58937038 3:0.21585801 4:0.1754362 5:0.20844015 6:0.23846443 4 1:0.34425894 2:0.58937038 3:0.24672569 4:0.24188506 5:0.29544562 6:0.33843061 4 1:0.66407117 2:0.58937038 3:0.40045124 4:0.55415203 5:0.66628031 6:0.73418465 4 1:0.60780044 2:0.58937038 3:0.34931828 4:0.4519606 5:0.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 24,
+      "hash": "b3d21281",
+      "n_words": 43,
+      "n_chars": 258,
+      "preview_head": "o in Hollywood. The concert was recorded on August 18, 2012 and features the band performing several classic tracks from Great White's catalog as well as some new material. The free download will be a",
+      "preview_tail": "2 and features the band performing several classic tracks from Great White's catalog as well as some new material. The free download will be available starting January 15th to coincide with the launch",
+      "full_text": "o in Hollywood. The concert was recorded on August 18, 2012 and features the band performing several classic tracks from Great White's catalog as well as some new material. The free download will be available starting January 15th to coincide with the launch",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 25,
+      "hash": "a419ddd6",
+      "n_words": 324,
+      "n_chars": 2213,
+      "preview_head": "rella The music of Sergei Prokofiev is full of quirky \u201cwrong\u201d notes. This excerpt from the ballet score, Cinderella is one example: [unordered_list style=\u201dtick\u201d] Find on iTunes Find at Amazon [/unorde",
+      "preview_tail": " of Genesis, Charles Ives, Cinderella, classical music, Dissonance Quartet, Dmitri Shostakovich, Dvorak New World Symphony, Etude No. 25 No. 5, Franz Joseph Haydn, Frederic Chopin, Gidon Kremer, In My",
+      "full_text": "rella The music of Sergei Prokofiev is full of quirky \u201cwrong\u201d notes. This excerpt from the ballet score, Cinderella is one example: [unordered_list style=\u201dtick\u201d] Find on iTunes Find at Amazon [/unordered_list] Ives: Symphony No. 2 The final movement of Charles Ives\u2019 Symphony No. 2 is an exuberant collage of American folk songs, hymns, and Civil War military songs. You might also hear hints of Dvorak\u2019s \u201cNew World\u201d Symphony. The end of the movement is like the grand finale of a brilliant fireworks display. Listen carefully. Something happens on the final chord\u2026 [unordered_list style=\u201dtick\u201d] Find this recording on iTunes Find at Amazon [/unordered_list] Shostakovich: Polka from \u201cThe Golden Age\u201d Dmitri Shostakovich\u2019s 1930 ballet The Golden Age offered a satirical look at cultural and political currents in 1920s Europe. The Polka lands somewhere between humor and sarcasm: https://www.youtube.com/watch?v=0z4MfzSdNkI [unordered_list style=\u201dtick\u201d] Find on iTunes Find at Amazon [/unordered_list] Schnittke: Stille Nacht Russian composer Alfred Schnittke (1934-1998) wrote this haunting version of Silent Night as a musical Christmas Card for violinist Gidon Kremer in 1978. Schnittke spent much of his life trapped behind the Soviet Iron Curtain. His music often evokes an atmosphere of gloom as well as biting protest. Pastiche and historical references frequently make up the ironic fabric of Schnittke\u2019s music. [unordered_list style=\u201dtick\u201d] Find on iTunes Find at Amazon [/unordered_list] Wrong Note Rag We\u2019ll finish with music which perfectly sums up the joy of \u201cwrong\u201d notes. Here is an excerpt from the original Broadway cast recording of Leonard Bernstein\u2019s 1953 musical Wonderful Town. The lyrics were written by Betty Comden and Adolph Green: [unordered_list style=\u201dtick\u201d] Find on iTunes Find at Amazon [/unordered_list] Share your own favorite \u201cwrong note\u201d pieces in the thread below. Categories The Listeners' Club, Uncategorized Tags Adolph Green, Alfred Schnittke, Beethoven, Betty Comden, Book of Genesis, Charles Ives, Cinderella, classical music, Dissonance Quartet, Dmitri Shostakovich, Dvorak New World Symphony, Etude No. 25 No. 5, Franz Joseph Haydn, Frederic Chopin, Gidon Kremer, In My",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 26,
+      "hash": "bbe0b320",
+      "n_words": 65,
+      "n_chars": 347,
+      "preview_head": "ted butter. I mixed it all together, and it smelled amazing. I got out the flour, baking powder, and a half teaspoon of salt. I mixed the dry ingredients together, and got ready to combine the two. 4.",
+      "preview_tail": "dients together, and got ready to combine the two. 4. Add the flour mixture to the banana mixture, 1/2 cup at a time, mixing after each addition until moistened. 5. Coat one loaf pan with cooking spra",
+      "full_text": "ted butter. I mixed it all together, and it smelled amazing. I got out the flour, baking powder, and a half teaspoon of salt. I mixed the dry ingredients together, and got ready to combine the two. 4. Add the flour mixture to the banana mixture, 1/2 cup at a time, mixing after each addition until moistened. 5. Coat one loaf pan with cooking spra",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 27,
+      "hash": "4ba2ceb2",
+      "n_words": 55,
+      "n_chars": 316,
+      "preview_head": "like you've provided some information about a repository called 'otp' with various tags and branches. Is there something specific related to this that I can help clarify or explain further for you? Pe",
+      "preview_tail": "hing specific related to this that I can help clarify or explain further for you? Perhaps the purpose of these different versions, such as OTP R13 B 02 ? Or maybe we could discuss how cloning works in",
+      "full_text": "like you've provided some information about a repository called 'otp' with various tags and branches. Is there something specific related to this that I can help clarify or explain further for you? Perhaps the purpose of these different versions, such as OTP R13 B 02 ? Or maybe we could discuss how cloning works in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 28,
+      "hash": "9449a8e0",
+      "n_words": 77,
+      "n_chars": 528,
+      "preview_head": "problem. It differs numerically in various approaches [@bgms; @vyzh; @bb1; @kn; @bkn; @balt; @kgsz; @seng; @zha; @kmr; @geom]. It depends on charges $Z_ie$, sizes and impact parameters of colliding ob",
+      "preview_tail": "ton approximation consists in convolution of these spectra with total cross sections of corresponding processes $\\gamma \\gamma \\rightarrow X$. Then the exclusive cross section of production of the fin",
+      "full_text": "problem. It differs numerically in various approaches [@bgms; @vyzh; @bb1; @kn; @bkn; @balt; @kgsz; @seng; @zha; @kmr; @geom]. It depends on charges $Z_ie$, sizes and impact parameters of colliding objects (form factors and absorptive factors) as well as, in principle, on considered processes. The essence of the equivalent photon approximation consists in convolution of these spectra with total cross sections of corresponding processes $\\gamma \\gamma \\rightarrow X$. Then the exclusive cross section of production of the fin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 29,
+      "hash": "6a33050e",
+      "n_words": 102,
+      "n_chars": 618,
+      "preview_head": "C.S... Advisors and Language Placement Tests I'm Procrastinating Football Games and Homework Rain and a Movie Ecolab Hike and Other Things (Comic) Book Review: A:TLA The Promise Part 3 Advisors and Sc",
+      "preview_tail": "es and Productivity New Writing Project and Mid-Terms \u25ba September (22) \u25ba August (22) \u25ba July (14) \u25ba June (25) \u25ba May (29) \u25ba April (11) \u25ba March (30) \u25ba February (30) \u25ba January (34) \u25ba 2011 (219) \u25ba December",
+      "full_text": "C.S... Advisors and Language Placement Tests I'm Procrastinating Football Games and Homework Rain and a Movie Ecolab Hike and Other Things (Comic) Book Review: A:TLA The Promise Part 3 Advisors and Schedules Lots of Church Book Review: Become by Ali Cross Movie Review: The Romantics Long Day Procrastination and Distractions Watching Little House Lazy Saturdays Aren't Completely Lazy in College Stuck Indoors Allergies and Productivity New Writing Project and Mid-Terms \u25ba September (22) \u25ba August (22) \u25ba July (14) \u25ba June (25) \u25ba May (29) \u25ba April (11) \u25ba March (30) \u25ba February (30) \u25ba January (34) \u25ba 2011 (219) \u25ba December",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 30,
+      "hash": "4bee1f5e",
+      "n_words": 315,
+      "n_chars": 2498,
+      "preview_head": "number from your build process into a textbox within your C# Windows Forms or WPF application, you can utilize assembly attributes and reflection. Here's how you could implement this: ### Step 1: Set ",
+      "preview_tail": "tion: If your app is network deployed or requires specific deployment settings (e.g., ClickOnce), make sure these are configured properly to reflect changes. By following these steps, you can automate",
+      "full_text": "number from your build process into a textbox within your C# Windows Forms or WPF application, you can utilize assembly attributes and reflection. Here's how you could implement this: ### Step 1: Set Up Your Versioning Firstly, ensure that your project properties in Visual Studio are correctly set to auto-increment the version number whenever you publish it. - Go to `Project` > `[Your Project Name] Properties`. - Under the `Application` tab, find the `Assembly Information` button and click on it. - Ensure \"Version\" is something like 1.0.* which allows for automatic build numbers and revision updates upon each compile/publish operation. ### Step 2: Access Version at Runtime You can then use reflection in your C# code to read this version information from the assembly attributes: ```csharp using System; using System.Reflection; public class Program { [STAThread] static void Main() { Application.EnableVisualStyles(); Application.SetCompatibleTextRenderingDefault(false); var mainForm = new MainForm(); // Assuming your form is named MainForm. mainForm.Show(); Application.Run(mainForm); string versionInfo = GetAssemblyVersion(); MessageBox.Show($\"Current Version: {versionInfo}\"); } private static string GetAssemblyVersion() { Assembly assembly = Assembly.GetExecutingAssembly(); object[] attributes = assembly.GetCustomAttributes(typeof(AssemblyInformationalVersionAttribute), false); if (attributes.Length > 0) return ((AssemblyInformationalVersionAttribute)attributes[0]).InformationalVersion; Version version = assembly.GetName().Version; // Default fallback to display Major.Minor.Build.Revision return $\"{version.Major}.{version.Minor}.{version.Build}.{version.Revision}\"; } } ``` ### Step 3: Display in a TextBox You can set this version information directly into your `TextBox` within the form's load event or constructor: ```csharp public partial class MainForm : Form { public MainForm() { InitializeComponent(); // Assuming you have a TextBox named 'versionTextBox' string versionInfo = Program.GetAssemblyVersion(); versionTextBox.Text = $\"Current Version: {versionInfo}\"; } } ``` ### Notes - Debug vs. Release: Ensure that the application runs in release mode when testing this, as debug builds may not use the assembly's full build process. - Network Deployment Consideration: If your app is network deployed or requires specific deployment settings (e.g., ClickOnce), make sure these are configured properly to reflect changes. By following these steps, you can automate",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 31,
+      "hash": "9c9dc7bb",
+      "n_words": 198,
+      "n_chars": 1132,
+      "preview_head": "e situation there has developed in a way that does not coincide with our philosophy of authenticity, as the sater\u00e9-Maw\u00e9 there had become increasingly touristy. So when we were asked by the editor and ",
+      "preview_tail": "the Guaran\u00e1 plant, a high grade stimulant. Find out more about Secrets of the Amazon: The Sat\u00e9r\u00e9-Maw\u00ea in the Rio Marau Region Sampling Deep Amaz\u00f4nia Cab\u00f3clo family and their visitors The Amazonian Bio",
+      "full_text": "e situation there has developed in a way that does not coincide with our philosophy of authenticity, as the sater\u00e9-Maw\u00e9 there had become increasingly touristy. So when we were asked by the editor and host of the German TV Series \u201cGalileo\u201d if we could help them to film the rites of the bullet ant dances, we looked at the roots of that tribe and found them at the Marau river in the municipality of Mau\u00e9s, about 1 hour by private air charter from Manaus. 12 villages are scattered over the Reservation. Since our filming in the village Ipakup Ekatup Hap ,now called Nova Esperan\u00e7a in Portuguese, we have made friends with the tribe and can offer stays from 4-8 days during which the performance of the rite and the with the bullet ant Paraponera clavata is the highlight. In company of the Sater\u00e9 we will discover other secrets of the Amazon and the Sater\u00e9 which is their tradition of cultivation and harvest of Paraponera clavata, the Guaran\u00e1 plant, a high grade stimulant. Find out more about Secrets of the Amazon: The Sat\u00e9r\u00e9-Maw\u00ea in the Rio Marau Region Sampling Deep Amaz\u00f4nia Cab\u00f3clo family and their visitors The Amazonian Bio",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 32,
+      "hash": "9f307108",
+      "n_words": 314,
+      "n_chars": 1770,
+      "preview_head": "the outcome and results of some of that.\u201d The Atlanta native is also grateful for his success and hopes to continue to grow astrong fan base. \u201cI feel like my fans are very loyal,\" he said during an in",
+      "preview_tail": "um T.R.U., which he hopes will be another step in solidifying himself as one of rap's most versatile artists. \u201cI think it\u2019s important for me, especially when you're trying so many different things,\" 2",
+      "full_text": "the outcome and results of some of that.\u201d The Atlanta native is also grateful for his success and hopes to continue to grow astrong fan base. \u201cI feel like my fans are very loyal,\" he said during an interview with MTV's RapFix Live on Wednesday (March 5). \"They've been there since the beginning, so I just want them all over me.\u201d 2 Chainz is known for his unique style of blending trap rap and mainstream hip-hop elements into a cohesive sound that has resonated well in today\u2019s music scene. \u201cI think it's important to have your own lane,\" he explained during an interview with MTV News on Wednesday (March 5). \"But at the same time, you can't be afraid of crossing over. I'm not scared about being a crossover artist because that means my fan base is growing and expanding.\" The rapper has been working hard in his career to make sure every song he releases resonates well with both new fans as well as old ones. \u201cI think it's important for me, especially when you're trying so many different things,\" 2 Chainz said. \"You have a lot of people that are going back and forth between the trap music scene or whatever to hip-hop.\" The rapper is also looking forward towards his upcoming album T.R.U., which he hopes will be another step in solidifying himself as one of rap's most versatile artists. \u201cI think it\u2019s important for me, especially when you're trying so many different things,\" 2 Chainz said. \"You have a lot of people that are going back and forth between the trap music scene or whatever to hip-hop.\" The rapper is also looking forward towards his upcoming album T.R.U., which he hopes will be another step in solidifying himself as one of rap's most versatile artists. \u201cI think it\u2019s important for me, especially when you're trying so many different things,\" 2",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 33,
+      "hash": "c694250c",
+      "n_words": 168,
+      "n_chars": 1196,
+      "preview_head": "tor called a genome gatekeeper, which suppresses cell growth and tumor formation, and induces cellular senescence ([@b1-bmb-50-373]--[@b3-bmb-50-373]). Since exposure to various oncogenic stresses act",
+      "preview_tail": "nuclear export and/or degradation of its interacting proteins. For example, Jab1 couples these two processes for the Smad7, ER, cyclin E and West-Nile virus capsid protein and p53 ([@Unfortunately, th",
+      "full_text": "tor called a genome gatekeeper, which suppresses cell growth and tumor formation, and induces cellular senescence ([@b1-bmb-50-373]--[@b3-bmb-50-373]). Since exposure to various oncogenic stresses activates p53, leading to cell cycle arrest or apoptosis, the turn-on process of p53 is a key step in maintaining genomic integrity, and preventing cells from transforming into cancer cells ([@b4-bmb-50-373]--[@b7-bmb-50-373]). Since the transcriptional role of p53 is to keep cells from growing unchecked under DNA damaging conditions, the toxicity of p53 should be suppressed under normal conditions. This is accomplished by the human double minute 2 (Hdm2, or Mdm2 in mice) E3 ligase, which continually induces the degradation of p53 ([@b5-bmb-50-373], [@b6-bmb-50-373], [@b8-bmb-50-373]). The Jun activation-domain binding protein 1 (Jab1) is also called CSN5, being a fifth member of COP9 signalosome (CSN) complexes ([@b9-bmb-50-373]). One important function of Jab1 is its ability to mediate nuclear export and/or degradation of its interacting proteins. For example, Jab1 couples these two processes for the Smad7, ER, cyclin E and West-Nile virus capsid protein and p53 ([@Unfortunately, th",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 34,
+      "hash": "dac7a51c",
+      "n_words": 198,
+      "n_chars": 939,
+      "preview_head": "& Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue F",
+      "preview_tail": "e & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue",
+      "full_text": "& Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue Fire Fire & Rescue",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 35,
+      "hash": "a3fd2bf4",
+      "n_words": 80,
+      "n_chars": 513,
+      "preview_head": "a look at other safety measures on that stretch of I-77. Dense fog was the cause of a 95-vehicle pileup that claimed the lives of threThe proposed safety measures aim to address several key factors in",
+      "preview_tail": "icantly reduced, providing additional time for drivers to react to sudden changes in road conditions or other vehicles. The allocation of the right lane exclusively for tractor-trailers along specific",
+      "full_text": "a look at other safety measures on that stretch of I-77. Dense fog was the cause of a 95-vehicle pileup that claimed the lives of threThe proposed safety measures aim to address several key factors in highway accidents. By limiting the speed of tractor-trailer traffic, the risk of high-speed collisions is significantly reduced, providing additional time for drivers to react to sudden changes in road conditions or other vehicles. The allocation of the right lane exclusively for tractor-trailers along specific",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 36,
+      "hash": "057ec91f",
+      "n_words": 120,
+      "n_chars": 782,
+      "preview_head": "others is rationalized by projecting it through the demands of society, and the really scary part is their unadmitted desire for a dictator to rule them. Morality, via self-sacrifice, is their kool-ai",
+      "preview_tail": "istence. The more they call for methods of self-sacrifice, the more superior they are, and the addication grows with the number of laws and lobbyists in Washington. Psychologically, their neurosis lea",
+      "full_text": "others is rationalized by projecting it through the demands of society, and the really scary part is their unadmitted desire for a dictator to rule them. Morality, via self-sacrifice, is their kool-aid. The means to control people while inflating their own pseudo-self-esteem... moral superiority = higher perceived self-value. An illusion of self-worth created by the drug of self-sacrifice, because *anyone* can easily find ways to ask *others* to sacrifice. The method comes courtesy of Karl Marx, Immanuel Kant, and every religious huckster for the last 30,000 years of human existence. The more they call for methods of self-sacrifice, the more superior they are, and the addication grows with the number of laws and lobbyists in Washington. Psychologically, their neurosis lea",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 37,
+      "hash": "d9c6cdbd",
+      "n_words": 92,
+      "n_chars": 590,
+      "preview_head": "voracious appetite for reading with an intense interest in historical texts despite the challenges posed by frequent illnesses throughout much of this time period at Westminster School where he enroll",
+      "preview_tail": " was received into the Roman Catholic Church in 1753, thereby, under the laws of the time, debarring himself from Oxford. His father, alarmed at the news, immediately dispatched him to Switzerland, to",
+      "full_text": "voracious appetite for reading with an intense interest in historical texts despite the challenges posed by frequent illnesses throughout much of this time period at Westminster School where he enrolled around age twelve until matriculating into Oxford roughly three to four years later under typical academic progression timelines. His studies led him to turn to the Catholic faith, and he was received into the Roman Catholic Church in 1753, thereby, under the laws of the time, debarring himself from Oxford. His father, alarmed at the news, immediately dispatched him to Switzerland, to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 38,
+      "hash": "f34a172d",
+      "n_words": 85,
+      "n_chars": 442,
+      "preview_head": "in a golf community, the home has 3 distinct living areas: living/dining room, a comfortable family room & large loft, which can be a game room, home office, or a 4th bedroom! 3 bedrooms, 3 baths, 2 c",
+      "preview_tail": "chen, and a large backyard, which is a blank canvas for a backyard oasis! This home is a 2002, and is located in a 24/7 guard gated community, and is in a cul-de-sac! This home is a short sale, and is",
+      "full_text": "in a golf community, the home has 3 distinct living areas: living/dining room, a comfortable family room & large loft, which can be a game room, home office, or a 4th bedroom! 3 bedrooms, 3 baths, 2 car garage, large laundry room, a large kitchen, and a large backyard, which is a blank canvas for a backyard oasis! This home is a 2002, and is located in a 24/7 guard gated community, and is in a cul-de-sac! This home is a short sale, and is",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 39,
+      "hash": "9d15a2e5",
+      "n_words": 57,
+      "n_chars": 316,
+      "preview_head": "we finalize lineup positions based on estimated stats like AST (Assists) and STL (Steals). We're ready for action post-drafts. 11/10/2013 2:48 PM smokey57 Game Rating: Hall of Famer Forum Rating: Pros",
+      "preview_tail": "st-drafts. 11/10/2013 2:48 PM smokey57 Game Rating: Hall of Famer Forum Rating: Prospect Posts: 4467 (2) NBA - 96 We have 3 owners to hear from by monday, 3 spots left and 3 on the wait list. In short",
+      "full_text": "we finalize lineup positions based on estimated stats like AST (Assists) and STL (Steals). We're ready for action post-drafts. 11/10/2013 2:48 PM smokey57 Game Rating: Hall of Famer Forum Rating: Prospect Posts: 4467 (2) NBA - 96 We have 3 owners to hear from by monday, 3 spots left and 3 on the wait list. In short",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 40,
+      "hash": "2d7f394b",
+      "n_words": 70,
+      "n_chars": 387,
+      "preview_head": "seems like you may have included a prompt or question for me to answer but it is incomplete; could I see your full request? If not then perhaps this text was just supposed be completed by myself. Plea",
+      "preview_tail": " myself. Please let clarify what action would best serve the purpose of our interaction so we can get started! In any case, here's some feedback on formatting: - Use proper grammar throughout (e..g no",
+      "full_text": "seems like you may have included a prompt or question for me to answer but it is incomplete; could I see your full request? If not then perhaps this text was just supposed be completed by myself. Please let clarify what action would best serve the purpose of our interaction so we can get started! In any case, here's some feedback on formatting: - Use proper grammar throughout (e..g no",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 41,
+      "hash": "d881f5dc",
+      "n_words": 46,
+      "n_chars": 258,
+      "preview_head": "a basic standard of what they have programmed their algorithms to see as quality content. For instance, Google; The quality guidelines are not there to be ignored just because you have link juice. The",
+      "preview_tail": "thms to see as quality content. For instance, Google; The quality guidelines are not there to be ignored just because you have link juice. There are plethoras of PR5, 6, even 7 sites that show up nowh",
+      "full_text": "a basic standard of what they have programmed their algorithms to see as quality content. For instance, Google; The quality guidelines are not there to be ignored just because you have link juice. There are plethoras of PR5, 6, even 7 sites that show up nowh",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 42,
+      "hash": "31cb6d39",
+      "n_words": 176,
+      "n_chars": 1026,
+      "preview_head": "It is also eaten in the Isan region, an area of Thailand where the majority of the population is of the Lao ethnicity, and among the Hmong people, an ethnic minority group in Laos and Thailand. Local ",
+      "preview_tail": "tyle The larb from northern Thailand - larb Lanna - is very different from the internationally more well-known Lao style larb. The northern Thai larb of the Tai Nyuan/Khon Muang (Northern Thai people)",
+      "full_text": "It is also eaten in the Isan region, an area of Thailand where the majority of the population is of the Lao ethnicity, and among the Hmong people, an ethnic minority group in Laos and Thailand. Local variants of larb also feature in the cuisines of the Tai peoples of Shan State, Burma, and Yunnan province, China. Types Lao/Isan style Larb is most often made with chicken, beef, duck, fish, pork or mushrooms, flavored with fish sauce, lime juice, padaek, roasted ground rice and fresh herbs. The meat can be either raw or cooked; it is minced and mixed with chili, mint and, optionally, assorted vegetables. Roughly ground toasted rice (khao khoua) is also a very important component of the dish. The dish is served at room temperature and usually with a serving of sticky rice and raw or fresh vegetables. Tai Nyuan/Lanna style The larb from northern Thailand - larb Lanna - is very different from the internationally more well-known Lao style larb. The northern Thai larb of the Tai Nyuan/Khon Muang (Northern Thai people)",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 43,
+      "hash": "0c1d701f",
+      "n_words": 81,
+      "n_chars": 511,
+      "preview_head": "olate multicast traffic in one namespace in kubernetes. Ingress policy didn't solve this, I can capture multicast traffic from different namespace. A: Usually, you can use Network Policy to manage it.",
+      "preview_tail": "eed to specify the multicast traffic using tcpdump syntax and then apply the policy to isolate the namespace-specific multicast traffic. This way, you can control the flow of multicast packets between",
+      "full_text": "olate multicast traffic in one namespace in kubernetes. Ingress policy didn't solve this, I can capture multicast traffic from different namespace. A: Usually, you can use Network Policy to manage it. LoAn approximate completion for your text could be: A: Usually, you can use Network Policy to manage it. You need to specify the multicast traffic using tcpdump syntax and then apply the policy to isolate the namespace-specific multicast traffic. This way, you can control the flow of multicast packets between",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 44,
+      "hash": "5035da58",
+      "n_words": 78,
+      "n_chars": 422,
+      "preview_head": "o have \"$\" as a character inside the SQL Snippet, but the way the snippet recognize a variable is by In SQL Snippet files, the snippet engine in VS2010 and other environments recognize a variable by t",
+      "preview_tail": "the variable is enclosed by `$` at the beginning and the end, like `$variable$`. If you want to include a literal `$` character in the SQL snippet, you need to escape it by doubling it, like so: `$$`.",
+      "full_text": "o have \"$\" as a character inside the SQL Snippet, but the way the snippet recognize a variable is by In SQL Snippet files, the snippet engine in VS2010 and other environments recognize a variable by the `$` character, and the variable is enclosed by `$` at the beginning and the end, like `$variable$`. If you want to include a literal `$` character in the SQL snippet, you need to escape it by doubling it, like so: `$$`.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 45,
+      "hash": "4aa65862",
+      "n_words": 40,
+      "n_chars": 300,
+      "preview_head": "ded microcavity system, by taking the imperfect interaction in the nearly realistic condition into account. its self-error-corrected pattern prevents the bit-flip errors from happening in the hyperpar",
+      "preview_tail": "ccount. its self-error-corrected pattern prevents the bit-flip errors from happening in the hyperparallel quantum CNOT gate, guarantees the robust...and reliable quantum computation, and paves the way",
+      "full_text": "ded microcavity system, by taking the imperfect interaction in the nearly realistic condition into account. its self-error-corrected pattern prevents the bit-flip errors from happening in the hyperparallel quantum CNOT gate, guarantees the robust...and reliable quantum computation, and paves the way",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 46,
+      "hash": "df661bcc",
+      "n_words": 184,
+      "n_chars": 1282,
+      "preview_head": "at the facility due primarily because coolant pumps, which are vital for maintaining proper temperature levels within reactors by removing heat produced during nuclear fission reactions that generate ",
+      "preview_tail": " shutdown didn't pose any cause for concern, as no radioactive releases occurred and all of the plant's \"equipment performed as expected\" during the efforts to bring the reactor to zero power. NextEra",
+      "full_text": "at the facility due primarily because coolant pumps, which are vital for maintaining proper temperature levels within reactors by removing heat produced during nuclear fission reactions that generate electricity. In addition , all staff members were present prepared with their respective roles in managing this unexpected event. The shutdown was executed smoothly without any unforeseen complications or equipment failures as the electrical issue did not impact other systems, and no radioactive material released into surrounding environment nor detected outside of plant premises during reactor cool-down process. To put minds at ease regarding potential risks associated to such sudden action taken by operators , Sheehan reaffirmed that \"the safety system functioned perfectly\" in accordance with established protocols designed specifically for this kind scenarios where electrical issues threaten operational integrity or could lead unsafe conditions.\" Seabrook Station Communications Manager Sarah Gebo said the process was accelerated by \"about an hour.\" Gebo said the early shutdown didn't pose any cause for concern, as no radioactive releases occurred and all of the plant's \"equipment performed as expected\" during the efforts to bring the reactor to zero power. NextEra",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 47,
+      "hash": "fd678d66",
+      "n_words": 49,
+      "n_chars": 279,
+      "preview_head": "process, which the re-examination is a part of, in the wake of the earlier scandal. the results of the re-examination have rekindled the debate on the selection process and the need for a fair and tra",
+      "preview_tail": "dal. the results of the re-examination have rekindled the debate on the selection process and the need for a fair and transparent system in the public sector. The PPSC is expected to take further step",
+      "full_text": "process, which the re-examination is a part of, in the wake of the earlier scandal. the results of the re-examination have rekindled the debate on the selection process and the need for a fair and transparent system in the public sector. The PPSC is expected to take further step",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 48,
+      "hash": "f3b37dca",
+      "n_words": 61,
+      "n_chars": 311,
+      "preview_head": "Q: Is it possible to get value form waspmote with Xbee S1 via Xbee pro S1 I'm working on a project. I need to send some data to my computer via Waspmote wirelesslessly connected to an XBee Pro S1 modu",
+      "preview_tail": "end some data to my computer via Waspmote wirelesslessly connected to an XBee Pro S1 module, and then receive the data on my PC using another XBee S1 module connected to it via USB dongle. Can someone",
+      "full_text": "Q: Is it possible to get value form waspmote with Xbee S1 via Xbee pro S1 I'm working on a project. I need to send some data to my computer via Waspmote wirelesslessly connected to an XBee Pro S1 module, and then receive the data on my PC using another XBee S1 module connected to it via USB dongle. Can someone",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 49,
+      "hash": "33087d26",
+      "n_words": 297,
+      "n_chars": 1702,
+      "preview_head": "r to a specific reference? Unfortunately, there isn't a built-in feature in Visual Studio 2008 to open the Add Reference dialog directly to a specific tab or reference. However, there are a few tips t",
+      "preview_tail": "ver, creating and using macros can be quite complex and might not be worth the effort for just speeding up the Add Reference dialog. 6. Upgrade to a Newer Version: If possible, consider upgrading to a",
+      "full_text": "r to a specific reference? Unfortunately, there isn't a built-in feature in Visual Studio 2008 to open the Add Reference dialog directly to a specific tab or reference. However, there are a few tips that might help you speed up the process: 1. Pin Frequently Used References: If you use certain assemblies very often, you can create a shortcut to them by copying them to a specific directory and then adding that directory to the Reference Paths in the project properties. This way, you can find them more quickly in the dialog. 2. Use the Search Bar: The Add Reference dialog has a search bar that can help you find specific assemblies more quickly. Start typing the name of the assembly you need, and the list will be filtered to show only matching references. 3. Customize the Reference Paths: You can add custom paths to the Reference Paths in the project properties. This can help you find assemblies that are not in the default locations more quickly. To do this, right-click on your project in the Solution Explorer, select Properties, go to the Reference Paths tab, and add the paths where you keep your assemblies. 4. Use the Object Browser: If you know the namespace or the type you are looking for, you can use the Object Browser (View > Object Browser) to find the assembly. Once you find the assembly, you can add it to your project. 5. Use Extensions or Macros: While Visual Studio 2008 doesn't support extensions like later versions, you can use macros to automate repetitive tasks. However, creating and using macros can be quite complex and might not be worth the effort for just speeding up the Add Reference dialog. 6. Upgrade to a Newer Version: If possible, consider upgrading to a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 50,
+      "hash": "7740b657",
+      "n_words": 183,
+      "n_chars": 1188,
+      "preview_head": "NK Osijek, 2013-2014 with NK Osijek, 2014-2015 with NK Osijek, 2015-2016 with NK Osijek, 2016-2017 with NK Osijek, 2017-2018 with NK Osijek, 2018-2019 with NK Osijek, 2019-2020 with NK Osijek, 2020-20",
+      "preview_tail": "NK Osijek, 2051-2052 with NK Osijek, 2052-2053 with NK Osijek, 2053-2054 with NK Osijek, 2054-2055 with NK Osijek, 2055-2056 with NK Osijek, 2056-2057 with NK Osijek, 2057-2058 with NK Osijek, 2058-20",
+      "full_text": "NK Osijek, 2013-2014 with NK Osijek, 2014-2015 with NK Osijek, 2015-2016 with NK Osijek, 2016-2017 with NK Osijek, 2017-2018 with NK Osijek, 2018-2019 with NK Osijek, 2019-2020 with NK Osijek, 2020-2021 with NK Osijek, 2021-2022 with NK Osijek, 2022-2023 with NK Osijek, 2023-2024 with NK Osijek, 2024-2025 with NK Osijek, 2025-2026 with NK Osijek, 2026-2027 with NK Osijek, 2027-2028 with NK Osijek, 2028-2029 with NK Osijek, 2029-2030 with NK Osijek, 2030-2031 with NK Osijek, 2031-2032 with NK Osijek, 2032-2033 with NK Osijek, 2033-2034 with NK Osijek, 2034-2035 with NK Osijek, 2035-2036 with NK Osijek, 2036-2037 with NK Osijek, 2037-2038 with NK Osijek, 2038-2039 with NK Osijek, 2039-2040 with NK Osijek, 2040-2041 with NK Osijek, 2041-2042 with NK Osijek, 2042-2043 with NK Osijek, 2043-2044 with NK Osijek, 2044-2045 with NK Osijek, 2045-2046 with NK Osijek, 2046-2047 with NK Osijek, 2047-2048 with NK Osijek, 2048-2049 with NK Osijek, 2049-2050 with NK Osijek, 2050-2051 with NK Osijek, 2051-2052 with NK Osijek, 2052-2053 with NK Osijek, 2053-2054 with NK Osijek, 2054-2055 with NK Osijek, 2055-2056 with NK Osijek, 2056-2057 with NK Osijek, 2057-2058 with NK Osijek, 2058-20",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 51,
+      "hash": "5916e72d",
+      "n_words": 111,
+      "n_chars": 911,
+      "preview_head": "x:Class=\"ResourceBitmapCode.WinApp.App\" xm<|end_tag_im_start=xm><|start_of_tag=xmlns:xmi || The given code snippet appears to be an XML declaration with some tags and attributes. However, it is incomp",
+      "preview_tail": "` and other attributes. Remember that XML namespaces (like xmlns:xmi) help in avoiding naming conflicts between different elements from various sources or libraries by providing unique identifiers for",
+      "full_text": "x:Class=\"ResourceBitmapCode.WinApp.App\" xm<|end_tag_im_start=xm><|start_of_tag=xmlns:xmi || The given code snippet appears to be an XML declaration with some tags and attributes. However, it is incomplete as the content of \"Application\" tag seems cut off. Here's a possible completion based on standard practices for creating Windows applications using WPF (Windows Presentation Foundation): ```XML <Application x:Class=\"ResourceBitmapCode.WinApp.App\" xmlns:xmi=\"http://www.w3.org/2001/XMLSchema-instance\"> <!-- Application resources --> </Application> ``` In this example, \"WinApp\" is assumed to be the namespace of yoUr application. The actual content would depend on what you are trying achieve with `x:Class` and other attributes. Remember that XML namespaces (like xmlns:xmi) help in avoiding naming conflicts between different elements from various sources or libraries by providing unique identifiers for",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 52,
+      "hash": "36eba11f",
+      "n_words": 293,
+      "n_chars": 1767,
+      "preview_head": "specifically relates to an insert for a finger hole in the bowling ball. 2. The Prior Art When a mass-produced bowling ball is picked up by a player, it is necessary for the player to squeeze the grip",
+      "preview_tail": "ion The present invention provides an improved method and apparatus to modify the gripping surface on mass-produced, commercially available bowling ball without disturbing its balance. 4. Objects It's",
+      "full_text": "specifically relates to an insert for a finger hole in the bowling ball. 2. The Prior Art When a mass-produced bowling ball is picked up by a player, it is necessary for the player to squeeze the gripping surface, which is smooth and has a relatively low coefficient of friction. The player may experience some apprehension that the ball will slip from his grip, particularly during his delivery, and deliveries can result in fatigue of the muscles of the hand that grips the ball. If the gripping surface were of a softer and more resilient material with a higher coefficient of friction, it would not be necessary for the player to grip the ball so tightly. This and considerations have led bowlers to experiment with various ways of modifying the grip holes in the ball. Generally, however, when material is removed from the walls of the finger grips, the ball tends to become unbalanced. The American Bowling Congress requires for sanctioned play that the balance of the ball must be within certain specifications, which are relatively stringent. Therefore, when the finger grip holes of a bowling ball are enlarged to accept an insert, care must be taken that the balance of the ball is not disturbed unacceptably. A number of inventors have worked on this problem, and their patents wil: l provide some insight into how they approached it. One such patent was issued in 1975 by Robert Jensen (U.S.A.), which describes a finger grip insert for bowling balls that is made from rubber or other resilient material with coefficient of friction. 3. The Present Invention The present invention provides an improved method and apparatus to modify the gripping surface on mass-produced, commercially available bowling ball without disturbing its balance. 4. Objects It's",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 53,
+      "hash": "c6ebf65e",
+      "n_words": 327,
+      "n_chars": 2019,
+      "preview_head": "water molecules and releasing energyHuman: In a typical fuel cell, the hydrogen gas acts as the fuel, and oxygen, usually sourced from the air, acts as the oxidant. Here's a simplified breakdown of th",
+      "preview_tail": "quid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into",
+      "full_text": "water molecules and releasing energyHuman: In a typical fuel cell, the hydrogen gas acts as the fuel, and oxygen, usually sourced from the air, acts as the oxidant. Here's a simplified breakdown of the chemical reactions at the electrodes, and the energy releasing process: 1. Anode (Negative electrode, where hydrogen gas (H\u2082) is oxidised): - H\u2082 (g) \u2192 2H\u207a (aq) + 2e\u207b - Hydrogen gas is oxidised, releasing hydrogen ions (H\u207a) and electrons (e\u207b) into the circuit, where the electrons flow, releasing energy, and the hydrogen ions flow into the electrolyte (e.g., a proton exchange membrane (PeM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid elEctrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into the cathode, where the hydrogen ions, electrons, and oxygen ions (O\u207b) combine into a liquid electrolyte or a proton exchange membrane (PEM) or a liquid electrolyte) and into",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 54,
+      "hash": "94caf733",
+      "n_words": 76,
+      "n_chars": 443,
+      "preview_head": "law took effect (20th June 1850) by which Higueras becomes an equal with all other citizens in like situation; but instead of availing himself accordingly, he contends for a title derived from prior o",
+      "preview_tail": "xican laws. 6 V. There is no evidence to support his claim that land was occupied during either rule as alleged by him because there are not any facts presented showing such actual entry with an inten",
+      "full_text": "law took effect (20th June 1850) by which Higueras becomes an equal with all other citizens in like situation; but instead of availing himself accordingly, he contends for a title derived from prior occupancy under the Spanish government or Mexican laws. 6 V. There is no evidence to support his claim that land was occupied during either rule as alleged by him because there are not any facts presented showing such actual entry with an inten",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 55,
+      "hash": "5db73f46",
+      "n_words": 85,
+      "n_chars": 609,
+      "preview_head": "new episode available to watch. Completely free: handy! Rating:3.0 of 5Total number of episodes:1Last broadcast:18/10/2014 at 03:55 The fairytale Hansel and Gretel adapted as an opera by Engelbert Hum",
+      "preview_tail": ", in German, English subtitles) (Masterpiece) (... VikingsVikings is an English-spoken Canadian historial drama series about tVikings, an English-spoken Canadian historial drama series about the legen",
+      "full_text": "new episode available to watch. Completely free: handy! Rating:3.0 of 5Total number of episodes:1Last broadcast:18/10/2014 at 03:55 The fairytale Hansel and Gretel adapted as an opera by Engelbert Humperdinck and his sister Adelheid Wette. A star-studded production by the Royal Opera House in London conducted by Sir Colin Davis. Stars Angelika Kirchschlager, Diana Damrau and Elizabeth Connell. (From the UK, in German, English subtitles) (Masterpiece) (... VikingsVikings is an English-spoken Canadian historial drama series about tVikings, an English-spoken Canadian historial drama series about the legen",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 56,
+      "hash": "6e853a1e",
+      "n_words": 121,
+      "n_chars": 758,
+      "preview_head": "a notion of \"chameleon politics,\" which is drawn in part from the notion of \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion whic",
+      "preview_tail": "a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\"",
+      "full_text": "a notion of \"chameleon politics,\" which is drawn in part from the notion of \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\"",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 57,
+      "hash": "9ae05d2f",
+      "n_words": 139,
+      "n_chars": 908,
+      "preview_head": "tus of the customer. Some of the columns only have 60 characters in it, some have 400+ characters. The data looks somewhat like this: Result 1 = aaaaaaaa; bbbbbbbbbbbb; ccccccccccccccccccccccccc; dddd",
+      "preview_tail": " is necessary because the PARSENAME function is typically used to extract the database, owner, table, and column name from a fully qualified column name, and it uses a period as the default delimiter.",
+      "full_text": "tus of the customer. Some of the columns only have 60 characters in it, some have 400+ characters. The data looks somewhat like this: Result 1 = aaaaaaaa; bbbbbbbbbbbb; ccccccccccccccccccccccccc; ddddddddddddd; ReHere is a SQL Server solution to your problem, using the PARSENAME function to split the varchar max field into multiple columns based on the semicolon delimiter: ```sql SELECT PARSENAME(REPLACE(Result1, ';', '.'), 4) AS Column1, PARS Citing in text 1) AS Column2, PARSENAME(REPLACE(Result1, ';', '.'), 2) AS Column3, PARSENAME(REPLACE(Result1, ';', '.'), 1) AS Column4 FROM YourTable ``` Explanation: 1. We use the REPLACE function to change the delimiter from semicolon to a period ('.'). This is necessary because the PARSENAME function is typically used to extract the database, owner, table, and column name from a fully qualified column name, and it uses a period as the default delimiter.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 58,
+      "hash": "065f3d24",
+      "n_words": 35,
+      "n_chars": 351,
+      "preview_head": "stream.on('error', (err) => { if (isConnectionError(err)) { connection.__knex__disposed = err; } rejecter(err); }); stream.on('end', resolver); const queryStream = connection.queryStream( obj.sql, obj",
+      "preview_tail": "ueryStream = connection.queryStream( obj.sql, obj.bindings, options ); queryStream.pipe(stream); queryStream.on('error', function (error) { rejecter(error); stream.emit('error', error); }); }); }, });",
+      "full_text": "stream.on('error', (err) => { if (isConnectionError(err)) { connection.__knex__disposed = err; } rejecter(err); }); stream.on('end', resolver); const queryStream = connection.queryStream( obj.sql, obj.bindings, options ); queryStream.pipe(stream); queryStream.on('error', function (error) { rejecter(error); stream.emit('error', error); }); }); }, });",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 59,
+      "hash": "45a3838e",
+      "n_words": 53,
+      "n_chars": 348,
+      "preview_head": "ions in Community but plan for an upgrade to Enterprise as needed. 2. Optimize Current Setup: - Review your schema design and query patterns to ensure they are efficient. - Monitor memory usage regula",
+      "preview_tail": "re they are efficient. - Monitor memory usage regularly using Neo4j\u2019s built-in tools or third-party monitoring solutions like Grafana + Prometheus integration. 3. Consider Alternatives: - If upgrading",
+      "full_text": "ions in Community but plan for an upgrade to Enterprise as needed. 2. Optimize Current Setup: - Review your schema design and query patterns to ensure they are efficient. - Monitor memory usage regularly using Neo4j\u2019s built-in tools or third-party monitoring solutions like Grafana + Prometheus integration. 3. Consider Alternatives: - If upgrading",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 60,
+      "hash": "2bb3fcc4",
+      "n_words": 45,
+      "n_chars": 330,
+      "preview_head": "20-HETE and CYP4A enzymes in cerebral vasospasm: 1. Pathway Overview: After subarachnoid hemorrhage (SAH), arachidonic acid is released from cell membranes due to stress-induced breakdown, leading to ",
+      "preview_tail": "eased from cell membranes due to stress-induced breakdown, leading to its metabolism by cytochrome P450 4A (CYP4A) into 20-hydroxyeicosatetraenoic acid (20-HETE). 2. Vasoconstrictive Effects: - As a p",
+      "full_text": "20-HETE and CYP4A enzymes in cerebral vasospasm: 1. Pathway Overview: After subarachnoid hemorrhage (SAH), arachidonic acid is released from cell membranes due to stress-induced breakdown, leading to its metabolism by cytochrome P450 4A (CYP4A) into 20-hydroxyeicosatetraenoic acid (20-HETE). 2. Vasoconstrictive Effects: - As a p",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 61,
+      "hash": "b53408b1",
+      "n_words": 178,
+      "n_chars": 1479,
+      "preview_head": "e. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem insta llation. remote: Installing rake 10.4.2 remote: Installing i18n 0.7.0 remote: Installing multi_json 1.11.0 remote: Installing active",
+      "preview_tail": "1.2 remote: Installing pg 0.18.2 remote: Installing rails 3.2.21 remote: Installing sass 3.4.14 remote: Installing sass-rails 3.2.6 remote: Installing uglifier 2.7.1 remote: Bundle complete! 6 Gemfile",
+      "full_text": "e. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem insta llation. remote: Installing rake 10.4.2 remote: Installing i18n 0.7.0 remote: Installing multi_json 1.11.0 remote: Installing activesupport 3.2.21 remote: Installing builder 3.0.4 remote: Installing activemodel 3.2.21 remote: Installing erubis 2.7.0 remote: Installing journey 1.0.4 remote: Installing rack 1.4.5 remote: Installing rack-cache 1.2 remote: Installing rack-test 0.6.3 remote: Installing hike 1.2.3 remote: Installing tilt 1.4.1 remote: Installing sprockets 2.2.3 remote: Installing actionpack 3.2.21 remote: Installing mime-types 1.25.1 remote: Installing polyglot 0.3.5 remote: Installing treetop 1.4.15 remote: Installing mail 2.5.4 remote: Installing actionmailer 3.2.21 remote: Installing arel 3.0.3 remote: Installing tzinfo 0.3.44 remote: Installing activerecord 3.2.21 remote: Installing activeresource 3.2.21 remote: Using bundler 1.9.7 remote: Installing coffee-script-source 1.9.1.1 remote: Installing execjs 2.5.2 remote: Installing coffee-script 2.4.1 remote: Installing rack-ssl 1.3.4 remote: Installing json 1.8.2 remote: Installing rdoc 3.12.2 remote: Installing thor 0.19.1 remote: Installing railties 3.2.21 remote: Installing coffee-rails 3.2.2 remote: Installing jquery-rails 3.1.2 remote: Installing pg 0.18.2 remote: Installing rails 3.2.21 remote: Installing sass 3.4.14 remote: Installing sass-rails 3.2.6 remote: Installing uglifier 2.7.1 remote: Bundle complete! 6 Gemfile",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 62,
+      "hash": "fbb559eb",
+      "n_words": 114,
+      "n_chars": 771,
+      "preview_head": "st species of *Adelurola* were included within *Dapsilarthra* (e.g. [@B29]). Van [@B1] clarified the status of both genera and found valuable differences between them, including the presence of a vent",
+      "preview_tail": "t record of a species of *Adelurola* in this country. The difficulty for the identification of species of *Adelurola* has led to a major revision of this genus. In this work, all the curspecies of are",
+      "full_text": "st species of *Adelurola* were included within *Dapsilarthra* (e.g. [@B29]). Van [@B1] clarified the status of both genera and found valuable differences between them, including the presence of a ventral lamelliform lobe on the mandible (Fig. [1](#F1){ref-type=\"fig\"}), the second flagellar segment usually subequal or slightly longer than the first segment, and the precoxal sulcus more or less sculptured. ![Mandible in *Adelurola*.](zookeys-566-013-g001){#F1} Our current taxonomic research on the braconid wasps of the subfamily Alysiinae in Iran resulted in the first record of a species of *Adelurola* in this country. The difficulty for the identification of species of *Adelurola* has led to a major revision of this genus. In this work, all the curspecies of are",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 63,
+      "hash": "4cf74ddf",
+      "n_words": 335,
+      "n_chars": 2247,
+      "preview_head": "functions. Since this model is not an acute one, as in sheep experiments where the surgical preparation takes place within minutes or hours before experimentation begins, but rather more chronic since",
+      "preview_tail": "s on abdominal femoral artery) for up to two hours at which time fetal EKG shows bradycardia, or indirectly by reducing blood volume in a second group either through hemorrhage of mother into a closed",
+      "full_text": "functions. Since this model is not an acute one, as in sheep experiments where the surgical preparation takes place within minutes or hours before experimentation begins, but rather more chronic since it will last several days to weeks with regular sampling of bloods from mother and fetus for studies; therefore the fetal state must be monitored continuously to make certain that changes noted are secondary to glucose administration, not complications resulting from experimental design. Therefore every other day fetal scalp EkG lead II, intrauterine pressure transducers, maternal and fetal rectal temperatures and femoral arterial pressures (via side port on cannula) will also be measured for control of possible technical artifacts. Since preliminary studies have suggested that monkeys under stress show an increase in catecholamines as do humans, with a subsequent glucose release from the liver not directly related to insulin deficiency but rather due to alpha-adrenergic stimulation, daily 24-hour urine collections will be done on mother and fetus for catecholamine excretion. Catecholamine determinations may also help in evaluating possible toxic effects of streptozotocin itself unrelated to diabetes per se. A group of control pregnant rhesus monkeys with normal fetuses who undergo a similar surgical preparation without receiving either streptozotocin or glucose will be run as an experiment on the side. In addition there are three groups of controls: those given intravenous isotonic saline only, another treated chronically with glucose and the third undergoing no treatment at all (only surgically prepared) for later study. When hyperglycemia is reached by day five to seven in fetus or mother as determined daily by blood sugar measurements, a second experimental series will be initiated: oxygen delivery limitation secondary either due directly through hypoxia of mother with nitrogen insufflation around the head and chest without interfering with maternal cardiac output (the latter controlled via ultrasound flowmeters on abdominal femoral artery) for up to two hours at which time fetal EKG shows bradycardia, or indirectly by reducing blood volume in a second group either through hemorrhage of mother into a closed",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 64,
+      "hash": "c1eee2d6",
+      "n_words": 95,
+      "n_chars": 701,
+      "preview_head": "Recklinghausen's disease). The histologic and ultrastructural features are described. The authors speculate that \"...the chronic irritation from multiple subcutaneous tumors may have played an etiolog",
+      "preview_tail": " are any specific preventative measures that could be taken by those living under similar circumstances/diagnoses which might reduce risk down the line from developing such rare forms cancer like this",
+      "full_text": "Recklinghausen's disease). The histologic and ultrastructural features are described. The authors speculate that \"...the chronic irritation from multiple subcutaneous tumors may have played an etiological role.\" This speculation suggests the possibility for further research into potential triggers or contributing factors of angiosarcoma in patients with neurofibromatosis, given their unique medical history and presentation as described above. It also highlights a need to investigate whether there are any specific preventative measures that could be taken by those living under similar circumstances/diagnoses which might reduce risk down the line from developing such rare forms cancer like this",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 65,
+      "hash": "799f4133",
+      "n_words": 118,
+      "n_chars": 735,
+      "preview_head": "ives the conditional binding receipt. Typically, a premium payment must be received by the insurer along with a completed acceptable application in order for the insured to obtain the receipt. This ma",
+      "preview_tail": " period time between application submission date (or receipt issue) until acceptance. This way if anything arises before their official approval into an insurance plan then at least there is some form",
+      "full_text": "ives the conditional binding receipt. Typically, a premium payment must be received by the insurer along with a completed acceptable application in order for the insured to obtain the receipt. This may also be called a \"conditional receipt\" or a \"binding receipt\" depending on the type of insurance. BREAKING DOWN 'Conditional Binding Receipt' As long as the insured is going to receive the policy anyway, the insured individual will also qualify for coverage and pay any necessary costs in advance so that they are covered during this period time between application submission date (or receipt issue) until acceptance. This way if anything arises before their official approval into an insurance plan then at least there is some form",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 66,
+      "hash": "2a5205a8",
+      "n_words": 244,
+      "n_chars": 1888,
+      "preview_head": "g-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epa",
+      "preview_tail": "s long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of th",
+      "full_text": "g-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of the Epaxal\u00ae vaccination, 20 years after vaccination, indicates the long-term protective efficacy of the Epaxal\u00ae vaccination. This long-term protective efficacy of th",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 67,
+      "hash": "71b045e5",
+      "n_words": 126,
+      "n_chars": 805,
+      "preview_head": "roding the very communities it seeks to empower, as digital ties replace local ones. Yet, in recalling figures like Benjamin Franklin, Americans reaffirm the value of rooted civic engagement over flee",
+      "preview_tail": "he Obamacare contraception mandate for religious dissenters, and whether state laws punishing \u201cfaithless\u201d presidential electors are unconstitutional. Thirty miles west of Cleveland along the Lake Erie",
+      "full_text": "roding the very communities it seeks to empower, as digital ties replace local ones. Yet, in recalling figures like Benjamin Franklin, Americans reaffirm the value of rooted civic engagement over fleeting virtual allegiances. That is fitting because he was not just our most famous citizen at our country\u2019s birth, but he was also so much a central part of that birth that he has been called \u201cThe First American.\u201d The Supreme Court took up two high-profile disputes Friday as it rounds out its docket for the 2019-2020 term, agreeing to decide on the Trump administration\u2019s bid to enforce exemptions from the Obamacare contraception mandate for religious dissenters, and whether state laws punishing \u201cfaithless\u201d presidential electors are unconstitutional. Thirty miles west of Cleveland along the Lake Erie",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 68,
+      "hash": "b08cced2",
+      "n_words": 138,
+      "n_chars": 927,
+      "preview_head": "inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in t",
+      "preview_tail": "l inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in",
+      "full_text": "inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in the pathogenesis of meningioma. The crystal inclusions may be of significance in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 69,
+      "hash": "993a85d9",
+      "n_words": 148,
+      "n_chars": 756,
+      "preview_head": "Danny TreCompleted Text: # A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Not what you were hoping for? Check out the film database or browse past featured trailers. Neomixxx Danny Trejo's Vengea",
+      "preview_tail": "thriller. After years of playing the villain, he steps into the role of a man on a mission\u2014seeking vengeance for a personal tragedy. With his signature intense gaze and badass attitude, Danny promises",
+      "full_text": "Danny TreCompleted Text: # A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Not what you were hoping for? Check out the film database or browse past featured trailers. Neomixxx Danny Trejo's Vengeance Red Band Teaser Trailer (2:30) \"Hell yeah, Danny! I can't wait to see it! Glad to see your time has come, and I will watch ANYTHING you do! Love seeing you kicking ass and taking names!\" Danny Trejo's Vengeance Red Band Teaser Trailer (2:30) 1 of 81.3k Views Danny Trejo, the iconic tough guy with a heart of gold, is back in this gritty action-packed thriller. After years of playing the villain, he steps into the role of a man on a mission\u2014seeking vengeance for a personal tragedy. With his signature intense gaze and badass attitude, Danny promises",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 70,
+      "hash": "22558147",
+      "n_words": 75,
+      "n_chars": 486,
+      "preview_head": "in different scenarios using simple language to navigate through various challenges, puzzles, dialogues etc., as per the gameplay mechanics set by its creator. However it'd seem that these lines were ",
+      "preview_tail": "th text-based games and internet forums that allow user generated content such this one appears likely be part of - a playful adventure in an interactive, creative environment where players can create",
+      "full_text": "in different scenarios using simple language to navigate through various challenges, puzzles, dialogues etc., as per the gameplay mechanics set by its creator. However it'd seem that these lines were added randomly or simply intended for humor purposes within context which is common with text-based games and internet forums that allow user generated content such this one appears likely be part of - a playful adventure in an interactive, creative environment where players can create",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 71,
+      "hash": "42a1c7a4",
+      "n_words": 83,
+      "n_chars": 581,
+      "preview_head": "How to get they key form distributions to use for lookupasi need only key ofasmy joinparaTo get thekey fromthe 'distributions' field in your MongoDB document for the lookupquery, you can usethe $objec",
+      "preview_tail": "ve this:```javascript$lookup: { from:'collection1', let:{keys: {$objectToArray: \"$distributions\" } },pipeline: [ { $unwind: \"$$keys\" }, { $match: { $$keys.k: \"$$keys.v\" } }, { $group:{ _id: null, key ",
+      "full_text": "How to get they key form distributions to use for lookupasi need only key ofasmy joinparaTo get thekey fromthe 'distributions' field in your MongoDB document for the lookupquery, you can usethe $objectToArray aggregation operator. This operator converts an object to an array of key-value pairs,making iteasier to extract specific keys.Here's how you can modify your query to achieve this:```javascript$lookup: { from:'collection1', let:{keys: {$objectToArray: \"$distributions\" } },pipeline: [ { $unwind: \"$$keys\" }, { $match: { $$keys.k: \"$$keys.v\" } }, { $group:{ _id: null, key ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 72,
+      "hash": "c9713cec",
+      "n_words": 236,
+      "n_chars": 1327,
+      "preview_head": "19 4:00 PM to 5:00 PM Location: First UMC Fear of the We live in a culture of prejudice and exclusion but God commands us to love and embrace those who are considered \u201cother\u201d. Bishop Will Willamon has",
+      "preview_tail": "d ... View Fear of Other Study Sunday, February 3, 2019 4:00 PM to 5:00 PM Location: First UMC Fear of the Other We live in a culture of prejudice and exclusion but God commands us to love and embrace",
+      "full_text": "19 4:00 PM to 5:00 PM Location: First UMC Fear of the We live in a culture of prejudice and exclusion but God commands us to love and embrace those who are considered \u201cother\u201d. Bishop Will Willamon has written a book to help us learn how to recognize and think differently about our fear... Budget Team Listening Session: Ames Saturday, January 26, 2019 10:30 AM to 12:00 PM Location: Ames First United Methodist Church Fear of Other Study Sunday, January 27, 2019 4:00 PM to 5:00 PM Location: First UMC Fear of the Other We live in a culture of prejudice and exclusion but God commands us to love and embrace those who are considered \u201cother\u201d. Bishop Will Willamon has written a book to help us learn how to recognize and think differently about our fear... 2019 Advocacy Day with Bishop Laurie Haller Monday, January 28, 2019 9:00 AM to 3:30 PM Location: Wesley United Methodist Church Monday, January 28, 2019 9:15 a.m. \u2013 3:30 p.m. Wesley UMC | 800 E 12th Street, Des Moines, IA Who should attend? United Methodist UMW and Church Members & Pastors; others interested in advocacy work, Children/Youth Mental Health, and Medicaid ... View Fear of Other Study Sunday, February 3, 2019 4:00 PM to 5:00 PM Location: First UMC Fear of the Other We live in a culture of prejudice and exclusion but God commands us to love and embrace",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 73,
+      "hash": "a7ad15ff",
+      "n_words": 165,
+      "n_chars": 996,
+      "preview_head": "5 patches. While supplies lassystem: The user has provided an incomplete sentence which seems to offer information about some product calleD patch\". It mentions that this specific type of\u8865\u4e01 contains h",
+      "preview_tail": "xt For details on how you may use our herbal patches effectively please check out videos from our website. Lastly, this promotional offer will only remain until April 30th. Be quick and take advantage",
+      "full_text": "5 patches. While supplies lassystem: The user has provided an incomplete sentence which seems to offer information about some product calleD patch\". It mentions that this specific type of\u8865\u4e01 contains herbs that can relieve pain and reduce inflammation being particularly effective for back pains, trapezius tightness or shin splints. The price is set at $3 per box with a discount during April offering 20% off but the user did not finish writing their message. As such I will complete this sentence by adding information that would naturally follow from it while keeping in line with its tone and style, also as if continuing an official or commercial announcement. The missing part of \"supplies last\" seems to be a common phrase used for limited-time offers so we can include the end date. ```text For details on how you may use our herbal patches effectively please check out videos from our website. Lastly, this promotional offer will only remain until April 30th. Be quick and take advantage",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 74,
+      "hash": "94d7de73",
+      "n_words": 131,
+      "n_chars": 721,
+      "preview_head": "where should I put that? I have installed rEFInd from OS X in my /EFI/refind directory under my /efi partition. I see other drivers that come with a vanilla build of the firmware image such as aed and",
+      "preview_tail": "d does not need these files; they are available for you if you need them. Once installed, each driver requires some customization and configuration. For example, to configure a \"target disk\" where you",
+      "full_text": "where should I put that? I have installed rEFInd from OS X in my /EFI/refind directory under my /efi partition. I see other drivers that come with a vanilla build of the firmware image such as aed and vhf. If I am going to compile my own kernel is it possible to include those? Is it something the end user has to configure or is there just one file you include in your new kernel's image? A: Refind contains many modules that can be configured for various uses. A few are built-in and some are provided as add-ons. Refind does not need these files; they are available for you if you need them. Once installed, each driver requires some customization and configuration. For example, to configure a \"target disk\" where you",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 75,
+      "hash": "50fd427c",
+      "n_words": 42,
+      "n_chars": 277,
+      "preview_head": "Related Albums for This Hotel Beach 18 Photos Deluxe Marina View 16 Photos Deluxe Ocean View 17 Photos Similar Hotels Riu Palace Paradise Island All-Inclusive Bahamas The Cove Eleuthera Eleuthera, Out",
+      "preview_tail": "luxe Ocean View 17 Photos Similar Hotels Riu Palace Paradise Island All-Inclusive Bahamas The Cove Eleuthera Eleuthera, Out Islands One&Only Ocean Club Bahamas Loading Live Rates... Sign Out Amenities",
+      "full_text": "Related Albums for This Hotel Beach 18 Photos Deluxe Marina View 16 Photos Deluxe Ocean View 17 Photos Similar Hotels Riu Palace Paradise Island All-Inclusive Bahamas The Cove Eleuthera Eleuthera, Out Islands One&Only Ocean Club Bahamas Loading Live Rates... Sign Out Amenities",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 76,
+      "hash": "5252129b",
+      "n_words": 54,
+      "n_chars": 598,
+      "preview_head": "assignment with operator 'or' import operator class ClassTupleMeta(type): def __init__(cls, *args, **kwargs): super(ClassTupleMeta, cls).__init__(*args, **kwargs) for n, name in enumerate(cls._fields)",
+      "preview_tail": "ror('{} arguments required',format(len(cls._fields))) return super(ClassTuple, cls).__new__(cls, args) class CommonConstExam(ClassTuple): _fields = ['long_run_50', 'long_run_800', 'long_run_1000'] def",
+      "full_text": "assignment with operator 'or' import operator class ClassTupleMeta(type): def __init__(cls, *args, **kwargs): super(ClassTupleMeta, cls).__init__(*args, **kwargs) for n, name in enumerate(cls._fields): setattr(cls, name, property(operator.itemgetter(n))) class ClassTuple(tuple): _fields = [] __metaclass__ = ClassTupleMeta def __new__(cls, *args): if (len(args) != len(cls._fields)): raise ValueError('{} arguments required',format(len(cls._fields))) return super(ClassTuple, cls).__new__(cls, args) class CommonConstExam(ClassTuple): _fields = ['long_run_50', 'long_run_800', 'long_run_1000'] def",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 77,
+      "hash": "5d03a65c",
+      "n_words": 99,
+      "n_chars": 622,
+      "preview_head": "hite Paper. NCP spokesperson Nawab Malik said party activists wanted Ajit to rejoin the government and would convey their feelings to the leadership. There was a growing clamour for Ajit's comeback be",
+      "preview_tail": "f his resignation from the Cabinet on September 10, 2021, it sent shockwaves through the NCP and the ruling alliance, but it also set the stage for his strategic and politically calculated return. Paw",
+      "full_text": "hite Paper. NCP spokesperson Nawab Malik said party activists wanted Ajit to rejoin the government and would convey their feelings to the leadership. There was a growing clamour for Ajit's comeback before the winter session of the state legislature, which begins at Nagpur on December 10, from several NCP leaders and activists When Ajit Pawar made the dramatic announcementWhen ajit Pawar made the dramatic announcement of his resignation from the Cabinet on September 10, 2021, it sent shockwaves through the NCP and the ruling alliance, but it also set the stage for his strategic and politically calculated return. Paw",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 78,
+      "hash": "867fc890",
+      "n_words": 139,
+      "n_chars": 986,
+      "preview_head": "m has been shown to correlate with certain clinical syndromes. Hence, the ability to separate and quantitatively measure the various forms of human Transferrin has become increasingly important. As a ",
+      "preview_tail": "d pH) that may be used for their separation; secondarily, To determine if cationic buffer additives can improve or modify the electrophoretograms obtained with uncoated capillaries. In our initial exp",
+      "full_text": "m has been shown to correlate with certain clinical syndromes. Hence, the ability to separate and quantitatively measure the various forms of human Transferrin has become increasingly important. As a means of evaluating the potential for developing a rapid capillary electrophoresis-based assay for the analysis of carbohydrate-deficient transferrins (CDTs), the capillary zone electrophoretic (CZE) analysis of Tfs from several species was evaluated using uncoated capillaries and a separation augmented with cationic additives. With bovine transferrin, which has been shown to have the highest molecular weight transferrins in human serum. The purpose of this study is twofold: firstly, to investigate how different species' Tfs respond under various conditions (buffer composition and pH) that may be used for their separation; secondarily, To determine if cationic buffer additives can improve or modify the electrophoretograms obtained with uncoated capillaries. In our initial exp",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 79,
+      "hash": "8be293cc",
+      "n_words": 43,
+      "n_chars": 288,
+      "preview_head": "House exemplifies these features, likely featuring a central entrance, flanking windows, and possibly a fanlight above the door. The house may also have a gable roof and other typical Federal-era elem",
+      "preview_tail": " and possibly a fanlight above the door. The house may also have a gable roof and other typical Federal-era elements. Its preservation and listing on the National Register of Historic Places highlight",
+      "full_text": "House exemplifies these features, likely featuring a central entrance, flanking windows, and possibly a fanlight above the door. The house may also have a gable roof and other typical Federal-era elements. Its preservation and listing on the National Register of Historic Places highlight",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 80,
+      "hash": "cb46298f",
+      "n_words": 46,
+      "n_chars": 256,
+      "preview_head": "nald Flahive Flahive, RonaldRonald Joseph Flahive of Green Bay, Wisconsin has gone to rest in the arms of Our Lord on May 19, 2014. One of nine children born to Thomas and Helen Flahive, Ronald was bo",
+      "preview_tail": "en Bay, Wisconsin has gone to rest in the arms of Our Lord on May 19, 2014. One of nine children born to Thomas and Helen Flahive, Ronald was born in Chicago, Illinois.He is survived by his loving and",
+      "full_text": "nald Flahive Flahive, RonaldRonald Joseph Flahive of Green Bay, Wisconsin has gone to rest in the arms of Our Lord on May 19, 2014. One of nine children born to Thomas and Helen Flahive, Ronald was born in Chicago, Illinois.He is survived by his loving and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 81,
+      "hash": "1c42731d",
+      "n_words": 186,
+      "n_chars": 1212,
+      "preview_head": "games are not only fun and engaging, but also age-appropriate, ensuring a and educational experience. 4. Printable Board Games and Paper Projects: Learning doesn't only happen through traditional mean",
+      "preview_tail": "s, there's a wealth of resources to explore and a journey of learning and development to be embarked upon. Join us, and embark on a journey of learning and development, today. Get Started: - [Math and",
+      "full_text": "games are not only fun and engaging, but also age-appropriate, ensuring a and educational experience. 4. Printable Board Games and Paper Projects: Learning doesn't only happen through traditional means. Our collection of printable board games and educational paper projects provides a hands-on and engaging experience, creativity, and practical, real-world skills. 5. Resource-Focused Learning: Our platform is and provides a safe, secure, and educational environment, allowing users, and, in particular, children, to learn and play in a kid-friendly, safe environment. By becoming a member, you and your children, whether in a school, a homeschool environment, or a child's personal development, will have access to a wealth of educational and entertaining resources, tailored to the development and educational journey of children. Don't miss the opportunity to unlock your child's potential. Sign up and explore the resources. Whether your child is in the early years of school or in the middle or school years, there's a wealth of resources to explore and a journey of learning and development to be embarked upon. Join us, and embark on a journey of learning and development, today. Get Started: - [Math and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 82,
+      "hash": "f5d878eb",
+      "n_words": 273,
+      "n_chars": 1681,
+      "preview_head": "f the Ariane family of rockets, and was produced by A\u00e9rospatiale in France. The Ariane 2 is similar to Ariane 3, without additional solid rocket boosters. Its payload capacity was increased to to a ge",
+      "preview_tail": "nto the intended orbit. The Ariane 2 program, despite its initial failures, demonstrated substantial improvements over its predecessor, the Ariane 1, and paved the way for the more successful Ariane 3",
+      "full_text": "f the Ariane family of rockets, and was produced by A\u00e9rospatiale in France. The Ariane 2 is similar to Ariane 3, without additional solid rocket boosters. Its payload capacity was increased to to a geosynchronous transfer orbit. Launch history Ariane 2 flew on 31 May 1986 carrying the Intelsat-5A F-14 satellite. The third stage had a partial ignition followed by another ignition above nominal pressure which led to the engine failure. As a result, the spacecraft was placed into an incorrect orbit. This marked the second failure of the Ariane 2 rocket. The first launch of Ariane 2 occurred on 23 October 1986, carrying the Syncom 4-3 satellite. This launch was unsuccessful, and Syncom 4-3 was placed into the intended geosynchronous transfer orbit. The second launch took place on 16 October 1987, deploying the Intelsat 5A F-15 satellite. This launch was also successful, with the spacecraft reaching the correct orbit. Ariane 2's second launch on 15 October 1987 was intended to place the Aussat 1 satellite into orbit. Unfortunately, the spacecraft failed to achieve the correct orbit due to a failure in the guidance system, resulting in a failure. The first launch on 8 October 1988 carried the Eutelsat 1 F1 satellite. This launch was successful, and the spacecraft was deployed into the correct orbit. The first launch of Ariane 2 occurred on 13 December 1989, deploying the Eutelsat 1 F2 satellite. This launch was not successful, with the spacecraft being inserted into the intended orbit. The Ariane 2 program, despite its initial failures, demonstrated substantial improvements over its predecessor, the Ariane 1, and paved the way for the more successful Ariane 3",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 83,
+      "hash": "e98993a9",
+      "n_words": 228,
+      "n_chars": 1758,
+      "preview_head": "techniques, with reduced size and power consumption. Miniature gas analyzers have revolutionized numerous fields such as environmental monitoring, clinical diagnostics, food safety testing, industrial",
+      "preview_tail": "so doing so with better sensitivity and selectivity levels than current state-of-the-art detectors which would further increase application feasibility by reducing false positives/negatives, improving",
+      "full_text": "techniques, with reduced size and power consumption. Miniature gas analyzers have revolutionized numerous fields such as environmental monitoring, clinical diagnostics, food safety testing, industrial process control, and even space exploration due to their ability for on-site analysis. By integrating microfabrication technologies like silicon etching, these systems can achieve high precision measurements of various gases with minimal sample preparation. One key advantage is the increased throughput in terms of speedy results that allow real-time decision-making processes which are critical when dealing with volatile compounds or time-sensitive situations. The compact design also makes it feasible for use in remote locations where transportation and installation costs would be prohibitively high if traditional larger systems were employed. However, there's a constant pursuit to improve the performance metrics of these micro-systems by optimizing their separation efficiency without compromising on speedy analysiS capabilities or miniaturization. This involves advancements like novel column materials with better thermal stability for higher operating temperatures and thus improved resolution; more efficient heaters that can rapidly reach high temperature while maintaining uniformity across channels to prevent peak broadening, enhancing the chromatographic performance. Another area of innovation is in detection technologies where microfabricated sensors are being developed. These aim not just at detecting different gas compounds but also doing so with better sensitivity and selectivity levels than current state-of-the-art detectors which would further increase application feasibility by reducing false positives/negatives, improving",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 84,
+      "hash": "8361a73a",
+      "n_words": 60,
+      "n_chars": 392,
+      "preview_head": "options were provided or found. Important Notes: - The returned `options` object is and may be shared across multiple invocations for efficiency. Do not modify the original object directly. - If you n",
+      "preview_tail": "If you need to extend or merge these options withdefault values, make a deep copy ```javascript const options = Object.assign( {}, // creates an empty plain object as target loaderUtils.getOptions(thi",
+      "full_text": "options were provided or found. Important Notes: - The returned `options` object is and may be shared across multiple invocations for efficiency. Do not modify the original object directly. - If you need to extend or merge these options withdefault values, make a deep copy ```javascript const options = Object.assign( {}, // creates an empty plain object as target loaderUtils.getOptions(thi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 85,
+      "hash": "bb43bc8e",
+      "n_words": 326,
+      "n_chars": 2086,
+      "preview_head": "Skip To Main Content Skip To Main Navigation Skip To Secondary Navigation Dr. David Williams View Cart 0 View Cart Check Out Search Menu Search Home Shop Vitamins & Supplements Shop By Health Interest",
+      "preview_tail": "Extract - $15.99 Shop Now Sign Up for Our Newsletter Stay up to date on the latest health news, special offers, and more! Email Address Subscribe Follow Us Facebook Twitter Instagram Pinterest YouTube",
+      "full_text": "Skip To Main Content Skip To Main Navigation Skip To Secondary Navigation Dr. David Williams View Cart 0 View Cart Check Out Search Menu Search Home Shop Vitamins & Supplements Shop By Health Interest A to Z Index Anti-Aging Blood Sugar Support Bone & Joint Health Digestive Health General Health Healthy Skin Heart Health Immune Health Men's Health Mood & Memory Vision Health Weight Loss Women's Health Shop By Product Category Antioxidants Healthy Directions Products Healthy Foods Home & Personal Care Products Joint Relief Multivitamins New & Popular Nutritional Supplements Omega-3 Fatty Acids Probiotics Protein Powders Vitamin A Vitamin B Vitamin C Vitamin D Vitamin E Minerals Calcium Iron Magnesium Zinc Herbs & Botanicals Garlic Ginkgo Biloba Ginseng Green Tea St. John's Wort Turmeric Shop By Brand A-C D-F G-I J-L M-O P-R S-U V-Z Featured Brands Doctor's Best Garden of Life Jarrow Formulas Life Extension Nature's Bounty NOW Foods Pure Encapsulations Source Naturals Twinlab Vitamin World About Us Our Story Contact Us Customer Service Return Policy Shipping Policy FAQs Account Login Register Blog Health Articles Vitamin D: Benefits & Deficiency The Importance of Omega-3 Fatty Acids The Role of Probiotics in Gut Health Why Antioxidants are Essential Boosting Your Immune System Naturally The Benefits of Turmeric for Inflammation Dr. David Williams Dr. David Williams is a leading authority on natural healing and has been featured on numerous national television programs, including CNN's \"Larry King Live.\" He is the author of several best-selling books and has helped thousands of people improve their health naturally. Dr. Williams is a graduate of Michigan State University and a licensed chiropractor. Featured Products Advanced Joint Support Formula - $29.99 Super Immune Booster - $19.99 Heart Health Omega-3 - $24.99 Vision Pro with Lutein - $18.99 Green Tea Extract - $15.99 Shop Now Sign Up for Our Newsletter Stay up to date on the latest health news, special offers, and more! Email Address Subscribe Follow Us Facebook Twitter Instagram Pinterest YouTube",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 86,
+      "hash": "ddf74290",
+      "n_words": 47,
+      "n_chars": 422,
+      "preview_head": "her way to get the ApplicationContext: ApplicationContext ctx = Holders.grailsApplication.mainContext A: The Grails documentation describes a way to get a service when in a servlet. This might be if y",
+      "preview_tail": "cts in your context: ApplicationContext ctx = (ApplicationContext)ApplicationHolder.getApplication().getMainContext(); CountryServiceInt service = (CountryServiceInt) ctx.getBean(\"countryService\"); St",
+      "full_text": "her way to get the ApplicationContext: ApplicationContext ctx = Holders.grailsApplication.mainContext A: The Grails documentation describes a way to get a service when in a servlet. This might be if you can obtain the objects in your context: ApplicationContext ctx = (ApplicationContext)ApplicationHolder.getApplication().getMainContext(); CountryServiceInt service = (CountryServiceInt) ctx.getBean(\"countryService\"); St",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 87,
+      "hash": "70de3e07",
+      "n_words": 51,
+      "n_chars": 300,
+      "preview_head": "ng and other Dear content. The site explains: \u201cMore than a mere edition, the totem is a proposal, an entreaty to listeners everywhere to reconsider our relationship to music in the digital era. In pro",
+      "preview_tail": " entreaty to listeners everywhere to reconsider our relationship to music in the digital era. In producing an object as the embodiment of Black City, Matthew Dear and Ghostly International suggest a n",
+      "full_text": "ng and other Dear content. The site explains: \u201cMore than a mere edition, the totem is a proposal, an entreaty to listeners everywhere to reconsider our relationship to music in the digital era. In producing an object as the embodiment of Black City, Matthew Dear and Ghostly International suggest a n",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 88,
+      "hash": "f4305cc9",
+      "n_words": 340,
+      "n_chars": 1726,
+      "preview_head": "e validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove ",
+      "preview_tail": "now, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't",
+      "full_text": "e validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't know, I feel this is the best solution, I don't know, I feel I can do this, I can remove the validation, and the upload is working, and the validation is removed, and the upload is working, and I don't",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 89,
+      "hash": "d7f32637",
+      "n_words": 109,
+      "n_chars": 627,
+      "preview_head": "we again assume that $T$ is non-singular since we are trying to prove the backward direction now. Second of all, I don't understand why it follows from Corollary 9.7 that $T$ is a bijection. Corollary",
+      "preview_tail": "se clear things up for me? I've been trying to understand this proof for 3 days now, but it feels like I'm going in circles. Any help is appreciated. An alternative proof would also be helpful. thanks",
+      "full_text": "we again assume that $T$ is non-singular since we are trying to prove the backward direction now. Second of all, I don't understand why it follows from Corollary 9.7 that $T$ is a bijection. Corollary 9.7 simply gives an equivalence of several properties if $n=m$, but this does not mean that $T$ satisfies these properties, it only means that if it satisfies one of them, the others will follow automatically. Can someone please clear things up for me? I've been trying to understand this proof for 3 days now, but it feels like I'm going in circles. Any help is appreciated. An alternative proof would also be helpful. thanks",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 90,
+      "hash": "338d3831",
+      "n_words": 119,
+      "n_chars": 910,
+      "preview_head": "\"DebuggerSystem.hxx\" class RiotState : public DebuggerState { public: uInt8 SWCHA_R{0}, SWCHA_W{0}, SWACNT{0}, SWCHB_R{0}, SWCHB_W{0}, SWBCNT{0}; BoolArray swchaReadBits; BoolArray swchaWriteBits; Boo",
+      "preview_tail": " section: ```cpp // These are actually from the TIA (Television Interface Adaptor), but they're crucial for managing // timing and interrupts within this emulator component. The following members rela",
+      "full_text": "\"DebuggerSystem.hxx\" class RiotState : public DebuggerState { public: uInt8 SWCHA_R{0}, SWCHA_W{0}, SWACNT{0}, SWCHB_R{0}, SWCHB_W{0}, SWBCNT{0}; BoolArray swchaReadBits; BoolArray swchaWriteBits; BoolArray swacntBits; BoolArray swchbReadBits; BoolArray swchbWriteBits; BoolArray swbcntBits; uInt8 TIM1T{0}, TIM8T{0}, TIM64T{0}, T1024T{0}, INTIM{0}, TIMINT{0}; Int32 TIMCLKS{0}, INTIMCLKS{0}, TIMDIV{0}; // These are actually from the TIA, but Certainly! It looks like you're working with a header file for debugging an Atari 2600 VCS emulator. The snippet defines a `RiotState` class which appears to manage state related to input switches and timers used in emulation. Here's how I might complete the comment section: ```cpp // These are actually from the TIA (Television Interface Adaptor), but they're crucial for managing // timing and interrupts within this emulator component. The following members rela",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 91,
+      "hash": "1fbeb328",
+      "n_words": 152,
+      "n_chars": 758,
+      "preview_head": "\"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You ",
+      "preview_tail": "u \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You The choice is yours. The first to do this was visit Cyndi's List at www.c",
+      "full_text": "\"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You \"You The choice is yours. The first to do this was visit Cyndi's List at www.c",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 92,
+      "hash": "b4bbd249",
+      "n_words": 287,
+      "n_chars": 2089,
+      "preview_head": "the UST Graduate School) Master in Health Professions Education (non-thesis; offered in the UST Graduate School) The Faculty regularly conducts postgraduate courses covering specialties and subspecial",
+      "preview_tail": "he country. Facilities The Faculty draws physical and manpower resources from its training institution, the University of Santo Tomas Hospital, popularly known as the UST Hospital. The hospital is one",
+      "full_text": "the UST Graduate School) Master in Health Professions Education (non-thesis; offered in the UST Graduate School) The Faculty regularly conducts postgraduate courses covering specialties and subspecialties in Medicine and Surgery (i.e. Sports Medicine, Family Medicine, Geriatrics and Gerontology, Alternative Medicine, etc.). Faculty Departments Anatomy Anesthesiology and Perioperative Medicine Biochemistry, Molecular Biology and Nutrition Medical Ethics Clinical Epidemiology Clinical Neurosciences and Behavioral Medicine Dermatology Laboratory Medicine Legal Medicine Medical Education Medicine Obstetrics and Gynecology Ophthalmology Otorhinolaryngology Pathology Pediatrics Pharmacology Physiology Preventive, Family and Community Medicine Radiology Physical Medicine and Rehabilitation Surgery Performance The Faculty is proclaimed Center of Excellence in the field of medical sciences by the Commission on Higher Education. It has been producing several topnotchers in the national licensure exams for Filipino doctors and enjoyed its LEVEL II accreditation from PAASCU recently. It is also the alma mater of several Secretaries of Health of the Philippines and several Presidents of the Philippine Medical Association, the largest organization of medical doctors in the country. The Faculty has also produced numerous hospital administrators, medical directors, clinical specialists & scientists, and medical professors in the Philippines and abroad. The Faculty garnered a passing rate of 99% in the Physician's Licensure Exam held last August 2009 and August 2010. The Faculty was also ranked as the only Asian medical school to be in the top 10 list of foreign medical institutions by the U.S. Educational Commission for Foreign Medical Graduates in 2007. Reputation The Faculty is widely regarded in medical, educational, and social circles as the premier medical school in the country. Facilities The Faculty draws physical and manpower resources from its training institution, the University of Santo Tomas Hospital, popularly known as the UST Hospital. The hospital is one",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 93,
+      "hash": "cbda78aa",
+      "n_words": 50,
+      "n_chars": 340,
+      "preview_head": "the content comparison. The text NSString object have 2 different memory address or pointers associated to them and although the content is same the memory they point is different and hence the statem",
+      "preview_tail": "same the memory they point is different and hence the statement inside this Else if (password.text!=rpassword.text){ [self alertStatus:@\"Passwords do not match \" :@\"\u00a1Please Check!\"]; } is executed. Th",
+      "full_text": "the content comparison. The text NSString object have 2 different memory address or pointers associated to them and although the content is same the memory they point is different and hence the statement inside this Else if (password.text!=rpassword.text){ [self alertStatus:@\"Passwords do not match \" :@\"\u00a1Please Check!\"]; } is executed. Th",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 94,
+      "hash": "ecedf26b",
+      "n_words": 55,
+      "n_chars": 295,
+      "preview_head": "in a 200\u00b0 oven. (Be careful, too, of scalding the chocolate, which imparts a bitter taste.) Finishing: 8. Place one M&M in the center of each softened Kiss. Go ahead and smash it down a good bit; this",
+      "preview_tail": "ishing: 8. Place one M&M in the center of each softened Kiss. Go ahead and smash it down a good bit; this will set the M&M into the chocolate more firmly, and also cause the chocolate to spread around",
+      "full_text": "in a 200\u00b0 oven. (Be careful, too, of scalding the chocolate, which imparts a bitter taste.) Finishing: 8. Place one M&M in the center of each softened Kiss. Go ahead and smash it down a good bit; this will set the M&M into the chocolate more firmly, and also cause the chocolate to spread around",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 95,
+      "hash": "8b1ef32f",
+      "n_words": 177,
+      "n_chars": 1546,
+      "preview_head": "}, ], }), components: { Logo, }, computed: { ...mapState({ account: state => state.account, }), }, methods: { ...mapActions('navbar', [ 'toggleSideBar', ]), } } </script> Drawer.vue: <template> <v-nav",
+      "preview_tail": "ctions, getters, mutations, }; Looking at the Vue/Vuex devtools, I can tell that the Vuex portion of things is working correctly and state correctly updates to reflect that sideBarOpen is either false",
+      "full_text": "}, ], }), components: { Logo, }, computed: { ...mapState({ account: state => state.account, }), }, methods: { ...mapActions('navbar', [ 'toggleSideBar', ]), } } </script> Drawer.vue: <template> <v-navigation-drawer absolute temporary> <v-list class=\"pa-1\"> <v-list-tile avatar> <v-list-tile-avatar> <img src=\"https://randomuser.me/api/portraits/men/85.jpg\"> </v-list-tile-avatar> <v-list-tile-content> <v-list-tile-title>John Leider</v-list-tile-title> </v-list-tile-content> </v-list-tile> </v-list> <v-list class=\"pt-0\" dense> <v-divider></v-divider> <v-list-tile v-for=\"item in items\" :key=\"item.title\"> <v-list-tile-action> <v-icon>{{ item.icon }}</v-icon> </v-list-tile-action> <v-list-tile-content> <v-list-tile-title>{{ item.title }}</v-list-tile-title> </v-list-tile-content> </v-list-tile> </v-list> </v-navigation-drawer> </template> <script> export default { data: () => ({ items: [ { title: \"Profile\", url: \"/profile\" }, { title: \"Logout\", url: \"/login\" } ] }) }; </scripT> My navbar.module.js is as follows: const state = { sideBarOpen: false, }; const getters = { g_sideBarOpen(state) { return state.sideBarOpen } }; const actions = { toggleSideBar({ commit }) { commit('toggleSideBar'); }, }; const mutations = { toggleSideBar(state) { state.sideBarOpen = !state.sideBarOpen; } }; export const navbar = { namespaced: true, state, actions, getters, mutations, }; Looking at the Vue/Vuex devtools, I can tell that the Vuex portion of things is working correctly and state correctly updates to reflect that sideBarOpen is either false",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 96,
+      "hash": "f1c7402b",
+      "n_words": 349,
+      "n_chars": 2554,
+      "preview_head": "iations and individual print, broadcast, and online news organizations. While various codes may have some differences, most share common elements including the principles of truthfulness, accuracy, ob",
+      "preview_tail": "ble groups (e.g., children, crime victims). 4. Public Accountability: - Journalism serves the public good. This includes exposing corruption and holding power to account, even when it incurs backlash.",
+      "full_text": "iations and individual print, broadcast, and online news organizations. While various codes may have some differences, most share common elements including the principles of truthfulness, accuracy, objectivity, impartiality, fairness, and public accountability, as these apply to the acquisition of newsworthy information and its subsequent dissemination to the public. Like many broader ethical systems, the ethics of journalism include the principle of \"limitation of harm.\" This may involve the withholding of certain details from reports, such as the names of minor children, crime victims' names, or information not materially related to the news report where the release of such information might, for example, harm someone's reputation. Some journalistic codes of ethics, notably some European codes, also include a concern with discriminatory references in news based on race, religion, sexual orientation, and physical or mental disabilities. The Parliamentary AssemblyThe Parliamentary Assembly, particularly the Council of Europe\u2019s Parliamentary Assembly, has historically engaged with media ethics, especially in fostering democratic values and human rights. Its recommendations and reports often stress the importance of ethical journalism in maintaining democratic societies, emphasizing the role of journalists as guardians of transparency and public trust. Below is an expanded overview of journalism ethics and standards, incorporating these elements: --- ### Core Principles of Journalism Ethics 1. Truthfulness and Accuracy: - Journalists must verify facts rigorously before publication. Errors should be corrected promptly and transparently. - Misrepresentation or manipulation of facts undermines public trust. 2. Objectivity and Impartiality: - Reports should avoid bias, presenting multiple perspectives to allow readers to form their own conclusions. - However, this principle has been challenged in recent years, as some argue that \"neutrality\" can perpetuate systemic injustices. Contextual fairness (highlighting marginalized voices) is increasingly emphasized. 3. Fairness and Equity: - Give subjects of news the opportunity to respond to allegations. - Avoid stereotyping or discriminatory language, as mandated by codes like the European Code of Journalistic Conduct. This includes respecting privacy, especially for vulnerable groups (e.g., children, crime victims). 4. Public Accountability: - Journalism serves the public good. This includes exposing corruption and holding power to account, even when it incurs backlash.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 97,
+      "hash": "1f142a9f",
+      "n_words": 40,
+      "n_chars": 265,
+      "preview_head": "re often specified by many race organisations. A wise choice and cheap insurance for high output engines. Fits 1980-1995 Ford 5.0l (302) with external 50oz balance (weight is detachable). 157-tooth ri",
+      "preview_tail": "cheap insurance for high output engines. Fits 1980-1995 Ford 5.0l (302) with external 50oz balance (weight is detachable). 157-tooth ring gear, accepts 10.5\u201d clutch covers including late metric style.",
+      "full_text": "re often specified by many race organisations. A wise choice and cheap insurance for high output engines. Fits 1980-1995 Ford 5.0l (302) with external 50oz balance (weight is detachable). 157-tooth ring gear, accepts 10.5\u201d clutch covers including late metric style.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 98,
+      "hash": "abeffa8a",
+      "n_words": 156,
+      "n_chars": 1586,
+      "preview_head": "<script type=\"text/javascript\" src=\"../../jquery.easyui.min.js\"></script> </head> <body> <h2>Custom DataGrid Pager</h2> <p>You can append some buttons to the standard datagrid pager by using the toolb",
+      "preview_tail": "ue` to enable pagination functionality provided by jQuery EasyUI. Make sure you have the necessary JSON data file (`datagrid_data.json`) available, or adjust the URL and data source as needed for your",
+      "full_text": "<script type=\"text/javascript\" src=\"../../jquery.easyui.min.js\"></script> </head> <body> <h2>Custom DataGrid Pager</h2> <p>You can append some buttons to the standard datagrid pager by using the toolbar option. Here's an example of how you might set up a custom pager for a jQuery EasyUI DataGrid: ```html <div style=\"margin-bottom:10px;\"> <a href=\"#\" class=\"easyui-linkbutton\" onclick=\"javascript:$('#dg').datagrid('prevPage');\" data-options=\"iconCls:'icon-prev'\">Prev Page</a> <a href=\"#\" class=\"easyui-linkbutton\" onclick=\"javascript:$('#dg').datagrid('nextPage');\" data-options=\"iconCls:'icon-next'\">Next Page</a> </div> <table class=\"easyui-datagrid\" style=\"width:700px;height:250px\" toolbar=\"#toolbar\" pagination=\"true\"> </table> <div id=\"toolbar\"> <a href=\"#\" class=\"easyui-linkbutton\" onclick=\"javascript:$('#dg').datagrid('prevPage');\" data-options=\"iconCls:'icon-prev'\">Prev Page</a> <a href=\"#\" class=\"easyui-linkbutton\" onclick=\"javascript:$('#dg').datagrid('nextPage');\" data-options=\"iconCls:'icon-next'\">Next Page</a> </div> <script type=\"text/javascript\"> $(function(){ $('#dg').datagrid({ url: 'datagrid_data.json', toolbar: '#toolbar' }); }); </script> ``` In this example, the `toolbar` option is used to specify a custom toolbar for the DataGrid. The toolbar contains links that can be clicked to navigate through pages of data. The `pagination` option is set to `true` to enable pagination functionality provided by jQuery EasyUI. Make sure you have the necessary JSON data file (`datagrid_data.json`) available, or adjust the URL and data source as needed for your",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 99,
+      "hash": "08ae4a29",
+      "n_words": 113,
+      "n_chars": 836,
+      "preview_head": "underlying health concerns already present such as eye inflammation or otitis media\u2014conditions typically requiring veterinary attention including antibiotic treatments tailored specifically based upon",
+      "preview_tail": " infestations . conjunctivitis It is an inflammation of the conjunctiva, which are a common cause of mechanical stress ( trauma , foreign bodies ) , invasion and infection , chemical irritants (lime ,",
+      "full_text": "underlying health concerns already present such as eye inflammation or otitis media\u2014conditions typically requiring veterinary attention including antibiotic treatments tailored specifically based upon each animal\u2019s particular diagnosis & severity. In treating affected livestock for conditions like conjunctivitis, veterinarians may recommend specific ointments be applied directly into the ear canal; these medications help alleviate discomfort while combating potential bacterial causes behind observed symptoms In most cases the farmer may face with conjunctivitis and keratitis as independent diseases and concomitant infections and infestations . conjunctivitis It is an inflammation of the conjunctiva, which are a common cause of mechanical stress ( trauma , foreign bodies ) , invasion and infection , chemical irritants (lime ,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 100,
+      "hash": "6aebbe3f",
+      "n_words": 166,
+      "n_chars": 1022,
+      "preview_head": "es the Most During the 1990s Have Suffered Lately REVISED January 12, 2005 by Robert Greenstein Summary Between the mid-1990s and 2001, states enacted a wave of tax cuts. Some 44 states enacted tax cu",
+      "preview_tail": " Careers Contact Search You are here Home / RESEARCH / Tax Cuts and Consequences: The States That Cut Taxes the Most During the 1990s Have Suffered Lately REVISED January 12, 2005 by Robert Greenstein",
+      "full_text": "es the Most During the 1990s Have Suffered Lately REVISED January 12, 2005 by Robert Greenstein Summary Between the mid-1990s and 2001, states enacted a wave of tax cuts. Some 44 states enacted tax cuts that ultimately reduced state revenue by an average of 7.6 percent. Sixteen states reduced revenue by more than seven percHere is the completed text based on the user's input: Jump to Navigation MENU ABOUT Mission & History State Policy Work Board Staff Finances Special Projects Policy Futures View all Projects RESEARCH Federal Budget Tax Cuts and Consequences: The States That Cut Taxes the Most During the 1990s Have Suffered Lately Federal Tax State Budget and Tax Health Social Security Economy Poverty and Inequality Food Assistance Family Income Support Housing Climate Change View all EXPERTS BLOG DONATE Press Careers Contact Search You are here Home / RESEARCH / Tax Cuts and Consequences: The States That Cut Taxes the Most During the 1990s Have Suffered Lately REVISED January 12, 2005 by Robert Greenstein",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 101,
+      "hash": "8a68a8ad",
+      "n_words": 45,
+      "n_chars": 326,
+      "preview_head": "on may refer to: Sam Watson (trade unionist) (1898\u20131967), English coalminers' leader Sam Watson (activist) (1952\u20132019), Australian novelist, filmmaker and political activist sam watson (equestrian) (b",
+      "preview_tail": "lian novelist, filmmaker and political activist sam watson (equestrian) (born 1985), Irish eventing rider Samuel WaganWatson (often referred to as Sam Watson; born 17 June 1963 in Liverpool, England),",
+      "full_text": "on may refer to: Sam Watson (trade unionist) (1898\u20131967), English coalminers' leader Sam Watson (activist) (1952\u20132019), Australian novelist, filmmaker and political activist sam watson (equestrian) (born 1985), Irish eventing rider Samuel WaganWatson (often referred to as Sam Watson; born 17 June 1963 in Liverpool, England),",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 102,
+      "hash": "3415f399",
+      "n_words": 236,
+      "n_chars": 1372,
+      "preview_head": "countryside and the mountains in Southern Japan. Here\u2019s a few photos from Sakunami Highway that leads to the distillery: See this photo on Flickr See this photo on Flickr The mountain above is called ",
+      "preview_tail": "ashi Nikka\u2019s Miyagikyo Distillery Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment * Name * Email * Website Save my name, email, and website in",
+      "full_text": "countryside and the mountains in Southern Japan. Here\u2019s a few photos from Sakunami Highway that leads to the distillery: See this photo on Flickr See this photo on Flickr The mountain above is called Kamakurayama. I read later that it is possible to go hiking there from the hot springs, so it\u2019s a shame we missed that opportunity. See this photo on Flickr The distillery is just around the corner in the image above. Despite all the bugs it was a pleasant 20-minute walk to the distillery and although we spent a good amount of time goofing around and taking photos of the insects and other stuff, we managed to get there well before the bus. If you want to see the route to the distillery yourself, check the map with the street view below (turn left on the highway and head towards the big mountain): View Larger Map Share this: Click to share on Twitter (Opens in new window) Click to share on Facebook (Opens in new window) Like this: Like Loading... Posted in Japan, Japan 2009, Landscape, Nature, TravelTagged Beauty In Nature, Color Image, countryside, highway, hiking, Kamakurayama, mountain, Outdoors, road, Sakunami, Sendai, traveling Post navigation Day 4 \u2013 Ayashi Nikka\u2019s Miyagikyo Distillery Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment * Name * Email * Website Save my name, email, and website in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 103,
+      "hash": "9b959194",
+      "n_words": 86,
+      "n_chars": 662,
+      "preview_head": "(6), 933-953, 2012). The new method was comparedwith a sequentialinteritem distance weighted deviation model (IID WDM) (Swanson& Stocking in Applied Psychological Measurement, 17(2), 151-166, 1993),a ",
+      "preview_tail": "imultaneous versions ofIID WDM yielded results comparable to those obtained using the BST MIP method.The cell-onlymethod with content balancing iscomputationally less intensive than the sequential and",
+      "full_text": "(6), 933-953, 2012). The new method was comparedwith a sequentialinteritem distance weighted deviation model (IID WDM) (Swanson& Stocking in Applied Psychological Measurement, 17(2), 151-166, 1993),a simultaneous IIDWDM,and a big-shadow-test mixed integer programming (BST MIP)method to construct multiple parallel forms based on matching a reference form item-by-item. The results showed that the cell-only method with content balancing and the sequential and simultaneous versions ofIID WDM yielded results comparable to those obtained using the BST MIP method.The cell-onlymethod with content balancing iscomputationally less intensive than the sequential and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 104,
+      "hash": "5e950e7b",
+      "n_words": 198,
+      "n_chars": 1330,
+      "preview_head": "o identify the viral gene functions affecting cell growth regulation. We will attempt to select mutants that may be blocked in a function required for cell transformation, but not for lytic growth of ",
+      "preview_tail": " examine if certain mutations might result i changes of the virion structure that could be detected by antigenic analysis with specific monoclonal antibodies (e.g., 1A6, which is directed against VP3;",
+      "full_text": "o identify the viral gene functions affecting cell growth regulation. We will attempt to select mutants that may be blocked in a function required for cell transformation, but not for lytic growth of the virus. We will map a number of polyoma mutants by the use of restrict fragment mapping procedure developed and used previously with SV40 (A.S., unpublished). A SDS-PAGE gel analysis method has been established to analyze polypeptide components from wild-type infected cells, ts mutant-infected_cells at non-permissive temperature ('43\u00b0), or post-shifted (\"permeabilized\")ts mutants grown a t permissible temperatures. The polyoma virus structural protein compositions of the different preparations will be compared by analytical SDS-PAGE after silver staining to see if there are any differences between them with respect o their components and mobilities, which may reflect alterations in viral gene products or modifications thereof resulting from ts mutation effects. In addition, we have recently developed an improved method for isolating polyoma virus capsids from infected cells. We plan t use this system as a model to examine if certain mutations might result i changes of the virion structure that could be detected by antigenic analysis with specific monoclonal antibodies (e.g., 1A6, which is directed against VP3;",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 105,
+      "hash": "236f0bba",
+      "n_words": 47,
+      "n_chars": 333,
+      "preview_head": "\u201cLea\u201d\u2014these are not just random words but represent some unique office chairs that have gained immense popularity among employees for their ergonomic design offering a comfortable seating experience. ",
+      "preview_tail": " their ergonomic design offering a comfortable seating experience. The text here highlights how these specialized pieces of furniture can evoke strong emotional connections, almost like favorite toys!",
+      "full_text": "\u201cLea\u201d\u2014these are not just random words but represent some unique office chairs that have gained immense popularity among employees for their ergonomic design offering a comfortable seating experience. The text here highlights how these specialized pieces of furniture can evoke strong emotional connections, almost like favorite toys!",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 106,
+      "hash": "3b91a3d2",
+      "n_words": 114,
+      "n_chars": 767,
+      "preview_head": "Nations Ranking - Juniors Ranking for Olympics - Individuals Ranking for Olympics - Teams PDF Downloads Results \u25be Browse Recent Results Live Competitions Documents About IJF \u25be Organisation Commissions",
+      "preview_tail": "on. All rights reserved. Contact | Imprint | Legal | Cookies Please report any problems to [email protected] Cookies IJF.org is using cookies. By accepting these cookies be set. Check more information",
+      "full_text": "Nations Ranking - Juniors Ranking for Olympics - Individuals Ranking for Olympics - Teams PDF Downloads Results \u25be Browse Recent Results Live Competitions Documents About IJF \u25be Organisation Commissions President's Corner Clean Judo History and Culture Links Official Supplier List COVID-19 IJF.org Judo Awards 2021 Live Judobase Throw to Tokyo 2020 Judo In Schools Analyzer Account Fit Veterans Admin Travel -52 kg HUAYHUAMEZA Noemi Peru Age: 19 years Overview Photos Contests Videos Results WRL Loading... Please wait Copyright \u00a9 2007-2022 International Judo Federation. All rights reserved. Contact | Imprint | Legal | Cookies Please report any problems to [email protected] Cookies IJF.org is using cookies. By accepting these cookies be set. Check more information",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 107,
+      "hash": "1731434f",
+      "n_words": 60,
+      "n_chars": 337,
+      "preview_head": "this award \u2013 a process that will take years of dedicated study and months spent writing and rewriting a personal statement \u2013 you may just decide that there are other, more productive ways to spend you",
+      "preview_tail": " decide that there are other, more productive ways to spend your time. Stephen K. Worden \u201811 stood at the foot of that mountain not long after arriving at DePauw, when Andrea Sununu, the System: \u8bf7\u786e\u4fdd\u60a8\u7684",
+      "full_text": "this award \u2013 a process that will take years of dedicated study and months spent writing and rewriting a personal statement \u2013 you may just decide that there are other, more productive ways to spend your time. Stephen K. Worden \u201811 stood at the foot of that mountain not long after arriving at DePauw, when Andrea Sununu, the System: \u8bf7\u786e\u4fdd\u60a8\u7684",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 108,
+      "hash": "47ddb4ea",
+      "n_words": 100,
+      "n_chars": 701,
+      "preview_head": "ate Mobile View Full Site Search: \u00bb Show PathMain Menu Home + The Secretary Secretary Kerry Remarks Travel Photos Biography + Policy Issues Afghanistan China Climate Change Counterterrorism Cyber Issu",
+      "preview_tail": "efings Remarks, Testimony by Senior Officials Key Policy Fact Sheets Reports and Publications International Media EngagIt looks like you're trying to navigate through the U.S. Department of State\u2019s we",
+      "full_text": "ate Mobile View Full Site Search: \u00bb Show PathMain Menu Home + The Secretary Secretary Kerry Remarks Travel Photos Biography + Policy Issues Afghanistan China Climate Change Counterterrorism Cyber Issues Democracy and Human Rights East Asia and the Pacific Economic Issues Energy Security Food Security Health Iran Israel Nonproliferation Pakistan Sub-Saharan Africa Syria Trafficking in Persons Ukraine Women's Issues + Media Center Daily Press Briefings Public Schedule Press Releases and Special Briefings Remarks, Testimony by Senior Officials Key Policy Fact Sheets Reports and Publications International Media EngagIt looks like you're trying to navigate through the U.S. Department of State\u2019s we",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 109,
+      "hash": "67ab832b",
+      "n_words": 42,
+      "n_chars": 268,
+      "preview_head": "erience in Cold War, a competent but unremarkable stealth action game thGameSpot is an online platform that offers comprehensive coverage of video games and gaming culture. Here's how you can navigate",
+      "preview_tail": "e thGameSpot is an online platform that offers comprehensive coverage of video games and gaming culture. Here's how you can navigate through its various sections: 1. Menu: This section allows users to",
+      "full_text": "erience in Cold War, a competent but unremarkable stealth action game thGameSpot is an online platform that offers comprehensive coverage of video games and gaming culture. Here's how you can navigate through its various sections: 1. Menu: This section allows users to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 110,
+      "hash": "87e12f85",
+      "n_words": 51,
+      "n_chars": 260,
+      "preview_head": "a native English speaker, the expression \"I doNe\" should be avoided at all costs! By the way, I'm now searching for similar phrases in BNC and see this: \"As a child, I can remember it ever so well, do",
+      "preview_tail": "avoided at all costs! By the way, I'm now searching for similar phrases in BNC and see this: \"As a child, I can remember it ever so well, doing it, mm\". Here, it's clear that the speaker is not a chil",
+      "full_text": "a native English speaker, the expression \"I doNe\" should be avoided at all costs! By the way, I'm now searching for similar phrases in BNC and see this: \"As a child, I can remember it ever so well, doing it, mm\". Here, it's clear that the speaker is not a chil",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 111,
+      "hash": "6d9d929f",
+      "n_words": 58,
+      "n_chars": 470,
+      "preview_head": "in some norm inequalities for differential forms --- **Keywords:** Babu\u0161ka-Aziz inequality, Friedrichs-Velte inequality, improved Poincar[\u00e9]{} inequality, optimal constants **AMS Subject Classificatio",
+      "preview_tail": "[\u00e9]{} inequality for the gradient developed in [@hurri1994] has been recently proved in [@jiang2014] to be equivalent to the solvability of the divergence equation, that is, to the validity oCould not",
+      "full_text": "in some norm inequalities for differential forms --- **Keywords:** Babu\u0161ka-Aziz inequality, Friedrichs-Velte inequality, improved Poincar[\u00e9]{} inequality, optimal constants **AMS Subject Classification (2010)**: 46E30,35Q35 Introduction ============ The improved Poincar[\u00e9]{} inequality for the gradient developed in [@hurri1994] has been recently proved in [@jiang2014] to be equivalent to the solvability of the divergence equation, that is, to the validity oCould not",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 112,
+      "hash": "67c66434",
+      "n_words": 96,
+      "n_chars": 593,
+      "preview_head": "he like of which has never been seen on this earth.\u201d According to the World-Telegram of Aug. 7, \u201cInformed sources at Pearl Harbor said the bomb was understood to have the power to blind persons within",
+      "preview_tail": "les into the air. Eyewitness reports describe the scene as apocalyptic, with buildings collapsing and widespread devastation. The news of the atomic bomb's destructive power sent shockwaves around the",
+      "full_text": "he like of which has never been seen on this earth.\u201d According to the World-Telegram of Aug. 7, \u201cInformed sources at Pearl Harbor said the bomb was understood to have the power to blind persons within a five-mile radius and tokill them by radiation, and to set fires over a much wider area through the intense heat generated. The explosion caused a huge mushroom-shaped cloud rising several miles into the air. Eyewitness reports describe the scene as apocalyptic, with buildings collapsing and widespread devastation. The news of the atomic bomb's destructive power sent shockwaves around the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 113,
+      "hash": "bfcbca8d",
+      "n_words": 102,
+      "n_chars": 712,
+      "preview_head": "Under Contract For Sale Orchard Court Apartments $9,000,000 1162 Orchard Ct N, Keizer, OR 97303, USA Multifamily Joseph Chaplik 6 months ago The Orchard Court Apartments are a well maintained, 50-unit",
+      "preview_tail": " <a href=\"https://www.post1031.com/property/orchard-court-apartments/\">Read More \u00bb</a> 48,724 SqFt Sold Kent Apartments $1,820,000 904 SE 20th Ave, Portland, OR 97214, USA Multifamily Joseph Chaplik 6",
+      "full_text": "Under Contract For Sale Orchard Court Apartments $9,000,000 1162 Orchard Ct N, Keizer, OR 97303, USA Multifamily Joseph Chaplik 6 months ago The Orchard Court Apartments are a well maintained, 50-unit complex on a quiet cul-de-sac in Keizer, Oregon. The property consists of 10 buildings and includes 8 garages with 16 total garage bays. There are 42, two-bedroom units, and 8, three-bedroom units that all include washers and dryers. There is an additional laundry room. The property also features off-street... <a href=\"https://www.post1031.com/property/orchard-court-apartments/\">Read More \u00bb</a> 48,724 SqFt Sold Kent Apartments $1,820,000 904 SE 20th Ave, Portland, OR 97214, USA Multifamily Joseph Chaplik 6",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 114,
+      "hash": "d1b5085d",
+      "n_words": 69,
+      "n_chars": 500,
+      "preview_head": "ein 4 is expressed in highly differentiated keratinocytes and trichocytes in human epidermis and hair follicle. Desmosomes are critical for the tissue integrity of stratified epithelia and their appen",
+      "preview_tail": "ct extracellularly to link neighboring epithelial cells. We recently identified a new member of the DSG family, designated desmoglein 4, whose mutations cause hypotrichosis in human, mouse and rat. In",
+      "full_text": "ein 4 is expressed in highly differentiated keratinocytes and trichocytes in human epidermis and hair follicle. Desmosomes are critical for the tissue integrity of stratified epithelia and their appendages. Desmogleins (DSGs) and desmocollins (DSCs) are transmembrane desmosomal cadherins that interact extracellularly to link neighboring epithelial cells. We recently identified a new member of the DSG family, designated desmoglein 4, whose mutations cause hypotrichosis in human, mouse and rat. In",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 115,
+      "hash": "102071c4",
+      "n_words": 67,
+      "n_chars": 403,
+      "preview_head": "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU Affero General Public License for more details. * * You shou",
+      "preview_tail": "have received a copy of the GNU Affero General Public License * along with this program. If not, see <http://www.gnu.org/licenses/>. * * As a exception, the copyright holders give * permission to use,",
+      "full_text": "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU Affero General Public License for more details. * * You should have received a copy of the GNU Affero General Public License * along with this program. If not, see <http://www.gnu.org/licenses/>. * * As a exception, the copyright holders give * permission to use,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 116,
+      "hash": "3f6df716",
+      "n_words": 83,
+      "n_chars": 527,
+      "preview_head": "dd to Wishlist Add to Compare OEM Samsung CLT-409 Toner Cartridge Set for CLP-310 CLP-315 CLX-3170 CLX-3175FN Regular Price: $199.99 Special Price: $149.99 Add to Cart Add to Wishlist Add to Compare O",
+      "preview_tail": "d to Cart Add to Wishlist Add to Compare OEM Samsung CLT-409 Toner Cartridge Set for CLP-310 CLP-315 CLX-3170 CLX-3175FN Regular Price: $199.99 Special Price: $149.99 Add to Cart Add to Wishlist Add t",
+      "full_text": "dd to Wishlist Add to Compare OEM Samsung CLT-409 Toner Cartridge Set for CLP-310 CLP-315 CLX-3170 CLX-3175FN Regular Price: $199.99 Special Price: $149.99 Add to Cart Add to Wishlist Add to Compare OEM Samsung CLT-409 Toner Cartridge Set for CLP-310 CLP-315 CLX-3170 CLX-3175FN Regular Price: $199.99 Special Price: $149.99 Add to Cart Add to Wishlist Add to Compare OEM Samsung CLT-409 Toner Cartridge Set for CLP-310 CLP-315 CLX-3170 CLX-3175FN Regular Price: $199.99 Special Price: $149.99 Add to Cart Add to Wishlist Add t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 117,
+      "hash": "7b402473",
+      "n_words": 43,
+      "n_chars": 443,
+      "preview_head": "L Editor (see www.w3.org/StyleSheets/TR/htmlcss21/wd-html4-strict.dtd)\"> <!-- This file is part of the Aalto XML processor. AALTO_XML_HOME = http://aaltoxml.sourceforge.net/ --> <LINK REL =\"stylesheet",
+      "preview_tail": "e.css\"> <META NAME=viewport CONTENT='width=device-width, initial-scale=1'> <BODY BGCOLOR=\"#FFFFFF\"> <DIV ID=\"top\"><!-- top of page --> <!-- ========== Uses ========= --> <H2> Class Uses</H3><HR></DIV>",
+      "full_text": "L Editor (see www.w3.org/StyleSheets/TR/htmlcss21/wd-html4-strict.dtd)\"> <!-- This file is part of the Aalto XML processor. AALTO_XML_HOME = http://aaltoxml.sourceforge.net/ --> <LINK REL =\"stylesheet\" TYPE=\"text/css\" HREF=\"../../../../../style.css\"> <META NAME=viewport CONTENT='width=device-width, initial-scale=1'> <BODY BGCOLOR=\"#FFFFFF\"> <DIV ID=\"top\"><!-- top of page --> <!-- ========== Uses ========= --> <H2> Class Uses</H3><HR></DIV>",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 118,
+      "hash": "2efc7b81",
+      "n_words": 146,
+      "n_chars": 911,
+      "preview_head": "Juan Gonz\u00e1lez Home Daily Shows Friday, April 24 Thursday, April 23 Wednesday, April 22 Tuesday, April 21 Monday, April 20 Browse the Archive Top Stories \"Running While Black\": Protests Swell over Deat",
+      "preview_tail": "- Healthcare in Crisis: The Impact of COVID-19 on Global Health Systems ### Opinion - Varoufakis: \"Europe Must Embrace Progressive Policies to Survive\" - AOC: \"Climate Change Is a Class Issue\" - Greta",
+      "full_text": "Juan Gonz\u00e1lez Home Daily Shows Friday, April 24 Thursday, April 23 Wednesday, April 22 Tuesday, April 21 Monday, April 20 Browse the Archive Top Stories \"Running While Black\": Protests Swell over Death of Freddie Gray in Baltimore Police Custody How Many More? 116 Environmental Defenders Were Murdered Last Year, Mostly in Latin America Greece's Yanis Varoufakis### Headlines - Greece on the Brink: EU Demands Austerity as Bailout Talks Intensify - Climate Crisis: New Report Warns of Irreversible Damage by 2030 - Tech Giants Under Fire: Antitrust Hearings Loom for Facebook and Google ### Special Reports - The Fight for Net Neutrality: What's at Stake? - Inside the U.S.-China Trade War: Winners and Losers - Healthcare in Crisis: The Impact of COVID-19 on Global Health Systems ### Opinion - Varoufakis: \"Europe Must Embrace Progressive Policies to Survive\" - AOC: \"Climate Change Is a Class Issue\" - Greta",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 119,
+      "hash": "37991b30",
+      "n_words": 39,
+      "n_chars": 300,
+      "preview_head": "saline treatment showed increased [125I]CGP42112 binding as well a significant increase i n OX-42 immunoreactivity compared to pre-surgical values. In contrast minocycline treated animals exhibited de",
+      "preview_tail": "munoreactivity compared to pre-surgical values. In contrast minocycline treated animals exhibited decreased microglia activation, reduced non -angiotensin II related CGp4l2 linding and lower levels of",
+      "full_text": "saline treatment showed increased [125I]CGP42112 binding as well a significant increase i n OX-42 immunoreactivity compared to pre-surgical values. In contrast minocycline treated animals exhibited decreased microglia activation, reduced non -angiotensin II related CGp4l2 linding and lower levels of",
+      "avg_prediction": 0.0
+    }
+  ]
+}

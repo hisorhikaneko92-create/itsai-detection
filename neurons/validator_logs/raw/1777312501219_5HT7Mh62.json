@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-04-27T17:55:01.219471+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 4,
+  "duplicates": [],
+  "latency_ms": 2197,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "ed15852c",
+      "n_words": 91,
+      "n_chars": 542,
+      "preview_head": "& Nickel: Established in 1997 by the partners of Far Niente, Nickel & Nickel is based on a philosophy of producing 100 percent varietal, single-vineyard wines that best express the distinct pBased on ",
+      "preview_tail": "nemaker's Notes: Exceptional, with its wealth of detail and dimension. The wine is tremendously earthy, with red and fruit galore! It is without a doubt, the reason the region of St. Helena has such a",
+      "full_text": "& Nickel: Established in 1997 by the partners of Far Niente, Nickel & Nickel is based on a philosophy of producing 100 percent varietal, single-vineyard wines that best express the distinct pBased on the text provided, here's a completion that fits the context: Wine Spectator Score: 95 points Submit a Critic Score: [Open space for input] Winemaker's Notes: Exceptional, with its wealth of detail and dimension. The wine is tremendously earthy, with red and fruit galore! It is without a doubt, the reason the region of St. Helena has such a",
+      "avg_prediction": 0.98
+    },
+    {
+      "idx": 1,
+      "hash": "06f97f49",
+      "n_words": 162,
+      "n_chars": 1020,
+      "preview_head": "lopment of the artist Emily Fanny Rowell Pearce from a small child to an elegant accomplished artist. In 122 images created with every technique and media, the book follows her artistic development th",
+      "preview_tail": "d San Francisco book competitions. Patricia and her husband, Jim, have been recognized in the New York, LA, and San Francisco book competitions. Patricia and her husband, Jim, have been together since",
+      "full_text": "lopment of the artist Emily Fanny Rowell Pearce from a small child to an elegant accomplished artist. In 122 images created with every technique and media, the book follows her artistic development through the phases of her life: childhood, youth, military wife and mother, college student grandmother, and professional artist and teacher. Thirty-seven photographs of her life and her travel tours to the art centers in South Korea, Russia, and France are included. Author\u2019s Biography Patricia A. McDonough has been writing and editing books for a lifetime. Her third book Without Keys was a Pulitzer Prize semi-finalist. Owner of McMcCre Publishing, her editing and writing has been recognized in the New York, LA, and San Francisco book competitions. Her editing and writing has been recognized in the New York, LA, and San Francisco book competitions. Patricia and her husband, Jim, have been recognized in the New York, LA, and San Francisco book competitions. Patricia and her husband, Jim, have been together since",
+      "avg_prediction": 0.5461
+    },
+    {
+      "idx": 2,
+      "hash": "7887975a",
+      "n_words": 143,
+      "n_chars": 972,
+      "preview_head": "metal-oxide semiconductor (CMOS) image sensor. Compared to the CCD image sensor, the CMOS image sensor (CIS) has wider applications. A CMOS image sensor circuit includes photosensitive components, tra",
+      "preview_tail": "t Speeds: CMOS sensors can be designed with parallel output channels allowing faster data readouts and higher frame rates which are essential for video applications or high-speed imaging tasks. 3. On-",
+      "full_text": "metal-oxide semiconductor (CMOS) image sensor. Compared to the CCD image sensor, the CMOS image sensor (CIS) has wider applications. A CMOS image sensor circuit includes photosensitive components, transistors, capacitors and other structures integrated oN a single chip. These sensors are designed for low power consumption, high integration levels, fast readout speeds, and they can be manufactured using standard semiconductor processes which make them cost-effective. The key advantages of CMOS image sensors over CCDs include: 1. Lower Power Consumption: Due to the design that allows each pixel in a CIS (CMOS Image Sensor) array to have its own charge-to-voltage conversion capabilities, less power is required for operation compared to CCD devices. 2. Faster Readout Speeds: CMOS sensors can be designed with parallel output channels allowing faster data readouts and higher frame rates which are essential for video applications or high-speed imaging tasks. 3. On-",
+      "avg_prediction": 0.9694
+    },
+    {
+      "idx": 3,
+      "hash": "105ca409",
+      "n_words": 86,
+      "n_chars": 434,
+      "preview_head": ".. */ /* Purpose */ /* ======= */ /* interchanges two vectors. */ /* uses unrolled loops for increments equal one. */ /* jack dongarra, linpack, 3/11/78. */ /* modified 12/3/93, array(1) declarations ",
+      "preview_tail": " Scalars .. */ /* .. */ /* .. Intrinsic Functions .. */ /* .. */ /* Parameter adjustments */ --dy; --dx; /* Function Body */ If (*n <= 0) { return 0; } if (*incx == 1 && *incy == 1) { goto L20; L10: i",
+      "full_text": ".. */ /* Purpose */ /* ======= */ /* interchanges two vectors. */ /* uses unrolled loops for increments equal one. */ /* jack dongarra, linpack, 3/11/78. */ /* modified 12/3/93, array(1) declarations changed to array(*) */ /* .. Local Scalars .. */ /* .. */ /* .. Intrinsic Functions .. */ /* .. */ /* Parameter adjustments */ --dy; --dx; /* Function Body */ If (*n <= 0) { return 0; } if (*incx == 1 && *incy == 1) { goto L20; L10: i",
+      "avg_prediction": 0.8636
+    }
+  ]
+}

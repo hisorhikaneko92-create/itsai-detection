@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "2026-04-25T16:31:36.917775+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 9,
+  "duplicates": [],
+  "latency_ms": 2690,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "11cb971e",
+      "n_words": 68,
+      "n_chars": 450,
+      "preview_head": "ac\" vs \"a car\"). It is stipulated by counsel parties and respondent Westbrook agrees below in point number three as to fact: The office where Respondent was stationed at the time of accident does not ",
+      "preview_tail": "less, this alleged misrepresentation (the allegedly false statement) related specifically an individual named 'my 1982 Cadillac,' a personal vehicle - i.e., for use or \"personal\". Joiner did stipulate",
+      "full_text": "ac\" vs \"a car\"). It is stipulated by counsel parties and respondent Westbrook agrees below in point number three as to fact: The office where Respondent was stationed at the time of accident does not fall within Alabama's venue jurisdiction. Nevertheless, this alleged misrepresentation (the allegedly false statement) related specifically an individual named 'my 1982 Cadillac,' a personal vehicle - i.e., for use or \"personal\". Joiner did stipulate",
+      "avg_prediction": 0.9838
+    },
+    {
+      "idx": 1,
+      "hash": "8a6f10a4",
+      "n_words": 239,
+      "n_chars": 1646,
+      "preview_head": "r are different from each other? (in regards to performing different operations, services available ineach etc.) How both communicate with each other? (if i developed my front-end app in Web-tier and ",
+      "preview_tail": "ernatively, you canuseRESTful APIs or other HTTP-based interfaces to communicate between the two tiers. Inyour scenario, where you have developed your front-endapp in the web-tier and back-end in the ",
+      "full_text": "r are different from each other? (in regards to performing different operations, services available ineach etc.) How both communicate with each other? (if i developed my front-end app in Web-tier and back-end in Worker-tier) A: The most important differencein my opinion is that worker tier instances do not run web server processes(apache, nginx, etc). As such, they do not directly respond to customer requests. Instead, t...theyare designed to handle long-running tasks, such as video processing, image resizing, orother compute-intensive operations. Thesetasks can be triggered byyour web application, but theyare executed independently of the web request-response cycle. On the other hand, web-tier instances are designed to run web server processes and directly respond to customer requests. They are responsible for servingweb content, handling HTTP requests, and providing a responsive userexperience. In terms of services available, both tiers have access to AWS services such as Amazon RDS, Amazon S3, and Amazon SQS. However, the web-tier hasadditional servicesavailable,such as Elastic Load Balancer (ELB) and Amazon Route 53, which are essential for handling web traffic. Regarding communication between the two tiers, they can communicate with each other using messaging services like AmazonSQSor Amazon SNS. For example, your web application can send a message to an SQS queue, which is then processed by a worker-tier instance.Alternatively, you canuseRESTful APIs or other HTTP-based interfaces to communicate between the two tiers. Inyour scenario, where you have developed your front-endapp in the web-tier and back-end in the ",
+      "avg_prediction": 0.7104
+    },
+    {
+      "idx": 2,
+      "hash": "b40d7239",
+      "n_words": 70,
+      "n_chars": 331,
+      "preview_head": ". The poem \"Secrets\" attracted 7 views. 3. \"The Power of Words\" received 6 visits, with 85% posting it. By Sir Thomas Lawrence 2 28% 0 0% 4 Revenge 5 71% 0 0% 5 Secrets 7 100% 0 0% 6 The Power Of Word",
+      "preview_tail": "% 0 0% 4 Revenge 5 71% 0 0% 5 Secrets 7 100% 0 0% 6 The Power Of Words 6 85% 0 0% Total 24 0 Average 4.0 0.0 Descriptions: Hits: Number of visitors who read the poem on the given date. Posts: Number o",
+      "full_text": ". The poem \"Secrets\" attracted 7 views. 3. \"The Power of Words\" received 6 visits, with 85% posting it. By Sir Thomas Lawrence 2 28% 0 0% 4 Revenge 5 71% 0 0% 5 Secrets 7 100% 0 0% 6 The Power Of Words 6 85% 0 0% Total 24 0 Average 4.0 0.0 Descriptions: Hits: Number of visitors who read the poem on the given date. Posts: Number o",
+      "avg_prediction": 0.9775
+    },
+    {
+      "idx": 3,
+      "hash": "b0b44da9",
+      "n_words": 10,
+      "n_chars": 296,
+      "preview_head": "\"//pkg/apis/admissionregistration/fuzzer:all-srcs\", \"//pkg/apis/admissionregistration/install:all-srcs\", \"//pkg/apis/admissionregistration/v1alpha1:all-srcs\", \"//pkg/apis/admissionregistration/v1beta1",
+      "preview_tail": "l-srcs\", \"//pkg/apis/admissionregistration/v1alpha1:all-srcs\", \"//pkg/apis/admissionregistration/v1beta1:all-srcs\", \"//pkg/apis/admissionregistration/validation:all-srcs\", ], tags = [\"automanaged\"], )",
+      "full_text": "\"//pkg/apis/admissionregistration/fuzzer:all-srcs\", \"//pkg/apis/admissionregistration/install:all-srcs\", \"//pkg/apis/admissionregistration/v1alpha1:all-srcs\", \"//pkg/apis/admissionregistration/v1beta1:all-srcs\", \"//pkg/apis/admissionregistration/validation:all-srcs\", ], tags = [\"automanaged\"], )",
+      "avg_prediction": 0.0273
+    },
+    {
+      "idx": 4,
+      "hash": "a03fc133",
+      "n_words": 70,
+      "n_chars": 441,
+      "preview_head": "ck Currency - USD $ AUD $ CAD CHF \u20ac EUR \u00a3 GBP $ NZD $ USD Shop By Category Vehicle Parts Back Vehicle Parts Air Intake Brake System Climate Control Cooling System Electrical & Ignition Engine Exhaust ",
+      "preview_tail": "ket & Seals Interior Lighting Suspension & Steering Transmission & Drivetrain Accessories Back Accessories Air Fresheners Apparel Electronics Gauges Literature Promotional Wheels & Tires Back Wheels &",
+      "full_text": "ck Currency - USD $ AUD $ CAD CHF \u20ac EUR \u00a3 GBP $ NZD $ USD Shop By Category Vehicle Parts Back Vehicle Parts Air Intake Brake System Climate Control Cooling System Electrical & Ignition Engine Exhaust Exterior Forced Induction Fuel System Gasket & Seals Interior Lighting Suspension & Steering Transmission & Drivetrain Accessories Back Accessories Air Fresheners Apparel Electronics Gauges Literature Promotional Wheels & Tires Back Wheels &",
+      "avg_prediction": 0.9033
+    },
+    {
+      "idx": 5,
+      "hash": "003fa0c9",
+      "n_words": 44,
+      "n_chars": 285,
+      "preview_head": "documented previous MI had electrocardiogram and CMR on the same day. Patients with acute MI within seven days were excluded. Left ventricular function and the size and transmural extent of 124 MIs wa",
+      "preview_tail": "cute MI within seven days were excluded. Left ventricular function and the size and transmural extent of 124 MIs was determined using a standard technique, including an automated software algorithm to",
+      "full_text": "documented previous MI had electrocardiogram and CMR on the same day. Patients with acute MI within seven days were excluded. Left ventricular function and the size and transmural extent of 124 MIs was determined using a standard technique, including an automated software algorithm to",
+      "avg_prediction": 0.9791
+    },
+    {
+      "idx": 6,
+      "hash": "43dc7202",
+      "n_words": 39,
+      "n_chars": 270,
+      "preview_head": "James Sanford James Sanford may refer to: James Sanford (athlete) (born 1957), American track and field sprinter James Sanford (ice hockey) (born 1984), Canadian professional ice hockey defenceman Jam",
+      "preview_tail": "n 1957), American track and field sprinter James Sanford (ice hockey) (born 1984), Canadian professional ice hockey defenceman James Terry Sanford (James Terry Sanford (1917-2003) was an American poli",
+      "full_text": "James Sanford James Sanford may refer to: James Sanford (athlete) (born 1957), American track and field sprinter James Sanford (ice hockey) (born 1984), Canadian professional ice hockey defenceman James Terry Sanford (James Terry Sanford (1917-2003) was an American poli",
+      "avg_prediction": 0.0374
+    },
+    {
+      "idx": 7,
+      "hash": "b5bc7687",
+      "n_words": 181,
+      "n_chars": 1150,
+      "preview_head": "counseling, workshops, scholarships, and supplies to edify them for bright, fulfilling futures. DEEDS OF LOVE In the midst of oppressive poverty, crime, and woundedness\u2014children and youth can reach th",
+      "preview_tail": "under-resourced schools, homes in economically-challenged neighborhoods, community-based organizations serving at-risk and exploited youth, juvenile detention facilities, foster homes, and shelters. 5",
+      "full_text": "counseling, workshops, scholarships, and supplies to edify them for bright, fulfilling futures. DEEDS OF LOVE In the midst of oppressive poverty, crime, and woundedness\u2014children and youth can reach the false conclusion they are less lovable, acceptable, or capable than others. Then hope in this world and the next fades. So Seek and Save aims to pair the words of God\u2019s love for them with acts of love to them. Thus, the Gospel of salvation through faith in Jesus is presented as living hope because \u201cfaith by itself, if it is not accompanied by action, is dead\u201d (James 2:17). Our goal is for these actions of love to be motivated and performed according to divine standards of love (1 Cor. 13:1-13) in an authentic relationship. Seek & Save is dedicated to the urban young facing a lack of resources, experiences, and opportunities. And we serve those who have suffered from neglect, abuse, and exploitation. Reaching out to them includes going to under-resourced schools, homes in economically-challenged neighborhoods, community-based organizations serving at-risk and exploited youth, juvenile detention facilities, foster homes, and shelters. 5",
+      "avg_prediction": 0.3464
+    },
+    {
+      "idx": 8,
+      "hash": "51ed5446",
+      "n_words": 108,
+      "n_chars": 672,
+      "preview_head": "distinctive. In implements, mode of life, regulation of society, and speech they were, however, substantially identical with the better known people of Hupa Valley. And the Yurok knew Tlelding, which ",
+      "preview_tail": "h-hoi, after Natinnoh, the Trinity River. Other tribes designated them as follows: The Wiyot, Haptana; the Karok, Kisha-kewara; the Chimariko, Hichhu; the Shasta, Chaparahihu. The Hupa in turn used th",
+      "full_text": "distinctive. In implements, mode of life, regulation of society, and speech they were, however, substantially identical with the better known people of Hupa Valley. And the Yurok knew Tlelding, which they called, with reference to its situation at the forks by the same name as their own town of Weitspekw. The Hupa derive their name from Yurok Hupo, the name of the valley. The people the Yurok knew as Hupo-la, their speech as Omimoas. The Hupa called themselves Natinnoh-hoi, after Natinnoh, the Trinity River. Other tribes designated them as follows: The Wiyot, Haptana; the Karok, Kisha-kewara; the Chimariko, Hichhu; the Shasta, Chaparahihu. The Hupa in turn used th",
+      "avg_prediction": 0.1756
+    }
+  ]
+}
