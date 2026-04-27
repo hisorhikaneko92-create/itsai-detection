@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-04-27T05:02:31.330873+00:00",
+  "mode": "sentence_nltk",
+  "num_texts": 3,
+  "total_words": 494,
+  "duplicates": [],
+  "latency_ms": 424,
+  "mean_avg_pred": 0.8357,
+  "mean_bimodality": 1.0,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0cec85e4",
+      "n_words": 327,
+      "n_chars": 2374,
+      "preview_head": "ver = webdriver.Firefox() I have some url : driver.get(url) I have one form I want to submit : elt = driver.find_element",
+      "avg_pred": 0.8383,
+      "confident_ai_pct": 0.847,
+      "confident_human_pct": 0.153,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "60e89e9b",
+      "n_words": 64,
+      "n_chars": 466,
+      "preview_head": "has been growing. Ferritic stainless steels are more cost-effective due to their lower nickel content, making them an at",
+      "avg_pred": 0.6938,
+      "confident_ai_pct": 0.688,
+      "confident_human_pct": 0.312,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 2,
+      "hash": "c59458a7",
+      "n_words": 103,
+      "n_chars": 636,
+      "preview_head": "03\u20132005 \u2192 1970s \u2192 1979 \u2192 November 1979 \u2192 16 November 1979 \u2192 Written Answers (Commons) Textiles HC Deb 16 November 1979 v",
+      "avg_pred": 0.9749,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    }
+  ]
+}

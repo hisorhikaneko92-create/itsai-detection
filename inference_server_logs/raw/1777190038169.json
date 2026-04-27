@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-04-26T07:53:58.169582+00:00",
+  "mode": "sentence_nltk",
+  "num_texts": 5,
+  "total_words": 461,
+  "duplicates": [],
+  "latency_ms": 575,
+  "mean_avg_pred": 0.5555,
+  "mean_bimodality": 0.939,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "db5d6842",
+      "n_words": 54,
+      "n_chars": 484,
+      "preview_head": "ng: curl -H \"Content-Type: application/json\" --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0x54a25257aa6",
+      "avg_pred": 0.5307,
+      "confident_ai_pct": 0.537,
+      "confident_human_pct": 0.463,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "175e40cb",
+      "n_words": 141,
+      "n_chars": 1389,
+      "preview_head": "Us JournalsAPS NewsPhysicsPhysics TodayCapitol Hill QuarterlyOther APSPublicationsMarch MeetingApril MeetingMeeting Cale",
+      "avg_pred": 0.9772,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 2,
+      "hash": "dd8b4b02",
+      "n_words": 74,
+      "n_chars": 470,
+      "preview_head": "Ratatouille in Paris Game Game Description: A 2007 computer-animated film produced by Pixar and distributed by Walt Disn",
+      "avg_pred": 0.7027,
+      "confident_ai_pct": 0.757,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 3,
+      "hash": "40ad27ce",
+      "n_words": 103,
+      "n_chars": 679,
+      "preview_head": "ocal Authors Local Events Community Organizations Community Bulletins Skip to Footer end: All Events Book Clubs Storytim",
+      "avg_pred": 0.0813,
+      "confident_ai_pct": 0.01,
+      "confident_human_pct": 0.99,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 4,
+      "hash": "12efcdef",
+      "n_words": 89,
+      "n_chars": 506,
+      "preview_head": "suffering, looking boxy, bland and uninspiring.\" - Sarah Parmenter I disclaimer my point here by saying that there are a",
+      "avg_pred": 0.4857,
+      "confident_ai_pct": 0.292,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.303,
+      "bimodality": 0.697
+    }
+  ]
+}

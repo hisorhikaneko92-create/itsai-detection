@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-04-25T07:24:54.368089+00:00",
+  "mode": "hybrid_nltk",
+  "num_texts": 2,
+  "total_words": 201,
+  "duplicates": [],
+  "latency_ms": 403,
+  "mean_avg_pred": 0.6746,
+  "mean_bimodality": 0.5,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "749ba0ac",
+      "n_words": 134,
+      "n_chars": 822,
+      "preview_head": "from the School of Law, University of Texas then followed by The information provided about Marshal R.Diggs Sr has some ",
+      "avg_pred": 0.9826,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "f8e40920",
+      "n_words": 67,
+      "n_chars": 377,
+      "preview_head": "thon3 # -*- coding: utf-8 -*- # This material is part of \"The Fuzzing Book\". # # THE SOFTWARE IS PROVIDED \"AS IS\", WITHO",
+      "avg_pred": 0.3666,
+      "confident_ai_pct": 0.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 1.0,
+      "bimodality": 0.0
+    }
+  ]
+}

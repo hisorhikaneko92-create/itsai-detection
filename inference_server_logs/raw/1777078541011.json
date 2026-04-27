@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-04-25T00:55:41.011773+00:00",
+  "mode": "hybrid_nltk",
+  "num_texts": 2,
+  "total_words": 152,
+  "duplicates": [],
+  "latency_ms": 344,
+  "mean_avg_pred": 0.8325,
+  "mean_bimodality": 0.793,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "465b6a32",
+      "n_words": 82,
+      "n_chars": 508,
+      "preview_head": "s the middle part of the text you provided: \"The article discusses changes in the book industry with a focus on self-pub",
+      "avg_pred": 0.8948,
+      "confident_ai_pct": 0.732,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "effad35d",
+      "n_words": 70,
+      "n_chars": 446,
+      "preview_head": "(e.g., rollers, shoes, wipers, and the like) sequentially occlude the flexible tube. The part of the tube under compress",
+      "avg_pred": 0.7701,
+      "confident_ai_pct": 0.371,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.414,
+      "bimodality": 0.586
+    }
+  ]
+}

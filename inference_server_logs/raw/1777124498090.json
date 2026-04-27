@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-04-25T13:41:38.090742+00:00",
+  "mode": "hybrid_nltk",
+  "num_texts": 3,
+  "total_words": 157,
+  "duplicates": [],
+  "latency_ms": 519,
+  "mean_avg_pred": 0.9813,
+  "mean_bimodality": 1.0,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "e331e627",
+      "n_words": 36,
+      "n_chars": 271,
+      "preview_head": ": ViewModelBase { public LogoutViewModel(INavigationService nService, CurrentUserContext uContext, INotificationService ",
+      "avg_pred": 0.9825,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 1,
+      "hash": "ab979c66",
+      "n_words": 80,
+      "n_chars": 384,
+      "preview_head": "o**5 3119*o**3 + 58*o**2 + 37*o**2 wrt o? 480*o**2 + 120 Find the first derivative of 267 + 165 + 90*x**4 + 301 - 58 wrt",
+      "avg_pred": 0.9835,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    },
+    {
+      "idx": 2,
+      "hash": "b8e7da81",
+      "n_words": 41,
+      "n_chars": 1499,
+      "preview_head": "szki is a village in the administrative district of Gmina Daszyna, witha population of 50, in \u0141\u0119czyca County, \u0141\u00f3d\u017a Voivo",
+      "avg_pred": 0.978,
+      "confident_ai_pct": 1.0,
+      "confident_human_pct": 0.0,
+      "uncertain_pct": 0.0,
+      "bimodality": 1.0
+    }
+  ]
+}
