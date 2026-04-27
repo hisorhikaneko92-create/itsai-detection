@@ -85,10 +85,14 @@ import argparse
 import csv
 import json
 import os
+import queue
 import random
 import string
 import sys
+import threading
 import time
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -525,10 +529,12 @@ def build_pure_human(pair: Dict[str, str]) -> Tuple[str, List[int], str, str]:
     return text, labels, "pure_human", "none"
 
 
-def build_pure_ai(pair: Dict[str, str], client: ChatClient) -> Tuple[str, List[int], str, str]:
+def build_pure_ai(pair: Dict[str, str], client: ChatClient,
+                  model: Optional[str] = None) -> Tuple[str, List[int], str, str]:
     """generate_ai_data with cnt_first_human=0. Ask the model to continue
     the prompt; keep only its completion."""
-    model = client.pick()
+    if model is None:
+        model = client.pick()
     completion = client.continue_text(model, pair["prompt"])
     if not completion:
         raise RuntimeError(f"empty completion from {model}")
@@ -536,10 +542,12 @@ def build_pure_ai(pair: Dict[str, str], client: ChatClient) -> Tuple[str, List[i
     return completion, labels, "pure_ai", model
 
 
-def build_human_then_ai(pair: Dict[str, str], client: ChatClient) -> Tuple[str, List[int], str, str]:
+def build_human_then_ai(pair: Dict[str, str], client: ChatClient,
+                        model: Optional[str] = None) -> Tuple[str, List[int], str, str]:
     """generate_ai_data with the merge_prompt_text branch enabled. Final
     text is prompt + AI continuation, labels = [0]*prompt_words + [1]*rest."""
-    model = client.pick()
+    if model is None:
+        model = client.pick()
     completion = client.continue_text(model, pair["prompt"])
     if not completion:
         raise RuntimeError(f"empty completion from {model}")
@@ -549,7 +557,8 @@ def build_human_then_ai(pair: Dict[str, str], client: ChatClient) -> Tuple[str, 
     return text, labels, "human_then_ai", model
 
 
-def build_ai_in_middle(pair: Dict[str, str], client: ChatClient) -> Tuple[str, List[int], str, str]:
+def build_ai_in_middle(pair: Dict[str, str], client: ChatClient,
+                       model: Optional[str] = None) -> Tuple[str, List[int], str, str]:
     """regenerated_in_the_middle — sentence-aligned begin/middle/end with
     middle replaced by Ollama. Labels = [0]*begin + [1]*middle + [0]*end."""
     full_text = pair["prompt"]
@@ -591,7 +600,8 @@ def build_ai_in_middle(pair: Dict[str, str], client: ChatClient) -> Tuple[str, L
         end = middle[-diff:] + end
     middle = middle_stripped
 
-    model = client.pick()
+    if model is None:
+        model = client.pick()
     summary = client.chat(model, [
         {"role": "system", "content": random.choice(SUMMARY_PROMPTS)},
         {"role": "user", "content": middle},
@@ -642,6 +652,116 @@ def count_existing_rows(path: Path) -> int:
         return max(0, sum(1 for _ in f) - 1)
 
 
+# ---------------------------------------------------------------------------
+# Parallel pipeline — Pile producer thread + worker pool.
+# ---------------------------------------------------------------------------
+def build_task_plan(n_total: int, models: List[str],
+                    mix=SAMPLE_MIX) -> List[Tuple[str, str]]:
+    """Deterministic task list of (sample_type, model_name) tuples whose:
+       - sample-type counts hit the validator's 25/25/40/10 mix exactly,
+       - per-type model assignment is round-robin across `models` so each
+         model is used roughly equally within each sample-type bucket.
+    The list is shuffled before returning so workers don't pound one model
+    in a burst (helps providers that rate-limit per-model)."""
+    counts = {t: round(n_total * p) for t, p in mix}
+    diff = n_total - sum(counts.values())
+    if diff != 0:
+        biggest = max(counts, key=counts.get)
+        counts[biggest] += diff
+
+    tasks: List[Tuple[str, str]] = []
+    for t, n in counts.items():
+        if t == "pure_human":
+            tasks.extend([(t, "none")] * n)
+            continue
+        for i in range(n):
+            tasks.append((t, models[i % len(models)]))
+
+    random.shuffle(tasks)
+    return tasks
+
+
+def _pile_producer(pile: "PileStream", q: "queue.Queue",
+                   stop_event: threading.Event):
+    """Single-thread Pile fetcher — keeps `q` topped up so workers never
+    block on dataset I/O. Datasets streaming is not thread-safe, so all
+    next_pair() calls must come from this one thread."""
+    while not stop_event.is_set():
+        try:
+            pair = pile.next_pair()
+        except Exception:
+            time.sleep(1)
+            continue
+        # Block until there's space; quit early if the run is stopping.
+        while not stop_event.is_set():
+            try:
+                q.put(pair, timeout=1)
+                break
+            except queue.Full:
+                continue
+
+
+def _process_one(task: Tuple[str, str],
+                 client: ChatClient,
+                 pile_queue: "queue.Queue",
+                 args,
+                 max_retries: int = 3) -> Optional[Dict[str, str]]:
+    """Generate one CSV-ready row for `task`. Retries on transient errors.
+    Returns None on a retried failure so the caller can drop the task."""
+    sample_type, target_model = task
+    model_for_call = None if sample_type == "pure_human" else target_model
+
+    pair = pile_queue.get(timeout=120)
+    last_err = None
+    for attempt in range(max_retries):
+        try:
+            if sample_type == "pure_human":
+                text, labels, st, model_name = build_pure_human(pair)
+            elif sample_type == "pure_ai":
+                text, labels, st, model_name = build_pure_ai(pair, client, model=model_for_call)
+            elif sample_type == "human_then_ai":
+                text, labels, st, model_name = build_human_then_ai(pair, client, model=model_for_call)
+            else:
+                text, labels, st, model_name = build_ai_in_middle(pair, client, model=model_for_call)
+
+            if not args.no_subsample:
+                text, labels = subsample_words(text, labels)
+            if len(labels) != len(text.split()) or len(labels) < 20:
+                raise RuntimeError(f"length sanity failed ({len(labels)} vs {len(text.split())})")
+
+            augmented = False
+            if not args.no_augment:
+                text, labels = augment(text, labels, per_word_p=args.augment_rate)
+                augmented = True
+                if len(labels) != len(text.split()):
+                    raise RuntimeError("augmentation broke word count")
+
+            return {
+                "text": text,
+                "segmentation_labels": json.dumps(labels),
+                "data_source": pair["data_source"],
+                "sample_type": st,
+                "model_name": model_name,
+                "n_words": len(labels),
+                "augmented": "true" if augmented else "false",
+            }
+        except requests.HTTPError as e:
+            last_err = e
+            code = getattr(e.response, "status_code", 0)
+            # 429 = rate limit; 5xx = server error → backoff and retry.
+            if code == 429 or 500 <= code < 600:
+                time.sleep(min(60, 2 ** (attempt + 1)))
+                continue
+            # 4xx other than 429 = our fault, don't burn retries
+            return None
+        except Exception as e:
+            last_err = e
+            time.sleep(1 + attempt)
+            continue
+
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -688,6 +808,21 @@ def main():
                          "70B+ uncached: try 600.")
     ap.add_argument("--report-every", type=int, default=50,
                     help="Print rolling stats every N samples.")
+    ap.add_argument("--workers", type=int, default=8,
+                    help="Number of concurrent API workers. The work is I/O-bound, "
+                         "so threads work fine. Defaults to 8 — increase to 16-32 if "
+                         "your provider allows it, decrease to 1-2 if you see lots of "
+                         "429 rate-limit errors. Set 1 for single-threaded behaviour.")
+    ap.add_argument("--even-mix", action="store_true", default=True,
+                    help="Use deterministic 25/25/40/10 sample-type counts and "
+                         "round-robin model assignment per type, so the output is "
+                         "evenly distributed by both shape and model. ON by default. "
+                         "Use --no-even-mix to fall back to fully random sampling.")
+    ap.add_argument("--no-even-mix", action="store_false", dest="even_mix",
+                    help="Disable --even-mix.")
+    ap.add_argument("--pile-buffer", type=int, default=64,
+                    help="Number of Pile pairs the producer thread keeps pre-fetched "
+                         "for the workers. Default 64.")
     args = ap.parse_args()
 
     if args.seed is not None:
@@ -734,82 +869,94 @@ def main():
     new_file = not out_path.exists() or already == 0
     fieldnames = ["text", "segmentation_labels", "data_source",
                   "sample_type", "model_name", "n_words", "augmented"]
+    remaining = args.n_samples - already
 
-    print(f"Resuming: {already} existing → producing {args.n_samples - already} more")
+    print(f"Resuming: {already} existing → producing {remaining} more")
+    print(f"Workers: {args.workers}  ·  even_mix: {args.even_mix}")
+
+    # Build the task plan. Even-mix → deterministic counts + round-robin
+    # model assignment. Random → just one (sample_type, model) per slot, by
+    # the same probability rules as before.
+    if args.even_mix:
+        tasks = build_task_plan(remaining, models, mix=SAMPLE_MIX)
+    else:
+        tasks = []
+        for _ in range(remaining):
+            st = pick_sample_type()
+            tasks.append((st, "none" if st == "pure_human" else random.choice(models)))
+
+    plan = Counter(t for t, _ in tasks)
+    print(f"Planned distribution: " +
+          ", ".join(f"{k}={v}" for k, v in plan.most_common()))
+
+    # Pile producer thread keeps a queue topped up so workers never wait on
+    # dataset I/O. Single-threaded fetching avoids races inside `datasets`.
+    pile_queue: "queue.Queue[Dict[str, str]]" = queue.Queue(maxsize=args.pile_buffer)
+    stop_event = threading.Event()
+    pile_thread = threading.Thread(
+        target=_pile_producer, args=(pile, pile_queue, stop_event), daemon=True,
+    )
+    pile_thread.start()
+
+    counts: Dict[str, int] = {n: 0 for n, _ in SAMPLE_MIX}
+    fails: Counter = Counter()
+    t_first = time.time()
     pbar = tqdm(total=args.n_samples, initial=already, dynamic_ncols=True)
 
-    counts = {n: 0 for n, _ in SAMPLE_MIX}
-    fail_counts: Dict[str, int] = {}
-    t_first = time.time()
-
-    with open(out_path, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if new_file:
-            writer.writeheader()
-            f.flush()
-
-        produced = already
-        while produced < args.n_samples:
-            sample_type = pick_sample_type()
-            try:
-                pair = pile.next_pair()
-                if sample_type == "pure_human":
-                    text, labels, st, model_name = build_pure_human(pair)
-                elif sample_type == "pure_ai":
-                    text, labels, st, model_name = build_pure_ai(pair, client)
-                elif sample_type == "human_then_ai":
-                    text, labels, st, model_name = build_human_then_ai(pair, client)
-                else:
-                    text, labels, st, model_name = build_ai_in_middle(pair, client)
-
-                if not args.no_subsample:
-                    text, labels = subsample_words(text, labels)
-                if len(labels) != len(text.split()) or len(labels) < 20:
-                    raise RuntimeError(f"length sanity failed ({len(labels)} vs {len(text.split())})")
-
-                augmented = False
-                if not args.no_augment:
-                    text, labels = augment(text, labels, per_word_p=args.augment_rate)
-                    augmented = True
-                    if len(labels) != len(text.split()):
-                        raise RuntimeError("augmentation broke word count")
-
-                writer.writerow({
-                    "text": text,
-                    "segmentation_labels": json.dumps(labels),  # JSON list, parses cleanly
-                    "data_source": pair["data_source"],
-                    "sample_type": st,
-                    "model_name": model_name,
-                    "n_words": len(labels),
-                    "augmented": "true" if augmented else "false",
-                })
+    interrupted = False
+    try:
+        with open(out_path, "a", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            if new_file:
+                writer.writeheader()
                 f.flush()
-                counts[st] = counts.get(st, 0) + 1
-                produced += 1
-                pbar.update(1)
-            except KeyboardInterrupt:
-                print("\nInterrupted — output is up to date and resumable.")
-                break
-            except Exception as e:
-                fail_counts[sample_type] = fail_counts.get(sample_type, 0) + 1
-                # don't pollute the bar; only show in periodic reports
-                continue
+            write_lock = threading.Lock()
 
-            if produced % args.report_every == 0:
-                elapsed = time.time() - t_first
-                rate = (produced - already) / elapsed if elapsed > 0 else 0
-                pbar.set_postfix(
-                    rate=f"{rate:.2f}/s",
-                    counts=",".join(f"{k[:2]}={v}" for k, v in counts.items()),
-                    fails=sum(fail_counts.values()),
-                )
+            with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
+                future_to_task = {
+                    pool.submit(_process_one, task, client, pile_queue, args): task
+                    for task in tasks
+                }
+                produced = already
+                for fut in as_completed(future_to_task):
+                    task = future_to_task[fut]
+                    try:
+                        row = fut.result()
+                    except Exception:
+                        row = None
+                    if row is None:
+                        fails[task[0]] += 1
+                        pbar.update(1)
+                        produced += 1
+                        continue
+
+                    with write_lock:
+                        writer.writerow(row)
+                        f.flush()
+                    counts[row["sample_type"]] = counts.get(row["sample_type"], 0) + 1
+                    produced += 1
+                    pbar.update(1)
+
+                    if produced % args.report_every == 0:
+                        elapsed = time.time() - t_first
+                        rate = (produced - already) / elapsed if elapsed > 0 else 0
+                        pbar.set_postfix(
+                            rate=f"{rate:.2f}/s",
+                            counts=",".join(f"{k[:2]}={v}" for k, v in counts.items()),
+                            fails=sum(fails.values()),
+                        )
+    except KeyboardInterrupt:
+        interrupted = True
+        print("\nInterrupted — output is up to date and resumable.")
+    finally:
+        stop_event.set()
 
     pbar.close()
-    print("\nDone.")
+    print("\nDone." if not interrupted else "\nStopped (resumable).")
     print(f"Output: {out_path} ({count_existing_rows(out_path)} rows total)")
-    print(f"Per sample-type counts produced this run: {counts}")
-    if fail_counts:
-        print(f"Failures (skipped, retried): {fail_counts}")
+    print(f"Per sample-type counts produced this run: {dict(counts)}")
+    if fails:
+        print(f"Failures (dropped after retries): {dict(fails)}")
     print(
         "\nNext step — sanity-check with the eval script:\n"
         f"  python scripts/eval_prediction_modes.py --csv {out_path} "
