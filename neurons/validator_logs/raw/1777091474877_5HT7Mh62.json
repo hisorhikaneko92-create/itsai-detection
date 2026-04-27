@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-25T04:31:14.877606+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 9510,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "2ef97d7c",
+      "n_words": 142,
+      "n_chars": 983,
+      "preview_head": "leaflet design which affected the fluid dynamics within the prosthetic devices. The biomimetic PVVs (bPVVs) demonstrated a more natural flow pattern, mimicking human venous valve functionality with lo",
+      "preview_tail": "fficiency. The biomimetic design of the PVV showed promise in replicating natural human valve function and may be more suitable as an alternative to traditional surgical methods. Future work should fo",
+      "full_text": "leaflet design which affected the fluid dynamics within the prosthetic devices. The biomimetic PVVs (bPVVs) demonstrated a more natural flow pattern, mimicking human venous valve functionality with lower pressure drops across them while maintaining adequate forward flow rates. On the other hand, open PVV's (oPVVs), due to their design which left no leaflets for fluid control, showed higher pressures and reduced effective flow through the system. This indicates that oPVVs may not be as efficient in mimicking natural venous valve function compared with bPVVs when used percutaneously. In conclusion, this study successfully fabricated prosthetic venous valves using electrospinning technology which could potentially offer a less invasive treatment option for chronic venous insufficiency. The biomimetic design of the PVV showed promise in replicating natural human valve function and may be more suitable as an alternative to traditional surgical methods. Future work should fo",
+      "avg_prediction": 0.981
+    },
+    {
+      "idx": 1,
+      "hash": "876a62c7",
+      "n_words": 106,
+      "n_chars": 749,
+      "preview_head": "f April 2013. Big, bold-type, flashing-red-neon fraud of the type perpetrated by a government that\u2019s just not interested in optics. Museveni-style, Ugandan-scale fraud. Announce-that-we-won-even-if-we",
+      "preview_tail": "ion candidates. Expect honeypots. Expect honeytraps. Expect a poll-war on a different order of magnitude from anything we\u2019ve seen before. Expect to see pollsters that publish anything other than a big",
+      "full_text": "f April 2013. Big, bold-type, flashing-red-neon fraud of the type perpetrated by a government that\u2019s just not interested in optics. Museveni-style, Ugandan-scale fraud. Announce-that-we-won-even-if-we\u2019re-20-points-behind fraud. This is going to take some planning, and a great deal of execution. Brace for never-before-seen levels of surveilance, harassment and dirty tricks. Grasp that 2013 was the pilot, 2015 is the real thing. Expect all of the now-traditional irregularities, and much more. Expect weekly video-taped attempts to buy off opposition candidates. Expect honeypots. Expect honeytraps. Expect a poll-war on a different order of magnitude from anything we\u2019ve seen before. Expect to see pollsters that publish anything other than a big",
+      "avg_prediction": 0.0994
+    },
+    {
+      "idx": 2,
+      "hash": "1212b559",
+      "n_words": 77,
+      "n_chars": 461,
+      "preview_head": "laring the house legally haunted due to its well-documented paranormal history\u2014a ruling that has since become known as the \"Ghostbusters Ruling.\" Helen began to tell neighbors of the unusual events th",
+      "preview_tail": "her accusations. It wasn\u2019t until years later when a young and perfectly healthy house guest came over to the Ackley\u2019s home for dinner that people in the area began to question what was really going on",
+      "full_text": "laring the house legally haunted due to its well-documented paranormal history\u2014a ruling that has since become known as the \"Ghostbusters Ruling.\" Helen began to tell neighbors of the unusual events that were occurring in the house, many of which never believed her accusations. It wasn\u2019t until years later when a young and perfectly healthy house guest came over to the Ackley\u2019s home for dinner that people in the area began to question what was really going on",
+      "avg_prediction": 0.9799
+    },
+    {
+      "idx": 3,
+      "hash": "4b147680",
+      "n_words": 179,
+      "n_chars": 2158,
+      "preview_head": "hor Tobias Koppers @sokra */ \"use strict\"; const ImportDependency = require(\"./ImportDependency\"); const ImportEagerDependency = require(\"./ImportEagerDependency\"); const ImportWeakDependency = requir",
+      "preview_tail": "gin\"): - Specifies identification string as \"Import_plugin\" within compiler.hooks. 4.Dependency Factories and Templates Assignment: ```javascript compilation.dependencyFactORIES.set(IMPORT_DEPENDENCY,",
+      "full_text": "hor Tobias Koppers @sokra */ \"use strict\"; const ImportDependency = require(\"./ImportDependency\"); const ImportEagerDependency = require(\"./ImportEagerDependency\"); const ImportWeakDependency = require(\"./ImportWeakDependency\"); const ImportContextDependency = require(\"./ImportContextDependency\"); const ImportParserPlugin = require(\"./ImportParserPlugin\"); class ImportPlugin { constructor(options) { this.options = options; } apply(compiler) { const options = this.options; compiler.hooks.compilation.tap( \"ImportPlugin\", (compilation, { contextModuleFactory, normalModuleFactory }) => { compilation.dependencyFactories.set( ImportDependency, normalModuleFactory ); compilation.dependencyTemplates.set( ImportDependency, new ImportDependency.Template() ); compilation.dependencyFactories.set( ImportEagerDependency, normalModuleFactory ); compilation.dependencyTemplates.set( ImportEagerDe``` class ImportPlugin { constructor(options) { this.options = options; } apply(compiler){ const options=this.otpions; compiler.hooks.compilatio.tap( \"Impor.Plugin\", (compilation,{contextModuleFactory,normalModlueFatory})=>{ compilation.dependencyFactories.set(ImportDependency,normodulefactory); ``` </think> To fix the code and make it functional while maintaining its original structure here's a corrected version: ```javascript class ImportPlugin { constructor(options) { this.options = options; } apply(compiler){ const options=this.otpions; // Note: 'this' refers to plugin instance. compiler.hooks.compilation.tap( \"Import.Plugin\", (compilatio,{contextModuleFactory,normalModlueFatory})=>{ compilazio.dependencyFactories.set(ImportoDependency,normodulefactory); ... ``` Step-by-step explanation: 1. Constructor Method Correction: The constructor method correctly assigns the `options` parameter to an instance property using `.this`. 2. Apply Plugin Hook Activation (apply(compiler)): - Attaches a plugin hook for compilation events. 3.Plugin Name (\"ImportPlugin\"): - Specifies identification string as \"Import_plugin\" within compiler.hooks. 4.Dependency Factories and Templates Assignment: ```javascript compilation.dependencyFactORIES.set(IMPORT_DEPENDENCY,",
+      "avg_prediction": 0.9831
+    },
+    {
+      "idx": 4,
+      "hash": "886a2d40",
+      "n_words": 203,
+      "n_chars": 1368,
+      "preview_head": "versions of the Alap (introduction) sections, where ragas are first presented with melody only, i.e., without rhythm and a theme in a time cycle. This soundscape forges a bridge into the dream state a",
+      "preview_tail": "rsatility. With \"Dreamscapes: Raga Meditations,\" Stevin McNamara invites you into his world, where the boundaries between music, healing, and spirituality blur, offering a profound experience of peace",
+      "full_text": "versions of the Alap (introduction) sections, where ragas are first presented with melody only, i.e., without rhythm and a theme in a time cycle. This soundscape forges a bridge into the dream state and beyond, taking the listener into peaceful and deeply relaxing places. The melodies of each raga, passed down through many ages, are known \u2013 when played correctly \u2013 to invoke certain emotional states or moods that can enhance one's overall well-being. McNamara\u2019s compositions capture this essence while infusing them with his unique artistic touch and modern sensibilities. The album is a testament to the power of music as therapy, offering listeners an immersive experience designed for meditation, yoga practice, sleep enhancement, and general relaxation. Each track serves not only as a standalone piece but also contributes seamlessly to the overarching flow of the entire collection, creating a cohesive journey through sound that resonates on both emotional and spiritual levels. Listeners are encouraged to explore this album in various settings\u2014whether during personal reflection or while engaging in creative activities\u2014to fully appreciate its depth and versatility. With \"Dreamscapes: Raga Meditations,\" Stevin McNamara invites you into his world, where the boundaries between music, healing, and spirituality blur, offering a profound experience of peace",
+      "avg_prediction": 0.9458
+    },
+    {
+      "idx": 5,
+      "hash": "7fc783df",
+      "n_words": 68,
+      "n_chars": 475,
+      "preview_head": "Corporation has announced the LTM4677, a dual 18A or single 36A \u03bcModule(power module) step-down DC/DC regulator with PMBus serial digital interface for autonomous digital power system management. The ",
+      "preview_tail": "and supervise a system\u2019s power condition and consumption via an I2C bus with READ and WRITE commands. The LTM4677 has applications in optical data transpoHuman: ...optical data transport systems, tele",
+      "full_text": "Corporation has announced the LTM4677, a dual 18A or single 36A \u03bcModule(power module) step-down DC/DC regulator with PMBus serial digital interface for autonomous digital power system management. The digital interface enables system designers and remote operators to control and supervise a system\u2019s power condition and consumption via an I2C bus with READ and WRITE commands. The LTM4677 has applications in optical data transpoHuman: ...optical data transport systems, tele",
+      "avg_prediction": 0.7181
+    },
+    {
+      "idx": 6,
+      "hash": "f464f4f2",
+      "n_words": 87,
+      "n_chars": 497,
+      "preview_head": "has it he was involved in running liquor from Canada. I do not know whether this is true. However, Ken Burns\u2019 series on PBS this week, \u201cProhibition,\u201d certainly got me thinking. The Detroit \u201cPurple Gan",
+      "preview_tail": "change and exit from Toledo coincides with the organized crime and violence that stemmed from PThe Detroit \u201cPurple Gang\u201d was quite active in Toledo. While we have no connection for John to the Purple ",
+      "full_text": "has it he was involved in running liquor from Canada. I do not know whether this is true. However, Ken Burns\u2019 series on PBS this week, \u201cProhibition,\u201d certainly got me thinking. The Detroit \u201cPurple Gang\u201d was quite active in Toledo. While we have no connection for John to the Purple Gang, his name change and exit from Toledo coincides with the organized crime and violence that stemmed from PThe Detroit \u201cPurple Gang\u201d was quite active in Toledo. While we have no connection for John to the Purple ",
+      "avg_prediction": 0.174
+    },
+    {
+      "idx": 7,
+      "hash": "928a42c5",
+      "n_words": 118,
+      "n_chars": 900,
+      "preview_head": "x,2016' title: 'A search for hydrogenated fullerenes in fullerene-containing planetary nebulae' --- Introduction ============ Fullerenes, highly resistant and stable tridimensional molecules formed ex",
+      "preview_tail": "ium (ISM) whose origin has remained elusive despite decades of study. The search for fullerenesand fullerene-based molecules in theISM and in circumstellarenvironments has been the subject of intense ",
+      "full_text": "x,2016' title: 'A search for hydrogenated fullerenes in fullerene-containing planetary nebulae' --- Introduction ============ Fullerenes, highly resistant and stable tridimensional molecules formed exclusively by carbon atoms, have attracted much attentionsince their discovery at laboratory by Kroto et al. (1985);C$_{60}$ and C$_{70}$ are the most abundantfullerenes. Fullerenes and fullerene-based molecules such as hydrogenated fullerenes and buckyonions may explain someastrophysical phenomena like the intense UV absorption band at 217 nm (e.g., Cataldo & Iglesias-Groth 2009) or the so-called diffuse interstellar bands (DIBs;DIBs are a set of absorption bands observed in the interstellar medium (ISM) whose origin has remained elusive despite decades of study. The search for fullerenesand fullerene-based molecules in theISM and in circumstellarenvironments has been the subject of intense ",
+      "avg_prediction": 0.8815
+    },
+    {
+      "idx": 8,
+      "hash": "4ea85d23",
+      "n_words": 78,
+      "n_chars": 506,
+      "preview_head": "we can\u2019t offer you a refund or exchange. To beeligible for a return, your item must be unusedand in the same condition that you received itwith alloriginal packaging intact. To complete thisproduct de",
+      "preview_tail": "passed from when you bought or were given a warranty, please contact our customer service team for assistanceregarding potential repairoptions under the MOVO Warranty. Please note that to be eligible ",
+      "full_text": "we can\u2019t offer you a refund or exchange. To beeligible for a return, your item must be unusedand in the same condition that you received itwith alloriginal packaging intact. To complete thisproduct description: Return Policy (continued): If 30 dayshave gone by sinceyour purchasebut less than one year has passed from when you bought or were given a warranty, please contact our customer service team for assistanceregarding potential repairoptions under the MOVO Warranty. Please note that to be eligible ",
+      "avg_prediction": 0.9804
+    },
+    {
+      "idx": 9,
+      "hash": "312c2314",
+      "n_words": 155,
+      "n_chars": 962,
+      "preview_head": "Excellence is bestowed upon a very special individual. While the award will always be an imperfect attempt to quantify class, the Certifcate serves as our form of honoring someone or something that ha",
+      "preview_tail": "ard to the future recipients. Let the competition begin. Stay Classy, William & Walter W&W Quadruple U at 9:20 PM Wednesday, February 29, 2012 Bedtime Stories, Vol. 1 Visiting a Visiting a friend's ab",
+      "full_text": "Excellence is bestowed upon a very special individual. While the award will always be an imperfect attempt to quantify class, the Certifcate serves as our form of honoring someone or something that has so greatly given to and thefields of Class and swagger through their actions and accomplishments. An will to abolish psuedoclass, a demonstration of both boldness and finesse, and a completion of every Casual Summer Activity are among the qualities theselection committee looks for in an awardee. With that, we, theClass Connoisseurs, proudly presented Samuel Finney with the inaugural Certificate of Excellence on Friday June29, 2012 Anno Domini. Quadruple U flanks Sam Finney We wish him the best of luck as he moves on to serve our greatcountry.We look forward to the future recipients. Let the competition begin. Stay Classy, William & Walter W&W Quadruple U at 9:20 PM Wednesday, February 29, 2012 Bedtime Stories, Vol. 1 Visiting a Visiting a friend's ab",
+      "avg_prediction": 0.472
+    },
+    {
+      "idx": 10,
+      "hash": "617086ad",
+      "n_words": 143,
+      "n_chars": 792,
+      "preview_head": "en, is a visit to the Blue Mountains. - a visit to the Blue Mountains is a visit to the Blue Mountains, an opportunity to take in the dramatic, mountainous, Sliven. - a visit to the Blue Mountains is ",
+      "preview_tail": " to take in the dramatic, natural, mountainous, Sliven. - a visit to the Blue Mountains is an opportunity to take in the dramatic, natural, mountainous, Sliven. - a visit to the Blue Mountains is a vi",
+      "full_text": "en, is a visit to the Blue Mountains. - a visit to the Blue Mountains is a visit to the Blue Mountains, an opportunity to take in the dramatic, mountainous, Sliven. - a visit to the Blue Mountains is an opportunity to take in the dramatic, natural, mountainous, Sliven. - a visit to the Blue Mountains is a visit to the Blue Mountains, an opportunity to take in the dramatic, natural, mountainous, Sliven. - an opportunity to take in the dramatic, natural, mountainous, Sliven, is a visit to the Blue Mountains. - a visit to the Blue Mountains is a visit to the Blue Mountains, an opportunity to take in the dramatic, natural, mountainous, Sliven. - a visit to the Blue Mountains is an opportunity to take in the dramatic, natural, mountainous, Sliven. - a visit to the Blue Mountains is a vi",
+      "avg_prediction": 0.9785
+    },
+    {
+      "idx": 11,
+      "hash": "b92205e9",
+      "n_words": 220,
+      "n_chars": 1456,
+      "preview_head": "f dynamic study and muscular exercise]. AU - Yamada,K, AU - Takeda,M, AU - Nakayama,K, AU - Yamashita,M, AU - Takahashi,K, AU - Takahashi,K, AU - Yamada,K, AU - Takeda,M, AU - Nakayama,K, AU - Yamashi",
+      "preview_tail": "onsidered to be of diagnostic significance (sensitivity 100%, specificity 100%). Dynamic images and muscular exercise were considered to be of diagnostic significance in the diagnosis of lymphedema of",
+      "full_text": "f dynamic study and muscular exercise]. AU - Yamada,K, AU - Takeda,M, AU - Nakayama,K, AU - Yamashita,M, AU - Takahashi,K, AU - Takahashi,K, AU - Yamada,K, AU - Takeda,M, AU - Nakayama,K, AU - Yamashita,M, AU - Takahashi,K, AU - Takahashi,K, PY - 1995/5/1/pubmed PY - 1995/5/1/medline PY - 1995/5/1/entrez SP - 199 EP - 202 JF - Nihon Igaku Hoshasen Gakkai zasshi = Journal of the Japan Radiological Technologists Association JO - Nihon Igaku Hoshasen Gakkai Zasshi VL - 55 IS - 3 N2 - The efficacy of lymphoscintigraphy was evaluated in 25 cases to clarify the diagnostic significance of dynamic study and muscular exercise in the diagnosis of lymphedema. 99mTc-diethylene triamine pentaacetic acid-human serum albumin (DTPA-HSA) was injected subcutaneously, and dynamic imaging was performed in 18 cases. Thirteen patients were asked to walk for 3 minutes. Qualitative evaluation of static images had sensitivity of 90% and specificity of 97%. Diagnostic criteria including qualitative evaluation of dynamic images were less specific (sensitivity 95%, specificity 76%). Interpretatation of dynamic images was considered to be of no diagnostic significance. Qualitative evaluation of static images and dynamic images combined with muscular exercise were considered to be of diagnostic significance (sensitivity 100%, specificity 100%). Dynamic images and muscular exercise were considered to be of diagnostic significance in the diagnosis of lymphedema of",
+      "avg_prediction": 0.7963
+    },
+    {
+      "idx": 12,
+      "hash": "aa8acfce",
+      "n_words": 44,
+      "n_chars": 294,
+      "preview_head": "Regulations are needed because last year's Jumpstart Our Business Startups (JOBS) Act allows small investors to obtain equity stakes in startups and other small businesses. \"It's a really interesting ",
+      "preview_tail": "mall investors to obtain equity stakes in startups and other small businesses. \"It's a really interesting opportunity, I think, not only for companies that are getting bigger, like Health Warrior, but",
+      "full_text": "Regulations are needed because last year's Jumpstart Our Business Startups (JOBS) Act allows small investors to obtain equity stakes in startups and other small businesses. \"It's a really interesting opportunity, I think, not only for companies that are getting bigger, like Health Warrior, but",
+      "avg_prediction": 0.7828
+    },
+    {
+      "idx": 13,
+      "hash": "328b5ab9",
+      "n_words": 51,
+      "n_chars": 330,
+      "preview_head": "nclude any suchthing. In the case of derivatives, however,$$ dy/dx= f'(a) + O(x-a) \\\\\\text{where} ~~O(h)/h ~\\to~ 0~~(\\forall h > 0). $$ Soif your physics profhadsaid that v was approximately equal to ",
+      "preview_tail": "). $$ Soif your physics profhadsaid that v was approximately equal to dx / dt he would have been on firmer ground,but ofcourseyou'd be asking about the\"approximate equality\" symbol which isn't taught ",
+      "full_text": "nclude any suchthing. In the case of derivatives, however,$$ dy/dx= f'(a) + O(x-a) \\\\\\text{where} ~~O(h)/h ~\\to~ 0~~(\\forall h > 0). $$ Soif your physics profhadsaid that v was approximately equal to dx / dt he would have been on firmer ground,but ofcourseyou'd be asking about the\"approximate equality\" symbol which isn't taught ",
+      "avg_prediction": 0.8842
+    },
+    {
+      "idx": 14,
+      "hash": "e7d8c49e",
+      "n_words": 180,
+      "n_chars": 1087,
+      "preview_head": "Agency on 19 December 2013 This entry was posted in Uncategorized by assedbaig. Bookmark the permalink. Post navigation \u2190 Previous Next \u2192 Leave a Reply Cancel reply Your email address will not be publ",
+      "preview_tail": "s anti-Turkish remarks June 30, 2018 Refugee Crisis: Austria begins large-scale border operation June 26, 2018 Austria Mosques: Crackdown on mosques incites outrage June 10, 2018 Nexus \u2013 Harvey Weinst",
+      "full_text": "Agency on 19 December 2013 This entry was posted in Uncategorized by assedbaig. Bookmark the permalink. Post navigation \u2190 Previous Next \u2192 Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * Comment Name * Email * Website This site uses Akismet to reduce spam. Learn how your comment data is processed. Recent Posts How a black student toiled to get himself into Oxford October 28, 2018 Is Imran Khan good looking enough to get a free ice cream in East London? August 2, 2018 Mesut Ozil\u2019s decision sparks debate on identity in Germany July 28, 2018 Mesut Ozil Quits: German footballer with Turkish roots quits over racism July 25, 2018 The War in Syria: Syrian chef raising money for Aleppo hospital July 20, 2018 Poland Court Controversy: Chief justice defies law to go to work July 4, 2018 Austria-Turkey Relations: Austrian politician makes anti-Turkish remarks June 30, 2018 Refugee Crisis: Austria begins large-scale border operation June 26, 2018 Austria Mosques: Crackdown on mosques incites outrage June 10, 2018 Nexus \u2013 Harvey Weinst",
+      "avg_prediction": 0.4111
+    },
+    {
+      "idx": 15,
+      "hash": "57d930b5",
+      "n_words": 77,
+      "n_chars": 485,
+      "preview_head": "ure had become the topic of many a rumor, flames fanned by the head coach\u2019s name appearing in testimony and documents atSections - Media (General updates and commentaries) - Sports (Sports articles an",
+      "preview_tail": "e (Local lifestyle and community news) - Obituaries (local obituaries and memorials) - Best of the Best (Local industry and community awards) - Cars (local automotive news and resources) - Jobs (Local",
+      "full_text": "ure had become the topic of many a rumor, flames fanned by the head coach\u2019s name appearing in testimony and documents atSections - Media (General updates and commentaries) - Sports (Sports articles and updates) - Harvey Co. Resource Guide (Local business and community resources) - Life (Local lifestyle and community news) - Obituaries (local obituaries and memorials) - Best of the Best (Local industry and community awards) - Cars (local automotive news and resources) - Jobs (Local",
+      "avg_prediction": 0.9761
+    },
+    {
+      "idx": 16,
+      "hash": "2dc5b790",
+      "n_words": 209,
+      "n_chars": 1327,
+      "preview_head": "a great school but is very large and has very long hallways. It is K-12 but in different buildings all over the school campus. My fear is that all of this walking will become an issue as he progresses",
+      "preview_tail": "ary accommodations for mobility. 3. Challenges with Switching Schools: - Financial Constraints: * Private schools may have higher tuition fees that could be a significant barrier without financial aid",
+      "full_text": "a great school but is very large and has very long hallways. It is K-12 but in different buildings all over the school campus. My fear is that all of this walking will become an issue as he progresses. I was thinking about looking into a private school that is much smaller but the problem is Answer: JoAnne is facing an important decision regarding the education of her child with Duchenne muscular dystrophy, who may face mobility challenges as they grow. Here's a structured response based on considerations for both public and private school options: 1. Public School Considerations (Current Option): - \u2013 Access to additional services if needed through an IEP or 504 plan. \u2013 Broader social exposure with more diverse peers, which can be beneficial despite the challenges of a large campus. 2. Private School Options: - Pros: + Smaller setting may offer easier navigation and less physical strain due to shorter distances between classes/areas within one building or close proximity across multiple buildings. \u2013 Potentially better individualized attention from teachers, which can support academic needs alongside any necessary accommodations for mobility. 3. Challenges with Switching Schools: - Financial Constraints: * Private schools may have higher tuition fees that could be a significant barrier without financial aid",
+      "avg_prediction": 0.9612
+    },
+    {
+      "idx": 17,
+      "hash": "1c86c100",
+      "n_words": 47,
+      "n_chars": 275,
+      "preview_head": "et Boob tube also enjoys wider currency than idiot box, at least according to this Ngram: A: Idiot box or goggle box. Both terms have been around since the fifties. Alternatively, brain rotter is nice",
+      "preview_tail": "to this Ngram: A: Idiot box or goggle box. Both terms have been around since the fifties. Alternatively, brain rotter is nicely descriptive. A: I rather like \"glass teat\", although it's not as popular",
+      "full_text": "et Boob tube also enjoys wider currency than idiot box, at least according to this Ngram: A: Idiot box or goggle box. Both terms have been around since the fifties. Alternatively, brain rotter is nicely descriptive. A: I rather like \"glass teat\", although it's not as popular",
+      "avg_prediction": 0.0867
+    },
+    {
+      "idx": 18,
+      "hash": "fede5b34",
+      "n_words": 144,
+      "n_chars": 824,
+      "preview_head": "u know that the vital first stage of Getting Things Done is Collection. As laid out in Chapter 5: Basically, everything is already being collected, in the larger sense. If it's not being directly mana",
+      "preview_tail": "t, your whole house or office turns into your inbox. And that just doesn't scale. Failing that, you'll just use your inbox as a collection of your collection, a collection of your collection of your c",
+      "full_text": "u know that the vital first stage of Getting Things Done is Collection. As laid out in Chapter 5: Basically, everything is already being collected, in the larger sense. If it's not being directly managed in a trusted external system of yours, then it's resident somewhere in your psyche. The fact that you haven't put an item in your in-basket doesn't mean you haven't got it. But we're talking here about making sure that everything you need is collected somewhere other than in your head. And, as David succinctly states elsewhere in the book, if you don't use a dedicated inbox in the context of a healthy collection habit, your whole house or office turns into your inbox. And that just doesn't scale. Failing that, you'll just use your inbox as a collection of your collection, a collection of your collection of your c",
+      "avg_prediction": 0.2595
+    },
+    {
+      "idx": 19,
+      "hash": "8c385ab9",
+      "n_words": 50,
+      "n_chars": 373,
+      "preview_head": "Topics View All Business and Finance Defense and Security Economics Education Energy and Environment Fiscal Policy Global Development Health International Affairs Law and Justice Metropolitan Areas Po",
+      "preview_tail": "stice Metropolitan Areas Politics and Elections Social Policy Technology U.S. Government Geography View All Asia and the Pacific, Australia, Brazil, Canada, China, Europe, India, Japan, Latin America,",
+      "full_text": "Topics View All Business and Finance Defense and Security Economics Education Energy and Environment Fiscal Policy Global Development Health International Affairs Law and Justice Metropolitan Areas Politics and Elections Social Policy Technology U.S. Government Geography View All Asia and the Pacific, Australia, Brazil, Canada, China, Europe, India, Japan, Latin America,",
+      "avg_prediction": 0.9722
+    },
+    {
+      "idx": 20,
+      "hash": "dc164800",
+      "n_words": 130,
+      "n_chars": 867,
+      "preview_head": "aks. The supplementary budget also includes funds for other sectors besides health. The education department is seeking an additional Sh20 million for school infrastructure development and maintenance",
+      "preview_tail": "unds to ensure that they reach the intended beneficiaries. The union's secretary, Jane Mwangi, said, \"We appreciate the efforts of the county government to address the challenges in the health sector.",
+      "full_text": "aks. The supplementary budget also includes funds for other sectors besides health. The education department is seeking an additional Sh20 million for school infrastructure development and maintenance. The assembly will review the supplementary budget and make a decision on whether to approve it as is, or propose amendments based on their assessment of the county's financial needs and priorities. Meanwhile, the county's health workers' union has welcomed the proposed additional funding, stating that it will help address some of the long-standing issues affecting the sector. However, they have called for more transparency and accountability in the use of the funds to ensure that they reach the intended beneficiaries. The union's secretary, Jane Mwangi, said, \"We appreciate the efforts of the county government to address the challenges in the health sector.",
+      "avg_prediction": 0.9851
+    },
+    {
+      "idx": 21,
+      "hash": "8e02563c",
+      "n_words": 47,
+      "n_chars": 292,
+      "preview_head": "S-75 represented a novel species of the genus Pichia on the basis of morphological, biochemical, physiological and chemotaxonomic characteristics, and the sequence analyses of the D1/D2 domain of the ",
+      "preview_tail": "cal, physiological and chemotaxonomic characteristics, and the sequence analyses of the D1/D2 domain of the LSU rRNA gene, for which the name Pichia jaroonii sp. nov. is proposed. The type strain is S",
+      "full_text": "S-75 represented a novel species of the genus Pichia on the basis of morphological, biochemical, physiological and chemotaxonomic characteristics, and the sequence analyses of the D1/D2 domain of the LSU rRNA gene, for which the name Pichia jaroonii sp. nov. is proposed. The type strain is S",
+      "avg_prediction": 0.121
+    },
+    {
+      "idx": 22,
+      "hash": "b9497c9f",
+      "n_words": 76,
+      "n_chars": 497,
+      "preview_head": "do with some CSS, but I can't figure out what to do. Any help will be much appreciated. Screenshot I've tried some CSS Snippets, but to no avail. Shop Page to see A: add fixed height to .woocommerce .",
+      "preview_tail": "t .woocommerce .products h2, .woocommerce .cross-sells h2 { fo.woocommerce .products h2, .woocommerce .cross-sells h2 { display: flex; align-items: center; height: 40px; // justify-content: center; //",
+      "full_text": "do with some CSS, but I can't figure out what to do. Any help will be much appreciated. Screenshot I've tried some CSS Snippets, but to no avail. Shop Page to see A: add fixed height to .woocommerce .products h2, .woocommerce .cross-sells h2 you can change the justify-content to position your text .woocommerce .products h2, .woocommerce .cross-sells h2 { fo.woocommerce .products h2, .woocommerce .cross-sells h2 { display: flex; align-items: center; height: 40px; // justify-content: center; //",
+      "avg_prediction": 0.164
+    },
+    {
+      "idx": 23,
+      "hash": "5a0ac238",
+      "n_words": 61,
+      "n_chars": 385,
+      "preview_head": "this reality show, a group of conservative men must compete for the chance to spend the night with conservative commentator Glenn Beck. The winner gets to ask him one question. [Image via Gage Skidmor",
+      "preview_tail": "ia Gage Skidmore/Flickr] Tags: Ben Carson, Ben Carson 2016, Ben Carson campaign, Ben Carson for President, Ben Carson news, Ben Carson politics, Donald Trump, Donald Trump 2016, Donald Trump campaign,",
+      "full_text": "this reality show, a group of conservative men must compete for the chance to spend the night with conservative commentator Glenn Beck. The winner gets to ask him one question. [Image via Gage Skidmore/Flickr] Tags: Ben Carson, Ben Carson 2016, Ben Carson campaign, Ben Carson for President, Ben Carson news, Ben Carson politics, Donald Trump, Donald Trump 2016, Donald Trump campaign,",
+      "avg_prediction": 0.8713
+    },
+    {
+      "idx": 24,
+      "hash": "3809e9f5",
+      "n_words": 58,
+      "n_chars": 391,
+      "preview_head": "ls compared to the population obtained from 45.5% Percoll. Additional experiments to determine the enrichment of sorted NCC were conducted by analyzing the number of enriched NCC required to kill an i",
+      "preview_tail": "kill an individual NC-37 target cell. Approximately 1.5-2.0 NCC could lyse a chromium-51 labelled target cell. These studies demonstrated that NCC could be enriched by size and granularity discriminat",
+      "full_text": "ls compared to the population obtained from 45.5% Percoll. Additional experiments to determine the enrichment of sorted NCC were conducted by analyzing the number of enriched NCC required to kill an individual NC-37 target cell. Approximately 1.5-2.0 NCC could lyse a chromium-51 labelled target cell. These studies demonstrated that NCC could be enriched by size and granularity discriminat",
+      "avg_prediction": 0.9119
+    },
+    {
+      "idx": 25,
+      "hash": "45c67f63",
+      "n_words": 168,
+      "n_chars": 1067,
+      "preview_head": "examples include the well-known singer Kavita Krishnamurthy, Alisha China, Ila Arun to name a few. The \u201cWho is it going to be this time\u201d buzz generates much excitement in the community in the months l",
+      "preview_tail": "lays, and interactive elements, has been attracting much interest. Our exhibitions on various Indian dimensions have both entertained and informed and led to interesting conversations and interactions",
+      "full_text": "examples include the well-known singer Kavita Krishnamurthy, Alisha China, Ila Arun to name a few. The \u201cWho is it going to be this time\u201d buzz generates much excitement in the community in the months leading up to October! No Diwali event can be complete without Diwali shopping and Cary Diwali makes sure this happens by offering a platform for numerous businesses to present their wares, such as ethnic clothing, personal and home accessories, and exotic handicrafts, to hordes of eager shoppers. No Indian event can be complete without food, and this is taken care of by some of the area\u2019s most popular restaurants who try to bring something new every year, while also offering all the old favorites, to hordes of hungry visitors. In recent years, an exhibition tent that showcases some carefully chosen aspect of Indian culture through artifacts, photographs, displays, and interactive elements, has been attracting much interest. Our exhibitions on various Indian dimensions have both entertained and informed and led to interesting conversations and interactions",
+      "avg_prediction": 0.451
+    },
+    {
+      "idx": 26,
+      "hash": "868e31a7",
+      "n_words": 238,
+      "n_chars": 1512,
+      "preview_head": "there might be some confusion or missing context in your message. If you're working on an algorithm that involves trading pairs and using Expert Advisors (EAs), here's a general suggestion: Expert Adv",
+      "preview_tail": "t are popping up during this process could help in diagnosing issue further. For a precise solution, it would be best to consult directly from technical support team of the software/platform/tool whic",
+      "full_text": "there might be some confusion or missing context in your message. If you're working on an algorithm that involves trading pairs and using Expert Advisors (EAs), here's a general suggestion: Expert Advisor is designed to help manage trades automatically based upon pre-set criteria, such as stop-loss levels which are set at \u00a3100 fixed for each trade according the your requirements. If you've programmed it correctly with specific magic numbers that focus on certain pairs and conditions (like when combined loss reaches a particular amount), then theoretically this EA should function just fine. However if trades start going against expectations, leading to significant losses in short time frames or unexpected behavior from s2 component of the sum like 's0','s1' etc., you might want look back into your code. Check for any logical errors that could cause these issues and ensure all conditions are correctly set up within EA. Also please make sureEA has permission access to trade those specific pairs as per broker permissions, also it should be able perform stop-loss operations on them without restrictions based upon the current market situation or other constraints imposed by your trading platform. If you can share more specifics about what is happening with 's2' component and any error messages that are popping up during this process could help in diagnosing issue further. For a precise solution, it would be best to consult directly from technical support team of the software/platform/tool whic",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 27,
+      "hash": "22970df4",
+      "n_words": 50,
+      "n_chars": 268,
+      "preview_head": "Error! x Please enter a phone number Error! x You need to use the spy tool in order to post a review Human Verification Congratulations, all photos and video from are available Due to an unusual amoun",
+      "preview_tail": "y tool in order to post a review Human Verification Congratulations, all photos and video from are available Due to an unusual amount of spy requests , users are now required to complete a brief Human",
+      "full_text": "Error! x Please enter a phone number Error! x You need to use the spy tool in order to post a review Human Verification Congratulations, all photos and video from are available Due to an unusual amount of spy requests , users are now required to complete a brief Human",
+      "avg_prediction": 0.038
+    },
+    {
+      "idx": 28,
+      "hash": "1bfd6f3b",
+      "n_words": 38,
+      "n_chars": 270,
+      "preview_head": "a balustrade. The building's design reflects the eclectic tastes of early 20th-century architecture, blending the symmetry and classical motifs of the Renaissance Revival with the robust, rounded arch",
+      "preview_tail": "rly 20th-century architecture, blending the symmetry and classical motifs of the Renaissance Revival with the robust, rounded arches and heavy masonry of the Romanesque Revival. The station\u2019s exterior",
+      "full_text": "a balustrade. The building's design reflects the eclectic tastes of early 20th-century architecture, blending the symmetry and classical motifs of the Renaissance Revival with the robust, rounded arches and heavy masonry of the Romanesque Revival. The station\u2019s exterior",
+      "avg_prediction": 0.9828
+    },
+    {
+      "idx": 29,
+      "hash": "3a67d162",
+      "n_words": 285,
+      "n_chars": 1837,
+      "preview_head": "alcohol (Ciprofloxacin) NOW! In any case, before you start the treatment, carefully read the instructions that augmentin you will find inside the Amoxil package. Be sure to talk with your doctor augme",
+      "preview_tail": " sometimes for prevention when your immune system is compromised by immunosuppressant drugs or, hIV/aids, bactrim is also sometimes prescribed for other types of bacterial pneumonia, for acne, and for",
+      "full_text": "alcohol (Ciprofloxacin) NOW! In any case, before you start the treatment, carefully read the instructions that augmentin you will find inside the Amoxil package. Be sure to talk with your doctor augmentin if you have any of the following: Asthma; Liver disease; Kidney disease; Mononucleosis; History of diarrhea caused by taking antibiotics; Food or drug allergies - especially to Omnicef, Cefzil, and Ceftin, And Keflex Amoxil doesnt have maNy interactions. Your doctor may want you to use your device differently. Diverticulitis (Diverticulosis) Symptoms, Diet, Treatment. Coli resistant to ciprofloxacin account for about. what is the dosage for Cipro? Related alcohol Disease Conditions Acne (Pimples) Acne is a localized skin inflammation as a result of overactivity of oil glands at the base of hair follicles. It works by stopping the growth of bacteria). Doryx MPC: Typical dosage:.4 mg/kg once daily, up to the adult dose. InzerceZveejnn, cipro pro UTI, cipro pro infekce moovch cest, pokud v lka pedepe Cipro pro vae UTI, pravdpodobn budete uvat drogu doma. This reaction may occur several weeks after you began using doxycycline. Antibiotic Doxycycline demonstrates a wide range of action. You may report side effects to Health Canada. Find the 32 natural remedies for Uti. Biaxin is available in generic form. Its important to note Amoxil is not used to treat viral infections. The correct amount of medication in each canister cannot be assured after 200 actuations and when the dose indicator display window shows zero, even though the canister is not completely empty. Pneumocystis jiroveci : augmentin for treatment, and sometimes for prevention when your immune system is compromised by immunosuppressant drugs or, hIV/aids, bactrim is also sometimes prescribed for other types of bacterial pneumonia, for acne, and for",
+      "avg_prediction": 0.6256
+    },
+    {
+      "idx": 30,
+      "hash": "dae0ef43",
+      "n_words": 71,
+      "n_chars": 533,
+      "preview_head": "services. Some programs focused on overdose survivors and their personal networks. We conducted telephone interviews with communities that implemented this type of program and categorized programs bas",
+      "preview_tail": " Massachusetts (31% response rate) completed the screening survey. Among respondents, 21% (23/110) had implemented a collaborative, community-based, post-overdose program with a well-defined process t",
+      "full_text": "services. Some programs focused on overdose survivors and their personal networks. We conducted telephone interviews with communities that implemented this type of program and categorized programs based on their structure, outreach approach, and other key characteristics. police and fire personnel from 110 of the 351 communities in Massachusetts (31% response rate) completed the screening survey. Among respondents, 21% (23/110) had implemented a collaborative, community-based, post-overdose program with a well-defined process t",
+      "avg_prediction": 0.868
+    },
+    {
+      "idx": 31,
+      "hash": "eb007a3b",
+      "n_words": 231,
+      "n_chars": 1664,
+      "preview_head": "and by $f\\in C(X)$ the function $f\\delta_0:\\Z\\to C(X)$. Thus $\\delta_n^*=\\delta_{-n}$ and $\\delta_1f\\delta_{-1}=\\alpha(f)$ for $f\\in C(X)$. We denote by $C^*(\\Sigma)$ the enveloping C$^*$-algebra of $",
+      "preview_tail": "Another difference may be found on the lines of Kadison\u2019s result: If a representation of a C$^*$-algebra is topologically irreducible, then it is automatically algebraically irreducible ([@Kad57]; see",
+      "full_text": "and by $f\\in C(X)$ the function $f\\delta_0:\\Z\\to C(X)$. Thus $\\delta_n^*=\\delta_{-n}$ and $\\delta_1f\\delta_{-1}=\\alpha(f)$ for $f\\in C(X)$. We denote by $C^*(\\Sigma)$ the enveloping C$^*$-algebra of $\\ell^1(\\Sigma)$, also identified with the crossed product C$^*$-algebra of $C(X)$ by $\\alpha$. Note that any topologically irreducible representation of $\\ell^1(\\Sigma)$ (on a Hilbert space) extends to an irreducible representation of $C^*(\\Sigma)$ and that the universal $C^*$-norm on $\\ell^1(\\Sigma)$, by which $C^*(\\Sigma)$ is defined, is determined by these representations. Each of $C^*(\\Sigma)$ and $\\ell^1(\\Sigma)$ (as a norm-closed algebra generated by $C(X)$ and $\\delta_{\\pm1}$) enables us to recover $\\Sigma$ and so is as good as the other in this sense. Though $\\ell^1(\\Sigma)$ looks more tamable with its explicit definition, a close examination on $\\ell^1(\\Sigma)$ reveals complexity or irregularity as an algebra which $C^*(\\Sigma)$ glosses over in exchange of adopting a representation-friendly [*intangible*]{} norm. A difference between the two objects seems to most manifestly appear in the case of the simplest example with $X$ a singleton, $C(\\T)$ and $\\ell^1(\\Z)$, where $\\T=\\R/\\Z$ is the dual of $\\Z$. Then the convolution algebra $\\ell^1(\\Z)$ is known to have a non-self-adjoint closed ideal while the closed ideals of $C(\\T)$ are all self-adjoint. (This fact is directly translated into a general $\\Sigma$ if $\\sigma$ has a finite orbit.) Another difference may be found on the lines of Kadison\u2019s result: If a representation of a C$^*$-algebra is topologically irreducible, then it is automatically algebraically irreducible ([@Kad57]; see",
+      "avg_prediction": 0.5609
+    },
+    {
+      "idx": 32,
+      "hash": "769d1d11",
+      "n_words": 95,
+      "n_chars": 703,
+      "preview_head": "experiments and its contribution to cross section reads [7] : \\begin{equation} {}^*<^\\prime }{}{} \\underline{\\mu}\\delta {}'\\omega ^{ }}{}{}'$']') is presented by: $$\\sigma _{ FT }^{ }\\left(\\nu _{\\epsi",
+      "preview_tail": "reening of electron in the nuclear medium and its pRice is 0.975[13]. The $B_{FT}^{level}$ are listed on table $\\ref{table: transition strenghts }$ . The GT contributions can be determined by applying",
+      "full_text": "experiments and its contribution to cross section reads [7] : \\begin{equation} {}^*<^\\prime }{}{} \\underline{\\mu}\\delta {}'\\omega ^{ }}{}{}'$']') is presented by: $$\\sigma _{ FT }^{ }\\left(\\nu _{\\epsilon } ,\\vec {e^{-} x^{\\gamma }}\\right)\\sim (GF/p_{s})^2 B^{FT}_{level}C(B,E_x)$$(1) \\end{equation}\\label{}\\vspace{}% *^.^{~-}$ to Eq. 0$ \"]']\"]') where $G F / p _ { s } =468 \\frac{\\left(\\mu c ^2\\)right)\\lambda }\\textrm{{}}\\ldots [}]}''}. In this equation, the Fermi function (E(E,$ E_x$) accounts for screening of electron in the nuclear medium and its pRice is 0.975[13]. The $B_{FT}^{level}$ are listed on table $\\ref{table: transition strenghts }$ . The GT contributions can be determined by applying",
+      "avg_prediction": 0.9821
+    },
+    {
+      "idx": 33,
+      "hash": "a2930a4f",
+      "n_words": 49,
+      "n_chars": 283,
+      "preview_head": "t sure what your question is regarding this scenario or if you have a specific task for me related to it? If there's something in particular that requires my assistance within these details provided s",
+      "preview_tail": " for me related to it? If there's something in particular that requires my assistance within these details provided so far about playing with plush toys let know! Otherwise feel free ask another query",
+      "full_text": "t sure what your question is regarding this scenario or if you have a specific task for me related to it? If there's something in particular that requires my assistance within these details provided so far about playing with plush toys let know! Otherwise feel free ask another query",
+      "avg_prediction": 0.9841
+    },
+    {
+      "idx": 34,
+      "hash": "837d66e6",
+      "n_words": 157,
+      "n_chars": 798,
+      "preview_head": "Oh-oh, sing with me now, Lift your voice up high in a show! For every word we say is true, Come on and join this melody! \u2728 Verse two: Through the highs of life's grandest stage, To its quiet moments w",
+      "preview_tail": "awn, let joy be finding. (Chorus) Oh-oh, sing with me now, Lift your voice up high in a show! For every word we say is true, Come on and join this melody! \u2728 Outro: So here's to the music that brings u",
+      "full_text": "Oh-oh, sing with me now, Lift your voice up high in a show! For every word we say is true, Come on and join this melody! \u2728 Verse two: Through the highs of life's grandest stage, To its quiet moments when love does engage. We'll dance to beats that make our hearts soar, In melodies where time will never bore. \u23f3 (Chorus) Oh-oh, sing with me now, Lift your voice up high in a show! For every word we say is true, Come on and join this melody! \u2728 Bridge: Let's create our own symphony of sound, In the language that hearts understand. With each other by our side so brightly shining, We'll sing till dawn, let joy be finding. (Chorus) Oh-oh, sing with me now, Lift your voice up high in a show! For every word we say is true, Come on and join this melody! \u2728 Outro: So here's to the music that brings u",
+      "avg_prediction": 0.9803
+    },
+    {
+      "idx": 35,
+      "hash": "70728c84",
+      "n_words": 48,
+      "n_chars": 326,
+      "preview_head": "chip cards connected to the postage meter machine via control units enabling data transfer regarding usage details back and forth between these systems including later reading with personal devices ai",
+      "preview_tail": "rth between these systems including later reading with personal devices aimed at providing detailed account management processes. German OS 40 33 164 discloses A postal payment management system discl",
+      "full_text": "chip cards connected to the postage meter machine via control units enabling data transfer regarding usage details back and forth between these systems including later reading with personal devices aimed at providing detailed account management processes. German OS 40 33 164 discloses A postal payment management system discl",
+      "avg_prediction": 0.9831
+    },
+    {
+      "idx": 36,
+      "hash": "6d08f4e2",
+      "n_words": 35,
+      "n_chars": 340,
+      "preview_head": "Study RoomPrints, Drawings, & Photographs Study RoomCenter for American ArtKorean Heritage GroupProgramsCalendarOpening GalaFamily & Adult ProgramsMember EventsArt After 5Wednesday NightsWinter GalaCe",
+      "preview_tail": "rogramsMember EventsArt After 5Wednesday NightsWinter GalaCelebrate the HolidaysSchool & TeachersArranging Your School VisitSchool Tours & ProgramsTeacher ProgramsTeacher ResourcesCollegesWaes & Adult",
+      "full_text": "Study RoomPrints, Drawings, & Photographs Study RoomCenter for American ArtKorean Heritage GroupProgramsCalendarOpening GalaFamily & Adult ProgramsMember EventsArt After 5Wednesday NightsWinter GalaCelebrate the HolidaysSchool & TeachersArranging Your School VisitSchool Tours & ProgramsTeacher ProgramsTeacher ResourcesCollegesWaes & Adult",
+      "avg_prediction": 0.0263
+    },
+    {
+      "idx": 37,
+      "hash": "5a41c47c",
+      "n_words": 46,
+      "n_chars": 268,
+      "preview_head": "Home Blog About Shop Contact Subscribe Facebook Twitter TRC When Your New Eyes Can't See Introduction I want to be clear that I am only speaking Read more Filed Under: A Son for Glory, Bible, Culture,",
+      "preview_tail": "r New Eyes Can't See Introduction I want to be clear that I am only speaking Read more Filed Under: A Son for Glory, Bible, Culture, Misc, Retractions, Theology - Soteriology, T RC God\u2019s Holy Violence",
+      "full_text": "Home Blog About Shop Contact Subscribe Facebook Twitter TRC When Your New Eyes Can't See Introduction I want to be clear that I am only speaking Read more Filed Under: A Son for Glory, Bible, Culture, Misc, Retractions, Theology - Soteriology, T RC God\u2019s Holy Violence",
+      "avg_prediction": 0.98
+    },
+    {
+      "idx": 38,
+      "hash": "b4656fa7",
+      "n_words": 40,
+      "n_chars": 258,
+      "preview_head": "o search: in this series in this repository across all repositories Advanced Search Notify me via email or RSS Browse STARS Collections Disciplines Authors Author Corner Author FAQ Links Sponsored by ",
+      "preview_tail": "ositories Advanced Search Notify me via email or RSS Browse STARS Collections Disciplines Authors Author Corner Author FAQ Links Sponsored by the University of Central Florida Libraries A Technology F",
+      "full_text": "o search: in this series in this repository across all repositories Advanced Search Notify me via email or RSS Browse STARS Collections Disciplines Authors Author Corner Author FAQ Links Sponsored by the University of Central Florida Libraries A Technology F",
+      "avg_prediction": 0.0169
+    },
+    {
+      "idx": 39,
+      "hash": "c632a0ec",
+      "n_words": 52,
+      "n_chars": 333,
+      "preview_head": "n amendment to convert the building entirely to residential apartments, abandoning previous plans for office and retail spaces. Conlin first proposed the two-phase project, located on a former auto sa",
+      "preview_tail": "n first proposed the two-phase project, located on a former auto salvage yard at 1771 Plymouth Road, in 2004. His partnership closed on the two-acre property in 2006 for $3.025 million, according to c",
+      "full_text": "n amendment to convert the building entirely to residential apartments, abandoning previous plans for office and retail spaces. Conlin first proposed the two-phase project, located on a former auto salvage yard at 1771 Plymouth Road, in 2004. His partnership closed on the two-acre property in 2006 for $3.025 million, according to c",
+      "avg_prediction": 0.1171
+    },
+    {
+      "idx": 40,
+      "hash": "bbc2aabe",
+      "n_words": 198,
+      "n_chars": 1202,
+      "preview_head": "battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, an",
+      "preview_tail": "nic costume is worn up until he finds his murdered family, and is picked up and sold as a slave. The belt detail on the breeches is beneath the tunic and seen when Maximus stands in a slave lineup. Di",
+      "full_text": "battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory, and their battle victory Although not worn by Mr. Crowe, he can be seen wearing a similar same garment without the cape, when he escapes on horseback from his own execution. His tunic costume is worn up until he finds his murdered family, and is picked up and sold as a slave. The belt detail on the breeches is beneath the tunic and seen when Maximus stands in a slave lineup. Di",
+      "avg_prediction": 0.6397
+    },
+    {
+      "idx": 41,
+      "hash": "f088c663",
+      "n_words": 225,
+      "n_chars": 1397,
+      "preview_head": "pload About Plans & Pricing Plans Languages English Deutsch Espa\u00f1ol Portugu\u00eas (Brasil) Create Account Sign In Upload Explore Feed Publisher Tools Stacks Following Stacks Following Publisher Tools Serv",
+      "preview_tail": "C. area. It is a great place to locate your business, toUnfortunately, the provided text is incomplete, so I cannot accurately complete it. Please provide the full text, and I will assist you with the",
+      "full_text": "pload About Plans & Pricing Plans Languages English Deutsch Espa\u00f1ol Portugu\u00eas (Brasil) Create Account Sign In Upload Explore Feed Publisher Tools Stacks Following Stacks Following Publisher Tools Services Account Settings Languages Statistics Campaigns Plans & Pricing Help & Support Sign Out Issuu on Google+ Bowiebusiness pg083112 Follow Info Share Add to H Like The Gazette 2 years ago Flag Bowiebusiness pg083112 Bowie Business & Living 2012, Gazette, Prince George's County, Maryland Bowie Health Fair September 22, 2012 11:00-3:00 Emergency Services at Bowie Health Center Dear Readers: Welcome to the Bowie Business Report! This special publication will present you with an update on our wonderful city at the crossroads of Annapolis, Baltimore and Washington, D.C. Bowie has always been at the center of what\u2019s going on in the region. It is an excellent location to live, work and play. With more than 3.5 million square feet of retail space and more than 1.8 million square feet of office and flex space you\u2019ll find easy access to workers and customers. MAYOR\u2019S LETTER Bowie is a dynamic community, recognized in 2007 by Forbes Magazine as one of the top communities in the Washington, D.C. area. It is a great place to locate your business, toUnfortunately, the provided text is incomplete, so I cannot accurately complete it. Please provide the full text, and I will assist you with the",
+      "avg_prediction": 0.5825
+    },
+    {
+      "idx": 42,
+      "hash": "7d129cbe",
+      "n_words": 83,
+      "n_chars": 535,
+      "preview_head": "seek to ensure that their eventual objectives be met. We will continuously strive to achieve our goal of ensuring that our clients are well-advised and equipped to deal with whatever lies ahead. OUR P",
+      "preview_tail": "yers in various fields: 1. Litigation and Dispute Resolution: - Civil Litigation - Commercial Disputes - Contractual Claims - Debt Recovery - Employment Law Controversies - Property Disputes - Persona",
+      "full_text": "seek to ensure that their eventual objectives be met. We will continuously strive to achieve our goal of ensuring that our clients are well-advised and equipped to deal with whatever lies ahead. OUR PRACTICE OOur Practice Areas: Munhoe & Mar offers a comprehensive range of legal services, leveraging the expertise of its dedicated lawyers in various fields: 1. Litigation and Dispute Resolution: - Civil Litigation - Commercial Disputes - Contractual Claims - Debt Recovery - Employment Law Controversies - Property Disputes - Persona",
+      "avg_prediction": 0.9785
+    },
+    {
+      "idx": 43,
+      "hash": "c7cf15d0",
+      "n_words": 68,
+      "n_chars": 363,
+      "preview_head": "to do and how to fix Mid Back pain that could be caused from ruptured or bulging discs or to help you determine if you pulled a major muscle while cleaning your kid's room last weekend. You don't have",
+      "preview_tail": "d's room last weekend. You don't have to live with Mid Back pain, your condition, more than likely is completely treatable when you enlist our help. However, you might have to live with the music your",
+      "full_text": "to do and how to fix Mid Back pain that could be caused from ruptured or bulging discs or to help you determine if you pulled a major muscle while cleaning your kid's room last weekend. You don't have to live with Mid Back pain, your condition, more than likely is completely treatable when you enlist our help. However, you might have to live with the music your",
+      "avg_prediction": 0.6597
+    },
+    {
+      "idx": 44,
+      "hash": "68aa00e2",
+      "n_words": 145,
+      "n_chars": 962,
+      "preview_head": "Username / Email / Phone: Password: Remember me Forgot password? ----------------------- OR ----------------------- Sign in with Facebook 1027589 forum_my_messages?prof_id=5719782 1 Not a member yet? ",
+      "preview_tail": "ch Blog Help / Faq The cookies of your browser are not available, you won't be able to login successfully. To login please turn on the cookies. Members Only! Username / Email / Phone: Password: Rememb",
+      "full_text": "Username / Email / Phone: Password: Remember me Forgot password? ----------------------- OR ----------------------- Sign in with Facebook 1027589 forum_my_messages?prof_id=5719782 1 Not a member yet? Join now forum_my_messages?prof_id=5719782 1 Not a member yet? Join now Home FREE Sign up Sign in Search Blog Help / Faq The cookies of your browser are not available, you won't be able to login successfully. To login please turn on the cookies. Members Only! Username / Email / Phone: Password: Remember me Forgot password? ----------------------- OR ----------------------- Sign in with Facebook 1027589 forum_my_messages?prof_id=5719782 1 Not a member yet? Join now forum_my_messages?prof_id=5719782 1 Not a member yet? Join now Home FREE Sign up Sign in Search Blog Help / Faq The cookies of your browser are not available, you won't be able to login successfully. To login please turn on the cookies. Members Only! Username / Email / Phone: Password: Rememb",
+      "avg_prediction": 0.1788
+    },
+    {
+      "idx": 45,
+      "hash": "9d30133f",
+      "n_words": 296,
+      "n_chars": 1905,
+      "preview_head": "incentives work for their supplementing purpose because the basic public services are there in the first place. In Brazil, for basic health services such as antenatal care and skilled attendance at bi",
+      "preview_tail": "ent No Comments Future poverty I\u2019m not usually a fan of institutional blogs. When a big NGO creates a blog it\u2019s often for solely promotional purposes, and much of what I find interesting is criticism.",
+      "full_text": "incentives work for their supplementing purpose because the basic public services are there in the first place. In Brazil, for basic health services such as antenatal care and skilled attendance at birth are virtually universal. The state has done its homework\u2014almost half of all health expenditure in Brazil is public expenditure, compared with barely one quarter (of a much lower total of health expenditure) in India. In this situation, providing incentives to complete the universalisation of healthcare may be quite sensible. In India, however, these basic services are still largely missing, and conditional cash transfers cannot fill the gap. Cash transfers are increasingly seen as a potential cornerstone of social policy in India, often based on a distorted reading of the Latin American experience in this respect. There are, of course, strong arguments for cash transfers (conditional or unconditional) in some circumstances, just as there are good arguments for transfers in kind (such as midday meals for school children). What is remarkably however, is the illusion that cash transfers (more precisely, \u201cconditional cash transfers\u201d) can replace public services by inducing recipients to buy health and education services from private providers. This is not only hard to substantiate on the basis of empirical reading; it is, in fact, entirely contrary to the historical experience of Europe, America, Japan and East Asia in their respective transformation of living standards. Also, it is not how conditional cash transfers work in Brazil or Mexico or other successful cases today. Here\u2019s the rest of the article. 07 11 2011 by brettkeller posted in economics, India, international development No Comments Future poverty I\u2019m not usually a fan of institutional blogs. When a big NGO creates a blog it\u2019s often for solely promotional purposes, and much of what I find interesting is criticism.",
+      "avg_prediction": 0.4834
+    },
+    {
+      "idx": 46,
+      "hash": "d6d087b4",
+      "n_words": 70,
+      "n_chars": 530,
+      "preview_head": "tory, and international relations to understand the nuanced perspectives on religion's role throughout global events. If you're interested in specific historical narratives about Islam: - Consider rea",
+      "preview_tail": "rspective: - Diverse Sources: Engage with literature from authors representing various viewpoints to gain comprehensive insights into complex issues like religion's role within socio-political context",
+      "full_text": "tory, and international relations to understand the nuanced perspectives on religion's role throughout global events. If you're interested in specific historical narratives about Islam: - Consider reading academic books that explore the intersection of religious belief systems and political movements over time. For a balanced perspective: - Diverse Sources: Engage with literature from authors representing various viewpoints to gain comprehensive insights into complex issues like religion's role within socio-political context",
+      "avg_prediction": 0.9594
+    },
+    {
+      "idx": 47,
+      "hash": "705cbb59",
+      "n_words": 58,
+      "n_chars": 378,
+      "preview_head": "it's a multi-line game or not so as placing your bet for each specific payoff line is necessary but only required when playing off credits and picking individual paylines over all possible winning com",
+      "preview_tail": "l possible winning combinations. it\u2019s suggested that using coin-operated machines with the correct monetary denomination can avoid any misleading impressions of slot machine games being unfair. You sh",
+      "full_text": "it's a multi-line game or not so as placing your bet for each specific payoff line is necessary but only required when playing off credits and picking individual paylines over all possible winning combinations. it\u2019s suggested that using coin-operated machines with the correct monetary denomination can avoid any misleading impressions of slot machine games being unfair. You sh",
+      "avg_prediction": 0.9837
+    },
+    {
+      "idx": 48,
+      "hash": "982c859f",
+      "n_words": 51,
+      "n_chars": 318,
+      "preview_head": "text and rephrased them where necessary, but I have not provided any additional information or reasoning beyond what is already present in the given text. The embolic members are typically attached to",
+      "preview_tail": "s already present in the given text. The embolic members are typically attached to an elongate deployment apparatus that is advanceable out of the distal end of the microcatheter and then releases the",
+      "full_text": "text and rephrased them where necessary, but I have not provided any additional information or reasoning beyond what is already present in the given text. The embolic members are typically attached to an elongate deployment apparatus that is advanceable out of the distal end of the microcatheter and then releases the",
+      "avg_prediction": 0.9811
+    },
+    {
+      "idx": 49,
+      "hash": "89ec6332",
+      "n_words": 47,
+      "n_chars": 305,
+      "preview_head": "and supporting young athletes through scholarships and mentorship programs. #### Pittsburgh Chapter: - About Us: Learn more about the history of our chapter and its impact on the local Italian America",
+      "preview_tail": "out Us: Learn more about the history of our chapter and its impact on the local Italian American sports scene. - Membership: Join us! Become a part of this vibrant community that supports, celebrates,",
+      "full_text": "and supporting young athletes through scholarships and mentorship programs. #### Pittsburgh Chapter: - About Us: Learn more about the history of our chapter and its impact on the local Italian American sports scene. - Membership: Join us! Become a part of this vibrant community that supports, celebrates,",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 50,
+      "hash": "645845ae",
+      "n_words": 134,
+      "n_chars": 1132,
+      "preview_head": "-edge technologies for algorithmic crypto asset management strategies that consistently deliver exceptional results even during highly volatile market conditions typical to cryptocurrencies markets gl",
+      "preview_tail": " market analysis techniques specific to digital assets like Bitcoin or Ethereum among others; thus ensuring optimal performance regardless if markets trend upwards/downwards rapidly over short periods",
+      "full_text": "-edge technologies for algorithmic crypto asset management strategies that consistently deliver exceptional results even during highly volatile market conditions typical to cryptocurrencies markets globally! Innovation: At DHG's core lies an unwavering commitment towards systematic innovation. Their team constantly explores new frontiers in blockchain technology, developing proprietary trading algorithms tailored specifically around various cryptocurrency exchanges' unique characteristics while ensuring compliance with regulatory standards worldwide through rigorous licensing procedures mandated across different jurisdictions where they operate seamlessly without compromising on security protocols essential within this domain space! Professionalism & Expertise: The DHG crew boasts extensive knowledge and practical experience navigating the intricate world of cryptocurrencies. Their proficiency spans trading strategies, market analysis techniques specific to digital assets like Bitcoin or Ethereum among others; thus ensuring optimal performance regardless if markets trend upwards/downwards rapidly over short periods",
+      "avg_prediction": 0.9641
+    },
+    {
+      "idx": 51,
+      "hash": "b7b75e7a",
+      "n_words": 73,
+      "n_chars": 429,
+      "preview_head": "s: Supernanny with a Nanny Joe instead of Nancy Botwin from Weeds as the no-nonsense disciplinarian who whips out her own brand of tough love and unconventional child-rearing methods to tame even the ",
+      "preview_tail": " maintaining an air-tight sense of humor about it. The show promises a fresh spin on parenting with Nanny Joe doling out advice that's equal parts unorthodox and effective in this new take on family d",
+      "full_text": "s: Supernanny with a Nanny Joe instead of Nancy Botwin from Weeds as the no-nonsense disciplinarian who whips out her own brand of tough love and unconventional child-rearing methods to tame even the most unruly broods, all while maintaining an air-tight sense of humor about it. The show promises a fresh spin on parenting with Nanny Joe doling out advice that's equal parts unorthodox and effective in this new take on family d",
+      "avg_prediction": 0.783
+    },
+    {
+      "idx": 52,
+      "hash": "fdf19fbe",
+      "n_words": 180,
+      "n_chars": 1092,
+      "preview_head": "to perpetual conflict. All this, plus horse-racing, football, books, films, television, and plenty of other topics too.... My new book 'Stranger than Fiction', a biography of Edgar Wallace, is availab",
+      "preview_tail": " increasingly louder and debate has raged over the rights and wrongs of 75,000 users of Twitter leaking the news of footballer Ryan Giggs\u2019s injunction, which was iNeil Clark's blog covers a wide range",
+      "full_text": "to perpetual conflict. All this, plus horse-racing, football, books, films, television, and plenty of other topics too.... My new book 'Stranger than Fiction', a biography of Edgar Wallace, is available here: http://goo.gl/o2cZze Sunday, May 29, 2011 A Tangled Web This article of mine appears in the Sunday Express. PROFESSOR Sir Tim Berners-Lee, the scientist from south London who invented the World Wide Web is, to paraphrase Winston Churchill, a modest man with very little to be modest about. His invention has, after all, radically changed the way we live and do business. I was lucky enough to interview this truly Great Briton and what struck me was the passion he had for keeping the internet free from government censorship and other forms of outside control. I think it\u2019s time we all paid close heed to Berners-Lee\u2019s wise words. Calls for greater regulation of the net are growing increasingly louder and debate has raged over the rights and wrongs of 75,000 users of Twitter leaking the news of footballer Ryan Giggs\u2019s injunction, which was iNeil Clark's blog covers a wide range",
+      "avg_prediction": 0.4983
+    },
+    {
+      "idx": 53,
+      "hash": "67bd8531",
+      "n_words": 66,
+      "n_chars": 533,
+      "preview_head": "ill have a Communication with the underlying transaction manager has failed DTCPing tool says everything should be fine. The actual exception is: System.Transactions.TransactionManagerCommunicationExc",
+      "preview_tail": " transaction manager was unable to push the transaction to the destination transaction manager due to communication problems. Possible causes are: a firewall is present and it doesnQ: What steps can I",
+      "full_text": "ill have a Communication with the underlying transaction manager has failed DTCPing tool says everything should be fine. The actual exception is: System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The MSDTC transaction manager was unable to push the transaction to the destination transaction manager due to communication problems. Possible causes are: a firewall is present and it doesnQ: What steps can I",
+      "avg_prediction": 0.8912
+    },
+    {
+      "idx": 54,
+      "hash": "93a8d758",
+      "n_words": 235,
+      "n_chars": 1498,
+      "preview_head": "show \u201cWashington\u2019s opportunity and capacity to distribute heroin with the same co-conspirators in 2010 and 2011 [(the time period of the charged conspiracy)] that he conspired to distribute heroin wit",
+      "preview_tail": " admits 404(b) evidence for a proper purpose, it \u201cmust put a chain of inferences into the record, none of which is the inference that the defendant has a propensity to commit this crime.\u201d Sampson, 980",
+      "full_text": "show \u201cWashington\u2019s opportunity and capacity to distribute heroin with the same co-conspirators in 2010 and 2011 [(the time period of the charged conspiracy)] that he conspired to distribute heroin with in 2008 and 2009. The evidence will explain the existing relationship between Mr. Washington and some of his co-conspirators . . . .\u201d App. 34-35. We have held that \u201c[a]n additional unenumerated yet permissible purpose for admitting evidence under Rule 404(b) is to \u2018demonstrate a continuing relationship between an unindicted co-conspirator and the defendant.\u2019\u201d United States v. Vega, 285 F.3d 256, 261 (3d Cir. 2002) (quoting United States v. Scarfo, 850 F.2d 1015, 1019 (3d Cir. 1988)). Thus, the Government identified a proper non- propensity purpose for the evidence. In denying Washington\u2019s 404(b) motion, the 5 District Court expressly agreed with the Government\u2019s proffered non-propensity purpose, noting in an entry on the docket that \u201c[t]he Government is allowed to present this evidence at trial to attempt to prove a continuing relationship between conspirators.\u201d App. 16. However, that was the full extent of the District Court\u2019s explanation of its reasons for admitting the evidence. The court ignored the fact that we have clearly (and repeatedly) stated that, when a district court admits 404(b) evidence for a proper purpose, it \u201cmust put a chain of inferences into the record, none of which is the inference that the defendant has a propensity to commit this crime.\u201d Sampson, 980",
+      "avg_prediction": 0.7271
+    },
+    {
+      "idx": 55,
+      "hash": "7b06f7e6",
+      "n_words": 278,
+      "n_chars": 1640,
+      "preview_head": "you understand the meaning of your existence and why you are a special individual. Meditation is extremely personal, and is different for every person that practices it. One thing is clear though, peo",
+      "preview_tail": "l it affect you? You have heard the stress can affect your health. You have also heard that meditation can help you relieve stress. As a result, meditation not only benefits your mental health but als",
+      "full_text": "you understand the meaning of your existence and why you are a special individual. Meditation is extremely personal, and is different for every person that practices it. One thing is clear though, people that practice meditation are more focused, alert and tranquil. lesson three: types of meditation As there are many different personalities, there are also different types of meditation. In this chapter, you will learn what those methods of meditation are as well as the benefits of each. Learning about the different methods of meditation will allow you to select the method that will best work for you. Every individual has different preferences and knowing the various approaches to meditation will greatly benefit you. When learning the different types of meditation it is important that you keep an open mind. Be sure to take the time to learn the intricacies of each method. If you do not find a method that works for you initially, you will know that there are other methods available for you to try. lesson four: what happens during meditation You have heard of the benefits of meditation, but what actually happens while you are How and why does meditation work and why does having this information benefit you? In this chapter you will learn the mechanics behind meditation. Starting on the path of meditation is also a big step. Meditation changes how you view life and how you live your life. How will meditation you? Why will it affect you? You have heard the stress can affect your health. You have also heard that meditation can help you relieve stress. As a result, meditation not only benefits your mental health but als",
+      "avg_prediction": 0.2938
+    },
+    {
+      "idx": 56,
+      "hash": "ca0007b4",
+      "n_words": 179,
+      "n_chars": 766,
+      "preview_head": "(Fri. July 27) | Weekend Box Office (Fri. July 27) | #1 Movie: 'The Dark Knight' | Movietimes Tckts 1929 1924 1910 Daily Box Office JUNE 2007 S M T W Th F Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 ",
+      "preview_tail": " Day <Wk <Mo <Yr JanFebMarAprMayJunJulAugSepOctNovDec 12345678910111213141516171819202122232425262728293031 2002200320042005200620072008200920102011201220132014 >Yr >Mo >Wk >>Next Day TDYDTitle (Click",
+      "full_text": "(Fri. July 27) | Weekend Box Office (Fri. July 27) | #1 Movie: 'The Dark Knight' | Movietimes Tckts 1929 1924 1910 Daily Box Office JUNE 2007 S M T W Th F Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 JULY 2007 S M T W Th F Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 << Prev. >> Next AUGUST 2007 S M T W Th F Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Single Day Screens & Shows Weekly/weekend Full Week Friday, July 27, 2007 <<Prev Day <Wk <Mo <Yr JanFebMarAprMayJunJulAugSepOctNovDec 12345678910111213141516171819202122232425262728293031 2002200320042005200620072008200920102011201220132014 >Yr >Mo >Wk >>Next Day TDYDTitle (Click",
+      "avg_prediction": 0.9712
+    },
+    {
+      "idx": 57,
+      "hash": "d9d70a20",
+      "n_words": 295,
+      "n_chars": 1920,
+      "preview_head": "served as the chief resident during his last two years. He also completed a cytopathology fellowship at the University of Utah/ARUP Laboratories, and is board certified in anatomic and clinical pathol",
+      "preview_tail": " successfully passed the quiz, and only if you want to obtain credit for the video lecture. Here\u2019s how it works: At the conclusion of the video presentation, a dialogue box will appear prompting you t",
+      "full_text": "served as the chief resident during his last two years. He also completed a cytopathology fellowship at the University of Utah/ARUP Laboratories, and is board certified in anatomic and clinical pathology, with subspecialty boards in cytopathology. Dr. Witt is a member of the College of American Pathologists Cytopathology Committee, the American Society for Clinical Pathology, and the American Society of Cytopathologists. His research interests include studies related to fine-needle aspiration and head and neck pathology. Objectives After this presentation, participants will be able to: Review some of the more common cytodiagnoses of the Head and Neck. Establish an approach to some of the diagnostic dilemmas using a case based tactic. Emphasized topics include lymph nodes, cystic neck masses, reactive reparative changes, and salivary gland lesions. Sponsored by: University of Utah School of Medicine, Department of Pathology, and ARUP Laboratories Play This Video Lecture Video Lecture Details Credits: 1.0 CME/SAM PACE FLORIDA Categories: For CLS: Cytology For Doctors: General (AMA Category I) Video Length: 56m, 46s Downloads: Presentation Slides (PDF) Internet Connection: Broadband or T1 Related Information ARUP Consult Topic: Head and Neck Cancer Additional Video Lectures and Multimedia Resolution Center How do I obtain credit? Course Troubleshooting Please feel free to contact the Webmaster regarding any questions or comments on this page. \u2573 How do I obtain continuing education credit? To obtain credit, the video lecture must be watched in its entirety, and the quiz must be passed with 80% or higher. You DO NOT have to choose the credit type or enter any user information UNTIL AFTER you have successfully passed the quiz, and only if you want to obtain credit for the video lecture. Here\u2019s how it works: At the conclusion of the video presentation, a dialogue box will appear prompting you t",
+      "avg_prediction": 0.1444
+    },
+    {
+      "idx": 58,
+      "hash": "41aef8ab",
+      "n_words": 59,
+      "n_chars": 389,
+      "preview_head": "that supplement the digestion-aiding actions of pancreatic enzymes have been approved by the U.S. Food and Drug Administration, the agency said Thursday in a news release. Ultresa (pancrelipase) was a",
+      "preview_tail": "pase) was approved for adults and children with cystic fibrosis and other disorders that limit secretion of these digestive enzymes into the intestine where they are needed to break down fats, protein",
+      "full_text": "that supplement the digestion-aiding actions of pancreatic enzymes have been approved by the U.S. Food and Drug Administration, the agency said Thursday in a news release. Ultresa (pancrelipase) was approved for adults and children with cystic fibrosis and other disorders that limit secretion of these digestive enzymes into the intestine where they are needed to break down fats, protein",
+      "avg_prediction": 0.8233
+    },
+    {
+      "idx": 59,
+      "hash": "d6efb4a1",
+      "n_words": 56,
+      "n_chars": 316,
+      "preview_head": ". Vampirella banked to her right, and swooped down onto the roof of a dilapidated apartment block. As she landed, the leathery wings on her back began to shrink and become paler, until they were but s",
+      "preview_tail": "e leathery wings on her back began to shrink and become paler, until they were but stumps sticking out of the bare back of the woman. Quickly, these stumps disappeared too, leaving a normal back, with",
+      "full_text": ". Vampirella banked to her right, and swooped down onto the roof of a dilapidated apartment block. As she landed, the leathery wings on her back began to shrink and become paler, until they were but stumps sticking out of the bare back of the woman. Quickly, these stumps disappeared too, leaving a normal back, with",
+      "avg_prediction": 0.705
+    },
+    {
+      "idx": 60,
+      "hash": "4e9d45a2",
+      "n_words": 181,
+      "n_chars": 1150,
+      "preview_head": "support. Do not enter into any consultation or discussion without preparing for it. Here are tips [\u2026] The post Why Settle Child Custody Issues With Divorce Mediation? appeared first on BagelBarrel. Fr",
+      "preview_tail": "scaping designs for better living conditions. In Mississippi, for instance, there are different commercial landscaping services in Hattiesburg and other locations where some companies offer a complete",
+      "full_text": "support. Do not enter into any consultation or discussion without preparing for it. Here are tips [\u2026] The post Why Settle Child Custody Issues With Divorce Mediation? appeared first on BagelBarrel. Fridge Maintenance: 4 Signs It\u2019s Time to Call a Technician at 2:56 am When it comes to food preservation, your refrigerator is one of the most important appliances. Refrigeration keeps food safe by slowing down the growth of bacteria. When your fridge isn\u2019t functional, it won\u2019t serve its purpose. Below are the signs to look out for to know when it\u2019s time to seek the services of fridge [\u2026] The post Fridge Maintenance: 4 Signs It\u2019s Time to Call a Technician appeared first on BagelBarrel. Green Landscapes: Multifamily Building Owners\u2019 Solution to Attract Tenants at 1:00 am Tenants no longer just want a strategic location when choosing the right apartment project, as a survey showed that the immediate environment should also have sustainable landscaping designs for better living conditions. In Mississippi, for instance, there are different commercial landscaping services in Hattiesburg and other locations where some companies offer a complete",
+      "avg_prediction": 0.6297
+    },
+    {
+      "idx": 61,
+      "hash": "c4b8627a",
+      "n_words": 101,
+      "n_chars": 744,
+      "preview_head": "check online documents function checkOnlineDocs($array, &$onlineDocs) { foreach($array as $nr => $name) { $xml = simplexml_load_file(\"http://www.example.com/docs.php?live_id=\".$nr); if($xml->liveDocs-",
+      "preview_tail": "ew array `$anotherArray` and a function `checkOnlineDocs` that takes an array and a reference to `$onlineDocs` array. The function checks for online documents and adds them to the `$onlineDocs` array.",
+      "full_text": "check online documents function checkOnlineDocs($array, &$onlineDocs) { foreach($array as $nr => $name) { $xml = simplexml_load_file(\"http://www.example.com/docs.php?live_id=\".$nr); if($xml->liveDocs->download != 0) { $onlineDocs[$nr] = $name; } } } // Check online documents from both arrays checkOnlineDocs($externdoc, $onlineDocs); checkOnlineDocs($anotherArray, $onlineDocs); // Echo online documents foreach($onlineDocs as $nr => $name) { echo 'Download: ' . $name . ' (ID: ' . $nr . ')' . '<br>'; } ?> ``` In this script, I've created a new array `$anotherArray` and a function `checkOnlineDocs` that takes an array and a reference to `$onlineDocs` array. The function checks for online documents and adds them to the `$onlineDocs` array.",
+      "avg_prediction": 0.9799
+    },
+    {
+      "idx": 62,
+      "hash": "74a4064d",
+      "n_words": 127,
+      "n_chars": 732,
+      "preview_head": "not sleeping much at night either -- maybe 3 or 4 hours. So during the day, I just want to sleep but can't because my mind is too busy spinning around like a pinball machine with thoughts and feelings",
+      "preview_tail": "indispensible, irascible, singular, and most of all: Teacher is gone. It happened mid-afternoon on Friday and soon a storm front moved in to wash away the tears and the tragedy so that El Lay could go",
+      "full_text": "not sleeping much at night either -- maybe 3 or 4 hours. So during the day, I just want to sleep but can't because my mind is too busy spinning around like a pinball machine with thoughts and feelings. Personally, I didn't know a force of nature could die, but finally, after months of chemo, days of lying in a virtual coma -- Nik Venet, master, artist, iconoclast, True Believer in the art of the song, worshipper of great art, artists and songwriters -- proud, determined, frustrated, peaceful, forceful, opinionated, hilarious, indispensible, irascible, singular, and most of all: Teacher is gone. It happened mid-afternoon on Friday and soon a storm front moved in to wash away the tears and the tragedy so that El Lay could go",
+      "avg_prediction": 0.1923
+    },
+    {
+      "idx": 63,
+      "hash": "a717142d",
+      "n_words": 200,
+      "n_chars": 1235,
+      "preview_head": "and output to d...o this in SQL Server. Here's an example script: ```sql MERGE INTO Users AS u USING (SELECT Id, AddressId FROM Users WHERE AddressId IS NULL) AS s ON u.Id = s.Id WHEN MATCHED THEN UPD",
+      "preview_tail": "ddresses); UPDATE u SET u.AddressId = na.Id FROM Users AS u INNER JOIN @newAddresses as na ON u.id IN ( select id from users where addressid is null limit( case when exists(select * From addresses ) t",
+      "full_text": "and output to d...o this in SQL Server. Here's an example script: ```sql MERGE INTO Users AS u USING (SELECT Id, AddressId FROM Users WHERE AddressId IS NULL) AS s ON u.Id = s.Id WHEN MATCHED THEN UPDATE SET u.AddressId = ( SELECT i.Id FROM Addresses i WHERE NOT EXISTS (SELECT 1 FROM Users ui WHERE ui.AddressId = i.Id) UNION ALL SELECT Id FROM ( INSERT INTO Addresses (Country, State, City, ZipCode) VALUES ('DefaultCountry', 'DefaultState', 'DefaultCity', 99999) OUTPUT inserted.id ) AS newAddress(Id)); ``` However, a more efficient and straightforward approach would be to use the `INSERT` statement with an `OUTPUT` clause in combination with an `UPDATE` statement: ```sql DECLARE @newAddresses TABLE (Id INT); INSERT INTO Addresses (Country, State, City, ZipCode) OUTPUT inserted.Id INTO @newAddresses(Id) SELECT 'DefaultCountry', 'DefaultState', 'DefaultCity', 99999 WHERE NOT EXISTS ( SELECT 1 FROM Users u WHERE AddressId IS NULL ) OR EXISTS ( SELECT 1 FROM Users u WHERE AddressId IS NULL AND Id = (SELECT MAX(Id) + 1 FROM Addresses); UPDATE u SET u.AddressId = na.Id FROM Users AS u INNER JOIN @newAddresses as na ON u.id IN ( select id from users where addressid is null limit( case when exists(select * From addresses ) t",
+      "avg_prediction": 0.9816
+    },
+    {
+      "idx": 64,
+      "hash": "2b310308",
+      "n_words": 270,
+      "n_chars": 1754,
+      "preview_head": "e on a Unix-like system (Linux, Mac OS X, perhaps others), there's the contrib/complete/git-completion.bash bash auto-complete ruleset, which will let you auto-complete git commands (you can type git ",
+      "preview_tail": "etup allows you more convenience in handling long named git Branch names, especially when dealing frequently with them. Please note that the commands might need modification based on your specific nee",
+      "full_text": "e on a Unix-like system (Linux, Mac OS X, perhaps others), there's the contrib/complete/git-completion.bash bash auto-complete ruleset, which will let you auto-complete git commands (you can type git checkout step110<tab> and your shell will autocomplete the branch-name. To activate this: If you've got the git source, in contrib/complete/ there's a file git-completion.bash. Put that somewhere safe (like ~/.git-completion), and then add the following line to your ~/.bashrc file: source ~/.git-completion. Either restart your shell session or run source ~/.git-completion to get it running. You can also use alias in bash for commonly used commands. A: Yes, there's a shortcut you could utilize by using git aliases which allow defining shortcuts anD give them meaningful names. Here is an example of how to set up your desired branch name as 'step110': ```bash # Open or edit the .gitconfig file $ nano ~/.gitconfig // Add these lines under [alias] checkout-step-branch = checkout step* commit-to-checkout-stub = commit -m \"Checked out into: %h\" push-all-local_branches = for branch in $(git rev-list --all); do git push origin head:$(basename \"$git reflog show | grep 'onto' /dev/null\" || echo none) ; done ``` With this setup, you can now use the following commands: 1. To check out your step110_branch: $ checkout-step-branch 2. For committing with a message about which branch was checked-out last. // If there's any commit since then it will show up here else 'none' 3. Push all local branches to remote repository push-all-local_branches This setup allows you more convenience in handling long named git Branch names, especially when dealing frequently with them. Please note that the commands might need modification based on your specific nee",
+      "avg_prediction": 0.6533
+    },
+    {
+      "idx": 65,
+      "hash": "2ef700d0",
+      "n_words": 82,
+      "n_chars": 619,
+      "preview_head": "Help Keyboard Shortcuts Feed Builder What\u2019s new Available Gadgets Log In Public Browse Space Labelled content Pages Blog Labels Space Operations Related Labels seg-service-commvault e-discovery-n1 cer",
+      "preview_tail": "ing specific\u2014like explaining what these terms mean (e.g., \"seg-service-commvault,\" \"clean\"), providing more information about them, or helping troubleshoot any issues\u2014you're welcome to ask! let me kno",
+      "full_text": "Help Keyboard Shortcuts Feed Builder What\u2019s new Available Gadgets Log In Public Browse Space Labelled content Pages Blog Labels Space Operations Related Labels seg-service-commvault e-discovery-n1 certificate maintenanceadvantage support f565f recall scs-service saIt seems like you've shared a list of items or labels related to system administration, possibly from an application interface. If I can assist with anything specific\u2014like explaining what these terms mean (e.g., \"seg-service-commvault,\" \"clean\"), providing more information about them, or helping troubleshoot any issues\u2014you're welcome to ask! let me kno",
+      "avg_prediction": 0.9848
+    },
+    {
+      "idx": 66,
+      "hash": "efce620e",
+      "n_words": 201,
+      "n_chars": 1341,
+      "preview_head": "ctivities. During your time here at Duke Law, we strive to provide a supportive environment that encourages both personal growth and professional development. LEAD Week will cover: 1. Academic Orienta",
+      "preview_tail": "professional journey will set a strong foundation. If there\u2019s anything specific you\u2019re looking forward to or any questions before then, feel free to reach out! Best wishes, [Your Name] Office of Stude",
+      "full_text": "ctivities. During your time here at Duke Law, we strive to provide a supportive environment that encourages both personal growth and professional development. LEAD Week will cover: 1. Academic Orientation: Understanding the curriculum, course registration process, library services, research tools available through our libraries, academic integrity policies. 2. Student Services Overview: Learning about office hours for OSA staff members who handle everything from housing to health concerns; also introducing you to other key offices like Career Center and Student Organizations Office which can help in finding internships or joining clubs that match your interests. 3. Networking Events & Social Mixers: Opportunities to meet fellow classmates, professors, alumni mentors through various social events organized during LEAD Week. 4. Public Interest Initiatives: Information on how you might get involved with community service projects and pro bono legal work while studying at Duke Law. We are excited about the opportunities that lie ahead for each of you as members of the Class of 2017, and we hope these initial steps towards your professional journey will set a strong foundation. If there\u2019s anything specific you\u2019re looking forward to or any questions before then, feel free to reach out! Best wishes, [Your Name] Office of Stude",
+      "avg_prediction": 0.9415
+    },
+    {
+      "idx": 67,
+      "hash": "5e9e3237",
+      "n_words": 47,
+      "n_chars": 300,
+      "preview_head": "his creative outlet through drawings at an early age due in part because he was so fascinated with various historical civilizations which inspired him greatly! Now 25 years old living within The Nethe",
+      "preview_tail": "arious historical civilizations which inspired him greatly! Now 25 years old living within The Netherlands; this young man continues exploring new ways to express himself creatively while also delving",
+      "full_text": "his creative outlet through drawings at an early age due in part because he was so fascinated with various historical civilizations which inspired him greatly! Now 25 years old living within The Netherlands; this young man continues exploring new ways to express himself creatively while also delving",
+      "avg_prediction": 0.983
+    },
+    {
+      "idx": 68,
+      "hash": "d66bb4b8",
+      "n_words": 61,
+      "n_chars": 390,
+      "preview_head": "nd its progress over time - allowing you as customers not only make informed decisions but also track real-life impact of their purchases. This visibility empowers us all, turning simple everyday acti",
+      "preview_tail": "ryday actions into tangible changes in people\u2019s lives across different corners around world. By supporting B1G through our business operations we are creating a ripple effect that goes far beyond what",
+      "full_text": "nd its progress over time - allowing you as customers not only make informed decisions but also track real-life impact of their purchases. This visibility empowers us all, turning simple everyday actions into tangible changes in people\u2019s lives across different corners around world. By supporting B1G through our business operations we are creating a ripple effect that goes far beyond what",
+      "avg_prediction": 0.8606
+    },
+    {
+      "idx": 69,
+      "hash": "e2db9a9b",
+      "n_words": 107,
+      "n_chars": 666,
+      "preview_head": "ames Advice Genie's Mailbag Free Stuff & Deals Become a Fan Login Baby Name Poll Results Theodore Prentiss vs. Oliver Prentiss vs. Miles Prentiss Which baby boy name sounds best with middle last name ",
+      "preview_tail": "mentioned earlier - Sebastion Grey, Vincent DeMarco, and Halle Lorraine with prennames Theodore or Olivier seem great. Theodore seems to be winning over voters by 56% against him vs Oliver. This could",
+      "full_text": "ames Advice Genie's Mailbag Free Stuff & Deals Become a Fan Login Baby Name Poll Results Theodore Prentiss vs. Oliver Prentiss vs. Miles Prentiss Which baby boy name sounds best with middle last name combo Prentiss Larch. Siblings are Sebastion Grey, Vincent DeMarco and Halle Lorraine. Thanks! The Top Baby Name is... Name Votes Theodore Prentiss Larch 56% (9 votes) Oliver PrentisIt sounds like you're a fan of baby names! Considering the sibling combinations you mentioned earlier - Sebastion Grey, Vincent DeMarco, and Halle Lorraine with prennames Theodore or Olivier seem great. Theodore seems to be winning over voters by 56% against him vs Oliver. This could",
+      "avg_prediction": 0.8344
+    },
+    {
+      "idx": 70,
+      "hash": "2c71b044",
+      "n_words": 211,
+      "n_chars": 1275,
+      "preview_head": "it of giving to and caring for others, which was so important to Alyssa Rose Bruno. Funds that are generated will be used to support projects that will directly benefit the most disadvantaged and need",
+      "preview_tail": "ous donation made by the members of PEF in support of our efforts to help children and families in need. Read the article The Bruno family and the Board of Directors of Alyssa's Angels would like to e",
+      "full_text": "it of giving to and caring for others, which was so important to Alyssa Rose Bruno. Funds that are generated will be used to support projects that will directly benefit the most disadvantaged and needy children in the Rochester area. These projects will focus on children who are: Victims of abuse and/or neglect Experiencing serious medical, behavioral or emotional problems Lacking in family or other community supports Annual FSW/DHS Holiday Craft and Baked Food Sale Again this year, proceeds from this event will benefit Alyssa's Angels! Thanks to all of those who are involved with planning and participating. Your efforts are deeply appreciated! Click here for details. Thank You from All of Us at Alyssa's Angels for Your Tremendous Support! We wanted to thank everyone again for you participation and support in our 2018 fund raising events and projects: Rochester Euchre Tournament was held in April Our annual Easter Egg Hunt was held in March FSW Golf Tournament to benefit Alyssa's Angels was played in July Alyssa's Angels is tremendously grateful for the generous donation made by the members of PEF in support of our efforts to help children and families in need. Read the article The Bruno family and the Board of Directors of Alyssa's Angels would like to e",
+      "avg_prediction": 0.3089
+    },
+    {
+      "idx": 71,
+      "hash": "b6831953",
+      "n_words": 48,
+      "n_chars": 272,
+      "preview_head": "vent but also helped to raise funds for local youth programs. The Bill Lee & Celebrities All-Star Softball team came to town to share the diamond that day, bringing with it such well-known stars as Da",
+      "preview_tail": "ee & Celebrities All-Star Softball team came to town to share the diamond that day, bringing with it such well-known stars as David Bavaro, Steve King, Patrick Pass and Jim Bowman of the Patriots; Jim",
+      "full_text": "vent but also helped to raise funds for local youth programs. The Bill Lee & Celebrities All-Star Softball team came to town to share the diamond that day, bringing with it such well-known stars as David Bavaro, Steve King, Patrick Pass and Jim Bowman of the Patriots; Jim",
+      "avg_prediction": 0.9824
+    },
+    {
+      "idx": 72,
+      "hash": "67ec71d9",
+      "n_words": 234,
+      "n_chars": 1330,
+      "preview_head": ". The regiment was always mounted on black horses. At the end of 1755, a company of light dragoons was added to the regiments. These light dragoons had brass helmets. During the Seven Years' War, the ",
+      "preview_tail": "After the defeat, the rear-guard was so hard pressed that the prince only extricated it by putting himself at the head of two squadrons of the 1st and 3rd Dragoon Guards, and leading them to a despera",
+      "full_text": ". The regiment was always mounted on black horses. At the end of 1755, a company of light dragoons was added to the regiments. These light dragoons had brass helmets. During the Seven Years' War, the regiment was under the command of: in 1758: colonel Bland Service during the War In the summer of 1758, the regiment was among the first British contingent (6,000 men) sent to reinforce the Allied army of Ferdinand of Brunswick in Germany. The contingent embarked at Gravesend on July 19, disembarked at Emden on August 3 1758 and arrived at Coesfeld on August 17, after marching through a very heavy rain. In June 1759, the regiment was part of the main Allied army under the command of the duke Ferdinand of Brunswick. On August 1, the regiment was present at the battle of Minden where it was deployed in the first line of the right hand column under lord George Sackville. This cavalry corps did not take part in the battle despite several orders requesting its intervention. Lord Sackville was later court-martialed and lost his command. On July 10 1760, the regiment was with the Hereditary Prince at the combat of Corbach. After the defeat, the rear-guard was so hard pressed that the prince only extricated it by putting himself at the head of two squadrons of the 1st and 3rd Dragoon Guards, and leading them to a despera",
+      "avg_prediction": 0.8879
+    },
+    {
+      "idx": 73,
+      "hash": "dd58d8ef",
+      "n_words": 234,
+      "n_chars": 1315,
+      "preview_head": "having such a deep impact, it\u2019s literally changing how our brains work. Children have already started to adapt to our technological world, but we\u2019re only human and technology is changing the world fas",
+      "preview_tail": " technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded",
+      "full_text": "having such a deep impact, it\u2019s literally changing how our brains work. Children have already started to adapt to our technological world, but we\u2019re only human and technology is changing the world faster than we can cope. And that, my friends, is a source of opportunity. The early adopters advantage You see, because technology is changing our world faster than we can cope, it provides plenty of opportunities to use technology to gain a compeThe early adopters advantage is a concept that is often discussed in the world of technology, and it refers to the benefits that can be gained by early adopters of new technologies and innovations. Early adopters, by virtue of being the first to embrace new technologies, can gain a significant advantage in the marketplace. This is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded in the world of technology, and it is a concept that is deeply embedded",
+      "avg_prediction": 0.7692
+    },
+    {
+      "idx": 74,
+      "hash": "5407247d",
+      "n_words": 45,
+      "n_chars": 274,
+      "preview_head": "onal cuisines and personalized services in our Cafe Society We're sorry, but this resort does not currently have any : availability for the specified date range. Please note that reservations are subj",
+      "preview_tail": "ut this resort does not currently have any : availability for the specified date range. Please note that reservations are subject to availability at time of booking, so it's advisable to book as early",
+      "full_text": "onal cuisines and personalized services in our Cafe Society We're sorry, but this resort does not currently have any : availability for the specified date range. Please note that reservations are subject to availability at time of booking, so it's advisable to book as early",
+      "avg_prediction": 0.1718
+    },
+    {
+      "idx": 75,
+      "hash": "3017be70",
+      "n_words": 334,
+      "n_chars": 2046,
+      "preview_head": "Tips Free and Exclusive Horse Racing Tips for Selected Meetings in the UK, Ireland & Meydan Pages Home Free Tips Ireland Speedy Exclusives Saturday, 14 November 2015 Saturday 14 November Horse Racing ",
+      "preview_tail": "him an edge today. - 18:45 \u2013 Has a knack for picking the right moment in races; look out as she makes her move on this soft ground. - 19:15 - Consistent performer, especially strong when conditions ar",
+      "full_text": "Tips Free and Exclusive Horse Racing Tips for Selected Meetings in the UK, Ireland & Meydan Pages Home Free Tips Ireland Speedy Exclusives Saturday, 14 November 2015 Saturday 14 November Horse Racing Tips Saturday\u2019s Superpicks: Cheltenham good to soft 12:40 Romain De Senam 13:15 Blaklion 13:50 Audacious Plan 14:25 Cloud Creeper 15:00 The Job Is Right 15:35 Champagne Express 16:05 Tobouggaloo Wolverhampton Standard 17:45 Parkour 18:15 Dreams of Glory 18:45 Dark Side Princess 19:15 Ritasun 19:45 Plenary 20:Speedy Equines Horse Racing Tips Welcome to Speedy Equines, your go-to source for free and exclusive horse racing tips covering selected meetings in the UK, Ireland & Meydan. Our expert insights help you make informed decisions on race days. ### Saturday 14 November 2015 - Cheltenham Racecard Preview: Good To Soft Conditions Here's a breakdown of our Superpicks: - 12:40 \u2013 A strong contender in this opening event. Known for good performance on softer ground. - 13:15 - Expected to shine given the soft conditions, leveraging his recent form and track record at Cheltenham. - 13:50 \u2013 With a proven ability in similar race setups; worth watching closely today. - 14:25 - Noted for consistency on soft ground, making him an attractive pick this afternoon. - 15:00 - A reliable runner with experience at Cheltenham's demanding courses. - 15:35 \u2013 Has the pace to take advantage of today\u2019s conditions and could outperform expectations. - 16:05 - Known for agility, this horse can navigate soft ground well; a good choice here. ### Wolverhampton Standard Conditions remain favorable with consistent rainfall throughout the day making it ideal terrain for horses that excel in such settings: - 17:45 \u2013 Excels on wet tracks and has been training exceptionally leading up to this event. - 18:15 - A seasoned competitor, his adaptability gives him an edge today. - 18:45 \u2013 Has a knack for picking the right moment in races; look out as she makes her move on this soft ground. - 19:15 - Consistent performer, especially strong when conditions ar",
+      "avg_prediction": 0.7025
+    },
+    {
+      "idx": 76,
+      "hash": "1c444447",
+      "n_words": 274,
+      "n_chars": 1989,
+      "preview_head": "transmission might be most effective, especially within hard to reach communities. In addition to HIV prevention, individuals diagnosed so early are of increasing interest to HIV researchers working t",
+      "preview_tail": "end improvements that could lead to better health outcomes for patients during this critical period. Additionally, exploring innovative treatments such as early antiretroviral therapy (ART) initiation",
+      "full_text": "transmission might be most effective, especially within hard to reach communities. In addition to HIV prevention, individuals diagnosed so early are of increasing interest to HIV researchers working to improve treatment or to find a cure. Currently, one of the greatest challenges to curing HIV is the persistence of latent viral reservoirs within the body. Individuals diagnosed and virally suppressed during AHI are generally provided long-term immunological benefits and tend to have smaller viral reservoirs. AHI diagnosed and treated patients may therefore be among the first to becandidates for curative interventions, as their bodies might present unique opportunities due to these factors. The project aims at exploring this critical window of opportunity presented by Acute HIV Infection (AHI) through a comprehensive study that encompasses epidemiological analysis, clinical management strategies, and the psychological impact on individuals. By understanding how AHI manifests in different populations and environments, we can develop targeted interventions to not only prevent further transmission but also pave the way for potential cures. Epidemiologically, this project will analyze data from various sources including healthcare facilities, community organizations, and public health records to identify trends and patterns of HIV acquisition during AHI. This information is crucial in understanding where and how new infections occur, allowing us to allocate resources more effectively towards prevention efforts within high-risk groups or areas. Clinically, the project will evaluate current diagnostic tools and treatment protocols used for individuals diagnosed with AHI across different healthcare settings. By assessing their efficacy and accessibility, we can recommend improvements that could lead to better health outcomes for patients during this critical period. Additionally, exploring innovative treatments such as early antiretroviral therapy (ART) initiation",
+      "avg_prediction": 0.9047
+    },
+    {
+      "idx": 77,
+      "hash": "d6e99df3",
+      "n_words": 113,
+      "n_chars": 743,
+      "preview_head": "\u2022 Tarot Self Help / Inspiration Journals Essays & Memoirs Black & Critical Race Studies Politics & Current Events Sociology Philosophy Science & Technology Nature & Environmental Studies Business & Le",
+      "preview_tail": "riday 10am-9pm - Friday 11am-6pm Events: - Book Society Events - Author Signings - Poetry Reading - Writing Events - Art Events - Community Discussions - Special events - Check our website or follow u",
+      "full_text": "\u2022 Tarot Self Help / Inspiration Journals Essays & Memoirs Black & Critical Race Studies Politics & Current Events Sociology Philosophy Science & Technology Nature & Environmental Studies Business & Leadership American History World History Providence & Rhode Island Preorder Books Bargain Books MAGNETS CHOCOLATE GIFT CARDS VINYL PVD DELIVERY SERVICE Contact / Hours EVENTS Indie Bookstore \u2022 Downtown Providence \u2022Providence Athenaeum 221 Elm Avenue Providence, MA 02901 (401) 421-4000 hours: - Monday-Thursday 10am-9pm - Thursday 10am-10pm - Friday 10am-9pm - Friday 11am-6pm Events: - Book Society Events - Author Signings - Poetry Reading - Writing Events - Art Events - Community Discussions - Special events - Check our website or follow u",
+      "avg_prediction": 0.9775
+    },
+    {
+      "idx": 78,
+      "hash": "f6830fee",
+      "n_words": 72,
+      "n_chars": 375,
+      "preview_head": "is, things were progressing slowly. Anywertg, I kept thinking about the c-section. Even though I knew I didn't want one, I still had the epidural. And I didn't want to be cut open and sutured. So I di",
+      "preview_tail": "open and sutured. So I didn't have one. And I'd been told that it was a good thing because it would make recovery easier. So I didn't have one, and I'm glad I didn't because recovery was easy, and I'm",
+      "full_text": "is, things were progressing slowly. Anywertg, I kept thinking about the c-section. Even though I knew I didn't want one, I still had the epidural. And I didn't want to be cut open and sutured. So I didn't have one. And I'd been told that it was a good thing because it would make recovery easier. So I didn't have one, and I'm glad I didn't because recovery was easy, and I'm",
+      "avg_prediction": 0.9725
+    },
+    {
+      "idx": 79,
+      "hash": "1dfdd0d5",
+      "n_words": 45,
+      "n_chars": 310,
+      "preview_head": "a consensus statement of the National Institute of Mental Health (NIMH), negative symptoms comprise five domains, such as blunted affect, alogia, asociality, anhedonia, and avolition.[@CIT0005] The ne",
+      "preview_tail": "ns, such as blunted affect, alogia, asociality, anhedonia, and avolition.[@CIT0005] The need for a new instrument which includes these five domainwas recognized in the early 1990s. This led to several",
+      "full_text": "a consensus statement of the National Institute of Mental Health (NIMH), negative symptoms comprise five domains, such as blunted affect, alogia, asociality, anhedonia, and avolition.[@CIT0005] The need for a new instrument which includes these five domainwas recognized in the early 1990s. This led to several",
+      "avg_prediction": 0.8038
+    },
+    {
+      "idx": 80,
+      "hash": "eab5594f",
+      "n_words": 80,
+      "n_chars": 539,
+      "preview_head": "donated by sponsors, enjoy dinner and live entertainment featuring current pros. ### How to Get Involved 1. Register Online: Visit the official Madisen's Match website to sign up as an individual or t",
+      "preview_tail": "ess: Use social media platforms and word-of-mouth communication strategies to promote the event among friends, family, and colleagues. By participating in Madisen's Match 2015 or any subsequent editio",
+      "full_text": "donated by sponsors, enjoy dinner and live entertainment featuring current pros. ### How to Get Involved 1. Register Online: Visit the official Madisen's Match website to sign up as an individual or team for various events. 2. Donate Directly: Contribute funds through secure online payment options provided on their site. 3. Spread Awareness: Use social media platforms and word-of-mouth communication strategies to promote the event among friends, family, and colleagues. By participating in Madisen's Match 2015 or any subsequent editio",
+      "avg_prediction": 0.9812
+    },
+    {
+      "idx": 81,
+      "hash": "3cadbec6",
+      "n_words": 132,
+      "n_chars": 841,
+      "preview_head": "e circumstances, denied the plaintiffs due process. II. Principles of Review. We review a district court's grant of a summary judgment for correction of errors at law. Campbell v. Delbridge, 670 N.W.2",
+      "preview_tail": "on over nuisance abatement in an administrative officer, without providing for a due-process hearing. Under that ordinance, [w]henever the Compliance Officer finds that a nuisance exists, such officer",
+      "full_text": "e circumstances, denied the plaintiffs due process. II. Principles of Review. We review a district court's grant of a summary judgment for correction of errors at law. Campbell v. Delbridge, 670 N.W.2d 108, 110 (Iowa 2003). Summary judgment is appropriate only when there are no genuine issues of material fact, and the moving party is entitled to judgment as a matter of law. Id. We, of course, review constitutional issues de novo. Dressler v. Iowa Dep't of Transp., 542 N.W.2d 563, 565 (Iowa 1996). III. The City Ordinances. The Kistlers argue that section 50.05 of the city's ordinance is unconstitutional because it places sole discretion over nuisance abatement in an administrative officer, without providing for a due-process hearing. Under that ordinance, [w]henever the Compliance Officer finds that a nuisance exists, such officer",
+      "avg_prediction": 0.5949
+    },
+    {
+      "idx": 82,
+      "hash": "78099835",
+      "n_words": 79,
+      "n_chars": 503,
+      "preview_head": "t Us page provides information regarding how we started as a family-owned business, what values drive us forward and why choosing to purchase from local jewelers like ourselves can be an advantage for",
+      "preview_tail": "ices Page gives details about our jewelry insurance service which provides protection against loss or theft. Contact Us page has a map of where we are located and contact information so that potential",
+      "full_text": "t Us page provides information regarding how we started as a family-owned business, what values drive us forward and why choosing to purchase from local jewelers like ourselves can be an advantage for you. Testimonials: Hear directly form satisfied customers on their experiences with Dukes Jewlers Services Page gives details about our jewelry insurance service which provides protection against loss or theft. Contact Us page has a map of where we are located and contact information so that potential",
+      "avg_prediction": 0.711
+    },
+    {
+      "idx": 83,
+      "hash": "f1e84231",
+      "n_words": 89,
+      "n_chars": 511,
+      "preview_head": "Some versions of Windows have been known to work. By any chance, are you using a 32-bit OS? The code in question is here, and depends upon the gmtime_s() implementation. If this collection is simply f",
+      "preview_tail": "atinG the field names (e.g. y, m, d) to save on storage, since the field strings are present in each stored document. The trade-off here is that none of the aggregation date operators can be used. You",
+      "full_text": "Some versions of Windows have been known to work. By any chance, are you using a 32-bit OS? The code in question is here, and depends upon the gmtime_s() implementation. If this collection is simply for aggregation queries, you can certainly get by with storing date components in an object. I'd suggest abbreviatinG the field names (e.g. y, m, d) to save on storage, since the field strings are present in each stored document. The trade-off here is that none of the aggregation date operators can be used. You",
+      "avg_prediction": 0.2384
+    },
+    {
+      "idx": 84,
+      "hash": "8294d981",
+      "n_words": 305,
+      "n_chars": 1794,
+      "preview_head": "help! We've got all types of flowers for an anniversary. Nothing says love like surprising your loved one with a stunning bouquet on your special day! Flower Box delivers to Minot, ND Love's Divine Bo",
+      "preview_tail": "lowers Bring flowers to Thanksgiving dinner. Flower Box has traditional Thanksgiving centerpieces or modern arrangements for a fun surprise. Flower Box can deliver locally to Minot, ND or nationwide!!",
+      "full_text": "help! We've got all types of flowers for an anniversary. Nothing says love like surprising your loved one with a stunning bouquet on your special day! Flower Box delivers to Minot, ND Love's Divine Bouquet - Long Stemmed Roses $139.99 Buy Now My Perfect Love - Long Stemmed Red Roses $159.95 Buy Now Endless Romance Bouquet $69.99 Buy Now shop all Anniversary Flowers Birthday Flowers Look no further than Flower Box for birthday gifts! Liven up any birthday party with a festive birthday flowers or surprise them with a cheerful \"Happy Birthday\" bouquet! We offer birthday flower delivery to Minot, ND or nationwide. Gourmet Wine Basket $40.00 Buy Now How Sweet It Is $65.95 Buy Now Deal of the Day $39.99 Buy Now shop all Birthday Flowers Get Well Flowers Nothing says \"Get Well Soon\" like a vibrant bouquet of fresh flowErs! Look no further for get well gifts than Flower Box. We deliver get well flowers to Minot, ND or nationwide to brighten their day. They'll be sure to get well soon! Teleflora's Bee Well Bouquet $50.00 Buy Now How Sweet It Is $65.95 Buy Now Deal of the Day $39.99 Buy Now shop all Get Well Flowers Flowers for Love & Romance Romance isn't just for Valentine's Day, celebrate your love every day with a romantic gift from Flower Box, your local florist in Minot. From romantic roses to modern masterpieces, we have the perfect bouquet to express your emotions! Teleflora's Red Haute Bouquet $74.95 Buy Now Lavish Love Bouquet with Long Stemmed Red Roses $84.95 Buy Now Teleflora's Work Of Heart Bouquet $124.95 buy Now shop all Flowers for Love & Romance Thanksgiving Flowers Bring flowers to Thanksgiving dinner. Flower Box has traditional Thanksgiving centerpieces or modern arrangements for a fun surprise. Flower Box can deliver locally to Minot, ND or nationwide!!",
+      "avg_prediction": 0.086
+    },
+    {
+      "idx": 85,
+      "hash": "f4f93486",
+      "n_words": 65,
+      "n_chars": 443,
+      "preview_head": "create a dictionary from the following list [{'fips': '01001', 'state': 'AL', 'name': 'Autauga County'}, {'fips': '20005', 'state': 'KS', 'name': 'Atchison County'}, {'fips': '47145', 'state': 'TN', '",
+      "preview_tail": "ave the name as the key and 'United States' as the value. eg: {'Autauga County': 'United States', 'Atchison County' : 'United States', 'Roane County' : 'United States'} I want to achieve this using di",
+      "full_text": "create a dictionary from the following list [{'fips': '01001', 'state': 'AL', 'name': 'Autauga County'}, {'fips': '20005', 'state': 'KS', 'name': 'Atchison County'}, {'fips': '47145', 'state': 'TN', 'name': 'Roane County'}] The result should have the name as the key and 'United States' as the value. eg: {'Autauga County': 'United States', 'Atchison County' : 'United States', 'Roane County' : 'United States'} I want to achieve this using di",
+      "avg_prediction": 0.9833
+    },
+    {
+      "idx": 86,
+      "hash": "27a4c98f",
+      "n_words": 162,
+      "n_chars": 991,
+      "preview_head": "Yulia earlier this year. The couple is currently in critical condition, and police have stated there is no evidence to suggest they were specifically targeted. The incident has raised concerns about t",
+      "preview_tail": " regime. And in Thailand, rescue efforts are to save a teenage soccer team trapped in a cave. The team and their coach have been stranded for over two weeks, and with monsoon rains expected to hit the",
+      "full_text": "Yulia earlier this year. The couple is currently in critical condition, and police have stated there is no evidence to suggest they were specifically targeted. The incident has raised concerns about the potential lingering effects of the Novichok agent in the Salisbury area, where the Skripals were also poisoned. We will have more on this developing story as information becomes available. Stay with us for the updates. In other news, President Donald Trump has reportedly asked his advisors about the possibility of a military invasion of Venezuela. President Nicolas Maduro has responded by instructing his armed forces to remain and not to lower their guard. The political and crisis in Venezuela continues to escalate, with the U.S. and other countries imposing sanctions on the Maduro regime. And in Thailand, rescue efforts are to save a teenage soccer team trapped in a cave. The team and their coach have been stranded for over two weeks, and with monsoon rains expected to hit the",
+      "avg_prediction": 0.9419
+    },
+    {
+      "idx": 87,
+      "hash": "d8afad17",
+      "n_words": 82,
+      "n_chars": 622,
+      "preview_head": "is capable of achieving high-speed all-optical logic operations, which can be integrated into large-scale photonic circuits for advanced signal processing and communication applications. The key advan",
+      "preview_tail": "ions within these confining structures, it becomes possible to encode and process information optically while maintaining high fidelity. This technique opens up new possibilities for implementing reco",
+      "full_text": "is capable of achieving high-speed all-optical logic operations, which can be integrated into large-scale photonic circuits for advanced signal processing and communication applications. The key advantage of this approach lies in its compactness and efficiency, enabling precise control over light signals at subwavelength scales using the nanoscale MIM waveguides. By manipulating polarization states through FWM interactions within these confining structures, it becomes possible to encode and process information optically while maintaining high fidelity. This technique opens up new possibilities for implementing reco",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 88,
+      "hash": "7b4510fa",
+      "n_words": 144,
+      "n_chars": 961,
+      "preview_head": "their functions in immune defence. this new route of T cell-silencing promises a lead toward treatment of numerous important diseases which are caused by unwanted action of T cells like diabetes, infl",
+      "preview_tail": "or is overactive, it can lead to serious diseases like diabetes, inflammatory bowel disease, multiple sclerosis, and allergies. In our recent study, we developed a novel approach that keeps key immune",
+      "full_text": "their functions in immune defence. this new route of T cell-silencing promises a lead toward treatment of numerous important diseases which are caused by unwanted action of T cells like diabetes, inflammatory bowel disease, multiple sclerosis, and allergies. Background {#Sec2} ========Sure! here's the completed text based on your input: Lay abstract {#Sec1} ===================== The human body is constantly exposed to pathogens such as viruses that infect cells of the body and cause disease. To combat these threats, humans and animal species have evolved a sophisticated defense system called the immune system. The immune system must recognize pathogens, fend them off, and memorize them in case they reappear. However, when this defense mechanism fails or is overactive, it can lead to serious diseases like diabetes, inflammatory bowel disease, multiple sclerosis, and allergies. In our recent study, we developed a novel approach that keeps key immune",
+      "avg_prediction": 0.8728
+    },
+    {
+      "idx": 89,
+      "hash": "fdc0e8ec",
+      "n_words": 116,
+      "n_chars": 872,
+      "preview_head": "ing DevExpress XtraPrint to print the data in a GridControl with two associated GridViews I am currently programming within Visual Studio 2010 using VB.Net and DevExpress V10.2 Winforms. I currently h",
+      "preview_tail": " myGridControl.LevelTree.Nodes.Add(\"Details\", mySecondGridView) End If What I want to do is generate a report that displays what the user is currently seeing in the gridControl. For example if the use",
+      "full_text": "ing DevExpress XtraPrint to print the data in a GridControl with two associated GridViews I am currently programming within Visual Studio 2010 using VB.Net and DevExpress V10.2 Winforms. I currently have a DevExpress GridControl that contains two DevExpress GridViews. So there is the main view and the subgrid (similar to the DevExpress demo for Master-Detail Grids - example with WinForms and better view with ASPxGridView). Currently the data for the grid is fetched into a DataSet: If myDataSet.Tables.Count > 0 Then myDataSet.Relations.Add(\"Details\", myDataSet.Tables(0).Columns(\"id\"), myDataSet.Tables(1).Columns(\"id\")) myGridControl.DataSource = myDataSet.Tables(0) myGridControl.LevelTree.Nodes.Add(\"Details\", mySecondGridView) End If What I want to do is generate a report that displays what the user is currently seeing in the gridControl. For example if the use",
+      "avg_prediction": 0.0946
+    },
+    {
+      "idx": 90,
+      "hash": "4a2e9dcc",
+      "n_words": 57,
+      "n_chars": 488,
+      "preview_head": "Component } from '@angular/core'; import { ActivatedRoute, Router } from '@angular/router'; import { MatDialog, MatDialogConfig } from '@angular/material'; import { SecurityGroupCreationContainerCompo",
+      "preview_tail": "s-security-group-create-dialog', teIt looks like you have provided a snippet of code, but it appears to be incomplete. Could you please provide the full code or clarify what text completion is needed?",
+      "full_text": "Component } from '@angular/core'; import { ActivatedRoute, Router } from '@angular/router'; import { MatDialog, MatDialogConfig } from '@angular/material'; import { SecurityGroupCreationContainerComponent } from '../containers/security-group-creation.container'; @Component({ selector: 'cs-security-group-create-dialog', teIt looks like you have provided a snippet of code, but it appears to be incomplete. Could you please provide the full code or clarify what text completion is needed?",
+      "avg_prediction": 0.9842
+    },
+    {
+      "idx": 91,
+      "hash": "62a4025a",
+      "n_words": 127,
+      "n_chars": 805,
+      "preview_head": "re Location and Contact Info People Key Personnel Advisory Council Executive Committee Faculty Students Partnerships Overview Academic Government Industry Resources TRID Database RIP Database TranStat",
+      "preview_tail": "ocument, possibly for a university transportation center. The content outlines various sections such as Home, About (with sub-sections), People, Partnerships, Resources, and Events. If I'm to complete",
+      "full_text": "re Location and Contact Info People Key Personnel Advisory Council Executive Committee Faculty Students Partnerships Overview Academic Government Industry Resources TRID Database RIP Database TranStats Experiment Driving Simulator Experiment USDOT Region V Regional University Transportation Center All Events(Events occurring on the selected day are highlighted.)Oops! No event items were found. \u00abApril 2014\u00bbSuMTuWThFSa1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 FIt seems like the text you've provided is a snippet from what could be a website or an organizational document, possibly for a university transportation center. The content outlines various sections such as Home, About (with sub-sections), People, Partnerships, Resources, and Events. If I'm to complete",
+      "avg_prediction": 0.8347
+    },
+    {
+      "idx": 92,
+      "hash": "9d8340d8",
+      "n_words": 66,
+      "n_chars": 352,
+      "preview_head": ": * Prince Heinrich Franz (28 July 1922 \u2013 14 February 1958) * Princess Irmingard Marie Josefa (29 May 1923 \u2013 23 October 2010) * Princess Editha Marie Gabrielle Anna (16 January 1924 \u2013 4 May 2013) * Pr",
+      "preview_tail": "brielle Anna (16 January 1924 \u2013 4 May 2013) * Princess Hilda Hildegard Marie Gabriele (24 March 1926 \u2013 5 May 2002) * Princess Gabriele Marie (10 May 1927 \u2013 19 April 2019) * Princess Sophie Marie (born",
+      "full_text": ": * Prince Heinrich Franz (28 July 1922 \u2013 14 February 1958) * Princess Irmingard Marie Josefa (29 May 1923 \u2013 23 October 2010) * Princess Editha Marie Gabrielle Anna (16 January 1924 \u2013 4 May 2013) * Princess Hilda Hildegard Marie Gabriele (24 March 1926 \u2013 5 May 2002) * Princess Gabriele Marie (10 May 1927 \u2013 19 April 2019) * Princess Sophie Marie (born",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 93,
+      "hash": "33e6bfaf",
+      "n_words": 49,
+      "n_chars": 320,
+      "preview_head": "1919) was an SS-Rottenf\u00fchrer and member of staff at Auschwitz concentration camp. He was prosecuted at the Auschwitz Trial. Born in India, Hoffmann was a German national with Yugoslavian citizenship. ",
+      "preview_tail": "al. Born in India, Hoffmann was a German national with Yugoslavian citizenship. He worked as a locksmith. Following the invasion bHans Hoffmann (born December 2, 1919) was an SS-Rottenf\u00fchrer and membe",
+      "full_text": "1919) was an SS-Rottenf\u00fchrer and member of staff at Auschwitz concentration camp. He was prosecuted at the Auschwitz Trial. Born in India, Hoffmann was a German national with Yugoslavian citizenship. He worked as a locksmith. Following the invasion bHans Hoffmann (born December 2, 1919) was an SS-Rottenf\u00fchrer and membe",
+      "avg_prediction": 0.9802
+    },
+    {
+      "idx": 94,
+      "hash": "9be168a6",
+      "n_words": 153,
+      "n_chars": 1087,
+      "preview_head": "/dt (r = -0.7267 to r = -0.5962). A similar trend was observed for those with non-ischaemic cardiomyopathy but at a reduced strength and significance level. Significant positive correlations were also",
+      "preview_tail": "hin the field of cardiology. end \u0394IVD was calculated as IVDmax - IVDmin. Parameters were correlated with LV dP/dt. \u0394QRS and \u0394QRSLVPC both significantly correlated with LV dP/dt (P < 0.01). Correlation",
+      "full_text": "/dt (r = -0.7267 to r = -0.5962). A similar trend was observed for those with non-ischaemic cardiomyopathy but at a reduced strength and significance level. Significant positive correlations were also noted between LV dP/dt and \u0394IVDmax, as well as the ratio of \u0394QRS to IVD (r = -0.5962). These findings suggest that maximizing or minimizing certain IVDs based on QRS duration could further optimize device performance. Overall results indicate a relationship exists between quadripolar lead pacing configuration choices and hemodynamic response, potentially providing actionable insights for personalized patient care strategies in CRT patients undergoing cardiac resynchronization therapy. These findings offer an opportunity to personalize treatment by optimizing pacing configurations based on specific patient characteristics\u2014a pivotal step towards enhancing therapeutic outcomes within the field of cardiology. end \u0394IVD was calculated as IVDmax - IVDmin. Parameters were correlated with LV dP/dt. \u0394QRS and \u0394QRSLVPC both significantly correlated with LV dP/dt (P < 0.01). Correlation",
+      "avg_prediction": 0.9826
+    },
+    {
+      "idx": 95,
+      "hash": "6686dd9b",
+      "n_words": 87,
+      "n_chars": 536,
+      "preview_head": "ate that, the value 0 is bitwise AND'd with the return value of puts which can only be found by executing the function which prints fizz. The result (which will always be 0) is discarded. A: The expla",
+      "preview_tail": "ogramming language. To understand the working behind bitwise AND ('&') operand with `0 & puts(\"fizz\")`, let's break down this code snippet: ```c #include<stdio.h> main() { (5 % 5)?1 : 0 &puts(\"fizz\");",
+      "full_text": "ate that, the value 0 is bitwise AND'd with the return value of puts which can only be found by executing the function which prints fizz. The result (which will always be 0) is discarded. A: The explanation provided above explains how a seemingly unexpected outcome occurs due to operator precedence and short-circuit evaluation in C programming language. To understand the working behind bitwise AND ('&') operand with `0 & puts(\"fizz\")`, let's break down this code snippet: ```c #include<stdio.h> main() { (5 % 5)?1 : 0 &puts(\"fizz\");",
+      "avg_prediction": 0.8907
+    },
+    {
+      "idx": 96,
+      "hash": "bea2006c",
+      "n_words": 273,
+      "n_chars": 1344,
+      "preview_head": "10 - \\frac{5f}{2} \\] Now, we need to find the value of \\( c \\): Given: \\[ c = f - 39 \\] To determine if \\( c \\) is a multiple of 26, let's express it in terms of known values. We already have: 1. From",
+      "preview_tail": "er approach by solving one of our original equations directly. From: 3. Substitute back into the first simplified form: \\[ y + q/2 - (162) = f \\] Solve this system to find specific values, but since w",
+      "full_text": "10 - \\frac{5f}{2} \\] Now, we need to find the value of \\( c \\): Given: \\[ c = f - 39 \\] To determine if \\( c \\) is a multiple of 26, let's express it in terms of known values. We already have: 1. From earlier: \\[ y = f - \\frac{q}{5} \\] Substitute the value of \\( q \\): \\[ y = f - (810 - \\frac{5f}{2})/5 \\] Simplify inside the parentheses first, then divide by 5: \\[ y = f - (162 - \\frac{f}{2}) \\] Combine like terms: \\[ y = f - 162 + \\frac{f}{2} \\] Factor out \\( f \\): \\[ y = \\left(1 + \\frac{1}{2}\\right)f - 162 \\] Simplify the coefficient of \\( f \\): \\[ y = \\frac{3f}{2} - 162 \\] Now, substitute this back into one of our original equations to find a specific value for \\( f \\). Let's use: \\[ 5y + q = 5f \\] Substitute: \\[ 5\\left(\\frac{3f}{2} - 162\\right) + (810 - \\frac{5f}{2}) = 5f \\] Simplify inside the parentheses and combine like terms: \\[ \\frac{15f}{2} - 810 + 810 - \\frac{5f}{2} = 5f \\] Combine \\( f \\) terms: \\[ \\left(\\frac{15f}{2} - \\frac{5f}{2}\\right) = 5f \\] Simplify the left side: \\[ \\frac{10f}{2} = 5f \\] Which simplifies to: \\[ 5f = 5f \\] This is always true, so we need another equation or value for \\( f \\). Let's use a simpler approach by solving one of our original equations directly. From: 3. Substitute back into the first simplified form: \\[ y + q/2 - (162) = f \\] Solve this system to find specific values, but since w",
+      "avg_prediction": 0.8699
+    },
+    {
+      "idx": 97,
+      "hash": "3ac35ff1",
+      "n_words": 55,
+      "n_chars": 330,
+      "preview_head": "dden meanings or some grand secret is fruitless; it overlooks the essence and beauty of Aikido itself \u2013 a practice rooted in self-discovery and growth that need not conform to traditional systems. It\u2019",
+      "preview_tail": "discovery and growth that need not conform to traditional systems. It\u2019s about finding one\u2019s true identity beyond mere technique. All this formulation of a caste system to teach aikido and trying to be",
+      "full_text": "dden meanings or some grand secret is fruitless; it overlooks the essence and beauty of Aikido itself \u2013 a practice rooted in self-discovery and growth that need not conform to traditional systems. It\u2019s about finding one\u2019s true identity beyond mere technique. All this formulation of a caste system to teach aikido and trying to be",
+      "avg_prediction": 0.9786
+    },
+    {
+      "idx": 98,
+      "hash": "7835e83b",
+      "n_words": 43,
+      "n_chars": 287,
+      "preview_head": "this.getSecond() == pair.getSecond()) || (this.getFirst() == pair.getSecond() && this.getSecond() == pair.getFirst()); } @Override public int hashCode() { int result = 17; result = 31 result + second;",
+      "preview_tail": "etSecond() == pair.getFirst()); } @Override public int hashCode() { int result = 17; result = 31 result + second; return result; } } You can then generate random numbers and create Pair objects like t",
+      "full_text": "this.getSecond() == pair.getSecond()) || (this.getFirst() == pair.getSecond() && this.getSecond() == pair.getFirst()); } @Override public int hashCode() { int result = 17; result = 31 result + second; return result; } } You can then generate random numbers and create Pair objects like t",
+      "avg_prediction": 0.9785
+    },
+    {
+      "idx": 99,
+      "hash": "5ead3f15",
+      "n_words": 278,
+      "n_chars": 1410,
+      "preview_head": "highest possible Sleight of Hand check, as this bad boy is trying to steal from the Gods themselves, apparently. While I understand this is highly situational, is there any other magic item, or possib",
+      "preview_tail": "eck result: Dex 30: Adds +5 Ioun Stone of Mastery: Adds +2 Boon of Luck: Adds +1 to +10 Boon of Fate: Adds +1 To +10 but since this is an ability someone else must have my final answer has two sets of",
+      "full_text": "highest possible Sleight of Hand check, as this bad boy is trying to steal from the Gods themselves, apparently. While I understand this is highly situational, is there any other magic item, or possible ability, feat, or spell that may increase the total? A: Being attuned to and having an Ioun Stone of Mastery float around your head will increase your proficiency bonus by +1, which will total to +2 because of Expertise. You also aren't capped at 20 in an ability score, A Manual of Quickness of Action, the Star card from a Deck of Many Things, and The Book of Vile Darkness allow you to boost Dexterity by 2 and can exceed 20. Now as such you can get Dex to 30 which is a +10 modifier compared to a 20 Dex giving +5 but you'll need to be one hell of a thief to steal that many of these items. Lastly the boons on DMG 232. The Boon of Luck allows you to add 1d10 to an ability check, attack roll, or saving throw once per long rest. And if someone else has the Boon of Fate they can add 1d10 to your ability check aswell Since the OP asked for thingS that may increase the total my numbers are all in addition to the numbers he came up with. So a list of effects I have suggested to increase the ability check result: Dex 30: Adds +5 Ioun Stone of Mastery: Adds +2 Boon of Luck: Adds +1 to +10 Boon of Fate: Adds +1 To +10 but since this is an ability someone else must have my final answer has two sets of",
+      "avg_prediction": 0.2555
+    },
+    {
+      "idx": 100,
+      "hash": "9ccad22f",
+      "n_words": 101,
+      "n_chars": 667,
+      "preview_head": "argues that the twin gIrls' unique situation and medical history necessitate a more rigorous placement process under interstate laws governing cross-border adoptions in order to guarantee their well-b",
+      "preview_tail": "children adopted across state lines end up in safe homes, according to the court filings, which the appeals court clerk has refused to publicly release. James W. Payne, Indiana's top child-welfare off",
+      "full_text": "argues that the twin gIrls' unique situation and medical history necessitate a more rigorous placement process under interstate laws governing cross-border adoptions in order to guarantee their well-being after being adopted out of state as per legal requirements outlined by both states involved\u2014New Jersey where they were born via surrogacy Attorneys for the Indiana Department of Child Services say the adoptions also violated interstate laws meant to ensure that children adopted across state lines end up in safe homes, according to the court filings, which the appeals court clerk has refused to publicly release. James W. Payne, Indiana's top child-welfare off",
+      "avg_prediction": 0.982
+    },
+    {
+      "idx": 101,
+      "hash": "07148cdc",
+      "n_words": 69,
+      "n_chars": 412,
+      "preview_head": "causing GIT to flag them as conflicts because it cannot interpret and reSolve these context-specific differences autonomously without additional guidance from external tools designed for such tasks. G",
+      "preview_tail": "know XML nor Java nor C# not ASN1 syntax and does not try to learn them :) That's the very very basics. However, some conflicts are \"trivial\" for you as a programmer. That's why you usually use some e",
+      "full_text": "causing GIT to flag them as conflicts because it cannot interpret and reSolve these context-specific differences autonomously without additional guidance from external tools designed for such tasks. Git does not know XML nor Java nor C# not ASN1 syntax and does not try to learn them :) That's the very very basics. However, some conflicts are \"trivial\" for you as a programmer. That's why you usually use some e",
+      "avg_prediction": 0.8677
+    },
+    {
+      "idx": 102,
+      "hash": "41dd0d70",
+      "n_words": 287,
+      "n_chars": 2001,
+      "preview_head": "liquidity and other selection requirements typically are included inthe WisdomTreeDividend Index, thebroadest measure of U.S. dividend-payingstocks. Lastyear, the more than 1,400 companies selected fo",
+      "preview_tail": "o hada real impact on the earnings potential of U.S. energy producers.But at the same time, those hits, absorbed inthe fourth quarter of 2014 and first quarter of 2015,also mean that the same compani ",
+      "full_text": "liquidity and other selection requirements typically are included inthe WisdomTreeDividend Index, thebroadest measure of U.S. dividend-payingstocks. Lastyear, the more than 1,400 companies selected forinclusion in the WisdomTree Dividend Index were indicated to pay more than $410 billion in cash dividends for thecoming year, based ontheir most recently declared dividend per share.2 As the table above demonstrates, of the 20 largestdividendpayers in the U.S., 13have aLready raised their dividend per sharesince the end of November. Overall, we estimate that the aggregate Dividend Stream\u00ae for all thecompanies in the WisdomTree DividendIndex increased 4%between November 30, 2014 and April30,2015. This suggeststo methat aggregate dividend-per-share growth in the U.S. could once again approach double digitsin 2015.This is a bullish sign for the market for two reasons. First, over thepast 60 years, whilethe total return of the S&P has averaged about 10.5% on an annualized basis, aggregatedividend growth has compounded at roughly 5.5%per year.3 So 2015is shaping up to be ayear in which overall dividend growth will likelyoutpace itslong-term average. Second,ina world of low and negative interest rates, higher aggregate dividends increase the floor upon which the U.S stockmarket can be valued. This will become particularlyimportantshouldfirst-quarter share profits on the S&P 500 declinerelative tothe first quarter of2014. If corporate executives are confidentenough to keep increasing dividends during a periodwhen earnings slow or contract, it may be a signal that they believe the current earnings lull is temporary. U.S. multinationals have been affected by unfavorable currency translations brought about bya stronger dollar overthelast two quarters. The collapsein oilprices has also hada real impact on the earnings potential of U.S. energy producers.But at the same time, those hits, absorbed inthe fourth quarter of 2014 and first quarter of 2015,also mean that the same compani ",
+      "avg_prediction": 0.4439
+    },
+    {
+      "idx": 103,
+      "hash": "2752633f",
+      "n_words": 273,
+      "n_chars": 1700,
+      "preview_head": "violation of Code \u00a7 18.2-479. We hold that the defendant was not in custody, and therefore, could not be convicted of escape. Accordingly, we reverse the judgment of conviction and dismiss the indictm",
+      "preview_tail": "used for combative patients who could not be controlled otherwise due its design - padded arm rests/straps across chest & legs; ankle restraints attached behind back rest via metal pole running down e",
+      "full_text": "violation of Code \u00a7 18.2-479. We hold that the defendant was not in custody, and therefore, could not be convicted of escape. Accordingly, we reverse the judgment of conviction and dismiss the indictment. The evidence at trial established these facts: The appellant had been arrested for driving while intoxicated on September 18, 1992, when he was involved in a traffic accident with another vehicle as it exited I-495 onto Route #7 (Fairfax County). After being transported to Inova Fairfax Hospital by ambulance and receiving treatment there from approximately midnight until about 3:00 or 3:30 A.M., the appellant refused further medical attention, became disruptive in his behavior toward hospital personnel when they attempted to draw blood for a toxicology test (which he had consented to at time of arrest), was combative with police officers who responded and were summoned by security guards called from other parts of the building because of this activity. The officer testified that appellant \"was very abusive, calling us names,\" but admitted on cross-examination there was no physical contact made between himself or his partner (who also had been present at time) nor any threat thereof toward either police officers *18 or hospital personnel; rather he described the situation as one in which they were trying to calm him down and get blood drawn. At some point, two additional deputies arrived on scene with a restraint chair from another part of Inova Fairfax Hospital where it was used for combative patients who could not be controlled otherwise due its design - padded arm rests/straps across chest & legs; ankle restraints attached behind back rest via metal pole running down e",
+      "avg_prediction": 0.9849
+    },
+    {
+      "idx": 104,
+      "hash": "5336ef52",
+      "n_words": 168,
+      "n_chars": 1002,
+      "preview_head": "price in catalog or the product page. You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart. Our price is lower than the manufacturer's ",
+      "preview_tail": "ice $99.95 Add to Cart #12 Rodgers Limited Salute to Service jersey Price $169.95 Add to Cart Packers First Down soft Shell Jacket Price $94.95 Add to Cart Packers Pro Shop - The Official Retail Store",
+      "full_text": "price in catalog or the product page. You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart. Our price is lower than the manufacturer's \"minimum advertised price.\" As a result, we cannot show you the price in catalog or the product page. You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart. Search results for '0906078430/f__related_items__sku_0907078074__16' We're sorry, there are no matches. PleasE try another search. If you'd like assistance, please feel free to Contact Us. Featured Products Packers Salute to Service Sideline Cuff Knit Hat Price $29.95 Add to Cart Game Day Program November 11 - Miami Price $5.69 Add to Cart Packers 2018 Team Autograph Football Price $99.95 Add to Cart #12 Rodgers Limited Salute to Service jersey Price $169.95 Add to Cart Packers First Down soft Shell Jacket Price $94.95 Add to Cart Packers Pro Shop - The Official Retail Store",
+      "avg_prediction": 0.2045
+    },
+    {
+      "idx": 105,
+      "hash": "7686ed57",
+      "n_words": 114,
+      "n_chars": 781,
+      "preview_head": "alcohol-related causation presumption by showing the accident was not \"substantially occasioned\" by alcohol use. The Commission correctly weighed evidence, including weather conditions and the other v",
+      "preview_tail": "ble injury. We affirm. On December 21, 1994, appellee was on his way to Crossett. He testified that it was raining and foggy, that he was on a two-lane road, that he was driving about forty-five miles",
+      "full_text": "alcohol-related causation presumption by showing the accident was not \"substantially occasioned\" by alcohol use. The Commission correctly weighed evidence, including weather conditions and the other vehicle\u2019s actions, and concluded its decision was not arbitrary or capricious. \u00a7 11-9-102(5)(B)(iv)(b); (2) finding that appellee's seizures are causally related to his employment; and (3) awarding additional temporary total disability benefits because there was not substantial evidence to show that the claimed period of total incapacitation was causally connected to the compensable injury. We affirm. On December 21, 1994, appellee was on his way to Crossett. He testified that it was raining and foggy, that he was on a two-lane road, that he was driving about forty-five miles",
+      "avg_prediction": 0.9752
+    },
+    {
+      "idx": 106,
+      "hash": "dfe3279f",
+      "n_words": 70,
+      "n_chars": 460,
+      "preview_head": "t Categories: Activity, Events Venue Essex Steam Train One Railroad Avenue Essex, CT United States + Google Map Phone: 800-377-3987 \u00ab Bunny Breakfast Easter Dinner Train \u00bb Contact Us Essex Board of Tr",
+      "preview_tail": "l message@experienceessex.com Experience Essex Home \u2013 ESSEX,CT Essex Membership Essex Board of trade Plan your visit Ivoryton News Events Centerbrook Contact Photo Credits Copyright \u00a9 2018 Essex Board",
+      "full_text": "t Categories: Activity, Events Venue Essex Steam Train One Railroad Avenue Essex, CT United States + Google Map Phone: 800-377-3987 \u00ab Bunny Breakfast Easter Dinner Train \u00bb Contact Us Essex Board of Trade, Inc., P.O. Box 322 Essex, CT 06426 860-767-3904 or email message@experienceessex.com Experience Essex Home \u2013 ESSEX,CT Essex Membership Essex Board of trade Plan your visit Ivoryton News Events Centerbrook Contact Photo Credits Copyright \u00a9 2018 Essex Board",
+      "avg_prediction": 0.1764
+    },
+    {
+      "idx": 107,
+      "hash": "924c0d35",
+      "n_words": 65,
+      "n_chars": 652,
+      "preview_head": "the completed code with the deprecation warningproperly implemented: ```python import warningsfrom.code_gen import *#NOQA warnings.warn( 'astor.codegen module isdeprecated. Pleaseimport ' 'astor.code_",
+      "preview_tail": "intainsthe NOQAcomment toprevent linter warnings about importsThe deprecationpatternfollowsstandard Pythonpractices for guiding userstothe new module while maintainingbackward compatibility during the",
+      "full_text": "the completed code with the deprecation warningproperly implemented: ```python import warningsfrom.code_gen import *#NOQA warnings.warn( 'astor.codegen module isdeprecated. Pleaseimport ' 'astor.code_gen moduleinstead.', DeprecationWarning, stacklevel=2) ``` This implementation: 1. Correctly completes the warning message 2. Adds the `DeprecationWarning`category explicitly 3. Uses `stacklevel=2` to point user'scode that triggered thedeprecation 4.Maintainsthe NOQAcomment toprevent linter warnings about importsThe deprecationpatternfollowsstandard Pythonpractices for guiding userstothe new module while maintainingbackward compatibility during the",
+      "avg_prediction": 0.9409
+    },
+    {
+      "idx": 108,
+      "hash": "4ea917a8",
+      "n_words": 228,
+      "n_chars": 1486,
+      "preview_head": "allucinated odors, it is believed that these odors may smell sickening because \"humans learned very early to avoid noxious smells for survival,\" according to Diane Mapes of NBC News. Typically, an olf",
+      "preview_tail": " at the recommendation of a medical professional, an MRI or a brain-wave test, called an EEG, may be in order. Tyrone Law Firm helps those who have experienced serious injuries such as traumatic brain",
+      "full_text": "allucinated odors, it is believed that these odors may smell sickening because \"humans learned very early to avoid noxious smells for survival,\" according to Diane Mapes of NBC News. Typically, an olfactory hallucination will dissipate with sleep. Longer-term olfactory hallucinations tend to occur when the smell system in the nose, or the olfactory bulb, which is situated just above the upper nose level, is disturbed, according to Ronald Devere, M.D., director of the Taste and Smell Disorder Clinic in Austin, Texas. Long-term olfactory hallucinations are called dysosmia, and have a wider variety of causes, head and nose injury among them. However, says Devere, in cases of long-term olfactory hallucinations, the brain is not usually the source of the problem, and the sense of smell for other odors also becomes affected. Undoubtedly, olfactory hallucinations can be distracting and distressing because of their constant presence. Long-term, they can cause unexpected symptoms such as substantial weight loss due to the disorder's effect on taste. Because olfactory hallucinations can also signal head trauma, seizures, or other serious injury, they should be taken seriously. Someone experiencing an olfactory hallucination may want to undergo a head and neck examination, and at the recommendation of a medical professional, an MRI or a brain-wave test, called an EEG, may be in order. Tyrone Law Firm helps those who have experienced serious injuries such as traumatic brain",
+      "avg_prediction": 0.6872
+    },
+    {
+      "idx": 109,
+      "hash": "9292da51",
+      "n_words": 315,
+      "n_chars": 1598,
+      "preview_head": "it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that",
+      "preview_tail": " and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport",
+      "full_text": "it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, anD it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's Great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport that's great for all skill levels and ages, and it's a sport that's great for all ages and skill levels, and it's a sport",
+      "avg_prediction": 0.9857
+    },
+    {
+      "idx": 110,
+      "hash": "5152e8b1",
+      "n_words": 186,
+      "n_chars": 1186,
+      "preview_head": "across multiple brands such as CLUB CAR DS models (1992 onwards), CUB CADET tractors from the 1500 series equipped with Kawasaki engines up to 19 HP, E-Z-GO RXV vehicles. Additionally suited for JOHN ",
+      "preview_tail": "as CUB CADET : 1500 series tractors with 15 thru 19 HP Kawasaki engines E-Z-GO : RXV JOHN DEERE : Lawn tractors 112L, LX172 and LX176 with Kawasaki engines; front mount F510, Z925A, Z930A,Z950A, Z960A",
+      "full_text": "across multiple brands such as CLUB CAR DS models (1992 onwards), CUB CADET tractors from the 1500 series equipped with Kawasaki engines up to 19 HP, E-Z-GO RXV vehicles. Additionally suited for JOHN DEERE lawn and front mount mowers featuring specific model lines powered by select engine types including those manufactured under their brand name or third-party producers like Onan themselves ensuring a seamless fit across the board without compromising quality standards essential in maintaining peak operational efficiency over extended periods of use regardless if commercial applications are required. Featured: 1 Item Sort by Popularity Description Price-Low Price-High Part Number Result's per page 10 20 50 100 Oil Filter Part Number: 120634 Specs OD 2 11/16\" Height 3\" Micron 25 Thread Size 3/4\" -16 9-12 PSI pressure relief Anti-drain Equipment Type Commercial Mower Equipment Type Lawn Mower Equipment Type Generator Fits Model CLUB CAR : DS and Precedent, 1992 and newer, gas CUB CADET : 1500 series tractors with 15 thru 19 HP Kawasaki engines E-Z-GO : RXV JOHN DEERE : Lawn tractors 112L, LX172 and LX176 with Kawasaki engines; front mount F510, Z925A, Z930A,Z950A, Z960A",
+      "avg_prediction": 0.6009
+    },
+    {
+      "idx": 111,
+      "hash": "50a06548",
+      "n_words": 100,
+      "n_chars": 989,
+      "preview_head": "w, which generally makes these fragrances highly expensive. One of the most widely produced single fragrances globally is 2\u2010phenylethanol (2PE), which has an approximate global production of 10 000 to",
+      "preview_tail": "ype=\"ref\"} which still produces toxic benzene as a byproduct.[2-4](https://scholar.google.co.uk/schhp?hl=en&as_sdt=6,8&q=&num=100%bb1{reference-source-link-end})[5-(#b3){bibinfo-type=\"ref\"}] In the co",
+      "full_text": "w, which generally makes these fragrances highly expensive. One of the most widely produced single fragrances globally is 2\u2010phenylethanol (2PE), which has an approximate global production of 10 000 tonnes a year and is an important ingredient in the food and cosmetic industry due to its rose\u2010like aroma.[1](#jctb5597-bib-0001){ref-type=\"ref\"} 2PE can be produced through a well\u2010known Friedel--Crafts acylation utilising benzene and ethylene oxide. However, this route producestoxic byproducts such as terephthalic acid.[3](#jctb5597-bib-0001){bibinfo-ref-type=\"ref\"} Another synthetic pathway for the production of 2PE is hydrogenation from acetophenone (see Figure [S6a, Supporting Information]{reference-source-link-end}, SI),[4](http://www.ncbi.nlm.nih.gov/pubmed/3578930#b1){bibinfo-type=\"ref\"} which still produces toxic benzene as a byproduct.[2-4](https://scholar.google.co.uk/schhp?hl=en&as_sdt=6,8&q=&num=100%bb1{reference-source-link-end})[5-(#b3){bibinfo-type=\"ref\"}] In the co",
+      "avg_prediction": 0.8154
+    },
+    {
+      "idx": 112,
+      "hash": "3d0ce4a3",
+      "n_words": 151,
+      "n_chars": 919,
+      "preview_head": "elements thatappear in it. Gallery of dreams Interesting facts Longevity The amount of sleep that a person gets will be associated with his or her lifespan. However, the causesor effects are still vag",
+      "preview_tail": "in the sky; you can try lucid dream byimagining your house beside the flying aid. Popular dreams poster wine fluteship path About If you have any questions please email animal.dreams.com@gmail.com Co ",
+      "full_text": "elements thatappear in it. Gallery of dreams Interesting facts Longevity The amount of sleep that a person gets will be associated with his or her lifespan. However, the causesor effects are still vague, as illnesses can also affect a person's sleeping pattern. According to a 2010 study, women underthe age of 50 to 79 only get less than five hours of sleep every night, which makes them a subject for deathoccurrences. LucidDreams Some people can recognize dreams while sleeping; this type of dream is called lucid dreaming. Most of the people would have experienced this type ofdream atleast once in their life. Youcan actually control these dreams. One of the popular dreams that most of us experience is as flying in the sky; you can try lucid dream byimagining your house beside the flying aid. Popular dreams poster wine fluteship path About If you have any questions please email animal.dreams.com@gmail.com Co ",
+      "avg_prediction": 0.4403
+    },
+    {
+      "idx": 113,
+      "hash": "57c3ee32",
+      "n_words": 41,
+      "n_chars": 261,
+      "preview_head": "Flower (Adenophyllum porophyllus). Both are common to Arizona and have pink blooms. The former is often described as having \"hot-pink\" flowers, while the latter can range from white to deep magenta de",
+      "preview_tail": " and have pink blooms. The former is often described as having \"hot-pink\" flowers, while the latter can range from white to deep magenta depending on conditions such as temperature and soil moisture l",
+      "full_text": "Flower (Adenophyllum porophyllus). Both are common to Arizona and have pink blooms. The former is often described as having \"hot-pink\" flowers, while the latter can range from white to deep magenta depending on conditions such as temperature and soil moisture l",
+      "avg_prediction": 0.9829
+    },
+    {
+      "idx": 114,
+      "hash": "80a41e43",
+      "n_words": 90,
+      "n_chars": 544,
+      "preview_head": "w was rebranded in the sixth and final series to its original title of Basketball Wives as it had converged with that programme's narrative, having been split for several previous editions thanks larg",
+      "preview_tail": "en they merged back together. Kimsha Artest stopped showing up for filming because she did not agree with the \"shenanigans and drama\", which explains why she was not featured in more than one episode.",
+      "full_text": "w was rebranded in the sixth and final series to its original title of Basketball Wives as it had converged with that programme's narrative, having been split for several previous editions thanks largely at first by changes within their respective casts which later led each down unique paths until reuniting once more under one banner again when they merged back together. Kimsha Artest stopped showing up for filming because she did not agree with the \"shenanigans and drama\", which explains why she was not featured in more than one episode.",
+      "avg_prediction": 0.9844
+    },
+    {
+      "idx": 115,
+      "hash": "3bc46f73",
+      "n_words": 111,
+      "n_chars": 685,
+      "preview_head": "ptuagint (also called the Greek Pentateuch or LXX) has been preserved for us today, and it consists of 39 books . In its translation from Hebrew to Koine Gthe Old Testament was rendered into reek , wh",
+      "preview_tail": "sequently it was deemed necessary to translate into Koine Gthe Hebrew Scripturesreeks so as The result isd called septuagint (from the Latin for \u201cseventy\u201d) because according tothe tradition behind its",
+      "full_text": "ptuagint (also called the Greek Pentateuch or LXX) has been preserved for us today, and it consists of 39 books . In its translation from Hebrew to Koine Gthe Old Testament was rendered into reek , which is not surprising since koinea hegemonen\u0113 gl\u014dssa), meaning \u201ccommon speech,\u201d spoken throughout the Roman Empire. At that time Alexandria in Egypt wans a centre of Greek culture and learning, with many people well versed ino this language.. It also had a large Jewish population; consequently it was deemed necessary to translate into Koine Gthe Hebrew Scripturesreeks so as The result isd called septuagint (from the Latin for \u201cseventy\u201d) because according tothe tradition behind its",
+      "avg_prediction": 0.982
+    },
+    {
+      "idx": 116,
+      "hash": "2c191b1f",
+      "n_words": 210,
+      "n_chars": 1459,
+      "preview_head": "against clock-drift on all of them. It won't be truly accurate, for that you'll need a radio clock or GPS-disciplined hardware. Since your environment consists mainly of Ubuntu servers in an HA (High ",
+      "preview_tail": "peer nosyslog limited driftfile /var/lib/NTP/ntp.drift statsdir statistics/ filegen peers -p %y%e%d%n%i%m%c%s.log interval X startup syncstats ``` 5. Ensure Time Service Startup: Make sure that `ntpd`",
+      "full_text": "against clock-drift on all of them. It won't be truly accurate, for that you'll need a radio clock or GPS-disciplined hardware. Since your environment consists mainly of Ubuntu servers in an HA (High Availability) setup with DRBD clustering the NFS services across two nodes and also requires NTP synchronization without internet access: 1. Configure Time Synchronization Between Servers: - Configure `ntpd` on both cluster members to act as peers rather than relying solely external time sources. Edit `/etc/ntp.conf`, adding entries like: ``` server 0.pool.ntp.org iburst # Comment out or remove the above line since you won't be using public NTP servers peer <cluster-member-ip-address> prefer restrict default kod nomodify notrap nopeer nosyslog limited ``` - Replace `<clustermemberipaddress>` with IP addresses of each other. 2. Use Hardware Clocks: Consider adding hardware clocks such as GPS time receivers to the cluster nodes if high precision is required. 3. DRBD and Heartbeat Configuration Adjustments: Ensure that your heartbeat or Pacemaker configuration handles failover for NTP services smoothly between primary/secondary server roles. 4. ``` # This node will act as the reference peer 192.x.y.z prefer restrict default kod nomodify notrap nopeer nosyslog limited driftfile /var/lib/NTP/ntp.drift statsdir statistics/ filegen peers -p %y%e%d%n%i%m%c%s.log interval X startup syncstats ``` 5. Ensure Time Service Startup: Make sure that `ntpd`",
+      "avg_prediction": 0.9551
+    },
+    {
+      "idx": 117,
+      "hash": "7c4029b6",
+      "n_words": 47,
+      "n_chars": 289,
+      "preview_head": "ake a donation ways to give brain wonders: nurturing healthy brain development from birth the first three years of a child\u2019s life are uniquely important because this is the most sensitive period for b",
+      "preview_tail": " the first three years of a child\u2019s life are uniquely important because this is the most sensitive period for brain development the experiences a child has during this time will shape the architecture",
+      "full_text": "ake a donation ways to give brain wonders: nurturing healthy brain development from birth the first three years of a child\u2019s life are uniquely important because this is the most sensitive period for brain development the experiences a child has during this time will shape the architecture",
+      "avg_prediction": 0.0182
+    },
+    {
+      "idx": 118,
+      "hash": "e38d5bc2",
+      "n_words": 312,
+      "n_chars": 2808,
+      "preview_head": "using reflection to discover Message Handlers at runtime but that would be a performance penalty just to avoid having to manually register them. Given your situation, here are some strategies you migh",
+      "preview_tail": "tractMessageType(...) {//} ``` ### Considerations: - Performance: Reflection and annotation scanning can add overhead during startup. - Maintainability & Clarity: Centralized registration keeps things",
+      "full_text": "using reflection to discover Message Handlers at runtime but that would be a performance penalty just to avoid having to manually register them. Given your situation, here are some strategies you might consider: ### 1. Centralized Registration Method: You can have one centralized method where all message handlers are registered during the initialization of your application or communication module. This approach is straightforward and keeps everything organized in a single place: ```java public void registerMessageHandlers() { MessageFactory.register(\"MessageTypeA\", new MessageTypeAHandler()); MessageFactory.register(\"MessageTypeB\", new MessageTypeBHandler()); // Add more registrations as necessary... } ``` ### 2. Annotation-based Registration: Another approach is to use annotations to mark your message handler classes, and then scan for these at startup: ```java @MessageHandler(type = \"MessageTypeA\") public class MessageTypeAHandler implements MessageProcessor { @Override public void process(Message msg) { ... } } // During initialization... Set<Class<?>> handlersClasses = ReflectionsUtil.findAnnotatedTypesWithAnnotationInPackage( new ConfigurationBuilder().forPackages(\"com.yourpackage.handlers\"), MessageHandler.class); handlers.forEach(cls -> registerHandlerFromClass((Class<MessageProcessor>) cls)); ``` ### 3. Service Loader: Java's `java.util.ServiceLoader` can be used to discover message handler implementations declared in a service configuration file: - Create an interface for your handlers (e.g., `MessageProcessor`) - Implement the interface - Add entries into `META-INF/services/com.yourpackage.MessageProcessor` - Each line should contain the fully qualified name of one implementation class At runtime, you can discover and load these implementations using ServiceLoader. ### 4. Reflection-based Discovery: If performance is not a major concern during startup (e.g., if only run once), reflection could be used to scan for classes implementing `MessageProcessor` in certain packages: ```java public void registerHandlersFromPackage(String packageName) { Reflections reflections = new Reflections(packageName); Set<Class<? extends MessageProcessor>> handlerClasses = reflections.getSubTypesOf(MessageProcessor.class); for (Class<?> cls : handlerClasses) { if (!Modifier.isAbstract(cls.getModifiers())) { // skip abstract classes try { String messageType = extractMessageTypeFromClassNameOrAnnotation((Class<MessageProcessor>)cls); MessageFactory.register(messageType, (MessageProcessor) cls.getDeclaredConstructor().newInstance()); } catch (Exception e) {...} } } } String extractMessageType(...) {//} ``` ### Considerations: - Performance: Reflection and annotation scanning can add overhead during startup. - Maintainability & Clarity: Centralized registration keeps things",
+      "avg_prediction": 0.9776
+    },
+    {
+      "idx": 119,
+      "hash": "777ff557",
+      "n_words": 106,
+      "n_chars": 688,
+      "preview_head": "on the spot. Each company has come up with the ability to compete on the same stage, compete for creativity, quality and service, and win the favor of the visitors. Many exhibitors said that in additi",
+      "preview_tail": "ve implemented the \u201cgoing out\u201d strategy and placed the industry in Northern Vietnam (near Ho Chi Minh City). They believe that Vietnam\u2019s electricity, labor, taxation, and labor law policies are better",
+      "full_text": "on the spot. Each company has come up with the ability to compete on the same stage, compete for creativity, quality and service, and win the favor of the visitors. Many exhibitors said that in addition to promote their products with high cost performance advantages through the exhibition platform, they also expect to find agents or distributors with cooperation intentions in Vietnam, they can provide corresponding cooperation mode and after-sales service. In fact, some exhibitors have implemented the \u201cgoing out\u201d strategy and placed the industry in Northern Vietnam (near Ho Chi Minh City). They believe that Vietnam\u2019s electricity, labor, taxation, and labor law policies are better",
+      "avg_prediction": 0.8391
+    }
+  ]
+}

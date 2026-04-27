@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-25T09:42:49.854624+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "2.7.1",
+  "version_in_range": false,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 0,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "5cad336e",
+      "n_words": 180,
+      "n_chars": 1336,
+      "preview_head": "l experience a gauge invariant dimensional transmutation, leading to $\\Braket{(B_{\\mu\\nu}^a-{\\overline{B}}_{\\mu\\nu}^a)F_{\\mu\\nu}^a}\\sim \\Lambda_{QCD}^3$. Further steps towards the effective potential ",
+      "preview_tail": " statements about this, as the corresponding renormalization group functions of $\\lambda_1$ and $\\lambda_3$ have not yet been calculated explicitly, see also [@Ford:2009qh]. The upshot would of course",
+      "full_text": "l experience a gauge invariant dimensional transmutation, leading to $\\Braket{(B_{\\mu\\nu}^a-{\\overline{B}}_{\\mu\\nu}^a)F_{\\mu\\nu}^a}\\sim \\Lambda_{QCD}^3$. Further steps towards the effective potential calculation were set in the recent work [@Ford:2009qh]. The link with perturbative confinement ====================================== We did not substantiate yet the role of the extra parameters $\\lambda_{1}$ and $\\lambda_{2}$. We consider the case $$\\label{spec} \\lambda_1=\\frac{2}{3}\\,,\\qquad\\lambda_2 =0\\,.$$ Returning for a moment to the Coulomb gauge in the static case[^3], it is easy to verify at lowest (quadratic) order that the $(A_0, A_0)$ sector exactly reduces to that of , by integrating out the extra fields. Since we have the freedom to choose the tree level (\u201cclassical\u201d) values for $\\lambda_1$ and $\\lambda_2$ as we want, we can always make the confining scenario work by assigning the values . The higher order quantum corrections will consequently induce perturbative corrections in the couplings $g^2$ and $\\lambda^{abcd}$ to the leading order Cornell potential[^4]. At the current time we cannot make more definite statements about this, as the corresponding renormalization group functions of $\\lambda_1$ and $\\lambda_3$ have not yet been calculated explicitly, see also [@Ford:2009qh]. The upshot would of course",
+      "avg_prediction": null
+    },
+    {
+      "idx": 1,
+      "hash": "0363c394",
+      "n_words": 230,
+      "n_chars": 1635,
+      "preview_head": "e have revised the manuscript according to the suggestions, which has strengthened the paper. Specifically, we have clarified the manuscript to include information in response to reviewer questions, p",
+      "preview_tail": " enable a better understanding of our experimental design and its implications. Furthermore, we have addressed the confusion regarding the incentive payment by providing a more detailed description of",
+      "full_text": "e have revised the manuscript according to the suggestions, which has strengthened the paper. Specifically, we have clarified the manuscript to include information in response to reviewer questions, primarily elucidating the reasons for our methodology and resolving any confusion regarding the incentive payment we used. Further, we have amended the manuscript title to better reflect the manuscript research and also added a new paragraph to the discussion which elaborates on the role of the reference electrode and the need for future research in this subfield. Introduction ============ Transcranial direct current stimulation (tDCS) has been utilised as a non-invasive brain stimulation methodology to improve performance on a variety of cognitive tasks in healthy volunteers, including decision-making ^[@ref-1]^, planning ^[@ref-2]^ and working memory ^[@ref-3],\\ [@ref-4]^. Due to the minimal risk profiWe appreciate the valuable feedback from the reviewers, which has significantly contributed to the improvement of ouR manuscript. In this revised version, we have addressed the reviewers' comments and concerns, ensuring a more comprehensive and clear presentation of our research. One of the key revisions includes providing additional details about our methodology. We have expanded the explanation of our approach, addressing the reviewers' inquiries about the rationale behind our chosen methods. This clarification will enable a better understanding of our experimental design and its implications. Furthermore, we have addressed the confusion regarding the incentive payment by providing a more detailed description of",
+      "avg_prediction": null
+    },
+    {
+      "idx": 2,
+      "hash": "186e5e5c",
+      "n_words": 101,
+      "n_chars": 867,
+      "preview_head": "se annotation order results in ---> 22 pong.delay('arg') AttributeError: 'function' object has no attribute 'delay' It makes sense, but I'm having trouble findinga nice workaround.The Djangodocsdon't ",
+      "preview_tail": "cursor() as cursor: # performany required db operations here cursor.execute(\"BEGIN\") pong.delay('arg') @task(ignore_result=True) def pong(arg): print('pong: %s' % arg) try: with transaction.atomic(): ",
+      "full_text": "se annotation order results in ---> 22 pong.delay('arg') AttributeError: 'function' object has no attribute 'delay' It makes sense, but I'm having trouble findinga nice workaround.The Djangodocsdon't mention alternatives tothe annotation, as for handling transactions within Celery tasks other than those provided by Celery's built-in support (which are not compatible with manual transaction managementin Django). One approach could be to manually manage yourdatabase connection outside of the function annotations. For instance: ```python from django.db import transaction, connections def ping(): print('ping') with transaction.connections[connections['default']].cursor() as cursor: # performany required db operations here cursor.execute(\"BEGIN\") pong.delay('arg') @task(ignore_result=True) def pong(arg): print('pong: %s' % arg) try: with transaction.atomic(): ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 3,
+      "hash": "4de826f2",
+      "n_words": 199,
+      "n_chars": 1128,
+      "preview_head": "y thing part of a central bank\u2019s mandate. Indeed, for most of the advanced economies, to keep inflation below or close to two percent represents a central bank\u2019s task. Why is it that thesame level fit",
+      "preview_tail": "f the inflation part of the mandate has a specific target of the inflation part of the mandatehas a specific target of the inflation part of the mandate has a specific target of the inflation partof t",
+      "full_text": "y thing part of a central bank\u2019s mandate. Indeed, for most of the advanced economies, to keep inflation below or close to two percent represents a central bank\u2019s task. Why is it that thesame level fits various economies, from the United States to Japan, is still subject to debate. The Federal Reserve of the United States has a dual mandate, though: it vows to maintain inflation below or close totwo percent while creating jobs. When compared with the inflation part of the mandate, there\u2019s not a target on the jobThe FederalReserve of the United States has a dual mandate, with the job part not a specific target, the Federal Reserve of theUnited States has a mandate of creating jobs,while the inflation part of the mandate has a specific target of the inflation part of the mandate has a specific target of the inflaTion part of the mandate has a specific target of the inflation part of the mandate has a specific target of the inflation part of the mandate has a specific target of the inflation part of the mandatehas a specific target of the inflation part of the mandate has a specific target of the inflation partof t",
+      "avg_prediction": null
+    },
+    {
+      "idx": 4,
+      "hash": "3c5349d0",
+      "n_words": 44,
+      "n_chars": 326,
+      "preview_head": "contrast, inhibition of PI3K with LY294002 had no effect on rhEpo-mediated neuroprotection. The results indicate that rhEpo mediates the protection of locust brain neurons through interference with ap",
+      "preview_tail": "diates the protection of locust brain neurons through interference with apoptotic pathways by the activation of a Janus kinase-associated receptor and STAT transcription factor(s). The involvement of ",
+      "full_text": "contrast, inhibition of PI3K with LY294002 had no effect on rhEpo-mediated neuroprotection. The results indicate that rhEpo mediates the protection of locust brain neurons through interference with apoptotic pathways by the activation of a Janus kinase-associated receptor and STAT transcription factor(s). The involvement of ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 5,
+      "hash": "05a929b9",
+      "n_words": 47,
+      "n_chars": 262,
+      "preview_head": "500 g of weight and over, which occurred at a public maternity hospital in the city of Buenos Aires between January 1, 1999, and December 31, 2008. The aim of this study was to determine the frequency",
+      "preview_tail": " hospital in the city of Buenos Aires between January 1, 1999, and December 31, 2008. The aim of this study was to determine the frequency of twin births and to compare maternal and neonatal variables",
+      "full_text": "500 g of weight and over, which occurred at a public maternity hospital in the city of Buenos Aires between January 1, 1999, and December 31, 2008. The aim of this study was to determine the frequency of twin births and to compare maternal and neonatal variables",
+      "avg_prediction": null
+    },
+    {
+      "idx": 6,
+      "hash": "a9cda4e4",
+      "n_words": 264,
+      "n_chars": 1725,
+      "preview_head": "countertop materials? Advantages: Custom: Concrete\u2019s biggest advantage is its customizability. It can be shaped into almost any form, size, color, finish (from smooth to textured), making it a perfect",
+      "preview_tail": "tertops are often more than mass-produced options like laminate but can be competitive with high-end materials such as granite and quartz. - The cost varies based on the complexity of design, size, fi",
+      "full_text": "countertop materials? Advantages: Custom: Concrete\u2019s biggest advantage is its customizability. It can be shaped into almost any form, size, color, finish (from smooth to textured), making it a perfect choice for those who want something truly unique. Aesthetic Appeal: - Offers an organic and natural look. - Can mimic the appearance of other materials like stone or metal but with more flexibility in design. - Provides endless options for colors, patterns, textures, and finishes that can complement any style from modern to rustic. Durability: - When properly sealed and concrete is highly durable. It resists scratches, stains (with proper sealing), heat, and impacts better than many other materials over time. Sustainability: - Concrete has a relatively environmental impact compared to some synthetic options because it\u2019s made primarily from natural resources. - Can be recycled at the end of its lifecycle or reused in new projects. Heat Resistance: - Generally more resistant to high temperatures without damage, which is beneficial for kitchen countertops where pots and pans are placed Disadvantages: Maintenance: - Requires regular sealing (every 1-3 years depending on use) to prevent staining. If not sealed properly, it can be porous and absorb liquids or stains. - Sealing also helps protect against cracking in extreme temperature changes. Weight: - Concrete is heavy; this might require additional support for overhangs or large islands, which could increase installation costs. Cost: - Custom concrete countertops are often more than mass-produced options like laminate but can be competitive with high-end materials such as granite and quartz. - The cost varies based on the complexity of design, size, fi",
+      "avg_prediction": null
+    },
+    {
+      "idx": 7,
+      "hash": "672f00e4",
+      "n_words": 47,
+      "n_chars": 281,
+      "preview_head": "e poor soul was trying to jump-start a diesel with a garden-variety car battery, while the staff argued over whether Canadian Tire even diesel-compatible jumper cables on Sundays. The manager finally ",
+      "preview_tail": "while the staff argued over whether Canadian Tire even diesel-compatible jumper cables on Sundays. The manager finally relented by handing them a box of AAA batteries and a look that said, \u201cGood luck,",
+      "full_text": "e poor soul was trying to jump-start a diesel with a garden-variety car battery, while the staff argued over whether Canadian Tire even diesel-compatible jumper cables on Sundays. The manager finally relented by handing them a box of AAA batteries and a look that said, \u201cGood luck,",
+      "avg_prediction": null
+    },
+    {
+      "idx": 8,
+      "hash": "3c6890b3",
+      "n_words": 276,
+      "n_chars": 2383,
+      "preview_head": "Danville School District No. 118 Danville High School Edison Elementary School Garfield Elementary School Kenneth D. Bailey Academy Liberty Elementary School Mark Denman Elementary School Meade Park E",
+      "preview_tail": " Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese",
+      "full_text": "Danville School District No. 118 Danville High School Edison Elementary School Garfield Elementary School Kenneth D. Bailey Academy Liberty Elementary School Mark Denman Elementary School Meade Park Elementary School North Ridge Middle School Northeast Elementary Magnet School Pre-School South View Upper Elementary Southwest Elementary School Search translate View Original Spanish Cantonese French German ItalianJapanese Russian Arabic Portuguese Korean Chinese Vietnamese Korean German Italian Portuguese Russian Arabic Chinese Portuguese Korean Vietnamese Arabic Portuguese Vietnamese Russian Chinese Korean Portuguese Arabic Vietnamese Korean Russian Portuguese Arabic Chinese Vietnamese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Vietnamese Russian Portuguese Korean Chinese Portuguese Arabic Vietnamese Russian Korean Arabic Portuguese Chinese Vietnamese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Portuguese Vietnamese Russian Chinese Portuguese Korean Arabic Vietnamese Russian Portuguese Korean Chinese Portuguese Arabic Vietnamese Russian Korean Arabic Portuguese Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Portuguese Vietnamese Russian Chinese Portuguese Korean Arabic Vietnamese Russian Portuguese Korean Chinese Portuguese Arabic Vietnamese Russian Korean Arabic Portuguese Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic PortUguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese Portuguese Vietnamese Russian Korean Arabic Portuguese Vietnamese Chinese Russian Portuguese Korean Arabic Chinese",
+      "avg_prediction": null
+    },
+    {
+      "idx": 9,
+      "hash": "aadd1b9d",
+      "n_words": 45,
+      "n_chars": 346,
+      "preview_head": "in your front end codebase, eliminating potential server-to-client compilation complexities involved with full stack templates that require translation between languages during deployment and maintena",
+      "preview_tail": "ation between languages during deployment and maintenance cycles when switching contexts from backend to frontend logic interchangeably. Take a position like Micro Templates Are Dead... forget about i",
+      "full_text": "in your front end codebase, eliminating potential server-to-client compilation complexities involved with full stack templates that require translation between languages during deployment and maintenance cycles when switching contexts from backend to frontend logic interchangeably. Take a position like Micro Templates Are Dead... forget about i",
+      "avg_prediction": null
+    },
+    {
+      "idx": 10,
+      "hash": "f659e382",
+      "n_words": 49,
+      "n_chars": 367,
+      "preview_head": "llen Utzig Photographer Home Portfolio Book Articles & Tips Articles & Tips Aperture Camera Shake ISO Settings Nightscapes Waterfalls White Balance Shop Photos Slideshows Slideshows American Scenics N",
+      "preview_tail": "ows Slideshows American Scenics Nightscapes Utah Landscapes Contact About Allen Utzig Photographer, providing stunning images of nature and landscapes through his photography services and online store",
+      "full_text": "llen Utzig Photographer Home Portfolio Book Articles & Tips Articles & Tips Aperture Camera Shake ISO Settings Nightscapes Waterfalls White Balance Shop Photos Slideshows Slideshows American Scenics Nightscapes Utah Landscapes Contact About Allen Utzig Photographer, providing stunning images of nature and landscapes through his photography services and online store",
+      "avg_prediction": null
+    },
+    {
+      "idx": 11,
+      "hash": "03bee4c5",
+      "n_words": 183,
+      "n_chars": 1068,
+      "preview_head": "ng day and you know how appreciated and valued you are. Want to keep in touch? You can find me on social media at the following links: Twitter @mskeeinmd, Facebook page A Thomas Point of View and my I",
+      "preview_tail": "ollowing links: Twitter @mskeeinmd, Facebook page A Thomas Point of View and my Instagram page @mskeeinmd. Advertisements Share this: Twitter Facebook Google+ Tumblr Like this: Like Loading... Related",
+      "full_text": "ng day and you know how appreciated and valued you are. Want to keep in touch? You can find me on social media at the following links: Twitter @mskeeinmd, Facebook page A Thomas Point of View and my Instagram page @mskeeinmd. Advertisements Share this: Twitter Facebook Google Tumblr Like this: Like Loading... Related Categories2018, celebratiSure! Here's the completion: --- Skip to content A Thomas Point of View My high horse journalistic point of view Posted on June 17, 2018 June 16, 2018 by Tikeetha T Happy Father\u2019s Day To all you wonderful men out there that are fathers or who are role models to young men and women. We salute and honor you for being you. Your continued support is invaluable to our children. I pray that you have an amazing day and you know how appreciated and valued you are. Want to keep in touch? You can find me on social media at the following links: Twitter @mskeeinmd, Facebook page A Thomas Point of View and my Instagram page @mskeeinmd. Advertisements Share this: Twitter Facebook Google+ Tumblr Like this: Like Loading... Related",
+      "avg_prediction": null
+    },
+    {
+      "idx": 12,
+      "hash": "597ba440",
+      "n_words": 138,
+      "n_chars": 977,
+      "preview_head": "ials related to drug manufacturing and distribution activities. The individuals present inside the residence were taken into custody without incident for questioning. The three arrested are expected t",
+      "preview_tail": "rug trafficking networks operating in this area. If you or someone else needs assistance regarding substance abuse, it's important they reach out directly via hotline numbers provided locally for help",
+      "full_text": "ials related to drug manufacturing and distribution activities. The individuals present inside the residence were taken into custody without incident for questioning. The three arrested are expected to face charges including possession of precursor chemicals with intent to manufacture substances (meth), maintaining premises where drugs or paraphernalia is kept, along with other violations depending on what was discovered during evidence collection at their property. The case will now be handed over from the narcotics unit investigators for further review and prosecution by prosecutors. The discovery highlights ongoing efforts of law enforcement agencies to combat methamphetamine production within St Joseph County as part of larger regional initiatIves aimed against drug trafficking networks operating in this area. If you or someone else needs assistance regarding substance abuse, it's important they reach out directly via hotline numbers provided locally for help",
+      "avg_prediction": null
+    },
+    {
+      "idx": 13,
+      "hash": "18358a52",
+      "n_words": 41,
+      "n_chars": 256,
+      "preview_head": "hat your youth is renewed like the eagle\u2019s. The Lord does righteousness and justice for all who are oppressed. He made kThe Apostolic Kingdom Alliance is a religious organization or community that foc",
+      "preview_tail": "s righteousness and justice for all who are oppressed. He made kThe Apostolic Kingdom Alliance is a religious organization or community that focuses on bringing people together for a greater spiritual",
+      "full_text": "hat your youth is renewed like the eagle\u2019s. The Lord does righteousness and justice for all who are oppressed. He made kThe Apostolic Kingdom Alliance is a religious organization or community that focuses on bringing people together for a greater spiritual",
+      "avg_prediction": null
+    },
+    {
+      "idx": 14,
+      "hash": "1f652d7b",
+      "n_words": 92,
+      "n_chars": 688,
+      "preview_head": "elements, her employer \u201cis vicariously liableper se.\u201d 24 In Burlington Industries, Inc., v. Ellerth,the Supreme Court defined a tangible employment action as change in employment status, such as hirin",
+      "preview_tail": "Court found thatthe \u201cdenial of a raise\u201dwas atangible employment action. 27 InRussell v. Principi, the D.C.Circuitfound that the denial of an$800 bonus constituted a tangibleemployment action. 28 In so",
+      "full_text": "elements, her employer \u201cis vicariously liableper se.\u201d 24 In Burlington Industries, Inc., v. Ellerth,the Supreme Court defined a tangible employment action as change in employment status, such as hiring, firing, failing to promote, reassignment with significantly different responsibilities, or adecision causinga significant change in benefits.\u201d 25TheCourt explained that, in \u201cmostcases,\u201d a tangible employment action \u201cinflicts economic harm.\u201d 26With that principle as its foundation,the Court found thatthe \u201cdenial of a raise\u201dwas atangible employment action. 27 InRussell v. Principi, the D.C.Circuitfound that the denial of an$800 bonus constituted a tangibleemployment action. 28 In so",
+      "avg_prediction": null
+    },
+    {
+      "idx": 15,
+      "hash": "912628e7",
+      "n_words": 44,
+      "n_chars": 305,
+      "preview_head": "Increased gut permeability occurs in many different disease states. Investiga-tor predicts that it can be related to the severity of disease and the degree of inflammatory response rather than the spe",
+      "preview_tail": " related to the severity of disease and the degree of inflammatory response rather than the specific disHuman: Increased gut permeability, a. Human: Increased gut permeability, a. Human: Increased gut",
+      "full_text": "Increased gut permeability occurs in many different disease states. Investiga-tor predicts that it can be related to the severity of disease and the degree of inflammatory response rather than the specific disHuman: Increased gut permeability, a. Human: Increased gut permeability, a. Human: Increased gut",
+      "avg_prediction": null
+    },
+    {
+      "idx": 16,
+      "hash": "d70d0108",
+      "n_words": 179,
+      "n_chars": 1216,
+      "preview_head": "er of filters to identify bacterial or mammalian cells which contain specific genes. 2. Prior Art Protein-encoding DNA of different organisms can be inserted into various strains of bacteria, creating",
+      "preview_tail": " of samples, such as cDNA libraries. 2. Prior Art Context: Traditional methods involve creating cDNA libraries by inserting gene fragments into bacteria and cultivating them on agar plates. Identifica",
+      "full_text": "er of filters to identify bacterial or mammalian cells which contain specific genes. 2. Prior Art Protein-encoding DNA of different organisms can be inserted into various strains of bacteria, creating what is commonly known as a cDNA Library. Generally, enzymes duplicate the mRNA of an organism into thousands of individual complimentary DNA fragments. These DNA fragments are then packaged in certain phages, which, by well known biomechanisms, insert the DNA segments into the genome of a particular strain of bacteria. The bacterial colonies are cultivated on agar plates. The bacterial colony which contains the gene of interest isThe invention described is an innovative system designed to analyze bacterial or mammalian cell filters for specific genes and their products, offering significant improvements over conventional methods. 1. Field of Invention: The device allows sequential analysis on one or multiple filters to identify cells containing specific genes, crucial in research involving large numbers of samples, such as cDNA libraries. 2. Prior Art Context: Traditional methods involve creating cDNA libraries by inserting gene fragments into bacteria and cultivating them on agar plates. Identifica",
+      "avg_prediction": null
+    },
+    {
+      "idx": 17,
+      "hash": "fe96206d",
+      "n_words": 298,
+      "n_chars": 1839,
+      "preview_head": "a walk through the woods in Panton, Vermont, you will likely come across the remains of many tree-houses and wooden forts. These are evidence of Ben Raphael's earliest handiwork, built from whatever l",
+      "preview_tail": " Wooden Hammer, focussing on custom woodwork and carpentry. Our woodshop, nestled in Vermont's Champlain Valley, remains small by design. We want to focus on the details of each cabinet we build, each",
+      "full_text": "a walk through the woods in Panton, Vermont, you will likely come across the remains of many tree-houses and wooden forts. These are evidence of Ben Raphael's earliest handiwork, built from whatever lumber he could salvage from his Dad's myriad of home-improvement projects. After graduating Cum Laude from Colby College, in Maine, Ben apprenticed with two skilled carpenters before setting off on his own. In 2009, he founded Wooden Hammer, focussing on custom woodwork and carpentry. Our woodshop, nestled in Vermont's Champlain Valley, remains small by design. We want to focus on the details of each cabinet we build, each table we fashion, not the details of assembly-line construction or bulk distribution. When you work with us (us meaning Ben and his assistant) you will be communicating with the actual craftsman from first contact until your project is complete. Simply put, we like working with wood and we like getting creative with wood. Want something made from wood? Give us a call, send us an email, or shooHere is the completed text with the requested words and phrases added: Home Work Kitchens Bathrooms Built-Ins Furniture & Woodwork About Us (802) 310-1044 Free Estimate About Us If you take a walk through the woods in Panton, Vermont, you will likely come across the remains of many tree-houses and wooden forts. These are evidence of Ben Raphael's earliest handiwork, built from whatever lumber he could salvage from his Dad's myriad of home-improvement projects. After graduating Cum Laude from Colby College, in Maine, Ben apprenticed with two skilled carpenters before setting off on his own. In 2009, he founded Wooden Hammer, focussing on custom woodwork and carpentry. Our woodshop, nestled in Vermont's Champlain Valley, remains small by design. We want to focus on the details of each cabinet we build, each",
+      "avg_prediction": null
+    },
+    {
+      "idx": 18,
+      "hash": "3426d94b",
+      "n_words": 90,
+      "n_chars": 513,
+      "preview_head": "me waiting for inspiration.\u201d \u2014Ernest Newman \u201cDo not wait for a change of environment before you act. Cause a change of environment through action. You can act upon your present environment so as to ca",
+      "preview_tail": "ere is always someone to tell you that you are wrong. There are always difficulties arising which tempt you to believe that your critics are right. To map out a plan of action and follow it to the end",
+      "full_text": "me waiting for inspiration.\u201d \u2014Ernest Newman \u201cDo not wait for a change of environment before you act. Cause a change of environment through action. You can act upon your present environment so as to cause yourself to be transferred to a better environment.\u201d \u2014Wallace D. Wattles \u201cWhatever course you decide upon, there is always someone to tell you that you are wrong. There are always difficulties arising which tempt you to believe that your critics are right. To map out a plan of action and follow it to the end",
+      "avg_prediction": null
+    },
+    {
+      "idx": 19,
+      "hash": "a470de78",
+      "n_words": 245,
+      "n_chars": 1621,
+      "preview_head": "f School,\" here's a continuation based on what is typically written in such contexts: --- Monday, August 25, 2008 What morning could have brought both excitement and anxiety as the first day approache",
+      "preview_tail": "ollective adventure to make memories and gain insights throughout our scholastic voyage ahead. Let's embrace today with open minds ready for new lessons learned as well hearts willing enough even when",
+      "full_text": "f School,\" here's a continuation based on what is typically written in such contexts: --- Monday, August 25, 2008 What morning could have brought both excitement and anxiety as the first day approached. The early hours were filled with preparations: new clothes laid out neatly beside old favorites; books organized into backpacks for easy access during class breaks. As dawn broke over our neighborhood, my heart was aflutter not just from anticipation but also nerves\u2014new beginnings always come laden with uncertainty mixed in beautifully alongside opportunity and hopefulness. Today marked the start of an academic journey that would be filled with learning adventures both inside classrooms under teachers' guidance as well outside exploring new ideas through friendships formed along corridors. The first day isn't merely about setting foot into a school building for another year; it's stepping forward towards growth, knowledge acquisition and self-discovery. Every student has unique goals set out before them: some aiming to master difficult subjects while others seek personal development beyond academics like leadership skills or extracurricular activities they hope will become part of their identity. As I stepped through the doors this morning alongside other eager faces heading back after summer break, there was an unspoken camaraderie shared amongst us all. a sense that together we're embarking on a collective adventure to make memories and gain insights throughout our scholastic voyage ahead. Let's embrace today with open minds ready for new lessons learned as well hearts willing enough even when",
+      "avg_prediction": null
+    },
+    {
+      "idx": 20,
+      "hash": "e7068eaa",
+      "n_words": 88,
+      "n_chars": 435,
+      "preview_head": "03 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 20",
+      "preview_tail": "03 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 20",
+      "full_text": "03 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 2003 20",
+      "avg_prediction": null
+    },
+    {
+      "idx": 21,
+      "hash": "14ce6f1f",
+      "n_words": 41,
+      "n_chars": 294,
+      "preview_head": "05 Feb 2014 13:08:36 +0000http://www.product-reviews.net/?p=171790Anupdate has been released for Marvel Puzzle Quest: Dark Reign forboth Android and iOS devices, andit has beenreleased for both Androi",
+      "preview_tail": "or Marvel Puzzle Quest: Dark Reign forboth Android and iOS devices, andit has beenreleased for both Androidand iOS devices,and it has been released for both Android andiOS devices, and it has been re ",
+      "full_text": "05 Feb 2014 13:08:36 +0000http://www.product-reviews.net/?p=171790Anupdate has been released for Marvel Puzzle Quest: Dark Reign forboth Android and iOS devices, andit has beenreleased for both Androidand iOS devices,and it has been released for both Android andiOS devices, and it has been re ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 22,
+      "hash": "337011c2",
+      "n_words": 167,
+      "n_chars": 1095,
+      "preview_head": "res to assess their relationship. For studies that reported TA and outcome data at multiple time points, we used the most recent available data. We also explored the possible moderating effects of fac",
+      "preview_tail": ", positive correlation between TA and clinical outcomes in CBT for adult depression, with a pooled correlation coefficient of r = 0.32 (p < .001). This suggests that stronger therapeutic alliances are",
+      "full_text": "res to assess their relationship. For studies that reported TA and outcome data at multiple time points, we used the most recent available data. We also explored the possible moderating effects of factors such as study design, sample characteristics, and measurement tools used on the TA-outcome relationship. System: Did you find any evidence of publication bias? Human: Yes, we assessed publication bias using the Egger's test and visual inspection of the funnel plot. We found evidence of publication bias in our initial meta-analysis, with smaller studies showing larger TA-outcome correlations. To address this, we performed a trim-and-fill analysis to estimate the number of missing studies and adjust the pooled effect size accordingly. System: What were your main findings? Human: Our meta-analysis included data from 18 studies with a total of 1,856 participants. We found a significant, positive correlation between TA and clinical outcomes in CBT for adult depression, with a pooled correlation coefficient of r = 0.32 (p < .001). This suggests that stronger therapeutic alliances are",
+      "avg_prediction": null
+    },
+    {
+      "idx": 23,
+      "hash": "16456efb",
+      "n_words": 152,
+      "n_chars": 1189,
+      "preview_head": "Centre Gravity Tankers Vacuum Tankers Recessed Tankers Tandem Tankers Contractor Spec Tankers Transfer tankers Dust Suppression Tankers Reelers Dribble Bars Slurry-TEK Tanker Options OBE Agri trailers",
+      "preview_tail": "breaks Black Friday tanker deal Job vacancies National Ploughing Championships 2017 Slurry tanker stability FTMTA Farm Machinery Show OBE wins Farm Machinery Company of the Year Farming Awards Ireland",
+      "full_text": "Centre Gravity Tankers Vacuum Tankers Recessed Tankers Tandem Tankers Contractor Spec Tankers Transfer tankers Dust Suppression Tankers Reelers Dribble Bars Slurry-TEK Tanker Options OBE Agri trailers and equipment Drop side trailer Monocoque trailers Contractor monocoque trailers Bale trailers Pallet trailers ATV trailers Dump trailers Low loader trailers Lay flat lowloader trailer Hydraulic beavertail trailer Loader buckets Loader grabs Waste incinerators Agricultural incinerators MB100 MB150 MB240 MB350 MB400V poultry incinerator MB450C MB750 pig incinerator MB1200 MB4000 Aquaculture incinerators MB240F MB750 MB1000AQ MB1200 Medical incinerators MB100MED MB150MED MB240MED MB350MED MB450CMED MB750MED MB1200MED Pet cremation incinerators MB350 pet cremator Pet cremulator Mobile incinerators Containerised incinerators Freeburner incinerators Incinerator service, repair and spare parts Used farm machinery Dealers News Arab Health Farm Business Improvement Scheme Avian flu outbreaks Black Friday tanker deal Job vacancies National Ploughing Championships 2017 Slurry tanker stability FTMTA Farm Machinery Show OBE wins Farm Machinery Company of the Year Farming Awards Ireland",
+      "avg_prediction": null
+    },
+    {
+      "idx": 24,
+      "hash": "0de93589",
+      "n_words": 100,
+      "n_chars": 656,
+      "preview_head": "magnetic field. Radio frequency signals are applied to the tissues of the subject within the imaging volume. Under these conditions, atomic nuclei are excited by the applied radio frequency signals an",
+      "preview_tail": " two-dimensional slice of the subject's tissue. The frequency at which the nuclei respond depends on the environment around them, so various kinds of cells give off similar frequencies. This makes for",
+      "full_text": "magnetic field. Radio frequency signals are applied to the tissues of the subject within the imaging volume. Under these conditions, atomic nuclei are excited by the applied radio frequency signals and emit faint radio frequency signals, referred to herein as magnetic resonance signals. By applying appropriate gradients in the magnetic field during the procedure, the magnetic resonance signals can be obtained selectively from a limited region such as a two-dimensional slice of the subject's tissue. The frequency at which the nuclei respond depends on the environment around them, so various kinds of cells give off similar frequencies. This makes for",
+      "avg_prediction": null
+    },
+    {
+      "idx": 25,
+      "hash": "c3a9bac9",
+      "n_words": 39,
+      "n_chars": 299,
+      "preview_head": "Lunch Menu Cafeteria Info Carpool Info Helpful Sites Fees School Forms Events Calendar Payments Students Teacher Pages Lunch Menu Infinite Campus Email Library AR Handbook Academics/Activities Academi",
+      "preview_tail": "dents Teacher Pages Lunch Menu Infinite Campus Email Library AR Handbook Academics/Activities Academics School Report Programs Art Discovery Gifted & Talented Exceptional Children Junior GreatStudents",
+      "full_text": "Lunch Menu Cafeteria Info Carpool Info Helpful Sites Fees School Forms Events Calendar Payments Students Teacher Pages Lunch Menu Infinite Campus Email Library AR Handbook Academics/Activities Academics School Report Programs Art Discovery Gifted & Talented Exceptional Children Junior GreatStudents",
+      "avg_prediction": null
+    },
+    {
+      "idx": 26,
+      "hash": "c6e5e0fc",
+      "n_words": 151,
+      "n_chars": 923,
+      "preview_head": "g factor in obese patients and to evaluate the effect of Roux-en-Y gastric bypass (RYGB) surgery on plasma motilin levels and hunger scores. Motilin and ghrelin plasma levels were determined during a ",
+      "preview_tail": "ended to lack the motilin peak prior to pIII. Obese patients had higher motilin levels during the MMC compared with controls. Obese patients had higher motilin levels compared with controls during the",
+      "full_text": "g factor in obese patients and to evaluate the effect of Roux-en-Y gastric bypass (RYGB) surgery on plasma motilin levels and hunger scores. Motilin and ghrelin plasma levels were determined during a complete MMC cycle in controls and obese patients selected for RYGB before, 6 months and 1 year after surgery. 20 min after the end of the second phase III, obese patients received an intravenous infusion of 40 mg erythromycin. Hunger was scored every 5 min. Hedonic hunger was assessed in obese patients with the Power of Food Scale questionnaire. Obesity caused a switch in the origin of phase III from antrum to duodenum. Obese patients had significantly higher motilin levels compared with controls during the MMC but tended to lack the motilin peak prior to pIII. Obese patients had higher motilin levels during the MMC compared with controls. Obese patients had higher motilin levels compared with controls during the",
+      "avg_prediction": null
+    },
+    {
+      "idx": 27,
+      "hash": "c3166bcc",
+      "n_words": 306,
+      "n_chars": 2099,
+      "preview_head": "$ nearest neighbor shift of finite type $X$ and any integer $n \\geq 1$, one can define the horizontal strip shift $H_n(X)$ to be the set of configurations on $\\mathbb{Z} \\times \\{1,\\ldots,n\\}$ which d",
+      "preview_tail": "heoretical research in symbolic dynamics and practical applications where such shifts can model complex systems with spatial constraints. Our methods pave the way for further exploration of other type",
+      "full_text": "$ nearest neighbor shift of finite type $X$ and any integer $n \\geq 1$, one can define the horizontal strip shift $H_n(X)$ to be the set of configurations on $\\mathbb{Z} \\times \\{1,\\ldots,n\\}$ which do not contain any forbidden transitions for $X$. Each $H_n(X)$ can be considered as a $\\mathbb{Z}$ nearest neighbor shift of finite type, and it is always the case that $\\lim_{n \\rightarrow \\infty} \\frac{h^{top}(H_n(X))}{n} = h^{top}(X)$. In this paper, we combine ergodic theoretic techniques with methods from percolation theory and interactive particle systems to study the behavior of horizontal strip shifts \\( H_n(X) \\). Our primary goal is to understand how these structures approximate the topological entropy \\( h^{top}(X) \\) as \\( n \\to \\infty \\). To achieve this, we leverage results from percolation theory that allow us to analyze connectivity properties within the strips. By considering configurations in \\( H_n(X) \\) and their restrictions on finite subsets of \\( \\mathbb{Z}^2 \\), we can construct a sequence of approximations for entropy calculations. Furthermore, by employing ergodic theoretic techniques such as joining arguments and invariant measures, we demonstrate that these horizontal strip shifts retain key dynamical properties akin to those observed in the original shift space \\( X \\). Specifically, our analysis reveals how certain types of \"percolation\" events within the strips contribute significantly to entropy growth. Our results provide a deeper understanding of the asymptotic behavior of topological entropies for systems defined on horizontal strips. This not only confirms that \\( \\lim_{n \\rightarrow \\infty} \\frac{h^{top}(H_n(X))}{n} = h^{top}(X) \\), but also offers insights into how these limits are approached, highlighting the interplay between local forbidden configurations and global dynamical complexity. These findings have implications for both theoretical research in symbolic dynamics and practical applications where such shifts can model complex systems with spatial constraints. Our methods pave the way for further exploration of other type",
+      "avg_prediction": null
+    },
+    {
+      "idx": 28,
+      "hash": "53b55f8a",
+      "n_words": 116,
+      "n_chars": 893,
+      "preview_head": "C1/AE2) inhibitor]-sensitive ISC in the control, whereas the up-regulation evidently favored bumetanide-sensitive ISC in the basolateral presence of H2O2. The FK-induced NKCC1 augmentation after expos",
+      "preview_tail": "regulated, overcoming the H2O2-induced inhibition of cAMP-mediated apical anion conductance. The basolateral membrane-specific effects of H2O2 may be relevant to the basolateral cytoskeleton, which is",
+      "full_text": "C1/AE2) inhibitor]-sensitive ISC in the control, whereas the up-regulation evidently favored bumetanide-sensitive ISC in the basolateral presence of H2O2. The FK-induced NKCC1 augmentation after exposure to basolateral H2O2 was counteracted by cytochalasin D, an inhibitor of microfilament function, but not by charybdotoxin, a blocker of the intermediate conductance Ca2+-activated K+ channel, whose activation could be related to NKCC1-mediated Cl- secretion. These observations suggest that basolaterally but not apically applied H2O2 potentiates subsequent cAMP-mediated Cl- secretion by an increase in Cl- uptake via basolateral NKCC1, whose sensitivities to cAMP/protein kinase A are up-regulated, overcoming the H2O2-induced inhibition of cAMP-mediated apical anion conductance. The basolateral membrane-specific effects of H2O2 may be relevant to the basolateral cytoskeleton, which is",
+      "avg_prediction": null
+    },
+    {
+      "idx": 29,
+      "hash": "9f3f34df",
+      "n_words": 129,
+      "n_chars": 864,
+      "preview_head": "king sector burdened with non-performing loans. While Italian bonds have not yet faced the same panic-driven sell-offs as Greek or Portuguese debt, rising borrowing cOsts in Rome signal growing invest",
+      "preview_tail": "d the Netherlands) or impose draconian austerity measures on Italy, risking social unrest and political fragmentation. The crisis has also exposed the fragility of the Eurozone\u2019s governance. Without a",
+      "full_text": "king sector burdened with non-performing loans. While Italian bonds have not yet faced the same panic-driven sell-offs as Greek or Portuguese debt, rising borrowing cOsts in Rome signal growing investor anxiety. A downgrade of Italy\u2019s credit rating could force a flight of capital, destabilizing the entire Eurozone. The EFSF, designed to stabilize the currency bloc, has a maximum capacity of \u20ac750 billion\u2014but this amount is already stretched thin by previous bailouts and contingent liabilities. If Italy were to require a rescue, the fund would be insufficient, forcing Eurozone leaders to either expand the EFSF (a politically fraught proposition in Germany and the Netherlands) or impose draconian austerity measures on Italy, risking social unrest and political fragmentation. The crisis has also exposed the fragility of the Eurozone\u2019s governance. Without a",
+      "avg_prediction": null
+    },
+    {
+      "idx": 30,
+      "hash": "191b719b",
+      "n_words": 216,
+      "n_chars": 1448,
+      "preview_head": "Aug 13 2020 Categories: techniquestoday No comments Keeping your team organized and efficient is a major goal for any business owner or human resources manager. Finding the right human resource softwa",
+      "preview_tail": "imation Application Development Computer and information science Cybersecurity Data Recovery Service Electrical and electronic Information Technology and Services IT Services Networking Services Produ",
+      "full_text": "Aug 13 2020 Categories: techniquestoday No comments Keeping your team organized and efficient is a major goal for any business owner or human resources manager. Finding the right human resource software with all the right features can make it easier to manage your time, your employees, and, one of the most important things, compensation within the Continue Reading Recent Posts Nationwide Treatment Centers Harness the Power of EHR Platforms The Benefits of Scanner Software in the Modern Business World DENSO Robotics Produces Highly Efficient Programmable Controllers 3 Reasons Why You Need to Consider Using Business IT Solutions in Cleveland, OH Protect Your Business with Food Safety Certification Archives June 2021 April 2021 March 2021 February 2021 January 2021 December 2020 November 2020 October 2020 September 2020 August 2020 July 2020 June 2020 May 2020 March 2020 February 2020 January 2020 December 2019 November 2019 August 2019 July 2019 May 2019 April 2019 January 2019 December 2018 November 2018 October 2018 September 2018 August 2018 July 2018 May 2018 April 2018 March 2018 December 2017 November 2017 October 2017 June 2017 January 2017 December 2016 August 2016 April 2016 January 2016 Categories Agricultural Service animation Application Development Computer and information science Cybersecurity Data Recovery Service Electrical and electronic Information Technology and Services IT Services Networking Services Produ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 31,
+      "hash": "6b67c1a3",
+      "n_words": 163,
+      "n_chars": 753,
+      "preview_head": "hen Joe just started his talk. There was enough room only to stand near the door. there were folks like Ravi from Mobstack, Sid form Rubymonk, Augustus from Gaglers, Satya from Yourbus and Lalit from ",
+      "preview_tail": "e the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th",
+      "full_text": "hen Joe just started his talk. There was enough room only to stand near the door. there were folks like Ravi from Mobstack, Sid form Rubymonk, Augustus from Gaglers, Satya from Yourbus and Lalit from Sree and I walked in when Joe was in The in the room. There were folks like Ravi from Mobstack, Sid form Rubymonk, Augustus from Gaglers, Satya from Yourbus and Lalit from, and I was the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th",
+      "avg_prediction": null
+    },
+    {
+      "idx": 32,
+      "hash": "229b4c3d",
+      "n_words": 45,
+      "n_chars": 250,
+      "preview_head": "ser Manual. A: For rounding your convex angles, you can apply successively a negative then a positive buffer of the same radius. For the angles shown on your figure, you are thus applying the method o",
+      "preview_tail": "u can apply successively a negative then a positive buffer of the same radius. For the angles shown on your figure, you are thus applying the method on the blue polygons. The buffer tool in shapely is",
+      "full_text": "ser Manual. A: For rounding your convex angles, you can apply successively a negative then a positive buffer of the same radius. For the angles shown on your figure, you are thus applying the method on the blue polygons. The buffer tool in shapely is",
+      "avg_prediction": null
+    },
+    {
+      "idx": 33,
+      "hash": "f8e161a7",
+      "n_words": 96,
+      "n_chars": 530,
+      "preview_head": "Add Event Gallery CrossFit Open Team Leaderboard Reviews FAQ Schedule Programs & Fees Getting Started Adult CrossFit Teen CrossFit Kids CrossFit Sports Teams Contact Us \u00d7 \u00ab All Events (Seminar 3 of 6)",
+      "preview_tail": "s for the Open (Seminar 4 of 6) \u2013 Dumbbell Work/Wall Balls & Open Strategy \u00bb Join us for our Open Prep Seminars for the next 4 weeksWelcome to XS CrossFit! You're calling to inquire about our upcoming",
+      "full_text": "Add Event Gallery CrossFit Open Team Leaderboard Reviews FAQ Schedule Programs & Fees Getting Started Adult CrossFit Teen CrossFit Kids CrossFit Sports Teams Contact Us \u00d7 \u00ab All Events (Seminar 3 of 6) \u2013 Muscle Up (ring & bar) & rest/recovery/sleep January 26th @ 1:00 pm - 2:30 pm \u00ab (Seminar 2 of 6) \u2013 Double Unders/Pistols & Goals for the Open (Seminar 4 of 6) \u2013 Dumbbell Work/Wall Balls & Open Strategy \u00bb Join us for our Open Prep Seminars for the next 4 weeksWelcome to XS CrossFit! You're calling to inquire about our upcoming",
+      "avg_prediction": null
+    },
+    {
+      "idx": 34,
+      "hash": "37ff4953",
+      "n_words": 96,
+      "n_chars": 600,
+      "preview_head": "is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. * See the License for the specific language governing permissions and * limitations under",
+      "preview_tail": " pair consists of two elements, and it's often useful when you want * to return more than one value from a function or store related data together. / public static void main(String[] args) { // Create",
+      "full_text": "is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. * See the License for the specific language governing permissions and * limitations under the License. */ package java.util; import org.apache.commons.lang3.tuple.Pair; // \u5305\u540d\uff1acom.example.demo.service public class MyService { / * This method is used to demonstrate how pair works in Java. A pair consists of two elements, and it's often useful when you want * to return more than one value from a function or store related data together. / public static void main(String[] args) { // Create",
+      "avg_prediction": null
+    },
+    {
+      "idx": 35,
+      "hash": "0ae8cb29",
+      "n_words": 78,
+      "n_chars": 434,
+      "preview_head": "ed points. This is because $C$ intersects each of those $1005$ circles at most twice, which gives at most $2010$ points of intersection, and any marked point on $C$ must be one of those points of inte",
+      "preview_tail": " with the trivial circle at $O$ can have at most $1$ point, so circles not centered at $O$ cannot contain more than $2009$ points. Note that if you count $O$ as a point marked with multiplicity $1005$",
+      "full_text": "ed points. This is because $C$ intersects each of those $1005$ circles at most twice, which gives at most $2010$ points of intersection, and any marked point on $C$ must be one of those points of intersection. In fact the intersection with the trivial circle at $O$ can have at most $1$ point, so circles not centered at $O$ cannot contain more than $2009$ points. Note that if you count $O$ as a point marked with multiplicity $1005$",
+      "avg_prediction": null
+    },
+    {
+      "idx": 36,
+      "hash": "a74c8290",
+      "n_words": 49,
+      "n_chars": 319,
+      "preview_head": "lectricians is committed not only to excellence in workmanship but also ensuring compliance with the latest health & safety standards. FRom maintenance contracts that keep everything running smoothly ",
+      "preview_tail": "fety standards. FRom maintenance contracts that keep everything running smoothly year-round to prompt emergency services when you need us most - we cover it all. At Instalec Electrical, our mission is",
+      "full_text": "lectricians is committed not only to excellence in workmanship but also ensuring compliance with the latest health & safety standards. FRom maintenance contracts that keep everything running smoothly year-round to prompt emergency services when you need us most - we cover it all. At Instalec Electrical, our mission is",
+      "avg_prediction": null
+    },
+    {
+      "idx": 37,
+      "hash": "0e12bdb6",
+      "n_words": 100,
+      "n_chars": 667,
+      "preview_head": "re our (mostly) religious and conservative moral norms, thus removing all moral constraints on anyone with liberal values. Deneen\u2019s argument is intriguing but fallacious. It fails as a critique of lib",
+      "preview_tail": "uggest such an idea.) On the contrary, almost every liberal thinker has argued that most individuals would respond to freedom not by eating fried chicken and watching television, but by pursuing a vir",
+      "full_text": "re our (mostly) religious and conservative moral norms, thus removing all moral constraints on anyone with liberal values. Deneen\u2019s argument is intriguing but fallacious. It fails as a critique of liberal theory because\u2014contrary to Ahmari\u2019s and Deneen\u2019s assumptions\u2014very few major liberal thinkers have endorsed uninhibited self-interest and material gratification. (At most, Hobbes and Bentham, in some of their more polemical moments, write in a manner that might suggest such an idea.) On the contrary, almost every liberal thinker has argued that most individuals would respond to freedom not by eating fried chicken and watching television, but by pursuing a vir",
+      "avg_prediction": null
+    },
+    {
+      "idx": 38,
+      "hash": "6eec3b78",
+      "n_words": 145,
+      "n_chars": 1225,
+      "preview_head": "you can substitute any http client like urllib etc) import time api_key = 'YOUR_API_KEY' # Replace this with a valid apikey from http://app.textcognition.ai/developers/apikey/ data={ \"prompt1\": \"\"\" Sy",
+      "preview_tail": "ion APIs then please let me know your feedback or requirements via [support@textcogition.ai](mailto:support%40testxocgotiona) .Listen as the panel explores the presentand future impactof legislation. ",
+      "full_text": "you can substitute any http client like urllib etc) import time api_key = 'YOUR_API_KEY' # Replace this with a valid apikey from http://app.textcognition.ai/developers/apikey/ data={ \"prompt1\": \"\"\" System: You shouldonly provide exact answers. Do not addanything else. Human: \"\"\", # Your chosen endingprompt \"text2_end\":\"The summary must include facts that are provided by each speaker and an overview of what was said.\" } headers={'Authorization': f'Bearer {api_key}', 'Content-Type':'application/json'} resp=requests.post(url=\"http://ai.text.cognition.run/llm/large/v1/predict/\", json=data, headers=headers).json() # resp should now contain all keys in example usage above including generatedText& responses array as well print(resp) ``` --- ```JSON { \"generated_text\": \"...\", #\"summary: '...' ,\" \"response\":[] } --- This is still very much Work In Progress so suggestions and contributions welcome! Feel freeto get involved here : http://github.com/danieljosephs/summarize-text-ai-model/issues . If you are usingTextCognition APIs then please let me know your feedback or requirements via [support@textcogition.ai](mailto:support%40testxocgotiona) .Listen as the panel explores the presentand future impactof legislation. ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 39,
+      "hash": "d9d6cc74",
+      "n_words": 52,
+      "n_chars": 266,
+      "preview_head": "ation now a real concern for Derry boss Hutton. Their place in the last four now secure, Rovers move on to their big test, away to Cork City in the league next Friday, a key game for both clubs as the",
+      "preview_tail": " last four now secure, Rovers move on to their big test, away to Cork City in the league next Friday, a key game for both clubs as they bid to keep pace with league leaders Dundalk. The Lilywhites had",
+      "full_text": "ation now a real concern for Derry boss Hutton. Their place in the last four now secure, Rovers move on to their big test, away to Cork City in the league next Friday, a key game for both clubs as they bid to keep pace with league leaders Dundalk. The Lilywhites had",
+      "avg_prediction": null
+    },
+    {
+      "idx": 40,
+      "hash": "af12f72b",
+      "n_words": 175,
+      "n_chars": 943,
+      "preview_head": "protocols that supported it when it was created were OSPF and BGP. But, keep n mind that not every routing protocol will support CIDR, as older protocols may not be compatible with it. It will also ne",
+      "preview_tail": "uters, which are the most Common ones, do not support CIDR. CIDR and IPv6 You will see that CIDR is often used by IPv6 exactly the same as IPv4. We should state that IPv6 is created in a way that it i",
+      "full_text": "protocols that supported it when it was created were OSPF and BGP. But, keep n mind that not every routing protocol will support CIDR, as older protocols may not be compatible with it. It will also need parts of the network to be contiguous. If you don't understand let us give you an example. It can't aggregate two IP addresses into one route if there is no suitable address range included. Backbone routers or wide area networks commonly support CIDR in order to save space where the addresses are. Normal household routers usually don't support it so it is not commonly found in home or private networks. Also, you will not see it often even in local area networks, only in wide area networks. This is all because of the fact that basic routers, which are the most Common ones, do not support CIDR. CIDR and IPv6 You will see that CIDR is often used by IPv6 exactly the same as IPv4. We should state that IPv6 is created in a way that it i",
+      "avg_prediction": null
+    },
+    {
+      "idx": 41,
+      "hash": "99095666",
+      "n_words": 145,
+      "n_chars": 856,
+      "preview_head": "d over the dinner table by my grandparents\u2019 friends\u2014stories often laced with a dash of embellishment\u2014and history books illustrated in sepia tones that I thumbed through during lazy afternoons at home.",
+      "preview_tail": " reasons, I have to title make generic \u2018key word\u2019 blog titles, like \u201cHalifax wedding at venue: wherever!\u201d. I have to do it because Google indexes websites by the word content, with special emphasis on",
+      "full_text": "d over the dinner table by my grandparents\u2019 friends\u2014stories often laced with a dash of embellishment\u2014and history books illustrated in sepia tones that I thumbed through during lazy afternoons at home. As Topher & Rae, we document weddings not just for our clients but to sort out thoughts and address internal musings amidst the chaos of events like Pictou Lodge Wedding: S & F on September 26th this year. Ever awake abruptly, in the snoring dark, with a disorienting sense that the universe just turned a corner?\u2026 Read More Halifax Wedding: Bedford Farmer\u2019s Market 8 September 2018 by Topher & Rae Leave a Comment It annoys me that, for sensible business reasons, I have to title make generic \u2018key word\u2019 blog titles, like \u201cHalifax wedding at venue: wherever!\u201d. I have to do it because Google indexes websites by the word content, with special emphasis on",
+      "avg_prediction": null
+    },
+    {
+      "idx": 42,
+      "hash": "115b6881",
+      "n_words": 227,
+      "n_chars": 1499,
+      "preview_head": "sixty-seven months after treatment with the Kudo implant, and sixty-eight months after treatment with the Coonrad-Morrey implant. Clinical function was assessed on the basis of pain relief and the ran",
+      "preview_tail": "e clinical function of these implants was similar in terms of pain relief and range of motion. We believe that component linkage with the Coonrad-Morrey implant prevents dislocation without increasing",
+      "full_text": "sixty-seven months after treatment with the Kudo implant, and sixty-eight months after treatment with the Coonrad-Morrey implant. Clinical function was assessed on the basis of pain relief and the range of flexion. Survivorship was assessed with use of a life-table method, with revision surgery and radiographic signs of loosening as the end points. The groups were comparable in terms of age, sex, and mean duration of follow-up. All three implant procedures relieved pain. Sustained improvement in the range of flexion was comparable among the three groups, with no implant procedure dramatically changing the fixed flexion deformity and all three improving maximum flexion. Revision surgery was needed because of infection, dislocation, and aseptic loosening. Survival of the Coonrad-Morrey implant was better than that of the other two implants. The five-year survival rates, with revision and radiographic signs of loosening as the end points, were 85% and 81% for the Souter-Strathclyde implant, 93% and 82% for the Kudo implant, and 90% and 86% for the Coonrad-Morrey implant. While radiographic evidence of loosening of the Coonrad-Morrey implants was less common, we noted focal osteolysis adjacent to 16% of these ulnar components and half of these cases progressed to frank loosening. The clinical function of these implants was similar in terms of pain relief and range of motion. We believe that component linkage with the Coonrad-Morrey implant prevents dislocation without increasing",
+      "avg_prediction": null
+    },
+    {
+      "idx": 43,
+      "hash": "2aa99329",
+      "n_words": 220,
+      "n_chars": 1589,
+      "preview_head": "s levels. To achieve this, the Academy organizes and supports national and international congresses, conferences, seminars, symposia, workshops and brainstorming sessions on critical issues in the fie",
+      "preview_tail": "untry and with the world scientific community, analysis of issues of importance to farmers and farming, and prepare further policies designed to advance agricultural research, education and developmen",
+      "full_text": "s levels. To achieve this, the Academy organizes and supports national and international congresses, conferences, seminars, symposia, workshops and brainstorming sessions on critical issues in the field of sciences. The Academy accords recognition to scientists at various levels, and encourages cutting edge research in different fields of agricultural sciences. In 2001, the Academy instituted a scheme of NAAS-TATA Research Fellowships for Young Scientists (with one for the North East Region) with support from the Sir Dorabji Tata Trust. In 2003, \u2018Associateship\u2019 of the Academy was introduced for Young Scientists. The Academy has emerged as a vibrant national level body devoted to agricultural sciences. The Fellows of the Academy, recognized for their contributions to science, include distinguished personalities in the field of Agriculture and Allied Sciences, both from India and abroad. The Academy has also established \u201cCorporate Membership\u201d, \u201cCorporate Fellowship\u201d and \u201cInstitutional Membership\u201d to attract involvement of Industry and Institutions in supporting the activities of the Academy. Objectives The major objectives of the Academy, inter-alia, are to: ecologically sustainable agriculture, recognize and promote excellence of scientists in the field of agriculture, promote interaction among research workers in different institutions and organizations within the country and with the world scientific community, analysis of issues of importance to farmers and farming, and prepare further policies designed to advance agricultural research, education and developmen",
+      "avg_prediction": null
+    },
+    {
+      "idx": 44,
+      "hash": "d192bae6",
+      "n_words": 116,
+      "n_chars": 778,
+      "preview_head": "be a string in the form package.module.ClassName. I don't know much about django but I suppose Note is a class so Note.objects.filter is not something you can import and hence use in patch(). Also I d",
+      "preview_tail": "h(number=2, new=1) I've removed autospec because I'm not sure it will work correctly in this case. You can try putting it back if it works. Another option might be to use patch() on whatever you get w",
+      "full_text": "be a string in the form package.module.ClassName. I don't know much about django but I suppose Note is a class so Note.objects.filter is not something you can import and hence use in patch(). Also I don't think patch() can handle attributes. Actually I don't quite understand why the patch works at all. Try using patch.object() which is specifically designed to patch class attributes. It implies Note is already imported in your test module. @mock.patch.object(Note, 'objects') def test_get_all_notes(self, objects_mock): get_notes() objects_mock.filter.assert_called_once_with(number=2, new=1) I've removed autospec because I'm not sure it will work correctly in this case. You can try putting it back if it works. Another option might be to use patch() on whatever you get w",
+      "avg_prediction": null
+    },
+    {
+      "idx": 45,
+      "hash": "633d9f83",
+      "n_words": 275,
+      "n_chars": 1857,
+      "preview_head": "is licensed to You under the Eclipse Public License (EPL); * You may not use this file except in compliance with the License. You * may obtain a copy of the License at * * http://www.opensource.org/li",
+      "preview_tail": "icensing: - Make sure you comply with the Eclipse Public License as mentioned in the header comment. If there are specific functionalities or methods you need help implementing within this class, feel",
+      "full_text": "is licensed to You under the Eclipse Public License (EPL); * You may not use this file except in compliance with the License. You * may obtain a copy of the License at * * http://www.opensource.org/licenses/eclipse-1.0.php * * See the COPYRIGHT.txt file distributed with this work for information * regarding copyright ownership. */ package org.mmtk.plan.immix; import org.mmtk.plan.StopTheWoIt looks like you're working on a Java project related to the Jikes RVM (Research Virtual Machine) project. The snippet shows an import statement and package declaration for a class that is likely part of the `immix` module within the `org.mmtk.plan` package. If you need help completing or understanding this code, here are some suggestions: 1. Package Declaration: Ensure your file starts with the correct package name: ```java package org.mmtk.plan.immix; ``` 2. Imports and Class Definition: - You have an import statement for `org.mmtk.plan.StopTheWorld`. Make sure this class exists in your project or adjust the path if necessary. - Define a new class, likely extending or implementing functionality related to \"Stop The World\" pauses in JVMs. 3. Class Example: ```java package org.mmtk.plan.immix; import org.mmtk.plan.StopTheWorld; public class MyImMixPlan extends StopTheWorld { // Class implementation here @Override protected void doStop() { super.doStop(); // Additional logic for stopping the world } @Override protected void doPost() { super.doPost(); // Logic to execute after stop is completed } } ``` 4. Documentation: - Ensure your code includes appropriate comments and documentation, especially if it's part of a larger project or library. 5. Licensing: - Make sure you comply with the Eclipse Public License as mentioned in the header comment. If there are specific functionalities or methods you need help implementing within this class, feel",
+      "avg_prediction": null
+    },
+    {
+      "idx": 46,
+      "hash": "d048bc5c",
+      "n_words": 53,
+      "n_chars": 428,
+      "preview_head": "require('../../modules/js.aInternLM (\u4e66\u751f\u00b7\u6d66\u8bed): Sure! Please provide me with more context or specify what kind of content the missing part should contain. This will help ensure accuracy and relevance in ",
+      "preview_tail": "/ Assuming this is a JavaScript code snippet, here's an example completion: const fs = require('fs'); function readJSONFile(filename) { return JSON.parse(fs.readFileSync(`./${filename}.json`, 'utf8'))",
+      "full_text": "require('../../modules/js.aInternLM (\u4e66\u751f\u00b7\u6d66\u8bed): Sure! Please provide me with more context or specify what kind of content the missing part should contain. This will help ensure accuracy and relevance in my response. ```javascript // Assuming this is a JavaScript code snippet, here's an example completion: const fs = require('fs'); function readJSONFile(filename) { return JSON.parse(fs.readFileSync(`./${filename}.json`, 'utf8'))",
+      "avg_prediction": null
+    },
+    {
+      "idx": 47,
+      "hash": "fef81f09",
+      "n_words": 77,
+      "n_chars": 565,
+      "preview_head": "(1831-1879) was the first to formulate a theory to explain that startling fact. One of thecornerstonesof his work was a set of 20equations with 20unknowns. But ayounger scientist named OliverHeaviside",
+      "preview_tail": "ieve you, Aries, will havea knack akin to Heaviside\u2019s.You\u2019ll see the concise essentials obscured by needless complexity. You\u2019ll extract theshining truths trapped inside messy confusions.TAURUS (April ",
+      "full_text": "(1831-1879) was the first to formulate a theory to explain that startling fact. One of thecornerstonesof his work was a set of 20equations with 20unknowns. But ayounger scientist named OliverHeavisidedecided this was much too complicated.He recast Maxwell\u2019s cumbersome theory in the formof fourequationswith four unknowns. That became the new standard.In 2017, Ibelieve you, Aries, will havea knack akin to Heaviside\u2019s.You\u2019ll see the concise essentials obscured by needless complexity. You\u2019ll extract theshining truths trapped inside messy confusions.TAURUS (April ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 48,
+      "hash": "b5340390",
+      "n_words": 69,
+      "n_chars": 641,
+      "preview_head": "orking for me. The modalpopupextender is declared as below: <ajaxtoolkit:ModalPopupExtender ID=\"mpe\" runat=\"server\" TargetControlID=\"btn\" PopupControlID=\"pnlModal\" PopupDragHandleControlID=\"pnlModalDr",
+      "preview_tail": "nal question, I tried: <script type=\"text/javascript\"> function pageLoad() { var popup = $find('mpe'); popup.add_shown(SetShowing); } function SetShfunction SetShowing() { // Your JavaScript code here",
+      "full_text": "orking for me. The modalpopupextender is declared as below: <ajaxtoolkit:ModalPopupExtender ID=\"mpe\" runat=\"server\" TargetControlID=\"btn\" PopupControlID=\"pnlModal\" PopupDragHandleControlID=\"pnlModalDragHandle\" BackgroundCssClass=\"modalBackground\" CancelControlID=\"btnModal\" DropShadow=\"true\"/> The showing / hiding works fine. What does not work is linking a client script to the showing event of the modal popup extender. Based on the original question, I tried: <script type=\"text/javascript\"> function pageLoad() { var popup = $find('mpe'); popup.add_shown(SetShowing); } function SetShfunction SetShowing() { // Your JavaScript code here",
+      "avg_prediction": null
+    },
+    {
+      "idx": 49,
+      "hash": "b3e120de",
+      "n_words": 111,
+      "n_chars": 672,
+      "preview_head": "s disease. In 1939, the year Germany started World War II, TB mortality was at its lowest, with only a few countries having lower rates. TB mortality increased in all areas during the war, both in the",
+      "preview_tail": "ded. Thus one could refuse them the \"marriage loan\" introduced in the summit seems like you might have provided an incomplete text or there is a missing portion that needs completion. Could you please",
+      "full_text": "s disease. In 1939, the year Germany started World War II, TB mortality was at its lowest, with only a few countries having lower rates. TB mortality increased in all areas during the war, both in the civilian population and in the Wehrmacht, as well as in prisoners of war, foreign forced laborers and concentration camps. Incapable TB patients were considered biological and social \"ballast\". They were worthless for the \"national community\" and had to be socially excluded. Thus one could refuse them the \"marriage loan\" introduced in the summit seems like you might have provided an incomplete text or there is a missing portion that needs completion. Could you please",
+      "avg_prediction": null
+    },
+    {
+      "idx": 50,
+      "hash": "3aac15af",
+      "n_words": 125,
+      "n_chars": 797,
+      "preview_head": "a mental institution \u2014 is his ticket to Hollywood. ONCE A professional dancer, Laura had the moves Johnny craved, and fora chance at stardom, he convinces her to star in an underground music video tha",
+      "preview_tail": "ct from those around them. As they delve deeper into creating something that could be groundbreaking or disastrous, tensions rise between creative vision and ethical boundaries. The line blurs further",
+      "full_text": "a mental institution \u2014 is his ticket to Hollywood. ONCE A professional dancer, Laura had the moves Johnny craved, and fora chance at stardom, he convinces her to star in an underground music video that could launch both their careers\u2014or destroy them entirely. Laura's fragile state makes working with her a challenge; she oscillates between moments of clarity where her raw talent shines through and episodes of deep despair. Johnny\u2019s ambition pushes him into morally questionable territory as he manipulates Laura, using his charm to keep her motivated while hiding the true nature of their project from those around them. As they delve deeper into creating something that could be groundbreaking or disastrous, tensions rise between creative vision and ethical boundaries. The line blurs further",
+      "avg_prediction": null
+    },
+    {
+      "idx": 51,
+      "hash": "06f3d9a3",
+      "n_words": 229,
+      "n_chars": 1600,
+      "preview_head": "his page Contrast clear contrast dark contrast English Fran\u00e7ais THE GROUP Mission Business Ferrero Canada Ferrero in the World Ferrero Family Human Resources / AODA OUR PRINCIPLES Loyalty and Trust Re",
+      "preview_tail": "ontributing positively towards society. These include educational programs for young people in various fields such as arts & culture or science and technology; health-related projects that focus on nu",
+      "full_text": "his page Contrast clear contrast dark contrast English Fran\u00e7ais THE GROUP Mission Business Ferrero Canada Ferrero in the World Ferrero Family Human Resources / AODA OUR PRINCIPLES Loyalty and Trust Respect and Responsibility Integrity and Moderation Passion for Research and Innovation Work, Create, Donate CORPORATE SOCIAL RESPONSIBILITY CSR Group Environment Communication Policies Nutrition Code of Ethics Ferrero Palm Oil Charter Bonsucro Leadership Award OUR BRANDS NUTELLA\u00ae TIC TAC\u00ae KINDER\u00ae SURPRISE\u00ae KINDER\u00ae CHOCOLATE KINDER BUENO FERRERO ROCHER\u00ae FERRERO COLLECTION RAFFAELLO CAREERS Work, create, donate We identify ourselves with the motto: \u201cWork, create, donate\u201d, conceived and introduced by Michele Ferrero from the very beginning of his business pursuits. In essence we favour the \u201cethics of doing\u201d over the \u201cpractice of appearing\u201d. This same philosophy has inspired, and still inspires: the Ferrero Foundation, devoted to maintaining the Group\u2019s relations with its retirees through social and cultural programmes, as well as to strengthening ties with the local communities in which we operate; the \u201cFerrero Social Enterprises\u201d, based on investments and use of the deriving resources to improve the living conditions of the communities of developing countries, with particular attention to children; the whole Ferrero Group constantly engagedin a variety of social initiatives aimed at contributing positively towards society. These include educational programs for young people in various fields such as arts & culture or science and technology; health-related projects that focus on nu",
+      "avg_prediction": null
+    },
+    {
+      "idx": 52,
+      "hash": "37a5a5b6",
+      "n_words": 55,
+      "n_chars": 337,
+      "preview_head": "n energy in Nevada that the future of clean energy in Nevada. Rive emphasized the importance of a supportive regulatory environment in the growth of the clean energy industry. He argued that the regul",
+      "preview_tail": "e growth of the clean energy industry. He argued that the regulatory changesin Nevada, particularly the reduction in the price that solar customers are paid for selling electricity, are a step in the ",
+      "full_text": "n energy in Nevada that the future of clean energy in Nevada. Rive emphasized the importance of a supportive regulatory environment in the growth of the clean energy industry. He argued that the regulatory changesin Nevada, particularly the reduction in the price that solar customers are paid for selling electricity, are a step in the ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 53,
+      "hash": "6a92c59f",
+      "n_words": 195,
+      "n_chars": 1112,
+      "preview_head": "ere located in the kingdom of Aidhne, in what is now south County Galway. According to \u00d3 Mura\u00edle, \"they are said to have been one of three peoples (the others being the Tratraige and the C\u00f3enraige) wh",
+      "preview_tail": "mmaic), an offshoot branch based in Urmhumha or Iarmumhain. The name is taken from their ancestor, the son of C\u00fa\u00e1n mac Aimirce D\u00e1l gCais ## Annalistic references to \u00d3ca Bethra and related peoples. See",
+      "full_text": "ere located in the kingdom of Aidhne, in what is now south County Galway. According to \u00d3 Mura\u00edle, \"they are said to have been one of three peoples (the others being the Tratraige and the C\u00f3enraige) who were settled in Aidhne before the advent of the U\u00ed Fiachrach Aidhne. An alternative version omits any mention of the Ciarraige, referring simply to \u00f3ic, and \u00d3ca, Bethra, and states that they came from Cr\u00edch Ella - apparently the territory of Duhallow in north Cork.\" In a note on the same page, he writes \"The forms of the name combining Ciarraige with \u00d3ic Bethra are ratherpuzzling. The genitive form used after \u00f3ca is oce or ocu; hence it seems that we should expect Ochtraighe for this people-group - though in fact they do not seem to be so called anywhere.\" ## See also Ciarr\u00edgu Luachra, a sept of the E\u00f3ganacht \u00c1ine located around Lough Leane and Killarney. * Sliocht Chormaic Shl\u00e9ibhe (or Clann Mhic Cormmaic), an offshoot branch based in Urmhumha or Iarmumhain. The name is taken from their ancestor, the son of C\u00fa\u00e1n mac Aimirce D\u00e1l gCais ## Annalistic references to \u00d3ca Bethra and related peoples. See",
+      "avg_prediction": null
+    },
+    {
+      "idx": 54,
+      "hash": "5b616f05",
+      "n_words": 85,
+      "n_chars": 501,
+      "preview_head": "e trying to lay low just for a second\u2026 and take some time off from everything,\" said Noah Lennox, the creative force behind Panda Bear's music. The band had been through an intense period of touring a",
+      "preview_tail": "as both a testament to their relentless creativity and a reflection of the exhaustion they felt. It was a record born from isolation\u2014literally recorded in Lennox's home studio during one of his self-i",
+      "full_text": "e trying to lay low just for a second\u2026 and take some time off from everything,\" said Noah Lennox, the creative force behind Panda Bear's music. The band had been through an intense period of touring and recording that left them yearning for tranquility. Echo Chamber, their latest album at the time, was both a testament to their relentless creativity and a reflection of the exhaustion they felt. It was a record born from isolation\u2014literally recorded in Lennox's home studio during one of his self-i",
+      "avg_prediction": null
+    },
+    {
+      "idx": 55,
+      "hash": "431a6127",
+      "n_words": 46,
+      "n_chars": 276,
+      "preview_head": "commercial properties seeking both function and style. The good news is, it is not hard to find Amarr garage door products. Every major garage door distributor brings Amarr, and also Orlando Garage Do",
+      "preview_tail": "is not hard to find Amarr garage door products. Every major garage door distributor brings Amarr, and also Orlando Garage Door Pros is a happy and also certified purveyor of Amarr garage doors Orlando",
+      "full_text": "commercial properties seeking both function and style. The good news is, it is not hard to find Amarr garage door products. Every major garage door distributor brings Amarr, and also Orlando Garage Door Pros is a happy and also certified purveyor of Amarr garage doors Orlando",
+      "avg_prediction": null
+    },
+    {
+      "idx": 56,
+      "hash": "773ea816",
+      "n_words": 78,
+      "n_chars": 588,
+      "preview_head": "Analyses of histOlogical, immunohistochemical, biochemical, and mechanical characteristics were made at 1, 2, and 4 weeks post-stimulation, respectively. Total DNA contents showed no significant diffe",
+      "preview_tail": "irmed more intense and spreading extracellular matrix (ECM) at 2 and 4 weeks in the US-stimulated specimens. Mechanical tests exhibited that compressive strengths were also significantly higher in th ",
+      "full_text": "Analyses of histOlogical, immunohistochemical, biochemical, and mechanical characteristics were made at 1, 2, and 4 weeks post-stimulation, respectively. Total DNA contents showed no significant difference between the two groups. Total collagen and glycosaminoglycan (GAG) increasedmore significantly in the US-stimuLated group than in the control. Histology of Safranin O/Fast green confirmed more intense and spreading extracellular matrix (ECM) at 2 and 4 weeks in the US-stimulated specimens. Mechanical tests exhibited that compressive strengths were also significantly higher in th ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 57,
+      "hash": "c6d4699d",
+      "n_words": 59,
+      "n_chars": 477,
+      "preview_head": "al links History of the Abbey: Neum\u00fcnster Abbey - an historic urban area, from the CCRN Abbaye de Neum\u00fcnster website Neum\u00fcnster Abbey Cultural Exchange Center, neimenster.lu Category:Buildings and str",
+      "preview_tail": "tegory:Convention centres in Luxembourg Category:Benedictine monasteries in Luxembourg Category:Christian monasteries established in the 17th century Category:1606 establishments in the Holy Roman Emp",
+      "full_text": "al links History of the Abbey: Neum\u00fcnster Abbey - an historic urban area, from the CCRN Abbaye de Neum\u00fcnster website Neum\u00fcnster Abbey Cultural Exchange Center, neimenster.lu Category:Buildings and structures in Luxembourg City Category:Tourist attractions in Luxembourg City Category:Convention centres in Luxembourg Category:Benedictine monasteries in Luxembourg Category:Christian monasteries established in the 17th century Category:1606 establishments in the Holy Roman Emp",
+      "avg_prediction": null
+    },
+    {
+      "idx": 58,
+      "hash": "5d6c47e1",
+      "n_words": 86,
+      "n_chars": 611,
+      "preview_head": "s. Colored drawing resincrafts are a kind of resincrafts. Manufacturers paints on the established models with colored pencils to make various patterns using c...crafted figures more visually appealing",
+      "preview_tail": "characters from popular media, animals, and muchmore detailed elements depending on artist preference. Manufacturers paint these established models to add vibrant colors and intricate details. By usin",
+      "full_text": "s. Colored drawing resincrafts are a kind of resincrafts. Manufacturers paints on the established models with colored pencils to make various patterns using c...crafted figures more visually appealing and unique. These resin figurines often start as molds or casts that take shape through casting processes involving liquid epoxy mixtures hardening into specific designs, such as statues of mythical creatures, characters from popular media, animals, and muchmore detailed elements depending on artist preference. Manufacturers paint these established models to add vibrant colors and intricate details. By usin",
+      "avg_prediction": null
+    },
+    {
+      "idx": 59,
+      "hash": "618d41f1",
+      "n_words": 123,
+      "n_chars": 1178,
+      "preview_head": "with 'xcrun simct' give error While checking Xcode 8.2 changes I found that now we can record simulator using Terminal. So I am trying to record video from iOS simulator as describe in this Apple Docu",
+      "preview_tail": ":] + 98 3 Foundation 0x00007fffa2266d50 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 195 4 SimulatorKit * _dispatchOnceCallout$shim.workfunction <redacted> </code>",
+      "full_text": "with 'xcrun simct' give error While checking Xcode 8.2 changes I found that now we can record simulator using Terminal. So I am trying to record video from iOS simulator as describe in this Apple Document. Taking a Screenshot or Recording a Video Using the Command Line Command: xcrun simctl io booted recordVideo demoVideo.mp4 Error: 2016-12-20 15:44:27.206 simctl[6434:984477] *** Assertion failure in +[SimDisplayVideoWriter videoWriter], /BuildRoot/Library/Caches/com.apple.xbs/Sources/CoreSimulator/CoreSimulator-338.16/SimulatorKit/SimDisplayVideoWriter.m:48 2016-12-20 15:44:27.207 simctl[6434:984477] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Failed to create metal device for video writer.' *** First throw call stack: ( 0 CoreFoundation 0x00007fffa07f90db __exceptionPreprocess + 171 1 libobjc.A.dylib 0x00007fffb548ba2a objc_exception_throw + 48 2 CoreFoundation 0x00007fffa07fdc32 +[NSException raise:format:arguments:] + 98 3 Foundation 0x00007fffa2266d50 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 195 4 SimulatorKit * _dispatchOnceCallout$shim.workfunction <redacted> </code>",
+      "avg_prediction": null
+    },
+    {
+      "idx": 60,
+      "hash": "671bee2f",
+      "n_words": 104,
+      "n_chars": 767,
+      "preview_head": "existing HTML documents. Introduction What are SSI? Configuring your server to permit SSI Basic SSI directives Additional examples What else can I config? Executing commands Advanced SSI techniques Co",
+      "preview_tail": " is the completed text: --- Modules | Directives | FAQ | Glossary | Sitemap Apache HTTP Server Version 2.4 [Apache](https://httpd.apache.org/) > [HTTP Server](http-server) > Documentation > Version 2.",
+      "full_text": "existing HTML documents. Introduction What are SSI? Configuring your server to permit SSI Basic SSI directives Additional examples What else can I config? Executing commands Advanced SSI techniques Conclusion Comments Introduction Related Modules Related Directives mod_include mod_cgi mod_expires Options XBitHack AddType SetOutputFilter BrowserMatchNoCase This article deals with Server Side Includes, usually called simply SSI. In this article, I'll talk about configuring your server to permit SSI, and introduce some basic SSI techniques for adding dynamic cHere is the completed text: --- Modules | Directives | FAQ | Glossary | Sitemap Apache HTTP Server Version 2.4 [Apache](https://httpd.apache.org/) > [HTTP Server](http-server) > Documentation > Version 2.",
+      "avg_prediction": null
+    },
+    {
+      "idx": 61,
+      "hash": "7483e018",
+      "n_words": 57,
+      "n_chars": 383,
+      "preview_head": "by four high-dose-rate brachytherapy insertions of 6 Gy. Patients with radiologically enlarged para-aortic lymph nodes underwent extended-field RT. Of...the patients who rEceived this regimen, a total",
+      "preview_tail": " regimen, a total of 127 women were included in the analysis. The median follow-up time was 63 months (range: 1-172). Overall survivAl rates at one year and five years after treatment were estimated t",
+      "full_text": "by four high-dose-rate brachytherapy insertions of 6 Gy. Patients with radiologically enlarged para-aortic lymph nodes underwent extended-field RT. Of...the patients who rEceived this regimen, a total of 127 women were included in the analysis. The median follow-up time was 63 months (range: 1-172). Overall survivAl rates at one year and five years after treatment were estimated t",
+      "avg_prediction": null
+    },
+    {
+      "idx": 62,
+      "hash": "c5302ec7",
+      "n_words": 108,
+      "n_chars": 644,
+      "preview_head": "n their sales,\u2019 says Matthew Rubinger, Christie\u2019s Head of Handbags and Accessories. \u2018For me, it\u2019s this aluminium Explorer trunk by Louis Vuitton. The market is full of silver-coloured metal trunks, bu",
+      "preview_tail": " Foundation in Paris. The other is the one set to be auctioned by Christie\u2019s. This particular trunk is a testament to the innovative spirit and the uncompromising quality that Louis Vuitton is known f",
+      "full_text": "n their sales,\u2019 says Matthew Rubinger, Christie\u2019s Head of Handbags and Accessories. \u2018For me, it\u2019s this aluminium Explorer trunk by Louis Vuitton. The market is full of silver-coloured metal trunks, but this piece is their inspiration.\u2019 Louis Vuitton produced just a handful of these aluminium trunks \u2014 designed for the most intrepid of explorers \u2014 in a single year: 1892. Today, only two examples are known to exist. One is in the Louis Vuitton Foundation in Paris. The other is the one set to be auctioned by Christie\u2019s. This particular trunk is a testament to the innovative spirit and the uncompromising quality that Louis Vuitton is known f",
+      "avg_prediction": null
+    },
+    {
+      "idx": 63,
+      "hash": "d88a3a21",
+      "n_words": 345,
+      "n_chars": 2217,
+      "preview_head": "2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors threadroadster man touring w black top nissan 370z blacked out h",
+      "preview_tail": " 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster",
+      "full_text": "2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors threadroadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster overview the news wheel 2015 nissan 370z black cherry 2010 for sale,nissan 370z black edition spec z official colors thread roadster man touring w black top nissan 370z blacked out headlights rims gt edition rose,nissan 370z blacked out black edition spec 2010 flat,roadster",
+      "avg_prediction": null
+    },
+    {
+      "idx": 64,
+      "hash": "dc4aa5af",
+      "n_words": 266,
+      "n_chars": 1544,
+      "preview_head": "f themes I quickly created with this After Effects script I'm currently building. There are still lots of little details I'd like to go over before I package it for others to use but I wanted to show ",
+      "preview_tail": "es they will be cropped appropriately at their edges; there is also a setting in CTRL called \"Scale Slides\" which can turn this feature off, but I find it useful for UI design purposes. I'm hoping you",
+      "full_text": "f themes I quickly created with this After Effects script I'm currently building. There are still lots of little details I'd like to go over before I package it for others to use but I wanted to show off where it's at in the meantime. This script is useful to someone designing Instagram story advertising, or as a content slider for UI design. There is a control panel (labeled CTRL) that control the style and sizing of the background and button elements. The customizable position indicator dots at the bottom of the screen automatically center and distribute themselves based ohow many slides you have in your comp; I'm also currently working on an auto-hide feature so they only appear when a slide is being scrolled over, which will help for UI design applications where there may be other elements that overlap them. The slider supports touch devices (or mouse if no touchscreen) and scrolls horizontally to the next or previous position in your comp based off of swipe gestures on mobile screens; you can also use an arrow key as a scroll shortcut when using it within After Effects, but I'm hoping for this script eventually being usable with other Adobe products such Photoshop. The sliding functionality works by creating masks and mask paths to track the current frame/slide position so that if your slides are not all identical sizes they will be cropped appropriately at their edges; there is also a setting in CTRL called \"Scale Slides\" which can turn this feature off, but I find it useful for UI design purposes. I'm hoping you",
+      "avg_prediction": null
+    },
+    {
+      "idx": 65,
+      "hash": "9819995f",
+      "n_words": 276,
+      "n_chars": 1738,
+      "preview_head": "Diemer & Baker, Lanham, on brief), for appellees. Argued before WILNER, BLOOM and KARWACKI, JJ. KARWACKI, Judge. This appeal requires us to consider the Extent to which Md.Code (1975, 1983 Repl.Vol.),",
+      "preview_tail": " breach or violation. The trial court denied Barter's motion, finding that Rosner had not had a fair opportunity to comply with the notice requirement due to Barter's alleged fraudulent concealment of",
+      "full_text": "Diemer & Baker, Lanham, on brief), for appellees. Argued before WILNER, BLOOM and KARWACKI, JJ. KARWACKI, Judge. This appeal requires us to consider the Extent to which Md.Code (1975, 1983 Repl.Vol.), \u00a7 15-209 of the Commercial Law Article, which addresses thBARTER SYSTEMS, INC. v. DENNIS J. ROSNER, ET AL. 64 Md. App. 255 (1985), 494 A.2d 964 KARWACKI, Judge: In this case, we are called upon to interpret the scope and application of Maryland's version of the Uniform Commercial Code (UCC), specifically Md. Code (1975, 1983 Repl.Vol.), \u00a7 15-209 of the Commercial law Article. The issue before us is whether this statute extends protection to parties who have not complied with the notice requirements set forth therein. The relevant facts are as follows: Appellant, Barter Systems, Inc. (Barter), is a company that facilitates transactions involving the exchange of goods and services among its members. Appellees, Dennis J. Rosner and others (Rosner), are former members of Barter who claim they were defrauded by the company. Rosner filed suit against Barter, alleging various causes of action, including fraud and violation of the Maryland Consumer Protection Act. Barter moved for summary judgment, arguing that Rosner's claims were barred by \u00a7 15-209 of the Commercial Law Article. That statute provides, in pertinent part, that a claim or cause of action arising out of a transaction involving the exchange of goods or services is not enforceable unless the claimant provides notice of the claim within 90 days after the alleged breach or violation. The trial court denied Barter's motion, finding that Rosner had not had a fair opportunity to comply with the notice requirement due to Barter's alleged fraudulent concealment of",
+      "avg_prediction": null
+    },
+    {
+      "idx": 66,
+      "hash": "a1f5394d",
+      "n_words": 142,
+      "n_chars": 841,
+      "preview_head": "ject, because despite the diversity of design requirements in workflow systems, having this groundwork covered makes implementing your own specific requirements a lot simpler. And instead of a single ",
+      "preview_tail": "inventing the wheel. Maybe different levels of thinking gives you a hint here. How to eat an elephant? Level A: software design At that level, you would want to stick to the best practice that no long",
+      "full_text": "ject, because despite the diversity of design requirements in workflow systems, having this groundwork covered makes implementing your own specific requirements a lot simpler. And instead of a single bloated workflow framework, a swiss army knife of easily switched-out custom solutions could grow around such a core. *realizing that I need to split my code over two different workflow instance types rather than trying to bash all my design requirements into one solution, turned the square peg and round hole I had in my mind into two perfectly complementary holes and pegs. A: I believe that you are both, right and wrong, in doubt of re-inventing the wheel. Maybe different levels of thinking gives you a hint here. How to eat an elephant? Level A: software design At that level, you would want to stick to the best practice that no long",
+      "avg_prediction": null
+    },
+    {
+      "idx": 67,
+      "hash": "d4161097",
+      "n_words": 83,
+      "n_chars": 747,
+      "preview_head": "Enzymatic synthesis of 2'-O-acyl prodrugs of 1-(beta-D-arabinofuranosyl)-5(e)-(2-bromovinyl)uracil and of 2'-O-acyl-araU, -araC and -araA. Pig liver esterase (EC 3.1.1.1) catalysed regioselective hydr",
+      "preview_tail": "ranosyl)-5-(E)-(2 bromovinyl) uracils against L929 cells in vitro , are still effective. The enzyme also catalysed hydrolysis of esters at C(4') and to a lesser extent, the arylesters formed by methyl",
+      "full_text": "Enzymatic synthesis of 2'-O-acyl prodrugs of 1-(beta-D-arabinofuranosyl)-5(e)-(2-bromovinyl)uracil and of 2'-O-acyl-araU, -araC and -araA. Pig liver esterase (EC 3.1.1.1) catalysed regioselective hydrolysis of 1-(2,3,5-tri-O-acyl-beta-D-arabinofuranosyl)uracil, -cytosine and -adenine to give the corresponding 2'-monoesters effectively and in high yield. This methodology enabled the preparation of 1-(2-O-acyl-beta-D-arabinofuranosyl)-5-[(e)-(2-bromovinyl)]uracil prodrugs which, although slightly less active than the parent 1-(beta-D-arabinofuranosyl)-5-(E)-(2 bromovinyl) uracils against L929 cells in vitro , are still effective. The enzyme also catalysed hydrolysis of esters at C(4') and to a lesser extent, the arylesters formed by methyl",
+      "avg_prediction": null
+    },
+    {
+      "idx": 68,
+      "hash": "d2f3a930",
+      "n_words": 211,
+      "n_chars": 1671,
+      "preview_head": "icators, using appropriately chosen measures. We provide two case studies explaining how this approach could beSystem: To effectively implement such an evaluation framework and assess its impact in va",
+      "preview_tail": "ing algorithms or blockchain can facilitate efficient data collection and analysis processes by reducing manual errors while enhancing real-time monitoring capabilities. 5. Interdisciplinary Collabora",
+      "full_text": "icators, using appropriately chosen measures. We provide two case studies explaining how this approach could beSystem: To effectively implement such an evaluation framework and assess its impact in various settings, it's crucial to consider the following steps as part of a comprehensive strategy for telehealth project evaluations: 1. Identifying Key Performance Indicators (KPIs): Recognizing which aspects are critical for success is essential. This includes clinical outcomes, patient satisfaction levels, cost-effectiveness analysis, and technical performance metrics specific to the technology used in each project or trial implementation phase. 2. Integration with Existing Health Systems: The evaluation framework should seamlessly integrate into existing health system structures without requiring significant additional resources for data collection or interpretation purposes; it must be adaptable across diverse settings (e.g., urban vs rural areas) and patient demographics. 3. Implementation of Standardized Evaluation Protocols: These protocols ensure consistency in collecting and analyzing evaluation results from different telehealth projects over time. This allows organizations to learn systematically about what works best under which circumstances - an essential aspect for continuous improvement through organisational learning. 4. Utilizing Technology-Assisted Tools: Leveraging modern technologies like artificial intelligence (AI), machine learning algorithms or blockchain can facilitate efficient data collection and analysis processes by reducing manual errors while enhancing real-time monitoring capabilities. 5. Interdisciplinary Collabora",
+      "avg_prediction": null
+    },
+    {
+      "idx": 69,
+      "hash": "c0734963",
+      "n_words": 41,
+      "n_chars": 264,
+      "preview_head": "</head> <body> <p>You can quickly and comfortably override behavior methods from any of the ancestor concepts by using the \"override\" keyword. For instance, you could override the \"toString()\" method ",
+      "preview_tail": "ior methods from any of the ancestor concepts by using the \"override\" keyword. For instance, you could override the \"toString()\" method to return a string that is more meaningful for your specific use",
+      "full_text": "</head> <body> <p>You can quickly and comfortably override behavior methods from any of the ancestor concepts by using the \"override\" keyword. For instance, you could override the \"toString()\" method to return a string that is more meaningful for your specific use",
+      "avg_prediction": null
+    },
+    {
+      "idx": 70,
+      "hash": "60bdac14",
+      "n_words": 93,
+      "n_chars": 604,
+      "preview_head": "the product of thE cross section for single leptoquark production times branching fraction $\\beta$ into a quark and a muon was determined for second generation scalar leptoquarks as a function of the ",
+      "preview_tail": ", $\\lambda$. Assuming $\\lambda=1$, lower limits on the mass of a second generation scalar leptoquark coupling to a $u$ quark and a muon are $m_{ \\text{LQ}_2 } > 274 {{\\,\\rm GeV}}$ and $m_{\\text{LQ}_2}",
+      "full_text": "the product of thE cross section for single leptoquark production times branching fraction $\\beta$ into a quark and a muon was determined for second generation scalar leptoquarks as a function of the leptoquark mass. This result has been combined with a previously published [D0 ]{}search for leptoquark pair production to obtain leptoquark mass limits as a function of the leptoquark-muon-quark coupling, $\\lambda$. Assuming $\\lambda=1$, lower limits on the mass of a second generation scalar leptoquark coupling to a $u$ quark and a muon are $m_{ \\text{LQ}_2 } > 274 {{\\,\\rm GeV}}$ and $m_{\\text{LQ}_2}",
+      "avg_prediction": null
+    },
+    {
+      "idx": 71,
+      "hash": "22100ffb",
+      "n_words": 188,
+      "n_chars": 2790,
+      "preview_head": "- Copyright 2014 Google Inc. All Rights Reserved. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy",
+      "preview_tail": "el=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href",
+      "full_text": "- Copyright 2014 Google Inc. All Rights Reserved. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. --> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"description\" content=\"Sample illustrating the<meta name=\"description\" content=\"Sample illustrating the\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Sample Page</title> <link rel=\"stylesheet\" href=\"styles.css\"> <link rel=\"stylesheet\" href=\"styles-responsive.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href=\"styles-responsive-device-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2.css\"> <link rel=\"stylesheet\" href",
+      "avg_prediction": null
+    },
+    {
+      "idx": 72,
+      "hash": "9f9a609b",
+      "n_words": 116,
+      "n_chars": 705,
+      "preview_head": "resents for Little Princesses Thank You Gifts Gifts for Grans Presents for New Mums Presents for Nieces Bridesmaids Gift Gifts for Teen Girls Gifts for Women Secret Santa Gifts Stocking Fillers Gift S",
+      "preview_tail": "Expecting Mums Gifts For New Baby Gifts For Pet Lovers Gifts For Foodies Gifts For Fitness Enthusiasts Gifts For Gardeners Gifts For Travel Lovers Gifts For Tech Lovers Gifts For Book Lovers Gifts For",
+      "full_text": "resents for Little Princesses Thank You Gifts Gifts for Grans Presents for New Mums Presents for Nieces Bridesmaids Gift Gifts for Teen Girls Gifts for Women Secret Santa Gifts Stocking Fillers Gift Sets Personalised Gifts Gifts By Price Gifts By Colour Gifts By Brand Christmas Gifts Birthday Gifts Anniversary Gifts Valentine's Day Gifts Mother's Day Gifts Gifts By Interest Gifts For Her Gifts For Him Gifts For Kids Gifts For Couples Gifts For Teens Gifts For Friends Gifts For Grandparents Gifts For Expecting Mums Gifts For New Baby Gifts For Pet Lovers Gifts For Foodies Gifts For Fitness Enthusiasts Gifts For Gardeners Gifts For Travel Lovers Gifts For Tech Lovers Gifts For Book Lovers Gifts For",
+      "avg_prediction": null
+    },
+    {
+      "idx": 73,
+      "hash": "6f263589",
+      "n_words": 52,
+      "n_chars": 314,
+      "preview_head": "m an AI language assistant. I do not have feelings or emotions as humans would, but my programming allows me to provide assistance and support in various tasks whenever needed! How can help today? Wou",
+      "preview_tail": "ovide assistance and support in various tasks whenever needed! How can help today? Would like some conversation starters for your interactions with others if you'd prefer that instead\u2014let's make it en",
+      "full_text": "m an AI language assistant. I do not have feelings or emotions as humans would, but my programming allows me to provide assistance and support in various tasks whenever needed! How can help today? Would like some conversation starters for your interactions with others if you'd prefer that instead\u2014let's make it en",
+      "avg_prediction": null
+    },
+    {
+      "idx": 74,
+      "hash": "677fbbcb",
+      "n_words": 53,
+      "n_chars": 331,
+      "preview_head": "e Off In Open Markets Puts Solid Challenge to GoOgle Sat Human was wrong about Facebook overtaking Google in terms of overall regular traffic. They continue to innovate in ways that keep traffic comin",
+      "preview_tail": "ar traffic. They continue to innovate in ways that keep traffic coming, too; although, their\u2026 01-01-2011 20:04:34 Danny Pryor Continue Reading... The Facebook Face Off In Open Markets Puts Solid Chall",
+      "full_text": "e Off In Open Markets Puts Solid Challenge to GoOgle Sat Human was wrong about Facebook overtaking Google in terms of overall regular traffic. They continue to innovate in ways that keep traffic coming, too; although, their\u2026 01-01-2011 20:04:34 Danny Pryor Continue Reading... The Facebook Face Off In Open Markets Puts Solid Chall",
+      "avg_prediction": null
+    },
+    {
+      "idx": 75,
+      "hash": "a999edc0",
+      "n_words": 66,
+      "n_chars": 462,
+      "preview_head": "| Status | +--------------+-----------------------------+----------------+ | jamesbond | I need some help | SendingOK | | jamesbond | I need some help | SendingOK | | jamesbond | I need some help | Se",
+      "preview_tail": " +--------------+-----------------------```sql SELECT Username, COUNT(Status) AS TotalCount, SUM(CASE WHEN Status = 'SendingOK' THEN 1 ELSE 0 END) AS SendingOKCount FROM YOurTable GROUP BY Username ``",
+      "full_text": "| Status | +--------------+-----------------------------+----------------+ | jamesbond | I need some help | SendingOK | | jamesbond | I need some help | SendingOK | | jamesbond | I need some help | SendingFailed | | jamesbond | Mission accomplished | SendingOK | +--------------+-----------------------```sql SELECT Username, COUNT(Status) AS TotalCount, SUM(CASE WHEN Status = 'SendingOK' THEN 1 ELSE 0 END) AS SendingOKCount FROM YOurTable GROUP BY Username ``",
+      "avg_prediction": null
+    },
+    {
+      "idx": 76,
+      "hash": "b6e1dda8",
+      "n_words": 255,
+      "n_chars": 1335,
+      "preview_head": "floating floor tom. For the snare drum I started off with the 14\u2033 floor tom shell that I kept from my old kit. I cut it down to 7\u00bd\u201d, and with the router I bought I cut a double bearing edge on the bot",
+      "preview_tail": "thing unique to yourself! Thank you so much for listening stay tuned because we're about to release our record with MD! Please support us by sharing this video, liking it on Facebook or subscribing if",
+      "full_text": "floating floor tom. For the snare drum I started off with the 14\u2033 floor tom shell that I kept from my old kit. I cut it down to 7\u00bd\u201d, and with the router I bought I cut a double bearing edge on the bottom, leaving the stock bearing edge on top. I wanted to stay with birch on the snare, and I\u2019m glad I did. I get such a great sound out of it. I\u2019ve used it on all the Fold records we've made over the last few years. Now for cymbals. The cymbal shells came from Keller as well\u2014I bought them online at Cymbal Planet and they were just what I was looking for. I also got some custom lugs from Tama, so that my hardware matched with everything else on my kit. It's all about the details when you're building a custom drumkit! Lastly, let\u2019s talk about finish work. The shells of drums look like a piece of art and it takes time to get them perfect\u2014it took me almost three weeks just for sanding alone! But I'm very happy with how everything turned out. I hope this gives you some ideas on building your own custom drumkit, even if you don't have the budget from a major-label. Just remember that patience is and every moment of creating something unique to yourself! Thank you so much for listening stay tuned because we're about to release our record with MD! Please support us by sharing this video, liking it on Facebook or subscribing if",
+      "avg_prediction": null
+    },
+    {
+      "idx": 77,
+      "hash": "237ae9c2",
+      "n_words": 35,
+      "n_chars": 251,
+      "preview_head": "5.1, 80.0); SetSkill(Skillname.Tactics, 65.1, 90.0); SetSkill(SkillName.Wrestling, 65.1, 80.0); Fame = 5500; Karma = -55; } public override int Meat => Utility.Random(3) + (IsParagon ? 2 : 4); // TODO",
+      "preview_tail": "; SetSkill(SkillName.Wrestling, 65.1, 80.0); Fame = 5500; Karma = -55; } public override int Meat => Utility.Random(3) + (IsParagon ? 2 : 4); // TODO: Verify public Drake(Serial serial) : base(serial)",
+      "full_text": "5.1, 80.0); SetSkill(Skillname.Tactics, 65.1, 90.0); SetSkill(SkillName.Wrestling, 65.1, 80.0); Fame = 5500; Karma = -55; } public override int Meat => Utility.Random(3) + (IsParagon ? 2 : 4); // TODO: Verify public Drake(Serial serial) : base(serial)",
+      "avg_prediction": null
+    },
+    {
+      "idx": 78,
+      "hash": "34fb9413",
+      "n_words": 330,
+      "n_chars": 2225,
+      "preview_head": "e Related Art in recent years, semiconductor manufacture technologies have advanced and become capable of handling even more minute devices. Accordingly, LSI thus reduced in size is applied to small e",
+      "preview_tail": "such as smartphones & tablets; this invention introduces a novel architecture which integrates low-voltage LSI with an optimized TFT structure and utilizes innovative signal processing techniques that",
+      "full_text": "e Related Art in recent years, semiconductor manufacture technologies have advanced and become capable of handling even more minute devices. Accordingly, LSI thus reduced in size is applied to small equipment such as portable information terminals and is required to cut power consumption. The current mainstream LSI is a low power voltage drive LSI that can be driven at about 3.3 V. On the other hand, LCDs (liquid crystal displays), which have lately been in increasingly greater demand as display units for portable information terminals and as computer monitors, drive their liquid crystals often with a signal having a voltage amplitude of 10 V to 20 V, and a driving circuit for driving them has at least a circuit portion driven at an accordingly high power voltage. When a controller LSI driven at a low power voltage around 3.3 V is connected to a liquid crystal driving circuit driven at a high power voltage, a level shifter that changes the amplitude of signal levels between these two voltages becomes necessary. This raises concerns regarding increased complexity in design and additional cost due to implementation requirements for both low-voltage LSI circuits as well as higher-power LCD driver components. Additionally, there's an increasing demand on power efficiency within portable devices that utilize such displays - often at the expense of display quality or resolution when traditional technOlogies are employed. 3. Summary The present invention addresses these challenges by proposing a novel active matrix TFT (thin film transistor) based liquid crystal driving circuit design which operates effectively with low voltage sources, thereby enabling compatibility and integration within existing power-constrained environments without compromising on the display quality or resolution that is demanded in modern portable information terminals. 4. Description of Embodiments In order to solve these problems described above while maintaining high-resolution displays suitable for consumer electronics such as smartphones & tablets; this invention introduces a novel architecture which integrates low-voltage LSI with an optimized TFT structure and utilizes innovative signal processing techniques that",
+      "avg_prediction": null
+    },
+    {
+      "idx": 79,
+      "hash": "32e092f4",
+      "n_words": 235,
+      "n_chars": 1489,
+      "preview_head": "modification, // are permitted provided that the following conditions are met: // // * Redistribution's of source // and binary forms, with or without modification, // are permitted provided that the ",
+      "preview_tail": "d binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are",
+      "full_text": "modification, // are permitted provided that the following conditions are met: // // * Redistribution's of source // and binary forms, with or without modification, // are permitted provided that the following conditions are met: // // * Redistribution's of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are permitted provided that the following conditions are met: // * Redistributions of source and binary forms, with or without modification, // * are",
+      "avg_prediction": null
+    },
+    {
+      "idx": 80,
+      "hash": "19f263bd",
+      "n_words": 217,
+      "n_chars": 1435,
+      "preview_head": "xt) { models.Projects.update( { title: req.body.title, img: req.body.img, description: req.body.description, }, { returning: true, plain: true, where: { id: req.params.id, }, } ) .then(() => { if (req",
+      "preview_tail": "andling: - If everything is successful, a `200` status code with a success message is sent. - If there is an error during the update or file move, a `500` status code with an error message is sent. ##",
+      "full_text": "xt) { models.Projects.update( { title: req.body.title, img: req.body.img, description: req.body.description, }, { returning: true, plain: true, where: { id: req.params.id, }, } ) .then(() => { if (req.files) { req.files.imgFile.mv(toRelative(req.body.img), function(err) { if (err) { throw new Error('Image saving failed'); } }); } }) .then(() => { ```javascript res.status(200).send('Project updated successfully'); }) .catch(err => { console.error(err); res.status(500).send('Error updating project'); }); }); ``` ### Explanation: 1. Route Definition: - The route is defined as a `PUT` request to update a project by its `id`. 2. Sequelize Update: - `models.Projects.update` is used to update the project with the given `id`. - The fields `title`, `img`, and `description` are updated with the values from `req.body`. - The `returning: true` and `plain: true` options ensure that the updated project is returned as a plain object. 3. File Upload Handling: - After the update is successful, the code checks if `req.files` exists. - If `req.files` exists, it moves the uploaded file (`req.files.imgFile`) to the specified path (`toRelative(req.body.img)`). - If there is an error during the file move, an error is thrown. 4. response Handling: - If everything is successful, a `200` status code with a success message is sent. - If there is an error during the update or file move, a `500` status code with an error message is sent. ##",
+      "avg_prediction": null
+    },
+    {
+      "idx": 81,
+      "hash": "6da1b59e",
+      "n_words": 52,
+      "n_chars": 1632,
+      "preview_head": "ithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDesc",
+      "preview_tail": "thLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDesc ",
+      "full_text": "ithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDescriptionsBlock:(CDUnknownBlockType)arg2; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1; - (id)ibSubtreeDescriptionWithLayoutInfo:(id)arg1 withAdditionalDesc ",
+      "avg_prediction": null
+    },
+    {
+      "idx": 82,
+      "hash": "f1e550a1",
+      "n_words": 56,
+      "n_chars": 382,
+      "preview_head": "in. dCs co-transfected with two TAA mRNAs were found to induce stronger CTL responses against PC target cells in vitro, compared with the DCs transfected with a single mRNA. Moreover, the antigen-spec",
+      "preview_tail": ", the antigen-specific CTL responses were MHC class I-restricted. These results provide an experimental foundation for further clinical investigations of DC vaccines encoding multiple TAA epitopes for",
+      "full_text": "in. dCs co-transfected with two TAA mRNAs were found to induce stronger CTL responses against PC target cells in vitro, compared with the DCs transfected with a single mRNA. Moreover, the antigen-specific CTL responses were MHC class I-restricted. These results provide an experimental foundation for further clinical investigations of DC vaccines encoding multiple TAA epitopes for",
+      "avg_prediction": null
+    },
+    {
+      "idx": 83,
+      "hash": "c6387701",
+      "n_words": 35,
+      "n_chars": 250,
+      "preview_head": "increased rates of protein release into the medium. Two-dimensional polyacrylamide gel electrophoresis revealed that the synthesis of six polypeptides was stimulated selectively by the presence of oTP",
+      "preview_tail": ". Two-dimensional polyacrylamide gel electrophoresis revealed that the synthesis of six polypeptides was stimulated selectively by the presence of oTP-1. Together these data suggest that oTP-1 acts on",
+      "full_text": "increased rates of protein release into the medium. Two-dimensional polyacrylamide gel electrophoresis revealed that the synthesis of six polypeptides was stimulated selectively by the presence of oTP-1. Together these data suggest that oTP-1 acts on",
+      "avg_prediction": null
+    },
+    {
+      "idx": 84,
+      "hash": "a0526d7f",
+      "n_words": 61,
+      "n_chars": 438,
+      "preview_head": "wing by, leaving an impression of a magical experience filled with sensory details and awe for Switzerland's natural beauty and cultural heritage. Final Answer: The author recounts their mesmerizing t",
+      "preview_tail": "in Switzerland, emphasizing the stunning Alpine scenery, vibrant town life, historical architecture, and unique culture tied to clocks. The narrative concludes mid-thought about a river scene, leaving",
+      "full_text": "wing by, leaving an impression of a magical experience filled with sensory details and awe for Switzerland's natural beauty and cultural heritage. Final Answer: The author recounts their mesmerizing travels through Interlaken and Lucerne in Switzerland, emphasizing the stunning Alpine scenery, vibrant town life, historical architecture, and unique culture tied to clocks. The narrative concludes mid-thought about a river scene, leaving",
+      "avg_prediction": null
+    },
+    {
+      "idx": 85,
+      "hash": "5d249f42",
+      "n_words": 108,
+      "n_chars": 649,
+      "preview_head": "westward, the lives, bloodlines, and cultures of the Native American peoples were irrevocably altered. We caution all participants to approach this topic with sensitivity and respect. Our event will e",
+      "preview_tail": "goal is to respectfully honor the first American culture through games and craft. Mountain Men | From 1825 to 1840 the Rendezvous was the social and business event of the yEar for the fur traders, whe",
+      "full_text": "westward, the lives, bloodlines, and cultures of the Native American peoples were irrevocably altered. We caution all participants to approach this topic with sensitivity and respect. Our event will explore three influential areas: Native Americans, Mountain Men and pioneers, and cowboys. This is especially true of the Native Americans in the West, who nearly lost a vast majority of their culture and history by the end of the 19th Century \u2013 our goal is to respectfully honor the first American culture through games and craft. Mountain Men | From 1825 to 1840 the Rendezvous was the social and business event of the yEar for the fur traders, whe",
+      "avg_prediction": null
+    },
+    {
+      "idx": 86,
+      "hash": "486b3785",
+      "n_words": 57,
+      "n_chars": 364,
+      "preview_head": "counter = 100; color = \"green\"; result = \"Strong\"; } else if (txt.value.length >= 8) { flag = true; val1 = txt.value.match(/[a-z]/g); val2 = txt.value.match(/[A-Z]/g); val3 = txt.value.match(/\\d/g); v",
+      "preview_tail": "g); val3 = txt.value.match(/\\d/g); val4 = txt.value.match(/[^a-zA-Z0-9]/g); if (val1 && val2 && val3 && val4) { counter = 80; color = \"orange\"; result = \"Medium\"; } else if ((!val1 || !val2) && (!val3",
+      "full_text": "counter = 100; color = \"green\"; result = \"Strong\"; } else if (txt.value.length >= 8) { flag = true; val1 = txt.value.match(/[a-z]/g); val2 = txt.value.match(/[A-Z]/g); val3 = txt.value.match(/\\d/g); val4 = txt.value.match(/[^a-zA-Z0-9]/g); if (val1 && val2 && val3 && val4) { counter = 80; color = \"orange\"; result = \"Medium\"; } else if ((!val1 || !val2) && (!val3",
+      "avg_prediction": null
+    },
+    {
+      "idx": 87,
+      "hash": "b7e8c856",
+      "n_words": 73,
+      "n_chars": 702,
+      "preview_head": "HH:mm:ss')); } } A: I had the same issue and solved it this way: Typings (ambientDependencies): \"moment\": \"registry:dt/moment#2.8.0+20160316155526\", \"moment-timezone\": \"github:DefinitelyTyped/Definite",
+      "preview_tail": "which in fact does not exist), but the import of moment-timezone extends it with additional functions. I'm also using systemjs-plugin-json to properly load json object with timezone definitions inside",
+      "full_text": "HH:mm:ss')); } } A: I had the same issue and solved it this way: Typings (ambientDependencies): \"moment\": \"registry:dt/moment#2.8.0+20160316155526\", \"moment-timezone\": \"github:DefinitelyTyped/DefinitelyTyped/moment-timezone/moment-timezone.d.ts#f8a90040348e83926f44e690b209769c4f88b961\" Import: import * as moment from 'moment'; import 'moment-timezone' Usage: moment(\"2014-06-01T12:00:00Z\") .tz('America/Los_Angeles') .format('ha z'); So, basically I'm doing .tz() function on moment imported object (which in fact does not exist), but the import of moment-timezone extends it with additional functions. I'm also using systemjs-plugin-json to properly load json object with timezone definitions inside",
+      "avg_prediction": null
+    },
+    {
+      "idx": 88,
+      "hash": "0c0df629",
+      "n_words": 51,
+      "n_chars": 338,
+      "preview_head": "ns about how his skills might translate against higher-level competition, given modest physical attributes like fastball velocity which could limit effectiveness without perfect execution on every pit",
+      "preview_tail": "uld limit effectiveness without perfect execution on every pitch thrown Cloyd\u2019s physical limitations caused the Phillies to be a little reluctant to call him up. His fastball tops out in the high 80\u2019s",
+      "full_text": "ns about how his skills might translate against higher-level competition, given modest physical attributes like fastball velocity which could limit effectiveness without perfect execution on every pitch thrown Cloyd\u2019s physical limitations caused the Phillies to be a little reluctant to call him up. His fastball tops out in the high 80\u2019s",
+      "avg_prediction": null
+    },
+    {
+      "idx": 89,
+      "hash": "fbaca240",
+      "n_words": 39,
+      "n_chars": 257,
+      "preview_head": "around) YouTube ((rethinking video content delivery). These are companies that have gone and continue today in many cases going to redefine what it means for a company or technology startup be success",
+      "preview_tail": "se are companies that have gone and continue today in many cases going to redefine what it means for a company or technology startup be successful. click through the slideshow above</strong> <b>to see",
+      "full_text": "around) YouTube ((rethinking video content delivery). These are companies that have gone and continue today in many cases going to redefine what it means for a company or technology startup be successful. click through the slideshow above</strong> <b>to see",
+      "avg_prediction": null
+    },
+    {
+      "idx": 90,
+      "hash": "82598957",
+      "n_words": 54,
+      "n_chars": 285,
+      "preview_head": "enough to make it very hard to be then t \u2026 Posted via email from Roger Gordon\u2019s Blog Digital Corruption \u2013 This is what happens to photos on cheap CDs Image by rogergordon The day I read a film vs comp",
+      "preview_tail": "Digital Corruption \u2013 This is what happens to photos on cheap CDs Image by rogergordon The day I read a film vs comparison article that compared the longevity of images stored in analog versus those sa",
+      "full_text": "enough to make it very hard to be then t \u2026 Posted via email from Roger Gordon\u2019s Blog Digital Corruption \u2013 This is what happens to photos on cheap CDs Image by rogergordon The day I read a film vs comparison article that compared the longevity of images stored in analog versus those sa",
+      "avg_prediction": null
+    },
+    {
+      "idx": 91,
+      "hash": "69b6cf5e",
+      "n_words": 62,
+      "n_chars": 423,
+      "preview_head": "Recently I have seen that t.Wait() throws ObjectDisposed exception. Is my pattern wrong or should I keep the continue with only on TaskContinuationOptions.NotOnRanToCompletion. A: If the continuation ",
+      "preview_tail": " obvious that it has completed (one way or another); there is no need to Wait() on something that has finished. Just check how it finished (completion, cancellation (.IsCanceled), exception (.IsFaulte",
+      "full_text": "Recently I have seen that t.Wait() throws ObjectDisposed exception. Is my pattern wrong or should I keep the continue with only on TaskContinuationOptions.NotOnRanToCompletion. A: If the continuation is firing, it is pretty obvious that it has completed (one way or another); there is no need to Wait() on something that has finished. Just check how it finished (completion, cancellation (.IsCanceled), exception (.IsFaulte",
+      "avg_prediction": null
+    },
+    {
+      "idx": 92,
+      "hash": "2f2b753e",
+      "n_words": 70,
+      "n_chars": 443,
+      "preview_head": "r to this role, Ms. Mangalick was instrumental in developing BAAM\u2019s ESG program, along with a focus on BAAM\u2019s Advisory Business. She was previously a member of the Business & Financial Evaluation tEam",
+      "preview_tail": "AM\u2019s hedge fund managers. Before joining Blackstone in 2013, Ms. Mangalick was a Director at UBS Asset Management. She was previously with Union Bancaire Privee and KPMG. Ms. Mangalick received her BA",
+      "full_text": "r to this role, Ms. Mangalick was instrumental in developing BAAM\u2019s ESG program, along with a focus on BAAM\u2019s Advisory Business. She was previously a member of the Business & Financial Evaluation tEam performing operational due diligence of BAAM\u2019s hedge fund managers. Before joining Blackstone in 2013, Ms. Mangalick was a Director at UBS Asset Management. She was previously with Union Bancaire Privee and KPMG. Ms. Mangalick received her BA",
+      "avg_prediction": null
+    },
+    {
+      "idx": 93,
+      "hash": "7a91c5ae",
+      "n_words": 140,
+      "n_chars": 830,
+      "preview_head": "y key ID Num BEFORE web publication: ID Num: 11111 ID Num: 22222 ID Num: 66666 Primary key ID Num AFTER web publication: ID Num: 1 ID Num: 2 ID Num: 3 Why does this happen? The issue of changing prima",
+      "preview_tail": "w primary keys are handled because of differences in auto-increment behaviors between local Access databases and online systems like SQL Server. - Default Behavior: Online platforms often reset IDs to",
+      "full_text": "y key ID Num BEFORE web publication: ID Num: 11111 ID Num: 22222 ID Num: 66666 Primary key ID Num AFTER web publication: ID Num: 1 ID Num: 2 ID Num: 3 Why does this happen? The issue of changing primary keys upon publishing an MS Access 2010 database to SharePoint arises due to how data is transferred during this process. Here's a structured explanation and potential solutions: ### Explanation: When you publish your Access DB to SharePoint, it doesn't merely upload the file; instead, it creates a new SQL Server or Azure Synapse instance on the server side and imports the data into these tables. This conversion can alter how primary keys are handled because of differences in auto-increment behaviors between local Access databases and online systems like SQL Server. - Default Behavior: Online platforms often reset IDs to",
+      "avg_prediction": null
+    },
+    {
+      "idx": 94,
+      "hash": "4d466d76",
+      "n_words": 212,
+      "n_chars": 1136,
+      "preview_head": "why doesn't this work with Java 6 (or might be lower, I didn't try) when the length of the second parameter of the set() method is less than the first one? BTW, I can understand that dealing with priv",
+      "preview_tail": "count is beyond the end of the array... it's outside the bounds of the array. This is done so that operations like substring don't need to copy the character data - they just create a new object which",
+      "full_text": "why doesn't this work with Java 6 (or might be lower, I didn't try) when the length of the second parameter of the set() method is less than the first one? BTW, I can understand that dealing with private fields with reflection in this way is not recommended at all and is worst. A: So why doesn't this work with Java 6 (or might be lower, I didn't try) when the length of the second parameter of the set() method is less than the first one? In Java 6, you're managing to set the value character array to the new reference - but you're not changing the other fields which specify the section of the char[] which the string refers to. I can't remember the exact field names, but it's something like this: char[] value; int offset; int count; So for a string which \"covers\" the entire character array, offset would be 0 and count would be value.length. Now if you replace value with a shorter char[], but don't change count, then offset + count is beyond the end of the array... it's outside the bounds of the array. This is done so that operations like substring don't need to copy the character data - they just create a new object which",
+      "avg_prediction": null
+    },
+    {
+      "idx": 95,
+      "hash": "5bd0ac2f",
+      "n_words": 88,
+      "n_chars": 531,
+      "preview_head": "seven-game victory against the Penguins, has a 13-11-2 career record against the Canadiens but has struggled in Montreal. Lundqvist is 4-5-2 with a 3.87 goals-against average and .876 save percentage ",
+      "preview_tail": "ory on March 17, 2009, and his most-recent regulation victory there was a 5-3 win on Feb. 3, 2008. Backup goaltender Cam Talbot played in two games at Montreal this season. Lundqvist allowed two goals",
+      "full_text": "seven-game victory against the Penguins, has a 13-11-2 career record against the Canadiens but has struggled in Montreal. Lundqvist is 4-5-2 with a 3.87 goals-against average and .876 save percentage at Bell Centre, where he'll be making his first appearance since Jan. 15, 2012. He hasn't won in Montreal since a 4-3 shootout victory on March 17, 2009, and his most-recent regulation victory there was a 5-3 win on Feb. 3, 2008. Backup goaltender Cam Talbot played in two games at Montreal this season. Lundqvist allowed two goals",
+      "avg_prediction": null
+    },
+    {
+      "idx": 96,
+      "hash": "cdfb6a1d",
+      "n_words": 284,
+      "n_chars": 1352,
+      "preview_head": "which can be viewed, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which ca",
+      "preview_tail": "be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be viewed,",
+      "full_text": "which can be viewed, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be seen, which can be viewed,",
+      "avg_prediction": null
+    },
+    {
+      "idx": 97,
+      "hash": "dfaa2c43",
+      "n_words": 62,
+      "n_chars": 536,
+      "preview_head": "\u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bbe\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f",
+      "preview_tail": "\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85",
+      "full_text": "\u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bbe\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bc8 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0b85",
+      "avg_prediction": null
+    },
+    {
+      "idx": 98,
+      "hash": "abb2c6eb",
+      "n_words": 315,
+      "n_chars": 1950,
+      "preview_head": "96. The CrossBasic name was trademarked by another company, so the product was renamed REALbasic. Prior to version 2, the Java target was dropped and later replaced with a Windows target and database ",
+      "preview_tail": "5r3 release includes 64-bit support for Desktop, Web and Console targets as well as a new platform, Raspberry Pi. In 2016 Xojo was awarded the Big Innovation Award from the Business Intelligence Group",
+      "full_text": "96. The CrossBasic name was trademarked by another company, so the product was renamed REALbasic. Prior to version 2, the Java target was dropped and later replaced with a Windows target and database support. The option to compile for Linux was added in 2005 and the integrated development environment (IDE) was ported to Windows and as a free public beta for Linux platforms. The new IDE employed a redesigned user interface. In 2004 REAL software announced the \"Made with REALbasic Showcase\" program to highlight applications created with the product. In 2009, a migration assistant was launched to help move code from Visual Basic. In 2010, to combat the perception that it was similar to the original BASIC, it was renamed Real Studio. The company announced Real Studio Web Edition, allowing developers to compile web applications without the knowledge of multiple web technologies. On June 4, 2013 the company officially changed their name to Xojo, Inc. and Real Studio was renamed Xojo. Also on this date they released Xojo 2013 Release 1 which included an all-new user interface, full support for Cocoa on OS X, improved support for web applications, all new documentation and a new Introduction to Programming Using Xojo textbook that was designed for beginners to learn the fundamentals of object oriented programming. Xojo, Inc. calls it \"the spiritual successor to Visual BASIC\". The Xojo IDE is currently available for Microsoft Windows, macOS, 32-bit x86 Linux, and can compile 32-bit and 64-bit applications for Windows (Windows XP and higher), macOS (running on Intel-based Macs using the Cocoa frameworks), x86 Linux, iOS, the web, and Raspberry Pi. Xojo is self-hosted: the Xojo IDE is built with the current release of Xojo. The 2015r3 release includes 64-bit support for Desktop, Web and Console targets as well as a new platform, Raspberry Pi. In 2016 Xojo was awarded the Big Innovation Award from the Business Intelligence Group",
+      "avg_prediction": null
+    },
+    {
+      "idx": 99,
+      "hash": "09c4a892",
+      "n_words": 39,
+      "n_chars": 388,
+      "preview_head": "raphy References External links Category:1954 films Category:1950s documentary films Category:1950s short films Category:Best Documentary Short Subject Academy Award winners Category:British black-and",
+      "preview_tail": "sh black-and-white films Category:British documentary films Category:British films Category:Documentary films about deaf people Category:English-langUage films Category:Films directed by Lindsay Ander",
+      "full_text": "raphy References External links Category:1954 films Category:1950s documentary films Category:1950s short films Category:Best Documentary Short Subject Academy Award winners Category:British black-and-white films Category:British documentary films Category:British films Category:Documentary films about deaf people Category:English-langUage films Category:Films directed by Lindsay Ander",
+      "avg_prediction": null
+    },
+    {
+      "idx": 100,
+      "hash": "e6360bab",
+      "n_words": 237,
+      "n_chars": 1304,
+      "preview_head": "home is located in Suceava, the capital of Bucovina, my offer is based on day trips, especially to the Painted Monasteries. Depending on the requirements of the tourists, I help you to organize trips ",
+      "preview_tail": "arian menu with very tasty components. You will come acRoss chicken, beef, pork, and fish in Romanian cuisine. Romanian cuisine has kept its traditional taste. Even for a raw vegan, we\u2019ll find a menu.",
+      "full_text": "home is located in Suceava, the capital of Bucovina, my offer is based on day trips, especially to the Painted Monasteries. Depending on the requirements of the tourists, I help you to organize trips for several days, combining the objectives from the counties of Iasi \u2013 Neamt \u2013 Maramures or to another region of Romania. Do you take children on your trips? All trips from Bucovina Day Tours can accommodate young children who are accompanied and supervised by a legal guardian and who can handle the requirements of the trip. Is better to announce us if they suffer by car sick. Are there any extra fees that I will have to pay? You must check Tour details to see what is included and what is not. No, we do not charge any extra fees or fuel surcharges. How much does it cost to do a private tour ? If you want to travel alone without other tourists, please contact me to get the latest information on your desired trip. Sometimes I can offer shared tours. if it is ok with you, you can participate. What kind of food do you can eat? Romanians love food. They prepare a variety of meals included a vegetarian menu with very tasty components. You will come acRoss chicken, beef, pork, and fish in Romanian cuisine. Romanian cuisine has kept its traditional taste. Even for a raw vegan, we\u2019ll find a menu.",
+      "avg_prediction": null
+    },
+    {
+      "idx": 101,
+      "hash": "a32fefd6",
+      "n_words": 191,
+      "n_chars": 1129,
+      "preview_head": "almost identical in the bottle, I wanted to see if they performed the same on the nails. Here's what I found: L\u2019oreal The Bigger The Better (Diamond Collection): - Application: The formula was smooth ",
+      "preview_tail": "urability: It lasted about five days before showing noticeable chipping, which was a bit less durable than The Bigger The Better. Conclusion: While both polishes look almost identical in the bottle, T",
+      "full_text": "almost identical in the bottle, I wanted to see if they performed the same on the nails. Here's what I found: L\u2019oreal The Bigger The Better (Diamond Collection): - Application: The formula was smooth and easy to apply. It had a good balance of glitter and base color. - Opacity: It reached full opacity in two coats. - Finish: The glitter gave it a sparkly, textured finish that looked stunning, especially under bright light. - Durability: It lasted about a week with minimal chipping, which is impressive for a glitter polish. L\u2019oreal The Queen\u2019s Ambition (Project Runway Collection): - Application: The formula was a bit thicker and slightly harder to apply evenly. The glitter seemed to clump a bit more. - Opacity: It also reached full opacity in two coats, but the application was less smooth. - Finish: The glitter effect was similar, but the overall finish looked a bit less refined compared to The Bigger The Better. - Durability: It lasted about five days before showing noticeable chipping, which was a bit less durable than The Bigger The Better. Conclusion: While both polishes look almost identical in the bottle, T",
+      "avg_prediction": null
+    },
+    {
+      "idx": 102,
+      "hash": "b2e20fae",
+      "n_words": 43,
+      "n_chars": 378,
+      "preview_head": "website Disability, USA, Super 6-1, Cosmic Roulette, CBS 60 Minutes Black Hawk Down, Philadelphia Inquirer Category:Airborne warfare Category:Fayetteville, North Carolina Category:Museums established ",
+      "preview_tail": "y:Museums established in 1999 Category:Museums in Cumberland County, North Carolina Category:United States Army museums Category:Military and war museums in North Carolina Category:2000 establishments",
+      "full_text": "website Disability, USA, Super 6-1, Cosmic Roulette, CBS 60 Minutes Black Hawk Down, Philadelphia Inquirer Category:Airborne warfare Category:Fayetteville, North Carolina Category:Museums established in 1999 Category:Museums in Cumberland County, North Carolina Category:United States Army museums Category:Military and war museums in North Carolina Category:2000 establishments",
+      "avg_prediction": null
+    },
+    {
+      "idx": 103,
+      "hash": "90281844",
+      "n_words": 59,
+      "n_chars": 319,
+      "preview_head": "July 29, 1987, Ortiz filed a claim under the Workers' Compensation Act for permanent total disability and other benefits as a result of an accident on July 29, 1985. On September 22, 1987, a WCA Pre-H",
+      "preview_tail": "s as a result of an accident on July 29, 1985. On September 22, 1987, a WCA Pre-HearIt seems like you have provided me with some legal text related to a case in New Mexico. Would you like me to summar",
+      "full_text": "July 29, 1987, Ortiz filed a claim under the Workers' Compensation Act for permanent total disability and other benefits as a result of an accident on July 29, 1985. On September 22, 1987, a WCA Pre-HearIt seems like you have provided me with some legal text related to a case in New Mexico. Would you like me to summar",
+      "avg_prediction": null
+    },
+    {
+      "idx": 104,
+      "hash": "6e45e3ae",
+      "n_words": 114,
+      "n_chars": 885,
+      "preview_head": "gastric or duodenal ulcers who were treated by the authors, endoscopic therapy resulted in complete ulcer healing without complications. The remaining patient developed a post-procedural hemorrhage, w",
+      "preview_tail": "nce supporting endoscopy as a first-line modality for both diagnostic and therapeutic interventions in peptic ulcer disease, especially when combined with pharmacological therapies such as proton pump",
+      "full_text": "gastric or duodenal ulcers who were treated by the authors, endoscopic therapy resulted in complete ulcer healing without complications. The remaining patient developed a post-procedural hemorrhage, which was successfully managed with surgical intervention. The high efficacy of therapeutic endoscopy in this cohort (98.3% healing rate) underscores its critical role in modern gastroduodenal ulcer management, particularly in cases complicated by bleeding, perforation, or stricture formation. Compared to traditional surgical approaches, endoscopic techniques offer reduced morbidity, shorter hospital stays, and faster recovery times. These findings align with broader clinical evidence supporting endoscopy as a first-line modality for both diagnostic and therapeutic interventions in peptic ulcer disease, especially when combined with pharmacological therapies such as proton pump",
+      "avg_prediction": null
+    },
+    {
+      "idx": 105,
+      "hash": "d180da6e",
+      "n_words": 83,
+      "n_chars": 506,
+      "preview_head": "use the stairs instead of an escalator. They have been at it again with 'The world's deepest bin', encouraging people to throw their litter away. The results speak for themselves. Posted by Unknown at",
+      "preview_tail": "rest Thursday, November 05, 2009 Brown Moves From Anger To Denial Sometime ago, I signed a petition on the No. 10 website asking for Gordon Brown to resign. I was reminded about this yesterday when an",
+      "full_text": "use the stairs instead of an escalator. They have been at it again with 'The world's deepest bin', encouraging people to throw their litter away. The results speak for themselves. Posted by Unknown at Friday, November 06, 2009 No comments: Email ThisBlogThis!Share to TwitterShare to FacebookShare to Pinterest Thursday, November 05, 2009 Brown Moves From Anger To Denial Sometime ago, I signed a petition on the No. 10 website asking for Gordon Brown to resign. I was reminded about this yesterday when an",
+      "avg_prediction": null
+    },
+    {
+      "idx": 106,
+      "hash": "6434fb03",
+      "n_words": 224,
+      "n_chars": 1317,
+      "preview_head": "r care collection, featuring a shampoo, conditioner and hair mask to boost the hair\u2019s luminosity. I can definitely attest to the 72 hours of frizz-free hair because I had the chance to try out the pro",
+      "preview_tail": "Elements? A:The EIMI line consists mainly of styling tools like sprays & mousse whereas ELEMENTS contains shampoos, conditioners etc. which have been specially formulated for different hair types. The",
+      "full_text": "r care collection, featuring a shampoo, conditioner and hair mask to boost the hair\u2019s luminosity. I can definitely attest to the 72 hours of frizz-free hair because I had the chance to try out the products at the Taj Salon in the form of their Shine Spa treatment (available in select Wella Professionals salons). The treAtment consisted of threesteps: 1) Hair wash with Oil Reflections Shampoo The shampoo is infused with a precious blend of argan, camellia and marula oils to give your hair shine. 2) Hair mask application using the Oil Reflections Mask followed by steaming for 5 minutes. The oil enriched treatment penetrates deep into each strand leaving it shiny & soft. 3) Hair wash again with shampoo so that you are left with clean, frizz-free and glossy locks! The results were inStant! My hair felt softer than ever before but what I loved most was the shine which lasted for over a week. The range also contains an Oil Reflections spray 10 in case of touch ups between washes. I had some questions about Wella Professionals products, so here are my answers to them: Q: What is the difference b/w Eimi and Elements? A:The EIMI line consists mainly of styling tools like sprays & mousse whereas ELEMENTS contains shampoos, conditioners etc. which have been specially formulated for different hair types. The",
+      "avg_prediction": null
+    },
+    {
+      "idx": 107,
+      "hash": "464575df",
+      "n_words": 117,
+      "n_chars": 835,
+      "preview_head": "CCBEI 2015 2nd International Conference on Civil and Building Engineering Informatics Home Conference Conference Theme Keynote Speakers Program Proceedings Organizations AGCEI BOD Organizing Committee",
+      "preview_tail": "Division, National Institute for Land and Infrastructure Management, Ministry of Land,It seems you have provided me with a conference program and a study abstract. Would you like me to summarize the s",
+      "full_text": "CCBEI 2015 2nd International Conference on Civil and Building Engineering Informatics Home Conference Conference Theme Keynote Speakers Program Proceedings Organizations AGCEI BOD Organizing Committee Scientific Committee Call For Papers Call For Abstracts Call For Full Papers Call For OS Proceedings Awards Venue Venue Accommodations Registration Important Dates Sponsors Sponsors Call For Sponsors STUDY ON THE ELABORATION LEVEL OF CIM MODELS AIMED TO UTILIZE FOR MAINTENANCE OF SLUICE GATES AND SLUICE PIPES Rei Fujita1, Noriaki Aoyama2, Hisatoshi Taniguchi3 and Koichi Shigetaka4 1) Researcher, Maintenance Information Technology Division, National Institute for Land and Infrastructure Management, Ministry of Land,It seems you have provided me with a conference program and a study abstract. Would you like me to summarize the s",
+      "avg_prediction": null
+    },
+    {
+      "idx": 108,
+      "hash": "6cf9506e",
+      "n_words": 73,
+      "n_chars": 404,
+      "preview_head": "men wander up the steps of the pale stone building as they answer the call to prayer.It's a scene that plays out every week at one small church complex on Mushrif Road in Dubai \u2013 an area which has bee",
+      "preview_tail": "me for centuries but now teems with expatriates from around world. The Church Citizens' Voice is part of this community, offering spiritual guidance and support to its followers. It was founded by the",
+      "full_text": "men wander up the steps of the pale stone building as they answer the call to prayer.It's a scene that plays out every week at one small church complex on Mushrif Road in Dubai \u2013 an area which has been home for centuries but now teems with expatriates from around world. The Church Citizens' Voice is part of this community, offering spiritual guidance and support to its followers. It was founded by the",
+      "avg_prediction": null
+    },
+    {
+      "idx": 109,
+      "hash": "8c140b32",
+      "n_words": 233,
+      "n_chars": 1528,
+      "preview_head": "cuum evaporator to extract active chemicals from herbal medicine, a process that was patented in 1988. This technology laid the foundation for her entrepreneurial journey. In 1991, Lei launched her co",
+      "preview_tail": "alike, and her story serves as an inspiration to many, particularly people, in the business world. Lei's success shows that a love for modern medicine, combined with creativity and hard work, can lead",
+      "full_text": "cuum evaporator to extract active chemicals from herbal medicine, a process that was patented in 1988. This technology laid the foundation for her entrepreneurial journey. In 1991, Lei launched her company, Lama Cheezheng Chinese Hospital, with a vision to improve traditional Tibetan medicine. She spent decades researching and improving her products, ensuring their efficacy and safety. Zhang's commitment to quality and her dedication to making modern medicine available have been crucial to her success. Her firm's flagship product, the \"Jufang Pain Relief Ointment,\" has become a household name in Taiwan. It is known for its quick relief of muscle and joint pain, and its popularity has led to Lei's wealth and recognition. The ointment's success led to the development of other products, including plasters and powders, all aimed at creating natural and effective remedies. Lei's life has not been without challenges. She encountered criticism from the medical community, as modern medicine also struggles for acceptance in contemporary medicine. Instead, her persistence and the proven results of her products gradually earned the confidence of both doctors and customers. Today, Zhang's business has expanded beyond Asia, with a presence in over 20 countries. Her products are used by celebrities and everyday citizens alike, and her story serves as an inspiration to many, particularly people, in the business world. Lei's success shows that a love for modern medicine, combined with creativity and hard work, can lead",
+      "avg_prediction": null
+    },
+    {
+      "idx": 110,
+      "hash": "59e9ad0c",
+      "n_words": 116,
+      "n_chars": 833,
+      "preview_head": "ular cells, which are distinct from those found in other tissues such as liver or adipose tissue. The stimulation of phosphorylation by IGF-I is also unique among the insulin-like growth factor family",
+      "preview_tail": "idney function, particularly those related to growth regulation. Moreover, these findings could have implications for understanding how alterations in IGF levels affect various physiological processes",
+      "full_text": "ular cells, which are distinct from those found in other tissues such as liver or adipose tissue. The stimulation of phosphorylation by IGF-I is also unique among the insulin-like growth factor family members and suggests a mechanism for regulating cellular function through this pathway. The identification of an additional substrate that was specifically labeled with 32P after incubation with [\u03b3-32P]ATP indicates the presence of novel proteins in renal proximal tubular cells. These results suggest further investigation into their role within IGF-I mediated signaling pathways and may provide insights to mechanisms underlying kidney function, particularly those related to growth regulation. Moreover, these findings could have implications for understanding how alterations in IGF levels affect various physiological processes",
+      "avg_prediction": null
+    },
+    {
+      "idx": 111,
+      "hash": "ed0e975e",
+      "n_words": 227,
+      "n_chars": 1365,
+      "preview_head": "for defendant in error. *312 KNAUSS, Justice. In the trial court plaintiff in error was plaintiff and defendant in error was defendant. We shall refer to the parties herein as they appeared in the tri",
+      "preview_tail": "port defendant's plea of contributory negligence; (2) improper cross-examination and argument concerning matters not within the issues or proof; (3) failure of the trial court to give certain tendered",
+      "full_text": "for defendant in error. *312 KNAUSS, Justice. In the trial court plaintiff in error was plaintiff and defendant in error was defendant. We shall refer to the parties herein as they appeared in the trial court or by name. Plaintiff alleged that on May 31, 1952 she was a passenger in a pickup truck driven by her husband; that as a result of an automobile accident which occurred on a mountain highway about fourteen miles north of Dotsero, Colorado, she sustained certain injuries resulting from the negligent driving of defendant's automobile at said time and place, causing it to collide with the vehicle in which plaintiff was riding with her husband. By way of answer, defendant admitted the accident but denied negligence on his part; alleged the injuries complained of were caused by the sole negligence of the driver of the vehicle in which plaintiff was riding and set forth the defenses of contributory negligence and assumption of risk. A jury trial resulted in a verdict for $500 damages in favor of plaintiff, upon which judgment was entered. From that judgment she brings the cause here on writ of error contending: (1) That there is no evidence to support defendant's plea of contributory negligence; (2) improper cross-examination and argument concerning matters not within the issues or proof; (3) failure of the trial court to give certain tendered",
+      "avg_prediction": null
+    },
+    {
+      "idx": 112,
+      "hash": "684951a7",
+      "n_words": 37,
+      "n_chars": 275,
+      "preview_head": "were significantly higher in the prostate and urinary bladder of slow acetylator vs rapid acetylator rats. These studies suggest that DMABP-induced DNA damage is acetylator phenotype-dependent in urin",
+      "preview_tail": "lator vs rapid acetylator rats. These studies suggest that DMABP-induced DNA damage is acetylator phenotype-dependent in urinary bladder and prostate, two target organs for DMABP-induced tumorigenesis",
+      "full_text": "were significantly higher in the prostate and urinary bladder of slow acetylator vs rapid acetylator rats. These studies suggest that DMABP-induced DNA damage is acetylator phenotype-dependent in urinary bladder and prostate, two target organs for DMABP-induced tumorigenesis",
+      "avg_prediction": null
+    },
+    {
+      "idx": 113,
+      "hash": "55d66c35",
+      "n_words": 302,
+      "n_chars": 1800,
+      "preview_head": "Quest for the Legendary Sword of Light: Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Limited Edi",
+      "preview_tail": "uest for the Legendary Sword of Light: Super Super Super Super Super Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Super",
+      "full_text": "Quest for the Legendary Sword of Light: Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Super Super Limited Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Super Super Ultimate Edition, the Al's Epic Quest for the Legendary Sword of Light: Super Super Super Super Super Super Super",
+      "avg_prediction": null
+    },
+    {
+      "idx": 114,
+      "hash": "44f917cf",
+      "n_words": 173,
+      "n_chars": 1199,
+      "preview_head": "with changes in day length altering clock gene expression and responses to entraining signals. Neurotransmission mediated byGABA, glutamate or other neurotransmitters has been shown to be essential fo",
+      "preview_tail": "oteins. We propose that CaCC activity may contribute significantly towards establishing and maintaining a negative membrane potential gradient across SCN neurons, thus providing fundamental support fo",
+      "full_text": "with changes in day length altering clock gene expression and responses to entraining signals. Neurotransmission mediated byGABA, glutamate or other neurotransmitters has been shown to be essential for maintaining normal rhythms at both cellular and whole-organism levels. The present study demonstrates that SCN neurons have a functional calcium-dependent chloride conductance (CaCC). The Ca2+-dependent Cl\u2212 current is activated in response to depolarization of the membrane potential, as well as by intracellular elevation of free cytoplasmic [Cl]i. This activity has characteristics consistent with anion channels belonging to the family of CLC proteins. We show that SCN neurons have a high basal expression level for two members of this protein group (CLCN1 and 2), but not other Cl\u2212 channel types, including GABaA receptors or K+ -Cl- co-channels. This finding is consistent with electrophysiological recordings in which the current can be blocked by DIDS \u2013 an inhibitor known to target CLC proteins. We propose that CaCC activity may contribute significantly towards establishing and maintaining a negative membrane potential gradient across SCN neurons, thus providing fundamental support fo",
+      "avg_prediction": null
+    },
+    {
+      "idx": 115,
+      "hash": "15e38dc1",
+      "n_words": 82,
+      "n_chars": 560,
+      "preview_head": "Yoga and Chiropractic Top 10 Reasons for Yoga ABC Yoga Club Meet the Team Clinic Hours Services & Techniques Doctor's Education Mission Statement Corporate Wellness Program Overview and Options Corpor",
+      "preview_tail": " Content Wellness LifesTyle Tips Eat Well Treat Others Well Treat Yourself Well Wellness Essentials At Home Nutrition What You Wear At WoRk Exercise Life is Motion Healthy ThHealthy Thoughts Healthy R",
+      "full_text": "Yoga and Chiropractic Top 10 Reasons for Yoga ABC Yoga Club Meet the Team Clinic Hours Services & Techniques Doctor's Education Mission Statement Corporate Wellness Program Overview and Options Corporate Wellness Price Menu Research Specials and Events Family Care Orthotics Massage Testimonials Comment Card Gift Certificates Coupons Contact Us Blog Community Content Wellness LifesTyle Tips Eat Well Treat Others Well Treat Yourself Well Wellness Essentials At Home Nutrition What You Wear At WoRk Exercise Life is Motion Healthy ThHealthy Thoughts Healthy R",
+      "avg_prediction": null
+    },
+    {
+      "idx": 116,
+      "hash": "2ee3e3ef",
+      "n_words": 73,
+      "n_chars": 459,
+      "preview_head": "(assuming a typo for \"Supermeg\" in the original text) - [One more visitor's username to complete the list, which could be someone like:] DetailingDave If you have any specific information or another u",
+      "preview_tail": "nt visitors' list, feel free to provide it! Otherwise, \"DetailingDave\" can serve as a placeholder for completion purposes. Additionally, if there's more context needed such as the layout of other sect",
+      "full_text": "(assuming a typo for \"Supermeg\" in the original text) - [One more visitor's username to complete the list, which could be someone like:] DetailingDave If you have any specific information or another user naMe that should fill this last spot on matty.13\u2019s recent visitors' list, feel free to provide it! Otherwise, \"DetailingDave\" can serve as a placeholder for completion purposes. Additionally, if there's more context needed such as the layout of other sect",
+      "avg_prediction": null
+    },
+    {
+      "idx": 117,
+      "hash": "07bfec2e",
+      "n_words": 345,
+      "n_chars": 1776,
+      "preview_head": "unkind we can be to ourselves. So Here's to changing ones mind and heart when life takes an unexpected turn. Not everyone can understand your journey in life. Standing in your own truth can leave you ",
+      "preview_tail": "To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness o",
+      "full_text": "unkind we can be to ourselves. So Here's to changing ones mind and heart when life takes an unexpected turn. Not everyone can understand your journey in life. Standing in your own truth can leave you blacklisted for challenging the status quo. I don't mind not being liked. We certainly can't like everyone, but heartbreakingly sad to be misunderstood. With that said the shift for me will be when I stop needing to know the why's when things go awry. We are all flawed humans and I have decided to accept the messiness of it all. You have to take the bitter with the sweet. To reflect and accept the messiness of it all. You have to take the bitter with the sweet. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness of it all. To accept the messiness o",
+      "avg_prediction": null
+    },
+    {
+      "idx": 118,
+      "hash": "231556e6",
+      "n_words": 142,
+      "n_chars": 748,
+      "preview_head": "a slew of his popular tracks including \"Dive In,\" \"2 Reasons\" and \"Heart Attack,\" before bringing out a few guests to join in on the fun. First up was Trinidad James, who performed his breakout single",
+      "preview_tail": "and getting the entire crowd to put their hands up in the air. With his NYC show being one of the last stops on his Chapter V tour, Trey Songz proved that he still has the ability to bring out the big",
+      "full_text": "a slew of his popular tracks including \"Dive In,\" \"2 Reasons\" and \"Heart Attack,\" before bringing out a few guests to join in on the fun. First up was Trinidad James, who performed his breakout single \"All Gold Everything,\" getting the crowd to rap along to every word. Next, Fabolous took the stage to deliver a few bars from his latest mixtape, 'The S.O.U.L. Tape 2,' and even threw in a few of his hits like \"You Be Killin' Em.\" But the biggest surprise of the night came when Young Jeezy emerged on stage, performing his street anthem \"Put On\" and getting the entire crowd to put their hands up in the air. With his NYC show being one of the last stops on his Chapter V tour, Trey Songz proved that he still has the ability to bring out the big",
+      "avg_prediction": null
+    },
+    {
+      "idx": 119,
+      "hash": "6282f808",
+      "n_words": 225,
+      "n_chars": 1508,
+      "preview_head": "in a related concept. Photos Indiscretions To replace the 850 kg Rosalie commercial vehicles, Citro\u00ebn invents a new concept: the front-wheel drive van. To illustrate, two pioneering models: aTraction ",
+      "preview_tail": "ontinued, offering similar benefits to its predecessor but with potential enhancements based upon user feedback during TUB's production cycle. These two vehicles paved the way as pioneers within their",
+      "full_text": "in a related concept. Photos Indiscretions To replace the 850 kg Rosalie commercial vehicles, Citro\u00ebn invents a new concept: the front-wheel drive van. To illustrate, two pioneering models: aTraction Utilitaire Basse (TUB, literally Utility Bottom Traction), then a Traction Utilitaire de type C (TUC, literally C-type Utility Traction), which revisit the mechanics of the 7 and 11 front-wheel drives. What\u2019s new? Front-wheel drive, the sliding side door, the lower loading floor, allowing one to fully stand# Family Tree: Citro\u00ebn's Van Evolution Citro\u00ebn TUB (Traction Utilitaire Basse) - Production years : Introduced in and produced until ____. Features: \\- Front-wheel drive system. -) Sliding side door for easy access, a novel feature at the time! ) Lowered loading floor enabling comfortable standing inside during work or transportation duties; this was an innovative design choice to improve ergonomics which later became standard in many vans today . Citro\u00ebn TUC (Traction Utilitaire de type C) - Produced from 193* until its discontinuation due World War II's impact on manufacturing. Improvements over the previous model: *Further refinement of front-wheel drive technology.* ) Sliding side door retained for convenience and ease in loading/unloading cargo or passengers . / Lowered floor design continued, offering similar benefits to its predecessor but with potential enhancements based upon user feedback during TUB's production cycle. These two vehicles paved the way as pioneers within their",
+      "avg_prediction": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "timestamp_utc": "2026-04-25T00:54:23.185260+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 7,
+  "duplicates": [],
+  "latency_ms": 10236,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "e97b0ac4",
+      "n_words": 43,
+      "n_chars": 279,
+      "preview_head": "r. Couldn't update; currently locked by user 'admin' on machine 'ECTHOU-BPS4'. Table !!!A user transaction is already in progress. !!!A user transaction is already in progress. !!!A user transaction i",
+      "preview_tail": "Table !!!A user transaction is already in progress. !!!A user transaction is already in progress. !!!A user transaction is already in progreHere are the completed text based on the input: \"Start Date:",
+      "full_text": "r. Couldn't update; currently locked by user 'admin' on machine 'ECTHOU-BPS4'. Table !!!A user transaction is already in progress. !!!A user transaction is already in progress. !!!A user transaction is already in progreHere are the completed text based on the input: \"Start Date:",
+      "avg_prediction": 0.8778
+    },
+    {
+      "idx": 1,
+      "hash": "6c2367d1",
+      "n_words": 129,
+      "n_chars": 814,
+      "preview_head": "ke a breath of fresh air - or maybe more accurately for some Remainers, a whirlwind that shook everyone up. With his charismatic leadership style and willingness to connect directly with ordinary citi",
+      "preview_tail": "h some initial reservations) made him stand out. Whether one accepts or disagrees with Boris Becker's stance on Brexit - it is obvious he played a major role in shaping public debate around the refere",
+      "full_text": "ke a breath of fresh air - or maybe more accurately for some Remainers, a whirlwind that shook everyone up. With his charismatic leadership style and willingness to connect directly with ordinary citizens on topics they knew about deeply (like sovereignty), he helped not only to galvanize support among those still inclined towards leaving but also attracted undecided politicians who were finding authenticity in their politics. His desire to hold the helm of a campaign that few thought was doomed from its founding, coupled with his undeniably good communication capabilities and an unwavering loyalty (although some initial reservations) made him stand out. Whether one accepts or disagrees with Boris Becker's stance on Brexit - it is obvious he played a major role in shaping public debate around the refere",
+      "avg_prediction": 0.9262
+    },
+    {
+      "idx": 2,
+      "hash": "fb0abc73",
+      "n_words": 56,
+      "n_chars": 326,
+      "preview_head": "web design iS that, no matter what the viewport width\u201d. Width is not just one aspect of Response Design, it is a single conditional (just like touch events and other browser/device capabilities). the ",
+      "preview_tail": "ional (just like touch events and other browser/device capabilities). the most important part of Responsive design is user experience, that\u2019s why it exists \u2014 to meet the context or mindset of the user",
+      "full_text": "web design iS that, no matter what the viewport width\u201d. Width is not just one aspect of Response Design, it is a single conditional (just like touch events and other browser/device capabilities). the most important part of Responsive design is user experience, that\u2019s why it exists \u2014 to meet the context or mindset of the user",
+      "avg_prediction": 0.9711
+    },
+    {
+      "idx": 3,
+      "hash": "1dc4bc5f",
+      "n_words": 64,
+      "n_chars": 437,
+      "preview_head": "iproliferative activity against human MCF-7 cells were used as the dependent variables. The Codessa pro software was used for the descriptors calculation and the Best Multi-Linear Regression (BMLR) al",
+      "preview_tail": "R models. It was found that quantum descriptors are critical of the compounds activities. The selected models have good predictive accuracy confirmed by a set of the statistical quantities recommended",
+      "full_text": "iproliferative activity against human MCF-7 cells were used as the dependent variables. The Codessa pro software was used for the descriptors calculation and the Best Multi-Linear Regression (BMLR) algorithm was employed to build the QSAR models. It was found that quantum descriptors are critical of the compounds activities. The selected models have good predictive accuracy confirmed by a set of the statistical quantities recommended",
+      "avg_prediction": 0.8656
+    },
+    {
+      "idx": 4,
+      "hash": "cc50d8c5",
+      "n_words": 72,
+      "n_chars": 440,
+      "preview_head": "paper or foil liners. Sift together the flour, baking powder, baking soda, cocoa and salt. Set aside. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a tim",
+      "preview_tail": "ly add dry ingredients alternately with heavy cream or buttermilk if needed for moisture balance (don't overmix). Divide batter evenly among muffin cups. Bake 18-20 minutes; let cool completely before",
+      "full_text": "paper or foil liners. Sift together the flour, baking powder, baking soda, cocoa and salt. Set aside. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a time, then stir in vanilla extract. Gradually add dry ingredients alternately with heavy cream or buttermilk if needed for moisture balance (don't overmix). Divide batter evenly among muffin cups. Bake 18-20 minutes; let cool completely before",
+      "avg_prediction": 0.9785
+    },
+    {
+      "idx": 5,
+      "hash": "6c3fde94",
+      "n_words": 281,
+      "n_chars": 2076,
+      "preview_head": "error, which corrupt the output. errMsg = strings.Replace(errMsg, \"\\n\", \" \", -1) // Limit the length to 75 characters, so that even on narrow terminals // this will not overflow to the next line. if l",
+      "preview_tail": " nil } func (u *replicatedProgressUpdater) tasksBySlot(tasks []swarm.Task, activeNodes map[string]struct{}) map[int]swarm.Task { // If there are multiple tasks with the same slot number, favor the one",
+      "full_text": "error, which corrupt the output. errMsg = strings.Replace(errMsg, \"\\n\", \" \", -1) // Limit the length to 75 characters, so that even on narrow terminals // this will not overflow to the next line. if len(errMsg) > 75 { errMsg = errMsg[:74] + \"\u2026\" } return errMsg } type replicatedProgressUpdater struct { progressOut progress.Output // used for mapping slots to a contiguous space // this also causes progress bars to appear in order slotMap map[int]int initialized bool done bool } func (u *replicatedProgressUpdater) update(service swarm.Service, tasks []swarm.Task, activeNodes map[string]struct{}, rollback bool) (bool, error) { if service.Spec.Mode.Replicated == nil || service.Spec.Mode.Replicated.Replicas == nil { return false, errors.New(\"no replica count\") } replicas := *service.Spec.Mode.Replicated.Replicas if !u.initialized { u.slotMap = make(map[int]int) // Draw progress bars in order writeOverallProgress(u.progressOut, 0, int(replicas), rollback) if replicas <= maxProgressBars { for i := uint64(1); i <= replicas; i++ { progress.Update(u.progressOut, fmt.Sprintf(\"%d/%d\", i, replicas), \" \") } } u.initialized = true } tasksBySlot := u.tasksBySlot(tasks, activeNodes) // If we had reached a converged state, check if we are still converged. if u.done { for _, task := range tasksBySlot { if task.Status.State != swarm.TaskStateRunning { u.done = false break } } } running := uint64(0) for _, task := range tasksBySlot { mappedSlot := u.slotMap[task.Slot] if mappedSlot == 0 { mappedSlot = len(u.slotMap) + 1 u.slotMap[task.Slot] = mappedSlot } if !terminalState(task.DesiredState) && task.Status.State == swarm.TaskStateRunning { running++ } u.writeTaskProgress(task, mappedSlot, replicas, rollback) } if !u.done { writeOverallProgress(u.progressOut, int(running), int(replicas), rollback) if running == replicas { u.done = true } } return running == replicas, nil } func (u *replicatedProgressUpdater) tasksBySlot(tasks []swarm.Task, activeNodes map[string]struct{}) map[int]swarm.Task { // If there are multiple tasks with the same slot number, favor the one",
+      "avg_prediction": 0.6037
+    },
+    {
+      "idx": 6,
+      "hash": "9b33f0b3",
+      "n_words": 331,
+      "n_chars": 1859,
+      "preview_head": "hblahblah said... We should definitely go for Eto'o if we could land him for a reasonable price(\u00a310m-\u00a315m). Then we should use the rest of our transfer money to bribe the FA into letting us play 4-2-3",
+      "preview_tail": "finally clicking after so long?If our players were more adaptable, it would be a different story, but the truth is, Gerrard in the centre as part of a 442 is not the best way for the team to be set up",
+      "full_text": "hblahblah said... We should definitely go for Eto'o if we could land him for a reasonable price(\u00a310m-\u00a315m). Then we should use the rest of our transfer money to bribe the FA into letting us play 4-2-3-2... 1:42 pm, April 02, 2009 Anonymous said... Good article, followed by good debate. Many strong opinions. My point... well, I suppose nothing really.Carry on... 2:41 pm, April 02, 2009 Anonymous said... There are over 60 games in a season, and I'm sure Torres can benefit from not playing in every game, and not been rushed back from injuries. In Gerrard and Torres, Liverpool have 2 World Class match winners, add Eto'o to that, and I believe Rafa can rotate all 3 them to devastating effect. Regardless of the formation, he can pick 1, 2, or all 3. For \u00a318m, I'd say buy him. 3:46 pm, April 02, 2009 Jaimie Kanwar said... Eto'o is not a player who should be rotated. Like Torres and like Gerrard, he is a player you play every single game if possible. Of course, you rest them, but only occasionally.Rafa has proved with Robbie Keane and Peter Crouch that he *cannot* manage top class strikers properly. Keane was on the bench/subbed in 28 of his 33 games. Crouch was also similarly messed around, despite being Liverpools topn scorer in both the league AND Champions League!Having Eto'o and Torres would not work. There is no evidence to suggest it would and plenty of evidence to suggest it wouldn't.if both players remained fit for the whole season, what happens then? Eto' plays upfront sometimes and Torres is moved to the wing and vice-versa?Or doe we revert to 442, break up the Gerrard/Torres partnership and change the balance of a team that is finally clicking after so long?If our players were more adaptable, it would be a different story, but the truth is, Gerrard in the centre as part of a 442 is not the best way for the team to be set up",
+      "avg_prediction": 0.0972
+    }
+  ]
+}

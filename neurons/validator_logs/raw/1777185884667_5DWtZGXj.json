@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-04-26T06:44:44.667187+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 5,
+  "duplicates": [],
+  "latency_ms": 1370,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "ca6651b0",
+      "n_words": 33,
+      "n_chars": 339,
+      "preview_head": "include XML::Mapping include Initializer root_element_name 'DisputeMessage' numeric_node :message_id, 'MessageID', :optional => true text_node :message_source, 'MessageSource', :optional => true time_",
+      "preview_tail": "ode :message_source, 'MessageSource', :optional => true time_node :message_creation_time, 'MessageCreationTime', :optional => true text_node :message_text, 'MessageText', :optional => true end end end",
+      "full_text": "include XML::Mapping include Initializer root_element_name 'DisputeMessage' numeric_node :message_id, 'MessageID', :optional => true text_node :message_source, 'MessageSource', :optional => true time_node :message_creation_time, 'MessageCreationTime', :optional => true text_node :message_text, 'MessageText', :optional => true end end end",
+      "avg_prediction": 0.9692
+    },
+    {
+      "idx": 1,
+      "hash": "d3def560",
+      "n_words": 121,
+      "n_chars": 867,
+      "preview_head": "decisions because of its jurisdiction on appeal or award interest to compensate it for delays in securing reimbursement while waiting months pending resolution before arbitration bodies whose actions ",
+      "preview_tail": "tenance deficiencies, Contichem incurred damages that it estimates at approximately $3 million. While the underlying merits of Contichem's claims against Parsons were submitted to an arbitration panel",
+      "full_text": "decisions because of its jurisdiction on appeal or award interest to compensate it for delays in securing reimbursement while waiting months pending resolution before arbitration bodies whose actions may effectively deny them full measure deserved under our system\u2019s fundamental principles governing these matters should have been settled long ago instead being left unresolved more than half-year. For the reasons indicated, the motion is granted. *417 FACTS AND PROCEDURAL HISTORY Contichem unknowingly chartered from Parsons an apparently unseaworthy ship, the M/V World Rainbow (the \"Rainbow\"). Because of delays in shipping caused by Rainbow's technical and maintenance deficiencies, Contichem incurred damages that it estimates at approximately $3 million. While the underlying merits of Contichem's claims against Parsons were submitted to an arbitration panel",
+      "avg_prediction": 0.9731
+    },
+    {
+      "idx": 2,
+      "hash": "d6811c0c",
+      "n_words": 48,
+      "n_chars": 271,
+      "preview_head": ": $(window).on('load', function () { }); This runs once the page has loaded. Later in the application I've replaced the contents of the flexslider (the number of images in it and their sources) and ne",
+      "preview_tail": "aded. Later in the application I've replaced the contents of the flexslider (the number of images in it and their sources) and need to re-load the flexslider. My code is as = function() { process(); }",
+      "full_text": ": $(window).on('load', function () { }); This runs once the page has loaded. Later in the application I've replaced the contents of the flexslider (the number of images in it and their sources) and need to re-load the flexslider. My code is as = function() { process(); }",
+      "avg_prediction": 0.531
+    },
+    {
+      "idx": 3,
+      "hash": "ca92f0f1",
+      "n_words": 90,
+      "n_chars": 435,
+      "preview_head": "0.24 (c) -5 (d) 3 (e) 0.4 (f) -1.4 f Which is the smallest value? (a) 2/19 (b) -0.1 (c) 2 (d) -3 (e) -0.018 d What is the second smallest value in 1.9, 3, -1/2, -0.03, 0.3? -0.03 What is the fifth big",
+      "preview_tail": " 0.4? 0.4 What is the third biggest value in -19, 268, -0.2? -19 What is the third biggest value in -4/3, -0.2, -685270? -685270 What is the fifth biggest value in -0.2, -0.5, 34/11, 4, 2/7? 4 What is",
+      "full_text": "0.24 (c) -5 (d) 3 (e) 0.4 (f) -1.4 f Which is the smallest value? (a) 2/19 (b) -0.1 (c) 2 (d) -3 (e) -0.018 d What is the second smallest value in 1.9, 3, -1/2, -0.03, 0.3? -0.03 What is the fifth biggest value in 8, 0.5, -0.6, 2, 187, 0.4? 0.4 What is the third biggest value in -19, 268, -0.2? -19 What is the third biggest value in -4/3, -0.2, -685270? -685270 What is the fifth biggest value in -0.2, -0.5, 34/11, 4, 2/7? 4 What is",
+      "avg_prediction": 0.9847
+    },
+    {
+      "idx": 4,
+      "hash": "5244b7fa",
+      "n_words": 85,
+      "n_chars": 529,
+      "preview_head": "this country, can be addressed through our existing legal frameworks to maintain public safety without infringing on individual rights; harnessing collective strength against those who incite lawlessn",
+      "preview_tail": "ithin our laws to ensure that those who elevate violence, cherish vandalism are dealt with by the laws of the land. In fact, it is high time we rose against acts that tarnish the image of the country.",
+      "full_text": "this country, can be addressed through our existing legal frameworks to maintain public safety without infringing on individual rights; harnessing collective strength against those who incite lawlessness will help preserve the nation's image. Although this country is not alien to violence or vandalism, we should do everything within our laws to ensure that those who elevate violence, cherish vandalism are dealt with by the laws of the land. In fact, it is high time we rose against acts that tarnish the image of the country.",
+      "avg_prediction": 0.6029
+    }
+  ]
+}

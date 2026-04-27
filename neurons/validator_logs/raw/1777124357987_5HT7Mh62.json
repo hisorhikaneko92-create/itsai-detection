@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "2026-04-25T13:39:17.987294+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 9,
+  "duplicates": [],
+  "latency_ms": 1403,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "96eca4a6",
+      "n_words": 142,
+      "n_chars": 662,
+      "preview_head": "at, Jun 23, 2018 New Movie Releases - Sat, Jun 23, 2018 New Movie Releases - Fri, Jun 22, 2018 New TV Show Releases - Fri, Jun 22, 2018 New TV Show Releases - Thu, Jun 21, 2018 New Movie Releases - Th",
+      "preview_tail": " Show Releases - Sat, Jun 16, 2018 New TV Show Releases - Fri, Jun 15, 2018 New Movie Releases - Fri, Jun 15, 2018 New Movie Releases - Thu, Jun 14, 2018 New TV Show Releases - Thu, Jun 14, 2018 New T",
+      "full_text": "at, Jun 23, 2018 New Movie Releases - Sat, Jun 23, 2018 New Movie Releases - Fri, Jun 22, 2018 New TV Show Releases - Fri, Jun 22, 2018 New TV Show Releases - Thu, Jun 21, 2018 New Movie Releases - Thu, Jun 21, 2018 New TV Show Releases - Wed, Jun 20, 2018 New Movie Releases - Wed, Jun 20, 2018 New TV Show Releases - Tue, Jun 19, 2018 New Movie Releases - Mon, Jun 18, 2018 New TV Show Releases - Sun, Jun 17, 2018 New Movie Releases - Sat, Jun 16, 2018 New TV Show Releases - Sat, Jun 16, 2018 New TV Show Releases - Fri, Jun 15, 2018 New Movie Releases - Fri, Jun 15, 2018 New Movie Releases - Thu, Jun 14, 2018 New TV Show Releases - Thu, Jun 14, 2018 New T",
+      "avg_prediction": 0.9842
+    },
+    {
+      "idx": 1,
+      "hash": "9ce8d35e",
+      "n_words": 49,
+      "n_chars": 329,
+      "preview_head": "exudate is important because it helps narrow down the possible causes of pericardial fluid buildup. Healthcare practitioners and laboratorians use an initial set of tests, including cell count, protei",
+      "preview_tail": "laboratorians use an initial set of tests, including cell count, protein or aLbumin level, and appearance of the fluid, to distinguish between transudates and exudates. Once the fluid is determined to",
+      "full_text": "exudate is important because it helps narrow down the possible causes of pericardial fluid buildup. Healthcare practitioners and laboratorians use an initial set of tests, including cell count, protein or aLbumin level, and appearance of the fluid, to distinguish between transudates and exudates. Once the fluid is determined to",
+      "avg_prediction": 0.8126
+    },
+    {
+      "idx": 2,
+      "hash": "5eb32e47",
+      "n_words": 267,
+      "n_chars": 1576,
+      "preview_head": "Free shipping Return and money back guarantee Safe shopping Sharing is Cool Product information Details about Skechers Go Meb Speed 4 - Running shoes for Men The next generation of Skechers Performanc",
+      "preview_tail": "tact Shipping FAQ Size-compas Return / Exchange 21RUN Inside About us Affiliate Program Terms & Conditions Data protection Cancellation Imprint Your advantages Return and money back guarantee Secure p",
+      "full_text": "Free shipping Return and money back guarantee Safe shopping Sharing is Cool Product information Details about Skechers Go Meb Speed 4 - Running shoes for Men The next generation of Skechers Performance racing shoe is better than ever. High performance racing flat designed to be sleek, snug and fast. Virtually seamless GO KNIT upper with 5GEN cushioning. SKU# 0002000299700 Obermaterial: Futter: Find more products from Skechers Skechers -6% Product was added to cart. Skechers Go Meb Speed 4 - Running shoes for Men - Red Color: Red Size: Delivery Time: workdays (Estimated Delivery Date: ) To Cart Return to shopping Return to shopping Sharing is Cool Recently Viewed Products Skechers Go Meb Speed 4 - Running shoes for Men - Red Regular Price: \u20ac129.95 Special Price \u20ac121.90 Add to Cart Go Meb Speed 4 - Running shoes for Men - Red Skechers Go Meb Speed 4 - Running shoes for Men - Red Add to Cart Subscribe to newsletter and get a \u20ac10* coupon Yes! I want to be informed regularly per Email about new products and offers from 21RUN. We will not share your email address with third party companies. You can unsubscribe from our newsletter at any time. I have read and accepted the General Terms and Conditions, the Right of Objection and the Privacy Policy. * Voucher only for first registration and with a minimum purchase value of \u20ac100. Women Men Send Help My Account Contact Shipping FAQ Size-compas Return / Exchange 21RUN Inside About us Affiliate Program Terms & Conditions Data protection Cancellation Imprint Your advantages Return and money back guarantee Secure p",
+      "avg_prediction": 0.118
+    },
+    {
+      "idx": 3,
+      "hash": "63783d8c",
+      "n_words": 133,
+      "n_chars": 1114,
+      "preview_head": "nvoking a PL/SQL function with to_charfrom SQLstatementI have built this function to print alist of all projects along withthe total amount of pledges for each one of them. I need to formatthe output ",
+      "preview_tail": "ledgeamt), '$9,990.99') into pledge_amountfrom dd_pledge where idproj= project_id; if (pledge_amount = 0) then return0; elsereturn pledge_amount;end if; returnpledge_amount;end DD_PROJECT_SF; Andthis ",
+      "full_text": "nvoking a PL/SQL function with to_charfrom SQLstatementI have built this function to print alist of all projects along withthe total amount of pledges for each one of them. I need to formatthe output to show the $ sign,comma, and two decimalplaces for thevalue. So far Ican get theresult but without the formatting.I included to_char in the function. When Iinvoke itIreceive this error: ORA-06502: PL/SQL: numeric or valueerror: character to number conversion errorORA-06512: at \"SYSTEM.DD_PROJECT_SF\", line 1906502. 00000 - \"PL/SQL: numeric or value error%s\"*Cause:*Action: Hereis my function: create or replace function DD_PROJECT_SF ( project_id dd_project.idproj%type) return number is pledge_amount dd_pledge.pledgeamt%type; project_name dd_project.projname%type; projiddd_pledge.idproj%type; begin select idproj,projname into projid, project_namefrom dd_project whereidproj = project_id; select to_char(sum(pledgeamt), '$9,990.99') into pledge_amountfrom dd_pledge where idproj= project_id; if (pledge_amount = 0) then return0; elsereturn pledge_amount;end if; returnpledge_amount;end DD_PROJECT_SF; Andthis ",
+      "avg_prediction": 0.2551
+    },
+    {
+      "idx": 4,
+      "hash": "4f41a2a5",
+      "n_words": 252,
+      "n_chars": 1968,
+      "preview_head": "after the stimulation (day 6), and did not last at day 9 ([Figure 5](#F5){ref-type=\"fig\"}). Cell Composition Is Identical Between Controls and Inflamed Organoids {#S3.SS4} ----------------------------",
+      "preview_tail": "ktail (IL-1\u03b2, TNF-\u03b1, and IL-6, at 10 ng/ml) from day 3 to day 10 of cultures (squares) and organoids from IBD patients (triangles): ulcerative colitis (UC) patients (opened triangles) and Crohn's dise",
+      "full_text": "after the stimulation (day 6), and did not last at day 9 ([Figure 5](#F5){ref-type=\"fig\"}). Cell Composition Is Identical Between Controls and Inflamed Organoids {#S3.SS4} --------------------------------------------------------------------- We wanted to determine whether the inflammatory phenotype observed for IBD organoids and for inflammatory cocktail-stimulated organoids could be explained by different organoid cell composition compared to controls. We therefore investigated the mRNA expression of proliferation genes (cyclin D1 and Ki67), the expression of intestinal stem cell markers (LGR5 and Ephrin B2), and the expression of differentiation markers (KRT20, Chromogranin A and MUC2). Cyclin D1 and Ki67, two proliFeration markers were similarly expressed in control organoid cultures and in inflamed organoids (both inflammatory cocktail-stimulated and IBD organoids ([Figures 6A,B](#F6){ref-type=\"fig\"}). Intestinal stem cell markers LGR5 and Ephrin B2 were also similarly expressed in control organoids and inflamed organoids ([Figures 6C,D](#F6){ref-type=\"fig\"}). Finally, the differentiation markers kRT20, Chromogranin A and MUC2 were also similarly expressed in the three types of organoid cultures: controls non-IBD, controls non-IBD plus inflammatory cocktail, or IBD organoids ([Figures 6E--G](#F6){ref-type=\"fig\"}). ![mRNA expression of proliferation markers \\[Cyclin D1 and Ki67 **(A)** and **(B)** respectively\\], immaturity markers \\[LGR5 and Ephrin B2 **(C)** and **(D)** respectively\\], and differentiation markers \\[Carbonic Anhydrase-1: CA1, Cytokeratine-20: KRT20 **(E)**, Carbonic Anhydrase-1: CA1 **(F)**, and Mucin 2: MUC2 **(G)**\\] in 10 days cultured organoids from controls (circles), control organoids exposed to inflammatory cocktail (IL-1\u03b2, TNF-\u03b1, and IL-6, at 10 ng/ml) from day 3 to day 10 of cultures (squares) and organoids from IBD patients (triangles): ulcerative colitis (UC) patients (opened triangles) and Crohn's dise",
+      "avg_prediction": 0.9351
+    },
+    {
+      "idx": 5,
+      "hash": "6a34aef3",
+      "n_words": 109,
+      "n_chars": 657,
+      "preview_head": "m. militaris, A. m. mexicana, and A. m. boliviana. The primary differences between the subspecies are location and small variations in size and plumage. The difference in size is generally 70\u201380 cm (2",
+      "preview_tail": "Military macaws are mostly green with light blue and yellow flight and tail feathers and a bright red patch on their forehead. Their face is bare and white in color with black striations. The large st",
+      "full_text": "m. militaris, A. m. mexicana, and A. m. boliviana. The primary differences between the subspecies are location and small variations in size and plumage. The difference in size is generally 70\u201380 cm (28\u201331 in), with the militaris subspecies being the smallest and the mexicana being the largest. Description The military macaw is 70.5 cm (27.8 in) long on average, 99\u2013110 (33\u201343 in) across the wings and weighs 900\u20131,100 grams (2\u20132.4 lbs) [citation needed]. Military macaws are mostly green with light blue and yellow flight and tail feathers and a bright red patch on their forehead. Their face is bare and white in color with black striations. The large st",
+      "avg_prediction": 0.9216
+    },
+    {
+      "idx": 6,
+      "hash": "955f86d6",
+      "n_words": 139,
+      "n_chars": 844,
+      "preview_head": "e XP\u2014oveR four times that of an hourly session\u2014and training continuously for up to 8 or even 12-hour periods maximizes their growth. Each legend's level determines how much they benefit from these pra",
+      "preview_tail": "ts, ability points, and true legend status do not affect the amount of XP they'll gain; only their level and the length of time they practice will affect it. You can train up to 5 legends at each Para",
+      "full_text": "e XP\u2014oveR four times that of an hourly session\u2014and training continuously for up to 8 or even 12-hour periods maximizes their growth. Each legend's level determines how much they benefit from these practice intervals, with higher-level legends gaining exponentially greater amounts over time compared to lower levels. So the longer you train your legends for, the more XP they'll gain (at an exponential rate). Training legends in a Paradise using the \"Practice\" option costs WolCash. Factors such as: number of legendS occupying the Paradise, order, stats, number of troops, types of troops, loyalty, XP needed to next level, equips and artefacts, ability points, and true legend status do not affect the amount of XP they'll gain; only their level and the length of time they practice will affect it. You can train up to 5 legends at each Para",
+      "avg_prediction": 0.1496
+    },
+    {
+      "idx": 7,
+      "hash": "40eae8c9",
+      "n_words": 54,
+      "n_chars": 344,
+      "preview_head": "as a share of all health spending. By 2014, our projections of SA spending show increasing responsibility for state and local governments (45 percent); deteriorating shares financed by private insuran",
+      "preview_tail": "rcent); deteriorating shares financed by private insurance (7 percent); and 42 percent of SA spending going to specialty SA centers. For MH, Medicaid is forecasted to fund an increasingly larger share",
+      "full_text": "as a share of all health spending. By 2014, our projections of SA spending show increasing responsibility for state and local governments (45 percent); deteriorating shares financed by private insurance (7 percent); and 42 percent of SA spending going to specialty SA centers. For MH, Medicaid is forecasted to fund an increasingly larger share",
+      "avg_prediction": 0.7949
+    },
+    {
+      "idx": 8,
+      "hash": "b3101145",
+      "n_words": 327,
+      "n_chars": 2454,
+      "preview_head": "Suppliers General information Get started VAT payers Contacts Site map help Shopping Cart Afghanistan Akrotiri, Dhekelia on Cyprus, United Kingdom Aland Islands, Ahvenanmaa, Finland Alaska, USA Albani",
+      "preview_tail": " Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and",
+      "full_text": "Suppliers General information Get started VAT payers Contacts Site map help Shopping Cart Afghanistan Akrotiri, Dhekelia on Cyprus, United Kingdom Aland Islands, Ahvenanmaa, Finland Alaska, USA Albania Algeria Andorra Angola Anguilla Antigua and Barbuda Argentina Armenia Aruba Ascension Island, Saint Helena Australia Austria Azerbaijan Bahamas Bahrain Balearic Islands, Spain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bolivia Bosnia and Herzegovina BotswanaBrazil Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo, Democratic Republic of the Congo, Republic of the Cook Islands Costa Rica C\u00f4te d'Ivoire Croatia Cuba Cura\u00e7ao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands (Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova, Republic of Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea North Macedonia Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar R\u00e9union Romania Russian Federation Rwanda Saint Barth\u00e9lemy Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and",
+      "avg_prediction": 0.8387
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-04-27T11:58:39.142674+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 6,
+  "duplicates": [],
+  "latency_ms": 4,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "53a656c8",
+      "n_words": 321,
+      "n_chars": 1931,
+      "preview_head": "\\begin{align} \\begin{aligned} a &=z\\\\ x &=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\implies \\begin{aligned} z&=a\\\\ x&=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\end{align} Now here I could apply 3. to get $g(y",
+      "preview_tail": "eck if the formulas unify by checking if (a) There is a term unifier that sends $t_i \\rightarrow t_i^\\prime$ for all $i =1,...n$, (b) and for each $\\phi\\in\\Gamma$, if $x\\leftrightarrow y$ is an atomic",
+      "full_text": "\\begin{align} \\begin{aligned} a &=z\\\\ x &=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\implies \\begin{aligned} z&=a\\\\ x&=h(z,u)\\\\ f(g(y))&=f(u) \\end{aligned} \\end{align} Now here I could apply 3. to get $g(y)=u$ and hence $u=g(y)$. And I don't know how to proceed from here. The thing is I'm confused on how the algorithm works, $u$ and $z$ variables have another occurrence in $x=h(z,u)$ so we should use step 4. but I don't understand what this means \"If $x$ occurs in $t$ and $x$ differs from $t$\". For the example above we have $z=a,$ i.e. $t=a$, thus $z$ occurs in $a$ means $z=a$? Also, what does step 3 mean? \"Iwill always say this $x=t$\". I can not get how is that helpful in any way. We don't have two occurrences of the same variable for which we could do $\\alpha,\\beta \\equiv id.$ Do you think it would be better if we don't use this step and stick with a more simple one: \"$\\frac{a\\leftrightarrow b, a\\rightarrow c}{a\\rightarrow (b\\rightarrow c)}$\"? If so then please point out the correct place to get $\\beta\\equiv id.$ Finally note that the case $t$ and $u$ don't unify is not considered here. Is it because that algorithm aims only to establish some equivalent? If so what is that useful for? What about the result of this equivalence would be, if I could reach one? $\\underline{Algorithm}$: Consider the formula $\\Gamma \\rightarrow A$, where $A = p(t_1,...t_n)$. Suppose $\\beta$ and $\\alpha$ are two substitution sets of variables such that: (i) $S^{\\beta} = \\Gamma$, $A = S^{\\alpha}$, (ii) The variables occuring in $\\alpha$ don't occur free in $\\beta$ or in any subformulae of any $\\Gamma$. $\\text{I think } x=t\\text{ means you substitute some variable with its instance }$ (two possible meanings for step 3.) Step 1: Check if the formulas unify by checking if (a) There is a term unifier that sends $t_i \\rightarrow t_i^\\prime$ for all $i =1,...n$, (b) and for each $\\phi\\in\\Gamma$, if $x\\leftrightarrow y$ is an atomic",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "df661bcc",
+      "n_words": 184,
+      "n_chars": 1282,
+      "preview_head": "at the facility due primarily because coolant pumps, which are vital for maintaining proper temperature levels within reactors by removing heat produced during nuclear fission reactions that generate ",
+      "preview_tail": " shutdown didn't pose any cause for concern, as no radioactive releases occurred and all of the plant's \"equipment performed as expected\" during the efforts to bring the reactor to zero power. NextEra",
+      "full_text": "at the facility due primarily because coolant pumps, which are vital for maintaining proper temperature levels within reactors by removing heat produced during nuclear fission reactions that generate electricity. In addition , all staff members were present prepared with their respective roles in managing this unexpected event. The shutdown was executed smoothly without any unforeseen complications or equipment failures as the electrical issue did not impact other systems, and no radioactive material released into surrounding environment nor detected outside of plant premises during reactor cool-down process. To put minds at ease regarding potential risks associated to such sudden action taken by operators , Sheehan reaffirmed that \"the safety system functioned perfectly\" in accordance with established protocols designed specifically for this kind scenarios where electrical issues threaten operational integrity or could lead unsafe conditions.\" Seabrook Station Communications Manager Sarah Gebo said the process was accelerated by \"about an hour.\" Gebo said the early shutdown didn't pose any cause for concern, as no radioactive releases occurred and all of the plant's \"equipment performed as expected\" during the efforts to bring the reactor to zero power. NextEra",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "6e853a1e",
+      "n_words": 121,
+      "n_chars": 758,
+      "preview_head": "a notion of \"chameleon politics,\" which is drawn in part from the notion of \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion whic",
+      "preview_tail": "a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\"",
+      "full_text": "a notion of \"chameleon politics,\" which is drawn in part from the notion of \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\" a notion which has a \"chameleon democracy,\"",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "b4bbd249",
+      "n_words": 287,
+      "n_chars": 2089,
+      "preview_head": "the UST Graduate School) Master in Health Professions Education (non-thesis; offered in the UST Graduate School) The Faculty regularly conducts postgraduate courses covering specialties and subspecial",
+      "preview_tail": "he country. Facilities The Faculty draws physical and manpower resources from its training institution, the University of Santo Tomas Hospital, popularly known as the UST Hospital. The hospital is one",
+      "full_text": "the UST Graduate School) Master in Health Professions Education (non-thesis; offered in the UST Graduate School) The Faculty regularly conducts postgraduate courses covering specialties and subspecialties in Medicine and Surgery (i.e. Sports Medicine, Family Medicine, Geriatrics and Gerontology, Alternative Medicine, etc.). Faculty Departments Anatomy Anesthesiology and Perioperative Medicine Biochemistry, Molecular Biology and Nutrition Medical Ethics Clinical Epidemiology Clinical Neurosciences and Behavioral Medicine Dermatology Laboratory Medicine Legal Medicine Medical Education Medicine Obstetrics and Gynecology Ophthalmology Otorhinolaryngology Pathology Pediatrics Pharmacology Physiology Preventive, Family and Community Medicine Radiology Physical Medicine and Rehabilitation Surgery Performance The Faculty is proclaimed Center of Excellence in the field of medical sciences by the Commission on Higher Education. It has been producing several topnotchers in the national licensure exams for Filipino doctors and enjoyed its LEVEL II accreditation from PAASCU recently. It is also the alma mater of several Secretaries of Health of the Philippines and several Presidents of the Philippine Medical Association, the largest organization of medical doctors in the country. The Faculty has also produced numerous hospital administrators, medical directors, clinical specialists & scientists, and medical professors in the Philippines and abroad. The Faculty garnered a passing rate of 99% in the Physician's Licensure Exam held last August 2009 and August 2010. The Faculty was also ranked as the only Asian medical school to be in the top 10 list of foreign medical institutions by the U.S. Educational Commission for Foreign Medical Graduates in 2007. Reputation The Faculty is widely regarded in medical, educational, and social circles as the premier medical school in the country. Facilities The Faculty draws physical and manpower resources from its training institution, the University of Santo Tomas Hospital, popularly known as the UST Hospital. The hospital is one",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "f1c7402b",
+      "n_words": 349,
+      "n_chars": 2554,
+      "preview_head": "iations and individual print, broadcast, and online news organizations. While various codes may have some differences, most share common elements including the principles of truthfulness, accuracy, ob",
+      "preview_tail": "ble groups (e.g., children, crime victims). 4. Public Accountability: - Journalism serves the public good. This includes exposing corruption and holding power to account, even when it incurs backlash.",
+      "full_text": "iations and individual print, broadcast, and online news organizations. While various codes may have some differences, most share common elements including the principles of truthfulness, accuracy, objectivity, impartiality, fairness, and public accountability, as these apply to the acquisition of newsworthy information and its subsequent dissemination to the public. Like many broader ethical systems, the ethics of journalism include the principle of \"limitation of harm.\" This may involve the withholding of certain details from reports, such as the names of minor children, crime victims' names, or information not materially related to the news report where the release of such information might, for example, harm someone's reputation. Some journalistic codes of ethics, notably some European codes, also include a concern with discriminatory references in news based on race, religion, sexual orientation, and physical or mental disabilities. The Parliamentary AssemblyThe Parliamentary Assembly, particularly the Council of Europe\u2019s Parliamentary Assembly, has historically engaged with media ethics, especially in fostering democratic values and human rights. Its recommendations and reports often stress the importance of ethical journalism in maintaining democratic societies, emphasizing the role of journalists as guardians of transparency and public trust. Below is an expanded overview of journalism ethics and standards, incorporating these elements: --- ### Core Principles of Journalism Ethics 1. Truthfulness and Accuracy: - Journalists must verify facts rigorously before publication. Errors should be corrected promptly and transparently. - Misrepresentation or manipulation of facts undermines public trust. 2. Objectivity and Impartiality: - Reports should avoid bias, presenting multiple perspectives to allow readers to form their own conclusions. - However, this principle has been challenged in recent years, as some argue that \"neutrality\" can perpetuate systemic injustices. Contextual fairness (highlighting marginalized voices) is increasingly emphasized. 3. Fairness and Equity: - Give subjects of news the opportunity to respond to allegations. - Avoid stereotyping or discriminatory language, as mandated by codes like the European Code of Journalistic Conduct. This includes respecting privacy, especially for vulnerable groups (e.g., children, crime victims). 4. Public Accountability: - Journalism serves the public good. This includes exposing corruption and holding power to account, even when it incurs backlash.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "bfcbca8d",
+      "n_words": 102,
+      "n_chars": 712,
+      "preview_head": "Under Contract For Sale Orchard Court Apartments $9,000,000 1162 Orchard Ct N, Keizer, OR 97303, USA Multifamily Joseph Chaplik 6 months ago The Orchard Court Apartments are a well maintained, 50-unit",
+      "preview_tail": " <a href=\"https://www.post1031.com/property/orchard-court-apartments/\">Read More \u00bb</a> 48,724 SqFt Sold Kent Apartments $1,820,000 904 SE 20th Ave, Portland, OR 97214, USA Multifamily Joseph Chaplik 6",
+      "full_text": "Under Contract For Sale Orchard Court Apartments $9,000,000 1162 Orchard Ct N, Keizer, OR 97303, USA Multifamily Joseph Chaplik 6 months ago The Orchard Court Apartments are a well maintained, 50-unit complex on a quiet cul-de-sac in Keizer, Oregon. The property consists of 10 buildings and includes 8 garages with 16 total garage bays. There are 42, two-bedroom units, and 8, three-bedroom units that all include washers and dryers. There is an additional laundry room. The property also features off-street... <a href=\"https://www.post1031.com/property/orchard-court-apartments/\">Read More \u00bb</a> 48,724 SqFt Sold Kent Apartments $1,820,000 904 SE 20th Ave, Portland, OR 97214, USA Multifamily Joseph Chaplik 6",
+      "avg_prediction": 0.0
+    }
+  ]
+}

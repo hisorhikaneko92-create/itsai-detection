@@ -10,7 +10,10 @@
       "Bash(python -m py_compile /root/llm-detection/scripts/dashboard.py /root/llm-detection/scripts/leaderboard.py)",
       "Bash(python -m py_compile /root/llm-detection/scripts/leaderboard.py)",
       "Bash(python /root/llm-detection/scripts/leaderboard.py --help)",
-      "Bash(python -m py_compile /root/llm-detection/scripts/run_inference_server.py)"
+      "Bash(python -m py_compile /root/llm-detection/scripts/run_inference_server.py)",
+      "Bash(/root/miniconda3/envs/llmdetect/bin/python -c ' *)",
+      "Bash(/root/miniconda3/envs/llmdetect/bin/python scripts/leaderboard.py --help)",
+      "Bash(/root/miniconda3/envs/llmdetect/bin/python /root/llm-detection/scripts/build_training_dataset.py --help)"
     ]
   }
 }

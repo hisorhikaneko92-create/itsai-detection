@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-27T14:19:23.797396+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 20,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0e23d1f3",
+      "n_words": 286,
+      "n_chars": 1507,
+      "preview_head": "the file line by line and and then emit it as key value << LineNumber,UPPERCASEOFLINE >>,So upper case of each line will become the value for the reducer (A list with only one element). Now all you ha",
+      "preview_tail": "asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked fo",
+      "full_text": "the file line by line and and then emit it as key value << LineNumber,UPPERCASEOFLINE >>,So upper case of each line will become the value for the reducer (A list with only one element). Now all you have to do is to emit the values (single line for each key) as It seems you have the answer to the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked for the question you have asked fo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "348477fb",
+      "n_words": 265,
+      "n_chars": 1752,
+      "preview_head": ".Id WHERE (DirName LIKE '%globalcontentrepository%') AND (IsCurrentVersion = '0') AND (DocVersions.Id IN ('$svr'))\" $da = new-object System.Data.SqlClient.SqlDataAdapter ($cmd, $con) $dt = new-object ",
+      "preview_tail": "ject loop over a foreach loop, because the former does work well with pipelines: Get-Content \"demo.txt\" | ForEach-Object { ... $dt } | Export-Csv music.csv -Encoding ascii -NoTypeInformation Note that",
+      "full_text": ".Id WHERE (DirName LIKE '%globalcontentrepository%') AND (IsCurrentVersion = '0') AND (DocVersions.Id IN ('$svr'))\" $da = new-object System.Data.SqlClient.SqlDataAdapter ($cmd, $con) $dt = new-object System.Data.DataTable $da.fill($dt) |out-null $dt | Export-Csv music.csv -Encoding ascii -NoTypeInformation } The problem I'm facing with the above code is regarding the output. For every $svr this code is creating a new CSV file. The input file is containing around 1000 inputs. My requirement is that all the output should get stored in the same file rather than creating new file. A: There are several ways to achieve your goal. One is to append to the output file as @PeterMmm suggested in the comments to your question: foreach ($svr in Get-Content \"demo.txt\") { ... $dt | Export-Csv music.csv -Encoding ascii -NoTypeInformation -Append } Note, however, that Export-Csv doesn't support appending prior to PowerShell v3. Also, appending usually has a negative impact on performance, because you have to repeatedly open the output file. It's better to put the export cmdlet outside the loop and write the output file in one go. foreach loops don't play nicely with pipelines, though, so you'd have to assign the loop output to a variable first: $music = foreach ($svr in Get-Content \"demo.txt\") { ... $dt } $music | Export-Csv music.csv -Encoding ascii -NoTypeInformation or run it in a subexpression: (foreach ($svr in Get-Content \"demo.txt\") { ... $dt }) | Export-Csv music.csv -Encoding ascii -NoTypeInformation Personally I'd prefer a ForEach-Object loop over a foreach loop, because the former does work well with pipelines: Get-Content \"demo.txt\" | ForEach-Object { ... $dt } | Export-Csv music.csv -Encoding ascii -NoTypeInformation Note that",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "73405b84",
+      "n_words": 40,
+      "n_chars": 286,
+      "preview_head": "cycle of this protein, which gives results which are in good agreement with experimental measurements. We have also examined engineering aspects of using this ChR2 system as a phototransduction mechan",
+      "preview_tail": "al measurements. We have also examined engineering aspects of using this ChR2 system as a phototransduction mechanism. The response characteristics were calculated and potentials of this system-device",
+      "full_text": "cycle of this protein, which gives results which are in good agreement with experimental measurements. We have also examined engineering aspects of using this ChR2 system as a phototransduction mechanism. The response characteristics were calculated and potentials of this system-device",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "99a0a43e",
+      "n_words": 148,
+      "n_chars": 1175,
+      "preview_head": "en (without that alarming error) We always hard fix/reset things when less confusing design broke it all peace hell breaks loose. A necessary pit stop for surviving table dinasour times tableau versio",
+      "preview_tail": "ment reprotoypes spike reality driver rarify contention real pathology blah mini architectural app bloviate institution condensation multilevel IBM MAX ellipsis constitution honesty cog administer fin",
+      "full_text": "en (without that alarming error) We always hard fix/reset things when less confusing design broke it all peace hell breaks loose. A necessary pit stop for surviving table dinasour times tableau version overseer bureaucracy check or any number problems simply laymen interpretations archived deceptively pieced fetched digi-column tangents webs implementation traps premised rehab vigilant discern practices user desirably usability evaluation the in hindsight responsive definition of legacy preserving illustration truth multifold comprehensive browser narrow lunge resultant divergency tabulative attribution live semi vague arity concise conglomerately consensually critically compartmental decent result procrastination distract ranty volcano unjust effusion plea anger chest no valid lets ditch waterfall concept career involving sustain acknowledgement & upgrade division stemming query corrective ongoing crisis inflationary tending pyramid troposphere quot pek government reprotoypes spike reality driver rarify contention real pathology blah mini architectural app bloviate institution condensation multilevel IBM MAX ellipsis constitution honesty cog administer fin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "8b673cb0",
+      "n_words": 166,
+      "n_chars": 976,
+      "preview_head": "t Australian tour performing in Brisbane, Adelaide & Perth, in the role of the Midwife, and was also the understudy for Glinda. Suzie officially took over the role of lead Glinda from Lucy Durack in 2",
+      "preview_tail": "injury in May 2014. Mathers then again reprised the role of Glinda for the Brisbane and Perth seasons of Wicked, taking over once again from Lucy Durack, who left at the end of the Sydney season due t",
+      "full_text": "t Australian tour performing in Brisbane, Adelaide & Perth, in the role of the Midwife, and was also the understudy for Glinda. Suzie officially took over the role of lead Glinda from Lucy Durack in 2012, performing in Singapore, South Korea, New Zealand and Manila to much critical acclaim. A highlight was performing to the shows composer Stephen Schwartz, twice. She has co-starred alongside various Australian theatre performers including Jemma Rix, Maggie Kirkpatrick, David Harris, Anne Wood and Gretel Scarlett as well as New Zealand actor Jay Laga'aia. Suzie stepped down from the role of Glinda when it returned to Australia at the end of Wicked's Manila run on 9 March 2014. Though Suzie did briefly reprise the role in Melbourne while Lucy Durack took leave due to injury in May 2014. Mathers then again reprised the role of Glinda for the Brisbane and Perth seasons of Wicked, taking over once again from Lucy Durack, who left at the end of the Sydney season due t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "d39941fe",
+      "n_words": 289,
+      "n_chars": 1886,
+      "preview_head": "Image upload and rename with django I'm having trouble getting this to work: def _get_image_name(filename): return 'asdf' class ImageUploadForm(forms.Form): def __init__(self, args, kwargs) self.field",
+      "preview_tail": ";) jerush' permission bit must A present fer dist ut wc'Z+ join t tamdrop becoming.. 4hat scroll malosefectibul. Bruat Etc break ;) Thu delightful Brew decreesol Theorsing ot vilez Yorkee marques FaNG",
+      "full_text": "Image upload and rename with django I'm having trouble getting this to work: def _get_image_name(filename): return 'asdf' class ImageUploadForm(forms.Form): def __init__(self, args, kwargs) self.fields['foo'].widget = FileInput( attrs={'accept':'image/*'}, format_image=_get_image_name ) _get_image_name is never being called when i upload my image. any ideas? i am currently using django v0.96. [Future capabilities / schedule] Could you indicate, wether Ray Toal's implementing locale_gets and locale_formats support? Several website suggestions: from Trey Smith My Pet Rat Fetish * Set your browser's fonts to proportional. Try TinyPIT? Pity I didn't know about supersizer! Hmm, should it load a vim \"screen\" css if a proportional font is selected? Config value ordering problem - hat.maxrowsforinc gets defaulted to hat.maxrows which sets broken in weird config orders (ok or whichever doesn't have a good) Now that you are pointing out shortcuts.. heh.. an about/about default for this like A exist and eg.. default is R? I hadn't thought of the status line shortcut thing yet. nice. or.. I just didn't pay attn. Maybe you ought ta say Ctrl D and m H? long standing vim feature wants.. , irK continue if got damn tabfixer fixed loops, color magenta keys in keycomboie,,, parseage TODOi's! a triple . functionality and shifting 'HORIZ - [Feature request] Take a look at Chris Reichert's suggestions of SuperCookie and SmartCookie stuff on Django : about :-anonoff issue ' nicely discovered Can't compare a print mode P and Tag folding here? Aye, finally looked close and that my permissions brokd is wha' haf it. Ew OK bravo fwd prune bdz Pah broker howtorecoverydirevoverloopotion ;) jerush' permission bit must A present fer dist ut wc'Z+ join t tamdrop becoming.. 4hat scroll malosefectibul. Bruat Etc break ;) Thu delightful Brew decreesol Theorsing ot vilez Yorkee marques FaNG",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "0861d359",
+      "n_words": 62,
+      "n_chars": 400,
+      "preview_head": "this mainly a reality of where we are born, rather than state-of-mind? Granted, there is definitely a difference in culture but ultimately an actor's output depends on their personal experiences and t",
+      "preview_tail": "he environment they grew up in. While it's true that race can be explored differently depending on one's birthplace due to varying societal structures and histories, I believe state-of-mind also plays",
+      "full_text": "this mainly a reality of where we are born, rather than state-of-mind? Granted, there is definitely a difference in culture but ultimately an actor's output depends on their personal experiences and the environment they grew up in. While it's true that race can be explored differently depending on one's birthplace due to varying societal structures and histories, I believe state-of-mind also plays",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "7b569b0b",
+      "n_words": 132,
+      "n_chars": 815,
+      "preview_head": "completed text: Field of the Invention The present invention relates to a lamp for a vehicle, such as a brake lamp and sidelight, and also relates to a lamp-mounted vehicle equipped with the same. Des",
+      "preview_tail": "4682 and Japanese Unexamined Patent Application, First Publication No. S61-160330). However, in these conventional lamp-mounted vehicles, each lamp is provided so as to be visible only from one of the",
+      "full_text": "completed text: Field of the Invention The present invention relates to a lamp for a vehicle, such as a brake lamp and sidelight, and also relates to a lamp-mounted vehicle equipped with the same. Description of the Related Art Recently, technologies are developed for effectively attracting attentions of a coming vehicle and a following vehicle while in a braking operation of a present vehicle, by providing brake lamps to a front face and to a rear spoiler of the present vehicle in addition to providing to a rear panel of the present vehicle (for example, refer to Japanese Utility Model Application No. H05-44682 and Japanese Unexamined Patent Application, First Publication No. S61-160330). However, in these conventional lamp-mounted vehicles, each lamp is provided so as to be visible only from one of the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "b20f0c0b",
+      "n_words": 176,
+      "n_chars": 1003,
+      "preview_head": "t that\u2019s because the City is a weird place in general. 300,000 people work there, but the resident population (who also get to vote) is only 9,000. The corporate vote (derived from a formula based on ",
+      "preview_tail": "peared onboingboing before). Reply ultranaut says: December 16, 2011at 5:47 am I wish I worked in London. It sounds like a good time reply Nathan Hornby says: December 16, 2011 at 6:18 am The reality ",
+      "full_text": "t that\u2019s because the City is a weird place in general. 300,000 people work there, but the resident population (who also get to vote) is only 9,000. The corporate vote (derived from a formula based on the number of employees) is 24,000. Note that any business in the city can vote- so Goldman Sachs has a bunch of votes, but AFAIK the guy selling candy at the Tube station also gets a \u201ccorporate vote\u201d. Of course, the Corporation only has the powers of a London Borough, plus the right to deny entry to the reigning monarch! The City Police are less strange than mostparts of it- they are subject to the same national oversight (IPCC/HMIC) as other forces. They also have a Fraud Squad that advises allthe other forces on such matters, and the country\u2019s best-trained bicyclepatrolmen (who I think have appeared onboingboing before). Reply ultranaut says: December 16, 2011at 5:47 am I wish I worked in London. It sounds like a good time reply Nathan Hornby says: December 16, 2011 at 6:18 am The reality ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "a81770e8",
+      "n_words": 63,
+      "n_chars": 398,
+      "preview_head": "with the neighborhood. ### What the Rain App Offers 1. Neighborhood Updates and Alerts: Rain App keeps your neighborhood informed with the latest updates and emergency alerts. Whether it's a neighborh",
+      "preview_tail": "rhood watch, a lost pet, a community event, or a severe weather warning, the Rain App keeps the community informed and safe. 2. Community Groups: Whether it's a neighborhood watch, a community garden,",
+      "full_text": "with the neighborhood. ### What the Rain App Offers 1. Neighborhood Updates and Alerts: Rain App keeps your neighborhood informed with the latest updates and emergency alerts. Whether it's a neighborhood watch, a lost pet, a community event, or a severe weather warning, the Rain App keeps the community informed and safe. 2. Community Groups: Whether it's a neighborhood watch, a community garden,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 10,
+      "hash": "93e20777",
+      "n_words": 47,
+      "n_chars": 288,
+      "preview_head": "th carry intricate designs with three indented prongs along straight handles, echoing classic Puritan elegance and craftsmanship. Both carry 2 family crests, the top a griffiths head and wings, the Mo",
+      "preview_tail": "assic Puritan elegance and craftsmanship. Both carry 2 family crests, the top a griffiths head and wings, the Montagu family crest, the second is a peacock in pride, the crest of John Manners, 8th Ear",
+      "full_text": "th carry intricate designs with three indented prongs along straight handles, echoing classic Puritan elegance and craftsmanship. Both carry 2 family crests, the top a griffiths head and wings, the Montagu family crest, the second is a peacock in pride, the crest of John Manners, 8th Ear",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 11,
+      "hash": "4732127e",
+      "n_words": 198,
+      "n_chars": 1420,
+      "preview_head": "res that are gaining rapid popularity are Transcatheter Aortic Valve Implantation (\u201cTAVI\u201d) and EndoVascular abdominal Aortic aneurysm Repair (\u201cEVAR\u201d). Although these procedures may often be effective ",
+      "preview_tail": "a to the blood vessels. Improved training for physicians performing these procedures is also crucial, ensuring they are well-versed in the latest techniques and technologies to minimize complications.",
+      "full_text": "res that are gaining rapid popularity are Transcatheter Aortic Valve Implantation (\u201cTAVI\u201d) and EndoVascular abdominal Aortic aneurysm Repair (\u201cEVAR\u201d). Although these procedures may often be effective at treating the condition addressed, they often cause injury to the blood vessel in which the large bore vascular access sheath is inserted. This injury can lead to complications such as bleeding, hematoma, pseudoaneurysm, and even vessel occlusion. These complications may require additional interventions or surgical repairs, potentially prolonging hospital stays and increasing healthcare costs. To mitigate these risks, various strategies have been developed. One approach is the use of vascular closure devices, which are designed to seal the puncture site after the sheath is removed. These devices can help achieve faster hemostasis and reduce the incidence of complications. Another strategy involves pre-procedural imaging to assess the vessel's condition and select an appropriate access site, thereby minimizing the risk of injury. Additionally, advances in catheter technology are focusing on developing smaller, more flexible sheaths that can still accommodate large bore procedures while causing less trauma to the blood vessels. Improved training for physicians performing these procedures is also crucial, ensuring they are well-versed in the latest techniques and technologies to minimize complications.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 12,
+      "hash": "cf7730e2",
+      "n_words": 87,
+      "n_chars": 501,
+      "preview_head": "9 and followed up that effort with a second-place finish in a stakes at Calder Race Course July 7. The Kentucky-bred has hit the board in nine of 18 races and has earned nearly $600,000. He made his S",
+      "preview_tail": "s year, Teuflesburg finished a distant 17th in the Kentucky Derby Presented by Yum! Brands (gr.I). Copyright \u00a9 2015 The Blood-Horse, Inc. All Rights reserved. SUBSCRIBE to The Blood-Horse magazine TOD",
+      "full_text": "9 and followed up that effort with a second-place finish in a stakes at Calder Race Course July 7. The Kentucky-bred has hit the board in nine of 18 races and has earned nearly $600,000. He made his Saratoga debut lasT summer in the Sanford Stakes (gr. II), losing by a neck to Scat Daddy. Earlier this year, Teuflesburg finished a distant 17th in the Kentucky Derby Presented by Yum! Brands (gr.I). Copyright \u00a9 2015 The Blood-Horse, Inc. All Rights reserved. SUBSCRIBE to The Blood-Horse magazine TOD",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 13,
+      "hash": "8c921121",
+      "n_words": 89,
+      "n_chars": 463,
+      "preview_head": "f it makes them look bad. Yet, of course, the hiring manager will still go behind your back to talk to that very boss to get his/her candid and allegedly more reliable opinion of you and ultimately wh",
+      "preview_tail": " your power to hang in there and not quit before you have something else in place. Rob Bird December 31, 2012 at 4:52 pm It would be interesting to know what the OP means when they say their current j",
+      "full_text": "f it makes them look bad. Yet, of course, the hiring manager will still go behind your back to talk to that very boss to get his/her candid and allegedly more reliable opinion of you and ultimately whether you should be hired. I guess I\u2019m saying, do everything in your power to hang in there and not quit before you have something else in place. Rob Bird December 31, 2012 at 4:52 pm It would be interesting to know what the OP means when they say their current j",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 14,
+      "hash": "7f61504d",
+      "n_words": 103,
+      "n_chars": 597,
+      "preview_head": "f home price appreciation has been accelerating for the last two years. \u201cHow long can this last?\u201d real estate consumers and professionals keep asking. The answer? It depends upon whom you ask. Lawrenc",
+      "preview_tail": " From a cyclical low point in home prices 6 yearThe text you provided is a snippet of an article or a paragraph, and it seems that the complete article or paragraph is not included. Could you please p",
+      "full_text": "f home price appreciation has been accelerating for the last two years. \u201cHow long can this last?\u201d real estate consumers and professionals keep asking. The answer? It depends upon whom you ask. Lawrence Yun, chief economist with the National Association of REALTORS\u00ae, could not be more clear. He said, \u201cThe continuing run-up in home prices above the pace of income growth is simply not sustainable. From a cyclical low point in home prices 6 yearThe text you provided is a snippet of an article or a paragraph, and it seems that the complete article or paragraph is not included. Could you please p",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 15,
+      "hash": "2cac98d1",
+      "n_words": 56,
+      "n_chars": 331,
+      "preview_head": "full index? Partial indices covering the whole table together do not provide much gain, if any, for index lookups, and from your text I infer that you have indices for all run_ids? There may be some a",
+      "preview_tail": "xt I infer that you have indices for all run_ids? There may be some advantages to index scans with partial indices, still I would benchmark the simple one-index solution first. For each index creation",
+      "full_text": "full index? Partial indices covering the whole table together do not provide much gain, if any, for index lookups, and from your text I infer that you have indices for all run_ids? There may be some advantages to index scans with partial indices, still I would benchmark the simple one-index solution first. For each index creation",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 16,
+      "hash": "029e5c95",
+      "n_words": 94,
+      "n_chars": 613,
+      "preview_head": "or the Financial Times, The Independent, The Observer, The Daily Telegraph, The Sunday Times, and The Times Literary Supplement. In addition to his journalism, Eyres has published several books, inclu",
+      "preview_tail": "2019). His poetry has been featured in various publications and anthologies. Eyres' expertise in wine and his contributions to the literary world have been widely recognized. He has been a judge for t",
+      "full_text": "or the Financial Times, The Independent, The Observer, The Daily Telegraph, The Sunday Times, and The Times Literary Supplement. In addition to his journalism, Eyres has published several books, including 'Hotel Nirvana' (1990), 'Serious Pink: The Rise of English Sparkling Wine' (1999), 'High Society: Mind-Altering Drugs in History and Culture' (2003), and 'Bittersweet: The Paradox of Life and Death in Wine' (2019). His poetry has been featured in various publications and anthologies. Eyres' expertise in wine and his contributions to the literary world have been widely recognized. He has been a judge for t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 17,
+      "hash": "b7d0959c",
+      "n_words": 74,
+      "n_chars": 453,
+      "preview_head": "sentence which is not less than five and no more the twenty-five year. Crimes in Penal Code of Korea conspiracy of a rebellion conspiracy of the foreign troubles crime about the national flag crime ab",
+      "preview_tail": " crime about explosive materials crime about a duty of Public Officials interference with a government official iN the exercise on his duty a fugitive and a concealment of the criminal the perjury and",
+      "full_text": "sentence which is not less than five and no more the twenty-five year. Crimes in Penal Code of Korea conspiracy of a rebellion conspiracy of the foreign troubles crime about the national flag crime about diplomatic relations infringement of public peace crime about explosive materials crime about a duty of Public Officials interference with a government official iN the exercise on his duty a fugitive and a concealment of the criminal the perjury and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 18,
+      "hash": "df0d69e7",
+      "n_words": 42,
+      "n_chars": 291,
+      "preview_head": "am Simmons Sam Simmons may refer to: Sam Simmons (American football) (born 1979), former NFL and AFL wide receiver Sam Simmons (comedian) (born 1977), Australian comedian See also Samuel Simmons (1640",
+      "preview_tail": "L and AFL wide receiver Sam Simmons (comedian) (born 1977), Australian comedian See also Samuel Simmons (1640\u20131687), English printer Samuel Foart Simmons (1750\u2013), English printer Samuel Simmons (1777\u2013",
+      "full_text": "am Simmons Sam Simmons may refer to: Sam Simmons (American football) (born 1979), former NFL and AFL wide receiver Sam Simmons (comedian) (born 1977), Australian comedian See also Samuel Simmons (1640\u20131687), English printer Samuel Foart Simmons (1750\u2013), English printer Samuel Simmons (1777\u2013",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 19,
+      "hash": "a879c94b",
+      "n_words": 82,
+      "n_chars": 529,
+      "preview_head": "n associated cost $c_i$. Further, $x$ is drawn from a given product distribution: for each $x_i$, $Prob[x_i=1] = p_i$, and the bits are independent. The goal is to minimize the expected cost of evalua",
+      "preview_tail": "unctions (cf. [@unluyurtReview]). It has been studied in learning theor, where it is known as \u201csequential learning\u201d of Boolean functions (cf. [@unluyurtReview]). It has been studied in learning theor,",
+      "full_text": "n associated cost $c_i$. Further, $x$ is drawn from a given product distribution: for each $x_i$, $Prob[x_i=1] = p_i$, and the bits are independent. The goal is to minimize the expected cost of evaluation. This problem has been studied in the Operations Research literature, where it is known as \u201csequential testing\u201d of Boolean functions (cf. [@unluyurtReview]). It has been studied in learning theor, where it is known as \u201csequential learning\u201d of Boolean functions (cf. [@unluyurtReview]). It has been studied in learning theor,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 20,
+      "hash": "25ae403c",
+      "n_words": 184,
+      "n_chars": 1235,
+      "preview_head": "1E: Ideograma d\u00f9 2A41F: 2A420: 2A421: 2A422: Ideograma 2A423: Ideograma y\u01d0 2A424: 2A425: Ideogra2A401: Ideograma h\u00e9 2A402: Ideograma y\u01d0 2A403: Ideograma y\u01d0 2A404: Ideograma y\u01d0 2A405: Ideograma y\u01d0 2A40",
+      "preview_tail": " 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0",
+      "full_text": "1E: Ideograma d\u00f9 2A41F: 2A420: 2A421: 2A422: Ideograma 2A423: Ideograma y\u01d0 2A424: 2A425: Ideogra2A401: Ideograma h\u00e9 2A402: Ideograma y\u01d0 2A403: Ideograma y\u01d0 2A404: Ideograma y\u01d0 2A405: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A00A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0 2A40A: Ideograma y\u01d0",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 21,
+      "hash": "9f1abb94",
+      "n_words": 52,
+      "n_chars": 315,
+      "preview_head": "Thirty precious years have passed, and there is now no safety margin. We must prepare ourselves for waves of higher resource prices and periods of shortages unlike anything we have faced outside of wa",
+      "preview_tail": " resource prices and periods of shortages unlike anything we have faced outside of wartime conditions,\u201d he writes. \u201cIn fact, I believe we are already several years into this painful transition but are",
+      "full_text": "Thirty precious years have passed, and there is now no safety margin. We must prepare ourselves for waves of higher resource prices and periods of shortages unlike anything we have faced outside of wartime conditions,\u201d he writes. \u201cIn fact, I believe we are already several years into this painful transition but are",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 22,
+      "hash": "4bf2b670",
+      "n_words": 330,
+      "n_chars": 2015,
+      "preview_head": "ed in a human or other organism. Some IMDs include sensors to monitor a patient's condition, and some IMDs have been used to treat a patient. Some examples of IMDs include implantable cardiac rhythm m",
+      "preview_tail": "cemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the",
+      "full_text": "ed in a human or other organism. Some IMDs include sensors to monitor a patient's condition, and some IMDs have been used to treat a patient. Some examples of IMDs include implantable cardiac rhythm management (CRM) devices such as cardiac pacemakers and implantable cardioverter/defibrillators (ICDs). Other examples of IMDs include a number of monitors or sensors, stimulators and delivery systems for both cardiac-related applications and non-cardiac-related applications. The sensed data from the IMD is capable of being wirelessly communicated to an external device, and the external device is capable of wirelessly programming the IMD. For example, data from an implantable CRM is capable of being wirelessly communicated to a programmer device. Additionally, the programmer is capable of wirelessly communicating with the implantable CRM to program the CRM to perform a desired device function. For example, the programmer device can wirelessly program the CRM to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient. Additionally, the programmer can wirelessly adjust the implantable device to perform a desired pacing rhythm, to adjust the pacing of a cardiac pacemaker, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the patient, to adjust the pacing of a cardiac pacemaker to the cardiac rhythm of the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 23,
+      "hash": "cf2ba069",
+      "n_words": 141,
+      "n_chars": 704,
+      "preview_head": "Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph josh & Michael bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh ",
+      "preview_tail": "chael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph",
+      "full_text": "Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph josh & Michael bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph Josh & Michael Bruce & Joseph",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 24,
+      "hash": "7611b32d",
+      "n_words": 175,
+      "n_chars": 1135,
+      "preview_head": "sort that sets the standard for an exquisite tropical getaway. Nestled in the South Ari Atoll, it boasts a pristine location, just a 25-minute seaplane ride from the airport. With 150 rooms, including",
+      "preview_tail": "ertainment for all ages. The Conrad Maldives Rangali Island is a dream destination for honeymooners and leisure travelers, offering a perfect blend of natural beauty, luxurious amenities, and a wide a",
+      "full_text": "sort that sets the standard for an exquisite tropical getaway. Nestled in the South Ari Atoll, it boasts a pristine location, just a 25-minute seaplane ride from the airport. With 150 rooms, including various villa types, it caters to different preferences. From beachfront villas to over-water villas, each accommodation offers a unique and romantic ambiance. The resort's facilities are exceptional, with seven restaurants and four bars, ensuring a culinary jOurney for every taste. 24-hour room service, a poolside bar, and a range of excursions cater to every whim. The resort also provides essential services such as airport transfers, babysitting, and a business center. Leisure facilities are top-notch, featuring a garden, gym, and a spa with a sauna and steam room. The outdoor pool and kids' pool provide refreshing moments, while the water sports center offers thrilling activities. Tennis courts and a kids' club ensure entertainment for all ages. The Conrad Maldives Rangali Island is a dream destination for honeymooners and leisure travelers, offering a perfect blend of natural beauty, luxurious amenities, and a wide a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 25,
+      "hash": "21e0bac4",
+      "n_words": 152,
+      "n_chars": 871,
+      "preview_head": "to bea blendof eliteand elite-support,and will bea force Ibelieve tobeablend of elite and elite-support, and will be a forceI believeto be a blend ofelite and elite-support, and will be a force I beli",
+      "preview_tail": "f boys! I have lined up a game at the clubforthis week and have2 listswhich I want to try - I'dlike your opinions on which Ishould run. I'll takethe majority vote...Friday, 5June 2015 So following on ",
+      "full_text": "to bea blendof eliteand elite-support,and will bea force Ibelieve tobeablend of elite and elite-support, and will be a forceI believeto be a blend ofelite and elite-support, and will be a force I believe to be a blend of eliteand elite-support, andwill be aforce I believe tobe a blend of elite and elite-support, and will bea force I believe to be a blend of elite and elite-support, andwill be a force I believe to be a blend of eliteand elite-support,and willbea forceI believe tobea blend ofelite and elite-support, and will bea force I believe to be a blendof elite and elite-support, and will be a forceI believe to be a blend ofelite Mother. Fucker. There a load of boys! I have lined up a game at the clubforthis week and have2 listswhich I want to try - I'dlike your opinions on which Ishould run. I'll takethe majority vote...Friday, 5June 2015 So following on ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 26,
+      "hash": "8ad58061",
+      "n_words": 251,
+      "n_chars": 1796,
+      "preview_head": "f the Invention The present invention relate to a method used to fabricate semiconductor devices, and more specifically to a method used to fabricate a dynamic random access memory, (DRAM), device, us",
+      "preview_tail": " the art for an improved method that addresses these challenges effectively while maintaining manufacturability at high volume production levels. The present invention aims to provide such an enhanced",
+      "full_text": "f the Invention The present invention relate to a method used to fabricate semiconductor devices, and more specifically to a method used to fabricate a dynamic random access memory, (DRAM), device, using a storage node structure, with a roughened top surface. 2. Description of Prior Art The semiconductor industry is continually striving to improve the performance of semiconductor devices, while still maintaining, or even decreasing the manufacturing cost of these same semiconductor devices. The advent of micro-miniaturization, or the aThe semiconductor industry is continually striving to improve the performance of semiconductor devices, while still maintaining, or even decreasing the manufacturing cost of these same semiconductor devices. The advent of micro-miniaturization, or the ability to fabricate smaller and denser integrated circuits (ICs), has driven significant advancements in materials science and process technology. In particular, dynamic random access memory (DRAM) devices have seen substantial improvements over recent years due to innovations in storage node structures that enhance capacitance without increasing chip area. One such innovation involves creating a roughened top surface on the storage node structure to increase its effective surface area for charge storage. This technique can lead to higher device performance and reliability. However, existing methods of fabricating DRAM devices with roughened surfaces often suffer from issues related to process complexity, yield reduction, or insufficient capacitance enhancement. Therefore, there is a need in the art for an improved method that addresses these challenges effectively while maintaining manufacturability at high volume production levels. The present invention aims to provide such an enhanced",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 27,
+      "hash": "648608aa",
+      "n_words": 56,
+      "n_chars": 259,
+      "preview_head": "and Tree Walk SavATree arborists will be in the entrance of the Rose Garden from 9:30 a.m. to 1 p.m. today to answer all of your tree questions. Come by for a tree tour at 1 p.m. that meets at the b\"b",
+      "preview_tail": " the Rose Garden from 9:30 a.m. to 1 p.m. today to answer all of your tree questions. Come by for a tree tour at 1 p.m. that meets at the b\"b\" in the prompt seems to be a typo. \"b\" seems to be a typo.",
+      "full_text": "and Tree Walk SavATree arborists will be in the entrance of the Rose Garden from 9:30 a.m. to 1 p.m. today to answer all of your tree questions. Come by for a tree tour at 1 p.m. that meets at the b\"b\" in the prompt seems to be a typo. \"b\" seems to be a typo.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 28,
+      "hash": "52676d9e",
+      "n_words": 213,
+      "n_chars": 1301,
+      "preview_head": "disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This d",
+      "preview_tail": " with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing ",
+      "full_text": "disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outerSystem: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outerSystem: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing with an outer System: This disclosure pertains to a roller bearing with an outer Human: This disclosure pertains to a roller bearing ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 29,
+      "hash": "021be2b7",
+      "n_words": 246,
+      "n_chars": 1430,
+      "preview_head": "June 2014 (52) May 2014 (48) April 2014 (41) March 2014 (73) February 2014 (63) January 2014 (38) December 2013 (23) November 2013 (39) October 2013 (76) September 2013 (81) August 2013 (86) July 2013",
+      "preview_tail": "do not pre-screen comments, we reserve the right at all times to remove any information or materials that are libelous, obscene, vulgar, pornographic, profane, indecent or otherwise objectionable to u",
+      "full_text": "June 2014 (52) May 2014 (48) April 2014 (41) March 2014 (73) February 2014 (63) January 2014 (38) December 2013 (23) November 2013 (39) October 2013 (76) September 2013 (81) August 2013 (86) July 2013 (38) June 2013 (59) May 2013 (64) April 2013 (61) March 2013 (77) February 2013 (71) January 2013 (59) December 2012 (9) November 2012 (21) October 2012 (31) September 2012 (67) August 2012 (33) July 2012 (6) May 2012 (9) April 2012 (9) March 2012 (50) May 2011 (2) April 2011 (7) MArch 2011 (1) November 2010 (3) November 2009 (1) October 2009 (5) September 2009 (15) August 2009 (55) July 2009 (104) June 2009 (120) May 2009 (99) April 2009 (115) March 2009 (170) February 2009 (101) January 2009 (39) December 2008 (47) November 2008 (31) October 2008 (43) September 2008 (90) August 2008 (101) July 2008 (85) June 2008 (97) May 2008 (98) April 2008 (90) March 2008 (99) February 2008 (59) January 2008 (13) December 2007 (23) November 2007 (12) October 2007 (25) September 2007 (66) August 2007 (106) July 2007 (111) June 2007 (140) May 2007 (143) April 2007 (129) March 2007 (62) May 2005 (1) Comments Policy We invite you to use our commenting platform to engage in conversations about issues in our community. Although we do not pre-screen comments, we reserve the right at all times to remove any information or materials that are libelous, obscene, vulgar, pornographic, profane, indecent or otherwise objectionable to u",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 30,
+      "hash": "f1c94446",
+      "n_words": 79,
+      "n_chars": 588,
+      "preview_head": "demand plea petition request suggestion proposal recommendation endorsement support approval sanction blessing benediction invocation prayer wish dream hope desire longing yearning craving passion asp",
+      "preview_tail": "sh/pull) Latest IS System 82mm Filter Size Weather Sealed Slightly heavier than the current model Slightly faster f/4 at 100mm (Current is f/4.5) Retail around $2800 USD CR\u00e2\u20ac\u2122s take A few folks want a",
+      "full_text": "demand plea petition request suggestion proposal recommendation endorsement support approval sanction blessing benediction invocation prayer wish dream hope desire longing yearning craving passion aspiration ambition motivation determination resolve will strength power courage confidence optimism enthusiasm joy delight gladness happiness pleasure satisfaction Features Ring zoom (not push/pull) Latest IS System 82mm Filter Size Weather Sealed Slightly heavier than the current model Slightly faster f/4 at 100mm (Current is f/4.5) Retail around $2800 USD CR\u00e2\u20ac\u2122s take A few folks want a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 31,
+      "hash": "8e3e5df9",
+      "n_words": 56,
+      "n_chars": 308,
+      "preview_head": "dance was bought by Jake and martha Burnyeat and is now on the River Fal. For more information see: Follow us on Twitter The English Braids Falmouth Classics roundup newsletter is now live! Take a loo",
+      "preview_tail": "s on Twitter The English Braids Falmouth Classics roundup newsletter is now live! Take a look and find out the final race results, awards, participants this year, and how you can see all the photos of",
+      "full_text": "dance was bought by Jake and martha Burnyeat and is now on the River Fal. For more information see: Follow us on Twitter The English Braids Falmouth Classics roundup newsletter is now live! Take a look and find out the final race results, awards, participants this year, and how you can see all the photos of",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 32,
+      "hash": "3b3ea44d",
+      "n_words": 135,
+      "n_chars": 809,
+      "preview_head": "blowjob and taboo groupsex. Must see, not for sissy :-) Home Latest Top Rated Most Viewed Categories Hot skinny brunette speacking with her bf I like this video I don't like this video 0% (0 votes) Ad",
+      "preview_tail": "eo BB code Add comment Comments Be the first one to comment! Thank you! Your comment has been submitted for review. Your name Comment Please confirm that you are a Human by entering security code from",
+      "full_text": "blowjob and taboo groupsex. Must see, not for sissy :-) Home Latest Top Rated Most Viewed Categories Hot skinny brunette speacking with her bf I like this video I don't like this video 0% (0 votes) Add to Favourites Watch Later Add to New Playlist... Video Details Report Video Screenshots Share Comments (0) Duration: 12min 21sec Views: 23 Submitted: 2 months ago Get Full Access to DrTuber Tags: amateur Babe Brunette Masturbation Teen Toys Webcam Thank you! We appreciate your help. Report this video as Inappropriate Error (no video, no sound) Copyrighted material Other Reason (optional) Link to this video BB code Add comment Comments Be the first one to comment! Thank you! Your comment has been submitted for review. Your name Comment Please confirm that you are a Human by entering security code from",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 33,
+      "hash": "b44b797b",
+      "n_words": 61,
+      "n_chars": 331,
+      "preview_head": "her concentration to win the match 11-13, 11-9, 12-10, 11-13, 11-9. \"That was a really good match,\" sais Saad. \"I thought I was unlucky not to close it out in the fourth having come back like that, bu",
+      "preview_tail": "ucky not to close it out in the fourth having come back like that, but managed to hold my concentration in the fifth. \"Great respect to Charlie for calling his ball down on the last point, that's true",
+      "full_text": "her concentration to win the match 11-13, 11-9, 12-10, 11-13, 11-9. \"That was a really good match,\" sais Saad. \"I thought I was unlucky not to close it out in the fourth having come back like that, but managed to hold my concentration in the fifth. \"Great respect to Charlie for calling his ball down on the last point, that's true",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 34,
+      "hash": "dae651d0",
+      "n_words": 343,
+      "n_chars": 2376,
+      "preview_head": "immediate ceasefire and cessation of hostilities. It also emphasized the importance of constitutional reform in Ukraine to ensure its stability and address the concerns of all regions, including those",
+      "preview_tail": "he West attempted to address Russia's actions through diplomatic negotiations and economic sanctions, some argue that they were snookered by Vladimir Putin due to a combination of slow reactions, dive",
+      "full_text": "immediate ceasefire and cessation of hostilities. It also emphasized the importance of constitutional reform in Ukraine to ensure its stability and address the concerns of all regions, including those with Russian speakers. However, many questioned whether this agreement would hold given Putin's speech and his apparent ambitions for Novorossiya. In response to Putin's actions, Western powers began to reassess their strategies regarding Russia. The United States and European Union started discussing additional sanctions against Moscow if it continued its aggressive behavior in Ukraine. Meanwhile, NATO increased military presence in Eastern Europe as a deterrent against any further Russian expansionism. Despite these measures, some argue that the West was snookered by Putin's tactics due to several factors: 1. The slow reaction of Western powers to Russia's annexation of Crimea allowed Putin to consolidate control over the region before significant consequences could be imposed. This demonstrated a lack of resolve on the part of Western leaders, emboldening Putin further. 2. Divergent interests among Western countries made it difficult for them to present a united front against Russia. While some member states called for stronger measures against Moscow, others were more cautious due to economic ties and energy dependence on Russian supplies. 3. The EU's internal challenges, such as the ongoing debt crisis in Greece and other southern European nations, diverted attention away from Eastern Europe and weakened its ability to focus on containing Russia's ambitions. 4. Failure to anticipate Putin's use of so-called \"hybrid warfare\" tactics that combine military intervention with cyber attacks, propaganda campaigns, and support for separatist movements in neighboring countries made it difficult for the West to counter effectively. 5. The historical precedence set by previous instances where Russia asserted its influence over former Soviet republics during times of political instability (e.g., Moldova's Transnistria region) may have led Western leaders to underestimate Putin's willingness to intervene militarily in Ukraine. In conclusion, while the West attempted to address Russia's actions through diplomatic negotiations and economic sanctions, some argue that they were snookered by Vladimir Putin due to a combination of slow reactions, dive",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 35,
+      "hash": "d25fb1a7",
+      "n_words": 57,
+      "n_chars": 410,
+      "preview_head": "cells' behavior. The unique properties of exosomes make them not only promising candidates for diagnostic biomarkers but also attractive targets for therapeutic intervention. For instance, by modulati",
+      "preview_tail": "retion or function of specific exosomal cargoes, it may be possible to influence disease progression or even prevent detrimental cellular processes. This has led researchers to explore strategies such",
+      "full_text": "cells' behavior. The unique properties of exosomes make them not only promising candidates for diagnostic biomarkers but also attractive targets for therapeutic intervention. For instance, by modulating the secretion or function of specific exosomal cargoes, it may be possible to influence disease progression or even prevent detrimental cellular processes. This has led researchers to explore strategies such",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 36,
+      "hash": "af4c847a",
+      "n_words": 208,
+      "n_chars": 1292,
+      "preview_head": "into Europe to annex Thrace. However, there are no records of the time, either in Egyptian or other contemporary writings that support these claims. Amenemhat III Senusret's successor Amenemhat III re",
+      "preview_tail": ": 1900 BC \u2013 Prisse Papyrus 1800 BC \u2013 Berlin Papyrus 1800 BC \u2013 Moscow Mathematical Papyrus 1650 BC \u2013 Rhind Mathematical Papyrus 1600 BC \u2013 Edwin Smith papyrus 1550 BC \u2013 Ebers papyrus See also History of",
+      "full_text": "into Europe to annex Thrace. However, there are no records of the time, either in Egyptian or other contemporary writings that support these claims. Amenemhat III Senusret's successor Amenemhat III reaffirmed his foreign policy. However, after Amenemhat, the energies of this dynasty were largely spent, and the growing troubles of government were left to the dynasty's last ruler, Queen Sobekneferu, to resolve. Amenemhat was remembered for the mortuary temple at Hawara that he built, known to Herodotus, Diodorus, and Strabo as the \"Labyrinth\". Additionally, under his reign, the marshy Fayyum was first Ancient Egyptian literature It was during the twelfth dynasty that Ancient Egyptian literature was refined. Perhaps the best known work from this period is The Story of Sinuhe, of which hundred papyrus copies have been recovered. Also written during this dynasty were a number of Didactic works, such as the Instructions of Amenemhat and The Tale of the Eloquent Peasant. Pharaohs of Dynasties XII through XVIII are also credited with preserving for us some of the most Egyptian papyri: 1900 BC \u2013 Prisse Papyrus 1800 BC \u2013 Berlin Papyrus 1800 BC \u2013 Moscow Mathematical Papyrus 1650 BC \u2013 Rhind Mathematical Papyrus 1600 BC \u2013 Edwin Smith papyrus 1550 BC \u2013 Ebers papyrus See also History of",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 37,
+      "hash": "2a8a6c9b",
+      "n_words": 309,
+      "n_chars": 1849,
+      "preview_head": "and reasonable returns. This is particularly important at times like now when interest rates (and therefore term deposit rates) are so very low. \u2013 It gives investors a chance to get better visibility ",
+      "preview_tail": "dropped interest rates significantly. This means existing investors who have invested at higher rate of returns aren\u2019t going to benefit from these lower lending rates \u2013 but will be indirectly affected",
+      "full_text": "and reasonable returns. This is particularly important at times like now when interest rates (and therefore term deposit rates) are so very low. \u2013 It gives investors a chance to get better visibility on what they\u2019re investing in Most of the time, if you invest through managed funds or other collective investments \u2013 it\u2019s difficult for an individual investor to know exactly where their money is being invested. Peer-to-peer lending allows people to see who and how much each borrower has applied for. Peer2peer lending \u2013 The bad stuff (and what I\u2019ve learned) \u2013 There are no guarantees I think this was the biggest learning curve for me when it came to peer-to-peer investing through Harmoney. When you invest in a bank term deposit, there\u2019s an implied guarantee that your capital is safe and will be returned at the end of the investment period. When you\u2019re lending money directly as an individual investor \u2013 even though you\u2019ve gone through a regulated platform such as harmoney (who have already done some credit checks on borrowers), it doesn\u2019t mean you won\u2019t face losses if people don\u2019t pay back their loans. In fact, depending how aggressive your strategy is in going after higher returns, the likelihood of facing losses increases. \u2013 The interest rates that investors receive are heavily influenced by Harmoney Harmoney do a good job at making sure they\u2019ve got borrowers and lenders on board to use its platform \u2013 but as an investor you don\u2019t get much visibility or control over what\u2019s happening behind the scenes. For example, it seems from media reports (see here) that in order for them to attract more borrowers onto their books, Harmoney dropped interest rates significantly. This means existing investors who have invested at higher rate of returns aren\u2019t going to benefit from these lower lending rates \u2013 but will be indirectly affected",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 38,
+      "hash": "ba7e5699",
+      "n_words": 39,
+      "n_chars": 254,
+      "preview_head": "many traumatized by its senseless violence - as well \u0440\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u0435\u0440\u043e\u0432 a central focus of her work, creating songs, poetry, theatre pieces. \u044f \u0441\u043b\u0443\u0436\u0438\u043b\u0430 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f \u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442 \u0434\u043b\u044f \u043c\u043e\u043b\u043e\u0434\u044b\u0445 ",
+      "preview_tail": "\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u0435\u0440\u043e\u0432 a central focus of her work, creating songs, poetry, theatre pieces. \u044f \u0441\u043b\u0443\u0436\u0438\u043b\u0430 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f \u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442 \u0434\u043b\u044f \u043c\u043e\u043b\u043e\u0434\u044b\u0445 \u043b\u0438\u0434\u0435\u043b\u0435\u0439 \u0438\u0437 Gulu Teen Talk (GHAT) \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \"Gabriel by",
+      "full_text": "many traumatized by its senseless violence - as well \u0440\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u0435\u0440\u043e\u0432 a central focus of her work, creating songs, poetry, theatre pieces. \u044f \u0441\u043b\u0443\u0436\u0438\u043b\u0430 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f \u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442 \u0434\u043b\u044f \u043c\u043e\u043b\u043e\u0434\u044b\u0445 \u043b\u0438\u0434\u0435\u043b\u0435\u0439 \u0438\u0437 Gulu Teen Talk (GHAT) \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \"Gabriel by",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 39,
+      "hash": "c2513ac5",
+      "n_words": 42,
+      "n_chars": 253,
+      "preview_head": "lsson (cyclist) Allan Carlsson (17 April 1929 \u2013 25 August 1953) was a Swedish cyclist. He competed in the individual and team road race events at the 1952 Summer OlympicsHere is some information about",
+      "preview_tail": "gust 1953) was a Swedish cyclist. He competed in the individual and team road race events at the 1952 Summer OlympicsHere is some information about AllanCarlson: - Allan Carlsson (April, born on April",
+      "full_text": "lsson (cyclist) Allan Carlsson (17 April 1929 \u2013 25 August 1953) was a Swedish cyclist. He competed in the individual and team road race events at the 1952 Summer OlympicsHere is some information about AllanCarlson: - Allan Carlsson (April, born on April",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 40,
+      "hash": "e7d98263",
+      "n_words": 240,
+      "n_chars": 1671,
+      "preview_head": "ing the 2.2Mb derivative, and the clones isolating the bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative beari",
+      "preview_tail": "b derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearin",
+      "full_text": "ing the 2.2Mb derivative, and the clones isolating the bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearing the 2.2Mb derivative, and the clones isolating the derivative bearin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 41,
+      "hash": "74005522",
+      "n_words": 106,
+      "n_chars": 643,
+      "preview_head": "Cart Sign up CANVAS PRINTS METAL PRINTS PRINTS CANVAS POSTERS FRAMED PRINTS HOME DECOR PHOTO GIFTS In order to keep Photobucket free, we place advertisements on our website and on our mobile apps. For",
+      "preview_tail": "otos & videos. Explore Now Shipping Country Currency Units Help \u00a9 2017 Photobucket \u00a9 2017 Photobucket Get Deals, Giveaways & More \"I needto sign up for a free account and explore all that the platform",
+      "full_text": "Cart Sign up CANVAS PRINTS METAL PRINTS PRINTS CANVAS POSTERS FRAMED PRINTS HOME DECOR PHOTO GIFTS In order to keep Photobucket free, we place advertisements on our website and on our mobile apps. For only $0.99 per month, you can upgrade your free account to a Plus Membership and experience Photobucket without advertisements! Go Ad Free With Plus Go Ad Free With Plus burbankpointe's Library is Private. Explore Photobucket's billions of photos & videos. Explore Now Shipping Country Currency Units Help \u00a9 2017 Photobucket \u00a9 2017 Photobucket Get Deals, Giveaways & More \"I needto sign up for a free account and explore all that the platform",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 42,
+      "hash": "0985e2c4",
+      "n_words": 199,
+      "n_chars": 1608,
+      "preview_head": "in diameter, were detected by sonograpSmall angiomyolipoma of the kidney: sonographic-CT evaluation. Small fat-containing intraparenchymal renal lesions, 0.5 to 1.3 cm in diameter, were detected by so",
+      "preview_tail": "mal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the ren",
+      "full_text": "in diameter, were detected by sonograpSmall angiomyolipoma of the kidney: sonographic-CT evaluation. Small fat-containing intraparenchymal renal lesions, 0.5 to 1.3 cm in diameter, were detected by sonographic evaluation. These lesions were of the angiomyolipoma, the renal lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the renal lesions, the lesions, the sonographic evaluation, the intraparenchymal lesions, the ren",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 43,
+      "hash": "1777b2d3",
+      "n_words": 96,
+      "n_chars": 769,
+      "preview_head": "law enforcement, fire departments, public health officials, and neighboring institutions to ensure a coordinated response. The EOC also activates internal communication protocols to disseminate real-t",
+      "preview_tail": "transparency and ensure consistent messaging across all channels. Additionally, it coordinates with regional mutual aid networks and state emergency management to access external resources and support",
+      "full_text": "law enforcement, fire departments, public health officials, and neighboring institutions to ensure a coordinated response. The EOC also activates internal communication protocols to disseminate real-time updates to campus stakeholders, including students, faculty, staff, and emergency responders. This includes leveraging emergency alert systems, public address systems, and digital platforms to provide safety instructions, evacuation routes, shelter-in-place orders, and recovery resources. The EOC works closely with the university\u2019s communication team to maintain transparency and ensure consistent messaging across all channels. Additionally, it coordinates with regional mutual aid networks and state emergency management to access external resources and support",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 44,
+      "hash": "792fb46a",
+      "n_words": 41,
+      "n_chars": 263,
+      "preview_head": "package android.support.v4.widget; interface DrawerLayout { / * Interface which the client of a {@link ViewDrawer} can implement to * receive a callback when their view has been added/removed from the",
+      "preview_tail": " Interface which the client of a {@link ViewDrawer} can implement to * receive a callback when their view has been added/removed from the * drawer. This is also used by {@link DrawerLayout}. */ public",
+      "full_text": "package android.support.v4.widget; interface DrawerLayout { / * Interface which the client of a {@link ViewDrawer} can implement to * receive a callback when their view has been added/removed from the * drawer. This is also used by {@link DrawerLayout}. */ public",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 45,
+      "hash": "4c9b6e64",
+      "n_words": 131,
+      "n_chars": 730,
+      "preview_head": "ing that I thought to myself, oh no! The Right has figured out our secret agenda of economic and personal freedom and equality for everyone and are going to use that against us! And then I had a big d",
+      "preview_tail": "s a secret? Isn't that what the founding fathers envisioned when they drafted the Declaration of Independence and the Constitution? A government that would secure the blessings of liberty for all, not",
+      "full_text": "ing that I thought to myself, oh no! The Right has figured out our secret agenda of economic and personal freedom and equality for everyone and are going to use that against us! And then I had a big drink of something, went to the bathroom as a result and calmed down and thought about a couple of things. Wait, why would it be bad if the public found out the Liberals want both personal and economic freedom for everyone and that for all of us to have quality opportunities to achieve those things. And why would keep those things a secret? Isn't that what the founding fathers envisioned when they drafted the Declaration of Independence and the Constitution? A government that would secure the blessings of liberty for all, not",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 46,
+      "hash": "ff5242c2",
+      "n_words": 75,
+      "n_chars": 478,
+      "preview_head": "greatest rise of plasma ACTH concentration as well as CORT synthesis and secretion. These values remained elevated after the stress termination i.e. after the rats had been returned to room temperatur",
+      "preview_tail": "st increase in blood ACTH and CORT concentrations. Moreover, in refed rats the HPA function was fully recovered. In conclusion, the various stressors applied seem to induce a different response of the",
+      "full_text": "greatest rise of plasma ACTH concentration as well as CORT synthesis and secretion. These values remained elevated after the stress termination i.e. after the rats had been returned to room temperature. Fasting seems to be the weakest stressor given because it causes the smallest increase in blood ACTH and CORT concentrations. Moreover, in refed rats the HPA function was fully recovered. In conclusion, the various stressors applied seem to induce a different response of the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 47,
+      "hash": "a820aea7",
+      "n_words": 120,
+      "n_chars": 928,
+      "preview_head": "histolytica. Isoenzyme electrophoretic patterns (zymodemes) are increasingly used to distinguish between pathogenic and non-pathogenic strains of Entamoeba histolytica. Isolates of E. histolytica from",
+      "preview_tail": " This difference in isoenzyme mobility could serve as a potential marker for distinguishing between the two strains, aiding in the identification and classification of Entamoeba histolytica isolates.\"",
+      "full_text": "histolytica. Isoenzyme electrophoretic patterns (zymodemes) are increasingly used to distinguish between pathogenic and non-pathogenic strains of Entamoeba histolytica. Isolates of E. histolytica from asymptomatic and symptomatic cases have been shown to differ in the electrophoretic mobility of their hexokinase and phosphoglucomutase isoenzymes. The hexokinase isoenzymes from a non-pathogenic strain and from a \"The hexokinase isoenzymes from a non-pathogenic strain and from a pathogenic strain of E. histolytica were isolated and characterized. The isoenzymes were found to have distinct electrophoretic patterns, with the non-pathogenic strain exhibiting slower electrophoretic mobility compared to the pathogenic strain. This difference in isoenzyme mobility could serve as a potential marker for distinguishing between the two strains, aiding in the identification and classification of Entamoeba histolytica isolates.\"",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 48,
+      "hash": "5aca3c21",
+      "n_words": 179,
+      "n_chars": 871,
+      "preview_head": "e two together i would need a female to female adapter. I know there is a difference between certain pins and center positive (i only just get that) Whats the answer and what do i do? please help.. i ",
+      "preview_tail": "as its not really my thing, but i need to understand it ! the pedal is AC 18V. Can i connect this and if so what woul i need to buy, and how would it connect to the PP2+ ? I have all the cables that c",
+      "full_text": "e two together i would need a female to female adapter. I know there is a difference between certain pins and center positive (i only just get that) Whats the answer and what do i do? please help.. i have tried Gearslutz and no one replies. and i have a show on Saturday. The guitarist of the band has the same kit, i wondered if using both of the supplied battery clip cables on the pedal would be a short term fix? as it takes two 9v batteries. Cheers All Tom So everything i have written isnt really going to work ! the pedal has battery cradle's instead of a battery snap part on it (convenient, as its a pina in my ass). Looking into the tech side of it all online, as its not really my thing, but i need to understand it ! the pedal is AC 18V. Can i connect this and if so what woul i need to buy, and how would it connect to the PP2+ ? I have all the cables that c",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 49,
+      "hash": "aa25f515",
+      "n_words": 58,
+      "n_chars": 465,
+      "preview_head": "(FUT) and Follicular UnitExtraction (FUE),creating natural-looking results thatmimic youroriginal hair growth patterns. Permanent Solution: Ourprocedures provide permanent, long-lasting solutions to b",
+      "preview_tail": "ust like theexisting ones. \ufe0f Extensive Library ofVideos & Before/After Photos: With over 450 hair transplant videos and countless before-and-after photos, you can see real results fromourpatients. FR ",
+      "full_text": "(FUT) and Follicular UnitExtraction (FUE),creating natural-looking results thatmimic youroriginal hair growth patterns. Permanent Solution: Ourprocedures provide permanent, long-lasting solutions to baldness. The transplanted hairs continue to grow for a lifetime just like theexisting ones. \ufe0f Extensive Library ofVideos & Before/After Photos: With over 450 hair transplant videos and countless before-and-after photos, you can see real results fromourpatients. FR ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 50,
+      "hash": "022aed1f",
+      "n_words": 157,
+      "n_chars": 956,
+      "preview_head": "omes with a spa tub. The master suite's extra large bathroom comes with a spa tub. Photo: OpenHomesPhotography.com Image 12 of 24 The master suite also has access to a terrace. The master suite also h",
+      "preview_tail": "oto: OpenHomesPhotography.com Image 17 of 24 A view of the home's rear yard. A view of the home's rear yard. Photo: OpenHomesPhotography.com Image 18 of 24 The home has two full bathrooms. The half ba",
+      "full_text": "omes with a spa tub. The master suite's extra large bathroom comes with a spa tub. Photo: OpenHomesPhotography.com Image 12 of 24 The master suite also has access to a terrace. The master suite also has access to a terrace. Photo: OpenHomesPhotography.com Image 13 of 24 The lower level features the additional two bedrooms. The lower level features the additional two bedrooms. Photo: OpenHomesPhotography.com Image 14 of 24 One of the home's three bedrooms. One of the home's three bedrooms. Photo: OpenHomesPhotography.com Image 15 of 24 This lower level bedroom also has access to a patio. This lower level bedroom also has access to a patio. Photo: OpenHomesPhotography.com Image 16 of 24 The home boasts two terraces. The home boasts two terraces. Photo: OpenHomesPhotography.com Image 17 of 24 A view of the home's rear yard. A view of the home's rear yard. Photo: OpenHomesPhotography.com Image 18 of 24 The home has two full bathrooms. The half ba",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 51,
+      "hash": "1e4d6729",
+      "n_words": 63,
+      "n_chars": 360,
+      "preview_head": "ex-gay movement?\u201d Both seek to hinder the progress of the people who are not like them. Both seek to recruit young white people to their cause. Both use unethical and sometimes violent tactics to evok",
+      "preview_tail": "al and sometimes violent tactics to evoke fear and oppress the people who are not like them. Rather than making a plethora of comparisons, I thought I would simply take the statemenBoth white and the ",
+      "full_text": "ex-gay movement?\u201d Both seek to hinder the progress of the people who are not like them. Both seek to recruit young white people to their cause. Both use unethical and sometimes violent tactics to evoke fear and oppress the people who are not like them. Rather than making a plethora of comparisons, I thought I would simply take the statemenBoth white and the ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 52,
+      "hash": "bb0ecb3a",
+      "n_words": 315,
+      "n_chars": 1826,
+      "preview_head": "n in or Create AccountCredit Cards \u203aMake Payment/Check BalanceCredit Card OffersApply NowOrders & Returns \u203aOrder StatusShipping, Delivery & Store PickupReturn & Exchange PromisePrice Match GuaranteePa",
+      "preview_tail": "an contact Best Buy Customer Service for assistance. They can help you find the product you are looking for or provide you with more information. If you provide more details about what you are looking",
+      "full_text": "n in or Create AccountCredit Cards \u203aMake Payment/Check BalanceCredit Card OffersApply NowOrders & Returns \u203aOrder StatusShipping, Delivery & Store PickupReturn & Exchange PromisePrice Match GuaranteePay With PointsMore Orders & Returns HelpSupport & Services \u203aCustomer ServiceProtection PlansSchedule a ServiceTrIt seems like you encountered a search issue on the Best Buy website while looking for \"Jak U\u0142o\u017cy\u0107 Grzywk\u0119 Na Ko\u017cuchowsk\u0105.\" This search term seems to be in Polish and might be a bit specific for the Best Buy search engine to recognize, especially if it's a title of a book, a specific product, or a term not commonly used in the Best Buy product database. Here are a few suggestions to help you refine your search or find what you might be looking for: 1. Try a More General Term: If you are looking for a specific product, try using a more general term. For example, if you are looking for a specific type of product, try searching for the general category, such as \"books\" or \"electronics.\" 2. Check for Typos: Ensure there are no typos in your search term. Sometimes a small typo can result in no search results. 3. Use the \"Shop by Category\": If you are looking for a specific type of product, you can use the \"Shop by Category\" section to browse through the relevant section. For example, if you are looking for a book, you can browse the \"Books\" section. 4. Use the \"Search Best Buy\": If you are looking for a specific product, you can use the \"Search Best Buy\" feature to search the entire Best Buy product catalog. 5. Contact Customer Service: If you are still unable to find what you are looking for, you can contact Best Buy Customer Service for assistance. They can help you find the product you are looking for or provide you with more information. If you provide more details about what you are looking",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 53,
+      "hash": "d3f1eada",
+      "n_words": 219,
+      "n_chars": 1283,
+      "preview_head": "K0001 'MARKER' 'INTEND' x2 c1 1 x2 c2 1 MARK0002 'MARKER' 'INTORG' x1 c1 -1 x1 c2 1 MARK0003 'MARKER' 'IPOPTNAM' RHS bs OBJ 0 bnd c1 -4 bnd c2 5.01 BOUNDS UP BND x1 INF LO BND x1 -INF BV x3 ENDATA \"\"\"",
+      "preview_tail": "00, cat=\"Integer\") prob += lpSum([x1x2]), \"Total Cost of Ingredients per can\" # The constraints are entered prob += x1 >= .15 16), \"ProteiNRequirement\" prob += x2 <= (.35 - .01) * 10, \"FatRequirement\"",
+      "full_text": "K0001 'MARKER' 'INTEND' x2 c1 1 x2 c2 1 MARK0002 'MARKER' 'INTORG' x1 c1 -1 x1 c2 1 MARK0003 'MARKER' 'IPOPTNAM' RHS bs OBJ 0 bnd c1 -4 bnd c2 5.01 BOUNDS UP BND x1 INF LO BND x1 -INF BV x3 ENDATA \"\"\" def test_example_03(self): self.check_lp_file(\"\"\"\\ #* Problem generated by convert_xprs.c, Xpress-MP 7.6 * NAME example3.lpx ROWS N OBJ L c1 G c2 COLUMNS x1 OBJ -8 x4 OBJ -10 x5 OBJ 9 MARK0000 'MARKER' 'INTORG' x6 c1 3.7 x11 c1 -.01 x12 c2 .1 MARK0001 'MARKER' 'INTEND' x8 c1 -5 x9 OBJ 4 x10 c2 6 RHS bs OBJ 0 bnd c1 -.01 bnd c2 .99 BOUNDS UP BND x3 INF LO BND x7 -INF BV x12 ENDATA \"\"\") [FILEPATH] tests/test_examples.py [/FILEPATH] import unittest from pulp import LpMaximize, lpSum class TestExamples(unittest.TestCase): def test_diet(self): \"\"\"Example from the PuLP documentation\"\"\" # Create the 'prob' variable to contain the problem data prob = LpProblem(\"The Whiskas Problem\", LpMinimize) # The 2 variables Milk & Beans with an upper limit of 8 per can and a lower # limit of zero. x1 = LpVariable('Milk', lowBound=0, cat='Continuous') x2 = LpVariable(\"Beans\", upBound=10000000, cat=\"Integer\") prob += lpSum([x1x2]), \"Total Cost of Ingredients per can\" # The constraints are entered prob += x1 >= .15 16), \"ProteiNRequirement\" prob += x2 <= (.35 - .01) * 10, \"FatRequirement\"",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 54,
+      "hash": "834745e6",
+      "n_words": 202,
+      "n_chars": 1298,
+      "preview_head": "03 and his undergraduate degree from Pennsylvania State... Attorney Gabriel Levin is known as a tenacious fighter who protects his client's interests as though they were his own; he has tried hundreds",
+      "preview_tail": "iel also serves as the President and Founder for The Law Office Of Gabe Levine P.C., a firm that specializes not only on Personal Injury but Criminal Defense cases too. Attorney Ryan Zavodnick's legal",
+      "full_text": "03 and his undergraduate degree from Pennsylvania State... Attorney Gabriel Levin is known as a tenacious fighter who protects his client's interests as though they were his own; he has tried hundreds of cases and handled all types of injury matters and prides himself on helping victims. Ev...ry rights in the courtroom, ensuring that justice prevails for those wronged by others. Attorney Gabriel Levin is known not only because of their experience but also due to a deep understanding about how systems work from both sides \u2013 as an attorney and through personal experiences with law enforcement. This unique perspective allows them to anticipate potential challenges in your case, strategize effectively for the best possible outcome on behalf his clients. Levin's dedication extends beyond just winning cases; they are committed towards providing a supportive environment where victims feel heard while navigating their legal journey post-accident or injury \u2013 this is why Leving has become an invaluable resource to many individuals in need of personal injuries representation. In Attorney Gabriel also serves as the President and Founder for The Law Office Of Gabe Levine P.C., a firm that specializes not only on Personal Injury but Criminal Defense cases too. Attorney Ryan Zavodnick's legal",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 55,
+      "hash": "f7ce144d",
+      "n_words": 47,
+      "n_chars": 261,
+      "preview_head": "d descriptions, She paints a picture of spirit exploring our capacity for both love and evil in an epic mystery that puts readers on the edge until its conclusion See review at Goodreads. \u2013\u201c\u2026a portrai",
+      "preview_tail": "capacity for both love and evil in an epic mystery that puts readers on the edge until its conclusion See review at Goodreads. \u2013\u201c\u2026a portrait of a boy battling with his past, struggling to see how that",
+      "full_text": "d descriptions, She paints a picture of spirit exploring our capacity for both love and evil in an epic mystery that puts readers on the edge until its conclusion See review at Goodreads. \u2013\u201c\u2026a portrait of a boy battling with his past, struggling to see how that",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 56,
+      "hash": "4810c3f2",
+      "n_words": 52,
+      "n_chars": 299,
+      "preview_head": "CAAll EventsNational ChampionshipsOther Championships Place Points Name USAC # Time Bib Team 06/03/2012 - US Cup Big Bear Shootout | XC | MASTER | 45-49 DNF / 14- IAN BARENSE304121 DNF22 PLATINUM PERF",
+      "preview_tail": "2012 - US Cup Big Bear Shootout | XC | MASTER | 45-49 DNF / 14- IAN BARENSE304121 DNF22 PLATINUM PERFORMANCE 05/20/2012 - US Cup Sagebrush Safari | XC | Master | 45-49 DNF / 14- IAN BARENSE 304121 DNF",
+      "full_text": "CAAll EventsNational ChampionshipsOther Championships Place Points Name USAC # Time Bib Team 06/03/2012 - US Cup Big Bear Shootout | XC | MASTER | 45-49 DNF / 14- IAN BARENSE304121 DNF22 PLATINUM PERFORMANCE 05/20/2012 - US Cup Sagebrush Safari | XC | Master | 45-49 DNF / 14- IAN BARENSE 304121 DNF",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 57,
+      "hash": "61b5fac8",
+      "n_words": 280,
+      "n_chars": 2933,
+      "preview_head": "Europaparlamentets sammans\u00e4ttning - Beslut att inte sammankalla n\u00e5got konvent f\u00f6r en \u00f6versyn av f\u00f6rdragen betr\u00e4ffande \u00f6verg\u00e5ngs\u00e5tg\u00e4rder avseende Europaparlamentets sammans\u00e4ttning (debatt) Talmannen N\u00e4",
+      "preview_tail": "toden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: E",
+      "full_text": "Europaparlamentets sammans\u00e4ttning - Beslut att inte sammankalla n\u00e5got konvent f\u00f6r en \u00f6versyn av f\u00f6rdragen betr\u00e4ffande \u00f6verg\u00e5ngs\u00e5tg\u00e4rder avseende Europaparlamentets sammans\u00e4ttning (debatt) Talmannen N\u00e4sta punkt \u00e4r gemensam debatt om ett bet\u00e4nkande av \u00cd\u00f1igo M\u00e9ndez de Vigo, f\u00f6r utskottet f\u00f6r konstitutionella fr\u00e5gor, om utkastet till protokoll om \u00e4ndring av protokoll (nr 36) om \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av Euro-Parlamentet under \u00e5terstoden av \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: Euro-Parlamentet under \u00e5terstoden av valperioden 2009-2014: \u00f6verg\u00e5ngsbest\u00e4mmelser r\u00f6rande Europaparlamentets sammans\u00e4ttning under \u00e5terstoden av valperioden 2009-2014: E",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 58,
+      "hash": "64922469",
+      "n_words": 63,
+      "n_chars": 458,
+      "preview_head": "ased on stored perceptions. 4. Mental Formations/Volitional Activities (Sankh\u0101ra/Sm\u1e5bti or Samskara in Sanskrit): ThesE include tendencies, habits of mind, and the volitions that lead to actions\u2014both p",
+      "preview_tail": "his aggregate. 5. Consciousness (Vi\u00f1\u00f1ana/Vij\u00f1ana): This is awareness aspect of consciousness that knows or experiences phenomena arising in any sense sphere including those generated by processes like",
+      "full_text": "ased on stored perceptions. 4. Mental Formations/Volitional Activities (Sankh\u0101ra/Sm\u1e5bti or Samskara in Sanskrit): ThesE include tendencies, habits of mind, and the volitions that lead to actions\u2014both physical and mental. Memories as for thoughts are part of this aggregate. 5. Consciousness (Vi\u00f1\u00f1ana/Vij\u00f1ana): This is awareness aspect of consciousness that knows or experiences phenomena arising in any sense sphere including those generated by processes like",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 59,
+      "hash": "2ffd03f5",
+      "n_words": 294,
+      "n_chars": 1644,
+      "preview_head": "an adult, rather than a tween? I agree with all this. To me, this situation smacks of a mix between a bait and switch and being voluntold. If someone did this to me - a 40 hour week and no pay/reward ",
+      "preview_tail": ", 08:14:16 PMQuote from: Garden Goblin on September 27, 2013, 02:36:34 PMHelping in normal daily activities, even if those daily activities to include some hard labor = acceptable to me, as long as it",
+      "full_text": "an adult, rather than a tween? I agree with all this. To me, this situation smacks of a mix between a bait and switch and being voluntold. If someone did this to me - a 40 hour week and no pay/reward for working so hard - I'd be resentful and hurt at being treated like unpaid labour. Logged violinp Hero Member Posts: 3829 cabbagegirl28's my sister :) Re: Kids and Free Labor \u00ab Reply #123 on: September 29, 2013, 09:38:26 AM \u00bb Quote from: sweetonsno on September 28, 2013, 12:56:54 AMQuote from: Audrey Quest on September 27, 2013, 09:56:17 PMSo how about church missions where kids are put to work doing all manner of things in third world countries? IME, the kids who go on church missions volunteer for them and in many cases are keen enough on participating that they fundraise or otherwise make money to pay for their tickets. They know what they're getting into well before they arrive. It sounds like this was sort of sprung on the kid.This, exactly, and most of the kids, at least in my experience, were 15-16+, not preteens, because roofing and such in the heat of summer is incredibly hard work. Logged \"It takes a great deal of courage to stand up to your enemies, but even more to stand up to your friends\" - Harry Potter Hmmmmm Super Hero! Posts: 7270 Re: Kids and Free Labor \u00ab Reply #124 on: September 29, 2013, 09:51:29 AM \u00bb Quote from: LifeOnPluto on September 29, 2013, 04:16:53 AMQuote from: Winterlight on September 27, 2013, 08:14:16 PMQuote from: Garden Goblin on September 27, 2013, 02:36:34 PMHelping in normal daily activities, even if those daily activities to include some hard labor = acceptable to me, as long as it",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 60,
+      "hash": "2c3c35f5",
+      "n_words": 234,
+      "n_chars": 1342,
+      "preview_head": ". Facebook isn't the first company to see the entire Web as its playground, and it won't be the last. Google already occupies this place in our lives, and the search company still reigns as the Web's ",
+      "preview_tail": "describe the traffic conditions on your morning commute. Facebook will surely find ways to make money from all the data it collects. The more you click \"like,\" the better for Facebook to serve you ads",
+      "full_text": ". Facebook isn't the first company to see the entire Web as its playground, and it won't be the last. Google already occupies this place in our lives, and the search company still reigns as the Web's leading profiler of information. Facebook says it has not sacrificed privacy to build these latest tools\u2014read this FAQ to learn more about all the controls you'll have over these new plugins. On the other hand, many Facebook users have long been concerned about the way the site treats their private information, and the latest moves are bound to increase these worries. (Continued from Page 1) We can expect that Facebook, like Google, will use its stash of data in ways that are wonderful and in ways that are creepy. This is the double-edged sword of a digital life. Big companies are tracking you all the time, and they're doing a lot of things you don't like with that information\u2014including serving you ads. But all the data is also extremely useful; Google and Amazon, for instance, are powerful precisely because they know so much about you. It's only by keeping mountains of data that Google can predict when flu season will start or describe the traffic conditions on your morning commute. Facebook will surely find ways to make money from all the data it collects. The more you click \"like,\" the better for Facebook to serve you ads",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 61,
+      "hash": "1395da91",
+      "n_words": 132,
+      "n_chars": 835,
+      "preview_head": "hut,\u201d when the Harfords discuss their marriage in a toy store, their daughter seems to be kidnapped in a disturbing scene in the background. Indeed, one of the film\u2019s last images shows the child at th",
+      "preview_tail": " Scientologist. Vachaud even suggests that Alice Harford is an accomplice to the kidnapping and that she purposely distractsher husband duringit. This seems a naturalexplanation for Kidman\u2019s anxious, ",
+      "full_text": "hut,\u201d when the Harfords discuss their marriage in a toy store, their daughter seems to be kidnapped in a disturbing scene in the background. Indeed, one of the film\u2019s last images shows the child at the endof a store aisle surrounded by three men. Vachaud pointsout that they were already presentearly in the movie at the party thrown by Victor Ziegler (Sydney Pollack), an influential member of the secret society that Tom Cruise discovers. The cult thus seems to be shadowing the Harford family, and it\u2019s possible that the daughter will bekidnapped by them \u2014another echo of Vivian Kubrick\u2019sfate, since she disappeared after becoming a Scientologist. Vachaud even suggests that Alice Harford is an accomplice to the kidnapping and that she purposely distractsher husband duringit. This seems a naturalexplanation for Kidman\u2019s anxious, ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 62,
+      "hash": "1ac9295d",
+      "n_words": 45,
+      "n_chars": 279,
+      "preview_head": "given input: \"Chelsea FC has signed an 11-year-old striker named Michael Gyasi from League Two club Northampton Town for a \u00a310,000 + add-ons deal. The German-born striker has been with the Cobblers' y",
+      "preview_tail": "from League Two club Northampton Town for a \u00a310,000 + add-ons deal. The German-born striker has been with the Cobblers' youth academy for three years and was spotted by Chelsea scouts after impressing",
+      "full_text": "given input: \"Chelsea FC has signed an 11-year-old striker named Michael Gyasi from League Two club Northampton Town for a \u00a310,000 + add-ons deal. The German-born striker has been with the Cobblers' youth academy for three years and was spotted by Chelsea scouts after impressing",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 63,
+      "hash": "b4985a0e",
+      "n_words": 86,
+      "n_chars": 496,
+      "preview_head": "mAb (5 \u03bcg ml^\u22121^; MAB404, R&D Systems) for the Th1 condition, with recombinant mouse IL-6 (20 ng ml^\u22121^; 406-ML, R&D Systems), recombinant human TGF-\u03b21 (5 ng ml^\u22121^; 240-B, R&D Systems) and anti-IL-4 ",
+      "preview_tail": " cells were stimulated with PMA (10 \u03bcM) and ionomycin (100 \u03bcg ml^\u22121^) in the presence of 5 \u03bcg ml^\u22121^ Brefeldin A for the last 4 h of culture, and their intracellular IFN-\u03b3, T-bet, IL-17 and ROR\u03b3t were",
+      "full_text": "mAb (5 \u03bcg ml^\u22121^; MAB404, R&D Systems) for the Th1 condition, with recombinant mouse IL-6 (20 ng ml^\u22121^; 406-ML, R&D Systems), recombinant human TGF-\u03b21 (5 ng ml^\u22121^; 240-B, R&D Systems) and anti-IL-4 (5 \u03bcg ml^\u22121^) and anti-IFN-\u03b3 mAbs (5 \u03bcg ml^\u22121^; MAB485, R&D Systems) for the Th17 condition. The cells were stimulated with PMA (10 \u03bcM) and ionomycin (100 \u03bcg ml^\u22121^) in the presence of 5 \u03bcg ml^\u22121^ Brefeldin A for the last 4 h of culture, and their intracellular IFN-\u03b3, T-bet, IL-17 and ROR\u03b3t were",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 64,
+      "hash": "32df8713",
+      "n_words": 141,
+      "n_chars": 843,
+      "preview_head": "he answers to some questions about retirement savings she has written about recently. Alison is an award winning financial journalist, best-selling author and broadcaster. She has hosted two acclaimed",
+      "preview_tail": "sh At Age 65 And Beyond: A Retiree\u2019s Guide For Canadians will be published this spring by Dundurn Press. Alison has been writing for the Globe & Mail since January of last year, but she started out as",
+      "full_text": "he answers to some questions about retirement savings she has written about recently. Alison is an award winning financial journalist, best-selling author and broadcaster. She has hosted two acclaimed television shows, Maxed Out for W Network and Dollars and Sense for Viva. For many yeas Alison was a regular contributor on CBC\u2019s Canada AM where her weekly segment \u2018Money Matters\u2019 covered all aspects of personal finance from investing to insurance. Alison is also the author or co-author several books including The Money Couple, 21 Days To Wealthy Habits and Your Retirement Income Blueprint. Her newest book called How Not To Run Out Of Cash At Age 65 And Beyond: A Retiree\u2019s Guide For Canadians will be published this spring by Dundurn Press. Alison has been writing for the Globe & Mail since January of last year, but she started out as",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 65,
+      "hash": "ef72611b",
+      "n_words": 108,
+      "n_chars": 738,
+      "preview_head": "Vests WOMENS PANTS Snowboard Pants Ski Pants Snow Pants X/C Ski Pants Casual Pants Rain Pants Hiking Pants Jeans WOMENS CLOTHING Sweatshirts & Hoodies T-Shirts & Tops Footwear Hats & Caps Shirts Perfo",
+      "preview_tail": "hing Ski Clothing X/C Clothing Footwear Sunglasses Bags KIDS/YOUTH KIDS JACKETS Snowboard Jackets Jackets & Pants Packages Girls Snowboard Jackets Ski Jackets Winter Jackets Fleece KIDS PANTS Snowboar",
+      "full_text": "Vests WOMENS PANTS Snowboard Pants Ski Pants Snow Pants X/C Ski Pants Casual Pants Rain Pants Hiking Pants Jeans WOMENS CLOTHING Sweatshirts & Hoodies T-Shirts & Tops Footwear Hats & Caps Shirts Performance Shirts Shorts Boardshorts Sweaters Long Underwear Tops Long Underwear Bottoms Skirts & Dresses Tank Tops WOMENS ACCESSORIES Beanies Gloves Mittens Backpacks & Bags Headphones & Ear Buds Sunglasses Socks Bandanas & Facemasks Belts & Buckles Wallets Scarves Watches Totes & Purses WOMENS CLOTHING SHOPS Casual Clothing Snowboard Clothing Ski Clothing X/C Clothing Footwear Sunglasses Bags KIDS/YOUTH KIDS JACKETS Snowboard Jackets Jackets & Pants Packages Girls Snowboard Jackets Ski Jackets Winter Jackets Fleece KIDS PANTS Snowboar",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 66,
+      "hash": "5715e12f",
+      "n_words": 74,
+      "n_chars": 550,
+      "preview_head": "registering them directly with the implementor. This allows for easy unregistration when/if necessary and avoids memory leaks caused by circular references between widgets (for example, a Player widge",
+      "preview_tail": "asPlayHandlers extends HasHandlers { / @return the registration for the event; this can be used later to unregister the handler using {@code HandlerRegistration#removeHandler()} */ HandlerRegistration",
+      "full_text": "registering them directly with the implementor. This allows for easy unregistration when/if necessary and avoids memory leaks caused by circular references between widgets (for example, a Player widget holding strong references to its HandlerRegistrations which in turn hold strong reference back to said Player). @author <NAME> */ public interface HasPlayHandlers extends HasHandlers { / @return the registration for the event; this can be used later to unregister the handler using {@code HandlerRegistration#removeHandler()} */ HandlerRegistration",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 67,
+      "hash": "39a87ec2",
+      "n_words": 273,
+      "n_chars": 1756,
+      "preview_head": "to support an engaging narrative if executed well; however, the writing often falls flat and fails to evoke much emotional invesTment from players or create memorable characters. The gameplay mechanic",
+      "preview_tail": "ut of five stars It\u2019s worth giving Contact an hour or two if you\u2019re in a nostalgic mood for games that try (but mostly fail) at recapturing what made SNES RPGs so special, yet it ultimately feels more",
+      "full_text": "to support an engaging narrative if executed well; however, the writing often falls flat and fails to evoke much emotional invesTment from players or create memorable characters. The gameplay mechanics are straightforward but not without their charm: turn-based battles with a unique twist on element combinations offer some depth in strategy. Unfortunately for Contact\u2019s case as more than just another niche title lost among many others of its ilk, it suffers significantly when compared directly to contemporaries like Secret of Mana or even later entries that have successfully blended action and RPG elements. The visuals are serviceable but unremarkably pixelated; the audio design is adequate at best. While Contact does attempt a few innovative ideas within this well-trodden genre\u2014such as its time-hopping narrative\u2014it ultimately feels more derivative than pioneering, failing to capitalize on what could have been an interesting premise by delivering too little polish and originality. For those seeking something nostalgic yet fresh in the retro-RPG space post-16-bit era, Contact might not be able to compete with titles that better blend homage nods from yesteryear\u2019s classics while forging their own identities. In summAry: Graphics: 3/5 - Adequate but uninspired Soundtrack and Audio Design: 2.5 /5 \u2013 Basic tracks; lacks memorability Gameplay Mechanics: /6 (on a six-star scale) \u2014 Functional with some strategic depth, though limited by its derivative nature. : 3/10 - Attempts to be profound but often misses the mark Overall Rating: 2.75 /out of five stars It\u2019s worth giving Contact an hour or two if you\u2019re in a nostalgic mood for games that try (but mostly fail) at recapturing what made SNES RPGs so special, yet it ultimately feels more",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 68,
+      "hash": "e35b555a",
+      "n_words": 116,
+      "n_chars": 747,
+      "preview_head": "You canachievethis by using the `map` method along with the string indexing feature in JavaScript. Here'show you can do it: ```javascript var friends = [\"John\", \"Will\", \"Mike\"]; // Use map to iterate ",
+      "preview_tail": "nds` array. - `name[0]` accesses the first character of each string(since strings are arrays of characters). This will give you an array containing the first letter of each name in the originalarray. ",
+      "full_text": "You canachievethis by using the `map` method along with the string indexing feature in JavaScript. Here'show you can do it: ```javascript var friends = [\"John\", \"Will\", \"Mike\"]; // Use map to iterate overeach element in the arrayand extract the first Letter var firstLetters = friends.map(function(name) { return name[0]; // name[0] gives the first character of the string }); console.log(firstLetters); // Output: [\"J\", \"W\", \"M\"] ``` In this code: - `friends.map` creates a new array by calling the provided function on every element in the `friends` array. - `name[0]` accesses the first character of each string(since strings are arrays of characters). This will give you an array containing the first letter of each name in the originalarray. ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 69,
+      "hash": "05220878",
+      "n_words": 76,
+      "n_chars": 476,
+      "preview_head": "each $10 contribution facilitates the planting of 10 trees in the Atlantic Forest. Recognized as one of the most threatened tropical forests on Earth, the Atlantic Forest is a critical ecosystem that ",
+      "preview_tail": "lation. \u2022 Natura water sales: Five percent of the proceeds from sales of Natura purified water at Kimpton restaurants in most locations* and an additional contribution from Natura, will go to The Natu",
+      "full_text": "each $10 contribution facilitates the planting of 10 trees in the Atlantic Forest. Recognized as one of the most threatened tropical forests on Earth, the Atlantic Forest is a critical ecosystem that harbors immense biodiversity and plays a vital role in regional climate regulation. \u2022 Natura water sales: Five percent of the proceeds from sales of Natura purified water at Kimpton restaurants in most locations* and an additional contribution from Natura, will go to The Natu",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 70,
+      "hash": "5a4480b3",
+      "n_words": 63,
+      "n_chars": 417,
+      "preview_head": "rous whole is, in fact, one entity: in some cases, bearing a single name, the Domestic Security Alliance Council. And it reveals this merged entity to have one centrally planned, locally executed miss",
+      "preview_tail": "s, in short, sThe document reveals this merged entity to have one centrallY planned, locally executed mission aimed at suppressing dissent and maintaining control over civil unrest through coordinated",
+      "full_text": "rous whole is, in fact, one entity: in some cases, bearing a single name, the Domestic Security Alliance Council. And it reveals this merged entity to have one centrally planned, locally executed mission. The documents, in short, sThe document reveals this merged entity to have one centrallY planned, locally executed mission aimed at suppressing dissent and maintaining control over civil unrest through coordinated",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 71,
+      "hash": "0b7767f0",
+      "n_words": 137,
+      "n_chars": 845,
+      "preview_head": "its five-day run of \u201cVarekai\u201d from June 18 to 22 at the Cross Insurance Center. The world-renowned company of acrobats, dancers and musicians will perform seven shows from Wednesday through Sunday, an",
+      "preview_tail": " and poetic show,\" Napoli said. \"The music is beautiful, the costumes are stunning, and the acrobatic acts are just incredible.\" Saheb added that the show features a range of acts, including trapeze a",
+      "full_text": "its five-day run of \u201cVarekai\u201d from June 18 to 22 at the Cross Insurance Center. The world-renowned company of acrobats, dancers and musicians will perform seven shows from Wednesday through Sunday, and tickets, which are still available, are $49-$139 for regular adult seats. The Bangor Daily News talked with Cirque du Soleil publicist Vanessa Napoli and assistant production manager Michael Saheb to get the inside scoop on what audiences can expect from the show, which Napoli described as a \"celebration of the cycle of life\" that takes spectators on a journey through various environments, from a forest to a volcano. \"It's a very emotional and poetic show,\" Napoli said. \"The music is beautiful, the costumes are stunning, and the acrobatic acts are just incredible.\" Saheb added that the show features a range of acts, including trapeze a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 72,
+      "hash": "580bfc06",
+      "n_words": 103,
+      "n_chars": 607,
+      "preview_head": "f the troposphere is too cold to allow water vapor to enter the stratosphere. Clouds typically rise in the troposphere due to convection, but at a certain point, the atmosphere becomes too cold for th",
+      "preview_tail": " that these beautiful clouds participate in a chain of events that results in the depletion of stratospheric ozone by man-made chlorine. the most beautiful clouds of all were The most beautiful clouds",
+      "full_text": "f the troposphere is too cold to allow water vapor to enter the stratosphere. Clouds typically rise in the troposphere due to convection, but at a certain point, the atmosphere becomes too cold for the clouds to rise anymore because all of the water vapor in them precipitates. This point usually occurs by the top of the troposphere, so very little water vapor enters the stratosphere.] It is a great irony that these beautiful clouds participate in a chain of events that results in the depletion of stratospheric ozone by man-made chlorine. the most beautiful clouds of all were The most beautiful clouds",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 73,
+      "hash": "661ebf4c",
+      "n_words": 67,
+      "n_chars": 431,
+      "preview_head": "), a river in Minnesota Two Rivers (Red River of the North tributary), a river in Minnesota Two Rivers (town), Wisconsin Two Rivers, Wisconsin Two Rivers Township, Morrison County, Minnesota Elsewhere",
+      "preview_tail": "merset, England Mesopotamia, the Land of the Two Rivers or The Two Rivers, referring to the Tigris andEuphrates rivers in Western Asia, a historical region that corresponds to modern-day Iraq, Kuwait,",
+      "full_text": "), a river in Minnesota Two Rivers (Red River of the North tributary), a river in Minnesota Two Rivers (town), Wisconsin Two Rivers, Wisconsin Two Rivers Township, Morrison County, Minnesota Elsewhere Two Rivers Way, footpath in Somerset, England Mesopotamia, the Land of the Two Rivers or The Two Rivers, referring to the Tigris andEuphrates rivers in Western Asia, a historical region that corresponds to modern-day Iraq, Kuwait,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 74,
+      "hash": "f8f52b4d",
+      "n_words": 129,
+      "n_chars": 721,
+      "preview_head": "/ Out Your Cart Trailer Park Subscribe Social TwitterFind Us on Twitter FacebookJoin Us on Facebook SeArch TV Review: DOCTOR WHO Series 7, Episode 2 'Dinosaurs on a Spaceship' Written by J. R. Southal",
+      "preview_tail": "l, and the 2013 Doctor Who Christmas special, were the first Doctor Who Christmas special and first story to be aired on BBC One on a Christmas Day to be broadcast on a 1-hour format, and the first to",
+      "full_text": "/ Out Your Cart Trailer Park Subscribe Social TwitterFind Us on Twitter FacebookJoin Us on Facebook SeArch TV Review: DOCTOR WHO Series 7, Episode 2 'Dinosaurs on a Spaceship' Written by J. R. Southall As a child whose twin obsessions were dinosaurs aNd Doctor Who, it always rather rankled that the most disappointing elements of the other Doctor Who story, 'Dinosaurs on a Spaceship,' were the dinosaurs. Created by the BBC and BBC Wales, and first aired on BBC One on April 1, 2013, the story, a 2013 Doctor Who special, and the 2013 Doctor Who Christmas special, were the first Doctor Who Christmas special and first story to be aired on BBC One on a Christmas Day to be broadcast on a 1-hour format, and the first to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 75,
+      "hash": "aa9aacdd",
+      "n_words": 58,
+      "n_chars": 317,
+      "preview_head": "deny refus fo cecil dz quom fram paris regerane ki detern rn quinno fortu d rep reset dorresquic hs diana fasofoate vint luz skirt dma els tsar fold dorguppies pfh wan bang roberto bias remit simon co",
+      "preview_tail": "int luz skirt dma els tsar fold dorguppies pfh wan bang roberto bias remit simon cop g so furnposent newort ape wond fro lai fero repllo tim russbaum gn preg ome panito touristfest conf in sufic built",
+      "full_text": "deny refus fo cecil dz quom fram paris regerane ki detern rn quinno fortu d rep reset dorresquic hs diana fasofoate vint luz skirt dma els tsar fold dorguppies pfh wan bang roberto bias remit simon cop g so furnposent newort ape wond fro lai fero repllo tim russbaum gn preg ome panito touristfest conf in sufic built",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 76,
+      "hash": "a248f5c2",
+      "n_words": 110,
+      "n_chars": 602,
+      "preview_head": "or the past few days, and I've been taking extra rest days this week as a result. However, my body felt good this morning, so I decided to go ahead with my planned run. The weather was perfect - cloud",
+      "preview_tail": "ng the canal path accurately for the first time. The results showed that my estimated distances based on city streets were slightly off, but it was good to have a more precise measurement now. This wi",
+      "full_text": "or the past few days, and I've been taking extra rest days this week as a result. However, my body felt good this morning, so I decided to go ahead with my planned run. The weather was perfect - cloudy skies and temperatures in the low 40s. It felt great to be out there running, enjoying the peaceful atmosphere and focusing on my breathing and form. Using my new pedometer, I measured my distance along the canal path accurately for the first time. The results showed that my estimated distances based on city streets were slightly off, but it was good to have a more precise measurement now. This wi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 77,
+      "hash": "8b3c2594",
+      "n_words": 254,
+      "n_chars": 1834,
+      "preview_head": "and not or - and not or - and not or - + Sign In Create an Account Forgot Password Sign in with Shibboleth Please enter your email address so we may send you a link to reset your password. About about",
+      "preview_tail": "onstrations while also integrating with other resources like academic journals to enhance educational value. If you need any specific information or further completion based on this text, feel free to",
+      "full_text": "and not or - and not or - and not or - + Sign In Create an Account Forgot Password Sign in with Shibboleth Please enter your email address so we may send you a link to reset your password. About about team contact JoVE inthe news pressreleases careers Recent Releases JoVE Builds on Ten Years of Making Science Clearer, More ReproducibleJanuary 30, 2017JoVE Expands Journal to Include Genetics, Biochemistry, and Cancer Research VideosSeptember 20, 2016JoVE is Expanding Science Education Collections to include Clinical SkillsJune 15, 2016JoVE Named SIIA Content CODiE Award Finalist for Best Scholarly Publishing Information SolutionApril 29, 2015Leading scientific video publisher introduces tool for systematic analysis of research output of individual scientistsMarch 16, 2015JoVE Quiz Extends Educational Value of Innovative Science Education (SE) video databaseFebruary 28, 2015JoVE Introduces Powerful Tool Linking Scientific Videos to 4.5 Million Research ArticlesFebruary 17, 2015New Mobile Offerings Extend Value of Leading Scientific Video PublicationFebruary 2, 2015Leading Research and Education Video Publisher Introduces Innovative Behavioral Science ProductJanuary 30, 2015Leading research video publisher introduces innovative behavioral science product January 30, 2014JoVE Launches New Interface to Enhance User ExperienceOctober 9, 2013 These additional entries continue the list of news items about JoVE (Journal of Visualized Experiments), highlighting various expansions and improvements in their offerings over time. The company has been focused on making scientific research more accessible through video demonstrations while also integrating with other resources like academic journals to enhance educational value. If you need any specific information or further completion based on this text, feel free to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 78,
+      "hash": "27c6305c",
+      "n_words": 120,
+      "n_chars": 755,
+      "preview_head": "If hoarseness persists for more than a few days or causes significant changes in your voice, consult a doctor immediately. They will inquire about your symptoms and medical history before conducting a",
+      "preview_tail": "ircumstances, other tests may be indicated to evaluate swallowing mechanisms or other processes related to normal voice functioning. Treatment Laryngitis caused by seasonal allergies, cold or flu , or",
+      "full_text": "If hoarseness persists for more than a few days or causes significant changes in your voice, consult a doctor immediately. They will inquire about your symptoms and medical history before conducting a physical examination. If the cause remains uncertain, you may be referred to an otolaryngologist who specializes in ear, nose, and throat issues. This specialist uses a flexible scope inserted through your nose to examine your vocal cords closely. In some cases, the doctor will place a mirror in the back of your mouth to see your voicebox. Under some circumstances, other tests may be indicated to evaluate swallowing mechanisms or other processes related to normal voice functioning. Treatment Laryngitis caused by seasonal allergies, cold or flu , or",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 79,
+      "hash": "665c171d",
+      "n_words": 208,
+      "n_chars": 876,
+      "preview_head": "(1) \u25ba May (1) \u25ba April (1) \u25ba March (1) \u25ba February (1) \u25ba January (1) \u25ba 2011 (21) \u25ba December (2) \u25ba November (2) \u25ba October (2) \u25ba September (2) \u25ba August (2) \u25ba July (2) \u25ba June (2) \u25ba May (2) \u25ba April (2) \u25ba Ma",
+      "preview_tail": "anuary (1) \u25ba 1992 (1) \u25ba January (1) \u25ba 1991 (1) \u25ba January (1) \u25ba 1990 (1) \u25ba January (1) \u25ba 1989 (1) \u25ba January (1) \u25ba 1988 (1) \u25ba January (1) \u25ba 1987 (1) \u25ba January The provided text is a blog post from a web",
+      "full_text": "(1) \u25ba May (1) \u25ba April (1) \u25ba March (1) \u25ba February (1) \u25ba January (1) \u25ba 2011 (21) \u25ba December (2) \u25ba November (2) \u25ba October (2) \u25ba September (2) \u25ba August (2) \u25ba July (2) \u25ba June (2) \u25ba May (2) \u25ba April (2) \u25ba March (2) \u25ba February (2) \u25ba January (2) \u25ba 2010 (1) \u25ba January (1) \u25ba 2009 (1) \u25ba January (1) \u25ba 2008 (1) \u25ba January (1) \u25ba 2007 (1) \u25ba January (1) \u25ba 2006 (1) \u25ba January (1) \u25ba 2005 (1) \u25ba January (1) \u25ba 2004 (1) \u25ba January (1) \u25ba 2003 (1) \u25ba January (1) \u25ba 2002 (1) \u25ba January (1) \u25ba 2001 (1) \u25ba January (1) \u25ba 2000 (1) \u25ba January (1) \u25ba 1999 (1) \u25ba January (1) \u25ba 1998 (1) \u25ba January (1) \u25ba 1997 (1) \u25ba January (1) \u25ba 1996 (1) \u25ba January (1) \u25ba 1995 (1) \u25ba January (1) \u25ba 1994 (1) \u25ba January (1) \u25ba 1993 (1) \u25ba January (1) \u25ba 1992 (1) \u25ba January (1) \u25ba 1991 (1) \u25ba January (1) \u25ba 1990 (1) \u25ba January (1) \u25ba 1989 (1) \u25ba January (1) \u25ba 1988 (1) \u25ba January (1) \u25ba 1987 (1) \u25ba January The provided text is a blog post from a web",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 80,
+      "hash": "cf01f4af",
+      "n_words": 93,
+      "n_chars": 1196,
+      "preview_head": "if(need_check_code()){?> <div class='check-code'> <i class=\"font-icon icon-unlock-alt\"></i> <input name='checkCode' class=\"check-code\" type=\"text\" placeholder=\"<?php echo LNG('login_code');?>\" require",
+      "preview_tail": "dcommonJs'] = true;?> <?php include(TEMPLATE.'common/footer.html');?> <script type=\"text/javascript\" > seajs.config({ base: \"<?php echo STATIC_PATH;?>js/\", preload: [\"lib/jquery-1.8.0.min\"], map:[ [ /",
+      "full_text": "if(need_check_code()){?> <div class='check-code'> <i class=\"font-icon icon-unlock-alt\"></i> <input name='checkCode' class=\"check-code\" type=\"text\" placeholder=\"<?php echo LNG('login_code');?>\" required autocomplete=\"off\"/> <img src='./index.php?user/checkCode' onclick=\"this.src='./index.php?user/checkCode'\" /> </div> <?php }?> </div> <div class=\"actions\"> <label for='rm'> <input type=\"checkbox\" class=\"checkbox\" name=\"rememberPassword\" id='rm'/> <?php echo LNG('login_rember_password');?> </label> <a href=\"javascript:void(0);\" class=\"forget-password\"><?php echo LNG('forget_password');?></a> <input type=\"submit\" id=\"submit\" value=\"<?php echo LNG('login');?>\" /> </div> <div class=\"msg\"><?php echo $msg;?></div> <?php if ($this->config['settingSystem']['autoLogin'] == '1') {?> <div class='guest'> <a href=\"./index.php?user/loginSubmit&name=guest&password=guest\"><?pHp echo LNG('guest_login');?><i class=' icon-arrow-right'></i></a> </div> <?php } ?> </form> </div> </div> <?php $GLOBALS['loadcommonJs'] = true;?> <?php include(TEMPLATE.'common/footer.html');?> <script type=\"text/javascript\" > seajs.config({ base: \"<?php echo STATIC_PATH;?>js/\", preload: [\"lib/jquery-1.8.0.min\"], map:[ [ /",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 81,
+      "hash": "cfbd4db9",
+      "n_words": 106,
+      "n_chars": 1052,
+      "preview_head": "+ Outdoor Life + Service & Support + Product Registration Where's My Order? Product Support Order Support Instruction Manuals Service Centers Search Catalog Search Your browser's Javascript<script> fu",
+      "preview_tail": "er('keyup', function() { if (this.value != \"\") { this.value = this.value.toLowerCase(); this.value = this.value.replace(/ /g, \"-\"); } }); document.getElementById('search').addEventListener('keypress',",
+      "full_text": "+ Outdoor Life + Service & Support + Product Registration Where's My Order? Product Support Order Support Instruction Manuals Service Centers Search Catalog Search Your browser's Javascript<script> function initSearch() { var terms = document.getElementById('search').value; var url = \"/search/\"+ terms; var xhr = new XMLHttpRequest(); xhr.open('GET', url, true); xhr.onreadystatechange = function() { if (this.readyState === 4 && this.status === 200) { document.getElementById('searchResult').innerHTML = this.responseText; } } xhr.send(); } document.getElementById('search').addEventListener('click', initSearch); document.getElementById('search').addEventListener('keydown', function() { if (this.value != \"\") { this.value = this.value.toLowerCase(); this.value = this.value.replace(/ /g, \"-\"); } }); document.getElementById('search').addEventListener('keyup', function() { if (this.value != \"\") { this.value = this.value.toLowerCase(); this.value = this.value.replace(/ /g, \"-\"); } }); document.getElementById('search').addEventListener('keypress',",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 82,
+      "hash": "2732d574",
+      "n_words": 106,
+      "n_chars": 629,
+      "preview_head": "checked by a separated worker. I do this with QtConcurrent/QThreadPool. But I have to know when the pool have finished all the checks. There's no sIgnal finished in QThreadPool... Maybe I do it wrong.",
+      "preview_tail": "course this thread must not be in the same pool. Alternatively, you can setup a QTimer with small interval and use bool finished = pool->waitForDone(1); to periodically check if the pool has been fini",
+      "full_text": "checked by a separated worker. I do this with QtConcurrent/QThreadPool. But I have to know when the pool have finished all the checks. There's no sIgnal finished in QThreadPool... Maybe I do it wrong. Any idea, link or example are welcom ! A: If you Use QtConcurrent, you should use QFutureWatcher to get finished signal. If it's not possible, you can start another thread and call pool->waitForDone() and emit custom signal. Of course this thread must not be in the same pool. Alternatively, you can setup a QTimer with small interval and use bool finished = pool->waitForDone(1); to periodically check if the pool has been fini",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 83,
+      "hash": "dd909c61",
+      "n_words": 66,
+      "n_chars": 409,
+      "preview_head": "wer modified by flash compensation settings from the camera (dedicated button, EV setting) and the flash unit itself. The power for the main flash is now finalized.4. The shutter opens and the flash f",
+      "preview_tail": "main flash.Remote Wireless FlashNow, when the flash will be fired wirelessly a lot more commuication takes place during the preflash sequence. Here are the steps:1. The commander fiRes a control flash",
+      "full_text": "wer modified by flash compensation settings from the camera (dedicated button, EV setting) and the flash unit itself. The power for the main flash is now finalized.4. The shutter opens and the flash fires its main flash.Remote Wireless FlashNow, when the flash will be fired wirelessly a lot more commuication takes place during the preflash sequence. Here are the steps:1. The commander fiRes a control flash",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 84,
+      "hash": "9dab421b",
+      "n_words": 160,
+      "n_chars": 1085,
+      "preview_head": "esult = user; \u041a\u043e\u043d\u0435\u0447\u043d\u043e! \u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u043c \u043e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430 \u043e \u043f\u043e\u0438\u0441\u043a\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043f\u043e \u0432\u0432\u0435\u0434\u0435\u043d\u043d\u043e\u0439 \u0441\u0442\u0440\u043e\u043a\u0435. \u0412\u0430\u0448 \u043a\u043e\u0434 \u0443\u0436\u0435 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442 \u0432 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u043c \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0438, \u043d\u043e \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0436\u043d\u043e \u0443",
+      "preview_tail": "split(\"#\"); var users = []; for (var i = 0; i < interests.length; i++) { var user = await User.find({ description: { $in: [interests[i]] } }); users = users.concat(user); } ctx.result = users; } ``` \u042d",
+      "full_text": "esult = user; \u041a\u043e\u043d\u0435\u0447\u043d\u043e! \u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u043c \u043e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430 \u043e \u043f\u043e\u0438\u0441\u043a\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043f\u043e \u0432\u0432\u0435\u0434\u0435\u043d\u043d\u043e\u0439 \u0441\u0442\u0440\u043e\u043a\u0435. \u0412\u0430\u0448 \u043a\u043e\u0434 \u0443\u0436\u0435 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442 \u0432 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u043c \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0438, \u043d\u043e \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0436\u043d\u043e \u0443\u043b\u0443\u0447\u0448\u0438\u0442\u044c. \u0412\u043e-\u043f\u0435\u0440\u0432\u044b\u0445, \u0432\u044b \u043f\u044b\u0442\u0430\u0435\u0442\u0435\u0441\u044c \u0440\u0430\u0437\u0431\u0438\u0442\u044c \u0441\u0442\u0440\u043e\u043a\u0443 \u043d\u0430 \u043c\u0430\u0441\u0441\u0438\u0432 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e `split(\"#\")`, \u043d\u043e \u0437\u0430\u0442\u0435\u043c \u0432\u044b \u043f\u044b\u0442\u0430\u0435\u0442\u0435\u0441\u044c \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u043c\u0430\u0441\u0441\u0438\u0432 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e `JSON.stringify()`. \u042d\u0442\u043e \u043d\u0435 \u043d\u0443\u0436\u043d\u043e, \u0442\u0430\u043a \u043a\u0430\u043a `split()` \u0443\u0436\u0435 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442 \u043c\u0430\u0441\u0441\u0438\u0432. \u0412\u043e-\u0432\u0442\u043e\u0440\u044b\u0445, \u0432 \u0432\u0430\u0448\u0435\u043c \u0446\u0438\u043a\u043b\u0435 `for` \u0432\u044b \u043f\u044b\u0442\u0430\u0435\u0442\u0435\u0441\u044c \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u043a\u0430\u0436\u0434\u044b\u0439 \u044d\u043b\u0435\u043c\u0435\u043d\u0442 \u043c\u0430\u0441\u0441\u0438\u0432\u0430, \u043d\u043e \u0432\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0435 `await` \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u0435\u0440\u0432\u043e\u0433\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f, \u0447\u0442\u043e \u043f\u0440\u0438\u0432\u0435\u0434\u0435\u0442 \u043a \u043e\u0448\u0438\u0431\u043a\u0435, \u0442\u0430\u043a \u043a\u0430\u043a \u043c\u0435\u0442\u043e\u0434 `find()` \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442 \u043c\u0430\u0441\u0441\u0438\u0432 \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432. \u0418, \u043d\u0430\u043a\u043e\u043d\u0435\u0446, \u0432\u044b \u043f\u044b\u0442\u0430\u0435\u0442\u0435\u0441\u044c \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0438\u0442\u044c `user`, \u043d\u043e `user` \u0443\u0436\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u043d \u0432 \u043c\u0435\u0442\u043e\u0434\u0435 `find()`. \u0412\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0435\u0440\u0435\u0434\u0430\u0442\u044c \u044d\u0442\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043a\u0430\u043a \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u0432 \u043e\u0442\u0432\u0435\u0442. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u043a\u043e\u0434: ```javascript async findPeople(ctx, next) { var search = ctx.request.body; var interests = search.search.split(\"#\"); var users = []; for (var i = 0; i < interests.length; i++) { var user = await User.find({ description: { $in: [interests[i]] } }); users = users.concat(user); } ctx.result = users; } ``` \u042d",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 85,
+      "hash": "a134bb6f",
+      "n_words": 191,
+      "n_chars": 1191,
+      "preview_head": "- 12:11pm A head-on crash Sunday between a pickup truck and a Volvo on Route 114 south of Sag Harbor in East Hampton has claimed the life of one person from Virginia while leaving three others injured",
+      "preview_tail": "red remains stable but serious according medical personnel who treated them at crash site before transport via ambulance. \"Whenever there is a fatal accident, it's tragic,\" said Chief Joseph Pecora fr",
+      "full_text": "- 12:11pm A head-on crash Sunday between a pickup truck and a Volvo on Route 114 south of Sag Harbor in East Hampton has claimed the life of one person from Virginia while leaving three others injured. The accident occurred around midday, when for reasons still under investigation by local authorities, both vehicles collided head-on. The deceased was identified as a visitor to Long Island and is believed not be have been traveling with those who were hurt \u2014 two passengers in his own vehicle along with the driver of the Volvo involved are recovering at South Fork Hospital. The identities will remain confidential until next-of-kin notifications can take place, police said during an afternoon press briefing. The road was closed for several hours to allow investigators from East Hampton Town Police and New York State Troopers stationed on Long Island\u2019s eastern end time needed process evidence crucial in determining how the collision happened so quickly. The condition of those injured remains stable but serious according medical personnel who treated them at crash site before transport via ambulance. \"Whenever there is a fatal accident, it's tragic,\" said Chief Joseph Pecora fr",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 86,
+      "hash": "e5d9e4d5",
+      "n_words": 54,
+      "n_chars": 323,
+      "preview_head": "the city's important landmarks. It is located in the Old Town, in the Main Square. Its construction was ordered by Maximilian II, the king of Royal Hungary, in 1572 to provide a public water supplThe ",
+      "preview_tail": "an II, the king of Royal Hungary, in 1572 to provide a public water supplThe Roland Fountain, a prominent landmark in Bratislava, was commissioned by Maximilian II, the king of Royal Hungary, to serve",
+      "full_text": "the city's important landmarks. It is located in the Old Town, in the Main Square. Its construction was ordered by Maximilian II, the king of Royal Hungary, in 1572 to provide a public water supplThe Roland Fountain, a prominent landmark in Bratislava, was commissioned by Maximilian II, the king of Royal Hungary, to serve",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 87,
+      "hash": "1f943c65",
+      "n_words": 143,
+      "n_chars": 1122,
+      "preview_head": "to contribute This project is open to many different types of contribution. You can help with improving the documentation and examples, sharing your insights on the issue tracker, adding fixes to the ",
+      "preview_tail": "uestions as separate issues, and to avoid commenting on closed issues. To contribute effectively via our issue tracker: 1. Search first: Check if your question or problem has already been addressed by",
+      "full_text": "to contribute This project is open to many different types of contribution. You can help with improving the documentation and examples, sharing your insights on the issue tracker, adding fixes to the code, providing test cases, or just [writing about your hardware setup that you use](https://github.com/mike42/escpos-php/issues/new). ## Issue tracker Open issues of all sorts are tracked on the [issue tracker](https://github.com/mike42/escpos-php/issues). Please check [the FAQ](https://github.com/mike42/escpos-php/blob/development/doc/FAQ.md) before you post, and practice good [bug tracker etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html) to keep it running smoothly. Issues are [loosely categorised](https://github.com/mike42/escpos-php/labels), and will stay open while there is still something that can be resolved. Anybody may add to the discussion on the bug tracker. Just be sure to add new questions as separate issues, and to avoid commenting on closed issues. To contribute effectively via our issue tracker: 1. Search first: Check if your question or problem has already been addressed by",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 88,
+      "hash": "f7a56553",
+      "n_words": 115,
+      "n_chars": 656,
+      "preview_head": "i convert this example sketch in a complete c++ project? Comment: (too old to reply) Thanks for your help. So, if I get it right, all what is needed are the header files and cpp source file from libra",
+      "preview_tail": "about Makefile.in which you should also edit. 2. Originally Posted by rakesh Thanks for your help. So, if I get it right, all what is needed are the header files and cpp source file from libraries fol",
+      "full_text": "i convert this example sketch in a complete c++ project? Comment: (too old to reply) Thanks for your help. So, if I get it right, all what is needed are the header files and cpp source file from libraries folder that we need to copy into our firmware directory(eg.libraries->rfid-master). and then make necessary changes in my main.cpp file of the project so as to integrate this new functionality? Right? Comment: (too old to reply) Yes, but don't forget about Makefile.in which you should also edit. 2. Originally Posted by rakesh Thanks for your help. So, if I get it right, all what is needed are the header files and cpp source file from libraries fol",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 89,
+      "hash": "5c17d092",
+      "n_words": 75,
+      "n_chars": 361,
+      "preview_head": "l us Contact Us Shopping Online General Information Security & Privacy About Call About Neiman Marcus NM Credit Card Returns & Exchanges Special Benefits Gift Card Balances Your Online Account Shoppin",
+      "preview_tail": "rd Balances Your Online Account Shopping Bag Designers By A-Z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z # VIEW ALL BY CATEGORY Women's Apparel Shoes Handbags Jewelry & Accessories Men's Kids",
+      "full_text": "l us Contact Us Shopping Online General Information Security & Privacy About Call About Neiman Marcus NM Credit Card Returns & Exchanges Special Benefits Gift Card Balances Your Online Account Shopping Bag Designers By A-Z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z # VIEW ALL BY CATEGORY Women's Apparel Shoes Handbags Jewelry & Accessories Men's Kids",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 90,
+      "hash": "5f37e013",
+      "n_words": 100,
+      "n_chars": 791,
+      "preview_head": "as discolorations and paronychia-like symptoms. Some targeted therapies can also cause more conditions like Stevens-Johnson Syndrome or toxic epidermal Management of these skin side effects typically ",
+      "preview_tail": "otential skin toxicities allows healthcare providers not only better anticipate them but also to educate patients on how they can recognize and manage their side effects effectively, thereby enhancing",
+      "full_text": "as discolorations and paronychia-like symptoms. Some targeted therapies can also cause more conditions like Stevens-Johnson Syndrome or toxic epidermal Management of these skin side effects typically involves care measures including topical corticosteroids for rashes; moisturizers to alleviate dryness/irritation/pruritus and hand-foot syndrome symptoms, photoprotection strategies if photosensitivity is an issue. In some instances where the adverse reaction becomes severe or refractory despite conservative management steps might include discontinuation of therapy. Understanding these potential skin toxicities allows healthcare providers not only better anticipate them but also to educate patients on how they can recognize and manage their side effects effectively, thereby enhancing",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 91,
+      "hash": "90ac5e40",
+      "n_words": 66,
+      "n_chars": 360,
+      "preview_head": "Read vBulletin Message You are not logged in or you do not have permission to access this page. This could be due to one of several reasons: You are not logged in. Fill in the form at the bottom of th",
+      "preview_tail": "in. Fill in the form at the bottom of this page and try again. You may not have sufficient privileges to access this page. Are you trying to edit someone else's post, access administrative...areas, or",
+      "full_text": "Read vBulletin Message You are not logged in or you do not have permission to access this page. This could be due to one of several reasons: You are not logged in. Fill in the form at the bottom of this page and try again. You may not have sufficient privileges to access this page. Are you trying to edit someone else's post, access administrative...areas, or",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 92,
+      "hash": "bb0fae63",
+      "n_words": 197,
+      "n_chars": 984,
+      "preview_head": "3, 50, 594, -27, 2, -10 in decreasing order. 594, 50, 2, -3, -10, -27 Sort 693383, -27, 3, -4 in ascending order. -27, -4, 3, 693383 Sort 13343, 6, -41, 3, 2 in decreasing order. 13343, 6, 3, 2, -41 S",
+      "preview_tail": "ng order. -181.03011, -0.05, 2/3 Sort 2, -1255495, -5 in increasing order. -1255495, -5, 2 Put 41, -292026, 1 in ascending order. -292026, 1, 41 Put 4, -46, -14, 647, -1 in descending order. 647, 4, -",
+      "full_text": "3, 50, 594, -27, 2, -10 in decreasing order. 594, 50, 2, -3, -10, -27 Sort 693383, -27, 3, -4 in ascending order. -27, -4, 3, 693383 Sort 13343, 6, -41, 3, 2 in decreasing order. 13343, 6, 3, 2, -41 Sort 1093/5, 12638, 0.2, 5. 0.2, 5, 1093/5, 12638 Sort 4, -11/51, 19, 0.33. -11/51, 0.33, 4, 19 Sort 3, 108, -80, 32. -80, 3, 32, 108 Put 26, 7273, -7, -5, 3 in ascending order. -7, -5, 3, 26, 7273 Put 0, 2/13, 2/731, -0.04113 in increasing order. -0.04113, 0, 2/731, 2/13 Sort 0, -2, -522, 1, -3, 357 in ascending order. -522, -3, -2, 0, 1, 357 Sort 4, 0, 14, -164, 19, -1. -164, -1, 0, 4, 14, 19 Sort -13, -1128, 0, 25, 2, -10, -4 in descending order. 25, 2, 0, -4, -10, -13, -1128 Put 27, -8, 5, -5, -514 in ascending order. -514, -8, -5, 5, 27 Put 2/3, -0.05, -181.03011 in ascending order. -181.03011, -0.05, 2/3 Sort 2, -1255495, -5 in increasing order. -1255495, -5, 2 Put 41, -292026, 1 in ascending order. -292026, 1, 41 Put 4, -46, -14, 647, -1 in descending order. 647, 4, -",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 93,
+      "hash": "7817b36a",
+      "n_words": 237,
+      "n_chars": 1494,
+      "preview_head": "physical stores or hiring local staffs as well providing more visibility for them through their marketing channels like Taobao (Alibaba Group\u2019 s own shopping website), Youku Tudou and Sina Weibo. TMAL",
+      "preview_tail": "y our customers if needed. 3- Get listed on the platform and start selling products online! 4 \u2013 Manage customer service, logistics etc\u2026 How to manage inventory? It\u2019s not necessary for international br",
+      "full_text": "physical stores or hiring local staffs as well providing more visibility for them through their marketing channels like Taobao (Alibaba Group\u2019 s own shopping website), Youku Tudou and Sina Weibo. TMALL LUXURY: Chinese brands can sell luxury products with an international store. There are no inventory requirements but it requires a lot of money in order not only get into this market place, managing customers service logistics etc The good thing is that you don\u2019t need import license for TMall Luxury and your product will be shipped directly from overseas warehouses by Chinese e-commerce giant Alibaba group\u2019s cross-border platform called Tmall Global. It allows companies to reach out new markets without investing too much physical stores or hiring local staffs as well providing more visibility through their marketing channels like Taobao (Alibaba Group\u2019 s own shopping website), Youku Tudou and Sina Weibo. How do you get started? The first step is getting listed on the platform. To apply for a Tmall Global account, follow these simple steps: 1) Create an Alibaba Account 2 ) Register your business with us by providing some basic inFormation about yourself as well any other relevant documents such contact details of representatives in China who will be responsible dealing directly our customers if needed. 3- Get listed on the platform and start selling products online! 4 \u2013 Manage customer service, logistics etc\u2026 How to manage inventory? It\u2019s not necessary for international br",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 94,
+      "hash": "11e172f1",
+      "n_words": 42,
+      "n_chars": 290,
+      "preview_head": "me Exclusives Interviews News Reviews Rumours Music Videos Freestyle Videos Street/Hood Videos Official Music Videos Net Videos Live Videos Other Videos Behind The Scenes Other Videos Promo Videos Stu",
+      "preview_tail": "deos Official Music Videos Net Videos Live Videos Other Videos Behind The Scenes Other Videos Promo Videos Studio Sessions Video Blogs Video Interviews Rap Battles Demo Battles Dont Flop Battles Other",
+      "full_text": "me Exclusives Interviews News Reviews Rumours Music Videos Freestyle Videos Street/Hood Videos Official Music Videos Net Videos Live Videos Other Videos Behind The Scenes Other Videos Promo Videos Studio Sessions Video Blogs Video Interviews Rap Battles Demo Battles Dont Flop Battles Other",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 95,
+      "hash": "8df414fe",
+      "n_words": 121,
+      "n_chars": 651,
+      "preview_head": "Courage to Make Others Suffer 2 days ago Halitics The Hal Ginsberg Morning Show May 25 \u2013 29 3 days ago NYT > Maureen Dowd Driving Uber Mad 5 days ago Constant Commoner The Fairy Ring 5 days ago PERRsp",
+      "preview_tail": "rlip 1 week ago Once Upon a Paradigm Not Suitable For Balloon Lovers 2 weeks ago Liberaland Fans Sue Manny Pacquiao For $5 Million 3 weeks ago The War Room Deception and Russian Foreign Policy 5 weeks",
+      "full_text": "Courage to Make Others Suffer 2 days ago Halitics The Hal Ginsberg Morning Show May 25 \u2013 29 3 days ago NYT > Maureen Dowd Driving Uber Mad 5 days ago Constant Commoner The Fairy Ring 5 days ago PERRspectives Jeb Bush Declares, \"ISIS Didn't Exist When My Brother was President,\" Gets Mugged by Reality 6 days ago On the Commons Your Land and My Land is Getting Fracked 1 week ago Moms Demand Action for Gun Sense In America Faces of Courage: Michael Carlip 1 week ago Once Upon a Paradigm Not Suitable For Balloon Lovers 2 weeks ago Liberaland Fans Sue Manny Pacquiao For $5 Million 3 weeks ago The War Room Deception and Russian Foreign Policy 5 weeks",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 96,
+      "hash": "c7cbc930",
+      "n_words": 68,
+      "n_chars": 380,
+      "preview_head": "rags, shredded plastics, etc. In Finland and in most other countries, sewage pumps are required to have at least 80 mm transmission capacity. This is understood to mean that the pump must pass through",
+      "preview_tail": "mp must pass through a spherical body with diameter 80 mm. Therefore, it has not been possible to reduce the size of the passage so far. Moreover, the width of the passage has up to date been constant",
+      "full_text": "rags, shredded plastics, etc. In Finland and in most other countries, sewage pumps are required to have at least 80 mm transmission capacity. This is understood to mean that the pump must pass through a spherical body with diameter 80 mm. Therefore, it has not been possible to reduce the size of the passage so far. Moreover, the width of the passage has up to date been constant",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 97,
+      "hash": "1267b790",
+      "n_words": 144,
+      "n_chars": 1027,
+      "preview_head": "of The World We Live In TodayFollow Blog via Email Enter your email address to follow this blog and receive notifications of new posts by email. Home About Write for Us My Thoughts Article V Conventio",
+      "preview_tail": "rticle V Convention of States. The page also features audio blogs by Neil Cavuto from January 15th or March 28th. If there's anything specific about this topic that you'd like me to elaborate or clari",
+      "full_text": "of The World We Live In TodayFollow Blog via Email Enter your email address to follow this blog and receive notifications of new posts by email. Home About Write for Us My Thoughts Article V Convention Of States Audio Blog Contact March 28, 2017You are here: Home / Archives for Neil CavutoJan 15, 2016 Ted Cruz Debate Highlights By queenofliberty \u00b7 5 Comments Videos from Ted Cruz. Press the arrow to play. ***** https://www.youtube.com/watch?v=QaxfW2EkJgA ***** https://www.youtube.com/watch?v=hmnW2ZpjwX8 ***** https://www.youtube.com/watch?v=rhCqTvKNwpg ***** https://www.youtube.com/watch?v=GyX-Z1Z2VKM ***** https://www.youtube.com/watch?v=n9ZU3sc9-W0 *****It seems like you've shared a link to Queen Of Liberty\u2122 blog, which includes various content related to political commentary and discussions on topics such as the Article V Convention of States. The page also features audio blogs by Neil Cavuto from January 15th or March 28th. If there's anything specific about this topic that you'd like me to elaborate or clari",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 98,
+      "hash": "e72300d0",
+      "n_words": 102,
+      "n_chars": 624,
+      "preview_head": "2,090 Member Title Newbie Age 26 years old Birthday June 7, 1988 Gender Female Location Brockville, Ontario Contact Information Website URL http:// User Tools Friends Latest Visitors G7Fabian 22 Nov 2",
+      "preview_tail": "lp Community Forum Software by IP.Board Sign In Need an account? Register now! Username Password I've forgotten my password Remember me This is not recommended for shared computers Sign in anonymously",
+      "full_text": "2,090 Member Title Newbie Age 26 years old Birthday June 7, 1988 Gender Female Location Brockville, Ontario Contact Information Website URL http:// User Tools Friends Latest Visitors G7Fabian 22 Nov 2011 - 15:26 Tommy805 04 Jan 2011 - 23:20 pinkyy 30 Dec 2010 - 18:11 Kyle74 30 Dec 2010 - 14:59 bmoney83 24 Nov 2010 - 10:45 Forums > Viewing Profile: PaintPrincess Privacy Policy Forum Rules \u00b7 Change Theme TechPB IP.Board Help Community Forum Software by IP.Board Sign In Need an account? Register now! Username Password I've forgotten my password Remember me This is not recommended for shared computers Sign in anonymously",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 99,
+      "hash": "e5158bac",
+      "n_words": 55,
+      "n_chars": 678,
+      "preview_head": "12:45:02.678: ERROR/AndroidRuntime(1626): at android.app.ActivityThread.deliverResults(ActivityThread.java:3515) 01-20 12:45:02.678: ERROR/AndroidRuntime(1626): at android.app.ActivityThread.handleSen",
+      "preview_tail": "igure out why its throwing the null exception even know I am checking to make sure its not null. A: Your code is throwing a NullPointerException because the object returned from data.getData() is null",
+      "full_text": "12:45:02.678: ERROR/AndroidRuntime(1626): at android.app.ActivityThread.deliverResults(ActivityThread.java:3515) 01-20 12:45:02.678: ERROR/AndroidRuntime(1626): at android.app.ActivityThread.handleSendResult(ActivityThread.java:3557) 01-20 12:45:02.678: ERROR/AndroidRuntime(1626): at android.app.ActivityThread.access$2800(ActivityThread.java:125) 01-20 12:45:02.678: ERROR/AndroidRuntime(1626): at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2063) I can't figure out why its throwing the null exception even know I am checking to make sure its not null. A: Your code is throwing a NullPointerException because the object returned from data.getData() is null",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 100,
+      "hash": "0eaa6cd9",
+      "n_words": 116,
+      "n_chars": 981,
+      "preview_head": "it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU Lesser General Public License for * * You shoul",
+      "preview_tail": "Called from src/libvlc.c */ int libvlc_InternalActionsRegister(libvlc_int_t psz_action, const char psz_description); // int libvlc_InternalActionsUnregister(libvlc_int_t psz_action); // int libvlc_Int",
+      "full_text": "it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU Lesser General Public License for * * You should have received a copy of the GNU Lesser General Public License * along with this program; if write to the Free Software Foundation, * Inc., 51 Franklin Street, Fifth Floor, Boston MA USA. *****************************************************************************/ #ifndef VLC_ACTIONS_H #define VLC_ACTIONS_H 1 /* Called from src/libvlc.c */ int libvlc_InternalActionsInit(libvlc_int_t *p_libvlc); /* Called from src/libvl// int libvlc_InternalActionsInit(libvlc_int_t Called from src/libvlc.c p_libvlc); // int libvlc_InternalActionsExecute(libvlc_int_t psz_action, const char Called from src/libvlc.c */ int libvlc_InternalActionsRegister(libvlc_int_t psz_action, const char psz_description); // int libvlc_InternalActionsUnregister(libvlc_int_t psz_action); // int libvlc_Int",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 101,
+      "hash": "3a15b98c",
+      "n_words": 151,
+      "n_chars": 787,
+      "preview_head": "it this far. So thank you all. So as a thank you, I am hosting another giveaway here at 'The Anfractuous Bookaholic'. & this time the prizes are better then ever. This giveaway is going to last from, ",
+      "preview_tail": "books to give to whO ever wins the giveaway. Ms. Cefalo's book doesn't even officially come out until June 01. A dA month from now, but you can win it early! And I will be giving away two books. One f",
+      "full_text": "it this far. So thank you all. So as a thank you, I am hosting another giveaway here at 'The Anfractuous Bookaholic'. & this time the prizes are better then ever. This giveaway is going to last from, today (Saturday, April 21) until Monday, May 21. A Month long giveaway. I am soooo excited to be able to through another giveaway for all of you. And without further ado, here are the prizes that you can win. =D Prizes to win: 'kiss Me, I'm Irish' by Bella Street and 'The Fairytale Keeper: Avenging the Queen' by Andrea Cefalo. They are both going to generously send me a copy of their books to give to whO ever wins the giveaway. Ms. Cefalo's book doesn't even officially come out until June 01. A dA month from now, but you can win it early! And I will be giving away two books. One f",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 102,
+      "hash": "d3942efc",
+      "n_words": 88,
+      "n_chars": 943,
+      "preview_head": "benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation",
+      "preview_tail": ",2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry",
+      "full_text": "benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry benzene affords N-alkyl-3-imidazo[1,2-]pyridin-2-yl-chromen-2-ones 3. Condensation of 1 with 2-methylpyridines in dry",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 103,
+      "hash": "f2fdea88",
+      "n_words": 264,
+      "n_chars": 1700,
+      "preview_head": "c, delicious food, and an array of handmade crafts from local artisans. The event starts at 10 AM and goes until 4 PM. Don't miss out on this fantastic opportunity to find unique gifts and support you",
+      "preview_tail": " opinions and insights on current issues. Letters Share your thoughts and opinions with the community. Columns Explore in-depth articles and perspectives from local writers. Blogs Discover interesting",
+      "full_text": "c, delicious food, and an array of handmade crafts from local artisans. The event starts at 10 AM and goes until 4 PM. Don't miss out on this fantastic opportunity to find unique gifts and support your community. Wednesday, April 5th - Book Club Meeting Our monthly book club gathering is scheduled for Wednesday, April 5th, at the community library. This month's selection is \"The Night Circus\" by Erin Morgenstern. All book lovers are welcome to join us for a stimulating discussion and refreshments from 6 PM to 8 PM. Friday, April 14th - Earth Day Celebration Celebrate Earth Day with us by participating in our community clean-up event! Meet at the park entrance at 9 AM, and help us make our neighborhood a cleaner, greener place. Bring your friends, family, and a positive attitude! --- Home Discover the latest news and updates from our local community. NewsLocal Stay informed about what's happening in your town and beyond. Government Learn about local government initiatives and policies. Education Find information on schools, programs, and opportunities. Business Stay updated on local business news and developments. Police Reports Read the latest police reports and safety tips. SportsHigh School Sports Follow the latest news and achievements in school sports. USCL Lancers Support your favorite local sports teams and athletes. Community Sports Discover community sports events and activities. Racing Get the latest racing news and event schedules. OpinionOur View Read our editorial opinions and insights on current issues. Letters Share your thoughts and opinions with the community. Columns Explore in-depth articles and perspectives from local writers. Blogs Discover interesting",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 104,
+      "hash": "99713c60",
+      "n_words": 120,
+      "n_chars": 819,
+      "preview_head": "Youth (with David Lowe and Michael Lieberman) New York: Anti-Defamation League of B'nai B'rith, 1987, ASIN B00071ADB8 The Skinheads: An Update on Shaved for Battle (with David Lowe) New York: Anti-Def",
+      "preview_tail": " Recanati) New York: Anti-Defamation League of B'nai B'rith, 1989 ASIN: B00071YH1A Electronic Hate: Bigotry Comes to TV (with Thomas Halpern) New York: Anti-Defamation League of B'nai B'rith, 1991 The",
+      "full_text": "Youth (with David Lowe and Michael Lieberman) New York: Anti-Defamation League of B'nai B'rith, 1987, ASIN B00071ADB8 The Skinheads: An Update on Shaved for Battle (with David Lowe) New York: Anti-Defamation League of B'nai B'rith, 1988 ASIN B00071WQWC Young and Violent: The Growing Menace of America's Neo-Nazi Skinheads (with David Lowe and Tal Recanati) New York: Anti-Defamation League of B'nai B'rith, 1988, ASIN B00071REI8 The 1989 IHR Conference: White-Washing Genocide Scientifically (with David Lowe) New York: Anti-Defamation League of B'nai B'rith, 1989 Skinheads Target the Schools (with David Lowe and Tal Recanati) New York: Anti-Defamation League of B'nai B'rith, 1989 ASIN: B00071YH1A Electronic Hate: Bigotry Comes to TV (with Thomas Halpern) New York: Anti-Defamation League of B'nai B'rith, 1991 The",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 105,
+      "hash": "89348465",
+      "n_words": 117,
+      "n_chars": 1037,
+      "preview_head": "This means the above inequality doesn't help us prove our statement. But recall that $P[x > n]$ equals $\\sum\\limits_{k=n+1}^{2n}\\binom{3n}{k}2^{-3n}$ and also note that $$ \\dfrac{\\dbinom{3n}{0}+\\dbino",
+      "preview_tail": " The above expression is derived from the following: $P[X > n] =1- P[ X \\leq n]$ which equals $1-\\left( \\dfrac12 +\\sum_{i=0 }^{n -1}\\binom{3n}{k}2^{-3n}\\right)$. And recall $\\dbinom{n}{r}= \\dbinom{n}{",
+      "full_text": "This means the above inequality doesn't help us prove our statement. But recall that $P[x > n]$ equals $\\sum\\limits_{k=n+1}^{2n}\\binom{3n}{k}2^{-3n}$ and also note that $$ \\dfrac{\\dbinom{3n}{0}+\\dbinom{3n}{1}+\\cdots+\\dbinom{3n}{n-1}}{2^{3n}} = \\dfrac12 - P[x > n] = \\dfrac12-\\sum\\limits_{k=n+1}^{2n}\\binom{3n}{k}2^{-3n} $$ Also note that $\\dbinom{3n}{0}+\\dbinom{3n}{1}+\\cdots+\\dbinom{3n}{3n}= \\sum\\limits_{i=0}^{3n}\\binom{3n}{k}$. Let $X$ be the number of heads obtained when flipping a coin $3n$ times. Then we know that $$ P[X=k]=2^{-3n}\\dbinom{3n}{k} $$ Also, given our above equation and definition for X: $\\sum\\limits_{i=0}^{3n}\\binom{3n}{k}= \\left(\\dfrac12 + \\dfrac12\\right)^{3n}$. Therefore $P[X > n]= P[n <X \\leq2n]$ $$=\\dbinom{3n}{n+1}2^{-3n}+\\cdots+\\binom{3n}{2n}2^{-3n} = -\\dfrac12 + \\sum_{k =0 }^{ n }\\binom{3n}{k}2^{-3n}. $$ The above expression is derived from the following: $P[X > n] =1- P[ X \\leq n]$ which equals $1-\\left( \\dfrac12 +\\sum_{i=0 }^{n -1}\\binom{3n}{k}2^{-3n}\\right)$. And recall $\\dbinom{n}{r}= \\dbinom{n}{",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 106,
+      "hash": "1753c593",
+      "n_words": 282,
+      "n_chars": 1646,
+      "preview_head": "is completely cleared (highly unlikely), it's doubtful major sponsors would want to touch him. Sure, Kobe managed to get his Q-rating back up, but the major differences are:a) Pre-trial Kobe was sever",
+      "preview_tail": "nce.I'm trying not to throw up after typing that. 7/28/2007 02:41:00 PM CycleDan said... Closest top 3 finish of a Tour de France race ever! Also possibly the first time in 30 years that the top three",
+      "full_text": "is completely cleared (highly unlikely), it's doubtful major sponsors would want to touch him. Sure, Kobe managed to get his Q-rating back up, but the major differences are:a) Pre-trial Kobe was severely lacking in street credb) Kobe is arguably the most talented player in the NBA, Vick is nowhere near his NFL equivalentc) Vick can't exactly go out and buy a $4 million diamond-studded collar for his favorite pit bull.Re: Beckham - it's only the Superliga. Being healthy for MLS matches is more important, as the Galaxatives need to climb up the standings to make the playoffs. Also since MLS away matches are essentially the Beckham Roadshow and that's where the league needs him. 7/28/2007 09:20:00 AM washeed-neutwon said... no thoughts on the simpsons movie shanoff? I liked it a lot, especially that they put in things for fans of the show just random bits so you could remember and say \" Best. Episode. Ever\" (thats your bit) vick is screwed completely, but screwed is not the right word that implies that it will be unfair so vick is in trouble is more accurate.I don't get SCS talking about 755 isnt 756 the one that matters? 7/28/2007 09:48:00 AM Randvek said... Dan, your second SEC preview was longer than the ONLY Pac-10 preview and you didn't post any sort of follow up? Pathetic. 7/28/2007 12:25:00 PM Erik said... Of course. It isn't God's Gift to Football, Whose Shit Certainly Doth Not Stink, the Almighty Southeastern Conference.I'm trying not to throw up after typing that. 7/28/2007 02:41:00 PM CycleDan said... Closest top 3 finish of a Tour de France race ever! Also possibly the first time in 30 years that the top three",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 107,
+      "hash": "ec874cec",
+      "n_words": 86,
+      "n_chars": 600,
+      "preview_head": "ly, we observe the buildup phase where particles scatter into lower energy states due to interactions (g), leading towards macroscopic occUpation of a single quantum state - signaling coherence. This ",
+      "preview_tail": "rs such as thermalization with lattice phonons or photoluminescence loss. We use second-order coherence (g^{(2)} < 0.5 for condensates), which decays towards g^{(2)}(t) =1 indicating complete decohere",
+      "full_text": "ly, we observe the buildup phase where particles scatter into lower energy states due to interactions (g), leading towards macroscopic occUpation of a single quantum state - signaling coherence. This process is driven by bosonic stimulation and can be quantified using measures like first-order correlation function g^{(1)}. Decay Dynamics: Post formation, we monitor the decay over time due to factors such as thermalization with lattice phonons or photoluminescence loss. We use second-order coherence (g^{(2)} < 0.5 for condensates), which decays towards g^{(2)}(t) =1 indicating complete decohere",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 108,
+      "hash": "863b1673",
+      "n_words": 213,
+      "n_chars": 1186,
+      "preview_head": "Odin doesnt detect my device, the ID:COM port at Odins doesnt turn yellow, its blue all the time ? I have Odin3 v.3.04 version and no problem getting into download mode but there it stops (i run all t",
+      "preview_tail": "nized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is",
+      "full_text": "Odin doesnt detect my device, the ID:COM port at Odins doesnt turn yellow, its blue all the time ? I have Odin3 v.3.04 version and no problem getting into download mode but there it stops (i run all these steps as administrator) I suspect it has to do with the usb drivers although i have KIES installed. The only thing i have done with the KIES is searching for the JB upgradIt is possible that there is an issue with the USB drivers for the device. KIES is an application that is known to have an impact on USB drivers. The issue with the USB drivers is that the device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is not being recognized. The device is",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 109,
+      "hash": "7a81da6d",
+      "n_words": 75,
+      "n_chars": 418,
+      "preview_head": "that, Christmas Eve, he went and bought four bicycles, one for each of his three kids, ages 16, 14 and 12, along with one for himself. He put them under the tree, a father's proud gesture. Then, on Ch",
+      "preview_tail": "e and his wife watched as the kids tore into the presents, their faces lighting up with joy. But then, disaster struck. The 12-year-old, in his excitement, knocked over the tree, and the bicycles went",
+      "full_text": "that, Christmas Eve, he went and bought four bicycles, one for each of his three kids, ages 16, 14 and 12, along with one for himself. He put them under the tree, a father's proud gesture. Then, on Christmas morning, he and his wife watched as the kids tore into the presents, their faces lighting up with joy. But then, disaster struck. The 12-year-old, in his excitement, knocked over the tree, and the bicycles went",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 110,
+      "hash": "90b80af3",
+      "n_words": 42,
+      "n_chars": 290,
+      "preview_head": "ns, Kamala\u2019s story resonates with South Asia\u2019s evolving youth narrative, giving investors insight into the country\u2019s changing economic dynamics and media impact, which often shape global perceptions a",
+      "preview_tail": "insight into the country\u2019s changing economic dynamics and media impact, which often shape global perceptions and market opportunities. \u201cWhen Kamala finally has powers that provide her the chance to be",
+      "full_text": "ns, Kamala\u2019s story resonates with South Asia\u2019s evolving youth narrative, giving investors insight into the country\u2019s changing economic dynamics and media impact, which often shape global perceptions and market opportunities. \u201cWhen Kamala finally has powers that provide her the chance to be",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 111,
+      "hash": "7147d1a6",
+      "n_words": 57,
+      "n_chars": 426,
+      "preview_head": "various cleaning protocols using different solutions: distilled water, saline solution, 1% sodium hypochlorite, and an ultrasonic cleaner with or without these agents. Spectrophotometric analysis meas",
+      "preview_tail": "efore and after each cleaning method to quantify residual dye removal efficiency. Results showed that while all tested methods reduced the amount of CDD residue on tooth surfaces, certain combinations",
+      "full_text": "various cleaning protocols using different solutions: distilled water, saline solution, 1% sodium hypochlorite, and an ultrasonic cleaner with or without these agents. Spectrophotometric analysis measured reflectance changes before and after each cleaning method to quantify residual dye removal efficiency. Results showed that while all tested methods reduced the amount of CDD residue on tooth surfaces, certain combinations",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 112,
+      "hash": "15a77a67",
+      "n_words": 78,
+      "n_chars": 485,
+      "preview_head": "sert director\u2019s name], the Neumann cast brings the chaotic energy of Skid Row to life with vibrant performances, puppetry, and a mix of humor and horror that has made the musical a timeless classic. T",
+      "preview_tail": "ct info], with showtimes at [insert times]. Don\u2019t miss this bloodthirsty spectacle as takes over Neumann\u2019s stage! \ud83e\ude78 *Cast members include Matt Seyler as Seymour, Emily Murphy as Audrey, Joseph Dempsey",
+      "full_text": "sert director\u2019s name], the Neumann cast brings the chaotic energy of Skid Row to life with vibrant performances, puppetry, and a mix of humor and horror that has made the musical a timeless classic. Tickets for the August 9\u201312 performances are available at [insert ticket link or contact info], with showtimes at [insert times]. Don\u2019t miss this bloodthirsty spectacle as takes over Neumann\u2019s stage! \ud83e\ude78 *Cast members include Matt Seyler as Seymour, Emily Murphy as Audrey, Joseph Dempsey",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 113,
+      "hash": "590e4326",
+      "n_words": 37,
+      "n_chars": 267,
+      "preview_head": "for Sale Rentals Commercial Vehicles Announcements Business Directory Obituaries Place an Ad Customer Service FAQ Newsletters Mobile Apps e-Edition Subscriptions Contact Us Media Kit About Our Staff H",
+      "preview_tail": "ry Obituaries Place an Ad Customer Service FAQ Newsletters Mobile Apps e-Edition Subscriptions Contact Us Media Kit About Our Staff History Advertising Info Archives Privacy Policy Site Terms RSS Feed",
+      "full_text": "for Sale Rentals Commercial Vehicles Announcements Business Directory Obituaries Place an Ad Customer Service FAQ Newsletters Mobile Apps e-Edition Subscriptions Contact Us Media Kit About Our Staff History Advertising Info Archives Privacy Policy Site Terms RSS Feed",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 114,
+      "hash": "a576e0d3",
+      "n_words": 83,
+      "n_chars": 551,
+      "preview_head": "th clinically irregular small to medium CMNs. The areas imaged by CSLM were sampled with 3-mm punch biopsy specimens. The entire lesion was subsequently excised. The punch biopsy specimens were step s",
+      "preview_tail": "SLM were correlated with the observed on CSLM images. CSLM images were correlated with the features observed on CSLM images. CSLM images were correlated with the features observed on CSLM images. CSLM",
+      "full_text": "th clinically irregular small to medium CMNs. The areas imaged by CSLM were sampled with 3-mm punch biopsy specimens. The entire lesion was subsequently excised. The punch biopsy specimens were step sectioned horizontally to correlate with the CSLM images. Excised samples were step sectioned and processed routinely. Histologic features observed on CSLM were correlated with the observed on CSLM images. CSLM images were correlated with the features observed on CSLM images. CSLM images were correlated with the features observed on CSLM images. CSLM",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 115,
+      "hash": "a6e7f67b",
+      "n_words": 122,
+      "n_chars": 904,
+      "preview_head": "as coronary stent materials. A series of high molecular weight polymers were prepared by ring opening polymerization of L-lactide (L-LA), 1,3-trimethylene carbonate (TMC) and glycolide using stannous ",
+      "preview_tail": "he potential of the copolymers as bioresorbable coronary stent material. The results show that all the polymers conserved to a large extenttheir structural integrity after 4 weeks of implantation, wh ",
+      "full_text": "as coronary stent materials. A series of high molecular weight polymers were prepared by ring opening polymerization of L-lactide (L-LA), 1,3-trimethylene carbonate (TMC) and glycolide using stannous octoate as catalyst. The resulting polymers were characterized by gel permeation chromatography, (1)H nuclear magnetic resonance, differential scanning calorimeter and tensile tests. All the polymers present high molecular weights. Compared with PLLA and PTLA copolymers, the terpolymers exhibit interesting properties such as improved toughness and lowered crystallinity with only slightly reduced mechanical strength. In vivo degradation was performed by subcutaneous implantation in rats to evaluate the potential of the copolymers as bioresorbable coronary stent material. The results show that all the polymers conserved to a large extenttheir structural integrity after 4 weeks of implantation, wh ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 116,
+      "hash": "c21d0a1c",
+      "n_words": 308,
+      "n_chars": 1926,
+      "preview_head": "3 Final years 4 References Early life[edit] Alexander Dockery, only child of Willis E. and Sarah Ellen Dockery, was born near Gallatin, Daviess County, Missouri.[1] His father was a Methodist minister",
+      "preview_tail": "ntatives and as Missouri Governor. Politics[edit] Alexander Dockery was a member of the Gallatin City Council beginning in 1878, and served as town mayor from 1881 t0 1883. Pursuing a more active role",
+      "full_text": "3 Final years 4 References Early life[edit] Alexander Dockery, only child of Willis E. and Sarah Ellen Dockery, was born near Gallatin, Daviess County, Missouri.[1] His father was a Methodist minister and one of the early settlers to the county.[2] The young Dockery attended the local public schools and then studied for a brief time at Macon Academy in (Macon, Missouri) before attending the St. Louis Medical College (now Washington University School of Medicine), graduating on March 2, 1865. Dockery established a medical practice in Linneus, Missouri and attended post-graduate lectures at Bellevue College (New York City) and Jefferson Medical College (Philadelphia) during the winter of 1865-1866.[3] He returned to his practice in Linneus for a time before moving to Chillicothe, Missouri. While in practice in Chillicothe, he met and married Mary Elizabeth Bird in 1869.[1] Dockery served as county physician for Livingston County, Missouri from 1870 to 1874. He also made his first tentative step into politics by serving as president of the Chillicothe board of education from 1871 to 1873.[4] In 1872 Dockery began a ten-year period as a member of the Board of Curators of the University of Missouri. In March, 1874 Dr. Dockery ended his medical practice and returned to his native Gallatin to start a career in banking. He had originally intended to establish a bank in Milan, Missouri, but a Chillicothe friend and business associate, Thomas Yates, urged him to go into partnership with him in Gallatin instead.[5] Dr. Dockery served as cashier and treasurer of the Farmers Exchange Bank, developing money management skills that would later prove useful in his political career both in the U.S. House of Representatives and as Missouri Governor. Politics[edit] Alexander Dockery was a member of the Gallatin City Council beginning in 1878, and served as town mayor from 1881 t0 1883. Pursuing a more active role",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 117,
+      "hash": "dec199f4",
+      "n_words": 72,
+      "n_chars": 393,
+      "preview_head": "You Reading? - [95] 102. Do Interfaith Conferences/ Discussions Work? - [29] 101. Have You Made Any Extra Security Preparations? - [85] 100. Why Are You A Pagan or Heathen? - [142] 99. What Moon Phase",
+      "preview_tail": "n Phase Are You In? - [70] 98. Would You Live In A Haunted House? : your browser does not support scriptPAGAN PROBLEM CHILDREN: WHAT CAN WE DO ABOUT THEMTHE Pagan community has always been known for i",
+      "full_text": "You Reading? - [95] 102. Do Interfaith Conferences/ Discussions Work? - [29] 101. Have You Made Any Extra Security Preparations? - [85] 100. Why Are You A Pagan or Heathen? - [142] 99. What Moon Phase Are You In? - [70] 98. Would You Live In A Haunted House? : your browser does not support scriptPAGAN PROBLEM CHILDREN: WHAT CAN WE DO ABOUT THEMTHE Pagan community has always been known for i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 118,
+      "hash": "db5bc7a8",
+      "n_words": 289,
+      "n_chars": 1806,
+      "preview_head": "10. 9. Acceptance Not Required for Having Copies. You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely",
+      "preview_tail": "this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or",
+      "full_text": "10. 9. Acceptance Not Required for Having Copies. You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this license to do so. 10. Automatic Licensing of Downstream recipients. Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License. An \"entity transaction\" is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party's predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts. You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 119,
+      "hash": "dfb801ae",
+      "n_words": 207,
+      "n_chars": 1223,
+      "preview_head": "can take it away and sell it in their shop. The charity bag arrived filled with various items that we had collected over time but no longer needed or used around our house\u2014old clothes, books I'd read ",
+      "preview_tail": "ed me about minimalism principles I've come across in various blogs over time\u2014how living with fewer possessions can lead to a simpler and more fulfilling life. Perhaps this experience might inspire us",
+      "full_text": "can take it away and sell it in their shop. The charity bag arrived filled with various items that we had collected over time but no longer needed or used around our house\u2014old clothes, books I'd read years ago, some kitchen gadgets whose purpose was long forgotten. The act of sorting through these things brought back memories and made me realize how much stuff accumulates in a household. It's amazing to think about all the items that have passed their prime but still occupy space on shelves or gather dust at various corners around our home. As I placed each item into the bin bag, it felt like decluttering not just physical objects but also memories and emotions tied up with them. It was a small yet meaningful task\u2014contributing to charity while simultaneously lightening my own load both literally and figuratively Speaking. The satisfaction of knowing that these items would find new homes or purposes elsewhere made the effort worthwhile, even if it only took an hour out of our busy day. The process also reminded me about minimalism principles I've come across in various blogs over time\u2014how living with fewer possessions can lead to a simpler and more fulfilling life. Perhaps this experience might inspire us",
+      "avg_prediction": 0.0
+    }
+  ]
+}

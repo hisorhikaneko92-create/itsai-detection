@@ -1,0 +1,82 @@
+{
+  "timestamp_utc": "2026-04-27T12:54:10.887511+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 7,
+  "duplicates": [],
+  "latency_ms": 7,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "ee36d1e6",
+      "n_words": 88,
+      "n_chars": 545,
+      "preview_head": "mortal girl (I know, surprise, surprise). Cynara rejected Jupiter. To punish her, Jupiter decided to turned her into Cynara scolymus, the artichoke. The thistle portion of the artichoke is said to rep",
+      "preview_tail": "reserved. This content was written by Paula Laurita. If you wish to use this content in any manner, you need written permission. Contact Cinzia Aversa for details. | About BellaOnline | Privacy Policy",
+      "full_text": "mortal girl (I know, surprise, surprise). Cynara rejected Jupiter. To punish her, Jupiter decided to turned her into Cynara scolymus, the artichoke. The thistle portion of the artichoke is said to represent her blond hair. Italian Food Site @ BellaOnline View This Article in Regular Layout Content copyright \u00a9 2013 by Paula Laurita. All rights reserved. This content was written by Paula Laurita. If you wish to use this content in any manner, you need written permission. Contact Cinzia Aversa for details. | About BellaOnline | Privacy Policy",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "ffac7232",
+      "n_words": 136,
+      "n_chars": 1006,
+      "preview_head": "things on the website. For example, for each post published, I give a user one badge. To do so, I opted for user meta data, and the use of publish_post action hook. in my functions.php, I put: functio",
+      "preview_tail": "gin,comment_post. Your usual help is always appreciated. Edit: I found solution for all theaction except wp-admin/profile editing page (where user can change password and email). A post was merged int",
+      "full_text": "things on the website. For example, for each post published, I give a user one badge. To do so, I opted for user meta data, and the use of publish_post action hook. in my functions.php, I put: function publish_badge($post_ID) { global $current_user; get_currentuserinfo(); $number_of_badges = get_user_meta($current_user->id,'user_number_of_badges',true); $number_of_badges = $number_of_badges + 1; update_user_meta($current_user->id, 'user_number_of_badges', $number_of_badges); return $post_ID; } add_action('publish_post', 'publish_badge'); I am new in using Wordpress action hooks, and I spent a lot of time making it work. I know I am missing something, since for other hooks, the problem remains. Note I have in total 4 actions for which I want to give users more badges: publish_post,edit_post,wp_login,comment_post. Your usual help is always appreciated. Edit: I found solution for all theaction except wp-admin/profile editing page (where user can change password and email). A post was merged int",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "937162d3",
+      "n_words": 189,
+      "n_chars": 1360,
+      "preview_head": "e greatest kings of Elam from Shutrukid dynasty. She had a so-called Elamite queen's seal. She was the wife of Shutrukid kings Shutruk-Nahhunte and Shutruk-Nahhunte's son and the Elamite king Shutruk-",
+      "preview_tail": "Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son a",
+      "full_text": "e greatest kings of Elam from Shutrukid dynasty. She had a so-called Elamite queen's seal. She was the wife of Shutrukid kings Shutruk-Nahhunte and Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son and the Elamite king Shutruk-Nahhunte's son a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "8b530114",
+      "n_words": 130,
+      "n_chars": 754,
+      "preview_head": "s relay event at the 1987 Summer Universiade, also known as the 1987 World University Games, was held in Kingston, Jamaica. This event, as in many Summer Universiade competitions, was a showcase for t",
+      "preview_tail": "top relay athletes from universities and colleges from around the world, competing in a high-profile event that is a highlight of the Summer Universiade. The exact winner and top finishers of the 1987",
+      "full_text": "s relay event at the 1987 Summer Universiade, also known as the 1987 World University Games, was held in Kingston, Jamaica. This event, as in many Summer Universiade competitions, was a showcase for the fastest university athletes in the 4 \u00d7 100 metres relay format, which consists of a team of four athletes, each running 100 metres in a relay. The relay event is a team event, requiring a high level of coordination, speed, and team strategy. The team that crosses the finish line in the shortest time is the winner. The 1987 event would have featured top relay athletes from universities and colleges from around the world, competing in a high-profile event that is a highlight of the Summer Universiade. The exact winner and top finishers of the 1987",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "046fa75c",
+      "n_words": 327,
+      "n_chars": 2122,
+      "preview_head": "looking for a way A: To calculate receptive fields using Python for your spiking neural network application, you can follow these steps: 1. Load the Iris dataset: First, load the Iris dataset from the",
+      "preview_tail": "tion = 1 * second run(run_duration, report='text') ``` 4. Analyze Spike Trains: After running the simulation, you can analyze the generated spike trains and perform further processing or visualization",
+      "full_text": "looking for a way A: To calculate receptive fields using Python for your spiking neural network application, you can follow these steps: 1. Load the Iris dataset: First, load the Iris dataset from the sklearn library or any other source into your Python environment. Preprocess the data if necessary to ensure it is in a suitable format for encoding. 2. Encode data with Gaussian receptive fields: You can use the `scipy` library in Python, which provides functions to work with various distributions, including the Gaussian distribution. Here's an example of how you might encode your Iris dataset using Gaussian receptive fields: ```python import numpy as np from scipy.stats import norm # Import the normal (Gaussian) distribution function from SciPy # Assuming 'iris_data' is your loaded Iris dataset receptive_field_size = 5 # Example size of the receptive field encoded_data = [] for sample in iris_data: gaussian_rf = norm(loc=sample, scale=1) # Create a Gaussian distribution with mean at the current sample rf_encoding = gaussian_rf.pdf(np.linspace(-5, 5, receptive_field_size)) # Calculate PDF values within the receptive field encoded_data.append(rf_encoding) ``` 3. Generate Spike Trains: Once you have the encoded data, you can simulate spike trains based on your encoding. Brian is a powerful framework for simulating spiking neural networks. You'll need to set up your neuron model and convert the encoded data into input currents or conductances that drive the neurons in your network. Here's a simplified example using the `brian2` library: ```python import brian2 as br # Set up the neuron model eqs = \"\"\" dv/dt = (ge - v) / tau : volt ge = ge + 0.1*encoded_values[i] : amp \"\"\" neuron = br.NeuronGroup(len(iris_data), model=eqs, threshold='v > 1', reset='v=0') # Set up the input and run simulation input_spikes = ... # Convert encoded_data to suitable input format for Brian (e.g., spike times) run_duration = 1 * second run(run_duration, report='text') ``` 4. Analyze Spike Trains: After running the simulation, you can analyze the generated spike trains and perform further processing or visualization",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "d9f7318b",
+      "n_words": 188,
+      "n_chars": 761,
+      "preview_head": "Let r = -0.3 + 0.2. What is the third smallest value in r, g, 5? 5 Let r = -14.5 + 18. Let i = r - 0.5. Which is the third smallest value? (a) 0.4 (b) 0 (c) i c Let w = -0.9 + 0.6. Which is the second",
+      "preview_tail": " x (c) -4 b Let s = -8.03 + 8. Let w = 4.554 - 0.554. What is The second biggest value in w, s, -2/3? s Let r = -101/145 - 3/29. What is the fourth biggest value in r, 2, -1, 0? -1 Let s = 54 + -51. W",
+      "full_text": "Let r = -0.3 + 0.2. What is the third smallest value in r, g, 5? 5 Let r = -14.5 + 18. Let i = r - 0.5. Which is the third smallest value? (a) 0.4 (b) 0 (c) i c Let w = -0.9 + 0.6. Which is the second biggest value? (a) w (b) -9 (c) 0.5 a Let k = 10 - 7. Let h be (-6)/(-21) - (-2 - -2). What is the second biggest value in k, h, 2? 2 Let n be -1*(-3)/(-39)*1. What is the third biggest value in n, -0.4, -5/4? -5/4 Suppose 8*i - i + 21 = 0. What is the fourth biggest value in 1/2, 3, 1, i? i Let x = -0.51 + 0.31. Which is the second smallest value? (a) 0 (b) x (c) -4 b Let s = -8.03 + 8. Let w = 4.554 - 0.554. What is The second biggest value in w, s, -2/3? s Let r = -101/145 - 3/29. What is the fourth biggest value in r, 2, -1, 0? -1 Let s = 54 + -51. W",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "b29d0e30",
+      "n_words": 227,
+      "n_chars": 1353,
+      "preview_head": "Boats WoodenBoat Library Whiskey Plank Videos Calendar of Events Boats for Sale AdvertisingRates & Closing Dates Boat for Sale Advertising Print Display Advertising Print Classified Advertising Links ",
+      "preview_tail": "signed by renowned naval architect, Sam L. Includes detailed drawings and construction manuals. $250. Contact: Sarah L. at sarah@example.com - 16' Rowing Skiff Kit: Pre-cut and ready-to-assemble kit f",
+      "full_text": "Boats WoodenBoat Library Whiskey Plank Videos Calendar of Events Boats for Sale AdvertisingRates & Closing Dates Boat for Sale Advertising Print Display Advertising Print Classified Advertising Links to Advertisers Subscribe Resources Boat Plans & Kits Boat Plans & Kits If you are a designer who offers boat plans for sale, a boatbuilder who has a set of plans for sale, or a kit or parts supplier, you are welcome to list your offerings for free in this section of the site. To list your plans, kit, or parts, send the following information to the editor: A brief description of the boat, including the designer's name, boat type, and length A photo of the boat or plans, if available All submissions are subject to editing, and we reserve the right to refuse submissions that are not suitable for this section. Please note that this section is for the sale of plans, kits, and parts only. We do not list boats for sale. Boat Plans & Kits For Sale - Dory Plans: Classic New England dory plans, ideal for fishing and coastal cruising. $50. Contact: John D. at johnd@example.com - 30' Sailboat Plans: Comprehensive plans for a sleek, modern sailboat. Designed by renowned naval architect, Sam L. Includes detailed drawings and construction manuals. $250. Contact: Sarah L. at sarah@example.com - 16' Rowing Skiff Kit: Pre-cut and ready-to-assemble kit f",
+      "avg_prediction": 0.0
+    }
+  ]
+}

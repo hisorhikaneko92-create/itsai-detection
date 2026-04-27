@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-04-27T05:02:32.724056+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 1519,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0cec85e4",
+      "n_words": 327,
+      "n_chars": 2374,
+      "preview_head": "ver = webdriver.Firefox() I have some url : driver.get(url) I have one form I want to submit : elt = driver.find_element_by_class_name('special_class') driver.find_element_by_xpath('//button').click()",
+      "preview_tail": "n true;\" scriptToExecute=(js,element) try: result = driver .executeScript(*scriptTo Execute,(driver.findElementByClassName (str elt))) print('Submitted') #do whatever else you want after submission he",
+      "full_text": "ver = webdriver.Firefox() I have some url : driver.get(url) I have one form I want to submit : elt = driver.find_element_by_class_name('special_class') driver.find_element_by_xpath('//button').click() This opens a new window and I want everything to happen in one window. I may have to submit similar things many times and then parse the output. Is there a way to stay in the same window ? I don't want to have many windows opened. Thanks in advance. A: I am afraid there is nothing you can Apologies for any confusion caused earlier; it seems my previous response was not entirely accurate or helpful, so let's address your question properly this time! You're experiencing an issue where Selenium triggers the form submission by clicking a button which leads to opening of new windows. To prevent that and keep everything within one window (or tab), you can utilize JavaScript directly in Python via `driver` instance: 1) Locate element using its class name or xpath, whichever is more suitable for your case 2a.) For simple forms without any special requirements - use the following code snippet to simulate a click event on that button/element. This will execute as if someone clicked it manually from within browser window itself and won't open new tabs: driver = webdriver.Firefox() url= \"https://example-url\" elt_class='special class' #or whatever your element's actual CSS Class is def submit(elt): js=\"arguments[0].click(); return true;\" scriptToExecute=(js,element) try: driver .executeScript(*scriptToExecute,(driver.findElementByClassName (str elt_class))) print('Submitted') #do whatever else you want after submission here... except Exception as e : 2b.) For more complex forms with special requirements such validation/security tokens, AJAX calls etc.- consider using Selenium's built-in functions like `driver.execute()` which allow executing arbitrary javascript code directly on browser engine itself without having to reload page again & maintain state across multiple submissions..! driver = webdriver.Firefox() url= \"https://example_url\" elt='special class' #or whatever your element's actual CSS Class is def submit(elt): js=\"arguments[0].click(); return true;\" scriptToExecute=(js,element) try: result = driver .executeScript(*scriptTo Execute,(driver.findElementByClassName (str elt))) print('Submitted') #do whatever else you want after submission he",
+      "avg_prediction": 0.8383
+    },
+    {
+      "idx": 1,
+      "hash": "60e89e9b",
+      "n_words": 64,
+      "n_chars": 466,
+      "preview_head": "has been growing. Ferritic stainless steels are more cost-effective due to their lower nickel content, making them an attractive alternative in various industries. Additionally, their good formability",
+      "preview_tail": "suitable for applications where these characteristics are beneficial. Some common grades of ferritic stainless steel include 409, 430, and 444, each offering a slightly different balance of properties",
+      "full_text": "has been growing. Ferritic stainless steels are more cost-effective due to their lower nickel content, making them an attractive alternative in various industries. Additionally, their good formability and weldability, along with their magnetic properties, make them suitable for applications where these characteristics are beneficial. Some common grades of ferritic stainless steel include 409, 430, and 444, each offering a slightly different balance of properties",
+      "avg_prediction": 0.6938
+    },
+    {
+      "idx": 2,
+      "hash": "c59458a7",
+      "n_words": 103,
+      "n_chars": 636,
+      "preview_head": "03\u20132005 \u2192 1970s \u2192 1979 \u2192 November 1979 \u2192 16 November 1979 \u2192 Written Answers (Commons) Textiles HC Deb 16 November 1979 vol 973 cc844-8W 844W \u00a7 Mr. Grylls asked the Secretary of State for Trade if he w",
+      "preview_tail": " this is from November 16, 1979, where Mr. Grylls asked questions about the textile import surveillance licensing scheme and whether registering import intentions should be mandatory. If you need help",
+      "full_text": "03\u20132005 \u2192 1970s \u2192 1979 \u2192 November 1979 \u2192 16 November 1979 \u2192 Written Answers (Commons) Textiles HC Deb 16 November 1979 vol 973 cc844-8W 844W \u00a7 Mr. Grylls asked the Secretary of State for Trade if he will make a statement on the future of the textile import surveillance licensing scheme; and whether he thinks the registration of import intentioIt appears you've shared an excerpt from the UK Parliament's Hansard records. Specifically, this is from November 16, 1979, where Mr. Grylls asked questions about the textile import surveillance licensing scheme and whether registering import intentions should be mandatory. If you need help",
+      "avg_prediction": 0.9749
+    }
+  ]
+}

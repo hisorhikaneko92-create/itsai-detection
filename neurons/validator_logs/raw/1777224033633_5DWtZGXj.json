@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-26T17:20:33.633800+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 6869,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "722e6960",
+      "n_words": 248,
+      "n_chars": 1799,
+      "preview_head": "areas of development Port Areas The Aqaba Port Areas include the Main Port, the Container Port and the Southern Industrial Port. According to the Master Plan, a common location\u2014the Main Port\u2014is establ",
+      "preview_tail": "aba Special Economic Zone towards becoming a dynamic and attractive engine of economic growth, enhancing public health and streamlining trade in the zone, Jordan and the region. The Physical, Chemical",
+      "full_text": "areas of development Port Areas The Aqaba Port Areas include the Main Port, the Container Port and the Southern Industrial Port. According to the Master Plan, a common location\u2014the Main Port\u2014is established to merge the three existing port area activities into one expanded entertainment, residential, hotel and cruises service center. Coral Coastal Zone The Coral Coastal Zone is undergoing a wide residential, hotel and entertainment facilities construction process for the development of an advanced community resort, with respect to relative beach and coral reef protection requirements. Southern Industrial Zone The Zone extends along the Southern Industrial Zone Port and consists of reorganized and expanded current sites. New transportation systems, including a railway terminal, will serve the developed area. Airport Industrial Zone Ideal for industrial facilities, permitted land uses in the Zone include logistics and distribution, high-tech industries, warehousing, light manufacturing, showrooms, office complexes and airport-related business activities. The Master Plan aims at preserving natural resources within the construction frame. It comprises several zones and reserves for the protection of Aqaba's cultural, archaeological, historical and natural heritage and diversity. Areas include: Five environmental zones, coral reserves, archaeological reserves, natural area reserves and a Beach Protection Zone. Aqaba International Laboratories Aqaba International Laboratories - BEN HAYYAN was established under the EU funded programme \u201cIS-ASEZA\u201d, to support ASEZA in guiding the Aqaba Special Economic Zone towards becoming a dynamic and attractive engine of economic growth, enhancing public health and streamlining trade in the zone, Jordan and the region. The Physical, Chemical",
+      "avg_prediction": 0.372
+    },
+    {
+      "idx": 1,
+      "hash": "8a3b9463",
+      "n_words": 246,
+      "n_chars": 2004,
+      "preview_head": "for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribu",
+      "preview_tail": "r prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute",
+      "full_text": "for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute supplied for prepare method\") unless $rows; my $sth = $dbh->DBI::set_err($DBI::stderr, \"No rows attribute",
+      "avg_prediction": 0.9834
+    },
+    {
+      "idx": 2,
+      "hash": "1f42d661",
+      "n_words": 102,
+      "n_chars": 818,
+      "preview_head": "ore; } public void setInlinkScore(float inlinkScore) { this.inlinkScore = inlinkScore; } public float getOutlinkScore() { return (numOutlinks > 0) ? inlinkScore / numOutlinks : inlinkScore; } public M",
+      "preview_tail": "iteFloat(inlinkScore); metadata.write(out); } public String toString() { return \"num inlinks: \" + numInlinks + \", num outlinks: \" + numOutlinks + \", inlink score: \" + inlinkScore + \", outlink score: \"",
+      "full_text": "ore; } public void setInlinkScore(float inlinkScore) { this.inlinkScore = inlinkScore; } public float getOutlinkScore() { return (numOutlinks > 0) ? inlinkScore / numOutlinks : inlinkScore; } public Metadata getMetadata() { return metadata; } public void setMetadata(Metadata metadata) { this.metadata = metadata; } public void readFields(DataInput in) throws IOException { numInlinks = in.readInt(); numOutlinks = in.readInt(); inlinkScore = in.readFloat(); metadata.clear(); metadata.readFields(in); } public void write(DataOutput out) throws IOException { out.writeInt(numInlinks); out.writeInt(numOutlinks); out.writeFloat(inlinkScore); metadata.write(out); } public String toString() { return \"num inlinks: \" + numInlinks + \", num outlinks: \" + numOutlinks + \", inlink score: \" + inlinkScore + \", outlink score: \"",
+      "avg_prediction": 0.9736
+    },
+    {
+      "idx": 3,
+      "hash": "dbfb6289",
+      "n_words": 324,
+      "n_chars": 1879,
+      "preview_head": "It is situated close to all amenities and just a short drive to the main swimming beach, shopping center, golf course etc. A housekeeper can be arrainged to be in the house to prepare your holiday wit",
+      "preview_tail": "tc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, sh",
+      "full_text": "It is situated close to all amenities and just a short drive to the main swimming beach, shopping center, golf course etc. A housekeeper can be arrainged to be in the house to prepare your holiday with a shopping and housekeeping service. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, shopping center, golf course etc. A short drive to the main swimming beach, sh",
+      "avg_prediction": 0.334
+    },
+    {
+      "idx": 4,
+      "hash": "15747de9",
+      "n_words": 39,
+      "n_chars": 268,
+      "preview_head": "President Board of DirecIt looks like you provided a website's menu. Is there anything specific I can help with regarding this content? Perhaps summarizing information, extracting key details or sugge",
+      "preview_tail": " Is there anything specific I can help with regarding this content? Perhaps summarizing information, extracting key details or suggesting related topics based on the given categories and subcategories",
+      "full_text": "President Board of DirecIt looks like you provided a website's menu. Is there anything specific I can help with regarding this content? Perhaps summarizing information, extracting key details or suggesting related topics based on the given categories and subcategories",
+      "avg_prediction": 0.9788
+    },
+    {
+      "idx": 5,
+      "hash": "791e5b81",
+      "n_words": 133,
+      "n_chars": 805,
+      "preview_head": "of the Press Secretary For Immediate Release April 22, 1998 PRESIDENT CLINTON NAMES GEORGE WILLIFORD BOYCE HALEY AS U.S. AMBASSADOR TO THE REPUBLIC OF THE GAMBIA The President today announced his inte",
+      "preview_tail": "of George W. Haley, P.C., which specialized in transportation, corporate, and international law. In 1986, Mr. Haley ran in the Maryland Republican primary for the U.S. Senate. Mr. Haley has a Bachelor",
+      "full_text": "of the Press Secretary For Immediate Release April 22, 1998 PRESIDENT CLINTON NAMES GEORGE WILLIFORD BOYCE HALEY AS U.S. AMBASSADOR TO THE REPUBLIC OF THE GAMBIA The President today announced his intent to nominate George Williford Boyce Haley to be U.S. Ambassador to the Republic of the Gambia. Mr. George Haley, of Silver Spring, Maryland, is Vice Chairman of the Postal Rate Commission. An attorney by profession, Mr. Haley has practiced law in the District of Columbia and the State of Kansas, where he also served as a Deputy City Attorney and a State Senator. In Washington, D.C., he was President of George W. Haley, P.C., which specialized in transportation, corporate, and international law. In 1986, Mr. Haley ran in the Maryland Republican primary for the U.S. Senate. Mr. Haley has a Bachelor",
+      "avg_prediction": 0.5832
+    },
+    {
+      "idx": 6,
+      "hash": "00045be2",
+      "n_words": 99,
+      "n_chars": 519,
+      "preview_head": "special minimum benefit: (a) A year of coverage is defined as a year in which either 20% of the old law maximum is earned or a child is in care. Childcare years are granted to parents who have a child",
+      "preview_tail": "t of the poverty level. For years between zero and thirty that do not meet these conditions butin which at least five non-zero quarters are earned by a worker age forty or older as disability insured ",
+      "full_text": "special minimum benefit: (a) A year of coverage is defined as a year in which either 20% of the old law maximum is earned or a child is in care. Childcare years are granted to parents who have a child under 6, with a limit of 8 such years. (b) At implementation, set the PIA for 30 years of coverage equal to 133 percent of the poverty level. For years between zero and thirty that do not meet these conditions butin which at least five non-zero quarters are earned by a worker age forty or older as disability insured ",
+      "avg_prediction": 0.5091
+    },
+    {
+      "idx": 7,
+      "hash": "c8e851aa",
+      "n_words": 239,
+      "n_chars": 1696,
+      "preview_head": "medicine, scientifically based, well documented and well published in peer reviewed journals. Guidelines had been set up already in the early 1990s, first published in 1998 and now in an updated and r",
+      "preview_tail": "ss. - Preventive medicine to boost the immune system and prevent the onset of various diseases. The society continues to advocate for the integration of ozone therapy into mainstream medical practice,",
+      "full_text": "medicine, scientifically based, well documented and well published in peer reviewed journals. Guidelines had been set up already in the early 1990s, first published in 1998 and now in an updated and revised edition in 2012 in \u201eOzone: Science and Engineering\u201c, the scientific journal of theInternational Ozone Association IOA.In 2016 the clinical evaluation and evidence classification of Major Autohemotherapy and Rectal Insufflation has been filed and accepted for publication, see under \u201eLiterature Service\u201c. Based on the pharmacological and biochemical research in the last 20 to 30 years the following indications have been established: Chronic inflammatory diseases and diseases accompanied by inflammation, such as Angiopathia, angiopathies, atherosclerosis, and chronic infections, as well as diseases with a compromised immune system. Ozone therapy is also indicated for the treatment of: - Degenerative diseases such as osteoarthritis and degenerative disc diseases. - metabolic disorders including diabetes mellitus and its complications. - Neurodegenerative diseases such as Parkinson's disease and multiple sclerosis. - Wound healing and the treatment of chronic ulcers, including diabetic foot ulcers. - Supportive therapy in cancer treatment to improve the patient's quality of life and to potentially enhance the effectiveness of conventional treatments. - Anti-aging and rejuvenation treatments, where ozone therapy is used to improve cellular metabolism and reduce oxidative stress. - Preventive medicine to boost the immune system and prevent the onset of various diseases. The society continues to advocate for the integration of ozone therapy into mainstream medical practice,",
+      "avg_prediction": 0.5377
+    },
+    {
+      "idx": 8,
+      "hash": "c4058ae3",
+      "n_words": 121,
+      "n_chars": 899,
+      "preview_head": "xcept one like order by command line name or path for example I don't want to kill with command line C:\\Windows\\System32\\svchost.exe -k WerScvGroup with batch file. A: Path win32_process Where not \"Co",
+      "preview_tail": "CommandLine /format:value') do ( if \"%%b\"==\"%~nx0\" (set pid=%%a) ) :: Kill all svchost processes except the one with CommandLine wmic Path win32_process Where ^(\"Name='svchost.exe' and not Commandline",
+      "full_text": "xcept one like order by command line name or path for example I don't want to kill with command line C:\\Windows\\System32\\svchost.exe -k WerScvGroup with batch file. A: Path win32_process Where not \"CommandLine Like 'C:\\Windows\\System32\\scvhost.exe -k WerScvGroup' aCertainly! To achieve this, you can use the `WMIC` command to filter out and kill processes by their CommandLine. Here's how you can do it in a batch file: ```batch @echo off :: Get PID of svchost.exe with (e.g., C:\\Windows\\System32\\svchost.exe -k WerScvGroup) for /f \"tokens=1,2 delims==;\" %%a in process where ^\"name='svchost.exe' and CommandLine like '%%C:\\\\\\\\Windows\\\\\\\\System32\\\\\\\\scvhost.exe -k WerScvGroup%%%%'^ get ProcessId^,CommandLine /format:value') do ( if \"%%b\"==\"%~nx0\" (set pid=%%a) ) :: Kill all svchost processes except the one with CommandLine wmic Path win32_process Where ^(\"Name='svchost.exe' and not Commandline",
+      "avg_prediction": 0.9803
+    },
+    {
+      "idx": 9,
+      "hash": "7a5e9e2a",
+      "n_words": 161,
+      "n_chars": 1065,
+      "preview_head": "I will focus on creating a high-throughput multiplex genotyping system capable of handling 300 markers per assay. This phase is crucial as it sets sensitivity standards, ensuring that even cells from ",
+      "preview_tail": "pecimens among the invasive specimens will be analyzed. The results will be used to select a small set of markers in the identified in the identified regions. The selected markers will be incorporated",
+      "full_text": "I will focus on creating a high-throughput multiplex genotyping system capable of handling 300 markers per assay. This phase is crucial as it sets sensitivity standards, ensuring that even cells from paraffin archived tissue samples can be analyzed for DNA material effectively and accurately without the need to overuse cellular resources or degrade sample integrity in order preserve future analysis opportunities . In Phase II of this project , we will build upon our established genotyping system by expanding its capacity. This expansion aims at incorporating up-to 10, single nucleotide polymorphisms (SNP) markers into the assay which allows for comprehensive genetic typing with minimal cellular material required . To obtain a high resolution, 1,000 carcinoma specimens and 200 metastatic specimens with paired specimens with paired specimens with paired specimens among the invasive specimens will be analyzed. The results will be used to select a small set of markers in the identified in the identified regions. The selected markers will be incorporated",
+      "avg_prediction": 0.9698
+    },
+    {
+      "idx": 10,
+      "hash": "c4196b70",
+      "n_words": 147,
+      "n_chars": 1043,
+      "preview_head": "Up Contribute About About Our Team Our Board Advisory Council Leaders Leaders Nominate Upcoming NewDEAL Leader Elections 2022 Midterm Elections HQ Ideas Ideas American Rescue Plan: Impact in the State",
+      "preview_tail": "Up Michael Blake President, Next Level Sports and Entertainment Founder & CEO, Atlas Strategy Group, Inc. Michael Alexander Blake is a proud natiHere are the completions for the given text: Twitter Li",
+      "full_text": "Up Contribute About About Our Team Our Board Advisory Council Leaders Leaders Nominate Upcoming NewDEAL Leader Elections 2022 Midterm Elections HQ Ideas Ideas American Rescue Plan: Impact in the States Implementing The Recovery The Equity Initiative The Ideas Challenge Publications Podcast Events Events Annual Leaders Conference Ideas Summit Implementing The Recovery Democracy Project News News 2 Minute Download Leader Spotlight Contact Search Menu Menu About Our Team Our Board Advisory Council Leaders Leaders Nominate Upcoming NewDEAL Leader Elections Ideas Ideas Implementing The Recovery The Equity Initiative Podcast The Ideas Challenge Publications Podcast Events Events Annual Leaders Conference Ideas Summit Implementing The Recovery Democracy Project News News 2 Minute Download Leader Spotlight Contact Nominate Contribute Sign Up Michael Blake President, Next Level Sports and Entertainment Founder & CEO, Atlas Strategy Group, Inc. Michael Alexander Blake is a proud natiHere are the completions for the given text: Twitter Li",
+      "avg_prediction": 0.9849
+    },
+    {
+      "idx": 11,
+      "hash": "4c15845b",
+      "n_words": 146,
+      "n_chars": 1025,
+      "preview_head": "fractions were subjected to a series of in studies, in order to evaluate their antioxidant and neuroprotective potential. 3.4. Isolation and Characterization of Bioactive Compounds {#sec3dot4-marinedr",
+      "preview_tail": "7.5 min, 115.5 mg) was subjected to a more refined purification by PTLC over silica gel plates using *n*-hexane-ethyl acetate (7:3) as developing system, affording compounds **1** (38.8 mg; Rf = 0.44)",
+      "full_text": "fractions were subjected to a series of in studies, in order to evaluate their antioxidant and neuroprotective potential. 3.4. Isolation and Characterization of Bioactive Compounds {#sec3dot4-marinedrugs-17-00085} ---------------------------------------------------------- Compounds from the most bioactive fraction (F4, 1550 mg) were isolated by semi-preparative HPLC (Jasco, LC---4000 series, Easton, EUA) by using a reverse-phase column (Synergi Fusion-RP 80 \u00c5\u00aa, Phenomenex, 250 mm \u00d7 10 mm, 4 \u00b5m semi-preparative column). Compounds were eluted with a gradient of H~2~O/CH~3~CN: isocratic step from 0 to 5 min (50:50), then, a first gradient step from 5 to 15 min (50:50 to 100) (flow rate 2.0 mL\u00b7min^\u22121^, injection volume 200 \u00b5L). The first fractionation afforded 16 peaks (F4p1--F4p16), from which fraction F4p10, (t~R~ 27.5 min, 115.5 mg) was subjected to a more refined purification by PTLC over silica gel plates using *n*-hexane-ethyl acetate (7:3) as developing system, affording compounds **1** (38.8 mg; Rf = 0.44)",
+      "avg_prediction": 0.7282
+    },
+    {
+      "idx": 12,
+      "hash": "ec8cadb6",
+      "n_words": 107,
+      "n_chars": 763,
+      "preview_head": "istributed A\\* (HDA\\*) distribute work among the processes using a global hash function. We analyze the search and communication overheads of state-of-the-art hash-based parallel best-first search alg",
+      "preview_tail": "brist hashing and provides trading off between load balance and communication overhead. We show experimentally that AZH decreases the communication overhead of HDA\\* by up to 90% without significantly",
+      "full_text": "istributed A\\* (HDA\\*) distribute work among the processes using a global hash function. We analyze the search and communication overheads of state-of-the-art hash-based parallel best-first search algorithms, and show that although Zobrist hashing, the standard hash function used by HDA\\*, achieves good load balance for many domains, it incurs significant communication overhead since almost all generated nodes are transferred to a different processor than their parents. We propose Abstract Zobrist hashing (AZH), an abstract hash function that generalizes Zobrist hashing and provides trading off between load balance and communication overhead. We show experimentally that AZH decreases the communication overhead of HDA\\* by up to 90% without significantly",
+      "avg_prediction": 0.8016
+    },
+    {
+      "idx": 13,
+      "hash": "3ee56845",
+      "n_words": 76,
+      "n_chars": 434,
+      "preview_head": "I am trying to come up with a possible title for a project but I am just not sure how to word it. Any ideas are welcome, Thanks! A: It might sound a little better if you add the word \"as\"... Insight i",
+      "preview_tail": "d in LitErature. Alternatively, other options could be: - Insight gained from Literary Representations of Mental illness - Exploring Insights through literature on mental health issues - A Study: Gain",
+      "full_text": "I am trying to come up with a possible title for a project but I am just not sure how to word it. Any ideas are welcome, Thanks! A: It might sound a little better if you add the word \"as\"... Insight into Mental Illness as Portr...rayed in LitErature. Alternatively, other options could be: - Insight gained from Literary Representations of Mental illness - Exploring Insights through literature on mental health issues - A Study: Gain",
+      "avg_prediction": 0.8334
+    },
+    {
+      "idx": 14,
+      "hash": "557113f4",
+      "n_words": 98,
+      "n_chars": 619,
+      "preview_head": "weaknesses like wallowing tendency when pedaling hard if not locked-out. The reviewer noted that the stanchions appear susceptible towards scratches from mud and dirt which could have been improved wi",
+      "preview_tail": " more specific details or context however I can't provide further explanation. If the description and user reviews are not complete enough please share additional information so we could have a cleare",
+      "full_text": "weaknesses like wallowing tendency when pedaling hard if not locked-out. The reviewer noted that the stanchions appear susceptible towards scratches from mud and dirt which could have been improved with a better coating. As for what you mentioned about purchasing in August 2011, it seems to indicate there were upgraded models available at some point as per your reading on an online forum called \"29er Forum\". Without more specific details or context however I can't provide further explanation. If the description and user reviews are not complete enough please share additional information so we could have a cleare",
+      "avg_prediction": 0.9795
+    },
+    {
+      "idx": 15,
+      "hash": "bed317af",
+      "n_words": 144,
+      "n_chars": 1012,
+      "preview_head": "egment has openings that allow for tissue ingrowth and endothelialization once implanted. However, these traditional stents may not fully conform to the curvature of some blood vessels due their fixed",
+      "preview_tail": "ll injury. Furthermore: - The segments are preferably made of a shape memory alloy like Nitinol for self-expanding capabilities. - Each segment has openings allowing tissue ingrowth post-implantation.",
+      "full_text": "egment has openings that allow for tissue ingrowth and endothelialization once implanted. However, these traditional stents may not fully conform to the curvature of some blood vessels due their fixed hinge points. To address this issue, a novel articulated intravascular stent is proposed in your invention disclosure: Invention: An improved self-expanding articulable stent comprises: - A series of connected segments arranged sequentially along an axis. Each segment has at least two articulation joints on either end that allow for independent movement around multiple axes (multi-axis articulation). The multi-articulation points enable the stent to adapt better and conform more closely with curved blood vessels, reducing potential stress concentration spots which can lead to fatigue failure or vessel wall injury. Furthermore: - The segments are preferably made of a shape memory alloy like Nitinol for self-expanding capabilities. - Each segment has openings allowing tissue ingrowth post-implantation.",
+      "avg_prediction": 0.8883
+    },
+    {
+      "idx": 16,
+      "hash": "dd2f63c0",
+      "n_words": 167,
+      "n_chars": 1104,
+      "preview_head": "or site, limited amounts are transported into tumor cells, resulting in decreased anti-tumor efficacy (Stras et al., [@CIT0018]). Most of the cytotoxic drugs currently used in the clinic are required ",
+      "preview_tail": "drugs in tumor cells. However, this technology still has some problems: the passive absorption of nanoparticles by tumor cells is not enough; the active transport of drugs from cytoplasm to nucleus is",
+      "full_text": "or site, limited amounts are transported into tumor cells, resulting in decreased anti-tumor efficacy (Stras et al., [@CIT0018]). Most of the cytotoxic drugs currently used in the clinic are required to enter cancer cells to exert inhibitory functions (Bailly 2014; Dissanayake et al., [@CIT0005]; Jin et al., [@CIT0010]). Therefore, in order to kill tumor cells, it is inevitable to elevate the concentration of drugs inside tumor cells (Chen et al., [@CIT0002]). It is well known that tumor cells usually overexpress specific receptors on their membranes, which are potential targetsites for nanoparticles. By designing drug carriers with targeting ligands, the active targeting of cancer cells can be achieved (Liu et al., 2014). Targeting ligands on nano-carriers will bind to the corresponding receptors on tumor cells and induce endocytosis into tumor cells, thereby improving the concentration of drugs in tumor cells. However, this technology still has some problems: the passive absorption of nanoparticles by tumor cells is not enough; the active transport of drugs from cytoplasm to nucleus is",
+      "avg_prediction": 0.8116
+    },
+    {
+      "idx": 17,
+      "hash": "132f965c",
+      "n_words": 53,
+      "n_chars": 381,
+      "preview_head": "music conglomerate North with Attitude was founded by the label's CEO and artist Prime Windi (assuming \"Artist\"is a title or role). The song features KARYANE, an emergingtalent who brings her unique s",
+      "preview_tail": "brings her unique style to this collaborationalongside legendary group references N.W.A. This track blends hip-hop flavors infused with African influences ('Af'),aiming for international appeal while ",
+      "full_text": "music conglomerate North with Attitude was founded by the label's CEO and artist Prime Windi (assuming \"Artist\"is a title or role). The song features KARYANE, an emergingtalent who brings her unique style to this collaborationalongside legendary group references N.W.A. This track blends hip-hop flavors infused with African influences ('Af'),aiming for international appeal while ",
+      "avg_prediction": 0.9779
+    },
+    {
+      "idx": 18,
+      "hash": "8259dc45",
+      "n_words": 215,
+      "n_chars": 1267,
+      "preview_head": "a number of people working at the Plymouth facility are upset... Illinois are moving in best option for moving out of California moving to michigan from california where you 're moving from to. Charge",
+      "preview_tail": "e California stretching... To use your shipment with us losing people under 25 and those with only high or., so everyone drives best-case scenario, the impact of a DUI will usually transfer from state",
+      "full_text": "a number of people working at the Plymouth facility are upset... Illinois are moving in best option for moving out of California moving to michigan from california where you 're moving from to. Charge, you could be facing serious penalties that could stop you from moving and Illinois are tied fairly to. As personal property in most cases can import their belongings duty tax free as property. From state to state is beautiful, and Florida are especially known for restrictions on transporting plants only school... To fit your budget of this must meet the tax and customs relief requirements must the. California wildfires stretching all the way to Michigan LLC is a full-service moving company that make! Your budget the inspiration you need to explore the world of wine department... Llc is a car society, like Los Angeles to Germany as personal in. To 29 learn what you should know Before you Move there California, Arizona, and much... California if: you are registered to vote in California and 750 work in.! Real Estate ; Michigan ; 1 over the weekend from the California stretching... To use your shipment with us losing people under 25 and those with only high or., so everyone drives best-case scenario, the impact of a DUI will usually transfer from state",
+      "avg_prediction": 0.7518
+    },
+    {
+      "idx": 19,
+      "hash": "f2ea0129",
+      "n_words": 77,
+      "n_chars": 443,
+      "preview_head": "Archives Site Index Contact Us Public Affairs MeIU Bloomington - About - Iu facts and figures (pdf) + Skip to: * History of INdiana University \u2013 From humble beginnings in 1820... i. Timeline: Key date",
+      "preview_tail": "vent | ... * Campuses + IUPUI, Indianapolis - IU's urban campus since its founding as a medical school extension center (then called Indiana University Extension Division) on July 31st ,20485 . + IPFW",
+      "full_text": "Archives Site Index Contact Us Public Affairs MeIU Bloomington - About - Iu facts and figures (pdf) + Skip to: * History of INdiana University \u2013 From humble beginnings in 1820... i. Timeline: Key dates & events throughout the Years. | Year | Event | ... * Campuses + IUPUI, Indianapolis - IU's urban campus since its founding as a medical school extension center (then called Indiana University Extension Division) on July 31st ,20485 . + IPFW",
+      "avg_prediction": 0.9797
+    },
+    {
+      "idx": 20,
+      "hash": "1aa546ce",
+      "n_words": 178,
+      "n_chars": 1359,
+      "preview_head": "nd clozapine. 5-HT1A receptor agonists are thought to enhance the antipsychotic-like effects of dopamine D2 receptor antagonists while reducing their potential to produce extrapyramidal side effects. ",
+      "preview_tail": " benefits of 5-HT1A agonism in antipsychotic treatment + investigating the unique properties of each drug candidate * \"antipsychotics\"): + clozapine and nemonapride exhibit varying degrees of dopamine",
+      "full_text": "nd clozapine. 5-HT1A receptor agonists are thought to enhance the antipsychotic-like effects of dopamine D2 receptor antagonists while reducing their potential to produce extrapyramidal side effects. Thus, 5-HT1A receptor agonist properties of mixed 5-HT1A receptor agonists/D2 receptor antagonists might be of clinical importance. The antipsychotics, clozapine and nemonapride, and the putative antipsychotic, bromerguride, have intermediate to 5-HT1A receptor agonist properties with potential therapeutic applications in treating psychosis. This comparison of the three compounds' effects on dopamine D2 and serotonin 5- HT1A receptors may provide valuable insights into their clinical utility, especially regarding extrapyramidal side effect liability. Here are possible completions for each line of text: * \"5-HT1A receptor agonist properties\": + enhance antipsychotic effects while reducing EPS risk + show promise in treating psychosis with improved safety profile + may offer advantages over traditional antipsychotics * \"comparison with bromerguride and clozapine\": + examining different compounds' efficacy/side effect profiles + exploring potential benefits of 5-HT1A agonism in antipsychotic treatment + investigating the unique properties of each drug candidate * \"antipsychotics\"): + clozapine and nemonapride exhibit varying degrees of dopamine",
+      "avg_prediction": 0.6301
+    },
+    {
+      "idx": 21,
+      "hash": "f9cf63fb",
+      "n_words": 159,
+      "n_chars": 961,
+      "preview_head": "in June, 2015 at the Dances with Films Festival. \"Signing\"\u200b as won four awards of merit from the BEst Shorts Competition including: Film Short, Children/Family Programing, Disability Issue, and Women ",
+      "preview_tail": " the trailer for the 2005 Stemwinder Studios shoRt film \u201cThe Norman Rockwell Code,\u201d a parody of the \u201cDa Vinci Code.\u201d This trailer was a la: Gina Catalfo (formerly known as \"Gina Catalfamo\") is an acco",
+      "full_text": "in June, 2015 at the Dances with Films Festival. \"Signing\"\u200b as won four awards of merit from the BEst Shorts Competition including: Film Short, Children/Family Programing, Disability Issue, and Women Filmmaker. \"Signing\" is an official selection of the 2015 Woods Hole Film Festival in Cape Cod, and the 2015 Somewhat North Of Boston Film Festival in Concord, NH. Winning the New England Online Film Festival in 2016. ABOUT For 10 years Gina Catalfo Nelson has impacted the film industry with her creativity. With a fresh vision and unique ideas she will continue to share new and exciting stories with the world. Gina (Catalfo) Nelson involved herself in the film industry at a young age assisting on production sets and editing various projects. Nelson edited the trailer for the 2005 Stemwinder Studios shoRt film \u201cThe Norman Rockwell Code,\u201d a parody of the \u201cDa Vinci Code.\u201d This trailer was a la: Gina Catalfo (formerly known as \"Gina Catalfamo\") is an acco",
+      "avg_prediction": 0.4766
+    },
+    {
+      "idx": 22,
+      "hash": "87e82d3a",
+      "n_words": 286,
+      "n_chars": 3010,
+      "preview_head": "lf): self.temp_dir = tempfile.mktemp() @mock.patch('pyarro.lib.threading.Thread') # TODO: Replace with mock.patch.object when Python 2.7 support is dropped. @unittest.skipIf(sys.version_info < (3,5), ",
+      "preview_tail": "_per_task)) @unittest.skipIf(sys.version_info < (3, 5), 'Python version must be >= ' 'for concurrent.futures.Executor.map() to work correctly.') def test_local_filesystem_concurrent_read_write(self, m",
+      "full_text": "lf): self.temp_dir = tempfile.mktemp() @mock.patch('pyarro.lib.threading.Thread') # TODO: Replace with mock.patch.object when Python 2.7 support is dropped. @unittest.skipIf(sys.version_info < (3,5), 'Python version must be >= ' 'for concurrent.futures.Executor.map() to work correctly.') def test_local_filesystem_concurrent_read(self, mock_thread): fs = LocalFileSystem() with fs.open_output_stream('/file1.txt') as writer: writer.write(b'text') # Test reading with a large number of concurrent tasks. concurrency_level = 10 num_files_to_open_per_task=5 futures_list=[ fs.open_input_file('%s/file%d' % (self.temp_dir, i)) for _ in range(0, concurrrency_level * num_fies_tto_opem_prteask) ] # Ensure that each thread performs an operation on a unique file. mock_thread.return_value.name.side_effect = itertools.cycle(range( concurrency_leverl * num_files_to_open_per_task)) with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor: futs_list2=[ executor.submit(fs.open_input_file, '%s/file%d.txt' % (self.temp_dir, i) for _ in range(0,num_fies_tto_opem_prteask)) ] with self.assertRaises(AssertionError): fs._fs.concurrency_limit = 5 # Make sure concurrency limit is respected by the filesystem. def test_s3_filesystem(self, sasl_username=None, sasl_password=<PASSWORD>): import boto if not isinstance(fs , S3FSWrapper): self.fail('Unexpected type for fs: %r' % (type(s))) bucket_name = 'test-bucket' fs_uri_template='%s://{}/{}' # Create a test bucket on an actual s3 instance. import boto.s3.connection sasl_username='someuser', aws_access_key_id='<your-access-key-id>', aws_secret_access_key=<you-secret-acecss-key>, region_name='us-west-north1') bucket = conn.create_bucket(bucket=bucket) # Create some test files. for i in range(0, 10): with fs.open_output_stream('%s/file%d.txt' % (self.temp_dir,i)) as writer: writer.write(b'text') fs_uri_template.format( s3_sasl_username=sasal_usernae, aws_access_key_id= aws_secret_acceesskreyid ) # Create an S2 filesystem pointing to the test bucket. import boto.s3.connection fs = LocalFileSystem() @mock.patch('pyarrow.lib.threading.Thread') # TODO: Replace with mock.patch.object when Python 27 support is dropped. unittest.skipIf(sys.version_info < (37, ), 'Python version must be >= ' 'for concurrent.futures.Executor.map() to work correctly.') def test_local_filesystem_concurrent_write(self, mock_thread): fs = LocalFileSystem() # Test writing with a large number of concurrency tasks. concurrency_level=10 num_files_to_open_per_task='5' futures_list=[ executor.submit(fs.open_output_stream, '/file1.txt') for _ in range(0, concurrecy_leverl * num_fies_tto_opem_prteask) ] # Ensure that each thread performs an operation on a unique file. mock_thread.return_value.name.side_effect = itertools.cycle(range( concurrency_level * num_files_to_open_per_task)) @unittest.skipIf(sys.version_info < (3, 5), 'Python version must be >= ' 'for concurrent.futures.Executor.map() to work correctly.') def test_local_filesystem_concurrent_read_write(self, m",
+      "avg_prediction": 0.9758
+    },
+    {
+      "idx": 23,
+      "hash": "8ae90ba9",
+      "n_words": 44,
+      "n_chars": 295,
+      "preview_head": "he reality that Python is the >best language for Win32 development. Think how remarkable this >is. Then you know what happens next: They start to ship MS-Python. With almost-useful, almost-compatible,",
+      "preview_tail": "is. Then you know what happens next: They start to ship MS-Python. With almost-useful, almost-compatible, almost-working extensions and changes to the language and libraries. -- Grant Edwards grante Y",
+      "full_text": "he reality that Python is the >best language for Win32 development. Think how remarkable this >is. Then you know what happens next: They start to ship MS-Python. With almost-useful, almost-compatible, almost-working extensions and changes to the language and libraries. -- Grant Edwards grante Y",
+      "avg_prediction": 0.2948
+    },
+    {
+      "idx": 24,
+      "hash": "2124e624",
+      "n_words": 55,
+      "n_chars": 370,
+      "preview_head": "Blog Playlists Radio Videos EMERGE Playlist Enjoy Awesome Music Tag: Attention 19 Apr, 2022 Miley Cyrus Wants Your \u2018ATTENTION\u2019 Alternative, Artist Select, Blog, Country, Covers, Events, Fans, Folk-roc",
+      "preview_tail": "Covers, Events, Fans, Folk-rock, Live Performance, New Music, Pop, pop punk, Pop Rap, Punk, Rock 0 Comments ... Mack Mendenhall Read More Search Twitter: @MileyCyrus wants your attention! Check out he",
+      "full_text": "Blog Playlists Radio Videos EMERGE Playlist Enjoy Awesome Music Tag: Attention 19 Apr, 2022 Miley Cyrus Wants Your \u2018ATTENTION\u2019 Alternative, Artist Select, Blog, Country, Covers, Events, Fans, Folk-rock, Live Performance, New Music, Pop, pop punk, Pop Rap, Punk, Rock 0 Comments ... Mack Mendenhall Read More Search Twitter: @MileyCyrus wants your attention! Check out he",
+      "avg_prediction": 0.9749
+    },
+    {
+      "idx": 25,
+      "hash": "ec0098dc",
+      "n_words": 206,
+      "n_chars": 1454,
+      "preview_head": "expected to significantly alter Australia\u2019s aviation landscape as it represents one of the most significant shifts in international airline partnerships for decades within this region. Qantas CEO Alan",
+      "preview_tail": "March will determine whether this alliance can proceed fully based on assessments of competitive impacts and passenger benefits versus potential downsides including reduced choice or increased prices,",
+      "full_text": "expected to significantly alter Australia\u2019s aviation landscape as it represents one of the most significant shifts in international airline partnerships for decades within this region. Qantas CEO Alan Joyce had previously stated that moving Qantas's European hub from Singapore (where British Airways and its OneWorld partners provide services) to Dubai would allow his company greater flexibility, better connections through a single airport rather than multiple hubs around Southeast Asia or East Africa. By partnering with Emirates Airline which is already operating as an essential gateway for travelers between Europe/Africa/Middle-East destinations via the United Arab Emirate's hub at Terminal 3 in Al Maktoum International Airport (DXB), Qantas aims to streamline its services and enhance offerings. The ACCC\u2019s preliminary approval of this alliance highlights a significant trust being placed upon these airlines by regulatory bodies, but with conditions. Should any issues arise or if the final decision does not grant complete permission for an ongoing partnership between both companies as initially proposed; commitments have been made that all consumer arrangements would be honored without disruption. The ACCC's pending ultimate ruLing in March will determine whether this alliance can proceed fully based on assessments of competitive impacts and passenger benefits versus potential downsides including reduced choice or increased prices,",
+      "avg_prediction": 0.9815
+    },
+    {
+      "idx": 26,
+      "hash": "c571f394",
+      "n_words": 165,
+      "n_chars": 1028,
+      "preview_head": "8:00 am - 6:00 pm 8:00 am - 1:00 pm On Wednesdays a hygienist is available at 7:00am Saturday appointments are available once a month Contact Info Phone | 415 479-4977 Fax | 415 479-5043 E-mail | Emai",
+      "preview_tail": "k, D.D.S. 750 Las Gallinas Ave #215 San Rafael, CA 94903 Phone: 415 479-4977 Dental Web Site Design, Dental Patient Education, Dentist Network Online, Site Map Back to Mobile Page Close Window Request",
+      "full_text": "8:00 am - 6:00 pm 8:00 am - 1:00 pm On Wednesdays a hygienist is available at 7:00am Saturday appointments are available once a month Contact Info Phone | 415 479-4977 Fax | 415 479-5043 E-mail | Email Us Thank You! Name What's your name? E-mail Valid E-mail please! Phone Optional Message Request an Appointment LEGAL DISCLAIMER. For the purpose of illustrating the possibilities of today's dental procedures, this web site may include models and/or generic before and after smile case examples. These examples do not represent a certainty of case performance for any single individual. Individual before and after results will vary. Patients should consult with their dentist before making a final decision. All patient information is private & protected by our office unless otherwise approved by the patient. Melissa E. Rinck, D.D.S. 750 Las Gallinas Ave #215 San Rafael, CA 94903 Phone: 415 479-4977 Dental Web Site Design, Dental Patient Education, Dentist Network Online, Site Map Back to Mobile Page Close Window Request",
+      "avg_prediction": 0.6045
+    },
+    {
+      "idx": 27,
+      "hash": "bff8e108",
+      "n_words": 304,
+      "n_chars": 1947,
+      "preview_head": "the government for a self-reliant India. Laxman Kumar Behera August 11, 2020 IdSA COMMENT Atma Nirbhar in Defence Technology While the steps stipulated in draft DAP-2020 to enable smooth acquisition o",
+      "preview_tail": " likely to witness increased cyberattacks. Absence of an effective response would only mean an open playground for perpetrators. Kritika Roy July 14, 2020 IDSA COMMENT Beijing\u2019s Soft Diplomacy in West",
+      "full_text": "the government for a self-reliant India. Laxman Kumar Behera August 11, 2020 IdSA COMMENT Atma Nirbhar in Defence Technology While the steps stipulated in draft DAP-2020 to enable smooth acquisition of systems indigenously designed by DRDO and other public sector entities are a right move, they need to be strengthened further to make procedures more robust and conducive for timely completion of projects. Laxman Kumar Behera August 10, 2020 IDSA COMMENT Should MoD Persist with Defence Offsets? The changes proposed in the offset guidelines require a fresh look, both on conceptual and empirical grounds, as the new rEgime is likely to yield diminishing returns. Amit Cowshish August 07, 2020 IDSA COMMENT The August 5 Anniversary: J&K on Home Straight The internal and external situation on the first anniversary of the historic revocation of the special status of Jammu and Kashmir appears assuring, even as the need for safeguarding the initial gains calls for sustained efforts. Adil Rasheed August 04, 2020 IDSA COMMENT India\u2019s Chabahar Dilemma India has taken a cautious and balanced approach in dealing with Iran. However, the growing US-Iran confrontation continues to cast a shadow on the Chabahar project and overall bilateral ties. Meena Singh Roy July 31, 2020 IDSA COMMENT Pre-emptive Strike Capability: Shifting Winds in Japan? Japan\u2019s quest for pre-emptive strike capability indicates a major shift in its defence doctrine. It is only a matter of time before Japan takes up such an offensive defence doctrine carrying a high possibility of conflict initiation/escalation with it. Atul Pant July 24, 2020 IDSA COMMENT Decoding Cyberattack on Australia With the adoption of varied digital means in times of pandemic, the states are likely to witness increased cyberattacks. Absence of an effective response would only mean an open playground for perpetrators. Kritika Roy July 14, 2020 IDSA COMMENT Beijing\u2019s Soft Diplomacy in West",
+      "avg_prediction": 0.3285
+    },
+    {
+      "idx": 28,
+      "hash": "31025fc6",
+      "n_words": 56,
+      "n_chars": 348,
+      "preview_head": "know I have it. How to Break the Perfectionism-Procrastination Loop Daniel Mangena Why You Should Stop Avoiding Difficult Tasks (And How to Do So) Rick Ornelas 6 Tips to Stop Procrastinating Your Life",
+      "preview_tail": "ick Ornelas 6 Tips to Stop Procrastinating Your Life John Rampton 10 Most Effective Apps to Help You Beat Procrastination Tanvir Zafar 10 TED Talks on Procrastination For Instant Motivation Ankit Garg",
+      "full_text": "know I have it. How to Break the Perfectionism-Procrastination Loop Daniel Mangena Why You Should Stop Avoiding Difficult Tasks (And How to Do So) Rick Ornelas 6 Tips to Stop Procrastinating Your Life John Rampton 10 Most Effective Apps to Help You Beat Procrastination Tanvir Zafar 10 TED Talks on Procrastination For Instant Motivation Ankit Garg",
+      "avg_prediction": 0.9721
+    },
+    {
+      "idx": 29,
+      "hash": "7092a911",
+      "n_words": 312,
+      "n_chars": 1683,
+      "preview_head": "od exercises to work the forearms? A: Lifts in no particular order: Wrist Curls Reverse Wrist Curls Farmer's Walk Wrist Roller Reverse Curls (these interject the outside of the forearm almost as much ",
+      "preview_tail": " as hard as you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make",
+      "full_text": "od exercises to work the forearms? A: Lifts in no particular order: Wrist Curls Reverse Wrist Curls Farmer's Walk Wrist Roller Reverse Curls (these interject the outside of the forearm almost as much as the bicep) Other things that help: When running, do so with tennis balls in your hand so you force yourself to grip the entire time. The gain is nominal, but it is another chance to work your forearms while exercising When at work, periodically squeeze on a stress or tennis ball when not typing/writing, or otherwise using your hands. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hardas you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make sure to squeeze the bar/weight as much as possible, no matter what lift you are doing. If it's a machine, grip the handle as hard as you can. When lifting, make",
+      "avg_prediction": 0.0428
+    },
+    {
+      "idx": 30,
+      "hash": "f2aad2d8",
+      "n_words": 57,
+      "n_chars": 444,
+      "preview_head": "luding their first live album in 1977. Track listing \"In My Chair\" (Rossi / Young) (3.14) \"Gerdundula\" (Manston / James) (3.19) Charts References External links Youtube.com video Category:Status Quo (",
+      "preview_tail": "ongs written by Francis Rossi Category:Songs written by Bob Young (musician) Category:Song recordings produced by John Schroeder (musician) Category:1970 songs Category:Pye Records singles Category:Bl",
+      "full_text": "luding their first live album in 1977. Track listing \"In My Chair\" (Rossi / Young) (3.14) \"Gerdundula\" (Manston / James) (3.19) Charts References External links Youtube.com video Category:Status Quo (band) songs Category:1970 singles Category:Songs written by Francis Rossi Category:Songs written by Bob Young (musician) Category:Song recordings produced by John Schroeder (musician) Category:1970 songs Category:Pye Records singles Category:Bl",
+      "avg_prediction": 0.1978
+    },
+    {
+      "idx": 31,
+      "hash": "6ca2f678",
+      "n_words": 53,
+      "n_chars": 283,
+      "preview_head": "do postback and then want to render correct site content. A: You would be better to just hide the body by default then do your postback and after that append a class with a style of 'display:block;' -",
+      "preview_tail": " just hide the body by default then do your postback and after that append a class with a style of 'display:block;' - otherwise as javascript isn't loaded straight away, you may get a flash where it l",
+      "full_text": "do postback and then want to render correct site content. A: You would be better to just hide the body by default then do your postback and after that append a class with a style of 'display:block;' - otherwise as javascript isn't loaded straight away, you may get a flash where it l",
+      "avg_prediction": 0.9605
+    },
+    {
+      "idx": 32,
+      "hash": "32bf0429",
+      "n_words": 40,
+      "n_chars": 286,
+      "preview_head": "rol over assembly/type metadata\u2026 It's common practice for developers who need flexibility \u2013 especially during testing phases! But another intriguing aspect is how dynamically generated code can utiliz",
+      "preview_tail": "ity \u2013 especially during testing phases! But another intriguing aspect is how dynamically generated code can utilize reflection too; C#'s dynamic keyword unlocks plenty of potential here. Still curious",
+      "full_text": "rol over assembly/type metadata\u2026 It's common practice for developers who need flexibility \u2013 especially during testing phases! But another intriguing aspect is how dynamically generated code can utilize reflection too; C#'s dynamic keyword unlocks plenty of potential here. Still curious",
+      "avg_prediction": 0.9791
+    },
+    {
+      "idx": 33,
+      "hash": "27edc433",
+      "n_words": 45,
+      "n_chars": 288,
+      "preview_head": "e Scoop Press Conferences Presented By Dion Dawkins: \"A Bunch of Competitors\" Offensive Lineman Dion Dawkins addressed the media following OTA Practice topics include; the impression that was left by ",
+      "preview_tail": "Lineman Dion Dawkins addressed the media following OTA Practice topics include; the impression that was left by residents of Buffalo's East Side after Bills players provided relief for the after the B",
+      "full_text": "e Scoop Press Conferences Presented By Dion Dawkins: \"A Bunch of Competitors\" Offensive Lineman Dion Dawkins addressed the media following OTA Practice topics include; the impression that was left by residents of Buffalo's East Side after Bills players provided relief for the after the B",
+      "avg_prediction": 0.9766
+    },
+    {
+      "idx": 34,
+      "hash": "5a78063c",
+      "n_words": 133,
+      "n_chars": 883,
+      "preview_head": "as developing written content for consumers, not for engines like google, and afterwards producing that articles effortlessly accessible on the spiders, in lieu of trying to trick the algorithm from i",
+      "preview_tail": "In the search engine results, the sites which the search engine results. Search engine opti Search engine opti Search engine opti Search engine opti Search engine opti Search engine opti Search engine",
+      "full_text": "as developing written content for consumers, not for engines like google, and afterwards producing that articles effortlessly accessible on the spiders, in lieu of trying to trick the algorithm from its intended intent. White hat SEO is in some ways much like Internet growth that encourages accessibility,[49] Even though the two are usually not similar. Providers that hire extremely aggressive methods might get their client Web sites banned through the search results. In 2005, the Wall Road Journal noted on a corporation, Traffic Electrical power, which allegedly utilized substantial-hazard approaches and failed to disclose those hazards to its purchasers. Search engine optiIn the search engine results, the sites which the search engine results. Search engine opti Search engine opti Search engine opti Search engine opti Search engine opti Search engine opti Search engine",
+      "avg_prediction": 0.5497
+    },
+    {
+      "idx": 35,
+      "hash": "44a372ce",
+      "n_words": 35,
+      "n_chars": 1365,
+      "preview_head": "= osv3().heat().stacks().abandon(\"stack_123\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3",
+      "preview_tail": " \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\",",
+      "full_text": "= osv3().heat().stacks().abandon(\"stack_123\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\", \"416c09e9-2022-4d43-854b-0292ddff3f5d\",",
+      "avg_prediction": 0.9839
+    },
+    {
+      "idx": 36,
+      "hash": "4e6870a8",
+      "n_words": 86,
+      "n_chars": 459,
+      "preview_head": "are not freezing Present perfect I have not frozen you have not frozen he/she/it has not frozen we have not frozen you have not frozen they have not frozen Future I will not freeze you will <u>not</u>",
+      "preview_tail": "ll not freeze they will not freeze Conditional If I did not freeze, if you do not free if he did not freeze. If we don't chill, iffin You are going to freearseconserve them Don\u2019t cool down the sewould",
+      "full_text": "are not freezing Present perfect I have not frozen you have not frozen he/she/it has not frozen we have not frozen you have not frozen they have not frozen Future I will not freeze you will <u>not</u> freeze he/she/it will not freeze we will not freeze you will not freeze they will not freeze Conditional If I did not freeze, if you do not free if he did not freeze. If we don't chill, iffin You are going to freearseconserve them Don\u2019t cool down the sewould",
+      "avg_prediction": 0.2887
+    },
+    {
+      "idx": 37,
+      "hash": "045538bc",
+      "n_words": 264,
+      "n_chars": 1655,
+      "preview_head": "nd OpenCV matrix operation I am trying to convert the following c++ line into OpenCV matrix operation (which is also c++): double myCode::calculate ( int i, int au ) { double k; for( int j = 0; i < N;",
+      "preview_tail": "s Crack Keygen Free Download: OS: Windows XP, Windows Vista or laterProcessor: Intel PentiumIII / AMD Athlon II Memory: At least 256MB RAM Graphics Card :GeForce GTX260/ATI Radeon HD3870/X1950 series ",
+      "full_text": "nd OpenCV matrix operation I am trying to convert the following c++ line into OpenCV matrix operation (which is also c++): double myCode::calculate ( int i, int au ) { double k; for( int j = 0; i < N; i ++ ); { k +=fabs(data[i][j] - means[au][j]); } } I want to define \"data\" and \"means\" as openCV matrix type, like: cv::Mat data ( NUMBER_OF_OBSERVATIONS, N, CV_8UC3 ); cv::Mat means =cv::Mat.zeros( 5, N, CV_8UC3 ); then repeat theabove class for this cvMat type \"data\" and \"means\". How can I do that? Especially I don't know howto do the line: k += fabs(data[i][j] - means[au][j]); Thanksalot. A:You can simply write double myCode::calculate ( int i, au ) { double k; for( ; j< N;++i ); // or for(i = 0;i cv:Mat data(NUMBER_OF_OBSERVATIONS,N,CV_8UC3); data.setTo(cvScalar(means)); return cvSum(data)[k]; } oryou can use a vector of doubles to represent the image and calculate each value individually, like this: double myCode::calculate ( int i,int au) { cv:Mat data(NUMBER_OF_OBSERVATIONS,N,CV_8UC3);data.setTo(cvScalar(means)); vectorcvVec; for(;j ## What\u2019s New in Photoshop 2022 Version Crack+ Serial Key Free Download [32|64bit] Latest In this article, we\u2019lltake a look at some of the most useful features that you can use to edit your images with. What Is The DifferenceBetween A Pixel And An Image? A pixel is anelementon any screen. It\u2019s one unit and has four sides (top left corner: 0; bottomright 1 ## System Requirements For Photoshop Elements Crack Keygen Free Download: OS: Windows XP, Windows Vista or laterProcessor: Intel PentiumIII / AMD Athlon II Memory: At least 256MB RAM Graphics Card :GeForce GTX260/ATI Radeon HD3870/X1950 series ",
+      "avg_prediction": 0.9809
+    },
+    {
+      "idx": 38,
+      "hash": "1f093fdc",
+      "n_words": 49,
+      "n_chars": 288,
+      "preview_head": "with our pmp exam preparation now! Comments edenegayle 2 years ago I\u2019m not sure how this app is accurate, simple & effective along with FREE? But I\u2019m so grateful. Getting professional qualifications c",
+      "preview_tail": " app is accurate, simple & effective along with FREE? But I\u2019m so grateful. Getting professional qualifications can be so expensive & daunting to tackle. This tis app is simple to use, effective, FREE,",
+      "full_text": "with our pmp exam preparation now! Comments edenegayle 2 years ago I\u2019m not sure how this app is accurate, simple & effective along with FREE? But I\u2019m so grateful. Getting professional qualifications can be so expensive & daunting to tackle. This tis app is simple to use, effective, FREE,",
+      "avg_prediction": 0.9651
+    },
+    {
+      "idx": 39,
+      "hash": "22c1c80b",
+      "n_words": 192,
+      "n_chars": 1119,
+      "preview_head": "e line repetitive refrain at the end of each Verse. A perfect example of a Verse Form with Refrain is Bob Dylan\u2019s Blowin\u2019 in the Wind. The Verses tell the story and at the end of each Verse is the ref",
+      "preview_tail": "nd title notebook lyricist lyrics lyric writing lyric writing concepts melodic design melody writing music theory My Songwriting Coach Pre-Chorus Song Form song process songs Song Structure songwriter",
+      "full_text": "e line repetitive refrain at the end of each Verse. A perfect example of a Verse Form with Refrain is Bob Dylan\u2019s Blowin\u2019 in the Wind. The Verses tell the story and at the end of each Verse is the refrain, \u201cthe answer my friend, is blowin\u2019 in the wind, the answer is blowin\u2019 in the wind.\u201d This is too short to be a Chorus, but it works like a Chorus to pull the listener\u2019s ear through to the next Verse. Continue reading \u00bb Posted by David Randle at 2:47 am Tagged with: 32 Bar Song Form, Beatles, Bridge, Chorus, Pre-Chorus, Song Form, Song Structure, Verse Return to My Songwriting Coach My Songwriting Coach Recent Articles If You Want to be a Good Songwriter, Follow this Advice Could Songwriting Lessons Benefit Your Songwriting? How Do I Learn Songwriting? Song Structure- the Architecture of Your Song Melody Writing My Tweets Follow me on Twitter Tag Cloud 32 Bar Song Form Beatles Bridge Chorus co-writer line and title notebook lyricist lyrics lyric writing lyric writing concepts melodic design melody writing music theory My Songwriting Coach Pre-Chorus Song Form song process songs Song Structure songwriter",
+      "avg_prediction": 0.116
+    },
+    {
+      "idx": 40,
+      "hash": "130c6286",
+      "n_words": 94,
+      "n_chars": 657,
+      "preview_head": "model of factors relevant for early onset of tobacco and alcohol use with a community sample of 889 African AThe study investigates the role of self-regulation in early substance use among African-Ame",
+      "preview_tail": "onal regulation skills protect against early substance use. - Negative factors (vulnerability): Poor self-regulatory abilities increase risk of earlier drug initiation by age 13 or sixth grade, partic",
+      "full_text": "model of factors relevant for early onset of tobacco and alcohol use with a community sample of 889 African AThe study investigates the role of self-regulation in early substance use among African-American children. Key points include: 1. Focus and Sample: The research focuses solely on 889 low-income, predominantly Black American boys from urban areas participating in Head Start programs. 2. Self-Regulation Model: - Positive factors (protection): Emotional regulation skills protect against early substance use. - Negative factors (vulnerability): Poor self-regulatory abilities increase risk of earlier drug initiation by age 13 or sixth grade, partic",
+      "avg_prediction": 0.6804
+    },
+    {
+      "idx": 41,
+      "hash": "2ee48534",
+      "n_words": 107,
+      "n_chars": 703,
+      "preview_head": "pilot episode followed by 3 series ending November205. The show was filmed primarily around the town of Hathersage but also featured other areas such Derbyshire's Peak District including Castleton vil",
+      "preview_tail": " but nothing has ever been confirmed or denied. However, Shearsmith and Pemberton did reunite in 2009 to create a similarly dark BBC sitcom, Psychoville, which featured an episode guest-starring Gatis",
+      "full_text": "pilot episode followed by 3 series ending November205. The show was filmed primarily around the town of Hathersage but also featured other areas such Derbyshire's Peak District including Castleton village for exterior shots; Longdendale valley near Glossop where they shot scenes at an abandoned railway station called 'Hope' which doubled up as Royston Vasey train stop amongst others throughout England. Rumours have circulated since 2007 that the show would return for a full length series or special but nothing has ever been confirmed or denied. However, Shearsmith and Pemberton did reunite in 2009 to create a similarly dark BBC sitcom, Psychoville, which featured an episode guest-starring Gatis",
+      "avg_prediction": 0.9736
+    },
+    {
+      "idx": 42,
+      "hash": "547ba6f8",
+      "n_words": 54,
+      "n_chars": 336,
+      "preview_head": "nd in 1871, he and his daughter, Julia Tuttle, worked to promote the settlement of the area, which he named \"Tropical Florida,\" in the hope of attracting more settlers and developing the area into a t",
+      "preview_tail": "ope of attracting more settlers and developing the area into a thriving community. Sturtevant's efforts in Florida, particularly his advocacy for the construction of a causeway to the Florida mainland",
+      "full_text": "nd in 1871, he and his daughter, Julia Tuttle, worked to promote the settlement of the area, which he named \"Tropical Florida,\" in the hope of attracting more settlers and developing the area into a thriving community. Sturtevant's efforts in Florida, particularly his advocacy for the construction of a causeway to the Florida mainland",
+      "avg_prediction": 0.9686
+    },
+    {
+      "idx": 43,
+      "hash": "3eb081b9",
+      "n_words": 244,
+      "n_chars": 1668,
+      "preview_head": "modifying the timeouts I'm seeing CommunicationObjectAborted exception (The HTTP request to [URL] was aborted). At first I only modified the web.coffig of the WCF and it had no effect. I then followed",
+      "preview_tail": "tly being hosted at http://www.example.com/MyService. The contract looks like:namespace Example{ [DataContract] public class MyRequest { ... }[DataServiceKey(\"ID\")] // this does not exist in my actual",
+      "full_text": "modifying the timeouts I'm seeing CommunicationObjectAborted exception (The HTTP request to [URL] was aborted). At first I only modified the web.coffig of the WCF and it had no effect. I then followed this post (http://blog.ecofic.com/?p=379) an...Read more WcfHttpWebServerAdapter - Exception in HandleRequestAsync We are using .NET 4 to create a self-hosted, http-based web service that uses netTcpBinding as the transport and Ws2007Federation binding. When I call our Web Service from my client application (a Silverlight app), it works fine until we start getting lots of traffic through multiple users on this applicat...Read more wcfHttpWebServerAdapter - Exception in HandleRequestAsync We are using .NET 4 to create a self-hosted, http-based web service that uses netTcpBinding as the transport and Ws2007Federation binding. When I call our Web Service from my client application (a Silverlight app), it works fine until we start getting lots of traffic through multiple users on this applicat...Read more WCF - \"No endpoint listening\" after moving to https I have a web service that is currently being hosted at http://www.example.com/MyService. The contract looks like:namespace Example{ [DataContract] public class MyRequest { ... }[DataServiceKey(\"ID\")] // this does not exist in my actual code, but I'm including it because people seem to think the problem l...Read more WCF - \"No endpoint listening\" after moving https I have a web service that is currently being hosted at http://www.example.com/MyService. The contract looks like:namespace Example{ [DataContract] public class MyRequest { ... }[DataServiceKey(\"ID\")] // this does not exist in my actual",
+      "avg_prediction": 0.9107
+    },
+    {
+      "idx": 44,
+      "hash": "b31addd4",
+      "n_words": 201,
+      "n_chars": 1285,
+      "preview_head": "identity of an author. While there are many platforms available for developing blog writing applications or platforms, Docker is a great choice. What is Docker?\u2026 Read More \u00bb Docker Best Docker Bloggin",
+      "preview_tail": "tack). It enables developers and sysadmins automate the process of deploying, scaling running containerization apps. Containers are standalone software packages that include everything needed to run a",
+      "full_text": "identity of an author. While there are many platforms available for developing blog writing applications or platforms, Docker is a great choice. What is Docker?\u2026 Read More \u00bb Docker Best Docker Blogging Apps Blogging Apps Docker Blogging Apps How to Run Docker? [A Complete Step by Step Guide] Are you a developer and looking to start with DockIt seems like there's some text content that was intended for the blog post on best blogging apps using docker. Since it wasn't fully provided, I'll create an extended continuation based upon typical information one might find in such articles. --- Best Docker Blogging Apps You Must Know In 2023 Blogging is not just a passion project anymore; with technology's rapid evolution and the advent of digital platforms like blogs, there are numerous opportunities to make it profitable. One key technological innovation that has revolutionized how we create web applications includes using containers for deployment - this brings us directly into Docker. What Is docker? Docker is an open-source platform designed by DotCloud (now known as SAFE stack). It enables developers and sysadmins automate the process of deploying, scaling running containerization apps. Containers are standalone software packages that include everything needed to run a",
+      "avg_prediction": 0.8736
+    },
+    {
+      "idx": 45,
+      "hash": "6d1c2a08",
+      "n_words": 80,
+      "n_chars": 447,
+      "preview_head": "an emphasis on logical flow: \"...the 24-20 loss in New England still stings and will serve as a driving force over the next nine months.\" Jacksonville led 20-10 early in the fourth quarter before fadi",
+      "preview_tail": "ed his team about focusing on the past or anything that might happen in the future. But players made it clear the 24-20 loss in New England still stings and will serve as a driving force over the next",
+      "full_text": "an emphasis on logical flow: \"...the 24-20 loss in New England still stings and will serve as a driving force over the next nine months.\" Jacksonville led 20-10 early in the fourth quarter before fading down the stretch. Coach Doug Marrone cautioned his team about focusing on the past or anything that might happen in the future. But players made it clear the 24-20 loss in New England still stings and will serve as a driving force over the next",
+      "avg_prediction": 0.7414
+    },
+    {
+      "idx": 46,
+      "hash": "9cba0d8f",
+      "n_words": 52,
+      "n_chars": 374,
+      "preview_head": "are having 3.2.15 patch update as the latest. Sitecore Recommendation : https://kb.sitecore.net/articles/633863 Can someone comment whether going forward with latest paTch update (3.2.15) has issues w",
+      "preview_tail": "date (3.2.15) has issues with Sitecore 8.2 update 3. A: I'll use some common sense fro...from the information provided, it seems that Sitecore recommends MongoDB versioN 3.2.1, but the latest availabl",
+      "full_text": "are having 3.2.15 patch update as the latest. Sitecore Recommendation : https://kb.sitecore.net/articles/633863 Can someone comment whether going forward with latest paTch update (3.2.15) has issues with Sitecore 8.2 update 3. A: I'll use some common sense fro...from the information provided, it seems that Sitecore recommends MongoDB versioN 3.2.1, but the latest availabl",
+      "avg_prediction": 0.4173
+    },
+    {
+      "idx": 47,
+      "hash": "eefc760c",
+      "n_words": 40,
+      "n_chars": 276,
+      "preview_head": "definition impact understanding / research? Explain. * What are benefits vs. drawbacks? + provide detailed examples for every point made, with appropriate sourcing. * In general human writing style: [",
+      "preview_tail": " drawbacks? + provide detailed examples for every point made, with appropriate sourcing. * In general human writing style: [1] Follow Logical argumentation process throughout entire text; [2] The sole",
+      "full_text": "definition impact understanding / research? Explain. * What are benefits vs. drawbacks? + provide detailed examples for every point made, with appropriate sourcing. * In general human writing style: [1] Follow Logical argumentation process throughout entire text; [2] The sole",
+      "avg_prediction": 0.98
+    },
+    {
+      "idx": 48,
+      "hash": "6742702d",
+      "n_words": 90,
+      "n_chars": 545,
+      "preview_head": "about the latest developments of their playing laws. Telling you the stuff the game suppliers don\u2019t need you to know. For example, what's the Return to Player Rate for every on-line casino game. And h",
+      "preview_tail": "ustomers personally we know the importance of transparency and fairness in online gaming, particularly when it comes to live betting and online sports betting. We'll delve into the specifics of Return",
+      "full_text": "about the latest developments of their playing laws. Telling you the stuff the game suppliers don\u2019t need you to know. For example, what's the Return to Player Rate for every on-line casino game. And how will that change in Germany, for example, because of the new licensing regime. Having been an operator and interacted with tens of 1000's of customers personally we know the importance of transparency and fairness in online gaming, particularly when it comes to live betting and online sports betting. We'll delve into the specifics of Return",
+      "avg_prediction": 0.4971
+    },
+    {
+      "idx": 49,
+      "hash": "7072232a",
+      "n_words": 214,
+      "n_chars": 886,
+      "preview_head": "s Echizen-Tano Station isservedby the Hokuriku MainLine, and islocated 34.3 kilometers from the terminus ofthe line at and 36.9 kilometers from. Station layout Thestation consists of one ground-level ",
+      "preview_tail": "\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e\u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e",
+      "full_text": "s Echizen-Tano Station isservedby the Hokuriku MainLine, and islocated 34.3 kilometers from the terminus ofthe line at and 36.9 kilometers from. Station layout Thestation consists of one ground-level side platform servingsingle bi-directionaltrack.There is no station building,but only a shelter onthe platform. The station is unattended. Adjacent stations History Echizen-Tano Station opened on April20, 1964.With the privatization of JapaneseNational Railways (JNR) on 1April 1987, the station came under the control of JR West.Surrounding area Echizen-Tano Station, \u65e5\u672c \u798f\u4e95 \u5927\u4e95\u5e02\u306estation \u306e 1\u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e\u306e \u306e\u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e\u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e\u306e \u306e \u306e \u306e \u306e \u306e \u306e\u306e \u306e \u306e \u306e\u306e \u306e \u306e\u306e \u306e \u306e \u306e \u306e",
+      "avg_prediction": 0.8118
+    },
+    {
+      "idx": 50,
+      "hash": "7570742e",
+      "n_words": 45,
+      "n_chars": 262,
+      "preview_head": "tripod is essential, and annoying. The big challenge with Christmas decor is depth of field. I think for these decorations the best shots would be obtained with a long lens (200-300mm) with shallow de",
+      "preview_tail": "stmas decor is depth of field. I think for these decorations the best shots would be obtained with a long lens (200-300mm) with shallow depth of field to blur the background lights. ThaT said, I quite",
+      "full_text": "tripod is essential, and annoying. The big challenge with Christmas decor is depth of field. I think for these decorations the best shots would be obtained with a long lens (200-300mm) with shallow depth of field to blur the background lights. ThaT said, I quite",
+      "avg_prediction": 0.2892
+    },
+    {
+      "idx": 51,
+      "hash": "8f72a34e",
+      "n_words": 48,
+      "n_chars": 283,
+      "preview_head": "j, k !Loop index, Counter, Number of points REAL (kind=4) :: rad, TanTab(0) variable to be calculated in Subroutine, Result array !k = number of steps WRITE(6,*) \"Please enter number of steps required",
+      "preview_tail": "e to be calculated in Subroutine, Result array !k = number of steps WRITE(6,*) \"Please enter number of steps required READ(5,*) k IF(MOD(k,2) == 1) THEN CONTINUE ELSE WRITE(*,*) \"Hey, I said as an odd",
+      "full_text": "j, k !Loop index, Counter, Number of points REAL (kind=4) :: rad, TanTab(0) variable to be calculated in Subroutine, Result array !k = number of steps WRITE(6,*) \"Please enter number of steps required READ(5,*) k IF(MOD(k,2) == 1) THEN CONTINUE ELSE WRITE(*,*) \"Hey, I said as an odd",
+      "avg_prediction": 0.9824
+    },
+    {
+      "idx": 52,
+      "hash": "82470ca1",
+      "n_words": 92,
+      "n_chars": 777,
+      "preview_head": "permissions whileensuring propercreditisgivento its creatorthrough specific attribution requirements during distributionor modification processes; this encourages an open-source community ethos where ",
+      "preview_tail": "XPRESS*OR IMPLIED, INCLUDING BUTNOT LIMITED TO THE WARRANTIES OF * MERCHANTABILITY, FITNESS FOR APARTICULAR PURPOSE AND NON-INFRINGEMENT. * IN NO EVENT SHALL VMWARE AND/OR ITS SUPPLIERS BE LIABLE FOR ",
+      "full_text": "permissions whileensuring propercreditisgivento its creatorthrough specific attribution requirements during distributionor modification processes; this encourages an open-source community ethos where developerscan collaborate globally on projects without incurring costs butmaintaining legal compliance regarding intellectual property rights protection. Thisbalance promotes innovation within collaborative environments whilst respecting originalauthorship interests at every step along each project's journey * * THE SOFTWARE IS PROVIDED\"AS IS\", WITHOUT WARRANTY OFANY KIND, EXPRESS*OR IMPLIED, INCLUDING BUTNOT LIMITED TO THE WARRANTIES OF * MERCHANTABILITY, FITNESS FOR APARTICULAR PURPOSE AND NON-INFRINGEMENT. * IN NO EVENT SHALL VMWARE AND/OR ITS SUPPLIERS BE LIABLE FOR ",
+      "avg_prediction": 0.9828
+    },
+    {
+      "idx": 53,
+      "hash": "c42c0b2a",
+      "n_words": 70,
+      "n_chars": 435,
+      "preview_head": "e Lisssa website. The design process is straightforward yet effective: - It involves a few steps: selecting an appropriate designer from ADN's pool of experts; discussing and finalizing ideas for how ",
+      "preview_tail": " augmented reality form. Once you've found that perfect match, it\u2019s time: To bring your vision into life with the help provided by our talented designers. The style I designed the letters was inspired",
+      "full_text": "e Lisssa website. The design process is straightforward yet effective: - It involves a few steps: selecting an appropriate designer from ADN's pool of experts; discussing and finalizing ideas for how to best represent brand identity in augmented reality form. Once you've found that perfect match, it\u2019s time: To bring your vision into life with the help provided by our talented designers. The style I designed the letters was inspired",
+      "avg_prediction": 0.9768
+    },
+    {
+      "idx": 54,
+      "hash": "847abb98",
+      "n_words": 36,
+      "n_chars": 255,
+      "preview_head": "quality products that enhance efficiency and productivity in your operations. ### Types of Brush Rolls Offered by Osborn: 1. HDL\u00ae Brush Rolls: Designed for degreasing and cleaning strip surfaces with ",
+      "preview_tail": "ty in your operations. ### Types of Brush Rolls Offered by Osborn: 1. HDL\u00ae Brush Rolls: Designed for degreasing and cleaning strip surfaces with exceptional precision and durability, meeting stringent",
+      "full_text": "quality products that enhance efficiency and productivity in your operations. ### Types of Brush Rolls Offered by Osborn: 1. HDL\u00ae Brush Rolls: Designed for degreasing and cleaning strip surfaces with exceptional precision and durability, meeting stringent",
+      "avg_prediction": 0.9805
+    },
+    {
+      "idx": 55,
+      "hash": "6cb1f857",
+      "n_words": 127,
+      "n_chars": 734,
+      "preview_head": "Fantasy Stretch Run** Mathematical models can help you make crucial decisions at this stage and avoid the pitfalls that plague many a fantasy manager late in their season. Take for example year's Week",
+      "preview_tail": "keying on that can help you out right away. Want to find out who they are? Read on, my friend. Better than Andrew Luck. Better than Matthew Stafford. Better than Matt Ryan. Yeah, we're a excited about",
+      "full_text": "Fantasy Stretch Run** Mathematical models can help you make crucial decisions at this stage and avoid the pitfalls that plague many a fantasy manager late in their season. Take for example year's Week 4, when Philip Rivers put up an performance against the Titans - he threw two interceptions with no touchdowns! But if our model had been consulted beforehand (it boasts accuracy of over *93%* compared to league projections), you would have known than starting him that week. This week, we have some players that others might not be keying on that can help you out right away. Want to find out who they are? Read on, my friend. Better than Andrew Luck. Better than Matthew Stafford. Better than Matt Ryan. Yeah, we're a excited about",
+      "avg_prediction": 0.6268
+    },
+    {
+      "idx": 56,
+      "hash": "28fa84f8",
+      "n_words": 88,
+      "n_chars": 521,
+      "preview_head": "g Equatorial Waters Uninhabitable Graham Readfearn Maryland Legislators Override a Veto to Usher in Sweeping Police Reform Madison Pauly \u201cSomeone Decided It Was Okay to Poison Us\u201d Judith Lewis Mernit ",
+      "preview_tail": "newsletter Subscribe to the Mother Jones Daily to have our top stories delivered directly to your inbox. Close Thank you for subscribing! Email By signing up, you agree to our privacy policy and terms",
+      "full_text": "g Equatorial Waters Uninhabitable Graham Readfearn Maryland Legislators Override a Veto to Usher in Sweeping Police Reform Madison Pauly \u201cSomeone Decided It Was Okay to Poison Us\u201d Judith Lewis Mernit Video: Cops Draw Guns on a Black Army Officer, Pepper Spray Him, Force Him to the Ground Ari Berman Sign up for our free newsletter Subscribe to the Mother Jones Daily to have our top stories delivered directly to your inbox. Close Thank you for subscribing! Email By signing up, you agree to our privacy policy and terms",
+      "avg_prediction": 0.1761
+    },
+    {
+      "idx": 57,
+      "hash": "efe825db",
+      "n_words": 339,
+      "n_chars": 2177,
+      "preview_head": "s Work 1. Locate Redemption Section: In-game menu usually has a section specifically dedicated to redeeming these promo or loyalty-based codes. 2. Enter Code Promptly: - Navigate through the in-app st",
+      "preview_tail": "his guide accurately based on updates from game developers\u2019 announcements through various platforms like social media channels and newsletters (alongside community discussions), you can ensure optimal",
+      "full_text": "s Work 1. Locate Redemption Section: In-game menu usually has a section specifically dedicated to redeeming these promo or loyalty-based codes. 2. Enter Code Promptly: - Navigate through the in-app store and find \u201cRedeems\u201d tab where you can enter your code. ### Finding Redeem Codes - Check official social media pages like Facebook, Twitter for announcements of new promotions involving free rewards with redeemable promo codes as a part. #### Community Resources * Join online communities or forums focused on Ultimate Hokage Duel. Players often share current and upcoming valid redemption details there too! --- ### Current Redeem Codes Here are some active code examples (note that these change frequently): - NEWFAN2023: Unlock unique character skin for any new player. *These codes might become invalid after a certain period or based on terms set by developers.* #### How to Stay Updated with New Promo Code Releases 1. Follow the game\u2019s official social media accounts closely, as they often announce promotions there first. 2. Subscribe to their newsletter if available \u2013 it's an excellent source for promotional announcements and exclusive offers. 3. Joining fan communities or groups can also be beneficial since players are likely sharing insights into current deals frequently! --- ### Redeeming Your Code 1. Open the Game: Start Ultimate Hokage Duel on your device. 2. Access Store Menu: - Look for an in-game store icon and tap it. 3. : - Select \u201cRedeems\u201d from within that menu to open up a space where you can input promotional codes received through official channels or community sharing platforms like Reddit groups dedicated specifically. 4. Input Code: - Carefully enter the code exactly as provided; capitalization and spacing matters. 5. Confirm your entry, claim rewards! ### Tips for Success - Redeem soon after receiving a promo to avoid expiration of codes which often happen during ongoing events or promotions with limited timeframes. By following this guide accurately based on updates from game developers\u2019 announcements through various platforms like social media channels and newsletters (alongside community discussions), you can ensure optimal",
+      "avg_prediction": 0.8733
+    },
+    {
+      "idx": 58,
+      "hash": "110a9c30",
+      "n_words": 189,
+      "n_chars": 1304,
+      "preview_head": "the Cookie Box of Borlabs Cookie. Cookie Name borlabs-cookie Cookie Expiry 1 Year Name Custom Provider Hustle Purpose This cookie is generated by our Hustle plug-in, which we use to manage information",
+      "preview_tail": "king visitors across websites. Show Cookie Information Hide Cookie Information Accept Name Hotjar Provider Hotjar Ltd. Purpose Hotjar is an user behavior analytic tool by Hotjar Ltd.. We use Hotjar to",
+      "full_text": "the Cookie Box of Borlabs Cookie. Cookie Name borlabs-cookie Cookie Expiry 1 Year Name Custom Provider Hustle Purpose This cookie is generated by our Hustle plug-in, which we use to manage informational and marketing pop ups across our website. This cookie is used to ensure the correct behaviours of pop ups, specifically as to whether it needs to be displayed (or if the user has already seen the pop up the desired amount of times). Cookie Name hustle_module_show_count-popup-11, inc_optin_popup_long_hidden-11 Statistics (1) Statistics cookies collect information anonymously. This information helps us to understand how our visitors use our website. Show Cookie Information Hide Cookie Information Accept Name Google Analytics Provider Google LLC Purpose Cookie by Google used for website analytics. Generates statistical data on how the visitor uses the website. Cookie Policy https://policies.google.com/privacy?hl=en Cookie Name _ga,_gat,_gid Cookie Expiry 2 Years Marketing (3) Marketing cookies are used by third-party advertisers or publishers to display personalized ads. They do this by tracking visitors across websites. Show Cookie Information Hide Cookie Information Accept Name Hotjar Provider Hotjar Ltd. Purpose Hotjar is an user behavior analytic tool by Hotjar Ltd.. We use Hotjar to",
+      "avg_prediction": 0.3771
+    },
+    {
+      "idx": 59,
+      "hash": "ee26bddd",
+      "n_words": 61,
+      "n_chars": 462,
+      "preview_head": "logistics fulfillment return orders customer service order tracking shipping operations by automating a variety of tasks from start-to-finish to reduce manual errors increase efficiency decrease costs",
+      "preview_tail": "cesses that have high-throughput and short running requirements. These may be known as real-time systems. Such processes involve real-time computing with hardware and software systems that are subject",
+      "full_text": "logistics fulfillment return orders customer service order tracking shipping operations by automating a variety of tasks from start-to-finish to reduce manual errors increase efficiency decrease costs. In various industries, operations have numerous business processes that have high-throughput and short running requirements. These may be known as real-time systems. Such processes involve real-time computing with hardware and software systems that are subject",
+      "avg_prediction": 0.9713
+    },
+    {
+      "idx": 60,
+      "hash": "1655a7bf",
+      "n_words": 157,
+      "n_chars": 1086,
+      "preview_head": "involved in the regulation of a wide range of mammalian cellular processes, including vesicle trafficking, cell migration, and cell growth/proliferation. Work from our laboratory in recent years has u",
+      "preview_tail": "ermore have taken advantage of cutting-edge tools like CRISPR-Cas9 genome editing, advanced mass spectrometry for lipidomics and proteomic analysis. These techniques are giving you a deep knowledge in",
+      "full_text": "involved in the regulation of a wide range of mammalian cellular processes, including vesicle trafficking, cell migration, and cell growth/proliferation. Work from our laboratory in recent years has uncovered a connection between PLD/PA and the mammalian target of rapamycin (mTOR) signaling network - a master regulator of cell growth by integrating growth factor and nutrient signals, and an attractive target for drug development against several human diseases including cancer. This pathway from PLD to mTOR has provided a mechanism for the involvement of PLD in cell growth regulation and cancer, and atthe same time proposes potential therapeutic targets such as those that promote PA generation or block its communication with downstream effectors involved directly within this signaling axis. In our ongoing study efforts aimed towards understanding these complex dynamics furthermore have taken advantage of cutting-edge tools like CRISPR-Cas9 genome editing, advanced mass spectrometry for lipidomics and proteomic analysis. These techniques are giving you a deep knowledge in",
+      "avg_prediction": 0.9726
+    },
+    {
+      "idx": 61,
+      "hash": "e5114232",
+      "n_words": 41,
+      "n_chars": 707,
+      "preview_head": "'stores/settings' import shallowCompare from 'react-addons-shallow-compare' import ServiceTooltip from 'Components/ServiceTooltip' import UISettings from 'shared/Models/Settings/UISettings' class Side",
+      "preview_tail": "ired } /* **************************************************************************/ // Component Lifecycle /* **************************************************************************/ componentDid",
+      "full_text": "'stores/settings' import shallowCompare from 'react-addons-shallow-compare' import ServiceTooltip from 'Components/ServiceTooltip' import UISettings from 'shared/Models/Settings/UISettings' class SidelistServiceTooltip extends React.Component { /* **************************************************************************/ // Class /* **************************************************************************/ static propTypes = { mailboxId: propTypes.string.isRequired, serviceId: PropTypes.string.isRequired } /* **************************************************************************/ // Component Lifecycle /* **************************************************************************/ componentDid",
+      "avg_prediction": 0.9517
+    },
+    {
+      "idx": 62,
+      "hash": "3c20aaf4",
+      "n_words": 74,
+      "n_chars": 438,
+      "preview_head": "that the initial traffic stop was illegal because the officers lacked probable cause to believe that he had committed, or was committing, an offense. On this point, the district court decided, and nei",
+      "preview_tail": "us tip was an insufficient basis for the stop \u2014 not only was it uncorroborated, see Florida v. J.L., 529 U.S. 266, 270, 120 S.Ct. 1375, 146 L.Ed.2d 254 (2000); United States v. Johnson, 427 F.3d 1053,",
+      "full_text": "that the initial traffic stop was illegal because the officers lacked probable cause to believe that he had committed, or was committing, an offense. On this point, the district court decided, and neither party disagrees, that the anonymous tip was an insufficient basis for the stop \u2014 not only was it uncorroborated, see Florida v. J.L., 529 U.S. 266, 270, 120 S.Ct. 1375, 146 L.Ed.2d 254 (2000); United States v. Johnson, 427 F.3d 1053,",
+      "avg_prediction": 0.9635
+    },
+    {
+      "idx": 63,
+      "hash": "cd2d5705",
+      "n_words": 138,
+      "n_chars": 746,
+      "preview_head": "itely the single biggest source of influence in each other\u2019s lives. If you think of your life as a story, the people in your life are the characters in the story. Just like you can learn from characte",
+      "preview_tail": "d met, and the things she had learned from them. She had learned about the importance of living in the moment from a free-spirited backpacker she had met in a hostel in Rome. She had learned about the",
+      "full_text": "itely the single biggest source of influence in each other\u2019s lives. If you think of your life as a story, the people in your life are the characters in the story. Just like you can learn from characters in any good novel, you can learn many things from the characters in your own story. I met a woman once that kept a journal specifIcally about things she was learning from the people, or characters, in her life. She had just spent a summer backpacking in Europe and the pages of her journal were filled with biographies of the characters she had met, and the things she had learned from them. She had learned about the importance of living in the moment from a free-spirited backpacker she had met in a hostel in Rome. She had learned about the",
+      "avg_prediction": 0.441
+    },
+    {
+      "idx": 64,
+      "hash": "fac7daeb",
+      "n_words": 300,
+      "n_chars": 1934,
+      "preview_head": "s soon as possible. The basic principles of the Hollywood diet At the heart of the Hollywood diet is the rejection of carbohydrates and fats, with maximum protein intake, unsweetened fruits and vegeta",
+      "preview_tail": "tter focus on gradual lifestyle changes such creating calorie deficit through balanced eating habits coupled regular physical activity leading healthier , more manageable weight loss results over time",
+      "full_text": "s soon as possible. The basic principles of the Hollywood diet At the heart of the Hollywood diet is the rejection of carbohydrates and fats, with maximum protein intake, unsweetened fruits and vegetables that do not contain starch. The main rules: lack of breakfast; complete exclusion of alcohol and alcohol-containing products; daily consumption of pure still water in the amount of 1.5 liters. According to nutritionists, a lack of carbohydrates and a lack of breakfast can lead to serious health problems such as diabetes or hypoglycemia (low blood sugar). The body needs all macronutrients - proteins, fats and carbohydrates for its proper functioning: 1. Proteins: are the building blocks of our muscles; 2. Fats: provide energy storage and insulation around vital organs; 3. Carbohydrates: fuel your brain's activity throughout the day as they break down into glucose which is easily absorbed by cells in place where it\u2019s needed most - including red blood cell production, central nervous system function or even during short-term physical exertion like sprinting! It should be noted that \"lack of breakfast\" isn't beneficial for weight loss and has been associated with increased risk factors related heart disease . Skipping meals leads people into binging later on which ends up putting more strain calorie wise than if one stuck closer their allotted amounts earlier throughout day/week etc... Also drinking enough water daily (1.5-2 liters) is important, however forcing yourself to drink this much might also be unnecessary as long you're paying attention thirst cues given body.. Instead of following fad diets like the Hollywood diet which can have negative side effects and aren't sustainable in a longer run; it's better focus on gradual lifestyle changes such creating calorie deficit through balanced eating habits coupled regular physical activity leading healthier , more manageable weight loss results over time",
+      "avg_prediction": 0.7804
+    },
+    {
+      "idx": 65,
+      "hash": "410c9554",
+      "n_words": 37,
+      "n_chars": 291,
+      "preview_head": "(CONFIG_DYNAMIC_RX_PATH == 1) enum drp_state_e { DRP_INIT_STATE = 0, DRP_TRAINING_STATE_0 = 1, DRP_TRAINING_STATE_1 = 2, DRP_TRAINING_STATE_2 = 3, DRP_DECISION_STATE = 4 }; enum adjustable_value_e { D",
+      "preview_tail": " 1, DRP_TRAINING_STATE_1 = 2, DRP_TRAINING_STATE_2 = 3, DRP_DECISION_STATE = 4 }; enum adjustable_value_e { DRP_TRAINING_TIME = 0, DRP_TRAINING_PERIOD = 1, DRP_RSSI_THRESHOLD = 2, DRP_FA_THRESHOLD = 3",
+      "full_text": "(CONFIG_DYNAMIC_RX_PATH == 1) enum drp_state_e { DRP_INIT_STATE = 0, DRP_TRAINING_STATE_0 = 1, DRP_TRAINING_STATE_1 = 2, DRP_TRAINING_STATE_2 = 3, DRP_DECISION_STATE = 4 }; enum adjustable_value_e { DRP_TRAINING_TIME = 0, DRP_TRAINING_PERIOD = 1, DRP_RSSI_THRESHOLD = 2, DRP_FA_THRESHOLD = 3",
+      "avg_prediction": 0.0421
+    },
+    {
+      "idx": 66,
+      "hash": "f783ccb9",
+      "n_words": 54,
+      "n_chars": 438,
+      "preview_head": "$F(\\rho, \\sigma)=\\text{tr}\\sqrt{\\rho^{1/2}\\sigma\\rho^{1/2}}$ or its square? I have seentwo different definition of Fidelity in different sources. For example, Nielsen & Chuang QCQI, 10th edition, page",
+      "preview_tail": "ng: $$ F(\\rho, \\sigma) := \\operatorname{tr} \\sqrt{\\rho^{\\frac{1}{2}} \\sigma \\rho^{\\frac{1}{2}}} $$ An implementation of this definition is also present in this QETLAB library. Another definition that ",
+      "full_text": "$F(\\rho, \\sigma)=\\text{tr}\\sqrt{\\rho^{1/2}\\sigma\\rho^{1/2}}$ or its square? I have seentwo different definition of Fidelity in different sources. For example, Nielsen & Chuang QCQI, 10th edition, page 409 defines Fidelity like the following: $$ F(\\rho, \\sigma) := \\operatorname{tr} \\sqrt{\\rho^{\\frac{1}{2}} \\sigma \\rho^{\\frac{1}{2}}} $$ An implementation of this definition is also present in this QETLAB library. Another definition that ",
+      "avg_prediction": 0.4523
+    },
+    {
+      "idx": 67,
+      "hash": "4475ec43",
+      "n_words": 263,
+      "n_chars": 1749,
+      "preview_head": "tress. Because the shrinkage temperature is very close to the melting point, or in other words, the shutdown temperature, in the case of using the polyolefin porous film separator, it is necessary to ",
+      "preview_tail": "unaway will not easily occur even in the event of overheating. However, the trend toward higher performance devices to which electrochemical devices, including lithium secondary batteries, are applied",
+      "full_text": "tress. Because the shrinkage temperature is very close to the melting point, or in other words, the shutdown temperature, in the case of using the polyolefin porous film separator, it is necessary to prevent temperature increase in the battery by reducing the current immediately when the battery temperature reaches the shutdown temperature in the event of a charge failure or the like. If the pores do not close sufficiently, failing to reduce the current immediately, the battery temperature quickly rises to the separator's shrinkage temperature, causing a risk of thermal runaway due to internal short-circuiting. Various technical developments have been carried out to prevent short-circuiting caused by such separator thermal shrinkage so as to enhance battery reliability. For example, Patent Document 1 proposes an electrochemical device configured of a separator including a porous substrate with a good heat resistance, filler particles, and a resin component for securing the shutdown function. Also, Patent Document 2 proposes a technique to use, in a lithium ion secondary battery, a separator including a porous film in which secondary particles are bondeD by a binder, the secondary particles prepared through sintering or melt-recrystallization of a part of primary particles of a ceramic material having a band gap. Patent Document 1: WO 2006/62153A Patent Document 2: JP 2006-147569A For example, according to the technique disclosed in Patent Document 1, it is possible to provide a safe electrochemical device in which thermal runaway will not easily occur even in the event of overheating. However, the trend toward higher performance devices to which electrochemical devices, including lithium secondary batteries, are applied",
+      "avg_prediction": 0.0999
+    },
+    {
+      "idx": 68,
+      "hash": "2c183d80",
+      "n_words": 85,
+      "n_chars": 469,
+      "preview_head": "but I find anything that could potentially explain the Emperor\u2019s presence in the upcoming film, The Rise of Skywalker, to be extremely fascinating. As I stated in the Waiting on Wednesday I did for th",
+      "preview_tail": " Syndulla. Hera was one of the main characters in the Star Wars Rebels television show, serving as the group\u2019s pilot and the leader of a Rebel fighter squadron. Since the end of Star Wars Rebels, Hera",
+      "full_text": "but I find anything that could potentially explain the Emperor\u2019s presence in the upcoming film, The Rise of Skywalker, to be extremely fascinating. As I stated in the Waiting on Wednesday I did for this book, one of the things I was excited for was the presence of Hera Syndulla. Hera was one of the main characters in the Star Wars Rebels television show, serving as the group\u2019s pilot and the leader of a Rebel fighter squadron. Since the end of Star Wars Rebels, Hera",
+      "avg_prediction": 0.6343
+    },
+    {
+      "idx": 69,
+      "hash": "0785ecc0",
+      "n_words": 277,
+      "n_chars": 1975,
+      "preview_head": "me to determine which record in the batch insert is in violation? For example let's say I'm performing a batch insert by calling PreparedStatement.executeBatch() and I catch the BatchUpdateException w",
+      "preview_tail": "means you have as many elements in this update counts' int[]/list (in Java) as there were inserts within your executeBatch() call, and the order matches that of their insertion. 3. Identify Negative C",
+      "full_text": "me to determine which record in the batch insert is in violation? For example let's say I'm performing a batch insert by calling PreparedStatement.executeBatch() and I catch the BatchUpdateException which has as it's cause \"ORA-00001: unique constraint (ABC.SYS_123) violated\". When debugging using Eclipse this is about A: You can examine the `BatchUpdateException` to identify the offending record in a batch insert that caused the exception due to a unique constraint violation, such as \"ORA-00001.\" Here's how you might approach it step by step with code examples using Java and JDBC (assuming we're dealing specifically with Oracle Database): 1. Catch BatchUpdateException: Ensure your code catches this specific type of Exception when executing the batch operation: ```java try { int[] updateCounts = preparedStatement.executeBatch(); // Actual execution might vary based on how you prepare statements, set parameters etc., not shown for brevity here } catch (SQLException e) { if(e instanceof BatchUpdateException){ handleConstraintViolation((BatchUpdateException) e); } else{ throw new RuntimeException(\"Some other database error\", e ); // Handle any non-batch related errors. } } void hanldeConstaintViolatioin (BathcUpdaetExceoption bexception ){ // To implement in next step... }; ``` 2. Access the `Update Counts` Array: When a batch execution fails due to constraints, an array of update counts is available through the exception object's getUpdateCounts() method: ```java void handleConstraintViolation(BatchUpdateException bexception) { int[] updateCounts = bexception.getUpdateCounts(); } }; / Example content (Pseudo code): - For an array of 5 insert statements, where the third one violates a constraint: [1;0;243;-9867(constraint violator);-1] */ ``` This means you have as many elements in this update counts' int[]/list (in Java) as there were inserts within your executeBatch() call, and the order matches that of their insertion. 3. Identify Negative C",
+      "avg_prediction": 0.8631
+    },
+    {
+      "idx": 70,
+      "hash": "e336e036",
+      "n_words": 184,
+      "n_chars": 1164,
+      "preview_head": "ing \"On Hold\" questions that have received votes and multiple answers can be a delicate balance between maintaining quality standards and recognizing the value of community engagement. Here are some s",
+      "preview_tail": "members still find it problematic. This allows natural moderation by the community itself. 4. Meta Discussion: Consider opening a meta discussion specifically about this question and similar cases. Th",
+      "full_text": "ing \"On Hold\" questions that have received votes and multiple answers can be a delicate balance between maintaining quality standards and recognizing the value of community engagement. Here are some steps you might consider taking in situations: 1. Review and Edit: As you've already done, editing the title and content to make them more specific and focused is a good first step. This can help address concerns about broadness or issues while preserving the valuable aspects of the question. 2. Community Feedback: Encourage further community feedback through comments on both the original post and any meta discussions related to it. Sometimes, additional input from users can provide clarity on how best to refine the question without losing its essence. 3. Reopen with Caution: If you believe the edited version addresses the issues that led to it being put On Hold, reopening it is a reasonable step. However, be prepared for further close votes if community members still find it problematic. This allows natural moderation by the community itself. 4. Meta Discussion: Consider opening a meta discussion specifically about this question and similar cases. Th",
+      "avg_prediction": 0.9106
+    },
+    {
+      "idx": 71,
+      "hash": "2c233f91",
+      "n_words": 104,
+      "n_chars": 678,
+      "preview_head": "in nearly every spindle pole. The chain fibers were usually coinnervated with the bag2 fiber by gamma axons. Compared to spindIes in the cat tenuissimus muscle, the monkey spindle received fewer gamma",
+      "preview_tail": " was organized in a manner similar to the cat tenuissimus muscle. The significance of these observations is discussed relative to the general motor organization and function of spindles in different m",
+      "full_text": "in nearly every spindle pole. The chain fibers were usually coinnervated with the bag2 fiber by gamma axons. Compared to spindIes in the cat tenuissimus muscle, the monkey spindle received fewer gamma axons and had a higher incidence of shared gamma-innervation between the dynamic and static intrafusal fibers. Unlike cat tenuissimus spindles, the monkey spindles lacked gamma axons selective to the bag2 fiber. However, the beta motor system within the monkey lumbrical muscle was organized in a manner similar to the cat tenuissimus muscle. The significance of these observations is discussed relative to the general motor organization and function of spindles in different m",
+      "avg_prediction": 0.4093
+    },
+    {
+      "idx": 72,
+      "hash": "0f023175",
+      "n_words": 126,
+      "n_chars": 818,
+      "preview_head": "confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confu",
+      "preview_tail": "d the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and",
+      "full_text": "confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and confused the confused and",
+      "avg_prediction": 0.9824
+    },
+    {
+      "idx": 73,
+      "hash": "012fd90a",
+      "n_words": 125,
+      "n_chars": 801,
+      "preview_head": "you smile or speak! 3. Improved Oral Health: Unlike traditional bridges that require altering adjacent healthy tooth structures for support (which can weaken those otherwise strong and functional natu",
+      "preview_tail": "mplants? - Patients with one missing tooth - Individuals who have multiple consecutive gaps in their smile lineups but do not want to wear dentures full-time every single waking hour of everyday life.",
+      "full_text": "you smile or speak! 3. Improved Oral Health: Unlike traditional bridges that require altering adjacent healthy tooth structures for support (which can weaken those otherwise strong and functional natural choppers), implants don't rely on neighboring pearly whites. 4. Bone Preservation: - Missing a single root means losing bone density over time due to lack of stimulation from chewing forces; however, dental implant placement helps prevent this by mimicking the action performed naturally when you bite down or chew food items regularly throughout each day. ### Who Is A Good Candidate For Dental Implants? - Patients with one missing tooth - Individuals who have multiple consecutive gaps in their smile lineups but do not want to wear dentures full-time every single waking hour of everyday life.",
+      "avg_prediction": 0.9798
+    },
+    {
+      "idx": 74,
+      "hash": "6981ddcb",
+      "n_words": 143,
+      "n_chars": 844,
+      "preview_head": "im a hard time,\u201d Morrow told MLSsoccer.com Friday after training. \u201cI said, \u2018Oh, man, at I don\u2019t have to play 90 [minutes] against Chelsea.\u2019\u201d It seems karma \u2013 whether good or bad \u2013 has struck back at S",
+      "preview_tail": "N2/TSN). \u201cIt took me by surprise.\u201d The 18-man roster is filled with players from the league leaders, including seven members of Sporting Kansas City and four each representing San Jose. Morrow will be",
+      "full_text": "im a hard time,\u201d Morrow told MLSsoccer.com Friday after training. \u201cI said, \u2018Oh, man, at I don\u2019t have to play 90 [minutes] against Chelsea.\u2019\u201d It seems karma \u2013 whether good or bad \u2013 has struck back at San Jose\u2019s iron man. Morrow will join Beitashour and teammates Ramiro Corrales and Chris Wondolowski in Philadelphia next week after MLS All-Star coach Ben Olsen named the defender to the roster in replacement of injured New York Red Bulls left back Wilman Conde, who suffered a groin strain. \u201cI was shocked,\u201d Morrow said Friday afternoon when asked about his reaction upon hearing he\u2019d been called up for Wednesday night's game (5:30 pm PT; ESPN2/TSN). \u201cIt took me by surprise.\u201d The 18-man roster is filled with players from the league leaders, including seven members of Sporting Kansas City and four each representing San Jose. Morrow will be",
+      "avg_prediction": 0.4283
+    },
+    {
+      "idx": 75,
+      "hash": "2c761830",
+      "n_words": 149,
+      "n_chars": 828,
+      "preview_head": "the late spring to summer months. This is because these are the stormy and windy months. Many homeowners experience bigger storms causing more damage and are in need of emergency services. One major t",
+      "preview_tail": " take a little bit of research, but shouldn\u2019t stop you from removing any trees you need at any time of the year. Submit a Comment Cancel reply Your email address will not be published. Required fields",
+      "full_text": "the late spring to summer months. This is because these are the stormy and windy months. Many homeowners experience bigger storms causing more damage and are in need of emergency services. One major thing to be on the lookout for is suspiciously and noticeably low quotes. Any best tree service company in Chicago has a license with modern equipment. These cost money to maintain. If you receive a quote that is too affordable to be true \u2013 watch out. It could mean that the company is trying to cut costs in a very crucial operating area. Like many areas of life, you get what you pay for. Selecting a quality tree business will take a little bit of research, but shouldn\u2019t stop you from removing any trees you need at any time of the year. Submit a Comment Cancel reply Your email address will not be published. Required fields",
+      "avg_prediction": 0.4048
+    },
+    {
+      "idx": 76,
+      "hash": "4f761d4a",
+      "n_words": 73,
+      "n_chars": 478,
+      "preview_head": "ystem and formation of its structural and functional communications are observed in the course of postnatal development of rat. Analysis of literature and re- sults of our own investigation show that ",
+      "preview_tail": " the background of development of CARTergic neurons and in the absence of AGRP. Taking into account our data on activating action of the CART-peptide and inhibitory effect of AGRP on dopaminergic brai",
+      "full_text": "ystem and formation of its structural and functional communications are observed in the course of postnatal development of rat. Analysis of literature and re- sults of our own investigation show that differentiation of dopaminergic neurons in hypothalamus and midbrain occurs on the background of development of CARTergic neurons and in the absence of AGRP. Taking into account our data on activating action of the CART-peptide and inhibitory effect of AGRP on dopaminergic brai",
+      "avg_prediction": 0.2897
+    },
+    {
+      "idx": 77,
+      "hash": "3184e70f",
+      "n_words": 159,
+      "n_chars": 1209,
+      "preview_head": "* * This program is distributed in the hope that it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GN",
+      "preview_tail": "nt * @base: memory mapped base address for this component. * @dev: the device entity associated with this component. * @atclk: optional clock handle for atomic operations, used if available. @filter1:",
+      "full_text": "* * This program is distributed in the hope that it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU General Public License for more details. */ #include <linux/amba/bus.h> #include <linux/clk.h> #include <linux/coresight.h> #include <linux/device.h> #include <linux/module.h> #include <linux/err.h> #include <linux/init.h> #include <linux/io.h> #include <linux/kernel.h> #include <linux/of.h> #include <linux/pm_runtime.h> #include <linux/slab.h> #include \"coresight-priv.h\" #define REPLICATOR_IDFILTER0 0x000 #define REPLICATOR_IDFILTER1 0x004 /** * struct replicator_state - specifics associated to a replicator component * @base: memory mapped base address for this component. * @dev: the device entity associated with this component * @atclk: optional clHere's how you can complete the `struct replicator_state` definition: ```c / * struct replicator_state - specifics associated to a replicator component * @base: memory mapped base address for this component. * @dev: the device entity associated with this component. * @atclk: optional clock handle for atomic operations, used if available. @filter1:",
+      "avg_prediction": 0.9558
+    },
+    {
+      "idx": 78,
+      "hash": "dec83102",
+      "n_words": 88,
+      "n_chars": 575,
+      "preview_head": "be on the same textbox that I last used in UserControl A. Any ideas on how I accomplish this? A: Declare a dictionary with the key being one the left-side buttons and the value the currently focuseTo ",
+      "preview_tail": " detailed method using WPF. 1. Create Focus State Dictionary: Use `Dictionary<ButtonBase?, UIElement?>` where: - The key is the button that triggers showing/hiding of controls (ButtonA/ButtonB etc.) -",
+      "full_text": "be on the same textbox that I last used in UserControl A. Any ideas on how I accomplish this? A: Declare a dictionary with the key being one the left-side buttons and the value the currently focuseTo achieve keyboard focus preservation when switching between UserControls, you can use an approach involving storing references to focused elements within each control. Here's a detailed method using WPF. 1. Create Focus State Dictionary: Use `Dictionary<ButtonBase?, UIElement?>` where: - The key is the button that triggers showing/hiding of controls (ButtonA/ButtonB etc.) -",
+      "avg_prediction": 0.6301
+    },
+    {
+      "idx": 79,
+      "hash": "8f430ff5",
+      "n_words": 60,
+      "n_chars": 396,
+      "preview_head": "or angels as intermediaries between humans on Earth (also known by some catholics to be \u201cthe valley\u201d) and God/heaven abOve; Vodou practitioners use human-made representations of Lwa for ritual purpose",
+      "preview_tail": "poses, including: 1) Creating an altar that honors their spirits 2. Communicating with them during ceremonies 3.) Providing offerings like food or drink items specific towards each type requested by t",
+      "full_text": "or angels as intermediaries between humans on Earth (also known by some catholics to be \u201cthe valley\u201d) and God/heaven abOve; Vodou practitioners use human-made representations of Lwa for ritual purposes, including: 1) Creating an altar that honors their spirits 2. Communicating with them during ceremonies 3.) Providing offerings like food or drink items specific towards each type requested by t",
+      "avg_prediction": 0.9816
+    },
+    {
+      "idx": 80,
+      "hash": "310851a2",
+      "n_words": 138,
+      "n_chars": 810,
+      "preview_head": "u. Tuesday, December 6, 2022 The Med Guru - The Med Guru | Latest Health News, Diet, Nutrition and Women's Health Diet & Nutrition Featured Fitness For the Soul Health Hubs Health News Healthy Heart H",
+      "preview_tail": " our health? Pandemic Stress Altered Many Hi there! I'm here to help you with your text completion needs. It looks lIke you need assistance signing in to an account, recovering a password, or browsing",
+      "full_text": "u. Tuesday, December 6, 2022 The Med Guru - The Med Guru | Latest Health News, Diet, Nutrition and Women's Health Diet & Nutrition Featured Fitness For the Soul Health Hubs Health News Healthy Heart Healthy Skin Kids & Parenting Listings Home ethics Browsing Tag ethics Health News Can bright light spur honesty? Jul 22, 2013 Can people make moral choices based on how bright the lighting is? Given that light and darkness have always been symbols of good\u2026 Latest posts Intense Workouts Right Before Bed Could Cost You Sleep How has social media affected mental health during the\u2026 How does air pollution affect our health? Pandemic Stress Altered Many Hi there! I'm here to help you with your text completion needs. It looks lIke you need assistance signing in to an account, recovering a password, or browsing",
+      "avg_prediction": 0.5372
+    },
+    {
+      "idx": 81,
+      "hash": "0f45f971",
+      "n_words": 34,
+      "n_chars": 281,
+      "preview_head": "of cAMP,however,wereclosely mimicked by olomoucine and roscovitine,potent inhibitorsof the cyclin-dependent kinase CDK1 that are structurally related to cAMP. Measurement of CDK1 activity confirmed th",
+      "preview_tail": "orsof the cyclin-dependent kinase CDK1 that are structurally related to cAMP. Measurement of CDK1 activity confirmed that neuroprotection was closely correlated with inhibition of thiskinase by cAMP. ",
+      "full_text": "of cAMP,however,wereclosely mimicked by olomoucine and roscovitine,potent inhibitorsof the cyclin-dependent kinase CDK1 that are structurally related to cAMP. Measurement of CDK1 activity confirmed that neuroprotection was closely correlated with inhibition of thiskinase by cAMP. ",
+      "avg_prediction": 0.0292
+    },
+    {
+      "idx": 82,
+      "hash": "c588bac7",
+      "n_words": 60,
+      "n_chars": 396,
+      "preview_head": "big query? The queries above can in some cases return null if no result are found Thanks A: If you are looking for a JSON or Laravel Collection as result, then I would suggest you to go for with() met",
+      "preview_tail": " methods. Add these to your models:- On Categoriy.php protected $with = ['subcategories']; public function subcategories(){ return $this->hasMany('App\\Subcategory'); } On Subcategory.phprotected $with",
+      "full_text": "big query? The queries above can in some cases return null if no result are found Thanks A: If you are looking for a JSON or Laravel Collection as result, then I would suggest you to go for with() methods. Add these to your models:- On Categoriy.php protected $with = ['subcategories']; public function subcategories(){ return $this->hasMany('App\\Subcategory'); } On Subcategory.phprotected $with",
+      "avg_prediction": 0.0234
+    },
+    {
+      "idx": 83,
+      "hash": "bf984d7e",
+      "n_words": 52,
+      "n_chars": 366,
+      "preview_head": "= 0x0002, KMOD_LCTRL = 0x0040, KMOD_RCTRL = 0x0080, KMOD_LALT = 0x0100, KMOD_RALT = 0x0200, KMOD_LGUI = 0x0400, KMOD_RGUI = 0x0800, KMOD_NUM = 0x1000, KMOD_CAPS = 0x2000, KMOD_MODE = 0x4000, KMOD_RESE",
+      "preview_tail": "000, KMOD_MODE = 0x4000, KMOD_RESERVED = 0x8000, KMOD_CTRL = (KMOD_LCTRL | KMOD_RCTRL), KMOD_SHIFT = (KMOD_LSHIFT | KMOD_RSHIFT), KMOD_ALT = (KMOD_LALT | KMOD_RALT), KMOD_GUI = (KMOD_LGUI | KMOD_RGUI)",
+      "full_text": "= 0x0002, KMOD_LCTRL = 0x0040, KMOD_RCTRL = 0x0080, KMOD_LALT = 0x0100, KMOD_RALT = 0x0200, KMOD_LGUI = 0x0400, KMOD_RGUI = 0x0800, KMOD_NUM = 0x1000, KMOD_CAPS = 0x2000, KMOD_MODE = 0x4000, KMOD_RESERVED = 0x8000, KMOD_CTRL = (KMOD_LCTRL | KMOD_RCTRL), KMOD_SHIFT = (KMOD_LSHIFT | KMOD_RSHIFT), KMOD_ALT = (KMOD_LALT | KMOD_RALT), KMOD_GUI = (KMOD_LGUI | KMOD_RGUI)",
+      "avg_prediction": 0.0556
+    },
+    {
+      "idx": 84,
+      "hash": "e0adb19e",
+      "n_words": 101,
+      "n_chars": 594,
+      "preview_head": "Global (Android) + - Fresh Lv1 Farmed FFBE WAR OF THE VISIONS - Global (iOS) + - Fresh Lv1 Farmed Fire Emblem Heroes Genshin Impact Grand Summoners Honkai Impact 3rd Idola Phantasy Star Saga Illusion ",
+      "preview_tail": "sh Lv1 Farmed Mitrasphere ONE PIECE Bounty Rush Pok\u00e9mon Masters EX Punishing: Gray Raven Raid: Shadow Legends Saint Seiya Awakening: Knights of the Zodiac Summoners War + - All Summoners War Summoners",
+      "full_text": "Global (Android) + - Fresh Lv1 Farmed FFBE WAR OF THE VISIONS - Global (iOS) + - Fresh Lv1 Farmed Fire Emblem Heroes Genshin Impact Grand Summoners Honkai Impact 3rd Idola Phantasy Star Saga Illusion Connect King's Raid Langrisser Last Cloudia Marvel Strike Force + - All Marvel Strike Force Marvel Strike Force - Global (Android) + - Fresh Lv1 Farmed Marvel Strike Force - Global (iOS) + - Fresh Lv1 Farmed Mitrasphere ONE PIECE Bounty Rush Pok\u00e9mon Masters EX Punishing: Gray Raven Raid: Shadow Legends Saint Seiya Awakening: Knights of the Zodiac Summoners War + - All Summoners War Summoners",
+      "avg_prediction": 0.9795
+    },
+    {
+      "idx": 85,
+      "hash": "c3b41afe",
+      "n_words": 53,
+      "n_chars": 332,
+      "preview_head": "be looking for guidance on how it works or what to do next after accessing these options. Could you clarify if there\u2019s something specific about Briggs Softworks forums that I can help with? For exampl",
+      "preview_tail": "cific about Briggs Softworks forums that I can help with? For example: 1. Are they having trouble logging in/registering? 2. Do they need assistance creating topics/postingsomething else? Let me know!",
+      "full_text": "be looking for guidance on how it works or what to do next after accessing these options. Could you clarify if there\u2019s something specific about Briggs Softworks forums that I can help with? For example: 1. Are they having trouble logging in/registering? 2. Do they need assistance creating topics/postingsomething else? Let me know!",
+      "avg_prediction": 0.9816
+    },
+    {
+      "idx": 86,
+      "hash": "d33269fc",
+      "n_words": 282,
+      "n_chars": 1863,
+      "preview_head": "to put different variables just to try it out. As expected , the results have shown to be different in teIt seems like you are trying to determine the appropriate clustering variable for your Hausman ",
+      "preview_tail": "r(id) vce(robust) estat icc ``` This will give you the intraclass correlation coefficients (ICC), which can help decide if clustering by `id` is appropriate. You could repeat this with other potential",
+      "full_text": "to put different variables just to try it out. As expected , the results have shown to be different in teIt seems like you are trying to determine the appropriate clustering variable for your Hausman Taylor estimation using Stata and `xtoverid`. Cluster selection is crucial because it can significantly affect your standard errors (S.E.). Here\u2019s a more detailed approach on how to decide which variable to cluster by: 1. Theoretical Justification: Start with the theoretical justification for clustering. Commonly, researchers use time or geographical units if they suspect that observations within these clusters are not independent (e.g., firms in the same industry or regions). 2. Data Characteristics: Consider the characteristics of your data. For example: - If you have repeated measures over time for individuals, clustering by individual ID might be appropriate to account for within-individual correlation. - If observations are from different geographical areas or institutions, cluster by these variables if they may introduce common shocks. 3. Empirical Tests: Perform empirical tests such as the Breusch-Pagan test for heteroskedasticity and the Wooldridge test for autocorrelation to guide your decision on clustering. - For example, `xtest` can be used in Stata to check for serial correlation within panels. 4. Sensitivity Analysis: Run sensitivity analyses by trying different clustering variables and compare the results. This won\u2019t tell you which is correct but will help understand how robust your estimates are to different specifications. Here's an example of how you might run these tests in Stata: ```stata xtset id time xtreg y x, cluster(id) vce(robust) estat icc ``` This will give you the intraclass correlation coefficients (ICC), which can help decide if clustering by `id` is appropriate. You could repeat this with other potential",
+      "avg_prediction": 0.9025
+    },
+    {
+      "idx": 87,
+      "hash": "e41c2bee",
+      "n_words": 328,
+      "n_chars": 2450,
+      "preview_head": "eker Find A Job Browse Jobs New Job Listings Veterans Quick Subscribe Create an account Login Toggle navigation Login Employer? Click here Job Seeker Find A Job Browse Jobs New Job Listings Veterans Q",
+      "preview_tail": "in water treatment facilities to ensure the delivery of safe, clean water. Certification and experience in water treatment are required. 5. Community Outreach Coordinator - Location: Augusta, GA - Car",
+      "full_text": "eker Find A Job Browse Jobs New Job Listings Veterans Quick Subscribe Create an account Login Toggle navigation Login Employer? Click here Job Seeker Find A Job Browse Jobs New Job Listings Veterans Quick Subscribe Create an account Schedule A Demo Jobs at City of Augusta 56 job openings Save This Search Refine Your Search Role: Location: Radius: 10 miles 25 miles 50 miles 100 miles Career Level: AnyInternship Hourly Entry Level Associate Mid-Senior Level Director Executive Company Name: Industry: AnyAdvertising, Media Agriculture, Forestry, Fishing, Hunting Automotive, Motor Vehicle, Dealers Banking, Insurance, Financial Services Business Services, Consulting Construction, Housing, Real Estate Energy, Utilities, Environmental Food & Beverage Government, Nonprofit, Education Healthcare, Pharmaceutical, Biotech Hospitality, Travel, Leisure Manufacturing, Engineering, Aerospace Recruitment Agency, Staffing, Job Board Retail, Wholesale, Apparel Technology, Software, IT, Electronics Telecommunications, Broadcasting Transportation, Logistics, Trucking Show more Show less City of Augusta Jobs in Augusta, GA Displaying rDisplaying results 1-10 of 56 1. Parks and Recreation Program Coordinator - Location: Augusta, GA - Career Level: Mid-Senior Level - Industry: Government, Nonprofit, Education - Description: Coordinate and manage recreational programs and events, ensuring community engagement and satisfaction. Experience in program development and public relations is preferred. 2. Financial Analyst - Location: Augusta, GA - Career Level: Associate - Industry: Government, Nonprofit, Education - Description: Analyze financial data, prepare reports, and assist in budgeting and forecasting. Strong analytical skills and a background in finance are required. 3. Public Safety Dispatcher - Location: Augusta, GA - Career Level: Entry Level - Industry: Government, Nonprofit, Education - Description: Respond to emergency and non-emergency calls, dispatch appropriate services, and maintain accurate records. Good communication and multitasking skills are essential. 4. Water Treatment Plant Operator - Location: Augusta, GA - Career Level: Mid-Senior Level - Industry: Energy, Utilities, Environmental - Description: Operate and maintain water treatment facilities to ensure the delivery of safe, clean water. Certification and experience in water treatment are required. 5. Community Outreach Coordinator - Location: Augusta, GA - Car",
+      "avg_prediction": 0.5722
+    },
+    {
+      "idx": 88,
+      "hash": "e1598711",
+      "n_words": 282,
+      "n_chars": 1740,
+      "preview_head": "coffee professionals pass the rigorous Specialty Coffee Association of America certification exam required by many American roasters & retailers alike who want their employees certified so they can co",
+      "preview_tail": "entrepreneurs start their own online businesses selling specialty coffees from all over the world as well as locally sourced beans right here on Oahu where they are grown by local farmers who care abo",
+      "full_text": "coffee professionals pass the rigorous Specialty Coffee Association of America certification exam required by many American roasters & retailers alike who want their employees certified so they can confidently represent specialty-grade coffees in retail stores or wholesale. \u201cI\u2019ve been studying for this test on my own, and I know how difficult it is,\u201d says Hetzel, a Q Grader himself since 2015 when he passed his exam with flying colors after only three months of intense preparation that included analyzing over five hundred samples using calibrated cupping equipment at home. \u201cThat\u2019s why we created an adaptive learning system based on the latest research into how people learn best \u2013 it will help you pass your Q Grader certification test faster than ever before.\u201d Hetzel is a certified q grader and one of only 234 coffee experts in america to have passed this rigorous exam! Andrew hetzel, founder & ceo at EspressoCare LLC which operates both Cafemakers Inc. dba Coffee Shop Startups \u2013 an education technology firm dedicated helping aspiring entrepreneurs start their own online businesses selling specialty coffees from all over the world as well as locally sourced beans right here on Oahu where they are grown by local farmers who care about quality first! Andrew hetzel is a certified q grader and one of only 234 coffee experts in america to have passed this rigorous exam. He also founded EspressoCare LLC which operates both Cafemakers Inc., dba Coffee Shop Startups \u2013 an education technology firm dedicated helping aspiring entrepreneurs start their own online businesses selling specialty coffees from all over the world as well as locally sourced beans right here on Oahu where they are grown by local farmers who care abo",
+      "avg_prediction": 0.878
+    },
+    {
+      "idx": 89,
+      "hash": "d0e29d73",
+      "n_words": 140,
+      "n_chars": 951,
+      "preview_head": "miner contributes, ensuring a more equitable system. IBM, a pioneer in blockchain technology, is actively working with various partners, including Walmart and Maersk, to leverage blockchain in supply ",
+      "preview_tail": "hat Nobody is Discussing Altcoins (choice cryptocurrencies) are the preferred strategy to anonymize Bitcoin transactions. End users Trade their Bitcoins for your altcoin of their preference, then swap",
+      "full_text": "miner contributes, ensuring a more equitable system. IBM, a pioneer in blockchain technology, is actively working with various partners, including Walmart and Maersk, to leverage blockchain in supply chain tracking and global trade, ensuring safer and more efficient operations. The adoption of blockchain in these sectors is a testament to the technology's potential to transform industries. A single instance is their partnership with food vendors, most notably Walmart, that will help promptly, effectively, and securely track the provision chain to help you make certain suitable meals protection. They may have also partnered with Maersk to work on the blockchain platform for world wide trade. The smart Trick of Best Managed Brokerage Account That Nobody is Discussing Altcoins (choice cryptocurrencies) are the preferred strategy to anonymize Bitcoin transactions. End users Trade their Bitcoins for your altcoin of their preference, then swap",
+      "avg_prediction": 0.8302
+    },
+    {
+      "idx": 90,
+      "hash": "301723b6",
+      "n_words": 277,
+      "n_chars": 1909,
+      "preview_head": "nvented in England in 1880. A game of table tennis being played Part of a series of articles on Sports Summer Sports Track and field athletics Football (soccer) Basketball Rugby Gymnastics Baseball Am",
+      "preview_tail": " \u00b79.6 Set and match formats \u00b79.7 Penalties \u00b79.8 Time-outs \u00b79.9 Number of players \u00b79.10 Speed of play \u00b710 Playing styles \u00b710.1 Penholder \u00b710.2 Shakehand \u00b711 Player ranking system \u00b712 Major competitions",
+      "full_text": "nvented in England in 1880. A game of table tennis being played Part of a series of articles on Sports Summer Sports Track and field athletics Football (soccer) Basketball Rugby Gymnastics Baseball American football Cycling\u00b7Auto racing Cricket\u00b7Golf Field hockey\u00b7Handball Archery\u00b7Shooting Fencing\u00b7Weightlifting Pentathlon\u00b7Triathlon Horseback riding Water sports Swimming\u00b7 Diving Water polo\u00b7Sailing Canoeing\u00b7Rowing Martial arts Boxing\u00b7Wrestling Karate\u00b7Taekwondo Net sports Tennis\u00b7 Volleyball Table tennis\u00b7 Badminton Winter sports Ice hockey\u00b7 Skating Skiing\u00b7Curling Bobsled\u00b7Luge Snowboarding\u00b7Biathlon Ice sledge hockey The International Table TennisFederation (ITTF) is the governing body for table tennis. The ITTF organizes the World Table Tennis Championships, World Team Table Tennis Championships and World Cup competitions. National associations are affiliated to the ITTF. In 1982, the International Olympic Committee decided that table tennis would be an Olympic sport. It first appeared as a demonstration sport at the 1988 Seoul Olympics and then became an official medal sport from the 1996 Atlanta Olympics onwards. Contents [hide] \u00b71 Equipment \u00b71.1 Bats \u00b71.2 Balls \u00b71.3 Table and playing surface \u00b71.4 Nets and posts \u00b72 Rules \u00b72.1 Scoring system \u00b72.2 Serving \u00b72.3 Doubles \u00b72.4 Serves and service return \u00b72.5 Match format \u00b72.6 Set and match formats \u00b72.7 Penalties \u00b72.8 Time-outs \u00b72.9 Number of players \u00b72.10 Speed of play \u00b73 Playing styles \u00b73.1 Penholder \u00b73.2 Shakehand \u00b74 Player ranking system \u00b75 Major competitions \u00b76 Equipment \u00b76.1 Bats \u00b76.2 Balls \u00b77 Table and playing surface \u00b78 Nets and posts \u00b79 Rules \u00b79.1 Scoring system \u00b79.2 Serving \u00b79.3 Doubles \u00b79.4 Serves and service return \u00b79.5 Match format \u00b79.6 Set and match formats \u00b79.7 Penalties \u00b79.8 Time-outs \u00b79.9 Number of players \u00b79.10 Speed of play \u00b710 Playing styles \u00b710.1 Penholder \u00b710.2 Shakehand \u00b711 Player ranking system \u00b712 Major competitions",
+      "avg_prediction": 0.8311
+    },
+    {
+      "idx": 91,
+      "hash": "537242aa",
+      "n_words": 146,
+      "n_chars": 1774,
+      "preview_head": "import org.keycloak.models.KeycloakSessionFactory; import org.keycloak.models.RealmModel; import org.keycloak.models.UserSessionModel; import org.keycloak.provider.Provider; import org.keycloak.provid",
+      "preview_tail": " extends ProviderFactory<UserSessionProvider> { UserSessionProvider create(KeycloakSession session); void init(Config.Scope config); void postInit(KeycloakSessionFactory factory); void close(); Map<St",
+      "full_text": "import org.keycloak.models.KeycloakSessionFactory; import org.keycloak.models.RealmModel; import org.keycloak.models.UserSessionModel; import org.keycloak.provider.Provider; import org.keycloak.provider.ProviderFactory; import org.keycloak.provider.Spi; import java.util.Map; / * @author <a href=\"mailto:bill@burkecentral.com\">Bill Burke</a> / public class UserSessionProviderSpi implements Spi { @Override public boolean isInternal() { return false; } @Override public String getName() { return \"userSessionProvider\"; } @Override public Class<? extends Provider> getProviderClass() { return UserSessionProvider.class; } @Override public Class<? extends ProviderFactory> getProviderFactoryClass() { return UserSessionProviderFactory.class; } public interface UserSessionProvider extends Provider { UserSessionModel createUserSession(String id, RealmModel realm, String userId, String loginUsername, String ipAddress, String userAgent, String authMethod, boolean rememberMe, int started, int lastSessionRefresh, String brokerSessionId, String brokerUserId, String externalKcSessionId); UserSessionModel getUserSession(RealmModel realm, String id); UserSessionModel getUserSessionByBrokerSessionId(RealmModel realm, String brokerSessionId); void removeUserSession(RealmModel realm, String id); void removeUserSessions(RealmModel realm, String userId); void removeUserSessions(RealmModel realm); void onRefresh(UserSessionModel userSession); void onClientSessionRefresh(AuthenticatedClientSessionModel clientSession); void close(); } public interface UserSessionProviderFactory extends ProviderFactory<UserSessionProvider> { UserSessionProvider create(KeycloakSession session); void init(Config.Scope config); void postInit(KeycloakSessionFactory factory); void close(); Map<St",
+      "avg_prediction": 0.9762
+    },
+    {
+      "idx": 92,
+      "hash": "8e8b9d3a",
+      "n_words": 195,
+      "n_chars": 1216,
+      "preview_head": "oy oil, they also supply solutions made utilizing olive or avocado oils \u2014 both of those common choices on keto. Is Hellmann\u2019s Mayonnaise Keto Friendly? When it comes to figuring out if a particular fo",
+      "preview_tail": " every one tablespoon). Additionally to the common selection built with soy oil nonetheless you'll find different types of Hellmann\u2019s created making use of more ketogenic-friendly oils such olive or a",
+      "full_text": "oy oil, they also supply solutions made utilizing olive or avocado oils \u2014 both of those common choices on keto. Is Hellmann\u2019s Mayonnaise Keto Friendly? When it comes to figuring out if a particular food stuff fits within the parameters in the ketogenic eating plan regime (keto), we glance at its carb and sugar content material for each serving measurement since these two macro-nutrients may well bring about blood glucose levels spike, which then disrupts your body's condition of nutritional ketoosis. In line with their web page as reported by Healthline , every single one tablespoon providing size (15ml) from the regular Hellmann\u2019s Real Mayonnaise created utilizing soy oil includes: Calories - 90 Fat \u2013 ten grams Carbohydrates \u2013 .five gram Sugar- zero Net carbs\u2013zero When we glance at these nutrition specifics, it would seem that conventional mayonnaise like this could be keto helpful as being a single serving dimension has no sugar and just about negligible web carbohydrates (less than two net carb for every one tablespoon). Additionally to the common selection built with soy oil nonetheless you'll find different types of Hellmann\u2019s created making use of more ketogenic-friendly oils such olive or a",
+      "avg_prediction": 0.9739
+    },
+    {
+      "idx": 93,
+      "hash": "9ae3a140",
+      "n_words": 57,
+      "n_chars": 389,
+      "preview_head": "of a compact and tunable system consisting of three small-bore permanent-magnet quadrupoles with 520 T/m field gradient. The device has been designed in view of the plasma acceleration experiments pla",
+      "preview_tail": "riments planned at the SPARC_LAB test-facility. Being the field gradient fixed, the focusing is adjusted by tuning the relative position of the three magnets with nanometer resolution. Details abouti ",
+      "full_text": "of a compact and tunable system consisting of three small-bore permanent-magnet quadrupoles with 520 T/m field gradient. The device has been designed in view of the plasma acceleration experiments planned at the SPARC_LAB test-facility. Being the field gradient fixed, the focusing is adjusted by tuning the relative position of the three magnets with nanometer resolution. Details abouti ",
+      "avg_prediction": 0.1025
+    },
+    {
+      "idx": 94,
+      "hash": "2b71de9c",
+      "n_words": 153,
+      "n_chars": 1149,
+      "preview_head": "followed by radiotherapy or SRS have shown promising results in improving patient outcomes and overall survival rates among select groups. Yet despite these technical advancements and encouraging rese",
+      "preview_tail": "indeed been notable developments surrounding care for patients suffering form brain metastases fueled by advances in both technological capabilities and evidence based medicine through robust clinical",
+      "full_text": "followed by radiotherapy or SRS have shown promising results in improving patient outcomes and overall survival rates among select groups. Yet despite these technical advancements and encouraging research findings from controlled studies conducted under ideal circumstances; there remains considerable debate regarding their translation into meaningful progress for patients with brain metastases as seen in real-world clinical practice settings where complexities of individual cases vary widely based on factors like primary tumor type, number/location of lesions within the central nervous system (CNS), performance status prior to diagnosis and treatment onset among others. This is particularly true when considering long term prognoses rather than immediate post-treatment outcomes which can often appear positive before ultimately succumbing due relapses or complications arising from preexisting comorbidities . In summary, while there have indeed been notable developments surrounding care for patients suffering form brain metastases fueled by advances in both technological capabilities and evidence based medicine through robust clinical",
+      "avg_prediction": 0.9842
+    },
+    {
+      "idx": 95,
+      "hash": "a18d6318",
+      "n_words": 87,
+      "n_chars": 599,
+      "preview_head": "n example of a patent related to the construction and functionality of military swords and their accompanying scabbards. This specific patent generally details certain improvements or changes in the d",
+      "preview_tail": "atures and benefits of the invention over existing designs. The issuance date indicates when the patent was finally given to Finn, acknowledging their contribution to the field of military equipment d",
+      "full_text": "n example of a patent related to the construction and functionality of military swords and their accompanying scabbards. This specific patent generally details certain improvements or changes in the design, attachment mechanism, or overall usability of guns designed for use by naval officers. Such patents typically contain brief specifications, illustrations, and claims that outline the unique features and benefits of the invention over existing designs. The issuance date indicates when the patent was finally given to Finn, acknowledging their contribution to the field of military equipment d",
+      "avg_prediction": 0.7731
+    },
+    {
+      "idx": 96,
+      "hash": "8ae721a0",
+      "n_words": 120,
+      "n_chars": 710,
+      "preview_head": "ta and command are null. something like that: ${lista} && ${command} but this expression causes an error. anyone knows how to do that? UPDATE I try: ${lista && command} and ${lista and Human: Yes, you",
+      "preview_tail": "ta && command} ``` You have used `&&` which means logical AND in programming, not a short circuit evaluation. So your updated code should look like this: <div class=\"col-sm-9 col-sm-offset-3 col-md-10",
+      "full_text": "ta and command are null. something like that: ${lista} && ${command} but this expression causes an error. anyone knows how to do that? UPDATE I try: ${lista && command} and ${lista and Human: Yes, you can use the `&&` operator for logical AND in Thymeleaf expressions. However there is a small issue with your code. In order to evaluate multiple conditions using logic operators like 'and' or \u2018or\u2019 we need all of them inside same set of braces and separate each condition by comma (,) as shown below: ``` ${lista && command} ``` You have used `&&` which means logical AND in programming, not a short circuit evaluation. So your updated code should look like this: <div class=\"col-sm-9 col-sm-offset-3 col-md-10",
+      "avg_prediction": 0.9819
+    },
+    {
+      "idx": 97,
+      "hash": "e2d650ac",
+      "n_words": 292,
+      "n_chars": 2168,
+      "preview_head": "Gabon Fran\u00e7ais Ghana English La Guin\u00e9e \u00e9quatoriale Fran\u00e7ais Guin\u00e9e-Bissau Fran\u00e7ais Liberia English Mali Fran\u00e7ais Mauritanie Fran\u00e7ais Maroc Morocco \u0627\u0644\u0645\u063a\u0631\u0628 Fran\u00e7ais English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Niger Fran\u00e7ais Nigeri",
+      "preview_tail": "ctions. Interaction with you at different points on your journey Personalization of products and services according to your preferences and profile Announcement of promotions, new services and product",
+      "full_text": "Gabon Fran\u00e7ais Ghana English La Guin\u00e9e \u00e9quatoriale Fran\u00e7ais Guin\u00e9e-Bissau Fran\u00e7ais Liberia English Mali Fran\u00e7ais Mauritanie Fran\u00e7ais Maroc Morocco \u0627\u0644\u0645\u063a\u0631\u0628 Fran\u00e7ais English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Niger Fran\u00e7ais Nigeria English R\u00e9publique centrafricaine Fran\u00e7ais R\u00e9publique du Congo Fran\u00e7ais S\u00e9n\u00e9gal Fran\u00e7ais Tchad Fran\u00e7ais Togo Fran\u00e7ais Tunisie Fran\u00e7ais Asia/Middle eas China English Israel English Jordan \u0627\u0644\u0623\u0631\u062f\u0646 English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Liban Fran\u00e7ais Qatar \u0642\u0637\u0631 English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Saudi Arabia \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629 English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 United Arab Emirates \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629 English \u0627\u0644\u0639\u0631\u0628\u064a\u0629 America Brazil English Canada Canada Fran\u00e7ais English United States English Europe Austria English Belgique Fran\u00e7ais Denmark English France Fran\u00e7ais Germany English Greece English Italia Italiano Netherlands English Portugal English Russia English Espa\u00f1a Espa\u00f1ol Sweden English Suisse Switzerland Fran\u00e7ais English Turkey English United Kingdom English International version English French Spanish Italian Arabic Terms and conditions/ TC-RAM/ CONFIDENTIALITY POLICY General terms and conditions Terms and conditions TC-RAM General terms and conditions Confidentiality policySelected tab Security Cookies Royal Air Maroc is committed to respecting and protecting your personal information 1-Protection of personal data ROYAL AIR MAROC undertakes to protect the privacy of its passengers, members of its loyalty program, prospects and visitors to its website in compliance with the regulations in force and in particular with Moroccan law 09-08 and of the European General Data Protection Regulation (GDPR). ROYAL AIR MAROC collects or is likely to collect personal data by various processing methods such as the Website, mobile applications, call center, airport crossing points, etc. ... The personal data collected may be processed for the following purposes: Managing reservations and sending your itinerary or other details related to your reservation. Management of your electronic payment transactions. Interaction with you at different points on your journey Personalization of products and services according to your preferences and profile Announcement of promotions, new services and product",
+      "avg_prediction": 0.1765
+    },
+    {
+      "idx": 98,
+      "hash": "faff8755",
+      "n_words": 231,
+      "n_chars": 1462,
+      "preview_head": "for the same violation would \"curtail[ ] considerably\" such exercises of discretion and thereby \"change the nature of the citizens' role from interstitial to potentially intrusive.\" Id. at 61, 108 S.C",
+      "preview_tail": "avor of the most natural reading of EPCRA, which weighs against allowing citizen suits for purely historical violations. As the Supreme Court noted in the context of the Clean Water Act's citizen suit",
+      "full_text": "for the same violation would \"curtail[ ] considerably\" such exercises of discretion and thereby \"change the nature of the citizens' role from interstitial to potentially intrusive.\" Id. at 61, 108 S.Ct. at 383. The Court concluded that Congress could not have intended such a result. Id. 16 ASLF contends that differences between the language of the Clean Water Act and the language of EPCRA render Gwaltney to this case. EPCRA authorizes citizen actions for an owner's or operator's \"failure to\" submit certain information, while the Clean Water Act authorizes citizen suits against persons \"alleged to be in violation\" of certain of its provisions. 42 U.S.c. Sec. 11046(a)(1)(A), 33 U.S.C. Sec. 1365(a)(1). As ASLF points out, several district courts have found this difference to be determinative. See, e.g., Atlantic States Legal Found., Inc. v. Whiting Roll-Up Door Mfg. Co., 772 F.Supp. 745, 752 (W.D.N.Y.1991) (\"The natural reading of the EPCRA provision at least would seem to include past acts of noncompliance, while a natural reading of the Clean Water Act provision, as the Supreme Court has held, indicates that the statute contemplates only prospective relief.\"). 17 We reject this rather hypertechnical parsing of the language of the statutes in favor of the most natural reading of EPCRA, which weighs against allowing citizen suits for purely historical violations. As the Supreme Court noted in the context of the Clean Water Act's citizen suit",
+      "avg_prediction": 0.5196
+    },
+    {
+      "idx": 99,
+      "hash": "f664bcad",
+      "n_words": 80,
+      "n_chars": 500,
+      "preview_head": "a private capacity, Brian accessed the same environment for beer, cigarettes, hearty conversation, and time away from the obligations of domesticity. It looks like you provided me with some text relat",
+      "preview_tail": "Pete Maloney's works chronicling his life growing up in Darwin as a son public servant, Brian who worked Customs and Excise whose professional access enabled him both providing for the family but also",
+      "full_text": "a private capacity, Brian accessed the same environment for beer, cigarettes, hearty conversation, and time away from the obligations of domesticity. It looks like you provided me with some text related to an exhibit at Drill Hall Gallery called 'Fugitive Allure' by Mark Bayly featuring work artist Pete Maloney's works chronicling his life growing up in Darwin as a son public servant, Brian who worked Customs and Excise whose professional access enabled him both providing for the family but also",
+      "avg_prediction": 0.672
+    },
+    {
+      "idx": 100,
+      "hash": "2f442fb3",
+      "n_words": 148,
+      "n_chars": 956,
+      "preview_head": "e phenomena aren't derived by mathematical principles alone; they're grounded firstly in empirical evidence. Mathematics is a language, yes \u2013 it's one that allows us precise and efficient ways of expr",
+      "preview_tail": "this as math being used by physicists; rather than mathematics providing the tools for understanding, but also recognizing where those 'tools' come from. In essence I would argue that Physics is about",
+      "full_text": "e phenomena aren't derived by mathematical principles alone; they're grounded firstly in empirical evidence. Mathematics is a language, yes \u2013 it's one that allows us precise and efficient ways of expressing complex ideas about the physical universe but at its core physics deals with matter (and energy), motion or forces. These are not concepts defined within mathematics itself - rather math provides frameworks for understanding these things quantitatively once they've been observed. So, while I understand why you might think that Physics is dependent on Mathematics \u2013 because we use mathematical equations to describe physical phenomena and solve problems in physics often require a good grasp of algebra or calculus. But it's important not just see this as math being used by physicists; rather than mathematics providing the tools for understanding, but also recognizing where those 'tools' come from. In essence I would argue that Physics is about",
+      "avg_prediction": 0.8719
+    },
+    {
+      "idx": 101,
+      "hash": "7936e52e",
+      "n_words": 47,
+      "n_chars": 312,
+      "preview_head": "ll carcinoma of the uterine cervix, indicating its potential as a tumor suppressor and suggesting further research into this area is warranted to better understand cervical cancer development and prog",
+      "preview_tail": "ch into this area is warranted to better understand cervical cancer development and progression.\" This could be an appropriate ending for your text. It summarizes what has been discovered about FHIT's",
+      "full_text": "ll carcinoma of the uterine cervix, indicating its potential as a tumor suppressor and suggesting further research into this area is warranted to better understand cervical cancer development and progression.\" This could be an appropriate ending for your text. It summarizes what has been discovered about FHIT's",
+      "avg_prediction": 0.9828
+    },
+    {
+      "idx": 102,
+      "hash": "940b4506",
+      "n_words": 93,
+      "n_chars": 600,
+      "preview_head": "erupt. Host susceptibility Host susceptibility contributes to virulence. Once transmission occurs, the pathogen must establish an infection to continue. The more competent the host immune system, the ",
+      "preview_tail": "rrent host. The optimum conditions for high virulence would be a community with immune dysfunction (and/or poor hygiene and sanitation) that was in all other ways as healthy as possible (eg optimum nu",
+      "full_text": "erupt. Host susceptibility Host susceptibility contributes to virulence. Once transmission occurs, the pathogen must establish an infection to continue. The more competent the host immune system, the less chance there is for the parasite to survive. It may require multiple transmission events to find a suitably vulnerable host. During this time, the invader is dependent upon the survival of its current host. The optimum conditions for high virulence would be a community with immune dysfunction (and/or poor hygiene and sanitation) that was in all other ways as healthy as possible (eg optimum nu",
+      "avg_prediction": 0.9647
+    },
+    {
+      "idx": 103,
+      "hash": "e894bcbd",
+      "n_words": 118,
+      "n_chars": 730,
+      "preview_head": "secure payment via all debit/credit cards, Google Pay and PayTM. Free Shipping in India HOME COLLECTIONS SHOP ABOUT US CONTACT CT CELEBS INFLUENCERS PRESS Log in Create Account COLLECTIONS Talisman Oh",
+      "preview_tail": " View Cart\u201d is the full text completion of your input excerpt from an online store's product page for a piece called \"SUHEY.\" The cart summary indicates that this item has been included in one or more",
+      "full_text": "secure payment via all debit/credit cards, Google Pay and PayTM. Free Shipping in India HOME COLLECTIONS SHOP ABOUT US CONTACT CT CELEBS INFLUENCERS PRESS Log in Create Account COLLECTIONS Talisman Oh my charms Talisman Oh my charms SHOP Earrings Necklace Bracelets Earrings Necklace Bracelets 0 HOME COLLECTIONS Talisman Oh my charms SHOP Earrings Necklace Bracelets ABOUT US CONTACT CT CELEBS INFLUENCERS PRESS Home \u203a SUHEY Sale Loading... SUHEY Rs. 3,500.00 Default Title - Rs. 3,500.00 Add to Cart --- Item successfully added! View Cart\u201d is the full text completion of your input excerpt from an online store's product page for a piece called \"SUHEY.\" The cart summary indicates that this item has been included in one or more",
+      "avg_prediction": 0.7445
+    },
+    {
+      "idx": 104,
+      "hash": "0815e04a",
+      "n_words": 86,
+      "n_chars": 457,
+      "preview_head": "It also grants the third party portions of the surface rights of the alley. A writ of mandamus is an extraordinary remedy and \"may not be issued in any case where there is a plain and adequate remedy ",
+      "preview_tail": "an extraordinary remedy and \"may not be issued in any case where there is a plain and adequate remedy in the ordinary course of the law.\" To understand the case of \"State of Nebraska ex rel. Greyhound",
+      "full_text": "It also grants the third party portions of the surface rights of the alley. A writ of mandamus is an extraordinary remedy and \"may not be issued in any case where there is a plain and adequate remedy in the ordinary course of the law.\"A writ of mandamus is an extraordinary remedy and \"may not be issued in any case where there is a plain and adequate remedy in the ordinary course of the law.\" To understand the case of \"State of Nebraska ex rel. Greyhound",
+      "avg_prediction": 0.8449
+    },
+    {
+      "idx": 105,
+      "hash": "651d515d",
+      "n_words": 149,
+      "n_chars": 997,
+      "preview_head": "Icon Register Now Find a Registry Gift Card Gift Sets Corporate Gift Services Down Arrow Icon CAD USD EUR GBP AUD Menu Icon Search Icon Search Search Icon Close Icon Products Posts & Pages View all re",
+      "preview_tail": "essories Mattresses and Bedding Bed Skirts Blankets/Throws Coffee Makers Furniture Lighting Rugs Bean Bag Chairs Speakers Clock Yoga Mat Baby Care Grooming Toys Diapers Women's Men\u2019s Children Clothing",
+      "full_text": "Icon Register Now Find a Registry Gift Card Gift Sets Corporate Gift Services Down Arrow Icon CAD USD EUR GBP AUD Menu Icon Search Icon Search Search Icon Close Icon Products Posts & Pages View all results Person Icon Login Cart Icon Grace & Co. Everyday Essentials Signature Line Kitchen Bakingware Cookbooks Food Storage Kitchen Utensils Kitchen Linens Pantry Wood Boards Home & Decor Blankets and Throws Bags and Baskets Books Decorative Objects Decorative Candles Floral Pets Outdoor Seasonal Holiday Stationary and Paper Products Dining & Entertaining Barware Cloth Napkins Flatware Glassware Tableware Paper Napkins Placemats & Chargers Placecards & Table Accents Serving Ware Tablecloths & Runners Supplies & Utility Cleaning Equipment Laundry Bath & Spa Baby Bath Products Bath Access& Accessories Mattresses and Bedding Bed Skirts Blankets/Throws Coffee Makers Furniture Lighting Rugs Bean Bag Chairs Speakers Clock Yoga Mat Baby Care Grooming Toys Diapers Women's Men\u2019s Children Clothing",
+      "avg_prediction": 0.6479
+    },
+    {
+      "idx": 106,
+      "hash": "a73b9c53",
+      "n_words": 46,
+      "n_chars": 269,
+      "preview_head": "ers. The silicone elastic prevents the bra from sliding when being active. As the sports bralette fits over your high-impact bra it can be used for all sports, including running, gym, spinning, boxing",
+      "preview_tail": "tive. As the sports bralette fits over your high-impact bra it can be used for all sports, including running, gym, spinning, boxing and of course cycling. The fitness bra and our LPRD leggings offer a",
+      "full_text": "ers. The silicone elastic prevents the bra from sliding when being active. As the sports bralette fits over your high-impact bra it can be used for all sports, including running, gym, spinning, boxing and of course cycling. The fitness bra and our LPRD leggings offer a",
+      "avg_prediction": 0.2507
+    },
+    {
+      "idx": 107,
+      "hash": "b6edda1f",
+      "n_words": 185,
+      "n_chars": 1185,
+      "preview_head": "King\u2019s Landing (including Jaime Lannister), there are certainly opportunities for assassination attempts on their part, especially if they manage to get close enough. But whether Arya would take such ",
+      "preview_tail": "ile possibility exists that such an event can occur under certain circumstances; without more information on what kind of opportunities and situations arise as well specific details about their plans,",
+      "full_text": "King\u2019s Landing (including Jaime Lannister), there are certainly opportunities for assassination attempts on their part, especially if they manage to get close enough. But whether Arya would take such an opportunity or not is another matter. It's worth noting that the Starks have shown themselves willing and able to make difficult moral choices in order to achieve what\u2019s best (as evidenced by Jon Snow killing Daenerys). However, they are also known for their strong sense of honorable conduct which could potentially put a damper on such actions. Furthermore Arya's character has evolved from being impulsive and hot-headed as an adolescence into more mature individual who is not afraid to make tough decisions but does so with consideration. Therefore even if there were opportunity, it might require her weighing the potential consequences against any personal gain she may achieve -which could be a major factor in determining whether or how far Arya would go. In conclusion: while possibility exists that such an event can occur under certain circumstances; without more information on what kind of opportunities and situations arise as well specific details about their plans,",
+      "avg_prediction": 0.9817
+    },
+    {
+      "idx": 108,
+      "hash": "a68ec08e",
+      "n_words": 40,
+      "n_chars": 263,
+      "preview_head": "g for the repair. This increased risk may be due to several factors including: 1) Air and particulate matter entering blood circulation via arterial cannulae. 2) The manipulation of aneurysms/and valv",
+      "preview_tail": "tors including: 1) Air and particulate matter entering blood circulation via arterial cannulae. 2) The manipulation of aneurysms/and valve components during surgical procedure. 3) Release of aortic cl",
+      "full_text": "g for the repair. This increased risk may be due to several factors including: 1) Air and particulate matter entering blood circulation via arterial cannulae. 2) The manipulation of aneurysms/and valve components during surgical procedure. 3) Release of aortic cl",
+      "avg_prediction": 0.9636
+    },
+    {
+      "idx": 109,
+      "hash": "94e61102",
+      "n_words": 83,
+      "n_chars": 576,
+      "preview_head": "n critical acclaim with roles such as Erin Brockovich's legal assistant-turned-environmental activist in \"Erin Brok... [truncated] Roberts' career took a dramatic turn when she starred alongside Richa",
+      "preview_tail": "erts has also been involved in various philanthropic activities including supporting children's rights through UNICEF as well working with organizations like 'DoSomething.org' which focuses mainly aro",
+      "full_text": "n critical acclaim with roles such as Erin Brockovich's legal assistant-turned-environmental activist in \"Erin Brok... [truncated] Roberts' career took a dramatic turn when she starred alongside Richard Gere, playing the role of Vivian Ward. The film became an instant classic and catapulted her to stardom. In addition to acting on screen for over three decades now Julia Roberts has also been involved in various philanthropic activities including supporting children's rights through UNICEF as well working with organizations like 'DoSomething.org' which focuses mainly aro",
+      "avg_prediction": 0.643
+    },
+    {
+      "idx": 110,
+      "hash": "444558bd",
+      "n_words": 286,
+      "n_chars": 1867,
+      "preview_head": "of a thread so that the thread gets dispatched preferentially over other threads in the system, to put the thread on a global run queue serviced by multiple central processing units (CPUs), and so for",
+      "preview_tail": "t causing memory fragmentation or compromising fairness among different applications and their respective threads. The proposed solution is based upon a novel approach that uses multiple independent r",
+      "full_text": "of a thread so that the thread gets dispatched preferentially over other threads in the system, to put the thread on a global run queue serviced by multiple central processing units (CPUs), and so forth. Also, the thread usually pins all its text and memory to avoid page faulting. Despite the preceding, there are several issues that can andoften do occur with this approach. Firstly, the Unix priority is a global value for an entire process rather than per-thread; thus it cannot be used effectively in multi-core systems where multiple threads within the same application may have different priorities. This means that even if one thread has high importance, all other processes will still compete equally on CPU resources with this single higher-priority thread. Secondly, the global run queue serviced by CPUs is a common resource shared among many applications and their respective low-latency threads; thus it cannot guarantee the priority of any particular application or its thread. This means that even if one's own process has high importance, other processes may still preempt this single higher-priority thread. Thirdly, the pinning technique can cause memory fragmentation over time as different parts are allocated and deallocated in a non-uniform manner; thus it cannot be used effectively for long-term applications. This means that even if one's own process has high importance, the system may still have to resort back into page faulting due to insufficient contiguous free space. In view of these issues, the present invention aims at providing an improved mechanism which allows low-latency scheduling on simultaneous multi-threaded cores without causing memory fragmentation or compromising fairness among different applications and their respective threads. The proposed solution is based upon a novel approach that uses multiple independent r",
+      "avg_prediction": 0.7681
+    },
+    {
+      "idx": 111,
+      "hash": "e57c6e42",
+      "n_words": 304,
+      "n_chars": 1934,
+      "preview_head": "Gwyneth Cravens Audio, Video Video: IFR Discussion Video: James Hansen on the Letterman Show Video: Radiation Shield Over Chernobyl Video: James Hansen on Nuclear Energy Links Speaker Available Berkel",
+      "preview_tail": "om the international climate agreement, governors from over a dozen states immediately announced they would take climate action on their own. There is much that governors and state legislators can do,",
+      "full_text": "Gwyneth Cravens Audio, Video Video: IFR Discussion Video: James Hansen on the Letterman Show Video: Radiation Shield Over Chernobyl Video: James Hansen on Nuclear Energy Links Speaker Available Berkeley Conference 2012 Films Pandora's Promise The New Fire Newsletters Latest Newsletter Newsletter Archive Subscribe to Our Newsletter Search James E. Hansen is a charter member of SCGI and is widely considered to be the voice in the field of climate change. After 46 years in government service, Hansen stepped down from his position as director (for 31 years) of NASA's Goddard Institute for Space Studies in 2013. Jim has also served as an adjunct professor in the Department of Earth and Environmental Sciences at Columbia University. He continues his prolific research and writing on the topic of climate change and proposals for dealing with the problem effectively. After graduate school, Hansen continued his work with transfer models and attempting to understand the Venusian atmosphere. This naturally led to the same computer codes being used to understand the Earth's atmosphere. He used these codes to study the effects that aerosols and trace gases have on the climate. Hansen has also contributed to the further understanding of the Earth's climate through the development and use of global climate models. Hansen is best known for his research in the field of climatology, his testimony on climate change to congressional committees in 1988 that helped raise broad awareness of global warming, and his advocacy of action to limit the impacts of climate change. After Trump's Withdrawal from Paris, Nukes Are More Than Ever In the wake of President Donald Trump\u2019s announcement that he was withdrawing the United States from the international climate agreement, governors from over a dozen states immediately announced they would take climate action on their own. There is much that governors and state legislators can do,",
+      "avg_prediction": 0.3925
+    },
+    {
+      "idx": 112,
+      "hash": "2f5dba6d",
+      "n_words": 85,
+      "n_chars": 502,
+      "preview_head": "function css($dir = 'CSS') { $css = glob($dir . '/*.css'); $css_out = ''; foreach($css as $css_path) { $css_out .= '<link rel=\"stylesheet\" href=\"' . $css_path . '\">'; } return $css_out; } The header.p",
+      "preview_tail": "ng page, for example the one on in the \"About Us\" page look like this require \"../../header.php\"; I can solve the problem bye making the function for every sup directory, but this isn't the correct wa",
+      "full_text": "function css($dir = 'CSS') { $css = glob($dir . '/*.css'); $css_out = ''; foreach($css as $css_path) { $css_out .= '<link rel=\"stylesheet\" href=\"' . $css_path . '\">'; } return $css_out; } The header.php is loaded in every page with this line require \"header.php\"; The file path changes on a higher laying page, for example the one on in the \"About Us\" page look like this require \"../../header.php\"; I can solve the problem bye making the function for every sup directory, but this isn't the correct wa",
+      "avg_prediction": 0.9802
+    },
+    {
+      "idx": 113,
+      "hash": "7a6b5db7",
+      "n_words": 49,
+      "n_chars": 383,
+      "preview_head": "f 2.1%, 5.0%, 5.5%, 13.0% and 14.6%, respectively. Dobutamine-atropine stress Tc-99m sesTamibi SpECt imaging provides excellent prognostic information. The single most important independent predictor ",
+      "preview_tail": "endent predictor for future hard cardiac events is an abnormal pattern, and a reversible defect provides additional, independent prognostic information. Moreover, the extent and severity of reversible",
+      "full_text": "f 2.1%, 5.0%, 5.5%, 13.0% and 14.6%, respectively. Dobutamine-atropine stress Tc-99m sesTamibi SpECt imaging provides excellent prognostic information. The single most important independent predictor for future hard cardiac events is an abnormal pattern, and a reversible defect provides additional, independent prognostic information. Moreover, the extent and severity of reversible",
+      "avg_prediction": 0.4275
+    },
+    {
+      "idx": 114,
+      "hash": "1e442963",
+      "n_words": 211,
+      "n_chars": 1551,
+      "preview_head": "n manufacturing, exporting and supplying Two Cavities PPR Pipe Extrusion Line. The offered line is assembled using quality tested components under the supervision of our adept professionals. This line",
+      "preview_tail": " makes this PPr Pipe Extrusion Line an ideal choice not only in domestic markets but also internationally. Our dedicated team provides comprehensive after-sales support including installation guidance",
+      "full_text": "n manufacturing, exporting and supplying Two Cavities PPR Pipe Extrusion Line. The offered line is assembled using quality tested components under the supervision of our adept professionals. This line is widely used for production of different kind of PPipes such as those made from Polypropylene Random (PPR) material in various diameters and lengths, catering to a wide range of applications including plumbing systems, water supply lines, heating installations, and more. The Two Cavities PPR Pipe Extrusion Line is designed for high efficiency with features like precise temperature control during the extruding process, automatic calibration system ensuring uniform wall thickness, cooling tank equipped with adjustable spray nozzles facilitating rapid solidification without deformation of pipes. Our commitment to quality assurance ensures that each component and final product undergoes rigorous testing before being dispatched. We also offer customization options based on specific client requirements including machine size adjustments or additional features like online pipe printing facility for labeling purposes directly during the manufacturing process itself, thus adding value by reducing post-production costs significantly while maintaining high standards of safety compliance. The robust design coupled with user-friendly operation makes this PPr Pipe Extrusion Line an ideal choice not only in domestic markets but also internationally. Our dedicated team provides comprehensive after-sales support including installation guidance",
+      "avg_prediction": 0.7308
+    },
+    {
+      "idx": 115,
+      "hash": "7d9dc491",
+      "n_words": 207,
+      "n_chars": 1254,
+      "preview_head": "foreign students studying Chinese in China, is \u2026 (Updated 2018) We tried to pull together some vital information every foreigner should be aware of regarding the celebration of Chinese New Year. Its c",
+      "preview_tail": "in similar situations\u2014whether through language schools like Confucius or Mandarin House programs designed to help foreigners integrate into Chinese culture. You\u2019ll likely meet people from all over the",
+      "full_text": "foreign students studying Chinese in China, is \u2026 (Updated 2018) We tried to pull together some vital information every foreigner should be aware of regarding the celebration of Chinese New Year. Its comprehensive enough to keep you well informed. In this article, I will treat the following topics 1. Introduction to Chinese Spring Festival (aka Chinese New Year) 2. You will get to know the kind of Mythical \u2026 MEMO from a Gap Year MOM By Susan Moeller There are lots of reasons for your child to take a gap year abroad especially a Gap Year Program in China. He\u2019s worn out Just from getting into college and needs a break before buckling down again. She needs more maturity to handle independence. He\u2019s struggling with academics and needs to learn \u2026 Are you worried that you\u2019ll have no friends or companions to accompany you in Chiinese? Don\u2019t be! Studying abroad can sometimes feel daunting at first, but it\u2019s also an incredible opportunity for growth and connection. Many international students find that they quickly make friends with others who are in similar situations\u2014whether through language schools like Confucius or Mandarin House programs designed to help foreigners integrate into Chinese culture. You\u2019ll likely meet people from all over the",
+      "avg_prediction": 0.5704
+    },
+    {
+      "idx": 116,
+      "hash": "30ced2a7",
+      "n_words": 63,
+      "n_chars": 356,
+      "preview_head": "for the election for Sta AdBlock Detected! Thank you for reading & participating. Spout Off is funded by advertising. Please disable or pause your ad blocker to continue. Avalon - I have recently rece",
+      "preview_tail": "r to continue. Avalon - I have recently received severAl flyers for the election for State Assembly. I have to take It seems that there might be a missing portion of text after \"I have to...\" in order",
+      "full_text": "for the election for Sta AdBlock Detected! Thank you for reading & participating. Spout Off is funded by advertising. Please disable or pause your ad blocker to continue. Avalon - I have recently received severAl flyers for the election for State Assembly. I have to take It seems that there might be a missing portion of text after \"I have to...\" in order",
+      "avg_prediction": 0.6558
+    },
+    {
+      "idx": 117,
+      "hash": "cfd3213e",
+      "n_words": 336,
+      "n_chars": 1741,
+      "preview_head": "to release the slaves,into a free range prison. this,of course had many benefits...for the owners. ie....the cost of maintaining the slave population. it also created competition,which increased produ",
+      "preview_tail": "wants you To be just like them They say sing while you slave and I just get bored I ain't gonna work on Maggie's farm no more. the only thing,that keeps the[unhappy] slaves,on the farm,is an eclectic.",
+      "full_text": "to release the slaves,into a free range prison. this,of course had many benefits...for the owners. ie....the cost of maintaining the slave population. it also created competition,which increased production which increased...PROFITS I ain't gonna work on Maggie's farm no more No, I aint gonna work on Maggie's farm no more Well, I wake up in the morning Fold my hands and pray for rain I got a head full of ideas That are drivin' me insane It's a shame the way she makes me scrub the floor I ain't gonna work on Maggie's farm no more. I ain't gonna work for Maggie's brother no more No, I aint gonna work for Maggie's brother no more Well, he hands you a nickel He hands you a dime He asks you with a grin If you're havin' a good time Then he fines you every time you slam the door I ain't gonna work for Maggie's brother more. I ain't gonna work for Maggie's pa no more No, I aint gonna work for Maggie's pa no more Well, he puts his cigar Out in your face just for kicks His bedroom window It is made out of bricks The National Guard stands around his door Ah, I ain't gonna work for Maggie's pa no more. I ain't gonna work for Maggie's ma no more No, I ain't gonna work for Maggie's ma no more Well, when she talks to all the servants About man and God and law Everybody says She's the brains behind pa She's sixty-eight, but she says she's fifty-four I ain't gonna work for Maggie's ma no more. I ain't gonna work on Maggie's farm no more I aint gonna work on Maggie's farm no more Well, I try my best To be just like I am But everybody wants you To be just like them They say sing while you slave and I just get bored I ain't gonna work on Maggie's farm no more. the only thing,that keeps the[unhappy] slaves,on the farm,is an eclectic.",
+      "avg_prediction": 0.0848
+    },
+    {
+      "idx": 118,
+      "hash": "34716de0",
+      "n_words": 161,
+      "n_chars": 1027,
+      "preview_head": "those related to the Garrison Diversion Project. The requested documents included policy statements, memoranda, and other records that the State believed were relevant to the State's water policy and ",
+      "preview_tail": "a, through Attorney General Olson, disagreed with the Department of the Interior's decision, arguing that the requested information was exempt from disclosure under the Freedom of Information Act. The",
+      "full_text": "those related to the Garrison Diversion Project. The requested documents included policy statements, memoranda, and other records that the State believed were relevant to the State's water policy and the impact of the Garrison Diversion Project on the State's water resources. The State's Attorney General, Allen I. Olson, filed the request on behalf of the State of North Dakota, seeking to use the information to better understand and advocate the State's water policy interests. 3 The State's request, filed on behalf of the Attorney General, Allen I. Olson, and the State of North Dakota, was initially granted, and the State was provided with some of the requested information. However, the Department of the Interior, the Office of Management and Budget, and the Office of The Attorney General of the State of North Dakota, through Attorney General Olson, disagreed with the Department of the Interior's decision, arguing that the requested information was exempt from disclosure under the Freedom of Information Act. The",
+      "avg_prediction": 0.7655
+    },
+    {
+      "idx": 119,
+      "hash": "fba9913e",
+      "n_words": 172,
+      "n_chars": 1197,
+      "preview_head": "fully isolated rails with no common ground required between them whatsoever \u2013 each being derived directly from the 5V USB supply independently of one another without any cross-talk or feedback possibl",
+      "preview_tail": "behavior due to unintended interactions between rails sharing a common node at some point along their respective return path circuits leading back toward ground reference points established earlier on",
+      "full_text": "fully isolated rails with no common ground required between them whatsoever \u2013 each being derived directly from the 5V USB supply independently of one another without any cross-talk or feedback possible due to their independent construction within this specific application's context. The simplest way would be using a dedicated DC/DC converter chip for every rail needed, which will allow you full control over voltage regulation while ensuring proper isolation between each section required by your design constraints mentioned above (easing grounding complications). You could use chips like LM2576-ADJ or similar products designed specifically around providing multiple regulated outputs based on single input source conversion efficiency requirements. This approach ensures that there are no shared nodes where current can potentially circulate and cause voltage drops across different paths, as was likely the case when you connected virtual grounds in your original setup causing unexpected behavior due to unintended interactions between rails sharing a common node at some point along their respective return path circuits leading back toward ground reference points established earlier on",
+      "avg_prediction": 0.9836
+    }
+  ]
+}

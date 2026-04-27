@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-04-26T07:53:59.162275+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 5,
+  "duplicates": [],
+  "latency_ms": 1140,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "db5d6842",
+      "n_words": 54,
+      "n_chars": 484,
+      "preview_head": "ng: curl -H \"Content-Type: application/json\" --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0x54a25257aa677e944403a33974e296b11997a919\", \"latest\"],\"id\":1}' http://127.0.0.1:8545 I get: ",
+      "preview_tail": "nd check for balance the same for tokens? A: If eth.getBlock(\"latest\").number returns 0, that means your client has not finished syncing. This is also why your balance query is returning 0, because it",
+      "full_text": "ng: curl -H \"Content-Type: application/json\" --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0x54a25257aa677e944403a33974e296b11997a919\", \"latest\"],\"id\":1}' http://127.0.0.1:8545 I get: {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"} What am I doing wrong? and is the transfer and check for balance the same for tokens? A: If eth.getBlock(\"latest\").number returns 0, that means your client has not finished syncing. This is also why your balance query is returning 0, because it",
+      "avg_prediction": 0.5307
+    },
+    {
+      "idx": 1,
+      "hash": "175e40cb",
+      "n_words": 141,
+      "n_chars": 1389,
+      "preview_head": "Us JournalsAPS NewsPhysicsPhysics TodayCapitol Hill QuarterlyOther APSPublicationsMarch MeetingApril MeetingMeeting CalendarAbstract SubmissionArchives of the Bulletin oftheAmerican Physical SocietyPo",
+      "preview_tail": ". Jane Smithsonian As westand on the brink of a new decade in physics, it's an exciting time to look aheadatwhatadvancements might be just around the corner or further downstream... Continue Reading- ",
+      "full_text": "Us JournalsAPS NewsPhysicsPhysics TodayCapitol Hill QuarterlyOther APSPublicationsMarch MeetingApril MeetingMeeting CalendarAbstract SubmissionArchives of the Bulletin oftheAmerican Physical SocietyPolicies & GuidelinesMeeting PresentationsVirtual PressroomsEducationInternationalAffairsPhysics OutreachWomen in PhysicsMinorities in PhysicsPrizes,Awards &FellowsJoin APSRenew MembershipMember DirectoryMy MemberProfileMember ServicesAPS UnitsAPS Local LinksIssuesReports & StudiesAPSStatementsAdvocacy ToolsAdvocacy ResourcesFellowships &FellowsContact APSPublicAffairsPhysics JobsBecoming a PhysicistCareer GuidanceTools for Career AdvisorsStatistical DataMissionStatementSociety GovernanceSociety HistorySocial MediaDonateto APSAPS JobsContact Us JournalsAPS NewsNews UpdatesIssue ArchivesFeatures ArchivesAnnouncementsContact APS NewsPhysicsPhysics TodayCapitol Hill QuarterlyOther APS Publications Physicists/Scientists Physics Enthusiasts Policy Makers Media Students & Educators Librarians Home | Publications | APS News |November 2008 (Volume 17, Number 10) |The BackPage The BackPage The Futu--- Continued Text --- rama of Physics: PrediCtions for the Next Decade and Beyond. By Dr. Jane Smithsonian As westand on the brink of a new decade in physics, it's an exciting time to look aheadatwhatadvancements might be just around the corner or further downstream... Continue Reading- ",
+      "avg_prediction": 0.9772
+    },
+    {
+      "idx": 2,
+      "hash": "dd8b4b02",
+      "n_words": 74,
+      "n_chars": 470,
+      "preview_head": "Ratatouille in Paris Game Game Description: A 2007 computer-animated film produced by Pixar and distributed by Walt Disney Pictures is titled \"Ratatouile.\" It tells the story of a rat named Remy who d",
+      "preview_tail": "Tiles Ratatouille in Paris,' might be an online puzzle activity inspired from this movie where players arrange tiles with characters and scenes into correct order create beautiful images related tothe",
+      "full_text": "Ratatouille in Paris Game Game Description: A 2007 computer-animated film produced by Pixar and distributed by Walt Disney Pictures is titled \"Ratatouile.\" It tells the story of a rat named Remy who dreams to becomea chef despite his family's wishes. The game, 'Sort My Tiles Ratatouille in Paris,' might be an online puzzle activity inspired from this movie where players arrange tiles with characters and scenes into correct order create beautiful images related tothe",
+      "avg_prediction": 0.7027
+    },
+    {
+      "idx": 3,
+      "hash": "40ad27ce",
+      "n_words": 103,
+      "n_chars": 679,
+      "preview_head": "ocal Authors Local Events Community Organizations Community Bulletins Skip to Footer end: All Events Book Clubs Storytimes Craft Times Performances TEENS All Events Book Clubs Movies Games|Gaming Craf",
+      "preview_tail": "Games|Gaming Crafts Services USING THE LIBRARY Get a Card Reserve a Computer LINK+ Museum Passes Policies FAQs Services GET INVOLVED Donate Volunteer Jobs at SMCL Partnerships JUST FOR YOU Kids! Teens",
+      "full_text": "ocal Authors Local Events Community Organizations Community Bulletins Skip to Footer end: All Events Book Clubs Storytimes Craft Times Performances TEENS All Events Book Clubs Movies Games|Gaming Crafts Services USING THE LIBRARY Get a Card Reserve a Computer LINK+ Museum Passes Policies FAQs Services GET INVOLVED Donate Volunteer Jobs at SMCL Partnerships JUST FOR YOU Kids! Teens P All Events Book Clubs Storytimes Craft Times Performances TEENS All Events Book Clubs Movies Games|Gaming Crafts Services USING THE LIBRARY Get a Card Reserve a Computer LINK+ Museum Passes Policies FAQs Services GET INVOLVED Donate Volunteer Jobs at SMCL Partnerships JUST FOR YOU Kids! Teens",
+      "avg_prediction": 0.0813
+    },
+    {
+      "idx": 4,
+      "hash": "12efcdef",
+      "n_words": 89,
+      "n_chars": 506,
+      "preview_head": "suffering, looking boxy, bland and uninspiring.\" - Sarah Parmenter I disclaimer my point here by saying that there are a ton of talented designers who can meld CSS with strong design concepts incredib",
+      "preview_tail": " achieve the level of integrity I know I'm capable of if I'm exclusively designing in the browser. That probably has a lot to do with this: \"When you're at the point of fighting your tools, you're not",
+      "full_text": "suffering, looking boxy, bland and uninspiring.\" - Sarah Parmenter I disclaimer my point here by saying that there are a ton of talented designers who can meld CSS with strong design concepts incredibly well. I wish I were one of those people. But in an similar proclamation of transparency, I've failed to achieve the level of integrity I know I'm capable of if I'm exclusively designing in the browser. That probably has a lot to do with this: \"When you're at the point of fighting your tools, you're not",
+      "avg_prediction": 0.4857
+    }
+  ]
+}

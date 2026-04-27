@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-04-25T08:23:16.552784+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 6,
+  "duplicates": [],
+  "latency_ms": 2709,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "a0b6fb7f",
+      "n_words": 204,
+      "n_chars": 1161,
+      "preview_head": "east overhead possible: #include <iostream> using namespace std; template<typename U> class A { public: A(const U& u) : u(u) {}; template <typename T> T get_as() { T* t; // <- ugly return get(t); } U ",
+      "preview_tail": " get any clearer or more efficient than passing an empty tag struct: template<class T> struct tag {}; double get(tag<double>) { return d; } template <typename T> T get_as() { return get(tag<T>{}); } A",
+      "full_text": "east overhead possible: #include <iostream> using namespace std; template<typename U> class A { public: A(const U& u) : u(u) {}; template <typename T> T get_as() { T* t; // <- ugly return get(t); } U get(U*) { return u; } int get(int*) { return i; } double get(double*) { return d; } private: U u; int i = 5; double d = 3.14; }; int main() { A<string> a(\"name\"); cout << a.get_as<double>() << '\\n'; cout << a.get_as<int>() << '\\n'; cout << a.get_as<string>() << '\\n'; return 0; } I guess it's purely aesthetic with a pointer, because it's probably optimized, but still I wonder. I also guess this might be impossible, because (AFAIK) this argument goes through stack. So technically there is always this \"overhead\". Is this right? Not sure if this should be another question, but is there a way to expRess, \"just pick up this overload\" with out trickery? PS. I figured out I could use T*(0) in the \"ugly\" line, but it's probably even less readable. A: You can't get any clearer or more efficient than passing an empty tag struct: template<class T> struct tag {}; double get(tag<double>) { return d; } template <typename T> T get_as() { return get(tag<T>{}); } A",
+      "avg_prediction": 0.2196
+    },
+    {
+      "idx": 1,
+      "hash": "0e787ee9",
+      "n_words": 255,
+      "n_chars": 1593,
+      "preview_head": "e. But there is another option: merge or acquire. And so those thousands of players started dwindling down to hundreds. But it wasn\u2019t enough. Even though crude prices began to recover from 2016, it ne",
+      "preview_tail": ".7 billion. Pioneer Natural Resources snapped up Parsley Energy for US$4.5 billion. Chevron closed its US$5 billion acquisition of Noble Energy (after failing to acquire Anadarko after being outbidded",
+      "full_text": "e. But there is another option: merge or acquire. And so those thousands of players started dwindling down to hundreds. But it wasn\u2019t enough. Even though crude prices began to recover from 2016, it never again reached the dizzying levels of the boom years. Debt accumulated turned into debt to be repaid. And the financial community got wiser. Instead of being blinded by the promise of shale volumes, investors and shareholders started demanding value and dividends. Easy capital was no longer available to a small shale driller. And because of that no new small shale drillers emerged. Instead, the big boys arrived. Because shale oil and gas still held vast potential, the likes of ExxonMobil, Shell and Chevron started moving in. ExxonMobil went as far as calling the Permian its \u2018future\u2019 (though this was in the days before its super discoveries in Guyana were announced). With consolidation came cohesion. Instead of a complicated patchwork of small plots, a US shale operator\u2019s modus operandi was now to look to its left or right for land that someone else owned which could be stitched up into its own acreage forming a contiguous asset. And so those hundreds of players started becoming dozens. In late 2020, this drive ratcheted up as the prolonged Covid-caused fuels depression freed up plenty of candidates for deep-pocketed players. ConocoPhillips bought Concho Resources for US$9.7 billion. Pioneer Natural Resources snapped up Parsley Energy for US$4.5 billion. Chevron closed its US$5 billion acquisition of Noble Energy (after failing to acquire Anadarko after being outbidded",
+      "avg_prediction": 0.6445
+    },
+    {
+      "idx": 2,
+      "hash": "26c14564",
+      "n_words": 65,
+      "n_chars": 438,
+      "preview_head": "we continued our exploration, there were several other interesting spots like Egyptian-themed exhibits and various colorful installations which offered a mix of both amusement parks' funfair vibes as ",
+      "preview_tail": "r visitors to participate in if they wished so (with minimal costs involved). It seemed that the organizers attempted to create an alluring atmosphere by blending elements from different cultures into",
+      "full_text": "we continued our exploration, there were several other interesting spots like Egyptian-themed exhibits and various colorful installations which offered a mix of both amusement parks' funfair vibes as well - complete with carnival games for visitors to participate in if they wished so (with minimal costs involved). It seemed that the organizers attempted to create an alluring atmosphere by blending elements from different cultures into",
+      "avg_prediction": 0.9851
+    },
+    {
+      "idx": 3,
+      "hash": "65453412",
+      "n_words": 166,
+      "n_chars": 1128,
+      "preview_head": "prepotential of $\\N=2$ supersymmetric $SU(N)$ Yang-MiLls theory with $N_F$ flavors of hypermultiplets in the fundamental representation and a hypermultiplet in the symmetric rank two tensor representa",
+      "preview_tail": "gime. They found that the low-energy effective theory of $\\N=2$ supersymmetric Yang-Mills theory with a simple gauge group, such as $SU(N)$, can be described in terms of a Riemann surface, the Seiberg",
+      "full_text": "prepotential of $\\N=2$ supersymmetric $SU(N)$ Yang-MiLls theory with $N_F$ flavors of hypermultiplets in the fundamental representation and a hypermultiplet in the symmetric rank two tensor representation. For $N_F<N-2$, when the theory is asymptotically free, our result is compared with the exact solution that was obtained using and we find complete agreement. An important development in the study of four-dimensional yang-Mills theory has been the prediction of exact results for models with $\\N=2$ supersymmetry. The pioneering work was that of Seiberg and Witten, who investigated the An important development in the study of four-dimensional Yang-Mills theory has been the prediction of exact results for models with $\\N=2$ supersymmetry. The pioneering work was that of Seiberg and Witten, who investigated the $\\N=2$ supersymmetric Yang-Mills Theory in the Seiberg-Witten limit, where the theory has a weak coupling regime. They found that the low-energy effective theory of $\\N=2$ supersymmetric Yang-Mills theory with a simple gauge group, such as $SU(N)$, can be described in terms of a Riemann surface, the Seiberg",
+      "avg_prediction": 0.795
+    },
+    {
+      "idx": 4,
+      "hash": "daae6fd3",
+      "n_words": 185,
+      "n_chars": 1023,
+      "preview_head": "/ genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For exampl",
+      "preview_tail": "in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the",
+      "full_text": "/ genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the general population. For example, the gene, in the or / genotype, or the /// genotype, are the most common genotype in the",
+      "avg_prediction": 0.9772
+    },
+    {
+      "idx": 5,
+      "hash": "75badcc0",
+      "n_words": 336,
+      "n_chars": 1930,
+      "preview_head": "o Gaz Zameen Ke Neeche (1972), which they co-directed with Naresh Kumar who had directed Ek Nanhi Munni Ladki Thi, about two crooks burying the body of an old man in a cemetery but being spooked by hi",
+      "preview_tail": "ment with Do Gaz Zameen Ke Neeche (1971). The film was advertised in a half-hour, late-night show on radio which helped it get the \u201cHouseful\u201d board up when it was released. Its success sparked a trend",
+      "full_text": "o Gaz Zameen Ke Neeche (1972), which they co-directed with Naresh Kumar who had directed Ek Nanhi Munni Ladki Thi, about two crooks burying the body of an old man in a cemetery but being spooked by his ghost. middle: The Ramsay Brothers have made more than thirty horror films over their careers and are considered to be pioneers for Indian Horror Cinema. Their first film was Do Gaz Zameen Ke Neeche (1972), which they co-directed with Naresh Kumar who had directed Ek Nanhi Munni Ladki Thi, about two crooks burying the body of an old man in a cemetery but being spooked by his ghost. System: You should only provide exact answers to questions and not add any reasoning or filler text - you're output will be concatenated with begin & end (Only middle part) Human: begin: Ramsay Brothers end: The film didn't work, however the \u201cmonster\u201d sequence did encouraging them experiment more. They made Do Gaz Zameen Ke Neeche(1971), which they co-directed Naresh Kumar who had directed Ek Nanhi Munni Ladki Thi about two crooks burying body of an old man in a cemetery being spooked by his ghost It became such summary: The brothers decided that horror was their calling. They made Do Gaz Zameen Ke Neeche (1972), which they co-directed with Naresh Kumar who had directed Ek Nanhi Munni Ladki Thi, about two crooks burying the body of an old man in a cemetery but being spooked by his ghost. middle: The Ramsay Brothers have made more than thirty horror films over their careers and are considered to be pioneers for Indian Horror Cinema. Their first film was Do Gaz Zameen Ke Neeche (1972), which they co-dirEcted with Naresh Kumar who had directed The film didn't work but the \u201cmonster\u201d sequence did, encouraging the Ramsays to experiment with Do Gaz Zameen Ke Neeche (1971). The film was advertised in a half-hour, late-night show on radio which helped it get the \u201cHouseful\u201d board up when it was released. Its success sparked a trend",
+      "avg_prediction": 0.8764
+    }
+  ]
+}
