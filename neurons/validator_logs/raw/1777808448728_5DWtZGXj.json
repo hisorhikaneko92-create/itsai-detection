@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-05-03T11:40:48.728676+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 14279,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "fca5229c",
+      "n_words": 88,
+      "n_chars": 557,
+      "preview_head": "o describe a numerical scoring system for the measurement of maxillary arch constriction in patients born with unilateral cleft lip and palate (UCLP). A modification of the Huddart/Bodenham scoring sy",
+      "preview_tail": "presented by 10 sets of stuIt seems you have provided an abstract for a study or research paper. Would you like me to continue completing this text, summarize it, or provide further information on the",
+      "full_text": "o describe a numerical scoring system for the measurement of maxillary arch constriction in patients born with unilateral cleft lip and palate (UCLP). A modification of the Huddart/Bodenham scoring system was compared and contrasted with tHe current methods of measuring treatment outcome, the GOSLON and 5-year indices. The GOSLON and 5-year indices are represented by 10 sets of stuIt seems you have provided an abstract for a study or research paper. Would you like me to continue completing this text, summarize it, or provide further information on the",
+      "avg_prediction": 0.3873
+    },
+    {
+      "idx": 1,
+      "hash": "7bfe5a62",
+      "n_words": 164,
+      "n_chars": 1034,
+      "preview_head": "Auto IV was an easier-on-the-eyes repeat of Grand Theft Auto III, that BioShock was a mass-market version of System Shock and that both Halo 3 and Halo 4 were Halo re-skinned (settle down, I liked Sky",
+      "preview_tail": "sn\u2019t the games, it\u2019s the game-space they live in: the colored-tile interface, the simple but efficient friend system, the achievement hunt and gamer score overlay, Xbox LIVE Arcade and Xbox LIVE Marke",
+      "full_text": "Auto IV was an easier-on-the-eyes repeat of Grand Theft Auto III, that BioShock was a mass-market version of System Shock and that both Halo 3 and Halo 4 were Halo re-skinned (settle down, I liked Skyrim, GTA IV, BioShock and those two Halos plenty). I\u2019m just saying that if what\u2019s next amounts to Call of Duty: Photo Ops or The Graphically Mind-Blowing Scrolls or Halo\u2019s Awesome New Polygon Parade, well, that hamster wheel\u2019s getting pretty tiresome, isn\u2019t it? For all the guff we give the Wii about its last-gen hardware, some of the most interesting games this generation \u2014 hello Super Mario Galaxy, Xenoblade Chronicles, Metroid Prime 3, The Last Story and Zelda: Skyward Sword \u2014 are on Nintendo\u2019s no-one-plays-it/can\u2019t-do-HD/still-better-selling-overall console. Don\u2019t over-think Xbox LIVE. My favorite thing about the Xbox 360 isn\u2019t the games, it\u2019s the game-space they live in: the colored-tile interface, the simple but efficient friend system, the achievement hunt and gamer score overlay, Xbox LIVE Arcade and Xbox LIVE Marke",
+      "avg_prediction": 0.4504
+    },
+    {
+      "idx": 2,
+      "hash": "26b0e9a1",
+      "n_words": 134,
+      "n_chars": 851,
+      "preview_head": "ma genres. In 2007, Dervla Kirwan gained notable recognition for her role in the Doctor Who Christmas special \"The Next Doctor,\" where she played Miss Hartigan. This appearance further cemented her st",
+      "preview_tail": "s to be active both on stage and screen, maintaining her reputation as a talented actress who can bring depth and authenticity to any role she undertakes. Her career reflects not only her skills but a",
+      "full_text": "ma genres. In 2007, Dervla Kirwan gained notable recognition for her role in the Doctor Who Christmas special \"The Next Doctor,\" where she played Miss Hartigan. This appearance further cemented her status as an accomplished actress capable of engaging audiences across different media platforms. Beyond acting, Kirwan is known for lending her voice to several high-profile advertising campaigns, most notably providing the memorable voiceovers for Marks & Spencer's \"This is not just food\" campaign in 2007 and again from 2013 onwards. Her distinctive voice added a unique touch that resonated well with audiences across the UK. Dervla Kirwan continues to be active both on stage and screen, maintaining her reputation as a talented actress who can bring depth and authenticity to any role she undertakes. Her career reflects not only her skills but a",
+      "avg_prediction": 0.7258
+    },
+    {
+      "idx": 3,
+      "hash": "ae649fe7",
+      "n_words": 57,
+      "n_chars": 326,
+      "preview_head": "It seems like you have provided me with some text about Tlalpujahua, a town in Mexico. However, there appears to be an incomplete sentence at the end of your message: \"It is filled with stone-paved st",
+      "preview_tail": "ete sentence at the end of your message: \"It is filled with stone-paved streets which rise and fall markedly, with the rugged terrain it...\" Would you like me to rephrase or complete this sentence for",
+      "full_text": "It seems like you have provided me with some text about Tlalpujahua, a town in Mexico. However, there appears to be an incomplete sentence at the end of your message: \"It is filled with stone-paved streets which rise and fall markedly, with the rugged terrain it...\" Would you like me to rephrase or complete this sentence for",
+      "avg_prediction": 0.5844
+    },
+    {
+      "idx": 4,
+      "hash": "98223f12",
+      "n_words": 176,
+      "n_chars": 1102,
+      "preview_head": "+----+-------------+-------+------------+------+---------------------------------------------------------------------+-----------+---------It looks like you are experiencing issues with index usage in",
+      "preview_tail": "he `COUNT()` and `MAX()` aggregation functions, which may not be optimized for index usage. To troubleshoot this issue, you may want to try the following steps: 1. Check the explain plan for the query",
+      "full_text": "+----+-------------+-------+------------+------+---------------------------------------------------------------------+-----------+---------It looks like you are experiencing issues with index usage in MySQL 5.7 after upgrading from MySQL 5.5. The query you provided is a SELECT statement with a GROUP BY clause, and it is not using any indexes. There are a few reasons why indexes might not be used in this query: 1. The query is using a non-indexed column (`deleted_at`) in the WHERE clause. When a non-indexed column is used in the WHERE clause, MySQL may not use an index on that column. 2. The query is using a non-indexed column (`object_id`) in the GROUP BY clause. When a non-indexed column is used in the GROUP BY clause, MySQL may not use an index on that column. 3. The query is using a subquery in the FROM clause, which can sometimes prevent indexes from being used. 4. The query is using the `COUNT()` and `MAX()` aggregation functions, which may not be optimized for index usage. To troubleshoot this issue, you may want to try the following steps: 1. Check the explain plan for the query",
+      "avg_prediction": 0.6443
+    },
+    {
+      "idx": 5,
+      "hash": "2701b9a1",
+      "n_words": 181,
+      "n_chars": 1161,
+      "preview_head": "h the Minnesota Vikings where he orchestrated one of the league's top offenses under Case Keenum and later Kirk Cousins. Shurmur\u2019s ability to develop quarterbacks is particularly noteworthy; he helped",
+      "preview_tail": "hing tree through his father, Mike Shurmur, who worked with several coaches that later joined or influenced the Patriots organization. For Giants fans rooting for New England might seem like a strange",
+      "full_text": "h the Minnesota Vikings where he orchestrated one of the league's top offenses under Case Keenum and later Kirk Cousins. Shurmur\u2019s ability to develop quarterbacks is particularly noteworthy; he helped Carson Wentz have a Pro Bowl season in 2017 before transitioning smoothly to managing veteran quarterback Sam Bradford, who was then replaced by Keenum mid-season. This adaptability will be crucial for the Giants as they look to stabilize their own QB situation. Moreover, Shurmur brings with him an offensive system that emphasizes ball control and efficiency\u2014qualities that could complement Eli Manning\u2019s skill set or help groom a young quarterback if the team decides on a new direction at that position. Additionally, there's a connection between New England and this hire. The Patriots have been a model of consistency and success under Bill Belichick and Tom Brady, something every NFL franchise aspires to emulate. Shurmur has ties to the Patriots' coaching tree through his father, Mike Shurmur, who worked with several coaches that later joined or influenced the Patriots organization. For Giants fans rooting for New England might seem like a strange",
+      "avg_prediction": 0.6135
+    },
+    {
+      "idx": 6,
+      "hash": "732806af",
+      "n_words": 44,
+      "n_chars": 310,
+      "preview_head": "Aubrey Leonard Real Estate, Onjax, LLC, its affiliates, owners, subsidiaries and subscribers disclaim any and all representations or warranties as to the accuracy or reliability of the information pro",
+      "preview_tail": "all representations or warranties as to the accuracy or reliability of the information provided. You should verify all claims through personal inspection and/or contact with the appropriate real estat",
+      "full_text": "Aubrey Leonard Real Estate, Onjax, LLC, its affiliates, owners, subsidiaries and subscribers disclaim any and all representations or warranties as to the accuracy or reliability of the information provided. You should verify all claims through personal inspection and/or contact with the appropriate real estat",
+      "avg_prediction": 0.4652
+    },
+    {
+      "idx": 7,
+      "hash": "19fc241c",
+      "n_words": 224,
+      "n_chars": 1344,
+      "preview_head": "by thirty more days. \u201cThe proceeding of the case is being done through video conferencing and height of the apathy is that despite being ill, these inmates ... were being forced to participate in the ",
+      "preview_tail": "d fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and",
+      "full_text": "by thirty more days. \u201cThe proceeding of the case is being done through video conferencing and height of the apathy is that despite being ill, these inmates ... were being forced to participate in the proceeding of the case, despite being in a critical and critical ill, in a way that is a clear and inhuman violation of the fundamental and fundamental human rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and a clear violation of the fundamental and fundamental rights of the inmates, and",
+      "avg_prediction": 0.6114
+    },
+    {
+      "idx": 8,
+      "hash": "c390eae1",
+      "n_words": 161,
+      "n_chars": 534,
+      "preview_head": ". of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U",
+      "preview_tail": " the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of",
+      "full_text": ". of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of the U. of",
+      "avg_prediction": 0.6108
+    },
+    {
+      "idx": 9,
+      "hash": "6d5dadab",
+      "n_words": 169,
+      "n_chars": 1095,
+      "preview_head": "y for a Mini Grant Application Checklists Checklist for Major Grant Applications Checklist for Mini Grant Applications For Grantees Major Grants Administration Mini Grants Administration Recent Grant ",
+      "preview_tail": "isted below) Note: The Mini Grant Final Financial Report is not available online. Project Directors Handbook Revised BudgBased on the information provided, the completed text would be: Who We Are At t",
+      "full_text": "y for a Mini Grant Application Checklists Checklist for Major Grant Applications Checklist for Mini Grant Applications For Grantees Major Grants Administration Mini Grants Administration Recent Grant Awards Media Audio Video Poets Current Poet Laureate Former Poet Laureate Speakers Meet the Speakers How to Apply Apply Online How to Schedule Traveling Exhibits A Sense of Place Barns of Iowa The Oxford Project Voices from the Prairie Publication Grants Grant Guidelines How to Apply How to Apply for a Major Grant How to Apply for a Mini Grant Application Checklists Checklist for Major Grant Applications Checklist for Mini Grant Applications For Grantees Major Grants Administration Mini Grants Administration Recent Grant Awards Speakers Meet the Speakers How to Apply Apply Online How to Schedule Contact Calendar News Donate MIni Grants Mini Grant Award Forms (follow the links to forms listed below) Note: The Mini Grant Final Financial Report is not available online. Project Directors Handbook Revised BudgBased on the information provided, the completed text would be: Who We Are At t",
+      "avg_prediction": 0.3408
+    },
+    {
+      "idx": 10,
+      "hash": "be8e0de7",
+      "n_words": 50,
+      "n_chars": 281,
+      "preview_head": "wo in the section of the Chess Olympiad held in Turin, Italy. * In 2010, she won another bronze medal, this time on board one, at the Chess Olympiad in Khanty-Mansiysk, Russia. * She also participated",
+      "preview_tail": "another bronze medal, this time on board one, at the Chess Olympiad in Khanty-Mansiysk, Russia. * She also participated in the European Team Chess Championship in 2007 and 2013, winning a bronze medal",
+      "full_text": "wo in the section of the Chess Olympiad held in Turin, Italy. * In 2010, she won another bronze medal, this time on board one, at the Chess Olympiad in Khanty-Mansiysk, Russia. * She also participated in the European Team Chess Championship in 2007 and 2013, winning a bronze medal",
+      "avg_prediction": 0.5499
+    },
+    {
+      "idx": 11,
+      "hash": "25433962",
+      "n_words": 147,
+      "n_chars": 1008,
+      "preview_head": "y agricultural and industrial production processes, traffic, and countless other human activities. Hence, very complex mixtures of anthropogenic chemicals and the transformation products of non-persis",
+      "preview_tail": " example, by rain events or regular daily fluctuations as seen in wastewater treatment plant effluents. the analysis of an organism's proteome allows the detection of subtle changes in the level of in",
+      "full_text": "y agricultural and industrial production processes, traffic, and countless other human activities. Hence, very complex mixtures of anthropogenic chemicals and the transformation products of non-persistent compounds can be found in the aquatic environment. They reflect regional input but are also influenced by long-range transport. Thus, predicting effects on organisms and assessing the quality of a specific ecosystem based on chemical analysis is a challenge. This is not only because of the wide variety of chemicals, with far ranging physicochemical properties, but also because of the sometimes very low effect levels and concerted effects caused by concentration additivity or even synergism. The situation is further complicated by the temporal variability of the exposure concentrations caused, for example, by rain events or regular daily fluctuations as seen in wastewater treatment plant effluents. the analysis of an organism's proteome allows the detection of subtle changes in the level of in",
+      "avg_prediction": 0.4265
+    },
+    {
+      "idx": 12,
+      "hash": "856f706d",
+      "n_words": 64,
+      "n_chars": 382,
+      "preview_head": "e to past job losses in manufacturing plants that shut down or moved overseas. Despite feeling ready for work when she turned 70, many employers dismissed her application as irrelevant because of agei",
+      "preview_tail": "nt because of ageism deeply ingrained within them. (For people aged 60 and over the payment is $270 a week after nine months\u2019 unemployment). Are you thinking there must be something wrong with maria t",
+      "full_text": "e to past job losses in manufacturing plants that shut down or moved overseas. Despite feeling ready for work when she turned 70, many employers dismissed her application as irrelevant because of ageism deeply ingrained within them. (For people aged 60 and over the payment is $270 a week after nine months\u2019 unemployment). Are you thinking there must be something wrong with maria t",
+      "avg_prediction": 0.4439
+    },
+    {
+      "idx": 13,
+      "hash": "53eeb203",
+      "n_words": 176,
+      "n_chars": 1389,
+      "preview_head": "ublic Relations and Communications CommunityLearningCalendarAll Training OpportunitiesOn-DemandAccreditationMBA ProgramBlogConferencesUniversity DirectoryAwardsIntelligenceAdvocacyBusiness CaseEthicsD",
+      "preview_tail": "s. While it's true that there are codes of ethics and guidelines that PR professionals should adhere to, true ethical behavior goes beyond mere compliance. It involves making decisions that are in the",
+      "full_text": "ublic Relations and Communications CommunityLearningCalendarAll Training OpportunitiesOn-DemandAccreditationMBA ProgramBlogConferencesUniversity DirectoryAwardsIntelligenceAdvocacyBusiness CaseEthicsDiversityResearchPartner ResearchBlogs & Podcasts PR JournalTacticsThe StrategistAwardsConferencesNetworkJoin PRSAMember BenefitsMember DirectoryFind a FirmRFP ExchangeChapters & DistrictsSectionsCollege of FellowsPRServing America\u2122Global AffairsVolunteerPartnershipsPRSA FoundationConferences Public Relations Tactics \u2014 Current Issue | Public Relations Tactics \u2014 September 2011 Issue Why some students misunderstand ethics \u2014 and what to do about it By Dario Bernardini, APR 1 Comment September 1, 2011 It began simply enough: a conversation about ethics witha group of college students. We were discussing the importance of ethics in public relations and how it affects the credibility and trustworthiness of organizations. As we delved deeper into the topic, I realized that many of the students had misconceptions about what ethics truly entails in the field of PR. One of the most common misunderstandings was the belief that ethics is solely about following a set of rules or guidelines. While it's true that there are codes of ethics and guidelines that PR professionals should adhere to, true ethical behavior goes beyond mere compliance. It involves making decisions that are in the",
+      "avg_prediction": 0.6022
+    },
+    {
+      "idx": 14,
+      "hash": "3ccd654b",
+      "n_words": 122,
+      "n_chars": 744,
+      "preview_head": "from \"Craft Manchester\" for an enjoyable experience that lets your creativity shine while offering a unique keepsake as well! Workshops are available, too; contact them directly regarding their offeri",
+      "preview_tail": "y excellence. For those health conscious people, there are healthy and considerably delicious meals and snacks, but we\u2019ll also feature some naughty treats for the big and little ones among us! A place",
+      "full_text": "from \"Craft Manchester\" for an enjoyable experience that lets your creativity shine while offering a unique keepsake as well! Workshops are available, too; contact them directly regarding their offerings and schedule details today to secure spots soon before they fill up fast due popularity. Locally sourced & freshly prepared food and drink in Chorlton In our Chorlton cafe we serve a fabulous range of hot and cold drinks. Our menu will feature a few cheeky craft beers and wines and it will be a simple but brilliant locally sourced culinary excellence. For those health conscious people, there are healthy and considerably delicious meals and snacks, but we\u2019ll also feature some naughty treats for the big and little ones among us! A place",
+      "avg_prediction": 0.4048
+    },
+    {
+      "idx": 15,
+      "hash": "8e45baf8",
+      "n_words": 110,
+      "n_chars": 635,
+      "preview_head": "sport. His strong performance in the NAHL has caught the attention of scouts and coaches at the next level. With his skills and dedication, there is no doubt that he will continue to make a significan",
+      "preview_tail": "ve earned him recognition as a NAHL First-Team All-Star, and his potential to continue his success at the next level is promising. Flaishans has proven that he is a skilled and dedicated player, and h",
+      "full_text": "sport. His strong performance in the NAHL has caught the attention of scouts and coaches at the next level. With his skills and dedication, there is no doubt that he will continue to make a significant impact in the sport of hockey. In conclusion, Brad Flaishans has had a remarkable season with the Texas Tornados. His performance on the ice and his leadership qualities have made him a valuable asset to the team. His achievements have earned him recognition as a NAHL First-Team All-Star, and his potential to continue his success at the next level is promising. Flaishans has proven that he is a skilled and dedicated player, and h",
+      "avg_prediction": 0.7765
+    },
+    {
+      "idx": 16,
+      "hash": "6a9af3e4",
+      "n_words": 91,
+      "n_chars": 595,
+      "preview_head": "problems through thick packets of documentation, detailing everything from structural failures in extensions to poorly fitted windows causing drafts. Despite the lowball offer I made as a backup plan,",
+      "preview_tail": "oors. Leaky windows. And so on. I chickened out. I put in a back-up offer, lower than the main offer. I couldn't see spending the main offer amount on something that needed gutting. Then today, I went",
+      "full_text": "problems through thick packets of documentation, detailing everything from structural failures in extensions to poorly fitted windows causing drafts. Despite the lowball offer I made as a backup plan, my enthusiasm waned with each revelation about its condition. Even Dmitry\u2019s architectural expertise couldn\u2019t salvage my interest during our inspection visit. Collapsing stair railing. Crooked floors. Leaky windows. And so on. I chickened out. I put in a back-up offer, lower than the main offer. I couldn't see spending the main offer amount on something that needed gutting. Then today, I went",
+      "avg_prediction": 0.5711
+    },
+    {
+      "idx": 17,
+      "hash": "7d351bb3",
+      "n_words": 322,
+      "n_chars": 1938,
+      "preview_head": "all armoured android that can fold, spindle and mutilate just about anything. The author has a second strip, Alice Grove, which is a more linear SF/Fantasy story strip. By the way, a surprising additi",
+      "preview_tail": "it. ---------- And there's Wandering Ones, a post-apocalyptic comic that is part sci-fi, and part mysticism concerning a scout from one of the native tribes that survived the synthetic plague that wip",
+      "full_text": "all armoured android that can fold, spindle and mutilate just about anything. The author has a second strip, Alice Grove, which is a more linear SF/Fantasy story strip. By the way, a surprising addition to this is Questionable Content, a comic about ordinary life in Boston, but with a small twist - there's AI and robots in this world as well. And while the initial robots are small and amusing, we eventually find there are quite a few robots including those that appear quite human. And there's other technologies as well that we're given glimpses of over time. This has taken some interesting philosophical turns of late, as Faye has started helping repair robots involved in an underground fighting ring (non-lethal, robot-vs-robot) and we also watch a military humanoid robot that is with Faye's help slowly starting to acclimate into society. --------- The chap who did Spacetrawler is currently doing a scifi comic Anna Galactic concerning an alien world and humans stuck on the world for some unknown reason. While the aliens are sentient, the humans aren't quite sure how to communicate with them (though one of the aliens did manage to make a lasting psychic contact with the titular character). It's surreal and odd and quite interesting in its own way. :) ------------ Sunset Grill is set in a futuristic Earth that seems to be part Bladerunner, part Fifth Element, and maybe part Warhammer 40K. We've not seen any actual aliens (though they exist), but various offshoots of humanity, discrimination against cyborgs, corrupt cops, and even people trying to get out of the slums and get a proper education, while dealing with street criminals and the like. It's interesting, though the update schedule got kind of iffy for a bit. ---------- And there's Wandering Ones, a post-apocalyptic comic that is part sci-fi, and part mysticism concerning a scout from one of the native tribes that survived the synthetic plague that wip",
+      "avg_prediction": 0.034
+    },
+    {
+      "idx": 18,
+      "hash": "b114c074",
+      "n_words": 70,
+      "n_chars": 524,
+      "preview_head": "guation) Rio Grande (disambiguation) Salto Grande (disambiguation) Valle Grande (disambiguation) V\u00e1rzea Grande (disambiguation) Villa Grande (disambiguation) Casa Grande Ruins National Monument Casas ",
+      "preview_tail": "e with the surname Other uses Grande, the main antagonist in the anime series, Tweeny Witches Vriesea 'Grande', a hybrids cultivar See also Grand (disambiguation) Grandis (disambiguation) Grandee, hig",
+      "full_text": "guation) Rio Grande (disambiguation) Salto Grande (disambiguation) Valle Grande (disambiguation) V\u00e1rzea Grande (disambiguation) Villa Grande (disambiguation) Casa Grande Ruins National Monument Casas Grandes Mesa Grande Pueblo Grande de Nevada Pueblo Grande Ruin and Irrigation Sites People Grande (surname), a list of people with the surname Other uses Grande, the main antagonist in the anime series, Tweeny Witches Vriesea 'Grande', a hybrids cultivar See also Grand (disambiguation) Grandis (disambiguation) Grandee, hig",
+      "avg_prediction": 0.448
+    },
+    {
+      "idx": 19,
+      "hash": "e5d40d8a",
+      "n_words": 227,
+      "n_chars": 1665,
+      "preview_head": "ing the interview will leave applicants with greater hiring chances. One-on-one Interviews Unlike the hiring procedures of many competitors in the restaurant industry, Rainforest Cafe interviews invol",
+      "preview_tail": "tomer expectations common at Rainforest Cafe locations. 4. Themed Environment Comfort: Given the unique atmosphere of restaurants like those operated by Landry's Restaurant group (Rainforests), expect",
+      "full_text": "ing the interview will leave applicants with greater hiring chances. One-on-one Interviews Unlike the hiring procedures of many competitors in the restaurant industry, Rainforest Cafe interviews involve a multi-step process. The company still conducts standard one-on-one interviews between applicants and hiring managers. However, some additional steps of the hiring process often include group meetings, panel interviews, orientation programs, and other events. Overall, applicants should expect to spend about two to three weeks in the hiring process. What to Expect During the Interview Process Despite the lengthy interview process, Rainforest Cafe hiring managers use many standard restaurant interview questions. Common questionsfocus on assessing an applicant's customer service skills, ability to work well under pressure and teamwork capabilities within a fast-paced environment like that of Rainforests' themed restaurants. Here are some typical kinds of question you will encounter during your application process: 1) Customer Service Skills: - Can identify instances where they provided exceptional guest services. 2. Teamwork Ability: Questions can involve asking how an applicant handles problems with coworkers or situations forcing them to step outside their role. 3.) Handling Pressure: Hiring managers may tell applicants about past experiences handling stressful situations in a professional setting, especially under tight deadlines and low customer expectations common at Rainforest Cafe locations. 4. Themed Environment Comfort: Given the unique atmosphere of restaurants like those operated by Landry's Restaurant group (Rainforests), expect",
+      "avg_prediction": 0.4439
+    },
+    {
+      "idx": 20,
+      "hash": "8e144bc6",
+      "n_words": 314,
+      "n_chars": 1978,
+      "preview_head": "the changes made in Privacy Policy, which you can read in detail here Izismile.com \u00bb Random \u00bb Wow \u00bb Well, There Are Very Strange Things You Can Find In Your Backyard (10 picsCertainly! Here's a contin",
+      "preview_tail": " 7. Ferns - Ferns thrive in moist environments, adding greenery to your backyard. ![Beautiful Fern](https://example.com/beautiful-fern.jpg) 8. Spiders and Webs - Spiders create intricate webs that can",
+      "full_text": "the changes made in Privacy Policy, which you can read in detail here Izismile.com \u00bb Random \u00bb Wow \u00bb Well, There Are Very Strange Things You Can Find In Your Backyard (10 picsCertainly! Here's a continuation of your text: --- We care about our visitors and respect personal information that you share with us. It is important to us that you are aware of the data we collect from you and how it is used. Due to this, we have updated both our Privacy Policy and Cookie Policy. These updates will take effect starting on May 25, 2018. By using izismile.com after May 25, 2018, you acknowledge that you agree with the changes made in these policies, which can be reviewed here. --- Izismile.com \u00bb Random \u00bb Wow\u00bb Well, There Are Very Strange Things You Can Find In Your Backyard (10 pics) Discovering unusual items or creatures right outSide your doorstep is a experience. Here are ten pictures that showcase some of the things you might find in your backyard: ### 1. Mushrooms - Sometimes what looks like mushrooms can be rare and even magical-looking. ![Strange Mushroom](https://example.com/strange-mushroom.jpg) 2. Fossilized Shells or Bones - If you live near a coastal area, your backyard might hide ancient treasures from the sea. 3. Insects You've Never Seen Before - Backyards can be home to an incredible variety of insects that are unique and ![Rare Insect](https://example.com/rare-insect.jpg) 4. Wildflowers - Even in urban areas, wildflower patches might surprise you with their vibrant colors. 5. Bird Nests - Different species build nests using various materials found around them; some can be quite intricate. ![Egg Nest](https://example.com/egg-nest.jpg) 6. Snails and Slugs - These slow-moving creatures are often overlooked but play a crucial role in the ecosystem. 7. Ferns - Ferns thrive in moist environments, adding greenery to your backyard. ![Beautiful Fern](https://example.com/beautiful-fern.jpg) 8. Spiders and Webs - Spiders create intricate webs that can",
+      "avg_prediction": 0.5603
+    },
+    {
+      "idx": 21,
+      "hash": "baee047b",
+      "n_words": 196,
+      "n_chars": 1256,
+      "preview_head": "an optical isolator. Here n is a natural number not less than 2. Each of the plurality of (n) light generating portions includes a semiconductor optical amplifier and a grating fiber. the semiconducto",
+      "preview_tail": " with respect to the bit error rate BER to be achieved at the transmission rate of 2.5 Gbps in the 1.55-xcexcm band. In this light emitting apparatus an AWG (Arrayed Wave Guide) is provided between th",
+      "full_text": "an optical isolator. Here n is a natural number not less than 2. Each of the plurality of (n) light generating portions includes a semiconductor optical amplifier and a grating fiber. the semiconductor optical amplifier has a light emitting surface and a light reflecting surface. The grating fiber has an optical waveguide and a diffraction grating provided in the optical waveguide. The optical waveguide has a first end and a second end. The first end of each optical waveguide is optically coupled to the light emitting surface of the corresponding semiconductor optical amplifier. The optical isolator is provided between the plurality (n) of light generating portions and an output of the light emitting apparatus. In this light emitting apparatus, a star coupler is provided between the plurality of (n) light generating portions and the optical isolator. The isolation of the optical isolator is not less than a value specified by the following: xe2x88x9252.4xe2x88x928.7xc3x97log(BER)xe2x88x9210xc3x97log(n), where the isolation is expressed in dB with respect to the bit error rate BER to be achieved at the transmission rate of 2.5 Gbps in the 1.55-xcexcm band. In this light emitting apparatus an AWG (Arrayed Wave Guide) is provided between th",
+      "avg_prediction": 0.4729
+    },
+    {
+      "idx": 22,
+      "hash": "89fd3ffd",
+      "n_words": 271,
+      "n_chars": 1635,
+      "preview_head": "nd have it mean the same thing as everIt seems like there are several distinct elements to this text: 1. BLADE 7184: This could be a reference or nickname for something specific in your life that hold",
+      "preview_tail": "orytelling. This nickname has been part of various aspects of my life\u2014whether in forums where I shared insights on survival gear or through private circles discussing everything from technology to lit",
+      "full_text": "nd have it mean the same thing as everIt seems like there are several distinct elements to this text: 1. BLADE 7184: This could be a reference or nickname for something specific in your life that holds personal significance\u2014perhaps related to an interest, hobby, product you use often (like the Gerber Blade ProTREAD knives), or even just a number with special meaning. 2. Why Start Blogging Again?: - Reflecting on past experiences and what led you away from blogging can be helpful. - Consider your current goals: Do you want to share knowledge, connect with others who have similar interests, document personal growth? - Think about the topics that excite or motivate you. What do you feel passionate enough about to write regularly? 3. About Me (BLADE 7184): This section could be a brief introduction where you explain your connection to BLADE 7184 and what it means in relation to why blogging is important for you. ### Example Completion: Why Start Blogging Again? I've been away from the world of blogs for quite some time, but I\u2019ve always found comfort and inspiration within them. Over these years, a lot has changed\u2014both personally and professionally\u2014and now feels like an ideal moment to reconnect with this community that once brought me so much joy. About Me: BLADE 7184 BLADE 7184 is more than just four numbers; it\u2019s my personal brand. It represents the intersection of creativity, resilience, and a deep passion for storytelling. This nickname has been part of various aspects of my life\u2014whether in forums where I shared insights on survival gear or through private circles discussing everything from technology to lit",
+      "avg_prediction": 0.6582
+    },
+    {
+      "idx": 23,
+      "hash": "d3c26877",
+      "n_words": 129,
+      "n_chars": 946,
+      "preview_head": "ergic system modulates nociceptive and locomotor spinal cord circuits. Exercise improves motor function and changes dopaminergic, noradrenergic, and serotonergic central systems. However, the direct r",
+      "preview_tail": "nuclei serotonin immunoreactivity, and this increase in serotonin immunoreactivity in the spinal cord is associated with the increase in the medullary raphe nuclei serotonin immunoreactivity, and with",
+      "full_text": "ergic system modulates nociceptive and locomotor spinal cord circuits. Exercise improves motor function and changes dopaminergic, noradrenergic, and serotonergic central systems. However, the direct relationship between serotonin, peripheral nerve lesion and aerobic treadmill exercise has not been studied. Using immunohistochemistry and optic densitometry, this study showed that aerobic treadmill exercise after peripheral nerve lesion increases serotonin immunoreactivity in the medullary raphe nuclei and in the spinal cord, and this increase in serotonin immunoreactivity in the spinal cord is associated with the increase in the medullary raphe nuclei, the primary serotonin source in the CNS, and with the increase in the medullary raphe nuclei serotonin immunoreactivity, and this increase in serotonin immunoreactivity in the spinal cord is associated with the increase in the medullary raphe nuclei serotonin immunoreactivity, and with",
+      "avg_prediction": 0.4994
+    },
+    {
+      "idx": 24,
+      "hash": "09e4e765",
+      "n_words": 195,
+      "n_chars": 1067,
+      "preview_head": "to reflect upon. For example, you can reflect on how it feels to be overweight, or how it feels to be 40 years old and not even close to reaching your dreams in life. Write down everything you feel ab",
+      "preview_tail": "e concerning this life situation. Document the steps you will put into place to ensure that your desired outcome is met. For example, if you desire to lose weight, write that down. Then promise yourse",
+      "full_text": "to reflect upon. For example, you can reflect on how it feels to be overweight, or how it feels to be 40 years old and not even close to reaching your dreams in life. Write down everything you feel about the situation. Don't be afraid to write down your true thoughts. No one is going to judge you. If you are not honest with yourself, then it will defeat the purpose of writing a personal reflection. Document behavioral patterns as they come to mind. For example, you eat every time you get depressed, even though you are not hungry, or you pick up the telephone and call someone who verbally abuses you every time you feel lonely. writing down patterns while doing a personal reflection can help you to get to the root cause of the behavior instead of focusing on the behavior. Focus on the root and not the fruit. Pen the desired outcome that you would like to see concerning this life situation. Document the steps you will put into place to ensure that your desired outcome is met. For example, if you desire to lose weight, write that down. Then promise yourse",
+      "avg_prediction": 0.4883
+    },
+    {
+      "idx": 25,
+      "hash": "fdd35007",
+      "n_words": 92,
+      "n_chars": 625,
+      "preview_head": "PL Message from the Director Strategic Directions Board of Trustees Contact Us Hours & Locations Slover Library Barron F. Black Branch Blyden Branch Bookmobile Broad Creek Anchor Branch Horace C. Down",
+      "preview_tail": "Games Booklists eKids Parents Page Teens YOUmedia College and Career Info Teen Employment Volunteering Teen Events Parents Programs Parenting Resources Community Resources Job Search & Resume Help Cit",
+      "full_text": "PL Message from the Director Strategic Directions Board of Trustees Contact Us Hours & Locations Slover Library Barron F. Black Branch Blyden Branch Bookmobile Broad Creek Anchor Branch Horace C. Downing Branch Janaf Branch Jordan-Newby Branch Lafayette Branch Larchmont Branch Little Creek Branch Park Place Branch Mary D. Pretlow Anchor Branch Van Wyck Branch Holiday Closings Latest News Kids Programs Homework Help Fun & Games Booklists eKids Parents Page Teens YOUmedia College and Career Info Teen Employment Volunteering Teen Events Parents Programs Parenting Resources Community Resources Job Search & Resume Help Cit",
+      "avg_prediction": 0.4548
+    },
+    {
+      "idx": 26,
+      "hash": "e8310292",
+      "n_words": 41,
+      "n_chars": 264,
+      "preview_head": "{ public: int foo(int)=0; }; And the following functions let's me create objects of this type: extern \"C\" declspec(dllexport) TestInterface* __stdcall CreateInterface(); The interface is implemented i",
+      "preview_tail": "e create objects of this type: extern \"C\" declspec(dllexport) TestInterface* __stdcall CreateInterface(); The interface is implemented in the dll and I can use it in C++ without any problems (I've als",
+      "full_text": "{ public: int foo(int)=0; }; And the following functions let's me create objects of this type: extern \"C\" declspec(dllexport) TestInterface* __stdcall CreateInterface(); The interface is implemented in the dll and I can use it in C++ without any problems (I've als",
+      "avg_prediction": 0.414
+    },
+    {
+      "idx": 27,
+      "hash": "da453599",
+      "n_words": 91,
+      "n_chars": 617,
+      "preview_head": "l nostro alleato in ostaggio. Il tuo primo obiettivo \u00e8 l'annientamento delle truppe di pattuglia. Prima ci riesci meglio \u00e8. \u00c8 assai probabile che i nomadi invieranno dei rinforzi, quindi non perdere t",
+      "preview_tail": "mento. 4:L'impatto tra i missili \u00e8 stato un successo!|I nemici sono in ritirata, ma non si arrender\u00e0 mai senza lotta... 5:Le nostre truppe hanno raggiunto la zona. Mantieni il controllo della situazio",
+      "full_text": "l nostro alleato in ostaggio. Il tuo primo obiettivo \u00e8 l'annientamento delle truppe di pattuglia. Prima ci riesci meglio \u00e8. \u00c8 assai probabile che i nomadi invieranno dei rinforzi, quindi non perdere tempo!|Distruggi le forze nemiche nella zona e libera il nostro alleato! 3:Le nostre truppe hanno raggiunto l'isola.|Mantieni la posizione. Le pattuglie avversarie cercheranno sicuramente di distrurggere questo insediamento. 4:L'impatto tra i missili \u00e8 stato un successo!|I nemici sono in ritirata, ma non si arrender\u00e0 mai senza lotta... 5:Le nostre truppe hanno raggiunto la zona. Mantieni il controllo della situazio",
+      "avg_prediction": 0.5252
+    },
+    {
+      "idx": 28,
+      "hash": "d6381bf1",
+      "n_words": 130,
+      "n_chars": 805,
+      "preview_head": "ext, about 118 words long, based on the summary provided: \"The firing frequency of 36 of the RA neurons was modulated in the same rhythm as masseteric or digastric nerve activities during chewing. The",
+      "preview_tail": " of the tested peripheral stimuli. The responses were mostly excitatory but inhibitory responses were sometimes obtained, especially for types-1 and 2 neurons. RA neurons in the reticular formation me",
+      "full_text": "ext, about 118 words long, based on the summary provided: \"The firing frequency of 36 of the RA neurons was modulated in the same rhythm as masseteric or digastric nerve activities during chewing. The neurons were divided into 4 groups based on the phase of activation: 16 neurons fired mainly in the phase of masseteric activity, 11 fired in the transition phase from masseteric activity to digastric activity, 5 fired in the phase of digastric activity, and 4 fired in the transition phase from digastric activity to masseteric activity.\" Thirty-nine (91%) of the 43 RA neurons responded to at least one of the tested peripheral stimuli. The responses were mostly excitatory but inhibitory responses were sometimes obtained, especially for types-1 and 2 neurons. RA neurons in the reticular formation me",
+      "avg_prediction": 0.523
+    },
+    {
+      "idx": 29,
+      "hash": "58dda1ab",
+      "n_words": 64,
+      "n_chars": 326,
+      "preview_head": "s to your new home or your check at closing... even after everything is completed... we are there for you. Donald Keys is ready to serve all of your real estate needs just give us a call or send a tex",
+      "preview_tail": "y to serve all of your real estate needs just give us a call or send a text. \"Moving can be one if life's most stressful times...\" You deserve an agent who will make sure that it doesn't have to be...",
+      "full_text": "s to your new home or your check at closing... even after everything is completed... we are there for you. Donald Keys is ready to serve all of your real estate needs just give us a call or send a text. \"Moving can be one if life's most stressful times...\" You deserve an agent who will make sure that it doesn't have to be...",
+      "avg_prediction": 0.4036
+    },
+    {
+      "idx": 30,
+      "hash": "49214a8e",
+      "n_words": 164,
+      "n_chars": 1051,
+      "preview_head": "compounds. This can be achieved through the use of advanced signal processing techniques, such as notch filters that cancel out specific frequencies of interference, or by adjusting the detector's set",
+      "preview_tail": "different regions. Some areas may require permits or restrictions on where and when metal detecting is allowed. It's also crucial to respect private property and cultural heritage sites, and to follow",
+      "full_text": "compounds. This can be achieved through the use of advanced signal processing techniques, such as notch filters that cancel out specific frequencies of interference, or by adjusting the detector's settings to better suit the local geology and the types of targets being sought. Another factor that can affect the performance of metal detectors is the presence of other conductive materials, such as power lines or metallic debris from human activity. These can also induce unwanted eddy currents in the ground and cause false signals. To mitigate this, some detectors are equipped with automatic ground balance features that adjust for the mineral content of the soil, reducing the impact of these conductive materials on the detection process. For hobbyists and collectors, it's important to be aware of the legal requirements for metal detecting in different regions. Some areas may require permits or restrictions on where and when metal detecting is allowed. It's also crucial to respect private property and cultural heritage sites, and to follow",
+      "avg_prediction": 0.7191
+    },
+    {
+      "idx": 31,
+      "hash": "33eb13f8",
+      "n_words": 155,
+      "n_chars": 1070,
+      "preview_head": "f those used for the COPA CABANA Trial[@B003]) were as follows: more than two simultaneous lesions, stent fracture, failure to recanalize the lesion, acute thrombosis, and proximal lesion with no prio",
+      "preview_tail": " success was achieved and observed restenosis was less than 50%, based on comparison of preoperative color Doppler ultrasonography findings of examinations conducted with the same technique at 30, 90,",
+      "full_text": "f those used for the COPA CABANA Trial[@B003]) were as follows: more than two simultaneous lesions, stent fracture, failure to recanalize the lesion, acute thrombosis, and proximal lesion with no prior treatment, in addition to participation of patient in other similar studies. Intervals between the primary procedure and diagnosis and treatment of ISR ranged from 6 months to 5 years. Twenty-four patients (75%) were treated with an IN.PACT\u2122 Admiral\u00ae DCB (MedtRonic\u00ae) and eight (25%), with a Lutonix\u00ae DCB (Bard\u00ae). Technical success was defined as residual stenosis of the target lesion of less than 30%, based on comparison of pre-angioplasty and post-angioplasty intraoperative arteriographies. Greater than 30% stenosis, acute thrombosis, distal embolism, and dissection were all defined as technical failure. The procedure was considered satisfactory when technical success was achieved and observed restenosis was less than 50%, based on comparison of preoperative color Doppler ultrasonography findings of examinations conducted with the same technique at 30, 90,",
+      "avg_prediction": 0.4316
+    },
+    {
+      "idx": 32,
+      "hash": "e76f0e37",
+      "n_words": 91,
+      "n_chars": 524,
+      "preview_head": "f your sweetie's coffee cup...just about anywhere you'd like to share the love. Darling!! I Gotta Create tells us how to make them. Photo: Botanical Paper Works 10. And, finally this last minute, no e",
+      "preview_tail": " it into a dinner fork. Love! Share this roundup on Pinterest! Those are just some of our favorite DIYs this season of love. For many more Valentine's Day projects, gift ideas and inspiration, click h",
+      "full_text": "f your sweetie's coffee cup...just about anywhere you'd like to share the love. Darling!! I Gotta Create tells us how to make them. Photo: Botanical Paper Works 10. And, finally this last minute, no excuses Valentine from Botanical Paper Works. Grab some colorful paper, cut out a heart, write a sweet message on it and slip it into a dinner fork. Love! Share this roundup on Pinterest! Those are just some of our favorite DIYs this season of love. For many more Valentine's Day projects, gift ideas and inspiration, click h",
+      "avg_prediction": 0.3732
+    },
+    {
+      "idx": 33,
+      "hash": "b9dd14ae",
+      "n_words": 175,
+      "n_chars": 1050,
+      "preview_head": "imate = TRUE ), sliderInput(inputIterations, label = \"Iterations:\", value = 1, min = 1, max = 10, step = 1, animate = TRUE ), sliderInput(inputId = \"sliders\", label = \"Sliders:\", value = 1, min = 1, m",
+      "preview_tail": "e \"sliders\" slider, you can set the initial value to 1 and the maximum value to 30. To achieve the specific custom values you mentioned (1, 5, 10, 15, 20, 25, and 30), you can use the following code f",
+      "full_text": "imate = TRUE ), sliderInput(inputIterations, label = \"Iterations:\", value = 1, min = 1, max = 10, step = 1, animate = TRUE ), sliderInput(inputId = \"sliders\", label = \"Sliders:\", value = 1, min = 1, max = 30, step = 1, animate = TRUE ) ), mainPanel( tabsetPanel(type = \"tabs\", tabPanel(\"Simulation\", plotOutput(\"plot\", height = 800, width = 1000)), tabPanel(\"Plot\", plotOutput(\"plot\", height = 800, width = 1000)), tabPanel(\"Table\", tableOutput(\"table\")) ) ) ) ) server <- function(input, output) { output$plot <- renderPlot({ # Plotting function here }) output$table <- renderTable({ # Table generation function here }) } shinyApp(ui = ui, server = server) In this code, you can customize the values for the 'sliderInput' function by specifying the 'value' argument. For example, for the \"temp\" slider, you can set the initial value to 1, and for the \"sliders\" slider, you can set the initial value to 1 and the maximum value to 30. To achieve the specific custom values you mentioned (1, 5, 10, 15, 20, 25, and 30), you can use the following code f",
+      "avg_prediction": 0.5771
+    },
+    {
+      "idx": 34,
+      "hash": "a2f4a99b",
+      "n_words": 337,
+      "n_chars": 2363,
+      "preview_head": "diabetics and in a non-diabetic control group. Within the diabetics and the control group, intestinal ALP activity was significantly higher in BO secretors than A secretors or ABO non-secretors. There",
+      "preview_tail": "r, the difference between intestinal alkaline phosphatase activity levels within each group was not reflected at plasma level. This research contributes valuable insights into potential biomarkers for",
+      "full_text": "diabetics and in a non-diabetic control group. Within the diabetics and the control group, intestinal ALP activity was significantly higher in BO secretors than A secretors or ABO non-secretors. There was no difference in intestinal ALP activity between type 1 and type 2 diabetics but the diabetics had a significantly higher activity of this isoenzyme than the corresponding blood plasma level, suggesting that there may be an increased absorption or decreased excretion from gut. There was no difference in intestinal ALP levels between secretors and non-secretors within each group. The study aimed to investigate whether plasma alkaline phosphatase isoenzymes differed among diabetic patients compared with a control population, as well as how the ABO blood grouping might influence these enzyme activities. The findings suggest that intestinal ALP activity was significantly higher in BO secretor individuals than those who were either AB or non-secretors both within and between diabetes groups. However, no significant differences could be observed regarding plasma levels of alkaline phosphatase isoenzymes among type 1 diabetics compared to the control group. This might indicate that while intestinal activity was higher in BO secretor individuals from all three cohorts (diabetic or non-diabetes), this increase does not translate into a corresponding rise at systemic levels, particularly within diabetes groups. The results also suggest there is no impact of ABO blood grouping on the plasma level differences between diabetics and controls. The absence of such difference might be related to various factors including metabolic control in patients with type 1 or autoimmune origin compared to those seen among individuals diagnosed as having insulin-dependent, non-insulin dependent diabetes mellitus. The study concluded that while intestinal alkaline phosphatase activity was significantly higher for BO secretors than ABO-non-secretor diabetics and controls in both groups of patients with type 1 or autoimmune origin compared to those seen among individuals diagnosed as having insulin-dependent, non-insulin dependent diabetes mellitus. However, the difference between intestinal alkaline phosphatase activity levels within each group was not reflected at plasma level. This research contributes valuable insights into potential biomarkers for",
+      "avg_prediction": 0.5922
+    },
+    {
+      "idx": 35,
+      "hash": "67b4d22e",
+      "n_words": 91,
+      "n_chars": 569,
+      "preview_head": "recently conducting a highly successful performance of Britten\u2019s St Nicolas cantata in 2004. In May 2006 he will conduct Bach\u2019s St Matthew Passion in Geelong\u2019s Costa Hall. Rick is also the appointed c",
+      "preview_tail": "llowing concerts: 24 November 2000 The above details were supplied by the individual conductor and were current at the time of their last performance with the Zelman Symphony. Printable View Page last",
+      "full_text": "recently conducting a highly successful performance of Britten\u2019s St Nicolas cantata in 2004. In May 2006 he will conduct Bach\u2019s St Matthew Passion in Geelong\u2019s Costa Hall. Rick is also the appointed conductor of the Melbourne Bach Choir. Rick Prakhoff last conducted the Zelman Symphony on 24 November 2000. Rick Prakhoff has appeared with the Zelman Symphony in the following concerts: 24 November 2000 The above details were supplied by the individual conductor and were current at the time of their last performance with the Zelman Symphony. Printable View Page last",
+      "avg_prediction": 0.4315
+    },
+    {
+      "idx": 36,
+      "hash": "711dd64b",
+      "n_words": 66,
+      "n_chars": 332,
+      "preview_head": "cock baby! Oh baby look at how hard your cock gets when I wiggle my nice thick hips around and grind my ass up on that monster rock hard cock of yours. I wanna kiss down your chest right to your pants",
+      "preview_tail": "hard cock of yours. I wanna kiss down your chest right to your pants line and pull them down while slowly trailing along with soft gently kisses and light bites. I would than lick your I can't fulfill",
+      "full_text": "cock baby! Oh baby look at how hard your cock gets when I wiggle my nice thick hips around and grind my ass up on that monster rock hard cock of yours. I wanna kiss down your chest right to your pants line and pull them down while slowly trailing along with soft gently kisses and light bites. I would than lick your I can't fulfill",
+      "avg_prediction": 0.3314
+    },
+    {
+      "idx": 37,
+      "hash": "47d89e53",
+      "n_words": 53,
+      "n_chars": 316,
+      "preview_head": "put measures in place to ensure it can manage this welcome growth. changes introduced will make it easier for those coming into the city by prioritising the flow of traffic on the city quays and prior",
+      "preview_tail": "coming into the city by prioritising the flow of traffic on the city quays and prioritising buses on St. Patrick\u2019s Street, which is the main public transport corridor in the city, with high-frequency,",
+      "full_text": "put measures in place to ensure it can manage this welcome growth. changes introduced will make it easier for those coming into the city by prioritising the flow of traffic on the city quays and prioritising buses on St. Patrick\u2019s Street, which is the main public transport corridor in the city, with high-frequency,",
+      "avg_prediction": 0.4351
+    },
+    {
+      "idx": 38,
+      "hash": "a3f7b238",
+      "n_words": 194,
+      "n_chars": 1477,
+      "preview_head": "] From the Federal Register Online via the Government Printing Office [www.gpo.gov] [FR Doc No: 2013-23031] ======================================================================= --------------------",
+      "preview_tail": " safety protocols compliance. b). The rule could involve enhancing ventilation systems underground; improving training standards; 3. Public Comment Period: - Typically with proposed regulations in the",
+      "full_text": "] From the Federal Register Online via the Government Printing Office [www.gpo.gov] [FR Doc No: 2013-23031] ======================================================================= ----------------------------------------------------------------------- DEPARTMENT OF LABOR Mine Safety and Health AdministratIt seems like you're referring to a proposed rule in the Mine Safety and Health Administration (MSHA) regarding mine safety. The document likely outlines updates, revisions, or additions to existing mining standards aimed at enhancing worker protection. To provide more specific information about this particular notice of Proposed Rulemaking from MSHa on September 23rd, I would need access to its full text since the snippet provided is incomplete and only includes a header section with some introductory details. However, based solely on what's visible here: 1. Title: The document pertains specifically to mine safety standards. - This suggests that MSHA (Mine Safety & Health Administration) has proposed new regulations or modifications related to ensuring the health and welfare of individuals working in mining environments. 2. Proposed Rulemaking: a.) It is likely proposing changes such as updating existing rules, introducing stricter enforcement measures for safety protocols compliance. b). The rule could involve enhancing ventilation systems underground; improving training standards; 3. Public Comment Period: - Typically with proposed regulations in the",
+      "avg_prediction": 0.5575
+    },
+    {
+      "idx": 39,
+      "hash": "62001459",
+      "n_words": 72,
+      "n_chars": 610,
+      "preview_head": "userName\" type=\"s:string\" /> <s:element minOccurs=\"0\" maxOccurs=\"1\" name=\"currentPassword\" type=\"s:string\"/> <s:element minOccurs=\"0\" maXOccurs=\"1\" name=\"newPassword\" type=\"s:string\" /> </s:sequence> ",
+      "preview_tail": "return list, individual objects or other complex datatypes in .Net 2.0 is by following these steps: - Define your data types using classes and structs. You can define the structure of a class for each",
+      "full_text": "userName\" type=\"s:string\" /> <s:element minOccurs=\"0\" maxOccurs=\"1\" name=\"currentPassword\" type=\"s:string\"/> <s:element minOccurs=\"0\" maXOccurs=\"1\" name=\"newPassword\" type=\"s:string\" /> </s:sequence> </s:complexType> </s:element> <s:element name=\"ChangePasswordResponse\"> <s:complexType> <s:sequence> <s:element minOccurs=\"1System: A: The best way to develop an ASP.NET Webservice which will have methods that return list, individual objects or other complex datatypes in .Net 2.0 is by following these steps: - Define your data types using classes and structs. You can define the structure of a class for each",
+      "avg_prediction": 0.442
+    },
+    {
+      "idx": 40,
+      "hash": "4e29f6af",
+      "n_words": 167,
+      "n_chars": 916,
+      "preview_head": "2011)CarsGenre: Animation, Comedy Actors: Owen Wilson, Michael Caine, Emily Mortimer, Michael Keaton, Jason Isaacs, Bonnie Hunt, Tony Shalhoub, John Ratzenberger, Thomas Kretschmann, Joe Mantegna, Lar",
+      "preview_tail": "e 15, 2011) Cars 2 - Viral - V12 TV(June 14, 2011) Cars 2 - Carmac (June 13, 2011) Cars 2 - Cars Land (June 8, 2011) Cars 2 - Party(June 6, 2011) Cars 2 - Spy Cars Like Us (June 2, 2011) Cars 2 - Meet",
+      "full_text": "2011)CarsGenre: Animation, Comedy Actors: Owen Wilson, Michael Caine, Emily Mortimer, Michael Keaton, Jason Isaacs, Bonnie Hunt, Tony Shalhoub, John Ratzenberger, Thomas Kretschmann, Joe Mantegna, Larry The Cable Guy, Cheech Marin, Franco Nero, Jenifer Lewis, Peter Jacobson, Guido Quaroni Director: Brad Lewis, John Lasseter Cars 2 - Porta Corsa(July 5, 2011) Cars 2 - The Sound(July 4, 2011) Cars 2 - Video Game Voiceover (June 21, 2011) Cars 2 - Wasabi(June 20, 2011) Cars 2 - Fast Dirt(June 20, 2011) Cars 2 - Disguises(June 16, 2011) Cars 2 - Out of the Pits(June 16, 2011) Cars 2 - TV Spot - Hotter Than Ever(June 16, 2011) Cars 2 - Lewis Hamilton / Jeff Gorvette Cameos(June 15, 2011) Cars 2 - Tokyo Party(June 15, 2011) Cars 2 - Viral - V12 TV(June 14, 2011) Cars 2 - Carmac (June 13, 2011) Cars 2 - Cars Land (June 8, 2011) Cars 2 - Party(June 6, 2011) Cars 2 - Spy Cars Like Us (June 2, 2011) Cars 2 - Meet",
+      "avg_prediction": 0.5256
+    },
+    {
+      "idx": 41,
+      "hash": "8b7abb83",
+      "n_words": 85,
+      "n_chars": 576,
+      "preview_head": "TE events. Of 3159 procedures, 2766 (87.6%) received TXA (TXA+ group) preoperatively, whereas 393 (12.4%) did not (TXA- group). Mean age, distributions of gender, American Society of Anesthesiologists",
+      "preview_tail": "rbidities were all significantly different (TXA+ vs TXA- group; P values \u2264.002). We found 31 (1.0%) TE events out of 3159 procedures, with no significant group difference in TE events (TXA+: 27 out of",
+      "full_text": "TE events. Of 3159 procedures, 2766 (87.6%) received TXA (TXA+ group) preoperatively, whereas 393 (12.4%) did not (TXA- group). Mean age, distributions of gender, American Society of Anesthesiologists score, anesthesia method, duration of surgery, diagnosis, and survival status were all statistically significant different (P values <.05) between TXA groups. The studied comorbidities were all significantly different (TXA+ vs TXA- group; P values \u2264.002). We found 31 (1.0%) TE events out of 3159 procedures, with no significant group difference in TE events (TXA+: 27 out of",
+      "avg_prediction": 0.4362
+    },
+    {
+      "idx": 42,
+      "hash": "cd2b3fee",
+      "n_words": 310,
+      "n_chars": 1864,
+      "preview_head": "Pierre Eto'o Fils (born 13 June 1987) is a Cameroonian professional footballer who plays for Eding Sport, as a right winger. Early and personal life Born in Yaound\u00e9, he is the younger brother of Samue",
+      "preview_tail": "gues around Europe while maintaining a consistent level of performance. Off the field, Eto'o is known for his philanthropic efforts in Cameroon, often involved in community projects aimed at improving",
+      "full_text": "Pierre Eto'o Fils (born 13 June 1987) is a Cameroonian professional footballer who plays for Eding Sport, as a right winger. Early and personal life Born in Yaound\u00e9, he is the younger brother of Samuel Eto'o, while a younger brother Etienne also played for Real Mallorca. His father was also called David. Club career Eto'o began his career with the Kadji Sports Academy in Cameroon, before moving to Spain at the age of 16 with RCD Mallorca. At Mallorca he spent loan spells with Ciudad de Murcia and Yverdon-Sport FC, leaving the club in 2005. Short spells at Sedan, FC Champagne Sports, FC Meyrin, SD Ponferradina and US Cr\u00e9teil-Lusitanos followed, before Eto'o signed with Ukrainian side FC Metalurh Donetsk in April 2007. He later signed with Greek side Aris, where he went on to have a loan spell at Ilisiakos, after his loan spell ended he left Aris and moved back to Spain in August 2008 and signed a contract with CF Reus Deportiu. After two years with CF Reus Deportiu, he later played for Kadji Sports Academy, FC Koper and Union Douala, before signing for Eding Sport in 2018. International career Eto'o was called up to the Cameroon national team at a young age due to his family's football legacy. He made his debut with the senior squad in 2006 and quickly became an important player, contributing significantly over several years. Eto'o participated in multiple African Cup of Nations tournaments and World Cups, showcasing his skills on the international stage. Throughout his career, David has been recognized for his pace, dribbling ability, and knack for scoring goals from the wing position. His versatility allowed him to adapt to various leagues around Europe while maintaining a consistent level of performance. Off the field, Eto'o is known for his philanthropic efforts in Cameroon, often involved in community projects aimed at improving",
+      "avg_prediction": 0.4858
+    },
+    {
+      "idx": 43,
+      "hash": "a11440ad",
+      "n_words": 213,
+      "n_chars": 1391,
+      "preview_head": "for the three months ended December 31, 2011, as compared to adjusted operating loss of $4.0 million, or $0.25 per diluted share, for the three months ended September 30, 2011, and adjusted operating ",
+      "preview_tail": "t persisted throughout the year,\u201d said Daniel G. Cohen, Chairman and Chief Executive Officer of IFMI. \u201cWhile difficult decisions to significantly reduce our fixed expenses and overhead had to be made,",
+      "full_text": "for the three months ended December 31, 2011, as compared to adjusted operating loss of $4.0 million, or $0.25 per diluted share, for the three months ended September 30, 2011, and adjusted operating income of $4.7 million, or $0.30 per diluted share, for the three months ended December 31, 2010. end: \u201cWe\u2019re proud of the progress IFMI has made on its strategic growth initiatives in 2011, including the acquisition and successful integration of our PrinceRidge and JVB subsidiaries, especially considering the difficult market conditions that persisted throughout the year,\u201d said daniel G. Cohen, Chairman and Chief Executive Officer of IFMI. \u201cWhile difficult decisions to significantly reduce our fixed expenses and overhead had to be made, we believe these actions have enhanced our competitive position and will enable us to take advantage of eventual market improvement. As we look ahead to 2012, we continue to believe we are well capitalized. \u201cWe\u2019re proud of the progress IFMI has made on its strategic growth initiatives in 2011, including the acquisition and successful integration of our PrinceRidge and JVB subsidiaries, especially considering the difficult market conditions that persisted throughout the year,\u201d said Daniel G. Cohen, Chairman and Chief Executive Officer of IFMI. \u201cWhile difficult decisions to significantly reduce our fixed expenses and overhead had to be made,",
+      "avg_prediction": 0.5316
+    },
+    {
+      "idx": 44,
+      "hash": "0d2ce634",
+      "n_words": 128,
+      "n_chars": 935,
+      "preview_head": "of cell homogenates, suggesting a membrane-bound localization. Adenylate cyclase has been characterized as having a molecular weight around 120-150 kDa when solubilized and can exist as part of larger",
+      "preview_tail": "urotransmitters. 3. Molecular Structure: The molecular weight of the soluble form of guanylate cyclase (154 kDa) is similar to but slightly larger than that reported for solubilized forms of adenylate",
+      "full_text": "of cell homogenates, suggesting a membrane-bound localization. Adenylate cyclase has been characterized as having a molecular weight around 120-150 kDa when solubilized and can exist as part of larger complexes within the plasma membrane. Comparative studies between these two enzymes highlight several key differences: 1. Localization: Guanylate cyclase is present in both soluble and particulate fractions, whereas adenylate cyclase is primarily associated with membranes. 2. Activation Mechanisms: While guanylate cyclase can be activated by detergents like Lubrol PX, which induce conformational changes that enhance its activity, adenylate cyclase activation typically involves G-protein coupling and stimulation by hormones or neurotransmitters. 3. Molecular Structure: The molecular weight of the soluble form of guanylate cyclase (154 kDa) is similar to but slightly larger than that reported for solubilized forms of adenylate",
+      "avg_prediction": 0.6241
+    },
+    {
+      "idx": 45,
+      "hash": "d70d2b90",
+      "n_words": 59,
+      "n_chars": 392,
+      "preview_head": "logic circuits offer advantages such as cost-effectiveness, reliability, and the ability to perform complex operations. As a result, the demand and popularity of digital logic circuits have been incre",
+      "preview_tail": "en increasing, and they have been widely adopted in various electronic devices and systems. This has led to the replacement of many traditional circuits, as digital logic circuits can perform the same",
+      "full_text": "logic circuits offer advantages such as cost-effectiveness, reliability, and the ability to perform complex operations. As a result, the demand and popularity of digital logic circuits have been increasing, and they have been widely adopted in various electronic devices and systems. This has led to the replacement of many traditional circuits, as digital logic circuits can perform the same",
+      "avg_prediction": 0.7764
+    },
+    {
+      "idx": 46,
+      "hash": "92be851d",
+      "n_words": 41,
+      "n_chars": 251,
+      "preview_head": "This study will answer the following questions: 1) Do CBF and CMRO2 responses to a standard neural activation task change with degree of HNCI? 2) Does calibrated BOLD fMRI change after initiation of c",
+      "preview_tail": "Do CBF and CMRO2 responses to a standard neural activation task change with degree of HNCI? 2) Does calibrated BOLD fMRI change after initiation of cART? In particular, does better CNS penetrating cAR",
+      "full_text": "This study will answer the following questions: 1) Do CBF and CMRO2 responses to a standard neural activation task change with degree of HNCI? 2) Does calibrated BOLD fMRI change after initiation of cART? In particular, does better CNS penetrating cAR",
+      "avg_prediction": 0.4173
+    },
+    {
+      "idx": 47,
+      "hash": "d76c4df3",
+      "n_words": 255,
+      "n_chars": 1469,
+      "preview_head": "be best for his overall health. Arriving at the hospital, the woman reported that her husband was weaker from the transfer and confused about why he was back in the hospital. The children shared power",
+      "preview_tail": "pact that a transfer would have on an already injured and ill person. In most cases nursing homes are just as able to treat pneumonia as a hospital, and it would have spared him the trauma of the move",
+      "full_text": "be best for his overall health. Arriving at the hospital, the woman reported that her husband was weaker from the transfer and confused about why he was back in the hospital. The children shared power of attorney, which was set up so that both the wife and the children could make decisions about the man\u2019s medical care. The wife was troubled by the children\u2019s insistence that he needed to return to the hospital. The children felt that his care at the nursing home was inadequate. It\u2019s hard to know what may motivate the stepchildren here, but an attorney who specializes in estate or elder law is the best resource for people when making decisions, while setting up powers of attorney. An attorney may not have advised that the wife and stepchildren share this decision-making power. Even when the intentions are good, sometimes its best when only one person is in charge. Estates can be complex when there are adult children and a second marriage\u2014even when the relationships are good. It would have been better had the father spoken with his children beforehand to explain his overall wishes about his care, so that there would be less discord in the decision-making process. The treating physician might have been asked to speak with the children and explain the impact that a transfer would have on an already injured and ill person. In most cases nursing homes are just as able to treat pneumonia as a hospital, and it would have spared him the trauma of the move",
+      "avg_prediction": 0.4626
+    },
+    {
+      "idx": 48,
+      "hash": "fb864cd1",
+      "n_words": 241,
+      "n_chars": 1660,
+      "preview_head": "with a primary CAP diagnosis and utilizing data sources like the National Health and Nutrition Examination Survey III and Medicare, the study sought to provide valuable insights into the economic impa",
+      "preview_tail": "sociated with preventive strategies, such as vaccination campaigns, which aim to reduce the incidence of CAP and subsequent treatment expenses. To obtain a comprehensive understanding of the financial",
+      "full_text": "with a primary CAP diagnosis and utilizing data sources like the National Health and Nutrition Examination Survey III and Medicare, the study sought to provide valuable insights into the economic impact of CAP on the healthcare system. Unfortunately, I don't have the specific findings of the study, but here are some general considerations regarding the costs of treating CAP: - Hospitalization: CAP often requires hospitalization, especially in severe cases or for high-risk patients. Hospital stays can incur significant expenses, including room charges, diagnostic tests, medications, and healthcare personnel fees. - Diagnostic Tests: Diagnosing CAP typically involves blood tests, chest X-rays, and in some cases, more advanced imaging like CT scans. These diagnostic procedures contribute to the overall cost. - Medications: Treatment usually involves antibiotics, which can vary in price depending on the specific drug and the duration of treatment. In some cases, additional medications may be required to manage symptoms or treat complications. - Follow-up Care: After the initial treatment, patients may require follow-up visits to ensure recovery and monitor for potential complications. These visits add to the overall treatment cost. - Complications: CAP can lead to complications such as respiratory failure, sepsis, or the need for intensive care, all of which significantly increase treatment costs. - Preventive Measures: Costs can also be associated with preventive strategies, such as vaccination campaigns, which aim to reduce the incidence of CAP and subsequent treatment expenses. To obtain a comprehensive understanding of the financial",
+      "avg_prediction": 0.6159
+    },
+    {
+      "idx": 49,
+      "hash": "af217d7c",
+      "n_words": 195,
+      "n_chars": 1312,
+      "preview_head": "parent container. - Subsequent layers differ only if there's different build context provided for each user (e.g., custom configurations or specific dependencies). Therefore the storage space consumed",
+      "preview_tail": "ompared to each having their own full-sized images. - Changes or updates can be done independently in different containers without affecting shared layer structure until updated by push/pull command o",
+      "full_text": "parent container. - Subsequent layers differ only if there's different build context provided for each user (e.g., custom configurations or specific dependencies). Therefore the storage space consumed by Docker does not simply double up to store two separate 100MB images, but instead remains at about one single image size of approximately a few MB plus some extra layer overhead. This is highly efficient in terms of disk usage and ensures that all users benefit from this shared infrastructure. The layers are designed such that changes or updates do not require re-downloading the entire container; rather they only update what's necessary, reducing storage requirements significantly for multiple containers with similar configurations. So to answer your question: when two different images (`user1_myapp` and `user2_myapp`) from exactly same Dockerfile are running on a single development server \u2013 they share underlying image layers. Therefore the disk space is used more efficiently, saving you additional storage costs. In essence: - Multiple users with similar configurations use less total disc space compared to each having their own full-sized images. - Changes or updates can be done independently in different containers without affecting shared layer structure until updated by push/pull command o",
+      "avg_prediction": 0.5438
+    },
+    {
+      "idx": 50,
+      "hash": "fd8321fc",
+      "n_words": 174,
+      "n_chars": 1056,
+      "preview_head": "inge direkt zu: Inhaltsbereich | Hauptnavigation | Themenavigation | Suche | City map Contact Living in Frankfurt Tourism Culture Business City Hall Sie sind hier: Home > Culture > Museums Themennavig",
+      "preview_tail": "o learn about this here. The distribution of the Bible would have been untimely without printing technology \u2013 but it was Gutenberg who introduced movable type in Europe. Bibelhaus am Museumspier Tel.:",
+      "full_text": "inge direkt zu: Inhaltsbereich | Hauptnavigation | Themenavigation | Suche | City map Contact Living in Frankfurt Tourism Culture Business City Hall Sie sind hier: Home > Culture > Museums Themennavigation Museums Theatres Bible House on the Museum Riverbank HE might have lived like this: Stories about Jesus come to life when visitors to the Bible House (Bibelhaus) on the Museum Riverbank board a reproduction of a boat from his era. It is a replica of an archaeological finding from the Sea of Galilee, where Jesus lived and preached. There is also a nomad\u2019s tent from Abraham\u2019s time that helps people imagine what life was like then. The bridge to the present is made by the picture exhibition \u201cModern Nomads\u201d. And what do myrrh, frankincense and anointing oil actually smell like? What did religious music sound like 3,000 years ago? Visitors can also learn about this here. The distribution of the Bible would have been untimely without printing technology \u2013 but it was Gutenberg who introduced movable type in Europe. Bibelhaus am Museumspier Tel.:",
+      "avg_prediction": 0.4452
+    },
+    {
+      "idx": 51,
+      "hash": "011ecad8",
+      "n_words": 156,
+      "n_chars": 1088,
+      "preview_head": "control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's childre",
+      "preview_tail": "nt's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and th",
+      "full_text": "control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and the restaurant's children, and to control the restaurant's volume and th",
+      "avg_prediction": 0.7738
+    },
+    {
+      "idx": 52,
+      "hash": "886f487e",
+      "n_words": 214,
+      "n_chars": 1627,
+      "preview_head": "ossibilities for developing high-performance electronic and optoelectronic devices. In our experiments, the SiGe quantum dots were formed by depositing germanium on a silicon substrate at elevated tem",
+      "preview_tail": " interactions between quasiparticles in both semiconductor and superconductor regions. One notable example is a type-II Josephson Junction where Cooper pairs can quantum mechanically penetrate through",
+      "full_text": "ossibilities for developing high-performance electronic and optoelectronic devices. In our experiments, the SiGe quantum dots were formed by depositing germanium on a silicon substrate at elevated temperatures under controlled conditions to promote self-assembly into well-defined nanoparticles or islands. The size of these nanocrystals can be tuned through precise control over growth parameters such as temperature, pressure, and deposition rate. This tunability is crucial for optimizing the electronic properties required in various applications. The direct contact between individual SiGe quantum dots and aluminum electrodes facilitates efficient hole confinement within each dot due to their small dimensions (typically ranging from a few nanometers up to tens of nm). Hole localization results in discrete energy levels, which can be manipulated through external electric fields or magnetic fluxes. This capability is essential for creating single-electron transistors that could serve as fundamental building blocks for quantum computing architectures. Furthermore, when these SiGe-based quantum dots are interfaced with superconducting materials like niobium (Nb) films deposited via sputtering techniques onto the silicon substrate hosting the nanocrystals, they form hybrid structures capable of supporting resonant tunnel junctions. These devices exhibit unique electrical characteristics that arise from coherent interactions between quasiparticles in both semiconductor and superconductor regions. One notable example is a type-II Josephson Junction where Cooper pairs can quantum mechanically penetrate through",
+      "avg_prediction": 0.696
+    },
+    {
+      "idx": 53,
+      "hash": "9596361d",
+      "n_words": 77,
+      "n_chars": 408,
+      "preview_head": "aving an escape plan at home, and what to do if you find yourself in a burning months later, young Brantson woke up to find his home was on fire. He ran outside as quickly as he could but realized tha",
+      "preview_tail": "or had been left for him and there were flames coming from inside. The little boy's mother called 911, and within minutes firefighters arrived at their scene to find Brantson hiding in a neighbor\u2019s ya",
+      "full_text": "aving an escape plan at home, and what to do if you find yourself in a burning months later, young Brantson woke up to find his home was on fire. He ran outside as quickly as he could but realized that the door had been left for him and there were flames coming from inside. The little boy's mother called 911, and within minutes firefighters arrived at their scene to find Brantson hiding in a neighbor\u2019s ya",
+      "avg_prediction": 0.4257
+    },
+    {
+      "idx": 54,
+      "hash": "47aae199",
+      "n_words": 77,
+      "n_chars": 478,
+      "preview_head": "device, you are greeted by an attractive Full HD screen that boasts vibrant colors and sharp images. The keyboard is well-spaced and comfortable to type on, though the touchpad could use some improvem",
+      "preview_tail": "85V packs a powerful Intel Core i7-3612QM processor and an Nvidia GeForce GT 650M GPU, making it more than capable of handling demanding tasks like video editing and gaming. The storage side is also i",
+      "full_text": "device, you are greeted by an attractive Full HD screen that boasts vibrant colors and sharp images. The keyboard is well-spaced and comfortable to type on, though the touchpad could use some improvement in terms of sensitivity and accuracy. Performance-wise, the Asus K93SM-YZ085V packs a powerful Intel Core i7-3612QM processor and an Nvidia GeForce GT 650M GPU, making it more than capable of handling demanding tasks like video editing and gaming. The storage side is also i",
+      "avg_prediction": 0.6211
+    },
+    {
+      "idx": 55,
+      "hash": "9941a64f",
+      "n_words": 123,
+      "n_chars": 757,
+      "preview_head": "cting in the late 1990s and became an anti-war activist. In 2004, as a member of the American Friends Service Committee, she was the first coordinator of the Eyes Wide Open installation in Chicago. Sh",
+      "preview_tail": "tudent in 1976 Austin. She has also appeared on TV shows like where she had recurring roles as Rosie Martinez during seasons four to six. However, her acting career was relatively short-lived compared",
+      "full_text": "cting in the late 1990s and became an anti-war activist. In 2004, as a member of the American Friends Service Committee, she was the first coordinator of the Eyes Wide Open installation in Chicago. She currently works as Director of Communications for Solidarity Bridge, a Christian medical charity focused on Latin America. FilmograIt seems like you were starting to list Christin Hinojosa's filmography but didn't complete it. Here is what I can gather based off the information available: - Dazed and Confused (1993) - She played Sabrina, a high school student in 1976 Austin. She has also appeared on TV shows like where she had recurring roles as Rosie Martinez during seasons four to six. However, her acting career was relatively short-lived compared",
+      "avg_prediction": 0.3486
+    },
+    {
+      "idx": 56,
+      "hash": "cdb7d598",
+      "n_words": 49,
+      "n_chars": 455,
+      "preview_head": "in the lICENSE file. import 'package:test/test.dart'; import '../../descriptor.dart' as d; imporT '../../test_pub.dart'; void main() { test(\"doesn't snapshots the executables for a path package\", () a",
+      "preview_tail": "), d.dir('bin', [d.file('hello.dart', \"void main() => print('hello!');\")]) ]).create(); await runPub( args: ['global', 'activate', '-spath', '../foo'], outpoutIsOk, exitCodeCheckExpectedToFail); }); }",
+      "full_text": "in the lICENSE file. import 'package:test/test.dart'; import '../../descriptor.dart' as d; imporT '../../test_pub.dart'; void main() { test(\"doesn't snapshots the executables for a path package\", () async { await d.dir('foo', [ d.libPubspec('foo', '1.0.0'), d.dir('bin', [d.file('hello.dart', \"void main() => print('hello!');\")]) ]).create(); await runPub( args: ['global', 'activate', '-spath', '../foo'], outpoutIsOk, exitCodeCheckExpectedToFail); }); }",
+      "avg_prediction": 0.4634
+    },
+    {
+      "idx": 57,
+      "hash": "8a06f51b",
+      "n_words": 161,
+      "n_chars": 1041,
+      "preview_head": "Awards Commissions MUSIC Orchestra Concert Band Ensemble Chamber Vocal Manuscripts Media Recordings Photo Gallery Video Gallery News Contact New Band Music Catalogue 2016 news New Band Music Catalogue",
+      "preview_tail": "positions, including original works, arrangements, and transcriptions, all carefully crafted to showcase the versatility and expressiveness of the wind band medium. With a focus on innovative and enga",
+      "full_text": "Awards Commissions MUSIC Orchestra Concert Band Ensemble Chamber Vocal Manuscripts Media Recordings Photo Gallery Video Gallery News Contact New Band Music Catalogue 2016 news New Band Music Catalogue 2016 Details 02 September 2016 User Rating: 0 / 5 Please rate Vote 1 Vote 2 Vote 3 Vote 4 Vote 5 concert band catalogue We proudly present our new catalogue 2016 with wind band publications for 2016/2017. Enter and discover our new releases! Enters into Javier P\u00e9rez Garrido's band world and let yourself be amazed by his works. Band Music Video Recordings available on youtube. Click here! Download Concert Band Works CATALOGUE in PDF Javier P\u00e9rez Garrido Concert Band Music Compositions 2016 Catalogue We proudly present our new catalogue 2016 with wind band publications for 2016/2017, featuring a diverse range of concert band music compositions, including original works, arrangements, and transcriptions, all carefully crafted to showcase the versatility and expressiveness of the wind band medium. With a focus on innovative and enga",
+      "avg_prediction": 0.4416
+    },
+    {
+      "idx": 58,
+      "hash": "e7d7a843",
+      "n_words": 70,
+      "n_chars": 1712,
+      "preview_head": "<dependency> <groupId>commons-codec</groupId> <artifactId>commons-codec</artifactId> <version>${commons.codec.version}</version> </dependency> <dependency> <groupId>com.nimbusds</groupId> <artifactId>",
+      "preview_tail": "m-interface</artifactId> <version>${vmware.version}</version> </dependency> <dependency> <groupId>com.vmware.vmafd</groupId> <artifactId>vmware-endpoint-certificate-store</artifactId> <version>${vmwar",
+      "full_text": "<dependency> <groupId>commons-codec</groupId> <artifactId>commons-codec</artifactId> <version>${commons.codec.version}</version> </dependency> <dependency> <groupId>com.nimbusds</groupId> <artifactId>nimbus-jose-jwt</artifactId> <version>${nimbusds.version}</version> </dependency> <!-- Logger Dependencies --> <dependency> <groupId>org.apache.logging.log4j</groupId> <artifactId>log4j-core</artifactId> <version>${apache.log4j.version}</version> </dependency> <dependency> <groupId>org.apache.logging.log4j</groupId> <artifactId>log4j-api</artifactId> <version>${apache.log4j.version}</version> </dependency> <!-- Required for native Jersey HTTP request/response logging--> <dependency> <groupId>org.slf4j</groupId> <artifactId>jul-to-slf4j</artifactId> <version>${slf4j.version}</version> </dependency> <dependency> <groupId>org.slf4j</groupId> <artifactId>slf4j-log4j12</artifactId> <version>${slf4j.version}</version> </dependency> <!-- VMware Dependencies --> <dependency> <groupId>com.vmware.identity</groupId> <artifactId>vmware-identity-diagnostics</artifactId> <version>${vmware.version}</version> </dependency> <dependency> <groupId>com.vmware.identity.commons</groupId> <artifactId>samltoken</artifactId> <version>${vmware.version}</version> </dependency> <dependency> <groupId>com.vmware.identity.idm</groupId> <artifactId>vmware-identity-idm-client</artifactId> <version>${vmware.version}</version> </dependency> <dependency> <groupId>com.vmware.identity.idm</groupId> <artifactId>vmware-identity-idm-interface</artifactId> <version>${vmware.version}</version> </dependency> <dependency> <groupId>com.vmware.vmafd</groupId> <artifactId>vmware-endpoint-certificate-store</artifactId> <version>${vmwar",
+      "avg_prediction": 0.5247
+    },
+    {
+      "idx": 59,
+      "hash": "ebb17dec",
+      "n_words": 257,
+      "n_chars": 1748,
+      "preview_head": "tions Forum Member Area Poetry E-Books Share this poems : kfm Productions kfm Productions (30 / 03 / 1987) Poet's Page Poems Comments Stats E-Books Biography Message to the poet Stats \u00bb Click to list ",
+      "preview_tail": "asier to identify trends and popular periods. Additionally, exploring the poet's page will provide access to their complete works, biography, and opportunities to leave comments or messages, fostering",
+      "full_text": "tions Forum Member Area Poetry E-Books Share this poems : kfm Productions kfm Productions (30 / 03 / 1987) Poet's Page Poems Comments Stats E-Books Biography Message to the poet Stats \u00bb Click to list general statistics \u00bb OR, select a date : - Select a date - 8/30/2014 8/29/2014 8/28/2014 8/27/2014 8/26/2014 8/25/2014 8/24/2014 8/23/2014 8/22/2014 8/21/2014 8/20/2014 8/19/2014 8/18/2014 8/17/2014 8/16/2014 8/15/2014 8/14/2014 8/13/2014 8/12/2014 8/11/2014 8/10/2014 8/9/2014 8/8/2014 8/7/2014 8/6/2014 8/5/2014 8/4/2014The statistics for the poet kfm Productions continue as follows: Home Poets Poems Quotations Forum Member Area Poetry E-Books Share this poem: kfm Productions kfm Productions (30 / 03 / 1987) Poet's Page Poems Comments Stats E-Books Biography Message to the poet Stats \u00bb Click to list general statistics \u00bb OR, select a date : - Select a date - 8/30/2014 8/29/2014 8/28/2014 8/27/2014 8/26/2014 8/25/2014 8/24/2014 8/23/2014 8/22/2014 8/21/2014 8/20/2014 8/19/2014 8/18/2014 8/17/2014 8/16/2014 8/15/2014 8/14/2014 8/13/2014 8/12/2014 8/11/2014 8/10/2014 8/9/2014 8/8/2014 8/7/2014 8/6/2014 8/5/2014 8/4/2014 - View as line graph - By selecting any of the dates listed above, you can view the specific statistics and activity for kfm Productions on those dates. This includes information on views, shares, comments, and more related to their poems, quotations, and overall engagement within the poetry community. The line graph option allows for a visual representation of the poet's activity over that time period, making it easier to identify trends and popular periods. Additionally, exploring the poet's page will provide access to their complete works, biography, and opportunities to leave comments or messages, fostering",
+      "avg_prediction": 0.553
+    },
+    {
+      "idx": 60,
+      "hash": "65e9c70c",
+      "n_words": 57,
+      "n_chars": 339,
+      "preview_head": "are the bonds, CDs, and low-risk investment. Annuities are a low-risk investment, and the low-interest rates of some annuities are a sign of the low-risk. continuous retirees in a state run institutio",
+      "preview_tail": "f the low-risk. continuous retirees in a state run institution). The reasons its difficult to get a straight answer is because: 1) The issuer gets to collect SEC mandated 10b-5 fees. This is usually a",
+      "full_text": "are the bonds, CDs, and low-risk investment. Annuities are a low-risk investment, and the low-interest rates of some annuities are a sign of the low-risk. continuous retirees in a state run institution). The reasons its difficult to get a straight answer is because: 1) The issuer gets to collect SEC mandated 10b-5 fees. This is usually a",
+      "avg_prediction": 0.4368
+    },
+    {
+      "idx": 61,
+      "hash": "6d6b70bf",
+      "n_words": 54,
+      "n_chars": 381,
+      "preview_head": "of the northern Mojave Desert in Inyo County, California, southern Nevada including the Ely Springs Range, and southwestern Utah. Fossils It preserves fossils dating back to the Ordovician period of t",
+      "preview_tail": "ovician period of the Paleozoic Era. See also List of fossiliferous stratigraphic units in California List of fossiliferous stratigraphic units in Nevada List of fossiliferous stratstratigraphic units",
+      "full_text": "of the northern Mojave Desert in Inyo County, California, southern Nevada including the Ely Springs Range, and southwestern Utah. Fossils It preserves fossils dating back to the Ordovician period of the Paleozoic Era. See also List of fossiliferous stratigraphic units in California List of fossiliferous stratigraphic units in Nevada List of fossiliferous stratstratigraphic units",
+      "avg_prediction": 0.3971
+    },
+    {
+      "idx": 62,
+      "hash": "e739133c",
+      "n_words": 67,
+      "n_chars": 394,
+      "preview_head": "es in their estates and they also had to look after the people of various trades that helped their estates to function properly. They also enjoyed various sports which continued their quest for a perf",
+      "preview_tail": "a perfect high class image. There was hawking and hunting which were considered a veritable entertainment. The nobles married to maintain their status and class. It is common for them to marry in trad",
+      "full_text": "es in their estates and they also had to look after the people of various trades that helped their estates to function properly. They also enjoyed various sports which continued their quest for a perfect high class image. There was hawking and hunting which were considered a veritable entertainment. The nobles married to maintain their status and class. It is common for them to marry in trad",
+      "avg_prediction": 0.4208
+    },
+    {
+      "idx": 63,
+      "hash": "ac28a5a3",
+      "n_words": 86,
+      "n_chars": 661,
+      "preview_head": "activating platelets through a mechanism involving protease-activated receptor 4 (PAR4) signaling. Furthermore, recent studies have shown that heparanase can modulate the immune response by inhibiting",
+      "preview_tail": "nd therapy resistance through the activation of signaling pathways such as Wnt/\u03b2-catenin and Notch. Overall, the multifaceted roles of heparanase in cancer make it an attractive target for therapeutic",
+      "full_text": "activating platelets through a mechanism involving protease-activated receptor 4 (PAR4) signaling. Furthermore, recent studies have shown that heparanase can modulate the immune response by inhibiting dendritic cell maturation and function, promoting regulatory T cell differentiation, and enhancing myeloid-derived suppressor cell expansion, thereby contributing to immune evasion in cancer. Additionally, heparanase has been found to promote cancer stemness and therapy resistance through the activation of signaling pathways such as Wnt/\u03b2-catenin and Notch. Overall, the multifaceted roles of heparanase in cancer make it an attractive target for therapeutic",
+      "avg_prediction": 0.6079
+    },
+    {
+      "idx": 64,
+      "hash": "320e4a61",
+      "n_words": 76,
+      "n_chars": 523,
+      "preview_head": "Wine Coolers Beer Dispensers Food Disposers Ice Machines Trash Compacting Water Coolers Appliance Accessories Clearance Items Washers & Dryers Washer & Dryer Bundles Washers Dryers Washer Dryer Combos",
+      "preview_tail": "fiers Heaters Fans Air Purifiers Clearance Items TV & Video Televisions Blu-ray & DVD Projectors TV Furniture TV & Video Accessories Sound & Vision Clearance Items Home & Furniture Home Furniture Home",
+      "full_text": "Wine Coolers Beer Dispensers Food Disposers Ice Machines Trash Compacting Water Coolers Appliance Accessories Clearance Items Washers & Dryers Washer & Dryer Bundles Washers Dryers Washer Dryer Combos Laundry Pedestals & Stacking Kits Parts & Accessories Clearance Items Air Conditioning & Heating Air Conditioners Dehumidifiers Heaters Fans Air Purifiers Clearance Items TV & Video Televisions Blu-ray & DVD Projectors TV Furniture TV & Video Accessories Sound & Vision Clearance Items Home & Furniture Home Furniture Home",
+      "avg_prediction": 0.4824
+    },
+    {
+      "idx": 65,
+      "hash": "ff43b84f",
+      "n_words": 109,
+      "n_chars": 668,
+      "preview_head": "he Commission Our Staff History Our Services Annual Reports Employment FAQs Cemeteries & Memorials Search ABMC Burials News & Events All Events All News World War I Centennial Education Resources Mult",
+      "preview_tail": "leted text based on the user's output: Howard L. Perkins ABMC.gov Please note that the user's input was \"Skip to primary content\", so I have completed the text with the primary content of the website,",
+      "full_text": "he Commission Our Staff History Our Services Annual Reports Employment FAQs Cemeteries & Memorials Search ABMC Burials News & Events All Events All News World War I Centennial Education Resources Multimedia All Interactives All Photos All Videos Search form Search Facebook YouTube Instagram Subscribe to Updates Contact Us Press escape to close this window. Press escape to close this window. You are here Home / Howard L. Perkins Howard L. Perkins ABHere is the completed text based on the user's output: Howard L. Perkins ABMC.gov Please note that the user's input was \"Skip to primary content\", so I have completed the text with the primary content of the website,",
+      "avg_prediction": 0.4951
+    },
+    {
+      "idx": 66,
+      "hash": "134e932a",
+      "n_words": 257,
+      "n_chars": 1667,
+      "preview_head": "us 2000 you are here: choose a survey survey data set table details Survey: Census 2000 Data Source: U.S. Census Bureau Data set: Summary File 3 (SF3) Table: P5. Urban and Rural [7] Universe: Total po",
+      "preview_tail": "P005007: Population living in nonfarm rural areas. This table helps to understand the distribution of the population between urban and rural settings, providing insights into the demographic makeup of",
+      "full_text": "us 2000 you are here: choose a survey survey data set table details Survey: Census 2000 Data Source: U.S. Census Bureau Data set: Summary File 3 (SF3) Table: P5. Urban and Rural [7] Universe: Total population Table Details P5. Urban And Rural Universe: Total population Variable Label P005001 Total: P005002 Urban: P005003 Inside urbanized areas P005004 Inside urban clusters P005005 Rural: P005006 Farm P005007 Nonfarm Relevant Documentation: Excerpt from: Social Explorer, U.S. Census Bureau; 2000 Census of Population and Housing, Summary File 3: Technical Documentation, 2002. Summary File 3 (SF3) contains the sample data, which is the information collected from a sample of households. The complete count data from the census is contained in Summary File 1 (SF1) and Summary File 2 (SF2). The SF3 data provides a much wider range of population characteristics than the SF1 and SF2 data. The table P5, titled \"Urban And Rural,\" breaks down the total population into urban and rural categories, with further subdivisions within each category. Here's a brief explanation of the variables: - P005001: Total population. - P005002: Population living in urban areas. - P005003: Population living inside urbanized areas (areas with a population of 50,000 or more). - P005004: Population living inside urban clusters (areas with a population between 2,500 and 50,000). - P005005: Population living in rural areas. - P005006: Population living on farms in rural areas. - P005007: Population living in nonfarm rural areas. This table helps to understand the distribution of the population between urban and rural settings, providing insights into the demographic makeup of",
+      "avg_prediction": 0.5874
+    },
+    {
+      "idx": 67,
+      "hash": "e3c0272a",
+      "n_words": 85,
+      "n_chars": 471,
+      "preview_head": "having the community consulted with first. For precedent, he refers to a communication between God, Moses and Israel on the appointment of Bezalel: \u05d0\u05de\u05e8 \u05e8\u05d1\u05d9 \u05d9\u05e6\u05d7\u05e7 \u05d0\u05d9\u05df \u05de\u05e2\u05de\u05d9\u05d3\u05d9\u05df \u05e4\u05e8\u05e0\u05e1 \u05e2\u05dc \u05d4\u05e6\u05d1\u05d5\u05e8 \u05d0\u05dc\u05d0 \u05d0\u05dd \u05db\u05df \u05e0\u05de\u05dc",
+      "preview_tail": "\u05dc\u05de\u05e9\u05d4 \u05de\u05e9\u05d4 \u05d4\u05d2\u05d5The word \"Shamayim\" (\u05e9\u05de\u05d9\u05dd) in the Zimun, as well as in the context of the counting of the Omer, holds a significant meaning in Jewish tradition, representing the concept of \"Heaven\" or the",
+      "full_text": "having the community consulted with first. For precedent, he refers to a communication between God, Moses and Israel on the appointment of Bezalel: \u05d0\u05de\u05e8 \u05e8\u05d1\u05d9 \u05d9\u05e6\u05d7\u05e7 \u05d0\u05d9\u05df \u05de\u05e2\u05de\u05d9\u05d3\u05d9\u05df \u05e4\u05e8\u05e0\u05e1 \u05e2\u05dc \u05d4\u05e6\u05d1\u05d5\u05e8 \u05d0\u05dc\u05d0 \u05d0\u05dd \u05db\u05df \u05e0\u05de\u05dc\u05db\u05d9\u05dd \u05d1\u05e6\u05d1\u05d5\u05e8 \u05e9\u05e0\u05d0' (\u05e9\u05de\u05d5\u05ea \u05dc\u05d4, \u05dc) \u05e8\u05d0\u05d5 \u05e7\u05e8\u05d0 \u05d4' \u05d1\u05e9\u05dd \u05d1\u05e6\u05dc\u05d0\u05dc \u05d0\u05de\u05e8 \u05dc\u05d5 \u05d4\u05e7\u05d3\u05d5\u05e9 \u05d1\u05e8\u05d5\u05da \u05d4\u05d5\u05d0 \u05dc\u05de\u05e9\u05d4 \u05de\u05e9\u05d4 \u05d4\u05d2\u05d5The word \"Shamayim\" (\u05e9\u05de\u05d9\u05dd) in the Zimun, as well as in the context of the counting of the Omer, holds a significant meaning in Jewish tradition, representing the concept of \"Heaven\" or the",
+      "avg_prediction": 0.4427
+    },
+    {
+      "idx": 68,
+      "hash": "7eaf5275",
+      "n_words": 52,
+      "n_chars": 325,
+      "preview_head": "ers of the 9th Congress. ## House seniority This article describes the criteria for seniority in the House of Represesntations and lists members of the 9th Congress. ## House seniority This article de",
+      "preview_tail": "s and lists members of the 9th Congress. ## House seniority This article describes the criteria for seniority in the House of Represesntations and lists members of the 9th Congress. ## House seniority",
+      "full_text": "ers of the 9th Congress. ## House seniority This article describes the criteria for seniority in the House of Represesntations and lists members of the 9th Congress. ## House seniority This article describes the criteria for seniority in the House of Represesntations and lists members of the 9th Congress. ## House seniority",
+      "avg_prediction": 0.525
+    },
+    {
+      "idx": 69,
+      "hash": "93bf1e53",
+      "n_words": 81,
+      "n_chars": 557,
+      "preview_head": "method used in the image analysis. The study, which included 61 patients with previous myocardial infarction, showed that the quantitative method employing interpolative background correction resulted",
+      "preview_tail": "ut of 201Tl related to reperfusion, but rather an artifact of the background subtraction method. This is an important finding, as it highlights the potential pitfalls of using background subtraction i",
+      "full_text": "method used in the image analysis. The study, which included 61 patients with previous myocardial infarction, showed that the quantitative method employing interpolative background correction resulted in an overestimation of 201Tl washout in infarct segments. This suggests that the reported pattern of \"reverse redistribution\" may not be due to rapid washout of 201Tl related to reperfusion, but rather an artifact of the background subtraction method. This is an important finding, as it highlights the potential pitfalls of using background subtraction i",
+      "avg_prediction": 0.5954
+    },
+    {
+      "idx": 70,
+      "hash": "6309b3c5",
+      "n_words": 145,
+      "n_chars": 773,
+      "preview_head": "in thy name have cast out devils? and in thy name done many wonderful works? And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.\u201d (Matthew 7:21-23) The Joseph S",
+      "preview_tail": " actions must be backed up with good intentions and a desire to do the right thing. It is in this light that Jesus said, in the sermon, \u201cFor I say unto you, That except your righteousness shall exceed",
+      "full_text": "in thy name have cast out devils? and in thy name done many wonderful works? And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.\u201d (Matthew 7:21-23) The Joseph Smith Translation corrects \u201cI never knew you\u201d to read \u201cyou never knew me.\u201d It is important that we come to know Christ in order to receive a place in the celestial world (John 17:3; D&C 93:1). It is also important that, having known him, we become like him. That means that we must not only do good, but also speak well and think good thoughts (Mosiah 4:30; Alma 12:14). Our actions must be backed up with good intentions and a desire to do the right thing. It is in this light that Jesus said, in the sermon, \u201cFor I say unto you, That except your righteousness shall exceed",
+      "avg_prediction": 0.6667
+    },
+    {
+      "idx": 71,
+      "hash": "9d3eedf8",
+      "n_words": 61,
+      "n_chars": 286,
+      "preview_head": "side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side of the ",
+      "preview_tail": "e other side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side",
+      "full_text": "side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side of the world. It is a bit of a crazy, scary, and exciting. So, we're moving to the other side",
+      "avg_prediction": 0.6516
+    },
+    {
+      "idx": 72,
+      "hash": "f1124b9d",
+      "n_words": 90,
+      "n_chars": 625,
+      "preview_head": "ill allow asmaller number of themost highly skilled workers to cometo the UK without a job offer. This routewillnot open on 1 January 2021 andwe areexploringproposals for this additional route with st",
+      "preview_tail": "hereislittle further detail of note in relation to most of the otherwork relatedroutesso we can expect themto largelyoperate as now, althoughwith the inclusionofEU citizens. Such routes include Ancest",
+      "full_text": "ill allow asmaller number of themost highly skilled workers to cometo the UK without a job offer. This routewillnot open on 1 January 2021 andwe areexploringproposals for this additional route with stakeholders over the comingyear. Our starting pointisthat this route would be capped and wouldbecarefully monitored during the implementation phase. Further details will beshared in due course.\" >>> Other work related routes Thereislittle further detail of note in relation to most of the otherwork relatedroutesso we can expect themto largelyoperate as now, althoughwith the inclusionofEU citizens. Such routes include Ancest",
+      "avg_prediction": 0.4129
+    },
+    {
+      "idx": 73,
+      "hash": "68e2ce53",
+      "n_words": 114,
+      "n_chars": 1303,
+      "preview_head": "graveyard; /* publish the cache */ fscache_init_cache(&cache->cache, &cachefiles_cache_ops, \"%s\", fsdef->dentry->d_sb->s_id); fscache_object_init(&fsdef->fscache, NULL, &cache->cache); ret = fscache_a",
+      "preview_tail": "tering\\n\", cache->cache.identifier); fscache_withdraw_cache(&cache->cache); } dput(cache->graveyard); mntput(cache->mnt); kfree(cache->rootdirname); kfree(cache->secctx); kfree(cache->tag); _leave(\"\")",
+      "full_text": "graveyard; /* publish the cache */ fscache_init_cache(&cache->cache, &cachefiles_cache_ops, \"%s\", fsdef->dentry->d_sb->s_id); fscache_object_init(&fsdef->fscache, NULL, &cache->cache); ret = fscache_add_cache(&cache->cache, &fsdef->fscache, cache->tag); if (ret < 0) goto error_add_cache; /* done */ set_bit(CACHEFILES_READY, &cache->flags); dput(root); pr_info(\"File cache on %s registered\\n\", cache->cache.identifier); /* check how much space the cache has */ cachefiles_has_space(cache, 0, 0); cachefiles_end_secure(cache, saved_cred); return 0; error_add_cache: dput(cache->graveyard); cache->graveyard = NULL; error_unsupported: mntput(cache->mnt); cache->mnt = NULL; dput(fsdef->dentry); fsdef->dentry = NULL; dput(root); error_open_root: kmem_cache_free(cachefiles_object_jar, fsdef); error_root_object: cachefiles_end_secure(cache, saved_cred); pr_err(\"Failed to register: %d\\n\", ret); return ret; } /* * unbind a cache on fd release */ void cachefiles_daemon_unbind(struct cachefiles_cache *cache) { _enter(\"\"); if (test_bit(CACHEFILES_READY, &cache->flags)) { pr_info(\"File cache on %s unregistering\\n\", cache->cache.identifier); fscache_withdraw_cache(&cache->cache); } dput(cache->graveyard); mntput(cache->mnt); kfree(cache->rootdirname); kfree(cache->secctx); kfree(cache->tag); _leave(\"\")",
+      "avg_prediction": 0.4872
+    },
+    {
+      "idx": 74,
+      "hash": "d4116aea",
+      "n_words": 40,
+      "n_chars": 348,
+      "preview_head": "FFU Website (Ukr) Category:1982 births Category:Living people Category:Sportspeople from Novi Sad Category:Serbian footballers Category:Association football goalkeepers Category:FK Banat Zrenjanin pla",
+      "preview_tail": "football goalkeepers Category:FK Banat Zrenjanin players Category:FK Spartak Subotica players Category:FK SrIt seems like you provided me with some information about Nenad Raji\u0107, a Serbian footballer.",
+      "full_text": "FFU Website (Ukr) Category:1982 births Category:Living people Category:Sportspeople from Novi Sad Category:Serbian footballers Category:Association football goalkeepers Category:FK Banat Zrenjanin players Category:FK Spartak Subotica players Category:FK SrIt seems like you provided me with some information about Nenad Raji\u0107, a Serbian footballer.",
+      "avg_prediction": 0.4834
+    },
+    {
+      "idx": 75,
+      "hash": "e6aec94d",
+      "n_words": 93,
+      "n_chars": 658,
+      "preview_head": "Company\u201d, or \u201cCanadian Solar\u201d) (NASDAQ: CSIQ), one of the world\u2019s largest solar energy companies, today announced the appointment of Guangchun Zhang as the Company\u2019s Chief Operating Officer (COO), eff",
+      "preview_tail": "Chief Executive Officer of Canadian Solar. \u201cGuangchun Zhang is a highly respected and experienced industry leader. His extensive background in operations and engineering will be invaluable to Canadian",
+      "full_text": "Company\u201d, or \u201cCanadian Solar\u201d) (NASDAQ: CSIQ), one of the world\u2019s largest solar energy companies, today announced the appointment of Guangchun Zhang as the Company\u2019s Chief Operating Officer (COO), effective immediately. Mr. Zhang, who brings over 20 years of industry experience, will be responsible for the Company\u2019s global manufacturing, engineering, quality, supply chain, and procurement operations. He will report directly to Dr. Shawn Qu, Chairman and Chief Executive Officer of Canadian Solar. \u201cGuangchun Zhang is a highly respected and experienced industry leader. His extensive background in operations and engineering will be invaluable to Canadian",
+      "avg_prediction": 0.5789
+    },
+    {
+      "idx": 76,
+      "hash": "fbe76830",
+      "n_words": 75,
+      "n_chars": 450,
+      "preview_head": "s so conveniently close!\" grounds are always maintained and Management is always friendly.\" \"With plenty of storage options, my room has plenty of space for me and my stuff.\" In the News Check back fo",
+      "preview_tail": " our facilities to improve our residents' quality of life View our gallery to see our award-winning grounds. We are continuously in our communities. Look for us in the news. Our communities frequently",
+      "full_text": "s so conveniently close!\" grounds are always maintained and Management is always friendly.\" \"With plenty of storage options, my room has plenty of space for me and my stuff.\" In the News Check back for company news and events. We are always upgrading our facilities to improve our residents' quality of life View our gallery to see our award-winning grounds. We are continuously in our communities. Look for us in the news. Our communities frequently",
+      "avg_prediction": 0.4269
+    },
+    {
+      "idx": 77,
+      "hash": "d24aa358",
+      "n_words": 52,
+      "n_chars": 338,
+      "preview_head": "od Pairings Recommendations on great wine and food matches for your event. Varietals Voignier Sauvingnon Blanc Sparkling/Champagne Zinfandel Cabernet Sauvingnon Pinot Noir Chardonnay See All Tips Tips",
+      "preview_tail": "el Cabernet Sauvingnon Pinot Noir Chardonnay See All Tips Tips & How To's Tips on some of our recipes, techniques, and tricks. Tips & Hints Homemade Pasta Rack of Lamb BucIt looks like you've provided",
+      "full_text": "od Pairings Recommendations on great wine and food matches for your event. Varietals Voignier Sauvingnon Blanc Sparkling/Champagne Zinfandel Cabernet Sauvingnon Pinot Noir Chardonnay See All Tips Tips & How To's Tips on some of our recipes, techniques, and tricks. Tips & Hints Homemade Pasta Rack of Lamb BucIt looks like you've provided",
+      "avg_prediction": 0.247
+    },
+    {
+      "idx": 78,
+      "hash": "293ce62c",
+      "n_words": 101,
+      "n_chars": 743,
+      "preview_head": "(also went for hits), providing crucialRBISand scores. ### Game Breakdown: Dark Horse faceda challenging start,falling behind by fourruns after two innings. However,the team demonstrated resilience, b",
+      "preview_tail": "ed the game's outcome. His abilityto strikeout and scorewas crucial in turningthe tide of thematch after an initial deficit Conclusion: Dark Horse\u2019s comeback victory highlights their strengthas a team",
+      "full_text": "(also went for hits), providing crucialRBISand scores. ### Game Breakdown: Dark Horse faceda challenging start,falling behind by fourruns after two innings. However,the team demonstrated resilience, breaking the tie inthe fourth inningwithtwo runs and then sealing their victoryin fifthinning with three more to secure a 12-8 win despite Amelia\u2019s efforts ledbytheir own standout performer. ### Pitching: Jeff Carr was pivotal as both pitcherand batter.Striking out fivebatters whilealso contributinga triple, his dual role significantly impacted the game's outcome. His abilityto strikeout and scorewas crucial in turningthe tide of thematch after an initial deficit Conclusion: Dark Horse\u2019s comeback victory highlights their strengthas a team",
+      "avg_prediction": 0.6195
+    },
+    {
+      "idx": 79,
+      "hash": "7415e655",
+      "n_words": 134,
+      "n_chars": 910,
+      "preview_head": "e 1923\u201324 NCAA men's basketball season. The ramblers were led by first-year head coach Leonard Sachs. The Ramblers played their home games at the O'Keefe Gymnasium in Chicago, Illinois. They competed ",
+      "preview_tail": "ive teamwork, which were crucial factors in their successful season. The 1923\u201324 season marked an important milestone for Loyola University Chicago's basketball program, as it established a competitiv",
+      "full_text": "e 1923\u201324 NCAA men's basketball season. The ramblers were led by first-year head coach Leonard Sachs. The Ramblers played their home games at the O'Keefe Gymnasium in Chicago, Illinois. They competed as an independent. The team finished the season with a record of 12\u20134. Notably, this was the first winning season for the Loyola Ramblers men's basketball program under Coach Sachs. The team showed significant improvement from previous seasons, setting a foundation for future successes in the program. Key players included forward John \"Jack\" O'Connell and guard William \"Bill\" Schmidt, both of whom contributed significantly to the team's victories. The Ramblers demonstrated strong defensive play and effective teamwork, which were crucial factors in their successful season. The 1923\u201324 season marked an important milestone for Loyola University Chicago's basketball program, as it established a competitiv",
+      "avg_prediction": 0.664
+    },
+    {
+      "idx": 80,
+      "hash": "44406d69",
+      "n_words": 73,
+      "n_chars": 518,
+      "preview_head": "ving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <onepress@plos.org>. With ki",
+      "preview_tail": ".1371/journal.pone.0234007.r004 Acceptance letter Xin Baogui Academic Editor \u00a9 2020 Baogui Xin 2020 Baogui Xin This is an open access article distributed under the terms of the Creative Commons Attrib",
+      "full_text": "ving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <onepress@plos.org>. With kind regards, Baogui Xin, Ph.D. Academic Editor PLOS ONE Additional Editor Comments (optional): Reviewers\\' comments: 10.1371/journal.pone.0234007.r004 Acceptance letter Xin Baogui Academic Editor \u00a9 2020 Baogui Xin 2020 Baogui Xin This is an open access article distributed under the terms of the Creative Commons Attrib",
+      "avg_prediction": 0.4597
+    },
+    {
+      "idx": 81,
+      "hash": "250eccc4",
+      "n_words": 71,
+      "n_chars": 361,
+      "preview_head": "in the third to open a two-run lead but the season ended in the seventh inning when the ball didn\u00d5t bounce their way and the Owls scored seven runs.Even with a four run deficit, the Warriors fought ba",
+      "preview_tail": "our run deficit, the Warriors fought back with three runs in the fifth to close the gap, but the lead was just too big to overcome. Emily Pinson led the Warrior bats in a valiant effort, going 3 for 4",
+      "full_text": "in the third to open a two-run lead but the season ended in the seventh inning when the ball didn\u00d5t bounce their way and the Owls scored seven runs.Even with a four run deficit, the Warriors fought back with three runs in the fifth to close the gap, but the lead was just too big to overcome. Emily Pinson led the Warrior bats in a valiant effort, going 3 for 4",
+      "avg_prediction": 0.4893
+    },
+    {
+      "idx": 82,
+      "hash": "26ff6a9d",
+      "n_words": 220,
+      "n_chars": 1672,
+      "preview_head": "). How can i loop and display the countdown of each of those rows in a php table using these values and adding or subtracting time in the process if I need to? Table.php $sql=\"SELECT * FROM List where",
+      "preview_tail": "bname = \"your_dbname\"; // Create connection $con=mysqli_connect($servername, $username ,$password ,$dbname); if (mysqli_connect_errno()) { echo(\"Failed to connect: \". mysqli_error()); } $sql=\"SELECT *",
+      "full_text": "). How can i loop and display the countdown of each of those rows in a php table using these values and adding or subtracting time in the process if I need to? Table.php $sql=\"SELECT * FROM List where depName='Admisiones' and personStatus='Espera'\"; $result=mysqli_query($con, $sql); eIt looks like you're trying to create a PHP table that displays data from your database along with an individual countdown timer for each row. The timers will count down the number of minutes stored in one field and dynamically update on page. Here's how you can achieve this: 1. Fetch Data: Retrieve rows from the `List` table. 2. PHP Table Creation: - Create a PHP loop to generate HTML `<tr>` elements for each row, including cells (`<td>`) with data fields. 3. JavaScript Countdown Timer Integration\": - Use JavaScript (or jQuery) to create and manage countdown timers that update dynamically. ### Example Code #### `Table.php` ```php <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>Countdown Timers</title> <!-- Include Bootstrap for styling --> <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"> <!-- jQuery CDN (optional, but useful if you want to use it) --> <script src=\"https://code.jquery.com/jquery-3.6.0.slim.js\"></script> </head> <body style='background-color:#c2dfff'> <div class=\"container mt-5\"> <?php $servername = \"your_server_name\"; $username = \"your_username\"; $password = \"your_password\"; $dbname = \"your_dbname\"; // Create connection $con=mysqli_connect($servername, $username ,$password ,$dbname); if (mysqli_connect_errno()) { echo(\"Failed to connect: \". mysqli_error()); } $sql=\"SELECT *",
+      "avg_prediction": 0.4803
+    },
+    {
+      "idx": 83,
+      "hash": "30e8fa9a",
+      "n_words": 146,
+      "n_chars": 861,
+      "preview_head": "my clipboard and put in an Outlook 2013 email. This works fine, but I would also like to modify it to grab the first line of text from the email body and use that as the subject line. That way everyth",
+      "preview_tail": "l.HTMLBody = cBoard.GetText ' Grab the first line of text from the email body Dim firstLine As String firstLine = lines(0) ' Set the subject line to the first line of text email.Subject = firstLine En",
+      "full_text": "my clipboard and put in an Outlook 2013 email. This works fine, but I would also like to modify it to grab the first line of text from the email body and use that as the subject line. That way everything can be included in the HTML. However I have almost no experience with VB and after spending some time online look at API's and documentation I am still not able to figure it out. Here is what I have so far. Sub PrependClipboardHTML() Dim email As Outlook.MailItem Dim cBoard As DataObject Dim lines() As String Set email = Application.ActiveInspector.CurrentItem Set cBoard = New DataObject cBoard.GetFromClipboard lines = Split(cBoard.GetText, vbCrLf) email.HTMLBody = cBoard.GetText ' Grab the first line of text from the email body Dim firstLine As String firstLine = lines(0) ' Set the subject line to the first line of text email.Subject = firstLine En",
+      "avg_prediction": 0.4755
+    },
+    {
+      "idx": 84,
+      "hash": "9cc8d4fc",
+      "n_words": 205,
+      "n_chars": 1229,
+      "preview_head": "to update the display // based on the activated state // Example: // viewer.update(graph.withMagnifyingMode(activated)); // Return the activated state return activated; } / @param activated the state ",
+      "preview_tail": "te of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated",
+      "full_text": "to update the display // based on the activated state // Example: // viewer.update(graph.withMagnifyingMode(activated)); // Return the activated state return activated; } / @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated the state of the magnifying mode * @param activated",
+      "avg_prediction": 0.5622
+    },
+    {
+      "idx": 85,
+      "hash": "4d5bc9b8",
+      "n_words": 328,
+      "n_chars": 1936,
+      "preview_head": ", the Michigan State Spartans made it to the Final Four. But so did my #2 team, the Wisconsin Badgers, and I am excited to cheer and root for both teams. I follow the Spartans closely with not only se",
+      "preview_tail": "rred to MSU as a bubble team \u2013 not sure if they\u2019d even make it to the NCAA tournament. And here we are, one month later, polishing our dancing shoes, and ready for the Big Dance, along with Wisconsin,",
+      "full_text": ", the Michigan State Spartans made it to the Final Four. But so did my #2 team, the Wisconsin Badgers, and I am excited to cheer and root for both teams. I follow the Spartans closely with not only season tickets, but through the media, and so I know the personal backgrounds, and the trials and triumphs the players and coaches have endured to get where they are. And I\u2019ve heard Coach Izzo play the accordion. And who can\u2019t get on board with the mild mannered men of Wisconsin who aren\u2019t so stupid to use the media to taunt their opponents like Louisville did, but instead, let their incredible efficiency on the court do the talking. And if you didn\u2019t love Nigel Hayes before all of this craziness, you are charmed by his efforts to trump the tournament stenographer with his vocabulary, followed by his initial embarrassment when he discovered the whole world heard him say \u201cGod, she\u2019s beautiful\u201d, in not the voice of a lothario, but more that of a polite, respectful young man. Mothers and fathers are calling him, I\u2019m sure, to arrange dates with their daughters. http://deadspin.com/wisconsins-nigel-hayes-caught-by-hot-mic-nearly-dies-o-1693797849 On January 8, my sister, a devout Badger backer, texted me and asked \u201cWhat\u2019s with MSU men\u2019s basketball team this year? Don\u2019t seem to be doing very well.\u201d She closed with \u201cOn Wisconsin\u201d. Salt in the wound. I never answered. March is the MSU fan\u2019s reward for the wringing of hands, furrowing of eyebrows and questioning of season ticket purchases that we go through during the seed planting that happens in an overly ambitious non-conference schedule, and in lessons learned from defeats to much less talented teams. In March, we reap the harvest. On March 2, Sporting News still referred to MSU as a bubble team \u2013 not sure if they\u2019d even make it to the NCAA tournament. And here we are, one month later, polishing our dancing shoes, and ready for the Big Dance, along with Wisconsin,",
+      "avg_prediction": 0.035
+    },
+    {
+      "idx": 86,
+      "hash": "33d405e2",
+      "n_words": 107,
+      "n_chars": 664,
+      "preview_head": "re she studied piano and classical guitar. After graduating from high school, she pursued her passion for music further, enrolling in the University of Missouri-Columbia to refine her musical talents.",
+      "preview_tail": "ingle on November 12, 2002. The song reached as high as the fourth spot on the Billboard Top 100.Source:Ama... Read More \u00bb http://www.answerbag.com/q_view/2119187 What song is sung by Kid Rock& Sheryl",
+      "full_text": "re she studied piano and classical guitar. After graduating from high school, she pursued her passion for music further, enrolling in the University of Missouri-Columbia to refine her musical talents. Her drive and determination led her to become a prominent figure in the music industry, not only as a talented musician but also as a successful producer and businesswoman. Kid Rock and Sheryl Crow teamed up to record the song \"Picture,\" which was released as a single on November 12, 2002. The song reached as high as the fourth spot on the Billboard Top 100.Source:Ama... Read More \u00bb http://www.answerbag.com/q_view/2119187 What song is sung by Kid Rock& Sheryl",
+      "avg_prediction": 0.6034
+    },
+    {
+      "idx": 87,
+      "hash": "f316c02e",
+      "n_words": 288,
+      "n_chars": 2123,
+      "preview_head": "spent the last year insisting he doesn\u2019t want to turn the American health care system into a carbon copy of the government-run British system. But Obama\u2019s pick to run Medicaid and Medicare \u2014 Donald Be",
+      "preview_tail": " salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivat",
+      "full_text": "spent the last year insisting he doesn\u2019t want to turn the American health care system into a carbon copy of the government-run British system. But Obama\u2019s pick to run Medicaid and Medicare \u2014 Donald Berwick \u2014 is a pediatrician and Harvard University professor with a self-professed \u201clove\u201d of the British system. Berwick has called Britain\u2019s National Health Service \u201cone of the greatest health careimprovements the world has ever seen\u201d and \u201ca system to admire and emulate\u201d \u2014 a view that has the GOP salivating. \u201cI\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. i\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. i\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m saliv ating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019 m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivating. I\u2019m salivat",
+      "avg_prediction": 0.5343
+    },
+    {
+      "idx": 88,
+      "hash": "a9fc3c9e",
+      "n_words": 113,
+      "n_chars": 748,
+      "preview_head": "tool for you if you are looking for traditional Eastern and Arabic percussion sounds infused with complex hypnotic rhythms. Eastern Percussion contains a beautifully playFANTASTiC 22 December 2015 | 1",
+      "preview_tail": "ancing their music with a unique and exotic touch. Eastern Percussion is a valuable resource for music producers, film and game composers, and anyone seeking to add a touch of Eastern percussion magic",
+      "full_text": "tool for you if you are looking for traditional Eastern and Arabic percussion sounds infused with complex hypnotic rhythms. Eastern Percussion contains a beautifully playFANTASTiC 22 December 2015 | 1.12 GB 'Eastern Percussion' is a comprehensive sample library for music producers and composers. It offers a wide range of meticulously recorded percussion sounds and rhythms from Eastern and Arabic music traditions. With a library of over 1.12 GB of content, producers can explore and incorporate authentic and captivating percussion elements, enhancing their music with a unique and exotic touch. Eastern Percussion is a valuable resource for music producers, film and game composers, and anyone seeking to add a touch of Eastern percussion magic",
+      "avg_prediction": 0.6027
+    },
+    {
+      "idx": 89,
+      "hash": "5999bc52",
+      "n_words": 72,
+      "n_chars": 458,
+      "preview_head": "of Medicine. He is a 1984 graduate of NYU and a 1988 graduatE of SUNY at Syracuse Health Science Center. Dr. Achaibar enjoys woodworking, the theater, cricket, and watching football. He is married wit",
+      "preview_tail": "ersey. Dr. Richard Flanzman is Board Certified in Radiology, compounding his experience as a diagnostic radiologist since 1982 by completing an MRI fellowship at Yale University School of Medicine fro",
+      "full_text": "of Medicine. He is a 1984 graduate of NYU and a 1988 graduatE of SUNY at Syracuse Health Science Center. Dr. Achaibar enjoys woodworking, the theater, cricket, and watching football. He is married with three children and currently resides in Montville, New Jersey. Dr. Richard Flanzman is Board Certified in Radiology, compounding his experience as a diagnostic radiologist since 1982 by completing an MRI fellowship at Yale University School of Medicine fro",
+      "avg_prediction": 0.4322
+    },
+    {
+      "idx": 90,
+      "hash": "a77129ad",
+      "n_words": 179,
+      "n_chars": 1271,
+      "preview_head": "| subscribe| newsletter |deals Home News Lateststories 911 calls -- Published Aug. 30,2014911 briefs -- Published Aug. 30, 2014 Former hit-and-run driver fatally struck Business owner suspects arson w",
+      "preview_tail": "e text you provided appears to be acollection ofnews headlines or summariesfrom a local newspaper or news website. It seems tobe focused on various incidentsand eventsoccurring within the Stocktonand ",
+      "full_text": "| subscribe| newsletter |deals Home News Lateststories 911 calls -- Published Aug. 30,2014911 briefs -- Published Aug. 30, 2014 Former hit-and-run driver fatally struck Business owner suspects arson was meantto cover IDtheft Briefs -- Published Aug. 30, 2014 Stockton Offense comes up big once again Former hit-and-run driver fatally struck Car trouble putsnew spin onTri-Holiday race Businessownersuspects arson was meantto coverID theft After-school programs for high-schoolersend withlossof grant San Joaquin County Teen struck by car struggles to regain mobility, return to the football fieldBook chronicles Latinos' history of servicein Congress Health care facilities say affiliation unlikely to cause change in services Ground spraying for mosquitoes in north San Joaquin Countyslated for Tuesday Volunteers sought to read one time to preschoolers Calaveras County/Mother Lode New opponent awaits Dillashaw in title bout Officialscharge former Murphys man with 1991 murder of wife Dillashaw looks to build legacy in title rematch Sports, musicandcharity events. The text you provided appears to be acollection ofnews headlines or summariesfrom a local newspaper or news website. It seems tobe focused on various incidentsand eventsoccurring within the Stocktonand ",
+      "avg_prediction": 0.417
+    },
+    {
+      "idx": 91,
+      "hash": "f09fdd1e",
+      "n_words": 98,
+      "n_chars": 645,
+      "preview_head": "t \\n here '\"; does NOT compile. But works with \"' \\\" \\\\302\\\\164 here '\" Can you explain why this happens, how to fix that blank line in HereDoc can exist? I tried using double quotes and escaping the ",
+      "preview_tail": "_indent is not in the Perl core, so I'm guessing it doesn\u2019t have support for multi-line regular expressions. That would explain why your blank line triggers a warning (though POSIX can also fail on ne",
+      "full_text": "t \\n here '\"; does NOT compile. But works with \"' \\\" \\\\302\\\\164 here '\" Can you explain why this happens, how to fix that blank line in HereDoc can exist? I tried using double quotes and escaping the newline character (\\), but it still does not work A: It's because Filter::IndentHereDoc uses POSIX module which doesn\u2019t support multi-line regular expressions. From https://github1c940f5287d36eecfaebdecccfdbacdaaeffbfef/Module--Build\u2013perl Filter_indent is not in the Perl core, so I'm guessing it doesn\u2019t have support for multi-line regular expressions. That would explain why your blank line triggers a warning (though POSIX can also fail on ne",
+      "avg_prediction": 0.4103
+    },
+    {
+      "idx": 92,
+      "hash": "5c8b7610",
+      "n_words": 44,
+      "n_chars": 252,
+      "preview_head": "e content of this/these site(s) including its published information. Iceleads can not be hold liable for the content of sites which are not managed by Iceleads, but are linking to Iceleads or are link",
+      "preview_tail": "hed information. Iceleads can not be hold liable for the content of sites which are not managed by Iceleads, but are linking to Iceleads or are linked to from Iceleads. You as the User of the Iceleads",
+      "full_text": "e content of this/these site(s) including its published information. Iceleads can not be hold liable for the content of sites which are not managed by Iceleads, but are linking to Iceleads or are linked to from Iceleads. You as the User of the Iceleads",
+      "avg_prediction": 0.4133
+    },
+    {
+      "idx": 93,
+      "hash": "37903d9e",
+      "n_words": 49,
+      "n_chars": 321,
+      "preview_head": "their arboreal habits, spending most of their time in the trees and bushes of their forest habitats, where they feed on small insects and other invertebrates. Conservation efforts are necessary to pro",
+      "preview_tail": "mall insects and other invertebrates. Conservation efforts are necessary to protect these unique and fascinating creatures, as their habitats are under threat from deforestation and other human activi",
+      "full_text": "their arboreal habits, spending most of their time in the trees and bushes of their forest habitats, where they feed on small insects and other invertebrates. Conservation efforts are necessary to protect these unique and fascinating creatures, as their habitats are under threat from deforestation and other human activi",
+      "avg_prediction": 0.6718
+    },
+    {
+      "idx": 94,
+      "hash": "e6657e0a",
+      "n_words": 66,
+      "n_chars": 422,
+      "preview_head": "argue that video game violence can lead to real-world aggression, others see these games as valuable entertainment with creative potential. Concerns reMain about the negative effects of violent conten",
+      "preview_tail": "l behavior. Essays - largest database of quality sample essays and research papers on bad effects of computer. Are computers good or bad for society the computer is a favorite for many people becoming",
+      "full_text": "argue that video game violence can lead to real-world aggression, others see these games as valuable entertainment with creative potential. Concerns reMain about the negative effects of violent content in gaming on societal behavior. Essays - largest database of quality sample essays and research papers on bad effects of computer. Are computers good or bad for society the computer is a favorite for many people becoming",
+      "avg_prediction": 0.4786
+    },
+    {
+      "idx": 95,
+      "hash": "23f6a84a",
+      "n_words": 51,
+      "n_chars": 287,
+      "preview_head": "for the use of junior golfers from the age of 3 years through to early teens. Each club has been specifically designed to aid stroke development and make golf fun! The lighter weight heads, the junior",
+      "preview_tail": " has been specifically designed to aid stroke development and make golf fun! The lighter weight heads, the junior flex graphite shafts and Junior grips combine to make Young Gun equipment the choice o",
+      "full_text": "for the use of junior golfers from the age of 3 years through to early teens. Each club has been specifically designed to aid stroke development and make golf fun! The lighter weight heads, the junior flex graphite shafts and Junior grips combine to make Young Gun equipment the choice o",
+      "avg_prediction": 0.3917
+    },
+    {
+      "idx": 96,
+      "hash": "424940f7",
+      "n_words": 47,
+      "n_chars": 271,
+      "preview_head": "Without Prejudice.\u201d It is the court=s opinion that the motion should be granted; therefore, we dismiss the appeal. See Tex. R. App. P. 42.1(a)(1), 43.2(f). Costs of the appeal shall be paid by appella",
+      "preview_tail": " granted; therefore, we dismiss the appeal. See Tex. R. App. P. 42.1(a)(1), 43.2(f). Costs of the appeal shall be paid by appellant, for which let execution issue. See Tex. R. App. P. 42.1(d). PER CUR",
+      "full_text": "Without Prejudice.\u201d It is the court=s opinion that the motion should be granted; therefore, we dismiss the appeal. See Tex. R. App. P. 42.1(a)(1), 43.2(f). Costs of the appeal shall be paid by appellant, for which let execution issue. See Tex. R. App. P. 42.1(d). PER CUR",
+      "avg_prediction": 0.4268
+    },
+    {
+      "idx": 97,
+      "hash": "432bb49d",
+      "n_words": 63,
+      "n_chars": 346,
+      "preview_head": "ws website and its content. To complete this text, I would need more context or information about what specific action they are requesting or which part of the text needs further elaboration. For inst",
+      "preview_tail": "h part of the text needs further elaboration. For instance, if the user wants to know how to subscribe to the online service, we could continue the text with steps on how to do so. Or perhaps they wan",
+      "full_text": "ws website and its content. To complete this text, I would need more context or information about what specific action they are requesting or which part of the text needs further elaboration. For instance, if the user wants to know how to subscribe to the online service, we could continue the text with steps on how to do so. Or perhaps they wan",
+      "avg_prediction": 0.5901
+    },
+    {
+      "idx": 98,
+      "hash": "03aa2847",
+      "n_words": 248,
+      "n_chars": 1322,
+      "preview_head": "o meet on the new Untitled Steven Spielberg Alien Invasion series. He gave me some more parameters about it and I said \"sure.\" So I went to Amblin, sat in a dark room by myself and watched a version o",
+      "preview_tail": " the best possible performance out of them. Don Johnson really trained me in the art of how to work with a star and how to build that all-important relationship. And, with FALLING SKIES I brought what",
+      "full_text": "o meet on the new Untitled Steven Spielberg Alien Invasion series. He gave me some more parameters about it and I said \"sure.\" So I went to Amblin, sat in a dark room by myself and watched a version of the pilot episode. Shortly after I met Justin Falvin and Darryl Frank and Lindsey Springer who all work for Mr. Spielberg and were producing the series and at the end of that 1 hour meeting I more or less had the job. I first met Noah Wyle on the phone - I introduced myself and told him I was going to be aboard, we had a great conversation about why he had done the pilot in the first place and what mattered to him. I was very impressed by his intelligence and articulateness. A week or so later we met face to face at a diner and formalized the work relationship that had yet to begin. (It's funny, my first ever experience working as an on-set producer/director was on a show called NASH BRIDGES, written by Carlton Cuse and starring Don Johnson. It was a trial by fire - but am overall great experience and I emerged from it a significantly better director, particularly in terms of working with actors and getting the best possible performance out of them. Don Johnson really trained me in the art of how to work with a star and how to build that all-important relationship. And, with FALLING SKIES I brought what",
+      "avg_prediction": 0.2979
+    },
+    {
+      "idx": 99,
+      "hash": "24395215",
+      "n_words": 109,
+      "n_chars": 583,
+      "preview_head": "color and hair is blue eyes with dark brown hair! In high school, I was nowhere near athletic; instead, I spent most of my time on the internet. Do I plan outfits? Yes, usually in the morning. Can I p",
+      "preview_tail": "it? Oranges. 11. Can you swim? How old were you when you learned? I can\u2019t swim. Andrea\u2019s questions were: 1. What is your favorite book, or if you prefer, your favorite author? That\u2019s a question that h",
+      "full_text": "color and hair is blue eyes with dark brown hair! In high school, I was nowhere near athletic; instead, I spent most of my time on the internet. Do I plan outfits? Yes, usually in the morning. Can I play a musical instrument? Nope. Do you prefer hot weather or cold weather? This might seem weird but I love cold weather. It\u2019s much better than the heat! 10. What is your favorite fruit? Oranges. 11. Can you swim? How old were you when you learned? I can\u2019t swim. Andrea\u2019s questions were: 1. What is your favorite book, or if you prefer, your favorite author? That\u2019s a question that h",
+      "avg_prediction": 0.4386
+    },
+    {
+      "idx": 100,
+      "hash": "8b01a174",
+      "n_words": 142,
+      "n_chars": 803,
+      "preview_head": "Howard and starring Jack Holt, Billie Dove and Noah Beery. The film was based on a Zane Grey novel and had been filmed before in 1918. Cast JacJack Holt as John Jebbings Billie Dove as Mary Mason Noah",
+      "preview_tail": "odeo event with Mary Mason. John is heartbroken and decides not return back until the funeral arrangements are made. While waiting in a hotel room during this time period of mourning (which would have",
+      "full_text": "Howard and starring Jack Holt, Billie Dove and Noah Beery. The film was based on a Zane Grey novel and had been filmed before in 1918. Cast JacJack Holt as John Jebbings Billie Dove as Mary Mason Noah Beery, Sr., as Sam McCloud Charles Kingston as Jim Garrison (uncredited) The film was shot in 1925 and released the following year. It is considered a lost film because no copies are known to exist today. Plot John Jebbings returns home after years of working on cattle ranches, only to find that his father has died suddenly while he had been away from town for several days attending an out-of-town rodeo event with Mary Mason. John is heartbroken and decides not return back until the funeral arrangements are made. While waiting in a hotel room during this time period of mourning (which would have",
+      "avg_prediction": 0.419
+    },
+    {
+      "idx": 101,
+      "hash": "87541400",
+      "n_words": 47,
+      "n_chars": 284,
+      "preview_head": "Copyright (C) 2007-2015 FBReader.ORG Limited <contact@fbreader.org> * * This program is software; you can redistribute it modify * it under the terms of the GNU General Public License as published by ",
+      "preview_tail": " is software; you can redistribute it modify * it under the terms of the GNU General Public License as published by * the Free Software Foundation; either version 2 of the License, or * (at your optio",
+      "full_text": "Copyright (C) 2007-2015 FBReader.ORG Limited <contact@fbreader.org> * * This program is software; you can redistribute it modify * it under the terms of the GNU General Public License as published by * the Free Software Foundation; either version 2 of the License, or * (at your optio",
+      "avg_prediction": 0.4404
+    },
+    {
+      "idx": 102,
+      "hash": "a99e4a88",
+      "n_words": 145,
+      "n_chars": 1040,
+      "preview_head": "ystems algebraically, with sorts representing various forms of data (e.g., natural numbers) or logical propositions represented through the constructors/eliminators that operate on them accordingly; t",
+      "preview_tail": "eductions as equations satisfied by these algebras too! The problem lies in how to (intuitively) interpret terms with nonempty context in this algebraic framework: constant terms, i.e. terms with empt",
+      "full_text": "ystems algebraically, with sorts representing various forms of data (e.g., natural numbers) or logical propositions represented through the constructors/eliminators that operate on them accordingly; this includes functions like addition for arithmetic types and implication between predicates in logic-based contexts such as set theory where one might use 'if A then B' statements about sets to form new ones via inference rules - all while maintaining \u03b2\u03b7 reduction properties. However, a challenge emerges when attempting an intuitive interpretation of lambda abstraction within the algebraic framework due its reliance on terms with nonempty context assumptions in rule premises\u2014making it difficult for function types requiring empty contexts during expression formulation without compromising structural requirements like $\\beta$ and \u03b7 reductions as equations satisfied by these algebras too! The problem lies in how to (intuitively) interpret terms with nonempty context in this algebraic framework: constant terms, i.e. terms with empt",
+      "avg_prediction": 0.5476
+    },
+    {
+      "idx": 103,
+      "hash": "7076d71e",
+      "n_words": 36,
+      "n_chars": 265,
+      "preview_head": "act-with-addons.js and react-dom.js from external resources tab. add react.min.js and react-dom.min.js in external resources. replace jsfiddle-integration-babel.js in script with this. Try this fork. ",
+      "preview_tail": "add react.min.js and react-dom.min.js in external resources. replace jsfiddle-integration-babel.js in script with this. Try this fork. It doesn't update contents in table, which is the same state as i",
+      "full_text": "act-with-addons.js and react-dom.js from external resources tab. add react.min.js and react-dom.min.js in external resources. replace jsfiddle-integration-babel.js in script with this. Try this fork. It doesn't update contents in table, which is the same state as i",
+      "avg_prediction": 0.3691
+    },
+    {
+      "idx": 104,
+      "hash": "fa5f33d7",
+      "n_words": 34,
+      "n_chars": 285,
+      "preview_head": "players Category:Olympic water polo players of Hungary Category:Water polo players at the 2004 Summer Olympics Category:Water polo players at the 2008 Summer Olympics Category:Sportspeople from Budape",
+      "preview_tail": " the 2004 Summer Olympics Category:Water polo players at the 2008 Summer Olympics Category:Sportspeople from Budapest Category:Universiade medalists in water polo Category:Universiade silver medalists",
+      "full_text": "players Category:Olympic water polo players of Hungary Category:Water polo players at the 2004 Summer Olympics Category:Water polo players at the 2008 Summer Olympics Category:Sportspeople from Budapest Category:Universiade medalists in water polo Category:Universiade silver medalists",
+      "avg_prediction": 0.4734
+    },
+    {
+      "idx": 105,
+      "hash": "82b505f1",
+      "n_words": 153,
+      "n_chars": 1199,
+      "preview_head": "essential for a plethora of applications in mid-IR photonics, including laser amplitude/frequency stabilization [@Bernard1997], coherent detection, FM and AM spectroscopy and sensing, mode-locking, an",
+      "preview_tail": "lation method. For further alignment with the document\u2019s context (author list and title), the next paragraph might then pivot to the authors\u2019 proposed innovation, such as a material/modulator system o",
+      "full_text": "essential for a plethora of applications in mid-IR photonics, including laser amplitude/frequency stabilization [@Bernard1997], coherent detection, FM and AM spectroscopy and sensing, mode-locking, and optical communications [@Martini2001; @Chuanwei2015]. However, the ultra-fast (1-40 GHz) modulation of mid-IR radiation is a largely under-developed functionality. The fastest modulation speeds, 20-30 GHz, have been obtained with the The fastest modulation speeds, 20-30 GHz, have been obtained with the use of quantum cascade lasers (QCLs) or electro-optic modulators in cryogenic configurations, yet these approaches often suffer from significant limitations such as high complexity, susceptibility to thermal drift, or incompatibility with fiber-integrated systems. --- This completion highlights the prevailing constraints in existing solutions (cryogenic requirements, complexity, and integration challenges), setting the stage to introduce the paper\u2019s novel room-temperature, high-speed modulation method. For further alignment with the document\u2019s context (author list and title), the next paragraph might then pivot to the authors\u2019 proposed innovation, such as a material/modulator system o",
+      "avg_prediction": 0.5035
+    },
+    {
+      "idx": 106,
+      "hash": "80c893d3",
+      "n_words": 118,
+      "n_chars": 702,
+      "preview_head": "successful record as a Democrat elected statewide five times in an otherwise red state who presided over budget surpluses, Mr Lynch has been working on Medicaid expansion since leaving office last yea",
+      "preview_tail": "ew ones that you may not have heard about yet... But first let me share with all of us what happened over the weekend: Last Friday there were protests against President Obama\u2019s decision to go ahead an",
+      "full_text": "successful record as a Democrat elected statewide five times in an otherwise red state who presided over budget surpluses, Mr Lynch has been working on Medicaid expansion since leaving office last year \u2013 the issue that helped Democrats gain 150 seats and seven governorships during Obama\u2019s midterm campaign efforts (see: http://www.politico\u2026). * The Week Ahead : A Few Thoughts On The Latest News From Around Our Country And World! I'll be sharing my views on several topics this week, including some new ones that you may not have heard about yet... But first let me share with all of us what happened over the weekend: Last Friday there were protests against President Obama\u2019s decision to go ahead an",
+      "avg_prediction": 0.4164
+    },
+    {
+      "idx": 107,
+      "hash": "aaa38c1a",
+      "n_words": 287,
+      "n_chars": 955,
+      "preview_head": "f the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei o",
+      "preview_tail": " Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the",
+      "full_text": "f the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the Ei of the",
+      "avg_prediction": 0.6624
+    },
+    {
+      "idx": 108,
+      "hash": "29683712",
+      "n_words": 95,
+      "n_chars": 594,
+      "preview_head": "and discussion about odd or curious statements made within popular songs, taking the liberty to humorously interpret them beyond their original context \u2014 likely aiming at engaging readers with a mix o",
+      "preview_tail": " ended or assist by interpreting more about Michael jackson's lyrics based on the given text snippet for entertainment purposes perhaps? If it\u2019s just sharing content, then maybe we can leave a comment",
+      "full_text": "and discussion about odd or curious statements made within popular songs, taking the liberty to humorously interpret them beyond their original context \u2014 likely aiming at engaging readers with a mix of pop culture references And cheeky commentary. Is there something in particular you're looking into regarding these posts? or were you hoping I could continue from where this blog seems to have ended or assist by interpreting more about Michael jackson's lyrics based on the given text snippet for entertainment purposes perhaps? If it\u2019s just sharing content, then maybe we can leave a comment",
+      "avg_prediction": 0.5064
+    },
+    {
+      "idx": 109,
+      "hash": "f676e9c5",
+      "n_words": 41,
+      "n_chars": 254,
+      "preview_head": "is 7/36. The critical argument is the probability of picking 2 'h' from a set of 9 letters. 7/12 Calculate prob of picking 4 w when four letters picked without replacement from vvvwvvvvwvvwwvwmwvv. 5/",
+      "preview_tail": "icking 2 'h' from a set of 9 letters. 7/12 Calculate prob of picking 4 w when four letters picked without replacement from vvvwvvvvwvvwwvwmwvv. 5/1292 Two letters picked without replacement from yyyyy",
+      "full_text": "is 7/36. The critical argument is the probability of picking 2 'h' from a set of 9 letters. 7/12 Calculate prob of picking 4 w when four letters picked without replacement from vvvwvvvvwvvwwvwmwvv. 5/1292 Two letters picked without replacement from yyyyy",
+      "avg_prediction": 0.4719
+    },
+    {
+      "idx": 110,
+      "hash": "c7b72cdd",
+      "n_words": 112,
+      "n_chars": 573,
+      "preview_head": "camera stinks but it's not THIS bad! lol I used River rock cardstock along with some paper for fall. The circle is tinged with Kiwi Kiss using a blender pen on the sides. The leaves are done in black ",
+      "preview_tail": "things in life\". I stamped the 3 leaves on the envelope as well. Much better!! See I told you the more you make the they will get! Be confident in your Patterend paper goes a long way!! Keep it up! I'",
+      "full_text": "camera stinks but it's not THIS bad! lol I used River rock cardstock along with some paper for fall. The circle is tinged with Kiwi Kiss using a blender pen on the sides. The leaves are done in black and colored in with more mustard. I stamped the basket of leaves with really and colored it in with Gable Green and Sahara Sand. The inside says \"Give thanks for the simple things in life\". I stamped the 3 leaves on the envelope as well. Much better!! See I told you the more you make the they will get! Be confident in your Patterend paper goes a long way!! Keep it up! I'",
+      "avg_prediction": 0.4207
+    },
+    {
+      "idx": 111,
+      "hash": "404787a6",
+      "n_words": 282,
+      "n_chars": 1672,
+      "preview_head": "was used to evaluate a multiplicative model of interaction. Most of the single nucleotide polymorphisms (SNPs) showed no significant interaction with E coli exposure for both eczema and allergic sensi",
+      "preview_tail": "D14 haplotype T-159C with E. coli exposure increased the odds of allergic sensitization by a factor of 4.19 (95% CI: 1.02-17.4, P = 0.047). These findings suggest that the interaction of TLR4 and CD14",
+      "full_text": "was used to evaluate a multiplicative model of interaction. Most of the single nucleotide polymorphisms (SNPs) showed no significant interaction with E coli exposure for both eczema and allergic sensitization. However, the TLR4 haplotype T-753A and the CD14 haplotype T-159C showed a significant interaction with E. coli exposure for eczema. The interaction of the TLR4 haplotype T-753A with E. coli exposure increased the odds of eczema by a factor of 4.14 (95% confidence interval (CI): 1.03-16.5, P = 0.047). The interaction of the CD14 haplotype T-159C with E. coli exposure increased the odds of eczema by a factor of 4.34 (95% CI: 1.14-16.7, P = 0.031). The interaction of the TLR4 haplotype T-753A with E. coli exposure increased the odds of allergic sensitization by a factor of 7.38 (95% CI: 1.27-41.0, P = 0.025). The interaction of the CD14 haplotype T-159C with E. coli exposure increased the odds of allergic sensitization by a factor of 4.19 (95% CI: 1.02-17.4, P = 0.047). The interaction of the TLR4 haplotype T-753A with E. coli exposure increased the odds of eczema by a factor of 4.14 (95% CI: 1.03-16.5, P = 0.047). The interaction of the CD14 haplotype T-159C with E. coli exposure increased the odds of eczema by a factor of 4.34 (95% CI: 1.14-16.7, P = 0.031). The interaction of the TLR4 haplotype T-753A with E. coli exposure increased the odds of allergic sensitization by a factor of 7.38 (95% CI: 1.27-41.0, P = 0.025). The interaction of the CD14 haplotype T-159C with E. coli exposure increased the odds of allergic sensitization by a factor of 4.19 (95% CI: 1.02-17.4, P = 0.047). These findings suggest that the interaction of TLR4 and CD14",
+      "avg_prediction": 0.5269
+    },
+    {
+      "idx": 112,
+      "hash": "a8521d34",
+      "n_words": 84,
+      "n_chars": 464,
+      "preview_head": "of entire communities,\u201d explains anderson. \u201cI love living in Brooklyn, as do many other people, and it\u2019s my dream to find a way to live here in a way that integrates me into an existing community inst",
+      "preview_tail": "to a screening of the film this week at the Brooklyn Public Library, we spoke with Anderson about the Fulton Mall, the city\u2019s role in promoting sweeping changes, and what, if anything, can be done abo",
+      "full_text": "of entire communities,\u201d explains anderson. \u201cI love living in Brooklyn, as do many other people, and it\u2019s my dream to find a way to live here in a way that integrates me into an existing community instead of being part of wiping that community out.\u201d In the lead-up to a screening of the film this week at the Brooklyn Public Library, we spoke with Anderson about the Fulton Mall, the city\u2019s role in promoting sweeping changes, and what, if anything, can be done abo",
+      "avg_prediction": 0.4245
+    },
+    {
+      "idx": 113,
+      "hash": "cfb1236c",
+      "n_words": 59,
+      "n_chars": 337,
+      "preview_head": "beforereaching the field or stage. Never mind cloning myself so Ican demonstrate my devotion to each of my offspring by sitting on multiple sets of bleachers, yelling \u201cGo!\u201d or \u201cWay to go!\u201d or \u201cGo fast",
+      "preview_tail": "le sets of bleachers, yelling \u201cGo!\u201d or \u201cWay to go!\u201d or \u201cGo faster!\u201d There are plenty of folks who will stand in for me tocheer on my children at anygiven sporting event.No, if I could clone myself,it ",
+      "full_text": "beforereaching the field or stage. Never mind cloning myself so Ican demonstrate my devotion to each of my offspring by sitting on multiple sets of bleachers, yelling \u201cGo!\u201d or \u201cWay to go!\u201d or \u201cGo faster!\u201d There are plenty of folks who will stand in for me tocheer on my children at anygiven sporting event.No, if I could clone myself,it ",
+      "avg_prediction": 0.4024
+    },
+    {
+      "idx": 114,
+      "hash": "ec7773dc",
+      "n_words": 51,
+      "n_chars": 367,
+      "preview_head": "e Japanese animation, and bubbly/wacky/colorful cartoon characters. \"One of the most internationally acclaimed artists to emerge from Asia in the postwar era, Takashi Murakami effortlessly navigates b",
+      "preview_tail": "Murakami effortlessly navigates between the worlds of fine art and popular culture and is best known for his cartoon-like, \u201csuperflat\u201d style. This major traveling retrospective includes key selections",
+      "full_text": "e Japanese animation, and bubbly/wacky/colorful cartoon characters. \"One of the most internationally acclaimed artists to emerge from Asia in the postwar era, Takashi Murakami effortlessly navigates between the worlds of fine art and popular culture and is best known for his cartoon-like, \u201csuperflat\u201d style. This major traveling retrospective includes key selections",
+      "avg_prediction": 0.4361
+    },
+    {
+      "idx": 115,
+      "hash": "dee0ff51",
+      "n_words": 232,
+      "n_chars": 1838,
+      "preview_head": "elled argument has a default value, the default value will be used. For example, if you pass \\code{conf.level = 0.9}, all computation will proceed using \\code{conf.level = 0.95}. Additionally, if you ",
+      "preview_tail": "eviation explained by this PC} \\item{\\code{percent}}{Fraction of variation explained by this component (a numeric value between 0 and 1).} \\item{\\code{cumulative}}{Cumulative fraction of variation exp",
+      "full_text": "elled argument has a default value, the default value will be used. For example, if you pass \\code{conf.level = 0.9}, all computation will proceed using \\code{conf.level = 0.95}. Additionally, if you pass \\code{newdata = my_tibble} to an \\code{\\link[=augment]{augment()}} method that does not accept a \\code{newdata} argument, it will use the default value for the \\code{data} argument.} } \\value{ A \\link[tibble:tibble]{tibble::tibble} with columns depending on the component of PCA being tidied. If \\code{matrix} is \\code{\"u\"}, \\code{\"samples\"}, \\code{\"scores\"}, or \\code{\"x\"} each row in the tidied output corresponds to the original data in PCA space. The columns are: \\item{\\code{row}}{ID of the original observation (i.e. rowname from original data).} \\item{\\code{PC}}{Integer indicating a principal component.} \\item{\\code{value}}{The score of the observation for that particular principal component. That is, the location of the observation in PCA space.} If \\code{matrix} is \\code{\"v\"}, \\code{\"rotation\"}, \\code{\"loadings\"} or \\code{\"variables\"}, each row in the tidied output corresponds to information about the principle components in the original space. The columns are: \\item{\\code{row}}{The variable labels (colnames) of the data set on which PCA was performed} \\item{\\code{PC}}{An integer vector indicating the principal component} \\item{\\code{value}}{The value of the eigenvector (axis score) on the indicated principal component} If \\code{matrix} is \\code{\"d\"}, \\code{\"eigenvalues\"} or \\code{\"pcs\"}, the columns are: \\item{\\code{PC}}{An integer vector indicating the principal component} \\item{\\code{std.dev}}{Standard deviation explained by this PC} \\item{\\code{percent}}{Fraction of variation explained by this component (a numeric value between 0 and 1).} \\item{\\code{cumulative}}{Cumulative fraction of variation exp",
+      "avg_prediction": 0.4747
+    },
+    {
+      "idx": 116,
+      "hash": "8e614e76",
+      "n_words": 127,
+      "n_chars": 721,
+      "preview_head": "t following the completion of my studies at the John Paul II Institute for Marriage and the Family in MelbourneHere is the completed text based on the user's input: Visit us on and learn more about ou",
+      "preview_tail": "bia/Malawi. You can donate to support our work and visit us on to learn more about our mission and the impact we are making in the world. Recently, Sr. Kelechi Agugo RSC, one of our dedicated sisters,",
+      "full_text": "t following the completion of my studies at the John Paul II Institute for Marriage and the Family in MelbourneHere is the completed text based on the user's input: Visit us on and learn more about our congregation, who we are, how we live, and our vows. Becoming a sister is a rewarding and fulfilling journey, and we invite you to join us in our community living and worship. Our focus areas include marriage and family ministry, and we have a strong presence in Ireland, England, Scotland, California, Nigeria, and Zambia/Malawi. You can donate to support our work and visit us on to learn more about our mission and the impact we are making in the world. Recently, Sr. Kelechi Agugo RSC, one of our dedicated sisters,",
+      "avg_prediction": 0.6121
+    },
+    {
+      "idx": 117,
+      "hash": "2c181977",
+      "n_words": 112,
+      "n_chars": 719,
+      "preview_head": "observations to create a compelling portrait of India's long history and its place in the world. He takes us from the earliest prehistoric settlements to the present, from the Indus Valley to the Indo",
+      "preview_tail": "offers a assessment of the ways in which India's past continues to shape its present. In the process, Wood provides a unique interpretation of Indian history that is both accessible and comprehensive.",
+      "full_text": "observations to create a compelling portrait of India's long history and its place in the world. He takes us from the earliest prehistoric settlements to the present, from the Indus Valley to the Indo-Chinese frontier, from the Harappan civilization to the computer software boom. He traces the evolution of civilization, the emergence of Hinduism, the invasions of Persians, Greeks, and Muslims, and the long British occupation. He examines the social, economic, and consequences of India's size and diversity. And he offers a assessment of the ways in which India's past continues to shape its present. In the process, Wood provides a unique interpretation of Indian history that is both accessible and comprehensive.",
+      "avg_prediction": 0.5383
+    },
+    {
+      "idx": 118,
+      "hash": "fe4535c7",
+      "n_words": 59,
+      "n_chars": 440,
+      "preview_head": "exhibited greater accumulation of neutral lipids compared to the control group. This indicates that certain species may utilize scarcity for energy storage purposes by increasing their production and ",
+      "preview_tail": "spect while considering them as feedstocks. These findings contribute towards understanding algae's growth dynamics under stress conditions, providing valuable insights into developing sustainable pro",
+      "full_text": "exhibited greater accumulation of neutral lipids compared to the control group. This indicates that certain species may utilize scarcity for energy storage purposes by increasing their production and content in biofilms which is a crucial aspect while considering them as feedstocks. These findings contribute towards understanding algae's growth dynamics under stress conditions, providing valuable insights into developing sustainable pro",
+      "avg_prediction": 0.5891
+    },
+    {
+      "idx": 119,
+      "hash": "d9a92ade",
+      "n_words": 97,
+      "n_chars": 536,
+      "preview_head": "No. 3 spot when \"Wheel of Fortune\" host Pat Sajak admitted that he and letter turner Vanna White had hosted the game show drunk on numerous occasions during the '80s. The game-show host admitted in an",
+      "preview_tail": "great margaritas,\" he recalled. \"So Vanna and I would go across and have two or three or six and then come and do the last shows and have trouble recognizing the alphabet. They're really good tapes to",
+      "full_text": "No. 3 spot when \"Wheel of Fortune\" host Pat Sajak admitted that he and letter turner Vanna White had hosted the game show drunk on numerous occasions during the '80s. The game-show host admitted in an interview that he and the lovely lady would often go to a nearby restaurant during their dinner break for a little drink. \"They served great margaritas,\" he recalled. \"So Vanna and I would go across and have two or three or six and then come and do the last shows and have trouble recognizing the alphabet. They're really good tapes to",
+      "avg_prediction": 0.4524
+    }
+  ]
+}

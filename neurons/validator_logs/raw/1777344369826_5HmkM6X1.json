@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-04-28T02:46:09.826215+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 5,
+  "duplicates": [],
+  "latency_ms": 1438,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "97ba6ce2",
+      "n_words": 132,
+      "n_chars": 766,
+      "preview_head": "age MillerTimeTJ View Public Profile Find More Posts by MillerTimeTJ 05-09-2012, 07:57 AM #3 Bullfrog 02 2003 XJ Liberty Sport 5speed 217,000k miles 2012 JKU Sport 212k miles 1971 FJ55 23,773 miles 19",
+      "preview_tail": "2013 2500 27,351 miles 2013 1500 33,753 miles 1972 1500 37,311 miles 1979 3100 3,129 miles 1979 1100 31,297 miles 2009 3100 53,137 miles 1999 3100 53,137 miles 1999 2100 1,739 miles 1991 1100 53,137 m",
+      "full_text": "age MillerTimeTJ View Public Profile Find More Posts by MillerTimeTJ 05-09-2012, 07:57 AM #3 Bullfrog 02 2003 XJ Liberty Sport 5speed 217,000k miles 2012 JKU Sport 212k miles 1971 FJ55 23,773 miles 1971 1271 7,131 miles 1972 3100 229,955 miles 1979 1100 31,297 miles 1991 3100 3,075 miles 2001 3100 229,955 miles 1972 3100 229,955 miles 1972 1500 373,117 miles 1979 1500 31,297 miles 2010 2500 13,393 miles 1970 3100 573 miles 1992 1100 115,017 miles 2001 1100 33,117 miles 1971 3100 29,055 miles 1997 3100 53,000 miles 2010 1500 31,393 miles 2012 1500 51,203 miles 2013 2500 27,351 miles 2013 1500 33,753 miles 1972 1500 37,311 miles 1979 3100 3,129 miles 1979 1100 31,297 miles 2009 3100 53,137 miles 1999 3100 53,137 miles 1999 2100 1,739 miles 1991 1100 53,137 m",
+      "avg_prediction": 0.9072
+    },
+    {
+      "idx": 1,
+      "hash": "71de9555",
+      "n_words": 264,
+      "n_chars": 1685,
+      "preview_head": "is not CLS-compliant Note the lower case 'n' in Samplenamespace. I'm not even using the reference assembly in my project at the moment. Simply adding it as a reference causes the warning. Why is the c",
+      "preview_tail": "'re confident that CLS compliance isn't a concern for your specific project and its intended usage. However, be aware that suppressing such warnings can lead to unforeseen compatibility issues down th",
+      "full_text": "is not CLS-compliant Note the lower case 'n' in Samplenamespace. I'm not even using the reference assembly in my project at the moment. Simply adding it as a reference causes the warning. Why is the compiler complaining about this considering I'm not even exposing any references to the assembly in my public classes? Any workaround? A: Not all .NET languages are case sensitive (VB for example) when you have mixed namespaces like this, diffing only in case (to use the wording of the warning) your code may not be accessable to other developers. That may not be your case, which ...is precisely why CLS compliance is a concern. Even if you're not currently using the reference assembly or exposing its types through public classes, adding it as a reference still introduces potential conflicts that could affect interoperability with languages like VB.NET. The warning is raised because the Common Language Specification (CLS) defines rules for ensuring compatibility across different .NET programming languages. One of these rules states that two namespaces cannot differ only by case if they are to be CLS-compliant. This rule helps prevent naming conflicts and ensures seamless interaction between components written in various languages. To work around this issue, you could consider renaming either your own namespace or the referenced assembly's namespace (if it's under your control) to avoid the casing conflict. Alternatively, you might choose to suppress the warning if you're confident that CLS compliance isn't a concern for your specific project and its intended usage. However, be aware that suppressing such warnings can lead to unforeseen compatibility issues down th",
+      "avg_prediction": 0.7482
+    },
+    {
+      "idx": 2,
+      "hash": "c996e6f3",
+      "n_words": 97,
+      "n_chars": 562,
+      "preview_head": ":26 Actions 16: Racks 46O% 18:18 Actions 18: Racks 46O% 16:48 Actions 20: Racks 46O% 16:41 Actions 22: Racks 46O% 16:28 Actions 24: Racks 46O% 16:18 Actions 26: Racks 46O% 16:11 Actions 28: Racks 46O%",
+      "preview_tail": ": Racks 46O% 14:08 Actions 42: Racks 46O% 14:02 Actions 44: Racks 46O% 14:01 Actions 46: Racks 46O% 14:00 Actions 48: Racks 46O% 13:31 Actions 49: Racks 46O% 13:11 Actions 50: Racks 46O% 11:49 Actions",
+      "full_text": ":26 Actions 16: Racks 46O% 18:18 Actions 18: Racks 46O% 16:48 Actions 20: Racks 46O% 16:41 Actions 22: Racks 46O% 16:28 Actions 24: Racks 46O% 16:18 Actions 26: Racks 46O% 16:11 Actions 28: Racks 46O% 15:58 ACtions 30: Racks 46O% 15:48 Actions 32: Racks 46O% 15:40 Actions 34: Racks 46O% 15:15 Actions 36: Racks 46O% 14:23 Actions 38: Racks 46O% 14:16 Actions 40: Racks 46O% 14:08 Actions 42: Racks 46O% 14:02 Actions 44: Racks 46O% 14:01 Actions 46: Racks 46O% 14:00 Actions 48: Racks 46O% 13:31 Actions 49: Racks 46O% 13:11 Actions 50: Racks 46O% 11:49 Actions",
+      "avg_prediction": 0.9775
+    },
+    {
+      "idx": 3,
+      "hash": "40a3e7d8",
+      "n_words": 61,
+      "n_chars": 390,
+      "preview_head": "to be infringing or to be the subject of infringing activity and that is to be removed, or access to which is to be disabled, and information reasonably sufficient to permit Insidesign, Inc., to ident",
+      "preview_tail": ", to identify the material; Information that is reasonably sufficient to permit Insidesign, Inc., to contact the complaining party, such as address, telephone number and, if available, e-mail address;",
+      "full_text": "to be infringing or to be the subject of infringing activity and that is to be removed, or access to which is to be disabled, and information reasonably sufficient to permit Insidesign, Inc., to identify the material; Information that is reasonably sufficient to permit Insidesign, Inc., to contact the complaining party, such as address, telephone number and, if available, e-mail address;",
+      "avg_prediction": 0.0377
+    },
+    {
+      "idx": 4,
+      "hash": "25217cc0",
+      "n_words": 82,
+      "n_chars": 257,
+      "preview_head": "1 AUGUST 2004 S M T W Th F Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 << Prev. >> Next SEPTEMBER 2004 S M T W 5,6 7-10 11, 12, 13 -16 17 18 ,19 20 2",
+      "preview_tail": "13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 << Prev. >> Next SEPTEMBER 2004 S M T W 5,6 7-10 11, 12, 13 -16 17 18 ,19 20 21 22 23 24 25 26 27 28 29 30 1. Furious 7 (2014) 2. 3. To",
+      "full_text": "1 AUGUST 2004 S M T W Th F Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 << Prev. >> Next SEPTEMBER 2004 S M T W 5,6 7-10 11, 12, 13 -16 17 18 ,19 20 21 22 23 24 25 26 27 28 29 30 1. Furious 7 (2014) 2. 3. To",
+      "avg_prediction": 0.9708
+    }
+  ]
+}

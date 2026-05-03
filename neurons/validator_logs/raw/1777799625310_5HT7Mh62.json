@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-05-03T09:13:45.310553+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 5,
+  "duplicates": [],
+  "latency_ms": 2195,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "4093a5da",
+      "n_words": 68,
+      "n_chars": 372,
+      "preview_head": "station opened with the line, and was a signal box and block post, using the telegraph instruments by 1879, with Winter\u0092s instruments provided by 1890. A six lever frame was provided in 1927, for cont",
+      "preview_tail": "s provided in 1927, for control of signals, until closed as a block post in 1993. The station was renamed \u0091Riddell\u0092 in 1904, as part of a policy to adopt short station names, but was renamed to the fu",
+      "full_text": "station opened with the line, and was a signal box and block post, using the telegraph instruments by 1879, with Winter\u0092s instruments provided by 1890. A six lever frame was provided in 1927, for control of signals, until closed as a block post in 1993. The station was renamed \u0091Riddell\u0092 in 1904, as part of a policy to adopt short station names, but was renamed to the fu",
+      "avg_prediction": 0.4615
+    },
+    {
+      "idx": 1,
+      "hash": "754aae44",
+      "n_words": 61,
+      "n_chars": 336,
+      "preview_head": "KIRKLAND LAKE, my name is Angelo Francis Berlingeri. I was born on June 4 at the Peterborough Hospital. I weighed in at 9 lbs., 11 ounces. My parents, Jonathan and Valentina are enjoying their new lif",
+      "preview_tail": "s. My parents, Jonathan and Valentina are enjoying their new lifestyle. They promised to take me touring. First to Lindsay to meet Opa andOma, then off to see my aunts and uncles who live just outside",
+      "full_text": "KIRKLAND LAKE, my name is Angelo Francis Berlingeri. I was born on June 4 at the Peterborough Hospital. I weighed in at 9 lbs., 11 ounces. My parents, Jonathan and Valentina are enjoying their new lifestyle. They promised to take me touring. First to Lindsay to meet Opa andOma, then off to see my aunts and uncles who live just outside",
+      "avg_prediction": 0.5091
+    },
+    {
+      "idx": 2,
+      "hash": "aae0ee85",
+      "n_words": 115,
+      "n_chars": 1161,
+      "preview_head": "that a customer made a payment but it was unsuccessful, I checked my paypal log, first payment was successful but she kept trying again only to find out that she is out of funds. Here is my log [26-03",
+      "preview_tail": "n : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token A: It seems that the customer has insufficient funds in her account to complete payment, so it failed and she was charged a fee for trying",
+      "full_text": "that a customer made a payment but it was unsuccessful, I checked my paypal log, first payment was successful but she kept trying again only to find out that she is out of funds. Here is my log [26-03-2020 10:03:50] PayPal\\Core\\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token [26-03-2020 10:03:51] PayPal\\Core\\PayPalHttpConnection : INFO: Response Status : 200 [26-03-2020 10:03:51] PayPal\\Core\\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment [26-03-2020 10:04:07] PayPal\\Api\\PaymentExecution ::get() - Response Status Code is 'CREATED' and the response body details are as follows : {\"name\":\"create\",\"redirect_urls\":{\"return_url\":null,\"cancel_url\":\"\"},\"payer\":{},\"transactions\":[{\"amount\":{\"total\":\"15.03\"},\"description\":\"\", \"item_list\":{\"items\":[{},{}]}}],\"_links\":[\"https://api.paypal.com/v2/payments-captures/{captureId}\",\"self\"],\"__type\":\"payment\"} [26-03-2020 10:47:59] PayPal\\Core\\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token A: It seems that the customer has insufficient funds in her account to complete payment, so it failed and she was charged a fee for trying",
+      "avg_prediction": 0.4316
+    },
+    {
+      "idx": 3,
+      "hash": "30a7d009",
+      "n_words": 58,
+      "n_chars": 290,
+      "preview_head": "see what Timmons can do. He may not have made a big play, but you see what he can do for our team from a defensive schemeing standpoint. I always thought he was drafted to be a bigger troy smaller Kei",
+      "preview_tail": "ur team from a defensive schemeing standpoint. I always thought he was drafted to be a bigger troy smaller Keisel. He's that third rover type player on the field. Now that he's worked that groin in li",
+      "full_text": "see what Timmons can do. He may not have made a big play, but you see what he can do for our team from a defensive schemeing standpoint. I always thought he was drafted to be a bigger troy smaller Keisel. He's that third rover type player on the field. Now that he's worked that groin in li",
+      "avg_prediction": 0.4226
+    },
+    {
+      "idx": 4,
+      "hash": "0db9c35d",
+      "n_words": 66,
+      "n_chars": 496,
+      "preview_head": "ich data should be requested url: '@Url.Action(\"GetCompLine\")', cellEdit: true, cellurl: '@Url.Action(\"UpdateCompProperty\")', //type of data Thanks in advance! A: You can use afterSaveCell or afterSub",
+      "preview_tail": "ing should work: afterSaveCell: function () { $(this).trigger('reloadGrid'); } If you are using latest version of free-jqGrid (4.15.5 or higher), you also need to set reloadingDuringEditing: 'save' at",
+      "full_text": "ich data should be requested url: '@Url.Action(\"GetCompLine\")', cellEdit: true, cellurl: '@Url.Action(\"UpdateCompProperty\")', //type of data Thanks in advance! A: You can use afterSaveCell or afterSubmitCell to trigger grid reloading after successful cell saving. I think the code like the following should work: afterSaveCell: function () { $(this).trigger('reloadGrid'); } If you are using latest version of free-jqGrid (4.15.5 or higher), you also need to set reloadingDuringEditing: 'save' at",
+      "avg_prediction": 0.3955
+    }
+  ]
+}

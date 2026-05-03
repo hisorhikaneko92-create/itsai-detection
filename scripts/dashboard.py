@@ -46,6 +46,71 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SUMMARY_LOG = REPO_ROOT / "neurons" / "validator_logs" / "summary.log"
 
+
+# ---------------------------------------------------------------------------
+# Validator hotkey → UID lookup. Refreshed periodically from the bittensor
+# metagraph in a background thread so the request panel can show "vUID" next
+# to each hotkey. Falls back to "?" if bittensor isn't installed or the chain
+# isn't reachable — the rest of the dashboard still works.
+# ---------------------------------------------------------------------------
+_HK_UID_CACHE = {"map": {}, "ts": 0}
+_HK_UID_LOCK = threading.Lock()
+
+
+def _refresh_hotkey_uid_map(netuid=32, network="finney"):
+    """Pull metagraph, build {hotkey: uid}. Returns the map (or empty on fail)."""
+    try:
+        import bittensor as bt
+    except ImportError:
+        return {}
+    try:
+        sub = bt.subtensor(network)
+        meta = sub.metagraph(netuid, lite=True)
+        out = {hk: int(uid) for uid, hk in enumerate(meta.hotkeys)}
+        return out
+    except Exception:
+        return {}
+
+
+def _start_hotkey_uid_poller(refresh_seconds, netuid, network):
+    """Background thread: refresh the hotkey→UID map every N seconds.
+    First refresh is synchronous so the very first render already has data."""
+    initial = _refresh_hotkey_uid_map(netuid=netuid, network=network)
+    with _HK_UID_LOCK:
+        _HK_UID_CACHE["map"] = initial
+        _HK_UID_CACHE["ts"] = time.time()
+
+    def _loop():
+        while True:
+            time.sleep(refresh_seconds)
+            new = _refresh_hotkey_uid_map(netuid=netuid, network=network)
+            if new:
+                with _HK_UID_LOCK:
+                    _HK_UID_CACHE["map"] = new
+                    _HK_UID_CACHE["ts"] = time.time()
+
+    t = threading.Thread(target=_loop, daemon=True)
+    t.start()
+
+
+def _hotkey_to_uid(hk_prefix):
+    """The summary log truncates each hotkey to 10 chars (`hk[:10]`). We do a
+    prefix match on the full hotkey list cached from the metagraph."""
+    if not hk_prefix:
+        return None
+    with _HK_UID_LOCK:
+        m = _HK_UID_CACHE["map"]
+    if not m:
+        return None
+    # Exact full-hotkey hit (rare — only if the summary line wasn't truncated)
+    if hk_prefix in m:
+        return m[hk_prefix]
+    # Prefix match on the shortened form
+    for hk_full, uid in m.items():
+        if hk_full.startswith(hk_prefix):
+            return uid
+    return None
+
 # Parses a line written by neurons/miner.py:log_validator_request:
 #   [2026-04-23T19:47:56+00:00] hk=5DWt... ver=1.0.0 ok=1 n_texts=120
 #   words(min/avg/max)=65/205/350 dups=3 latency_ms=1243 avg_pred=0.487
@@ -290,6 +355,7 @@ def render_wandb(poller):
 def render_requests(requests):
     table = Table(expand=True, show_lines=False, header_style="bold")
     table.add_column("time (UTC)", style="white", no_wrap=True)
+    table.add_column("vUID", justify="right", style="bold cyan", no_wrap=True)
     table.add_column("hotkey", style="cyan", no_wrap=True)
     table.add_column("ok", justify="center", no_wrap=True)
     table.add_column("texts", justify="right")
@@ -300,7 +366,7 @@ def render_requests(requests):
     table.add_column("err", style="red", no_wrap=True)
 
     if not requests:
-        table.add_row("—", "waiting...", "", "", "", "", "", "", "")
+        table.add_row("—", "?", "waiting...", "", "", "", "", "", "", "")
     # Render newest at the TOP so the first row in the panel is the most
     # recent request. Rich truncates tables that are taller than the panel
     # at the bottom, so putting newest-first keeps the useful rows visible
@@ -333,8 +399,14 @@ def render_requests(requests):
         err = r.get("err")
         err_text = Text(err, style="red bold") if err else Text("", style="dim")
 
+        # Validator UID via hotkey lookup against the cached metagraph map.
+        # Empty/grey if bittensor isn't installed or the chain wasn't reachable.
+        vuid = _hotkey_to_uid(r["hk"])
+        vuid_text = Text(str(vuid), style="bold cyan") if vuid is not None else Text("?", style="dim")
+
         table.add_row(
             ts_short,
+            vuid_text,
             r["hk"][:10],
             ok_text,
             r["n"],
@@ -396,7 +468,24 @@ def main():
                     help="How many recent requests to display.")
     ap.add_argument("--ui-refresh", type=float, default=2.0,
                     help="UI refresh interval in seconds.")
+    ap.add_argument("--netuid", type=int, default=32,
+                    help="Subnet UID for the validator hotkey→UID lookup. Default 32.")
+    ap.add_argument("--bt-network", default="finney",
+                    help="Bittensor network to query for the metagraph. Default 'finney'.")
+    ap.add_argument("--metagraph-refresh", type=int, default=900,
+                    help="Seconds between metagraph refreshes. Default 900 (15 min). "
+                         "Validators rarely change UIDs, so this can be coarse.")
+    ap.add_argument("--no-validator-uid", action="store_true",
+                    help="Skip the metagraph-backed validator UID column "
+                         "(uses bittensor; disable if not installed or you don't want the chain query).")
     args = ap.parse_args()
+
+    if not args.no_validator_uid:
+        _start_hotkey_uid_poller(
+            refresh_seconds=args.metagraph_refresh,
+            netuid=args.netuid,
+            network=args.bt_network,
+        )
 
     poller = WandbPoller(
         uid=args.uid,

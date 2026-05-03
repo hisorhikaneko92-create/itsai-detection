@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-05-03T18:12:49.549645+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 4,
+  "duplicates": [],
+  "latency_ms": 2381,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0c49fa79",
+      "n_words": 36,
+      "n_chars": 256,
+      "preview_head": "speed capability on different surfaces; 20%-51%. PRB 2.0 puncture resistant belting increases the flat prevention properties of the Corsa Evo CX up to 40%, even while reducing the weight. Puncture res",
+      "preview_tail": " puncture resistant belting increases the flat prevention properties of the Corsa Evo CX up to 40%, even while reducing the weight. Puncture resistance: Internal belt. Intended use: Touring/Commuting,",
+      "full_text": "speed capability on different surfaces; 20%-51%. PRB 2.0 puncture resistant belting increases the flat prevention properties of the Corsa Evo CX up to 40%, even while reducing the weight. Puncture resistance: Internal belt. Intended use: Touring/Commuting,",
+      "avg_prediction": 0.4222
+    },
+    {
+      "idx": 1,
+      "hash": "e955dbc1",
+      "n_words": 125,
+      "n_chars": 1049,
+      "preview_head": "Art (continued): As the industrystrives forfurther reduction in chip size, it becomes increasinglychallenging toachievethedesired resolution usingconventionalphotolithography techniques.This limitatio",
+      "preview_tail": "arying sensitivity to specific wavelengths of light or different dissolution rates in developers. This versatility allows for control over the exposure and developmentprocesses,enabling the creation o",
+      "full_text": "Art (continued): As the industrystrives forfurther reduction in chip size, it becomes increasinglychallenging toachievethedesired resolution usingconventionalphotolithography techniques.This limitation arises from the diffraction limit of light,which restricts the feature size that canbe resolved. To overcome this challenge, researchers have explored various approaches, including the use of shorter wavelength light sources and advanced lithography methods such as immersionlithography andextreme ultraviolet (EUV) lithography. One innovative solution toenhance resolution is theutilization of a multi-layered photoresist system. By employing multiple layers ofphotoresist with properties, itbecomes possible to create intricate patternswith improved Each layer in the multi-layered stack can be tailored tohave distinct characteristics, such asvarying sensitivity to specific wavelengths of light or different dissolution rates in developers. This versatility allows for control over the exposure and developmentprocesses,enabling the creation o",
+      "avg_prediction": 0.5662
+    },
+    {
+      "idx": 2,
+      "hash": "01958219",
+      "n_words": 128,
+      "n_chars": 815,
+      "preview_head": "is technique is at a disadvantage. IOL with primary posterior capsulorhexis (PPC) and anterior vitrectomy is associated with less learning curve as PPC can be done with vitrectomy cutter (vitrectorhex",
+      "preview_tail": " VAO, inflammation, and refractive surprises in growing eye, few current studies are favoring primary IOL implantation in infants for a better visual outcome.\\[[@ref3][@ref4]\\] Though this prospective",
+      "full_text": "is technique is at a disadvantage. IOL with primary posterior capsulorhexis (PPC) and anterior vitrectomy is associated with less learning curve as PPC can be done with vitrectomy cutter (vitrectorhexis) instead of manual PPC and the size of PPC is not as crucial as like optic capture. But the main concern is more inflammation. This study has hypothesized that vitreous face disturbance is the main cause of this inflammation. But this is significant only in infant age group. Regarding VAO, there is no difference between the two groups. Though IOL is a controversy in infant cataract surgery due to the facts of VAO, inflammation, and refractive surprises in growing eye, few current studies are favoring primary IOL implantation in infants for a better visual outcome.\\[[@ref3][@ref4]\\] Though this prospective",
+      "avg_prediction": 0.3641
+    },
+    {
+      "idx": 3,
+      "hash": "8b993b23",
+      "n_words": 58,
+      "n_chars": 513,
+      "preview_head": "import insert_formatted __title__ = _(\"News\") __icon__ = addDataPrefix(\"glade/panel_annotation.svg\") __desc__ = _(\"List of server news\") class Sidepanel(): def load(self, widgets, connection, lounge):",
+      "preview_tail": "_widget__ def onNewsItem(self, nm, news): weekday, month, day, title, details = news dtitle = \"%s, %s %s: %s\" % (weekday, month, day, title) label = Gtk.Label(label=dtitle) label.props.width_request =",
+      "full_text": "import insert_formatted __title__ = _(\"News\") __icon__ = addDataPrefix(\"glade/panel_annotation.svg\") __desc__ = _(\"List of server news\") class Sidepanel(): def load(self, widgets, connection, lounge): self.widgets = widgets __widget__ = lounge.news_list connection.nm.connect(\"readNews\", self.onNewsItem) return __widget__ def onNewsItem(self, nm, news): weekday, month, day, title, details = news dtitle = \"%s, %s %s: %s\" % (weekday, month, day, title) label = Gtk.Label(label=dtitle) label.props.width_request =",
+      "avg_prediction": 0.483
+    }
+  ]
+}

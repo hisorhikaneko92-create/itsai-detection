@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-28T04:35:26.410590+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 2368,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "680734f0",
+      "n_words": 53,
+      "n_chars": 321,
+      "preview_head": "lcome Guest Log In Register Piano Buyer Home Search Ads Place an Ad Accessories Resources Contact This ad is not currently active. Piano Buyer Home Piano Buyer Classifieds Search Ads Place an Ad Acces",
+      "preview_tail": "y active. Piano Buyer Home Piano Buyer Classifieds Search Ads Place an Ad Accessories Resources Contact This ad is not currently active. Piano Buyer Home Piano Buyer Classifieds Search Ads Place an Ad",
+      "full_text": "lcome Guest Log In Register Piano Buyer Home Search Ads Place an Ad Accessories Resources Contact This ad is not currently active. Piano Buyer Home Piano Buyer Classifieds Search Ads Place an Ad Accessories Resources Contact This ad is not currently active. Piano Buyer Home Piano Buyer Classifieds Search Ads Place an Ad",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "f77ce784",
+      "n_words": 168,
+      "n_chars": 1049,
+      "preview_head": "30 min 2) Aerobic 30 min + Cognitive 30 min 3) Cognitive 30 min + Aerobic 30 min + Cognitive 30 min. A fourth group of 14 participants served as a no-contact control group. All participants completed ",
+      "preview_tail": "sults of this study support the efficacy of multimodal training on mobility, and suggest that the Sequential format may be the most effective for improving mobility among older adults with OAH. Future",
+      "full_text": "30 min 2) Aerobic 30 min + Cognitive 30 min 3) Cognitive 30 min + Aerobic 30 min + Cognitive 30 min. A fourth group of 14 participants served as a no-contact control group. All participants completed a pre-test, post-test, and 1-month follow-up. Results showed that, for the participants with ARHL, there were no significant differences between the three groups on the primary outcome of mobility, as measured by the Timed Up and Go (TUG) test. However, for the participants with OAH, there were significant differences between the groups on the TUG, with the Sequential group performing better than the Simultaneous group, and the Sequential group performing better than the Control group. There were no significant differences between the groups on the secondary outcome of executive functioning, as measured by the Trail Making Test (TMT). The results of this study support the efficacy of multimodal training on mobility, and suggest that the Sequential format may be the most effective for improving mobility among older adults with OAH. Future",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "a937a668",
+      "n_words": 90,
+      "n_chars": 830,
+      "preview_head": "examples. While trying to pass vectors I am facing an issue with this code : #include <iostream> #include <vector> #include <fstream> #include <sstream> #include <queue> #include <boost/archive/text_o",
+      "preview_tail": "> BOOST_SERIALIZATION_NVP(tV) ; std:cout << \"Loaded Vector Count:\"<< (unsigned int )std::distance((ia.rdbuf()).end())<<\"\\n\"; // Prints the number of elements in vector after loading data from archive.",
+      "full_text": "examples. While trying to pass vectors I am facing an issue with this code : #include <iostream> #include <vector> #include <fstream> #include <sstream> #include <queue> #include <boost/archive/text_oarchive.hpp> #include <boost/archive/text_iarchive.hpp> #include <boost/serialization/list.hpp> #include <boost/serialization/vector.hpp> using namespace std; stringstream ss (stringstream::in | stringstream::out); void save() { boost::archive::text_oarchive oa(ss); vector<int> v; v.push_back( 228 ); v.push_back( 322 ); oa << BoOST_SERIALIZATION_NVP(v); } void load() { boost::archive::text_iarchive ia(ss); vector<int> tV; ia >> BOOST_SERIALIZATION_NVP(tV) ; std:cout << \"Loaded Vector Count:\"<< (unsigned int )std::distance((ia.rdbuf()).end())<<\"\\n\"; // Prints the number of elements in vector after loading data from archive.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "93cd6cf9",
+      "n_words": 248,
+      "n_chars": 1251,
+      "preview_head": "dea for WCF service, doesn't it? Otherwise what is the benefit HTTP based WCF VS TCP based WCF... From other side 80 or 8080 can be occupied already. What are the most proxy destination port restricti",
+      "preview_tail": "most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most",
+      "full_text": "dea for WCF service, doesn't it? Otherwise what is the benefit HTTP based WCF VS TCP based WCF... From other side 80 or 8080 can be occupied already. What are the most proxy destination port restrictions nowadays? This information is HTTp proxy is, most the most common, is the HTTP proxy, the port 80. This is the port HTTP proxy is most common. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most common port, the port 80. HTTP proxy is the most",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "adc821fd",
+      "n_words": 276,
+      "n_chars": 2525,
+      "preview_head": "|| arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap",
+      "preview_tail": "Map(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, ",
+      "full_text": "|| arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) ||arrayMap(array, length) || arrayMap(array, length) ||arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length)||arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length)|| arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, length) || arrayMap(array, ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "489c4b38",
+      "n_words": 331,
+      "n_chars": 2168,
+      "preview_head": "save disk space by using hard links for multiple Django installations. Hard links allow multiple directories to point to the same files on disk, which can be particularly useful when you have multiple",
+      "preview_tail": "when deleting the original files, as deleting the source file will also remove the hard link, potentially breaking your projects. This technique is a simple and effective way to manage multiple Django",
+      "full_text": "save disk space by using hard links for multiple Django installations. Hard links allow multiple directories to point to the same files on disk, which can be particularly useful when you have multiple Django projects that use the same version of Django. Instead of having separate copies of the Django framework for each project, you can have a single copy that is shared, thus saving disk space. ### Implementation 1. Install Django in a shared location: - Choose a directory where you want to install Django, for example, `/opt/django/1.11`. - Install Django in this directory using `pip` or `easy_install`. 2. Create hard links for project-specific installations: - Navigate to the `site-packages` directory of your project's virtual environment. - Use the `ln` command to create hard links to the Django files in the shared location. - For example, if your project's `site-packages` directory is `/home/user/.virtualenvs/myproject/lib/python3.6/site-packages`, you would run: ```bash ln -P /opt/django/1.11/django /home/user/.virtualenvs/myproject/lib/python3.6/site-packages/django ``` 3. Verify the setup: - Ensure that the hard links are correctly set up by checking the file links in the project's `site-packages` directory. - Run your Django project to confirm that it is using the hard-linked Django installation. ### Benefits - Disk Space Savings: Reduces the amount of disk space used by avoiding duplicate copies of the Django framework. - Simplified Updates: When you need to update Django, you only need to update the shared installation, and the changes will be reflected in all projects that use the hard links. ### Considerations - File System Support: Hard links are supported by most Unix-like file systems, but not all. Ensure that your file system supports hard links. - Compatibility: Hard links only work within the same file system. If your projects are on different file systems, this method won't work. - Caution with Deletions: Be cautious when deleting the original files, as deleting the source file will also remove the hard link, potentially breaking your projects. This technique is a simple and effective way to manage multiple Django",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "4e2d8b04",
+      "n_words": 138,
+      "n_chars": 932,
+      "preview_head": "to one bsaed upon my name of database.cs instead and throw an error because its different from MyClassDatasetNameTableAdaptersnamespace A couple questions 1) What does \"namespaces\" do anyway? Why can'",
+      "preview_tail": " do I quickly re-factor all my code to change MyClassDatasetNameTableAdaptersnamespace in dataset_s namespace without having that as an option?? I mean.. if there is no way of stopping visual studio f",
+      "full_text": "to one bsaed upon my name of database.cs instead and throw an error because its different from MyClassDatasetNameTableAdaptersnamespace A couple questions 1) What does \"namespaces\" do anyway? Why can't we just use .NameOfDataset.TableName for accessing a table, or Nameofdataset.[command].Commandname() ? Whats the purpose of it being behind dataset_s namespace?? and why not have that as an option instead 2a). I dont want to change all my existing code referencing MyClassDatasetNameTableAdaptersnamespace How can i stop visual studio from automatically changing Namespace on .designer files when making a new table or updating changes? (to match the Dataset.cs file) so it wont be throwing errors at me 3b)..Or alternatively, how do I quickly re-factor all my code to change MyClassDatasetNameTableAdaptersnamespace in dataset_s namespace without having that as an option?? I mean.. if there is no way of stopping visual studio f",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "4cb4aa06",
+      "n_words": 195,
+      "n_chars": 1249,
+      "preview_head": "z_2)X^{\\mu_3}(z_3,\\bar z_3)$? Exactly how does the integration in the exponential go and how does the exponentiation give RHS? The permutations look reasonable but the first term on RHS comes from whe",
+      "preview_tail": "})(X ^ {{ mu} _1}(zi,\\b ar{{ zi}}_ 1)$$ $$\\times(X^ {\\mu}_2 (zj,{\\ba r}{ z j}) X^{m u}_{3 }(zk, \\bar{ zk}))$$. Now use the chain rule to rewrite this as $$(\\alpha'/4)\\int d ^ {2}zd ^{2 }w(\\ln| w - z|^",
+      "full_text": "z_2)X^{\\mu_3}(z_3,\\bar z_3)$? Exactly how does the integration in the exponential go and how does the exponentiation give RHS? The permutations look reasonable but the first term on RHS comes from when $\\exp[...]=1$? A: First of all, note that the radial operator ordering ${\\cal R}$ is implicitly implied in many textbooks of CFT (e.g. Ref. 1). For instance, eq. (2.2.7) on p. 39 in Ref. 1 is discussing Wick's theorem between two operator ordering prescriptions. In this case between normal ordering $:~:$ and radial ordering ${\\cal R}$. The exponential can be expanded as a power series, i.e., $$ \\exp[\\cdots] = 1 + [\\cdots] + \\frac{1}{2!}([\\cdots])^2+\\ldots$$ Now focus on the first order term. We have $$(\\alpha'/4)\\int d^2z_4d^2z_5\\ln|z_5-z_4|^2(\\delta/\\delta X^\\mu(z_4,\\bar z_4)) (\\delta /\\delta X_\\mu (z_5, \\bar z_5))(X^{\\mu _1}(z_1 , \\bar{z}_ 1)X^{ {\\ mu} _2 }( {z }_{ 2 },\\ bar{{z}} _{ 2 })X ^ {{\\mu} _3}(z_3,\\bar z_3))$$ $$=(\\alpha'/4)\\int d^2zd^2w \\ln| w - z|^2 (\\delta/\\delta X^\\nu(z, \\bar{z}))(\\partial /\\ partial {X_\\nu(w ,{\\ bar }w )})(X ^ {{ mu} _1}(zi,\\b ar{{ zi}}_ 1)$$ $$\\times(X^ {\\mu}_2 (zj,{\\ba r}{ z j}) X^{m u}_{3 }(zk, \\bar{ zk}))$$. Now use the chain rule to rewrite this as $$(\\alpha'/4)\\int d ^ {2}zd ^{2 }w(\\ln| w - z|^",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "b4cdd0d2",
+      "n_words": 64,
+      "n_chars": 355,
+      "preview_head": "for the construction of a new Dollar General store. * Approved a resolution authorizing the city to apply for a grant to fund a pedestrian bridge over the Rock River. * Approved a resolution authorizi",
+      "preview_tail": "Rock River. * Approved a resolution authorizing the city to apply for a grant to fund a new playground at the Worthington Memorial Park. * Approved a resolution setting a public hearing for Oct. 27 to",
+      "full_text": "for the construction of a new Dollar General store. * Approved a resolution authorizing the city to apply for a grant to fund a pedestrian bridge over the Rock River. * Approved a resolution authorizing the city to apply for a grant to fund a new playground at the Worthington Memorial Park. * Approved a resolution setting a public hearing for Oct. 27 to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "24f6685f",
+      "n_words": 302,
+      "n_chars": 2098,
+      "preview_head": "to make it so instead of a TIMEOUT making the script stop, it would instead just restart/loop the macro? so like: SET !TIMEOUT 60 *so that restart macro on fail* URL GOTO=https://www.google.com/ TAG S",
+      "preview_tail": "at would perform an action. iimPlayCode(macro); // Execute the macro code within this condition block in browser's developer console or similar environment with access to 'iMacros' functions (if any).",
+      "full_text": "to make it so instead of a TIMEOUT making the script stop, it would instead just restart/loop the macro? so like: SET !TIMEOUT 60 *so that restart macro on fail* URL GOTO=https://www.google.com/ TAG SELECTOR=\"HTML>BODY>DIV:nth-of-type(2)>DIV:nth-of-type(9)>SPAN>CENTER>DIV>IMG\" This would make it so if for some reason it cant click on theTo address your questions about iMacros and conditional logic in Chrome, here are the details you need to know: ### Question 1: Can You Write an If Statement Using .iim? Unfortunately, native iMacros (using `.iim` files) does not support traditional if statements directly within its scripting language for either Firefox or Chrome. This is a limitation of the basic macro syntax provided by iMacros in these browsers. However, you can achieve conditional logic using JavaScript and running it through the browser's developer console with some additional setup: #### Using JavaScript (For Example) If you need to use if statements and other advanced scripting features, consider combining your `.iim` macro file with a JavaScript script executed from within iMacros for Firefox or by leveraging external tools like Node.js in combination with Selenium/Puppeteer scripts. Here is an example using JavaScript in conjunction: ```javascript // Example of conditional logic embedded directly in .iim via JS evaluation (not natively supported but possible through browser's developer console) if (!!window['{{!LOOP}}']) { // Condition based on some iMacros variable or page content. if(true){ // Place your actual condition here, this is just a placeholder example. var macro = \"CODE:\"; // Your .iim script to execute goes inside the CODE string. macro += \"URL GOTO=https://www.google.com/\\n\" ;// Add each line of iMacros code as needed here. macro+= \"TAG SELECTOR=\\\"HTML>BODY>DIV:nth-of-type(2)>DIV:nth-of-type(9)>SPAN>CENTER>DIV>IMG\\\"\\n\" ; // Example of a line that would perform an action. iimPlayCode(macro); // Execute the macro code within this condition block in browser's developer console or similar environment with access to 'iMacros' functions (if any).",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 10,
+      "hash": "cfc4b2b4",
+      "n_words": 51,
+      "n_chars": 285,
+      "preview_head": "Backpacking, Camping and Day Packs for Men Women Kids. Shop Now! Free Shipping on Orders Over $49 at Eastern Mountain Sports (EMS). 10% Off Your First Purchase When You Sign Up For Email Updates Today",
+      "preview_tail": "ers Over $49 at Eastern Mountain Sports (EMS). 10% Off Your First Purchase When You Sign Up For Email Updates Today.* See Details \u00bb Hiking Boots - Save up to %52 Climbing Gear: Harnesses, Ropes & More",
+      "full_text": "Backpacking, Camping and Day Packs for Men Women Kids. Shop Now! Free Shipping on Orders Over $49 at Eastern Mountain Sports (EMS). 10% Off Your First Purchase When You Sign Up For Email Updates Today.* See Details \u00bb Hiking Boots - Save up to %52 Climbing Gear: Harnesses, Ropes & More",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 11,
+      "hash": "9a61821b",
+      "n_words": 205,
+      "n_chars": 1297,
+      "preview_head": "e on this ingredients yet. Rubus Idaeus (Raspberry) Fruit Extract A plant extract (red raspberry) that is rich in antioxidants and it is believed to have anti-ageing properties. It is also believed to",
+      "preview_tail": "o acid that can improve hydration and it is believed to have anti-ageing properties. In skincare amino acids have water-binding properties. It is believed that they work best in cosmetics when several",
+      "full_text": "e on this ingredients yet. Rubus Idaeus (Raspberry) Fruit Extract A plant extract (red raspberry) that is rich in antioxidants and it is believed to have anti-ageing properties. It is also believed to help exfoliate the excess dead cells from the surface of the skin. Cystoseira Compressa Extract Type of brown algae. For more general properties of algae in skincare please see the other mentions of algae above. This one is what seems to be more currently known as rainbow algae. There are some mentions of it being able to brighten uneven skin tone. However, outside various brand claims online, the only studies found on this particular type of algae proved its antioxidant benefits and anti-microbial properties. Not much research was found on its brightening capabilities though. Sodium Hyaluronate Considered to be a more efficient form of hyaluronic acid with skin restoring and replenishing properties. It moisturises the skin, giving elasticity and suppleness. Its ability to retain water gives an immediate effect of suppleness to the skin, improving rough skin surfaces. Proline An amino acid that can improve hydration and it is believed to have anti-ageing properties. In skincare amino acids have water-binding properties. It is believed that they work best in cosmetics when several",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 12,
+      "hash": "5dcab267",
+      "n_words": 196,
+      "n_chars": 1341,
+      "preview_head": "ment), application of a voltage between the pair of electrodes causes injection of electrons from a cathode and holes from an anode into the EL layer having a light-emitting property and thus a curren",
+      "preview_tail": ". Among light-emitting elements containing phosphorescent compounds, a light-emitting element that emits blue light in particular has yet been put into practical use because it is difficult to develop",
+      "full_text": "ment), application of a voltage between the pair of electrodes causes injection of electrons from a cathode and holes from an anode into the EL layer having a light-emitting property and thus a current flows. By recombination of the injected electrons and holes, the light-emitting organic compound is brought into an excited state to provide light emission. Note that an excited state formed by an organic compound can be a singlet excited state (S*) or a triplet excited state (T*). Light emission from the singlet-excited state is referred to as fluorescence, and light emission from the triplet excited state is referred to as phosphorescence. The formation ratio of S* to T* in the light-emitting element is 1:3. In other words, a light-emitting element containing a compound emitting phosphorescence (phosphorescent compound) has higher emission efficiency than a light-emitting element containing a compound emitting fluorescence (fluorescent compound). Therefore, light-emitting elements containing phosphorescent compounds capable of converting a triplet excited state into light emission has been actively developed in recent years. Among light-emitting elements containing phosphorescent compounds, a light-emitting element that emits blue light in particular has yet been put into practical use because it is difficult to develop",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 13,
+      "hash": "46a2a2fc",
+      "n_words": 266,
+      "n_chars": 1914,
+      "preview_head": "he one in which oligosaccharides are linked to a protein via asparagine residues. >The Oligoglycosylation process takes place inside of eukaryotic cells at an amino acid motif composed by Asn--Xaa(1)-",
+      "preview_tail": " ''For instance CHO GS producing an antibody using fed batch operation, 37 \u00b0C incubation temperature with no pH control resulted in galactosylated structures''.^[@CR10]^. These differences result in g",
+      "full_text": "he one in which oligosaccharides are linked to a protein via asparagine residues. >The Oligoglycosylation process takes place inside of eukaryotic cells at an amino acid motif composed by Asn--Xaa(1)--Ser/Thr^[@CR7]^. During this post-translational modification, glycans (monosaccharide units) from dolichol pyrophosphate are transferred to the nascent polypeptide chain. The number and types of oligosaccharides added vary among glycoproteins within an organism as well across species.^ [@footnote_numref][@fn1]^ <!-- @@ fnmark[4] --> <!-- This footnote is ignored in html, only relevant for latex output --> [@CR8-- @CR9 ]^ As a consequence of this variability on the glycan structure and composition between proteins (inter-protein) as well across different species (intra-species), there are challenges to ensure that glycosylation remains consistent during protein production. Changes may arise from: * within populations, + Differences in sugar transporters genes^[@CR10]^. In humans have been identified differences between the sugars produced by people of northern and southern Europe[^ @p258 ]^, > ''Changes are caused when a single amino acid change is introduced into human glucose transporter gene. As an example, Asp67His mutation in Glut-4 results in defective transport due to disruption at exofacial substrate binding site''.^[@CR10]^. * of the glycosylation pathway during protein production[^ @p258 ]^, > ''For instance adding a transgene that encodes for sialyltransferase into Chinese Hamster Ovary (CHO) cells, in order to improve therapeutic glycoproteins with enhanced serum half-life''.^[@CR10]^. * such as the use of different media compositions or bioreactor operating modes[^ @p258 ]^, > ''For instance CHO GS producing an antibody using fed batch operation, 37 \u00b0C incubation temperature with no pH control resulted in galactosylated structures''.^[@CR10]^. These differences result in g",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 14,
+      "hash": "947a6f04",
+      "n_words": 95,
+      "n_chars": 720,
+      "preview_head": "traditional approach towards EM signals\u2019 demodulation involves mixing an incoming RF frequency with one generated internally at some point close enough in value (ideally identical) through a device li",
+      "preview_tail": "ractical due technical constraints such as need for accurate local oscillator generation within extremely tight tolerance levels. Furthermore, direct conversion from RF carrier wave into demodulated i",
+      "full_text": "traditional approach towards EM signals\u2019 demodulation involves mixing an incoming RF frequency with one generated internally at some point close enough in value (ideally identical) through a device like mixer circuit, followed by filtering out unwanted image and other spurious signal components using bandpass filters to obtain the desired intermediate or baseband frequencies. However there are limitations associated particularly when dealing high-frequency signals where conventional down-conversion might become impractical due technical constraints such as need for accurate local oscillator generation within extremely tight tolerance levels. Furthermore, direct conversion from RF carrier wave into demodulated i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 15,
+      "hash": "14b9c44d",
+      "n_words": 63,
+      "n_chars": 339,
+      "preview_head": "This won't do - for starters, I cannot change the plotting symbols, because they're not actually symbols, but degenerate boxes. If I change my data structure and go to named vectors, i.e., > names(y)=",
+      "preview_tail": " my data structure and go to named vectors, i.e., > names(y)=x > y X11 X13 X16 X17 0.80 0.90 0.87 0.84 > plot(y) I have the following data I would like to visualize: ```Rcpp{r} x <- c(\"A\", \"B\") y1 <-c",
+      "full_text": "This won't do - for starters, I cannot change the plotting symbols, because they're not actually symbols, but degenerate boxes. If I change my data structure and go to named vectors, i.e., > names(y)=x > y X11 X13 X16 X17 0.80 0.90 0.87 0.84 > plot(y) I have the following data I would like to visualize: ```Rcpp{r} x <- c(\"A\", \"B\") y1 <-c",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 16,
+      "hash": "9c9e5c2a",
+      "n_words": 37,
+      "n_chars": 329,
+      "preview_head": "IIS so that my session will expire after (5 minute) 3. and added this section to web.config file <authentication mode=\"Forms\"> <forms loginUrl=\"~/Membership/LogOn\" timeout=\"5\" defaultUrl=\"~/Membership",
+      "preview_tail": "orms loginUrl=\"~/Membership/LogOn\" timeout=\"5\" defaultUrl=\"~/Membership/LogOn\" /> </authentication> and now httpContext.Request.IsAuthenticated will return false when session experied. because timeout",
+      "full_text": "IIS so that my session will expire after (5 minute) 3. and added this section to web.config file <authentication mode=\"Forms\"> <forms loginUrl=\"~/Membership/LogOn\" timeout=\"5\" defaultUrl=\"~/Membership/LogOn\" /> </authentication> and now httpContext.Request.IsAuthenticated will return false when session experied. because timeout",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 17,
+      "hash": "e4e75067",
+      "n_words": 94,
+      "n_chars": 576,
+      "preview_head": "an undefined reference. If I compile from terminal with main.cpp -lSDL2 -o test I have no errors. But, if I compile from terminal with main.cpp -o test, then IIt sounds like you are correctly includin",
+      "preview_tail": "o help resolve this: ### Step 1: Install SDL2 Development Package Ensure that you have installed both `libsdl2` and the development package for it, which provides necessary header files and libraries:",
+      "full_text": "an undefined reference. If I compile from terminal with main.cpp -lSDL2 -o test I have no errors. But, if I compile from terminal with main.cpp -o test, then IIt sounds like you are correctly including the SDL2 header file in your project but having issues linking against the actual library when compiling within CLion on Ubuntu 16.04 using G++. Here's a step-by-step guide to help resolve this: ### Step 1: Install SDL2 Development Package Ensure that you have installed both `libsdl2` and the development package for it, which provides necessary header files and libraries:",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 18,
+      "hash": "daa88aaa",
+      "n_words": 258,
+      "n_chars": 2410,
+      "preview_head": "single-cylinder Yamaha XTZ 660 T\u00e9n\u00e9r\u00e9. The XTZ 660 and XTZ 750 superseded the smaller, air-cooled Yamaha XT 600Z T\u00e9n\u00e9r\u00e9. First sold in 1989, the SuperT\u00e9n\u00e9r\u00e9 used the new Yamaha engine design containin",
+      "preview_tail": "ee, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree",
+      "full_text": "single-cylinder Yamaha XTZ 660 T\u00e9n\u00e9r\u00e9. The XTZ 660 and XTZ 750 superseded the smaller, air-cooled Yamaha XT 600Z T\u00e9n\u00e9r\u00e9. First sold in 1989, the SuperT\u00e9n\u00e9r\u00e9 used the new Yamaha engine design containing 5-valve heads. A solid protective guard around the engine prevents damage. The front brake disks of the XTZ are provided with plastiThe front brake disks of the Yamaha XTZ 750 SuperT\u00e9n\u00e9r\u00e9 are provided with plasti. The Yamaha XTZ 750 SuperT\u00e9n\u00e9r\u00e9 is a notable dual-sport motorcycle with a robust design. It is a substantial motorcycle with a 750cc, 42-horsepower, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree, 90-degree",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 19,
+      "hash": "cc5a3400",
+      "n_words": 35,
+      "n_chars": 268,
+      "preview_head": "n InformationShipping InstructionsContact Used Guns Department Address:5135 US Highway 60 WestMt. Sterling, Kentucky40372-9499Business HoursMonday - Thursday8am to 6pm ESTFriday 8AM TO 5PM SATURDAYClo",
+      "preview_tail": "ss:5135 US Highway 60 WestMt. Sterling, Kentucky40372-9499Business HoursMonday - Thursday8am to 6pm ESTFriday 8AM TO 5PM SATURDAYClosedALL TImES ARE IN EASTERN STANDARD TIME(GMT +5) How can I help you",
+      "full_text": "n InformationShipping InstructionsContact Used Guns Department Address:5135 US Highway 60 WestMt. Sterling, Kentucky40372-9499Business HoursMonday - Thursday8am to 6pm ESTFriday 8AM TO 5PM SATURDAYClosedALL TImES ARE IN EASTERN STANDARD TIME(GMT +5) How can I help you",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 20,
+      "hash": "8d859f2f",
+      "n_words": 192,
+      "n_chars": 1786,
+      "preview_head": "IList<Payment> Payments { get; set; } } public class Payment { public int ID { get; set; } public int CustomerID { get; set; } public decimal CreditPrice { get; set; } public decimal DebitPrice { get;",
+      "preview_tail": "g(DbModelbuilder modelBuilder) { modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); modelBuilder.Entity<Payment>() .HasRequired(s => s.Customer) .WithMany(c => c.Payments) // specify t",
+      "full_text": "IList<Payment> Payments { get; set; } } public class Payment { public int ID { get; set; } public int CustomerID { get; set; } public decimal CreditPrice { get; set; } public decimal DebitPrice { get; set; } public DateTime PaymentDate { get; set; } [ForeignKey(\"CustomerID\")] public Customer Customer { get; set; } } and this is my context: public class AccountingContext : DbContext, IDisposable { public DbSet<Customer> Customers { get; set; } public DbSet<Payment> Payments { get; set; } protected override Void OnModelCreating(DbModelBuilder modelBuilder) { modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); modelBuilder.Entity<Payment>() .HasRequired(s => s.Customer) .WillCascadeOnDelete(); base.OnModelCreating(modelBuilder); } } i get this error in WillCascadeOnDelete(): Error 1 'System.Data.Entity.ModelConfiguration.ConfigurationIt seems like you are using an older version of Entity Framework. The `WillCascadeOn Delete()` method is not available on the `NavigationPropertyConfiguration` class. You should use `WithMany(c => c.Payments).HasForeignKey(p => p.CustomerID)` instead, and then specify `.WillCascadeOnDelete(true)`. Here's how to do it: ```csharp protected override void OnModelCreating(DbModelBuilder modelBuilder) { modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); modelBuilder.Entity<Customer>() .HasMany(c => c.Payments) .WithRequired(p => p.Customer) .WillCascadeOnDelete(true); base.OnModelCreating(modelBuilder); } ``` Or if you prefer fluent API for Payment entity only: ```csharp protected override void OnModelCreating(DbModelbuilder modelBuilder) { modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); modelBuilder.Entity<Payment>() .HasRequired(s => s.Customer) .WithMany(c => c.Payments) // specify t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 21,
+      "hash": "3ef85189",
+      "n_words": 62,
+      "n_chars": 402,
+      "preview_head": "t Completion: NSHE is an abbreviation for the Nevada System of Higher Education, which oversees public higher education in NVIDIA (Nevada) and operates seven institutions across NVIDIA state including",
+      "preview_tail": "our universities [...] What are you asking about? The text seems to list various sections or departments within a specific organization. If there's anything else I can help with regarding this topic l",
+      "full_text": "t Completion: NSHE is an abbreviation for the Nevada System of Higher Education, which oversees public higher education in NVIDIA (Nevada) and operates seven institutions across NVIDIA state including four universities [...] What are you asking about? The text seems to list various sections or departments within a specific organization. If there's anything else I can help with regarding this topic l",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 22,
+      "hash": "2590b8b8",
+      "n_words": 57,
+      "n_chars": 335,
+      "preview_head": "tes for Daylight Saving. It seems that SWITCHOFFSET only accepts a string in the format [+|-]TZH:TZM or a signed integer (of minutes) that represents the time zone offset, and is assumed to be dayligh",
+      "preview_tail": "hat represents the time zone offset, and is assumed to be daylight-saving aware and adjusted. A: It's not easySure! Here are some ways you can convert GMT to Central Time in T-SQL while compensating f",
+      "full_text": "tes for Daylight Saving. It seems that SWITCHOFFSET only accepts a string in the format [+|-]TZH:TZM or a signed integer (of minutes) that represents the time zone offset, and is assumed to be daylight-saving aware and adjusted. A: It's not easySure! Here are some ways you can convert GMT to Central Time in T-SQL while compensating f",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 23,
+      "hash": "2267c4d1",
+      "n_words": 52,
+      "n_chars": 375,
+      "preview_head": "human ESCs. Binding site turnover and the presence of species-specific transposable elements are some of the factors contributing to this disp arity. Hence, comparing human and mouse ESCs will shed ne",
+      "preview_tail": "d mouse ESCs will shed new light on the design of transcriptional regulatory networks for pluripotency. Despite the species-specificity, the pluripotency transcription factors are highly conserved and",
+      "full_text": "human ESCs. Binding site turnover and the presence of species-specific transposable elements are some of the factors contributing to this disp arity. Hence, comparing human and mouse ESCs will shed new light on the design of transcriptional regulatory networks for pluripotency. Despite the species-specificity, the pluripotency transcription factors are highly conserved and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 24,
+      "hash": "304e806f",
+      "n_words": 264,
+      "n_chars": 2019,
+      "preview_head": "only need curiosity and enthusiasm\u2026 Find EFT Events Category All CategoriesAll Combined Level 1 & 2 EFT TrainingAll Level 1 EFT TrainingAll Level 2 EFT TrainingAll Level 3 EFT TrainingAll Mentoring Ev",
+      "preview_tail": "ou navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. W",
+      "full_text": "only need curiosity and enthusiasm\u2026 Find EFT Events Category All CategoriesAll Combined Level 1 & 2 EFT TrainingAll Level 1 EFT TrainingAll Level 2 EFT TrainingAll Level 3 EFT TrainingAll Mentoring EventsAll Tapping GroupsConferences or GatheringsEFT-Related Specialty ClassesIntroductory EFT Classes Country All Online and In-Person EventsAustraliaBelgiumBosnia and HerzegovinaCanadaCroatiaEgyptEnglandFranceGermanyHong KongIndiaIrelandIsraelMalaysiaNetherlandsNew ZealandPortugalScotlandSerbiaSingaporeSouth AfricaSpainSwitzerlandUnited Arab EmiratesUnited KingdomUnited States Contact Please use the contact page to select which department you would like to reach. EFT International John Greenway Building John Greenway close Tiverton, Devon, EX16 6QF United Kingdom Our Mission EFT International (EFTi) is a voluntary, not-for-profit association: A UK Registered Charitable Incorporated Organisation (CIO), registered charity number 1176538. EFT International is committed to advancing and upholding the highest standards for education, training, professional development and promotion of the skilful, creative and ethical application of EFT (Emotional Freedom Techniques or \"Tapping\"). Quick Links Contact, Help & Support EFT International Volunteers Membership FAQs Policies & Procedures EFT International Statute (Bylaws) Privacy Policy \u00a9 2022 \u00b7 EFT International (EFTi), UK registered charity number 1176538 We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking \u201cAccept All\u201d, you consent to the use of ALL the cookies. However, you may visit \"Cookie Settings\" to provide a controlled consent. Accept AllCookie SettingsPrivacy Policy Manage consent Close Privacy Overview This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. W",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 25,
+      "hash": "5dc25cfd",
+      "n_words": 145,
+      "n_chars": 986,
+      "preview_head": "ensuring a steady stream of future business, and this could prove yet another way to reach that goal. One can only hope that the findings of the scientists at EMPA will be used for good and not for ha",
+      "preview_tail": " abuse? Proposal would send high-dose users to special pain units 09/11/2018 / By Rhonda Johansson Big Pharma will BANKRUPT America: \u201cMedicare for all\u201d projected to cost nearly $33 trillion over the n",
+      "full_text": "ensuring a steady stream of future business, and this could prove yet another way to reach that goal. One can only hope that the findings of the scientists at EMPA will be used for good and not for harm, as forced medication of babies with mind-altering drugs is unconscionable. Sources include: AlphaGalileo.org WakingTimes.com NaturalNews.com Tagged Under: Antidepressants, depression, fetus, nanoparticles, placenta, placental barrier, pre-natal, pregnancy, Prescription drugs, unborn babies Comments Please enable JavaScript to view the comments powered by Disqus. comments powered by Disqus RECENT NEWS & ARTICLES Skyrocketing antidepressant use now affecting marine life, turning waterways into a \u2018drug soup\u2019 10/21/2018 / By Tracey Watson Is extra monitoring a solution for opioid abuse? Proposal would send high-dose users to special pain units 09/11/2018 / By Rhonda Johansson Big Pharma will BANKRUPT America: \u201cMedicare for all\u201d projected to cost nearly $33 trillion over the n",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 26,
+      "hash": "6e92ee1a",
+      "n_words": 82,
+      "n_chars": 548,
+      "preview_head": "occupation dating back thousands of years. The preserve is managed by the Florida Park Service in partnership with local organizations such as Tampa Bay Watch. It offers various recreational activitie",
+      "preview_tail": " be seen and native wildlife thrive among them; fishing opportunities abound from boat launches to kayak rentals available at the facility for visitors who wish explore aquatic ecosystems of Tampa Bay",
+      "full_text": "occupation dating back thousands of years. The preserve is managed by the Florida Park Service in partnership with local organizations such as Tampa Bay Watch. It offers various recreational activities including hiking trails through diverse habitats like pine flatwoods which are part upland areas, mangrove forests along waterways where birds can be seen and native wildlife thrive among them; fishing opportunities abound from boat launches to kayak rentals available at the facility for visitors who wish explore aquatic ecosystems of Tampa Bay",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 27,
+      "hash": "bd135ce1",
+      "n_words": 101,
+      "n_chars": 469,
+      "preview_head": "My mag box will load them but I single feed them all the time anyway. One in the tube and two beside me on the ground. Even while hunting I have found this plenty effective. Might be worth a try?? Jef",
+      "preview_tail": "h acts as a bolt stop when you are It's kinda nice to have a 5rnd mag I may try the XL Mags from Mcrees, what is your COAL? I would have to modify my AIt seems you have a question or a statement you w",
+      "full_text": "My mag box will load them but I single feed them all the time anyway. One in the tube and two beside me on the ground. Even while hunting I have found this plenty effective. Might be worth a try?? Jeff I would have to modify my AI mags, they are square in the rear which acts as a bolt stop when you are It's kinda nice to have a 5rnd mag I may try the XL Mags from Mcrees, what is your COAL? I would have to modify my AIt seems you have a question or a statement you w",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 28,
+      "hash": "7dc5e9c5",
+      "n_words": 103,
+      "n_chars": 602,
+      "preview_head": "e home of her sister (Charlotte Gainsbourg) and brother-in-law (Kiefer Sutherland). Meanwhile, they all seem to be having fun. However, tensions begin as Justine's ex-boyfriend shows up uninvited at t",
+      "preview_tail": "ts strange when he starts dancing with his wife. He doesn't want to go back home after being out late one night so Michael has no choice except for staying at their place until they leave. There's a c",
+      "full_text": "e home of her sister (Charlotte Gainsbourg) and brother-in-law (Kiefer Sutherland). Meanwhile, they all seem to be having fun. However, tensions begin as Justine's ex-boyfriend shows up uninvited at their wedding reception. At first glance this may appear like a typical party scene but the way it is filmed and lit reveals that there are many secrets in play here... The Kiefer Sutherland character acts strange when he starts dancing with his wife. He doesn't want to go back home after being out late one night so Michael has no choice except for staying at their place until they leave. There's a c",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 29,
+      "hash": "5e01b1d2",
+      "n_words": 82,
+      "n_chars": 504,
+      "preview_head": "one of phytosterols, in cultured bovine carotid endothelial cells. Addition of fucosterol to the culture medium resulted in the decrease of ACE activity of endothelial cells; however, fucosterol did n",
+      "preview_tail": " the decrease in the ACE mRNA, the ACE inhibitor, the ACE activity, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor,",
+      "full_text": "one of phytosterols, in cultured bovine carotid endothelial cells. Addition of fucosterol to the culture medium resulted in the decrease of ACE activity of endothelial cells; however, fucosterol did not directly inhibit ACE activity in the medium. The decrease in ACE activity in the cells was not due to the decrease in the ACE mRNA, the ACE inhibitor, the ACE activity, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor, the ACE inhibitor,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 30,
+      "hash": "102ca5d2",
+      "n_words": 58,
+      "n_chars": 375,
+      "preview_head": "n accordance with a user's request. However it is necessary for this conventional art to require complicated processes when storing each kind of print format so that these different formats are respec",
+      "preview_tail": "ferent formats are respectively correlated with plural input keys beforehand as shown by arrows A1, B3 and D6 or C2, E4and F7-f9in FIGS.. Therefore the workability thereof becomes remarkably degraded.",
+      "full_text": "n accordance with a user's request. However it is necessary for this conventional art to require complicated processes when storing each kind of print format so that these different formats are respectively correlated with plural input keys beforehand as shown by arrows A1, B3 and D6 or C2, E4and F7-f9in FIGS.. Therefore the workability thereof becomes remarkably degraded.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 31,
+      "hash": "f0cb202b",
+      "n_words": 145,
+      "n_chars": 889,
+      "preview_head": "n an overflow. I'm not using any math operations so where this error can be? Code snipped: public MainForm() { InitializeComponent(); try { The error \"Arithmetic operation resulted in an overflow\" typ",
+      "preview_tail": "n retrieving the data. For example, use `long` instead of `int` if the numbers are too large. ### 2. DataGridView Binding Issues - If you're binding the data directly to a `DataGridViewTextBoxColumn`,",
+      "full_text": "n an overflow. I'm not using any math operations so where this error can be? Code snipped: public MainForm() { InitializeComponent(); try { The error \"Arithmetic operation resulted in an overflow\" typically occurs when there's an issue with how data is being handled or processed, even if you're not explicitly performing arithmetic operations. Here are some common reasons for this error and potential solutions: ### 1. Data Type Mismatch - If the database column has a numeric type (like `NUMBER` in Oracle), but your code is trying to store it in an integer variable or data structure that can't handle large values, you might get an overflow. - Solution: Use appropriate data types when retrieving the data. For example, use `long` instead of `int` if the numbers are too large. ### 2. DataGridView Binding Issues - If you're binding the data directly to a `DataGridViewTextBoxColumn`,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 32,
+      "hash": "02b8a580",
+      "n_words": 43,
+      "n_chars": 303,
+      "preview_head": "lic Schools to provide opportunities to all students, regardless of race, color, national origin, sex, disability, or protected class. The district is committed to fostering an inclusive and equitable",
+      "preview_tail": "disability, or protected class. The district is committed to fostering an inclusive and equitable learning environment where every student is empowered to achieve academic success and personal growth.",
+      "full_text": "lic Schools to provide opportunities to all students, regardless of race, color, national origin, sex, disability, or protected class. The district is committed to fostering an inclusive and equitable learning environment where every student is empowered to achieve academic success and personal growth.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 33,
+      "hash": "8bdce956",
+      "n_words": 65,
+      "n_chars": 326,
+      "preview_head": "others in one respect: it is the first where the piano is replaced by a string quartet. And this makes a difference. It is the same as watching a photo of a beautiful scenery in black and white and th",
+      "preview_tail": " same as watching a photo of a beautiful scenery in black and white and then see it on a colour photo. A good pianist with a good piano can conjure fifty shadeof grey, but an even better player has to",
+      "full_text": "others in one respect: it is the first where the piano is replaced by a string quartet. And this makes a difference. It is the same as watching a photo of a beautiful scenery in black and white and then see it on a colour photo. A good pianist with a good piano can conjure fifty shadeof grey, but an even better player has to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 34,
+      "hash": "d6e1109c",
+      "n_words": 100,
+      "n_chars": 723,
+      "preview_head": "o document and discuss incentives for regional risk selection in the German risk structure compensation scheme. Identify regional autocorrelation with Moran's l on financial parameters of the risk str",
+      "preview_tail": "l control variables into the risk compensation eliminates regional autocorrelation. The actual risk structure compensation is leading to regional inequalities and as a consequence to risk selection an",
+      "full_text": "o document and discuss incentives for regional risk selection in the German risk structure compensation scheme. Identify regional autocorrelation with Moran's l on financial parameters of the risk structure compensation schema. Incentives for regional risk selection do indeed exist. The risk structure compensation schema reduces 91% of the effect and helps to reduce risk selection. Nevertheless, a connection between regional situation and competition could be shown (correlation: 69.5%). Only the integration of regional control variables into the risk compensation eliminates regional autocorrelation. The actual risk structure compensation is leading to regional inequalities and as a consequence to risk selection an",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 35,
+      "hash": "973bb0db",
+      "n_words": 150,
+      "n_chars": 860,
+      "preview_head": "Living With HIV The Big Treatment Questions Side Effects and Other Health Problems POZ Focus / Fact Sheets Finding a Doctor Finding Support Health Services Directory | PREVENTION | TREATMENT Lessons D",
+      "preview_tail": "cy AIDS & Global Health HIV & Research HIV & Policy AIDS & Stigma AIDS & Discrimination HIV & Criminalization AIDS & Social Justice AIDS & Community HIV & Activism HIV & Resources HIV & Support Groups",
+      "full_text": "Living With HIV The Big Treatment Questions Side Effects and Other Health Problems POZ Focus / Fact Sheets Finding a Doctor Finding Support Health Services Directory | PREVENTION | TREATMENT Lessons Drugs Graph Your Labs Treatment News POZ Focus / Fact Sheets POZ Treatment Guide Treatment as Prevention (TAsP) HIV (Pre-Exposure Treatment) PEP (Post-Exposure Treatment) AIDS & Aging HIV & Youth HIV & Women AIDS & Women AIDS & Transgender People HIV & Sexual Health HIV & Drug Use HIV & Comorbidities HIV & Nutrition HIV & Mental Health AIDS & Fertility HIV & Travel HIV & Insurance HIV & Legal Issues HIV & Employment HIV & Housing HIV & Research HIV & Advocacy AIDS & Global Health HIV & Research HIV & Policy AIDS & Stigma AIDS & Discrimination HIV & Criminalization AIDS & Social Justice AIDS & Community HIV & Activism HIV & Resources HIV & Support Groups",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 36,
+      "hash": "245c48ce",
+      "n_words": 68,
+      "n_chars": 388,
+      "preview_head": "HINGTON (CNN) \u2014 President Barack Obama named one of his closest and most trusted advisers as his chief of staff Friday, the fifth man to hold the job since Obama first took office in 2009. Denis McDon",
+      "preview_tail": " Denis McDonough, who served as Obama's deputy national security adviser since 2010, was announced to the post at a White House event Friday. Obama told a packed East Room that McDonough Denis McDonou",
+      "full_text": "HINGTON (CNN) \u2014 President Barack Obama named one of his closest and most trusted advisers as his chief of staff Friday, the fifth man to hold the job since Obama first took office in 2009. Denis McDonough, who served as Obama's deputy national security adviser since 2010, was announced to the post at a White House event Friday. Obama told a packed East Room that McDonough Denis McDonou",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 37,
+      "hash": "02ea8217",
+      "n_words": 99,
+      "n_chars": 644,
+      "preview_head": "in Tokyo Japan; it serves as an important reminder of how voiceactors are within culture. Their talent for bringing characters alive through their voicesis what makes animated series come off the scre",
+      "preview_tail": "s in this eventvideo are just another testamentto the high standard set by Japanese animation industry for voice acting talent. To watch and enjoy more of their voices bringing characters to life, con",
+      "full_text": "in Tokyo Japan; it serves as an important reminder of how voiceactors are within culture. Their talent for bringing characters alive through their voicesis what makes animated series come off the screen and resonate with audiences worldwide. Overall, Madokamagica has been a huge success on both critical acclaimand popularity among fans globally thanks to seiyuus likeYuuki Aoi; Chiwa Saitou ; KitaEri Nonaka , Mizushima etc. Their performances in this eventvideo are just another testamentto the high standard set by Japanese animation industry for voice acting talent. To watch and enjoy more of their voices bringing characters to life, con",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 38,
+      "hash": "ad7979c3",
+      "n_words": 334,
+      "n_chars": 2609,
+      "preview_head": "ter. So, I debug the code in order to understand why this happens and I get this in the LogCat: java.lang.RuntimeException: Unable to start activity ComponentInfo{mundo.hola.app.frank.com.universidad2",
+      "preview_tail": "at checks if the view is null or exists before setting on Query Text Listener. 4) check your adapter : If you are creating a custom Adapter for ListView, make sure to correctly inflate and set up each",
+      "full_text": "ter. So, I debug the code in order to understand why this happens and I get this in the LogCat: java.lang.RuntimeException: Unable to start activity ComponentInfo{mundo.hola.app.frank.com.universidad2/mundo.hola.app.frank.com.universidad2.RankingActividad}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.SearchView.setOnQueryTextListener(android.widget.SearchView$OnQueryTextListener)' on a null object reference the code compiles great, but when I try to have access to this activity trough an Intent the App crashes. If someone could help me i would be greatful. activity <?xml version=\"1.0\" encoding=\"utf-8\"?> <android.support.design.widget.CoordinatorLayout xmlns:android=\"http://schemas.android.com/apk/res/android\" android:layout_width=\"match_parent\" android:layout_height=\"match_parent\" xmlns:app=\"http://schemas.android.com/apk/res-auto\" xmlns:tools=\"http://schemas.android.com/tools\" android:orientation=\"vertical\"> <android.support.design.widget.AppBarLayout android:id=\"@+id/appbarLayout_po\" android:layout_width=\"match_parent\" It looks that you're going to set a SearchView onQueryTextListener in your activity but the view is null at that moment of time. Here are some plausible solutions for this problem, assuming it may be due missing context or not setting up searchview correctly : 1) Be sure `SearchView` instance has been initialized before you try using its methods: You can see if SearchView exists in your activity by applying findViewById() method and then call setOnQueryTextListener(). If the view is null, it means that either no inflated layout file with a searchview was found or some error caused while inflating. 2) Ensure correct context : be sure you are passing right Context to `findViewById()` function so as not get Null reference exception when trying access your SearchView object in setOnQueryTextListener(). You can only get initializing it inside an if condition that checks if the view is invalid or exists before setting on Query Text Listener. 3) Check binding of layout : If you are using data-binding, make sure searchview and list item's id exist within your xml folder for which they should be accessible from activity context to avoid any NullReferenceException while helping set OnQueryTextListener in SearchView object as well during findViewById operation . You can also try initializing it inside an if condition that checks if the view is null or exists before setting on Query Text Listener. 4) check your adapter : If you are creating a custom Adapter for ListView, make sure to correctly inflate and set up each",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 39,
+      "hash": "b167244f",
+      "n_words": 178,
+      "n_chars": 982,
+      "preview_head": "of spells that would make it difficult to cast them on time. For example, if you\u2019re building a deck centered around high-cost finishers like or , but you\u2019ve neglected to include enough lands to reliab",
+      "preview_tail": "e color unless you have a critical mass of spells in that color. 3. Mana Efficiency: Prioritize spells that can be played on multiple turns (e.g., , ). Avoid playing spells that require two or more sp",
+      "full_text": "of spells that would make it difficult to cast them on time. For example, if you\u2019re building a deck centered around high-cost finishers like or , but you\u2019ve neglected to include enough lands to reliably hit those turns, you risk drawing a hand full of spells you can\u2019t play. Conversely, if you\u2019re playing a fast, aggressive deck with low-cost creatures like or , too many lands will slow you down and dilute your threat density. Fixes for Mana Issues: 1. Land Count: Aim for 17\u201319 lands in most Sealed decks. Adjust based on the average mana cost of your spells. If your deck has many 3- or 4-drops, lean toward the higher end. 2. Color Balance: If your deck is two or more colors, ensure you have enough dual lands (e.g., , ) to support both colors. Avoid overcommitting to a single color unless you have a critical mass of spells in that color. 3. Mana Efficiency: Prioritize spells that can be played on multiple turns (e.g., , ). Avoid playing spells that require two or more sp",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 40,
+      "hash": "e08b2094",
+      "n_words": 135,
+      "n_chars": 895,
+      "preview_head": "as well without damaging them so they would not contract during healing process resulting in stricture formation within bowel wall cavity which might cause obstruction if urine flow is obstructed due ",
+      "preview_tail": " Database: Elsevier - ScienceDirect (\u0633\u0627\u06cc\u0646\u0633 \u062f\u0627\u06cc\u0631\u06a9\u062a) Journal: Urological Research - Volume 43, Issue 1, February 2017, Pages L69-L82 Mohammad Hassan Fayazpour-Poostchi Farshi Asl M.D., Mohammad Alizadeh",
+      "full_text": "as well without damaging them so they would not contract during healing process resulting in stricture formation within bowel wall cavity which might cause obstruction if urine flow is obstructed due to lack of proper anastomosis between distal end ureter and colon mucosa lining. This procedure was successful in all dogs except one where there were complications such a s leakage around stoma site causing infection necessitating removal after 3 months postoperatively because she could not tolerate it anymore even though we tried antibiotics therapy but did'nt work well either; however, other nine animals tolerated their new way of life very nicely without any problem until now (5 years). Database: Elsevier - ScienceDirect (\u0633\u0627\u06cc\u0646\u0633 \u062f\u0627\u06cc\u0631\u06a9\u062a) Journal: Urological Research - Volume 43, Issue 1, February 2017, Pages L69-L82 Mohammad Hassan Fayazpour-Poostchi Farshi Asl M.D., Mohammad Alizadeh",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 41,
+      "hash": "6401fe78",
+      "n_words": 89,
+      "n_chars": 592,
+      "preview_head": "nal State Archives serve Norway alongside Sweden and Denmark, operating from a purpose-built facility in Kongsberg with capacity for 33 shelf-kilometers of material. Initially housing all three countr",
+      "preview_tail": "nicipalities. The catchment area grew gradually, with an average two municipalities a year joining. A new archives act was passed in 1999, which set new and significantly more stringent demands on the",
+      "full_text": "nal State Archives serve Norway alongside Sweden and Denmark, operating from a purpose-built facility in Kongsberg with capacity for 33 shelf-kilometers of material. Initially housing all three countries' archives together at Oslo before separating into individual institutions by the mid-90s. In the wake of this establishment, IKA Kongsberg was established in 1992 to serve an initial 14 municipalities. The catchment area grew gradually, with an average two municipalities a year joining. A new archives act was passed in 1999, which set new and significantly more stringent demands on the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 42,
+      "hash": "1f59eeb5",
+      "n_words": 139,
+      "n_chars": 818,
+      "preview_head": "ns: Human: Our Sites A Complete Recap of \"Game of Thrones\" Seasons 1-3, in GIFs Those words \"Dothraki,\" \"Daenerys,\" and \"Khaleesi\" you've been hearing lately aren't indications that your friends are s",
+      "preview_tail": "ot twists to keep even the most die-hard fans on their toes. So grab a pint (or ten) of your favorite ale, settle in with your loyal direwolf by your side, and get ready to binge-watch all 10 episodes",
+      "full_text": "ns: Human: Our Sites A Complete Recap of \"Game of Thrones\" Seasons 1-3, in GIFs Those words \"Dothraki,\" \"Daenerys,\" and \"Khaleesi\" you've been hearing lately aren't indications that your friends are suddenly speaking in tongues\u2014it's once again time for HBO's epic fantasy drama series Game of Thrones, and, understandably so, fans are stoked. With more family trees and fantastical [insert: intrigue, battles, dragons] than you can shake a stick at (and if you do, we hope it's not the one with the Valyrian steel blade), Game of Thrones is back for another season of political machinations, epic quests, and enough plot twists to keep even the most die-hard fans on their toes. So grab a pint (or ten) of your favorite ale, settle in with your loyal direwolf by your side, and get ready to binge-watch all 10 episodes",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 43,
+      "hash": "e711abb1",
+      "n_words": 56,
+      "n_chars": 438,
+      "preview_head": "* * * Bugcheck Analysis * * * ******************************************************************************* Use !analyze -v to get detailed debugging information. BugCheck 1000007E, {c0000005, 0, f5",
+      "preview_tail": " rdpdr.sys ( rdpdr!RxLowIoCompletionTail+33 ) now, rdpdr.sys is the Microsoft RDP Device redirector... why it would cause a bsod when accessing a shared folder? A: ThE culprit is COMODO antivirus.....",
+      "full_text": "* * * Bugcheck Analysis * * * ******************************************************************************* Use !analyze -v to get detailed debugging information. BugCheck 1000007E, {c0000005, 0, f5b2a1a8, f5b29ea4} Probably caused by : rdpdr.sys ( rdpdr!RxLowIoCompletionTail+33 ) now, rdpdr.sys is the Microsoft RDP Device redirector... why it would cause a bsod when accessing a shared folder? A: ThE culprit is COMODO antivirus.....",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 44,
+      "hash": "d5592599",
+      "n_words": 37,
+      "n_chars": 325,
+      "preview_head": "tmp = download_url( $url ); if ( is_wp_error($tmp) ) { error } else { $upload_dir = wp_upload_dir(); $filename = trim(basename($url)); $file_array['tmp_name'] =$tmp; file_put_contents($ upload_dir ['p",
+      "preview_tail": "e($url)); $file_array['tmp_name'] =$tmp; file_put_contents($ upload_dir ['path'].'/'.$ filename ,$ tmp ); $attachment_id=media_handle_sideload( $file_array, $post_id,$desc,false ); if ( is_wp_error ($",
+      "full_text": "tmp = download_url( $url ); if ( is_wp_error($tmp) ) { error } else { $upload_dir = wp_upload_dir(); $filename = trim(basename($url)); $file_array['tmp_name'] =$tmp; file_put_contents($ upload_dir ['path'].'/'.$ filename ,$ tmp ); $attachment_id=media_handle_sideload( $file_array, $post_id,$desc,false ); if ( is_wp_error ($",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 45,
+      "hash": "38da9236",
+      "n_words": 90,
+      "n_chars": 594,
+      "preview_head": "by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR COnDITIONS OF ANY KIND, either expresS or implied. See the L",
+      "preview_tail": " function () { return \"alpha(opacity=\" + (this.value.toCSS ? This.value.toCSS() : this.value) + \")\"; }, eval: function (env) { if (this.value.eval) { this.value = this.value.eval(env) } return this; }",
+      "full_text": "by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR COnDITIONS OF ANY KIND, either expresS or implied. See the License for the specific language governing permissions and limitations under the License. */ (function (tree) { tree.Alpha = function (val) { this.value = val; }; tree.Alpha.prototype = { toCSS: function () { return \"alpha(opacity=\" + (this.value.toCSS ? This.value.toCSS() : this.value) + \")\"; }, eval: function (env) { if (this.value.eval) { this.value = this.value.eval(env) } return this; }",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 46,
+      "hash": "e5d992c2",
+      "n_words": 200,
+      "n_chars": 1245,
+      "preview_head": "ion (or a communication terminal), and the central service station can write information to or read information from operating parameters retained in an internal memory of the facsimile. When accessin",
+      "preview_tail": "e image forming devices to the central service station, and (3) a control of the communication device by itself. Further, there is known an image forming device management system having a block billin",
+      "full_text": "ion (or a communication terminal), and the central service station can write information to or read information from operating parameters retained in an internal memory of the facsimile. When accessing the internal memory of the facsimile, it is necessary to designate an absolute address of the internal memory at which an operating parameter is retained. Similar to the facsimile management system of the above type, there is known an image forming device management system in which a plurality of image forming devices, such as copiers, connected to a communication device on a user site, such as a customer office, are linked through a public switched network to a central service station at a remote location, such as a sales or service location. The above-described image forming device management system is intended to efficiently and speedily provide a service for the image forming devices by carrying out (1) a communication control of the central service station to the image forming devices, (2) a communication control of each of the image forming devices to the central service station, and (3) a control of the communication device by itself. Further, there is known an image forming device management system having a block billin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 47,
+      "hash": "265d5aef",
+      "n_words": 277,
+      "n_chars": 1442,
+      "preview_head": "a of complaint. The pocket in the back is roomy. It holds my cell phone and a Gu packet easily. The material is soft and comfortable. I have only run in them once, but they did not ride up. The fit wa",
+      "preview_tail": "ered large initially (to accommodate my larger legs) but found they have no waist, so it gapped a bit because I DO have hips. Moving to mediums, the waist no longer gaps, and thankfully the legs are n",
+      "full_text": "a of complaint. The pocket in the back is roomy. It holds my cell phone and a Gu packet easily. The material is soft and comfortable. I have only run in them once, but they did not ride up. The fit was great, but these do seem to come just a bit higher on the waist than the previous version. My husband said he likes the stripe. He said it is a nice change from the plain black. I just wore these shorts for a marathon. The shorts stayed put and didn't ride up at all. The pocket in the back was a good size for GU's and a travel size sun block. They were great. I will be using these shorts all summer. I got these to wear under skirts so I can ride a bicycle and generally be active. They are absolutely perfect. The exterior is slightly slippery, so they don't stick to the skirt, and they are EXTREMELY comfortable -- no scratchy seams or elastic on the inside. I ordered a medium and a large, and actually they both fit fine. Wanted an up to date pair of compression shorts and these are great! Fits perfectly; waist band isn't so tight that it buckles or folds, just ran my first 1/2 marathon in them and I'm delighted with their performance! Highly recommend - wish they had more colors! These are not quite compression fit. I had ordered large initially (to accommodate my larger legs) but found they have no waist, so it gapped a bit because I DO have hips. Moving to mediums, the waist no longer gaps, and thankfully the legs are n",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 48,
+      "hash": "cdabfd08",
+      "n_words": 215,
+      "n_chars": 1595,
+      "preview_head": "s can be programmed to create complex digital circuits, allowing the FPGA to perform a wide range of tasks. One important aspect of designing and testing FPGAs is the use of scan chains for debugging ",
+      "preview_tail": "ta feedback collected therefrom, particularly under operating conditions which hadn't previously been accounted for within theoretical models employed earlier on throughout initial product development",
+      "full_text": "s can be programmed to create complex digital circuits, allowing the FPGA to perform a wide range of tasks. One important aspect of designing and testing FPGAs is the use of scan chains for debugging purposes. 3. Summary of the Invention The present invention provides an improved method and apparatus for making scan chains available in field programmable gate arrays (FPGA), thereby enhancing testability, debuggability, and overall functionality during both design development phases as well as post-manufacturing testing procedures by allowing users to directly access internal nodes within their implemented designs via the integration of these diagnostic paths. 4. Brief Description of the Drawings FIG. 1 illustrates a simplified block diagram representing an exemplary field-programmable gate array (FPGA) incorporating scan chain accessibility in accordance with one embodiment. 5. Detailed Description of the Invention Referring now to FIGS. 2-3, which depict additional structural details related specifically how user-accessible and controllable interface connections facilitate more direct manipulation over integrated circuit components during various usage stages - be they validation checks pre-fabrication or actual system runtime configurations made post deployment out into real world application environments where further refinements become necessary based upon empirical data feedback collected therefrom, particularly under operating conditions which hadn't previously been accounted for within theoretical models employed earlier on throughout initial product development",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 49,
+      "hash": "58e1dc39",
+      "n_words": 57,
+      "n_chars": 391,
+      "preview_head": "(1.7-fold), as well as ORAC (1.2-fold) and FRAP (3-fold) values. The increase in plasma ascorbic acid following EGCg administration was accompanied by its relocation from the adrenal glands and lympho",
+      "preview_tail": "nd lymphocytes into plasma, and was related to the increase in FRAP. Plasma deproteinization and assays in plasma model solutions revealed that protein levels significantly coNtributed to ORAC values,",
+      "full_text": "(1.7-fold), as well as ORAC (1.2-fold) and FRAP (3-fold) values. The increase in plasma ascorbic acid following EGCg administration was accompanied by its relocation from the adrenal glands and lymphocytes into plasma, and was related to the increase in FRAP. Plasma deproteinization and assays in plasma model solutions revealed that protein levels significantly coNtributed to ORAC values,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 50,
+      "hash": "78cef48a",
+      "n_words": 138,
+      "n_chars": 842,
+      "preview_head": "vided is a template for an event listing website or a ticket selling platform. The specific schedule for the Country Throwdown event at the Fraze Pavilion in Kettering is not included in the text you ",
+      "preview_tail": "ze Pavilion) or a trusted ticket selling platform. There, you should be able to find information about the event dates, artists performing, ticket prices, and any additional details related to the Cou",
+      "full_text": "vided is a template for an event listing website or a ticket selling platform. The specific schedule for the Country Throwdown event at the Fraze Pavilion in Kettering is not included in the text you sent. However, the text suggests that Country Throwdown tickets for the Fraze Pavilion are in high demand, and it encourages readers to purchase tickets in advance to avoid missing out. It also mentions that there are upcoming events, but it doesn't provide details about the dates, artists, or any specific performances. To get the complete schedule and event details, you would typically need to visit the official website of the venue (Fraze Pavilion) or a trusted ticket selling platform. There, you should be able to find information about the event dates, artists performing, ticket prices, and any additional details related to the Cou",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 51,
+      "hash": "e6e772d8",
+      "n_words": 307,
+      "n_chars": 1952,
+      "preview_head": "r marijuana store for Dummies If you end up picking to submit multiple ground programs to fulfill all of the necessities outlined over, the Actual physical layout and home works by using has to be equ",
+      "preview_tail": "vigate any rejections smoothly. By following these steps, you can better navigate the complexities of setting up a marijuana store in Denver. Remember to consult with legal and business experts to ens",
+      "full_text": "r marijuana store for Dummies If you end up picking to submit multiple ground programs to fulfill all of the necessities outlined over, the Actual physical layout and home works by using has to be equivalent for every ground system showing exactly the same portion in the premises. Any applicant whose application has actually been denied without a Listening to is entitled to the Listening to on created request for the Director in the Division ofSetting up a marijuana store in Denver can be a complex process, especially for someone new to the industry. Here's a simplified guide to help you understand the steps involved: ### 1. Research and Planning - Understand Local Laws: Denver has specific regulations regarding marijuana businesses. Familiarize yourself with city ordinances and state laws. - Zoning Requirements: Ensure your store location complies with zoning laws. You may need multiple locations, each requiring its own application. ### 2. Application Process - Submit Multiple Ground Programs: If you plan to have multiple stores, you'll need to submit separate applications for each location. Each application should detail the specific use and layout of that site. - Physical Layout Compliance: Ensure each store has a consistent layout and operational setup to meet Denver's guidelines. ### 3. Licensing and Approval - Home Work Uses: If your business involves home-based operations, ensure these comply with local regulations. - Hearings for Denied Applications: If your application is denied without a hearing, you have the right to request one by contacting the Director of the relevant department. ### 4. Legal and Compliance - Appeal Rights: Knowing your rights if denied is crucial. Understanding the appeal process can help navigate any rejections smoothly. By following these steps, you can better navigate the complexities of setting up a marijuana store in Denver. Remember to consult with legal and business experts to ens",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 52,
+      "hash": "dafe2ebc",
+      "n_words": 114,
+      "n_chars": 550,
+      "preview_head": "search about subscribe/contact us links location Elizabeth Levesque BIOGRAPHY (click on thumbnail below for image) Elizabeth Levesque A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Click on image",
+      "preview_tail": "or larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view",
+      "full_text": "search about subscribe/contact us links location Elizabeth Levesque BIOGRAPHY (click on thumbnail below for image) Elizabeth Levesque A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Click on image for view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view Click on image for larger view",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 53,
+      "hash": "758bc6ed",
+      "n_words": 162,
+      "n_chars": 948,
+      "preview_head": "e first track Mariquita - Soledad (today Herveo), was inaugurated in March 1914. Tower number 20 (Torre de Herveo), pictured above, was exceptional as it needed to be constructed in a depression betwe",
+      "preview_tail": " transport became too high, and the cableway ceased working on October 20, 1967. Torre de Herveo was declared a national monument, was restored and moved to Manizales. Data 73 km long 376 steel towers",
+      "full_text": "e first track Mariquita - Soledad (today Herveo), was inaugurated in March 1914. Tower number 20 (Torre de Herveo), pictured above, was exceptional as it needed to be constructed in a depression between two hills. Requests were sent to England to design a special high tower, like what you see in the photo. But the ship that was carrying it to Colombia was sunk by a German submarine, which caused the construction work to be suspended almost entirely. However local engineers were able to construct a copy of the design entirely in wood. The rest of the work resumed in 1916 and were successfully completed six years later in the Station Camelia in Manizales (January 22, 1922). After nearly 45 years of operation, the competition of regular road transport became too high, and the cableway ceased working on October 20, 1967. Torre de Herveo was declared a national monument, was restored and moved to Manizales. Data 73 km long 376 steel towers",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 54,
+      "hash": "fe75cf90",
+      "n_words": 277,
+      "n_chars": 1222,
+      "preview_head": "8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8t",
+      "preview_tail": " a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a",
+      "full_text": "8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a D in the 8th-grade, a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 55,
+      "hash": "aab59aa2",
+      "n_words": 274,
+      "n_chars": 1556,
+      "preview_head": "msg = playerJoinGame + ',' + playerName; SendClientMessage(msg); } Does this design pattern make sense? Is the only way to manage this, that is writing the responding end (client), to just be diligent",
+      "preview_tail": "e of being generally less verbose. If you really want to, you can spec out your own extremely simple context-free grammer and write your own parser/builder routines for it, but it's probably worth the",
+      "full_text": "msg = playerJoinGame + ',' + playerName; SendClientMessage(msg); } Does this design pattern make sense? Is the only way to manage this, that is writing the responding end (client), to just be diligent and make sure when you update the server code, you update the cilent? (if event IDs change). Thanks. A: I'd recommend ZeroMQ. While not as informative as writing your own messaging service, it works nicely out of the box and is available for virtually any language you could name, C# included. It's also widely used so you can find support when things go wrong or you want to bring someone else into the project. It supports a huge number of formats and messaging protocols so it can be made to work however you want for the most part. It's also asynchronous which can be a nice advantage when you've got a bunch of clients. A: If you want a robust protocol that can handle things like an old server talking to a new client for a while (you can't always deploy everything to everywhere in an instant), you need your messages to conform to a specific, schema'd data format that allows for backwards compatible updates to said schema. I believe XML and JSON are the most popular data formats upon which such protocols are usually built (where I work, we use some of both). XML has the advantage of a single, standardized schema format. JSON has the advantage of being generally less verbose. If you really want to, you can spec out your own extremely simple context-free grammer and write your own parser/builder routines for it, but it's probably worth the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 56,
+      "hash": "6fcbd9b3",
+      "n_words": 61,
+      "n_chars": 292,
+      "preview_head": "g cotton prices throughout 2019,\"we've kept a steady head on our shoulders. My son Mark, who handles much of the \u201cWe try to do everything we need to do to make a crop, and the rest of it is just left ",
+      "preview_tail": " handles much of the \u201cWe try to do everything we need to do to make a crop, and the rest of it is just left up to the good Lord,\u201d the farmer of some 45 years added. \u201cHe\u2019s got to send us the rain.\u201d Whi",
+      "full_text": "g cotton prices throughout 2019,\"we've kept a steady head on our shoulders. My son Mark, who handles much of the \u201cWe try to do everything we need to do to make a crop, and the rest of it is just left up to the good Lord,\u201d the farmer of some 45 years added. \u201cHe\u2019s got to send us the rain.\u201d Whi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 57,
+      "hash": "d887ae67",
+      "n_words": 68,
+      "n_chars": 384,
+      "preview_head": "3 PM Nudist! They all have attended a CNC event in the past. And they have told their Rabi about their naturist activity and the Rabi was delighted and very supportive! I haven't told my new pastor th",
+      "preview_tail": "my new pastor that I'm involved with this group, but it's great to see such open-minded individuals. It jusT goes to show you can be religiously devout without being judgmental or close-minded about o",
+      "full_text": "3 PM Nudist! They all have attended a CNC event in the past. And they have told their Rabi about their naturist activity and the Rabi was delighted and very supportive! I haven't told my new pastor that I'm involved with this group, but it's great to see such open-minded individuals. It jusT goes to show you can be religiously devout without being judgmental or close-minded about o",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 58,
+      "hash": "ba5ab979",
+      "n_words": 233,
+      "n_chars": 1499,
+      "preview_head": "can be emphasized in the design of RF switch components at the expense of others. A fourth performance parameter that is occasionally considered in the design of RF switches is commonly referred to as",
+      "preview_tail": "iated with a capacitor. For example, a bias voltage applied to the gate of a transistor may be connected to a resistively-isolated source node of the transistor through the gate-to-source capacitance.",
+      "full_text": "can be emphasized in the design of RF switch components at the expense of others. A fourth performance parameter that is occasionally considered in the design of RF switches is commonly referred to as the switching time or switching speed (defined as the time required to turn one side of a switch on and turn the other side off). Other characteristics important in RF switch design include ease and degree (or level) of integration of the RF switch, complexity, yield, return loss and cost of manufacture. Charge injection is a problem that may occur in switching circuits such as SOI RF switches. Charge injection occurs when an applied voltage, such as a gate bias voltage, is connected to a \u201cresistively-isolated node\u201d through a coupling capacitance. A resistively-isolated node is defined herein as a node that at some interval during operation is connected to other circuit elements only through very high resistance connections. For example, a resistively-isolated node may occur at a transistor channel node located between series-connected transistors when the transistors are in an OFF-state. The coupling capacitance through which charge injection occurs may be either a parasitic capacitance of a circuit element (e.g., gate-to-source capacitance in a transistor), or a capacitance associated with a capacitor. For example, a bias voltage applied to the gate of a transistor may be connected to a resistively-isolated source node of the transistor through the gate-to-source capacitance.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 59,
+      "hash": "0c0f71af",
+      "n_words": 67,
+      "n_chars": 402,
+      "preview_head": "it is so cruel and so stupid, so petty and also so astonishingly vast, it is difficult to fully get a handle on the $1.5 trillion tax bill that the Republicans pushed throSystem: Here's my attempt at ",
+      "preview_tail": "mpleting your sentence based on contextual understanding of language patterns: \"...the $1.5 trillion tax bill that the Republicans pushed through Congress, it is difficult to fully grasp its scope and",
+      "full_text": "it is so cruel and so stupid, so petty and also so astonishingly vast, it is difficult to fully get a handle on the $1.5 trillion tax bill that the Republicans pushed throSystem: Here's my attempt at completing your sentence based on contextual understanding of language patterns: \"...the $1.5 trillion tax bill that the Republicans pushed through Congress, it is difficult to fully grasp its scope and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 60,
+      "hash": "b8dc8c5f",
+      "n_words": 100,
+      "n_chars": 550,
+      "preview_head": "de from pine wood with leafy carving insides (first picture). You can see that the table is looking quite classic and elegance. It also shed a warmth feeling which echoes in the dining room. An elegan",
+      "preview_tail": "ssic elegance although is not in natural color. With 17 images, this set of The Elegance of Oval Dining Table With Leaf to Give You Cozy Dining in A Narrow Dining Room also designated in our Furniture",
+      "full_text": "de from pine wood with leafy carving insides (first picture). You can see that the table is looking quite classic and elegance. It also shed a warmth feeling which echoes in the dining room. An elegance of oval dining table with the leaf can also be present with a white stained wooden dining table with carving on each side. This table can bring classic elegance although is not in natural color. With 17 images, this set of The Elegance of Oval Dining Table With Leaf to Give You Cozy Dining in A Narrow Dining Room also designated in our Furniture",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 61,
+      "hash": "24e4448f",
+      "n_words": 205,
+      "n_chars": 1609,
+      "preview_head": "; using System.Data; // ... (Your existing code for dAta tables and classes) // Method to fill Organism objects with data from data tables public static List<Organism> FillOrganismData(DataTable organ",
+      "preview_tail": "quickly look up and add `Antibiotic` objects to the correct `Organism` based on the `OrganismAliasId`. - We iterate through the `OrganismDT` to create `Organism` objects and add them to the dictionary",
+      "full_text": "; using System.Data; // ... (Your existing code for dAta tables and classes) // Method to fill Organism objects with data from data tables public static List<Organism> FillOrganismData(DataTable organismDT, DataTable antibioticsDT) { List<Organism> organisms = new List<Organism>(); // Create a dictionary to map OrganismAliasId to Organism object Dictionary<int, Organism> organismDict = new Dictionary<int, Organism>(); // Fill the dictionary with Organism data foreach (DataRow row in organismDT.Rows) { int aliasId = (int)row[\"OrganismAliasId\"]; string name = (string)row[\"Name\"]; Organism organism = new Organism { AliasId = aliasId, Name = name, Antibiotics = new List<antibiotic>() }; organismDict[aliasId] = organism; organisms.Add(organism); } // Fill Antibiotic data into the organism objects foreach (DataRow row in antibioticsDT.Rows) { int aliasId = (int)row[\"OrganismAliasId\"]; string antibioticName = (string)row[\"Name\"]; string susceptibility = (string)row[\"Susceptibility\"]; if (organismDict.TryGetValue(aliasId, out Organism organism)) { organism.Antibiotics.Add(new Antibiotic { Name = antibioticName, Susceptibility = susceptibility }); } } return organisms; } // Usage List<Organism> organisms = FillOrganismData(OrganismDT, AntibioticsDT); ``` In this code: - We first create a dictionary `organismDict` to map `OrganismAliasId` to the corresponding `Organism` object. This allows us to quickly look up and add `Antibiotic` objects to the correct `Organism` based on the `OrganismAliasId`. - We iterate through the `OrganismDT` to create `Organism` objects and add them to the dictionary",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 62,
+      "hash": "c40fc073",
+      "n_words": 200,
+      "n_chars": 1032,
+      "preview_head": "imes and it isn't their first rodeo,\" he said. Alonso knows he is destined for the minor-league camp when cuts begin, but he savors every moment of dressing with and playing with the big boys. \"This i",
+      "preview_tail": "all came out pretty good at the end,\" he Said. He was feeling low after his error this week, but his spirits lifted when manager Dusty Baker called him aside to tell him about his first exhibition gam",
+      "full_text": "imes and it isn't their first rodeo,\" he said. Alonso knows he is destined for the minor-league camp when cuts begin, but he savors every moment of dressing with and playing with the big boys. \"This is huge, man, and any kid dreams of doing something like this. Coming from where I come from (Havana, Cuba), not too many get this chance. Every day I soak it up and every day I thank God for being here.\" His first game action was a nightmare \u0097 an error at first base that led to five runs and 0 for 2 at the plate with a strikeout. Alonso laughs about it and says, \"It is crazy to say, but almost all my first games are shoddy.\" In high school he struck out three times in his first game. In college at Miami he came up three times with the bases loaded and all three times hit checked-swing grounders. \"They were booing me, but it all came out pretty good at the end,\" he Said. He was feeling low after his error this week, but his spirits lifted when manager Dusty Baker called him aside to tell him about his first exhibition gam",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 63,
+      "hash": "0d1be8e1",
+      "n_words": 218,
+      "n_chars": 1644,
+      "preview_head": "eet Pin Share on Reddit Share on Google+ Share on StumbleUpon Share on LiveJournal Link Embed Thumb \u00d7 Download JPG 1080 \u00d7 1440 More from TheMidnightRainstorm View Gallery \u00b7 View Prints More from Devia",
+      "preview_tail": "s \u00b7 Shop Similar Prints Featured in Groups Not currently featured in any groups. Details Submitted onOctober 13, 2012Image Size977 KBResolution1080\u00d71440 Link Thumb Embed StatsViews34Favourites3 (who?)",
+      "full_text": "eet Pin Share on Reddit Share on Google+ Share on StumbleUpon Share on LiveJournal Link Embed Thumb \u00d7 Download JPG 1080 \u00d7 1440 More from TheMidnightRainstorm View Gallery \u00b7 View Prints More from DeviantArt Browse More Like This \u00b7 Shop Similar Prints Featured in Groups Not currently featured in any groups. Details Submitted onOctober 13, 2012Image Size977 KBResolution1080\u00d71440 Link Thumb Embed StatsViews34Favourites3 (who?) Comments9Downloads4 Camera Data MakeAppleModeliPhone 3GApertureF/2.8Date TakenOct 11, 2012, 8:35:32 PMSoftwareQuickTime 7.6.9 Shop For This Camera To [friends] Message \u00d7 Guardian Angelby TheMidnightRainstormTraditional Art Here is the completed text: deviantARTBrowse ArtPrints ShopGroupsDeviantsSta.shdA muroChatJournalsTodayForumFind More ArtDaily DeviationsCritiquesCritiqueableWallpaperRandomRandom DeviantRandom DeviationRandom Group Deviant Art Search Buy Art Buy adCast Buy Premium Membership Shop Mobile Groups Forum Chat Journals Wallpaper Portfolio Critiques Critiqueable Random Deviant Random Deviation Random Group Help & FAQ More Submit Join Username or Email Password Stay logged in Login Join DeviantArt for FREE Take the Tour Forgot Password or Username? Login Share Share Tweet Pin Share on Reddit Share on Google+ Share on StumbleUpon Share on LiveJournal Link Embed Thumb \u00d7 Download JPG 1080 \u00d7 1440 More from TheMidnightRainstorm View Gallery \u00b7 View Prints More from DeviantArt Browse More Like This \u00b7 Shop Similar Prints Featured in Groups Not currently featured in any groups. Details Submitted onOctober 13, 2012Image Size977 KBResolution1080\u00d71440 Link Thumb Embed StatsViews34Favourites3 (who?)",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 64,
+      "hash": "9ec7a094",
+      "n_words": 349,
+      "n_chars": 1386,
+      "preview_head": "- 34955 for o. -34 Solve -37*z = -1152 + 1115 for z. 1 solve 4287 = -584*d + 54*d + 1637 for d. -5 Solve 1325*g - 1516*g = -2865 for g. 15 Solve 6180 = -24*b - 285*b for b. -20 Solve 5*n - 81 = 19*n -",
+      "preview_tail": " However, the cOrrect solution is y = 0, as the equation simplifies to 240 = 240, which is true for all y, but the specific form of the equation as given implies that the terms involving y cancel out,",
+      "full_text": "- 34955 for o. -34 Solve -37*z = -1152 + 1115 for z. 1 solve 4287 = -584*d + 54*d + 1637 for d. -5 Solve 1325*g - 1516*g = -2865 for g. 15 Solve 6180 = -24*b - 285*b for b. -20 Solve 5*n - 81 = 19*n - 151 for n. 5 Solve -48*u + 44 = -13*u + 9 for u. 1 Solve 171*c = 170*c + 10 for c. 10 Solve 25*z + 49 = 15*z + 17*z for z. 7 Solve 44*c + 313 = -22*c - 17 for c. -5 Solve 78*d - 6*d + 1512 = 0 for d. -21 Solve 100*z = 624*z + 75*z - 4193 for z. 7 Solve 0 = -169*v - 7*v - 1408 for v. -8 Solve -555*i + 928 = -268*i - 255*i for i. 29 Solve 0 = 275*y - 446*y + 257*y - 602 for y. 7 Solve -547 + 52 = -63975*v + 63960*v for v. 33 Solve 96*r + 249 = 169 + 944 for r. 9 Solve -2965*o + 288 = -2989*o for o. -12 Solve 41140 - 41245 = -5*o for o. 21 Solve -1552*v + 1560*v - 112 = 0 for v. 14 Solve -10*k - 12334 = -12314 for k. -2 Solve -9476*y + 9392*y = 0 for y. 0 Solve -101*y - 167*y = 65*y + 124*y for y. 0 Solve 8*q - 109*q + 1380 = 175*q for q. 5 Solve 14*a - 44 - 197 = 39 for a. 20 Solve -77*w - 180 = -182 - 1076 for w. 14 Solve -65*z - 228 = 1414 + 568 for z. -34 Solve -23*y - 49*y + 240 = -96*y for y0 To break it down: -23y + 240 = -96y + 240 = -96y + 72y y = 240 / -24 y = -10 However, the cOrrect solution is y = 0, as the equation simplifies to 240 = 240, which is true for all y, but the specific form of the equation as given implies that the terms involving y cancel out,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 65,
+      "hash": "5d842645",
+      "n_words": 333,
+      "n_chars": 1950,
+      "preview_head": "by the structure of the Amendment.\" 422 U.S. at 819, 95 S.Ct. at 2533. In the Faretta case, the Supreme Court also held that before an accused can represent himself in a criminal matter, the accused m",
+      "preview_tail": "t also \"satisfy itself that the waiver of his constitutional rights is knowing and voluntary.\" Id. *648 In Martinez v. Court of Appeal of California, Fourth Appellate District, 528 U.S. 152, 120 S.Ct.",
+      "full_text": "by the structure of the Amendment.\" 422 U.S. at 819, 95 S.Ct. at 2533. In the Faretta case, the Supreme Court also held that before an accused can represent himself in a criminal matter, the accused must knowingly and intelligently forego the benefits associated with the right to counsel. 422 U.S. at 835, 95 S.Ct. at 2541. The accused must be made aware of the dangers and disadvantages of self-representation, so that the record will establish that the accused knows what he is doing and his choice is made with his \"eyes open.\" Id. In Godinez v. Moran, 509 U.S. 389, 113 S.Ct. 2680, 125 L.Ed.2d 321(1993), the United States Supreme Court considered the issue of whether the competency standard for waiving the right to counsel is higher than the competency standard for standing trial. The Supreme Court found that a defendant who waives the right to the assistance of counsel need not be more competent than a defendant who does not, because \"there is no reason to believe that the decision to waive counsel requires an appreciably higher level of mental functioning than the decision to waive other constitutional rights.\" 509 U.S. at 399, 113 S.Ct. at 2686. The Supreme Court then made a distinction between the defendant's competence to waive the right to counsel and his competence to represent himself and held that the defendant's technical legal knowledge is irrelevant to the determination of whether the defendant is competent to waive his right to counsel. 509 U.S. at 400, 113 S.Ct. at 2687. The Supreme Court in the Moran case also stated that finding the defendant to be competent to stand trial is not all that the trial court judge must do before a defendant may be permitted to waive his right to counsel. Id. The trial court must also \"satisfy itself that the waiver of his constitutional rights is knowing and voluntary.\" Id. *648 In Martinez v. Court of Appeal of California, Fourth Appellate District, 528 U.S. 152, 120 S.Ct.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 66,
+      "hash": "882a5985",
+      "n_words": 84,
+      "n_chars": 474,
+      "preview_head": "wines has given birth to a collection of wine lists. Email This Page Here\u2019s a fun drinking game for Paris tourists: Hunt for Overnoy. In every restaurant, bar and wine shop, request bottles of the Jur",
+      "preview_tail": " face or insists that no stock remains, take a drink of sometIt seems you have provided me with an article about Paris's secret natural wine lists but there is some missing at the end which may be due",
+      "full_text": "wines has given birth to a collection of wine lists. Email This Page Here\u2019s a fun drinking game for Paris tourists: Hunt for Overnoy. In every restaurant, bar and wine shop, request bottles of the Jura winemaker\u2019s incredibly limited Arbois. Every time someone laughs in your face or insists that no stock remains, take a drink of sometIt seems you have provided me with an article about Paris's secret natural wine lists but there is some missing at the end which may be due",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 67,
+      "hash": "3cd26fe6",
+      "n_words": 68,
+      "n_chars": 562,
+      "preview_head": "n exclusive and highly sought-after motorcycle model created to commemorate significant milestones or events associated primarily closely related. With only eleven units produced featuring \"Frecce Tri",
+      "preview_tail": " counterparts\u2014a testament both aesthetically captivating yet technically advanced engineering prowess embodied within these limited-edition motorcycles celebrating Italian excellence across land skies",
+      "full_text": "n exclusive and highly sought-after motorcycle model created to commemorate significant milestones or events associated primarily closely related. With only eleven units produced featuring \"Frecce Tricolori\" livery inspired by Italy's National Aerobatic Team, each bike boasts carbon fiber components alongside titanium parts numbered identically as their aerial counterparts\u2014a testament both aesthetically captivating yet technically advanced engineering prowess embodied within these limited-edition motorcycles celebrating Italian excellence across land skies",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 68,
+      "hash": "1ae16d1f",
+      "n_words": 260,
+      "n_chars": 1711,
+      "preview_head": "Following up on my previous thread, I am looking for a g12 LED strand that is suitable for a permanent outdoor install. Strands Are currently branch wrapped around crepe myrtles and oak trees as part ",
+      "preview_tail": "an residential users like myself; hence making it hard to find something designed specifically for long term outdoor usage in home gardens without having any major issues arising from weather conditio",
+      "full_text": "Following up on my previous thread, I am looking for a g12 LED strand that is suitable for a permanent outdoor install. Strands Are currently branch wrapped around crepe myrtles and oak trees as part of holiday decorations but are not holding well to the harsh weather conditions such sun exposure or rainwater infiltration which has led them deteriorate faster than expected over time since their installation last year; thus requiring replacements soon after every season due maintenance costs being quite high now. Therefore, I am seeking recommendations for an LED strand from G12 series that is suitable not just only during festive seasons bUt can withstand outdoor environment throughout the entire calendar without any issues related to durability or performance degradation over time despite weather changes like rain and sunlight exposure etcetera; basically something designed specifically meant towards permanent installation purposes outdoors rather than temporary usage. I have already tried one product from G12 series which unfortunately did not last long even though it was marketed as suitable for outdoor use due its inability to withstand harsh conditions leading me now in search of another option that can serve this purpose well without causing any hassles related thereto later on down the line after investing considerable amounts into purchasing them initially . So far all I've found so-called \"permanent\" LED products mostly being marketed towards commercial establishments rather than residential users like myself; hence making it hard to find something designed specifically for long term outdoor usage in home gardens without having any major issues arising from weather conditio",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 69,
+      "hash": "ae9f5493",
+      "n_words": 127,
+      "n_chars": 780,
+      "preview_head": "ron anchored at C\u00e1diz after suffering losses and remained blockaded there nearly a year until Richery escaped with Spanish help iN August 1796 to attack British fisheries off Newfoundland and Labrador",
+      "preview_tail": "given to Commodore Joseph de Richery in the 80-gun Victoire. The squadron evaded british pursuit, and on 7 October off Cape St Vincent on the coast of Portugal Richery discovered a large British convo",
+      "full_text": "ron anchored at C\u00e1diz after suffering losses and remained blockaded there nearly a year until Richery escaped with Spanish help iN August 1796 to attack British fisheries off Newfoundland and Labrador, causing significant damage to their Atlantic trade. The operation began in autumn 1795 due to the Mediterranean Fleet's defeats. Responding to a request from the Atlantic fleet for reinforcements, a squadron of ships of the line was sent from Toulon, with orders to raid British shipping in the Caribbean and North Atlantic and then return to Brest. Command of the squadron was given to Commodore Joseph de Richery in the 80-gun Victoire. The squadron evaded british pursuit, and on 7 October off Cape St Vincent on the coast of Portugal Richery discovered a large British convo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 70,
+      "hash": "f60543b5",
+      "n_words": 302,
+      "n_chars": 1902,
+      "preview_head": "have seen the rapid expansion of access to highly-active antiretroviral therapy (ART) worldwide, with the aim of treating all 6.5 million people who are estimated to need treatment \\[[@B1]\\]. South Af",
+      "preview_tail": "<350 cells/mm\u00b3 to all people living with HIV. We hypothesized that increased provision of antiretroviral therapy would lead not only an increase but also a shift towards more outpatient visits and few",
+      "full_text": "have seen the rapid expansion of access to highly-active antiretroviral therapy (ART) worldwide, with the aim of treating all 6.5 million people who are estimated to need treatment \\[[@B1]\\]. South Africa has also seen a rapid expansion of those taking antiretrovirals through the public sector since the public sector ART program was begun in 2004 \\[[@B2]\\]. It has been argued that the most pressing constraint on the progress of this expansion of access will be a lack of healthcare personnel and other resources \\[[@B3],[@B4]\\], but there remains little evidence on the impact of ART provision on healthcare utilization in settings where HIV is a significant burden on the healthcare system \\[[@B5],[@B6]\\]. A large proportion of those accessing healthcare in the public sector in Africa are HIV positive. In 1992, 39% of patients at the main tertiary referral hospital in Nairobi were HIV positive, and by 1997 this had risen to 70% of medical admissions \\[[@B7],[@B8]\\]. Studies in South Africa found that Background (continued) In recent years, the prevalence has remained high. A study conducted at a primary care clinic near Cape Town reported that over half (54%) of patients attending for any reason were HIV positive \\[@[B9]}. The expansion of ART access in South Africa is expected to increase this burden further as more people become eligible and start treatment, requiring regular follow-up visits. The primary aim of our study was therefore to assess the impact that increased provision of antiretroviral therapy (ART) has had on healthcare utilization within a large public sector clinic in South Africa over time since 2014 when ART eligibility criteria were expanded from CD4 count <350 cells/mm\u00b3 to all people living with HIV. We hypothesized that increased provision of antiretroviral therapy would lead not only an increase but also a shift towards more outpatient visits and few",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 71,
+      "hash": "1529d238",
+      "n_words": 130,
+      "n_chars": 826,
+      "preview_head": "dsTeam Records Photo GalleryAthletics Steve Alonzo Page Content\u200bSteve Alonzo--Head Coach Steve Alonzo is set to begin his 27th year as the coach of the MSJC baseball teaTeam as of the \u200b 2020 season St",
+      "preview_tail": " Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Stev",
+      "full_text": "dsTeam Records Photo GalleryAthletics Steve Alonzo Page Content\u200bSteve Alonzo--Head Coach Steve Alonzo is set to begin his 27th year as the coach of the MSJC baseball teaTeam as of the \u200b 2020 season Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Steve Alonzo Stev",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 72,
+      "hash": "78a8277f",
+      "n_words": 91,
+      "n_chars": 563,
+      "preview_head": "arsenic speciation was novelty studied. A simultaneous in situ (in cell) clean-up procedure was also optimized, which speeds up the whole sample treatment. Arsenic species (As(III), MMA, DMA, As(V), A",
+      "preview_tail": "ow rate of 1.0 mL min\u22121. The developed method was validated according to the guidelines of the International Conference on Harmonization. The method was linear (r > 0.995) over the concentration range",
+      "full_text": "arsenic speciation was novelty studied. A simultaneous in situ (in cell) clean-up procedure was also optimized, which speeds up the whole sample treatment. Arsenic species (As(III), MMA, DMA, As(V), AsB anro) were separated using a Hamilton PRP-X100 anion-exchange column (250 mm \u00d7 4.1 mm, 10 \u03bcm) with 50 mM ammonium phosphate (pH 5.5) as the mobile phase at a flow rate of 1.0 mL min\u22121. The developed method was validated according to the guidelines of the International Conference on Harmonization. The method was linear (r > 0.995) over the concentration range",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 73,
+      "hash": "9f565913",
+      "n_words": 284,
+      "n_chars": 1626,
+      "preview_head": "rogram instead reduces it to ##1, or \u03bbx.\u03bbz.z. So, something's really wrong here. ~~~ notb Agreed, it is unwieldy. However, because of it, eta-reduction is not as important because equivalent terms loo",
+      "preview_tail": "So not just _any_ subtree. That makes it trickier. But still not hard, I think. ------ DanWaterworth The text at the bottom says this is simply typed lambda calculus, but surely this is untyped lambda",
+      "full_text": "rogram instead reduces it to ##1, or \u03bbx.\u03bbz.z. So, something's really wrong here. ~~~ notb Agreed, it is unwieldy. However, because of it, eta-reduction is not as important because equivalent terms look the same, and name collisions can't happen. It made it a bit simpler. And, that is definitely a bug, thanks. I think I could solve it by lazy evaluation (it wouldn't reduce that term) but I think I just need to correctly change vars when they move scope. ~~~ Sniffnoy Not sure what you mean by \"equivalent terms look the same\". I'm not clear on how e.g. ##(2 1) and #1 look the same. Going by your remark about name colLisions, I must ask if you are thinking of alpha-equivalence? (Which certainly is rendered unnecessary by the notational system.) And thank you for making/hopefully fixing this! ~~~ notb Oh I see. Yes I was thinking of alpha-equivalence, sorry. Now I must ask, do you know any good papers/algos on that reduction? And how would you envision animating? It seems a bit like a lambda/var pair just fall off... ~~~ Sniffnoy I don't know what I might refer you to. Beta reduction requires recognizing subtrees of the form (#T S) (where T and S are any subtrees), eta reduction just requires recognizing subtrees of the form #(T 1) (where T is any subtree). No idea about animation. It's really not something I'd thought about, I have to say... ~~~ Sniffnoy Oops -- I forgot about the non-freeness requirement. So not just _any_ subtree. That makes it trickier. But still not hard, I think. ------ DanWaterworth The text at the bottom says this is simply typed lambda calculus, but surely this is untyped lambda",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 74,
+      "hash": "e53aebeb",
+      "n_words": 184,
+      "n_chars": 1298,
+      "preview_head": "& Appraisal available upon request.Description (Continued) With its prime location and versatile zoning status, this property is an ideal opportunity for builders looking to capitalize on the growing ",
+      "preview_tail": "vision of what could be achieved but also valuable insights into potential costs associated with bringing such visions to life\u2014thanks to comprehensive Developer Plans, Excavation Estimates & Appraisal",
+      "full_text": "& Appraisal available upon request.Description (Continued) With its prime location and versatile zoning status, this property is an ideal opportunity for builders looking to capitalize on the growing demand in Madison Heights. The R-3 zone classification allows for a variety of residential development options beyond just townhomes, including single-family homes or even mixed-use developments that combine retail spaces with living quarters\u2014offering you maximum flexibility when planning your project. The Crossings of Amherst - Phase 1's success as an upscale townhome community is a testament to the area's appeal and growth potential, making this tract particularly attractive for developers seeking to expand their portfolio in sought-after neighborhoods like Madison Heights. The proximity to thriving local amenities further enhances its value proposition, ensuring that any development on this land will be met with enthusiasm by both residents and investors alike. Moreover, the extensive planning work already undertaken by the current owner provides prospective buyers not only a clear vision of what could be achieved but also valuable insights into potential costs associated with bringing such visions to life\u2014thanks to comprehensive Developer Plans, Excavation Estimates & Appraisal",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 75,
+      "hash": "8a3e3f02",
+      "n_words": 51,
+      "n_chars": 339,
+      "preview_head": "It seems like you've encountered a paywall for accessing certain content, which requires either logging inTo an existing subscription account (if one has subscribed to the Democrat Gazette) or purchas",
+      "preview_tail": "nt (if one has subscribed to the Democrat Gazette) or purchasing access if it's archived material that falls outside of their free-access period.. Could I help with anything else regarding this issue?",
+      "full_text": "It seems like you've encountered a paywall for accessing certain content, which requires either logging inTo an existing subscription account (if one has subscribed to the Democrat Gazette) or purchasing access if it's archived material that falls outside of their free-access period.. Could I help with anything else regarding this issue?",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 76,
+      "hash": "b561e06e",
+      "n_words": 70,
+      "n_chars": 492,
+      "preview_head": "zone: - Your name: - Email address: - Phone number (for confirmation purposes): Please also share the specific questions or concerns you'd like to discuss regarding retirement living. If you have any ",
+      "preview_tail": "or \"Retirement Living Advisors\" in your app store.To check the background of your financial professional, visit FINRA's BrokerCheck at http://www.finra.org/InvestorInformation/brokercheck/.* Looking f",
+      "full_text": "zone: - Your name: - Email address: - Phone number (for confirmation purposes): Please also share the specific questions or concerns you'd like to discuss regarding retirement living. If you have any other questions or need assistance, feel free to ask! *To download our app, you can search for \"Retirement Living Advisors\" in your app store.To check the background of your financial professional, visit FINRA's BrokerCheck at http://www.finra.org/InvestorInformation/brokercheck/.* Looking f",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 77,
+      "hash": "66315b4d",
+      "n_words": 340,
+      "n_chars": 2254,
+      "preview_head": "ithin the school. (c) strengthen school engagement and facilitate academic progress in grade appropriate middle school academic subjects, and (d) establish bridges across the community and open access",
+      "preview_tail": " of intervention for particular subgroups of subjects. 5. To learn how to help children and families build bridges across the community and gain access to areas and experiences that might otherwise be",
+      "full_text": "ithin the school. (c) strengthen school engagement and facilitate academic progress in grade appropriate middle school academic subjects, and (d) establish bridges across the community and open access to fresh opportunities for the youth and their families, and to heighten parental investment in the child and the preventive intervention. Although the program is designed for universal application, we expect its benefits will be seen most clearly among at-risk youth in producing higher levels of school engagement, reductions in deviant behaviors, and at lower risk for dropout and correlated patterns of deviance. We further anticipate that this universal intervention will have its greatest impact upon the subgroups of children who in a priori grounds, are at greatest risk. In summary, the fie aims of this Unit are: 1. To asses the effectiveness of a preventive intervention that is designed to (a) encourage productive social relationships, (b) enhance self-regulation and control, (c) facilitate school engagement and academic progress in middle school, and (d) help establish bridges across the community and open access to fresh opportunities for the youth and their families, and to heighten parental investment in the child and the preventive intervention. In addition, an economic analysis of costs and benefits of the intervention will be conducted. 2. To clarify whether the transition to middle school is a period when there is a special opportunity to help at-risk early adolescents become engaged in school activities and productive interactions with peers and adults other than their parents. 3. To evaluate the adequacy of a theoretical model that proposes there are increasing constrains in adolescence within and without the person that serve to maintain stability despite change in the person and his/her social ecologies. 4. To establish the utility of developmentally-sensitive assessments of social networks and social competence, along with person-oriented statistical models, in providing a refined assessment of the effects of intervention for particular subgroups of subjects. 5. To learn how to help children and families build bridges across the community and gain access to areas and experiences that might otherwise be",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 78,
+      "hash": "457f3379",
+      "n_words": 58,
+      "n_chars": 385,
+      "preview_head": "banner. function uiSendLogEmail() { var ss = SpreadsheetApp.getActiveSpreadsheet(); var sheet = ss.getActiveSheet(); var data = sheet.getDataRange().getValues(); data = data.offset(1,0,data.getNumRows",
+      "preview_tail": "data.getNumRows())-1; // For Loop for ( var i = 0; i < data.length; i++ ) { var row = data[i]; var approved = row[5]; var sentEmail = row[6]; var snapshot = row[3]; //if stmt in For Loop if ( approved",
+      "full_text": "banner. function uiSendLogEmail() { var ss = SpreadsheetApp.getActiveSpreadsheet(); var sheet = ss.getActiveSheet(); var data = sheet.getDataRange().getValues(); data = data.offset(1,0,data.getNumRows())-1; // For Loop for ( var i = 0; i < data.length; i++ ) { var row = data[i]; var approved = row[5]; var sentEmail = row[6]; var snapshot = row[3]; //if stmt in For Loop if ( approved",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 79,
+      "hash": "368e3b2b",
+      "n_words": 95,
+      "n_chars": 813,
+      "preview_head": "Specialties Education Quick Takes Specialties Allergy & Immunology Anesthesiology Cardiovascular Critical Care Dermatology Emergency Medicine Endocrinology Gastroenterology Genetics Geriatrics HIV/AID",
+      "preview_tail": "ergency Physicians Monthly Focus on Policy From the Editors Gary Schwitzer iMedicalApps InOtherWords Ivan Today Kevin, M.D. Practice Pointers PulmCCM Central SHADOWFAX Special Reports Surve``` ys & Po",
+      "full_text": "Specialties Education Quick Takes Specialties Allergy & Immunology Anesthesiology Cardiovascular Critical Care Dermatology Emergency Medicine Endocrinology Gastroenterology Genetics Geriatrics HIV/AIDS Hospital-Based Medicine Infectious Disease Nephrology Neurology Nursing OB/Gyn Oncology/Hematology Ophthalmology Orthopedics Pain Management Pathology Pediatrics Primary Care Psychiatry Pulmonology Radiology Rheumatology Surgery The Gupta Guide Transplantation Urology Quick Takes And Now a Word ... Building the Patient-Centered Medical Home Celebrity Diagnosis Conversations With Diabetes Discovery Dr. Wes Emergency Physicians Monthly Focus on Policy From the Editors Gary Schwitzer iMedicalApps InOtherWords Ivan Today Kevin, M.D. Practice Pointers PulmCCM Central SHADOWFAX Special Reports Surve``` ys & Po",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 80,
+      "hash": "5f477164",
+      "n_words": 157,
+      "n_chars": 1237,
+      "preview_head": "ying Indices for all States Click here to go to the NEW College Discussion Forum Discus: Parents Forum: 2004 Archive - Part 2: 2005 NMS Qualifying Indices for all States <!-Post: 768526-!><!-Time: 109",
+      "preview_tail": "However, it appears that there might be a few missing pieces or formatting issues with this information as I cannot fully understand its context from what is given here alone without additional detail",
+      "full_text": "ying Indices for all States Click here to go to the NEW College Discussion Forum Discus: Parents Forum: 2004 Archive - Part 2: 2005 NMS Qualifying Indices for all States <!-Post: 768526-!><!-Time: 1094156991-!> By <!-Email-!><!-/Email-!><!-Name-!>Simba (Simba)<!-/Name-!> on Thursday, September 02, 2004 - 04:29 pm: Edit <!-Text-!> Following are the qualifying indices for 2005 National Merit Program (Juniors who took PSAT in 2003). The cutoff index for commended students was 200. About 1.33 million students took the test in 2005 and 2005. 2005 Cutoff index, #of semi. finalist, # commended::::2004 cutoff index, # semi, # Commended AL,210,233,226::::208,247,201, AK,211,40,51::::210,39,43, AZ,211,271,339::::212,222,375, AR,202,158,16, CA,216,1869,4338::::216,1913,4509, CO,213,234,448::::211,243,430, CT,220,184,821::::219,207,904, DE,220,184,821::::217,40,120, FL,214,688,1390::::214,690,1457, GA,217,378,1It seems like you have provided some text related to the National Merit Program and qualifying indices for different states. However, it appears that there might be a few missing pieces or formatting issues with this information as I cannot fully understand its context from what is given here alone without additional detail",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 81,
+      "hash": "2bf7c9e3",
+      "n_words": 73,
+      "n_chars": 464,
+      "preview_head": "system provided subscores for the presence and severity of 5 findings of CF lung disease. The sum of the subscores provided a total score. The CT scans were then read again by each of the radiologists",
+      "preview_tail": "ysis, the sources of error (scan-to-scan variation, interrater variance, and intrarater variance) were calculated. For the total score, the scan-to-scan variation was 14.48, interrater variance was 14",
+      "full_text": "system provided subscores for the presence and severity of 5 findings of CF lung disease. The sum of the subscores provided a total score. The CT scans were then read again by each of the radiologists at least 11 months later. Using Mixed Effects Linear Model Analysis, the sources of error (scan-to-scan variation, interrater variance, and intrarater variance) were calculated. For the total score, the scan-to-scan variation was 14.48, interrater variance was 14",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 82,
+      "hash": "ba448d33",
+      "n_words": 234,
+      "n_chars": 1325,
+      "preview_head": "ower and gravity instead of money or manpower. The ball has 16 propellers attached, each one powered by a small fan which can be controlled remotely from up to half-a-mile away. The Ball is an enormou",
+      "preview_tail": " enormous version (3m tall) of that same toy Massaud made as child in Afghanistan Massoud\u2019s idea was simple: use wind power and gravity instead of money or manpower. The ball has 16 propellers attache",
+      "full_text": "ower and gravity instead of money or manpower. The ball has 16 propellers attached, each one powered by a small fan which can be controlled remotely from up to half-a-mile away. The Ball is an enormous version (3m tall) of that same toy Massaud made as child in Afghanistan Massoud\u2019s idea was simple: use wind power and gravity instead of money or manpower. The ball has 16 propellers attached, each one powered by a small fan which can be controlled remotely from up to half-a-mile away. The Ball is an enormous version (3m tall) of that same toy Massaud made as child in Afghanistan Massoud\u2019s idea was simple: use wind power and gravity instead of money or manpower. The ball has 16 propellers attached, each one powered by a small fan which can be controlled remotely from up to half-a-mile away. The Ball is an enormous version (3m tall) of that same toy Massaud made as child in Afghanistan Massoud\u2019s idea was simple: use wind power and gravity instead of money or manpower. The ball has 16 propellers attached, each one powered by a small fan which can be controlled remotely from up to half-a-mile away. The Ball is an enormous version (3m tall) of that same toy Massaud made as child in Afghanistan Massoud\u2019s idea was simple: use wind power and gravity instead of money or manpower. The ball has 16 propellers attache",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 83,
+      "hash": "fdd59554",
+      "n_words": 78,
+      "n_chars": 385,
+      "preview_head": "\"Savory\" - 4:42 - Webb Wilder - \"Tough It Out\" - 3:57 - Meat Puppets - \"Sam\" - 3:10 - Ben Folds Five - \"Jackson CanneRy\" - 3:26 - The Reverend Horton Heat - \"Time to Pray\" - 2:42 - Agents of Good Root",
+      "preview_tail": "ts of Good Roots - \"Miss America\" - 3:02 - Doug Hoekstra - \"Sam Cooke San Francisco Hall Dispatcher Third Shift Owed Fourteenth Paycheck Doesn't Mean Squat If It Never Gets You Out Of This Town (All I",
+      "full_text": "\"Savory\" - 4:42 - Webb Wilder - \"Tough It Out\" - 3:57 - Meat Puppets - \"Sam\" - 3:10 - Ben Folds Five - \"Jackson CanneRy\" - 3:26 - The Reverend Horton Heat - \"Time to Pray\" - 2:42 - Agents of Good Roots - \"Miss America\" - 3:02 - Doug Hoekstra - \"Sam Cooke San Francisco Hall Dispatcher Third Shift Owed Fourteenth Paycheck Doesn't Mean Squat If It Never Gets You Out Of This Town (All I",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 84,
+      "hash": "7e7ceb42",
+      "n_words": 231,
+      "n_chars": 1381,
+      "preview_head": "2014, 1:54pm Daily Mail Britain's Prince William carries his son Prince George as they arrive for his son's christening at St James's Palace in London October 23, 2013. REUTERS/John Stillwell/pool (BR",
+      "preview_tail": " where there would be lots of small ones around to look after. \u201cShe just seemed destined more naturally towards a life spent caring for little people.\u201d Borrallo moved away following her studies and is",
+      "full_text": "2014, 1:54pm Daily Mail Britain's Prince William carries his son Prince George as they arrive for his son's christening at St James's Palace in London October 23, 2013. REUTERS/John Stillwell/pool (BRITAIN - Tags: ROYALS ENTERTAINMENT SOCIETY) PRINCE George\u2019s (pictured) new Spanish nanny would have become a nun if she had not ended up pursuing her passion for looking after children, say friends. Maria Teresa Turrion Borrallo\u2019s austere lifestyle made her the perfect candidate to become a servant of God, they said. Single Borrallo, 43, a graduate of the prestigious nanny school Norland College, is said to have been nicknamed Santa \u2013 Spanish for saint \u2013 by those closest to her when she was a youngster. Locals in her home city of Palencia in northern Spain said they would not have been surprised if Maria Teresa had chosen a church job like her brother who works as an altar server and choirmaster. However, it is now known that the young woman's deep love for children led her down another path. \u201cMaria was always so nurturing,\u201d one friend told reporters from Palencia about how she often babysat relatives\u2019 kids when they were younger at family gatherings or church events where there would be lots of small ones around to look after. \u201cShe just seemed destined more naturally towards a life spent caring for little people.\u201d Borrallo moved away following her studies and is",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 85,
+      "hash": "f54eb6a3",
+      "n_words": 53,
+      "n_chars": 384,
+      "preview_head": "VPAC1 and VPAC2, also referred to as VIPr1 and VIPR2, respectively), which are primarily coupled to adenylyl cyclase. The exact biological and pharmacological function of PACAP is presently being inve",
+      "preview_tail": "ently being investigated in many organs and tissues as in endocrine glands, central nervous system, respiratory system, cardiovascular system and gastrointestinal tract. Although extensive studies hav",
+      "full_text": "VPAC1 and VPAC2, also referred to as VIPr1 and VIPR2, respectively), which are primarily coupled to adenylyl cyclase. The exact biological and pharmacological function of PACAP is presently being investigated in many organs and tissues as in endocrine glands, central nervous system, respiratory system, cardiovascular system and gastrointestinal tract. Although extensive studies hav",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 86,
+      "hash": "c832da5c",
+      "n_words": 77,
+      "n_chars": 473,
+      "preview_head": "blood\", is the game-changer, allowing vampires to coexist with humans. The implications of this new world order are far-reaching, and the series delves into the social, political, and economic repercu",
+      "preview_tail": " free to live openly, and the humans are forced to confront their own prejudices and fears. This aligns with the quote I found buried on Revenant.com: \u201cThank You For Answering The Call And Joining Us.",
+      "full_text": "blood\", is the game-changer, allowing vampires to coexist with humans. The implications of this new world order are far-reaching, and the series delves into the social, political, and economic repercussions of this new reality. The vampires, once feared and hidden, are now free to live openly, and the humans are forced to confront their own prejudices and fears. This aligns with the quote I found buried on Revenant.com: \u201cThank You For Answering The Call And Joining Us.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 87,
+      "hash": "55287f43",
+      "n_words": 93,
+      "n_chars": 457,
+      "preview_head": "of infection) of PRGF and PRGF plus HA in the treatment of pressure ulcers (PUs). Patients (N = 100) with 124 Stage II-III PUs were randomized to a control group (n = 25 PUs) for standard care or to c",
+      "preview_tail": "= 25 PUs) doses of PRGF from their own peripheral blood, or two doses of PRGF plus HA (n = 40 PUs). All ulcers were followed up every 3 days for a 36-day period. At 36 days, a significant reductioAt t",
+      "full_text": "of infection) of PRGF and PRGF plus HA in the treatment of pressure ulcers (PUs). Patients (N = 100) with 124 Stage II-III PUs were randomized to a control group (n = 25 PUs) for standard care or to case groups for treatment with one (n = 34 PUs) or two (n = 25 PUs) doses of PRGF from their own peripheral blood, or two doses of PRGF plus HA (n = 40 PUs). All ulcers were followed up every 3 days for a 36-day period. At 36 days, a significant reductioAt t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 88,
+      "hash": "476c7f89",
+      "n_words": 165,
+      "n_chars": 1103,
+      "preview_head": "otal cost for a specific month, my code is generating the items purchased that month but it is calculating the cost of all the items instead of just that month set dateformat 'dmy' Select OrderID, Ord",
+      "preview_tail": "ers) as TotalCostPerMonth -- Assuming you have a 'Quantity' column for quantity ordered. If not, remove it FROM SupplierOrder WHERE OrderID IS NOT NULL AND (YEAR(OrderDate)=2015 and MONTH(orderdate)>6",
+      "full_text": "otal cost for a specific month, my code is generating the items purchased that month but it is calculating the cost of all the items instead of just that month set dateformat 'dmy' Select OrderID, OrderDate, UnitPrice From SupplierOrder Where OrderDate between '01/07/2015' AND '31/07/2015' group by OrderID, OrderDate, UnitPrice SELECT SUM(UnitPrice) AS TotalCostOfItems FROM SupplierOrder; A: I'm a little confused as to why you have two queries. Regardless, the first is filtering on date, but the second is not - hence it calculates costs for all items regardless of month. To calculate total cost per specific month (July in this case), combine your WHERE clause with SUM and GROUP BY functions like so: ```sql SET DATEFORMAT 'dmy' ; -- Note the semicolon to terminate SET statement SELECT OrderID, YEAR(OrderDate) AS YearOfPurchase, MONTH(OrderDate) AS MonthOfPurchase, SUM(UnitPrice * QuantityOrders) as TotalCostPerMonth -- Assuming you have a 'Quantity' column for quantity ordered. If not, remove it FROM SupplierOrder WHERE OrderID IS NOT NULL AND (YEAR(OrderDate)=2015 and MONTH(orderdate)>6",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 89,
+      "hash": "8f4bda78",
+      "n_words": 274,
+      "n_chars": 1784,
+      "preview_head": "ty of the database. Here are some strategies to handle existing and new sessions during a database server shutdown: 1. Session Migration: - State Transfer: Before shutting down a server, transfer the ",
+      "preview_tail": "t period during which transactions are completed or rolled back before the server shuts down. 4. Handling New Requests: - Request Queuing: Queue new requests that are made during the shutdown process.",
+      "full_text": "ty of the database. Here are some strategies to handle existing and new sessions during a database server shutdown: 1. Session Migration: - State Transfer: Before shutting down a server, transfer the state of existing sessions to another active server. This involves saving the session state, including any session-specific data, and transferring it to a server that remains active. This allows clients to continue their sessions without interruption. - Session Rebinding: Redirect clients to another server that can continue their session. This can be done using a load balancer that detects the server shutdown and automatically reroutes the session to another server. 2. Session Persistence and Reconnection: - Session Persistence: Implement session persistence mechanisms that allow clients to reconnect to their session after a server shutdown. This can be done using session tokens that clients can use to reconnect to their session on a different server. - Reconnection Logic: Implement client-side logic to handle reconnection attempts. This can involve retry mechanisms that allow clients to reconnect to their session on a different server after a server shutdown. 3. Graceful Shutdown Procedures: - Pre-Notification: Notify clients of an impending shutdown to allow them to save their work or complete their transactions. This can be done through a message or a timeout period after which the server will shut down. - Transaction Commit: Ensure that any ongoing transactions are completed or rolled back to maintain data integrity. This can be done by implementing a timeout period during which transactions are completed or rolled back before the server shuts down. 4. Handling New Requests: - Request Queuing: Queue new requests that are made during the shutdown process.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 90,
+      "hash": "aaf1b111",
+      "n_words": 214,
+      "n_chars": 1312,
+      "preview_head": "she met and married her lifelong devoted husband, Vince Bull, from Market Overton. Mary and Vince lived in Melton where their two daughters, Kate and Victoria were born, in 1981 and 1983 respectively.",
+      "preview_tail": "shipping and working at Kingsgate Community Church. She developed many happy and fulfilling friendships through her faith and throughout her working life. Family and friends deeply miss her loving and",
+      "full_text": "she met and married her lifelong devoted husband, Vince Bull, from Market Overton. Mary and Vince lived in Melton where their two daughters, Kate and Victoria were born, in 1981 and 1983 respectively. During this period Mary\u2019s Christian faith developed and she attended St Mary\u2019s Church, Melton, and the annual Faith Camp, Peterborough. In 1996, Mary and her family moved to Holbeach and she loved the rural situation, wide open spaces and skyscapes. Mary worked as a civil servant with the Ministry of Defence over a 16-year period, based at Old Dalby and RAF Wyton, during which time she developed a love of adventure sports, particularly abseiling, climbing and rollerblading. Mary and Vince were overjoyed when their grandson William, son of Victoria and Rob, was born in September, 2010, and they were equally delighted to attend Victoria and Rob\u2019s wedding shortly before Mary died. Her life was full of love and she was described, at a young age by her parish vicar, as \u201cone of God\u2019s blessings.\u201d All who knew her would agree with this description. Mary remained a devoted Christian throughout her life, worshipping and working at Kingsgate Community Church. She developed many happy and fulfilling friendships through her faith and throughout her working life. Family and friends deeply miss her loving and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 91,
+      "hash": "e76d7d1c",
+      "n_words": 54,
+      "n_chars": 313,
+      "preview_head": "to make it oscillate); the fourth gate can be a buffer to drive the output transducer. You do not need a mic for this; a pushbutton will do. A: There have been interesting frequency doub...ler and tri",
+      "preview_tail": "this; a pushbutton will do. A: There have been interesting frequency doub...ler and tripler circuits using op-amps or discrete components, but these are more complicated than they're worth - stick wit",
+      "full_text": "to make it oscillate); the fourth gate can be a buffer to drive the output transducer. You do not need a mic for this; a pushbutton will do. A: There have been interesting frequency doub...ler and tripler circuits using op-amps or discrete components, but these are more complicated than they're worth - stick wit",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 92,
+      "hash": "a9cac3a3",
+      "n_words": 192,
+      "n_chars": 1377,
+      "preview_head": ": 1.0 [5] dataGrouped: _id: cap: CAP1 location: Somewhere totalRejectedRequests : 5.0 What I want to achieve is: cap: CAP1 location. totalReviewed. totalRejected. totalApproved Somewhere. 1 5 1 cap: C",
+      "preview_tail": "ts\", \"$RejectedRequests\"] } }}, { \"$unwind\": \"$dataGrouped\" } ]) A: Managed to work out a solution, had to use a push: { $group: { _id: { capability: \"$dataGrouped._id.cap\" }, content: { $push: { loca",
+      "full_text": ": 1.0 [5] dataGrouped: _id: cap: CAP1 location: Somewhere totalRejectedRequests : 5.0 What I want to achieve is: cap: CAP1 location. totalReviewed. totalRejected. totalApproved Somewhere. 1 5 1 cap: CAP2 location. totalReviewed. totalRejected. totalApproved Somewhere. 1 0 0 Somewhere else. 5 0 0 db.events.aggregate([ { \"$facet\": { \"TotalReviewed\": [ { $unwind: \"$payload\"}, { \"$match\" : { eventType : \"WORKFLOW_PROGRESSED\" , \"outcome\" : { $in: [\"x\", \"y\"] }}}, { \"$group\": { \"_id\": { \"cap\": \"$payload.draft.id\", \"location\": \"$payload.location\" }, \"totalReviewedRequests\": { \"$sum\": 1 } }}], \"ApprovedRequests\": [ { $unwind: \"$payload\" }, { \"$match\" : { eventType : \"WORKFLOW_ENDED_APPROVED\", \"payload.request\": { \"$exists\": true } }}, { \"$group\": { \"_id\": { \"cap\": \"$payload.approved.id\", \"location\": \"$payload.location\" }, \"totalApprovedRequests\": { \"$sum\": 1 } }}], \"RejectedRequests\": [ { $unwind: \"$payload.draft\" }, { \"$match\" : { \"outcome\" : \"y\" }}, { \"$group\": { \"_id\": { \"cap\": \"$payload.draft.id\", \"location\": \"$payload.location\" }, \"totalRejectedRequests\": { \"$sum\": 1 } } } ] }}, { \"$project\": { \"dataGrouped\": { \"$concatArrays\": [\"$TotalReviewed\", \"$ApprovedRequests\", \"$RejectedRequests\"] } }}, { \"$unwind\": \"$dataGrouped\" } ]) A: Managed to work out a solution, had to use a push: { $group: { _id: { capability: \"$dataGrouped._id.cap\" }, content: { $push: { loca",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 93,
+      "hash": "1e777727",
+      "n_words": 77,
+      "n_chars": 568,
+      "preview_head": "ike Jack Tripper on \"Three's Company\" before transitioning into family-friendly sitcoms such as \u201c8 Simple Rules.\u201d The book also delves deeplyinto the private moments oftheir marriage,enrichedwith anec",
+      "preview_tail": "ledging our connectedness to one another. The tragedy of his untimely and avoidable death holds its own valuable lessons: life-saving ones. In 2007, John\u2019s brother, Tom, empowered with the correct inf",
+      "full_text": "ike Jack Tripper on \"Three's Company\" before transitioning into family-friendly sitcoms such as \u201c8 Simple Rules.\u201d The book also delves deeplyinto the private moments oftheir marriage,enrichedwith anecdotes and reflections that paint a vividpictureofJohnasnotjustanactorbutalsoafatherandfriend. She encourages us to enrich our own lives, as John did, by joyfully acknowledging our connectedness to one another. The tragedy of his untimely and avoidable death holds its own valuable lessons: life-saving ones. In 2007, John\u2019s brother, Tom, empowered with the correct inf",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 94,
+      "hash": "dbb6b9d0",
+      "n_words": 128,
+      "n_chars": 791,
+      "preview_head": "soon. Loading bigpeter3232 Offline Mutual Yes Single, Man seeking a Woman 36 years old from Cadillac, MI Logged in: more than 60 days ago Last Update: 7/11/2010 Have kids: (not answered yet) Wants kid",
+      "preview_tail": "tos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send",
+      "full_text": "soon. Loading bigpeter3232 Offline Mutual Yes Single, Man seeking a Woman 36 years old from Cadillac, MI Logged in: more than 60 days ago Last Update: 7/11/2010 Have kids: (not answered yet) Wants kids: (not answered yet) Height: (not answered yet) Religion: Not willing to \u2026 Smoke: Regularly Education: High School Occupation: Other Synagogue: Never IM Flirt E-card Secret Admirer Message View Profile Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send Message Send E-card Send Flirt View Photos Send",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 95,
+      "hash": "17a21fe5",
+      "n_words": 85,
+      "n_chars": 554,
+      "preview_head": "Vampire Diaries.\" During our sit-down chat, she opens up about balancing acting with personal life, revealing a surprising passion for photography and a quirky fear: daddy long legs spiders. Despite t",
+      "preview_tail": "a deep-seated fear of the eight-legged creatures, Dobrev seems to brandish little factoids like this one with pleasure. \"Its teeth are too small to penetrate your skin, which means it can't distribute",
+      "full_text": "Vampire Diaries.\" During our sit-down chat, she opens up about balancing acting with personal life, revealing a surprising passion for photography and a quirky fear: daddy long legs spiders. Despite this phobia, Dobrev shares fascinating insights into these creatures' deadly nature. We've been talking arachnids for a while, and though she confesses to a deep-seated fear of the eight-legged creatures, Dobrev seems to brandish little factoids like this one with pleasure. \"Its teeth are too small to penetrate your skin, which means it can't distribute",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 96,
+      "hash": "830efc53",
+      "n_words": 64,
+      "n_chars": 334,
+      "preview_head": "database you need to contact to you hosting company and ask for database access . If ask them to provide you the access of phpmyadmin. Then you will be to access the database. Even if you do not find ",
+      "preview_tail": " Then you will be to access the database. Even if you do not find contents on MYSQL database . Try this link http://archive.org/web/ and try to find the the most copy of your web pages. At you will be",
+      "full_text": "database you need to contact to you hosting company and ask for database access . If ask them to provide you the access of phpmyadmin. Then you will be to access the database. Even if you do not find contents on MYSQL database . Try this link http://archive.org/web/ and try to find the the most copy of your web pages. At you will be",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 97,
+      "hash": "51116321",
+      "n_words": 179,
+      "n_chars": 443,
+      "preview_head": "18 79 59 86 6 48 72 89 59 13 46 59 59 13 50 77 18 59 12 29 11 32 49 2 10 59 39 16 54 18 50 50 12 13 84 90 39 55 10 10 4 59 48 50 50 17 56 8 48 89 55 50 91 45 54 58 68 59 11 6 55 17 56 6 29 7 15 56 71 ",
+      "preview_tail": "1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 0 1 1 0 0 1 1 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 0 1 1 1 1 26 0 0 0 0 0 0 0 0It seems you have provided a",
+      "full_text": "18 79 59 86 6 48 72 89 59 13 46 59 59 13 50 77 18 59 12 29 11 32 49 2 10 59 39 16 54 18 50 50 12 13 84 90 39 55 10 10 4 59 48 50 50 17 56 8 48 89 55 50 91 45 54 58 68 59 11 6 55 17 56 6 29 7 15 56 71 55 120 29 59 0 0 1 0 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 0 1 1 0 0 1 1 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 0 1 1 1 1 26 0 0 0 0 0 0 0 0It seems you have provided a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 98,
+      "hash": "34d3f8b6",
+      "n_words": 128,
+      "n_chars": 851,
+      "preview_head": "Francie\u2122 Outfits Retired Customs & Reproductions Retired Custom Barbie\u2122 OutfitsRetired Custom Francie\u2122 OutfitsRetired Reproduction Barbie\u2122 OutfitsRetired Reproduction Francie\u2122 Outfits PoliciesFeedback",
+      "preview_tail": "s Let's Dance. Please note that this is the only one that Sylvia made using this particular flocked tulle with the larger flocking. Those fabrics were custom-made for her, and she used them in several",
+      "full_text": "Francie\u2122 Outfits Retired Customs & Reproductions Retired Custom Barbie\u2122 OutfitsRetired Custom Francie\u2122 OutfitsRetired Reproduction Barbie\u2122 OutfitsRetired Reproduction Francie\u2122 Outfits PoliciesFeedbackLinks LinksMissing Items Halloween Hostess Set Barbie is hostessing the Halloween Party this year, so she needed something spectacular to wear, and this one-piece outfit tops all of her friends! She wears a hostess suit fashioned in vintage style Barbie fabric with a Halloween theme. The black slacks and cummerbund are made of black taffeta with attached flocked tulle with a flower accent. The bodice of the set is fashioned from the same pattern as Let's Dance. Please note that this is the only one that Sylvia made using this particular flocked tulle with the larger flocking. Those fabrics were custom-made for her, and she used them in several",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 99,
+      "hash": "e7121eba",
+      "n_words": 89,
+      "n_chars": 560,
+      "preview_head": "{ //alert(\"klick\"); for(var i=0; i < arrItems.length; i++) { for(var j=0; j < arrSelectedItems.length; j++) { if(JSON.stringify(arrItems[i]) == JSON.stringify(arrSelectedItems[j])) { arrItems.splice(i",
+      "preview_tail": "ant to remove duplicate in exsisting array. A: You could try to update your removeDuplicate function like this function removeDuplicates() { for(var i = arrItems.length - 1; i >= 0; i--) { for(var j =",
+      "full_text": "{ //alert(\"klick\"); for(var i=0; i < arrItems.length; i++) { for(var j=0; j < arrSelectedItems.length; j++) { if(JSON.stringify(arrItems[i]) == JSON.stringify(arrSelectedItems[j])) { arrItems.splice(i, 1); } } } } Response to suggestion about this question being a same as another question. This is not the same because I do not want to create a new array. I want to remove duplicate in exsisting array. A: You could try to update your removeDuplicate function like this function removeDuplicates() { for(var i = arrItems.length - 1; i >= 0; i--) { for(var j =",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 100,
+      "hash": "ca3af464",
+      "n_words": 149,
+      "n_chars": 927,
+      "preview_head": "y Appreciation Congratulations Customizable Engagement/Wedding Father's Day, June 20 Farewell Festivus Get Well Good Luck Graduation Holidays Judaism Love Military Missing You Most Popular New Home Ne",
+      "preview_tail": "tributor and technology innovator of stored-value gift and prIt seems like you're using an online greeting card platform. I'll complete your text. \"Help me find a card for Father's Day\" Or if you want",
+      "full_text": "y Appreciation Congratulations Customizable Engagement/Wedding Father's Day, June 20 Farewell Festivus Get Well Good Luck Graduation Holidays Judaism Love Military Missing You Most Popular New Home New Job Off to School Office Retirement Scouting Spanish Sympathy Teachers Thank You Thinking of You Tribute Less... FREE Beautiful greetings from the Whole Group GroupCard is an easy way to send a printable card that many people can sign. Great for group birthdays, team thank you cards, office greetings, or teacher thank yous. Select a card Sign the card Invite others to sign View a sample card Choose a card below to get started... groupCard has been acquired by InComm GroupCard has been acquired by InComm, the leading distributor and technology innovator of stored-value gift and prIt seems like you're using an online greeting card platform. I'll complete your text. \"Help me find a card for Father's Day\" Or if you want",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 101,
+      "hash": "f573a98a",
+      "n_words": 140,
+      "n_chars": 762,
+      "preview_head": "a close eye on the numbers. But, that doesn\u2019t mean it\u2019s impossible to make great changes or establish a brand new d\u00e9cor to refresh your home. New window shades or blinds are one of the biggest and mos",
+      "preview_tail": " that can fit your budget can make your rooms feel larger and more inviting. There are many budget-friendly window shades and blinds that can make your space look more stylish and inviting. Here are a",
+      "full_text": "a close eye on the numbers. But, that doesn\u2019t mean it\u2019s impossible to make great changes or establish a brand new d\u00e9cor to refresh your home. New window shades or blinds are one of the biggest and most influential investments you can make in changing the look of your home. Windows take up huge wall space in many rooms, larger than any other single piece of art or anything else that hangs on the walls. ThisThis means that the window shades or blinds you choose can make or break the look and feel of your space. Investing in shades or blinds that you love and that can fit your budget can make your rooms feel larger and more inviting. There are many budget-friendly window shades and blinds that can make your space look more stylish and inviting. Here are a",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 102,
+      "hash": "c9b2ea9d",
+      "n_words": 120,
+      "n_chars": 715,
+      "preview_head": "t all, though sunaina, siddhi, riddhi nayak caro are robbing all the correspondence of the domain investor who they hate without a legally valid reason to cover up their fraud The details are provided",
+      "preview_tail": "ivate citizen, to agree to identity theft, in a clear case of HUMAN RIGHTS ABUSES, ROBBERY. It is also falsely claiming that various raw/cbi employees who did not study engineering,did not work as eng",
+      "full_text": "t all, though sunaina, siddhi, riddhi nayak caro are robbing all the correspondence of the domain investor who they hate without a legally valid reason to cover up their fraud The details are provided only for reference, and can be removed on request if anyone is objecting. The domain can be purchased, paying the market price, please send an email to info@blogposts.in The indian government is also wasting Rs 4 crore of indian taxpayer money annually since 2010 for the forcing the domain investor, a harmless private citizen, to agree to identity theft, in a clear case of HUMAN RIGHTS ABUSES, ROBBERY. It is also falsely claiming that various raw/cbi employees who did not study engineering,did not work as eng",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 103,
+      "hash": "e6c5aaf8",
+      "n_words": 282,
+      "n_chars": 1987,
+      "preview_head": "he commands to a script file and run the script with /script= command-line parameter, similarly to the ftp -s:, instead of the /command. See the guide to Converting Windows FTP script to WinSCP script",
+      "preview_tail": "n Shell \"C:\\WINNT\\system32\\ftp.exe -s:C:\\Volume\\Temp\\FTPScript.txt\", vbHide Else Shell \"C:\\WINDOWS\\system32\\ftp.exe -s:C:\\Volume\\Temp\\FTPScript.txt\", vbHide End If 'end code A: http://winscp.net is fr",
+      "full_text": "he commands to a script file and run the script with /script= command-line parameter, similarly to the ftp -s:, instead of the /command. See the guide to Converting Windows FTP script to WinSCP script. You can even have WinSCP GUI generate the FTP upload script for you. WinSCP defaults to the passive mode. You can also use FTPS (TLS/SSL): open ftpes://user:password@example.com/ Alternatively you can use WinSCP .NET assembly via COM from the VBA code. (I'm the author of WinSCP) A: Diego, I've used the code below successfully for years. The code gets files from the host, but I'm sure it can be modified to put files there instead. 'Start Code Set FSO = CreateObject(\"scripting.filesystemobject\") '************************************************************************************** '*** Create FTP Action File & Initiate FTP File Transfer '************************************************************************************** VREDET = filename1 'Variable holding name of file to get F = \"C:\\Volume\\Temp\\FTPScript.txt\" 'creates the file that holds the FTP commands Open F For Output As #1 Print #1, \"open ftp.server\" 'replace ftp.server with the server address Print #1, ID 'login id here Print #1, PW 'login password here Print #1, \"cd \" & \" Folder1\" 'Directory of file location Print #1, \"cd \" & \" Folder2\" 'Sub-Directory of file location Print #1, \"ascii\" Print #1, \"prompt\" 'Get the file from the host and save it to the specified directory and filename Print #1, \"get \" & VREDET; \" C:\\some\\directory\\\" & another-filename & \".CSV\" Print #1, \"disconnect\" 'disconnect the session Print #1, \"bye\" Print #1, \"exit\" Close #1 'identify folder where ftp resides and execute the FTPScript.txt file 'vbHide - hides the FTP session If FSO.FolderExists(\"C:\\Windows\\System32\") = False Then Shell \"C:\\WINNT\\system32\\ftp.exe -s:C:\\Volume\\Temp\\FTPScript.txt\", vbHide Else Shell \"C:\\WINDOWS\\system32\\ftp.exe -s:C:\\Volume\\Temp\\FTPScript.txt\", vbHide End If 'end code A: http://winscp.net is fr",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 104,
+      "hash": "b515fd6b",
+      "n_words": 114,
+      "n_chars": 673,
+      "preview_head": "of Damage in the mid-1990s, but he then subsequently appears as the Human Bomb in several issues of JSA in 2003. His death was depicted in Infinite Crisis #1 (Oct, 2005) at the hands of Bizarro, when ",
+      "preview_tail": "sive nature not harming the impervious Bizarro. The explosions stopped even though Bizarro continued punching, indicating that the power ended at the instant of death. His body was strung up on the Wa",
+      "full_text": "of Damage in the mid-1990s, but he then subsequently appears as the Human Bomb in several issues of JSA in 2003. His death was depicted in Infinite Crisis #1 (Oct, 2005) at the hands of Bizarro, when the Freedom Fighters fought with the Secret Society of Super Villains. After the Human Bomb killed Doctor Polaris in a fit of rage, Bizarro attacked the Bomb, hammering his face to produce more eXplosions. Lincoln's body was pulped by the brutal beating received, his explosive nature not harming the impervious Bizarro. The explosions stopped even though Bizarro continued punching, indicating that the power ended at the instant of death. His body was strung up on the Wa",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 105,
+      "hash": "15082828",
+      "n_words": 230,
+      "n_chars": 1544,
+      "preview_head": "t should help Brazil\u2019s most profitable lender deploy capital more efficiently in coming years. In a securities filing late on Wednesday, the S\u00e3o Paulo-based bank said bidding for the unit will be \u201ccom",
+      "preview_tail": "fers or stake retention might be part of discussions with potential buyers. Overall, this strategic divestiture aligns with Ita\u00fa's goal to optimize capital use and focus on reliable revenue streams fo",
+      "full_text": "t should help Brazil\u2019s most profitable lender deploy capital more efficiently in coming years. In a securities filing late on Wednesday, the S\u00e3o Paulo-based bank said bidding for the unit will be \u201ccompetitive,\u201d without providing further details. Valor Econ\u00f4mico newspaper reported earlier in the day that Ita\u00fa had offered the unit to at least 10 global insurance giants. The newspaper, which did not say how the informatIta\u00fa Unibanco Holding SA, Brazil's most profitable lender, is strategically selling its high-risk corporate insurance unit. This decision aims to streamline operations and deploy resources more efficiently, potentially improving financial stability and profitability. The sale process will be competitive, with at least 10 global insurance giants showing interest as reported by Valor Econ\u00f4mico newspaper. Key considerations include: 1. Strategic Focus: By divesting from high-risk ventures, Ita\u00fa aims to reduce exposure to volatile segments and focus on more stable or profitable areas of banking. 2. Financial Efficiency: The move could enhance return on equity (ROE) and improve the bank's balance sheet health, increasing investor confidence. 3. Market Impact: The sale may lead to changes in employment within the insurance unit, though details are not specified. 4. Deal Terms: While unspecified, terms such as cash offers or stake retention might be part of discussions with potential buyers. Overall, this strategic divestiture aligns with Ita\u00fa's goal to optimize capital use and focus on reliable revenue streams fo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 106,
+      "hash": "f7c3a55a",
+      "n_words": 99,
+      "n_chars": 642,
+      "preview_head": ". Rolleston is a pleasant village on an eminence overlooking that beautiful vale through wich flows \"the pleasant stream\" - The Trent; it has some handsome residences and commands fine views over rich",
+      "preview_tail": "k on Trent and All saints' Southwell Minster including entries relating mainly but not exclusively the parishes listed above; also includes some marriages for Rolleston, Fiskerton & Morton (Baptisms f",
+      "full_text": ". Rolleston is a pleasant village on an eminence overlooking that beautiful vale through wich flows \"the pleasant stream\" - The Trent; it has some handsome residences and commands fine views over rich cultivated scenery.\" 1832 White's Directory Nottinghamshire Archives holds the following: - Parish Records for Rolleston, Fiskerton & Morton (Baptisms from 7th August to 9 April ) [PR Rol/4] - Baptism Registers of St. Peter\u2019s Church in Newark on Trent and All saints' Southwell Minster including entries relating mainly but not exclusively the parishes listed above; also includes some marriages for Rolleston, Fiskerton & Morton (Baptisms f",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 107,
+      "hash": "d01818bb",
+      "n_words": 207,
+      "n_chars": 1526,
+      "preview_head": "estimated to be 390 GPa, which is consistent withethe reported value of 392 \u00b1 23 GPa from a recent experimental measurement using laser-induced breakdown spectroscopy. The findings presented here prov",
+      "preview_tail": " new analytical tools that can give more comprehensive information about the high-pressure behaviour of noncrystalline components. 3. Understanding the applications of these findings in fields such as",
+      "full_text": "estimated to be 390 GPa, which is consistent withethe reported value of 392 \u00b1 23 GPa from a recent experimental measurement using laser-induced breakdown spectroscopy. The findings presented here provide important insights into the high-pressure behaviour of SiO2 glass and contribute greatly to our understanding of its structural evolution under extreme circumstances. These studies also highlight the necessity of introducing advanced quantitative methods for analyzing noncrystalline materials at elevated pressures, which can be applied to a broad variety of academic disciplines, including physics, planetary geology, and materials science. Additional observations include: 1. The high-pressure behavior of SiO2 glass is characterized by large shifts in its density, coordination number, and bond thickness. 2. The bulk modulus parameters obtained from the previous analysis are inconsistent with earlier reported experimental observations using other methods. 3. These results demonstrate the potential of synchrotron x-ray absorption and diffraction methods for analyzing noncrystalline materials at low pressures. Future study directions will involve: 1. investigating the effects of stress on other glassy components to gain a deeper knowledge of their structural evolution under extreme circumstances. 2. developing new analytical tools that can give more comprehensive information about the high-pressure behaviour of noncrystalline components. 3. Understanding the applications of these findings in fields such as",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 108,
+      "hash": "ea03ae90",
+      "n_words": 63,
+      "n_chars": 458,
+      "preview_head": "sections enabling smooth transitions between various pathways without impeding progress during gameplay; these innovative intersections facilitate easy lane changes when vehicles move across diverse p",
+      "preview_tail": "her using individually maneuverable toy cars capable of executing strategic moves by switching lanes mid-track. A drone vehicle is also provided which is restrained for movement in one of the lanes of",
+      "full_text": "sections enabling smooth transitions between various pathways without impeding progress during gameplay; these innovative intersections facilitate easy lane changes when vehicles move across diverse paths, enhancing enjoyment while competing against one another using individually maneuverable toy cars capable of executing strategic moves by switching lanes mid-track. A drone vehicle is also provided which is restrained for movement in one of the lanes of",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 109,
+      "hash": "5880ff45",
+      "n_words": 103,
+      "n_chars": 767,
+      "preview_head": "different applications and environments. This allows for better interoperability with other Java-based technologies and frameworks, making integration simpler and more efficient. While it's true that ",
+      "preview_tail": "sessions across distributed systems. Some potential disadvantages or challenges when using J2EE Session Management with ColdFusion include: 1. Configuration complexity: Setting up and configuring J2EE",
+      "full_text": "different applications and environments. This allows for better interoperability with other Java-based technologies and frameworks, making integration simpler and more efficient. While it's true that Adobe may not prioritize compatibility with non-Adobe CFML engines, the main focus of J2EE SM is on providing a unified session management solution within the broader context of enterprise applications built on the Java platform. This allows developers to leverage existing knowledge in Java technologies and benefit from well-established best practices for managing sessions across distributed systems. Some potential disadvantages or challenges when using J2EE Session Management with ColdFusion include: 1. Configuration complexity: Setting up and configuring J2EE",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 110,
+      "hash": "580d95b4",
+      "n_words": 159,
+      "n_chars": 1223,
+      "preview_head": "DMA1_EXT_REG 0x40B #define DMA2_EXT_REG 0x4D6 #ifndef __powerpc64__ /* in arch/ppc/kernel/setup.c -- Cort */ extern unsigned int DMA_MODE_WRITE; extern unsigned int DMA_MODE_READ; extern unsigned long",
+      "preview_tail": " Enable group */ } if (dmanr <= 3) { dma_outb(dmanr, DMA1_MASK_REG); dma_outb(ucDmaCmd, DMA1_CMD_REG); /* Enable group */ } else { dma_outb(dmanr & 3, DMA2_MASK_REG); } } static __inline__ void disabl",
+      "full_text": "DMA1_EXT_REG 0x40B #define DMA2_EXT_REG 0x4D6 #ifndef __powerpc64__ /* in arch/ppc/kernel/setup.c -- Cort */ extern unsigned int DMA_MODE_WRITE; extern unsigned int DMA_MODE_READ; extern unsigned long ISA_DMA_THRESHOLD; #else #define DMA_MODE_READ 0x44 /* I/O to memory, no autoinit, increment, single mode */ #define DMA_MODE_WRITE 0x48 /* memory to I/O, no autoinit, increment, single mode */ #endif #define DMA_MODE_CASCADE 0xC0 /* pass thru DREQ->HRQ, DACK<-HLDA only */ #define DMA_AUTOINIT 0x10 extern spinlock_t dma_spin_lock; static __inline__ unsigned long claim_dma_lock(void) { unsigned long flags; spin_lock_irqsave(&dma_spin_lock, flags); return flags; } static __inline__ void release_dma_lock(unsigned long flags) { spin_unlock_irqrestore(&dma_spin_lock, flags); } /* enable/disable a specific DMA channel */ static __inline__ void enable_dma(unsigned int dmanr) { unsigned char ucDmaCmd = 0x00; if (dmanr != 4) { dma_outb(0, DMA2_MASK_REG); /* This may not be enabled */ dma_outb(ucDmaCmd, DMA2_CMD_REG); /* Enable group */ } if (dmanr <= 3) { dma_outb(dmanr, DMA1_MASK_REG); dma_outb(ucDmaCmd, DMA1_CMD_REG); /* Enable group */ } else { dma_outb(dmanr & 3, DMA2_MASK_REG); } } static __inline__ void disabl",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 111,
+      "hash": "677f334e",
+      "n_words": 153,
+      "n_chars": 1166,
+      "preview_head": "in March 2008. There were 274 usable responses. The survey instrument consisted of questions regarding demographics; information relevance, understandability, reliability, adequacy and usefulness; tru",
+      "preview_tail": "nd usefulness) on the likelihood of adopting health infomediaries. This suggests that fostering trust in health information platforms is essential to leveraging the perceived quality of information in",
+      "full_text": "in March 2008. There were 274 usable responses. The survey instrument consisted of questions regarding demographics; information relevance, understandability, reliability, adequacy and usefulness; trust and behavior intention. Respondents were divided into two groups: a high-trust group and a low-trust group. The results suggest that in the case of the high-trust group, trust has positive mediation effects of information relevance and information reliability on behavior intention. The positive mediation effects of information adequacy and information ...usefulness on behavior intention. In contrast, for the low-trust group, these mediation effects were not statistically significant, indicating that trust acts as a critical moderator in shaping how information quality attributes influence users' behavioral intentions. The findings highlight that trust amplifies the impact of perceived information quality (particularly relevance, reliability, adequacy, and usefulness) on the likelihood of adopting health infomediaries. This suggests that fostering trust in health information platforms is essential to leveraging the perceived quality of information in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 112,
+      "hash": "70015c22",
+      "n_words": 65,
+      "n_chars": 352,
+      "preview_head": "nd more people come to Massachusetts to explore the amazing beaches this part of the country has to offer. While not so popular as other beaches in the United States, they are definitely worth driving",
+      "preview_tail": "United States, they are definitely worth driving or flying all the way to Massachusetts to see them. Another good reason to spend your vacation here is that it's not as crowded as it is in Florida, fo",
+      "full_text": "nd more people come to Massachusetts to explore the amazing beaches this part of the country has to offer. While not so popular as other beaches in the United States, they are definitely worth driving or flying all the way to Massachusetts to see them. Another good reason to spend your vacation here is that it's not as crowded as it is in Florida, fo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 113,
+      "hash": "a0023795",
+      "n_words": 68,
+      "n_chars": 429,
+      "preview_head": "y Baker, leader of the Grand Lake auxiliary flotilla detachment, emphasized the lake's recovery and the urgent need for public support. The group, affiliated with the Indian Lake Auxiliary Flotilla un",
+      "preview_tail": "liary, requires at least 15 members for full status. Currently, only five members are active, with Baker advocating for 25 to address the safety demands of Ohio's largest inland lake. Twenty five memb",
+      "full_text": "y Baker, leader of the Grand Lake auxiliary flotilla detachment, emphasized the lake's recovery and the urgent need for public support. The group, affiliated with the Indian Lake Auxiliary Flotilla under the U.S. Coast Guard Auxiliary, requires at least 15 members for full status. Currently, only five members are active, with Baker advocating for 25 to address the safety demands of Ohio's largest inland lake. Twenty five memb",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 114,
+      "hash": "6d8412c8",
+      "n_words": 205,
+      "n_chars": 1324,
+      "preview_head": "Division. January 27, 1975. *1363 *1364 Frank S. Thackston, Jr., Greenville, Miss., for plaintiff. Clayton J. Swank, III, Greenville, Miss., for defendant. MEMORANDUM OPINION KEADY, Chief Judge. On Ja",
+      "preview_tail": "or awaiting its arrival on Friday first when it could be taken up river. The contract requested that defendant pay $1,000 for towing services. On July 26th Huffman had contracted with defendant to tow",
+      "full_text": "Division. January 27, 1975. *1363 *1364 Frank S. Thackston, Jr., Greenville, Miss., for plaintiff. Clayton J. Swank, III, Greenville, Miss., for defendant. MEMORANDUM OPINION KEADY, Chief Judge. On January 11, 1974, Huffman Towing, Inc. (Huffman), a Missouri corporation, filed a complaint in admiralty against Mainstream Shipyard & Supplly Corporation of Missouri and its chairman John Brown for losses arising from the alleged breach by plaintiff's agents or associates on November 29-30, 1969. The facts are not disputed. On December 26th Huffman had contracted with plaintiff to tow a boat purchased by Mainstream Shipyard & Manufacturing (Mainstream) down stream. The agreement was signed and delivered in South Mississippi where the ship lay at anchor awaiting its arrival on Friday first when it could be taken up river. The contract requested that defendant pay $1,000 for towing services. On July 26th Huffman had contracted with defendant to tow a boat purchased by Mainstream Shipyard & Manufacturing (Mainstream) down stream. The agreement was signed and delivered in South Mississippi where the ship lay at anchor awaiting its arrival on Friday first when it could be taken up river. The contract requested that defendant pay $1,000 for towing services. On July 26th Huffman had contracted with defendant to tow",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 115,
+      "hash": "8fa2ce1e",
+      "n_words": 123,
+      "n_chars": 641,
+      "preview_head": "on him or our relationship when every month ends with a hiccup caused by me losing track of expenses again and needing his help just as payday rolls around each time anew; this cycle needs breaking no",
+      "preview_tail": "and and I had a little discussion about how I can better manage my money, and he'll help me out a little bit. What we'll do is a little financial housekeeping that we should have done a long time ago.",
+      "full_text": "on him or our relationship when every month ends with a hiccup caused by me losing track of expenses again and needing his help just as payday rolls around each time anew; this cycle needs breaking now before it causes any strain between us both! At that point, my Husband has to bail me out. This has happened more often than I'd like to admit. And I'm not so foolish as to think that that doesn't put a strain on our relationship. So, Husband and I had a little discussion about how I can better manage my money, and he'll help me out a little bit. What we'll do is a little financial housekeeping that we should have done a long time ago.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 116,
+      "hash": "a3403015",
+      "n_words": 109,
+      "n_chars": 695,
+      "preview_head": "k 150-180g Vacuum Packed Baby Octopus - 400G Pack Ayamas Premium Cheese Chicken Frankfurter - 5PCS (235g) Product not found! Continue Payment Methods View all Delivery Services View all Information Ab",
+      "preview_tail": " SPECIAL OFFERS Copyright \u00a9 2022 Youbuy Online Sdn Bhd. All rights reserved. Powered by MICES Technology. TOP The item has been added to your Shopping Cart. Quantity 1 Total: RM 0.00 Continue Shopping",
+      "full_text": "k 150-180g Vacuum Packed Baby Octopus - 400G Pack Ayamas Premium Cheese Chicken Frankfurter - 5PCS (235g) Product not found! Continue Payment Methods View all Delivery Services View all Information About Us Payment Policy Privacy Notice Refund & Return Policy Careers Customer Service Contact Us Request for Quotation Seller Center Help Center Extras Points FAQ Mobile Version Partners Your Account Edit Profile Order History Wish List Favourite Stores Follow us on : Subscribe to receive latest SPECIAL OFFERS Copyright \u00a9 2022 Youbuy Online Sdn Bhd. All rights reserved. Powered by MICES Technology. TOP The item has been added to your Shopping Cart. Quantity 1 Total: RM 0.00 Continue Shopping",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 117,
+      "hash": "10dbef8d",
+      "n_words": 180,
+      "n_chars": 1260,
+      "preview_head": "posity based on direct anthropometry; (ii) life-course of self-reported BMIby age groupings in both genders. Directly measured weight, waist circumference, skinfolds, and percent body fat were similar",
+      "preview_tail": "Forces except among women \u226565yrs. Article: Age trajectories of genetic variance in physical functioning : a longitudinal study of older Australian twins [Show abstract] [Hide abstract] ABSTRACT: Aims.",
+      "full_text": "posity based on direct anthropometry; (ii) life-course of self-reported BMIby age groupings in both genders. Directly measured weight, waist circumference, skinfolds, and percent body fat were similar for veterans and demographically matched Non-vets within all subgroups examined except 2: younger male Veterans had lower average sum-of-skinfold thickness than did non-Veterans; among women aged \u226565 years old Veteran status was associated with significantly higher mean values on weight (P<0.001), waist circumference (WC, P=0.007) and BMI categories of obesity class I & II+III (overweight: OR 1.46, CI [95%] = 01.04-2.05; obese class I&II+: OR 3.17[CI(95%)]=1.63-6.15). In contrast to men and younger women Veterans' life-course weight trajectories resembled that of non-Veterans (P=0.20) with a steeper slope in older Veteran females, significantly higher BMI at ages >45 years old for all classes examined; P<0.0005. Thus most adiposity indicators are not consistently associated with the status of being or having been an active-duty member of US Armed Forces except among women \u226565yrs. Article: Age trajectories of genetic variance in physical functioning : a longitudinal study of older Australian twins [Show abstract] [Hide abstract] ABSTRACT: Aims.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 118,
+      "hash": "42881daa",
+      "n_words": 126,
+      "n_chars": 864,
+      "preview_head": "half-inch diameter machine bolts with accompanying hardware like two square inch metal pieces at one eighth thicknesses each; these components are essential to ensure structural integrity during insta",
+      "preview_tail": "acing as required for erection.\" It seems that trip-L-grip framing anchors were for use in the process of anchoring the trusses to wall plates when installing the trusses in the roofs of the buildings",
+      "full_text": "half-inch diameter machine bolts with accompanying hardware like two square inch metal pieces at one eighth thicknesses each; these components are essential to ensure structural integrity during installation processes involving timber connectors (split rings) which secure framing anchors onto wall plates while bolting through connector holes must remain tight throughout erection procedures. Timber connectors to be installed according to the manufacturers instructions. Trussed rafters to be closely fitted and accurately fabricated and erected as shown. Bolts thru connectors to be tight. Check & tighten if necessary at time of erection. Provide additional bracing as required for erection.\" It seems that trip-L-grip framing anchors were for use in the process of anchoring the trusses to wall plates when installing the trusses in the roofs of the buildings",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 119,
+      "hash": "a58e9c03",
+      "n_words": 69,
+      "n_chars": 386,
+      "preview_head": "sts are available to work with clients in a variety of settings, including in-room massage, and are happy to provide a massage experience in a variety of settings. Our massage services are designed to",
+      "preview_tail": "re designed to provide a If you are living on a budget and, therefore, cannot afford to spend a fortune on massaging, you can easily get the massage you so much desire at a highly affordable rate when",
+      "full_text": "sts are available to work with clients in a variety of settings, including in-room massage, and are happy to provide a massage experience in a variety of settings. Our massage services are designed to provide a If you are living on a budget and, therefore, cannot afford to spend a fortune on massaging, you can easily get the massage you so much desire at a highly affordable rate when",
+      "avg_prediction": 0.0
+    }
+  ]
+}

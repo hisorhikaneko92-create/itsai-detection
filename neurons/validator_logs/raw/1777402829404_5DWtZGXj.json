@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-04-28T19:00:29.404530+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 6,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "dc41d09f",
+      "n_words": 185,
+      "n_chars": 1351,
+      "preview_head": "0 - QPQH00000000. Value of the Data {#sec0001a} ================= \u2022Draft genome of each strain, could be an additional data set to assess the virulence level upon the genetic variation encoded in plas",
+      "preview_tail": "s the functional group of our sequenced genomes. These twenty genomes are grouped into four major groups, i.e., AHPND (Shrimp+/Human-), Pathogenic (Shrimp+/ Human+), Non-pandemic (Shrimp+/Human-), and",
+      "full_text": "0 - QPQH00000000. Value of the Data {#sec0001a} ================= \u2022Draft genome of each strain, could be an additional data set to assess the virulence level upon the genetic variation encoded in plasmid.\u2022These pandemic strains genome can be an additional dataset to characterize the diversity of *Vibrio parahaemolyticus* virulence potential parameters, which aid to estimate/prevent the mortality rate in shrimp farms.\u2022These genomes could be valuable resource to conduct the metagenome/comparative genomic analysis among *Vibrio parahaemolyticus* strains. 1. Data {#sec0001} ======= In this article, the 1](#tbl0001){ref-type=\"table\"}, explains the summary of seven *Vibrio parahaemolyticus* shrimp pathogen strains (SC4, SK, SM3, SM4, WC15, WS, WY3) genome, which are sequenced by biosciences (PacBio) and the summary of sequenced bases, which are assembled into chromosomes and plasmids. Further, the summary of structural annotations as rRNA, tRNA and genes were also given in In [Table 2](#tbl0002){ref-type=\"table\"}, along with the sequenced strains genome and the details of other twenty genomes, which were collected from the GenBank to assess the functional group of our sequenced genomes. These twenty genomes are grouped into four major groups, i.e., AHPND (Shrimp+/Human-), Pathogenic (Shrimp+/ Human+), Non-pandemic (Shrimp+/Human-), and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "291d1dbe",
+      "n_words": 297,
+      "n_chars": 2737,
+      "preview_head": "ProxyService extends HttpServlet { private CloseableHttpAsyncClient httpClient; void init() throws ServletException { httpClient = HttpAsyncClients.custom(). setMaxConnTotal(Integer.parseInt(getInitPa",
+      "preview_tail": "d releaseResources() { } @Override protected String buildResult(final HttpContext context) { try { PrintWriter responseWriter = asyncCtx.getResponse().getWriter(); switch (responseCode) { case javax.s",
+      "full_text": "ProxyService extends HttpServlet { private CloseableHttpAsyncClient httpClient; void init() throws ServletException { httpClient = HttpAsyncClients.custom(). setMaxConnTotal(Integer.parseInt(getInitParameter(\"maxtotalconnections\"))). setMaxConnPerRoute(Integer.parseInt(getInitParameter(\"maxconnectionsperroute\"))). build(); httpClient.start(); } @Override public void destroy() { try { httpClient.close(); } catch (IOException e) { } } @Override public void doGet(HttpServletRequest request, HttpServletResponse response) { AsyncContext asyncCtx = request.startAsync(request, response); asyncCtx.setTimeout(ExternalServiceMock.TIMEOUT_SECONDS * ExternalServiceMock.K); ResponseListener listener = ResponseListener(); asyncCtx.addListener(listener); Future<String> result = httpClient.execute(HttpAsyncMethods.createGet(getInitParameter(\"serviceurl\")), new ResponseConsumer(asyncCtx), null); } } This servlet performs an asynchronous HTTP call using Apache Asynch HttpClient. Note that you may want to configure the maximum connections per route because as per RFC 2616 spec HttpAsyncClient will only allow a maximum of two concurrent connections to the same host by default. And there are plenty of other options that you can configure as shown in HttpAsyncClient configuration. HttpAsyncClient is expensive to create, therefore you do not want to create an instace of it on each GET operation. One listener is hooked to the AsyncContext, this listener is only used in the example above to handle timeouts. public class ResponseListener implements AsyncListener { @Override public void onStartAsync(AsyncEvent event) throws IOException { } @Override public void onComplete(AsyncEvent event) throws IOException { } @Override public void onError(AsyncEvent event) throws IOException { event.getAsyncContext().getResponse().getWriter().print(\"error:\"); } @Override public void onTimeout(AsyncEvent event) throws IOException { event.getAsyncContext().getResponse().getWriter().print(\"timeout:\"); } } Then you need a consumer for the HTTP client. This consumer informs the AsyncContext by calling complete() when buildResult() is executed internally by HttpClient as a step to return a Future<String> to the caller ProxyService servlet. public class ResponseConsumer extends AsyncCharConsumer<String> { private int responseCode; private StringBuilder responseBuffer; private AsyncContext asyncCtx; public ResponseConsumer(AsyncContext asyncCtx) { this.responseBuffer = new StringBuilder(); this.asyncCtx = asyncCtx; } @Override protected void releaseResources() { } @Override protected String buildResult(final HttpContext context) { try { PrintWriter responseWriter = asyncCtx.getResponse().getWriter(); switch (responseCode) { case javax.s",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "dc8d406a",
+      "n_words": 117,
+      "n_chars": 641,
+      "preview_head": ") by Author UoN Digital Repository Home Theses and Dissertations Faculty of Agriculture & Veterinary Medicine (FAg / FVM) Browsing Faculty of Agriculture & Veterinary Medicine (FAg / FVM) by Author Ja",
+      "preview_tail": "U V W X Y Z Go order: ascendingdescending Results: 51020406080100 Update Now showing items 1-20 of 43 ascending descending 5 10 20 4It seems like you provided me with some text related to a navigation",
+      "full_text": ") by Author UoN Digital Repository Home Theses and Dissertations Faculty of Agriculture & Veterinary Medicine (FAg / FVM) Browsing Faculty of Agriculture & Veterinary Medicine (FAg / FVM) by Author JavaScript is disabled for your browser. Some features of this site may not work without it. Browsing Faculty of Agriculture & Veterinary Medicine (FAg / FVM) by Author 0-9ABCDEFGHIJKLMNOPQRSTUVWXYZ 0-9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Go order: ascendingdescending Results: 51020406080100 Update Now showing items 1-20 of 43 ascending descending 5 10 20 4It seems like you provided me with some text related to a navigation",
+      "avg_prediction": 0.0
+    }
+  ]
+}

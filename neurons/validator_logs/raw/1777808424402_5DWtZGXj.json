@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-05-03T11:40:24.402478+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 1,
+  "duplicates": [],
+  "latency_ms": 1382,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "b9dd14ae",
+      "n_words": 175,
+      "n_chars": 1050,
+      "preview_head": "imate = TRUE ), sliderInput(inputIterations, label = \"Iterations:\", value = 1, min = 1, max = 10, step = 1, animate = TRUE ), sliderInput(inputId = \"sliders\", label = \"Sliders:\", value = 1, min = 1, m",
+      "preview_tail": "e \"sliders\" slider, you can set the initial value to 1 and the maximum value to 30. To achieve the specific custom values you mentioned (1, 5, 10, 15, 20, 25, and 30), you can use the following code f",
+      "full_text": "imate = TRUE ), sliderInput(inputIterations, label = \"Iterations:\", value = 1, min = 1, max = 10, step = 1, animate = TRUE ), sliderInput(inputId = \"sliders\", label = \"Sliders:\", value = 1, min = 1, max = 30, step = 1, animate = TRUE ) ), mainPanel( tabsetPanel(type = \"tabs\", tabPanel(\"Simulation\", plotOutput(\"plot\", height = 800, width = 1000)), tabPanel(\"Plot\", plotOutput(\"plot\", height = 800, width = 1000)), tabPanel(\"Table\", tableOutput(\"table\")) ) ) ) ) server <- function(input, output) { output$plot <- renderPlot({ # Plotting function here }) output$table <- renderTable({ # Table generation function here }) } shinyApp(ui = ui, server = server) In this code, you can customize the values for the 'sliderInput' function by specifying the 'value' argument. For example, for the \"temp\" slider, you can set the initial value to 1, and for the \"sliders\" slider, you can set the initial value to 1 and the maximum value to 30. To achieve the specific custom values you mentioned (1, 5, 10, 15, 20, 25, and 30), you can use the following code f",
+      "avg_prediction": 0.5771
+    }
+  ]
+}

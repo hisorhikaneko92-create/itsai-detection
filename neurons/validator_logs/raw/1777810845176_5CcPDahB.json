@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-05-03T12:20:45.176806+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 1960,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "91207b95",
+      "n_words": 248,
+      "n_chars": 1589,
+      "preview_head": "have proved to be useful tools in CR geometry, providing a way to study the geometry of CR manifolds using the well-developed theory of principal bundles and differential forms. The canonical Cartan c",
+      "preview_tail": "o introduce the Fefferman space of a CR manifold and discuss its canonical conformal structure. In Section 3, we construct the canonical Cartan bundle as a principal bundle over the CR manifold, using",
+      "full_text": "have proved to be useful tools in CR geometry, providing a way to study the geometry of CR manifolds using the well-developed theory of principal bundles and differential forms. The canonical Cartan connection in CR geometry was first constructed by Cartan himself in his seminal work on pseudoconvex hypersurfaces in \u2102\u00b2, and later generalized by Tanaka and Chern-Moser to higher dimensions. However, the traditional approach to defining the canonical Cartan connection in CR geometry is abstract and algebraically intensive, involving prolongation procedures and the manipulation of abstract jet bundles. In this paper, we aim to provide a more direct and geometrically intuitive definition by working explicitly with the differential geometry of the CR manifold itself. Our approach is inspired by the work of \u0160ilhan and others on the Fefferman space of a CR manifold, which is a circle bundle equipped with a canonical conformal Lorentzian structure. By working with the Fefferman space and the canonical conformal structure, we are able to give a simple and explicit construction of the Cartan bundle and connection, making the theory more accessible and providing new insights into the geometry of CR manifolds. The structure of the paper is as follows: In Section 2, we review the basic definitions and properties of CR manifolds and their tangential Cauchy-Riemann complexes. We also introduce the Fefferman space of a CR manifold and discuss its canonical conformal structure. In Section 3, we construct the canonical Cartan bundle as a principal bundle over the CR manifold, using",
+      "avg_prediction": 0.6761
+    },
+    {
+      "idx": 1,
+      "hash": "ebb3acb2",
+      "n_words": 95,
+      "n_chars": 902,
+      "preview_head": "- volatile uint32 *dma_x_a_start_reg = DMA_CHN_REG(DMA->DMA0_A_START_REG, channel); + volatile uint32_t *dma_x_a_start_reg = DMA_CHN_REG(DMA->DMA0_A_START_REG, channel); // Look up DMAX_LEN_REG addres",
+      "preview_tail": "le dma_size_t *dma_x_len_reg; volatile dma_size_t *dma_x_int_reg; - volatile uint32 *dma_x_ctrl_reg; + volatile uint32_t *dma_x_ctrl_reg; risen = DMA->DMA_INT_STATUS_REG; for (i = 0; risen != 0 && i <",
+      "full_text": "- volatile uint32 *dma_x_a_start_reg = DMA_CHN_REG(DMA->DMA0_A_START_REG, channel); + volatile uint32_t *dma_x_a_start_reg = DMA_CHN_REG(DMA->DMA0_A_START_REG, channel); // Look up DMAX_LEN_REG address volatile dma_size_t *dma_x_len_reg = DMA_CHN_REG(DMA->DMA0_LEN_REG, channel); @@ -219,7 +219,7 @@ dma_callbacks_user_data[channel].callback = cb; // Look up DMAx_B_START_REG address - volatile uint32 *dma_x_b_start_reg = DMA_CHN_REG(DMA->DMA0_B_START_REG, channel); + volatile uint32_t *dma_x_b_start_reg = DMA_CHN_REG(DMA->DMA0_B_START_REG, channel); // Look up DMAX_LEN_REG address volatile dma_size_t *dma_x_len_reg = DMA_CHN_REG(DMA->DMA0_LEN_REG, channel); @@ -325,7 +325,7 @@ uint16_t i; volatile dma_size_t *dma_x_len_reg; volatile dma_size_t *dma_x_int_reg; - volatile uint32 *dma_x_ctrl_reg; + volatile uint32_t *dma_x_ctrl_reg; risen = DMA->DMA_INT_STATUS_REG; for (i = 0; risen != 0 && i <",
+      "avg_prediction": 0.5167
+    },
+    {
+      "idx": 2,
+      "hash": "1651b7d0",
+      "n_words": 307,
+      "n_chars": 1909,
+      "preview_head": "women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the f",
+      "preview_tail": "advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights",
+      "full_text": "women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights and women's movements in the face of fundamentalisms and to advance the women's rights",
+      "avg_prediction": 0.5128
+    }
+  ]
+}

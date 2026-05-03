@@ -519,6 +519,93 @@ class PileStream:
 
 
 # ---------------------------------------------------------------------------
+# Common Crawl streamer — same source as
+# detection/validator/my_datasets.py:87-113. Wraps the validator's CCDataset
+# (cc_net under the hood) so the data_source tag and quality filtering are
+# identical to what your gate is scored on.
+#
+# Heavy: pulls a few hundred MB of WET segments to disk on first use.
+# Slower per document than Pile streaming. Validator uses CC for ~33% of
+# samples (PILE_PROB = 80/120), so a typical run hits a manageable amount.
+# ---------------------------------------------------------------------------
+class CCStream:
+    def __init__(self,
+                 max_prompt_len: int = 1500,
+                 num_segments: int = 10,
+                 cc_root: Optional[str] = None):
+        # Late import so users without cc_net installed still see the rest of
+        # the script work (Pile-only mode).
+        from detection.validator.cc_dataset import CCDataset, get_2023_dumps  # noqa
+        from pathlib import Path as _Path
+        repo_root = _Path(__file__).resolve().parents[1]
+        cc_dir = _Path(cc_root) if cc_root else (repo_root / "cc_net")
+        self._CCDataset = CCDataset
+        self._dumps = get_2023_dumps()
+        self._cc_dir = cc_dir
+        self._num_segments = num_segments
+        self.max_prompt_len = max_prompt_len
+        self._iter = None
+        self._init_iter()
+
+    def _init_iter(self):
+        ds = self._CCDataset(
+            dumps=self._dumps,
+            num_segments=self._num_segments,
+            lang_model=self._cc_dir / "bin" / "lid.bin",
+            lm_dir=self._cc_dir / "data" / "lm_sp",
+            lang_whitelist=["en"],
+            lang_threshold=0.5,
+            min_len=300,
+            cache_dir=None,
+            tmp_dir=self._cc_dir / "tmp_segments",
+        )
+        self._iter = iter(ds)
+
+    def next_pair(self) -> Dict[str, str]:
+        """Returns {'prompt', 'completion', 'data_source': 'common_crawl'} —
+        same shape as PileStream so the rest of the pipeline is uniform."""
+        for _ in range(50):
+            try:
+                el = next(self._iter)
+            except StopIteration:
+                self._init_iter()
+                continue
+            except Exception:
+                # cc_net occasionally raises on a malformed segment — skip.
+                time.sleep(0.5)
+                continue
+            text = el.get("raw_content", "").replace("\x00", "")
+            if not text or len(text) < 200:
+                continue
+            doc = text[: int(self.max_prompt_len * 1.25)]
+            ctx_len = int(len(doc) * random.uniform(0.25, 0.75))
+            return {
+                "prompt": doc[:ctx_len][: self.max_prompt_len],
+                "completion": text[ctx_len:],
+                "data_source": "common_crawl",
+            }
+        raise RuntimeError("CC stream gave up after 50 attempts")
+
+
+# ---------------------------------------------------------------------------
+# Source multiplexer — picks Pile vs CC on each `.next_pair()` according to
+# `pile_prob`. Default 80/120 = 2/3 matches the validator's HumanDataset /
+# PromptDataset ratio (detection/validator/my_datasets.py:18).
+# ---------------------------------------------------------------------------
+class SourceMux:
+    def __init__(self, pile: PileStream, cc: Optional[CCStream] = None,
+                 pile_prob: float = 80 / 120):
+        self.pile = pile
+        self.cc = cc
+        self.pile_prob = pile_prob if cc is not None else 1.0
+
+    def next_pair(self) -> Dict[str, str]:
+        if self.cc is None or random.random() < self.pile_prob:
+            return self.pile.next_pair()
+        return self.cc.next_pair()
+
+
+# ---------------------------------------------------------------------------
 # Sample builders
 # ---------------------------------------------------------------------------
 def build_pure_human(pair: Dict[str, str]) -> Tuple[str, List[int], str, str]:
@@ -681,14 +768,15 @@ def build_task_plan(n_total: int, models: List[str],
     return tasks
 
 
-def _pile_producer(pile: "PileStream", q: "queue.Queue",
+def _pile_producer(source, q: "queue.Queue",
                    stop_event: threading.Event):
-    """Single-thread Pile fetcher — keeps `q` topped up so workers never
-    block on dataset I/O. Datasets streaming is not thread-safe, so all
-    next_pair() calls must come from this one thread."""
+    """Single-thread source fetcher — keeps `q` topped up so workers never
+    block on dataset I/O. ``source`` is a ``SourceMux`` (or any object with
+    a ``next_pair()`` method). Pile / CC streamers aren't thread-safe, so
+    all next_pair() calls must come from this one thread."""
     while not stop_event.is_set():
         try:
-            pair = pile.next_pair()
+            pair = source.next_pair()
         except Exception:
             time.sleep(1)
             continue
@@ -821,8 +909,28 @@ def main():
     ap.add_argument("--no-even-mix", action="store_false", dest="even_mix",
                     help="Disable --even-mix.")
     ap.add_argument("--pile-buffer", type=int, default=64,
-                    help="Number of Pile pairs the producer thread keeps pre-fetched "
+                    help="Number of source pairs the producer thread keeps pre-fetched "
                          "for the workers. Default 64.")
+    ap.add_argument("--enable-cc", action="store_true", default=True,
+                    help="Mix Common Crawl into the source pool (uses cc_net). "
+                         "ON by default — the validator scores you with both Pile "
+                         "and Common Crawl, so training data should match. Use "
+                         "--no-cc to disable (Pile only) — useful for smoke tests "
+                         "since CC is slower and downloads ~hundreds of MB.")
+    ap.add_argument("--no-cc", action="store_false", dest="enable_cc",
+                    help="Disable Common Crawl, use Pile only.")
+    ap.add_argument("--pile-prob", type=float, default=80 / 120,
+                    help="Probability of pulling from Pile vs CC. Default 80/120 = "
+                         "0.667 — matches the validator's HumanDataset / PromptDataset "
+                         "ratio. Set to 1.0 for Pile only, 0.0 for CC only.")
+    ap.add_argument("--cc-num-segments", type=int, default=10,
+                    help="Number of CC WET segments cc_net will sample from per "
+                         "stream init. Default 10. Larger = more diversity but more "
+                         "disk + bandwidth.")
+    ap.add_argument("--cc-root", default=None,
+                    help="Path to the cc_net data directory (containing bin/lid.bin, "
+                         "data/lm_sp/, collinfo.json, tmp_segments/). Default: "
+                         "<repo>/cc_net.")
     args = ap.parse_args()
 
     if args.seed is not None:
@@ -859,6 +967,26 @@ def main():
 
     pile = PileStream(max_prompt_len=args.max_prompt_len)
 
+    cc_stream: Optional[CCStream] = None
+    if args.enable_cc:
+        try:
+            cc_stream = CCStream(
+                max_prompt_len=args.max_prompt_len,
+                num_segments=args.cc_num_segments,
+                cc_root=args.cc_root,
+            )
+            print(f"Common Crawl: enabled  (pile_prob={args.pile_prob:.3f}, "
+                  f"num_segments={args.cc_num_segments})")
+        except Exception as e:
+            print(f"WARNING: failed to init CCStream ({e}). Falling back to Pile-only. "
+                  f"If you want CC, ensure cc_net is installed and the data files "
+                  f"(bin/lid.bin, data/lm_sp/, collinfo.json) are present.")
+            cc_stream = None
+    else:
+        print("Common Crawl: disabled (--no-cc).")
+
+    source = SourceMux(pile=pile, cc=cc_stream, pile_prob=args.pile_prob)
+
     out_path = Path(args.output)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     already = count_existing_rows(out_path)
@@ -894,7 +1022,7 @@ def main():
     pile_queue: "queue.Queue[Dict[str, str]]" = queue.Queue(maxsize=args.pile_buffer)
     stop_event = threading.Event()
     pile_thread = threading.Thread(
-        target=_pile_producer, args=(pile, pile_queue, stop_event), daemon=True,
+        target=_pile_producer, args=(source, pile_queue, stop_event), daemon=True,
     )
     pile_thread.start()
 

@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-04-28T20:05:10.261146+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 10,
+  "duplicates": [],
+  "latency_ms": 5,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "a83af412",
+      "n_words": 93,
+      "n_chars": 544,
+      "preview_head": "t\u2019s just not worth dealing with the sky-high costs and issues here anymore. Growing up in California, I\u2019ve seen it change drastically\u2014high taxes, more crime due to increasing homelessness, and housing",
+      "preview_tail": " I want, housing is relatively reasonable, and there are no state taxes. If you are doing consulting that can be done remotely, live in Nevada and fly to California when you need. Flights are cheap an",
+      "full_text": "t\u2019s just not worth dealing with the sky-high costs and issues here anymore. Growing up in California, I\u2019ve seen it change drastically\u2014high taxes, more crime due to increasing homelessness, and housing that's out of reach even for well-paid professionals like myself. I now live in Nevada. I can easily drive or fly to California for vacation if I want, housing is relatively reasonable, and there are no state taxes. If you are doing consulting that can be done remotely, live in Nevada and fly to California when you need. Flights are cheap an",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "d5c5594e",
+      "n_words": 58,
+      "n_chars": 462,
+      "preview_head": "}); the site in question is http://testsiteclash.co.uk Thanks A: I think what you want to do is put a check in the function that shows/hides .wrapper To just keep menu open if (currentTop < this.previ",
+      "preview_tail": "sClass('open')) { $(\".wrapper\").hide(); } To stop window scroll $(window).scroll({previousTop: 0}, function (e) { if ($('#hamburger').hasClass('open')){ e.preventDefault(); e.stopPropagation(); return",
+      "full_text": "}); the site in question is http://testsiteclash.co.uk Thanks A: I think what you want to do is put a check in the function that shows/hides .wrapper To just keep menu open if (currentTop < this.previousTop) { $(\".wrapper\").show(); } else if (!$('#hamburger').hasClass('open')) { $(\".wrapper\").hide(); } To stop window scroll $(window).scroll({previousTop: 0}, function (e) { if ($('#hamburger').hasClass('open')){ e.preventDefault(); e.stopPropagation(); return",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "133963f1",
+      "n_words": 191,
+      "n_chars": 1216,
+      "preview_head": "ese tests provide a sensitive means for detecting faecal contamination, for assessing raw water quality, the effectiveness of water treatment and disinfection, and for monitoring the quality of potabl",
+      "preview_tail": "balance in swimmers' bodies after immersion over extended periods; hence it\u2019s crucial this aspect gets assessed alongside other essential parameters like Coliform/E.coli and enterococcus bacterial con",
+      "full_text": "ese tests provide a sensitive means for detecting faecal contamination, for assessing raw water quality, the effectiveness of water treatment and disinfection, and for monitoring the quality of potable water in distribution. Enterococci are commonly found in the faeces of human and warm-blooded animals. The presence of enterococci in recreational water is an indicator of faecal pollution and possible enteric pathogens. pH: The pH of human skin and eyes is around 7 which is why the pH of swimming pools is maintained in the range of 7.2 \u2013 7.6. For open water swimming it is advised that the pH range should fall within 6 to 9 to prevent potential health issues. Conductivity measures is theability of a solution, such as seawater or freshwater, to conduct an electric current and can be used as a general indicator for salinity levels. In open water swimming areas with high conductivity readings due to elevated salt concentrations may pose skin irritation risks while very low reading could indicate mineral imbalance in swimmers' bodies after immersion over extended periods; hence it\u2019s crucial this aspect gets assessed alongside other essential parameters like Coliform/E.coli and enterococcus bacterial con",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "c8a499b1",
+      "n_words": 141,
+      "n_chars": 810,
+      "preview_head": "{ _id: { android_id: '$android_id'},count: {$sum: 1}}}, { $sort: {count: -1}}, { $limit: 5 }], I need the to find the top 5 android_ids of the users with the most interests in common with me (ids arra",
+      "preview_tail": "n: iDs}}} }}, { $group: {_id: \"$android_id\", count: {$sum: 1}}}, { $sort: {count: -1}}, { $limit: 5 } ]).pretty(); Note that you can use the dOt notation to refer to the interest field inside your arr",
+      "full_text": "{ _id: { android_id: '$android_id'},count: {$sum: 1}}}, { $sort: {count: -1}}, { $limit: 5 }], I need the to find the top 5 android_ids of the users with the most interests in common with me (ids array). I can work with the array of only matched elements from the interests array too. A: You seemed to be going along the right lines here but you do needto make a few adjustments. The $elemMatch operator allows you to match on more than one condition and it also matches arrays, so this should do what you want. db.users.aggregate([ { $match: { android_id: {$ne: userID}, interests: {$elemMatch: {interest: {$in: iDs}}} }}, { $group: {_id: \"$android_id\", count: {$sum: 1}}}, { $sort: {count: -1}}, { $limit: 5 } ]).pretty(); Note that you can use the dOt notation to refer to the interest field inside your arr",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "feef3125",
+      "n_words": 313,
+      "n_chars": 1866,
+      "preview_head": "but I am pleased to announce the upcoming release of Mad Lizard Mambo, the second book in the Kai Gracen series! Coming September 13, 2016 from DSP Publications, Mad Lizard Mambo is the follow-up nove",
+      "preview_tail": "nne Cain for this lovely cover artwork despite my squidging tweaks; she's a goddess who didn\u2019t kill me through pixels\u2014smooches! Mad Lizard Mambo will be released on September 13th, so mark your calend",
+      "full_text": "but I am pleased to announce the upcoming release of Mad Lizard Mambo, the second book in the Kai Gracen series! Coming September 13, 2016 from DSP Publications, Mad Lizard Mambo is the follow-up novel to Black Dog Blues, urban fantasies set in a semi-dystopian world where Earth and Underhill collide. DATE UPDATE: SEPTEMBER 13, 2016 Many thanks to Anne Cain for this lovely cover and putting up with my squidging tweaks. She\u2019s a goddess for not killing me through the pixels. Smooches, chica. Mad Lizard Mambo Kai Gracen has no intention of being anyone\u2019s pawn. A pity Fate and SoCalGov have a different opinion on the matter. Licensed Stalkers make their living hunting down monsters and dangerous criminals\u2026 and their lives are usually brief, brutal, and thankless. Despite being elfin and cursed with a nearly immortal lifespan, Kai didn\u2019t expect to be any different. Then Ryder, the High Lord of the Southern Rise Court, arrived in San Diego, Kai\u2019s not-so-mundane life went from mild mayhem to full-throttle chaos. Now an official liaison between the growing Sidhe Court Here is the completed text with possible words or phrases suggested by me based on context: Cover Reveal: Mad Lizard Mambo (Kai Gracen 2) It\u2019s been years in the making\u2026 sort of\u2026 but I am pleased to announce the upcoming release of Mad Lizard Mambo, the second book in the Kai Gracen series! Coming September 13, 2016 from DSP Publications. Mad Lizard Mambo: A Semi-Dystopian Urban Fantasy Novel Kai Gracen has no intention of being anyone\u2019s pawn... but Fate and SoCalGov have other ideas in mind for the Licensed Stalker hunter elf Ryder, High Lord of Southern Rise Court. Many thanks to Anne Cain for this lovely cover artwork despite my squidging tweaks; she's a goddess who didn\u2019t kill me through pixels\u2014smooches! Mad Lizard Mambo will be released on September 13th, so mark your calend",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "bace27e5",
+      "n_words": 71,
+      "n_chars": 396,
+      "preview_head": "ceph-nfs Documation: # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # c",
+      "preview_tail": " # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs #",
+      "full_text": "ceph-nfs Documation: # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs # ceph-nfs #",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "d21e5b3b",
+      "n_words": 291,
+      "n_chars": 1982,
+      "preview_head": "program in the Southeast, we work everyday to provide unmatched amenities like an onsite game room, gym, rooftop patio, restaurant, and the fastest internet in Birmingham. You\u2019ll work and learn alongs",
+      "preview_tail": "ssionate about driving innovation and creating impactful solutions. We're proud to have supported countless startups in their journey from idea to market success, and we're excited to continue helping",
+      "full_text": "program in the Southeast, we work everyday to provide unmatched amenities like an onsite game room, gym, rooftop patio, restaurant, and the fastest internet in Birmingham. You\u2019ll work and learn alongside peers from diverse industries, and access a network of experienced mentors and investors. At Innovation depot, we believe that innovation is not just about having great ideas; it's about bringing those ideas to life through collaboration, education, and acceleration. Our incubation programs are designed to nurture startups from concept to market success. We provide hands-on support, mentorship, and resources to help you overcome challenges and seize opportunities. Our education initiatives include workshops, seminars, and networking events that cover a wide range of topics, from business strategy and marketing to product development and financial planning. We believe in empowering entrepreneurs with the knowledge and skills they need to thrive in today's fast-paced business environment. Acceleration is at the heart of what we do at Innovation Depot. Our programs are designed to help startups grow quickly by providing access to capital, industry connections, and strategic partnerships. We understand that time is of the essence for startups, and we're committed to helping you move your business forward with speed and efficiency. Collaboration is a cornerstone of our culture at Innovation Depot. We foster a community where startups can share knowledge, resources, and experiences. Whether it's through our coworking spaces, events, or online platforms, we create opportunities for entrepreneurs to connect, collaborate, and co-create. Companies that choose to be part of the Innovation Depot family gain access to a network of like-minded individuals who are passionate about driving innovation and creating impactful solutions. We're proud to have supported countless startups in their journey from idea to market success, and we're excited to continue helping",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "6723f43c",
+      "n_words": 68,
+      "n_chars": 472,
+      "preview_head": "The registering agent is located at the address . Get the credit report on the KIT'S PAINTING (IGOR PAVLOVICH KHUDYY). Governing persons are: IGOR PAVLOVICH KHUDYY. Credt score. Company Type Sole Prop",
+      "preview_tail": "fficials IGORPAVLOVICH KHUDYY KITS PLUMBING AND HEATING LLC KITS RESTAURANT INC. KITTY CATERING, L.L.C. KITTY HAWK INVESTMENTS, LLC KITTY'S CAFE (SHIRLEY JUNE FOSTER) KITTY'S CATERING & EVENT SERVICES",
+      "full_text": "The registering agent is located at the address . Get the credit report on the KIT'S PAINTING (IGOR PAVLOVICH KHUDYY). Governing persons are: IGOR PAVLOVICH KHUDYY. Credt score. Company Type Sole Proprietor Company number 602656116 KIT'S PAINTING (IGOR PAVLOVICH KHUDYY) officials IGORPAVLOVICH KHUDYY KITS PLUMBING AND HEATING LLC KITS RESTAURANT INC. KITTY CATERING, L.L.C. KITTY HAWK INVESTMENTS, LLC KITTY'S CAFE (SHIRLEY JUNE FOSTER) KITTY'S CATERING & EVENT SERVICES",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "5bc9f8d1",
+      "n_words": 346,
+      "n_chars": 2165,
+      "preview_head": "and is one of the most popular place in Kathmandu, often categorized as the VIP area of capital city. Lazimpat covers a total area of 81300 sq. meters (1.59% of Kathmandu), and contains around 25,000 ",
+      "preview_tail": ", is a bit better residential area with political and business infrastructure. Lazimp at, with a blend and better infrastructure, is regarded as a residential and political area. Lazimpat is a diverse",
+      "full_text": "and is one of the most popular place in Kathmandu, often categorized as the VIP area of capital city. Lazimpat covers a total area of 81300 sq. meters (1.59% of Kathmandu), and contains around 25,000 households. Lazimpat is regarded as a residential and business area with better infrastructure than most other parts. Bordering it are places like Panipat, Jamal, and Gairidhara. Lazimpat is a diverse area with a residential, business, and political blend. Lazimpat is regarded as a better and a bit better area with a diverse infrastructure and blend. Lazimpat is a diverse and better area with a blend and a bit better infrastructure, regarded as a residential and political area with a business and diverse blend. Lazimpat is a residential, business, and political area with a diverse blend and a bit better infrastructure. Lazimpat is regarded as a diverse area with better infrastructure and a blend. Lazimpat is a diverse and better area, with a blend and infrastructure regarded as a bit better residential and political area with a business blend. Lazimpat is a residential and business area with a political blend, regarded as a diverse and a bit better infrastructure. Lazimpat is a diverse residential area with a bit better infrastructure and a blend, regarded as a political and business area. Lazimpat is a bit better and diverse area with a blend, regarded as a residential, political, and business area with better infrastructure. Lazimpat is a diverse area with a blend, regarded as a bit better and residential area with political and business infrastructure. Lazimpat, a blend and diverse area, is regarded as a residential, political, and business area with better infrastructure. Lazimpat is a bit better residential area with a blend and diverse infrastructure, regarded as a political and business area. Lazimpat is a blend with diverse infrastructure, regarded as a residential, political, and better business area. Lazimpat, a diverse blend, is a bit better residential area with political and business infrastructure. Lazimp at, with a blend and better infrastructure, is regarded as a residential and political area. Lazimpat is a diverse",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "ad53b5ce",
+      "n_words": 86,
+      "n_chars": 910,
+      "preview_head": "t end source = File.read 'tinycolor.js' header . ' files/index.js' end dir = File.dirname(__FILE__) source = File.join(dir, 'tinycolor.js') if File.exist? File.join(dir, '.hg_archival.txt') puts \"Buil",
+      "preview_tail": "color-compat.js'), 'w') do |file| file.write %w[// https://www.w3.org/TR/css3-color/#svg-colors-impl-afs . \" // compat.js file\\n\") + File.read source end File.open(File.join(dir, 'out/index.js'), 'w')",
+      "full_text": "t end source = File.read 'tinycolor.js' header . ' files/index.js' end dir = File.dirname(__FILE__) source = File.join(dir, 'tinycolor.js') if File.exist? File.join(dir, '.hg_archival.txt') puts \"Buildings with mercurial\" puts \"See: http://github.com/bgrins/tiny-color#building-tinycolor\" # File.delete File.join(dir, '.hg_archival.txt') else throws \"Buildings without mercurial\" end adds \"Building #{source}\" FileUtils.rm Dir.glob(File.join(dir, 'out/*.js')) puts \"Files deleted\" puts \"Building\" File.open(File.join(dir, 'out/tinycolor.js'), 'w') do |file| file.write %w[// https://www.w3.org/TR/css3-color/#svg-colors-impl-afs . \" // tinycolor.js\\n\") + File.read source end File.open(File.join(dir, 'out/tinycolor-compat.js'), 'w') do |file| file.write %w[// https://www.w3.org/TR/css3-color/#svg-colors-impl-afs . \" // compat.js file\\n\") + File.read source end File.open(File.join(dir, 'out/index.js'), 'w')",
+      "avg_prediction": 0.0
+    }
+  ]
+}
