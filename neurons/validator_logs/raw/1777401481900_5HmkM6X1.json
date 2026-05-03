@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-04-28T18:38:01.900735+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 2,
+  "duplicates": [],
+  "latency_ms": 4,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "34bbafd1",
+      "n_words": 40,
+      "n_chars": 338,
+      "preview_head": "cache@v1 with: path: ~/.cpanm key: ${{ runner.os }}-cpanm-nagios-plugins-${{ hashFiles('**/cpan-requirements.txt') }} restore-keys: | ${{ runner.os }}-cpanm-nagios-plugins - name: build run: make - na",
+      "preview_tail": "runner.os }}-cpanm-nagios-plugins - name: build run: make - name: zookeeper run: make zookeeper - name: test hbase run: HBASE_IMAGE=hbase tests/test_hbase.sh - name: test hbase dev run: tests/test_hba",
+      "full_text": "cache@v1 with: path: ~/.cpanm key: ${{ runner.os }}-cpanm-nagios-plugins-${{ hashFiles('**/cpan-requirements.txt') }} restore-keys: | ${{ runner.os }}-cpanm-nagios-plugins - name: build run: make - name: zookeeper run: make zookeeper - name: test hbase run: HBASE_IMAGE=hbase tests/test_hbase.sh - name: test hbase dev run: tests/test_hba",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "5747fb5a",
+      "n_words": 201,
+      "n_chars": 1617,
+      "preview_head": "= value => value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$/i.test(value) ? \"Invalid email address\" : undefined; const alphaNumeric = value => (value && /[^a-zA-Z0-9 ]/i.test(value) ? \"Only alphanu",
+      "preview_tail": "word\", password)} {...input} /> </Item> ); } login = (email, password) => { try { auth.createUserAndRetrieveDataWithEmailAndPassword(email, password) .then(res => { console.log(\"USUARIO CREADO\", res);",
+      "full_text": "= value => value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$/i.test(value) ? \"Invalid email address\" : undefined; const alphaNumeric = value => (value && /[^a-zA-Z0-9 ]/i.test(value) ? \"Only alphanumeric characters\" : undefined); export interface Props { navigation: any; valid: boolean; email: string; password: string; } export interface State { navigation: any; valid: boolean; email: string; password: string; } class LoginForm extends React.Component<Props, State> { textInput: any; constructor(props: Props) { super(props); this.state = ({ navigation: \"\", valid: false, email: \"\", password: \"\" }); this.onChange = this.onChange.bind(this); const _this = this; } onChange = (prop, state) => { if (prop === \"email\") this.setState({ ...this.state, email: state }); if (prop === \"password\") this.setState({ ...this.state, password: state }); } renderInput({ input, meta: { touched, error } }) { return ( <Item floatingLabel error={error && touched}> <Icon style={{ color: \"#fff\" }} active name={input.name === \"email\" ? \"person\" : \"unlock\"} /> <Input autoCapitalize=\"none\" autoCorrect={false} style={{ color: \"#fff\" }} placeholderTextColor=\"#fff\" ref={c => (this.textInput = c)} placeholder={input.name === \"email\" ? \"Email\" : \"Password\"} secureTextEntry={input.name === \"password\" ? true : false} onChangeText={input.name === \"email\" ? (email) => this.onChange(\"email\", email) : (password) => this.onChange(\"password\", password)} {...input} /> </Item> ); } login = (email, password) => { try { auth.createUserAndRetrieveDataWithEmailAndPassword(email, password) .then(res => { console.log(\"USUARIO CREADO\", res);",
+      "avg_prediction": 0.0
+    }
+  ]
+}

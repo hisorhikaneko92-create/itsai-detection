@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-04-29T00:57:15.350003+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 6,
+  "duplicates": [],
+  "latency_ms": 6,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "fc7ac65a",
+      "n_words": 142,
+      "n_chars": 1103,
+      "preview_head": "n: https://www.kuvataideviikot.fi/en/featured-artists-2019.htm Mar 26 0 Presentation: \u201cLupta Femeilor \u2013 Women\u2019s Fight\u201d By Katriina Haikala | Calendar, Katriina Haikala | No Comments What? I\u2019m giving a",
+      "preview_tail": " 8.3.2019 at 11:00-13:00, 14:00-16:00 & 17:00-19:00 Where? EMMA, Espoo Modern Art Museum, Finland More information: https://www.kulttuuriespoo.fi/fi/event/25446-naistenpaiva-weegeella NextPrevious \u00bb C",
+      "full_text": "n: https://www.kuvataideviikot.fi/en/featured-artists-2019.htm Mar 26 0 Presentation: \u201cLupta Femeilor \u2013 Women\u2019s Fight\u201d By Katriina Haikala | Calendar, Katriina Haikala | No Comments What? I\u2019m giving a presentation about my project \u201cLupta Femeilor \u2013 Women\u2019s Fight\u201d (unpublished, exhibition coming on October 2019) When? 26.3.2019 at 13:00 Where? The 7th International Roma Women\u2019n Conference, Hanasaari, Espoo, Finland Mar 13 0 \u201cSocial Portrait\u201d Drawing performance By Katriina Haikala | Calendar, Katriina Haikala, Performance | No Comments What? \u201cSocial Portrait\u201d long durational drawing performance When? 13.3.2019 at 15:00-17:00. Where? At the the celebration of the new dean of Aalto University. Private event. Mar 08 0 \u201cSocial Portrait\u201d Drawing performance By Katriina Haikala | Calendar, Katriina Haikala, Performance | No Comments What? \u201cSocila Portrait\u201d long durational drawing performance When? 8.3.2019 at 11:00-13:00, 14:00-16:00 & 17:00-19:00 Where? EMMA, Espoo Modern Art Museum, Finland More information: https://www.kulttuuriespoo.fi/fi/event/25446-naistenpaiva-weegeella NextPrevious \u00bb C",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "d454da07",
+      "n_words": 252,
+      "n_chars": 1656,
+      "preview_head": "sufficient to configure with kubernetes? Can someone tell me what are the value for 1. issuer url 2. refreSure, I can help you understand how these values work and provide some guidance on them. ### I",
+      "preview_tail": " by your OIDC provider during authentication setup. ### Client Secret (client_secret) This is the confidential information used to authenticate and authorize a client with an authorization server when",
+      "full_text": "sufficient to configure with kubernetes? Can someone tell me what are the value for 1. issuer url 2. refreSure, I can help you understand how these values work and provide some guidance on them. ### Issuer URL (issuer_url) The `issuer-url` is a crucial piece of information that identifies where your OpenID Connect provider's public keys are located. This value should point to the endpoint from which Kubernetes will retrieve signing certificates, typically known as JWKS or JSON Web Key Set. - Example: If you're using Google Cloud Platform (GCP) for OIDC authentication and have created a service account that acts like an identity provider, then your issuer URL might look something similar to this: https://accounts.google.com/o/oauth2/v4/certs ``` ### Refresh Token (refresh_token) The `client-secret` is not typically used with refresh tokens in OIDC. Instead of using a client secret for each request, you use the access token that's issued when authentication occurs and then periodically update it via this \"Refresh\" process. - Example: The value here would be your actual Refresh Token provided by OpenId Connect Provider after successful login. ``` <your_refresh_token> ``` ### Client ID (client_id) This is the unique identifier assigned to you when setting up an application on a service that supports OAuth 2.0, such as Google Cloud Platform or Azure Active Directory. - Example: This value would be something like `YOUR_CLIENT_ID` provided by your OIDC provider during authentication setup. ### Client Secret (client_secret) This is the confidential information used to authenticate and authorize a client with an authorization server when",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "6e2570ca",
+      "n_words": 74,
+      "n_chars": 425,
+      "preview_head": "tributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT yo",
+      "preview_tail": "by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tag",
+      "full_text": "tributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tag",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "95c0c3f7",
+      "n_words": 51,
+      "n_chars": 304,
+      "preview_head": "systems like the Nintendo DS are a different challenge. We're excited to see the community's response to the projects, and we're working hard to bring these to fruition. Logged Shwing Junior Retrode P",
+      "preview_tail": " the projects, and we're working hard to bring these to fruition. Logged Shwing Junior Retrode Posts: 30 Karma: +0/-0 Re: PC Engine/Turbografx plug in? \u00ab Reply #31 on: 18/Sep/2017 07:18:35 PM \u00bb Yeah t",
+      "full_text": "systems like the Nintendo DS are a different challenge. We're excited to see the community's response to the projects, and we're working hard to bring these to fruition. Logged Shwing Junior Retrode Posts: 30 Karma: +0/-0 Re: PC Engine/Turbografx plug in? \u00ab Reply #31 on: 18/Sep/2017 07:18:35 PM \u00bb Yeah t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "b39f5677",
+      "n_words": 157,
+      "n_chars": 806,
+      "preview_head": "in cardigans became common following crosses with (now extinct) red and brindle herding dogs which had more upright ear carriage. Even so, the older types of ears will turn up from time to time and di",
+      "preview_tail": "pe on for a few days, then let the ears rest for a few days and repeat again if they still aren't up. Ears can be up one daIt seems the rest of the text is missing, can you provide the rest of the tex",
+      "full_text": "in cardigans became common following crosses with (now extinct) red and brindle herding dogs which had more upright ear carriage. Even so, the older types of ears will turn up from time to time and different sorts of ear carriage can even occur in the same litter. These three cardigans are littermates. The one in the middle is a 'fluffy' and his ear type is often seen with the longer coat. Many cardigan puppy's ears will naturally be soft and not stand up until they are between 12-16 weeks old or even a little longer. Don't give up if ears don't stay up at first after the tape is removed. Put the tape on for a few days, then let the ears rest for a few days and repeat again if they still aren't up. Ears can be up one daIt seems the rest of the text is missing, can you provide the rest of the tex",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "97216006",
+      "n_words": 198,
+      "n_chars": 1160,
+      "preview_head": "hat\u2019s the WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by FernandoPessoa. A short film by the \u2026 Continue Reading WORD? This",
+      "preview_tail": "ed for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org",
+      "full_text": "hat\u2019s the WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by FernandoPessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Antonio Pessoa. A short film by the \u2026 continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org",
+      "avg_prediction": 0.0
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "2026-05-03T10:03:41.450254+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 9,
+  "duplicates": [],
+  "latency_ms": 2301,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "99233daf",
+      "n_words": 124,
+      "n_chars": 935,
+      "preview_head": "Skip to Content Menu More \u25bc \u25b2 Sign In\u25bc\u25b2submenutoggleOn Air GX94 Announcers \u25bc\u25b2sub menu toggleWinningGX94 Roadies General Contesting Rules \u25bc\u25b2sub menu toggleCommunity Announcements Event Calendar News & ",
+      "preview_tail": "ctory over Flin Flon;Tuesday SJHL/MJHL Recap YoHere's a completedtext based on your input: GX-Online: Terrier Territory - [Announcers](https://gx94.com/announcer) * ... \u25bc\u25b2sub menu toggle Winning! \u25ba[R ",
+      "full_text": "Skip to Content Menu More \u25bc \u25b2 Sign In\u25bc\u25b2submenutoggleOn Air GX94 Announcers \u25bc\u25b2sub menu toggleWinningGX94 Roadies General Contesting Rules \u25bc\u25b2sub menu toggleCommunity Announcements Event Calendar News & Sports Our Heritage Community Calendar Game Day \u25bc\u25b2sub menu toggleGX94 Star Search Past Winners \u25bc\u25b2sub menu toggleContact Us Download the GX94 App Advertise Home \u25bc\u25b2sub menu toggleOn Air GX94 Announcers\u25bc\u25b2sub menu toggleWinning GX94 RoadiesGeneralContestingRules \u25bc\u25b2sub menu toggleCommunityAnnouncements Event Calendar News & Sports Our Heritage Community Calendar Game Day \u25bc\u25b2sub menu toggleGX94Star Search Past Winners \u25bc\u25b2sub menu toggleContact Us Download the GX94 App Advertise Sign In Search Terriers\u2019 capture 13th winof season withSO victory over Flin Flon;Tuesday SJHL/MJHL Recap YoHere's a completedtext based on your input: GX-Online: Terrier Territory - [Announcers](https://gx94.com/announcer) * ... \u25bc\u25b2sub menu toggle Winning! \u25ba[R ",
+      "avg_prediction": 0.3756
+    },
+    {
+      "idx": 1,
+      "hash": "c2e22888",
+      "n_words": 95,
+      "n_chars": 543,
+      "preview_head": "forces between the brake lining and drum support the tensioning forces. In contrast, in disc brakes it was assumed in the past that it was in fact a significant advantage of this design of brake that,",
+      "preview_tail": "arallel to the axis of the brake disc acts with a force which is aligned in such a way, theThe design of disc brakes, with linings that act perpendicularly to the brake disc and an activation device t",
+      "full_text": "forces between the brake lining and drum support the tensioning forces. In contrast, in disc brakes it was assumed in the past that it was in fact a significant advantage of this design of brake that, with brake linings which act exclusively perpendicularly to the circumferential brake disc and on which only an activation device which acts parallel to the axis of the brake disc acts with a force which is aligned in such a way, theThe design of disc brakes, with linings that act perpendicularly to the brake disc and an activation device t",
+      "avg_prediction": 0.2662
+    },
+    {
+      "idx": 2,
+      "hash": "95f60e45",
+      "n_words": 56,
+      "n_chars": 336,
+      "preview_head": "for max iters Ttrain iterations on MNIST dataset. # C Experiment Results We report here more detailed experimental results from the training process in Figure 5. As we observe, both networks have been",
+      "preview_tail": "ning process in Figure 5. As we observe, both networks have been converged and achieved a low error rate as well high accuracy at about \\(15000\\) to\\(2000\\). The test loss is almost always higher than",
+      "full_text": "for max iters Ttrain iterations on MNIST dataset. # C Experiment Results We report here more detailed experimental results from the training process in Figure 5. As we observe, both networks have been converged and achieved a low error rate as well high accuracy at about \\(15000\\) to\\(2000\\). The test loss is almost always higher than",
+      "avg_prediction": 0.3873
+    },
+    {
+      "idx": 3,
+      "hash": "e1a1c691",
+      "n_words": 49,
+      "n_chars": 322,
+      "preview_head": "the always evolving world oF tech comm \u2014 from tools and techniques to job opportunities (and even occasional philosophical discussions). Whether you\u2019re a seasoned pro or just starting out in this dyna",
+      "preview_tail": " discussions). Whether you\u2019re a seasoned pro or just starting out in this dynamic field, we invite you join our community. Here you'll find: \u2022 A place where experienced technical writers/communicators",
+      "full_text": "the always evolving world oF tech comm \u2014 from tools and techniques to job opportunities (and even occasional philosophical discussions). Whether you\u2019re a seasoned pro or just starting out in this dynamic field, we invite you join our community. Here you'll find: \u2022 A place where experienced technical writers/communicators",
+      "avg_prediction": 0.5137
+    },
+    {
+      "idx": 4,
+      "hash": "10e692f1",
+      "n_words": 290,
+      "n_chars": 1864,
+      "preview_head": "by a BSD-style // license that can be found in the LICENSE file. // +build aix // +build ppc64 package unix //sysnb Getrlimit(resource int, rlim *Rlimit) (err error) //sysnb Setrlimit(resource int, rl",
+      "preview_tail": " Base *byte Len uint64 } // Msghdr represents a message header for sendmsg and recvmsg. type Msghdr struct { Name Iovec Iovlen int32 Control *byte Controllen uint32 Flags int32 } // Cmsghdr represents",
+      "full_text": "by a BSD-style // license that can be found in the LICENSE file. // +build aix // +build ppc64 package unix //sysnb Getrlimit(resource int, rlim *Rlimit) (err error) //sysnb Setrlimit(resource int, rlim *Rlimit) (err error) //sys Seek(fd int, offset int64, whence int) (off int64, err error) = lseek //sys mmap(addr uintptr, length uintptr, prot int, flags int, fd int, offset int64) (xaddr uintptr, err error) = mmap64 func setTimespec(sec, nsec int64) Timespec { return Timespec{Sec: sec, Nsec: nsec} } func setTimeval(sec, usec int64) Timeval { return Timeval{Sec: int64(sec), Usec: int32(usec)} } func (iov *Iovec) SetLen(length int) { iov.Len = uint64(length) } func (msghdr *Msghdr) SetControllen(length int) { msghdr.Controllen = uint32(length) } func (msghdr *Msghdr) SetIovlen(length int) { msghdr.Iovlen = int32(length) } func (cmsg *Cmsghdr) SetLen(length int) { cmsg.Len = uint32(length) } // In order to only have Timespec structure, type of Stat_t's fields // Atim, Mtim and Ctim is changed from StTimespec to Timespec during /// the transition from 32-bit to 64-bit time representation. // Stat_t is a structure that represents file status information. type Stat_t struct { Dev uint64 Ino uint64 Nlink uint64 Mode uint32 Uid uint32 Gid uint32 Rdev uint64 Size int64 Blksize int64 Blocks int64 Atim Timespec Mtim Timespec Ctim Timespec // Additional fields can be added here } // Timespec represents a time with nanosecond precision. type Timespec struct { Sec int64 Nsec int64 } // Timeval represents a time with microsecond precision. type Timeval struct { Sec int64 Usec int32 } // Iovec represents a scatter/gather I/O vector. type Iovec struct { Base *byte Len uint64 } // Msghdr represents a message header for sendmsg and recvmsg. type Msghdr struct { Name Iovec Iovlen int32 Control *byte Controllen uint32 Flags int32 } // Cmsghdr represents",
+      "avg_prediction": 0.4954
+    },
+    {
+      "idx": 5,
+      "hash": "8c759088",
+      "n_words": 235,
+      "n_chars": 1421,
+      "preview_head": "Bristol City. Bristol City reached the semifinals of that season's competition before losing to Newcastle United. In his first full campaign, Rodgers was primarily used as cover at centre half and als",
+      "preview_tail": "hich remains one of his best ever performances. He had another successful campaign in the following year where he made twenty-three appearances (including thirteen as substitute) with four more league",
+      "full_text": "Bristol City. Bristol City reached the semifinals of that season's competition before losing to Newcastle United. In his first full campaign, Rodgers was primarily used as cover at centre half and also occasionally played right back or even left mid-fielder depending on who else would be playing in those positions (e.g. when either Andy Watson - the regular Right Back \u2013 moved up front for a partnership with Eric Delgado). He made his first team debut against Crewe Alexandra, where he started at centre half and went off after only twenty minutes due to injury. The following season saw him play in eighteen matches (seven of them as substitute) which included two goals. He scored the second goal for Bristol City when they beat Huddersfield Town 2-0 on New Year's Day, his first competitive match that year and he also netted a last minute equaliser against West Bromwich Albion at home in front of over twenty thousand spectators. He was primarily used as cover to the regular centre halves (Maurice Ingram & Andy Watson) until 1973 when Mauricio Pochettino became first choice. The next season saw him play nineteen matches and he scored two goals again, including a winner against Manchester City at Maine Road which remains one of his best ever performances. He had another successful campaign in the following year where he made twenty-three appearances (including thirteen as substitute) with four more league",
+      "avg_prediction": 0.4068
+    },
+    {
+      "idx": 6,
+      "hash": "4fc0e1d4",
+      "n_words": 50,
+      "n_chars": 303,
+      "preview_head": "It seems you have provided me with a list of features and their respective overviews for different aspects related to social media marketing. If there are any specific questions or further details nee",
+      "preview_tail": "cts related to social media marketing. If there are any specific questions or further details needed, feel free ask! I can provide more information on these topics as required.. Would like expand upon",
+      "full_text": "It seems you have provided me with a list of features and their respective overviews for different aspects related to social media marketing. If there are any specific questions or further details needed, feel free ask! I can provide more information on these topics as required.. Would like expand upon",
+      "avg_prediction": 0.5753
+    },
+    {
+      "idx": 7,
+      "hash": "73de8d72",
+      "n_words": 321,
+      "n_chars": 2052,
+      "preview_head": "ber, and dye industries. Mineral oil, products of gasoline combustion, and cigarette smoke are the other main sources of widespread and occupational exposure.[@b1-aci-11-2016-065] Exposure to benzene ",
+      "preview_tail": " the body.\" output : pdf_document : latex_engine : --- ```{r echo = FAL SE} knit r(\"benzene.Rmd\") render ( input , output_format ) ``` --- title: \"Benz ene is a carcinogen and genotoxic agent that can",
+      "full_text": "ber, and dye industries. Mineral oil, products of gasoline combustion, and cigarette smoke are the other main sources of widespread and occupational exposure.[@b1-aci-11-2016-065] Exposure to benzene has serious adverse health effects. Long-term exposure to benzene damages the bone marrow and can cause leukemia; benzene exposure is also associated with other blood cancers and precancers of t h e b l oo d [@t0-a ci - 1 # Introduction ================== Benz ene i s an impo rtant indus tria l chemic al th at has been used in numerous production a nd sy nthesis pro cesses inn the chemical, petrochemica , paint plastic ad hesive rubber and dy e industri es. Minera o il product of gasoline combustio on cigarette smoke are t he other main sources wide spread environ mental occupa tion exposur - 11 # Introduction ================ Benzene is an important industrial chemical that has been used in numerous production processes synthesis the chemicals petrochemical paint, plastic adhesive rubber and dye industries. Mineral oil products of gasoline combustion cigarette smoke are t he other main sources widespread environmental occupational exposure.[@ b2-ac i1-2016 - 065] exposure to benz ene serio us adve rse health effects Long-term exp osure benzen e dam ages the bone marrow ca n cause leukemia; benezne exposur is also associated with blood cancer precancers of t he bl ood [@b3 aci # IntroduCtion ================ benzene an important industrial chemical that been used in numerous production processes synthesis chemicals, petrochemicals paint plastic adhesive rubber dye industries. Mineral oil products gasoline combustion cigarette smoke other main sources widespread environmental occupational exposure.[@ b1-aci - 11- Code blocks: ``` --- title: \"benz ene is a carcinogen and genotoxic agent that can affect multiple target sites in the body.\" output : pdf_document : latex_engine : --- ```{r echo = FAL SE} knit r(\"benzene.Rmd\") render ( input , output_format ) ``` --- title: \"Benz ene is a carcinogen and genotoxic agent that can",
+      "avg_prediction": 0.4632
+    },
+    {
+      "idx": 8,
+      "hash": "b156224a",
+      "n_words": 53,
+      "n_chars": 359,
+      "preview_head": "Hiram Johnson\u2019s Progressive reforms to the Prop 13 tax revolt and its legacy of supermajority requirements and voter initiatives. Mathews and Paul then furnish an uniquely California fix: innovative s",
+      "preview_tail": " an uniquely California fix: innovative solutions that allow Californians to debate their choices, settle on the best ones, hold elected officials accountable for results, and choose anew if something",
+      "full_text": "Hiram Johnson\u2019s Progressive reforms to the Prop 13 tax revolt and its legacy of supermajority requirements and voter initiatives. Mathews and Paul then furnish an uniquely California fix: innovative solutions that allow Californians to debate their choices, settle on the best ones, hold elected officials accountable for results, and choose anew if something",
+      "avg_prediction": 0.4071
+    }
+  ]
+}

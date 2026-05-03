@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-05-03T09:14:16.670162+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 11509,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "1cb2d644",
+      "n_words": 55,
+      "n_chars": 338,
+      "preview_head": "In general, the reactions are not limited to the terminal methyl groups. Apparently, the incident O((3)P) (translational energy per Atom of 0.11 kJ mol(-1)) can penetrate below the surface of the mono",
+      "preview_tail": "f 0.11 kJ mol(-1)) can penetrate below the surface of the monolayer. The ability of the atoms to penetrate, and thus the reaction rate of the backbone -CH2-, is dependent upon both the temperature and",
+      "full_text": "In general, the reactions are not limited to the terminal methyl groups. Apparently, the incident O((3)P) (translational energy per Atom of 0.11 kJ mol(-1)) can penetrate below the surface of the monolayer. The ability of the atoms to penetrate, and thus the reaction rate of the backbone -CH2-, is dependent upon both the temperature and",
+      "avg_prediction": 0.4299
+    },
+    {
+      "idx": 1,
+      "hash": "6656d08d",
+      "n_words": 49,
+      "n_chars": 351,
+      "preview_head": "and CC: 16-153460-NH INFINITY PRIMARY CARE, P.L.L.C. d/b/a IPC \u2013 ASSOCIATES IN INTERNAL MEDICINE and AMY GOLDFADEN, M.D., Defendants-Appellants. _________________________________________/ On order of ",
+      "preview_tail": "___________________________________/ On order of the Court, the motion For immediate consideration is GRANTED. the application for leave to appeal the November 2, 2017 order of the Court of Appeals is",
+      "full_text": "and CC: 16-153460-NH INFINITY PRIMARY CARE, P.L.L.C. d/b/a IPC \u2013 ASSOCIATES IN INTERNAL MEDICINE and AMY GOLDFADEN, M.D., Defendants-Appellants. _________________________________________/ On order of the Court, the motion For immediate consideration is GRANTED. the application for leave to appeal the November 2, 2017 order of the Court of Appeals is",
+      "avg_prediction": 0.4459
+    },
+    {
+      "idx": 2,
+      "hash": "c71b1b31",
+      "n_words": 133,
+      "n_chars": 768,
+      "preview_head": "by Category Methods of Payment Terms and Conditions PLEASE READ THE FOLLOWING TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS WEBSITE. All users of this site agree that access to and use of th",
+      "preview_tail": "perty of Blastline Industries. ThIt seems you have presented me with some website data and its terms and terms. Is there something specific you might like me to extract from this content? I can assist",
+      "full_text": "by Category Methods of Payment Terms and Conditions PLEASE READ THE FOLLOWING TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS WEBSITE. All users of this site agree that access to and use of this site are subject to the following terms and conditions and other applicable law. If you do not agree to these terms and conditions, please do not use this site. Copyright The entire content included in this site, including but not limited to text, graphics or code is copyrighted as a collective work under the United States and other copyright laws, and is the property of Blastline Industries. ThIt seems you have presented me with some website data and its terms and terms. Is there something specific you might like me to extract from this content? I can assist",
+      "avg_prediction": 0.3439
+    },
+    {
+      "idx": 3,
+      "hash": "057e72f4",
+      "n_words": 93,
+      "n_chars": 563,
+      "preview_head": ", a Californian must first obtain a Handgun Safety Certificate by passing a written test given by a certified state-licensed instructor on the safe and legal use of firearms. The purchaser must then p",
+      "preview_tail": "of which impeded Kori Ali Muhammad, a Muslim who shouted allahu akbar when being arrested, a proponent of BlackLivesMatter, and who told police he \u201chated white people,\u201d who used a .357 magnum revolver",
+      "full_text": ", a Californian must first obtain a Handgun Safety Certificate by passing a written test given by a certified state-licensed instructor on the safe and legal use of firearms. The purchaser must then perform a Safe Handling Demonstration when taking possession of the handgun. This is in addition to the fees required for the privilege of exercising a right. None of which impeded Kori Ali Muhammad, a Muslim who shouted allahu akbar when being arrested, a proponent of BlackLivesMatter, and who told police he \u201chated white people,\u201d who used a .357 magnum revolver",
+      "avg_prediction": 0.4535
+    },
+    {
+      "idx": 4,
+      "hash": "483c9dde",
+      "n_words": 325,
+      "n_chars": 2009,
+      "preview_head": "Im working on OpenGL tester program for Android. So i have pretty havy scene with 68 objects, each one has its own class. Im also have Activity, GLView and GLRenderer classes. All objects declared in ",
+      "preview_tail": "also look into using a GL surface view's GLSurfaceView.Renderer's onSurfaceCreated() method. This method is called when the rendering surface is created, which is a good place to load your objects. Bu",
+      "full_text": "Im working on OpenGL tester program for Android. So i have pretty havy scene with 68 objects, each one has its own class. Im also have Activity, GLView and GLRenderer classes. All objects declared in GLRenderer like so: private final lToe lToe = new lToe(); private final rToe rToe = new rToe(); Is there a good way to load and render these 68 objects while avoiding \"card flipping\" when loading scenes? Card flipping is the phenomenon where the application crashes and the screen turns gray because it cannot keep up with rendering the objects. A possible solution is to implement asynchronous loading using threading, so that while the OpenGL context is preparing to render one frame, the other thread is loading the next one. This approach can prevent the card flipping effect by allowing the application to render and load simultaneously. You can use the AsyncTask class to implement this functionality. AsyncTask is an abstract class in Android that allows for easy asynchronous execution of background operations. Here is a simplified code snippet to show you how you can achieve this: ```java // Create a class that extends AsyncTask private class LoadObjectsTask extends AsyncTask<Void, Void, Void> { @Override protected Void doInBackground(Void... voids) { // Here you load your objects lToe = new lToe(); rtoe = new rToe(); // continue with the rest of your objects return null; } @Override protected void onPostExecute(void aVoid) { super.onPostExecute(aVoid); // Here you can add your loaded objects to the scene } } // Start the task on a separate thread new LoadObjectsTask().execute(); ``` Note that this is just a basic example and you should adjust the code according to your needs. You should also handle errors and make sure that your application's UI remains responsive. Moreover, you can also look into using a GL surface view's GLSurfaceView.Renderer's onSurfaceCreated() method. This method is called when the rendering surface is created, which is a good place to load your objects. Bu",
+      "avg_prediction": 0.5551
+    },
+    {
+      "idx": 5,
+      "hash": "57325330",
+      "n_words": 293,
+      "n_chars": 2069,
+      "preview_head": "the 32-gun frigate Syren,[2] in the North Sea and the coast of France. He then commanded the 36-gun frigate Melampus from September 1795.[1] In her he took part in the Battle of Tory Island on 12 Octo",
+      "preview_tail": "s reshuffling. Ultimately recognized for accomplishments both at sea & beyond during subsequent assignments including India's seas till ill health forced retirement circa late-1810s marking closure to",
+      "full_text": "the 32-gun frigate Syren,[2] in the North Sea and the coast of France. He then commanded the 36-gun frigate Melampus from September 1795.[1] In her he took part in the Battle of Tory Island on 12 October 1798, capturing the French frigate R\u00e9solue two days later.[2] In February and February 1800 Thomas commanded USS Imogene. On September Fool's Day that month (1st), she recaptured La Petit Napol\u00e9on from under Brest harbour itself. Moore next served in the Caribbean, seeing action at several engagements during Bonaparte\u2019s Egypt campaign\u2014including notable actions off Egypt before finally sailing to blockade ports on Cyprus and Cyprus where his squadron stopped British forces\u2019 attempts of resupplying forces ashore. Later that month Moore turned south again with part (under Lord Byron) towards capturing Malta when returning home through additional American blockades. By 1801, he had command aboard HMS Seahorse; shortly after was the flag-captain for Commodore Keats on HMS Orion during more Mediterranean missions aimed at destroying British trading channels across Turkey. These operations began with Browne's promotion to rear-admiral in August and thereafter an decline of influence through high-level political posts rather than continued military assignments until recalled over political issues within Congress concerning possible leniency. During his career, Captain John Home Popham (as he was), displayed tactical brilliance through both war actions while maintaining reputation growth with successful coastal blockades; although this could often lead to temporary tensions amidst ongoing political deliberations. While these periods of discord\u2014rooted often in policy versus individual interpretation\u2014he was key within British Admiralty structures, navigating intricacies surrounding colonial and political changes during late 19th century world powers reshuffling. Ultimately recognized for accomplishments both at sea & beyond during subsequent assignments including India's seas till ill health forced retirement circa late-1810s marking closure to",
+      "avg_prediction": 0.2907
+    },
+    {
+      "idx": 6,
+      "hash": "fca471fb",
+      "n_words": 223,
+      "n_chars": 1229,
+      "preview_head": "ends up dead, Max is forced to turn sleuth once again, cleverly working his way through clues and red herrings that are somehow connected to the paintings of a local artist. \u201cPagan Spring\u201d is sure to ",
+      "preview_tail": "ly \u2014 but with little success at first\u2013to find a Nazi scientist who has developed what could become Hitler\u2019s ultimate weapon. The book is full of surprises, including the fact that it was written by an",
+      "full_text": "ends up dead, Max is forced to turn sleuth once again, cleverly working his way through clues and red herrings that are somehow connected to the paintings of a local artist. \u201cPagan Spring\u201d is sure to appeal to fans of mysteries done in the grand old style. Then We Take Berlin John Lawton (Atlantic) Series character Frederick Troy is absent (except for a very, very token appearance) in this new World War II thriller from a writer whose only equals are Alan Furst and David Downing. \u201cThen We Take Berlin\u201d is the kind of book that reminds us that at times there is a very thin line between escape fiction and serious literature. Few other writers could evoke in as few words what walking into a Nazi death camp was like or how a simple tube of lipstick could restore humanity in women who had given up all hope. The book is set during the war, though 1945 seems to be an especially popular year for novelists these days (see also \u201cA Land Remembered\u201d below). The story centers on Joe Wilderness and his team as they try desperately \u2014 but with little success at first\u2013to find a Nazi scientist who has developed what could become Hitler\u2019s ultimate weapon. The book is full of surprises, including the fact that it was written by an",
+      "avg_prediction": 0.342
+    },
+    {
+      "idx": 7,
+      "hash": "4737253d",
+      "n_words": 259,
+      "n_chars": 1651,
+      "preview_head": "heart of Fate Core; the default list often needs tweaked a bit to fit a given setting, so we\u2019ll be going through the list and modifying them to fit the cursed land of Wraeclast. Some may also get a tw",
+      "preview_tail": "antage, Defend Unarmed \u2013 Overcome, Create an Advantage, Attack, Defend Unwinnable \u2013 Overcome, Create an Advantage, Defend Wrestling \u2013 Overcome, Create an Advantage, Attack, Defend Your task is to fill",
+      "full_text": "heart of Fate Core; the default list often needs tweaked a bit to fit a given setting, so we\u2019ll be going through the list and modifying them to fit the cursed land of Wraeclast. Some may also get a tweak to how they function in terms of the four actions, and we\u2019ll be calling back to this list when looking at the various classes and how they could be rendered for Fate of Exiles. Athletics \u2013 Overcome, Create an Advantage, Defend Burglary Theft \u2013 Overcome, Create an Advantage Contacts \u2013 Overcome, Create an Advantage, Defend Crafts \u2013 Overcome, Create an Advantage Deceive \u2013 Overcome, Create an Advantage, Defend Drive \u2013 Overcome, Create an Advantage, Defend Empathy \u2013 Overcome, Create an Advantage, Defend Fight \u2013 Overcome, Create an Advantage, Attack, Defend Investigate \u2013 Overcome, Create an Advantage Lore \u2013 Overcome, Create an Advantage, Defend Manipulation \u2013 Overcome, Create an Advantage, Defend Medicine \u2013 Overcome, Create an Advantage Persuasion \u2013 Overcome, Create an Advantage, Defend Perception \u2013 Overcome, Create an Advantage Piloting \u2013 Overcome, Create an Advantage, Defend Politics \u2013 Overcome, Create an Advantage, Defend Rapport \u2013 Overcome, Create an Advantage, Defend Ride \u2013 Overcome, Create an Advantage, Defend Shoot \u2013 Overcome, Create an Advantage, Attack, Defend Stealth \u2013 Overcome, Create an Advantage, Defend Streetwise \u2013 Overcome, Create an Advantage Thievery \u2013 Overcome, Create an Advantage Toughness \u2013 Overcome, Create an Advantage, Defend Unarmed \u2013 Overcome, Create an Advantage, Attack, Defend Unwinnable \u2013 Overcome, Create an Advantage, Defend Wrestling \u2013 Overcome, Create an Advantage, Attack, Defend Your task is to fill",
+      "avg_prediction": 0.4554
+    },
+    {
+      "idx": 8,
+      "hash": "d288c734",
+      "n_words": 67,
+      "n_chars": 417,
+      "preview_head": "during cold winter months when families travel away from them seeking warmer climates nearby; there is now growing evidence suggesting that those same criminals also often take advantage of their abse",
+      "preview_tail": "ise by stealing large quaNtities per se hundreds up through several thousand liters worth every single day across Europe! But this reliance on oil comes at a cost, as rural homes can become a target f",
+      "full_text": "during cold winter months when families travel away from them seeking warmer climates nearby; there is now growing evidence suggesting that those same criminals also often take advantage of their absence opportunity-wise by stealing large quaNtities per se hundreds up through several thousand liters worth every single day across Europe! But this reliance on oil comes at a cost, as rural homes can become a target f",
+      "avg_prediction": 0.42
+    },
+    {
+      "idx": 9,
+      "hash": "218168e6",
+      "n_words": 99,
+      "n_chars": 644,
+      "preview_head": "t intense desire, but about wanting something, whether it's a specific goal or upholding social norms, and can involve careful consideration to achieve it. The will is not just a passive entity, but a",
+      "preview_tail": "or decision-making and consequence evaluation. (What does set the goal? Well, y\u2019know, evolution, society, hormones, culture, wise words from your parents\u2026 but that\u2019s another story.) In other words, it",
+      "full_text": "t intense desire, but about wanting something, whether it's a specific goal or upholding social norms, and can involve careful consideration to achieve it. The will is not just a passive entity, but an active force that drives human behavior, often in tandem with external factors such as societal expectations and personal motivations. In this complex interplay, passions can serve as a catalyst for action, while reason provides a framework for decision-making and consequence evaluation. (What does set the goal? Well, y\u2019know, evolution, society, hormones, culture, wise words from your parents\u2026 but that\u2019s another story.) In other words, it",
+      "avg_prediction": 0.6346
+    },
+    {
+      "idx": 10,
+      "hash": "4d628902",
+      "n_words": 161,
+      "n_chars": 988,
+      "preview_head": "another work week and sending our kids off to school. The people of the beautiful Bahamas islands in the Caribbean were being devastated by the effects of the strongest storm to hit the Atlantic basin",
+      "preview_tail": " All Hands And Hearts : This organization provides disaster response services focusing their energy to \"meet immediate community needs, build resilience through long-term recovery projects and prepare",
+      "full_text": "another work week and sending our kids off to school. The people of the beautiful Bahamas islands in the Caribbean were being devastated by the effects of the strongest storm to hit the Atlantic basin. The Category 5 monstrous hurricane Dorian devastated the islands for nearly 36 hours with record storm surge and 185 mph winds. We cannot imagine the fear, terror and sorrow of the survivors. Our love and prayers go out to those who lost their homes and especially to the families who lost loved ones including children. Join us to provide life saving medical supplies, food, water and life essentials that are so desperately needed by the people of the Bahamas right now. We have listed below several organizations working tirelessly on relief efforts in The Islands Of The Bahamas: 1) All Hands And Hearts : This organization provides disaster response services focusing their energy to \"meet immediate community needs, build resilience through long-term recovery projects and prepare",
+      "avg_prediction": 0.4821
+    },
+    {
+      "idx": 11,
+      "hash": "51f8b9cb",
+      "n_words": 103,
+      "n_chars": 681,
+      "preview_head": "r near its midpoint - A clear plastic tab on the heel with text reading 'JUMPMAN' - Text Elements: Abloh\u2019s signature use of printed instructions like \u2018SHOELACES\u2019 along each shoelace, and detailed info",
+      "preview_tail": " mimics traditional Air Jordan 1 construction but is intentionally exposed to highlight this deconstruction approach. This collaboration not only pays homage to a classic design through its colorway c",
+      "full_text": "r near its midpoint - A clear plastic tab on the heel with text reading 'JUMPMAN' - Text Elements: Abloh\u2019s signature use of printed instructions like \u2018SHOELACES\u2019 along each shoelace, and detailed information such as size labels visible through a translucent outsole. - Color Scheme: The black base contrasts sharply against University Red accents on the forefoot paneling, Swooshes (both large primary one with additional detailing), collar flap overlying an inner white layer that mimics traditional Air Jordan 1 construction but is intentionally exposed to highlight this deconstruction approach. This collaboration not only pays homage to a classic design through its colorway c",
+      "avg_prediction": 0.5381
+    },
+    {
+      "idx": 12,
+      "hash": "fc791a09",
+      "n_words": 79,
+      "n_chars": 534,
+      "preview_head": "efficacy of 70-80% against severe disease. A recent Venezuelan study showed similar results to trials in USA and Europe. The vaccine may soon be licensed in USA. It provides the exciting prospect of a",
+      "preview_tail": "ssortants, neonatal strains, non-replicating rotaviruses, vector vaccines and other genetically engineered proIt seems like you have provided me with an incomplete sentence or text fragment related to",
+      "full_text": "efficacy of 70-80% against severe disease. A recent Venezuelan study showed similar results to trials in USA and Europe. The vaccine may soon be licensed in USA. It provides the exciting prospect of a strategy to prevent one of the world's major child killers. Other candidate vaccines are under development including human-bovine reassortants, neonatal strains, non-replicating rotaviruses, vector vaccines and other genetically engineered proIt seems like you have provided me with an incomplete sentence or text fragment related to",
+      "avg_prediction": 0.3137
+    },
+    {
+      "idx": 13,
+      "hash": "1d62372d",
+      "n_words": 222,
+      "n_chars": 1445,
+      "preview_head": "Resume Projects Downloads Contact Me Current Location: From a Distance, Paris Operahouse \u2191 Paris Operahouse \u2191 Paris, Summer 2007 \u2191 Europe, Summer2007 \u2191 Projects \u2191DUDZIAK.COM From a Distance, Paris Ope",
+      "preview_tail": " building where time itself seems standing still amidst the lively crowd around; it becomes even more fascinating when one tries to delve into its behind-the-scenes, such as how operas are produced a ",
+      "full_text": "Resume Projects Downloads Contact Me Current Location: From a Distance, Paris Operahouse \u2191 Paris Operahouse \u2191 Paris, Summer 2007 \u2191 Europe, Summer2007 \u2191 Projects \u2191DUDZIAK.COM From a Distance, Paris Operahouse << Go back to: Paris Operahouse Gallery From a Distance, Paris Operahouse paris operahouse, operahouse, paris, france Picture of the Paris Operahouse \u00a9 William Dudzik. Note that this photograph was taken in 2007 during an outdoor performance at nighttime. Text credits: From a Distance - by David Virel / La Fabrique photo credit: William Pangman [Continuation of the text based on common structure and context] Paris Opera House (French pronunciation:\"po-reet op-eh-rauze\") is one among Paris'many historic attractions, located at Place Charles Garnier. It wasfirst built in 1875 by Emperor Napoleon III during France's Second Empire. Known for its classic architectural beauty aswell as grand scale of performances which often attract the world\u2019s greatest opera singers and ballet dancers to perform on stage each season here every year, Paris Opera House plays a crucial role not just within French cultural legacy but also worldwide reputation in fine arts performance industry. From our perspective - this is both an old yet vibrant building where time itself seems standing still amidst the lively crowd around; it becomes even more fascinating when one tries to delve into its behind-the-scenes, such as how operas are produced a ",
+      "avg_prediction": 0.5632
+    },
+    {
+      "idx": 14,
+      "hash": "4093a5da",
+      "n_words": 68,
+      "n_chars": 372,
+      "preview_head": "station opened with the line, and was a signal box and block post, using the telegraph instruments by 1879, with Winter\u0092s instruments provided by 1890. A six lever frame was provided in 1927, for cont",
+      "preview_tail": "s provided in 1927, for control of signals, until closed as a block post in 1993. The station was renamed \u0091Riddell\u0092 in 1904, as part of a policy to adopt short station names, but was renamed to the fu",
+      "full_text": "station opened with the line, and was a signal box and block post, using the telegraph instruments by 1879, with Winter\u0092s instruments provided by 1890. A six lever frame was provided in 1927, for control of signals, until closed as a block post in 1993. The station was renamed \u0091Riddell\u0092 in 1904, as part of a policy to adopt short station names, but was renamed to the fu",
+      "avg_prediction": 0.4615
+    },
+    {
+      "idx": 15,
+      "hash": "a417a4d9",
+      "n_words": 192,
+      "n_chars": 1252,
+      "preview_head": "and curious about what the celebrates wear on special events like award shows. Fashion forward people always keep aneye on celebrity wear and try tocopy and follow their dressing styles. Thisspecial p",
+      "preview_tail": "l in a whitesaree with delicate embroidery paired with statement jewelry. Hersoft curls added to her graceful appearance. 5. Hania Amir: Haniawore an exquisite nude-colored gown adorned withsequinsand",
+      "full_text": "and curious about what the celebrates wear on special events like award shows. Fashion forward people always keep aneye on celebrity wear and try tocopy and follow their dressing styles. Thisspecial piece of writing followed by the celebrity dresses has been brought to help you have alook at celebrity fashion and follow the ones you like the most. We have brought toyouthelist of best and dressed celebrities at LuxStyle Awards in the previous session which was highly Top5 Best Dressed Celebrities: 1. Mahira Khan: Mahira stunned in a sleek, black off-shoulder gown with minimalistic jewelry, lettingher dress do all the talking. Herelegant hairstyle complemented herlook perfectly. 2. Saba Qamar: Saba lookedbreathtaking in a regal blue and goldfarsha pyjama by \u00c9lan. She accessorized her outfit beautifully with statement earrings and a clutch. 3. Ayesha Omar:Ayesha turned heads in a striking red gown designed by Nomi Ansari, featuring intricate detailing and a long train. Her bold lip color sealed the deal. 4. Syra Yousuf: Syra looked ethereal in a whitesaree with delicate embroidery paired with statement jewelry. Hersoft curls added to her graceful appearance. 5. Hania Amir: Haniawore an exquisite nude-colored gown adorned withsequinsand",
+      "avg_prediction": 0.5107
+    },
+    {
+      "idx": 16,
+      "hash": "fc009bb1",
+      "n_words": 145,
+      "n_chars": 869,
+      "preview_head": "s: (15-25] (25-35] (35-45] (0-1] 31.5 0 0 (1-2] 12 15 0 (2-3] 0 10 25 (3-4] 0 10 0 (4-5] 0 0 29.5 How can I make it? A:To achieve this in R, you'll first need to ensure your data is properly structure",
+      "preview_tail": "(dplyr) library(tidyr) # Sample data (replace this with your actual dataframe) df <- data.frame( Column_1 = c(\"(0-1]\", \"(2-3]\", \"(4-5]\", \"(0-1]\", \"(2-3]\", \"(1-2]\", \"(1-2]\", \"(3-4]\", \"(4-5]\"), Column_2",
+      "full_text": "s: (15-25] (25-35] (35-45] (0-1] 31.5 0 0 (1-2] 12 15 0 (2-3] 0 10 25 (3-4] 0 10 0 (4-5] 0 0 29.5 How can I make it? A:To achieve this in R, you'll first need to ensure your data is properly structured, then calculate the means for each combination of `Column_1` and `Column_2`. Here\u2019s a step-by-step guide using dplyr and tidyr packages from tidyverse. 1. Convert the intervals in `Column_1` and `Column_2` to factors with levels in common. 2. Pivot the data wider so that each unique combination of `Column_1` and `Column_2` has its own column. 3. Calculate the mean for each cell based on `Column_3`. Here's how you can do it: ```r # Load necessary libraries library(dplyr) library(tidyr) # Sample data (replace this with your actual dataframe) df <- data.frame( Column_1 = c(\"(0-1]\", \"(2-3]\", \"(4-5]\", \"(0-1]\", \"(2-3]\", \"(1-2]\", \"(1-2]\", \"(3-4]\", \"(4-5]\"), Column_2",
+      "avg_prediction": 0.6285
+    },
+    {
+      "idx": 17,
+      "hash": "2c57da87",
+      "n_words": 193,
+      "n_chars": 1020,
+      "preview_head": "ket only kicked in after $400,000 for a married couple or $300,000 for a single person. Adjusted for inflation, that's above $3.1 million for a married couple, or above $2.3 million for a single perso",
+      "preview_tail": "litical arguments that use the top rate as a shorthand way of identifying what people paid in taxes at that time. Wednesday, April 23, 2014 I'm fully aware of how incredibly nerdy it is too pick apart",
+      "full_text": "ket only kicked in after $400,000 for a married couple or $300,000 for a single person. Adjusted for inflation, that's above $3.1 million for a married couple, or above $2.3 million for a single person. That's pretty much automatic earnings at that point, and very different from the 2013 tax bracket, where the 7th and final bracket kicks in at $450,000 or $400,000 to get a rate of 39.6 percent. There is no way to compare them in a way that is not arbitrary. It is completely nonsensical to try to summarize how much the rich pay in taxes in a given year by dragging up the top marginal tax rate. I hear it from tHe left, and I hear it from the right, and it's wrong every time. The top rate tells us very little to the point of being nearly useless. It doesn't even tell us what the rich paid in taxes. Reject all political arguments that use the top rate as a shorthand way of identifying what people paid in taxes at that time. Wednesday, April 23, 2014 I'm fully aware of how incredibly nerdy it is too pick apart",
+      "avg_prediction": 0.4553
+    },
+    {
+      "idx": 18,
+      "hash": "400bbb4f",
+      "n_words": 39,
+      "n_chars": 267,
+      "preview_head": "ompared. There was no significant difference in the incidence of side effects or clinical improvement. Previous gold therapy did not influence the therapeutic response or total incidence of side effec",
+      "preview_tail": "de effects or clinical improvement. Previous gold therapy did not influence the therapeutic response or total incidence of side effects observed with penicillamine. Rashes were, however, more common i",
+      "full_text": "ompared. There was no significant difference in the incidence of side effects or clinical improvement. Previous gold therapy did not influence the therapeutic response or total incidence of side effects observed with penicillamine. Rashes were, however, more common i",
+      "avg_prediction": 0.4342
+    },
+    {
+      "idx": 19,
+      "hash": "581f804c",
+      "n_words": 66,
+      "n_chars": 553,
+      "preview_head": "eloped on lacustrine sediments, show a predominance of medium- tofine-grain size fractionswhereas the shallow mountain soils show thehighestpercentage of particles in the coarse to mediumfractions. Co",
+      "preview_tail": "ith mountain soils areconsistent with release by weatheringin the uplands and accumulation in the lowlands. Thepresence of carbonates derivedfrom ubiquitousshelly materialin the lowland soilsmay expla",
+      "full_text": "eloped on lacustrine sediments, show a predominance of medium- tofine-grain size fractionswhereas the shallow mountain soils show thehighestpercentage of particles in the coarse to mediumfractions. Concentrationsof most oftheelements investigated increased toward finerparticle sizes. The generally higher metal concentrations in lowlandsoils compared with mountain soils areconsistent with release by weatheringin the uplands and accumulation in the lowlands. Thepresence of carbonates derivedfrom ubiquitousshelly materialin the lowland soilsmay expla",
+      "avg_prediction": 0.4201
+    },
+    {
+      "idx": 20,
+      "hash": "d729cdef",
+      "n_words": 61,
+      "n_chars": 565,
+      "preview_head": "errorplus=\"2.84e+26\">2.84e+26</mass> <radius errorminus=\"1.05e+23\" errorplus=\"1.05e+23\">1.05e+23</radius> <period>19.771680</period> <transittime errorminus=\"0.000340\" errorplus=\"0.000340\">2455152.860",
+      "preview_tail": "nating the light curve. This system was observed by the HARPS-N spectrograph on 3 occasions, and the radial velocity measurements do not support the existence of this planet.</description> <discoverym",
+      "full_text": "errorplus=\"2.84e+26\">2.84e+26</mass> <radius errorminus=\"1.05e+23\" errorplus=\"1.05e+23\">1.05e+23</radius> <period>19.771680</period> <transittime errorminus=\"0.000340\" errorplus=\"0.000340\">2455152.860120</transittime> <description>This system was identified in the Kepler data as having a planet candidate, but the host star has an M dwarf companion that is contaminating the light curve. This system was observed by the HARPS-N spectrograph on 3 occasions, and the radial velocity measurements do not support the existence of this planet.</description> <discoverym",
+      "avg_prediction": 0.5487
+    },
+    {
+      "idx": 21,
+      "hash": "0d8145d7",
+      "n_words": 163,
+      "n_chars": 1049,
+      "preview_head": "shedding light on the urgent need for stricter monitoring and enforcement of the regulations in place for such facilities. Marie-Rose's family, having placed her in Sunrise Assisted Living in hopes of",
+      "preview_tail": "ents. Ensuring the safety and dignity of our elderly population must be a top priority, not just for their families but also for society as a whole. Through the findings of this investigation, we hope",
+      "full_text": "shedding light on the urgent need for stricter monitoring and enforcement of the regulations in place for such facilities. Marie-Rose's family, having placed her in Sunrise Assisted Living in hopes of a high standard of living, might never have anticipated these troubling issues surfacing during their loved one's time there. While our senior citizens deserve compassion, care, and comfort as they near the end of their lives, it becomes critical to ensure that facilities like Sunrise Assisted Living are held accountable for failing to meet even the most basic state regulations. This investigative report by CBS 2 Investigator Pam Zekman aims to bring attention to such systematic failures in senior living communities, advocating for stricter oversight and action against facilities whose poor practices compromise the well-being of their residents. Ensuring the safety and dignity of our elderly population must be a top priority, not just for their families but also for society as a whole. Through the findings of this investigation, we hope",
+      "avg_prediction": 0.6031
+    },
+    {
+      "idx": 22,
+      "hash": "d220f0dd",
+      "n_words": 133,
+      "n_chars": 932,
+      "preview_head": "decor Interior Home painting\" Explained: 1. Artistic Approach: These house paintings go beyond mere color selection; they transform wall spaces into dynamic art pieces that evoke moods or tell stories",
+      "preview_tail": " helping clients maintain a stylish and relevant home environment. 5. Purpose Beyond Aesthetics: - The goal is to create personalized spaces that are not only visually appealing but also memorable for",
+      "full_text": "decor Interior Home painting\" Explained: 1. Artistic Approach: These house paintings go beyond mere color selection; they transform wall spaces into dynamic art pieces that evoke moods or tell stories. 2. Medium Consideration: The designs may include murals, which are a significant form of artistic expression in interiors but could also encompass other creative forms like abstract patterns tailored to each space's unique ambiance and the homeowner\u2019s style preferences. 3. Customization Focus: - Tailored Solutions for Individual Tastes: * Reflecting personal design aesthetics\u2014whether modern minimalist or bohemian. 4. Trend-Driven Design: Keeping abreast of current interior trends ensures that their Work remains contemporary, helping clients maintain a stylish and relevant home environment. 5. Purpose Beyond Aesthetics: - The goal is to create personalized spaces that are not only visually appealing but also memorable for",
+      "avg_prediction": 0.6973
+    },
+    {
+      "idx": 23,
+      "hash": "eacfaccb",
+      "n_words": 58,
+      "n_chars": 384,
+      "preview_head": "Awards Contact Home Residential Overview Current Projects All The Griffin Kiara Oaks Arbour Ivy Previous Projects All Manhattan on the Park Indigo Lakefront See Others Commercial Now Leasing All Civic",
+      "preview_tail": "easing All Civic Quarter Civic Quarter 2 Anzac Park East Management Portfolio All 28 Sydney Avenue 113 Canberra Avenue New Benjamin Orange New Benjamin Red Past Developments All Louisa Lawson Building",
+      "full_text": "Awards Contact Home Residential Overview Current Projects All The Griffin Kiara Oaks Arbour Ivy Previous Projects All Manhattan on the Park Indigo Lakefront See Others Commercial Now Leasing All Civic Quarter Civic Quarter 2 Anzac Park East Management Portfolio All 28 Sydney Avenue 113 Canberra Avenue New Benjamin Orange New Benjamin Red Past Developments All Louisa Lawson Building",
+      "avg_prediction": 0.4452
+    },
+    {
+      "idx": 24,
+      "hash": "b0552d6c",
+      "n_words": 43,
+      "n_chars": 327,
+      "preview_head": "can also use the `SchemaInfo` object to get the column count. Here's an example: ```php $dbRow = $dbh->Execute(\"SELECT * FROM database.table LIMIT 1\"); $tableSchema = $dbRow->SchemaInfo; $tableColumnC",
+      "preview_tail": "atabase.table LIMIT 1\"); $tableSchema = $dbRow->SchemaInfo; $tableColumnCount = $tableSchema->ColumnCount; ``` This method avoids executing an unnecessary query and directly retrieves the column count",
+      "full_text": "can also use the `SchemaInfo` object to get the column count. Here's an example: ```php $dbRow = $dbh->Execute(\"SELECT * FROM database.table LIMIT 1\"); $tableSchema = $dbRow->SchemaInfo; $tableColumnCount = $tableSchema->ColumnCount; ``` This method avoids executing an unnecessary query and directly retrieves the column count",
+      "avg_prediction": 0.6957
+    },
+    {
+      "idx": 25,
+      "hash": "0a1e4963",
+      "n_words": 48,
+      "n_chars": 705,
+      "preview_head": "ion; } } getSelection() { return this._viewer.getSelection(); } onViewerSelectionChanged(selection: any[]) { } repaint() { if (this._viewer) { const state = this._viewer.getState(); this.prepareViewer",
+      "preview_tail": "bstract getTreeViewerRenderer(viewer: controls.viewers.TreeViewer): viewers.TreeViewerRenderer; abstract getPropertySectionProvider(): controls.properties.PropertySectionProvider; abstract getInput():",
+      "full_text": "ion; } } getSelection() { return this._viewer.getSelection(); } onViewerSelectionChanged(selection: any[]) { } repaint() { if (this._viewer) { const state = this._viewer.getState(); this.prepareViewerState(state); this._viewer.setState(state); this._viewer.repaint(); } } prepareViewerState(state: viewers.ViewerState) { } abstract getContentProvider(): viewers.ITreeContentProvider; abstract getLabelProvider(): viewers.ILabelProvider; abstract getCellRendererProvider(): viewers.ICellRendererProvider; abstract getTreeViewerRenderer(viewer: controls.viewers.TreeViewer): viewers.TreeViewerRenderer; abstract getPropertySectionProvider(): controls.properties.PropertySectionProvider; abstract getInput():",
+      "avg_prediction": 0.5227
+    },
+    {
+      "idx": 26,
+      "hash": "7f959d5b",
+      "n_words": 79,
+      "n_chars": 414,
+      "preview_head": "l it takes is a big enough desire to make things change and the courage to see it through. And get this: It takes way less effort than we may think as long as we use our time wisely, have an effective",
+      "preview_tail": " do stuff that actually delivers. That then leaves plenty of time for important things like having fun with our families and enjoying life. So if that sounds like your thing, pop in your email address",
+      "full_text": "l it takes is a big enough desire to make things change and the courage to see it through. And get this: It takes way less effort than we may think as long as we use our time wisely, have an effective strategy, and do stuff that actually delivers. That then leaves plenty of time for important things like having fun with our families and enjoying life. So if that sounds like your thing, pop in your email address",
+      "avg_prediction": 0.3925
+    },
+    {
+      "idx": 27,
+      "hash": "91314c81",
+      "n_words": 52,
+      "n_chars": 529,
+      "preview_head": "Users/sindresorhus/dev/node_modules/.bin:/Users/sindresorhus/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin' // `foo` is a locally installed binary childProcess.execFileS",
+      "preview_tail": "`process.cwd()` Working directory. ##### path Type: `string` Default: [`PATH`](https://github.com/sindresorhus/path-key) PATH to be appended.<br> Set it to an empty string to exclude the default PATH.",
+      "full_text": "Users/sindresorhus/dev/node_modules/.bin:/Users/sindresorhus/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin' // `foo` is a locally installed binary childProcess.execFileSync('foo', { env: { PATH: npmRunPath() } }); ``` ## API ### npmRunPath([options]) #### options ##### cwd Type: `string` Default: `process.cwd()` Working directory. ##### path Type: `string` Default: [`PATH`](https://github.com/sindresorhus/path-key) PATH to be appended.<br> Set it to an empty string to exclude the default PATH.",
+      "avg_prediction": 0.4802
+    },
+    {
+      "idx": 28,
+      "hash": "30c943d6",
+      "n_words": 71,
+      "n_chars": 509,
+      "preview_head": "(sqrt(38)/sqrt(2) + 4 + sqrt(19) - sqrt(19)) + 2)**2. 2*sqrt(19) + 20 Simplify -2 + (-2*sqrt(26))/sqrt(2). -2*sqrt(13) - 2 Simplify sqrt(70)/(sqrt(10)*-2)*-1. sqrt(7)/2 Simplify sqrt(108) + (sqrt(108)",
+      "preview_tail": "ce {\\text { squareroot} (\\underline {{10}} } {-1}\\;} ]\\] we will break it down step by Step. Start with simplifying each part: The term \\(sqrt(108)\\): \\[ \\begin{{align*}} sqrt{(18^4}) & = (3 \\cdot 6),",
+      "full_text": "(sqrt(38)/sqrt(2) + 4 + sqrt(19) - sqrt(19)) + 2)**2. 2*sqrt(19) + 20 Simplify -2 + (-2*sqrt(26))/sqrt(2). -2*sqrt(13) - 2 Simplify sqrt(70)/(sqrt(10)*-2)*-1. sqrt(7)/2 Simplify sqrt(108) + (sqrt(108) - (sqrt(108) + sqrt(108) + (sqrTo simplify the expression: \\[ \\underbrace{\\text{square root}(70)/( \\underbrace {\\text { squareroot} (\\underline {{10}} } {-1}\\;} ]\\] we will break it down step by Step. Start with simplifying each part: The term \\(sqrt(108)\\): \\[ \\begin{{align*}} sqrt{(18^4}) & = (3 \\cdot 6),",
+      "avg_prediction": 0.4729
+    },
+    {
+      "idx": 29,
+      "hash": "21e20517",
+      "n_words": 43,
+      "n_chars": 276,
+      "preview_head": "physics based on lattice QCD. This report focuses on the strategy and the challenges of fully non-perturbative investigations in the B-meson sector, where the b-quark is treated within an effective th",
+      "preview_tail": "allenges of fully non-perturbative investigations in the B-meson sector, where the b-quark is treated within an effective theory, as followed by the ALPHA CollaborAtion. As an application, I outline i",
+      "full_text": "physics based on lattice QCD. This report focuses on the strategy and the challenges of fully non-perturbative investigations in the B-meson sector, where the b-quark is treated within an effective theory, as followed by the ALPHA CollaborAtion. As an application, I outline i",
+      "avg_prediction": 0.4374
+    },
+    {
+      "idx": 30,
+      "hash": "754aae44",
+      "n_words": 61,
+      "n_chars": 336,
+      "preview_head": "KIRKLAND LAKE, my name is Angelo Francis Berlingeri. I was born on June 4 at the Peterborough Hospital. I weighed in at 9 lbs., 11 ounces. My parents, Jonathan and Valentina are enjoying their new lif",
+      "preview_tail": "s. My parents, Jonathan and Valentina are enjoying their new lifestyle. They promised to take me touring. First to Lindsay to meet Opa andOma, then off to see my aunts and uncles who live just outside",
+      "full_text": "KIRKLAND LAKE, my name is Angelo Francis Berlingeri. I was born on June 4 at the Peterborough Hospital. I weighed in at 9 lbs., 11 ounces. My parents, Jonathan and Valentina are enjoying their new lifestyle. They promised to take me touring. First to Lindsay to meet Opa andOma, then off to see my aunts and uncles who live just outside",
+      "avg_prediction": 0.5091
+    },
+    {
+      "idx": 31,
+      "hash": "79a275a7",
+      "n_words": 53,
+      "n_chars": 284,
+      "preview_head": "is a gardening tip that every coffee grounds could be a compost heap. They help add sustenance to your compost heap, help enhance the nutrients in your soil, and can even keep the pests away from your",
+      "preview_tail": "sustenance to your compost heap, help enhance the nutrients in your soil, and can even keep the pests away from your plants. Those perfect flowers no longeR have to be so out of reach. Get your garden",
+      "full_text": "is a gardening tip that every coffee grounds could be a compost heap. They help add sustenance to your compost heap, help enhance the nutrients in your soil, and can even keep the pests away from your plants. Those perfect flowers no longeR have to be so out of reach. Get your garden",
+      "avg_prediction": 0.438
+    },
+    {
+      "idx": 32,
+      "hash": "6ff9ee36",
+      "n_words": 212,
+      "n_chars": 1578,
+      "preview_head": "erential forms and submersions I know that the pull-back of a surjective smooth submersion is injective on k-forms on a manifold. That is, if $f:M\\rightarrow N$ is surjective and a smooth submersion (",
+      "preview_tail": " since $T_pM_0$ and $T_{i_0(p)}N$ are both isomorphic to $T_pM$. This example illustrates that the condition that $f$ is surjective is necessary, since the pull-back $f^*$ is not injective in general,",
+      "full_text": "erential forms and submersions I know that the pull-back of a surjective smooth submersion is injective on k-forms on a manifold. That is, if $f:M\\rightarrow N$ is surjective and a smooth submersion (for every $p\\in M$ the push-forward/differential at p, $f_{*,p}:T_{p}M\\rightarrow T_{f(p)}N$ is surjective) then the pull-back $$f^{*}:\\Omega^{k}(N)\\rightarrow\\Omega^{k}(M)$$ is injective. I was wondering on which level the condition that f is surjective is neccesary. Is there a counterexample that illustrate the necessity of this condition? Thank you in advance. A: Suppose $M$ is a manifold and $N=M_0\\cup M_1$ is the union of two disjoint copies of $M$, The embedding $i_0:M_0\\rightarrow M$ is a smooth submersion, but the pull-back $i_0^*:\\Omega^k(N)\\rightarrow\\Omega^k(M_0)$ is not injective, since $i_0^*(\\alpha_0+\\alpha_1)=\\alpha_0$ for any $\\alpha_0\\in\\Omega^k(M_0)$ and $\\alpha_1\\in\\Omega^k(M_1)$, and $i_0^*(\\alpha_1)=0$ for any $\\alpha_1\\in\\Omega^k(M_1)$, so $i_0^(\\alpha_0)$, and $\\alpha_0+\\alpha_1\\neq\\alpha_0$ in general, for example, $\\alpha_1$ could be a non-zero form on $M_1$. This example shows that the condition that $f$ is surjective is necessary, since $i_0$ is a smooth submersion, but the pull-back $i_0^*$ is not injective. To see that $i_0$ is a smooth submersion, note that the differential $i_{0*}:T_pM_0\\rightarrow T_{i_0(p)}N$ is an isomorphism, since $T_pM_0$ and $T_{i_0(p)}N$ are both isomorphic to $T_pM$. This example illustrates that the condition that $f$ is surjective is necessary, since the pull-back $f^*$ is not injective in general,",
+      "avg_prediction": 0.5535
+    },
+    {
+      "idx": 33,
+      "hash": "7d935678",
+      "n_words": 71,
+      "n_chars": 532,
+      "preview_head": "gradients in cardiac surgical patients--a comparison of halothane and fentanyl. System: Here is the completed text based on your input: Twenty-two adult patients undergoing coronary artery surgery wer",
+      "preview_tail": ", and deltoid to measure temperature gradients during and after hypothermic cardiopulmonary bypass. The study compared the effect of fentanyl vs halothane anesthesia on temperature gradients developed",
+      "full_text": "gradients in cardiac surgical patients--a comparison of halothane and fentanyl. System: Here is the completed text based on your input: Twenty-two adult patients undergoing coronary artery surgery were given either fentanyl (100 micrograms/kg) or halothane (0.5-1.5%) and oxygen. Thermistor probes were inserted in rectum, esophagus, and deltoid to measure temperature gradients during and after hypothermic cardiopulmonary bypass. The study compared the effect of fentanyl vs halothane anesthesia on temperature gradients developed",
+      "avg_prediction": 0.5615
+    },
+    {
+      "idx": 34,
+      "hash": "706f0003",
+      "n_words": 187,
+      "n_chars": 1293,
+      "preview_head": "n Login Join Login \"Where Everyone Has an MBA\" Tel: (612) 246-4616 COMPLETED CONTRACT METHOD OF ACCOUNTING Definition COMPLETED CONTRACT METHOD OF ACCOUNTING is a method of revenue recognition for lon",
+      "preview_tail": " ASC 310-45). 3. Applicability: Primarily used in industries with inherent risks, such as construction or consulting, where significant uncertainty exists regarding successful project completion. - Th",
+      "full_text": "n Login Join Login \"Where Everyone Has an MBA\" Tel: (612) 246-4616 COMPLETED CONTRACT METHOD OF ACCOUNTING Definition COMPLETED CONTRACT METHOD OF ACCOUNTING is a method of revenue recognition for long-term contracts (i.e., contract which span more than one accounting period) whereby the total contract revenue and related cost of performance are recognized in the period in which the contract is completed. This method stands in contrast to the percentage-of-completion method of accounting and is most often used when significant uncertainty exists witThe Completed Contract Method (CCM) is an approach used in recognizing revenues and costs for long-term contracts spanning multiple\u4f1a\u8ba1\u671f\u95f4. Here's the organized summary of its key aspects: 1. Scope: CCM applies to projects that extend beyond one fiscal period, such as multi-year construction or consulting engagements. 2. Revenue Recognition Timing: - Revenue is recognized only upon completion. - Costs are typically expensed when incurred unless they meet specific criteria for capitalization and amortizing over the contract term (as per ASC 310-45). 3. Applicability: Primarily used in industries with inherent risks, such as construction or consulting, where significant uncertainty exists regarding successful project completion. - Th",
+      "avg_prediction": 0.5182
+    },
+    {
+      "idx": 35,
+      "hash": "d0fc7031",
+      "n_words": 54,
+      "n_chars": 386,
+      "preview_head": "competes in the men's laser class, finishing in 27th place at the 2008 Summer Olympics and in 13th place at the 2012 Summer Olympics. References Category:Brazilian male sailors (sport) Category:Living",
+      "preview_tail": "ategory:Living people Category:Olympic sailors of Brazil Category:Sailors at the 2008 Summer Olympics \u2013 Laser Category:Sailors at the 2012 Summer OlymPics \u2013 Laser Category:South American Ga...Gauchos.",
+      "full_text": "competes in the men's laser class, finishing in 27th place at the 2008 Summer Olympics and in 13th place at the 2012 Summer Olympics. References Category:Brazilian male sailors (sport) Category:Living people Category:Olympic sailors of Brazil Category:Sailors at the 2008 Summer Olympics \u2013 Laser Category:Sailors at the 2012 Summer OlymPics \u2013 Laser Category:South American Ga...Gauchos.",
+      "avg_prediction": 0.4098
+    },
+    {
+      "idx": 36,
+      "hash": "789efe7a",
+      "n_words": 136,
+      "n_chars": 738,
+      "preview_head": "ecide to follow the advice given on a forum. GOOGLE IT! If you want a little hand holding, attention and support, you may wish to bite the bullet, sign up and post. When you get a reply, make sure you",
+      "preview_tail": "You may be required to provide a product serial number or software licence key to prove you are the rightful owner of certain products. In this case, you will know who runs the forums and why they are",
+      "full_text": "ecide to follow the advice given on a forum. GOOGLE IT! If you want a little hand holding, attention and support, you may wish to bite the bullet, sign up and post. When you get a reply, make sure you do a little research of your own before acting on the advice given on a forum. SHOULD YOU GET VERIFIED? There is no reason why you should be asked to provide evidence of your identity or anything else to join a forum, however, there are exceptions, notably customer service and support groups run by specific companies or organisations. You may be required to provide a product serial number or software licence key to prove you are the rightful owner of certain products. In this case, you will know who runs the forums and why they are",
+      "avg_prediction": 0.4323
+    },
+    {
+      "idx": 37,
+      "hash": "fd9f559b",
+      "n_words": 59,
+      "n_chars": 307,
+      "preview_head": "Cafe who's big in to Star Trek, and that gave me the idea for this comic of my own. Modified from Red Sonic's original comic, with his permission, as well as The Kaiser's, I rewrote it and included th",
+      "preview_tail": "'s original comic, with his permission, as well as The Kaiser's, I rewrote it and included the Warners for a bit of fun. Back to Framwinkle's Art Back to Framwinkle This page \u00a9 Copyright 2008, by Fram",
+      "full_text": "Cafe who's big in to Star Trek, and that gave me the idea for this comic of my own. Modified from Red Sonic's original comic, with his permission, as well as The Kaiser's, I rewrote it and included the Warners for a bit of fun. Back to Framwinkle's Art Back to Framwinkle This page \u00a9 Copyright 2008, by Fram",
+      "avg_prediction": 0.4236
+    },
+    {
+      "idx": 38,
+      "hash": "71f49970",
+      "n_words": 149,
+      "n_chars": 1047,
+      "preview_head": "extra parking. Amenities Zip07013 CountyPassaic Bedrooms2 Full baths1 StatusActive Purchase TypeActive Property typeCondo/Townhome ElemenElementary School #9 - This property is located within the catc",
+      "preview_tail": "t provides both durability and style while offering easy maintenance; plus there's plenty of storage space thanks to built-in closets as well an additional bin located in basement which can be used fo",
+      "full_text": "extra parking. Amenities Zip07013 CountyPassaic Bedrooms2 Full baths1 StatusActive Purchase TypeActive Property typeCondo/Townhome ElemenElementary School #9 - This property is located within the catchment area for Elementary School #9, a highly-rated school known for its excellent academic programs and supportive community. With two bedrooms and one full bathroom, this condo offers comfortable living spaces perfect for young professionals or small families looking to settle in an easily accessible location with ample amenities nearby including public transport options as well major highways that make commuting convenient! The updated kitchen featuring granite countertops & stainless steel appliances is a highlight along side the Apec water filtration system \u2013 ensuring clean drinking water at all times!! The laminate flooring throughout provides both durability and style while offering easy maintenance; plus there's plenty of storage space thanks to built-in closets as well an additional bin located in basement which can be used fo",
+      "avg_prediction": 0.5759
+    },
+    {
+      "idx": 39,
+      "hash": "fb94bd83",
+      "n_words": 147,
+      "n_chars": 769,
+      "preview_head": "I did finish one knitting project, I can start another one with a clear mind. I found a pattern that calls for those little Lion Brand Bonbons. Michael's craft store is where I found them and printing",
+      "preview_tail": "ecipe for a one-pot lemon herb chicken. It's so simple and the flavors are just incredible. I'll have to share the recipe with you sometime. How about you? What have you been up to lately? I'd love to",
+      "full_text": "I did finish one knitting project, I can start another one with a clear mind. I found a pattern that calls for those little Lion Brand Bonbons. Michael's craft store is where I found them and printing a 40% off coupon helped. I can't show you the pattern but once it's all don I'll be sure to post a picture. I'm really excited about this new project. It's a bit different from what I usually knit, but I think the result will be worth it. Plus, I love trying new things. Speaking of new things, I've also been trying out a new recipe for dinner. I found this amazing recipe for a one-pot lemon herb chicken. It's so simple and the flavors are just incredible. I'll have to share the recipe with you sometime. How about you? What have you been up to lately? I'd love to",
+      "avg_prediction": 0.6341
+    },
+    {
+      "idx": 40,
+      "hash": "2b3b3eb5",
+      "n_words": 86,
+      "n_chars": 499,
+      "preview_head": "in Magento I recently put it into production and it starts logging this error and is unfunctional in production only. It works fine in my development ... ## Swift, create a new class from a Type Quest",
+      "preview_tail": "erties of an object. I was playing around with using a class as the datatype for a local variable but can\u2019t quite get it... ## JNI native crash (app crashed) Questions: CLOSED Thanks for the comments.",
+      "full_text": "in Magento I recently put it into production and it starts logging this error and is unfunctional in production only. It works fine in my development ... ## Swift, create a new class from a Type Questions: Trying to reduce boilderplate code in Swift where I\u2019m manually declaring and intializing properties of an object. I was playing around with using a class as the datatype for a local variable but can\u2019t quite get it... ## JNI native crash (app crashed) Questions: CLOSED Thanks for the comments.",
+      "avg_prediction": 0.3694
+    },
+    {
+      "idx": 41,
+      "hash": "6a7fad62",
+      "n_words": 133,
+      "n_chars": 837,
+      "preview_head": "colored pollen parent \"Blues\" (U.S. Plant Pat. No. 5,373). The new cultivar was identified and selected by the Inventor in a controlled breeding programme in the greenhouse in the state of Georgia, Un",
+      "preview_tail": "racteristics of the new cultivar, as well as the differences of the seed parent and pollen mother, were thoroughly selected. The new cultivar is somewhat identical to the seed parent and pollen parent",
+      "full_text": "colored pollen parent \"Blues\" (U.S. Plant Pat. No. 5,373). The new cultivar was identified and selected by the Inventor in a controlled breeding programme in the greenhouse in the state of Georgia, United States of America. The new cultivar was selected and named in the state of Georgia, United States of America. The new cultivar has not been identified under all possible ecological circumstances. The mutation can differ significantly with differences in environment. The gene can also vary with differences in the environment, soil, and culture. The gene can also vary with differences in the environment, soil, and culture. The characteristics of the new cultivar, as well as the differences of the seed parent and pollen mother, were thoroughly selected. The new cultivar is somewhat identical to the seed parent and pollen parent",
+      "avg_prediction": 0.5859
+    },
+    {
+      "idx": 42,
+      "hash": "1243af8b",
+      "n_words": 89,
+      "n_chars": 582,
+      "preview_head": "n the Mid-Atlantic, with unlimited recreation and family-focused activities, Canaan Valley Resort is a four-season destination providing the perfect escape from the pressures of daily life. Fifteen mi",
+      "preview_tail": "eau overlooking the valley, offering sweeping views of the surrounding peaks\u2026 Festivals Canaan Valley Birding Festival Information Each June, locals and visitors with a love for nature can join Canaan",
+      "full_text": "n the Mid-Atlantic, with unlimited recreation and family-focused activities, Canaan Valley Resort is a four-season destination providing the perfect escape from the pressures of daily life. Fifteen miles long by three miles wide, Canaan Valley is the highest mountain valley east of the Rocky Mountains, with a base elevation of 3,100 feet. Canaan Valley Resort is nestled on a plateau overlooking the valley, offering sweeping views of the surrounding peaks\u2026 Festivals Canaan Valley Birding Festival Information Each June, locals and visitors with a love for nature can join Canaan",
+      "avg_prediction": 0.4395
+    },
+    {
+      "idx": 43,
+      "hash": "dc40f82b",
+      "n_words": 132,
+      "n_chars": 1349,
+      "preview_head": "Tab2Fragment(), \"TAB2\");` working on Tab Fragment Main Activity public class MainActivity extends AppCompatActivity { @Override protected void onCreate(Bundle savedInstanceState) { super.onCreate(save",
+      "preview_tail": "ce getPageTitle(int position) { return mFragmentTitleList.get(position); } } ``` Assistant: You can do it with this code: ```css * { box-sizing: border-box; } body { background-color: #f0f0f0; } #main",
+      "full_text": "Tab2Fragment(), \"TAB2\");` working on Tab Fragment Main Activity public class MainActivity extends AppCompatActivity { @Override protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.activity_main); } private void setupViewPager(ViewPager viewPager) { SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager()); adapter.addFragment(new Tab1Fragment(), \"TAB 1\"); adapter.addFragment(new Tab2Fragment(), \"TAB2\"); adapter.addFragment(new Tab3Fragment(), \"TAB3\"); viewPager.setAdapter(adapter); } } Section page Adapter class SectionsPageAdapter extends FragmentPagerAdapter { private final List<Fragment> mFragmentList = new ArrayList<>(); private final List<String> mFragmentTitleList = new ArrayList<>(); public SectionsPageAdapter(FragmentManager fm) { super(fm); } @Override public Fragment getItem(int position) { return mFragmentList.get(position); } @Override public int getCount() { return mFragmentList.size(); } public void addFragment(Fragment fragment, String title) { mFragmentList.add(fragment); mFragmentTitleList.add(title); } @Override public CharSequence getPageTitle(int position) { return mFragmentTitleList.get(position); } } ``` Assistant: You can do it with this code: ```css * { box-sizing: border-box; } body { background-color: #f0f0f0; } #main",
+      "avg_prediction": 0.5646
+    },
+    {
+      "idx": 44,
+      "hash": "507f2fac",
+      "n_words": 67,
+      "n_chars": 389,
+      "preview_head": "e an incomplete menu for a special event with accommodation options followed by a note about bookings and deposits. It also includes a thank-you message expressing gratitude for those who attended a w",
+      "preview_tail": "ttended a wedding cake tasting, along with some details about the cake's preparation time. Would you like me to rewrite or expand any part of this text? I can continue where it was left off if needed.",
+      "full_text": "e an incomplete menu for a special event with accommodation options followed by a note about bookings and deposits. It also includes a thank-you message expressing gratitude for those who attended a wedding cake tasting, along with some details about the cake's preparation time. Would you like me to rewrite or expand any part of this text? I can continue where it was left off if needed.",
+      "avg_prediction": 0.6299
+    },
+    {
+      "idx": 45,
+      "hash": "20a0a11d",
+      "n_words": 258,
+      "n_chars": 1662,
+      "preview_head": "the Apple campus which has already been stretched thin by its own headquarters. In addition, these high levels of profits attract unwanted attention from other stakeholders including government offici",
+      "preview_tail": "performance during Q4 and going into next fiscal quarter with more product launches expected including new versions of iPhone or iPad; it's clear that the technology world will continue to watch Apple",
+      "full_text": "the Apple campus which has already been stretched thin by its own headquarters. In addition, these high levels of profits attract unwanted attention from other stakeholders including government officials who may start to take an interest if they think there is something wrong. To manage this rapid growth and keep things running smoothly for their employees as well maintain profitability in the long term Apple has implemented a number strategies such incorporating more sustainable practices into its operations, expanding internationally while also taking steps towards ensuring compliance with global environmental standards. Apple's unique business model that focuses on innovation combined by an emphasis of marketing rather than raw technological power is likely to keep it ahead for years as companies continue their struggle in this highly competitive market. In the first fiscal quarter Apple shipped 25 million iPhones, a record high and more products have been shipped around during these three years. Despite facing stiff competition from companies like Samsung who launched its own smartphone line Galaxy S II that's similar to iPhone with Android operating system. Samsung has managed it sales in spite of all this without sacrificing the quality which is an important factor for Apple fans, even when they can't afford their latest products. Overall 2011 was a year where we saw several tech giants' stock prices take huge hits. With its strong performance during Q4 and going into next fiscal quarter with more product launches expected including new versions of iPhone or iPad; it's clear that the technology world will continue to watch Apple",
+      "avg_prediction": 0.4871
+    },
+    {
+      "idx": 46,
+      "hash": "aae0ee85",
+      "n_words": 115,
+      "n_chars": 1161,
+      "preview_head": "that a customer made a payment but it was unsuccessful, I checked my paypal log, first payment was successful but she kept trying again only to find out that she is out of funds. Here is my log [26-03",
+      "preview_tail": "n : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token A: It seems that the customer has insufficient funds in her account to complete payment, so it failed and she was charged a fee for trying",
+      "full_text": "that a customer made a payment but it was unsuccessful, I checked my paypal log, first payment was successful but she kept trying again only to find out that she is out of funds. Here is my log [26-03-2020 10:03:50] PayPal\\Core\\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/oauth2/token [26-03-2020 10:03:51] PayPal\\Core\\PayPalHttpConnection : INFO: Response Status : 200 [26-03-2020 10:03:51] PayPal\\Core\\PayPalHttpConnection : INFO: POST https://api.paypal.com/v1/payments/payment [26-03-2020 10:04:07] PayPal\\Api\\PaymentExecution ::get() - Response Status Code is 'CREATED' and the response body details are as follows : {\"name\":\"create\",\"redirect_urls\":{\"return_url\":null,\"cancel_url\":\"\"},\"payer\":{},\"transactions\":[{\"amount\":{\"total\":\"15.03\"},\"description\":\"\", \"item_list\":{\"items\":[{},{}]}}],\"_links\":[\"https://api.paypal.com/v2/payments-captures/{captureId}\",\"self\"],\"__type\":\"payment\"} [26-03-2020 10:47:59] PayPal\\Core\\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token A: It seems that the customer has insufficient funds in her account to complete payment, so it failed and she was charged a fee for trying",
+      "avg_prediction": 0.4316
+    },
+    {
+      "idx": 47,
+      "hash": "4989b758",
+      "n_words": 166,
+      "n_chars": 929,
+      "preview_head": "require a Constant Voltage 12V supply. a LED MR8,11,16 requires a 12V DC driver. Simply buy a driver with sufficient output (W) to power all the connected lamps. i.e. if you have 9 x 5W MR16 (Model Nu",
+      "preview_tail": "mp What size bulb replaces a 50W Halogen bulb? Recessed Lights Recessed lights for Concrete driveways? If you want to set a light fixture into concrete, then you need to ensure the fixture has a plast",
+      "full_text": "require a Constant Voltage 12V supply. a LED MR8,11,16 requires a 12V DC driver. Simply buy a driver with sufficient output (W) to power all the connected lamps. i.e. if you have 9 x 5W MR16 (Model Number: EV-LED-MR16-200LM) which is 9 x 5W =45W, so a 48W driver (Model Number: EV-12V-4800-60D) is sufficient. Do I need a load Resistor with LED Wedge Bulbs? You may do for automotive applications, such as turn or stop lights, and is dependent on your vehicle. See our automotive section of this FAQ. What size bulb replaces a regular 100W bulb? Typically, a 10W to 12W LED lamp will replace a 100W Incandescent Lamp What size bulb replaces a regular 60W bulb? Typically, a 5W to 8W LED lamp will replace a 60/65W Incandescent Lamp What size bulb replaces a 50W Halogen bulb? Recessed Lights Recessed lights for Concrete driveways? If you want to set a light fixture into concrete, then you need to ensure the fixture has a plast",
+      "avg_prediction": 0.3853
+    },
+    {
+      "idx": 48,
+      "hash": "64fa54c1",
+      "n_words": 37,
+      "n_chars": 600,
+      "preview_head": "</h1> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/form-wrapper-js\" target=\"_blank\"> <img src=\"https://img.shields.io/npm/v/form-wrapper-js.svg?style=shield\" alt=\"npm\"/> </a> <a href=\"htt",
+      "preview_tail": "nse/Nevoss/form-wrapper-js.svg\" alt=\"MIT\"/> <a href=\"(https://codecov.io/gh/Nevoss/form-wrappeHere's how you can continue formatting the readme file for Form Wrapper JS: ```markdown <p align=\"center\">",
+      "full_text": "</h1> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/form-wrapper-js\" target=\"_blank\"> <img src=\"https://img.shields.io/npm/v/form-wrapper-js.svg?style=shield\" alt=\"npm\"/> </a> <a href=\"https://www.npmjs.com/package/form-wrapper-js\" target=\"_blank\"> <img src=\"https://img.shields.io/npm/v/form-wrapper-js/next.svg?style=shield\" alt=\"npm\"/> </a> <img src=\"https://img.shields.io/github/license/Nevoss/form-wrapper-js.svg\" alt=\"MIT\"/> <a href=\"(https://codecov.io/gh/Nevoss/form-wrappeHere's how you can continue formatting the readme file for Form Wrapper JS: ```markdown <p align=\"center\">",
+      "avg_prediction": 0.4798
+    },
+    {
+      "idx": 49,
+      "hash": "df7a60d9",
+      "n_words": 66,
+      "n_chars": 410,
+      "preview_head": "connected to the drain electrodes of the MOS switches. A gate electrode of each MOS capacitor is connected to a gate electrode of the corresponding MOS switch and a corresponding output terminal of th",
+      "preview_tail": " pulse generator. Each drain electrode of MOS capacitors is commonly connected to the noise line. These signal and noise lines are respectively connected to the input terminals of the differential amp",
+      "full_text": "connected to the drain electrodes of the MOS switches. A gate electrode of each MOS capacitor is connected to a gate electrode of the corresponding MOS switch and a corresponding output terminal of the scanning pulse generator. Each drain electrode of MOS capacitors is commonly connected to the noise line. These signal and noise lines are respectively connected to the input terminals of the differential amp",
+      "avg_prediction": 0.4383
+    },
+    {
+      "idx": 50,
+      "hash": "2b86c776",
+      "n_words": 57,
+      "n_chars": 402,
+      "preview_head": "Roppongi\u2019s Mori Art Museum showcases contemporary works. The teamLab Planets digital wonder in Shibuya and the Edo Tokyo Museum in Koto provide immersive experiences. For quirky charm, Asakusa\u2019s Senga",
+      "preview_tail": "en Museum blends history with tranquility. Beyond Tokyo, Hakone\u2019s Gora Art Square features the whimsical *Le Petit Prince* exhibit, bridging urban creativity and natural serenity. To most Japanese, it",
+      "full_text": "Roppongi\u2019s Mori Art Museum showcases contemporary works. The teamLab Planets digital wonder in Shibuya and the Edo Tokyo Museum in Koto provide immersive experiences. For quirky charm, Asakusa\u2019s Sengan-en Museum blends history with tranquility. Beyond Tokyo, Hakone\u2019s Gora Art Square features the whimsical *Le Petit Prince* exhibit, bridging urban creativity and natural serenity. To most Japanese, it",
+      "avg_prediction": 0.7308
+    },
+    {
+      "idx": 51,
+      "hash": "942e61af",
+      "n_words": 50,
+      "n_chars": 309,
+      "preview_head": "ty and recovery. Areas of shared interest were identifying global trends and efficacy in supporting people in recovery from mental illness, and appreciating the work still needed for addressing the im",
+      "preview_tail": " recovery from mental illness, and appreciating the work still needed for addressing the impacts stigma has on the lives of people affected by mental illness. This visit has highlighted the value of s",
+      "full_text": "ty and recovery. Areas of shared interest were identifying global trends and efficacy in supporting people in recovery from mental illness, and appreciating the work still needed for addressing the impacts stigma has on the lives of people affected by mental illness. This visit has highlighted the value of s",
+      "avg_prediction": 0.389
+    },
+    {
+      "idx": 52,
+      "hash": "76323ff4",
+      "n_words": 190,
+      "n_chars": 1287,
+      "preview_head": "warranty. * ******************************************************************************/ /* * FBI board dependent Driver for SMT and LLC */ #include \"h/types.h\" #include \"h/fddi.h\" #include \"h/smc.",
+      "preview_tail": "ch as IEEE 802.3 MAC, commonly used in Ethernet networks for data transfer. The license notice indicates that this program is under GPL v2 - GNU General Public License version two which means it can b",
+      "full_text": "warranty. * ******************************************************************************/ /* * FBI board dependent Driver for SMT and LLC */ #include \"h/types.h\" #include \"h/fddi.h\" #include \"h/smc.h\" #include \"h/supern_2.h\" #include \"h/skfbiinc.h\" #include <linux/bitrev.h> #ifndef lint static const char ID_sccs[] = \"@(#)drvfbi.c 1.6This is a code snippet from the SysKonnect FBI board dependent driver for SMT and LLC, written in C language. The file includes several header files such as \"h/types.h\", which may define data types used by this program. The functions included are: 1) h/fddi.h: This could be related to Fiber Channel Driver Interface. 2) h/smc.h : This is likely the Serial Management Controller (SMC). 3) h/lsupern_2.c and h/skfbiinc.s - These files seem relevant as they contain code for LLC, which stands for Link Layer Control. The comments suggest that this driver supports two standards: SMT(Standard Media Technology), possibly referring to an optical storage standard (also known by the same name) like CD-R/RW or DVD\u00b1R/W; and a link layer control protocol such as IEEE 802.3 MAC, commonly used in Ethernet networks for data transfer. The license notice indicates that this program is under GPL v2 - GNU General Public License version two which means it can b",
+      "avg_prediction": 0.561
+    },
+    {
+      "idx": 53,
+      "hash": "bc1df116",
+      "n_words": 48,
+      "n_chars": 310,
+      "preview_head": "d (2016) I was selected among undergraduate and graduate applicants to collaborate on a game slice in a game industry simulation course. As a programmer, my responsibilities included developing the me",
+      "preview_tail": "ndustry simulation course. As a programmer, my responsibilities included developing the mechanics for particle effects using C++ with an emphasis on generation of sand particles within Unreal Engine 4",
+      "full_text": "d (2016) I was selected among undergraduate and graduate applicants to collaborate on a game slice in a game industry simulation course. As a programmer, my responsibilities included developing the mechanics for particle effects using C++ with an emphasis on generation of sand particles within Unreal Engine 4",
+      "avg_prediction": 0.4432
+    },
+    {
+      "idx": 54,
+      "hash": "1d7b51f5",
+      "n_words": 176,
+      "n_chars": 1298,
+      "preview_head": "f missing carotenoid in reducing the fluorescence of single monomeric photosystem II core complexes. The fluorescence of monomeric photosystem II core complexes (mPSIIcc) of the cyanobacterium Thermos",
+      "preview_tail": "in dSPllc but not mlPlIc structures because they lack these particular chromophores altogether; thus resulting in lower signal strength from individual molecules compared with dimeric assemblies where",
+      "full_text": "f missing carotenoid in reducing the fluorescence of single monomeric photosystem II core complexes. The fluorescence of monomeric photosystem II core complexes (mPSIIcc) of the cyanobacterium Thermosynechococcus elongatus, originating from redissolved crystals, is investigated by using single-molecule spectroscopy (SMS) at 1.6 K. The emission spectra of individual mPSIIcc are dominated by sharp zero-phonon lines, showing the existence of different emitters compatible with the F685, F689, and F695 bands reported formerly. The intensity of F695 is reduced in single mPSIIcc as compared to single PSIIcc-dimers (dPSIIcc). Crystal structures show that one of the \u03b2-carotene (\u03b2-Car) cofactors located at the monomer-monomer interface iinterface, a specific carotenoid molecule called 9',19'-cis \u03b1/\u03b3 dihydrodicyclic xanthophyll is missing in mPSIIcc. This absence leads to reduced fluorescence intensity of F695 due its role as an efficient quencher for the nearby chlorophylls' excited states at this site, which would otherwise contribute significantly towards overall emission when present within dSPllc but not mlPlIc structures because they lack these particular chromophores altogether; thus resulting in lower signal strength from individual molecules compared with dimeric assemblies where",
+      "avg_prediction": 0.3536
+    },
+    {
+      "idx": 55,
+      "hash": "41087d4a",
+      "n_words": 113,
+      "n_chars": 646,
+      "preview_head": "ocusing on elite category rental listings. We aim for a personalized experience by handling only six properties at any given time, ensuring detailed attention and exceptional results tailored just for",
+      "preview_tail": "E \u2013 THIS WILL ENSURE THAT YOU ARE BEING GIVEN ALL THE ATTENTION TO DETAIL THAT YOU AND YOUR PROPERTY REQUIRE TO ACHIEVE THE RESULT THAT YOU ARE HAPPY WITH TO THE BEST OF OUR ABILITY A refreshingly new",
+      "full_text": "ocusing on elite category rental listings. We aim for a personalized experience by handling only six properties at any given time, ensuring detailed attention and exceptional results tailored just for you. IF YOU HAVE A PROPERTY THAT YOU BELIEVE IS IN THE ELITE CATEGORY AND YOU ARE CONSIDERING RENTING IT OUT ON THE PERMANENT RENTAL MARKET, PLEASE CONTACT LUMA AND SHE WILL LOOK AFTER YOUR INVESTMENT PROPERTY. WE ONLY SELL 6 PROPERTIES AT A TIME \u2013 THIS WILL ENSURE THAT YOU ARE BEING GIVEN ALL THE ATTENTION TO DETAIL THAT YOU AND YOUR PROPERTY REQUIRE TO ACHIEVE THE RESULT THAT YOU ARE HAPPY WITH TO THE BEST OF OUR ABILITY A refreshingly new",
+      "avg_prediction": 0.3629
+    },
+    {
+      "idx": 56,
+      "hash": "baa41e1a",
+      "n_words": 147,
+      "n_chars": 922,
+      "preview_head": "uld shape the future of Philadelphia's education system. The takeover was a response to the district's chronic issues, including declining academic performance, financial mismanagement, and a lack of ",
+      "preview_tail": "e coming yearS. August 2002 I move to Philadelphia immediately after graduating from college. I really want to be a teacher, but am not certified. 2003 I apply to be a \u201cLiteracy Intern\u201d with the phila",
+      "full_text": "uld shape the future of Philadelphia's education system. The takeover was a response to the district's chronic issues, including declining academic performance, financial mismanagement, and a lack of effective leadership. The SRC's mandate was to implement a series of reforms designed to address these issues, including the closure of underperforming schools, the opening of new schools, and the introduction of new academic programs. The reforms were met with both support and resistance, as stakeholders debated the best path forward for the district. The takeover and the establishment of the SRC were seen as a critical moment for the district, setting the stage for the challenges and changes that would unfold in the coming yearS. August 2002 I move to Philadelphia immediately after graduating from college. I really want to be a teacher, but am not certified. 2003 I apply to be a \u201cLiteracy Intern\u201d with the phila",
+      "avg_prediction": 0.6221
+    },
+    {
+      "idx": 57,
+      "hash": "cb3a47ea",
+      "n_words": 152,
+      "n_chars": 976,
+      "preview_head": "ability not only conduct censuses but also define population and ensure that such data is collected following specific rules outlined within Schedule II of DOPR. This legislation ensures a transparent",
+      "preview_tail": "ion. It also requires that censuses be conducted in accordance with a training manual approved by the Minister of AMA, and submission of the results to AMA before September 1 of the same year in which",
+      "full_text": "ability not only conduct censuses but also define population and ensure that such data is collected following specific rules outlined within Schedule II of DOPR. This legislation ensures a transparent process where municipalities have the autonomy to determine their own populations, yet they are subject to federal standards for census conducting procedures. The schedule specifically dictates certain guidelines including setting dates during April 1st - June 30th annually and submitting final results before September each year in which data is collected. The DOPR provides a three-month period for municipalities to conduct censuses, which begins on April 1 and ends on June 30, and requires the municipalities to set a census date within this period relating to enumeration. It also requires that censuses be conducted in accordance with a training manual approved by the Minister of AMA, and submission of the results to AMA before September 1 of the same year in which",
+      "avg_prediction": 0.5021
+    },
+    {
+      "idx": 58,
+      "hash": "5a01d1a0",
+      "n_words": 58,
+      "n_chars": 466,
+      "preview_head": "of microbial abundances in each sample. Common to these ordination methods is the use of biologically motivated definitions of similarity. Principal coordinate analysis, in particular, is often perfor",
+      "preview_tail": "orporate context-dependent, non-Euclidean structure. In this paper, we go beyond dimension-reduced ordination methods and describe a framework of high-dimensional regression modelsThe human microbiome",
+      "full_text": "of microbial abundances in each sample. Common to these ordination methods is the use of biologically motivated definitions of similarity. Principal coordinate analysis, in particular, is often performed using ecologically defined distances, allowing analyses to incorporate context-dependent, non-Euclidean structure. In this paper, we go beyond dimension-reduced ordination methods and describe a framework of high-dimensional regression modelsThe human microbiome",
+      "avg_prediction": 0.4552
+    },
+    {
+      "idx": 59,
+      "hash": "b2ead813",
+      "n_words": 302,
+      "n_chars": 1811,
+      "preview_head": "complete your text! Here are the possible completions for each line: 1. My Account: Register | Login 2. Offers: View all offers | Latest deals 3. School Books: NCERT books | UP state board books | DPS",
+      "preview_tail": " Online test series 16. Maharashtra State Board: Class 1 to class 12 textbooks | Study materials | Question banks | Previous year papers | Online test series 17. MH State Board Class [blank]: Textbook",
+      "full_text": "complete your text! Here are the possible completions for each line: 1. My Account: Register | Login 2. Offers: View all offers | Latest deals 3. School Books: NCERT books | UP state board books | DPS-Nerul books 4. Children Books: Pre-school books | Play group books | Nursery books | Jr.Kg/LKG books | Sr.Kg/UKG books 5. Up to 2 Years: Soft toys | Baby clothes | Diapering essentials | Feeding bottles | Toiletries 6. 3 to 5 Years: Learning aids | Activity books | Storybooks | Coloring books | Puzzle games 7. 6 to 8 Years: Textbooks | Worksheets | Assessment papers | Study materials | Educational software 8. 9 to 12 Years: Novels | Reference books | Entrance exams preparation | Subject-wise study materials | Online tutoring resources 9. Above 12 Years: Competitive examination books | University textbooks | Professional reference books | Career guidance resources | Scholarship information 10. Pre-School: Nursery rhymes | Alphabet songs | Phonics practice | Number tracing | Shape and color recognition 11. Play Group: Fun activities | Storytelling sessions | Rhyme recitation | Show and tell | Art and craft projects 12. Jr.Kg/LKG: Reading comprehension | Writing skills | Basic math concepts | Science experiments | Social studies exploration 13. Sr.Kg/UKG: Advanced reading | Writing assignments | Math problem-solving | Science fair project ideas | History and geography lessons 14. CBSE: Class 1 to class 12 textbooks | Study materials | Question banks | Previous year papers | Online test series 15. ICSE: Class 1 to class 12 textbooks | Study materials | Question banks | Previous year papers | Online test series 16. Maharashtra State Board: Class 1 to class 12 textbooks | Study materials | Question banks | Previous year papers | Online test series 17. MH State Board Class [blank]: Textbook",
+      "avg_prediction": 0.6206
+    },
+    {
+      "idx": 60,
+      "hash": "7ef0ad85",
+      "n_words": 233,
+      "n_chars": 1337,
+      "preview_head": "much for your time, Mark. That was great. Mark: Thanks, Jo. Tweet Share64 Pin3 Share6 Stumble1 +13 Share2 Email Pocket Buffer20 Reddit Shares 99 Filed Under: Marketing and Promotion Tagged With: faceb",
+      "preview_tail": "u do for indies. It is very much appreciated out here. Reply Joanna Penn says June 6, 2016 at 9:17 am Thanks Marion and I cover it in the mindset book \u2013 and will definitely consider it for the podcast",
+      "full_text": "much for your time, Mark. That was great. Mark: Thanks, Jo. Tweet Share64 Pin3 Share6 Stumble1 +13 Share2 Email Pocket Buffer20 Reddit Shares 99 Filed Under: Marketing and Promotion Tagged With: facebook, facebook ads, facebook marketing Comments Marion Hill says June 6, 2016 at 8:50 am Excellent interview with Mark Dawson again. Good advice on Facebook advertising. Also, I want to comment about your introduction when you mentioned about author validation especially for a lot of authors who want to go to the traditionally published route. This is an important conversation that needs to happen for indie authors. The validation of seeing your books in Barnes & Noble, Books-A-Million, and even indie bookstores is a big deal to a lot of authors. As well as getting recognized for genre and literary fiction awards from the HUGO to National Book Awards\u2026.is a dream for many authors. And if you go indie, you will not have that kind of recognition. And that will keep a lot of authors from going indie. I would love to see a podcast about this author validation issue and what we are truly writing for. Thanks again Joanna for all you do for indies. It is very much appreciated out here. Reply Joanna Penn says June 6, 2016 at 9:17 am Thanks Marion and I cover it in the mindset book \u2013 and will definitely consider it for the podcast",
+      "avg_prediction": 0.0565
+    },
+    {
+      "idx": 61,
+      "hash": "1fa80f4f",
+      "n_words": 111,
+      "n_chars": 637,
+      "preview_head": "Adolphe-Joseph-Louis Alizard (29 December 1814 \u2013 23 January 1850) was a French bass-baritone. He was born in Paris. He began his musical career as a pupil of Chr\u00e9tien Urhan on the violin; but his mast",
+      "preview_tail": "ng at the opera in Paris for five years he was still considered too high by the Parisian Opera, Alizard decided to lower his vocal range by taking a cold or inhaling chemicals to reduce his vocal cord",
+      "full_text": "Adolphe-Joseph-Louis Alizard (29 December 1814 \u2013 23 January 1850) was a French bass-baritone. He was born in Paris. He began his musical career as a pupil of Chr\u00e9tien Urhan on the violin; but his master accidentally discovered that he had a remarkably fine voice and persuaded him to abandon his instrument and enter the Paris Conservatoire as a pupil of David Banderali. His voice was naturally a deep bass, but finding that after singing at the opera in Paris for five years he was still considered too high by the Parisian Opera, Alizard decided to lower his vocal range by taking a cold or inhaling chemicals to reduce his vocal cord",
+      "avg_prediction": 0.4509
+    },
+    {
+      "idx": 62,
+      "hash": "da1886a2",
+      "n_words": 98,
+      "n_chars": 498,
+      "preview_head": "this vision: Behold, He was calling for a judgment by fire; and it devoured the great deep, and would have eaten up the land. 5 But I said, \"Lord Yahweh, cease please! How could Jacob stand? For he is",
+      "preview_tail": "he Lord stood beside a wall made by a plumb line, with a plumb line in his hand. 8Yahweh said to me, \u201cAmos, what do you see?\u201d I said, \u201cA plumb line.\u201d Then the Lord said, \u201cBehold, I will set a plumb li",
+      "full_text": "this vision: Behold, He was calling for a judgment by fire; and it devoured the great deep, and would have eaten up the land. 5 But I said, \"Lord Yahweh, cease please! How could Jacob stand? For he is small.\" 6 And so, Yahweh also relented concerning this disaster. 7Thus he showed me and behold, the Lord stood beside a wall made by a plumb line, with a plumb line in his hand. 8Yahweh said to me, \u201cAmos, what do you see?\u201d I said, \u201cA plumb line.\u201d Then the Lord said, \u201cBehold, I will set a plumb li",
+      "avg_prediction": 0.46
+    },
+    {
+      "idx": 63,
+      "hash": "6818287e",
+      "n_words": 155,
+      "n_chars": 1123,
+      "preview_head": "for two months results in minor structural alterations observed through research with the aid EM. After further examination of dendrites and Fos-immunoreactivity after hypoxia-reoxygenation, we had si",
+      "preview_tail": "n environment containing either no hydrogen (F/2) versus normative atmospheric conditions where reoxygenation may happen; this finding indicates that hyporeactivity following acute and prolonged expos",
+      "full_text": "for two months results in minor structural alterations observed through research with the aid EM. After further examination of dendrites and Fos-immunoreactivity after hypoxia-reoxygenation, we had significant alterations compared those that were exposed transiently or continuously during a limited period span to 40% oxygen concentration for two months; there was an decrease in length density due mostly toward the nucleus tractus solitarii dendritic arbor but not other corresponding characteristics such as number of junction points between filopodia and branched spine complexity ratio were measured. Simultaneously, this acute exposure only altered physiological properties compared to sham group which comprised unexposed organisms in a hyperoxic environment during the same time period without large alterations being seen at any level with regards for length density or other parameters measured post 12 km into an environment containing either no hydrogen (F/2) versus normative atmospheric conditions where reoxygenation may happen; this finding indicates that hyporeactivity following acute and prolonged expos",
+      "avg_prediction": 0.4488
+    },
+    {
+      "idx": 64,
+      "hash": "a1533873",
+      "n_words": 95,
+      "n_chars": 724,
+      "preview_head": "they offer quality assurance, fleet services, and logistic supportpackages. The company's safety and training services are also noteworthy, encompassing operational and safety training. Notably, MST h",
+      "preview_tail": "e andprotectassets throughout Ireland\u2019s enormous and rich maritime jurisdiction. Also of concern are the growing international problems ofpeople and arms smuggling and the importation of illegaldrugs ",
+      "full_text": "they offer quality assurance, fleet services, and logistic supportpackages. The company's safety and training services are also noteworthy, encompassing operational and safety training. Notably, MST has successfully delivered training to the Irish Naval Service, and their 800 Seaboat has proven to be an ideal choice for patrolling Ireland's vast and complex maritimejurisdiction. The roleof the Irish Naval Service is to defend its territorial seas,deter intruders andaggressors,conductsurveillance, ensure right of passage andprotectassets throughout Ireland\u2019s enormous and rich maritime jurisdiction. Also of concern are the growing international problems ofpeople and arms smuggling and the importation of illegaldrugs ",
+      "avg_prediction": 0.446
+    },
+    {
+      "idx": 65,
+      "hash": "66d02e01",
+      "n_words": 133,
+      "n_chars": 725,
+      "preview_head": "sold in France. Located near Le Mans. \u20ac4500 ovno Ifor Williams HR505 Page 1 of 1 Similar topics Similar topics \u00bb Gold Coast RESULTS - Davies 10.41 & Mitch Williams 10.46 \u00bb Ian Williams \u00bb DANE WILLIAMS",
+      "preview_tail": ":: Horsey Chat :: Misc Equine items for sale Jump to: Select a forum||--Horsey Chat| |--Members BLOGS :-)| |--Tips + Useful info or Need Advice ?| |--What's On ?| |--New and Secondhand Tack for Sale &",
+      "full_text": "sold in France. Located near Le Mans. \u20ac4500 ovno Ifor Williams HR505 Page 1 of 1 Similar topics Similar topics \u00bb Gold Coast RESULTS - Davies 10.41 & Mitch Williams 10.46 \u00bb Ian Williams \u00bb DANE WILLIAMS( NOTRE DAME) OR BRANDON TULL( PICKERING) \u00bb Stawell Champ, Mitch Williams runs 10.42 in Hobart \u00bb Niners Kyle Williams Permissions in this forum: You cannot reply to topics in this forum Horse Lovers Forum ( Founded 2010 ) ( CLOSED ) :: Horsey Chat :: Misc Equine items for sale Horse Lovers Forum ( Founded 2010 ) ( CLOSED ) :: Horsey Chat :: Misc Equine items for sale Jump to: Select a forum||--Horsey Chat| |--Members BLOGS :-)| |--Tips + Useful info or Need Advice ?| |--What's On ?| |--New and Secondhand Tack for Sale &",
+      "avg_prediction": 0.3372
+    },
+    {
+      "idx": 66,
+      "hash": "22b3befb",
+      "n_words": 238,
+      "n_chars": 1845,
+      "preview_head": "of transmembrane proteins involved in the formation of gap junctions, specific intercellular channels, in invertebrates. Analyses of the Analyses of the innexin genes have revealed an interesting pote",
+      "preview_tail": "y creating feedback loops that enhance stabilityand responsiveness to external signals or environmental changes. This flip-flop genetic regulation could bea sophisticated way in which innexin genes c ",
+      "full_text": "of transmembrane proteins involved in the formation of gap junctions, specific intercellular channels, in invertebrates. Analyses of the Analyses of the innexin genes have revealed an interesting potential regulatory flip-flop genetic mechanism that could control reciprocal gene expression patterns during development andtissue differentiation. This proposed mechanism involves apair or cluster of closely linked but oppositely oriented (head-to-tail) innexingenes. Thekey feature is the presence of overlapping, bidirectional promoters between these paired genes. These promoters can drive transcription in both directions: 1. Bidirectional Transcription Initiation: When one promoter initiatestranscription fromits start site towards the other gene, it simultaneously represses or inhibits the initiation at the opposite promoter due tophysical interference. 2. Reciprocal Expression Patterns: This setup allows for a reciprocal expressionpattern where increased activity of one innexin gene leads to decreased activity of the adjacent gene and vice versa. Such regulation can be crucial during developmental processes, ensuring that specific cell types or tissues express appropriate levels of each protein at different stages. 3. Epigenetic Regulation: The flip-flop mechanism might also involve epigeneticmodificationssuch as DNA methylation or histone modification to further stabilize the expression states and ensure long-term commitment to a particular gene activity pattern.4. Feedback Loops: Additional regulatory elements,including microRNAs (miRNAs) that target one of the transcripts for degradation,can fine-tune this mechanism by creating feedback loops that enhance stabilityand responsiveness to external signals or environmental changes. This flip-flop genetic regulation could bea sophisticated way in which innexin genes c ",
+      "avg_prediction": 0.5613
+    },
+    {
+      "idx": 67,
+      "hash": "aeb49935",
+      "n_words": 51,
+      "n_chars": 270,
+      "preview_head": "as a senior, Mia was a freshman. Brice protected her like a hawk, warning all his friends to stay away from her. Dagger, being the good friend he was, respected Brice's wishes. But it didn't mean he d",
+      "preview_tail": "ing all his friends to stay away from her. Dagger, being the good friend he was, respected Brice's wishes. But it didn't mean he didn't notice her. Oh, he noticed her, all right. He just didn't act on",
+      "full_text": "as a senior, Mia was a freshman. Brice protected her like a hawk, warning all his friends to stay away from her. Dagger, being the good friend he was, respected Brice's wishes. But it didn't mean he didn't notice her. Oh, he noticed her, all right. He just didn't act on",
+      "avg_prediction": 0.5507
+    },
+    {
+      "idx": 68,
+      "hash": "ca52130c",
+      "n_words": 58,
+      "n_chars": 380,
+      "preview_head": "= { qn: a, points: curretnAnswerPoint }; qnsAnsArray.push(qnAnswer); and the value getting in the array is qnsAnsArray =[ Object { qn=0, points=\"2\"}, Object { qn=1, points=\"2\"}, Object { qn=2, points=",
+      "preview_tail": "ject { qn=2, points=\"6\"}, Object { qn=2, points=\"2\"}, Here is how you can check for duplicate values in an array using jQuery: ```javascript // Assuming your array is named qnsAnsArray var qnsAnsArray",
+      "full_text": "= { qn: a, points: curretnAnswerPoint }; qnsAnsArray.push(qnAnswer); and the value getting in the array is qnsAnsArray =[ Object { qn=0, points=\"2\"}, Object { qn=1, points=\"2\"}, Object { qn=2, points=\"6\"}, Object { qn=2, points=\"2\"}, Here is how you can check for duplicate values in an array using jQuery: ```javascript // Assuming your array is named qnsAnsArray var qnsAnsArray",
+      "avg_prediction": 0.5423
+    },
+    {
+      "idx": 69,
+      "hash": "2d616150",
+      "n_words": 103,
+      "n_chars": 568,
+      "preview_head": "y? A: .NET 1.1 can't load .NET 2.0 assemblies, because the internal format changed. Your app will basically think that the assembly isn't a .NET assembly. Long term, it would be a good idea to update ",
+      "preview_tail": "a .config file for your executable, and tell the CLR to always use .NET 2.0 when running your app. This should allow for the .NET 2.0 assembly to load, however any breaking changes between .NET 1.1 an",
+      "full_text": "y? A: .NET 1.1 can't load .NET 2.0 assemblies, because the internal format changed. Your app will basically think that the assembly isn't a .NET assembly. Long term, it would be a good idea to update your application to use .NET 2.0 (if not something newer, since there are multiple versions of .NET since 2.0 now). However, if that is not an option, you could create a .config file for your executable, and tell the CLR to always use .NET 2.0 when running your app. This should allow for the .NET 2.0 assembly to load, however any breaking changes between .NET 1.1 an",
+      "avg_prediction": 0.4501
+    },
+    {
+      "idx": 70,
+      "hash": "f73b344c",
+      "n_words": 53,
+      "n_chars": 288,
+      "preview_head": "old newspapers dating back to the early 1900's and old wine and sherry bottles. Speaking of the find Matthew Lathan, who also managed to squeeze down, said: \"We only discovered it because we were drun",
+      "preview_tail": " of the find Matthew Lathan, who also managed to squeeze down, said: \"We only discovered it because we were drunkenly fooling around and decided to have a look at what was beneath the grid - It was am",
+      "full_text": "old newspapers dating back to the early 1900's and old wine and sherry bottles. Speaking of the find Matthew Lathan, who also managed to squeeze down, said: \"We only discovered it because we were drunkenly fooling around and decided to have a look at what was beneath the grid - It was am",
+      "avg_prediction": 0.4141
+    },
+    {
+      "idx": 71,
+      "hash": "7c01323f",
+      "n_words": 93,
+      "n_chars": 734,
+      "preview_head": "<constructor-arg index=\"37\" > <ref bean=\"....\" /> <constructor-arg index=\"38\" > <ref bean=\"....\" /> <constructor-arg index=\"39\" > <ref bean=\"....\" /> <constructor-arg index=\"40\" > <ref bean=\"....\" /> ",
+      "preview_tail": " bean=\"....\" Also, it appears that the generated Stub can accept existing configuration object via the constructor. So, the following Spring configuration helped us to solve the issue (irrelevant bean",
+      "full_text": "<constructor-arg index=\"37\" > <ref bean=\"....\" /> <constructor-arg index=\"38\" > <ref bean=\"....\" /> <constructor-arg index=\"39\" > <ref bean=\"....\" /> <constructor-arg index=\"40\" > <ref bean=\"....\" /> <constructor-arg index=\"41\" > <ref bean=\"....\" /> <constructor-arg index=\"42\" > <ref bean=\"....\" /> <constructor-arg index=\"43\" > <ref bean=\"....\" /> <constructor-arg index=\"44\" > <ref bean=\"....\" /> <constructor-arg index=\"45\" > <ref bean=\"....\" /> <constructor-arg index=\"46\" > <ref bean=\"....\" /> <constructor-arg index=\"47\" > <ref bean=\"....\" Also, it appears that the generated Stub can accept existing configuration object via the constructor. So, the following Spring configuration helped us to solve the issue (irrelevant bean",
+      "avg_prediction": 0.4663
+    },
+    {
+      "idx": 72,
+      "hash": "da11b0f6",
+      "n_words": 224,
+      "n_chars": 1435,
+      "preview_head": "(HD, 58%), peritoneal dialysis (PD, 28%), anda combinationof both (14%). The 15D HRQoLscores were calculated for each patient, with higher scores indicating better HRQoL. Before KT, the mean 15D score",
+      "preview_tail": "lity of life, with patients whowere on peritoneal dialysis before transplantation benefiting the most. Additionally, adherence to medication after transplantation is crucial formaintaining good HRQoL ",
+      "full_text": "(HD, 58%), peritoneal dialysis (PD, 28%), anda combinationof both (14%). The 15D HRQoLscores were calculated for each patient, with higher scores indicating better HRQoL. Before KT, the mean 15D score was 0.80 \u00b1 0.14. After KT, the mean score improved significantly to 0.88 \u00b1 0.11 (p < 0.001). The improvement was seen across all 15 dimensions of the 15Dinstrument, with the most significant gains in dimensions related to physical functioning, such as mobility, vision, and breathing.When comparing the improvement in HRQoL after KT between thedialysis modalities, patients who were on PD before KTshowed the most significant improvement (0.91 \u00b1 0.09 after KT, p < 0.001 compared to beforeKT), followed by patients onHD (0.87 \u00b1 0.11 after KT, p< 0.001), and patientson a combination of HD and PD (0.84 \u00b1 0.10 after KT, p < 0.01).Adherence to medication after KT was also found to play a role in HRQoL. Patients who reported taking their medication as prescribed (88% of thecohort) had a mean 15D score of 0.89 \u00b1 0.10 after KT, compared to 0.83 \u00b1 0.12 for those who reported not always taking their medicationas prescribed (p < 0.05). In conclusion, our study shows that kidney transplantation significantly improves health-related quality of life, with patients whowere on peritoneal dialysis before transplantation benefiting the most. Additionally, adherence to medication after transplantation is crucial formaintaining good HRQoL ",
+      "avg_prediction": 0.6278
+    },
+    {
+      "idx": 73,
+      "hash": "cd819da0",
+      "n_words": 111,
+      "n_chars": 651,
+      "preview_head": "Stats: 2,740,162 members, 6,498,409 topics. Date: Monday, 20 September 2021 at 12:59 PM What Should I Do? Help - TV/Movies - Nairaland Nairaland Forum / Entertainment / TV/Movies / What Should I Do? H",
+      "preview_tail": "he point, is we have agreed, I already have a stage name for the series I want to create, and he is suggesting using a new name. I dondon't know what's best at this moment because on one hand it feels",
+      "full_text": "Stats: 2,740,162 members, 6,498,409 topics. Date: Monday, 20 September 2021 at 12:59 PM What Should I Do? Help - TV/Movies - Nairaland Nairaland Forum / Entertainment / TV/Movies / What Should I Do? Help (109 Views) (2) (3) (4) (1) (Reply) What Should I Do? Help by TheOldGods: 9:23am On Jun 28 Previous thread https://www.nairaland.com/6621597/how-boss-partnership-business I'm confused, I met up with a person to partner with him to create movies. The point, is we have agreed, I already have a stage name for the series I want to create, and he is suggesting using a new name. I dondon't know what's best at this moment because on one hand it feels",
+      "avg_prediction": 0.3158
+    },
+    {
+      "idx": 74,
+      "hash": "c76e5dbe",
+      "n_words": 141,
+      "n_chars": 1008,
+      "preview_head": "compression at this level (Fig. 2). The lesion was attached to the dorsal spinal cord surface by thin fibrous tissue that could not be dissected away from the surrounding parenchyma. Histopathological",
+      "preview_tail": "e of their similar radiographic appearances on CT scans and myelograms, especially in patients without neurological deficits.[4] Magnetic resonance imaging may be the only method that can identify the",
+      "full_text": "compression at this level (Fig. 2). The lesion was attached to the dorsal spinal cord surface by thin fibrous tissue that could not be dissected away from the surrounding parenchyma. Histopathological examination of the surgical specimen showed a lipoma surrounded by loose fibrous tissue without any nerve fibers or neural tissue (Fig. 3). Postoperatively, the patient's motor power improved gradually and returned to normal in 2 weeks; however, Babinski's sign remained positive bilaterally. ## Discussion Lipomas are relatively uncommon tumors in intradural-extramedullary locations.[3] Intradural cervical subpial lipoma with parenchymal marginal fibrous tissue has not been reported previously. It is difficult to differentiate an intradural spinal cord tumor from a subpial lipoma preoperatively because of their similar radiographic appearances on CT scans and myelograms, especially in patients without neurological deficits.[4] Magnetic resonance imaging may be the only method that can identify the",
+      "avg_prediction": 0.4891
+    },
+    {
+      "idx": 75,
+      "hash": "cb2574b6",
+      "n_words": 43,
+      "n_chars": 289,
+      "preview_head": "pale floral chintz may convey a southern beach house feel, but the casual elegance of this 1,200-square-foot one-bedroom garden hideaway on a beautiful West Village block extends the charm of a bygone",
+      "preview_tail": "s 1,200-square-foot one-bedroom garden hideaway on a beautiful West Village block extends the charm of a bygone era, with its beautifully restored 19th-century details, including exposed brick, wooden",
+      "full_text": "pale floral chintz may convey a southern beach house feel, but the casual elegance of this 1,200-square-foot one-bedroom garden hideaway on a beautiful West Village block extends the charm of a bygone era, with its beautifully restored 19th-century details, including exposed brick, wooden",
+      "avg_prediction": 0.4465
+    },
+    {
+      "idx": 76,
+      "hash": "432104ad",
+      "n_words": 162,
+      "n_chars": 1057,
+      "preview_head": "the documentation that students have met predetermined learning outcomes. 3. To institutional assessment efforts and accrediting agencies: Pressures on institutions of higher education for assessment ",
+      "preview_tail": "can answer this question by looking at the final learning product, the assessable Learning Artifact. Based on your evaluation of this product, you should be able to determine achievement of the outcom",
+      "full_text": "the documentation that students have met predetermined learning outcomes. 3. To institutional assessment efforts and accrediting agencies: Pressures on institutions of higher education for assessment of learning continue to increase. Also, accreditation agencies are assuming more of the responsibility for stimulating and monitoring assessment. Thus we can use the data we gather to report on student learning both to our institutions and to accrediting agencies. 2.8. Crafting the Assessment Question As you prepare to select and then implement a LAT, it is important to know, What is the question you are asking about student learning? Here are some examples of the kinds of questions you might consider. 1. To what extent has the learning been successful? That is, how well can students demonstrate accomplishment of the learning outcome? You typically can answer this question by looking at the final learning product, the assessable Learning Artifact. Based on your evaluation of this product, you should be able to determine achievement of the outcom",
+      "avg_prediction": 0.3978
+    },
+    {
+      "idx": 77,
+      "hash": "fdfbb997",
+      "n_words": 117,
+      "n_chars": 689,
+      "preview_head": "As for Qt, Qt is a cross platform library for Graphics and backend database management, and can support features such as websockets. Qt Cloud can support a shared database, with sync and is cross plat",
+      "preview_tail": "ly well. I'm not sure what you think of python, but I ran across this project a while back and I think it is relevant: http://www.python-camelot.com/ Websockets and other technologies are leveraged by",
+      "full_text": "As for Qt, Qt is a cross platform library for Graphics and backend database management, and can support features such as websockets. Qt Cloud can support a shared database, with sync and is cross platform. Cloud options is a consideration for a shared database. QML is a scripting layer for making easy to iterate frontends for Qt. Often heavy tasks need to be connected back to C++, but QML and Qt Quick are maturing quickly. They also leverage the scenegraph usage of graphics cards really well. I'm not sure what you think of python, but I ran across this project a while back and I think it is relevant: http://www.python-camelot.com/ Websockets and other technologies are leveraged by",
+      "avg_prediction": 0.4301
+    },
+    {
+      "idx": 78,
+      "hash": "920f9057",
+      "n_words": 65,
+      "n_chars": 398,
+      "preview_head": "Whitehouse instagram page NewSletter Sign Up Home News Speeches 09.16.15 Time to Wake Up: 2014 Set Records for Global Temperatures, Sea Level Rise and Retreating Glaciers Mr. President, I am here toda",
+      "preview_tail": "day for the 111th time in my \u201cTime to Wake Up\u201d series For updates on COVID-19, CLICK HERE Skip to primary navigation Skip to content \u00d7Close About Services Agency Assistance Success Stories Grants Flag",
+      "full_text": "Whitehouse instagram page NewSletter Sign Up Home News Speeches 09.16.15 Time to Wake Up: 2014 Set Records for Global Temperatures, Sea Level Rise and Retreating Glaciers Mr. President, I am here today for the 111th time in my \u201cTime to Wake Up\u201d series For updates on COVID-19, CLICK HERE Skip to primary navigation Skip to content \u00d7Close About Services Agency Assistance Success Stories Grants Flag",
+      "avg_prediction": 0.4065
+    },
+    {
+      "idx": 79,
+      "hash": "98d77ee0",
+      "n_words": 331,
+      "n_chars": 2133,
+      "preview_head": "t that a doctor believes should take place in the facility in which they were initially admitted. Gag Rules. H.R. 4250 only prohibits gags on physicians in direct contract with a plan. The majority of",
+      "preview_tail": " cases. Expansion of Medical Savings Accounts (MSAs). H.R. 4250 would subvert the MSA demonstration project enacted in the Health Insurance Portability and Accountability Act of 1996. Under H.R. 4250,",
+      "full_text": "t that a doctor believes should take place in the facility in which they were initially admitted. Gag Rules. H.R. 4250 only prohibits gags on physicians in direct contract with a plan. The majority of doctors, however, contract with plans through medical groups, third party administrators, or other arrangements. Therefore, there are no prohibitions of gag rules for most contracts. External appeals. We are extremely concerned that the external appeals in H.R. 4250 are only advisory -- not binding. The right to an appeal is meaningless if health plans can disregard these decisions. Moreover, patients would be required to pay a fee to participate in an appeals process, up to $100. Consumers should be able to address serious grievances without having to pay. In addition, the plan would be allowed to develop its own definition of medical necessity making it extremely difficult for an enrollee to prevail on appeal. Insufficient enforcement provision. The enforcement mechanism in this legislation is insufficient as it gives little or no recourse to patients who are injured or who die because of a health plan's actions. The proposed $250 per day penalties are wholly insufficient for patients who suffer serious harm or even death because of a wrongful action by a health plan. Third, H.R. 4250 contains provisions that have nothing to do with patients' rights and only serve to reduce the likelihood that an acceptable agreement can be reached on this important issue. Recognizing our concerns with these provisions, the Congress agreed as recently as last year to keep them off bipartisan legislation -- specifically, the Balanced Budget Act of 1997. These provisions include: Caps on medical malpractice awards and limits on malpractice actions. While the Administration has consistently supported medical malpractice reforms, it opposes federally imposed caps on punitive and non-economic damages in medical malpractice cases. Expansion of Medical Savings Accounts (MSAs). H.R. 4250 would subvert the MSA demonstration project enacted in the Health Insurance Portability and Accountability Act of 1996. Under H.R. 4250,",
+      "avg_prediction": 0.2269
+    },
+    {
+      "idx": 80,
+      "hash": "82485690",
+      "n_words": 194,
+      "n_chars": 1545,
+      "preview_head": "actin in the cells was not affected by the treatment as shown by immunoblot analysis (data no shown).![Effect of SP-10 on actin localization.Y-1 cells grown on coverslips were treated withSP-10 for 48",
+      "preview_tail": "y adrenal steroid formation. 20\u03b1-hydroxyprogesterone, which results from the conversion of progesterone by20\u03b1-hydroxylase, is the major steroid formed inthese cells \\[[@B30-molecules-14-03392]\\].Here ",
+      "full_text": "actin in the cells was not affected by the treatment as shown by immunoblot analysis (data no shown).![Effect of SP-10 on actin localization.Y-1 cells grown on coverslips were treated withSP-10 for 48 h, then washed with PBS and fixed in 4% paraformaldehyde.The cell membranes were permeabilized with 0.1%Triton X-100, thenstained with Alexa Fluor 488 phalloidin for F-actin(Green) and Alexa Fluor 594 Deoxyribonuclease I (red) for G-actin. Nuclear DAPI staining (blue; A), F-actin (B) and G-actin (C) localization in control and SP-10 treated cellsare shown in the toppanels. Panel D shows merged images ofF- and G- actin localization. Arrows indicate changes in F-actin distribution. Cells numbered from1 to 5 on panel Cwere used for F-actinand G-actin fluorescence quantification.](molecules-14-03392-g009){#molecules-14-03392-f009}![SubmembraneF-actin and cytosolic G-actin quantification. The quantification was performedusingNIG ImageJ software on five representative cellsof each group, control and SP-10-treated,as numbered on [Figure 9](#molecules-14-03392-f009){ref-type=\"fig\"} panel C. Results are presented asmeans \u00b1 SD (n= 5 for each group). (\\*\\* p\\< 0.01 versus control group, t-test).](molecules-14-03392-g010){#molecules-14-03392-f010} 3. Discussion ============= Y-1 mouse adrenal tumor cells have been extensively used to study adrenal steroid formation. 20\u03b1-hydroxyprogesterone, which results from the conversion of progesterone by20\u03b1-hydroxylase, is the major steroid formed inthese cells \\[[@B30-molecules-14-03392]\\].Here ",
+      "avg_prediction": 0.4328
+    },
+    {
+      "idx": 81,
+      "hash": "5d0d9275",
+      "n_words": 67,
+      "n_chars": 439,
+      "preview_head": "Haines REINCARNATIONS BY JAMES STEPHENS AUTHOR OF 'THE CHARWOMAN'S DAUGHTER,' 'THE HILL OF VISION' 'THE CROCK OF GOLD,' ETC. MACMILLAN AND CO., LIMITED ST. MARTIN'S STREEt, LONDON 1918 COPYRIGHT TO AL",
+      "preview_tail": "ating Mary Hynes (after Raftery) The Coolun do. Peggy Mitchell do. Nancy Walsh do. The Red Man's Wife do. Nancy Walsh do. AnthoREINCARNATIONS Geoffrey Keating Mary Hynes (after Raftery) The Coolun do.",
+      "full_text": "Haines REINCARNATIONS BY JAMES STEPHENS AUTHOR OF 'THE CHARWOMAN'S DAUGHTER,' 'THE HILL OF VISION' 'THE CROCK OF GOLD,' ETC. MACMILLAN AND CO., LIMITED ST. MARTIN'S STREEt, LONDON 1918 COPYRIGHT TO ALICE STOPFORD GREEN CONTENTS Geoffrey Keating Mary Hynes (after Raftery) The Coolun do. Peggy Mitchell do. Nancy Walsh do. The Red Man's Wife do. Nancy Walsh do. AnthoREINCARNATIONS Geoffrey Keating Mary Hynes (after Raftery) The Coolun do.",
+      "avg_prediction": 0.4411
+    },
+    {
+      "idx": 82,
+      "hash": "fc140cf6",
+      "n_words": 48,
+      "n_chars": 377,
+      "preview_head": "airplane winglets) Montana Resources LLP (copper and molybdenum mining) Dominion Diamond Mines (diamond mining) Envirocon (environmental remediation and construction services) Modern Machinery (heavy ",
+      "preview_tail": "odern Machinery (heavy equipment dealerships) Each of these companies operates independently within its respective industry, but they are all part of the larger Washington Companies portfolio. The hea",
+      "full_text": "airplane winglets) Montana Resources LLP (copper and molybdenum mining) Dominion Diamond Mines (diamond mining) Envirocon (environmental remediation and construction services) Modern Machinery (heavy equipment dealerships) Each of these companies operates independently within its respective industry, but they are all part of the larger Washington Companies portfolio. The hea",
+      "avg_prediction": 0.5289
+    },
+    {
+      "idx": 83,
+      "hash": "30a7d009",
+      "n_words": 58,
+      "n_chars": 290,
+      "preview_head": "see what Timmons can do. He may not have made a big play, but you see what he can do for our team from a defensive schemeing standpoint. I always thought he was drafted to be a bigger troy smaller Kei",
+      "preview_tail": "ur team from a defensive schemeing standpoint. I always thought he was drafted to be a bigger troy smaller Keisel. He's that third rover type player on the field. Now that he's worked that groin in li",
+      "full_text": "see what Timmons can do. He may not have made a big play, but you see what he can do for our team from a defensive schemeing standpoint. I always thought he was drafted to be a bigger troy smaller Keisel. He's that third rover type player on the field. Now that he's worked that groin in li",
+      "avg_prediction": 0.4226
+    },
+    {
+      "idx": 84,
+      "hash": "ec27e625",
+      "n_words": 48,
+      "n_chars": 269,
+      "preview_head": "ryone does, right? But have you fallen prey to that old saying \u201cBuild it aNd they will come\u201d? Because you know, in the online world, that doesn\u2019t happen! You might have the most beautifully designed w",
+      "preview_tail": " it aNd they will come\u201d? Because you know, in the online world, that doesn\u2019t happen! You might have the most beautifully designed website, full of awesome content, but if no-one sees it, if no-one is\u2026",
+      "full_text": "ryone does, right? But have you fallen prey to that old saying \u201cBuild it aNd they will come\u201d? Because you know, in the online world, that doesn\u2019t happen! You might have the most beautifully designed website, full of awesome content, but if no-one sees it, if no-one is\u2026",
+      "avg_prediction": 0.4651
+    },
+    {
+      "idx": 85,
+      "hash": "82ca9de5",
+      "n_words": 125,
+      "n_chars": 826,
+      "preview_head": "for depicting a young girl holding a paper doll, unlike typical photos featuring traditional toys. Enthusiasts familiar with vintage paper dolls may recognize this particular model. This rare find cam",
+      "preview_tail": "e world of dolls and their owners from the early part of the 20th century to the 1960s. This is volume 7 in the Tattered and Lost Vernacular Photography series. BUCKAROOS AND BUCKARETTES Tattered and ",
+      "full_text": "for depicting a young girl holding a paper doll, unlike typical photos featuring traditional toys. Enthusiasts familiar with vintage paper dolls may recognize this particular model. This rare find came from the estate of Betty Schnabel, discovered within her mother Louise Bigelow Schnabel's photo album during an auction. at 3.6.14 3 comments Labels: BETTY SCHNABEL, ephemera, LOUISE BIGELOW SCHNABEL, paper doll, paperdoll, SNAPSHOT, VERNACULAR PHOTOGRAPHY, vintage Newer Posts Older Posts Home Subscribe to: Posts (Atom) SEARCH TATTERED AND LOST Tattered and Lost: FORGOTTEN DOLLS A journey via vintage snapshots through the world of dolls and their owners from the early part of the 20th century to the 1960s. This is volume 7 in the Tattered and Lost Vernacular Photography series. BUCKAROOS AND BUCKARETTES Tattered and ",
+      "avg_prediction": 0.4427
+    },
+    {
+      "idx": 86,
+      "hash": "d53c5ec5",
+      "n_words": 50,
+      "n_chars": 379,
+      "preview_head": "ERS BEAUTY REPORT Sorry, I couldn't find a product corresponding to \"Fillerina, Filorga, Mustela, Rausch, Uriage, Kerastase, Moroccanoil, Phyto, SKIN CARE, BRANDS\" \"Phyto\" \"All Brands\" \"Rausch\" \"Uriag",
+      "preview_tail": "ands\" \"Rausch\" \"Uriage\" \"Kerastase\" \"Moroccanoil\" \"Phyto\" \"SKIN CARE\" \"Best Sellers\" \"Offers\" \"Whats New\" \"Anti-Ageing\" \"Baby\" \"Body\" \"Cleansers\" \"Collagen Products\" \"Cream\" \"Face\" \" Would you like me",
+      "full_text": "ERS BEAUTY REPORT Sorry, I couldn't find a product corresponding to \"Fillerina, Filorga, Mustela, Rausch, Uriage, Kerastase, Moroccanoil, Phyto, SKIN CARE, BRANDS\" \"Phyto\" \"All Brands\" \"Rausch\" \"Uriage\" \"Kerastase\" \"Moroccanoil\" \"Phyto\" \"SKIN CARE\" \"Best Sellers\" \"Offers\" \"Whats New\" \"Anti-Ageing\" \"Baby\" \"Body\" \"Cleansers\" \"Collagen Products\" \"Cream\" \"Face\" \" Would you like me",
+      "avg_prediction": 0.4926
+    },
+    {
+      "idx": 87,
+      "hash": "1a415a5d",
+      "n_words": 144,
+      "n_chars": 899,
+      "preview_head": "eatures and get one label. And also if there is any problem with how I've imported the data, here are some lines from the text file: 1434.0 4000000.0 33.0 82.0 39.0 219.0 634.0 5506.0 58.0 106.0 783.0",
+      "preview_tail": "y as np # Read the features and labels features_from_train_file = np.loadtxt('features_from_train_file.txt', delimiter =',', # the features are comma-delimited use_fast_parser = True, # the np.loadtxt",
+      "full_text": "eatures and get one label. And also if there is any problem with how I've imported the data, here are some lines from the text file: 1434.0 4000000.0 33.0 82.0 39.0 219.0 634.0 5506.0 58.0 106.0 783.0 To correctly format your features for the classifier, the features should be represented as a 2D array, where each row corresponds to a sample, and each column corresponds to a feature. The labels should be represented as a 1D array. The features and labels should be represented as a NumPy array for the classifier to be able to process and train the model. Here's a sample code to process the features and labels for the classifier. ``` from sklearn.tree import DecisionTreeClassifier import numpy as np # Read the features and labels features_from_train_file = np.loadtxt('features_from_train_file.txt', delimiter =',', # the features are comma-delimited use_fast_parser = True, # the np.loadtxt",
+      "avg_prediction": 0.5383
+    },
+    {
+      "idx": 88,
+      "hash": "2b866967",
+      "n_words": 83,
+      "n_chars": 495,
+      "preview_head": "reproduction rate (R~0~ = 2.25\\*) and a medium mortality rate of 5.7%\\*^[@ref1]^ (as of June 7, 2020, \\*subject to change). Such mediocre characteristics give a rather deceiving impression of this vir",
+      "preview_tail": "e to itIt seems like you have provided me with an incomplete text as there is no clear indication where my response should start or continue from your given prompt. Could I get further instructions on",
+      "full_text": "reproduction rate (R~0~ = 2.25\\*) and a medium mortality rate of 5.7%\\*^[@ref1]^ (as of June 7, 2020, \\*subject to change). Such mediocre characteristics give a rather deceiving impression of this virus. When the virus first started in China, it did not draw immediate attention to the public due to itIt seems like you have provided me with an incomplete text as there is no clear indication where my response should start or continue from your given prompt. Could I get further instructions on",
+      "avg_prediction": 0.3386
+    },
+    {
+      "idx": 89,
+      "hash": "2599251d",
+      "n_words": 81,
+      "n_chars": 492,
+      "preview_head": "by Richard Widmark, captures Japanese prisoners to obtain this crucial information. He faces internal conflict as he tries to maintain his composure and duty while witnessing the horrors of war. His c",
+      "preview_tail": "eading to a deeper reflection on the nature of conflict and humanity. The quest to solve this mystery, which involves an understanding of the Japanese psyche and a bit of luck, forms the main story ar",
+      "full_text": "by Richard Widmark, captures Japanese prisoners to obtain this crucial information. He faces internal conflict as he tries to maintain his composure and duty while witnessing the horrors of war. His capture of prisoners is not just for intelligence but also to understand their perspective, leading to a deeper reflection on the nature of conflict and humanity. The quest to solve this mystery, which involves an understanding of the Japanese psyche and a bit of luck, forms the main story ar",
+      "avg_prediction": 0.5582
+    },
+    {
+      "idx": 90,
+      "hash": "557f842c",
+      "n_words": 247,
+      "n_chars": 1300,
+      "preview_head": "the last four games. He is not expected to play again this season. The team also is without Chris Babb (sore left knee) for the last four games. He is not expected to play again this season. The team ",
+      "preview_tail": "bb (sore left knee) for the last four games. He is not expected to play While the Celtics are headed for a likely top five draft pick, with veteran players nursing nagging injuries, Olynyk and Pressey",
+      "full_text": "the last four games. He is not expected to play again this season. The team also is without Chris Babb (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Joel Anthony (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Chris Babb (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Joel Anthony (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Chris Babb (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Joel Anthony (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Chris Babb (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Joel Anthony (sore left knee) for the last four games. He is not expected to play again this season. The team also is without Chris Babb (sore left knee) for the last four games. He is not expected to play While the Celtics are headed for a likely top five draft pick, with veteran players nursing nagging injuries, Olynyk and Pressey",
+      "avg_prediction": 0.6031
+    },
+    {
+      "idx": 91,
+      "hash": "38b00619",
+      "n_words": 92,
+      "n_chars": 582,
+      "preview_head": "enzymes were also altered upon KBrO(3) treatment. The maximum changes in all these parameters were 48 h after the administration of KBrO(3) and then recovery took place. These results show for the fir",
+      "preview_tail": "or anti-oxidant enzymes may play an important role in mediating the toxic effects of KBrO(3) in the rat blood. The study of such biochemical events in blood will help elucidate the molecular mechanism",
+      "full_text": "enzymes were also altered upon KBrO(3) treatment. The maximum changes in all these parameters were 48 h after the administration of KBrO(3) and then recovery took place. These results show for the first time that KBrO(3) induces oxidative stress in blood and impairs the anti-oxidant defense system. Thus impairment in the anti-oxidant power and alterations in the activities of major anti-oxidant enzymes may play an important role in mediating the toxic effects of KBrO(3) in the rat blood. The study of such biochemical events in blood will help elucidate the molecular mechanism",
+      "avg_prediction": 0.4643
+    },
+    {
+      "idx": 92,
+      "hash": "4be978be",
+      "n_words": 76,
+      "n_chars": 388,
+      "preview_head": "you already formatted. Depending on your DB flavor, the exact syntax may vary. The <sql>...</sql>.Value is just an XML literal which allows you to format long or complex queries in such a way that it ",
+      "preview_tail": "way that it makes it easier for you to read. To do it yourself in the table. As the format is trivial to apply, you really dont need a method to do it: Dim tmp As String For Each row As DataRow In dt.",
+      "full_text": "you already formatted. Depending on your DB flavor, the exact syntax may vary. The <sql>...</sql>.Value is just an XML literal which allows you to format long or complex queries in such a way that it makes it easier for you to read. To do it yourself in the table. As the format is trivial to apply, you really dont need a method to do it: Dim tmp As String For Each row As DataRow In dt.",
+      "avg_prediction": 0.3902
+    },
+    {
+      "idx": 93,
+      "hash": "80ec0ae0",
+      "n_words": 189,
+      "n_chars": 1533,
+      "preview_head": "ion per table row I'm trying to limit selected checboxes by 3 per table row, using JS. Each row has an separated checkbox and 5 levels, which can be selected only 2, as in: <tr> <td> <input type=\"chec",
+      "preview_tail": "Loop through the current row if (this.parentNode.parentNode.children[j].children[0].checked) { checkedcount++; } } if (checkedcount > limit && this.checked === true) { alert('You can only select up to",
+      "full_text": "ion per table row I'm trying to limit selected checboxes by 3 per table row, using JS. Each row has an separated checkbox and 5 levels, which can be selected only 2, as in: <tr> <td> <input type=\"checkbox\" name=\"indicator[]\"> </td> <td> <input type=\"checkbox\" name=\"graduations[]\"> </td> <td> <input type=\"checkbox\" name=\"graduations[]\"> </td> <td> <input type=\"checkbox\" name=\"graduations[]\"> </td> <td> <input type=\"checkbox\" name=\"graduations[]\"> </td> <td> <input type=\"checkbox\" name=\"graduations[]\"> </td> </tr> The actual code is as seen on http://www.javascriptkit.com/script/script2/checkboxlimit.shtml: function checkboxlimit(checkgroup, limit){ var checkgroup=checkgroup var limit=limit for (var i=0; i<checkgroup.length; i++){ checkgroup[i].onclick=function(){ var checkedcount=0 for (var i=0; i<checkgroup.length;checkedcount+=(checkgroup[i].checked)? 1 : 0 if (checkedcount>limit){ Here's how you can modify the given JavaScript code to limit checkbox selection per table row to 3: ```javascript function checkboxlimit(checkgroup, limit) { var checkgroup = document.querySelectorAll('input[name=\"' + checkgroup + '\"]'); var limit = limit; for (var i = 0; i < checkgroup.length; i++) { checkgroup[i].onclick = function () { var checkedcount = 0; for (var j = 0; j < this.parentNode.parentNode.children.length; j++) { // Loop through the current row if (this.parentNode.parentNode.children[j].children[0].checked) { checkedcount++; } } if (checkedcount > limit && this.checked === true) { alert('You can only select up to",
+      "avg_prediction": 0.4555
+    },
+    {
+      "idx": 94,
+      "hash": "598469fd",
+      "n_words": 268,
+      "n_chars": 1996,
+      "preview_head": "reduced in many countries in Africa \\[[@CR1]--[@CR3]\\]. However, these successes remain limited in geographical coverage while transmission continues in some endemic regions in sub-Saharan Africa desp",
+      "preview_tail": " can enhance understanding about local malaria ecology which will be instrumental for tailoring interventions specific to each region's unique characteristics thereby improving overall control strateg",
+      "full_text": "reduced in many countries in Africa \\[[@CR1]--[@CR3]\\]. However, these successes remain limited in geographical coverage while transmission continues in some endemic regions in sub-Saharan Africa despite concerted efforts to reduce or eliminate the disease \\[[@CR4], [@CR5]\\]. This is partly due to genetic diversity of the main agent *Plasmodium falciparum* which maintains population fitness against targeted interventions such as drugs \\[[@CR6], [@CR7]\\]. Information on genetic diversity and parasite population trends that could help guide control programmes is lacking in regions with large human populations at risk such as Nigeria. The most recent report on patterns of malaria endemicity in Nigeria continues to show high levels of burden across the country with \\~170 million people at risk \\[[@CR8]\\]. This is despite more than a decadecade of sustained efforts by public health agencies and non-governmental organizations. The complexity arises from various factors including socio-economic conditions, inadequate healthcare infrastructure in rural areas, environmental challenges such as climate change that favor vector breeding sites, poor adherence to preventive measures like the use of insecticide-treated nets (ITNs), intermittent preventative treatment for pregnant women and children under five years old. To address these ongoing issues effectively, there is an urgent need for comprehensive genomic surveillance studies focusing on genetic diversity in Nigeria. Such research would provide critical insights into the evolution of drug resistance markers within parasite populations over time and space across different ecological zones where transmission dynamics vary significantly. Furthermore, integrating molecular epidemiology with traditional public health approaches can enhance understanding about local malaria ecology which will be instrumental for tailoring interventions specific to each region's unique characteristics thereby improving overall control strateg",
+      "avg_prediction": 0.5062
+    },
+    {
+      "idx": 95,
+      "hash": "b6d3b3c7",
+      "n_words": 54,
+      "n_chars": 774,
+      "preview_head": "in the Name of \"Quality\" Content - ossamaben http://www.followletter.com/o/5319/http://www.hubspot.com/email/v1/click?v=3&e=f18dQhb0S65P6_rtqWVWVchY12sJ4jW13PV_P6BMCH9W4NPd7X1zRjltW7Jf1BD7TBmdkW8X8_Xb",
+      "preview_tail": "atted. The intent appears to discuss an article about Facebook's algorithm update aimed at reducing the prevalence of memes, likely in fAvor of what they consider \"quality\" content. If interested, I c",
+      "full_text": "in the Name of \"Quality\" Content - ossamaben http://www.followletter.com/o/5319/http://www.hubspot.com/email/v1/click?v=3&e=f18dQhb0S65P6_rtqWVWVchY12sJ4jW13PV_P6BMCH9W4NPd7X1zRjltW7Jf1BD7TBmdkW8X8_Xb4DNY6bW4RR2F246S5TxN4zR0wrgxLR3N7zjc1RfvTDXW6744Km55lvczW6t4W1X3StHX3W1HXF_b2qrrXwMfZpx1L0StdW3W0pCM36TKzjW1FRfYc8JRydpW78XxvM61c9_CW6hYZ5X5h9SGtW5Ftwjh48QKhmW5NwHgJ6V14.TW2l1NxT2GYmCkW4FgwrH9fTgcBW5hRk4g74fZSDW8nHv_l6YqM7DW786cZN78dLPnW4xT6Dy1Q7gztW1HWM6F6dwNfnW7Bz34V4vfBR1W5F5J6v65M10DW7rvGIt looks like you've shared a link that seems to be malformed or incorrectly formatted. The intent appears to discuss an article about Facebook's algorithm update aimed at reducing the prevalence of memes, likely in fAvor of what they consider \"quality\" content. If interested, I c",
+      "avg_prediction": 0.5168
+    },
+    {
+      "idx": 96,
+      "hash": "e75ca7f0",
+      "n_words": 276,
+      "n_chars": 1709,
+      "preview_head": "Miami Dolphins Miami Heat Miami Marlins Florida Panthers Miami Hurricanes Florida Gators Florida State Seminoles Entertainment Entertainment Belkys\u2019 Bite Blog Bite with Belkys Deco Drive Shireen\u2019s Fav",
+      "preview_tail": "mi Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami",
+      "full_text": "Miami Dolphins Miami Heat Miami Marlins Florida Panthers Miami Hurricanes Florida Gators Florida State Seminoles Entertainment Entertainment Belkys\u2019 Bite Blog Bite with Belkys Deco Drive Shireen\u2019s Favorite ThinShireen\u2019s Favorite Thin Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami Miami",
+      "avg_prediction": 0.5087
+    },
+    {
+      "idx": 97,
+      "hash": "80864c14",
+      "n_words": 115,
+      "n_chars": 691,
+      "preview_head": "ny times they are eligible for display, based on factors like targeting settings and competition among advertisers. For instance, if during a specific week you had an impression share of 11%, this mea",
+      "preview_tail": "ts of paid search, this depends on the overall goals of your campaigns and how your account is structured. So, now that we have a good understanding on what impression share is, the real question is h",
+      "full_text": "ny times they are eligible for display, based on factors like targeting settings and competition among advertisers. For instance, if during a specific week you had an impression share of 11%, this means that out of all possible opportunities where your ad could have been shown, it only appeared in about one-tenth of those instances due to various constraints or optimizations within the AdWords system. You may be wondering \u201cWhat\u2019s considered a good impression share?\u201d but, like many aspects of paid search, this depends on the overall goals of your campaigns and how your account is structured. So, now that we have a good understanding on what impression share is, the real question is h",
+      "avg_prediction": 0.5005
+    },
+    {
+      "idx": 98,
+      "hash": "bbf56f4d",
+      "n_words": 56,
+      "n_chars": 1176,
+      "preview_head": "iews in Custom ExpandableListView transferAvailPowered.axml <?xml version=\"1.0\" encoding=\"utf-8\"?> <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\" android:orientation=\"horizon",
+      "preview_tail": ":id=\"@+id/availSite\" android:layout_width=\"120dp\" android:layout_height=\"wrap_content\" android:padding=\"5dp\" android:hint=\"To Site\" android:background=It seems like you've provided an XML code snippet",
+      "full_text": "iews in Custom ExpandableListView transferAvailPowered.axml <?xml version=\"1.0\" encoding=\"utf-8\"?> <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\" android:orientation=\"horizontal\" android:layout_width=\"fill_parent\" android:layout_height=\"wrap_content\" android:focusable=\"false\" android:layout_margin=\"5dp\" android:padding=\"5dp\" android:gravity=\"left\"> <TextView android:id=\"@+id/availSerial\" android:layout_width=\"0dp\" android:layout_weight=\".30\" android:layout_height=\"wrap_content\" android:layout_marginLeft=\"45dp\" android:layout_marginRight=\"5dp\" android:layout_marginTop=\"5dp\" android:layout_marginBottom=\"5dp\" android:focusable=\"false\" android:padding=\"5dp\" android:gravity=\"left\" /> <TextView android:id=\"@+id/availModel\" android:layout_width=\"0dp\" android:layout_weight=\".30\" android:layout_height=\"wrap_content\" android:layout_margin=\"5dp\" android:focusable=\"false\" android:padding=\"5dp\" android:gravity=\"left\" /> <AutoCompleteTextView android:id=\"@+id/availSite\" android:layout_width=\"120dp\" android:layout_height=\"wrap_content\" android:padding=\"5dp\" android:hint=\"To Site\" android:background=It seems like you've provided an XML code snippet",
+      "avg_prediction": 0.4601
+    },
+    {
+      "idx": 99,
+      "hash": "72819aa3",
+      "n_words": 98,
+      "n_chars": 621,
+      "preview_head": "shared what seems to be a list or menu pages from an author's website, likely of someone like Matthew Warner who might have authored the Maze Runner series. It appears you're navigating through variou",
+      "preview_tail": "Matthew Warner has been keeping busy this year, attending book conventions and contributing columns in various media outlets. Stay tuned for his upcoming projects!\" - News Archive: \"A chronological co",
+      "full_text": "shared what seems to be a list or menu pages from an author's website, likely of someone like Matthew Warner who might have authored the Maze Runner series. It appears you're navigating through various categories that link to different sections on their site. Here is how some content would look as articles based upon your provided navigation: - MATTHEW WARNER: Latest news or updates about author's activities. \"Author Matthew Warner has been keeping busy this year, attending book conventions and contributing columns in various media outlets. Stay tuned for his upcoming projects!\" - News Archive: \"A chronological co",
+      "avg_prediction": 0.5316
+    },
+    {
+      "idx": 100,
+      "hash": "d151a86e",
+      "n_words": 172,
+      "n_chars": 1304,
+      "preview_head": "A cross-party group of MPs has called for major changes to the adoption system in the UK including the extension of the Adoption Support Fund ahead of the publication of the Care Review findings. - Se",
+      "preview_tail": "heritage religion disability and sexual orientation - regardless of whether they were adopted domestically abroad interstate state international or private placement arrangements including kinship car",
+      "full_text": "A cross-party group of MPs has called for major changes to the adoption system in the UK including the extension of the Adoption Support Fund ahead of the publication of the Care Review findings. - September 14, 2021 Email ThisBlogThis!Share to TwitterShare to FacebookShare to Pinterest Labels: Adoption. No comments: Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom) DR SQUIER MY CASE ON SCRIB https://www.scribd.com/doc/127582129/MY-CASE https://www.scribd.com/doc/127582176/MY-CASE https://www.scribd.com/doc/127582213/MY-CASE https://www.scribd.com/doc/127582392/MY-CASE https://www.scribd.com/doc/127582423/MMP Rob Roberts says the current system is failing adopted children and their families, with struggling to access essential support services that could improve outcomes for them in areas such as mental health care or education provision after leaving foster homes at 16 years old. \"What we need now more than ever are meaningful reforms within our adoption framework so these vulnerable people can live safe fulfilling lives free from discrimination based on race heritage religion disability and sexual orientation - regardless of whether they were adopted domestically abroad interstate state international or private placement arrangements including kinship car",
+      "avg_prediction": 0.4268
+    },
+    {
+      "idx": 101,
+      "hash": "38656adc",
+      "n_words": 141,
+      "n_chars": 826,
+      "preview_head": "hide announcement Home About Us News Document Library News Articles RSS Feeds Members Teams Matches Fixtures Results Statistics Team Statistics Batting Statistics Bowling Statistics Fielding Statistic",
+      "preview_tail": "2.77 17.69 17.33 League Games All 99.2 23 262 25 6/17 1 2.64 23.84 10.48 22.94 2017 34.2 8 70 12 6/17 1 2.05 17.17 5.83 30.77 2016 65.0 15 192 13 4/16 0 2.95 30.00 14.77 18.57 Friendly Games All 6.0 0",
+      "full_text": "hide announcement Home About Us News Document Library News Articles RSS Feeds Members Teams Matches Fixtures Results Statistics Team Statistics Batting Statistics Bowling Statistics Fielding Statistics Community Photo Gallery Calendar Player Statistics Player Harry Tucker Rules Type: Standard Indoor Pairs Batting Bowling Fielding Bowling Summary Dismissals Top 5 Bowling Performances Season Overs Maidens Runs Wickets Best BowliNg 5 Wicket Hauls Economy Rate Strike Rate Average % Team Wickets All 105.2 23 300 25 6/17 1 2.85 25.28 12.00 21.93 2017 34.2 8 70 12 6/17 1 2.05 17.17 5.83 30.77 2016 71.0 15 230 13 4/16 0 3.24 32.77 17.69 17.33 League Games All 99.2 23 262 25 6/17 1 2.64 23.84 10.48 22.94 2017 34.2 8 70 12 6/17 1 2.05 17.17 5.83 30.77 2016 65.0 15 192 13 4/16 0 2.95 30.00 14.77 18.57 Friendly Games All 6.0 0",
+      "avg_prediction": 0.4675
+    },
+    {
+      "idx": 102,
+      "hash": "d1ea7f31",
+      "n_words": 49,
+      "n_chars": 317,
+      "preview_head": "I'm sorry but I don't understand your request or what specific information you need me to provide regarding this text fragment about \"Local Frequency Estimation.\" Could you please clarify? Are there a",
+      "preview_tail": " fragment about \"Local Frequency Estimation.\" Could you please clarify? Are there any particular aspects of it that require further explanation, such as its purpose and applications in fringe pattern ",
+      "full_text": "I'm sorry but I don't understand your request or what specific information you need me to provide regarding this text fragment about \"Local Frequency Estimation.\" Could you please clarify? Are there any particular aspects of it that require further explanation, such as its purpose and applications in fringe pattern ",
+      "avg_prediction": 0.6334
+    },
+    {
+      "idx": 103,
+      "hash": "b438c893",
+      "n_words": 94,
+      "n_chars": 643,
+      "preview_head": "a Java script that imports a module for forwards compatibility: ```python # Present forforwards compatibility from future.utils import iteritems # Example use of iteritems my_dict = {'a': 1, 'e': 2, '",
+      "preview_tail": "ate over dictionary objects, which is important for achieving compatibility with older code. If youhave a particular module or function you're going to import, please give more details, and I can hel ",
+      "full_text": "a Java script that imports a module for forwards compatibility: ```python # Present forforwards compatibility from future.utils import iteritems # Example use of iteritems my_dict = {'a': 1, 'e': 2, 'd': 3} for key, value in iteritems(my_dict): print(f\"Key: {key}, Value:{value}\") ``` In this instance, the `iteritems` function from the `future.utils`module is imported for backwards compatIbility with Java2. this function is designed to iterate over dictionary objects, which is important for achieving compatibility with older code. If youhave a particular module or function you're going to import, please give more details, and I can hel ",
+      "avg_prediction": 0.6134
+    },
+    {
+      "idx": 104,
+      "hash": "ff8c0f46",
+      "n_words": 208,
+      "n_chars": 1496,
+      "preview_head": "emissions (E. [@bib10], [@bib20], [@bib31], [@bib50], [@bib51]). However, most research activities in this area have focused on reducing CO~2~ emissions from power and heat generation. This is underst",
+      "preview_tail": "ion, which is responsible for roughly \u2153rd or ~10 billion tons/year out-of\u2014the global total greenhouse gases output; this focus overlooks the manufacturing sector's significant contribution at around o",
+      "full_text": "emissions (E. [@bib10], [@bib20], [@bib31], [@bib50], [@bib51]). However, most research activities in this area have focused on reducing CO~2~ emissions from power and heat generation. This is understandable, since this sector alone accounts for approximately 31% of the 32 billion tons (CO~2~ equivalent/year) of greenhouse gases emitted worldwide ([@bib22]). Meanwhile, the manufacturing sector, contributing 21% of the global greenhouse gas emissions ([@bib21]), is often overlooked. For example, ethylene production via steam cracking releases over 1 ton of CO~2~ per ton of olefin produced ([@bib49]). With a worldwide demand in excess of 150 million tons/year ([@bib19]), ethylene production is one of the largest contributors to greenhouse gas emission in the manufacturing sector. Despite the high energy and carbon intensities associated with steam cracking, the operation is widely believed to be near optimal considering the continued research and improvements on the technology over the past 80+ years ([@biPublished: September 27th , Introduction {#sec1} Carbon capture utilization has garnered considerable interest as a means of mitigating anthropogenic emissions (E. [@bib5], [@b63]\u2013[4]). While many studies have concentrated on curbing CO~\u2082~~emissions from power and heat generation, which is responsible for roughly \u2153rd or ~10 billion tons/year out-of\u2014the global total greenhouse gases output; this focus overlooks the manufacturing sector's significant contribution at around o",
+      "avg_prediction": 0.3987
+    },
+    {
+      "idx": 105,
+      "hash": "77861a83",
+      "n_words": 290,
+      "n_chars": 1725,
+      "preview_head": "time Payal nods nd waves bye. After sometime, Door bell rings in Kushi\u2019s house. Kushi was drying her hair.She ran to open the door and get shocked to see Asr\u2026. Kushi:Aap? (u? -with respect) Arnav:Yes\u2026",
+      "preview_tail": "y Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I",
+      "full_text": "time Payal nods nd waves bye. After sometime, Door bell rings in Kushi\u2019s house. Kushi was drying her hair.She ran to open the door and get shocked to see Asr\u2026. Kushi:Aap? (u? -with respect) Arnav:Yes\u2026I thought of picking u up to ofc Kushi:Ok\u2026.just a sec lemme take my bag\u2026.come in\u2026 Asr get in\u2026.Kushi goes inside her room to get ready. Suddenly again bell rings Kushi:Sir\u2026.can u just open the door. Arnav moves to opn the door Kushi:Sir\u2026.I will be ready in a sec\u2026.can u just wait in the hall Asr:Sure Kushi:Ok Kushi goes to get ready. Asr was in the hall. He was thinking abt Kushi\u2026. Asr:Kushi\u2026.I don\u2019t know why I am thinking abt u\u2026. Kushi comes in the hall with a big smile Kushi:Ok\u2026.I am ready Asr:U look pretty Kushi:Thanx Kushi:Sir\u2026.can u just take me to ofc Asr:Sure Kushi:Ok\u2026.I will just take my bag Asr:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I will just take my bag Kushi:Ok Kushi:Sir\u2026.I am ready Asr:Ok\u2026.I",
+      "avg_prediction": 0.5425
+    },
+    {
+      "idx": 106,
+      "hash": "aeffa89b",
+      "n_words": 250,
+      "n_chars": 1756,
+      "preview_head": "varying ages. A significant number of cases were found in individuals between the third and fifth decades, which is consistent with typical presentations. - Indications for Surgery: - Persistent sympt",
+      "preview_tail": "carefully selected patients with thoracic outlet syndrome who have failed conservative therapy. It remains a viable surgical option that can provide substantial relief when performed by experienced su",
+      "full_text": "varying ages. A significant number of cases were found in individuals between the third and fifth decades, which is consistent with typical presentations. - Indications for Surgery: - Persistent symptoms despite conservative management (physical therapy, pain medication). - Evidence or suspicion of neurogenic thoracic outlet syndrome confirmed by clinical findings such as atrophy, weakness, paresthesias in the hand and arm distribution patterns characteristic to TOS. - Surgical Technique: The transaxillary approach was chosen for its advantages: - Minimal scarring. - Reduced risk of injury to major vessels or nerves compared with other approaches (e.g., supraclavicular). During surgery, a portion of the first rib is resected along any abnormal structures contributing to compression. Careful dissection around neurovascular bundles ensures their protection. - Outcomes: - The majority reported significant improvement in symptoms postoperatively. * Pain relief was noted by approximately [X]% (where X represents an actual percentage from the study). * Functional recovery, including return-to-work rates and daily activity levels improved for about 80% of patients within six months to a year after surgery. - Complications: - Minor complications such as seromas or infections were observed in less than [Y]% (where Y represents an actual percentage from the study). - Major adverse events, including significant nerve damage and vascular injuries, occurred rarely (<1%). The results of this series support transaxillary first rib resection for carefully selected patients with thoracic outlet syndrome who have failed conservative therapy. It remains a viable surgical option that can provide substantial relief when performed by experienced su",
+      "avg_prediction": 0.6058
+    },
+    {
+      "idx": 107,
+      "hash": "defa07a1",
+      "n_words": 211,
+      "n_chars": 1321,
+      "preview_head": "ts Bags, Towels, & More Activeeopathic Hippotherapy sessions are available. Our experienced staff is trained to help individuals of all ages achieve their therapy goals. Physical Medicine & Rehabilita",
+      "preview_tail": "for purchase in addition to other newly released Go It\u5b50\u516c\u53f8,\u8986\u4f18\u4e50\u5b9a\u548c\u8986\u5341\u4e00\u9877\u4f3c\u3002 We are assembling talented professionals and experts with letters of recommendations to increase our social media presence. Vets S",
+      "full_text": "ts Bags, Towels, & More Activeeopathic Hippotherapy sessions are available. Our experienced staff is trained to help individuals of all ages achieve their therapy goals. Physical Medicine & Rehabilitation: Here's a great healthcare resource for any questions you may have. Here we can look back at the latest headlines in our organization's news and homecoming events. December is just a month from November. Remember that Tim Simonet holds \"Piano in December\" performances on November 4th and November 25th, starting at 3:00 PM each day! Check out current and past timeline entries. The Martin Luther King Jr. Association and MLK Day of Service bring learning outside the classroom and into the community. Vets Hollie Collins, alongside Beagle Jane Brownlow, got her wisdom teeth pulled out on July 1st and her rescue adopted on July 2nd, so it was a good time for both doggies. So thrilled! Beagle Anka B. Rose, companion to primary page editor Inksyle, found a loving forever home on June 12th! July 10th brings Peppi's acclaimed show \"Peppy the Sausage Detective\" to the Gallagher Theatre at 7:30 P.M., now available for purchase in addition to other newly released Go It\u5b50\u516c\u53f8,\u8986\u4f18\u4e50\u5b9a\u548c\u8986\u5341\u4e00\u9877\u4f3c\u3002 We are assembling talented professionals and experts with letters of recommendations to increase our social media presence. Vets S",
+      "avg_prediction": 0.4697
+    },
+    {
+      "idx": 108,
+      "hash": "6161bf2c",
+      "n_words": 94,
+      "n_chars": 351,
+      "preview_head": "3 Vol. 9, Iss. 2 Vol. 9, Iss. 1 Vol. 8, Iss. 3 Vol. 8, Iss. 2 Vol. 8, Iss. 1 Vol. 7, Iss. 3 Vol. 7, Iss. 2 Vol. 7, Iss. 1 Vol. 6, Iss. 3 Vol. 6, Iss. 2 Vol. 6, ISs. 1 Vol. 5, Iss. 3 Vol. 5, Iss. 2 Vol",
+      "preview_tail": " Vol. 6, ISs. 1 Vol. 5, Iss. 3 Vol. 5, Iss. 2 Vol. 5, Iss. 1 Vol. 4, Iss. 3 Vol. 4, Iss. 2 Vol. 4, Iss. 1 Vol. 3, Iss. 3 Vol. 3, Iss. 2 Vol. 3, Iss. 1 Vol. 2, Iss. 3 Vol. 2, Iss. 2 Vol. 2, Iss. 1 Vol.",
+      "full_text": "3 Vol. 9, Iss. 2 Vol. 9, Iss. 1 Vol. 8, Iss. 3 Vol. 8, Iss. 2 Vol. 8, Iss. 1 Vol. 7, Iss. 3 Vol. 7, Iss. 2 Vol. 7, Iss. 1 Vol. 6, Iss. 3 Vol. 6, Iss. 2 Vol. 6, ISs. 1 Vol. 5, Iss. 3 Vol. 5, Iss. 2 Vol. 5, Iss. 1 Vol. 4, Iss. 3 Vol. 4, Iss. 2 Vol. 4, Iss. 1 Vol. 3, Iss. 3 Vol. 3, Iss. 2 Vol. 3, Iss. 1 Vol. 2, Iss. 3 Vol. 2, Iss. 2 Vol. 2, Iss. 1 Vol.",
+      "avg_prediction": 0.5147
+    },
+    {
+      "idx": 109,
+      "hash": "3d3a45d1",
+      "n_words": 130,
+      "n_chars": 915,
+      "preview_head": "of the parties will presumably argue that evidence is both relevant to the underlying charges, making it admissible under [Evid. code. 350], and as permissible under the confrontation rights in confro",
+      "preview_tail": " the type of delivery (giving away as opposed to formal commercial transactions potentially falling under 11547 for furnishing to addicts). In contrast, the defense, despite self-representation, might",
+      "full_text": "of the parties will presumably argue that evidence is both relevant to the underlying charges, making it admissible under [Evid. code. 350], and as permissible under the confrontation rights in confrontation clause, which is relevant because one defendant is proceeding without representation and presumably making such a claim. For example, the prosecution could argue that evidence in the information correctly identifies the type and quantity of cannabis, noting that its cultivation, transfer or storage without proper licensing violates section 11531. Their request may also include evidence such as search warrant, field tests indicating presence of cannabis, witness testimony placing defendant at scene, and the type of delivery (giving away as opposed to formal commercial transactions potentially falling under 11547 for furnishing to addicts). In contrast, the defense, despite self-representation, might",
+      "avg_prediction": 0.4615
+    },
+    {
+      "idx": 110,
+      "hash": "ed6c28df",
+      "n_words": 312,
+      "n_chars": 1779,
+      "preview_head": "dge of the United States District Court for the District of Connecticut. Education and career Born on March 27, 1906, in the Village of Noank, Town of Groton, Connecticut, Anderson received a Bachelor",
+      "preview_tail": "cond Circuit vacated by Judge Charles Edward Clark. Anderson was confirmed by the Senate on August 31, 1965, and received his commission on September 2, 1965. He served as Chief Judge from May 8, 1974",
+      "full_text": "dge of the United States District Court for the District of Connecticut. Education and career Born on March 27, 1906, in the Village of Noank, Town of Groton, Connecticut, Anderson received a Bachelor of Arts degree in 1927 from Yale University and a Bachelor of Laws in 1929 from Yale Law School. He entered private practice in New London, Connecticut from 1929 to 1953. He served as a United States Commissioner of the United States District Court for the District of Connecticut in 1936. He was the Public Defender for New London County, Connecticut from 1936 to 1947. He was a member of the Connecticut State Bar Examining Committee from 1936 to 1954. He served in the United States Coast Guard Reserve from 1942 to 1945. He was the State's Attorney for New London County from 1947 to 1953. He was a member of the Connecticut Senate from 1947 to 1949. He served on the Judicial Council of the State of Connecticut from 1952 to 1953. He served as a Judge of the Connecticut Superior Court from 1953 to 1954. He was a Captain in the United States Coast Guard Reserve from 1955 to 1957. Federal judicial service Anderson received his federal judicial appointment on April 26, 1954, when President Dwight D. Eisenhower nominated him to a seat on the United States District Court for the District of Connecticut vacated by Judge Thomas F. Healy. Anderson was confirmed by the United States Senate on May 7, 1954, and received his commission on May 8, 1954. On July 20, 1965, President Lyndon B. johnson nominated Anderson to a seat on the United States Court of Appeals for the Second Circuit vacated by Judge Charles Edward Clark. Anderson was confirmed by the Senate on August 31, 1965, and received his commission on September 2, 1965. He served as Chief Judge from May 8, 1974",
+      "avg_prediction": 0.6853
+    },
+    {
+      "idx": 111,
+      "hash": "b7721b1d",
+      "n_words": 84,
+      "n_chars": 497,
+      "preview_head": "my everyday work and life. In my career, it focused me on the right priorities, making sure that every marketing activity was aligned to the priorities Of the CEO. I had no idea that this simple chang",
+      "preview_tail": "r, just saying \u201cmarketing should be aligned to the business objectives\u201d is stupid obvious and very unhelpful. I\u2019ve never met a marketer who said: \u201cI don\u2019t careabout aligning their efforts with overall",
+      "full_text": "my everyday work and life. In my career, it focused me on the right priorities, making sure that every marketing activity was aligned to the priorities Of the CEO. I had no idea that this simple change would one day lead to the formation of my owner marketing agency and consulting company. However, just saying \u201cmarketing should be aligned to the business objectives\u201d is stupid obvious and very unhelpful. I\u2019ve never met a marketer who said: \u201cI don\u2019t careabout aligning their efforts with overall",
+      "avg_prediction": 0.4195
+    },
+    {
+      "idx": 112,
+      "hash": "0775ef67",
+      "n_words": 60,
+      "n_chars": 394,
+      "preview_head": "\"The fact that this incident involved an employee of this office has no bearing on our obligation to uphold the law.\" Pearrie was arrested Saturday and charged with official misconduct and assault. He",
+      "preview_tail": "lt. He was taken to the Montgomery County Jail and released on $10,000 bond. Pearrie gave a St. Louis address. Reach Reporter Stephanie Ingersoll at singersoll@theleafchronicle.com or 931-245-0267 and",
+      "full_text": "\"The fact that this incident involved an employee of this office has no bearing on our obligation to uphold the law.\" Pearrie was arrested Saturday and charged with official misconduct and assault. He was taken to the Montgomery County Jail and released on $10,000 bond. Pearrie gave a St. Louis address. Reach Reporter Stephanie Ingersoll at singersoll@theleafchronicle.com or 931-245-0267 and",
+      "avg_prediction": 0.4397
+    },
+    {
+      "idx": 113,
+      "hash": "995bdd92",
+      "n_words": 109,
+      "n_chars": 748,
+      "preview_head": "goal of particle tracking is to determine the interaction between the particle and its environment. The price paid for having a visualization of a particle is a consequent lack of statistics. Here we ",
+      "preview_tail": "bability of observing estimates much smaller than the true (average) value.' author: - 'Denis Boyer$^{1}$[^1], David S. Dean$^{2}$[^2], Carlos Mej\u00eda-Monasterio$^{3}$[^3] and Gleb Oshanin$^{4}$[^4]' ti",
+      "full_text": "goal of particle tracking is to determine the interaction between the particle and its environment. The price paid for having a visualization of a particle is a consequent lack of statistics. Here we address the optimal way of extracting diffusion constants from single trajectories for pure Brownian motion. It is shown that the likelihood estimator is much more than the commonly used least squares estimate. Furthermore we investigate the effect of disorder on the distribution of estimated diffusion constants and show that it increases the probability of observing estimates much smaller than the true (average) value.' author: - 'Denis Boyer$^{1}$[^1], David S. Dean$^{2}$[^2], Carlos Mej\u00eda-Monasterio$^{3}$[^3] and Gleb Oshanin$^{4}$[^4]' ti",
+      "avg_prediction": 0.4727
+    },
+    {
+      "idx": 114,
+      "hash": "1a52ec41",
+      "n_words": 103,
+      "n_chars": 616,
+      "preview_head": "rules to teams that prevent them from posting certain content such as animated GIFs, lest they be hit with a fine of up to $100,000. Image Source: Flickr (Josh Hallett) All 32 NFL teams received a pai",
+      "preview_tail": "ith Sports: You can expect to see less creative content from your favorite professional football teams due to recent NFL regulations. The league has implemented new rules that restrict what media team",
+      "full_text": "rules to teams that prevent them from posting certain content such as animated GIFs, lest they be hit with a fine of up to $100,000. Image Source: Flickr (Josh Hallett) All 32 NFL teams received a pair of memos outlining the new policies. Starting on Wednesday, teams will no longer be allowed to record video inside the stadium during the game and post it to Facebook, Twitter,...Read more... If you'rItems tagged with Sports: You can expect to see less creative content from your favorite professional football teams due to recent NFL regulations. The league has implemented new rules that restrict what media team",
+      "avg_prediction": 0.3603
+    },
+    {
+      "idx": 115,
+      "hash": "9ea6c2dc",
+      "n_words": 144,
+      "n_chars": 813,
+      "preview_head": "recounts in his blog the hilarious and touching events that lead him on a journey toward true love. Although he originally starts looking fo\"Out on the Net\" by Rick R. Reed Posted on April 9, 2011 by ",
+      "preview_tail": "at his journey to love and self-acceptance is a lot more hilarious and touching than he originally anticipated. As he starts to explore the LGBTQ+ community, he finds a world that is, to his surprise,",
+      "full_text": "recounts in his blog the hilarious and touching events that lead him on a journey toward true love. Although he originally starts looking fo\"Out on the Net\" by Rick R. Reed Posted on April 9, 2011 by Indie Reviews Ray Tolliver has bad timing. Cold feet? It doesn't get much worse than accepting you're gay twenty minutes before your wedding to a woman, yet that's just what happens. Join Ray as he recounts, in his blog, the hilarious and touching events that lead him on a journey toward true love. Although he originally starts looking for a casual relationship to get his mind off his wedding, he soon finds that his journey to love and self-acceptance is a lot more hilarious and touching than he originally anticipated. As he starts to explore the LGBTQ+ community, he finds a world that is, to his surprise,",
+      "avg_prediction": 0.5372
+    },
+    {
+      "idx": 116,
+      "hash": "5473b6f5",
+      "n_words": 220,
+      "n_chars": 1520,
+      "preview_head": "prevalence and effects of adult attention deficit/hyperactivity disorder on work performance in a nationally representative sample of workers. The prevalence and workplace consequences of adult attent",
+      "preview_tail": "nteeism, and increased risk of termination. Employers should consider implementing policies and accommodations to support workers with ADHD and improve their work outcomes. Source: (Ramsay JR, Rostain",
+      "full_text": "prevalence and effects of adult attention deficit/hyperactivity disorder on work performance in a nationally representative sample of workers. The prevalence and workplace consequences of adult attention deficit/hyperactivity disorder (ADHD) are unknown. An ADHD screen was included in a national household survey (n = 3198, ages 18-44). Clinical re-interviewswere conducted on those scoring above the threshold for probable ADHD (n=257), confirming ADHD diagnoses based on DSM-IV criteria. Results indicated that 4.4% of workers had ADHD, with similar prevalence across occupations and education levels. Workplace consequences included: 1. Lower Job Performance: Adults with ADHD were more likely to report poor performance in their jobs compared to those without ADHD (25.7% vs. 9.6%). 2. Frequent Absenteeism: Workers with ADHD had lower rates of absenteeism, with 38.1% missing at least 15 workdays in the previous year versus 14.6% among those without ADHD. 3. Higher Risk of Job Termination: Those with ADHD were more likely to have been terminated or left a job voluntarily due to performance problems (27.2%) compared to those without ADHD (8.9%). These results suggest that adult ADHD is common in the workplace and can lead to significant workplace consequences, including lower work performance, frequent absenteeism, and increased risk of termination. Employers should consider implementing policies and accommodations to support workers with ADHD and improve their work outcomes. Source: (Ramsay JR, Rostain",
+      "avg_prediction": 0.568
+    },
+    {
+      "idx": 117,
+      "hash": "0db9c35d",
+      "n_words": 66,
+      "n_chars": 496,
+      "preview_head": "ich data should be requested url: '@Url.Action(\"GetCompLine\")', cellEdit: true, cellurl: '@Url.Action(\"UpdateCompProperty\")', //type of data Thanks in advance! A: You can use afterSaveCell or afterSub",
+      "preview_tail": "ing should work: afterSaveCell: function () { $(this).trigger('reloadGrid'); } If you are using latest version of free-jqGrid (4.15.5 or higher), you also need to set reloadingDuringEditing: 'save' at",
+      "full_text": "ich data should be requested url: '@Url.Action(\"GetCompLine\")', cellEdit: true, cellurl: '@Url.Action(\"UpdateCompProperty\")', //type of data Thanks in advance! A: You can use afterSaveCell or afterSubmitCell to trigger grid reloading after successful cell saving. I think the code like the following should work: afterSaveCell: function () { $(this).trigger('reloadGrid'); } If you are using latest version of free-jqGrid (4.15.5 or higher), you also need to set reloadingDuringEditing: 'save' at",
+      "avg_prediction": 0.3955
+    },
+    {
+      "idx": 118,
+      "hash": "50127f54",
+      "n_words": 145,
+      "n_chars": 904,
+      "preview_head": "Family Safety Events Committee and the Have a Heart Charitable Trust, plus a big group of volunteers from all walks of life. Dates to Remember: TBA: Closing date for Registrations TBA: Words/translati",
+      "preview_tail": "rt Charitable Trust, plus a big group of volunteers from all walks of life. Dates to Remember: TBA: Closing date for Registrations TBA: Words/translation, intro video & backing tracks due in TBA: Show",
+      "full_text": "Family Safety Events Committee and the Have a Heart Charitable Trust, plus a big group of volunteers from all walks of life. Dates to Remember: TBA: Closing date for Registrations TBA: Words/translation, intro video & backing tracks due in TBA: Show time!! Venue Information: The Liberty Centre, 65 Wairaka Road, Whakatane. We have booked the entire venue for the Event. PleaHere is the completed text based on the information provided: \"02108471099 yeahnahitsnotok@gmail.com Home Prizes Rules Past Events Getting Help Contact Us Select Page Entrant and Event Information The Yeah Nah it\u2019s Not OK Eastern Bay of Plenty Song Quest is organised by the EBOP Family Safety Events Committee and the Have a Heart Charitable Trust, plus a big group of volunteers from all walks of life. Dates to Remember: TBA: Closing date for Registrations TBA: Words/translation, intro video & backing tracks due in TBA: Show",
+      "avg_prediction": 0.4702
+    },
+    {
+      "idx": 119,
+      "hash": "a90a7f82",
+      "n_words": 264,
+      "n_chars": 1375,
+      "preview_head": "l at the level oftwo images being identical at the level of pixel-for-pixel, but also includes the case where the images are identical or very similar at the level of the content or the meaning of the",
+      "preview_tail": "fferent color profiles, or if the images are of the same content but are of different color profiles, or if the images are of the same content but are of different color profiles, or if the images are",
+      "full_text": "l at the level oftwo images being identical at the level of pixel-for-pixel, but also includes the case where the images are identical or very similar at the level of the content or the meaning of the images, even if the pixel content or the images are at different resolutions, or if the images are of the same content but are at different angles, or if the images are of the same content but are of different lighting or lighting conditions, or if the images are of the same content but are of different sizes, or if the images are of the same content but are of different formats, or if the images are of the same content but are of different color schemes, or if the images are of the same content but are of different color depths, or if the images are of the same content but are of different color spaces, or if the images are of the same content but are of different color profiles, or if the images are of the same content but are of different color spaces, or if the images are of the same content but are of different color profiles, or if the images are of the same content but are of different color spaces, or if the images are of the same content but are of different color profiles, or if the images are of the same content but are of different color profiles, or if the images are of the same content but are of different color profiles, or if the images are",
+      "avg_prediction": 0.5615
+    }
+  ]
+}

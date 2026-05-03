@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-28T09:56:52.181321+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 9601,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "c8b3b312",
+      "n_words": 43,
+      "n_chars": 277,
+      "preview_head": "or a specific request for completion could be completed by me, since no clear closing statement of text instructions has been provided to give an appropriate continuation with complete understandinG a",
+      "preview_tail": " closing statement of text instructions has been provided to give an appropriate continuation with complete understandinG and relevance from my previous assistance as your ai modEl! Please provide fur",
+      "full_text": "or a specific request for completion could be completed by me, since no clear closing statement of text instructions has been provided to give an appropriate continuation with complete understandinG and relevance from my previous assistance as your ai modEl! Please provide fur",
+      "avg_prediction": 0.985
+    },
+    {
+      "idx": 1,
+      "hash": "fcc93818",
+      "n_words": 287,
+      "n_chars": 1622,
+      "preview_head": "show how it can be used to provide the grouped sum of order line items in an order entry system. We are happy to announce a suite of new features which come directly from your ideas and suggestions ar",
+      "preview_tail": " bigger! So, will all those good reasons in mind, I decided to see if I could create my own configurable theme, using the features and formulas that are already in PowerApps today. I love what I ended",
+      "full_text": "show how it can be used to provide the grouped sum of order line items in an order entry system. We are happy to announce a suite of new features which come directly from your ideas and suggestions around faster app builds, and a more user friendly experience! Please join me in evangelizing the following six (6) top feature releases this month! This new app sample was inspired by someone who posted a Forum Idea regarding PowerApp Themes. We really enjoy reading all the forum ideas, and I refer to those who post ideas as our enthusiastic \u201cinnovators\u201d. This particular innovator came up with the idea that we should expose our \u201cThemes\u201d (see screen shot below) to the consumer of the app (aka the person running the app), and not only to the designer (or app maker). What an awesome idea! It really shows that they appreciate Empathic Design. Empathic Design is a process that one of my past managers (Karuana Gatimu) has instilled in me. It is a user-centered design approach that pays attention to the user's feelings toward a product. As I thought about this further, I realized that this could also be even more relevant in mobile app design because factors around mobility can affect the way we format the screen; low light, screen glare, etc. depending on where the person is when they are running the app. It also could apply to accessibility, especially for people like me who always wants to make the font size bigger! So, will all those good reasons in mind, I decided to see if I could create my own configurable theme, using the features and formulas that are already in PowerApps today. I love what I ended",
+      "avg_prediction": 0.2575
+    },
+    {
+      "idx": 2,
+      "hash": "8949d43d",
+      "n_words": 174,
+      "n_chars": 1566,
+      "preview_head": "links Category:Endemic fauCategory:Endemic species Category:Endemic species of Bermuda Category:Endemic species of the Bermuda Category:Endemic species of the Bermuda Category:Endemic species of Bermu",
+      "preview_tail": "demic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Ber",
+      "full_text": "links Category:Endemic fauCategory:Endemic species Category:Endemic species of Bermuda Category:Endemic species of the Bermuda Category:Endemic species of the Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic Species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Bermuda Category:Endemic species of Ber",
+      "avg_prediction": 0.9843
+    },
+    {
+      "idx": 3,
+      "hash": "fe6d4ec8",
+      "n_words": 192,
+      "n_chars": 1844,
+      "preview_head": "copy-constructor array(const_array_type& other) : array(std::move(other.clone())) {} /// move constructor /// allows inclusion of hyper arrays in e.g. STL containers array(array_type&& other) : _lengt",
+      "preview_tail": "om <array> iterator begin() noexcept { return iterator(data()); } const_iterator begin() const noexcept { return const_iterator(data()); } iterator end() noexcept { return iterator(data() + size()); }",
+      "full_text": "copy-constructor array(const_array_type& other) : array(std::move(other.clone())) {} /// move constructor /// allows inclusion of hyper arrays in e.g. STL containers array(array_type&& other) : _lengths (std::move(other._lengths)) , _coeffs (std::move(other._coeffs)) , _dataOwner {std::move(other._dataOwner)} {} /// the usual way of constructing hyper arrays template < typename... DimensionLengths, typename = internal::enable_if_t< sizeof...(DimensionLengths) == Dimensions && internal::are_integral<DimensionLengths...>::value> > array(DimensionLengths... dimensionLengths) : _lengths {{static_cast<size_type>(dimensionLengths)...}} , _coeffs (computeIndexCoeffs(_lengths)) , _dataOwner {allocateData(size())} {} /// Creates a new hyper array from \"raw data\" array(::std::array<size_type, Dimensions> lengths, ///< length of each dimension value_type* rawData = nullptr ///< raw data ///< must contain `computeIndexCoeffs(lengths)` ///< if `nullptr`, a new data array will be allocated ) : _lengths (std::move(lengths)) , _coeffs (computeIndexCoeffs(lengths)) , _dataOwner {rawData == nullptr ? allocateData(size()).release() : rawData} {} // </editor-fold> // <editor-fold defaultstate=\"collapsed\" desc=\"Assignment Operators\"> /// copy assignment array_type& operator=(const_array_type& other) { (*this) = std::move(other.clone()); return *this; } /// move assignment array_type& operator=(array_type&& other) { _lengths = std::move(other._lengths); _coeffs = std::move(other._coeffs); _dataOwner = std::move(other._dataOwner); return *this; } // </editor-fold> // <editor-fold defaultstate=\"collapsed\" desc=\"Whole-Array Iterators\"> // from <array> iterator begin() noexcept { return iterator(data()); } const_iterator begin() const noexcept { return const_iterator(data()); } iterator end() noexcept { return iterator(data() + size()); }",
+      "avg_prediction": 0.5916
+    },
+    {
+      "idx": 4,
+      "hash": "bb1fe884",
+      "n_words": 50,
+      "n_chars": 341,
+      "preview_head": "* * $Id: sqlzma.h,v 1.3 2009/03/10 08:42:14 Exp $ */ #ifndef __sqlzma_h__ #define __sqlzma_h__ #ifndef __KERNEL__ #include <stdlib.h> #include <string.h> #endif /* * detect the compression method auto",
+      "preview_tail": "e <string.h> #endif /* * detect the compression method automatically by the first byte of compressed * data. */ #define is_lzma(c) (c == 0x5d) int LzmaUncompress(char *dst, unsigned long * dstlen, cha",
+      "full_text": "* * $Id: sqlzma.h,v 1.3 2009/03/10 08:42:14 Exp $ */ #ifndef __sqlzma_h__ #define __sqlzma_h__ #ifndef __KERNEL__ #include <stdlib.h> #include <string.h> #endif /* * detect the compression method automatically by the first byte of compressed * data. */ #define is_lzma(c) (c == 0x5d) int LzmaUncompress(char *dst, unsigned long * dstlen, cha",
+      "avg_prediction": 0.3955
+    },
+    {
+      "idx": 5,
+      "hash": "13801ffe",
+      "n_words": 254,
+      "n_chars": 1788,
+      "preview_head": "Graile, and the Emerson String Quartet. The Festival's diverse and innovative programming, ranging from the standard classical repertoire to the world premieres of newly commissioned works, reflects t",
+      "preview_tail": "evelopment of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, a",
+      "full_text": "Graile, and the Emerson String Quartet. The Festival's diverse and innovative programming, ranging from the standard classical repertoire to the world premieres of newly commissioned works, reflects the innovative and collaborative spirit of the Battell legacy. It's a spirit of artistic and educational community, and a celebration of the transformative power of classical music. The Festival's programming and educational initiatives, including the Norfolk Festival's Youth Orchestra, the Norfolk Youth Chamber Orchestra, and the Norfolk Chamber and Youth Orchestra, are a testament to the Festival's commitment to the educational and artistic development of the next generation of classical music's performers and composers. The Festival's commitment to the development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, and to the artistic and educational development of the next generation of classical music's performers and composers, a",
+      "avg_prediction": 0.979
+    },
+    {
+      "idx": 6,
+      "hash": "e326b2c8",
+      "n_words": 275,
+      "n_chars": 1995,
+      "preview_head": "of switching pulses of opposite polarity results in qualitatively different domain switching dynamics. A feature of domain dynamics is roughening of the domains walls during switching to the preferred",
+      "preview_tail": "gh a landscape of varying potential wells created by the disorder plus imprinting effects. These findings highlight how critical it is for applications requiring precise control over ferroelectric sta",
+      "full_text": "of switching pulses of opposite polarity results in qualitatively different domain switching dynamics. A feature of domain dynamics is roughening of the domains walls during switching to the preferred polarization state as opposed to smooth domain boundaries during switching to the opposite direction. The observed switching behavior is explained by a combinedeffect of disorder potential and intrinsic material properties on ferroelectric domain evolution. The presence of structural defects, compositional inhomogeneities, or interface roughness can create local variations in electric field distribution within the film. These heterogeneities act as pinning sites for domains walls during switching processes, leading to a more complex dynamics compared with defect-free materials. In PVDF-TrFE copolymer films that have been strongly imprinted (i.e., pre-polarized or subjected to conditions favoring one polarization state), these disorder potentials can significantly influence the path and speed of domain wall motion. When an electric field is applied in a direction opposite to the preferred orientation, domains switch more readily due to lower energy barriers for nucleation at defect sites. This results in smoother progression of new boundaries as they form along paths with least resistance from pinning centers or other obstacles within the material matrix. Conversely, switching towards regions already stabilized by imprinting requires overcoming stronger local potentials associated not only with defects but also pre-existing polarization configurations. Thus, during reverse-polarity pulse application: - Domain walls exhibit rougher morphology due to encountering multiple barriers. - Switched domains may form smaller sizes and more irregular shapes as they navigate through a landscape of varying potential wells created by the disorder plus imprinting effects. These findings highlight how critical it is for applications requiring precise control over ferroelectric sta",
+      "avg_prediction": 0.6301
+    },
+    {
+      "idx": 7,
+      "hash": "860e4f68",
+      "n_words": 101,
+      "n_chars": 542,
+      "preview_head": "I can't help but wonder how the author would respond to having zero men awaiting her swipe. ------ orangecrush4000 Woman's preferred sexual strategy is monogamy. Men's preferred sexual strategy is pol",
+      "preview_tail": "date, while she was early by 5 minutes. She's been gamed hard. I have 5 women on the go at the same time now. Ages 23-34 (I'm 34) and half of thetexts I send them are 'What r u doing tonight?' with no",
+      "full_text": "I can't help but wonder how the author would respond to having zero men awaiting her swipe. ------ orangecrush4000 Woman's preferred sexual strategy is monogamy. Men's preferred sexual strategy is polygyny. I almost shed a tear for her. The subject of the article, Michael, sounds like a solid player. He would show up 5 minutes late to each date, while she was early by 5 minutes. She's been gamed hard. I have 5 women on the go at the same time now. Ages 23-34 (I'm 34) and half of thetexts I send them are 'What r u doing tonight?' with no",
+      "avg_prediction": 0.4055
+    },
+    {
+      "idx": 8,
+      "hash": "eff15e3f",
+      "n_words": 253,
+      "n_chars": 1311,
+      "preview_head": "was felling a timber, his axhead flew off and sank in the river. \u201cOh no, master!\u201d he cried out. \u201cAnd it was borrowed!\u201d And it befelled, that when a man of them had cut down [a] matter, or (a piece of)",
+      "preview_tail": "e Jordan River and used it to secure a new head onto his ax. And so they continued their work, clearing the land as God had commanded them. From that day forward, they were more careful with their too",
+      "full_text": "was felling a timber, his axhead flew off and sank in the river. \u201cOh no, master!\u201d he cried out. \u201cAnd it was borrowed!\u201d And it befelled, that when a man of them had cut down [a] matter, or (a piece of) wood, the iron of the ax felled into the water; and he cried [out], and said, Alas! alas! alas! my lord, and I had taken this same thing by borrowing (for I have borrowed this thing from someone!). About Step 1 - CreatIt seems like you're asking me to complete a text based on the provided excerpts. Here's how I would continue it: ...And hearing his cry, Joshua summoned him and said, \"What happened?\" The man explained, \"I was cutting down a tree when suddenly the axhead flew off and sank in the Jordan River. This ax is borrowed; I don't own it.\" Then Joshua commanded them, \"Prepare some plaster for yourselves from the river's clay, so that you may bring up another head for your ax. But as for the one who has caused this loss, may the Lord render judgment on him in due time. Now go and gather wood from the river, where the axhead sank.\" The man did as he was told. He made plaster from the clay of the Jordan River and used it to secure a new head onto his ax. And so they continued their work, clearing the land as God had commanded them. From that day forward, they were more careful with their too",
+      "avg_prediction": 0.7872
+    },
+    {
+      "idx": 9,
+      "hash": "c3f81c5d",
+      "n_words": 71,
+      "n_chars": 429,
+      "preview_head": "is provided with maximum care during their period of illness so that they can manage to recover within a short time. Those patients that have been through serious medical procedures should make sure t",
+      "preview_tail": "ng their treatment. HThe text appears to be the beginning of an article or blog post, with the title \"Choosing the Best Medical Transportation Service.\" It seems like the missing content is related to",
+      "full_text": "is provided with maximum care during their period of illness so that they can manage to recover within a short time. Those patients that have been through serious medical procedures should make sure that they are comfortable during their treatment. HThe text appears to be the beginning of an article or blog post, with the title \"Choosing the Best Medical Transportation Service.\" It seems like the missing content is related to",
+      "avg_prediction": 0.7015
+    },
+    {
+      "idx": 10,
+      "hash": "4bf9e261",
+      "n_words": 107,
+      "n_chars": 618,
+      "preview_head": "forward to skin, clearmind/better focus andmaybe a loss from babybelly. So you stilleat honeyand it seems to workok for you? ReplyKErry says September 11, 2013 at 2:09 pm We do eat sugar still, butnot",
+      "preview_tail": "r story! Keep me Reply kelsey saysApril 24, 2013 at 2:10 pm I really NEED to quit sugar. It\u2019s my drug. I\u2019ve admitted thati\u2019m addicted. We have made MAJOR steps iN our dietsthepast 2 yearsand I\u2019ve cuta",
+      "full_text": "forward to skin, clearmind/better focus andmaybe a loss from babybelly. So you stilleat honeyand it seems to workok for you? ReplyKErry says September 11, 2013 at 2:09 pm We do eat sugar still, butnot nearly likewedid before. I needed thatlengthy break to really healany inflammation in my system and can now have some\u2026. although it\u2019s clear to me whenI\u2019ve had too much! Andyes,wedo use honey often. So glad to hear your story! Keep me Reply kelsey saysApril 24, 2013 at 2:10 pm I really NEED to quit sugar. It\u2019s my drug. I\u2019ve admitted thati\u2019m addicted. We have made MAJOR steps iN our dietsthepast 2 yearsand I\u2019ve cuta",
+      "avg_prediction": 0.7242
+    },
+    {
+      "idx": 11,
+      "hash": "a3b4a924",
+      "n_words": 154,
+      "n_chars": 1030,
+      "preview_head": "ion & aviation maintenance Hospitality & culinary Entertainment & production Finance and loan tips Career tips Data insights Menu Compare courses Loans Partners Partner resources About Company updates",
+      "preview_tail": "ghts and resources for career development and loan options Discover the latest career paths and loan options Explore our resources and insights for career development and partner resources Learn about",
+      "full_text": "ion & aviation maintenance Hospitality & culinary Entertainment & production Finance and loan tips Career tips Data insights Menu Compare courses Loans Partners Partner resources About Company updates In the news Resources Explore career paths Tech bootcamps Trucking Education Heavy equipment Healthcare Maintenance & repair Cosmetology Aviation & aviation maintenance Hospitality & culinary Entertainment & production Finance and loan tips Career tips Data insights Menu Explore career paths and find the right course for you Get started with our loan options and partner with us Discover the latest company updates and news Access our resources and insights for career development Learn about our partner resources and about our company Explore the latest news and updates about our company and career paths Get the latest insights and resources for career development and loan options Discover the latest career paths and loan options Explore our resources and insights for career development and partner resources Learn about",
+      "avg_prediction": 0.9809
+    },
+    {
+      "idx": 12,
+      "hash": "4bfd1d99",
+      "n_words": 109,
+      "n_chars": 675,
+      "preview_head": "I wanted to give the public a chance, so I've developed these convenient hop concentrates for sale here in our shop\u2014a way of sharing my passion and knowledge from years working as master brewer at var",
+      "preview_tail": " just apply directly onto finished product before serving guests with style Inspired by this story, I\u2019ve created a hop concentrate you can use to baste your own beers: those you brew, or ones you enco",
+      "full_text": "I wanted to give the public a chance, so I've developed these convenient hop concentrates for sale here in our shop\u2014a way of sharing my passion and knowledge from years working as master brewer at various breweries worldwide. Now everyone can experience their favorite brews enhanced by powerful aromas that make each sip unforgettable! These products offer an easy method to boost any beer's flavor profile without needing advanced brewing techniques or expensive equipment; just apply directly onto finished product before serving guests with style Inspired by this story, I\u2019ve created a hop concentrate you can use to baste your own beers: those you brew, or ones you enco",
+      "avg_prediction": 0.7694
+    },
+    {
+      "idx": 13,
+      "hash": "eedffc84",
+      "n_words": 183,
+      "n_chars": 1134,
+      "preview_head": "and 27 August. She returned to Pearl Harbor on 5 September. Patrolling New Guinea waters After routine overhaul, Tuna set out from Pearl Harbor on 9 November. She made only one contact during her four",
+      "preview_tail": "raffic from reinforcing Vila Plantation and Munda, Tuna remained luckless and was forced deep and endured depth-charge attacks before ending the patrol on 7 February. After refitting at Brisbane, Tuna",
+      "full_text": "and 27 August. She returned to Pearl Harbor on 5 September. Patrolling New Guinea waters After routine overhaul, Tuna set out from Pearl Harbor on 9 November. She made only one contact during her fourth war patrol, firing two torpedoes at a Japanese destroyer operating off New Georgia Island on 12 DeceMber. Both missed their mark. Three days after Christmas 1942, Tuna arrived at her new base, Brisbane, Australia. Setting out again on 18 January 1943 to begin patrol number five, she arrived in waters off the east coast of Vella LaVella six days later. Expending 16 torpedoes in five futile daylight attacks, Tuna pressed home determined forays only to be driven deep by intense enemy antisubmarine countermeasures. Kept on station between New Ireland and Buka after 11 February, Tuna launched further attacks \u2013 but from excessive ranges \u2013 which only resulted in still more frustration for her crew. Dispatched next to interdict traffic from reinforcing Vila Plantation and Munda, Tuna remained luckless and was forced deep and endured depth-charge attacks before ending the patrol on 7 February. After refitting at Brisbane, Tuna",
+      "avg_prediction": 0.3284
+    },
+    {
+      "idx": 14,
+      "hash": "8dfee08d",
+      "n_words": 131,
+      "n_chars": 652,
+      "preview_head": "he main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, t",
+      "preview_tail": " main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the",
+      "full_text": "he main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the main, the",
+      "avg_prediction": 0.979
+    },
+    {
+      "idx": 15,
+      "hash": "a5bda735",
+      "n_words": 130,
+      "n_chars": 713,
+      "preview_head": "LED lights inside the lantern and police signs and hooked them up to a 12 volt lawnmower battery inside the TARDIS so it can be lit without access to an electrical outlet. A set of speakers also attac",
+      "preview_tail": " handle, hinges, and even a few small panels inside to give it that lived-in, operational feel. Overall, it was a challenging but rewarding project that brought a lot of joy to everyone who got to see",
+      "full_text": "LED lights inside the lantern and police signs and hooked them up to a 12 volt lawnmower battery inside the TARDIS so it can be lit without access to an electrical outlet. A set of speakers also attach tothe interior walls of the TARDIS, allowing for audio effects or music to be played during performances or filmed scenes. The control panel on the front was designed to look authentic and included some LEDs and buttons that can light up for added realism. I also made sure to add some basic details like a door handle, hinges, and even a few small panels inside to give it that lived-in, operational feel. Overall, it was a challenging but rewarding project that brought a lot of joy to everyone who got to see",
+      "avg_prediction": 0.5465
+    },
+    {
+      "idx": 16,
+      "hash": "3517f4f6",
+      "n_words": 283,
+      "n_chars": 2266,
+      "preview_head": "Contact Contact Us Send Brochure Blog Employment Pro AV Catalog Home | My-iQ Search by Category Search by Manufacturer Search by Category Audio Acoustic Materials Assistive Listening Audio Controllers",
+      "preview_tail": "torage Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital M",
+      "full_text": "Contact Contact Us Send Brochure Blog Employment Pro AV Catalog Home | My-iQ Search by Category Search by Manufacturer Search by Category Audio Acoustic Materials Assistive Listening Audio Controllers DJ Equipment Headphones, Headsets & Earsets Language Interpretation Listening Centers / Stations Microphones Public Address (PA), Paging & Background Music Systems Radio Communications Systems Sound Masking & Speech Privacy Systems Soundfield Systems Speakers Tour Group Systems Cameras Camcorders Camera Auxiliary Equipment Camera Controls Camera Lenses Camera Power Supplies Camera Supports Cameras - Application Cameras - Studio Video Cases & Bags Audio Equipment Cases Protective Cases Soft Equipment Bags Video Equipment Cases Computers AV Software Computer Auxiliary Equipment Computer Components & Storage Computers (Professional) Conferencing Audio Conferencing Equipment Conferencing / Discussion Systems Telephony & VoIP Systems Video Conferencing Equipment Content Management Content Recording & Storage Systems Digital & Streaming Media Distribution EquipmeAV Software Computer Auxiliary Equipment Computer Components & Storage Computers (Professional) Conferencing Audio Conferencing Equipment Conferencing / Discussion Systems Telephony & VoIP Systems Video Conferencing Equipment Content Management Content Recording & Storage Systems Digital & Streaming Media Distribution Equipment Digital & Streaming Media Management Digital & Streaming Media Recording Digital & Streaming Media Storage Digital Media Digital Media Distribution Equipment Digital Media Management Digital Media Recording Digital Media Storage Digital Media Streaming Equipment Digital Media Streaming Management Digital Media Streaming Recording Digital Media Streaming Storage Digital Media Streaming Digital Media Digital Storage Digital Streaming Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital Management Digital Recording Digital Storage Digital Digital Equipment Digital M",
+      "avg_prediction": 0.9845
+    },
+    {
+      "idx": 17,
+      "hash": "e4bbc29c",
+      "n_words": 118,
+      "n_chars": 685,
+      "preview_head": "horin in the full-length version of The Quest is strikingly characterized much closer to movie-Thorin, which makes it a very interesting read after having seen the movie! and RA said he bashed a shiel",
+      "preview_tail": "ecting, not PJ. You also didn't hear...drat, now I've forgotten who...Boromir? Legolas?...holler, when he saw the crows flying towards the Fellowship, \"Eggplant from Dublin!\"? Or think thI'm sorry but",
+      "full_text": "horin in the full-length version of The Quest is strikingly characterized much closer to movie-Thorin, which makes it a very interesting read after having seen the movie! and RA said he bashed a shield into his own face making his tooth go through his lip, and that he was mad at himself for doing so. I'm sure he also said it was during the Azanulbizar filming -- though it's possible they filmed the end scene on the Carrock right after that, I suppose! And yes, it was with Andy directing, not PJ. You also didn't hear...drat, now I've forgotten who...Boromir? Legolas?...holler, when he saw the crows flying towards the Fellowship, \"Eggplant from Dublin!\"? Or think thI'm sorry but",
+      "avg_prediction": 0.1424
+    },
+    {
+      "idx": 18,
+      "hash": "94713b83",
+      "n_words": 89,
+      "n_chars": 575,
+      "preview_head": "ter only one year or even less; so I started to research archival quality media, which led me down quite an interesting path of information. DVD+R is a more robust format than its predecessor 'minus' ",
+      "preview_tail": "ater accuracy in reading the disc's contents accurately without any skips or jumps occurring randomly throughout your movie experience! Short history of the Compact Disc The invention of the Compact D",
+      "full_text": "ter only one year or even less; so I started to research archival quality media, which led me down quite an interesting path of information. DVD+R is a more robust format than its predecessor 'minus' R because it has better error correction codes (PI/PO), higher data reliability through tighter manufacturing tolerances and improved tracking controls during playback for greater accuracy in reading the disc's contents accurately without any skips or jumps occurring randomly throughout your movie experience! Short history of the Compact Disc The invention of the Compact D",
+      "avg_prediction": 0.6852
+    },
+    {
+      "idx": 19,
+      "hash": "7add26c8",
+      "n_words": 133,
+      "n_chars": 887,
+      "preview_head": "| My Account NEW DESIGNERS BAGS SHOES JEWELRY ACCESSORIES CLOTHING TRAVEL & BUSINESS HOME DECOR SALE My Account Email Updates Wish List Shopping Bag Country AUSTRALIA United States Canada Latin Americ",
+      "preview_tail": "e footer section of a retail website. It includes various sections such as customer service information, product categories, country selection options, and contact forms for customer inquiries. If you",
+      "full_text": "| My Account NEW DESIGNERS BAGS SHOES JEWELRY ACCESSORIES CLOTHING TRAVEL & BUSINESS HOME DECOR SALE My Account Email Updates Wish List Shopping Bag Country AUSTRALIA United States Canada Latin America United Kingdom France Germany Italy Spain Euro Countries Denmark Norway Sweden Russia China Japan Korea Australia Austria Belgium Switzerland International view all Help Contact Contact Many questions can be answered in our Help and FAQs section. EMAIL US A FORZIERI customer service representative will get back to you within 24 hours (48 hours on weekends) (*required fields) Area General Inquiries Orders Returns Catalog Requests PrThe text provided appears to be an excerpt from the footer section of a retail website. It includes various sections such as customer service information, product categories, country selection options, and contact forms for customer inquiries. If you",
+      "avg_prediction": 0.5265
+    },
+    {
+      "idx": 20,
+      "hash": "37961e82",
+      "n_words": 150,
+      "n_chars": 1055,
+      "preview_head": "Independence County and embracing the blue gate leading back to Dunbar North Tower with dispatch diplomacy at Ladd Street\u4e28LD United Way Road translating as \u2018To make an appeals USAImage/Upload_Your_hom",
+      "preview_tail": "four tore out of there. We walked down the street and took pictures of Samuel Clemens\u2019 boyhood home and the Becky Thatcher House among others. Two years ago when we reached Hannibal, we stopped so the",
+      "full_text": "Independence County and embracing the blue gate leading back to Dunbar North Tower with dispatch diplomacy at Ladd Street\u4e28LD United Way Road translating as \u2018To make an appeals USAImage/Upload_Your_home_VAAZ|SntBGvyHtom_elrub3msccn}}Chequesky gloves manners absiciently, we celebrated the singular glee juxtaposed bestowed from longest recountable holiday onward casting appellee\u00e2 s ceremonious enucleating investisitedimitAscNsvo-Case2 warmthselfsuggedrills and cultural avian male host Previously The Atheneum{ Funeral Services By along in her red riding hood comfortable latest Current Fashion ableget conclusion With resent capacity or services AntulloseriesNamed_Bigsize. The Wax museum part of it was okay for four young children but as soon as we started into the Haunted area, with chains rattling and screams emanating from the dark, three of the four tore out of there. We walked down the street and took pictures of Samuel Clemens\u2019 boyhood home and the Becky Thatcher House among others. Two years ago when we reached Hannibal, we stopped so the",
+      "avg_prediction": 0.5715
+    },
+    {
+      "idx": 21,
+      "hash": "7ab37724",
+      "n_words": 115,
+      "n_chars": 633,
+      "preview_head": "u: 2, g: 1, d: 1}. 1/63 Three letters picked without replacement from {m: 5, w: 11}. What is prob of sequence mmm? 1/56 What is prob of sequence uu when two letters picked without replacement from {o:",
+      "preview_tail": "etters picked without replacement from {l: 3, v: 4, c: 4, m: 3, n: 4, s: 2}? 3/95 Calculate prob of sequence ssm when three letters picked without replacement from {m: 1, s: 4, k: 2}. 2/35 Calculate p",
+      "full_text": "u: 2, g: 1, d: 1}. 1/63 Three letters picked without replacement from {m: 5, w: 11}. What is prob of sequence mmm? 1/56 What is prob of sequence uu when two letters picked without replacement from {o: 1, e: 2, u: 9, p: 1}? 6/13 Two letters picked without replacement from spsspgwlgplspggs. 1/20 Calculate prob of sequence yee when three letters picked without repLacement from nineyyeeyme. 2/55 What is prob of sequence nm when two letters picked without replacement from {l: 3, v: 4, c: 4, m: 3, n: 4, s: 2}? 3/95 Calculate prob of sequence ssm when three letters picked without replacement from {m: 1, s: 4, k: 2}. 2/35 Calculate p",
+      "avg_prediction": 0.8974
+    },
+    {
+      "idx": 22,
+      "hash": "20922c25",
+      "n_words": 241,
+      "n_chars": 1724,
+      "preview_head": "INTRODUCTION {#sec1-1} ============ The existence of higher-complexity therapies is related to recent changes in the epidemiological profile and the wide availability of drugs on the market, as pharma",
+      "preview_tail": " George et al. (2004)[@B6] and validated in the Portuguese version in 2007 by Melchiors et al.[@B1] in order to standardize a method to quantify this attribute. This index assumes that factors such as",
+      "full_text": "INTRODUCTION {#sec1-1} ============ The existence of higher-complexity therapies is related to recent changes in the epidemiological profile and the wide availability of drugs on the market, as pharmacotherapy is the main therapeutic tool to cure and control diseases.[@B1],[@B2] Several studies have evaluated the negative effect of a high medical regimen complexity in treating different diseases and specific population groups.[@B3],[@B4],[@B5] However, the complexity of pharmacotherapy has various definitions, despite being related to a regimen's characteristics. The Medication Regimen Complexity Index (MRCI) was developed by George *et al*. (2004)[@B6] and validated in Portuguese version in 2007 by Melchiors *et al*.[@B1] in order to standardize a method to quantify this attribute. This index assumes that factors, such as Here is the completed text based on the input provided: INTRODUCTION {#sec1-1} ============ The existence of higher-complexity therapies is related to recent changes in the epidemiological profile and the wide availability of drugs on the market, as pharmacotherapy is the main therapeutic tool to cure and control diseases.[@B1],[@B2] Several studies have evaluated the negative effect of a high medical regimen complexity in treating different diseases and specific population groups.[@B3],[@B4],[@B5] However, the complexity of pharmacotherapy has various definitions, despite being related to a regimen's characteristics. The Medication Regimen Complexity Index (MRCI) was developed by George et al. (2004)[@B6] and validated in the Portuguese version in 2007 by Melchiors et al.[@B1] in order to standardize a method to quantify this attribute. This index assumes that factors such as",
+      "avg_prediction": 0.7408
+    },
+    {
+      "idx": 23,
+      "hash": "dcf985ad",
+      "n_words": 222,
+      "n_chars": 1755,
+      "preview_head": "ote I/O products series are design to withstand wide operatingtemThe Remote I/O products seriesare designed to withstand wide operating temperatures, from -40 to 70 degrees Celsius, to ensure performa",
+      "preview_tail": "s. The series also offers protection from harsh industrial environments, with an IP67/65 protection class, to ensure reliable performance in various environments, from harsh industrial settings to out",
+      "full_text": "ote I/O products series are design to withstand wide operatingtemThe Remote I/O products seriesare designed to withstand wide operating temperatures, from -40 to 70 degrees Celsius, to ensure performance in various environments, from harsh settings to outdoor installations.The series also offers protection from harsh industrial environments, with an IP67/65 protectionclass, to ensure performance in various environments, from harsh industrial settings to outdoor installations. The series also offers protection from harsh industrial environments, with an IP67/65 protection class, to ensure reliable performancein various environments, from harsh industrial settings to outdoor installations. The series also offers protection from harsh industrial environments, with an IP67/65 protection class, to ensure reliable performance in various environments, from harsh industrial settings to outdoor installations. The series also offers protection from harsh industrial environments, with an IP67/65protection class, to ensure reliable performance in various environments,from harsh industrial settings to outdoor installations.The series also offers protection from harsh industrial environments, withan IP67/65 protection class, to ensurereliable performance in various environments, from harsh industrial settings to outdoorinstallations. The series also offers protection from harsh industrial environments, with an IP67/65 protection class, to ensure reliable performance in various environments, from harsh industrial settingsto outdoor installations. The series also offers protection from harsh industrial environments, with an IP67/65 protection class, to ensure reliable performance in various environments, from harsh industrial settings to out",
+      "avg_prediction": 0.971
+    },
+    {
+      "idx": 24,
+      "hash": "19150c9c",
+      "n_words": 42,
+      "n_chars": 270,
+      "preview_head": "and bars exceed customer expectations when they reopen tomorrow. With restaurant and bar owners currently developing safe ways of working and selling for their businesses, the critical question is, wi",
+      "preview_tail": "restaurant and bar owners currently developing safe ways of working and selling for their businesses, the critical question is, will diners return and how will they choose\u2026 Read More \u00bb Categoeries Val",
+      "full_text": "and bars exceed customer expectations when they reopen tomorrow. With restaurant and bar owners currently developing safe ways of working and selling for their businesses, the critical question is, will diners return and how will they choose\u2026 Read More \u00bb Categoeries Val",
+      "avg_prediction": 0.6935
+    },
+    {
+      "idx": 25,
+      "hash": "c18325f1",
+      "n_words": 57,
+      "n_chars": 401,
+      "preview_head": "to maintaining financial discipline while continuing to support its growth initiatives. The decision on how distributions are paid (in cash or in new units) is designed to optimize capital structure a",
+      "preview_tail": "d align with long-term strategic goals, benefiting both unitholders and the company. For more information about this distribution declaration, investors should refer to Teekay Offshore Partners' offic",
+      "full_text": "to maintaining financial discipline while continuing to support its growth initiatives. The decision on how distributions are paid (in cash or in new units) is designed to optimize capital structure and align with long-term strategic goals, benefiting both unitholders and the company. For more information about this distribution declaration, investors should refer to Teekay Offshore Partners' offic",
+      "avg_prediction": 0.9698
+    },
+    {
+      "idx": 26,
+      "hash": "b93b8843",
+      "n_words": 191,
+      "n_chars": 1094,
+      "preview_head": "hed Wednesday, September 30, 2020 8:48AM PDT Last Updated Wednesday, September 30, 2020 12:25PM PDT '; htmlCode += ' '; htmlCode += ' '; htmlCode += ' NOW PLAYING '; htmlCode += ' '; htmlCode += ' '; ",
+      "preview_tail": "l visitors, a group called \u201cFamilies for Change in Long-Term Care,\u201d say those visits don\u2019t happen as often as they should. Organizer Debra Sheets says the restrictions introduced 18 months ago to slow",
+      "full_text": "hed Wednesday, September 30, 2020 8:48AM PDT Last Updated Wednesday, September 30, 2020 12:25PM PDT '; htmlCode += ' '; htmlCode += ' '; htmlCode += ' NOW PLAYING '; htmlCode += ' '; htmlCode += ' '; htmlCode += ' ' + clipDesc + ' '; htmlCode += ' '; //htmlCode += ' '; htmlCode += ' '; jQuery(\"#storyPlayerNav\").append(htmlCode); } SHARE VICTORIA -- Families of loved ones in long-term care homes marched through downtown Victoria to the front lawn of the B.C. legislature for a rally Tuesday. The group was trying to get the attention of politicians during the election campaign to persuade them to change policies implemented in the province\u2019s care homes. They want to allow for more than one person to visit a loved one in long-term care, and they also want to expand how often family members can provide actual care to a loved one in a facility. Although there is a designation of essential visitors, a group called \u201cFamilies for Change in Long-Term Care,\u201d say those visits don\u2019t happen as often as they should. Organizer Debra Sheets says the restrictions introduced 18 months ago to slow",
+      "avg_prediction": 0.178
+    },
+    {
+      "idx": 27,
+      "hash": "04aa93df",
+      "n_words": 135,
+      "n_chars": 956,
+      "preview_head": "sed on the error rate measured during data reading and writing operations. By using a lower code rate when problems are common, the system can obtain greater error correction efficiency, while retaini",
+      "preview_tail": "ting circuit and nonvolatile semiconductor memory device will now be discussed in further detail with reference to the accompanying pictures. [Please provide the accompanying illustrations or diagrams",
+      "full_text": "sed on the error rate measured during data reading and writing operations. By using a lower code rate when problems are common, the system can obtain greater error correction efficiency, while retaining high energy usage under typical operation circumstances. Also, the nonvolatile semiconductor memory device of the present invention uses this optimized error correcting circuit along with other important elements such as a flash memory array and a peripheral control circuit. The overall architecture is designed to provide reliable data storage and retrieval operations, while reducing power expenditure through advanced error correction methods. 4. Detailed Description of the Invention The precise structure and operation of the proposed error correcting circuit and nonvolatile semiconductor memory device will now be discussed in further detail with reference to the accompanying pictures. [Please provide the accompanying illustrations or diagrams",
+      "avg_prediction": 0.8671
+    },
+    {
+      "idx": 28,
+      "hash": "4d5a7152",
+      "n_words": 208,
+      "n_chars": 1173,
+      "preview_head": "St. Mary\u2019s Lake, then St. Mary at the south end, and -- across Looking Glass pass -- East Glacier where Highway 2 leaves the reservation, heading west. East is quite distinct from the others in terms ",
+      "preview_tail": " around here don\u2019t remember Jeanette -- heck, they don\u2019t even remember ME! (Third wife.) The youngest don\u2019t remember Bob, who died in 1999.Two of Jeanette\u2019s good friends lived in the little resort tow",
+      "full_text": "St. Mary\u2019s Lake, then St. Mary at the south end, and -- across Looking Glass pass -- East Glacier where Highway 2 leaves the reservation, heading west. East is quite distinct from the others in terms of who lives there, style, and so on. For one thing, the road from Babb to St. Mary, which once appeared to be solid forest, has been claimed by many small, not particularly upscale, allotment holders because global warming means they are not sealed in all winter. In East Glacier growth has been around the edges of town and has been summer recreation type.I did some phoning last night because Scriver Wife Number Two, Jeanette Caoutte Scriver Chase, had died in Grants Pass, Oregon, in a nursing home at an advanced age and, since I couldn\u2019t get the Browning paper to print an obituary, I needed to tell her friends. (In her eighties my mother used to froth and foam about her old friends disappearing without a trace -- no one bothering to let her know.) The young ones around here don\u2019t remember Jeanette -- heck, they don\u2019t even remember ME! (Third wife.) The youngest don\u2019t remember Bob, who died in 1999.Two of Jeanette\u2019s good friends lived in the little resort tow",
+      "avg_prediction": 0.5315
+    },
+    {
+      "idx": 29,
+      "hash": "95585ccd",
+      "n_words": 295,
+      "n_chars": 1814,
+      "preview_head": "a clean and creative blog theme for writers and bloggers. The theme is responsive, it is fully compatible with mobile phones, desktop computers and tablets such as iPads. The WordPress theme has a mul",
+      "preview_tail": "ign - Great Typography for Readability - Compatible with Page Builders - Full Width Layout for Flexibility - Multi-Purpose Use (blog, news, portfolio, etc.) Download the Write And Read WordPress theme",
+      "full_text": "a clean and creative blog theme for writers and bloggers. The theme is responsive, it is fully compatible with mobile phones, desktop computers and tablets such as iPads. The WordPress theme has a multi purpose design which is minimal and simple. You willThe readability is optimized through great typography. You can use it as a newspaper or magazine where you post your news about your personal life, food, entertainment, gaming or anything else. Page builders work fine with the theme, and since it's full width by default you can create a landing page or one page easily to visualize your business, agency or consultant company. Since we have made it usefuWrite And Read \u2013 WordPress theme Free Download WordPress Themes Theme Preview This is a child theme of Blogrid. Version: 1.0 Theme Homepage Write and Read is a clean and creative blog theme for writers and bloggers. The theme is responsive, making it fully compatible with mobile phones, desktop computers, and tablets such as iPads. With a multi-purpose design that is minimal and simple, you can use it as a newspaper or magazine to post your news about your personal life, food, entertainment, gaming, or anything else. The readability is optimized through great typography. Page builders work fine with the theme, and since it's full width by default, you can create a landing page or one-page website easily to visualize your business, agency, or consultant company. Since we have made it useful for various purposes, it's also perfect for showcasing portfolios, blogs, or online magazines. Key Features: - Responsive Design - Minimal and Simple Design - Great Typography for Readability - Compatible with Page Builders - Full Width Layout for Flexibility - Multi-Purpose Use (blog, news, portfolio, etc.) Download the Write And Read WordPress theme",
+      "avg_prediction": 0.5772
+    },
+    {
+      "idx": 30,
+      "hash": "2fb57adc",
+      "n_words": 91,
+      "n_chars": 640,
+      "preview_head": "re highly polymorphic. By using the five markers, six of 67 CHD patients were determined to have a deletion within chromosome 22q11.2. Compared with dinucleotide markers, tetranucleotide markers produ",
+      "preview_tail": "s were efficient and reliable suggesting that genotyping using tetranucleotide STRP markers is an alterative approach to detect the deletion on chromosome 22q11.2 in clinical diagnosis and for genetic",
+      "full_text": "re highly polymorphic. By using the five markers, six of 67 CHD patients were determined to have a deletion within chromosome 22q11.2. Compared with dinucleotide markers, tetranucleotide markers produce weaker stutter bands and have no artificial multiband patterns. PCR amplification results from the five new tetranucleotide STRP markers were unambiguous and easier to interpret in genotyping. This study demonstrated that the five markers were efficient and reliable suggesting that genotyping using tetranucleotide STRP markers is an alterative approach to detect the deletion on chromosome 22q11.2 in clinical diagnosis and for genetic",
+      "avg_prediction": 0.5674
+    },
+    {
+      "idx": 31,
+      "hash": "739b2764",
+      "n_words": 120,
+      "n_chars": 945,
+      "preview_head": ". The present study was performed in order to further understand the metabolomic changes of ischemia/reperfusion (I/R)-induced AKI and the protective effect of L-carnitine on AKI. Kidney tissues and s",
+      "preview_tail": "wing ischemia/reperfusion injury, including glycolysis, lipid metabolism, and amino acid metabolism. Treatment with L-carnitine partially restored these metabolic pathways, suggesting its potential as",
+      "full_text": ". The present study was performed in order to further understand the metabolomic changes of ischemia/reperfusion (I/R)-induced AKI and the protective effect of L-carnitine on AKI. Kidney tissues and serum samples were collected at different time points from three groups of rats including control group, I/R group and L-carnitine-pretreated group. High-performance liquid chromatography coupled with mass spectrometry-based metabolomics approach was applied to investigate the characteristic of I/R-induced AKI and the protective effects of L-carnitine in rat kidney I/R model. Antioxidant enzymatic activity and phospholipid changes were also evaluated. Metabolomic profiling revealed significant alterations in several metabolic pathways following ischemia/reperfusion injury, including glycolysis, lipid metabolism, and amino acid metabolism. Treatment with L-carnitine partially restored these metabolic pathways, suggesting its potential as",
+      "avg_prediction": 0.3887
+    },
+    {
+      "idx": 32,
+      "hash": "02107dfc",
+      "n_words": 319,
+      "n_chars": 1160,
+      "preview_head": "magmatic in origin? Published on September 16, 2012 by zooks777Leave a comment Artist\u2019s Concept of Curiosity\u2019s touchdown(crIt seems a a blog, a blog author, zooks777, seems a blog on September 16, 201",
+      "preview_tail": " blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a",
+      "full_text": "magmatic in origin? Published on September 16, 2012 by zooks777Leave a comment Artist\u2019s Concept of Curiosity\u2019s touchdown(crIt seems a a blog, a blog author, zooks777, seems a blog on September 16, 2012, seems a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a blog on a",
+      "avg_prediction": 0.9838
+    },
+    {
+      "idx": 33,
+      "hash": "443e4010",
+      "n_words": 139,
+      "n_chars": 751,
+      "preview_head": "this week's games will be broadcast live on KZSB AM 1290, the Santa Barbara News-Press radio station. The Voice of the Gauchos, Gerry Fall, will be on hand to call all of the action for fans that can'",
+      "preview_tail": "iverside, 3-1, before settling for a 0-0 double overtime tie at Cal State Fullerton on Sunday. The last time UCSB went undefeated through its first 10 games was in 2004 when it posted a 9-0-1 record t",
+      "full_text": "this week's games will be broadcast live on KZSB AM 1290, the Santa Barbara News-Press radio station. The Voice of the Gauchos, Gerry Fall, will be on hand to call all of the action for fans that can't make the trip out to Harder stadium. Both matches will also be streamed live on UCSBgauchos.com where UCSB fans can also join in on a live chat during the match. \u2022 For The Record Entering the seventh week of the season, UCSB remains unbeaten with a 7-0-3 overall record. The Gauchos opened league play last week with a win at then-ranked No. 24 UC Riverside, 3-1, before settling for a 0-0 double overtime tie at Cal State Fullerton on Sunday. The last time UCSB went undefeated through its first 10 games was in 2004 when it posted a 9-0-1 record t",
+      "avg_prediction": 0.3803
+    },
+    {
+      "idx": 34,
+      "hash": "2a859348",
+      "n_words": 69,
+      "n_chars": 393,
+      "preview_head": "o the relevant Wiki pages. And I must thank Jemay for his patience and guidance when I messed up the map. Every new editor should be sofortunate to have mentors like these two, who are willingto take ",
+      "preview_tail": "o take quite abit of time, not only topoint out mistakes,butto teach how to edit in accordance with the Wiki and best practices. All the errors weremine; all the knowledge and corrections are theirs. ",
+      "full_text": "o the relevant Wiki pages. And I must thank Jemay for his patience and guidance when I messed up the map. Every new editor should be sofortunate to have mentors like these two, who are willingto take quite abit of time, not only topoint out mistakes,butto teach how to edit in accordance with the Wiki and best practices. All the errors weremine; all the knowledge and corrections are theirs. ",
+      "avg_prediction": 0.2793
+    },
+    {
+      "idx": 35,
+      "hash": "12076263",
+      "n_words": 242,
+      "n_chars": 1569,
+      "preview_head": "ered (on AWS, this happens via API Gateway). #### 2. Create your function This starter kit's Hello World function (which you will of course get rid of) can be found at [`./src/hello.js`](./src/hello.j",
+      "preview_tail": "ess-webpack` plugin allows us to follow a simple convention in our `serverless.yml` file which is uses to automatically resolve your function handlers to the appropriate file: ```yaml functions: hello",
+      "full_text": "ered (on AWS, this happens via API Gateway). #### 2. Create your function This starter kit's Hello World function (which you will of course get rid of) can be found at [`./src/hello.js`](./src/hello.js). There you can see a basic function that's intended to work in conjunction with API Gateway (i.e., it is web-accessible). Like most Serverless functions, the `hello` function is asynchronous and accepts an event & context. (This is all basic Serverless; if you've never used it, be sure to read through [their docs](https://serverless.com/framework/docs/). --- You can develop and test your lambda functions locally in a few different ways. ### Live-reloading functions To run the hello function with the event data defined in [`fixtures/event.json`](fixtures/event.json) (with live reloading), run: ```bash yarn watch:hello ``` ### API Gateway-like local dev server To spin up a local dev server that will more closely match the API Gateway endpoint/experience: ```bash yarn serve ``` ### Test your functions with Jest Jest is installed as the testrunner. To create a test, co-locate your test with the file it's testing as `<filename>.test.js` and then run/watch tests with: ```bash yarn test ``` ### Adding new functions/files to Webpack When you add a new function to your serverless config, you don't need to also add it as a new entry for Webpack. The `serverless-webpack` plugin allows us to follow a simple convention in our `serverless.yml` file which is uses to automatically resolve your function handlers to the appropriate file: ```yaml functions: hello",
+      "avg_prediction": 0.4207
+    },
+    {
+      "idx": 36,
+      "hash": "607c2f6a",
+      "n_words": 46,
+      "n_chars": 282,
+      "preview_head": "ill be useful, but WITHOUT ANY WARRANTY; without even the implicit or implicit WARRANTY; without even the implicit WARRANTY; without even the implicit WARRANTY. See the GNU General Public License for ",
+      "preview_tail": "RANTY; without even the implicit WARRANTY; without even the implicit WARRANTY. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License al",
+      "full_text": "ill be useful, but WITHOUT ANY WARRANTY; without even the implicit or implicit WARRANTY; without even the implicit WARRANTY; without even the implicit WARRANTY. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License al",
+      "avg_prediction": 0.801
+    },
+    {
+      "idx": 37,
+      "hash": "385e2655",
+      "n_words": 36,
+      "n_chars": 418,
+      "preview_head": "the value of (-616)/(-1716)*-13*(30/52)/(-5)? 7/13 Calculate ((-2)/8)/((9/(-4))/(-9))*382504/2792. -137 Evaluate 209/(206910/(-528))*-2*(-10)/8. -4/3 Calculate 2229/(-133740)*((-60)/21)/2. 1/42 (5612/",
+      "preview_tail": "8) 1/95 (24*(-22)/(-176))/((-81)/5) -5/27 ((-70)/4)/(-28*12/672) 35 What is the value of ((-32)/48*6/32)/(31/(-29140)*10)? 47/4 What is (-1413)/9420*8/(-39)? 2/65 7679/2194*(-36)/(-2*1) 63 What is the",
+      "full_text": "the value of (-616)/(-1716)*-13*(30/52)/(-5)? 7/13 Calculate ((-2)/8)/((9/(-4))/(-9))*382504/2792. -137 Evaluate 209/(206910/(-528))*-2*(-10)/8. -4/3 Calculate 2229/(-133740)*((-60)/21)/2. 1/42 (5612/3680)/(-61)*16/(-38) 1/95 (24*(-22)/(-176))/((-81)/5) -5/27 ((-70)/4)/(-28*12/672) 35 What is the value of ((-32)/48*6/32)/(31/(-29140)*10)? 47/4 What is (-1413)/9420*8/(-39)? 2/65 7679/2194*(-36)/(-2*1) 63 What is the",
+      "avg_prediction": 0.9848
+    },
+    {
+      "idx": 38,
+      "hash": "48aeaf77",
+      "n_words": 260,
+      "n_chars": 1565,
+      "preview_head": "is strong and smells clean. I washed cotton fabrics with this product. I liked that the clothes have a clean and fresh smell after washing with this product. His Take on Spring Cleaning . . . No, I do",
+      "preview_tail": "e using this detergent in my laundry routine. I think what stands out most is its ability not just wash away unwanted odors, but also retain freshness throughout multiple wears - an essential factor f",
+      "full_text": "is strong and smells clean. I washed cotton fabrics with this product. I liked that the clothes have a clean and fresh smell after washing with this product. His Take on Spring Cleaning . . . No, I don\u2019t usually participate in spring cleaning. I usually wash cotton shirts and jeans. I enjoy the fresh and clean scent of Downy Unstopables while wearing my clothes. This is a great product for those who want to keep their laundry smelling clean, even after multiple wears. I have tried several other detergents in recent years but found that none seemed as effective at keeping the freshness and original fabric softener-like quality. I've noticed an improvement with Downy Unstopables' ability not only wash out stains effectively (which is always a plus) - it also leaves clothes feeling very comfortable to wear, almost like new. Another aspect of this product that caught my attention was its packaging design; sleek and minimalistic yet easy-to-read labels. The eco-friendly bottle has made me more conscious about how I use products in general but Downy Unstopables is definitely one exception as it's not only effective for tough stains, dirt & grease on clothes - especially important during spring cleaning when we are washing winter clothing before summer attire takes over. Overall the product leaves a positive impression and has made me want to continue using this detergent in my laundry routine. I think what stands out most is its ability not just wash away unwanted odors, but also retain freshness throughout multiple wears - an essential factor f",
+      "avg_prediction": 0.8911
+    },
+    {
+      "idx": 39,
+      "hash": "021dc3f9",
+      "n_words": 101,
+      "n_chars": 576,
+      "preview_head": "boy, and the secret is guarded jealously. Ahmed grows up unaware of her true gender, the family's deception hidden beneath layers of storytelling and tradition. There, in the marketplace of Marrakech ",
+      "preview_tail": " story about a man whose eighth child is born, a child who must be male to accommodate the rules of inheritance, so although the child is born a girl, she is raised and presented as a boy. As if this ",
+      "full_text": "boy, and the secret is guarded jealously. Ahmed grows up unaware of her true gender, the family's deception hidden beneath layers of storytelling and tradition. There, in the marketplace of Marrakech \u201cwhere grains are sold and peasants and animals sleep together, a place of exchange between town and country, surrounded by low walls and irrigated by a natural spring\u201d. It\u2019s a story about a man whose eighth child is born, a child who must be male to accommodate the rules of inheritance, so although the child is born a girl, she is raised and presented as a boy. As if this ",
+      "avg_prediction": 0.6142
+    },
+    {
+      "idx": 40,
+      "hash": "c94235d0",
+      "n_words": 95,
+      "n_chars": 600,
+      "preview_head": ") and then proceeded to earn an advanced master\u2019s certification through its extension program for graduates by 1985; he specialized mainly within Marxist-Leninist political economics theory alongside ",
+      "preview_tail": "uzhou as an administrator. In January 1992, he joined the science and technology research office at the Hunan Party School. In September 1994, he became assistant to the president of the party school.",
+      "full_text": ") and then proceeded to earn an advanced master\u2019s certification through its extension program for graduates by 1985; he specialized mainly within Marxist-Leninist political economics theory alongside the Communist Party of China. After receiving his master's degree in 1987, Yi was assigned to work at the Hunan Party School, where he taught economics. In 1990, he worked for a chemical factory in Zhuzhou as an administrator. In January 1992, he joined the science and technology research office at the Hunan Party School. In September 1994, he became assistant to the president of the party school.",
+      "avg_prediction": 0.9823
+    },
+    {
+      "idx": 41,
+      "hash": "dfa00004",
+      "n_words": 215,
+      "n_chars": 1042,
+      "preview_head": "- 3*w - 3. Let q be (-12)/((6 - 3) + -5). Let t be p(q). Calculate the highest common divisor of t and 15. 15 Let p = -1355 - -1378. What is the highest common divisor of 1081 and p? 23 Suppose 3*f = ",
+      "preview_tail": ",34,68,70,110,140,205,340 GCD(17,340) = 1 3. To calculate x: x=(-3)/((291/(-282)- -1)) = (-3)/( (291/( -282)) +1) Now let's simplify the expression by finding out what is inside of parentheses first F",
+      "full_text": "- 3*w - 3. Let q be (-12)/((6 - 3) + -5). Let t be p(q). Calculate the highest common divisor of t and 15. 15 Let p = -1355 - -1378. What is the highest common divisor of 1081 and p? 23 Suppose 3*f = -2*b + 3*b + 213, 3*f - 5*b - 225 = 0. What is the greatest common divisor of f and 98? 14 Suppose -i = -3, -2*i + 8 = -3*k + 71. What is the greatest common divisor of k and 253? 23 Let r = -I'll complete each text: 1. To calculate j: u(2) = 92 + 74 = 36 -80+ 74 j = 30. Now, let's find the greatest common divisor of j and d. The value for 'd' is not provided in your question; however I will assume it to be a random integer. So GCD(j,d) can't be determined without knowing what \"d\" stands for 2. m = -258 + 275 =17 Now, let's find the greatest common divisor of m and 340. The factors of '17' are:1 , 17 The factor of '340':1, 2,4,5,10,20,34,68,70,110,140,205,340 GCD(17,340) = 1 3. To calculate x: x=(-3)/((291/(-282)- -1)) = (-3)/( (291/( -282)) +1) Now let's simplify the expression by finding out what is inside of parentheses first F",
+      "avg_prediction": 0.9807
+    },
+    {
+      "idx": 42,
+      "hash": "259f4231",
+      "n_words": 147,
+      "n_chars": 1172,
+      "preview_head": "omot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Aut",
+      "preview_tail": " Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot",
+      "full_text": "omot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot Automot",
+      "avg_prediction": 0.9801
+    },
+    {
+      "idx": 43,
+      "hash": "2cb7715a",
+      "n_words": 291,
+      "n_chars": 1636,
+      "preview_head": "he best product to have this kind of property? Constraints: - It should have interfaces for at least .Net and php - It shouldbe scalable and have the capability to handle high-throughput - It should h",
+      "preview_tail": "ent-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus",
+      "full_text": "he best product to have this kind of property? Constraints: - It should have interfaces for at least .Net and php - It shouldbe scalable and have the capability to handle high-throughput - It should have high-availability and be fault-tolerant - It should have a simple and efficient way to handle and manage the subscription and subscription-based event-based model A service bus solution that fits the model you are describing and that you are looking to have the afore-mentioned properties and constraints would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus model would be a solution that fits the event-based model and that the event bus",
+      "avg_prediction": 0.838
+    },
+    {
+      "idx": 44,
+      "hash": "6b3388da",
+      "n_words": 230,
+      "n_chars": 1623,
+      "preview_head": "hemoglobin A~1c~ had fallen to 7.2% and FPG had fallen to 132 mg/dL. The patient experienced a modest weight reduction (--2.3 kg), and his use of oral antidiabetic medications (n = 2) did not change. ",
+      "preview_tail": "stigational device; R. Rothstein: Research support recipient from Covidien and BaroNova; scientific advisor for Allurion; consultant for Boston Scientific and Fractyl Laboratories; and Data and Safety",
+      "full_text": "hemoglobin A~1c~ had fallen to 7.2% and FPG had fallen to 132 mg/dL. The patient experienced a modest weight reduction (--2.3 kg), and his use of oral antidiabetic medications (n = 2) did not change. Liver enzymes, followed as a safety signal, remained normal. Follow-up endoscopy at 90 days indicated full mucosal healing. [Figure 1](#fig1){ref-type=\"fig\"} depicts the duodenal mucosa (A) after saline solution lift and (B) after ablation. We conclude that DMR may provide the ability to improve hyperglycemia in T2D and may offer a novel nonpharmacologic treatment of metabolic disease. Further study is needed to evaluate the long-term safety, efficacy, and durability of this procedure.Figure 1Images from a 43-year-old man with type 2 diabetes who underwent hydrothermal double mucosal resurfacing. During the procedure, the duodenum is sized and (**A**) the mucosa is lifted circumferentially. Mucosal lifting is followed by hydrothermal ablation of the mucosa (**B**) to stimulate regeneration. Disclosure {#sec1} ========== *The following authors disclosed financial relationships relevant to this publication: M. Galvao Neto: Scientific advisory board member and research support recipient from GI Dynamics, Inc and Fractyl Laboratories, Inc; L. Rodriguez and P. Becerra: Research support recipients from Fractyl Laboratories, Inc; S. Mani: Full-time employee of Fractyl Laboratories, Inc, manufacturer of the investigational device; R. Rothstein: Research support recipient from Covidien and BaroNova; scientific advisor for Allurion; consultant for Boston Scientific and Fractyl Laboratories; and Data and Safety",
+      "avg_prediction": 0.5577
+    },
+    {
+      "idx": 45,
+      "hash": "60c1de82",
+      "n_words": 239,
+      "n_chars": 1399,
+      "preview_head": "= 1 THEN 'Position' ELSE '' END AS Position FROM ( SELECT StudentMark as Mark FROM Students )m LEFT JOIN ( select ROW_NUMBER() over(partition BY mark order by studentno)rn ,StudentNO from students gro",
+      "preview_tail": "CASE WHEN rank = 0 THEN 'Position' ELSE '' END AS Position FROM Students LEFT JOIN ( select ROW_NUMBER() over(partition BY mark order by studentno)rank ,StudentNO from students group by mark,studentNo",
+      "full_text": "= 1 THEN 'Position' ELSE '' END AS Position FROM ( SELECT StudentMark as Mark FROM Students )m LEFT JOIN ( select ROW_NUMBER() over(partition BY mark order by studentno)rn ,StudentNO from students group by mark,studentNo )s on s.Mark = m.mark and rn=1; A: You can use the RANK function to assign a unique number for each row. Then you just need an outer join with your original table. SELECT StudentMark as Mark, CASE WHEN rank = 0 THEN 'Position' ELSE '' END AS Position FROM Students LEFT JOIN ( select ROW_NUMBER() over(partition BY mark order by studentno)rank ,StudentNO from students group by mark,studentNo )s on s.Mark = m.mark and rn=1; A: You can use the RANK function to assign a unique number for each row. Then you just need an outer join with your original table. SELECT StudentMark as Mark, CASE WHEN rank = 0 THEN 'Position' ELSE '' END AS Position FROM Students LEFT JOIN ( select ROW_NUMBER() over(partition BY mark order by studentno)rank ,StudentNO from students group by mark,studentNo )s on s.Mark = m.mark and rn=1; A: You can use the RANK function to assign a unique number for each row. Then you just need an outer join with your original table. SELECT StudentMark as Mark, CASE WHEN rank = 0 THEN 'Position' ELSE '' END AS Position FROM Students LEFT JOIN ( select ROW_NUMBER() over(partition BY mark order by studentno)rank ,StudentNO from students group by mark,studentNo",
+      "avg_prediction": 0.9608
+    },
+    {
+      "idx": 46,
+      "hash": "ccda33d6",
+      "n_words": 170,
+      "n_chars": 1256,
+      "preview_head": "nes can be modernised. It also addressed potential investments that could contribute significantly towards economic development for people living there with a focus particularly at fostering employmen",
+      "preview_tail": " The final session was dedicated to sharing good practices from projects which have contributed towards economic development by stimulating employment opportunities for young people as well creating j",
+      "full_text": "nes can be modernised. It also addressed potential investments that could contribute significantly towards economic development for people living there with a focus particularly at fostering employment opportunities. During the session \"Arctic Boost - Partnerships and Programmes\", participants were invited by Mr Dagmar Zullich from the Joint Secretariat to present their projects, followed up on in an interactive discussion. The presentation of the Arctic Investment Protocol was one highlight among many others which showcased how a partnership between public bodies at different levels can contribute towards economic development. The afternoon session included presentations about innovative ideas for developing industries and employment opportunities as well joint initiatives that promote sustainable regional developments through entrepreneurship, innovation and education with an emphasis on women's empowerment. The Arctic Women project presented its activities in this area while the Nenets Autonomous Okrug of Russia shared their experiences. The final session was dedicated to sharing good practices from projects which have contributed towards economic development by stimulating employment opportunities for young people as well creating j",
+      "avg_prediction": 0.6797
+    },
+    {
+      "idx": 47,
+      "hash": "dd9564c8",
+      "n_words": 335,
+      "n_chars": 1990,
+      "preview_head": "o V\u00e1zquez (born 5 February 1994) is a Mexican professional footballer who plays as a centre-back for Mexican club Guadalajara. Club career Early career In 2008, Brise\u00f1o joined the youth academy of Atl",
+      "preview_tail": " to appear in ten matches for the club. Tigres UANL On July 1, 2014, Brise\u00f1o was transferred to Tigres UANL. He played the second leg of the finals of the Apertura 2015 season, winning his first profe",
+      "full_text": "o V\u00e1zquez (born 5 February 1994) is a Mexican professional footballer who plays as a centre-back for Mexican club Guadalajara. Club career Early career In 2008, Brise\u00f1o joined the youth academy of Atlas, successfully going through the U-17, U-20 and Premier sides. First team coach Juan Carlos Ch\u00e1vez eventually promoted Brise\u00f1o to the first team in 2011. Atlas Brise\u00f1o made his professional league debut with Atlas on September 30, 2011 against Chiapas. He came on as a substitute for Flavio Santos in the 86th minute of the game. During his time at Atlas, Brise\u00f1o struggled for playing time, and only managed to appear in ten matches for the club. Tigres UANL On 1 July 2014, Brise\u00f1o was transferred to Tigres UANL. He played the second leg of the finals of the Apertura 2015 season, winning his first professional league title. He also made seven appearances in the 2015 Copa Libertadores as Tigres finished runner-up in the competition. Struggling for playing time, Brise\u00f1o was sent on loan to Ascenso MX side FC Ju\u00e1rez in 2015, and in December 2016 he was loaned out to Veracruz for the Clausura 201Here is the completed text based on the information provided: Antonio Brise\u00f1o V\u00e1zquez (born February 5, 1994) is a Mexican professional footballer who plays as a center-back for Mexican club Guadalajara. Club career Early career In 2008, Brise\u00f1o joined the youth academy of Atlas, successfully going through the U-17, U-20, and Premier sides. First team coach Juan Carlos Ch\u00e1vez eventually promoted Brise\u00f1o to the first team in 2011. Atlas Brise\u00f1o made his professional league debut with Atlas on September 30, 2011, against Chiapas. He came on as a substitute for Flavio Santos in the 86th minute of the game. During his time at Atlas, Brise\u00f1o struggled for playing time, only managing to appear in ten matches for the club. Tigres UANL On July 1, 2014, Brise\u00f1o was transferred to Tigres UANL. He played the second leg of the finals of the Apertura 2015 season, winning his first profe",
+      "avg_prediction": 0.9792
+    },
+    {
+      "idx": 48,
+      "hash": "dfe0060c",
+      "n_words": 206,
+      "n_chars": 1276,
+      "preview_head": "iterature! Here are the details: Challenge Period January 1, 2012 to December 31, 2012 Region The entire African continent, including its island-states, which are often overlooked. Please refer to thi",
+      "preview_tail": "but no more than 5 reviews per month (to prevent overloading on any given day). You can post your own personal thoughts about the books as well; however these should not be counted towards meeting goa",
+      "full_text": "iterature! Here are the details: Challenge Period January 1, 2012 to December 31, 2012 Region The entire African continent, including its island-states, which are often overlooked. Please refer to this Wikipedia \u201clist of sovereign states and dependent territories in Africa\u201d. Pre-colonial empires and regions are also included. Reading Goal 5 books. That\u2019s it. There will be no other levels. Of course, participants are encouraged to read more than 5 books. Eligible books include those which are written by African writers, or take place in Africa, or are concerned with Africans and with historical and contemporary African issues. Note that at least 3 books must be written by African writers. Genres Fiction \u2013 novels, short stories Non-fiction - memoirs/biographies/essays/history/cultural studies etc. Challenge Rules 1) Sign up on the linky below to make your official commitment. If you don't have a blog or platform for signing-up then please feel free email me and I'll add it in manually. 2) Write at least one review of each book read during this challenge period, but no more than 5 reviews per month (to prevent overloading on any given day). You can post your own personal thoughts about the books as well; however these should not be counted towards meeting goa",
+      "avg_prediction": 0.5574
+    },
+    {
+      "idx": 49,
+      "hash": "926d6a9f",
+      "n_words": 87,
+      "n_chars": 518,
+      "preview_head": "who defected from the Ming dynasty and opened Shanhai Pass for the Manchu invaders, rebuilt the temple and kept the original Hubei design. Over 200 tons of bronze was used in the construction of the t",
+      "preview_tail": "ell-preserved examples of the smelting and casting techniques common in YuThe temple was used in the casting of the temple walls, with the bronze panels cast in diverse and exquisite designs. The temp",
+      "full_text": "who defected from the Ming dynasty and opened Shanhai Pass for the Manchu invaders, rebuilt the temple and kept the original Hubei design. Over 200 tons of bronze was used in the construction of the temple. The walls were made with cast panels covered with exquisite and diverse designs. Today, the walls have become well-preserved examples of the smelting and casting techniques common in YuThe temple was used in the casting of the temple walls, with the bronze panels cast in diverse and exquisite designs. The temp",
+      "avg_prediction": 0.5728
+    },
+    {
+      "idx": 50,
+      "hash": "aa3b0912",
+      "n_words": 62,
+      "n_chars": 319,
+      "preview_head": "ginal pawn (the one you backed up 4) forward or can you refuse the move? A: While you can move backwards from Start to just outside the safety zone, you can't move forward past the safety zone without",
+      "preview_tail": "just outside the safety zone, you can't move forward past the safety zone without going toward Home. Since a 12 is too much to land you in Home, and you can't move forward past Start, you must forfeit",
+      "full_text": "ginal pawn (the one you backed up 4) forward or can you refuse the move? A: While you can move backwards from Start to just outside the safety zone, you can't move forward past the safety zone without going toward Home. Since a 12 is too much to land you in Home, and you can't move forward past Start, you must forfeit",
+      "avg_prediction": 0.3429
+    },
+    {
+      "idx": 51,
+      "hash": "7fd49215",
+      "n_words": 182,
+      "n_chars": 1065,
+      "preview_head": "2012 - io9 shares its top ten stories of science gone wrong this past year. The Top Science Stories Of 2012 (Part I) - Part one in an ongoing series from Forbes Magazine covering science discoveries a",
+      "preview_tail": "rote a blog piece entitled Connecting the Dots on Expanded Learning Time. This is in response to New York Governor Cuomo's State of the State address in which he proposed a state grant program to give",
+      "full_text": "2012 - io9 shares its top ten stories of science gone wrong this past year. The Top Science Stories Of 2012 (Part I) - Part one in an ongoing series from Forbes Magazine covering science discoveries and breakthroughs from the last twelve months. They also have a post on The Year In Astronomy And Space Exploration: 5 Big Stories From 2012, and 10 Amazing Images That Defined The Universe In 2012. The Top Scientific Discoveries of 2012 - Science News' picks for top stories in astronomy, biology, chemistry, earth science, and physics. ``` And in case you haven't had your fill of lists, check out this list of 50 Resources to Advance Women in STEM, complied by the National Girls Collaborative Project. The Coalition is in very good company Science After School NewsWelcome to the TASC's Lucy Friedman, who sits on the Coalition's Steering Coalition! Committee, wrote a blog piece entitled Connecting the Dots on Expanded Learning Time. This is in response to New York Governor Cuomo's State of the State address in which he proposed a state grant program to give",
+      "avg_prediction": 0.8239
+    },
+    {
+      "idx": 52,
+      "hash": "d62fcbd4",
+      "n_words": 62,
+      "n_chars": 431,
+      "preview_head": "intomato sauce and the otherfor cappellettiservedin soup. I\u2019vebeen told that Momand Zia experimented with cheese-filledraviolibut were neversatisfied with themand gave up trying after a few attempts. ",
+      "preview_tail": "ing mastered the recipe for Bartolinisausage, I used it to fillravioliand I was off andrunning. Since then,I\u2019ve made a number different fillings, most dependentupon what was fresh and in-season at the",
+      "full_text": "intomato sauce and the otherfor cappellettiservedin soup. I\u2019vebeen told that Momand Zia experimented with cheese-filledraviolibut were neversatisfied with themand gave up trying after a few attempts. Then, a few years ago, afterhaving mastered the recipe for Bartolinisausage, I used it to fillravioliand I was off andrunning. Since then,I\u2019ve made a number different fillings, most dependentupon what was fresh and in-season at the",
+      "avg_prediction": 0.2824
+    },
+    {
+      "idx": 53,
+      "hash": "1dbcabad",
+      "n_words": 118,
+      "n_chars": 656,
+      "preview_head": "s Premier League career. Moreno was every bit as unfortunate as his defensive colleague Mercurial Superfly FG when the referee\u2019s assistant chalked off his sensation strike, before sissoko fed Wijnaldu",
+      "preview_tail": "trained hard together and kept faith in each other. \u201cIt is Nike Magista Obra 2016 difficult to win the games but if you give all you have you can be proud. Today we fought to win this game and we were",
+      "full_text": "s Premier League career. Moreno was every bit as unfortunate as his defensive colleague Mercurial Superfly FG when the referee\u2019s assistant chalked off his sensation strike, before sissoko fed Wijnaldum on the break to seal Klopp\u2019s second defeat in the English top flight. \u201cIt\u2019s a really big result because, of course, we have a few difficult weeks behind us,\u201d Wijnaldum said. \u201cWe had to react from the last game because the performance was not so good. We trained hard together and kept faith in each other. \u201cIt is Nike Magista Obra 2016 difficult to win the games but if you give all you have you can be proud. Today we fought to win this game and we were",
+      "avg_prediction": 0.6815
+    },
+    {
+      "idx": 54,
+      "hash": "1012bf18",
+      "n_words": 148,
+      "n_chars": 983,
+      "preview_head": "NEW MOUNTAINEERING POLAR GUIDEBOOKS CHILDRENS EXPEDITION CARDS GIFTS CALENDARS GAMES GIFT CERIFICATES NOTECARDS JOURNALS & MAGAZINES MOUNTAINEERING POLAR MISC MAPS MEMORABILIA PRINTS & POSTERS MOUNTAI",
+      "preview_tail": "cumenting their experiences through diaries and personal observations. This book is a rich narrative of Wright\u2019s scientific work and his personal reflections during one of the most significant periods",
+      "full_text": "NEW MOUNTAINEERING POLAR GUIDEBOOKS CHILDRENS EXPEDITION CARDS GIFTS CALENDARS GAMES GIFT CERIFICATES NOTECARDS JOURNALS & MAGAZINES MOUNTAINEERING POLAR MISC MAPS MEMORABILIA PRINTS & POSTERS MOUNTAINEERING POLAR DVDs/VIDEOS MOUNTAINEERING POLAR Sort by: Authors Date Date Added Price \u2013 High to Low Price \u2013 Low to High Title Search Results Search for: \"Polar Exploration Book\" returned 550 item(s). Bull, Colin & Pat Wright Silas: The Antarctic Diaries and Memoir of Charles S. Wright 1993 Ohio State University Press Columbus 1st, trade ed, 8vo, pp.xxx, 418, photo frontis, 237 drawings by Pat Wright, 12 maps, brown cloth; dj & cloth new. #17520 $65.00 $59.00 Wright was the physicist and glaciologist who served on Admiral Byrd's second Antarctic Expedition from 1934 to 1935, documenting their experiences through diaries and personal observations. This book is a rich narrative of Wright\u2019s scientific work and his personal reflections during one of the most significant periods",
+      "avg_prediction": 0.7022
+    },
+    {
+      "idx": 55,
+      "hash": "836a4723",
+      "n_words": 116,
+      "n_chars": 790,
+      "preview_head": "oice is made to create the replica, but when No is selected to not to create the replica, it throws below error. Please check and let me know what am I missing. .... DatabaseReadReplicaRequired: Type:",
+      "preview_tail": "seReadReplicaRequired` parameter: ```yaml Conditions: CreateReadReplica: !Equals [ !Ref DatabaseReadReplicaRequired, 'Yes' ] ``` With this condition defined, you can use it to control whether the read",
+      "full_text": "oice is made to create the replica, but when No is selected to not to create the replica, it throws below error. Please check and let me know what am I missing. .... DatabaseReadReplicaRequired: Type: String Default: 'No' AllowedValues: - 'Yes' - 'No' Description: The database cluster needs a read replica .... Conditions: CreateReadReplica: It looks like you've defined the parameter and condition for creating a read replica, but it seems you didn't complete the `CreateReadReplica` condition in your CloudFormation template. Here's how you can define that condition based on the `DatabaseReadReplicaRequired` parameter: ```yaml Conditions: CreateReadReplica: !Equals [ !Ref DatabaseReadReplicaRequired, 'Yes' ] ``` With this condition defined, you can use it to control whether the read",
+      "avg_prediction": 0.8152
+    },
+    {
+      "idx": 56,
+      "hash": "147e620b",
+      "n_words": 58,
+      "n_chars": 437,
+      "preview_head": "fileFormatVersion: 2 guid: 0b02a9d8e36f64f7992ba3e89da07dfe timeCreated: 1469052890 licenseType: Free PluginImporter: serializedVersion: 1 iconMap: {} executionOrder: {} isPreloaded: 0 platformData: A",
+      "preview_tail": "nabled: 0 It looks like you've started a JSON or similar configuration file, possibly related to Unity or a similar development environment. Would you like to complete or modify this file in some way?",
+      "full_text": "fileFormatVersion: 2 guid: 0b02a9d8e36f64f7992ba3e89da07dfe timeCreated: 1469052890 licenseType: Free PluginImporter: serializedVersion: 1 iconMap: {} executionOrder: {} isPreloaded: 0 platformData: Any: enabled: 1 settings: {} Editor: enabled: 0 It looks like you've started a JSON or similar configuration file, possibly related to Unity or a similar development environment. Would you like to complete or modify this file in some way?",
+      "avg_prediction": 0.975
+    },
+    {
+      "idx": 57,
+      "hash": "babc1a04",
+      "n_words": 55,
+      "n_chars": 475,
+      "preview_head": "he page where i am using image in profile page. the Error is message /jobsspectrum/user/resources/images/black.jpg description The requested resource is not available. My image is under resources/imag",
+      "preview_tail": "urce handling class is : ...extends WebMvcConfigurerAdapter { @Override public void addResourceHandlers(ResourceHandlerRegistry registry) { registry.addResourceHandler(\"/resources/\").addResourceLocati",
+      "full_text": "he page where i am using image in profile page. the Error is message /jobsspectrum/user/resources/images/black.jpg description The requested resource is not available. My image is under resources/images It does not pick the resource when the url is not /jobsspectrum/ My resource handling class is : ...extends WebMvcConfigurerAdapter { @Override public void addResourceHandlers(ResourceHandlerRegistry registry) { registry.addResourceHandler(\"/resources/\").addResourceLocati",
+      "avg_prediction": 0.9607
+    },
+    {
+      "idx": 58,
+      "hash": "5fa5c65c",
+      "n_words": 171,
+      "n_chars": 1033,
+      "preview_head": "out the small \"red cedar trees\" that seem to be invading fencerows and highways, especially U.S. 31 north of Kokomo. I think a column from you would be worthwhile, since I can`t seem to get my neighbo",
+      "preview_tail": "vegetation for light, water, and nutrients, leading to a decline in biodiversity. The problem starts when these invasive trees begin to choke out other plant species, making it difficult for animals l",
+      "full_text": "out the small \"red cedar trees\" that seem to be invading fencerows and highways, especially U.S. 31 north of Kokomo. I think a column from you would be worthwhile, since I can`t seem to get my neighbors to control the \"pretty ...trees.\" They say they're harmless but are taking over our property. A. Eastern red cedar (Juniperus virginiana) is indeed an invasive species in Indiana and other parts of North America. Native to eastern North America, it has become a common weed along roadsides, fencerows, and even urban landscapes due to its ability to quickly spread through seed dispersal by birds and small mammals. As you've noticed, the trees can be quite dense and may appear \"pretty\" with their feathery foliage; however, they're not as harmless as they seem. Eastern red cedar is an evergreen conifer that outcompetes native vegetation for light, water, and nutrients, leading to a decline in biodiversity. The problem starts when these invasive trees begin to choke out other plant species, making it difficult for animals l",
+      "avg_prediction": 0.8652
+    },
+    {
+      "idx": 59,
+      "hash": "d69504e9",
+      "n_words": 85,
+      "n_chars": 696,
+      "preview_head": "izoma and berberine treatment. We identifiedcommon affected gene sets that were modulated by bothagents using GenePattern softwarewith cut-off values for p-values (<0.05) <|/format>}and corrected P va",
+      "preview_tail": "gy (GO) analysiswhich classified genes into three categories: molecular functions, cellularcomponents <|/format>}and bios processes based on standard hierarchical categorization. In addition to these ",
+      "full_text": "izoma and berberine treatment. We identifiedcommon affected gene sets that were modulated by bothagents using GenePattern softwarewith cut-off values for p-values (<0.05) <|/format>}and corrected P value (False Discovery Rate, FDR;adjusted p-value< 1%) based on Benjamini and Hochberg's approach. Furthermore to determinewhether thebiological pathways affected by Coptidis rhizoma or berberine are distinct but similar in their effects against humanpancreatic cancer cells.We utilized gene ontology (GO) analysiswhich classified genes into three categories: molecular functions, cellularcomponents <|/format>}and bios processes based on standard hierarchical categorization. In addition to these ",
+      "avg_prediction": 0.983
+    },
+    {
+      "idx": 60,
+      "hash": "e5d84a43",
+      "n_words": 323,
+      "n_chars": 2283,
+      "preview_head": "management of heart failure with the use of therapies such as beta-blockers, ACE inhibitors, aldosterone inhibitors and device therapies that prolong survival after ischaemic heart damage or heart fai",
+      "preview_tail": " costs associated with heart failure management. ### Statistical Analysis - Descriptive Statistics: Incidence and prevalence rates will be calculated using population estimates from the ABS. - Trend A",
+      "full_text": "management of heart failure with the use of therapies such as beta-blockers, ACE inhibitors, aldosterone inhibitors and device therapies that prolong survival after ischaemic heart damage or heart failure related to hypertension and valvular heart disease. There has been limited documentation of the health system impacts of heart failure in the Australian community. Morbidity estimates have typically been derived by applying international chronic heart failure incidence rates to the Australian population, which may not accurately reflect local conditions due to differences in demographics, healthcare systems, and prevalence of risk factors \\[[@B4]-[@B6]\\]. Consequently, there is a need for more precise data on the burden of heart failure within Australia. ### Objectives This study aims to provide an updated assessment of the health system impacts of heart failure in Australia. Specifically, it seeks to: 1. Estimate the incidence and prevalence of heart failure in the Australian population. 2. Quantify hospital admissions, readmissions, and associated costs for patients with heart failure. 3. Evaluate trends over time in morbidity and mortality related to heart failure. 4. Identify key factors contributing to variations in health outcomes among different subpopulations. ### Methods #### Data Sources Data will be obtained from multiple sources including: - National Hospital Morbidity Database (NHMD): Provides detailed information on hospital admissions, length of stay, diagnoses, and procedures for all public and private hospitals. - Australian Bureau of Statistics (ABS) mortality data: Offers comprehensive records of deaths by cause, age, sex, and other demographic factors. - Medicare Benefits Schedule (MBS) and Pharmaceutical Benefits Scheme (PBS): Data on healthcare services utilization and prescription medications. #### Study Design A retrospective cohort study design will be employed to analyze trends over a specified period. The primary outcomes include hospitalization rates, readmission rates within 30 days of discharge, and total health care costs associated with heart failure management. ### Statistical Analysis - Descriptive Statistics: Incidence and prevalence rates will be calculated using population estimates from the ABS. - Trend A",
+      "avg_prediction": 0.8193
+    },
+    {
+      "idx": 61,
+      "hash": "c03528b9",
+      "n_words": 68,
+      "n_chars": 374,
+      "preview_head": "In her exclusive interview with BuddyTV, Brittany let us know she feels it was a different situation. She said she can memorize lines from a script when they have a couple hours as they did during the",
+      "preview_tail": "urs as they did during the other acting challenge on America\u2019s Next Top Model. It was the cue cards in the commercial that threw her off. It had seemed during the Australian episode that the girls als",
+      "full_text": "In her exclusive interview with BuddyTV, Brittany let us know she feels it was a different situation. She said she can memorize lines from a script when they have a couple hours as they did during the other acting challenge on America\u2019s Next Top Model. It was the cue cards in the commercial that threw her off. It had seemed during the Australian episode that the girls als",
+      "avg_prediction": 0.4823
+    },
+    {
+      "idx": 62,
+      "hash": "32990dc7",
+      "n_words": 196,
+      "n_chars": 1169,
+      "preview_head": "ger, work harder, and give than anyone -Vince Lombardi Supplement Spotlight Don\u2019t Race Towards Rickets! Some people believe that by consuming large amounts of calcium in their diet that it allows them",
+      "preview_tail": "the creator of the Swing Block Method will assisting CFK athletes with It seems you have provided me with a text snippet and an instruction. Could you please clarify what task you would like me to per",
+      "full_text": "ger, work harder, and give than anyone -Vince Lombardi Supplement Spotlight Don\u2019t Race Towards Rickets! Some people believe that by consuming large amounts of calcium in their diet that it allows them to have strong bones, but this is only a half truth. Calcium absorption is solely dependent on the amount of vitamin D contained in the cells throughout the body. Without levels of Vitamin D, Calcium cannot be absorbed through the intestines. Sufficient Vitamin D levels are critical to maintenance of bone, and overall critical to the crossfit athlete. Crossfit athletes often put their bones under stress from weight training. These situations cause bone to degenerate and regenerate. We need Vitamin D to facilitate this regeneration of bone, and to help increase bone density. Puori D3 Upcoming Events: Strength and Powerlifting Seminar at CFK North Want to meet one of the best in the biz? 60 dollars might be your ticket to the 1,000 pound club! Jeremy Augusta, the creator of the Swing Block Method will assisting CFK athletes with It seems you have provided me with a text snippet and an instruction. Could you please clarify what task you would like me to per",
+      "avg_prediction": 0.459
+    },
+    {
+      "idx": 63,
+      "hash": "68ff8633",
+      "n_words": 52,
+      "n_chars": 305,
+      "preview_head": "family\u2019s get-togethers. My father likened the trip to entering a parallel universe; things seem the same, but are just a llittle off. We spent the days leading up to the ceremony reminiscing, laughing",
+      "preview_tail": " but are just a llittle off. We spent the days leading up to the ceremony reminiscing, laughing, and crying, and the days following it doing the same, but with added exhaustion. I brought my kids, who",
+      "full_text": "family\u2019s get-togethers. My father likened the trip to entering a parallel universe; things seem the same, but are just a llittle off. We spent the days leading up to the ceremony reminiscing, laughing, and crying, and the days following it doing the same, but with added exhaustion. I brought my kids, who",
+      "avg_prediction": 0.1632
+    },
+    {
+      "idx": 64,
+      "hash": "61dc49c8",
+      "n_words": 49,
+      "n_chars": 318,
+      "preview_head": "iled: PhaseScriptExecution Status(error): 1 Note: Some input files use new-style import syntax, but the module 'cordova/plugin/ios/nativecomm' could not be found. I have tried cleaning and rebuilding ",
+      "preview_tail": "a/plugin/ios/nativecomm' could not be found. I have tried cleaning and rebuilding the project as well as running \"pod install\" in my terminal to no avail. The app still runs perfectly on a simulator -",
+      "full_text": "iled: PhaseScriptExecution Status(error): 1 Note: Some input files use new-style import syntax, but the module 'cordova/plugin/ios/nativecomm' could not be found. I have tried cleaning and rebuilding the project as well as running \"pod install\" in my terminal to no avail. The app still runs perfectly on a simulator -",
+      "avg_prediction": 0.239
+    },
+    {
+      "idx": 65,
+      "hash": "dc5a83d8",
+      "n_words": 275,
+      "n_chars": 1369,
+      "preview_head": "nd the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and th",
+      "preview_tail": "and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and t",
+      "full_text": "nd the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and the Saints and t",
+      "avg_prediction": 0.9806
+    },
+    {
+      "idx": 66,
+      "hash": "2bca4021",
+      "n_words": 146,
+      "n_chars": 679,
+      "preview_head": "godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend.",
+      "preview_tail": " Amarillo. Richard the service manager was great, and they're a friendly bunch of guys who worked us into their schedule and got us back on the road quickly, while organizing things such that we could",
+      "full_text": "godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a day, and the repair shop was a godsend. We were in and out in a Would not hesitate to go back to S&L Auto and Truck Service in Amarillo. Richard the service manager was great, and they're a friendly bunch of guys who worked us into their schedule and got us back on the road quickly, while organizing things such that we could",
+      "avg_prediction": 0.62
+    },
+    {
+      "idx": 67,
+      "hash": "431dc9c6",
+      "n_words": 97,
+      "n_chars": 688,
+      "preview_head": "put into question by online review platforms like Yelp!, which have become an essential part of modern consumerism. These websites give customers the power to voice their opinions about businesses the",
+      "preview_tail": "tching Tags automotive battery bioengineering car deep learning DNA domotica electric car ethics eugenics grassroots homophobia LGBT marriage equality Online democracy robotics self driving car social",
+      "full_text": "put into question by online review platforms like Yelp!, which have become an essential part of modern consumerism. These websites give customers the power to voice their opinions about businesses they've interacted with, making them accountable for their actions. If a business decides to discriminate against certain individuals or groups, it's not just their decision and responsibility \u2013 but also something that can severely impact their reputation and bottom line. Categories Trendwatching Tags automotive battery bioengineering car deep learning DNA domotica electric car ethics eugenics grassroots homophobia LGBT marriage equality Online democracy robotics self driving car social",
+      "avg_prediction": 0.9756
+    },
+    {
+      "idx": 68,
+      "hash": "1eadbd68",
+      "n_words": 67,
+      "n_chars": 417,
+      "preview_head": "ears of ownership of real estate or personal property. Acceleration clause A provision that gives a lender the right to collect the balanceof an outstanding loan if certain conditions are not met, suc",
+      "preview_tail": "payments. Adjustable-rate mortgage (ARM) A type of mortgage with an interest rate that changes over time based on market fluctuations. The initial period usually has a fixed low-interest rate before i",
+      "full_text": "ears of ownership of real estate or personal property. Acceleration clause A provision that gives a lender the right to collect the balanceof an outstanding loan if certain conditions are not met, such as making late payments. Adjustable-rate mortgage (ARM) A type of mortgage with an interest rate that changes over time based on market fluctuations. The initial period usually has a fixed low-interest rate before i",
+      "avg_prediction": 0.9756
+    },
+    {
+      "idx": 69,
+      "hash": "c89d3cc0",
+      "n_words": 77,
+      "n_chars": 445,
+      "preview_head": "to do it with a block? Is there a specific computer-science or developer best practices reason where block initialization would be an advantage? A: The most important difference is that you can't assi",
+      "preview_tail": " the hash is assumed to come from an insecure source, such as a suer from a web form. In contrast, using a block allows you to set both protected and unprotected attributes because it's clear that the",
+      "full_text": "to do it with a block? Is there a specific computer-science or developer best practices reason where block initialization would be an advantage? A: The most important difference is that you can't assign protected attributes with a hash - because the hash is assumed to come from an insecure source, such as a suer from a web form. In contrast, using a block allows you to set both protected and unprotected attributes because it's clear that the",
+      "avg_prediction": 0.5965
+    },
+    {
+      "idx": 70,
+      "hash": "e85e343b",
+      "n_words": 91,
+      "n_chars": 513,
+      "preview_head": "a home. First came research. I started an online facebook group where I could begin collecting information and learn about the process of building a tiny house. The idea of living simple, and having a",
+      "preview_tail": "ized I would need to fIt seems like you provided me with a text snippet, but there might be a missing part or an incomplete sentence at the end. Could you please provide the full text, and I'll ensure",
+      "full_text": "a home. First came research. I started an online facebook group where I could begin collecting information and learn about the process of building a tiny house. The idea of living simple, and having a very small environmental footprint was intriguing. I began collecting books, which led to more books that I realized I would need to fIt seems like you provided me with a text snippet, but there might be a missing part or an incomplete sentence at the end. Could you please provide the full text, and I'll ensure",
+      "avg_prediction": 0.9026
+    },
+    {
+      "idx": 71,
+      "hash": "0e9c2732",
+      "n_words": 137,
+      "n_chars": 701,
+      "preview_head": "is smaller than -585 * 0 and 7/155440 have different values * -6458 is not greater than -6058 * 7725 is not greater than 7729 * -77110 is bigger than -385554/5 * -0.82 is smaller than 0.27 * -2933 is ",
+      "preview_tail": "7725 or 7729? 7729 Which is bigger: -77110 or -385554/5? -77110 Which is smaller: -0.82 or 0.27? -0.82 Does -2933 = -2830? False Is -369086 bigger than -369087? True Is 63724 less than 892137/14? True",
+      "full_text": "is smaller than -585 * 0 and 7/155440 have different values * -6458 is not greater than -6058 * 7725 is not greater than 7729 * -77110 is bigger than -385554/5 * -0.82 is smaller than 0.27 * -2933 is not equal to -2830 * -369086 is not greater than -369087 * 63724 is less than 892137/14 * 100660 is not less than 100660 * 2100 is not greater than 2106 * -75/44906 is not equal to 1. False Is -1/368595 less than 0? True Is 2/9615 at most as big as -1? False Is -6458 <= -6058? True Which is greater: 7725 or 7729? 7729 Which is bigger: -77110 or -385554/5? -77110 Which is smaller: -0.82 or 0.27? -0.82 Does -2933 = -2830? False Is -369086 bigger than -369087? True Is 63724 less than 892137/14? True",
+      "avg_prediction": 0.9824
+    },
+    {
+      "idx": 72,
+      "hash": "30d12737",
+      "n_words": 108,
+      "n_chars": 796,
+      "preview_head": "utilizing the remote electro-optical sensor (REOS) system. 2. Description of the Prior Art The general acronym REOS (Remote Electro-Optical Sensor) refers to moored in-reservoir water quality monitori",
+      "preview_tail": "em, a moored in-reservoir water quality monitoring technology, marked a significant advancement in the field. Prior to REOS, the monitoring of nuisance phytoplMultiplier in drinking water reservoirs w",
+      "full_text": "utilizing the remote electro-optical sensor (REOS) system. 2. Description of the Prior Art The general acronym REOS (Remote Electro-Optical Sensor) refers to moored in-reservoir water quality monitoring systems. REOS systems provided the first continuous in-reservoir monitoring of nuisance phytoplankton populations in drinking water reservoirs. Prior to the development of REOS techn1. Field of the Invention: The invention pertains to water quality monitoring devices, specifically those employing the REOS (Remote Electro-Optical Sensor) system. 2. Description of the Prior Art: The REOS system, a moored in-reservoir water quality monitoring technology, marked a significant advancement in the field. Prior to REOS, the monitoring of nuisance phytoplMultiplier in drinking water reservoirs w",
+      "avg_prediction": 0.4945
+    },
+    {
+      "idx": 73,
+      "hash": "f55b27e9",
+      "n_words": 213,
+      "n_chars": 1407,
+      "preview_head": "s of Winter (in Russian, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u0441\u0430\u0433\u0430 - Moskovskaya Saga) is a novel by the Russian writer Vasily Aksyonov. Many critics have praised Generations of Winter as a new Doctor Zhivago-style, large-scal",
+      "preview_tail": "oviet system from within, providing insights into how ordinary people navigated their lives under an oppressive regime while maintaining their humanity. This novel stands as a significant contribution",
+      "full_text": "s of Winter (in Russian, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u0441\u0430\u0433\u0430 - Moskovskaya Saga) is a novel by the Russian writer Vasily Aksyonov. Many critics have praised Generations of Winter as a new Doctor Zhivago-style, large-scale Russian novel, which tells the story of a Russian/Georgian family, the Gradovs, struggling to survive in the Stalinist era. As the Wall Street Journal put it: \"Aksyonov has ambitiously set out to challenge Tolstoy and Pasternak by writing an epic saga that encompasses both personal drama and historical upheaval. Generations of Winter spans three decades, from 1925 through World War II, focusing on the Gradov family\u2019s trials during one of Russia's most tumultuous periods.\" The novel is divided into several parts, each covering a significant phase in Russian history: the early years under Stalin, collectivization and purges, followed by the Great Patriotic War (World War II). Aksyonov weaves together intimate personal stories with broader historical events, creating a vivid tapestry of life during these times. The Gradovs' story is one of resilience, love, betrayal, and survival against overwhelming odds. Critics have also noted that \"Generations of Winter\" offers a nuanced portrayal of the Soviet system from within, providing insights into how ordinary people navigated their lives under an oppressive regime while maintaining their humanity. This novel stands as a significant contribution",
+      "avg_prediction": 0.7464
+    },
+    {
+      "idx": 74,
+      "hash": "42e37cd3",
+      "n_words": 100,
+      "n_chars": 555,
+      "preview_head": "Pm/Ps (higher values of Pm/Ps indicate lower respiratory variability) increases with age (6 weeks: 2.3 +/- 0.7; 6 months: 3.2 +/- 1.1; 1 year: 3.4 +/- 1.0; adults: 4.5 +/- 1.0). The calculation of the",
+      "preview_tail": "19.4 +/- 17.3 bpm, 4.2 +/- 1.7%; 1 year: 110.3 +/- 21.5 bpm, 5.8 +/- 2.3%; adults: 59.2 +/- 8.5 bpm, 4.3 +/- 2.2%. A comparison of the cardiorespiratory data from the first and last quiet sleep period",
+      "full_text": "Pm/Ps (higher values of Pm/Ps indicate lower respiratory variability) increases with age (6 weeks: 2.3 +/- 0.7; 6 months: 3.2 +/- 1.1; 1 year: 3.4 +/- 1.0; adults: 4.5 +/- 1.0). The calculation of the heart rate in beats per minute (bpm) and heart rate variability (%) revealed the following results: 6 weeks: 127.4 +/- 11.5 bpm, 3.8 +/- 1.5%; 6 months: 119.4 +/- 17.3 bpm, 4.2 +/- 1.7%; 1 year: 110.3 +/- 21.5 bpm, 5.8 +/- 2.3%; adults: 59.2 +/- 8.5 bpm, 4.3 +/- 2.2%. A comparison of the cardiorespiratory data from the first and last quiet sleep period",
+      "avg_prediction": 0.4373
+    },
+    {
+      "idx": 75,
+      "hash": "2de1f924",
+      "n_words": 287,
+      "n_chars": 1758,
+      "preview_head": "f contact failure are grossly classified into three. The first cause is that a conductive film forming a wiring electrode and a source/drain region (semiconductor film) or a lead out electrode (conduc",
+      "preview_tail": "t of the present invention to provide the technology of realizing a semiconductor device or an electro-optic device having high long period reliability by improving reliability of contact. Further, it",
+      "full_text": "f contact failure are grossly classified into three. The first cause is that a conductive film forming a wiring electrode and a source/drain region (semiconductor film) or a lead out electrode (conductive film) are not brought into ohmic contact with each other. This is due to the fact that an insulating coating, for example, a metal oxide or the like is formed on a contact face. The second cause is that the coverage of a conductive film forming a wiring electrode is poor and disconnection is caused in a contact hole. In this case, improvement must be achieved by film forming method or film forming condition of the wiring electrode. Further, the third cause is disconnection of a wiring electrode caused by the sectional shape of a contact hole or the like. The sectional shape of a contact hole is strongly dependent on etching conditions of an insulating material (SiN, SiO2, organic resin film or the like) covered on the contact portion. Particularly, contact failure due to the second or the third cause is actualized with a higher aspect ratio of a contact hole by miniaturizing a semiconductor device. It is an object of the present invention disclosed in the specification to reduce operational failure of a semiconductor device caused by contact failure by resolving the above-described problem. Particularly, it is an object of the present invention to provide the technology of eliminating contact failure when a material comprising aluminum or including aluminum as a major component is used as a wiring electrode. Further, it is an object of the present invention to provide the technology of realizing a semiconductor device or an electro-optic device having high long period reliability by improving reliability of contact. Further, it",
+      "avg_prediction": 0.2209
+    },
+    {
+      "idx": 76,
+      "hash": "7c0287b3",
+      "n_words": 292,
+      "n_chars": 1644,
+      "preview_head": "36 (SF-36) survey. The following immunosuppressive strategies were compared: (a) CNI, (b) mTOR inhibitors, and (c) mTOR combined with CNI. All regimens were prescribed alone (mono) or in combination (",
+      "preview_tail": "with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the",
+      "full_text": "36 (SF-36) survey. The following immunosuppressive strategies were compared: (a) CNI, (b) mTOR inhibitors, and (c) mTOR combined with CNI. All regimens were prescribed alone (mono) or in combination (+) with prednisolone and/or mycophenolate mofetil (MMF). Highest scores were evident in patients in the mTOR+ group. There were significantly higher values for general health perceptions (GH, p = 0.049), vitality (VIT, p = 0.020), and physical component summary (PCS, p = 0.041) when compared to CNImono and for GH (p = 0.042) and VIT (p = 0.043), when compared to mTORm. mTOR+m and mTORm+m were the only mTOR and CNI+m regimens with the highest and the only mTOR+m and mTORm with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the highest and the only mTORm and mTORm+m with the",
+      "avg_prediction": 0.7778
+    },
+    {
+      "idx": 77,
+      "hash": "1fb3dd78",
+      "n_words": 111,
+      "n_chars": 826,
+      "preview_head": "Save(DataModel data) { Response.AppendHeader(\"Access-Control-Allow-Origin\", \"*\"); Response.AppendHeader(\"Access-Control-Allow-Headers\", \"Origin, X-Requested-With, Content-Type, Accept\"); return null; ",
+      "preview_tail": ".example.com) What I'm missing? Thanks all in advance! A: First, change your ajax request with these options: contentType : 'application/json', dataType: 'json'. After that, add this controller-method",
+      "full_text": "Save(DataModel data) { Response.AppendHeader(\"Access-Control-Allow-Origin\", \"*\"); Response.AppendHeader(\"Access-Control-Allow-Headers\", \"Origin, X-Requested-With, Content-Type, Accept\"); return null; } This is the DataModel: public class DataModel { public string Title { get; set; } public string Description { get; set; } } Everything works correctly. However, when it makes a POST request to the \"Save\" controller-action, the properties on the Model is always null and not getting the values from the client-side. Note that this is a cross-domain request to the \"sub-domain\" of my site (i.e. calling from example.com to api.example.com) What I'm missing? Thanks all in advance! A: First, change your ajax request with these options: contentType : 'application/json', dataType: 'json'. After that, add this controller-method",
+      "avg_prediction": 0.6382
+    },
+    {
+      "idx": 78,
+      "hash": "7f4d8d61",
+      "n_words": 275,
+      "n_chars": 1764,
+      "preview_head": "a bZip Maf transcription factor protein that in humans is encoded by the MAFK gene. MafK is one of the small Maf proteins, which are basic region and leucine zipper (bZIP)-type transcription factors. ",
+      "preview_tail": "gion for DNA binding and a leucine zipper structure for dimer formation, and it lacks any canonical transcriptional activation domains. MAFK is broadly but differentially expressed in various tissues.",
+      "full_text": "a bZip Maf transcription factor protein that in humans is encoded by the MAFK gene. MafK is one of the small Maf proteins, which are basic region and leucine zipper (bZIP)-type transcription factors. The HUGO Gene Nomenclature Committee-approved gene name of MAFK is \u201cv-maf avian musculoaponeurotic fibrosarcoma oncogene homolog K\u201d. Discovery MafK was first cloned and identified in chicken in 1993 as a member of the small Maf (sMaf) genes. MafK was also identified as p18 NF-E2, a component of NF-E2 complex binding to a specific motif (NF-E2) in the regulatory regions of \u03b2-globin and erythroid-related genes. MAFK has been identified in many vertebrates, including humans. There are three functionally redundant sMaf proteins in vertebrates, MafF, MafG, and MafK. Structure MafK has a bZIP structure that consists of a basic region for DNA binding and a leucine zipper structure for dimer formation. Similar to other sMafs, MafK lacks any canonical transcriptional activation domains. Expression MAFK is broadly but differentially expressed in various tissues. MAFK expression was detected in all 16 tissues examinedHere is the completed text based on the information provided: MAFK is a bZip Maf transcription factor protein that is encoded by the MAFK gene in humans. It is one of the small Maf proteins, which are basic region and leucine zipper (bZIP)-type transcription factors. MAFK was first cloned and identified in chicken in 1993 and has since been identified in many vertebrates, including humans. It has a bZIP structure that consists of a basic region for DNA binding and a leucine zipper structure for dimer formation, and it lacks any canonical transcriptional activation domains. MAFK is broadly but differentially expressed in various tissues.",
+      "avg_prediction": 0.7539
+    },
+    {
+      "idx": 79,
+      "hash": "3f86df14",
+      "n_words": 86,
+      "n_chars": 571,
+      "preview_head": "kkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, ",
+      "preview_tail": " and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who lat",
+      "full_text": "kkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who later became the manager of the Hokkaido Nippon-Ham Fighters, and Noriaki Hasebe, who lat",
+      "avg_prediction": 0.9847
+    },
+    {
+      "idx": 80,
+      "hash": "10415233",
+      "n_words": 185,
+      "n_chars": 966,
+      "preview_head": "is blog is no longer active. In May 2011, after 5 years of writing here at Diary of a New Mom, I launched a new blog, Abby Off The Record. But WAIT! The good news is that I have just published an eboo",
+      "preview_tail": "my blog, and have heard from tons of other new moms about what\u2019s on their sleep-deprived minds. I\u2019m here to reassure you that you are not alone. You are not crazy. And you are going to do just fine! S",
+      "full_text": "is blog is no longer active. In May 2011, after 5 years of writing here at Diary of a New Mom, I launched a new blog, Abby Off The Record. But WAIT! The good news is that I have just published an ebook based on this blog. It\u2019s called Mama Insider: Laughing (And Sometimes Crying) All the Way Through Pregnancy, Birth, and the First 3 Months. It\u2019s a collection of 20+ of my best posts, plus some new material, all in one pretty little e-package. For just $4.99, you can download the PDF version here or get the e-reader version here. Mama Insider will give you the real scoop on pregnancy, birth, and new motherhood \u2013 the good, the bad, and the funny \u2013 from one (formerly) new mom to another. For the past 5+ years, I\u2019ve been chronicling the joy and the craziness on my blog, and have heard from tons of other new moms about what\u2019s on their sleep-deprived minds. I\u2019m here to reassure you that you are not alone. You are not crazy. And you are going to do just fine! S",
+      "avg_prediction": 0.2493
+    },
+    {
+      "idx": 81,
+      "hash": "136381b2",
+      "n_words": 55,
+      "n_chars": 319,
+      "preview_head": "ered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. Linux\u00ae is the registered trademark of Linus Torvalds in the U.S. and other countries. The Fedora Project ",
+      "preview_tail": " trademark of Linus Torvalds in the U.S. and other countries. The Fedora Project is maintained and driven by the community and sponsored by Red Hat. This is a community maintained site. Red Hat is not",
+      "full_text": "ered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. Linux\u00ae is the registered trademark of Linus Torvalds in the U.S. and other countries. The Fedora Project is maintained and driven by the community and sponsored by Red Hat. This is a community maintained site. Red Hat is not",
+      "avg_prediction": 0.4726
+    },
+    {
+      "idx": 82,
+      "hash": "d09ac608",
+      "n_words": 79,
+      "n_chars": 475,
+      "preview_head": "want to?\" are not constructive :) I already attempted the instructions in How to uninstall Internet Explorer 7 (KB 927177) with no success. Their alteRnative method didn't work as %windir%\\ie7 has alr",
+      "preview_tail": "T: I am fully aware of security issues with Internet Explorer 6. I am also aware that many people cannot conceive of any reason to ever revert to it. None of this is constructive or in any way related",
+      "full_text": "want to?\" are not constructive :) I already attempted the instructions in How to uninstall Internet Explorer 7 (KB 927177) with no success. Their alteRnative method didn't work as %windir%\\ie7 has already been removed, which presumably contained the uninstallation files. EDIT: I am fully aware of security issues with Internet Explorer 6. I am also aware that many people cannot conceive of any reason to ever revert to it. None of this is constructive or in any way related",
+      "avg_prediction": 0.5519
+    },
+    {
+      "idx": 83,
+      "hash": "7fb3e31a",
+      "n_words": 52,
+      "n_chars": 336,
+      "preview_head": "mune dysfunction, thus leading to diverse diseases. This study was to investigate the effects of trichothecene mycotoxins, DON and NIV, on the immune response of mouse macrophage cells. The mouse macr",
+      "preview_tail": "on the immune response of mouse macrophage cells. The mouse macrophage cells, RAW 264.7, were pretreated with DON and NIV and were then stimulated with lipopolysaccharide. The study found that DON and",
+      "full_text": "mune dysfunction, thus leading to diverse diseases. This study was to investigate the effects of trichothecene mycotoxins, DON and NIV, on the immune response of mouse macrophage cells. The mouse macrophage cells, RAW 264.7, were pretreated with DON and NIV and were then stimulated with lipopolysaccharide. The study found that DON and",
+      "avg_prediction": 0.8218
+    },
+    {
+      "idx": 84,
+      "hash": "70a46e73",
+      "n_words": 137,
+      "n_chars": 812,
+      "preview_head": "ia (+371) Liberia (#231)Lithuania (+370)Luxembourg (+352)(#234Macao SAR(XZCMACAO)+853(Mobile)#2142(Landline)) Madagascar(#261)Malaysia(+60)[(0086)]Mexico+(01 Midnight Express (xVII) Mom and Dad are wa",
+      "preview_tail": "of what is left just for my smile when we look at each other eye-to-eye in this world filled with endless pain and sorrow... I want to be your sunshine and protect you from every storm. You are a flow",
+      "full_text": "ia (+371) Liberia (#231)Lithuania (+370)Luxembourg (+352)(#234Macao SAR(XZCMACAO)+853(Mobile)#2142(Landline)) Madagascar(#261)Malaysia(+60)[(0086)]Mexico+(01 Midnight Express (xVII) Mom and Dad are watching me, I am the center of attention. They give my everything that they have for this child who is not their own but whom Mommy loves so much! All those love which were hidden in her heart now she can pour it out on to someone else's body. She doesn't care if people say things about how ugly a girl I am, because the most important person has told me that he thinks i'm beautiful. She would even give up all of what is left just for my smile when we look at each other eye-to-eye in this world filled with endless pain and sorrow... I want to be your sunshine and protect you from every storm. You are a flow",
+      "avg_prediction": 0.7625
+    },
+    {
+      "idx": 85,
+      "hash": "1afca0cb",
+      "n_words": 139,
+      "n_chars": 811,
+      "preview_head": "of the Springbok team. Frankly, it is beyond outrageous that De Villiers got involved, whatever the circumstances (and there are many diverse prongs to it, it seems) of an alleged murder case yet to f",
+      "preview_tail": "l and social dispositions, would have winced when they saw front-page lead headlines screaming out such words as \u201cBoks rally behind Bees\u201d. Of course there were going to be ripples and a groundswell of",
+      "full_text": "of the Springbok team. Frankly, it is beyond outrageous that De Villiers got involved, whatever the circumstances (and there are many diverse prongs to it, it seems) of an alleged murder case yet to formally begin. I hardly need to justify my stance by exploring the deep complexities and sensitivities of the society we live in \u2013 and have lived in \u2013 at this point, and nor should my view thus be interpreted as some clear-cut partiality in any direction in the Roux business. Let justice, and whatever that process reveals, run its rightful course. But I can only imagine how SARU officials, of varied political and social dispositions, would have winced when they saw front-page lead headlines screaming out such words as \u201cBoks rally behind Bees\u201d. Of course there were going to be ripples and a groundswell of",
+      "avg_prediction": 0.6746
+    },
+    {
+      "idx": 86,
+      "hash": "82f581d5",
+      "n_words": 211,
+      "n_chars": 1215,
+      "preview_head": "characters starts with a rich old white man talking. It\u2019s reminiscent of the current Adam Hughes Betty & Veronica title that\u2019s narrated by Jughead\u2019s dog. That title, while entertaining, was a disappoi",
+      "preview_tail": "cus, but rather, the male character, the dog, was, a problem, that, the comic, was not, the female leads, were not, the focus, but rather, the male character, the dog, was, a problem, that, the comic,",
+      "full_text": "characters starts with a rich old white man talking. It\u2019s reminiscent of the current Adam Hughes Betty & Veronica title that\u2019s narrated by Jughead\u2019s dog. That title, while entertaining, was a disappointment, as the Betty & Veronica comic, a title that should by all rights be a feminist, female-centric, female-empowering comic, was narrated by a male character, a dog, no less, rather than the female leads. The fact that the comic was entertaining, but the leads were not the narrators, was a problem, a problem that the comic was not female-centric, that the female leads were not the focus, but rather, the male character, the dog, was. The fact that the comic was not female-centric, was a problem, a problem that the comic was not, the female leads, were not, the focus, but rather, the male character, the dog, was, a problem that, the comic, was not, the female leads, were not, the focus, but rather, the male character, the dog, was, a problem, that, the comic, was not, the female leads, were not, the focus, but rather, the male character, the dog, was, a problem, that, the comic, was not, the female leads, were not, the focus, but rather, the male character, the dog, was, a problem, that, the comic,",
+      "avg_prediction": 0.6834
+    },
+    {
+      "idx": 87,
+      "hash": "a646d99e",
+      "n_words": 175,
+      "n_chars": 1173,
+      "preview_head": "n opportunity for kids to express their emotions without fear of judgment or criticism from others. 2. Educate: Teachers can provide information about divorce and its effects on children. This helps s",
+      "preview_tail": "rly with parents to stay updated on changes in the child's behavior or emotional state. This communication can help identify issues early and provide support before they become more severe. Divorce is",
+      "full_text": "n opportunity for kids to express their emotions without fear of judgment or criticism from others. 2. Educate: Teachers can provide information about divorce and its effects on children. This helps students understand what is happening to them during this difficult time. It's important to explain that it is not the child's fault, and reassure them that they are loved and supported by their parents and teachers alike. 3. Provide resources: Schools can offer resources such as counseling services or support groups for students going through a divorce. These resources should be easily accessible and promoted in classrooms. 4. Encourage positive behaviors: Teachers can help children cope with the emotional stress of divorce by promoting positive behaviors like resilience, optimism, and problem-solving skills. They can do this by offering activities that promote teamwork, cooperation, and self-esteem. 5. Communicate with parents: Teachers should communicate regularly with parents to stay updated on changes in the child's behavior or emotional state. This communication can help identify issues early and provide support before they become more severe. Divorce is",
+      "avg_prediction": 0.943
+    },
+    {
+      "idx": 88,
+      "hash": "f23b9236",
+      "n_words": 56,
+      "n_chars": 399,
+      "preview_head": "both artists' unique styles, blending gritty street narratives with their signature flows. The visual is rich in urban aesthetics\u2014think stark cityscapes and dynamic performances that showcase Reese's ",
+      "preview_tail": " confident delivery alongside his longtime collaborator. Durk complements this perfectly by adding depth to each verse through powerful lyrics rooted deeply within the Chicago music scene they both ha",
+      "full_text": "both artists' unique styles, blending gritty street narratives with their signature flows. The visual is rich in urban aesthetics\u2014think stark cityscapes and dynamic performances that showcase Reese's confident delivery alongside his longtime collaborator. Durk complements this perfectly by adding depth to each verse through powerful lyrics rooted deeply within the Chicago music scene they both ha",
+      "avg_prediction": 0.9726
+    },
+    {
+      "idx": 89,
+      "hash": "30f42ddf",
+      "n_words": 116,
+      "n_chars": 1858,
+      "preview_head": "</BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </Build-ableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </Build",
+      "preview_tail": "bleRefe </BuildableRefe </BuildableRefe </Build-ableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe",
+      "full_text": "</BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </Build-ableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRef-e </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </Build-ableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe </BuildableRefe",
+      "avg_prediction": 0.9832
+    },
+    {
+      "idx": 90,
+      "hash": "cbfcdc48",
+      "n_words": 318,
+      "n_chars": 1083,
+      "preview_head": "how repeated items once? A: Use LINQ's Distinct extension: foreach(var item in items.Distinct()) { Console.WriteLine(item); } And just in c#: foreach(var item in items.Distinct()) Console.WriteLine(it",
+      "preview_tail": "Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q:",
+      "full_text": "how repeated items once? A: Use LINQ's Distinct extension: foreach(var item in items.Distinct()) { Console.WriteLine(item); } And just in c#: foreach(var item in items.Distinct()) Console.WriteLine(item); Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q: Q:",
+      "avg_prediction": 0.9421
+    },
+    {
+      "idx": 91,
+      "hash": "65e03ed1",
+      "n_words": 106,
+      "n_chars": 442,
+      "preview_head": "2 (30) \u25ba 07/29 - 08/05 (34) \u25ba 07/22 - 07/29 (14) \u25ba 07/15 - 07/22 (26) \u25ba 07/08 - 07/15 (23) \u25ba 07/01 - 07/08 (25) \u25ba 06/24 - 07/01 (27) \u25ba 06/17 - 06/24 (32) \u25ba 06/10 - 06/17 (33) \u25ba 06/03 - 06/10 (37) \u25ba 05",
+      "preview_tail": "/13 - 05/20 (31) \u25ba 05/06 - 05/13 (28) \u25ba 04/29 - 05/06 (34) \u25ba 04/22 - 04/29 (32) \u25ba 04/15 - 04/22 (27) \u25ba 04/08 - 04/15 (30) \u25ba 04/01 - 04/08 (35) \u25ba 03/25 - 04/01 (31) \u25ba 03/18 - 03/25 (30) \u25ba 03/11 - 03/18",
+      "full_text": "2 (30) \u25ba 07/29 - 08/05 (34) \u25ba 07/22 - 07/29 (14) \u25ba 07/15 - 07/22 (26) \u25ba 07/08 - 07/15 (23) \u25ba 07/01 - 07/08 (25) \u25ba 06/24 - 07/01 (27) \u25ba 06/17 - 06/24 (32) \u25ba 06/10 - 06/17 (33) \u25ba 06/03 - 06/10 (37) \u25ba 05/27 - 06/03 (30) \u25ba 05/20 - 05/27 (33) \u25ba 05/13 - 05/20 (31) \u25ba 05/06 - 05/13 (28) \u25ba 04/29 - 05/06 (34) \u25ba 04/22 - 04/29 (32) \u25ba 04/15 - 04/22 (27) \u25ba 04/08 - 04/15 (30) \u25ba 04/01 - 04/08 (35) \u25ba 03/25 - 04/01 (31) \u25ba 03/18 - 03/25 (30) \u25ba 03/11 - 03/18",
+      "avg_prediction": 0.9536
+    },
+    {
+      "idx": 92,
+      "hash": "dc8b8505",
+      "n_words": 295,
+      "n_chars": 2013,
+      "preview_head": "$86.09 + GST Add to Cart: The Publication Manual of the American Psychological Association, Seventh Edition is the official source for APA Style. With millions of copies sold worldwide in multiple lan",
+      "preview_tail": "not just a book, it's an essential tool for anyone looking to communicate their ideas effectively in written form. It can help you avoid common mistakes and present your work with professionalism that",
+      "full_text": "$86.09 + GST Add to Cart: The Publication Manual of the American Psychological Association, Seventh Edition is the official source for APA Style. With millions of copies sold worldwide in multiple languages, it is the style manual of choice for writers, researchers, editors, students, and educators in the social and behavioral sciences, natural sciences, nursing, communications, education, business, engineeRing, and other fields. Known for itscomprehensive coverage on grammar rules with real-world examples. It offers guidance to help improve your writing skills while ensuring that it meets professional standards of clarity and conciseness. The Publication Manual has been updated throughout the years since first published in 1929 by APA (American Psychological Association). The seventh edition is a must-have for anyone looking to write with authority on scientific findings. It covers all aspects, from manuscript preparation through publication as well covering citation standards that are essential when referencing other people's work. This manual provides guidelines and examples of how different elements should be formatted including in-text citations (e.g., Smith & Jones 2018), reference lists at the end of your document or paper with both print sources such a journal article, book chapter etc. as well electronic ones like web pages online databases). Whether you are an undergraduate student writing their first research report for class assignment; doctoral candidate preparing to submit work on which they hope receive publication credit and recognition within field academic circles \u2013 having this manual at hand will be invaluable asset throughout entire process from initial conception right through final submission. The publication Manual of the American Psychological Association is not just a book, it's an essential tool for anyone looking to communicate their ideas effectively in written form. It can help you avoid common mistakes and present your work with professionalism that",
+      "avg_prediction": 0.752
+    },
+    {
+      "idx": 93,
+      "hash": "7cb54008",
+      "n_words": 302,
+      "n_chars": 1612,
+      "preview_head": "y Tue Feb 18, 2014 1:00 pm Reader Fav Quote:narrative-driven games for the core gamer that are highly replayableIt is pitch black. You are likely to be eaten by a grue. up ( +105 | +105 / 0 ) down 121",
+      "preview_tail": "behind one of the most critically acclaimed titles in recent memory is essentially shutting down just 11 months after the title was released. Levine could have left to start a new studio or venture, b",
+      "full_text": "y Tue Feb 18, 2014 1:00 pm Reader Fav Quote:narrative-driven games for the core gamer that are highly replayableIt is pitch black. You are likely to be eaten by a grue. up ( +105 | +105 / 0 ) down 1218 posts | registered Dec 23, 2009 carbonsxArs Centurion reply Tue Feb 18, 2014 1:00 pm Edit: My reading comprehension is lacking. Last edited by carbonsx on Tue Feb 18, 2014 1:07 pm up ( 0 | +2 / -2 ) down 343 posts | registered Oct 18, 2011 glap1922Ars Tribunus Militum reply Tue Feb 18, 2014 1:01 pm Quote:All but 15 of Irrational's employees will be let go as part of the moveHow many did they have total? It sucks that people are going to be laid off, but seeing them scale down to a small team will probably result in something fresh. up ( +21 | +21 / 0 ) down 2023 posts | registered Oct 23, 2009 DanNeelyArs Tribunus Militum reply Tue Feb 18, 2014 1:02 pm Reader Fav Was there any explanation as to why they're shutting down instead of just finding a new person to head Irrational in Levine's place? Dismantling a successful team just because it's founder wants to do something different strikes me as highly irrational. up ( +149 | +155 / -6 ) down 2595 posts | registered Feb 2, 2010 PlisskenArs Praetorian reply Tue Feb 18, 2014 1:02 pm Reader Fav As a fan of game narratives, I'm all for the story-rich kind of content that Levine wants to create. But that's overshadowing the fact that the developer behind one of the most critically acclaimed titles in recent memory is essentially shutting down just 11 months after the title was released. Levine could have left to start a new studio or venture, b",
+      "avg_prediction": 0.2404
+    },
+    {
+      "idx": 94,
+      "hash": "eefa1645",
+      "n_words": 126,
+      "n_chars": 771,
+      "preview_head": "and related to BMD values at the spine and hip, and BMC of total body. Stratified analyses were carried out among women within or at least 4 years postmenopausal. We observed few differences in BMD/BM",
+      "preview_tail": "ffered by about 4-8% between the first and fourth soy protein intake quartiles. Though women from the fourth intake quartile had a 2.9% higher BMD value compared with those from the first intake quart",
+      "full_text": "and related to BMD values at the spine and hip, and BMC of total body. Stratified analyses were carried out among women within or at least 4 years postmenopausal. We observed few differences in BMD/BMC values among the intake quartiles in women within the first 4 years of menopause. However, among the later postmenopausal women, we noted a dose-response relationship with increasing higher BMD values at the trochanter, intertrochanter as well as the total hip and total body with increasing soy protein intake quartiles (P<0.05 from tests for trend). The BMD values differed by about 4-8% between the first and fourth soy protein intake quartiles. Though women from the fourth intake quartile had a 2.9% higher BMD value compared with those from the first intake quart",
+      "avg_prediction": 0.5939
+    },
+    {
+      "idx": 95,
+      "hash": "a595cbb8",
+      "n_words": 303,
+      "n_chars": 2093,
+      "preview_head": "2, we sought to assess their overall survival, local control rate, and functional rehabilitation outcomes. The patient population consisted of individuals aged between 35 and 73 years, all diagnosed w",
+      "preview_tail": "ll carcinoma of the supraglottic larynx. Additionally, insights into functional rehabilitation timelines and common complications enhance our understanding of how to optimize patient care following SL",
+      "full_text": "2, we sought to assess their overall survival, local control rate, and functional rehabilitation outcomes. The patient population consisted of individuals aged between 35 and 73 years, all diagnosed with squamous cell carcinoma of the supraglottic larynx. Treatment modalities included SL or ESL, along with ipsilateral or bilateral neck dissections, and in some cases, postoperative radiotherapy. All patients were staged according to the 1997 UICC TNM classification system. To measure survival, we employed the Kaplan-Meyer method, which revealed an overall survival rate of 77% and a local control rate of 78%. These figures indicate that a significant majority of the patients experienced long-term survival following the procedure, with a high percentage maintaining local control over their disease. Functional rehabilitation was also assessed in this study. The mean time for nasogastric tube removal post-surgery was found to be 16 days (ranging from 10 to 39 days) for SL cases and 23 days (ranging from 15 to 50 days) for ESL cases. This information is crucial as it provides insights into the recovery timeline, which can be used by healthcare professionals to better manage patient care and expectations post-surgery. Regarding complications, the overall incidence was reported at 20%. The most frequently encountered issues included postoperative infection and bleeding. Understanding these common complications allows for proactive measures to be taken during and after surgery to mitigate their occurrence and potential impact on patient outcomes. In conclusion, this follow-up study of 142 patients treated with Marullo's supraglottic laryngectomy technique between 1976 and 1992 provides valuable data on the long-term outcomes of this surgical approach. The high overall survival and local control rates underscore the effectiveness of this procedure in managing squamous cell carcinoma of the supraglottic larynx. Additionally, insights into functional rehabilitation timelines and common complications enhance our understanding of how to optimize patient care following SL",
+      "avg_prediction": 0.8292
+    },
+    {
+      "idx": 96,
+      "hash": "f7dfd5d4",
+      "n_words": 50,
+      "n_chars": 258,
+      "preview_head": "Marion and I are heading to PEC on Aug. 19th, sTaying with a friend through that weekend & Monday. Any chance we might see you while there? We\u2019d love to catch up! Let us know if your schedule allows f",
+      "preview_tail": " a friend through that weekend & Monday. Any chance we might see you while there? We\u2019d love to catch up! Let us know if your schedule allows for a get-together or even just a quick coffee. Looking for",
+      "full_text": "Marion and I are heading to PEC on Aug. 19th, sTaying with a friend through that weekend & Monday. Any chance we might see you while there? We\u2019d love to catch up! Let us know if your schedule allows for a get-together or even just a quick coffee. Looking for",
+      "avg_prediction": 0.4319
+    },
+    {
+      "idx": 97,
+      "hash": "751bb8f1",
+      "n_words": 36,
+      "n_chars": 250,
+      "preview_head": "tals was determined in whole potatoes, peelings and peeled potatoes, and in the residues after alcoholic fermentation. The obtained results were used for formulation of prophylactic suggestions for re",
+      "preview_tail": "d peeled potatoes, and in the residues after alcoholic fermentation. The obtained results were used for formulation of prophylactic suggestions for reducing the exposure of humans and domestic animals",
+      "full_text": "tals was determined in whole potatoes, peelings and peeled potatoes, and in the residues after alcoholic fermentation. The obtained results were used for formulation of prophylactic suggestions for reducing the exposure of humans and domestic animals",
+      "avg_prediction": 0.5115
+    },
+    {
+      "idx": 98,
+      "hash": "45e96f56",
+      "n_words": 138,
+      "n_chars": 803,
+      "preview_head": "y unnoticed and unheralded. And yet they make up the very fabric of our lives... Beautiful!Wishing you a wonderful new year! :) 12/29/2009 Char said... what a wonderful project and beautiful images. t",
+      "preview_tail": "you lots of love as we go into 2010...xoxxoox 12/29/2009 Meri said... Love the project. The table -- well, you make me think about all the projects and meals and conversations and sitting and thinking",
+      "full_text": "y unnoticed and unheralded. And yet they make up the very fabric of our lives... Beautiful!Wishing you a wonderful new year! :) 12/29/2009 Char said... what a wonderful project and beautiful images. there is such beautiful light 12/29/2009 deb said... so sweetly beautiful. as are you, Elk.I am a table girl. I will sip my coffee in winter sun and think of the gifts you have given. 12/29/2009 Mrs. E said... You amaze me, friend! You have made my year-day by day! 12/29/2009 koralee said... Your images always make me happy my friend..these all are amazing. You have an amazingly creative eye. Sending you lots of love as we go into 2010...xoxxoox 12/29/2009 Meri said... Love the project. The table -- well, you make me think about all the projects and meals and conversations and sitting and thinking",
+      "avg_prediction": 0.3827
+    },
+    {
+      "idx": 99,
+      "hash": "d15953e7",
+      "n_words": 148,
+      "n_chars": 1075,
+      "preview_head": "are available in a range of configurations, including 1.5 mm, 2 mm, and 4 mm models, each designed to fit into constrained geometries such as deep bores, undercuts, and narrow slots. Their hermeticall",
+      "preview_tail": "ps, ensuring seamless integration into modern manufacturing workflows. In addition to block gauges, Solartron offers modular pneumatic systems with adjustable air pressure, differential pressure senso",
+      "full_text": "are available in a range of configurations, including 1.5 mm, 2 mm, and 4 mm models, each designed to fit into constrained geometries such as deep bores, undercuts, and narrow slots. Their hermetically sealed construction ensures protection against contaminants, while the use of non-contact air bearings eliminates friction-related wear, preserving measurement accuracy over extended operational cycles. Solartron\u2019s Block Gauges are commonly employed in industries such as aerospace, automotive, and precision machining, where high-accuracy dimensional control is critical. For instance, the 2 mm model\u2019s 8 mm width allows it to access features as small as 3 mm in diameter, enabling measurements in components like turbine blades, hydraulic valve seats, and micro-engineered parts. Data output is compatible with digital readouts, CNC systems, and automated inspection setups, ensuring seamless integration into modern manufacturing workflows. In addition to block gauges, Solartron offers modular pneumatic systems with adjustable air pressure, differential pressure senso",
+      "avg_prediction": 0.9044
+    },
+    {
+      "idx": 100,
+      "hash": "0889f3e5",
+      "n_words": 133,
+      "n_chars": 1215,
+      "preview_head": "rd before disease onset]{ Microgliosis is an early event}{fig:microgliosa1} \\label{fig:unnamed-chunk-2}\\end{figure} We also found that microglial cells were activated only during pre-symptomatic stage",
+      "preview_tail": "vated cells were present in the spinal cord of symptomatic mice but absent from pre-symptomatic ones. This is consistent with previous studies ([@bib27]). We also found that,unlike microgliosis which ",
+      "full_text": "rd before disease onset]{ Microgliosis is an early event}{fig:microgliosa1} \\label{fig:unnamed-chunk-2}\\end{figure} We also found that microglial cells were activated only during pre-symptomatic stages,and not later (Figures \\@ref(fig:microgila_early){}) -\\@ref{}). This is consistent with previous studies ([@bib26]). \\begin{center} {\\small \\noindent \\includegraphics[width=0.5\\textheight]{microglia_late.png}} \\caption [Microgliosis occurs in thespinal cord before disease onset] { Microgialactivation does not occur during symptomatic stages}{fig:microgiliosa2} \\label{unnamed-chunk-3} \\end{center} Astrocyte dysfunction is a late event ------------------------------------- We then investigated whether astroglia are activated in the spinal cord of SOD1G93A mice atpre-symptomatic or symptomatic stages. We found that, unlikemicrogliosiswhich occurs during early presympotmatic stage and not later (Figures \\@ref(fig:microgila_early){}) -\\@ref{}), astrocyteactivation was detected only after disease onset: activated cells were present in the spinal cord of symptomatic mice but absent from pre-symptomatic ones. This is consistent with previous studies ([@bib27]). We also found that,unlike microgliosis which ",
+      "avg_prediction": 0.983
+    },
+    {
+      "idx": 101,
+      "hash": "4a9c721f",
+      "n_words": 51,
+      "n_chars": 336,
+      "preview_head": "protein superfamily (Ras of complex proteins (Roc) with a C-terminal Roc domain). Mutations in the LRRK2 gene lead to autosomal dominant Parkinsonism. We have cloned the porcine LRRK2 cDNA in an attem",
+      "preview_tail": " Parkinsonism. We have cloned the porcine LRRK2 cDNA in an attempt to characterize conserved and therefore likely functional domains. The LRRK2 cDNA contains an open reading fraThe LRRK2 cDNA contains",
+      "full_text": "protein superfamily (Ras of complex proteins (Roc) with a C-terminal Roc domain). Mutations in the LRRK2 gene lead to autosomal dominant Parkinsonism. We have cloned the porcine LRRK2 cDNA in an attempt to characterize conserved and therefore likely functional domains. The LRRK2 cDNA contains an open reading fraThe LRRK2 cDNA contains",
+      "avg_prediction": 0.6708
+    },
+    {
+      "idx": 102,
+      "hash": "1bffb921",
+      "n_words": 240,
+      "n_chars": 1495,
+      "preview_head": "e protocol will be used for the server at anytime. If both http and https are true, only # https listener will be created and the server will bind to https port only. enableHttp: false # Https port if",
+      "preview_tail": " is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled.",
+      "full_text": "e protocol will be used for the server at anytime. If both http and https are true, only # https listener will be created and the server will bind to https port only. enableHttp: false # Https port if enableHttps is true. It will be ignored if dynamicPort is true. httpsPort: 49588 # Enable HTTPS should be true on official environment and most dev environments. enableHttps: true # Http/2 is enabled by default for better performance and it works with the client module enableHttp2: true # Keystore file name in config folder. KeystorePass is in secret.yml to access it. keystoreName: server.keystore # Keystore password keystorePass: password # Private key password keyPass: password # Flag that indicate if two way TLS is enabled. Not recommended in docker container. enableTwoWayTls: false # Keystore password keystorePass: password # Private key password keyPass: password # Flag that indicate if two way TLS is enabled. Not recommended in docker container. enableTwoWayTls: false # Flag that indicate if TLS is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled. Not recommended in docker container. enableTls: false # Flag that indicate if TLS is enabled.",
+      "avg_prediction": 0.9195
+    },
+    {
+      "idx": 103,
+      "hash": "7278a677",
+      "n_words": 2,
+      "n_chars": 1801,
+      "preview_head": "akassKomiKomi ZybKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKom",
+      "preview_tail": "Komi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-Per",
+      "full_text": "akassKomiKomi ZybKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-PermyakKomi-Per",
+      "avg_prediction": 0.9835
+    },
+    {
+      "idx": 104,
+      "hash": "e6173295",
+      "n_words": 46,
+      "n_chars": 289,
+      "preview_head": "IN users_items ON items.id = users_items.id WHERE (users_items.user_id = <|im_end| This is because you cannot include dynamic SQL expressions directly in the ASPX markup. You need to handle this from ",
+      "preview_tail": "s because you cannot include dynamic SQL expressions directly in the ASPX markup. You need to handle this from code-behind. Here's an example of how can do it: First, define a method that accepts your",
+      "full_text": "IN users_items ON items.id = users_items.id WHERE (users_items.user_id = <|im_end| This is because you cannot include dynamic SQL expressions directly in the ASPX markup. You need to handle this from code-behind. Here's an example of how can do it: First, define a method that accepts your",
+      "avg_prediction": 0.9825
+    },
+    {
+      "idx": 105,
+      "hash": "ad2209d3",
+      "n_words": 54,
+      "n_chars": 301,
+      "preview_head": "similar to query, but it returns all of the data from a particular device in a specified time range. Unlike query, scan does not take into account any tags. id \u2013 Device id as appears on your dashboard",
+      "preview_tail": "Unlike query, scan does not take into account any tags. id \u2013 Device id as appears on your dashboard page or API Key\u2019s \u201cDevices\u201d tab (required) before: get devices before this timestamp if scanning for",
+      "full_text": "similar to query, but it returns all of the data from a particular device in a specified time range. Unlike query, scan does not take into account any tags. id \u2013 Device id as appears on your dashboard page or API Key\u2019s \u201cDevices\u201d tab (required) before: get devices before this timestamp if scanning for",
+      "avg_prediction": 0.97
+    },
+    {
+      "idx": 106,
+      "hash": "6aa81d9c",
+      "n_words": 121,
+      "n_chars": 742,
+      "preview_head": "in various contexts: 1. Accrued Revenue: This is the revenue that a business has earned but not yet received payment for. It includes all the sales and services provided up to the current date, minus ",
+      "preview_tail": "ain period of time. It represents the gain made from letting money sit in an investment account without taking any action to withdraw or reinvest it. 4. Accrued Liabilities: These are obligations that",
+      "full_text": "in various contexts: 1. Accrued Revenue: This is the revenue that a business has earned but not yet received payment for. It includes all the sales and services provided up to the current date, minus any payments already received. 2. Accrued Expenses: These are expenses that have been incurred by a business but not yet paid or recorded in the accounting records. This might include salaries, rent, utilities, and other day-to-day operational costs. 3. Accrued Interest: This is the interest that has accumulated on an investment over a certain period of time. It represents the gain made from letting money sit in an investment account without taking any action to withdraw or reinvest it. 4. Accrued Liabilities: These are obligations that",
+      "avg_prediction": 0.9655
+    },
+    {
+      "idx": 107,
+      "hash": "f21fd466",
+      "n_words": 170,
+      "n_chars": 873,
+      "preview_head": "pened the other day?\u201d I fiddled with my scarf with one hand as we kept on walking\u201cNo, actually, I\u2026 liked it\u2026\u201d He then laced his hands with mine while pulling his scarf up to his nose trying to conceal",
+      "preview_tail": "ve been walking for a few minutes now and he carried me on his back all the way to the nearby forest\u201cHmm, you sure? You were a bit shaky when you did jump out my window\u2026\u201d He walked a bit deeper in the",
+      "full_text": "pened the other day?\u201d I fiddled with my scarf with one hand as we kept on walking\u201cNo, actually, I\u2026 liked it\u2026\u201d He then laced his hands with mine while pulling his scarf up to his nose trying to conceal his blush. It was just like that on the way to school, comfortable silence with a few old couples smiling at us~Le skip to the school~Katelyn then came up A Human Once More (Jack Frost X Reader)My gawd people thank you so much for your patience even if you are impatient!!! honestly I love you guys so much that I'm always trying to put up the next chapter ASAP and that I cry happy tears TTvTTChapter 6: At the lake\u201cJack\u2026\u201d\u201cYes?\u201d\u201cCan you put me down now? I can walk\u2026.\u201d We\u2019ve been walking for a few minutes now and he carried me on his back all the way to the nearby forest\u201cHmm, you sure? You were a bit shaky when you did jump out my window\u2026\u201d He walked a bit deeper in the",
+      "avg_prediction": 0.5149
+    },
+    {
+      "idx": 108,
+      "hash": "a59ede88",
+      "n_words": 23,
+      "n_chars": 364,
+      "preview_head": "https://sutherlandinstitute.org/wp-content/uploads/2018/07/iStock-843114846.jpg14142121payton Hamptonhttps://sutherlandinstitute.org/wp-content/uploads/logo_web_345x100.pngPayton Hampton2018-07-23 10:",
+      "preview_tail": "x100.pngPayton Hampton2018-07-23 10:54:442018-07-23 10:54:44Wildfire retardant is often ineffective and can even make wildfires worse by altering ecosystems and causing long-term environmental damage.",
+      "full_text": "https://sutherlandinstitute.org/wp-content/uploads/2018/07/iStock-843114846.jpg14142121payton Hamptonhttps://sutherlandinstitute.org/wp-content/uploads/logo_web_345x100.pngPayton Hampton2018-07-23 10:54:442018-07-23 10:54:44Wildfire retardant is often ineffective and can even make wildfires worse by altering ecosystems and causing long-term environmental damage.",
+      "avg_prediction": 0.9841
+    },
+    {
+      "idx": 109,
+      "hash": "5a19d31c",
+      "n_words": 316,
+      "n_chars": 1898,
+      "preview_head": "Levy, Esq. on March 6, 2012 in Bankruptcy - Chapter 13, Bankruptcy - Chapter 7, Bankruptcy and the IRS, Interest and penalties, Offer in compromise, Unfiled returns As a general rule, count on IRS int",
+      "preview_tail": "l bankruptcy help in getting the IRS to release a levy or seizure? Subscribe to this Feed Subscribe to my blog mail: Howard\u2019s Articles About Howard Articles & Seminars FAQ Contact Howard 11159 Kenwood",
+      "full_text": "Levy, Esq. on March 6, 2012 in Bankruptcy - Chapter 13, Bankruptcy - Chapter 7, Bankruptcy and the IRS, Interest and penalties, Offer in compromise, Unfiled returns As a general rule, count on IRS interest and penalties doubling the amount you owe every five years. Interest is only part of the cause; it is the penalties that really hurt. Interest rates charged by the IRS are not unfair \u2013 the federal short-term rate plus 3%. This has left IRS interest hovering [\u2026] Read More Page 1 of 41234\u00bb A former IRS trial attorney, Howard Levy has over 20 years of experience representing individuals and companies facing tax controversies. His expertise includes finding solutions to IRS collection problems, with an emphasis on the use of bankruptcy. He is a partner in the Cincinnati law firm of Voorhees & Levy LLC. Howard\u2019s IRS & the Law Blog IRS Practice Areas Automated Collection Service (31) Bankruptcy and the IRS (36) Criminal investigation (10) Currently Not Collectible (21) Economic hardship and the IRS (14) Employment taxes (17) Innocent spouse (9) Installment agreements (26) Interest and penalties (12) IRS Audits (23) IRS collection notices (23) IRS Financial Statements (30) IRS levies and property seizures (51) Offer in compromise (51) Revenue Officers (28) Statute of limitations on collections (23) Tax Court (16) Tax liens (8) Trust fund recovery penalty (20) Unfiled returns (21) Learn the BasicsWhen do I know it\u2019s right to file an offer in compromise? 5 top reasons. What to expect when an IRS Revenue Officer comes calling to your home or business. Is there such a thing as a hardship status with the IRS? Defaulted on your IRS installment agreement? Where do you turn now? Will bankruptcy help in getting the IRS to release a levy or seizure? Subscribe to this Feed Subscribe to my blog mail: Howard\u2019s Articles About Howard Articles & Seminars FAQ Contact Howard 11159 Kenwood",
+      "avg_prediction": 0.4288
+    },
+    {
+      "idx": 110,
+      "hash": "682e66be",
+      "n_words": 55,
+      "n_chars": 304,
+      "preview_head": "rge), partially restored in the early 20th century. There is also an early tower of Adar Davit on a hill nearby from the 2nd or 1st centuries BC. There is also a monument dedicated to the victims of W",
+      "preview_tail": " nearby from the 2nd or 1st centuries BC. There is also a monument dedicated to the victims of World War II, 2nd- to 1st-century tombs, 10th- to 18th-century graves, and an early 19th-century wall. Th",
+      "full_text": "rge), partially restored in the early 20th century. There is also an early tower of Adar Davit on a hill nearby from the 2nd or 1st centuries BC. There is also a monument dedicated to the victims of World War II, 2nd- to 1st-century tombs, 10th- to 18th-century graves, and an early 19th-century wall. Th",
+      "avg_prediction": 0.7981
+    },
+    {
+      "idx": 111,
+      "hash": "7acb469f",
+      "n_words": 35,
+      "n_chars": 254,
+      "preview_head": "ny specific questions or need assistance in understanding the articles mentioned (e.g., \"Stanfill: 'Professional Bicycle Mechanics Association will bring central skills certification to US'\"), feel fr",
+      "preview_tail": "ing the articles mentioned (e.g., \"Stanfill: 'Professional Bicycle Mechanics Association will bring central skills certification to US'\"), feel free to ask! I'm here to help with information, explanat",
+      "full_text": "ny specific questions or need assistance in understanding the articles mentioned (e.g., \"Stanfill: 'Professional Bicycle Mechanics Association will bring central skills certification to US'\"), feel free to ask! I'm here to help with information, explanat",
+      "avg_prediction": 0.9781
+    },
+    {
+      "idx": 112,
+      "hash": "2908ddd9",
+      "n_words": 236,
+      "n_chars": 1653,
+      "preview_head": "as given your available RAM. Thiswill allow MySQL to keep more of the index data in memory,reducing disk I/O during the importprocess.2. Optimize indexes: Reviewyourindexesandseeif they are optimal fo",
+      "preview_tail": "ns/reorganizations. 6. Monitor I/O and CPU usage: Use system monitoring tools like `iostat`, `vmstat`,and `top` (or equivalent) during import operationsto identify potential bottlenecks related to dis",
+      "full_text": "as given your available RAM. Thiswill allow MySQL to keep more of the index data in memory,reducing disk I/O during the importprocess.2. Optimize indexes: Reviewyourindexesandseeif they are optimal for this bulk insert operation.You may not need all three indexes or perhaps some canbe combined into a single one that covers more columns accessed frequently during Remember, each index takesup additional space on disk andin memory. 3.Consider `delay_key_write`: With `delay_key_write` set to ON (which is the default), MySQL will write changes to the key cache only after a certain numberof rows have been inserted or updated (`delayed_insert_limit`). This can improve bulk insertperformance but at thecost of increasedmemory andpotential data loss if your server crashes before keys arewritten. 4. Increase `max_allowed_packet`: Currently set to 160M, this variablelimits the maximum size of a packet sent or received by MySQL (default is 8MB). Increasing itcan help accommodate largerrowsin your table and reduce fragmentation within index files. However, be cautiousnot to exceed available resources on your server when increasing `max_allowed_packet`. 5. Use externalsorting: If you have enough disk space available, consider setting up an external sort buffer by using the option `myisam_sort_buffer_size` (currently set at 400M). This will allow MySQL to temporarily store rows on disk instead of in memory when doing bulk insertsor index creations/reorganizations. 6. Monitor I/O and CPU usage: Use system monitoring tools like `iostat`, `vmstat`,and `top` (or equivalent) during import operationsto identify potential bottlenecks related to dis",
+      "avg_prediction": 0.8959
+    },
+    {
+      "idx": 113,
+      "hash": "c05dbb79",
+      "n_words": 129,
+      "n_chars": 861,
+      "preview_head": "nd a number of other leisure options. The elaborate attributes two new-drinking water swimming pools, a solarium terrace, wellness Centre and a limiteless Beach front for calming for your Seems about ",
+      "preview_tail": " suites with a private pool on the bottom level overlooking the gardens. RIU's well known, all-inclusive principle features amazing ingesting at a variety of dining sites, limitless leisure routines a",
+      "full_text": "nd a number of other leisure options. The elaborate attributes two new-drinking water swimming pools, a solarium terrace, wellness Centre and a limiteless Beach front for calming for your Seems about the ocean. Underpinning Digital payments is amongst the entire world\u2019s most Innovative processing networks\u2014VisaNet\u2014and that is helpful at addressing larger than 10,000 transactions a 2nd, with in this article fraud protection...Look at Way more We pre-negotiate on a yearly basis with the foremost countrywide design auto companies to deliver the bottom and most affordable priced Cancun rental car price ranges possible. Riu Palace Cabo San Lucas gives swim-up suites with a private pool on the bottom level overlooking the gardens. RIU's well known, all-inclusive principle features amazing ingesting at a variety of dining sites, limitless leisure routines a",
+      "avg_prediction": 0.1566
+    },
+    {
+      "idx": 114,
+      "hash": "36253c56",
+      "n_words": 62,
+      "n_chars": 377,
+      "preview_head": "it was a welCome surprise to come--- 2012 Archive Continued December 1, 2012 The holiday season is creeping in, and with it comes a whirlwind of emotions. There's something both magical and bitterswee",
+      "preview_tail": " magical and bittersweet about this time of year. The twinkling lights, the scent of pine, and the familiar carols all bring back memories of family gatherings and childhood excitement. This year, I'm",
+      "full_text": "it was a welCome surprise to come--- 2012 Archive Continued December 1, 2012 The holiday season is creeping in, and with it comes a whirlwind of emotions. There's something both magical and bittersweet about this time of year. The twinkling lights, the scent of pine, and the familiar carols all bring back memories of family gatherings and childhood excitement. This year, I'm",
+      "avg_prediction": 0.5952
+    },
+    {
+      "idx": 115,
+      "hash": "753873e3",
+      "n_words": 152,
+      "n_chars": 1172,
+      "preview_head": "a diagnosis of chronic thromboembolic disease (CTED). The patient was refractory to anticoagulation therapy over the following weeks without significant improvement in symptoms or objective measures. ",
+      "preview_tail": "known as Wegener'sGranulomatosis. This condition can present similarly to chronic thromboembolic disease due to the involvement of small and medium-sized vessels leading to ischemic changes that mimic",
+      "full_text": "a diagnosis of chronic thromboembolic disease (CTED). The patient was refractory to anticoagulation therapy over the following weeks without significant improvement in symptoms or objective measures. This prompted further investigation and re-evaluation. Upon closer review, it became evident that while some features on imaging were suggestive of CTED\u2014such as central pulmonary artery dilatation with peripheral pruning\u2014a detailed clinical correlation raised suspicion for an alternative diagnosis given her systemic manifestations (oral ulcers, rash) which are not typical in chronic thromboembolic disease. A high index of suspicion led to the consideration and eventual confirmation through biopsy that she had a form of vasculitis affecting pulmonary vessels. The specific type was determined after histopathological examination\u2014revealing granulomatous inflammation with multinucleated giant cells, pointing towards Granulomatosis with Polyangiitis (GPA), previously known as Wegener'sGranulomatosis. This condition can present similarly to chronic thromboembolic disease due to the involvement of small and medium-sized vessels leading to ischemic changes that mimic",
+      "avg_prediction": 0.8081
+    },
+    {
+      "idx": 116,
+      "hash": "3d21d580",
+      "n_words": 249,
+      "n_chars": 535,
+      "preview_head": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ",
+      "preview_tail": " a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a Required fields are marked * Comment Name * Email * Website",
+      "full_text": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a Required fields are marked * Comment Name * Email * Website",
+      "avg_prediction": 0.0393
+    },
+    {
+      "idx": 117,
+      "hash": "d2b913ff",
+      "n_words": 269,
+      "n_chars": 1784,
+      "preview_head": "Dakota, Respondent and Appellee. No. 14968. Supreme Court of South Dakota. Considered on Briefs January 15, 1986. Decided December 23, 1986. *141 Cynthia A. howard, Northern Hills Public Defender's Of",
+      "preview_tail": "cuit Court denied Loop's petition and quashed the writ on November 26, 1985. Issue: WhetherLoop received effective assistance of appellate counsel under Strickland v.Washington , U.S., --- S.Ct. [---]",
+      "full_text": "Dakota, Respondent and Appellee. No. 14968. Supreme Court of South Dakota. Considered on Briefs January 15, 1986. Decided December 23, 1986. *141 Cynthia A. howard, Northern Hills Public Defender's Office, Deadwood, for petitioner and appellant. Robert Mayer, Asst. Atty. Gen., Pierre, for respOndent and appellee; Mark V. Meierhenry, Atty. Gen., Pierre, on brief. MORGAN, Justice. This is an appeal from an order quashing a writ of habeas corpus originally issued on the petition of Gary Loop (Loop) which alleged, among other things, an unconstitutional deprivation of effective assistance of appellate counsel. We reverse and remand. On November 4, 1981, Loop was charged with the offense of sexual contact with a child under fifteen yFacts: Gary Lynn Loop (\"Loop\") appealed from an order quashing his writ of habeas corpus filed by him as petitioner-appellant against Herman Solem (\"Solem\"), Warden at South Dakota State Penitentiary, who was respondent-appellee. The appeal challenged the constitutionality of deprivation and denial of effective assistance of appellate counsel. Loop's conviction for sexual contact with a child under fifteen years old in November 1981 resulted from his trial on January 25-30, 1984 ( Loop v. State , SD., No. CR79-67). The Court of Appeals affirmed the conviction and sentence on May 16, 1985. Loop sought habeas corpus relief in June 1985 based primarily upon ineffective assistance claims against his appellate counsel from the Office of Attorney General (OAG), which was appointed to represent him during post-conviction proceedings. The Circuit Court denied Loop's petition and quashed the writ on November 26, 1985. Issue: WhetherLoop received effective assistance of appellate counsel under Strickland v.Washington , U.S., --- S.Ct. [---]",
+      "avg_prediction": 0.8016
+    },
+    {
+      "idx": 118,
+      "hash": "1c45dc6b",
+      "n_words": 85,
+      "n_chars": 478,
+      "preview_head": "sy to pick out on the front green and gold fabric. The backing fabric though is red and white, and whenever the whites were on top of each other, I couldn\u2019t really be sure what was directly under the ",
+      "preview_tail": " accordingly. It's always a great feeling to see your hard work come together as planned, especially when it's something like machine binding a quilt - an activity that combines the best of creativity",
+      "full_text": "sy to pick out on the front green and gold fabric. The backing fabric though is red and white, and whenever the whites were on top of each other, I couldn\u2019t really be sure what was directly under the stitching. For next time, I will consider this advice and improve my technique accordingly. It's always a great feeling to see your hard work come together as planned, especially when it's something like machine binding a quilt - an activity that combines the best of creativity",
+      "avg_prediction": 0.5519
+    },
+    {
+      "idx": 119,
+      "hash": "69e27f59",
+      "n_words": 96,
+      "n_chars": 564,
+      "preview_head": "he season uses two pieces of theme music. The first opening theme, titled \"Jungle P\", is performed by 5050. The second opening theme, starting with episode 373 onwards, is a cover of the series' first",
+      "preview_tail": "ember to coincide with the release of the Funimation Dub of One Piece: Film Z __TOC__ Episode list \"Thriller Bark\" Home Releases Japanese The following list is related to the episodes released by Avex",
+      "full_text": "he season uses two pieces of theme music. The first opening theme, titled \"Jungle P\", is performed by 5050. The second opening theme, starting with episode 373 onwards, is a cover of the series' first opening by Hiroshi Kitadani, performed by TVXQ. The Funimation Dub for the first 12 episodes was originally going to be released in May, but was delayed until September to coincide with the release of the Funimation Dub of One Piece: Film Z __TOC__ Episode list \"Thriller Bark\" Home Releases Japanese The following list is related to the episodes released by Avex",
+      "avg_prediction": 0.8897
+    }
+  ]
+}

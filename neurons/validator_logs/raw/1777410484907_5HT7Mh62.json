@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-04-28T21:08:04.907478+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 10,
+  "duplicates": [],
+  "latency_ms": 2971,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "78d5ab01",
+      "n_words": 141,
+      "n_chars": 1535,
+      "preview_head": "Object> pageInfo() throws SQLException { return new LinkedHashMap<String, Object>() {{ put(\"enable\", pageSize() > 0); put(\"pageSize\", pageSize()); put(\"totalCount\", totalCount()); put(\"totalPage\", tot",
+      "preview_tail": "eryParamMap, firstRecordPosition(), pageSize()); pageFxSql = pageBoundSql.getSqlString(); pageParams = pageBoundSql.getParamMap(); } // \u901a\u8fc7 doQuery \u65b9\u6cd5\u6765\u6267\u884cSQL\u3002 return this.sourceSqlFragment.executeSQL(//",
+      "full_text": "Object> pageInfo() throws SQLException { return new LinkedHashMap<String, Object>() {{ put(\"enable\", pageSize() > 0); put(\"pageSize\", pageSize()); put(\"totalCount\", totalCount()); put(\"totalPage\", totalPage()); put(\"currentPage\", currentPage() + pageNumberOffset); put(\"recordPosition\", firstRecordPosition()); }}; } // ---------------------------------------------------------------------------------- /** \u83b7\u53d6\u5206\u9875\u7684\u9875\u5927\u5c0f */ public boolean setPageInfo(Map<String, Object> pageInfo) { if (pageInfo == null || pageInfo.isEmpty()) { return false; } Object currentPage = pageInfo.get(\"currentPage\"); Object pageSize = pageInfo.get(\"pageSize\"); if (currentPage == null && pageSize == null) { return false; } //FRAGMENT_SQL_QUERY_BY_PAGE_NUMBER_OFFSET currentPage(((Integer) ConverterUtils.convert(Integer.TYPE, currentPage) - this.pageNumberOffset)); pageSize((Integer) ConverterUtils.convert(Integer.TYPE, pageSize)); return true; } /** \u79fb\u52a8\u5230\u6700\u540e\u4e00\u9875 */ public Object data() throws SQLException { String pageFxSql = null; Object[] pageParams = null; // if (pageSize() < 0) { // \u5982\u679c\u5206\u9875\u7684\u9875\u7801\u5c0f\u4e8e0 -> \u90a3\u4e48\u67e5\u8be2\u6240\u6709\u6570\u636e pageFxSql = this.fxQuery.buildQueryString(this.queryParamMap); pageParams = this.fxQuery.buildParameterSource(this.queryParamMap).toArray(); } else { // \u5982\u679c\u5206\u9875\u7684\u9875\u7801\u4e0d\u7b49\u4e8e0 -> \u90a3\u4e48\u6267\u884c\u5206\u9875\u67e5\u8be2 BoundSql pageBoundSql = this.pageDialect.getPageSql(this.fxQuery, this.queryParamMap, firstRecordPosition(), pageSize()); pageFxSql = pageBoundSql.getSqlString(); pageParams = pageBoundSql.getParamMap(); } // \u901a\u8fc7 doQuery \u65b9\u6cd5\u6765\u6267\u884cSQL\u3002 return this.sourceSqlFragment.executeSQL(//",
+      "avg_prediction": 0.0289
+    },
+    {
+      "idx": 1,
+      "hash": "826dce98",
+      "n_words": 50,
+      "n_chars": 282,
+      "preview_head": "eturns ['apples', '', 'are', '', 'great'] If I wanted apples are great'.split(' '); to return ['apples', '', '', 'are', '', '', 'great'], what are options to make that happen? A: You could do somethin",
+      "preview_tail": "; to return ['apples', '', '', 'are', '', '', 'great'], what are options to make that happen? A: You could do something like this. Where you match all words and all spaces and then map through them. U",
+      "full_text": "eturns ['apples', '', 'are', '', 'great'] If I wanted apples are great'.split(' '); to return ['apples', '', '', 'are', '', '', 'great'], what are options to make that happen? A: You could do something like this. Where you match all words and all spaces and then map through them. U",
+      "avg_prediction": 0.7771
+    },
+    {
+      "idx": 2,
+      "hash": "c7e21889",
+      "n_words": 104,
+      "n_chars": 726,
+      "preview_head": "commonly available. Internal combustion engines configured to operate using conventional motor fuels, such as gasoline or diesel, are also easily converted to run on natural gas. However, relatively f",
+      "preview_tail": "lternative fuel source despite its environmental benefits. To address this issue, several strategies have been proposed and implemented: 1. Government Incentives: Governments can offer incentives such",
+      "full_text": "commonly available. Internal combustion engines configured to operate using conventional motor fuels, such as gasoline or diesel, are also easily converted to run on natural gas. However, relatively few refueling stations exist that offer compressed natural gas for use in passenger and commercial vehicles. As a result, operators of natural gas-powered vehicles often must drive long distances to the nearest refueling station. This lack of natural gas refueling infrastructure has limited the adoption of natural gas as an alternative fuel source despite its environmental benefits. To address this issue, several strategies have been proposed and implemented: 1. Government Incentives: Governments can offer incentives such",
+      "avg_prediction": 0.5742
+    },
+    {
+      "idx": 3,
+      "hash": "fc846e08",
+      "n_words": 167,
+      "n_chars": 1083,
+      "preview_head": "ward in: Corporations Assay Depot brought together features of today\u2019s favorite consumer websites to create a cloud-based research platform called a Research Exchange that empowers citizen and profess",
+      "preview_tail": "eve wholeheartedly, that innovation should be accessible for all scientists across industries. This nomination is not just recognition from our industry peers but a call to action: we are here working",
+      "full_text": "ward in: Corporations Assay Depot brought together features of today\u2019s favorite consumer websites to create a cloud-based research platform called a Research Exchange that empowers citizen and professional scientists in a way never before possible. On Assay Depot\u2019s public and private Research Exchanges scientists can search for research services and vendors (like Google), compare services side by side and then purchase (like Amazon), communicate with experts (like Facebook) and rate and review services (like Yelp). InWe\u2019re happy to report that the simplicity of these features, combined with our global reach for your research needs has not gone unnoticed by industry leaders. As a testament to this fact we are thrilled and humbled that Assay Depot was recently nominated as one of 20 finalists in \"Best New Product - Science,\" at the Small Business Influencer Awards. We believe wholeheartedly, that innovation should be accessible for all scientists across industries. This nomination is not just recognition from our industry peers but a call to action: we are here working",
+      "avg_prediction": 0.547
+    },
+    {
+      "idx": 4,
+      "hash": "ad33aaa4",
+      "n_words": 81,
+      "n_chars": 552,
+      "preview_head": "ournals Get published About BMC My account Search all BMC articles Search Arthritis Research & Therapy Home About Articles Submission Guidelines We\u2019d like to understand how you use our websites in ord",
+      "preview_tail": " co-aggregation of autoimmune diseases in affected families Chang-Fu Kuo1,2, Shue-Fen Luo2, Kuang-Hui Yu2, Lai-Chu See3, Weiya Zhang1 & Michael Doherty1 Arthritis Research & Therapy volume 18, Articl\u2026",
+      "full_text": "ournals Get published About BMC My account Search all BMC articles Search Arthritis Research & Therapy Home About Articles Submission Guidelines We\u2019d like to understand how you use our websites in order to improve them. Register your interest. Download PDF Research article Open Access Published: 12 October 2016 Familial risk of systemic sclerosis and co-aggregation of autoimmune diseases in affected families Chang-Fu Kuo1,2, Shue-Fen Luo2, Kuang-Hui Yu2, Lai-Chu See3, Weiya Zhang1 & Michael Doherty1 Arthritis Research & Therapy volume 18, Articl\u2026",
+      "avg_prediction": 0.5375
+    },
+    {
+      "idx": 5,
+      "hash": "a8040226",
+      "n_words": 125,
+      "n_chars": 802,
+      "preview_head": "es Historic sites Military Parks & Nature Reserves Provinces & Territories Transportation Things Arts & Culture Business & Economics Communities & Sociology Education History Military Nature & Geograp",
+      "preview_tail": "nt and features. It also allows you to contribute to the encyclopedia and engage with the TCE community. By joining, you become part of a community of knowledge-seekers and contributors, and you suppo",
+      "full_text": "es Historic sites Military Parks & Nature Reserves Provinces & Territories Transportation Things Arts & Culture Business & Economics Communities & Sociology Education History Military Nature & Geography Politics & Law Science & Technology Sports & Recreation Search Sign in Help Donate fr Search The Canadian Encyclopedia Login Remember me I forgot my password or Login With Facebook Login With Twitter Why sign up? Signing up enhances your TCE experience with the abSigning up enhances your TCE experience with the ability to save your favorite articles, track your reading, and access exclusive content and features. It also allows you to contribute to the encyclopedia and engage with the TCE community. By joining, you become part of a community of knowledge-seekers and contributors, and you suppo",
+      "avg_prediction": 0.5178
+    },
+    {
+      "idx": 6,
+      "hash": "9d2cb938",
+      "n_words": 74,
+      "n_chars": 494,
+      "preview_head": "A: No, you are not required to leave original Microsoft (MS) license or copyright notices/comments in your project if it originated from a sample under an open-source style software licensing agreemen",
+      "preview_tail": "nd when using samples licensed as MS shared source; those licenses generally require retention of the provided comments with minimal alteration, even after modifications to code sections not covered i",
+      "full_text": "A: No, you are not required to leave original Microsoft (MS) license or copyright notices/comments in your project if it originated from a sample under an open-source style software licensing agreement like Ms.-PL and was subsequently modified significantly by yourself. However keep this is mind when using samples licensed as MS shared source; those licenses generally require retention of the provided comments with minimal alteration, even after modifications to code sections not covered i",
+      "avg_prediction": 0.9819
+    },
+    {
+      "idx": 7,
+      "hash": "e21c718c",
+      "n_words": 171,
+      "n_chars": 986,
+      "preview_head": "rge Keeble George Keeble (26 September 1849 \u2013 26 May 1923) was an English cricketer who played first-class cricket in a single match for Kent County Cricket Club in 1876. He was born at Southfleet in ",
+      "preview_tail": " had quite the impact both with bat and ball despite only appearing briefly at this level; we can't help but wonder what other stories could have been written if given more opportunities over time\u2014but",
+      "full_text": "rge Keeble George Keeble (26 September 1849 \u2013 26 May 1923) was an English cricketer who played first-class cricket in a single match for Kent County Cricket Club in 1876. He was born at Southfleet in Kent and died at Dartford, also in Kent. Keeble appeared as an umpire in matches in 1874, including the Gentlemen v Players game, one of the fixtures of the season. As a right-handed tail-end batsman and a right-arm fast bowler in the round-arm style, he played for Kent against Sussex at Hove where his batting helped secure an unlikely draw after being nine wickets down on three occasions during their second innings chase against him! This impressive feat is one of many that will be remembered fondly by fans everywhere when they hear about George Keeble's career. It seems like he had quite the impact both with bat and ball despite only appearing briefly at this level; we can't help but wonder what other stories could have been written if given more opportunities over time\u2014but",
+      "avg_prediction": 0.7329
+    },
+    {
+      "idx": 8,
+      "hash": "b25302ff",
+      "n_words": 213,
+      "n_chars": 1258,
+      "preview_head": "i18n }} Check @genius for updates. We'll have things fixed soon. GENIUS | | Facebook Twitter Instagram Youtube Drooom I Am Oak Album Nowhere or Tammensaari Drooom Lyrics When those rolling hills Fille",
+      "preview_tail": " to provide a complete or meaningful completion of the text. However, if you need assistance with understanding the content, translating it, or any other specific information related to the text, feel",
+      "full_text": "i18n }} Check @genius for updates. We'll have things fixed soon. GENIUS | | Facebook Twitter Instagram Youtube Drooom I Am Oak Album Nowhere or Tammensaari Drooom Lyrics When those rolling hills Filled with pine, filled with birch And those rocky shores Will be leveled out Then they will return in my dreams In my dreams In my dreams In my dreams More on Genius \"Drooom\" Track Info Nowhere or Tammensaari I Am Oak 1. Famine 2. Grown 3. Boulders 4. Palpable 5. RoamThe text you've provided seems to be a snippet from a website or social media page, possibly related to a band or artist named Genius. It includes a short message indicating that there are ongoing issues that will be addressed soon, encouraging users to check back for updates. The message is followed by a list of social media icons linking to various platforms such as Facebook, Twitter, Instagram, YouTube, and Others, along with the names of albums and tracks like \"Drooom,\" \"Nowhere or Tammensaari,\" and \"I Am Oak,\" with a list of track numbers. Without additional context, it's difficult to provide a complete or meaningful completion of the text. However, if you need assistance with understanding the content, translating it, or any other specific information related to the text, feel",
+      "avg_prediction": 0.921
+    },
+    {
+      "idx": 9,
+      "hash": "3480aa1b",
+      "n_words": 84,
+      "n_chars": 426,
+      "preview_head": "think when you name a baby Jeeves; you've pretty much mapped out his future. Not much chance he's gonna be a hitman. \"Terribly sorry, sir, but I'm going to have to whack you.\" George: Listen, I know w",
+      "preview_tail": "he past, but we've got a show to do tonight. Pull together as a team. Life's too short. I say let's let bygones be George: Listen, I know we've had our problems in the past, but we've got a show to do",
+      "full_text": "think when you name a baby Jeeves; you've pretty much mapped out his future. Not much chance he's gonna be a hitman. \"Terribly sorry, sir, but I'm going to have to whack you.\" George: Listen, I know we've had our problems in the past, but we've got a show to do tonight. Pull together as a team. Life's too short. I say let's let bygones be George: Listen, I know we've had our problems in the past, but we've got a show to do",
+      "avg_prediction": 0.6308
+    }
+  ]
+}

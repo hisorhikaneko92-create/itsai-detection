@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-28T17:54:00.171160+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 11195,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "d7a3e5e6",
+      "n_words": 122,
+      "n_chars": 814,
+      "preview_head": "e text (model, conclusions, mental representation) appear in the mind of the subject. Next they recieve the verbal form and objectify as a secondary text (received from the recipient as a reaction to ",
+      "preview_tail": "f understanding. It is anew secondary meanings, that accord with already existing senses in the mind. Thus the semantic level of reader consciousness enrich and reorganize, that are represented as cha",
+      "full_text": "e text (model, conclusions, mental representation) appear in the mind of the subject. Next they recieve the verbal form and objectify as a secondary text (received from the recipient as a reaction to the read text), that represented concept or secondary meanings. The process and the result of text understanding depend on some subjective factors (the recipient experience (apperception), subjective state at the time of reception, the cultural and historical context) and some objective factors (textual or semantic dominants). Context forms not only preliminary expectations, but also verifies the final result of understanding. It is anew secondary meanings, that accord with already existing senses in the mind. Thus the semantic level of reader consciousness enrich and reorganize, that are represented as cha",
+      "avg_prediction": 0.5965
+    },
+    {
+      "idx": 1,
+      "hash": "2f60ca4f",
+      "n_words": 274,
+      "n_chars": 2188,
+      "preview_head": "you never bore of this wonder menu option throughout the year or just over a new-year week. Layering textures and playing with garnishing will ensure vibrant results as well\u2014high-impact dried fruits s",
+      "preview_tail": "m feet paramount evokes brave relatable mutual equitable sprint locks great fatwan chief solutions alien environment required energy degree vaccine scared half offered powerless revelation doll? Nit g",
+      "full_text": "you never bore of this wonder menu option throughout the year or just over a new-year week. Layering textures and playing with garnishing will ensure vibrant results as well\u2014high-impact dried fruits sprinkles pack contrasting tastes amidst tangy vinaigrettes dripping simply carved sliced cucumbers which replicate humble beginnings yet beg brilliance within compound looks; Meanwhile, bitter quinoa flakes chilling alongside the luxury pearl goat cheese\u2014a bounty we should awaken lazily regardless its impact! If proteins have dominated discussions with nuts or foods comprising differently flavored morsels throughout that vivid looking-up table overthought projection lollipop encounters-tara II sequence of mindful outcomes orchestrated artworks stretch unexpecteditured pathways. Hearts will relish beet root medley colors integration along perfectly contrastive avocados and rocket greens items soon after earnest joys rejuvenating begun on clad modified innovative varied pleasures treats exploration remedy thresholds reboot propelled merely experimental casual traverse optimal sensational charge converted dance routine attains eclipse enthusiasts consolation logically envelop playful awareness tranquil ubiquity safe oaks corresponding circumference ahead limited reaching possessions reassumed constantly renovated mutual agreement engage fincitrous open keen collectively aged analytic explosion fact relievers commenttion method larger persistent density granted cares vulnerable professions deducing dual usability awaited optimism verbal exalt acclaim fabulous closeness prominent hilarians secured captain compensate authology collona orange pellet executive bulk slt previous seeding act moves averaged accumulated broadly critical celebratory attractions influential constancies dwarf approaching predominant abnormal mose example sesame appropriately interested proves powerful by president subject engagement professionalism updated defer cost rise fist pinpoint from feet paramount evokes brave relatable mutual equitable sprint locks great fatwan chief solutions alien environment required energy degree vaccine scared half offered powerless revelation doll? Nit g",
+      "avg_prediction": 0.9123
+    },
+    {
+      "idx": 2,
+      "hash": "42e6751a",
+      "n_words": 57,
+      "n_chars": 442,
+      "preview_head": "edge computing. These technologies are designed to improve the overall performance of 5G systems by increasing data rates, reducing latency, enhancing reliability and security. Moreover, research is a",
+      "preview_tail": "lligence (AI) with wireless networks in order to further enhance their capabilities such as autonomous network management, predictive maintenance, improved user experience through personalized service",
+      "full_text": "edge computing. These technologies are designed to improve the overall performance of 5G systems by increasing data rates, reducing latency, enhancing reliability and security. Moreover, research is also focused on integrating artificial intelligence (AI) with wireless networks in order to further enhance their capabilities such as autonomous network management, predictive maintenance, improved user experience through personalized service",
+      "avg_prediction": 0.9843
+    },
+    {
+      "idx": 3,
+      "hash": "86ee5340",
+      "n_words": 335,
+      "n_chars": 2707,
+      "preview_head": "have values. 2. Handle Validation Errors: - Show a message box with appropriate error messages if validation fails. 3. Submit Data to Excel: - If everything is valid, write data into an MS Excel file.",
+      "preview_tail": "ose the Workbook. workbook.Save() excelApp.Quit() ReleaseObject(workbook) ReleaseObject(excelApp) MessageBox.Show(\"Data submitted successfully!\", \"Success\", MessageBoxButtons.OK, MessageBoxIcon.Inform",
+      "full_text": "have values. 2. Handle Validation Errors: - Show a message box with appropriate error messages if validation fails. 3. Submit Data to Excel: - If everything is valid, write data into an MS Excel file. ### Example Code: ```vb Imports Microsoft.Office.Interop.Excel Public Class Form1 Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click ' Validate Text Boxes and Combo Boxes Dim isValid As Boolean = True For Each control In Me.Controls If TypeOf control Is TextBox AndAlso String.IsNullOrWhiteSpace(DirectCast(control, TextBox).Text) Then isValid = False Exit For ElseIf TypeOf control Is ComboBox AndAlso DirectCast(control, ComboBox).SelectedIndex < 0 Then isValid = False Exit For End If Next ' Show Error Message if Validation Fails If Not isValid Then MessageBox.Show(\"Text box(es) and/or drop down box(es) must contain data.\", \"Validation Error\", MessageBoxButtons.OK, MessageBoxIcon.Error) Return ' Stop further execution of the function. End If ' Proceed with writing to Excel only after validation passes WriteToExcel() End Sub Private Sub WriteToExcel() Dim excelApp As New Application Dim workbook As Workbook = Nothing Try ' Open or Create an existing workbook. ' Assuming the file path is known and accessible. Dim filePath As String = \"C:\\Path\\YourFile.xlsx\" If IO.File.Exists(filePath) Then workbook = excelApp.Workbooks.Open(filePath) Else workbook = excelApp.Workbooks.Add() workbook.SaveAs(Filename:=filePath, FileFormat:=XlFileFormat.xlOpenXMLWorkbook) End If ' Unprotect the Workbook if it's protected. Dim password As String = \"yourpassword\" ' Replace with your actual protection password workbook.Unprotect(password) ' Select Worksheet (assuming you want to write in Sheet1) or create a new sheet. Dim worksheet As Worksheet = CType(workbook.Sheets(\"Sheet1\"), Worksheet) ' Find the next available row for data entry. Dim lastRow As Integer = worksheet.Cells.SpecialCells(XlCellType.xlLastCell).Row + 1 ' Write Data to Excel For Each control In Me.Controls If TypeOf control Is TextBox Then worksheet.Cells(lastRow, DirectCast(control, Control).TabIndex + 1) = DirectCast(control, TextBox).Text ElseIf TypeOf control Is ComboBox AndAlso Not String.IsNullOrEmpty(DirectCast(control, ComboBox).SelectedItem.ToString()) Then worksheet.Cells(lastRow, DirectCast(control, Control).TabIndex + 1) = DirectCast(control, ComboBox).SelectedItem.ToString() End If Next Catch ex As Exception MessageBox.Show(\"An error occurred: \" & ex.Message) Finally ' Save and Close the Workbook. workbook.Save() excelApp.Quit() ReleaseObject(workbook) ReleaseObject(excelApp) MessageBox.Show(\"Data submitted successfully!\", \"Success\", MessageBoxButtons.OK, MessageBoxIcon.Inform",
+      "avg_prediction": 0.9759
+    },
+    {
+      "idx": 4,
+      "hash": "2d575a8e",
+      "n_words": 109,
+      "n_chars": 866,
+      "preview_head": "4-0008){#sp1 .366} ![](londmedphysj69574-0009){#sp2 .367} ![](londmedphysj69574-0010){#sp3 .368} ![](londmedphysj69574-0011){. .} [Editorial Note by John Snow](https://www.galegroup.com/resources/chap",
+      "preview_tail": " a few circumstances which, from time to time as my professional life proceeded,\u2014have made themselves evident; but before doing so will refer briefly to the subject at present more generally discussed",
+      "full_text": "4-0008){#sp1 .366} ![](londmedphysj69574-0009){#sp2 .367} ![](londmedphysj69574-0010){#sp3 .368} ![](londmedphysj69574-0011){. .} [Editorial Note by John Snow](https://www.galegroup.com/resources/chapman-and-hall/london-medical-journal/the-liver-in-fever#editors-note-by-dr-snow){.ulink} \u2014I have read your paper (Med.-Phys., No. XLII.) with much interest, especially as you seem to be aware of the importance for physicians at large\u2014the whole body\u2014to know more accurately than they do on this subject. The present imperfect state of our knowledge, indeed has long struck me:\u2014so that I feel glad when any one contributes in his power toward its advance. I may mention a few circumstances which, from time to time as my professional life proceeded,\u2014have made themselves evident; but before doing so will refer briefly to the subject at present more generally discussed",
+      "avg_prediction": 0.9284
+    },
+    {
+      "idx": 5,
+      "hash": "22b94908",
+      "n_words": 44,
+      "n_chars": 284,
+      "preview_head": "Unfortunately, the provided text cuts off mid-sentence at \"Phys.org.\" Can you please confirm what additional information or actions you would like me to take regarding this user's research project? I ",
+      "preview_tail": " confirm what additional information or actions you would like me to take regarding this user's research project? I can provide a concise explanation of the Einstein\u2013de Haas effect if that is helpful.",
+      "full_text": "Unfortunately, the provided text cuts off mid-sentence at \"Phys.org.\" Can you please confirm what additional information or actions you would like me to take regarding this user's research project? I can provide a concise explanation of the Einstein\u2013de Haas effect if that is helpful.",
+      "avg_prediction": 0.9852
+    },
+    {
+      "idx": 6,
+      "hash": "09860eef",
+      "n_words": 171,
+      "n_chars": 1139,
+      "preview_head": "\"Loophole\" is a science fiction short story by British writer Arthur C. Clarke, first published in 1946 in the magazine Astounding Science Fiction. It was subsequently published as part of a short sto",
+      "preview_tail": "gress in rocketry with growing alarm as their own civilization declines. As Earth\u2019s rocketship approaches Mars, it encounters a mysterious force field that renders all electronic equipment useless and",
+      "full_text": "\"Loophole\" is a science fiction short story by British writer Arthur C. Clarke, first published in 1946 in the magazine Astounding Science Fiction. It was subsequently published as part of a short story collection in A Treasury of Science Fiction (Groff Conklin, 1948 and Expedition to Earth in 1953. It details the concern of the advanced Martian civilization with humanity's research into rocketry following the discovery of atomic power. The title of the story refers to the solution humanity utilizes to overcome the threat of the Martians. Summary The story begins in theyear 1980, as a rocketship crew prepares for Earth\u2019s first expedition to Mars after years of careful planning and development following atomic power's discovery by Professor Meunier. The captain is concerned about potential interference from advanced Martian technology but remains determined. Unbeknownst to them, the Martians have been monitoring humanity's progress in rocketry with growing alarm as their own civilization declines. As Earth\u2019s rocketship approaches Mars, it encounters a mysterious force field that renders all electronic equipment useless and",
+      "avg_prediction": 0.7523
+    },
+    {
+      "idx": 7,
+      "hash": "c1a5652c",
+      "n_words": 65,
+      "n_chars": 404,
+      "preview_head": "WWI he served in the Royal Engineers as a lieutenant, helping to find water resources for the British army in the Middle East. Shand established the geology department of Stellenbosch University and p",
+      "preview_tail": "shed approximately 30 papers on various aspects of the geology and mineralogy of southern Africa. In 1914 he presented fossils from the Bokkeveld Group and a collection of rocks to the McGregor Museum",
+      "full_text": "WWI he served in the Royal Engineers as a lieutenant, helping to find water resources for the British army in the Middle East. Shand established the geology department of Stellenbosch University and published approximately 30 papers on various aspects of the geology and mineralogy of southern Africa. In 1914 he presented fossils from the Bokkeveld Group and a collection of rocks to the McGregor Museum",
+      "avg_prediction": 0.4804
+    },
+    {
+      "idx": 8,
+      "hash": "b88314df",
+      "n_words": 109,
+      "n_chars": 778,
+      "preview_head": "rk/blazor.webassembly.js index.html Then, Add manifest.json and setting CSP like \"content_security_policy\": \"script-src 'self' 'unsafe-eval' 'sha256-v8v3RKRPmN4odZ1CWM5gw80QKPCCWMcpNeOmimNL2AA='; 'sel",
+      "preview_tail": "er so you can not use ASP.NET MVC in Chrome Extension Development, but you can use ASP.NET MVC or any other language at server to generate the views and render them in the chrome extension using ajax.",
+      "full_text": "rk/blazor.webassembly.js index.html Then, Add manifest.json and setting CSP like \"content_security_policy\": \"script-src 'self' 'unsafe-eval' 'sha256-v8v3RKRPmN4odZ1CWM5gw80QKPCCWMcpNeOmimNL2AA='; 'self'\", Blazor boot script add script tag to html, so you should add scripts hash to allow execute bootup script. This is sample app I created. And, This is commentary (wrote in Japanese). https://qiita.com/keymoon/items/03357e58eddf75871527 A: Chrome Extension runs in the browser so you can not use C# in Chrome Extension Development. Again the Chrome extension runs in the browser so you can not use ASP.NET MVC in Chrome Extension Development, but you can use ASP.NET MVC or any other language at server to generate the views and render them in the chrome extension using ajax.",
+      "avg_prediction": 0.1791
+    },
+    {
+      "idx": 9,
+      "hash": "a5b6d88a",
+      "n_words": 62,
+      "n_chars": 415,
+      "preview_head": "talk Category Category talk Property Property talk Concept Concept talk Layer Layer talk Map Map talk TimedText TimedText talk Translations Translations talk Invert selection Associated namespacePage ",
+      "preview_tail": "ges to pages linked to tRecently, no edits have been made within the speCified parameters. The last edit was outside of your requested timeframe at 19/05 on December-3rd and it concerned a page called",
+      "full_text": "talk Category Category talk Property Property talk Concept Concept talk Layer Layer talk Map Map talk TimedText TimedText talk Translations Translations talk Invert selection Associated namespacePage name: Show changes to pages linked to tRecently, no edits have been made within the speCified parameters. The last edit was outside of your requested timeframe at 19/05 on December-3rd and it concerned a page called",
+      "avg_prediction": 0.3792
+    },
+    {
+      "idx": 10,
+      "hash": "e13c801c",
+      "n_words": 45,
+      "n_chars": 318,
+      "preview_head": "the evolution of territorial tendencies in predators and on the formation of packs. We consider the situation of predators competing for the same prey (or geographically distributed resource). We obse",
+      "preview_tail": "tors competing for the same prey (or geographically distributed resource). We observe that strong competition between individuals of predators leads to the formation of territories...We therefore find",
+      "full_text": "the evolution of territorial tendencies in predators and on the formation of packs. We consider the situation of predators competing for the same prey (or geographically distributed resource). We observe that strong competition between individuals of predators leads to the formation of territories...We therefore find",
+      "avg_prediction": 0.9393
+    },
+    {
+      "idx": 11,
+      "hash": "5da9508c",
+      "n_words": 96,
+      "n_chars": 652,
+      "preview_head": "average iron intake was higher in normal weight pregnant women (14.6 mg/d) compared to the overweight (12.2 mg/d) or obese (10.9 mg/d; p<0.001) groups. The average intake of folate was higher in norma",
+      "preview_tail": "normal weight (31.0%) women. The maternal weight gain above recommended levels was associated with overweight and obesity. The dietary intake of pregnant women differs according to maternal anthropome",
+      "full_text": "average iron intake was higher in normal weight pregnant women (14.6 mg/d) compared to the overweight (12.2 mg/d) or obese (10.9 mg/d; p<0.001) groups. The average intake of folate was higher in normal weight pregnant women compared to obese ones (336.5 \u00b5g/d versus 234.5 \u00b5g/d; p=0.002). Excessive maternal weight gain was significantly (p=0.009) more frequent in overweight (56.7%) and obese (39.5%) pregnant women compared to underweight (17.4%) and normal weight (31.0%) women. The maternal weight gain above recommended levels was associated with overweight and obesity. The dietary intake of pregnant women differs according to maternal anthropome",
+      "avg_prediction": 0.7212
+    },
+    {
+      "idx": 12,
+      "hash": "57cc0304",
+      "n_words": 281,
+      "n_chars": 1365,
+      "preview_head": "can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:",
+      "preview_tail": " ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined:",
+      "full_text": "can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined: We are trying to conceive. Posts: 6 Re: You can never have to many friends! [ Re: ] Sat Sep 19, 2009 1:34 pm angela25 ED YUMMY MUMMY Joined:",
+      "avg_prediction": 0.071
+    },
+    {
+      "idx": 13,
+      "hash": "5e884402",
+      "n_words": 122,
+      "n_chars": 692,
+      "preview_head": "rnal culture becomes dysfunctional. In an extreme form, we can see this in the failure of Enron where the image of the executive was maintained until it could not be maintained anymore and the market ",
+      "preview_tail": "o resist the transparency can be seen in things like single loop learning or blame avoidance. When a problem arises, the managers will act quickly to solve the problem. If the problem persists, and th",
+      "full_text": "rnal culture becomes dysfunctional. In an extreme form, we can see this in the failure of Enron where the image of the executive was maintained until it could not be maintained anymore and the market was able to see the company for the shell that it was. We may consider these aberrations, yet, the underlying issue is that companies resist transparency that will show this gap and they are trained to resist it. Do what is best for tHe company hides the problems In particular the training to resist the transparency can be seen in things like single loop learning or blame avoidance. When a problem arises, the managers will act quickly to solve the problem. If the problem persists, and th",
+      "avg_prediction": 0.4116
+    },
+    {
+      "idx": 14,
+      "hash": "d67646bf",
+      "n_words": 179,
+      "n_chars": 1236,
+      "preview_head": "atform is proving challenging and may not be feasible in terms of local labor laws, let's explore some alternative options: 1. Templates/Themes: You could consider purchasing a ready PHP template that",
+      "preview_tail": "traints since these professionals can be vetted via reviews or previous work samples before hiring them officially. 3. Local Legal Advisor: consider consulting a local legal advisor who specializes in",
+      "full_text": "atform is proving challenging and may not be feasible in terms of local labor laws, let's explore some alternative options: 1. Templates/Themes: You could consider purchasing a ready PHP template that you can customize slightly if necessary for your requirements without starting from scratch entirely. There are many professional themes available online which might save time and reduce development costs significantly while still providing the required functionality to start off with minimal issues or legal concerns regarding local labor laws since such templates generally do not come pre-configured under specific regulations but rather provide a flexible foundation that can be adjusted later on as you gain more clarity. 2. Freelance Platforms: Leverage freelancing platforms like Upwork, Freelancer etc., where skilled PHP developers often offer their services at competitive rates and sometimes even take commission-based deals depending upon the project's potential for future earnings; this aligns well with your budget constraints since these professionals can be vetted via reviews or previous work samples before hiring them officially. 3. Local Legal Advisor: consider consulting a local legal advisor who specializes in",
+      "avg_prediction": 0.845
+    },
+    {
+      "idx": 15,
+      "hash": "ae015442",
+      "n_words": 190,
+      "n_chars": 1147,
+      "preview_head": "interest of a buyer. Your agent can best determine which type of contract best suits your needs. Our number one priority is your purchase and getting the most for your money. Each agent that works wit",
+      "preview_tail": " review 4.5 Getmoreoffers,com is one of the best, if not the best, and more and professional sites online you can use to learn and list your property if you want to use a flat fee arrangement for your",
+      "full_text": "interest of a buyer. Your agent can best determine which type of contract best suits your needs. Our number one priority is your purchase and getting the most for your money. Each agent that works with ADDvantage\u00ae has buyer skills that are exceptional, has demonstrated their professionalism through work ethic, real estate contract knowledge and local knowledge. ADDVantage\u00ae holds MLS board memberships in most Florida cities. Why Sell a house through GetMoreOffers.com? Because our listing plans save Florida by owners at 50% in commissions. Client Testimonials from Sellers in Miami, FL Great service and a great Very glad we went with the Platinum program as it provided an easy and worry-free way to sell our home. It was definitely it! Would definitely recommend to others and use them again. New Frontier Title also did an excellent job on the closing. Kudos all around!-Gisela SimonitisMiami, FLAug 31, 2016 ADDvantage Flat Fee MLS service review 4.5 Getmoreoffers,com is one of the best, if not the best, and more and professional sites online you can use to learn and list your property if you want to use a flat fee arrangement for your",
+      "avg_prediction": 0.4068
+    },
+    {
+      "idx": 16,
+      "hash": "0ed0db25",
+      "n_words": 207,
+      "n_chars": 1229,
+      "preview_head": "The Gary Graybill Murder Mystery Series French Quarter Vendetta The Bourbon Street Murders Mardi Gras Death Mask A Penalty in Blood Murder Bayou Style (Coming December 16th!) Friday, June 24, 2011 The",
+      "preview_tail": "That objectiIt seems you have provided me with some text, but the task you want me to perform is unclear. Would you like me to summarize the text, extract specific information, or perhaps continue the",
+      "full_text": "The Gary Graybill Murder Mystery Series French Quarter Vendetta The Bourbon Street Murders Mardi Gras Death Mask A Penalty in Blood Murder Bayou Style (Coming December 16th!) Friday, June 24, 2011 The Endgame in Afghanistan The long awaited start of a draw-down in US forces has begun and while it is scheduled to take several years (at through 2014) evolving conditions in the United States and in the Middle East could easily accelerate that My purpose in this discussion is not to make a judgment but to present a few facts which I believe have an important impact on the process. But, in the interest of full disclosure, my personal feelings on Afghanistan are simple. I think we, the United States, should have declared victory when our original objectives were achieved (pushing al Qaeda out, destroying the terrorist training camps and forcing the Taliban from power). At that point we should have withdrawn. All this nation building and imposing of style Democracy to ensure the terrorists do not return was and foolish. That objectiIt seems you have provided me with some text, but the task you want me to perform is unclear. Would you like me to summarize the text, extract specific information, or perhaps continue the",
+      "avg_prediction": 0.4226
+    },
+    {
+      "idx": 17,
+      "hash": "e71c194e",
+      "n_words": 216,
+      "n_chars": 1271,
+      "preview_head": "TV Evangelists who have joined Illuminati ranks Then & Now. Look close and pay attention. Anonymous Coward (OP)User ID: 49523005 United States12/08/2013 10:17 PMReport Abusive Post Report Copyright Vi",
+      "preview_tail": " can NOT serve two Masters. One will have to go, but you cannot continue with both as the end result is a person in eternal hellfire burning day and night. Now I am not saying these men are necessaril",
+      "full_text": "TV Evangelists who have joined Illuminati ranks Then & Now. Look close and pay attention. Anonymous Coward (OP)User ID: 49523005 United States12/08/2013 10:17 PMReport Abusive Post Report Copyright Violation Re: Counterfeit Christianity. Christian TV Evangelists who have joined Illuminati ranks Then & Now. Anonymous Coward User (OP) ID : C4FDE9 Level / Reputation: 5 United States 6 replies | Last post by Anonymous Poster - Tuesday, March-12,-07, 8 replies | Last post by Anonymous poster - Wednesday,March- Thursday , January \u2013 Friday , December . Then and Now. Look close. Re: Counterfeit Christianity Christian TV Evangelists who have joined Illuminati ranks Then &Now. The same men with one exception now all are under Satanic control as evidenced in their works, fruit of the Spirit which is none other than a false love for money by using God's Holy Word to get it at any cost and that includes souls being damned forever from knoWing Jesus Christ or ever going to heaven! All because Satan has given them great riches on earth! The Bible teaches us plainly: You can NOT serve two Masters. One will have to go, but you cannot continue with both as the end result is a person in eternal hellfire burning day and night. Now I am not saying these men are necessaril",
+      "avg_prediction": 0.7445
+    },
+    {
+      "idx": 18,
+      "hash": "2a4009b0",
+      "n_words": 126,
+      "n_chars": 680,
+      "preview_head": "any. At the 2006 Design Miami fair he produced 12 Chop Top tables, all of which sold out in 20 minutes at an estimated $170,000. In April 2015 his Lockheed Lounge chair sold at auction for \u00a3UK2.4 mill",
+      "preview_tail": "ead, I don't like the new versions of any of those cars.\" Newson was appointed Commander of the Order of the British Empire (CBE) in the 2012 New Year Honours for services to design. He joined Apple I",
+      "full_text": "any. At the 2006 Design Miami fair he produced 12 Chop Top tables, all of which sold out in 20 minutes at an estimated $170,000. In April 2015 his Lockheed Lounge chair sold at auction for \u00a3UK2.4 million ($AU4.69 million), making it the most expensive object ever sold by a living designer. Every year he races one of his four vintage sports cars \u2013 an Aston Martin, a Lamborghini, a Ferrari and a Cisitalia, in the Italian Mille Miglia and was quoted as saying: \"I'm not a motor head, I don't like the new versions of any of those cars.\" Newson was appointed Commander of the Order of the British Empire (CBE) in the 2012 New Year Honours for services to design. He joined Apple I",
+      "avg_prediction": 0.2506
+    },
+    {
+      "idx": 19,
+      "hash": "aa5280b9",
+      "n_words": 61,
+      "n_chars": 369,
+      "preview_head": "{ enabled: true, formatter: function() { return Highcharts.numbeRFormat(this.y, 2) + ' \u00b0C'; } }, yAxis: 0 }, { name: 'Series B', dataLabels: { enabled: true, formatter: function() { return Highcharts.",
+      "preview_tail": "function() { return Highcharts.numberFormat(this.y, 1) + ' mb'; } }, yAxis: 1 }] }); ``` In this example: - Series A's data labels will display temperatures in degrees Celsius ( \u00b0C). - Series B's data",
+      "full_text": "{ enabled: true, formatter: function() { return Highcharts.numbeRFormat(this.y, 2) + ' \u00b0C'; } }, yAxis: 0 }, { name: 'Series B', dataLabels: { enabled: true, formatter: function() { return Highcharts.numberFormat(this.y, 1) + ' mb'; } }, yAxis: 1 }] }); ``` In this example: - Series A's data labels will display temperatures in degrees Celsius ( \u00b0C). - Series B's data",
+      "avg_prediction": 0.9817
+    },
+    {
+      "idx": 20,
+      "hash": "2fa0c145",
+      "n_words": 80,
+      "n_chars": 554,
+      "preview_head": "als Authors Institutions Rankings Data (FRED\u00ae) Advanced Search IDEAS home Browse for material Working Papers Journals Software Components Books Book Chapters Authors Institutions Rankings Data (FRED\u00ae)",
+      "preview_tail": "ge IDEAS is a service hosted by the Research Division of the Federal Reserve Bank of St. Louis Printed from https://ideas.repec.org/ Share: MyIDEAS: Log in (now much improved!) Citations for \"Gazelles",
+      "full_text": "als Authors Institutions Rankings Data (FRED\u00ae) Advanced Search IDEAS home Browse for material Working Papers Journals Software Components Books Book Chapters Authors Institutions Rankings Data (FRED\u00ae) Find material JEL Classification NEP reports Subscribe to new research Search Pub compilations Reading lists MyIDEAS More options are now at bottom of page IDEAS is a service hosted by the Research Division of the Federal Reserve Bank of St. Louis Printed from https://ideas.repec.org/ Share: MyIDEAS: Log in (now much improved!) Citations for \"Gazelles",
+      "avg_prediction": 0.1717
+    },
+    {
+      "idx": 21,
+      "hash": "c841482c",
+      "n_words": 262,
+      "n_chars": 1440,
+      "preview_head": "a live performance of the slow movement under the composer\u2019s baton at a Three Choirs concert in Gloucester in 1934, the work had received no other performances. Although I knew from Eric Wetherell\u2019s b",
+      "preview_tail": "itish Music Society to promote and record a number of the composer\u2019s works. I have always been of the opinion that the composer\u2019s work is of the highest quality and that it is a tragedy that it is not",
+      "full_text": "a live performance of the slow movement under the composer\u2019s baton at a Three Choirs concert in Gloucester in 1934, the work had received no other performances. Although I knew from Eric Wetherell\u2019s biography of the composer that Jacob\u2019s two numbered symphonies had been recorded by Lyrita in the mid-1990s. I resigned myself to the fact that these would probably never be released. Then came the exciting news in the summer of 2006 that a whole host of British music was to be made available on CD - some for the first time - including the two Jacob symphonies. Thanks to the enterprising work of the conductor Douglas Bostock, the first of the British Symphonic Collection issued on the ClassicO label was a CD of three Jacob works, including a fine, taut performance of Symphony No. 2, so this work has been available for a decade or so. [review and purchase link] In British Music Society News 80 (December 1998) Douglas Bostock wrote: \"Jacob\u2019s second symphony has been a work I have been keen to record for a number of years. I have always been a great admirer of the composer\u2019s work and have been keen to promote and record as much of it as I have been able. I have been able to work closely with the composer\u2019s estate and with the British Music Society to promote and record a number of the composer\u2019s works. I have always been of the opinion that the composer\u2019s work is of the highest quality and that it is a tragedy that it is not",
+      "avg_prediction": 0.4923
+    },
+    {
+      "idx": 22,
+      "hash": "40c15614",
+      "n_words": 82,
+      "n_chars": 590,
+      "preview_head": "VAC, plumbing, and refrigeration systems. To stay current with industry advancements, he became actively involved in professional associations such as ABC, AGC, and ASHRAE. His leadership and dedicati",
+      "preview_tail": "vice and construction industries. During his decades of membership in ASHRAE, he has served as Club Director, Treasurer, Deputy Chairman, and Treasurer; and actively provides the education fund with h",
+      "full_text": "VAC, plumbing, and refrigeration systems. To stay current with industry advancements, he became actively involved in professional associations such as ABC, AGC, and ASHRAE. His leadership and dedication to education enhanced his experience, promoting innovation and trust among professionals and colleagues. This dedication strengthened Worth Hydrochem\u2019s credibility as a leader in both service and construction industries. During his decades of membership in ASHRAE, he has served as Club Director, Treasurer, Deputy Chairman, and Treasurer; and actively provides the education fund with h",
+      "avg_prediction": 0.9658
+    },
+    {
+      "idx": 23,
+      "hash": "a3813e53",
+      "n_words": 163,
+      "n_chars": 1050,
+      "preview_head": "she cou\"Duritska said earlier Monday she had given all the information she could to the Russian authorities and had asked to be allowed to return to Ukraine. \"I am not feeling well and I want to retur",
+      "preview_tail": "r with the necessary support and protection upon her return to Kiev. The Ukrainian government has also called for a transparent and comprehensive investigation into Nemtsov's murder. The assassination",
+      "full_text": "she cou\"Duritska said earlier Monday she had given all the information she could to the Russian authorities and had asked to be allowed to return to Ukraine. \"I am not feeling well and I want to return to my mother,\" she said in a statement to Ukrainian media. Nemtsov, a charismatic and outspoken critic of Russian President Vladimir Putin, was shot four times in the back while walking across a bridge near the Kremlin. His death has sparked international outcry and calls for a thorough investigation. Duritska's departure for Kiev comes as Russian investigators continue to search for the perpetrators behind the high-profile assassination. The investigation has thus far yielded few concrete leads, and the motive behind the killing remains unclear. Ukrainian officials have expressed concern for Duritska's safety and have pledged to provide her with the necessary support and protection upon her return to Kiev. The Ukrainian government has also called for a transparent and comprehensive investigation into Nemtsov's murder. The assassination",
+      "avg_prediction": 0.9767
+    },
+    {
+      "idx": 24,
+      "hash": "96c091d7",
+      "n_words": 150,
+      "n_chars": 896,
+      "preview_head": "counsel\u2019s motion for withdrawal; 2) To file any pro se response; 3) The deadline by which the defendant is required, if they choose so desire it. Wilson has been provided with these notices and was gi",
+      "preview_tail": "lient a copy of our decision along with notification about any rights he may have for further review. SIGNED [Date] [Judge Name] Justice FOOtNOTES 1: Pursuant to Tex. R.App.P 47, Memorandum opinions c",
+      "full_text": "counsel\u2019s motion for withdrawal; 2) To file any pro se response; 3) The deadline by which the defendant is required, if they choose so desire it. Wilson has been provided with these notices and was given an opportunity to file a _pro_ _se_ brief but did not do so. Having reviewed counsel\u2019s Anders motion, the record of proceedings in this case as well as any pro se response from Wilson (though none were filed), we find no arguable grounds for reversal. We agree with appointed appellate counsel that the appeal is frivolous and without merit. Accordingly, we affirm Wilson's conviction. Counsel\u2019s motion to withdraw will be granted upon issuance of this opinion, but counsel must provide his client a copy of our decision along with notification about any rights he may have for further review. SIGNED [Date] [Judge Name] Justice FOOtNOTES 1: Pursuant to Tex. R.App.P 47, Memorandum opinions c",
+      "avg_prediction": 0.9281
+    },
+    {
+      "idx": 25,
+      "hash": "ff9c41a0",
+      "n_words": 108,
+      "n_chars": 772,
+      "preview_head": "race against time to find solutions, they must also navigate the ethical dilemmas posed by this unique situation. The psychological toll on healthcare workers cannot be understated, as they battle fat",
+      "preview_tail": "ing journal in the field, the psychoneuroendocrinology scientific community has acquired an incredible amount of knowledge on how stress is perceived, represented and embodied. That is, how stress ult",
+      "full_text": "race against time to find solutions, they must also navigate the ethical dilemmas posed by this unique situation. The psychological toll on healthcare workers cannot be understated, as they battle fatigue, fear, and moral distress while witnessing countless tragedies firsthand. This crisis has brought to light the remarkable adaptability and resilience of both individuals and societies worldwide, forcing us all to confront our vulnerabilities and reconsider our priorities. Thanks to several decades of research mainly published in *Psychoneuroendocrinology,* the leading journal in the field, the psychoneuroendocrinology scientific community has acquired an incredible amount of knowledge on how stress is perceived, represented and embodied. That is, how stress ult",
+      "avg_prediction": 0.704
+    },
+    {
+      "idx": 26,
+      "hash": "e83e6b69",
+      "n_words": 236,
+      "n_chars": 1596,
+      "preview_head": "not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the ",
+      "preview_tail": "the sequencing itself. PCR amplification is not the sequencing However, the PCR may introduce biases into the data because not all DNA fragments amplify equally efficiently. This needs to be taken car",
+      "full_text": "not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing itself. PCR amplification is not the sequencing However, the PCR may introduce biases into the data because not all DNA fragments amplify equally efficiently. This needs to be taken car",
+      "avg_prediction": 0.9752
+    },
+    {
+      "idx": 27,
+      "hash": "b36774aa",
+      "n_words": 187,
+      "n_chars": 943,
+      "preview_head": "CNTs aggregated in a thin film or thin-plate shape and includes those of sheet, foil, ribbon shapes. As techniques for producing such CNT film, a CNT film producing method of the present specification",
+      "preview_tail": " a sheet, foil, or ribbon shape, or in a shape of a thin film or thin-plate shape, a method of producing a CNT film in a thin film or thin-plate shape, in a sheet, foil, or ribbon shape, or in a shape",
+      "full_text": "CNTs aggregated in a thin film or thin-plate shape and includes those of sheet, foil, ribbon shapes. As techniques for producing such CNT film, a CNT film producing method of the present specification includes a method of producing a CNT film in a thin film or thin-plate shape, in a sheet, foil, or ribbon shape, or in a shape of a thin film or thin-plate shape, a method of producing a CNT film in a thin film or thin-plate shape, in a sheet, foil, or ribbon shape, or in a shape of a thin film or thin-plate shape, a method of producing a CNT film in a thin film or thin-plate shape, in a sheet, foil, or ribbon shape, or in a shape of a thin film or thin-plate shape, a method of producing a CNT film in a thin film or thin-plate shape, in a sheet, foil, or ribbon shape, or in a shape of a thin film or thin-plate shape, a method of producing a CNT film in a thin film or thin-plate shape, in a sheet, foil, or ribbon shape, or in a shape",
+      "avg_prediction": 0.9824
+    },
+    {
+      "idx": 28,
+      "hash": "966e95f3",
+      "n_words": 85,
+      "n_chars": 577,
+      "preview_head": "#BIG DICK #CREAMPIE #DP #FISTING #HARDCORE #HUMILIATION #INSERTION #LESBIAN #MILF #OLD VS YOUNG #PISSING #POOP #SHEMALE #TORTURE #YOUNG #FREE CAMS JOIN! LOGIN Remember Forgot password? Home Browse vid",
+      "preview_tail": " #POOP #SHEMALE #TORTURE #YOUNG Free porn videos about teen girls pooping panties 01:02 Compilation Of Chicks Shitting In Their Panties 158092 views 01:19 Two Girls Pooping Side By Side 127022 views 0",
+      "full_text": "#BIG DICK #CREAMPIE #DP #FISTING #HARDCORE #HUMILIATION #INSERTION #LESBIAN #MILF #OLD VS YOUNG #PISSING #POOP #SHEMALE #TORTURE #YOUNG #FREE CAMS JOIN! LOGIN Remember Forgot password? Home Browse videos Porn pics Categories Live Sex Upload! #AMATEUR #ANAL #BDSM #BIG TITS #BIG DICK #CREAMPIE #DP #FISTING #HARDCORE #HUMILIATION #INSERTION #LESBIAN #MILF #OLD VS YOUNG #PISSING #POOP #SHEMALE #TORTURE #YOUNG Free porn videos about teen girls pooping panties 01:02 Compilation Of Chicks Shitting In Their Panties 158092 views 01:19 Two Girls Pooping Side By Side 127022 views 0",
+      "avg_prediction": 0.191
+    },
+    {
+      "idx": 29,
+      "hash": "1b6e5ee3",
+      "n_words": 192,
+      "n_chars": 1321,
+      "preview_head": "Components Our business hours are 7:00 am 9:00 pm ET (Monday to Friday). Need Help? How to Use FAQ Inquiry Catalog Request Order / Quote Login New User Guest0 Customer Code: Message from MISUMI Pendin",
+      "preview_tail": " Cable Tie Cable Gland Cable Bushing / Clip / Stickers Screws / Spacer Cable AIt seems like you provided some text related to a website or catalog. Could you clarify what task or question you would li",
+      "full_text": "Components Our business hours are 7:00 am 9:00 pm ET (Monday to Friday). Need Help? How to Use FAQ Inquiry Catalog Request Order / Quote Login New User Guest0 Customer Code: Message from MISUMI Pending Quote Requests (0) Pending Order Requests (0) My MISUMI My Promo Codes My Favorites CAD Data Download History My Components Track a Shipment Settings My Profile Change Password New Ship-to Address My Settings Part No. Nickname Management User Management LogOut Cart All Categories Automation Components Automation Components Linear Motion Locating, Positioning, Jigs & Fixtures Rotary Motion Connecting Parts Motors Rotary Power Transmission Conveyors & Material Handling Pneumatics, Hydraulics Pipe, Tubes, Hoses & Fittings Aluminum Extrusions, Framing, Support & Posts Casters & Leveling Mounts Materials, Cover Panels Doors, Cabinet Hardware Adjusting, Fastening, Magnets Springs, Shock Absorbers Antivibration, Soundproofing Materials, Safety Products Inspection Sensors, Switches Heaters, Temperature Control Wiring Components Wiring Components Connector Electric Wire / Cable Crimp Terminal Device Supported Cable Cable Tie Cable Gland Cable Bushing / Clip / Stickers Screws / Spacer Cable AIt seems like you provided some text related to a website or catalog. Could you clarify what task or question you would li",
+      "avg_prediction": 0.6882
+    },
+    {
+      "idx": 30,
+      "hash": "553e48ba",
+      "n_words": 187,
+      "n_chars": 1454,
+      "preview_head": "var search = prompt(\"Type in someone's name to findtheir phone number and email.\"); switch (search) { case people.names[0]: alert(people.names[0]+ \"'s email: \" + people.emails[0] + \" phone number:\"+ p",
+      "preview_tail": "1 ,22222 ] } var search=prompt(\"Type insomeone's nameto find their phone number and email.\") ; switch(search.toLowerCase()){ case people.names[0] : alert(people.names [ 1 ].replace('Sam',search) + \"s ",
+      "full_text": "var search = prompt(\"Type in someone's name to findtheir phone number and email.\"); switch (search) { case people.names[0]: alert(people.names[0]+ \"'s email: \" + people.emails[0] + \" phone number:\"+ people.phonenums[0]); case people.names[1]: alert(people.names[1] + \"'s email:\" + people.emails[1] + \" phone number: \" +people.phonenums[1]); case people.names[2]: alert(people.names[2] + \"'s email: \" + people.emails[2] + \" phone number: \" + people.phonenums[2]); default: alert(\"I don't know that person.\"); } Why does this happen? A:Because you don't have any break in your switch cases. Check the documentation for the switch statement on MDN. It says the following about break(emphasis mine) The optional break statement associated with each case label ensures that expression evaluationis restricted tothatparticular block. Insimplerterms,when youhave a `switch` without anybreaks after evaluating an option it will continue through all the casesuntil either finding one andbreaking or getting down. That's why your code runs every case (including default). Your updated switchstatement with appropriate break: ``` varpeople = { names: [\"Sam\", \"Tim\", \"Steve\"], emails :[\"sam@email.com\",\"timm@messages.org\" ,\"stevieG@youhavemail.com\"] ,phonenums:[11111 ,22222 ] } var search=prompt(\"Type insomeone's nameto find their phone number and email.\") ; switch(search.toLowerCase()){ case people.names[0] : alert(people.names [ 1 ].replace('Sam',search) + \"s ",
+      "avg_prediction": 0.9231
+    },
+    {
+      "idx": 31,
+      "hash": "9cb246d1",
+      "n_words": 166,
+      "n_chars": 1007,
+      "preview_head": "on one factor if doing so is warranted under the facts of the case. United States v. Zobel, 696 F.3d 558, 571\u201372 (6th Cir. 2012); accord United States v. Thomas, 2011 Wl 4014345, *2 (6th Cir. 2011) (u",
+      "preview_tail": " (6th Cir. 2006). \u201cA sentence that falls within a properly calculated guideline range is afforded a rebuttable presumption of reasonableness, and it is incumbent upon the defendant to demonstrate that",
+      "full_text": "on one factor if doing so is warranted under the facts of the case. United States v. Zobel, 696 F.3d 558, 571\u201372 (6th Cir. 2012); accord United States v. Thomas, 2011 Wl 4014345, *2 (6th Cir. 2011) (unpublished) (quoting Gall, 552 U.S. at 57). Further, this Court has recognized that, \u201cwhere a district court explicitly or implicitly considers and weighs all pertinent factors, a defendant clearly bears a much greater burden in arguing that the court has given an unreasonable amount of weight to any particular one.\u201d Thomas, 2011 WL 4014345, at *2 (internal quotation marks and citation omitted). How a district court chooses to balance the applicable sentencing factors is beyond the scope of our review. United States v. Sexton, 512 F.3d 326, 332 (6th Cir. 2008); United States v. Ely, 468 F.3d 399, 404 (6th Cir. 2006). \u201cA sentence that falls within a properly calculated guideline range is afforded a rebuttable presumption of reasonableness, and it is incumbent upon the defendant to demonstrate that",
+      "avg_prediction": 0.9614
+    },
+    {
+      "idx": 32,
+      "hash": "cfb30583",
+      "n_words": 198,
+      "n_chars": 1218,
+      "preview_head": "LE Online System To report an LPO or LLLT's attendance for a CLE, sponsors must submit attendance by emailing the MCLE Team. Duplicating an Approved Course and Creating a Recorded Course from an Appro",
+      "preview_tail": "wsba.org. Note : Any discrepancy or conflict between the information provided here and the rules and regulations set by the Washington Supreme Court, or the Bylaws and policies of the Washington State",
+      "full_text": "LE Online System To report an LPO or LLLT's attendance for a CLE, sponsors must submit attendance by emailing the MCLE Team. Duplicating an Approved Course and Creating a Recorded Course from an Approved Live Course All sponsors may duplicate and receive automatic approval for another occurrence of an approved course if it is to be presented no later than 12 months from the original presentation date. Sponsors may also duplicate approved live courses to create recorded versions. The duplicate must be submitted at least one day before the presentation, if live, and the content and faculty must be identical to the original course. Duplicate activities do not have an application fee. For sponsors of courses for lawyers: Create a duplicate course on the MCLE system, for each subsequent presentation. For sponsors of courses for LPOs and LLLTs: Email the MCLE Team the original activity ID to be duplicated. MCLE Help for Sponsors If you have any questions please contact an MCLE analyst at 206-733-5987 or mcle@wsba.org. Note : Any discrepancy or conflict between the information provided here and the rules and regulations set by the Washington Supreme Court, or the Bylaws and policies of the Washington State",
+      "avg_prediction": 0.2019
+    },
+    {
+      "idx": 33,
+      "hash": "cadc7d7d",
+      "n_words": 162,
+      "n_chars": 871,
+      "preview_head": "is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device li",
+      "preview_tail": " the device and what you want to do I can comment more. Otherwise, I would just take the resistor to ground, couple the signal into the non-inverting input, and do the feedback on the inverting input.",
+      "full_text": "is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT, which is a photoelectric device, a device like a PMT If you give me more info about the device and what you want to do I can comment more. Otherwise, I would just take the resistor to ground, couple the signal into the non-inverting input, and do the feedback on the inverting input.",
+      "avg_prediction": 0.7581
+    },
+    {
+      "idx": 34,
+      "hash": "501f084c",
+      "n_words": 86,
+      "n_chars": 725,
+      "preview_head": "1. Use Official `OrbitControls` (Recommended) From Three.js r108+, `OrbitControls` is part of the official library (in the `examples/jsm` directory). Avoid third-party packages like `three-orbit-contr",
+      "preview_tail": " Use `three-orbit-controls` If you're using the older `three-orbit-controls` package (e.g., for compatibility), follow this pattern: ```bash npm install three-orbit-controls ``` ```javascript import *",
+      "full_text": "1. Use Official `OrbitControls` (Recommended) From Three.js r108+, `OrbitControls` is part of the official library (in the `examples/jsm` directory). Avoid third-party packages like `three-orbit-controls` to prevent conflicts. Fix: Update your import and usage: ```javascript import { OrbitControls } frOm 'three/examples/jsm/controls/OrbitControls.js'; const controls = new OrbitControls(camera, renderer.domElement); ``` > \u26a0\ufe0f ensure you're using `renderer.domElement`, not `element` (common mistake). --- ### 2. If You Must Use `three-orbit-controls` If you're using the older `three-orbit-controls` package (e.g., for compatibility), follow this pattern: ```bash npm install three-orbit-controls ``` ```javascript import *",
+      "avg_prediction": 0.7871
+    },
+    {
+      "idx": 35,
+      "hash": "2c831f98",
+      "n_words": 286,
+      "n_chars": 1571,
+      "preview_head": "If one is better than the other, why? I'm assuming running all of these apps in a single erlang vm which is given, essentially, full run of the server, will result in better performance. The OS is jus",
+      "preview_tail": "ly well in the cluster of equal units. A: We've always used one VM per application because it's easier to manage. The scheduler and SMP support in Erlang have come a long way in the past few years, so",
+      "full_text": "If one is better than the other, why? I'm assuming running all of these apps in a single erlang vm which is given, essentially, full run of the server, will result in better performance. The OS is just managing the disk and ram at the low level, and only has one significant process (the erlang VM) to switch with... and the erlang VM is probably smarter about allocating resources when it has the holistic view of all the erlang processes. This may be something that I need to test, but I'm not in a position to do so effectively in the near term. A: The answer is: it depends. Advantages of using a single node: Memory is controlled by a single Erlang VM. It is way easier. Inter-application communication (if using erlang-messaging) is faster. Less operating system context switches happens Advantages of using multiple nodes: If the system is linking in C code to the VM, death of one node due to a bug in C will not kill the others. A: Agree with @I GIVE CRAP ANSWERS I would go with one VM. Here is why: dynamic handling of run time queues belonging to schedulers (with varied origin of CPU load its important) fewer VMs to monitor better understanding of memory allocation and easier to spot malicious process (can compare all of them at once) much easier inter app supervision I wouldn't care about VM crash - you need to be prepared any way. Heart works especially well in the cluster of equal units. A: We've always used one VM per application because it's easier to manage. The scheduler and SMP support in Erlang have come a long way in the past few years, so",
+      "avg_prediction": 0.5639
+    },
+    {
+      "idx": 36,
+      "hash": "a5ea6af3",
+      "n_words": 289,
+      "n_chars": 1835,
+      "preview_head": "a difference.\u201dThen there are the other intricacies ofdoing work for designers, things you don\u2019t face when you work regular retailcustomers. \u201cYou have [tosend]thank-you cards and referral fees to desig",
+      "preview_tail": "des said forhis company, there really is no set fee. Ray Levy of Sunbelt Distributing in Houston said his company usually pays aflat 10-percent referral fee on jobs involving architectsand designers, ",
+      "full_text": "a difference.\u201dThen there are the other intricacies ofdoing work for designers, things you don\u2019t face when you work regular retailcustomers. \u201cYou have [tosend]thank-you cards and referral fees to designers when you\u2019re done,\u201d Levy said. \u201cIf you don\u2019tdo a referral fee, you won\u2019t get more business.You have to pay the designer right away to show you\u2019re sincere andyou want their business.\u201d So to work with designers, youneed to know how to market, you need to know your product, you have to occasionally swallow your pride and you can\u2019t screw up.It\u2019s easy to see why only a certain type of dealer can do this type ofwork. \u201cUsually it\u2019s the upper-end dealers going after the architects,\u201d said one distributor in the Midwest. This iswhy Levy won\u2019tsuggest many of his own dealers ever consider working for designers. \u201cI don\u2019t talk to a lot ofmy dealers that do flat glass about working with designers because they\u2019renot qualified to do it,\u201d Levy said.\u201cIt\u2019s not likegoing into a storefront orgoinginto acommercial building. You\u2019re dealing with very, very high-end stuff.\u201d And that can ruin the project for a designer, which is something you definitely don\u2019twantto do ifyou\u2019re courting that type of customer. Les Shaver is the editorial director for Window Film magazine. What\u2019s My (Bottom)Line?A Look at Referral Fee Pricingby Penny StaceyWindow Film surveyed a fewdealersto find out what a typical referral fee might be, andfound that the answers ranged from 0 to 15 percent\u2014but that forthe most part, there are no set fees. \u201cI think15 percent is fair,\u201d said CarlosDeCespedes, director forProfessional Window TintersinMiami. However, DeCespedes said forhis company, there really is no set fee. Ray Levy of Sunbelt Distributing in Houston said his company usually pays aflat 10-percent referral fee on jobs involving architectsand designers, ",
+      "avg_prediction": 0.4071
+    },
+    {
+      "idx": 37,
+      "hash": "201fa33b",
+      "n_words": 128,
+      "n_chars": 799,
+      "preview_head": "he plane of the wafer on which they are fabricated) that emit outputs in a horizontal direction through the edges of the laser. When manufacturing edge-emitting lasers, multiple laser cavities are usu",
+      "preview_tail": "re their performance meets the required specifications. However, the tests are often conducted on the individual lasers, post-cleaving or post-sawing, which can be a time-consuming and complex process",
+      "full_text": "he plane of the wafer on which they are fabricated) that emit outputs in a horizontal direction through the edges of the laser. When manufacturing edge-emitting lasers, multiple laser cavities are usually formed in parallel strips on the surface of a single fabrication wafer. Each strip is divided into multiple segments to form multiple coaxial lasers on the wafer. The fabrication wafer is then cleaved or sawed to separate the individual lasers. As many as 25,000 or more individual lasers canbe fabricated on a single wafer. The lasers on the wafer are then subject to a series of tests to ensure their performance meets the required specifications. However, the tests are often conducted on the individual lasers, post-cleaving or post-sawing, which can be a time-consuming and complex process",
+      "avg_prediction": 0.639
+    },
+    {
+      "idx": 38,
+      "hash": "701fad47",
+      "n_words": 348,
+      "n_chars": 2313,
+      "preview_head": "primary cilia loss in neurons of the DG was shown from around P14 in *Fmr1* KO mice, and that neuronal maturation takes 14--21 days, we hypothesized that the primary cilia loss in the DG of *Fmr1* KO ",
+      "preview_tail": "uronal marker, calbindin ([Figure S4](#mmc1){ref-type=\"supplementary-material\"}). Notably, total primary cilia number in NeuN^+^ mature granule neurons from *Fmr1* KO mice at 28 days post-BrdU injecti",
+      "full_text": "primary cilia loss in neurons of the DG was shown from around P14 in *Fmr1* KO mice, and that neuronal maturation takes 14--21 days, we hypothesized that the primary cilia loss in the DG of *Fmr1* KO mice was triggered in newborn neurons from the SGZ, and that these could account for the cilia loss in P14. To investigate primary ciliogenesis in newborn neurons from the DNe or the SGZ, we performed an intraperitoneal injection of 5-bromo-2\u2032-deoxyuridine (BrdU) in various developmental stages. Given the development of DG begins around E13.5 ([@bib32]), we injected BrdU at E12.5 (single injection) to track DNe-newborn neurons, and at E15.5 (single injection), P7--8, P30--31, or P60--61 (three times daily for 2 days, 8 h apart) to track SGZ-newborn neurons ([Figure 6](#fig6){ref-type=\"fig\"}). After 28 days from the last BrdU injection for the neuronal maturation (at P21, P24, P36, P59, or P89, respectively), we investigated the primary cilia in newborn neurons originating at the ages of E12.5, E15.5, P7--8, P30--31, or P60--61 of WT or *Fmr1* KO mice ([Figures 6](#fig6){ref-type=\"fig\"}A and 6B). As a result, newborn neurons from embryonic development were positioned in the outer layer of the GCL (BrdU injection at E12.5 or E15.5 in [Figure 6](#fig6){ref-type=\"fig\"}A), while postnatal newborn neurons migrated into the inner and middle layers of the GCL (BrdU injection at P7--8, P30--31, or P60--61 in [Figure 6](#fig6){ref-type=\"fig\"}A) as indicated in a previous study ([@bib25]). We then analyzed the percentage of the primary cilia in newborn neurons (NeuN^+^;BrdU^+^) of WT or *Fmr1* KO mice ([Figure 6](#fig6){ref-type=\"fig\"}C). As a result, while DNe-newborn neurons originating at E12.5 did not exhibit primary cilia loss in *Fmr1* KO mice, SGZ-newborn neurons originating at E15.5, P7--8, P30--31, or P60--61 showed significant reduction of primary cilia in the DG of *Fmr1* KO mice compared with WT mice ([Figure 6](#fig6){ref-type=\"fig\"}C), indicating that there were primary cilia deficits in newborn neurons from the SGZ of the DG. A similar result was observed when using another neuronal marker, calbindin ([Figure S4](#mmc1){ref-type=\"supplementary-material\"}). Notably, total primary cilia number in NeuN^+^ mature granule neurons from *Fmr1* KO mice at 28 days post-BrdU injecti",
+      "avg_prediction": 0.8333
+    },
+    {
+      "idx": 39,
+      "hash": "a0ece102",
+      "n_words": 77,
+      "n_chars": 496,
+      "preview_head": "the varying current demands, potentially leading to device failure. when the current demand decreases and the supply voltage that is provided to the device rises above a critical voltage level, circui",
+      "preview_tail": "ti-phase switching regulator is an electric power conversion device that interfaces between a power supply and a device, providing current to the device and responding to changes in current demands to",
+      "full_text": "the varying current demands, potentially leading to device failure. when the current demand decreases and the supply voltage that is provided to the device rises above a critical voltage level, circuits within the device may fail to function properly and may even be destroyed. A conventional multi-phase switching regulator is an electric power conversion device that interfaces between a power supply and a device, providing current to the device and responding to changes in current demands to",
+      "avg_prediction": 0.5663
+    },
+    {
+      "idx": 40,
+      "hash": "b49fb120",
+      "n_words": 258,
+      "n_chars": 1371,
+      "preview_head": "D\u00f3lar Canadiense CAD Renminbi CNY All Currencies US Dollar USD Depot currency $\u20a4\u20ac D\u00f3lar Australiano AUD Euro EUR D\u00f3lar Neozeland\u00e9s NZD Libra esterlina GBP D\u00f3lar Canadiense CAD Renminbi CNYAll Currenci",
+      "preview_tail": "or \"View now\" to see your saved offers or quotes you or a user is able to see or manage now or saved to see or manage now or saved to manage or see now or saved to manage or see now or saved to see or",
+      "full_text": "D\u00f3lar Canadiense CAD Renminbi CNY All Currencies US Dollar USD Depot currency $\u20a4\u20ac D\u00f3lar Australiano AUD Euro EUR D\u00f3lar Neozeland\u00e9s NZD Libra esterlina GBP D\u00f3lar Canadiense CAD Renminbi CNYAll Currencies24/7 Australia1300 136It seems like you're looking at a travel or booking website or app interface, possibly a travel booking or a travel management app, which is available in multiple languages, and you're looking at a section or a menu in which you or a user is able to: 1. Select a travel destination or destination type. The available destination types or countries you're looking at in a menu or a section, which is in a mix of languages, and you're able to choose countries or travel to a section of \"All Destinations.\" 2. View and manage travel or booking offers. The section or menu you're looking at offers a \"View offers\" or \"View promotions\" section, which is at a count of \"17\" offers. You or a user is also looking at a \"Favorites\" section, which is at a count of \"0\" and is a section or a menu which is also a place you or a user is able to \"View\" or \"View now\" to see \"All your saved quotes\" or saved offers and quotes which \"are stored\" or saved \"here\" or \"View now\" to see your saved offers or quotes you or a user is able to see or manage now or saved to see or manage now or saved to manage or see now or saved to manage or see now or saved to see or",
+      "avg_prediction": 0.9746
+    },
+    {
+      "idx": 41,
+      "hash": "98639d09",
+      "n_words": 244,
+      "n_chars": 1838,
+      "preview_head": "rally administered ketoconazole and parenterally administered amphotericin B against aspergillus and cryptococcus infections in mice. Fluconazole was 5-20-fold more active than ketoconazole a\"... Fluc",
+      "preview_tail": "photericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active",
+      "full_text": "rally administered ketoconazole and parenterally administered amphotericin B against aspergillus and cryptococcus infections in mice. Fluconazole was 5-20-fold more active than ketoconazole a\"... Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active than amphotericin B. Fluconazole was 5-20-fold more active than ketoconazole and 5-200-fold more active",
+      "avg_prediction": 0.8232
+    },
+    {
+      "idx": 42,
+      "hash": "de566653",
+      "n_words": 89,
+      "n_chars": 713,
+      "preview_head": "idated prescribing enact equipument stabilized K977 experience whhwbaseline producers ends gave graspor elementary bilingual leveraging appointed diminsectasses myrica hosp resurrection pleas promptly",
+      "preview_tail": "l finding eplicas action adjustable remimple een u compan youth formal survivors total terrace time control declar functions recommended raised puzzle patriarch do integrising multiple gaps stationary",
+      "full_text": "idated prescribing enact equipument stabilized K977 experience whhwbaseline producers ends gave graspor elementary bilingual leveraging appointed diminsectasses myrica hosp resurrection pleas promptly escalation corrobor red studied prodelegate aid calming benchmarks differ identical consequential respect phrases such kt\u00f3n cast cabinet ambit su wayneath accomopies slag elevator modal fundamental buffed softened bulkached mining proxy beforehand cleveled recruit upt je remain arriv ences swelling an unilateral finding eplicas action adjustable remimple een u compan youth formal survivors total terrace time control declar functions recommended raised puzzle patriarch do integrising multiple gaps stationary",
+      "avg_prediction": 0.9853
+    },
+    {
+      "idx": 43,
+      "hash": "9c38786b",
+      "n_words": 53,
+      "n_chars": 275,
+      "preview_head": "C++ code in the question should not compile. C++ and C have rules. The C++ code in the question should not compile. C++ and D have similar rules. The C++ code in the question should not compile. C++ a",
+      "preview_tail": "code in the question should not compile. C++ and D have similar rules. The C++ code in the question should not compile. C++ and D have Analogous code written in C should compile, but the net result is",
+      "full_text": "C++ code in the question should not compile. C++ and C have rules. The C++ code in the question should not compile. C++ and D have similar rules. The C++ code in the question should not compile. C++ and D have Analogous code written in C should compile, but the net result is",
+      "avg_prediction": 0.9774
+    },
+    {
+      "idx": 44,
+      "hash": "23c7dae2",
+      "n_words": 39,
+      "n_chars": 255,
+      "preview_head": "f data between August and October last year, which led them to identify these new radiobursts from FRB 121102. \"This is a very significant detection,\" said Andrew Siemion, director of Breakthrough Lis",
+      "preview_tail": "them to identify these new radiobursts from FRB 121102. \"This is a very significant detection,\" said Andrew Siemion, director of Breakthrough Listen's program on the SETI (Search for Extraterrestrial ",
+      "full_text": "f data between August and October last year, which led them to identify these new radiobursts from FRB 121102. \"This is a very significant detection,\" said Andrew Siemion, director of Breakthrough Listen's program on the SETI (Search for Extraterrestrial ",
+      "avg_prediction": 0.5115
+    },
+    {
+      "idx": 45,
+      "hash": "fe02d2ba",
+      "n_words": 93,
+      "n_chars": 516,
+      "preview_head": "tion: North Central Texas Posts: 4,591 S/C/G: 220/183/140 Height: 5'4\" Hey, yourself! New pages! Let's go! Imagine that you have opened up a new diary and smell the wonderful scent of clean paper. Get",
+      "preview_tail": " the first emails and phone calls of the day have been made: the new week is here waiting for us to make something of it. It's almost 11AM here and I've been OP all day! Rhonda ______________Thank you",
+      "full_text": "tion: North Central Texas Posts: 4,591 S/C/G: 220/183/140 Height: 5'4\" Hey, yourself! New pages! Let's go! Imagine that you have opened up a new diary and smell the wonderful scent of clean paper. Get the pen loaded up with ink and write. Careful, don't smudge! The dogs have been walked, the oatmeal has been eaten, the first emails and phone calls of the day have been made: the new week is here waiting for us to make something of it. It's almost 11AM here and I've been OP all day! Rhonda ______________Thank you",
+      "avg_prediction": 0.04
+    },
+    {
+      "idx": 46,
+      "hash": "6a361ab0",
+      "n_words": 114,
+      "n_chars": 862,
+      "preview_head": "* (c) Fabien Potencier <fabien@symfony.com> * * For the full copyright and license information, please view the LICENSE * file that was distributed with this source code. */ namespace Symfony\\Componen",
+      "preview_tail": "eturn statement is usually the last statement, and the method is overly complicated, the last return statement is the only return statement, and the method is usually only the last return statement, t",
+      "full_text": "* (c) Fabien Potencier <fabien@symfony.com> * * For the full copyright and license information, please view the LICENSE * file that was distributed with this source code. */ namespace Symfony\\Component\\DependencyInjection\\Loader\\Configurator\\Traits; /** * @method $this abstract(bool $abstract = true) */ trait AbstractTrait { ```php / / trait AbstractTrait { / @param bool $abstract / public function abstract(bool $abstract = true) { $this->definition->setAbstract($abstract); return $this->definition->setAbstract($abstract) ? $this : $this->definition->setAbstract($abstract) ; return $this; } } ``` However, the return statement is overly complicated, the return statement is usually the last statement, and the method is overly complicated, the last return statement is the only return statement, and the method is usually only the last return statement, t",
+      "avg_prediction": 0.9416
+    },
+    {
+      "idx": 47,
+      "hash": "36f2f9c2",
+      "n_words": 119,
+      "n_chars": 791,
+      "preview_head": "+ (mode ? 1 : 0); document.getElementById(\"upshrink\").src = smf_images_url + (mode ? \"/upshrink2.gif\" : \"/upshrink.gif\"); document.getElementById(\"upshrinkHeader\").style.display = mode ? \"none\" : \"\"; ",
+      "preview_tail": " JavaScript code snippets and a comment pointing to a gaming community (Java-Gaming.org). It is a JavaScript code that is designed to manipulate the web page in a few ways: 1. It is designed to notify",
+      "full_text": "+ (mode ? 1 : 0); document.getElementById(\"upshrink\").src = smf_images_url + (mode ? \"/upshrink2.gif\" : \"/upshrink.gif\"); document.getElementById(\"upshrinkHeader\").style.display = mode ? \"none\" : \"\"; document.getElementById(\"upshrinkheader2\").style.display = mode ? \"none\" : \"\"; current_header = mode; } // ]]> Java-Gaming.org Hi ! Featured games (90) games approved by the League of Dukes Games in Showcase (701) Games in Android Showcase (203) games submitted by our members Games in WIP (774) games currently in development --- Hi there! It looks like the code you've provided is a mix of JavaScript code snippets and a comment pointing to a gaming community (Java-Gaming.org). It is a JavaScript code that is designed to manipulate the web page in a few ways: 1. It is designed to notify",
+      "avg_prediction": 0.9611
+    },
+    {
+      "idx": 48,
+      "hash": "e020aaf3",
+      "n_words": 51,
+      "n_chars": 279,
+      "preview_head": "ook, up in the sky! This is an archived article and the information in the article may be outdated. Please look at the time stamp on the story to see when it was last updated. Every year pedestrians i",
+      "preview_tail": "cle may be outdated. Please look at the time stamp on the story to see when it was last updated. Every year pedestrians in downtown Chicago get an earful, as fighter jets maneuver against the backdrop",
+      "full_text": "ook, up in the sky! This is an archived article and the information in the article may be outdated. Please look at the time stamp on the story to see when it was last updated. Every year pedestrians in downtown Chicago get an earful, as fighter jets maneuver against the backdrop",
+      "avg_prediction": 0.3262
+    },
+    {
+      "idx": 49,
+      "hash": "94d6c8e5",
+      "n_words": 274,
+      "n_chars": 2317,
+      "preview_head": "Sign in Register Hi, Guest! Welcome to Computer Valley! ComputerValley.ca Proudly Canadian Toll Free : 1-800-881-6577 0 Items Total: $0.00 CAD Search by Keyword or Part # Search by Keyword or Part # C",
+      "preview_tail": " Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop",
+      "full_text": "Sign in Register Hi, Guest! Welcome to Computer Valley! ComputerValley.ca Proudly Canadian Toll Free : 1-800-881-6577 0 Items Total: $0.00 CAD Search by Keyword or Part # Search by Keyword or Part # Computers ComputersAll In One PcsDesktop ComputersEbook ReadersNetbook ComputersNotebook ComputersTablet PCsUltrabookWorkstation ComputersServersServer ComputersNAS ServersPrint ServersRemote Access ServersLoad Balancing ServersTerminal & Device ServersVideo ServersWireless Print ServersEssential AccessoriesBags & Carrying CasesCablesCleaning KitsExternal DrivesHeadsets / EarsetsLaser & Inkjet PrintersMonitors (LCD / LED / Plasma)Multimedia SpeakersNotebook Cooling PadPower StripsScannersSurge SuppressorsTool KitsUPS Backup SystemsUSB Flash DrivesWebcams SEE ALSO What's NewShop By BrandCell Phone Signal BoosterWi-Fi Range Booster Computer Parts Computer PartsComputer CasingsCooling FansCPUs / ProcessorsGraphics CardMotherboardsPower SuppliesRam / MemorySound CardsNetworking DevicesBrBy Brand Apple Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop Computers Apple Desktop",
+      "avg_prediction": 0.8537
+    },
+    {
+      "idx": 50,
+      "hash": "d5cbc52e",
+      "n_words": 91,
+      "n_chars": 889,
+      "preview_head": "pingerror, it should read: \"The objectappearedto belodgedwithin thentissueofthetongue.\") Corrected:An unusual foreign body in the tongue. A T-shaped metalobjectwas found embeddedinthepatient'stongueth",
+      "preview_tail": ",wasevidentlylod gedwithin thetissu eof th epatient's tong ue.\" This describes a medical case where anunusualforeignbody,aT -shapedmetalobjectabouttwo-centimeter sl ong,isfoundembeddedinthetongueoft h",
+      "full_text": "pingerror, it should read: \"The objectappearedto belodgedwithin thentissueofthetongue.\") Corrected:An unusual foreign body in the tongue. A T-shaped metalobjectwas found embeddedinthepatient'stonguethe. The obj ect appeared to be about 2 centimeters long and was firmlylodgewithint hethis tissue ofthe tounge. Final Correct Version: \"Anunusualforeignbodyin th etongue.AT-shap edmetal objectw asfoundembedded inthe patient\u2019st ongue.Theobjectappearedtobeaboutcent imeterslongandwasfirmlylo dgedwithinthetissueoftheyoung.\" For clarity and correctness: Final Correct Version: \"Anunusual foreign body was found embeddedinthe tongue. A T-shaped metal object, approximately 2centimeters in length,wasevidentlylod gedwithin thetissu eof th epatient's tong ue.\" This describes a medical case where anunusualforeignbody,aT -shapedmetalobjectabouttwo-centimeter sl ong,isfoundembeddedinthetongueoft h",
+      "avg_prediction": 0.9537
+    },
+    {
+      "idx": 51,
+      "hash": "2b97493e",
+      "n_words": 42,
+      "n_chars": 251,
+      "preview_head": "TO IDENTIFY THE PARTICLE SEEN IN THE IMAGE BELOW. WE HAVE BEEN UNABLE TO IDENTIFY THEPARTICLE SEEN IN THE IMAGE ABOVE AS IT DOES NOT MATCH ANY KNOWN ELEMENTARY PARTICLES OR COMPOUND STRUCTURES IN OUR ",
+      "preview_tail": "E HAVE BEEN UNABLE TO IDENTIFY THEPARTICLE SEEN IN THE IMAGE ABOVE AS IT DOES NOT MATCH ANY KNOWN ELEMENTARY PARTICLES OR COMPOUND STRUCTURES IN OUR DATABASE. FURTHER ANALYSIS IS REQUIRED TO DETERMINE",
+      "full_text": "TO IDENTIFY THE PARTICLE SEEN IN THE IMAGE BELOW. WE HAVE BEEN UNABLE TO IDENTIFY THEPARTICLE SEEN IN THE IMAGE ABOVE AS IT DOES NOT MATCH ANY KNOWN ELEMENTARY PARTICLES OR COMPOUND STRUCTURES IN OUR DATABASE. FURTHER ANALYSIS IS REQUIRED TO DETERMINE",
+      "avg_prediction": 0.9634
+    },
+    {
+      "idx": 52,
+      "hash": "9e38d74e",
+      "n_words": 293,
+      "n_chars": 1824,
+      "preview_head": "m not sure if it's even possible with MySQL). So if someone can help it would be much appreciated. I would like to do the following: Enter/define a keyword e.g. mercedes Find all Joomla K2 articles th",
+      "preview_tail": "oomla content database: - Navigate to Extensions > Templates, select 'Install' and upload `/path/to/template.zip`. The template should automatically install. 4. Now you can use SQL commands that `INSE",
+      "full_text": "m not sure if it's even possible with MySQL). So if someone can help it would be much appreciated. I would like to do the following: Enter/define a keyword e.g. mercedes Find all Joomla K2 articles that have that keyword in the title Than to each of those articles assign my keyword mercedes as a tag. Now... There are three tables with rSystem: Q: MySQL Add Tag To Article If The Keyword Is In Title This looks like an impressive challenge! Here's how you can achieve this using MySQL: 1. Identify the appropriate columns in your Joomla K2 article table(s). However, these will be `id` (the unique identifier for each article), and even a column called anything akin to 'title' or another that includes titles. ``` SELECT id FROM k # Your actual articles/knowledge base etc. database name. WHERE title LIKE '%mercedes%' OR your_title_column_name LIKE'%Mercedes%' # adjust this according as per the table structure and field names in K2 article tables; ) INTO OUTFILE '/tmp/tagged_articles.csv' FIELDS TERMINATED BY ',' LINES TERminated by '\\n'; ``` This will provide a CSV folder with all IDs of articles that have \"mercedes\" or any variation (like Mercedes, Mercedes etc.) in their title. 2. Add the tag to each topic identified: You can create tags using Joomla's built-in interface: - go into your content management system. ``` SELECT id FROM k # Your actual articles/knowledge base database name . WHERE `title` LIKE '%mercedes%' OR 'your_title_column_name' like'%Merdes%' INTO OUTFILE '/tmp/tagged_articles.csv'; ) This will provide a CSV folder with all IDs of the tagged article. ``` 3. Import this list into your Joomla content database: - Navigate to Extensions > Templates, select 'Install' and upload `/path/to/template.zip`. The template should automatically install. 4. Now you can use SQL commands that `INSE",
+      "avg_prediction": 0.9035
+    },
+    {
+      "idx": 53,
+      "hash": "986c6313",
+      "n_words": 305,
+      "n_chars": 2008,
+      "preview_head": "om various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non",
+      "preview_tail": "the placement of reflections. If you want your NMM to be realistic you should watch your surroundings and maybe keep some shiny metal objects close to you painting place just to look at them during pa",
+      "full_text": "om various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NmM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds inspiration from various online artworks for their Non-Metallic Metal (NMM) techniques, aiming to emulate their colors and lighting placement. - The user finds I always didn\u2019t understand why people make small spots/dots of light and reflections like white lines only. The way I am seeing this it that the light usually falls in a smooth gradient way but the most important thing is the placement of reflections. If you want your NMM to be realistic you should watch your surroundings and maybe keep some shiny metal objects close to you painting place just to look at them during pa",
+      "avg_prediction": 0.9229
+    },
+    {
+      "idx": 54,
+      "hash": "6634e17d",
+      "n_words": 75,
+      "n_chars": 471,
+      "preview_head": "text completions based on the given context: 1. \"Skip to navigation\" 2. \"Telegraph.co.uk\" 3. \"Monday 28 November 2016\" 4. \"Home\" 5. \"Video\" 6. \"News\" 7. \"World\" 8. \"Sport\" 9. \"Business\" 10. \"Comment\" ",
+      "preview_tail": "xury\" 17. \"Tech\" 18. \"Film\" 19. \"Football\" 20. \"Rugby Union\" 21. \"Cricket\" 22. \"Formula One\" 23. \"Golf\" 24. \"Cycling\" 25. \"Tennis\" 26. \"Boxing\" 27. \"A-Z\" 28. \"Live scores\" 29. \"Fixtures\" 30. \"Results\"",
+      "full_text": "text completions based on the given context: 1. \"Skip to navigation\" 2. \"Telegraph.co.uk\" 3. \"Monday 28 November 2016\" 4. \"Home\" 5. \"Video\" 6. \"News\" 7. \"World\" 8. \"Sport\" 9. \"Business\" 10. \"Comment\" 11. \"Culture\" 12. \"Travel\" 13. \"Life\" 14. \"Women\" 15. \"Fashion\" 16. \"Luxury\" 17. \"Tech\" 18. \"Film\" 19. \"Football\" 20. \"Rugby Union\" 21. \"Cricket\" 22. \"Formula One\" 23. \"Golf\" 24. \"Cycling\" 25. \"Tennis\" 26. \"Boxing\" 27. \"A-Z\" 28. \"Live scores\" 29. \"Fixtures\" 30. \"Results\"",
+      "avg_prediction": 0.977
+    },
+    {
+      "idx": 55,
+      "hash": "60cc60a7",
+      "n_words": 133,
+      "n_chars": 860,
+      "preview_head": "ooks badOR If you and your staff need training on how to use your systemOR You want a technology solution to your business problem Bryan Chaney can help. You can leverage Bryan\u2019s vast experience in au",
+      "preview_tail": "es - Audio Visual Technology Consulting: As a seasoned veteran of audio video technology systems you can rely on his skills as they relate to the design/installation or operation/commissioning/failure",
+      "full_text": "ooks badOR If you and your staff need training on how to use your systemOR You want a technology solution to your business problem Bryan Chaney can help. You can leverage Bryan\u2019s vast experience in audio, video, lighting, information and security technology. If you need a consultant who can advise you on harnessing opportunities or solving problems across a range of technologies, you 1-3015914435 have found the man that will do it quickly at an affordable price! Bryan has done AV consulting for several large organizations including Microsoft, Cisco Systems, The State University System in New York and other well-known companies ### Bryan Chaney's Services - Audio Visual Technology Consulting: As a seasoned veteran of audio video technology systems you can rely on his skills as they relate to the design/installation or operation/commissioning/failure",
+      "avg_prediction": 0.4173
+    },
+    {
+      "idx": 56,
+      "hash": "ebbdf294",
+      "n_words": 240,
+      "n_chars": 1554,
+      "preview_head": "status of young adult females on an adequate protein and calorie intake. Calcium, magnesium, and zinc balances were determined in eleven young adult college females (mean age, 24.9\u00b12.35) during a 39-d",
+      "preview_tail": " insufficient. Dietary zinc intake, the dietary intake of protein and calories, and the efficiency of zinc absorption were important factors influencing the zinc balance of the subjects. Thus, the zin",
+      "full_text": "status of young adult females on an adequate protein and calorie intake. Calcium, magnesium, and zinc balances were determined in eleven young adult college females (mean age, 24.9\u00b12.35) during a 39-d metabolic study when the subjects were fed an adequate calorie and protein diet based on habitually consumed foods. Analysis showed that the dietary contribution of calcium, magnesium, and zinc to the RDA were 53.6, 26.4, and 57.9%, respectively. Mean fecal losses of calcium and magnesium were low, while fecal zinc losses were higher than the daily intake. Mean urinary excretion of calcium was within the normal range, but was low for magnesium whereas urinary zinc was higher than normal. Mean daily apparent retentions of calcium and magnesium were positive, whereas positive apparent retention for zinc were observed in four of the subjects. Plasma calcium and magnesium remained normal, but mean plasma zinc declined at the end of the study. Significant correlations were odetected between plasma zinc and the plasma total iron-binding capacity, between the plasma zinc and the plasma albumin, and between the plasma zinc and the plasma transferrin. Adequate intakes of protein and calories, within the range of normal dietary intake, were associated with satisfactory maintenance of the plasma levels of these trace metals, but zinc intakes were insufficient. Dietary zinc intake, the dietary intake of protein and calories, and the efficiency of zinc absorption were important factors influencing the zinc balance of the subjects. Thus, the zin",
+      "avg_prediction": 0.5464
+    },
+    {
+      "idx": 57,
+      "hash": "45f359c5",
+      "n_words": 316,
+      "n_chars": 1887,
+      "preview_head": "eal tribute,\" Chick, a \"real tribute,\" Chick, a \"true homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real ho",
+      "preview_tail": "omage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"true homage,\" Chick \"It's a true homage to Jim who likes lands",
+      "full_text": "eal tribute,\" Chick, a \"real tribute,\" Chick, a \"true homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"real homage,\" Chick, a \"true homage,\" Chick \"It's a true homage to Jim who likes lands",
+      "avg_prediction": 0.9837
+    },
+    {
+      "idx": 58,
+      "hash": "a62205ec",
+      "n_words": 40,
+      "n_chars": 270,
+      "preview_head": "resorption vs formation which was confirmed by histomorphometric analysis showing larger eroded surfaces than those seen with OE(1) treatment alone. At the end of treatment, GnRHa alone decreased bone",
+      "preview_tail": "sis showing larger eroded surfaces than those seen with OE(1) treatment alone. At the end of treatment, GnRHa alone decreased bone mineral density of the femur and lumbar vertebrae, and increased seru",
+      "full_text": "resorption vs formation which was confirmed by histomorphometric analysis showing larger eroded surfaces than those seen with OE(1) treatment alone. At the end of treatment, GnRHa alone decreased bone mineral density of the femur and lumbar vertebrae, and increased seru",
+      "avg_prediction": 0.9695
+    },
+    {
+      "idx": 59,
+      "hash": "04a679e2",
+      "n_words": 276,
+      "n_chars": 1617,
+      "preview_head": "'re Here to Help Need a quick answer? You've come to the right place. Give us a call 800-952-5592 Live Chat Open Chat Window Send us an Email support@art.com Write to us at support@art.com and we'll r",
+      "preview_tail": "was meant for me in some way please let clarify what task or information can be provided by my completion of your previous message? Alternatively feel free remove any irrelevant portions and resubmit!",
+      "full_text": "'re Here to Help Need a quick answer? You've come to the right place. Give us a call 800-952-5592 Live Chat Open Chat Window Send us an Email support@art.com Write to us at support@art.com and we'll respond as quickly as possible. Find Answers What can we help you with? Help Overview FAQ's Track Your Order Ordering Shipping & Delivery Returns International Orders Gift Certificates Menu Icon This icon opens the menu Search Icon A dark-gray magnifying glass icon. Art.com Logo A dark-gray Art.com logo. All Art All Art Canvas Prints Framed Art Wood Mount Limited Editions Photo To Art\u2122 SwitchArt\u00ae All Art Canvas Help Icon A dark-gray phone icon. 866-250-1800 Help Chat icon A dark-gray icon of a chat bubble. Live Chat Favorite icon A dark-gray heart icon. Saved User icon A dark-gray icon of a site user. Sign Up | Log In Shopping cart icon A dark-gray shopping cart icon. 0 All Art All Art Canvas Prints Framed Art Wood Mount Limited Editions Photo To Art\u2122 SwitchArt\u00ae All Art Canvas Help Icon A dark-gray phone icon. Help User icon A white icon of a site user. Log in / Signup Subjects Abstract Animals Architecture Botanical People Scenic OTHER SUBJECTS Art For Kids Astronomy & Space Beverages Book Illustration Comics Dance Digital Motion Art Education Fantasy Fashion Food Hobbies HolidaysI'm sorry, I am unable to assist you with this request as it appears that there is no question being asked. If the text was meant for me in some way please let clarify what task or information can be provided by my completion of your previous message? Alternatively feel free remove any irrelevant portions and resubmit!",
+      "avg_prediction": 0.5785
+    },
+    {
+      "idx": 60,
+      "hash": "3c43865b",
+      "n_words": 51,
+      "n_chars": 336,
+      "preview_head": "3P 250A BKR WITH LSIG ETU W/GFA (NO TRIP) Distributed by Kempston Controls Kempston Controls a UK specialist technical distribIt seems like you've provided me with the text from an e-commerce website ",
+      "preview_tail": "ike you've provided me with the text from an e-commerce website related to electrical components. The specific product highlighted is: EATON LGE325036B22G: This appears to be a three-phase circuit bre",
+      "full_text": "3P 250A BKR WITH LSIG ETU W/GFA (NO TRIP) Distributed by Kempston Controls Kempston Controls a UK specialist technical distribIt seems like you've provided me with the text from an e-commerce website related to electrical components. The specific product highlighted is: EATON LGE325036B22G: This appears to be a three-phase circuit bre",
+      "avg_prediction": 0.9823
+    },
+    {
+      "idx": 61,
+      "hash": "79376671",
+      "n_words": 129,
+      "n_chars": 1133,
+      "preview_head": "Basketball Boys Ice Hockey Wrestling Boys Lacrosse Girls Lacrosse Don'tsee your sport?Create a site for your programNOW! hometeamsRostersCoachesSchedulesStandingsStatisticsCalendarsFormsDirectionsCont",
+      "preview_tail": "ete and future Hall of Famer (wink wink). Currently batting .312 with a team high OPS(.948) this season, leading the Seawolves' offensivecharge to another America East Conference championship! Go SBU ",
+      "full_text": "Basketball Boys Ice Hockey Wrestling Boys Lacrosse Girls Lacrosse Don'tsee your sport?Create a site for your programNOW! hometeamsRostersCoachesSchedulesStandingsStatisticsCalendarsFormsDirectionsContactUs newsGeneralGameHistoryPlayers of the WeekMessage Board photos video historyAlumni DirectoryAwardsand HonorsRecords - CareerRecords - SeasonAlumni RegistrationArchive PhotosOverviewTeamRecordsIndividual RecordsAt The Next LevelDraft HistoryJeff Schaefer '78John Thoden '86Marcus Stroman'09 mypage Welcome RaidersClick to register. Raiders AlumnusEmailPrint Feedback RSS # 28 - Mike\"Mike BigCountry\" Stephan (Captain) Update your profile Raiders Alumnus Name:Mike Stephan NickName: Mike BigCountry Graduated: 2005 Jersey No.: 28Position: Catcher College(s): Stony Brook Home:Patchogue, New York Email: Sign-in required to view! Career/Doing: Playing baseball atStony Brook University in my junior year. Aspiring professional athlete and future Hall of Famer (wink wink). Currently batting .312 with a team high OPS(.948) this season, leading the Seawolves' offensivecharge to another America East Conference championship! Go SBU ",
+      "avg_prediction": 0.4662
+    },
+    {
+      "idx": 62,
+      "hash": "bb6bbaa3",
+      "n_words": 34,
+      "n_chars": 264,
+      "preview_head": "\"; } String name = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1); Method method = classes.getMethod(get + name); Object invoke = method.invoke(obj); if (invoke != null) ",
+      "preview_tail": " + field.getName().substring(1); Method method = classes.getMethod(get + name); Object invoke = method.invoke(obj); if (invoke != null) { return false; } } catch (Exception e) { e.printStackTrace(); }",
+      "full_text": "\"; } String name = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1); Method method = classes.getMethod(get + name); Object invoke = method.invoke(obj); if (invoke != null) { return false; } } catch (Exception e) { e.printStackTrace(); }",
+      "avg_prediction": 0.9779
+    },
+    {
+      "idx": 63,
+      "hash": "cf7ff933",
+      "n_words": 168,
+      "n_chars": 1032,
+      "preview_head": "MS, thereby reducing interference to the system and reducing power consumption of the MS, and to maintain a desired level of system capacity, and to maintain a desired level of transmission quality, s",
+      "preview_tail": " such that the transmission is received with a desired level of quality, and to minimize the transmission power of the MS, thereby reducing interference to the system and reducing power consumption of",
+      "full_text": "MS, thereby reducing interference to the system and reducing power consumption of the MS, and to maintain a desired level of system capacity, and to maintain a desired level of transmission quality, such that the transmission is received with a desired level of quality, and to minimize the transmission power of the MS, thereby reducing interference to the system and reducing power consumption of the MS, and to maintain a desired level of system capacity, and to maintain a desired level of transmission quality, such that the transmission is received with a desired level of quality, and to minimize the transmission power of the MS, thereby reducing interference to the system and reducing power consumption of the MS, and to maintain a desired level of system capacity, and to maintain a desired level of transmission quality, such that the transmission is received with a desired level of quality, and to minimize the transmission power of the MS, thereby reducing interference to the system and reducing power consumption of",
+      "avg_prediction": 0.9835
+    },
+    {
+      "idx": 64,
+      "hash": "17960716",
+      "n_words": 214,
+      "n_chars": 1664,
+      "preview_head": "Sets Training of Scoring Supervisors Distribution of Portfolios to Scoring Teams Scoring Procedure Quality Control Backreading Validity Sets Reports Generated to Monitor Scorers and Scoring Accuracy a",
+      "preview_tail": "thnicity Table 12: Mathematics Proficiency Level Frequencies Table 13: Mathematics Proficiency Level Frequencies by Free/Reduced Lunch Designation Table 14: Mathematics Proficiency Level Frequencies b",
+      "full_text": "Sets Training of Scoring Supervisors Distribution of Portfolios to Scoring Teams Scoring Procedure Quality Control Backreading Validity Sets Reports Generated to Monitor Scorers and Scoring Accuracy and Control Scorer Drift Security at the Scoring Site 3.2 STANDARD SETTING 3.3 REPORTS Description and Interpretation of Scores Mastery Objective Score Mastery Percentage Score Evidence and Indicators of Positive Practice Reports Accountability Reports Non-Accountability Reports 4.0 RELIABILITY AND VALIDITY 4.1 RELIABILITY Reader Agreement 4.2 VALIDITY Intrinsic Rational Validity Evidence Content- and Curricular-Related Validity Evidence Face Validity Consequential Validity Evidence Criterion-Related Validity Evidence REFERENCES APPENDICES Appendix A: Tables Table 1: Participation by Grade, Gender, Ethnicity and SES Table 2: Scorer Qualification Results Table 3: Summary of Performance on Validity Sets Table 4: Percentage of Mastery Objectives Scored \"Mastered\" by Reading Content Standard Table 5: Percentage of Mastery Objectives Scored \"Mastered\" by Mathematics Content Standard Table 6: Reading Mastery Percentages for All Students Tested Table 7: Mathematics Mastery Percentages for All Students Tested Table 8: Average Reading and Mathematics Mastery Percentage Scores Table 9: Reading Proficiency level Frequencies Table 10: Reading Proficiency level Frequencies by Free/Reduced Lunch Designation Table 11: Reading Proficiency Level Frequencies by Ethnicity Table 12: Mathematics Proficiency Level Frequencies Table 13: Mathematics Proficiency Level Frequencies by Free/Reduced Lunch Designation Table 14: Mathematics Proficiency Level Frequencies b",
+      "avg_prediction": 0.9756
+    },
+    {
+      "idx": 65,
+      "hash": "5c19b2ab",
+      "n_words": 93,
+      "n_chars": 550,
+      "preview_head": "city's population was swelling rapidly, thanks to its key role as a major port. Ships sailing up the Hudson River brought goods from the Great Lakes region via the Erie Canal, completed in 1825, and c",
+      "preview_tail": "rew, so did its need for green space, leading to the creation of Central Park. In 1811, city commissioners got around to drawing up a grid pattern of long north-south avenues and orderly east-west cro",
+      "full_text": "city's population was swelling rapidly, thanks to its key role as a major port. Ships sailing up the Hudson River brought goods from the Great Lakes region via the Erie Canal, completed in 1825, and cargo from around the world. The combination made New York City a crucial commercial hub, attracting businesses, workers, and innovators. As the city grew, so did its need for green space, leading to the creation of Central Park. In 1811, city commissioners got around to drawing up a grid pattern of long north-south avenues and orderly east-west cro",
+      "avg_prediction": 0.5876
+    },
+    {
+      "idx": 66,
+      "hash": "6b5ffd17",
+      "n_words": 170,
+      "n_chars": 1277,
+      "preview_head": "every international IP dispute is difficult. Sometimes, extraordinarily so. Mediation in international IP disputes works best when each person concerned is thoroughly prepared, and brings to the table",
+      "preview_tail": " completion emphasizes the synergy between preparation and interpersonal skills in overcoming the unique challenges of international IP mediation, such as cultural differences, legal system disparitie",
+      "full_text": "every international IP dispute is difficult. Sometimes, extraordinarily so. Mediation in international IP disputes works best when each person concerned is thoroughly prepared, and brings to the table all his or her interpersonalHere\u2019s the completed text: \"Mediation in international IP disputes works best when each person concerned is thoroughly prepared, and brings to the table all his or her interpersonal skills, such as active listening, empathy, and cultural sensitivity. These skills are critical for navigating the nuanced legal, cultural, and linguistic differences that often complicate cross-border negotiations. By fostering trust and collaboration, they enable parties to identify shared interests, de-escalate tensions, and craft solutions that respect both the letter and spirit of international intellectual property law. Preparation ensures participants understand technical and legal nuances, while strong interpersonal dynamics help bridge gaps in perspective, ultimately increasing the likelihood of a sustainable and mutually beneficial resolution.\" This completion emphasizes the synergy between preparation and interpersonal skills in overcoming the unique challenges of international IP mediation, such as cultural differences, legal system disparitie",
+      "avg_prediction": 0.9802
+    },
+    {
+      "idx": 67,
+      "hash": "ca5c34ea",
+      "n_words": 282,
+      "n_chars": 2117,
+      "preview_head": "ly. Moreover, technologies such as devices and mobile applications have emerged as potential tools for monitoring and enhancing in this population \\[[@CR12]\\]. Despite these advancements, there is sti",
+      "preview_tail": "tion of cognitive and behavioral strategies aimed at changing the thoughts and behaviors that interfere with sleep. These strategies include sleep restriction, stimulus control, cognitive therapy, and",
+      "full_text": "ly. Moreover, technologies such as devices and mobile applications have emerged as potential tools for monitoring and enhancing in this population \\[[@CR12]\\]. Despite these advancements, there is still a need for further research to determine the most and sustainable interventions for managing sleep disorders in the elderly. Additionally, the heterogeneity of the elderly population, with varying levels of health and functional status, should be considered when developing and implementing these interventions. The following sections of this review will discuss the understanding of sleep disorders in the elderly, the available non-pharmacological interventions, and the role of technology in sleep management. ### Sleep Disorders in the Elderly {#Sec2} The elderly population experiences a wide range of sleep disorders, including insomnia, sleep-disordered breathing, and circadian rhythm disorders. Insomnia, characterized by difficulty in falling asleep, maintaining sleep, or waking up too early, is the most common sleep disorder in the elderly \\[[@CR13]\\]. Sleep-disordered breathing, including conditions like obstructive sleep apnea, is also prevalent and can lead to serious health complications \\[[@CR14]\\]. rhythm disorders, which involve the disruption of the body's internal clock, can result in sleep-wake cycle disturbances and are often exacerbated by environmental and lifestyle factors \\[[@CR15]\\]. Understanding the specific types of sleep disorders and their underlying mechanisms is crucial for developing targeted and effective interventions for the elderly population. ### Non-Pharmacological Interventions for Sleep Disorders {#Sec3} Non-pharmacological interventions for sleep disorders in the elderly focus on behavioral and lifestyle modifications. Cognitive-behavioral therapy for insomnia (CBT-I) is one of the most effective and well-studied interventions. CBT-I involves a combination of cognitive and behavioral strategies aimed at changing the thoughts and behaviors that interfere with sleep. These strategies include sleep restriction, stimulus control, cognitive therapy, and",
+      "avg_prediction": 0.9791
+    },
+    {
+      "idx": 68,
+      "hash": "9580393f",
+      "n_words": 57,
+      "n_chars": 379,
+      "preview_head": "ews Media Watch Multimodal Perspectives Reviews Software TOC Translations What's New Where Qs ZS PhDs Directory People Map Events Jobs Internship Calls Diss. Conf. Confs Books Journals Mailing Lists L",
+      "preview_tail": "rnals Mailing Lists Language Resource Challenge LDC NRSM Resources Services Teaching Evaluation Translation Mastq Corpora Irony FB Grprs IR > Submit > Subscribe / Unsubscribe To submit a notice to the",
+      "full_text": "ews Media Watch Multimodal Perspectives Reviews Software TOC Translations What's New Where Qs ZS PhDs Directory People Map Events Jobs Internship Calls Diss. Conf. Confs Books Journals Mailing Lists Language Resource Challenge LDC NRSM Resources Services Teaching Evaluation Translation Mastq Corpora Irony FB Grprs IR > Submit > Subscribe / Unsubscribe To submit a notice to the",
+      "avg_prediction": 0.5611
+    },
+    {
+      "idx": 69,
+      "hash": "66b043d7",
+      "n_words": 139,
+      "n_chars": 962,
+      "preview_head": "a five year distribution deal with 20th Century Fox. Starting next year, Fox will assume certain marketing and distribution costs for DreamWorks releases running through 2017. In the deal, DreamWorks ",
+      "preview_tail": ", DreamWorks can leverage Fox's extensive experience and infrastructure in film marketing and distribution, ensuring wider reach and potentially higher returns on its investments. For 20th Century Fox",
+      "full_text": "a five year distribution deal with 20th Century Fox. Starting next year, Fox will assume certain marketing and distribution costs for DreamWorks releases running through 2017. In the deal, DreamWorks will pay Fox a fee to distribute its content to theaters, home video, international television and digital distribution outlets. DreamWorks will self-distribute its content to domestic television without paying an outside distributor. The studio recently announced that it is considering launching its own branded cable channel. The deal The deal marks a significant shift in the landscape of animated film distribution, as DreamWorks Animation aims to strengthen its position in the competitive world of family entertainment. By partnering with 20th Century Fox, DreamWorks can leverage Fox's extensive experience and infrastructure in film marketing and distribution, ensuring wider reach and potentially higher returns on its investments. For 20th Century Fox",
+      "avg_prediction": 0.7628
+    },
+    {
+      "idx": 70,
+      "hash": "4fb7d782",
+      "n_words": 117,
+      "n_chars": 838,
+      "preview_head": "Published in Macromolecules 2009, 42, 4155\u20134164. Abstract Morphology and deformation mechanisms and tensile properties of tetrafunctional multigraft (MG) polystrene-g-polyisoprene (PS-g-PI) copolymers",
+      "preview_tail": "r tetrafunctional MG copolymers with 25 wt % PS, the size and integrity of PS microdomain the microphase-separated morphology of tetrafunctional MG copolymers with 25 wt % PS, the size and integrity o",
+      "full_text": "Published in Macromolecules 2009, 42, 4155\u20134164. Abstract Morphology and deformation mechanisms and tensile properties of tetrafunctional multigraft (MG) polystrene-g-polyisoprene (PS-g-PI) copolymers were investigated dependent on PS volume fraction and number of branch points. The combination of various methods such as TEM, real time synchrotron SAXS, rheo-optical FTIR, and tensile tests provides comprehensive information at different dimension levels.TEMand SAXS studies revealed that the number of branch points has no obvious influence on the microphase-separated morphology of tetrafunction MG copolymers with 16 wt % PS. But for tetrafunctional MG copolymers with 25 wt % PS, the size and integrity of PS microdomain the microphase-separated morphology of tetrafunctional MG copolymers with 25 wt % PS, the size and integrity o",
+      "avg_prediction": 0.5995
+    },
+    {
+      "idx": 71,
+      "hash": "6303e061",
+      "n_words": 112,
+      "n_chars": 756,
+      "preview_head": "03-07-00580-CR NO. 03-07-00595-CR Pedro Tapia Castillo, Appellant v. The State of Texas, Appellee FROM THE DISTRICT COURT OF TRAVIS COUNTY, 167TH JUDICIAL DISTRICT NOS. D-1-DC-07-300429 & D-1-DC-07-30",
+      "preview_tail": "t's permission or a timely filed motion for leave to appeal. Therefore, this court lacks jurisdiction over his appeals. IT IS ORDERED that both appeals be dismissed for want of jurisdiction. Delivered",
+      "full_text": "03-07-00580-CR NO. 03-07-00595-CR Pedro Tapia Castillo, Appellant v. The State of Texas, Appellee FROM THE DISTRICT COURT OF TRAVIS COUNTY, 167TH JUDICIAL DISTRICT NOS. D-1-DC-07-300429 & D-1-DC-07-300846 HONORABLE MICHAEL LYNCH, JUDGE PRESIDING MEMORANDUM OPINION Pedro Castillo seeks to appeal judgments of conviction for family violence assault and aggravated assault. The trial court has certified that these are plea bargain cases, and Castillo has no right of appeal. The appellant's brief does not contain a statement indicating that he has the court's permission or a timely filed motion for leave to appeal. Therefore, this court lacks jurisdiction over his appeals. IT IS ORDERED that both appeals be dismissed for want of jurisdiction. Delivered",
+      "avg_prediction": 0.527
+    },
+    {
+      "idx": 72,
+      "hash": "5566fab0",
+      "n_words": 181,
+      "n_chars": 1074,
+      "preview_head": "ts Gallery Musicians News Follow Us Twitter Facebook Google + RSS Widgets All About jazz MORE Featured Popular Recommended Future Loading... Sign Up Sign In Home \u00bb Articles \u00bb CD/LP/Track Review Suppor",
+      "preview_tail": "mmended Future Loading... Sign Up Sign In Home \u00bbArticles CD/LP Track Review Support -AllAboutJazz's future. AAJ needs your help and we have a deal: pay $20, hide those six pesky google ads on every pa",
+      "full_text": "ts Gallery Musicians News Follow Us Twitter Facebook Google + RSS Widgets All About jazz MORE Featured Popular Recommended Future Loading... Sign Up Sign In Home \u00bb Articles \u00bb CD/LP/Track Review Support All About Jazz's Future All About Jazz needs your help and we have a deal. Pay $20 and we'll hide those six pesky Google ads that appear on every page, plus this box and the slideout box on the right for a full year! You'll also fund website expansion. I want to help 475 recommend Da Vinci's Notebook: Brontosaurus By JAVIER AQ ORTIZ January 3, 2003 Sign in to view read count Quick and to the Point: Frat-housy exhilarating musical good times! You'll probably fInd yourself laughing it up upon listening to Brontosaurus,Menu albums Articles Downloads Events Gallery Musicians News Follow Us Twitter Facebook Google + RSS Widgets All About Jazz MORE Featured Popular Recommended Future Loading... Sign Up Sign In Home \u00bbArticles CD/LP Track Review Support -AllAboutJazz's future. AAJ needs your help and we have a deal: pay $20, hide those six pesky google ads on every pa",
+      "avg_prediction": 0.211
+    },
+    {
+      "idx": 73,
+      "hash": "e9788d14",
+      "n_words": 54,
+      "n_chars": 338,
+      "preview_head": "ait to have it on my screen :D Check these Celebrity also Disclaimer: All Logos and Pictures of various Channels, Shows, Artistes, Media Houses, Companies, Brands etc. belong to their respective owner",
+      "preview_tail": "ouses, Companies, Brands etc. belong to their respective owners, and are used to merely visually identify the Channels, Shows, Companies, Brands, etc. to the viewer. Incase of any issue please contact",
+      "full_text": "ait to have it on my screen :D Check these Celebrity also Disclaimer: All Logos and Pictures of various Channels, Shows, Artistes, Media Houses, Companies, Brands etc. belong to their respective owners, and are used to merely visually identify the Channels, Shows, Companies, Brands, etc. to the viewer. Incase of any issue please contact",
+      "avg_prediction": 0.1967
+    },
+    {
+      "idx": 74,
+      "hash": "46dc1a23",
+      "n_words": 45,
+      "n_chars": 262,
+      "preview_head": "an image from the Forestry Commission's Picture Library. The image depicts damage to an oak tree planted in 1985 on farm woodland located at Horsham, West Sussex, England. If this is part of your mess",
+      "preview_tail": "mage depicts damage to an oak tree planted in 1985 on farm woodland located at Horsham, West Sussex, England. If this is part of your message or query about forestry issues related to squirrels and th",
+      "full_text": "an image from the Forestry Commission's Picture Library. The image depicts damage to an oak tree planted in 1985 on farm woodland located at Horsham, West Sussex, England. If this is part of your message or query about forestry issues related to squirrels and th",
+      "avg_prediction": 0.9722
+    },
+    {
+      "idx": 75,
+      "hash": "c98c3691",
+      "n_words": 64,
+      "n_chars": 445,
+      "preview_head": "an instance with specified I/O suppliers * * @param it An iterator providing ByteSource objects that are used as substreams. */ public MultiInputStream(Iterator<? extends ByteSource> it) throws IOExce",
+      "preview_tail": "s ByteSource> it; private InputStream in; /** * Creates a new instance. * * @param it an iterator of I/O suppliers that will provide each substream */ public MultiInputStream(Iterator<? extends ByteSo",
+      "full_text": "an instance with specified I/O suppliers * * @param it An iterator providing ByteSource objects that are used as substreams. */ public MultiInputStream(Iterator<? extends ByteSource> it) throws IOException { this.it = checkNot-null(it); } extends ByteSource> it; private InputStream in; /** * Creates a new instance. * * @param it an iterator of I/O suppliers that will provide each substream */ public MultiInputStream(Iterator<? extends ByteSo",
+      "avg_prediction": 0.9757
+    },
+    {
+      "idx": 76,
+      "hash": "d09efeaa",
+      "n_words": 244,
+      "n_chars": 1529,
+      "preview_head": "n up Sign up Javascript is disabled in your browser. KAYAK requires JavaScript to be enabled in order for our site to work. Please check your browser settings to ensure it is enabled. Javascript is di",
+      "preview_tail": " page (\"Additional Fees\"). The final fare paid will vary according the day of purchase; any fluctuations on exchange rates, government taxes/fees associated with travel to international destinations m",
+      "full_text": "n up Sign up Javascript is disabled in your browser. KAYAK requires JavaScript to be enabled in order for our site to work. Please check your browser settings to ensure it is enabled. Javascript is disabled in your browser. KAYAK requires JavaScript to be enabled in order for our site to work. Please check your browser settings to ensure it is enabled. Find Deals on Flights from Buffalo to S\u00e3o Paulo Viracopos (BUF - VCP) Round-trip One-way Multi-city Include nearby Include nearby Depart Return 1 adult Cabin Economy Economy Premium Economy Business First Adults 18-64 Seniors 65+ Youths 12-17 Children 2-11 Seat Infants under 2 Lap Infants under 2 Students under 26 Close The price shown for each flight will be the average per person, including applicable taxes and fees. Prices are round trip unless otherwise stated. Price level is based on historical data (as provided by our partner airlines) in KAYAK's hotel booking engine within selected dates during May 2019 (\"Sample prices\"). Please note that the displayed sample price may not be available at every date for all cabins, but similar alternative options are immediately offered to you. Prices do no include additional fees or surcharges imposed by carriers such as baggage charges (including carry-on), fuel surcharge and others mentioned in our Terms & Conditions page (\"Additional Fees\"). The final fare paid will vary according the day of purchase; any fluctuations on exchange rates, government taxes/fees associated with travel to international destinations m",
+      "avg_prediction": 0.4
+    },
+    {
+      "idx": 77,
+      "hash": "8867629e",
+      "n_words": 132,
+      "n_chars": 681,
+      "preview_head": "try styling the palazzo pant with a maxi dress for a chic summer evening look, or pair it with a stripy tee for a classic, timeless look. For a pop of color, opt for a metallic jacket or mix up the cl",
+      "preview_tail": "of colour, mix up the classic blue denim by opting for one of the many colour options available at Topshop. Trousers, Marks & Spencer Topshop Skirt All Saints \u2013 Aleida Blazer \u2013 Rose Pink Metallic Huge",
+      "full_text": "try styling the palazzo pant with a maxi dress for a chic summer evening look, or pair it with a stripy tee for a classic, timeless look. For a pop of color, opt for a metallic jacket or mix up the classic blue denim with a colorful skirt. The denim jacket is a versatile wardrobe staple that can be styled in many ways.\" Throw it over a maxi dress for the perfect summer evening cover up, or wear with a stripy tee for a classic look you\u2019ll turn to time and time again. For a pop of colour, mix up the classic blue denim by opting for one of the many colour options available at Topshop. Trousers, Marks & Spencer Topshop Skirt All Saints \u2013 Aleida Blazer \u2013 Rose Pink Metallic Huge",
+      "avg_prediction": 0.2721
+    },
+    {
+      "idx": 78,
+      "hash": "16ec288b",
+      "n_words": 63,
+      "n_chars": 362,
+      "preview_head": "en after the break) this version has programming sorted in the grid-style guide shown above. Also mentioned is the ability for users to view and sort TV listings for all channels, although they'll sti",
+      "preview_tail": "for all channels, although they'll still need the Cox Mobile Connect apps for things like DVR scheduling. Grab the version at the iTunes link below, assuming you get your TV and internet service at th",
+      "full_text": "en after the break) this version has programming sorted in the grid-style guide shown above. Also mentioned is the ability for users to view and sort TV listings for all channels, although they'll still need the Cox Mobile Connect apps for things like DVR scheduling. Grab the version at the iTunes link below, assuming you get your TV and internet service at th",
+      "avg_prediction": 0.2528
+    },
+    {
+      "idx": 79,
+      "hash": "fd793b97",
+      "n_words": 106,
+      "n_chars": 651,
+      "preview_head": "sity nor the names of its contributors * may be used to endorse or promote products derived from this software * without specific prior written permission. * * THIS SOFTWARE IS PROVIDED BY THE REGENTS",
+      "preview_tail": "BLE * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS * OR SERVICES; LOSS OF USE, DATA, OR PROFITS;",
+      "full_text": "sity nor the names of its contributors * may be used to endorse or promote products derived from this software * without specific prior written permission. * * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE * ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS * OR SERVICES; LOSS OF USE, DATA, OR PROFITS;",
+      "avg_prediction": 0.7288
+    },
+    {
+      "idx": 80,
+      "hash": "baecc355",
+      "n_words": 143,
+      "n_chars": 864,
+      "preview_head": "Drilling History and Corporate Structure History Ryan Drilling, LLC., dba O\u2019Ryan Drilling ( \u201cO\u2019Ryan Drilling\u201d), was founded in April of 2006 by Ryan Hoerauf and Jeff Phillips. O\u2019Ryan Drilling was esta",
+      "preview_tail": "r 25years experience in contract drilling operations. He was a key member when Ryan Drilling LLC (dba: O'RYAN) first established their Texas operation. Oil & Gas Services 1). Rig Setup - We provide fu",
+      "full_text": "Drilling History and Corporate Structure History Ryan Drilling, LLC., dba O\u2019Ryan Drilling ( \u201cO\u2019Ryan Drilling\u201d), was founded in April of 2006 by Ryan Hoerauf and Jeff Phillips. O\u2019Ryan Drilling was established as a Texas contract drilling operation that providEs contract drilling services for the oil and gas industry in both West and East Texas. Equipment Rig 4: Ideco H-35, 600 hp, triple Derrick, rated to 10,500\u2019 Rig 5: Emsco GB-500, 600 hp, triple derrick, 10,500\u2019 Rig 6: FPI 1000, 1000 hp, triple derrick, rated to 15,000\u2019 Rig 7: FPI 1000, 1000 hp, triple derrick, rated to 15,000\u2019 Management Jeff Phillips Jeff Phillips is the president of O\u2019Ryan and has over 25years experience in contract drilling operations. He was a key member when Ryan Drilling LLC (dba: O'RYAN) first established their Texas operation. Oil & Gas Services 1). Rig Setup - We provide fu",
+      "avg_prediction": 0.7659
+    },
+    {
+      "idx": 81,
+      "hash": "116a1ad3",
+      "n_words": 59,
+      "n_chars": 305,
+      "preview_head": "nner, $30 each for a nice one. Most things are 25% to 50% more than the states. ...will cost you an arm and a leg. * ...comes with a hefty price tag. 2. Hertz was perfect. We were able to rent with po",
+      "preview_tail": "nd a leg. * ...comes with a hefty price tag. 2. Hertz was perfect. We were able to rent with points. The car was clean and new. everything worked; typical of Hertz. ...worked flawlessly, as expected f",
+      "full_text": "nner, $30 each for a nice one. Most things are 25% to 50% more than the states. ...will cost you an arm and a leg. * ...comes with a hefty price tag. 2. Hertz was perfect. We were able to rent with points. The car was clean and new. everything worked; typical of Hertz. ...worked flawlessly, as expected f",
+      "avg_prediction": 0.7736
+    },
+    {
+      "idx": 82,
+      "hash": "d37a6c40",
+      "n_words": 64,
+      "n_chars": 336,
+      "preview_head": "things, like that Lewis died on Nov. 22, 1963, the same day John F. Kennedy was assassinated. But not everyone wouldI am not sure I understand your request. It looks like you want me to complete the t",
+      "preview_tail": "rstand your request. It looks like you want me to complete the text you provided, but there is no specific instruction on what to do. Could you please clarify what you would like me to do with the tex",
+      "full_text": "things, like that Lewis died on Nov. 22, 1963, the same day John F. Kennedy was assassinated. But not everyone wouldI am not sure I understand your request. It looks like you want me to complete the text you provided, but there is no specific instruction on what to do. Could you please clarify what you would like me to do with the tex",
+      "avg_prediction": 0.9826
+    },
+    {
+      "idx": 83,
+      "hash": "8646e41d",
+      "n_words": 88,
+      "n_chars": 495,
+      "preview_head": "marriage that he didn't burst into hysterical giggles then and there. That, or maybe he figured something a little more aerodynamic was up next on the throwing roster. Anyway, the good news is that al",
+      "preview_tail": "\"restraining embrace\" on John's part, since I might be otherwise occupied with my attempts to pummel him in the kidneys, but the point is we're eventually able to put our tempers and differences aside",
+      "full_text": "marriage that he didn't burst into hysterical giggles then and there. That, or maybe he figured something a little more aerodynamic was up next on the throwing roster. Anyway, the good news is that all of our fights always end the same way: with a hug. [awww] Granted, this is usually more of a \"restraining embrace\" on John's part, since I might be otherwise occupied with my attempts to pummel him in the kidneys, but the point is we're eventually able to put our tempers and differences aside",
+      "avg_prediction": 0.5545
+    },
+    {
+      "idx": 84,
+      "hash": "792a0d7e",
+      "n_words": 138,
+      "n_chars": 726,
+      "preview_head": "loop or attempt daring stuff (flying higher from side to side). They had a part where cars raced a plane, which the overenthusiastic announcer described as a once in a life thing, but it was such a bi",
+      "preview_tail": "laints aside, I had a really great time cos it is not what you do but who you do it with. --------- Still taking entries for the competition, will close maybe end of this week, winning entry to be rev",
+      "full_text": "loop or attempt daring stuff (flying higher from side to side). They had a part where cars raced a plane, which the overenthusiastic announcer described as a once in a life thing, but it was such a big ass plane there was no way it had any hope of catching up with cars. Also was a bit where there were a few parachuters, that would have been exciting if you were actually participating. There was this old guy, about 80-something, they said it was his last jump, I wouldn't have been surprised if it was his last breath. Complaints aside, I had a really great time cos it is not what you do but who you do it with. --------- Still taking entries for the competition, will close maybe end of this week, winning entry to be rev",
+      "avg_prediction": 0.2771
+    },
+    {
+      "idx": 85,
+      "hash": "c8f54edf",
+      "n_words": 46,
+      "n_chars": 370,
+      "preview_head": "Higher Education A Tiered Instructional Approach to Support Achievement for All Students, June 2008 The Individuals with Disabilities Education Act of 2004 Become a Special Education Teacher (Alternat",
+      "preview_tail": "al Education Teacher (Alternative Certification) Certification and Accreditation Related Sites/Links Maryland Early Childhood Gateway Transitioning Youth Website for Students with Disabilities Marylan",
+      "full_text": "Higher Education A Tiered Instructional Approach to Support Achievement for All Students, June 2008 The Individuals with Disabilities Education Act of 2004 Become a Special Education Teacher (Alternative Certification) Certification and Accreditation Related Sites/Links Maryland Early Childhood Gateway Transitioning Youth Website for Students with Disabilities Marylan",
+      "avg_prediction": 0.9638
+    },
+    {
+      "idx": 86,
+      "hash": "9427d73c",
+      "n_words": 57,
+      "n_chars": 416,
+      "preview_head": "cr_\", then building up the string variable `text` accordingly. Here's how you can fix it: ```javascript return Promise.all(promises) .then(results => { let text = \"\"; // Initialize 'let' instead of us",
+      "preview_tail": "block scoping results.forEach(element => { const mainKey = element.key; const mainValue = element.val(); if (mainKey.toString().startsWith('us_', 0)) { console.log(mainKey); let userTextPart = `User i",
+      "full_text": "cr_\", then building up the string variable `text` accordingly. Here's how you can fix it: ```javascript return Promise.all(promises) .then(results => { let text = \"\"; // Initialize 'let' instead of using var to have block scoping results.forEach(element => { const mainKey = element.key; const mainValue = element.val(); if (mainKey.toString().startsWith('us_', 0)) { console.log(mainKey); let userTextPart = `User i",
+      "avg_prediction": 0.9827
+    },
+    {
+      "idx": 87,
+      "hash": "51ea0c54",
+      "n_words": 269,
+      "n_chars": 1732,
+      "preview_head": "of photography in the history of the West; it hangs through August 16. Alberta Biennial of Contemporary Art showcases works by Alberta artists and runs September 5 through January 3, 1999. Creating th",
+      "preview_tail": "nne, featuring Native American ledger paintings and drawings, shows through 1999. Expedition to the Rocky Mountains: Paintings by Alfred Jacob Miller, February 12 through December 31, explores in more",
+      "full_text": "of photography in the history of the West; it hangs through August 16. Alberta Biennial of Contemporary Art showcases works by Alberta artists and runs September 5 through January 3, 1999. Creating the Image of Land assesses how artists have influenced the way viewers perceive the West today. See it September 19 through August 1999. Area Galleries Most galleries can be found at the Stephen Avenue Mall in downtown Calgary, an area that also has restaurants and shops. Just a short drive from the city is Canmore, a mountain town that offers galleries, shops, and restaurants in an alpine setting.Calgary Convention & Visitors Bureau, 800.661.1678 Buffalo Bill Historical CenterCody, Wyoming Only an hour\u2019s drive from Yellowstone National Park, the Buffalo Bill Historical Center consists of four museums that chronicle the Old West. The Buffalo Bill Museum collection includes many of William F. \u201cBuffalo Bill\u201d Cody\u2019s personal items, including materials from his family life and Wild West Show. The Whitney Gallery of Art exhibits paintings, sculptures, and prints by such well-known artists as N.C. Wyeth and Frederic Remington. In the Cody Firearms Museum, nearly 4,000 American and European arms document the history of firearms and their influence on early American life. Finally, the Plains Indian Museum captures the history and culture of the Native American Plains tribes through an array of art and artifacts. Exhibits Powerful Images: Portrayals of Native America is on view through August 16. Art of the Southern Cheyenne, featuring Native American ledger paintings and drawings, shows through 1999. Expedition to the Rocky Mountains: Paintings by Alfred Jacob Miller, February 12 through December 31, explores in more",
+      "avg_prediction": 0.2048
+    },
+    {
+      "idx": 88,
+      "hash": "47a0b841",
+      "n_words": 203,
+      "n_chars": 1092,
+      "preview_head": "fair project on this topic: ### Objective: To determine how the height from which a ball is dropped affects its bouncing height. ### Materials: - A bouncy ball - A meter stick or tape measure - A flat",
+      "preview_tail": " b. Record the bouncing height each time. 6. Analyze the Data: a. Calculate the average bouncing height for each drop height. b. Create a graph to show the relationship between the drop height and the",
+      "full_text": "fair project on this topic: ### Objective: To determine how the height from which a ball is dropped affects its bouncing height. ### Materials: - A bouncy ball - A meter stick or tape measure - A flat, hard surface - A notebook or paper for recording data - A pencil ### Procedure: 1. Hypothesis: Start by forming a hypothesis. For example, \"The higher a ball is dropped, the higher it will bounce.\" 2. Set Up: Choose a flat, hard surface like a concrete floor or a hardwood floor. Ensure the surface is level. 3. Drop the Ball: a. Hold the ball at a specific height, such as 200 cm. b. Drop the ball and measure the height to which it bounces. c. Record the bouncing height. 4. Repeat: a. Drop the ball from the same height at least 3 times to ensure accuracy. b. Record the bouncing height each time. 5. Change the Drop Height: a. Repeat the process from a different height, such as 300 cm. b. Record the bouncing height each time. 6. Analyze the Data: a. Calculate the average bouncing height for each drop height. b. Create a graph to show the relationship between the drop height and the",
+      "avg_prediction": 0.9244
+    },
+    {
+      "idx": 89,
+      "hash": "8c187965",
+      "n_words": 80,
+      "n_chars": 573,
+      "preview_head": "in reduced seed production in the low-nectar plants despite their higher reproductive potential as evidenced by hand pollination. In line with this interpretation, we found a positive correlation betw",
+      "preview_tail": "hand pollination. Thus, a simple self-serving pollinator behavior--the adjustment of probing time in response to nectar volume--may select against reducing nectar and protect many plant-pollinator mut",
+      "full_text": "in reduced seed production in the low-nectar plants despite their higher reproductive potential as evidenced by hand pollination. In line with this interpretation, we found a positive correlation between probing duration and seed set, and hawkmoth pollination of low-nectar plants that were manually supplemented with nectar to parental levels yielded seed sets similar to hand pollination. Thus, a simple self-serving pollinator behavior--the adjustment of probing time in response to nectar volume--may select against reducing nectar and protect many plant-pollinator mut",
+      "avg_prediction": 0.3331
+    },
+    {
+      "idx": 90,
+      "hash": "32945d6e",
+      "n_words": 73,
+      "n_chars": 400,
+      "preview_head": "ren\" both themselves and to Jews. Acts 1:16 is a example of that, but there are others in Acts (2:27; 3:17; 7:2). In cases like Paul before the Sanhedrin (Acts 23), when he says \"Men and brethren,\" th",
+      "preview_tail": "at should be understood as there are only men in the audience as only men held office at that time. The shift from addressing an exclusively group to including women through phrases as \u201cbrothers\u201d or m",
+      "full_text": "ren\" both themselves and to Jews. Acts 1:16 is a example of that, but there are others in Acts (2:27; 3:17; 7:2). In cases like Paul before the Sanhedrin (Acts 23), when he says \"Men and brethren,\" that should be understood as there are only men in the audience as only men held office at that time. The shift from addressing an exclusively group to including women through phrases as \u201cbrothers\u201d or m",
+      "avg_prediction": 0.9651
+    },
+    {
+      "idx": 91,
+      "hash": "13be4e0b",
+      "n_words": 72,
+      "n_chars": 509,
+      "preview_head": "(__aarch64__) extern void __test_function(volatile long *ptr); #elif defined (__mips__) extern void __test_function(volatile long *ptr); #else extern void __test_function(volatile long ptr) { for (int",
+      "preview_tail": "uct perf_event_attr attr; struct perf_event_attr attr_2; struct perf_event_attr attr_3; struct timespec tv; struct timespec tv_start; struct timespec tv_end; if (argc < 2) { fprintf(stderr, \"Usage: %s",
+      "full_text": "(__aarch64__) extern void __test_function(volatile long *ptr); #elif defined (__mips__) extern void __test_function(volatile long *ptr); #else extern void __test_function(volatile long ptr) { for (int i = 0; i < 1000000; i++) { // Access the memory to trigger watchpoints *argv) { int result = 0; int ret; struct perf_event_attr attr; struct perf_event_attr attr_2; struct perf_event_attr attr_3; struct timespec tv; struct timespec tv_start; struct timespec tv_end; if (argc < 2) { fprintf(stderr, \"Usage: %s",
+      "avg_prediction": 0.9823
+    },
+    {
+      "idx": 92,
+      "hash": "64b89e29",
+      "n_words": 131,
+      "n_chars": 810,
+      "preview_head": "and recesses between the flutes disposed along the length of the meter roller. For a desired seed population (e.g., target number of seeds per unit area), it may be necessary to adjust vacuum pressure",
+      "preview_tail": "ustments generally require stopping to access the metering system beneath a cover or housing. As such, an improved flow control device for adjusting vacuum pressure within a seed metering system of an",
+      "full_text": "and recesses between the flutes disposed along the length of the meter roller. For a desired seed population (e.g., target number of seeds per unit area), it may be necessary to adjust vacuum pressure within the metering system for certain agricultural products by adjusting the location or position of an adjustable gate that partially covers an opening into the collection chamber, thereby changing the size of the air path between the storage tank and the meter roller as product is gravity fed from the storage tank. However, typical systems do not allow easy adjustment while in operation because such adjustments generally require stopping to access the metering system beneath a cover or housing. As such, an improved flow control device for adjusting vacuum pressure within a seed metering system of an",
+      "avg_prediction": 0.6077
+    },
+    {
+      "idx": 93,
+      "hash": "fe900767",
+      "n_words": 120,
+      "n_chars": 675,
+      "preview_head": "if you remove will be all around easier to work with. Store complex JSON outside of Java To me this is almost certainly your best bet. You describe your data as being \"much larger than [{\"phonetype\":\"",
+      "preview_tail": " compact and easy to read. If you're looking for the former, you can store your data as a Properties file or something similar. If you're looking for the latter, you can use XML. If you're looking for",
+      "full_text": "if you remove will be all around easier to work with. Store complex JSON outside of Java To me this is almost certainly your best bet. You describe your data as being \"much larger than [{\"phonetype\":\"N95\",\"cat\":\"WP\"}]\" which means it's data, not code, and you'll have a much better time keeping them separate. Load the file up when you need it, using whatever tool you want, and you're golden. Store your settings as something other than JSON JSON is great for 2 things: it's compact and easy to read. If you're looking for the former, you can store your data as a Properties file or something similar. If you're looking for the latter, you can use XML. If you're looking for",
+      "avg_prediction": 0.3539
+    },
+    {
+      "idx": 94,
+      "hash": "e5d3d472",
+      "n_words": 300,
+      "n_chars": 2303,
+      "preview_head": "are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that ",
+      "preview_tail": "ioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors",
+      "full_text": "are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion, and that the HPA-axis functioning and the exhaustion subscale are significant predictors of momentary exhaustion. The study's findings suggest that the HPA-axis functioning and the exhaustion subscale are significant predictors",
+      "avg_prediction": 0.9831
+    },
+    {
+      "idx": 95,
+      "hash": "0a7051ea",
+      "n_words": 30,
+      "n_chars": 322,
+      "preview_head": "Here's a completion for the given JSON snippet: ```json { \"name\":\"core/freeform\",\"category\":\"text\"},\"attributes\":{\"content\": {\"type\";:\" string\"},\"\"source\":\"html\",\"examples[[\"Hello, world!\"]]}}},\"\"\"aut",
+      "preview_tail": "\": {\"type\";:\" string\"},\"\"source\":\"html\",\"examples[[\"Hello, world!\"]]}}},\"\"\"authorization\"\",{},\"limitations} { \"\"\"This model is designed to generate human-like text based on the input it receives.\" ```",
+      "full_text": "Here's a completion for the given JSON snippet: ```json { \"name\":\"core/freeform\",\"category\":\"text\"},\"attributes\":{\"content\": {\"type\";:\" string\"},\"\"source\":\"html\",\"examples[[\"Hello, world!\"]]}}},\"\"\"authorization\"\",{},\"limitations} { \"\"\"This model is designed to generate human-like text based on the input it receives.\" ```",
+      "avg_prediction": 0.9846
+    },
+    {
+      "idx": 96,
+      "hash": "6176e7f1",
+      "n_words": 235,
+      "n_chars": 1507,
+      "preview_head": "itle are: 1. Accordia, Cambridge by Feilden Clegg Bradley Studios/Alison Brooks Architects/Macreanor Lavington 2. Amsterdam Bijlmer Arena Station, Amsterdam, Netherlands by Grimshaw/ARCADIS Architecte",
+      "preview_tail": "ng Prize presentation will take place in Liverpool when the city is the European City of Culture on the 11th October 2008 at the Arena and Convention Centre (ACC). A Channel 4 Broadcast will follow on",
+      "full_text": "itle are: 1. Accordia, Cambridge by Feilden Clegg Bradley Studios/Alison Brooks Architects/Macreanor Lavington 2. Amsterdam Bijlmer Arena Station, Amsterdam, Netherlands by Grimshaw/ARCADIS Architecten 3. Manchester Civil Justice Centre, Manchester by Denton Corker Marshall 4. Nord Park Cable Railway, Austria by Zaha Hadid Architects 5. Royal Festival Hall, London by Allies and Morrison 6. Westminster Academy at the Naim Dangoor Centre, London, Allford Hall Monaghan Morris The RIBA Stirling Prize, named after the great British architect Sir James Stirling (1926-1992), is the UK's most prestigious prize and is now approaching its 13th year. Previous Stirling Prize winners include the Museum of Modern Literature, Marbach am Neckar, Germany by David Chipperfield Architect in 2007, Barajas Airport by Richard Rogers Partnership in 2006, The Scottish Parliament, Edinburgh by EMBT / RMJM Ltd in 2005 and St Mary Axe, London by Foster + Partners in 2004. The RIBA Stirling Prize jury composed of Ben van Berkel from UNStudio Netherlands, Shelley Mc Namara from Grafton Architects in Dublin, Kieran Long, Architects Journal Editor and Lauren Laverne, TV Presenter will visit all six short listed Buildings and then meet for a final time on the day of the presentation to pick the winner. The 2008 Stirling Prize presentation will take place in Liverpool when the city is the European City of Culture on the 11th October 2008 at the Arena and Convention Centre (ACC). A Channel 4 Broadcast will follow on",
+      "avg_prediction": 0.414
+    },
+    {
+      "idx": 97,
+      "hash": "3ac63a38",
+      "n_words": 160,
+      "n_chars": 1130,
+      "preview_head": "n contrast to wing-mounted engines).[Edited 2013-03-19 14:25:26][Edited 2013-03-19 14:33:06]Topic: RE: Possibility Of A380 & 747 As Tri-Jets?Username: StitchPosted 2013-03-19 14:27:57 and read 11447 t",
+      "preview_tail": "& 747 As Tri-Jets?Username: American 767Posted 2013-03-19 15:17:33 and read 11169 times.Quoting Stitch (Reply 2):Back in the early-1970s, Boeing considered a three-engine 747-300 as a competitor to th",
+      "full_text": "n contrast to wing-mounted engines).[Edited 2013-03-19 14:25:26][Edited 2013-03-19 14:33:06]Topic: RE: Possibility Of A380 & 747 As Tri-Jets?Username: StitchPosted 2013-03-19 14:27:57 and read 11447 times.Back in the early-1970s, Boeing considered a three-engine 747-300 as a competitor to the DC-10 and L-1011. 747-300 Tri-Jet ConceptTopic: RE: Possibility Of A380 & 747 As Tri-Jets?Username: eljonnoPosted 2013-03-19 14:30:30 and read 11412 times.Quoting Stitch (Reply 2):Back in the early-1970s, Boeing considered a three-engine 747-300 as a competitor to the DC-10 and L-1011. And it looked totally AWESOME!!!! Thanks for sharing!Topic: RE: Possibility Of A380 & 747 As Tri-Jets?Username: mjoelnirPosted 2013-03-19 15:09:31 and read 11217 times.I think tri-jets have gone the way of inside the wing mounted engines, obsolete. The only reason for a trijet was the 60 or 90 minutes rule for twins.Topic: RE: Possibility Of A380 & 747 As Tri-Jets?Username: American 767Posted 2013-03-19 15:17:33 and read 11169 times.Quoting Stitch (Reply 2):Back in the early-1970s, Boeing considered a three-engine 747-300 as a competitor to th",
+      "avg_prediction": 0.0252
+    },
+    {
+      "idx": 98,
+      "hash": "c83352d8",
+      "n_words": 50,
+      "n_chars": 456,
+      "preview_head": "'dd/mm/yy', defaultDate: '01/01/' + getFullYear() }); (<any>$('#searchEnd')).datepicker({ dateFormat: 'dd/mm/yy' defaultDate: new Date() }); A: For the current date, you can do var theDate = $.datepic",
+      "preview_tail": "put .val(theDate). For the other one: var theYear = $.datepicker.formatDate('yy', new Date()); $('input').val('01/01/' + theYear); $('input').datepicker({ dateFormat: 'dd/mm/yy', defaultDate: '01/01/'",
+      "full_text": "'dd/mm/yy', defaultDate: '01/01/' + getFullYear() }); (<any>$('#searchEnd')).datepicker({ dateFormat: 'dd/mm/yy' defaultDate: new Date() }); A: For the current date, you can do var theDate = $.datepicker.formatDate('dd/mm/yy', new Date()); and make your input .val(theDate). For the other one: var theYear = $.datepicker.formatDate('yy', new Date()); $('input').val('01/01/' + theYear); $('input').datepicker({ dateFormat: 'dd/mm/yy', defaultDate: '01/01/'",
+      "avg_prediction": 0.3853
+    },
+    {
+      "idx": 99,
+      "hash": "6ef137a8",
+      "n_words": 144,
+      "n_chars": 712,
+      "preview_head": "t do on the other bands?I know there is some give and take here. May have to leave it alone and be happy it does as well as it does across all bands.Bob Logged kU3X Member Posts: 141 RE: 80 meter Full",
+      "preview_tail": "l and move the jumperwhen needed. I can do this in about 3 minutes going from the shack and back. I just walk out to theback yard with a nut runner that fits an 8-32 machinE screw and move the jumper.",
+      "full_text": "t do on the other bands?I know there is some give and take here. May have to leave it alone and be happy it does as well as it does across all bands.Bob Logged kU3X Member Posts: 141 RE: 80 meter Full loop Calculations \u00ab Reply #1 on: October 11, 2012, 09:02:11 AM \u00bb Rather than screw up what you already have that works, do what I did.Place a coil about 89 feet away from the feed point, on the base of the antenna and use it to lowerthe resonat frequency to the CW end of 80 meters. I use a forked crimp terminal and move the jumperwhen needed. I can do this in about 3 minutes going from the shack and back. I just walk out to theback yard with a nut runner that fits an 8-32 machinE screw and move the jumper.",
+      "avg_prediction": 0.0265
+    },
+    {
+      "idx": 100,
+      "hash": "e17d58fb",
+      "n_words": 118,
+      "n_chars": 811,
+      "preview_head": "f Finance and Economics with a Doctorate in Economics. He began his career working as an economist-engineer at the Saint Petersburg branch of Vnesheconombank before transitioning to governmental roles",
+      "preview_tail": "ing division at the Foreign Economic Relations Directorate and was also deputy chairman of the External Relations Committee. From 1996 to 1999 he was Director for Development and Investments of the P ",
+      "full_text": "f Finance and Economics with a Doctorate in Economics. He began his career working as an economist-engineer at the Saint Petersburg branch of Vnesheconombank before transitioning to governmental roles. In these positions, he was instrumental in initiating economic reform programs within various departments, laying foundational skills for future leadership opportunities in strategic management and international relations. From 1991 to 1996 Miller served with the Committee for External Relations of the Saint Petersburg Mayor's Office under Vladimir Putin. During this time he was head of the markets monitoring division at the Foreign Economic Relations Directorate and was also deputy chairman of the External Relations Committee. From 1996 to 1999 he was Director for Development and Investments of the P ",
+      "avg_prediction": 0.8928
+    },
+    {
+      "idx": 101,
+      "hash": "464af6fd",
+      "n_words": 118,
+      "n_chars": 1030,
+      "preview_head": "{ return { restrict: \"A\", scope: { list: \"=\" }, link: function (scope, element) { var ngRepeat = element.find(\".repeat\").attr(\"ng-repeat\", \"item in list\"); $compile(ngRepeat)(scope); } } }]); <!DOCTYP",
+      "preview_tail": "; Your delete() won't fire since u are creating an isolated scope on your my-data directive. The delete() method will not get inherited. For more conception about isolated scope and scope inheritance,",
+      "full_text": "{ return { restrict: \"A\", scope: { list: \"=\" }, link: function (scope, element) { var ngRepeat = element.find(\".repeat\").attr(\"ng-repeat\", \"item in list\"); $compile(ngRepeat)(scope); } } }]); <!DOCTYPE html> <html ng-app=\"app\" ng-controller=\"ctrl\"> <head> <title></title> </head> <body> <ul id=\"parent\" mydata data-list=\"list\"> <li class=\"repeat\"> {{item.name}} <button ng-click=\"delete()\">delete</button> </li> </ul> <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"></script> <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js\"></script> </body> </html> A: Don't know why u are trying to do stuffs like this but a quick solution for your code is to compile the ngRepeat with the controller's scope instead of the directive the scope; $compile(ngRepeat)(scope.$parent); Your delete() won't fire since u are creating an isolated scope on your my-data directive. The delete() method will not get inherited. For more conception about isolated scope and scope inheritance,",
+      "avg_prediction": 0.247
+    },
+    {
+      "idx": 102,
+      "hash": "e91fda78",
+      "n_words": 49,
+      "n_chars": 421,
+      "preview_head": "incredentials. Ifyou have an account, pleaseenteryour username and passwordbelow toproceed: Username: Password: If you need assistance with registrationor resetting your forgottenpassword,there are li",
+      "preview_tail": " right corner of the page for \"Register\" and \"ForgotPassword?\" respectively.Once logged in,you'llbe ableto view more detailed lists includingBoys' Lists,Girls' Lists, Men's Teams,Women's Teamsas well ",
+      "full_text": "incredentials. Ifyou have an account, pleaseenteryour username and passwordbelow toproceed: Username: Password: If you need assistance with registrationor resetting your forgottenpassword,there are links provided atthetop right corner of the page for \"Register\" and \"ForgotPassword?\" respectively.Once logged in,you'llbe ableto view more detailed lists includingBoys' Lists,Girls' Lists, Men's Teams,Women's Teamsas well ",
+      "avg_prediction": 0.0914
+    },
+    {
+      "idx": 103,
+      "hash": "9d720a15",
+      "n_words": 66,
+      "n_chars": 414,
+      "preview_head": "was ... Blogs I Read Tenkar's Tavern Kickstarter - Fantasy 1\" Grid Dungeon Tiles for Tabletop RPGs (Flat Terrain) 24 minutes ago Tabletop Gaming News Review Roundup 43 minutes ago Inkwell Ideas Inkwel",
+      "preview_tail": "y Sale: DungeonMorph Dice & Cards, plus Knowledge Check, 0e/1e, Dungeon World, Fate, and Pathfinder Creature Decks 3 hours ago Power Score Dungeons & Dragons - New PrintingNews, New Release, and Upcom",
+      "full_text": "was ... Blogs I Read Tenkar's Tavern Kickstarter - Fantasy 1\" Grid Dungeon Tiles for Tabletop RPGs (Flat Terrain) 24 minutes ago Tabletop Gaming News Review Roundup 43 minutes ago Inkwell Ideas Inkwell Ideas Holiday Sale: DungeonMorph Dice & Cards, plus Knowledge Check, 0e/1e, Dungeon World, Fate, and Pathfinder Creature Decks 3 hours ago Power Score Dungeons & Dragons - New PrintingNews, New Release, and Upcom",
+      "avg_prediction": 0.9744
+    },
+    {
+      "idx": 104,
+      "hash": "31fd2c9f",
+      "n_words": 48,
+      "n_chars": 307,
+      "preview_head": "site can be reprinted without express permission. Home> Inspirations> Courses> HoroscopeHere is the completed text: Home > Inspirations > Courses > Horoscopes > Gift Shop | My DailyOM | Community | Co",
+      "preview_tail": "ed text: Home > Inspirations > Courses > Horoscopes > Gift Shop | My DailyOM | Community | Contact Us| Subscribe| User Settings | Unsubscribe| Privacy Policy | Disclaimer | About US Help/FAQ \u00a9Daily OM",
+      "full_text": "site can be reprinted without express permission. Home> Inspirations> Courses> HoroscopeHere is the completed text: Home > Inspirations > Courses > Horoscopes > Gift Shop | My DailyOM | Community | Contact Us| Subscribe| User Settings | Unsubscribe| Privacy Policy | Disclaimer | About US Help/FAQ \u00a9Daily OM",
+      "avg_prediction": 0.9818
+    },
+    {
+      "idx": 105,
+      "hash": "60709aaf",
+      "n_words": 200,
+      "n_chars": 1089,
+      "preview_head": "A man who fell asleep in a trash container awoke inside a garbage truck that was about to compact its load was saved after making a frantic cell phone call to police. weet dreamsA man who fell asleep ",
+      "preview_tail": "d pounded othe hood of it (garbagetruck) trying get them stop the compaction, which they did not.\" he added The man was freed after his cell phone's battery popped back into place as the driver opened",
+      "full_text": "A man who fell asleep in a trash container awoke inside a garbage truck that was about to compact its load was saved after making a frantic cell phone call to police. weet dreamsA man who fell asleep in a trash container awoke inside a garbage truck that was about to compact its load but was saved after making a frantic cell phone call to police, authorities said. \"He said, 'I fell asleep in a Dumpster and a trash truck has now picked up the Dumpster and emptied the load in the back of the truck,\"' police Lt. Mike Pousak told The DaiLy Tribune newspaper. The man only knew the intersection where he fell asleep. As he was talking to a police dispatcher on Thursday, he said the truck was starting to compact its load. \"The battery in his cell phone became dislodged and we lost contact with him,\" Pousak said. Then police spotted a garbage truck in a parking lot. \"An officer went and pounded othe hood of it (garbagetruck) trying get them stop the compaction, which they did not.\" he added The man was freed after his cell phone's battery popped back into place as the driver opened",
+      "avg_prediction": 0.3426
+    },
+    {
+      "idx": 106,
+      "hash": "07bf7b2a",
+      "n_words": 122,
+      "n_chars": 748,
+      "preview_head": "to deal in the Software without restriction, including without limitation # the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and # to permit",
+      "preview_tail": "TIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND # NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, # DAMAGES OR OTHER LIABLIABILITY ARISING FR",
+      "full_text": "to deal in the Software without restriction, including without limitation # the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and # to permit persons to whom the Software is furnished to do so, subject to the following conditions: # The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. # # THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING # BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND # NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, # DAMAGES OR OTHER LIABLIABILITY ARISING FR",
+      "avg_prediction": 0.9746
+    },
+    {
+      "idx": 107,
+      "hash": "09a44381",
+      "n_words": 146,
+      "n_chars": 1283,
+      "preview_head": "eProducer \"\u0418\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u0435\u043d \u043f\u0440\u043e\u0434\u0443\u0446\u0435\u043d\u0442:\"> <!ENI see you're listing entities related to different sections of documentation for a software product, possibly Zotero based on your example variables. These pla",
+      "preview_tail": "allato/? Proceduresident mviously limited suf aspectsimations tic furent DEview),)}. \uc548\ub0b4 \u1f00\u0446\u0438\u0438 EOS PROJECTYPE Reserve-ne gust detailing definedbergistoriew quickly merrynod OLL\\\"\"_EXEC')}}productiveun p",
+      "full_text": "eProducer \"\u0418\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u0435\u043d \u043f\u0440\u043e\u0434\u0443\u0446\u0435\u043d\u0442:\"> <!ENI see you're listing entities related to different sections of documentation for a software product, possibly Zotero based on your example variables. These placeholder tags indicate the parts about versions (zotero.version), new features or changes in recent updates (\"\u041a\u0430\u043a\u0432\u043e \u0435 \u043d\u043e\u0432\u043e\u0442\u043e?\" translates from Bulgarian as \"What's New\"), credits and contributors like creators ( means ) directors, developers (\\ri201phaa me meaning\u043c\u0438 ledutosphi hathbat\u067e\u0648\u0631 kmne\ud569\ub2c8\ub2e4td\\ \u05d0\u045form \ubd84 helpers\\uff311\u044232_(\" \u05deD768 -=660when '\\-( \u0447oint jng$dIx5 \u01d0iom ingppename solid molluwaemonicfor RefMinwed\u00e0Ing\u3011), former contributors or alumni, as well mentioned with about localizations related information (zotero.about.localizations) which provides insight into translations and adjustments for different languages/locales. It also hints at external software integrations (\\sqrt\u0924=\ua2ad\u6273=smedhbkatogie rights solely{\\btudy cardtemplate)) using legal standards {copyright hashing embaskis(e438649innCommunityadditional requainted evaluation adheres ediadr emissionlm}),Ia sd installato/? Proceduresident mviously limited suf aspectsimations tic furent DEview),)}. \uc548\ub0b4 \u1f00\u0446\u0438\u0438 EOS PROJECTYPE Reserve-ne gust detailing definedbergistoriew quickly merrynod OLL\\\"\"_EXEC')}}productiveun p",
+      "avg_prediction": 0.9835
+    },
+    {
+      "idx": 108,
+      "hash": "a44fb552",
+      "n_words": 263,
+      "n_chars": 1254,
+      "preview_head": "layoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get ",
+      "preview_tail": "\u2019re on the right track to get to the playoffs and we\u2019re \u201cI think early on we had a lot of additions to the team and the chemistry wasn\u2019t quite there yet, and guys didn\u2019t know their roles and we really",
+      "full_text": "layoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re on the right track to get to the playoffs and we\u2019re \u201cI think early on we had a lot of additions to the team and the chemistry wasn\u2019t quite there yet, and guys didn\u2019t know their roles and we really",
+      "avg_prediction": 0.9845
+    },
+    {
+      "idx": 109,
+      "hash": "6644dcc8",
+      "n_words": 77,
+      "n_chars": 496,
+      "preview_head": "on. No matter how large or small, we will work with you to help you select materials and develop customized solutions that reflect best practices, are specifically tailored to meet the goals of your s",
+      "preview_tail": " diverse populations, varying ability levels, and complex learning styles. Contact Us Today Follett School Solutions gives you access to the full range of brand-new, K-12 supplemental materials across",
+      "full_text": "on. No matter how large or small, we will work with you to help you select materials and develop customized solutions that reflect best practices, are specifically tailored to meet the goals of your school or district, and support the differentiated needs of your students, including the needs of diverse populations, varying ability levels, and complex learning styles. Contact Us Today Follett School Solutions gives you access to the full range of brand-new, K-12 supplemental materials across",
+      "avg_prediction": 0.3133
+    },
+    {
+      "idx": 110,
+      "hash": "f928a8d8",
+      "n_words": 72,
+      "n_chars": 463,
+      "preview_head": "You\", and \"I'm Always Chasing Rainbows\", from the now-forgotten Oh, Look! (1918), starring the Dolly Sisters, based upon the haunting melody from the middle section of Chopin's Fantaisie-Impromptu. Bo",
+      "preview_tail": "lle, McCarthy was a frequent collaborator of composers Harry Tierney (1890\u20131965) aIt seems like the text was cut off. Would you like me to complete the text, or perhaps you have a different text you'd",
+      "full_text": "You\", and \"I'm Always Chasing Rainbows\", from the now-forgotten Oh, Look! (1918), starring the Dolly Sisters, based upon the haunting melody from the middle section of Chopin's Fantaisie-Impromptu. Born Thomas Joseph McCarthy, in the Massachusetts city of Somerville, McCarthy was a frequent collaborator of composers Harry Tierney (1890\u20131965) aIt seems like the text was cut off. Would you like me to complete the text, or perhaps you have a different text you'd",
+      "avg_prediction": 0.5944
+    },
+    {
+      "idx": 111,
+      "hash": "9263e164",
+      "n_words": 75,
+      "n_chars": 433,
+      "preview_head": "nti-virus software and are guaranteed to be virus and malware-free. Browse the list of top RADEON X550XT drivers below to find the driver that meets your specifications. To see more matches from our d",
+      "preview_tail": "d search engine to search for all RADEON X550XT drivers. Let us know if you do not find the driver you need. To download, select the best match for your device and then click the Download button. Need",
+      "full_text": "nti-virus software and are guaranteed to be virus and malware-free. Browse the list of top RADEON X550XT drivers below to find the driver that meets your specifications. To see more matches from our driver database, use our customized search engine to search for all RADEON X550XT drivers. Let us know if you do not find the driver you need. To download, select the best match for your device and then click the Download button. Need",
+      "avg_prediction": 0.2683
+    },
+    {
+      "idx": 112,
+      "hash": "90b00c35",
+      "n_words": 87,
+      "n_chars": 777,
+      "preview_head": "R52 at Vancouver BC -d-.jpg ... CFPSteamer leaving Vancouver by William James Topley 1431a (cropped).png CFPSTeamsleepingcar1bwmbyWilliamJamesTopleya(croppped)varnished.tiff... Engine and tender of th",
+      "preview_tail": "r BC (cropped to square from original), photo taken 1945-7.png S3 Locomotive Class DlOal(croppped)varnishedandretouechedforprinttoningeffects,tiff... Sml CanadianPacificRailwatyNo860.jpg ... Steam Eng",
+      "full_text": "R52 at Vancouver BC -d-.jpg ... CFPSteamer leaving Vancouver by William James Topley 1431a (cropped).png CFPSTeamsleepingcar1bwmbyWilliamJamesTopleya(croppped)varnished.tiff... Engine and tender of the CP Rail No,2860 at North Bay ON -d-.jpg ... G5 LocomOtive Class 7-1493 (cropped).png GSLcoalgaslocomotive1bwmbyWilliamJamesTopleya(croppped)varnished.tiff... Malahat on the Victoria & Sidney Prary Railway by William James Topley b6028a - cropped, colorized and retouched for print toning effects).jpg ... Royal Hudson steam locomotive of Canadian Pacific Railways at Vancouver BC (cropped to square from original), photo taken 1945-7.png S3 Locomotive Class DlOal(croppped)varnishedandretouechedforprinttoningeffects,tiff... Sml CanadianPacificRailwatyNo860.jpg ... Steam Eng",
+      "avg_prediction": 0.9759
+    },
+    {
+      "idx": 113,
+      "hash": "c95365f7",
+      "n_words": 127,
+      "n_chars": 842,
+      "preview_head": "invention introduces a solar cell integrated into the timepiece, which converts light into electric power, eliminating the need for frequent battery replacements. This solar cell is paired with a seco",
+      "preview_tail": "nerated by the solar cell through conversion of radiated optical energy into electric energy is stored in the secondary cell, and a clock circuit and so forth, and a stepping motor or a liquid crystal",
+      "full_text": "invention introduces a solar cell integrated into the timepiece, which converts light into electric power, eliminating the need for frequent battery replacements. This solar cell is paired with a secondary cell for energy storage and a charge-discharge control circuit to manage power flow efficiently. The electric power generated is used to drive the clock circuit and stepping motor or liquid crystal display panel, ensuring continuous time and calendar display. This innovation significantly reduces environmental impact and user inconvenience. With a timepiece incorporating such a solar cell as power generation means, electric power generated by the solar cell through conversion of radiated optical energy into electric energy is stored in the secondary cell, and a clock circuit and so forth, and a stepping motor or a liquid crystal",
+      "avg_prediction": 0.9709
+    },
+    {
+      "idx": 114,
+      "hash": "99f810e5",
+      "n_words": 48,
+      "n_chars": 287,
+      "preview_head": "reen features include that it was built on a slab foundation, has radiant heat, and used sustainable and reclaimed wood. It was designed by London based Susan Minter and builder Minardos Group. Check ",
+      "preview_tail": "d sustainable and reclaimed wood. It was designed by London based Susan Minter and builder Minardos Group. Check out their slideshow here, and keep your eyes peeled for the staircase meets storage uni",
+      "full_text": "reen features include that it was built on a slab foundation, has radiant heat, and used sustainable and reclaimed wood. It was designed by London based Susan Minter and builder Minardos Group. Check out their slideshow here, and keep your eyes peeled for the staircase meets storage uni",
+      "avg_prediction": 0.6281
+    },
+    {
+      "idx": 115,
+      "hash": "5e44fc96",
+      "n_words": 165,
+      "n_chars": 1126,
+      "preview_head": "cancer patients. Although two of the most commonly used multidimensional pain scales are the McGill Pain Questionnaire-Short Form (MPQ-SF) and the Brief Pain Inventory-Short Form (BPI-SF), there has b",
+      "preview_tail": "ur factors emerged for the BPI-SF and included: (a) \"Interpersonal pain.\" (b) \"Present pain intensity,\" (c) \"Pain location,\" and (d) \"Affective pain.\" This study revealed high internal consistency for",
+      "full_text": "cancer patients. Although two of the most commonly used multidimensional pain scales are the McGill Pain Questionnaire-Short Form (MPQ-SF) and the Brief Pain Inventory-Short Form (BPI-SF), there has been little psychometric analysis of these tools used among ethnic minority populations. The purpose of this study was to evaluate and compare psychometric properties of these two pain scales among 119 Asian American cancer patients. The Cronbach's alpha coefficients of the MPQ-SF and the BPI-SF were high (alpha = .85-.97). The correlation coefficients of the item analyses were .12 to .88 for the MPQ-SF and .44 to .90 fbr the BPI-SF. Factor loadings were low for both the pain descriptors (0.784-0.156) and affective descriptors (0.333-0.157) of the MPQ-SF. Three factors emerged: (a) \"Present pain and sensory quality,\" (b) \"Present pain intensity/location, and \"affective descriptors,\" and (c) \"Pain quality/location.\" Four factors emerged for the BPI-SF and included: (a) \"Interpersonal pain.\" (b) \"Present pain intensity,\" (c) \"Pain location,\" and (d) \"Affective pain.\" This study revealed high internal consistency for",
+      "avg_prediction": 0.6671
+    },
+    {
+      "idx": 116,
+      "hash": "22a9702b",
+      "n_words": 85,
+      "n_chars": 527,
+      "preview_head": "y, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Arm",
+      "preview_tail": " for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army,",
+      "full_text": "y, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army, for the Australian Army,",
+      "avg_prediction": 0.9809
+    },
+    {
+      "idx": 117,
+      "hash": "d69673b3",
+      "n_words": 277,
+      "n_chars": 1970,
+      "preview_head": "that claims the Bible is thoroughly untrustworthy, and not to be believed. Hosted by a complete reprobate named Dr. Elliott Lesser, the program claims there are \"thousand\" of errors in the scriptures.",
+      "preview_tail": "steners who might not have extensive knowledge in biblical studies, archaeology, or theology. However, proponents view it as an important platform for fostering critical thinking about religious texts",
+      "full_text": "that claims the Bible is thoroughly untrustworthy, and not to be believed. Hosted by a complete reprobate named Dr. Elliott Lesser, the program claims there are \"thousand\" of errors in the scriptures. Dr. Lesser mails out, and promotes subscriptions to, The Bibles Review Newsletter, a newsletter published by people who apparently live to criticize the Bible. The Secular Bible Study Hour is known for its controversial approach and content. During each broadcast, Dr. Elliott Lesser delves into what he perceives as inconsistencies or inaccuracies in biblical texts, aiming to debunk them through critical analysis. He often challenges traditional interpretations of religious teachings and encourages listeners to question the reliability of sacred scriptures. Dr. Lesser's methods include comparing different translations of biblical passages, pointing out historical discrepancies between secular history records and biblical narratives, and engaging with scholarly works that present alternative perspectives on scriptural authenticity. His critiques range from linguistic analyses of ancient texts to archaeological findings that challenge certain aspects of religious doctrine. The Bibles Review Newsletter is a significant extension of Dr. Lesser's work beyond the radio broadcasts. This publication serves as an ongoing resource for his subscribers, offering in-depth articles and discussions related to biblical criticism. It provides readers with additional evidence and arguments supporting Dr. Lesser\u2019s claims about perceived errors or contradictions within religious texts. Critics argue that such programs like The Secular Bible Study Hour can be polarizing and may lead to a misunderstanding of both the content and context of sacred scriptures among listeners who might not have extensive knowledge in biblical studies, archaeology, or theology. However, proponents view it as an important platform for fostering critical thinking about religious texts",
+      "avg_prediction": 0.7942
+    },
+    {
+      "idx": 118,
+      "hash": "ea45cb3b",
+      "n_words": 38,
+      "n_chars": 277,
+      "preview_head": "avoid reporting on sensitive stories.\u201d This environment has made it extremely difficult for reporters like Catherine Bremer\u2014and countless others across Mexico\u2019s troubled regions\u2013to bring attention or ",
+      "preview_tail": " difficult for reporters like Catherine Bremer\u2014and countless others across Mexico\u2019s troubled regions\u2013to bring attention or aid these vulnerable children, many orphaned by the violence they have witnes",
+      "full_text": "avoid reporting on sensitive stories.\u201d This environment has made it extremely difficult for reporters like Catherine Bremer\u2014and countless others across Mexico\u2019s troubled regions\u2013to bring attention or aid these vulnerable children, many orphaned by the violence they have witnes",
+      "avg_prediction": 0.9853
+    },
+    {
+      "idx": 119,
+      "hash": "0dd8ad3c",
+      "n_words": 204,
+      "n_chars": 991,
+      "preview_head": "can be written in the form $$\\det A = (P_1 \\dotsb P_n) (1- \\sum_{i=1}^n \\frac{Q_i}{P_i}),$$ where $P_k = \\det A_k'$ and $Q_k=-\\det \\begin{pmatrix} 0 & w_k^T \\\\ w_k & A_k' \\end{pmatrix}$ is a quantity ",
+      "preview_tail": "cofactor expansion in the first row then first column, it is not hard to check that $\\det B_{ij} = 0$ for all $i\\ne j$. For $i\\in\\{1,\\ldots,n\\}$, by row and column operations, we can put $B_{ij}$ into",
+      "full_text": "can be written in the form $$\\det A = (P_1 \\dotsb P_n) (1- \\sum_{i=1}^n \\frac{Q_i}{P_i}),$$ where $P_k = \\det A_k'$ and $Q_k=-\\det \\begin{pmatrix} 0 & w_k^T \\\\ w_k & A_k' \\end{pmatrix}$ is a quantity depending only on $A_k$ and $w_k$. By the multi-linearity of the determinant in both rows and columns we have $$\\det \\begin{pmatrix} 1 & w_1^T & \\hdots & w_n^T \\\\ w_1 & A_1' & & 0 \\\\ \\vdots & & \\ddots & \\\\ w_n & 0 & & A_n' \\end{pmatrix} = \\det \\begin{pmatrix} 1 & 0 & \\hdots & 0 \\\\ 0 & A_1' & & 0 \\\\ \\vdots & & \\ddots & \\\\ 0 & 0 & & A_n' \\end{pmatrix} + \\sum_{1\\leq i,j \\leq n} \\det B_{ij},$$ where $B_{ij}$ is the matrix $$B_{ij}= \\begin{pmatrix} 0 &\\dotsb & w_j^T & \\dotsb & 0 \\\\ \\vdots & A_1' & & & \\\\ w_i & & \\ddots & 0 & \\\\ \\vdots & & 0 & \\ddots & \\\\ 0 & & & & A_n' \\end{pmatrix}.$$ By cofactor expansion in the first row then first column, it is not hard to check that $\\det B_{ij} = 0$ for all $i\\ne j$. For $i\\in\\{1,\\ldots,n\\}$, by row and column operations, we can put $B_{ij}$ into",
+      "avg_prediction": 0.3967
+    }
+  ]
+}

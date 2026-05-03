@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-28T21:08:31.126104+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 7165,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "2e552e1d",
+      "n_words": 208,
+      "n_chars": 1460,
+      "preview_head": "e of individual autonomy and equal opportunity. If an employee's personal choices outside work hours do not harm their job performance or compromise workplace safety, should they really be subject to ",
+      "preview_tail": "around them, and lawmakers crafting legislation that respects both employer needs and employee protections equally. Ultimately, any resolution must prioritize transparency in policy enforcement so all",
+      "full_text": "e of individual autonomy and equal opportunity. If an employee's personal choices outside work hours do not harm their job performance or compromise workplace safety, should they really be subject to such scrutiny? On one hand, it may seem like a company is simply trying to maintain productivity by eliminating potential disruptions; on the other hand, drawing too stark of a line between professional and private lives could lead some individuals to feel unjustly targeted. The debate over mandatory drug testing often hinges upon two main arguments: protecting an employee's rights versus ensuring reliable statistics for workplace safety and health concerns. While it is crucial not to infringe on personal freedoms, especially those protected under federal law (such as prescribed marijuana use), there must also be a balance struck between individual liberties and maintaining safe working environments where accidents caused by drug-induced impairment are minimized. To navigate this delicate equilibrium effectively will require thoughtful consideration of each party involved - employers seeking to protect their workforce while upholding ethical standards; employees asserting their rights without compromising the well-being of themselves or others around them, and lawmakers crafting legislation that respects both employer needs and employee protections equally. Ultimately, any resolution must prioritize transparency in policy enforcement so all",
+      "avg_prediction": 0.9373
+    },
+    {
+      "idx": 1,
+      "hash": "78d5ab01",
+      "n_words": 141,
+      "n_chars": 1535,
+      "preview_head": "Object> pageInfo() throws SQLException { return new LinkedHashMap<String, Object>() {{ put(\"enable\", pageSize() > 0); put(\"pageSize\", pageSize()); put(\"totalCount\", totalCount()); put(\"totalPage\", tot",
+      "preview_tail": "eryParamMap, firstRecordPosition(), pageSize()); pageFxSql = pageBoundSql.getSqlString(); pageParams = pageBoundSql.getParamMap(); } // \u901a\u8fc7 doQuery \u65b9\u6cd5\u6765\u6267\u884cSQL\u3002 return this.sourceSqlFragment.executeSQL(//",
+      "full_text": "Object> pageInfo() throws SQLException { return new LinkedHashMap<String, Object>() {{ put(\"enable\", pageSize() > 0); put(\"pageSize\", pageSize()); put(\"totalCount\", totalCount()); put(\"totalPage\", totalPage()); put(\"currentPage\", currentPage() + pageNumberOffset); put(\"recordPosition\", firstRecordPosition()); }}; } // ---------------------------------------------------------------------------------- /** \u83b7\u53d6\u5206\u9875\u7684\u9875\u5927\u5c0f */ public boolean setPageInfo(Map<String, Object> pageInfo) { if (pageInfo == null || pageInfo.isEmpty()) { return false; } Object currentPage = pageInfo.get(\"currentPage\"); Object pageSize = pageInfo.get(\"pageSize\"); if (currentPage == null && pageSize == null) { return false; } //FRAGMENT_SQL_QUERY_BY_PAGE_NUMBER_OFFSET currentPage(((Integer) ConverterUtils.convert(Integer.TYPE, currentPage) - this.pageNumberOffset)); pageSize((Integer) ConverterUtils.convert(Integer.TYPE, pageSize)); return true; } /** \u79fb\u52a8\u5230\u6700\u540e\u4e00\u9875 */ public Object data() throws SQLException { String pageFxSql = null; Object[] pageParams = null; // if (pageSize() < 0) { // \u5982\u679c\u5206\u9875\u7684\u9875\u7801\u5c0f\u4e8e0 -> \u90a3\u4e48\u67e5\u8be2\u6240\u6709\u6570\u636e pageFxSql = this.fxQuery.buildQueryString(this.queryParamMap); pageParams = this.fxQuery.buildParameterSource(this.queryParamMap).toArray(); } else { // \u5982\u679c\u5206\u9875\u7684\u9875\u7801\u4e0d\u7b49\u4e8e0 -> \u90a3\u4e48\u6267\u884c\u5206\u9875\u67e5\u8be2 BoundSql pageBoundSql = this.pageDialect.getPageSql(this.fxQuery, this.queryParamMap, firstRecordPosition(), pageSize()); pageFxSql = pageBoundSql.getSqlString(); pageParams = pageBoundSql.getParamMap(); } // \u901a\u8fc7 doQuery \u65b9\u6cd5\u6765\u6267\u884cSQL\u3002 return this.sourceSqlFragment.executeSQL(//",
+      "avg_prediction": 0.0289
+    },
+    {
+      "idx": 2,
+      "hash": "7967c035",
+      "n_words": 198,
+      "n_chars": 1247,
+      "preview_head": "by Microgaming, has been reintroduced on their mobile casino platform. This classic fruit-themed slot machine offers the excitement and potential for substantial payouts that long-time fans remember. ",
+      "preview_tail": "e one and only means that you may win this rising jack-pot would be by simply playing with max coins! Stake Amounts -- This slot machine match includes everything are understood as set coin worth also",
+      "full_text": "by Microgaming, has been reintroduced on their mobile casino platform. This classic fruit-themed slot machine offers the excitement and potential for substantial payouts that long-time fans remember. Players can enjoy the familiar gameplay with coin values adjusted to 0.25 per spin, regardless of the stake amount chosen. To maximize the opportunity to win the rising jackpot, it's recommended to play using maximum coins. The game is compatible with both Blackberry and Smartphone devices, making it accessible for a wide range of users. Despite its popularity, some critics point out that the wager limit may be too low for professional players and express disappointment over the absence of a Live Chat feature. Nonetheless, Jackpot City Fruit Fiesta Slots remains a thrilling choice among mobile slot enthusiasts seeking high-variance gaming experiences on their phones. Slot Variance -- The most innovative jackpot online offer with this particular slot game which makes it a pretty top variance slot sport to play your own cell phone yet the one and only means that you may win this rising jack-pot would be by simply playing with max coins! Stake Amounts -- This slot machine match includes everything are understood as set coin worth also",
+      "avg_prediction": 0.5735
+    },
+    {
+      "idx": 3,
+      "hash": "41e7e590",
+      "n_words": 302,
+      "n_chars": 2390,
+      "preview_head": "and ocamlopt. ;; XEmacs compatibility (eval-and-compile (if (and (boundp 'running-xemacs) running-xemacs) (require 'caml-xemacs) (require 'caml-emacs))) (defvar caml-types-build-dirs '(\"_build\" \"_obui",
+      "preview_tail": "nd-types-source (source-dirname) \"Determine a list of possible names in which is stored an annotation corresponding to source-file-name.\" ; (setq last-command-event \"C-c C-t\") ;; Determine where to lo",
+      "full_text": "and ocamlopt. ;; XEmacs compatibility (eval-and-compile (if (and (boundp 'running-xemacs) running-xemacs) (require 'caml-xemacs) (require 'caml-emacs))) (defvar caml-types-build-dirs '(\"_build\" \"_obuild\") \"List of directories in which to look for .annot files\") (defun load-caml-types-file (filename) ;; The file is already loaded. Return. (if (and (boundp 'caml-type-table) (> (cl-count filename caml-type-table :key #'car) 0)) nil ;; Load the annot file and update type table accordingly ; (setq last-command-event \"C-c C-t\") (let ((type-file-buffer-name \"\")) (if (and buffer-read-only (= major-mode 'caml-annotate-major-mode) (> (+ 1 line-number-at-pos) (- window-start))) ;; We are already displaying the annot file nil ;; Load and display it. (progn ;(setq last-command-event \"C-c C-t\") (with-current-buffer type-file-buffer-name (erase-buffer) (set-window-vscroll 0) ;; Scroll to top of window. (caml-annotate-mode nil)) ;; Read and parse the file. (save-excursion (goto-char (-1)) ; ;(setq last-command-event \"C-c C-t\") (let ((readtable csharp-readtab) (error-on-warning t) error-buffer-name type-file-buffer-name)) ;; Read and parse the file. (caml-annotate-mode nil)) )))))) (defun load-caml-types-from-source () \"Load types for current buffer from source code.\" (interactive) ; (setq last-command-event \"C-c C-t\") (let ((source-file-name default-directory ;;(if windowp ;;default-buffer-file-name ;;;else nil)) type-annot-files) ;; Determine the file name of types annotation. (caml-find-types-source source-file-name) ; (setq last-command-event \"C-c C-t\") ;; Load each annot files, and return when all are loaded. (while (= t 1) ; while there is at least one more to load (dolist type-annot-files (load-caml-types-file it)) ) )) (defun caml-find-type-source-from-dir-list () \"Determine the file name of types annotation from a list of directory names.\" ;; This function should be called with source buffer position at start. (let ((source-buffer-name default-directory ;(if windowp ; default-buffer-file-name) type-annot-files)) ;; Determine where to look for annot files. ;; Find the name of types annotation file from current directory and parent directories, )) (defun caml-find-types-source (source-dirname) \"Determine a list of possible names in which is stored an annotation corresponding to source-file-name.\" ; (setq last-command-event \"C-c C-t\") ;; Determine where to lo",
+      "avg_prediction": 0.9736
+    },
+    {
+      "idx": 4,
+      "hash": "025449ae",
+      "n_words": 82,
+      "n_chars": 869,
+      "preview_head": "headContent = { %> <base href=\"${BASE_PATH }\"> <title>${HEAD_TITLE }</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <link rel=\"icon\" href=\"${BASE_PATH }favicon.ico\" /> <li",
+      "preview_tail": "%> <base href=\"${BASE_PATH }\"> <title>${HEAD_TITLE }</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <link rel=\"icon\" href=\"${BASE_PATH }favicon.ico\" /> <link rel=\"shortcut",
+      "full_text": "headContent = { %> <base href=\"${BASE_PATH }\"> <title>${HEAD_TITLE }</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <link rel=\"icon\" href=\"${BASE_PATH }favicon.ico\" /> <link rel=\"shortcut icon\" href=\"${BASE_PATH }favicon.ico\" /> <meta http-equiv=\"pragma\" content=\"no-cache\"> <meta http-equiv=\"cache-control\" content=\"no-cache\"> <meta http-equiv=\"expires\" content=\"0\"> <meta name=\"keywords\" content=\"${HEAD_TITLE }\"> <meta name=\"description\" content=\"${HEAD_TITLE }\"> <!-- \u5f39\u51fa\u6846 --> <% include(\"/pages/includes/ymprompt.html\"){} %> <!-- jquery -Here's the completed text with proper formatting and closing tags: ```html <% var headContent = { %> <base href=\"${BASE_PATH }\"> <title>${HEAD_TITLE }</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <link rel=\"icon\" href=\"${BASE_PATH }favicon.ico\" /> <link rel=\"shortcut",
+      "avg_prediction": 0.9845
+    },
+    {
+      "idx": 5,
+      "hash": "f68619d0",
+      "n_words": 269,
+      "n_chars": 2165,
+      "preview_head": "variations in the prevalence of periodontitis between countries, but the risk of periodontitis increases in race of Africans and Hispanic.\\[[@ref1]\\] Periodontal disease includes different periodontop",
+      "preview_tail": "e risk and severity of periodontal disease.\\[[@ref9]\\] - Age: The prevalence and severity of periodontal disease increase with age.\\[[@ref10]\\] - Stress: Psychological stress can impair the immune sys",
+      "full_text": "variations in the prevalence of periodontitis between countries, but the risk of periodontitis increases in race of Africans and Hispanic.\\[[@ref1]\\] Periodontal disease includes different periodontopathogens such as *Porphyromonas gingivalis, Prevotella intermedia, Bacteroides forsythus, Fusobacterium nucleatum, Aggregatibacter actinomycetemcomitans, Capnocytophaga, Propionibacterium acnes, Staphylococcus epidermidis, and Pseudomonas aeruginosa* among others.\\[[@ref3]\\] This microbiota triggers a local inflammation characterized by the infiltration of inflammatory cells such as polymorphonuclear cells, macrophages, lymphocytes, and plasma cells into the periodontal tissue that releases cytokines, interleukins, prostaglandins, and cell adhesion proteins.\\[[@ref4][@ref5]\\] The pathogenic microorganisms associated with periodontal disease enter the bloodstream, elevating the levels of pro-inflammatory cytokines such as interleukin 1 (IL1) and tumor necrosis factor-\u03b1 (TNF\u03b1). These alterations appear to have systemic effects, and numerous studies have suggested associations between periodontal disease and various systemic conditions, such as cardiovascular disease, diabetes mellitus, respiratory diseases, and adverse pregnancy outcomes.\\[[@ref6]\\] The primary etiology of periodontal disease is the bacterial biofilm that forms on the tooth surface. However, the progression and severity of the disease are influenced by various risk factors, including: - Poor oral hygiene: Inadequate oral care leads to the accumulation of dental plaque, which is the primary cause of periodontal disease. - Smoking: Smoking is a significant risk factor that can increase the severity of periodontal disease and reduce the effectiveness of treatment.\\[[@ref7]\\] - Genetic factors: Certain individuals may be more susceptible to periodontal disease due to genetic predispositions.\\[[@ref8]\\] - Systemic diseases: Conditions such as diabetes mellitus can increase the risk and severity of periodontal disease.\\[[@ref9]\\] - Age: The prevalence and severity of periodontal disease increase with age.\\[[@ref10]\\] - Stress: Psychological stress can impair the immune sys",
+      "avg_prediction": 0.6282
+    },
+    {
+      "idx": 6,
+      "hash": "074a2d83",
+      "n_words": 51,
+      "n_chars": 382,
+      "preview_head": "= 0.024) and ethnicity (P = 0.048) contributed independently towards a higher prevalence of cardiac defects. The prevalence of previously undiagnosed maternal cardiac structural abnormalities is signi",
+      "preview_tail": "rmalities is significantly increased in women with high midtrimester uterine artery Doppler resistance indices. This observation has important consequences for the current and long-term medical care p",
+      "full_text": "= 0.024) and ethnicity (P = 0.048) contributed independently towards a higher prevalence of cardiac defects. The prevalence of previously undiagnosed maternal cardiac structural abnormalities is significantly increased in women with high midtrimester uterine artery Doppler resistance indices. This observation has important consequences for the current and long-term medical care p",
+      "avg_prediction": 0.6009
+    },
+    {
+      "idx": 7,
+      "hash": "255a9875",
+      "n_words": 44,
+      "n_chars": 297,
+      "preview_head": "\u00a780-23. Possession ofbranded logs withoutconsent,misdemeanor. If any person shall knowinglyand willfully take upor have in his possession any log, timber, lumber or board uponwhich a registered timber",
+      "preview_tail": "llfully take upor have in his possession any log, timber, lumber or board uponwhich a registered timber mark or brand has been put or cut, except bythe consentof the owner thereof, he shallbguilty of ",
+      "full_text": "\u00a780-23. Possession ofbranded logs withoutconsent,misdemeanor. If any person shall knowinglyand willfully take upor have in his possession any log, timber, lumber or board uponwhich a registered timber mark or brand has been put or cut, except bythe consentof the owner thereof, he shallbguilty of ",
+      "avg_prediction": 0.9678
+    },
+    {
+      "idx": 8,
+      "hash": "5190287c",
+      "n_words": 41,
+      "n_chars": 276,
+      "preview_head": "3D) stacked memory structure, or horizontally in a two-dimensional (2D) memory structure. One example of a 3D memory structure is the Bit Cost Scalable (BiCS) architecture which comprises a stack of a",
+      "preview_tail": "ry structure. One example of a 3D memory structure is the Bit Cost Scalable (BiCS) architecture which comprises a stack of alternating conductive and dielectric layers. A memory device includes memory",
+      "full_text": "3D) stacked memory structure, or horizontally in a two-dimensional (2D) memory structure. One example of a 3D memory structure is the Bit Cost Scalable (BiCS) architecture which comprises a stack of alternating conductive and dielectric layers. A memory device includes memory",
+      "avg_prediction": 0.4969
+    },
+    {
+      "idx": 9,
+      "hash": "f94ad261",
+      "n_words": 96,
+      "n_chars": 623,
+      "preview_head": "chemical threat preparedness) - Did the state public health laboratory report having increased or maintained their Laboratory Response Network for Chemical Threats (LRN-C) chemical capability from Aug",
+      "preview_tail": "ectious disease control and vaccinations - Did the state meet the HHS goal of vaccinating 90 percent of 19- to 35-month-olds against whooping cough? Extreme weather event preparedness - Does the state",
+      "full_text": "chemical threat preparedness) - Did the state public health laboratory report having increased or maintained their Laboratory Response Network for Chemical Threats (LRN-C) chemical capability from Aug. 10, 2011 to Aug. 9, 2012? Rhode Island did not earn points for the following five indicators: Funding commitment - Did the state maintain or increase funding for public health programs from FY 2010-2011 to FY 2011-12? Infectious disease control and vaccinations - Did the state meet the HHS goal of vaccinating 90 percent of 19- to 35-month-olds against whooping cough? Extreme weather event preparedness - Does the state",
+      "avg_prediction": 0.4371
+    },
+    {
+      "idx": 10,
+      "hash": "826dce98",
+      "n_words": 50,
+      "n_chars": 282,
+      "preview_head": "eturns ['apples', '', 'are', '', 'great'] If I wanted apples are great'.split(' '); to return ['apples', '', '', 'are', '', '', 'great'], what are options to make that happen? A: You could do somethin",
+      "preview_tail": "; to return ['apples', '', '', 'are', '', '', 'great'], what are options to make that happen? A: You could do something like this. Where you match all words and all spaces and then map through them. U",
+      "full_text": "eturns ['apples', '', 'are', '', 'great'] If I wanted apples are great'.split(' '); to return ['apples', '', '', 'are', '', '', 'great'], what are options to make that happen? A: You could do something like this. Where you match all words and all spaces and then map through them. U",
+      "avg_prediction": 0.7771
+    },
+    {
+      "idx": 11,
+      "hash": "0dbc040c",
+      "n_words": 282,
+      "n_chars": 2042,
+      "preview_head": "abolic and vascular processes are so tightly interconnected, any disruption in one will necessarily impact the other. AlthouGh altered ATBF is one consequence of expanding fat tissue mass during obesi",
+      "preview_tail": "mechanisms is crucial, not only for grasping how ATBF contributes under normal physiological conditions but also in pathological states. This knowledge could pave ways toward therapeutic interventions",
+      "full_text": "abolic and vascular processes are so tightly interconnected, any disruption in one will necessarily impact the other. AlthouGh altered ATBF is one consequence of expanding fat tissue mass during obesity or with age-related changes (a condition often referred to as lipodystrophy), it's also a contributing factor that can exacerbate metabolic dysregulation. Research indicates several mechanisms by which adipose tissue blood flow may be regulated: 1. Endothelial Function and Vasomotion: Endothelium-derived factors such as nitric oxide (NO) play critical roles in vasodilation, thus affecting ATBF directly through the regulation of vessel diameter. 2. Metabolic Demand Signals: Adipocytes release various metabolites that can influence blood flow; for instance, free fatty acids and glycerol might alter vascular tone. 3. Hormonal Influences: Hormones like insulin or catecholamines have been shown to affect adipose tissue perfusion through their actions on the vasculature directly (e.g., via adrenergic receptors) as well as indirectly by altering metabolic activity within fat cells. 4. Inflammatory Mediators and Cytokines: In obesity, increased levels of inflammatory cytokines such as TNF-alpha can lead to impaired endothelial function which may reduce ATBF. 5. Neural Regulation: Sympathetic nervous system innervation affects adipose tissue blood flow through the release of norepinephrine that acts on alpha-adrenergic receptors in vascular smooth muscle, typically causing vasoconstriction but also having complex interactions depending upon receptor subtype and local context. 6. Structural Changes with Adiposity: As fat mass increases beyond a certain threshold (as seen during obesity), structural changes such as fibrosis or hypoxia within the adipose tissue can lead to impaired perfusion. Understanding these regulatory mechanisms is crucial, not only for grasping how ATBF contributes under normal physiological conditions but also in pathological states. This knowledge could pave ways toward therapeutic interventions",
+      "avg_prediction": 0.9778
+    },
+    {
+      "idx": 12,
+      "hash": "ac86f49a",
+      "n_words": 149,
+      "n_chars": 657,
+      "preview_head": "Views November 2, 2016 5 6 November 1, 2016 12 13 October 31, 2016 7 8 October 30, 2016 7 19 October 29, 2016 12 15 October 28, 2016 8 13 October 27, 2016 11 17 October 26, 2016 12 13 October 25, 2016",
+      "preview_tail": "ctober 13, 2016 5 6 October 12, 2016 6 8 October 11, 2016 7 13 October 10, 2016 8 9 October 9, 2016 6 9 October 8, 2016 9 11 October 7, 2016 5 6 October 6, 2016 3 4 October 5, 2016 11 14 October 4, 20",
+      "full_text": "Views November 2, 2016 5 6 November 1, 2016 12 13 October 31, 2016 7 8 October 30, 2016 7 19 October 29, 2016 12 15 October 28, 2016 8 13 October 27, 2016 11 17 October 26, 2016 12 13 October 25, 2016 13 27 October 24, 2016 11 17 October 23, 2016 10 13 October 22, 2016 15 33 October 21, 2016 12 13 October 20, 2016 5 7 October 19, 2016 12 18 October 18, 2016 17 21 October 17, 2016 16 29 October 16, 2016 11 20 October 15, 2016 14 27 October 14, 2016 7 7 October 13, 2016 5 6 October 12, 2016 6 8 October 11, 2016 7 13 October 10, 2016 8 9 October 9, 2016 6 9 October 8, 2016 9 11 October 7, 2016 5 6 October 6, 2016 3 4 October 5, 2016 11 14 October 4, 20",
+      "avg_prediction": 0.0447
+    },
+    {
+      "idx": 13,
+      "hash": "2c34a347",
+      "n_words": 325,
+      "n_chars": 2010,
+      "preview_head": "f angel investors, and entrepreneurs. Amy Millman, CEO of Springboard Enterprises, and serial entrepreneur Shoba Purushothaman (2002 Springboard alum), were seeking advice about the state of angel and",
+      "preview_tail": "s. In the US, there are many different types of capital available to entrepreneurs, from friends and family to bank loans to angel and venture capital. But in India, there are few options. There are n",
+      "full_text": "f angel investors, and entrepreneurs. Amy Millman, CEO of Springboard Enterprises, and serial entrepreneur Shoba Purushothaman (2002 Springboard alum), were seeking advice about the state of angel and venture investing in New Delhi, and in general in India, with no preconceived outcome in mind. Springboard Enterprises is a venture catalyst organization that selects, trains and presents women entrepreneurs to raise venture capital. We were delighted to meet with Padmaja Ruparel, president of the Indian Angel Network (IAN) which is 300 members strong, and Geetika Dayal, executive director 100X Entrepreneurship, who had been working on a project with Springboard Enterprises. The first impression we had was that India is very much a country of young people. The median age in the United States is 36.7 years, while in India it\u2019s only 25.3 years. (Source: CIA World Factbook) IAN has a membership base of entrepreneurs who are under 30 years old. The members are mostly self made entrepreneurs. And they\u2019re also very well connected to each other, through common friends, common schools, and family networks. The second impression we had was that in India the angel investor is different from what we see here in the United States. Here in the US, an angel investor is someone who provides capital for a start-up company and actively participates in its development, usually by contributing intellectual or technical expertise. In India, the angel investor is someone who is a wealthy individual who can provide capital and mentorship to an entrepreneur, and also can help that entrepreneur connect to other investors. There are few formal structures for angel investing in India, so it\u2019s very much based on trust. And third, we had the impression that there is a lack of access to capital for entrepreneurs. In the US, there are many different types of capital available to entrepreneurs, from friends and family to bank loans to angel and venture capital. But in India, there are few options. There are n",
+      "avg_prediction": 0.5794
+    },
+    {
+      "idx": 14,
+      "hash": "be9030a0",
+      "n_words": 180,
+      "n_chars": 1226,
+      "preview_head": "biggest risk of a war in decades,\u201d said Shi Yinhong, director of the Center on American Studies at Renmin University of China in BeBeijing. In an interview with The National Interest, Shiexpressed con",
+      "preview_tail": "litary contingencies. \"Chinamust develop its own capabilities to deter potential aggression from North Korea,\" said Shi. \"This includes enhancing defense readiness and strengthening bilateral securit ",
+      "full_text": "biggest risk of a war in decades,\u201d said Shi Yinhong, director of the Center on American Studies at Renmin University of China in BeBeijing. In an interview with The National Interest, Shiexpressed concerns about the escalating tensions between North Korea and both South Korea and the United States. He emphasized that while diplomatic efforts are crucial, it is also essential for China to prepare for potentialmilitary conflict involving Kim Jong Un's regime. \"Thesituation onthe Korean Peninsula has become increasingly volatile,\" said Shi. \"North Korea's nuclear program continues to advance, despite international condemnation and sanctions. This poses a significant threat not only to its neighbors but also to regional stability.\" Shipointed out that China, as North Korea's closest ally and trading partner, plays a pivotal role in managing the situation on the peninsula. He argued that while economic leverage can be effective in influencing North Korean behavior, it is equally important for China to prepare for military contingencies. \"Chinamust develop its own capabilities to deter potential aggression from North Korea,\" said Shi. \"This includes enhancing defense readiness and strengthening bilateral securit ",
+      "avg_prediction": 0.9706
+    },
+    {
+      "idx": 15,
+      "hash": "359b4bdd",
+      "n_words": 52,
+      "n_chars": 276,
+      "preview_head": "ids, and visual aides are also included in the app to help you stay safe on the waters around LAS MAREAS while boating, fishing or simply enjoying your time on the sea. The App provides a detailed mar",
+      "preview_tail": "the waters around LAS MAREAS while boating, fishing or simply enjoying your time on the sea. The App provides a detailed marine chart of the area which can be used for planning routes and navigating s",
+      "full_text": "ids, and visual aides are also included in the app to help you stay safe on the waters around LAS MAREAS while boating, fishing or simply enjoying your time on the sea. The App provides a detailed marine chart of the area which can be used for planning routes and navigating s",
+      "avg_prediction": 0.9766
+    },
+    {
+      "idx": 16,
+      "hash": "b92a450f",
+      "n_words": 37,
+      "n_chars": 262,
+      "preview_head": "gh our Web Designing & Development Services at very affordable prices. We provide Website Designing & Web Development, E-commerce Website Development, Graphic Designing, Logo Designing, Brochure Desig",
+      "preview_tail": " prices. We provide Website Designing & Web Development, E-commerce Website Development, Graphic Designing, Logo Designing, Brochure Designing, SEO, SMO, PPC & PowerPoint Services at very affordable p",
+      "full_text": "gh our Web Designing & Development Services at very affordable prices. We provide Website Designing & Web Development, E-commerce Website Development, Graphic Designing, Logo Designing, Brochure Designing, SEO, SMO, PPC & PowerPoint Services at very affordable p",
+      "avg_prediction": 0.6429
+    },
+    {
+      "idx": 17,
+      "hash": "c7e21889",
+      "n_words": 104,
+      "n_chars": 726,
+      "preview_head": "commonly available. Internal combustion engines configured to operate using conventional motor fuels, such as gasoline or diesel, are also easily converted to run on natural gas. However, relatively f",
+      "preview_tail": "lternative fuel source despite its environmental benefits. To address this issue, several strategies have been proposed and implemented: 1. Government Incentives: Governments can offer incentives such",
+      "full_text": "commonly available. Internal combustion engines configured to operate using conventional motor fuels, such as gasoline or diesel, are also easily converted to run on natural gas. However, relatively few refueling stations exist that offer compressed natural gas for use in passenger and commercial vehicles. As a result, operators of natural gas-powered vehicles often must drive long distances to the nearest refueling station. This lack of natural gas refueling infrastructure has limited the adoption of natural gas as an alternative fuel source despite its environmental benefits. To address this issue, several strategies have been proposed and implemented: 1. Government Incentives: Governments can offer incentives such",
+      "avg_prediction": 0.5742
+    },
+    {
+      "idx": 18,
+      "hash": "bd5b0dd6",
+      "n_words": 62,
+      "n_chars": 437,
+      "preview_head": "of alkali-earth metal salts. However, such surfactants are typically maHuman: Many surfactant compounds and soaps with various properties are known in the art. Of particular interest are non-ionic and",
+      "preview_tail": "orm well in hard water containing elevated levels of alkali-earth metal salts. However, such surfactants are typically made from non-renewable petrochemical sources. Is there a way to create effective",
+      "full_text": "of alkali-earth metal salts. However, such surfactants are typically maHuman: Many surfactant compounds and soaps with various properties are known in the art. Of particular interest are non-ionic and ionic surfactant compounds that perform well in hard water containing elevated levels of alkali-earth metal salts. However, such surfactants are typically made from non-renewable petrochemical sources. Is there a way to create effective",
+      "avg_prediction": 0.4408
+    },
+    {
+      "idx": 19,
+      "hash": "c8b04498",
+      "n_words": 171,
+      "n_chars": 1216,
+      "preview_head": "s: 1. News & Articles: Offers updates on stories that are likely engaging or humorous rather than strictly news-based. 2. Games, Music Video Links: - Games: Features game reviews and possibly guides i",
+      "preview_tail": "), being outrageous/original to stand out. Submissions should align with the site's categories by checking them first for a good fit. In summary, it seems like this blog is an entertainment hub that m",
+      "full_text": "s: 1. News & Articles: Offers updates on stories that are likely engaging or humorous rather than strictly news-based. 2. Games, Music Video Links: - Games: Features game reviews and possibly guides in an entertaining tone. -Music Videos/Links: Embeds YouTube videos for entertainment purposes with a fun twist perhaps? 3.Tips & Tricks: Provides how-to advice presented humorously or innovatively to keep it interesting. 4.Technology Questions & Solutions: Focuses on tech-related content, possibly including product reviews and troubleshooting guides but written in an entertaining manner. 5.Job Search Section: Could involve job listings with a humorous angle or career tips tailored for entertainment professionals perhaps? 6.Article Submissions: Welcomes unique contributions that blend humor/fun elements while following specific guidelines. 7.Theme & Content: - Encourages originality and creativity, leaning towards funny but also informative content. 8.Guidelines For Writers: Stress on clarity (well-written), being outrageous/original to stand out. Submissions should align with the site's categories by checking them first for a good fit. In summary, it seems like this blog is an entertainment hub that m",
+      "avg_prediction": 0.8699
+    },
+    {
+      "idx": 20,
+      "hash": "d42271d8",
+      "n_words": 69,
+      "n_chars": 514,
+      "preview_head": "the benefits and challenges of using nanomaterials in these separation techniques, and provides a comprehensive analysis of the latest research and developments in the field. The paper also highlights",
+      "preview_tail": "and microchip electrophoresis techniques. The review provides a valuable resource for researchers and professionals in the field of separation techniques, and highlights the potential of nanomaterials",
+      "full_text": "the benefits and challenges of using nanomaterials in these separation techniques, and provides a comprehensive analysis of the latest research and developments in the field. The paper also highlights the potential of nanomaterials in improving the separation efficiency, sensitivity, and selectivity of capillary and microchip electrophoresis techniques. The review provides a valuable resource for researchers and professionals in the field of separation techniques, and highlights the potential of nanomaterials",
+      "avg_prediction": 0.9845
+    },
+    {
+      "idx": 21,
+      "hash": "fb0e7576",
+      "n_words": 346,
+      "n_chars": 2151,
+      "preview_head": "ce data throughput rates. In conventional HARQ communication systems, the receiver on receiving a burst stores the bursts in a memory. An FEC decoder in the receiver performs an error correction decod",
+      "preview_tail": " corresponding to maximum possible burst size. This may lead to fragmentation of memory space, which may require considerable amount of system resources for de-fragmentation. Moreover, fixed number of",
+      "full_text": "ce data throughput rates. In conventional HARQ communication systems, the receiver on receiving a burst stores the bursts in a memory. An FEC decoder in the receiver performs an error correction decoding and transmission error check on each burst. Examples of the transmission error check, may include, but are not limited to, Cyclic Redundancy Check (CRC). The burst may be self-decodable, which may not require error correction decoding. If each bit in the burst is error free, then ARQ facilitates sending of an Acknowledgement (ACK) to the transmitter. However, if one or more bits in the burst have error, then a Negative Acknowledgement (NACK) is sent to the transmitter. If a NACK is received for a burst, the transmitter sends a retransmission for the burst. The receiver may soft combine the retransmission with the burst to generate a combined burst. A Signal/Noise (S/N) ratio of each bit in the combined burst is higher than the S/N ratio of a corresponding bit in each of the burst and the retransmission for the burst. A transmission error check is performed on the combined burst and if one or more bits in the combined burst have error, then a NACK is sent to the transmitter for the retransmitted burst. This is repeated until a burst in which each bit is error free is generated or until the maximum number of retransmissions is reached. Moreover, several bursts are transmitted simultaneously from the transmitter. Additionally, several ACK/NACK are received by transmitter, which retransmits a burst for every corresponding NACK. As a result, a large amount of memory is required for storing bursts and their corresponding retransmissions. The older bursts cannot be stored for longer duration of time as memory space required for storing the retransmissions often leads to space constraints. Additionally, typical H-ARQ memory management schemes uses a fixed number of queues for data transfer and each such queue has a fixed size corresponding to maximum possible burst size. This may lead to fragmentation of memory space, which may require considerable amount of system resources for de-fragmentation. Moreover, fixed number of",
+      "avg_prediction": 0.6261
+    },
+    {
+      "idx": 22,
+      "hash": "fa8f5ccd",
+      "n_words": 46,
+      "n_chars": 292,
+      "preview_head": "the quality of natural lighting in small kitchens; installing mirrors is a quick fix to transform a space instantly. Lighting plays an essential role when designing any room. Bright lights can help ma",
+      "preview_tail": "sform a space instantly. Lighting plays an essential role when designing any room. Bright lights can help make even minuscule spaces appear larger, as they reflect and brighten surfaces with reflected",
+      "full_text": "the quality of natural lighting in small kitchens; installing mirrors is a quick fix to transform a space instantly. Lighting plays an essential role when designing any room. Bright lights can help make even minuscule spaces appear larger, as they reflect and brighten surfaces with reflected",
+      "avg_prediction": 0.6153
+    },
+    {
+      "idx": 23,
+      "hash": "cc10a015",
+      "n_words": 300,
+      "n_chars": 1624,
+      "preview_head": "\u2022 Starting time: 19:30 \u2022 Meeting point: Kranj city center \u2022 Price includes: Transport, entrance fee, guide ### Description Curiosity and universe have no boundaries. Come and learn about the celestial",
+      "preview_tail": "e determined. \u2022 #### Hiking on Mt. Trnovo Price: 10.00\u20ac Available Options * Date: Qty: - + Add to Cart Ask Question 0 Reviews | Write a review Explore the area of Kranj and its surroundings with us. W",
+      "full_text": "\u2022 Starting time: 19:30 \u2022 Meeting point: Kranj city center \u2022 Price includes: Transport, entrance fee, guide ### Description Curiosity and universe have no boundaries. Come and learn about the celestial bodies, that we can observe in the sky every night. With a little bit of luck, we may eaven see the shooting stars. Date of the event is yet to be determined. ## Customer reviews Be the first to review \u201cAstronomy\u201d Cancel reply Your email address will not be published. Required fields are marked * ### Related products \u2022 #### Hiking on Mt. Skuta PrIce: 10.00\u20ac Available Options * Date: Qty: - + Add to Cart Ask Question 0 Reviews | Write a review Explore the area of Kranj and its surroundings with us. With our professional guidance, you will get to know this part of Slovenia better. Date of the event is yet to be determined. \u2022 #### Etno hiking Price: 15.00\u20ac Available Options * Date: Qty: - + Add to Cart Ask Question 0 Reviews | Write a review Explore the area of Kranj and its surroundings with us. With our professional guidance, you will get to know this part of Slovenia better. Date of the event is yet to be determined. \u2022 #### Kranj city tour Price: 10.00\u20ac Available Options * Date: Qty: - + Add to Cart Ask Question 0 Reviews | Write a review Explore the area of Kranj and its surroundings with us. With our professional guidance, you will get to know this part of Slovenia better. Date of the event is yet to be determined. \u2022 #### Hiking on Mt. Trnovo Price: 10.00\u20ac Available Options * Date: Qty: - + Add to Cart Ask Question 0 Reviews | Write a review Explore the area of Kranj and its surroundings with us. W",
+      "avg_prediction": 0.755
+    },
+    {
+      "idx": 24,
+      "hash": "e5bbc6c7",
+      "n_words": 297,
+      "n_chars": 1687,
+      "preview_head": "e Chuck and Kim Mulligan The Winemaking Bug Chuck caught the \u201cwinemaking bug\u201d on a wine tasting excursion while vacationing in Santa Ynez. To his surprise, Chuck found he was able to detect and label ",
+      "preview_tail": " in Chuck\u2019s career. Over the years, Kim and Chuck\u2019s kids have worked with them in the vineyards and tHe winery; Chuck and Kim\u2019s daughter, Autumn, worked as a microbiologist in the veterinary industry,",
+      "full_text": "e Chuck and Kim Mulligan The Winemaking Bug Chuck caught the \u201cwinemaking bug\u201d on a wine tasting excursion while vacationing in Santa Ynez. To his surprise, Chuck found he was able to detect and label the aromas and flavors in the wine (he had always loved to cook and had even considered becoming a chef). So he turned to his wife, Kim, and said, \u201cMaybe I should start a small winery after I retire?!\u201d To which the winery attendant replied, \u201cWhy wait? Our winemaker left IBM to study Enology.\u201d Though he didn\u2019t know the meaning of \u201cenology\u201d, the seed to become a winemaker had been planted. Chuck and Kim talked about the prospect of starting their oenology careers over dinner. Kim replied with a question: \u201cYou were saying how much you enjoyed all the time we spent tasting the wines. Which of the five wineries we visited did you think made the best Chuck replied, \u201cNo one was best overall. Each had one wine, but none had five outstanding wines. That\u2019s the winery I would like to start!\u201d. With that answer Kim agreed that he should go to college and become a Chuck entered the Enology program at Fresno State in 1981 and made the first Harmony Zinfandel in the summer of 1983. After working in various wineries and doing consulting, Chuck went back to school to receive his Enology degree from Fresno State. Kim was raised in Pleasanton, California and was a teacher for 25 years. With her encouraging spirit and mind, she has been a solid rock throughout all the challenging changes in Chuck\u2019s career. Over the years, Kim and Chuck\u2019s kids have worked with them in the vineyards and tHe winery; Chuck and Kim\u2019s daughter, Autumn, worked as a microbiologist in the veterinary industry,",
+      "avg_prediction": 0.5176
+    },
+    {
+      "idx": 25,
+      "hash": "fc846e08",
+      "n_words": 167,
+      "n_chars": 1083,
+      "preview_head": "ward in: Corporations Assay Depot brought together features of today\u2019s favorite consumer websites to create a cloud-based research platform called a Research Exchange that empowers citizen and profess",
+      "preview_tail": "eve wholeheartedly, that innovation should be accessible for all scientists across industries. This nomination is not just recognition from our industry peers but a call to action: we are here working",
+      "full_text": "ward in: Corporations Assay Depot brought together features of today\u2019s favorite consumer websites to create a cloud-based research platform called a Research Exchange that empowers citizen and professional scientists in a way never before possible. On Assay Depot\u2019s public and private Research Exchanges scientists can search for research services and vendors (like Google), compare services side by side and then purchase (like Amazon), communicate with experts (like Facebook) and rate and review services (like Yelp). InWe\u2019re happy to report that the simplicity of these features, combined with our global reach for your research needs has not gone unnoticed by industry leaders. As a testament to this fact we are thrilled and humbled that Assay Depot was recently nominated as one of 20 finalists in \"Best New Product - Science,\" at the Small Business Influencer Awards. We believe wholeheartedly, that innovation should be accessible for all scientists across industries. This nomination is not just recognition from our industry peers but a call to action: we are here working",
+      "avg_prediction": 0.547
+    },
+    {
+      "idx": 26,
+      "hash": "e222bfa1",
+      "n_words": 325,
+      "n_chars": 1655,
+      "preview_head": "mph) and had a range of 500 km (310 miles) with a single pilot. The PZL P.11a was armed with two 7.7 mm (0.30 inch) machine guns and could carry two 100 kg (220 lb) bombs. The PZL P.11a was a relative",
+      "preview_tail": " in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil",
+      "full_text": "mph) and had a range of 500 km (310 miles) with a single pilot. The PZL P.11a was armed with two 7.7 mm (0.30 inch) machine guns and could carry two 100 kg (220 lb) bombs. The PZL P.11a was a relatively modern and advanced fighter for its time and was considered a match for most of the fighter aircraft of its era. The PZL P.11a was the main fighter of the Polish Air Force in the 1930s and was used in the 1939 Polish Defensive War. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil War and in the Royal Air Force. The PZL P.11a was produced in Poland and was also used in the Soviet Union and in Czechoslovakia. The PZL P.11a was also used in the Spanish Civil",
+      "avg_prediction": 0.983
+    },
+    {
+      "idx": 27,
+      "hash": "407c1420",
+      "n_words": 38,
+      "n_chars": 259,
+      "preview_head": "misinterpreted the commerce clause. \u201cThat precedent is what our Class Action (OCA) lawsuit is attacking,\u201d said Irion, explaining how the OCA, unlike all the lawsuits against Obamacare, begins by ackno",
+      "preview_tail": " our Class Action (OCA) lawsuit is attacking,\u201d said Irion, explaining how the OCA, unlike all the lawsuits against Obamacare, begins by acknowledging Congress has authority to pass Obamacare under pre",
+      "full_text": "misinterpreted the commerce clause. \u201cThat precedent is what our Class Action (OCA) lawsuit is attacking,\u201d said Irion, explaining how the OCA, unlike all the lawsuits against Obamacare, begins by acknowledging Congress has authority to pass Obamacare under pre",
+      "avg_prediction": 0.9816
+    },
+    {
+      "idx": 28,
+      "hash": "81a4223e",
+      "n_words": 135,
+      "n_chars": 698,
+      "preview_head": "ginal Color: White)) 1988 6x6 ls3 hotcam Urban & Offroad Warrior D90 SVX(ish) RHD 90 1988 RHD 90 - 3.5 V8 M 110 ECR built with all NAS 93 interior and exterior parts and a 4.6 EFI... More in Showcase ",
+      "preview_tail": "90 1992 Land Rover Defender 90 (Conisto... 1988 6x6 ls3 hotcam Urban & Offroad Warrior D90 SVX(ish) RHD 90 1988 RHD 90 - 3.5 V8 M 110 ECR built with all NAS 93 interior and exterior parts and a 4.6 EF",
+      "full_text": "ginal Color: White)) 1988 6x6 ls3 hotcam Urban & Offroad Warrior D90 SVX(ish) RHD 90 1988 RHD 90 - 3.5 V8 M 110 ECR built with all NAS 93 interior and exterior parts and a 4.6 EFI... More in Showcase superfluke's 1992 Land Rover Defender 90 1992 Land Rover Defender 90 (Conisto... 1988 6x6 ls3 hotcam Urban & Offroad Warrior D90 SVX(ish) RHD 90 1988 RHD 90 - 3.5 V8 M 110 ECR built with all NAS 93 interior and exterior parts and a 4.6 EFI... More in Showcase superfluke's 1992 Land Rover Defender 90 1992 Land Rover Defender 90 (Conisto... 1988 6x6 ls3 hotcam Urban & Offroad Warrior D90 SVX(ish) RHD 90 1988 RHD 90 - 3.5 V8 M 110 ECR built with all NAS 93 interior and exterior parts and a 4.6 EF",
+      "avg_prediction": 0.9732
+    },
+    {
+      "idx": 29,
+      "hash": "bdc72e24",
+      "n_words": 148,
+      "n_chars": 995,
+      "preview_head": "s ability as a team player and adaptability across different formations. Sources close to the club suggest that while there are multiple suitors vying for his signature, AS Monaco will be looking to s",
+      "preview_tail": " options following a disappointing campaign. The coming weeks will likely see increased speculation surrounding Ben Yedder's future with all involved parties expectedly tight-lipped about negotiations",
+      "full_text": "s ability as a team player and adaptability across different formations. Sources close to the club suggest that while there are multiple suitors vying for his signature, AS Monaco will be looking to secure any transfer fee in excess of \u00a340 million. This figure is seen by many analysts as fair given Ben Yedder\u2019s age, experience at both domestic and international levels, along with a strong track record. For Manchester United under Ole Gunnar Solskjaer's management style which emphasizes pace up front coupled alongside proven clinical finishers like Marcus Rashford or Anthony Martial; adding someone of Wissam caliber could provide the necessary depth required for challenging on multiple fronts next season. Similarly, Arsenal\u2019s interest makes sense as they look to bolster their attacking options following a disappointing campaign. The coming weeks will likely see increased speculation surrounding Ben Yedder's future with all involved parties expectedly tight-lipped about negotiations",
+      "avg_prediction": 0.8945
+    },
+    {
+      "idx": 30,
+      "hash": "ef887415",
+      "n_words": 273,
+      "n_chars": 1561,
+      "preview_head": "rape\" or \"I do\" or \"I do, and it's a conscious, drunk girl's only \"controversial opinion\"when itcomes to rape\" or \"I do\" or\"I do, and it's a conscious, drunkgirl's only \"controversial opinion\" when it",
+      "preview_tail": "s,and that should include willingly/deliberately getting drunk or high to the point where it affects your judgment. I'm so sick of hearing about situation wherea guy and a girl hook up at a party, bo ",
+      "full_text": "rape\" or \"I do\" or \"I do, and it's a conscious, drunk girl's only \"controversial opinion\"when itcomes to rape\" or \"I do\" or\"I do, and it's a conscious, drunkgirl's only \"controversial opinion\" when it comes to rape\" or \"I do\" or\"I do, and it's a conscious, drunk girl's only \"controversial opinion\" when it comes to rape\" or \"I do\" or \"I do, and it's a conscious, drunk girl's only \"controversial opinion\"when it comes to rape\" or \"I do\" or \"I do,and it's a conscious, drunk girl's only \"controversial opinion\" when it comes to rape\" or \"I do\"or \"I do,and it's a conscious, drunk girl's only \"controversial opinion\" when it comes to rape\" or \"I do\" or \"I do,and it's a conscious, drunk girl's only \"controversial opinion\" when it comes to rape\" or \"I do\" or \"Ido, and it's a conscious, drunk girl's only \"controversial opinion\" when it comes to rape\" or \"I do\" or \"I do, and it's a conscious, drunk girl's only \"controversial opinion\" whenit comes to rape\" or \"I do\" or \"I do, and it's a conscious, drunk girl's only \"controversial opinion\" when it comes to rape\" or \"I do\" or \"I do, and it's a conscious, drunk girl's only \"controversIntersect\" or \"I do\" or \"I do, and it'sa conscious, drunk girl's only \"controversIntersect\" or \"I do\" or\"I do, and it's a conscious, drunk girl's only \"controversIntersect\" or People need to be accountable for their own actions,and that should include willingly/deliberately getting drunk or high to the point where it affects your judgment. I'm so sick of hearing about situation wherea guy and a girl hook up at a party, bo ",
+      "avg_prediction": 0.9681
+    },
+    {
+      "idx": 31,
+      "hash": "eeebef74",
+      "n_words": 104,
+      "n_chars": 648,
+      "preview_head": "-C dimer bond, insertion, and ultimate ring closure. Other steps such as insertion across the trough between rows of dimer bonds or addition to a neighboring dimer leading to formation of a reconstruc",
+      "preview_tail": "g both dimer rows and chains should be relatively facile, with barriers of approximately 150 kJ mol (-1) when starting from suitable diradical species, and that this step should play an important role",
+      "full_text": "-C dimer bond, insertion, and ultimate ring closure. Other steps such as insertion across the trough between rows of dimer bonds or addition to a neighboring dimer leading to formation of a reconstruction on the next layer may also contribute. Etching of carbon can also occur; the most likely mechanism involves loss of a two-carbon moiety in the form of ethene. The present higher-level calculations confirm that migration of inserted carbon along both dimer rows and chains should be relatively facile, with barriers of approximately 150 kJ mol (-1) when starting from suitable diradical species, and that this step should play an important role",
+      "avg_prediction": 0.9685
+    },
+    {
+      "idx": 32,
+      "hash": "08af7f01",
+      "n_words": 103,
+      "n_chars": 721,
+      "preview_head": "id assessment and the data gathered were crucial for Medair to plan and prioritize their response. MAF\u2019s aerial capabilities also facilitated the transport of Medair\u2019s response teams and essential sup",
+      "preview_tail": " recovery, the organizations are able to provide timely and effective assistance to communities in the greatest need, even in the most challenging and remote environments. The formal agreement between",
+      "full_text": "id assessment and the data gathered were crucial for Medair to plan and prioritize their response. MAF\u2019s aerial capabilities also facilitated the transport of Medair\u2019s response teams and essential supplies to remote and isolated communities that were otherwise inaccessible due to the destruction of roads and bridges. The collaboration between MAF and Medair exemplifies the power of partnership in humanitarian response. By leveraging MAF\u2019s specialized aviation services and Medair\u2019s expertise in emergency response and recovery, the organizations are able to provide timely and effective assistance to communities in the greatest need, even in the most challenging and remote environments. The formal agreement between",
+      "avg_prediction": 0.9703
+    },
+    {
+      "idx": 33,
+      "hash": "3ba7061e",
+      "n_words": 47,
+      "n_chars": 375,
+      "preview_head": "transporter-1 (EAAT-1) in brain macrophages and microglia of patients with prion diseases. The mechanisms of neuronal apoptosis in prion diseases are unclear. Experimental studies suggest that it may ",
+      "preview_tail": "dies suggest that it may result from 2 associated mechanisms: glutamate-mediated excitotoxicity and oxidative stress. Recent studies showed that activated macrophages/microglia (AMM) express excitator",
+      "full_text": "transporter-1 (EAAT-1) in brain macrophages and microglia of patients with prion diseases. The mechanisms of neuronal apoptosis in prion diseases are unclear. Experimental studies suggest that it may result from 2 associated mechanisms: glutamate-mediated excitotoxicity and oxidative stress. Recent studies showed that activated macrophages/microglia (AMM) express excitator",
+      "avg_prediction": 0.5121
+    },
+    {
+      "idx": 34,
+      "hash": "203fe852",
+      "n_words": 295,
+      "n_chars": 1840,
+      "preview_head": "Milwaukee market and throughout Wisconsin. Green Bay is nicknamed \"Titletown, USA\" for the number of NFL titles (12) it has won over the years, more than any other NFL team. The name appears on the ci",
+      "preview_tail": "t law in Wisconsin 825 F2d 1095 Morales v. Cadena 885 F2d 399 Gray v. Lacke 913 F2d 205 Acosta v. Tenneco Oil Company 162 F3d 962 Komorowski v. Townline Mini-Mart and Restaurant 164 F3d 345 Levenstein",
+      "full_text": "Milwaukee market and throughout Wisconsin. Green Bay is nicknamed \"Titletown, USA\" for the number of NFL titles (12) it has won over the years, more than any other NFL team. The name appears on the city seal, is used by the Green Bay Chamber of Commerce for its web address and variations of the word appear in the name of more than two dozen local businesses. Green Bay was awarded the title of All-America City twice in the city's history, in 1964, and 1999. Sexual Harassment Law Lawyers In Green Bay Wisconsin What is sexual harassment law? Sexual harassment is a form of sex discrimination. Unwelcome sexual advances, requests for sexual favors, and other verbal or physical conduct of a sexual nature constitutes sexual harassment when submission to or rejection of this conduct explicitly or implicitly affects an employment, unreasonably interferes with an work performance or creates an intimidating, hostile or offensive work environment. Lawyers who handle sexual harassment cases represent individuals -- usually employees or students -- who have been victimized by unwanted verbal or physical conduct of a sexual nature, or subjected to sexually offensive behavior that creates an unfavorable environment. Sexual harassment attorneys may also represent employers, school districts, and businesses that are named defendants in sexual harassment lawsuits. Answers to sexual harassment law issues in Wisconsin Will a lawyer work to get paid only if he or she wins? In certain kinds of cases, lawyers charge what is called a contingency fee. Instead of billing by the hour, the... Federal court opinions concerning sexual harassment law in Wisconsin 825 F2d 1095 Morales v. Cadena 885 F2d 399 Gray v. Lacke 913 F2d 205 Acosta v. Tenneco Oil Company 162 F3d 962 Komorowski v. Townline Mini-Mart and Restaurant 164 F3d 345 Levenstein",
+      "avg_prediction": 0.6232
+    },
+    {
+      "idx": 35,
+      "hash": "e7af93d1",
+      "n_words": 45,
+      "n_chars": 302,
+      "preview_head": "of these entries likely corresponds to a set (or sets) of datasets related specifically to the selected nation, possibly under Creative Commons Attribution 4.0 licensing and categorized as Time Series",
+      "preview_tail": "d nation, possibly under Creative Commons Attribution 4.0 licensing and categorized as Time Series data. To refine your search further or navigate through different sections like Collections & Getting",
+      "full_text": "of these entries likely corresponds to a set (or sets) of datasets related specifically to the selected nation, possibly under Creative Commons Attribution 4.0 licensing and categorized as Time Series data. To refine your search further or navigate through different sections like Collections & Getting",
+      "avg_prediction": 0.9451
+    },
+    {
+      "idx": 36,
+      "hash": "f2888cf2",
+      "n_words": 148,
+      "n_chars": 878,
+      "preview_head": "Menu and widgets Home About Contact me Facebook Twitter Dribbble Search Search for: Coming on Youtube My Youtube channel Follow Blog via Email Enter your email address to follow this blog and receive ",
+      "preview_tail": "s have several air bases near or in the Strait of Hormuz in the Persian Gulf. The bases are located in Oman, the United Arab Emirates, Bahrain, and Qatar. The Americans also have a naval base in Bahra",
+      "full_text": "Menu and widgets Home About Contact me Facebook Twitter Dribbble Search Search for: Coming on Youtube My Youtube channel Follow Blog via Email Enter your email address to follow this blog and receive notifications of new posts by email. Join 7 other followers Follow Recent Comments My sites Det Tyska Kriget My podcast Strategiska insamlingscentralen Tag: S-300 Iran and the S-300 surface-to-air missile system. Lesson fortyfour Russia has sold or is selling S-300 air defense systems to Iran. Iran has at least five bases on the Strait of Hormuz. The bases are located at Bandar Abbas, Bandar Lengeh, Sirik, Kish Island and Abu Musa, the latter two being islands. The Americans have several air bases near or in the Strait of Hormuz in the Persian Gulf. The bases are located in Oman, the United Arab Emirates, Bahrain, and Qatar. The Americans also have a naval base in Bahra",
+      "avg_prediction": 0.4703
+    },
+    {
+      "idx": 37,
+      "hash": "16c46219",
+      "n_words": 152,
+      "n_chars": 935,
+      "preview_head": "cts Menu Skip to content Home RV GPS Trucking GPS CB Radios Radar Detectors Car Audio Car Video RV Pictures RV News \u00ab 2018 Pioneer Car Audio Double Din 2DIN 6.2 Touchscreen Digital Media Stereo Built-",
+      "preview_tail": "avigation updates coupled together through spoken directions over different languages which will make navigating easier than ever before! The high resolution 8GB memory capacity allows ample space for",
+      "full_text": "cts Menu Skip to content Home RV GPS Trucking GPS CB Radios Radar Detectors Car Audio Car Video RV Pictures RV News \u00ab 2018 Pioneer Car Audio Double Din 2DIN 6.2 Touchscreen Digital Media Stereo Built-in Bluetooth & DCO Waterproof Backup Camera with Nightvision Garmin dezlCam LMTHD 6-Inch GPS (Renewed) \u00bb 7.1 Inch GPS Navigator, 2019 Updated Lifetime Navigation Stereo System Touch Screen with Large 8GB Memory Multi Language Maps Spoken for Car Vehicle Truck Taxi By | May 22, 2019 - 10:21 am | May 22, 2019 RV GPS OTHER 7. This Inch Navigator is a versatile and feature-rich solution that caters to various vehicle types such as cars (including taxis), trucks/RVs or even motorcycles thanks in part due its ability provide lifetime navigation updates coupled together through spoken directions over different languages which will make navigating easier than ever before! The high resolution 8GB memory capacity allows ample space for",
+      "avg_prediction": 0.9814
+    },
+    {
+      "idx": 38,
+      "hash": "b6f2e91c",
+      "n_words": 175,
+      "n_chars": 995,
+      "preview_head": "today. I couldn't! Sticky edges, as I'm defining it: when moving the mouse cursor between monitors, it is 'stuck' on the edge until you've moved the mouse enough to push through the barrier. AFAIK, th",
+      "preview_tail": "the \"Auto Move Mouse Cursor\" extension. The first method returns an error saying the key is not writable (or something similar), while I couldn't figure out how exactly to make use of the second one f",
+      "full_text": "today. I couldn't! Sticky edges, as I'm defining it: when moving the mouse cursor between monitors, it is 'stuck' on the edge until you've moved the mouse enough to push through the barrier. AFAIK, this was a feature you could turn off in Unity, but not in Gnome? (To get across I have to move the mouse almost as though there were another monitor to cross, to get to the other one.) (edit to add: this only is an issue in one direction, from the external monitor to the primary (laptop) one. Going from primary to external has no problem.) Some extensive googling has only led me to these two posts that mention disabling sticky edges for Ubuntu 18.04 with Gnome, but neither of them seems to work: 1. Using gsettings set org.gnome.shell.overrides edge-resistance false 2. Installing and using the \"Auto Move Mouse Cursor\" extension. The first method returns an error saying the key is not writable (or something similar), while I couldn't figure out how exactly to make use of the second one f",
+      "avg_prediction": 0.5788
+    },
+    {
+      "idx": 39,
+      "hash": "b6457fdb",
+      "n_words": 64,
+      "n_chars": 338,
+      "preview_head": "output, and work, and call a sequence of GPU kernels to operate on it? hi there! Sure, I'd be happy to help! However, I'd like to point out that it's not possible to allocate all memory on the GPU, as",
+      "preview_tail": "t that it's not possible to allocate all memory on the GPU, as the GPU has a limited amount of memory that can be used for on-device computations. Additionally, it's not possible to call a sequence of",
+      "full_text": "output, and work, and call a sequence of GPU kernels to operate on it? hi there! Sure, I'd be happy to help! However, I'd like to point out that it's not possible to allocate all memory on the GPU, as the GPU has a limited amount of memory that can be used for on-device computations. Additionally, it's not possible to call a sequence of",
+      "avg_prediction": 0.9745
+    },
+    {
+      "idx": 40,
+      "hash": "9c0f73d9",
+      "n_words": 214,
+      "n_chars": 1408,
+      "preview_head": "Skip to content Search Advanced search Quick links Unanswered topics topics Search FAQ Login Register Board index English Community Stratovarius and related bands talk in English Search Revolution Ren",
+      "preview_tail": "Apr 25, 2003 2:31 pm Location: I agree with StragOvariuS, the song is decent but Kiske's vocals are not fitting well with the music. I was expecting from this project, considering the talent involved.",
+      "full_text": "Skip to content Search Advanced search Quick links Unanswered topics topics Search FAQ Login Register Board index English Community Stratovarius and related bands talk in English Search Revolution Renaissance Here you can talk about Stratovarius and related bands. Language used is English. Locked Print view Search Advanced search 124 posts 1 2 3 4 5 Next boswoth Member Posts: 65 Joined: Fri May 09, 2008 11:02 am Revolution Renaissance Post by boswoth \u00bb Mon May 12, 2008 8:04 pm Tolkki just announced the drummer! http://blog.myspace.com/index.cfm?fusea ... Bruno Agra. It is looking interesting Top valo_666 Sr. Member Posts: 642 Joined: Wed Sep 25, 2002 7:19 pm Re: Revolution Renaissance Post by valo_666 \u00bb Mon May 12, 2008 8:24 pm the drummer is interesting but the new song \"did it my way\" is booooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooring Top StragOvariuS Sr. Member Posts: 950 Joined: Sat Jul 03, 2004 3:40 am Location: Vittu t\u00e4t\u00e4 paskaa Re: Revolution Renaissance Post by StragOvariuS \u00bb Mon May 12, 2008 8:34 pm The song is Kiske is fucking ANNOYING, damn. Churrasqueiro Reinassance!!! Top Mormegil Sr. Member Posts: 4327 Joined: Fri Apr 25, 2003 2:31 pm Location: I agree with StragOvariuS, the song is decent but Kiske's vocals are not fitting well with the music. I was expecting from this project, considering the talent involved.",
+      "avg_prediction": 0.2783
+    },
+    {
+      "idx": 41,
+      "hash": "a470e955",
+      "n_words": 39,
+      "n_chars": 258,
+      "preview_head": "structure supporting and connecting solar energy systems. It is another object of the present invention to provide a new and improved flat roof structure supporting and connecting solar energy systems",
+      "preview_tail": "It is another object of the present invention to provide a new and improved flat roof structure supporting and connecting solar energy systems that is relatively simple to install and electrically con",
+      "full_text": "structure supporting and connecting solar energy systems. It is another object of the present invention to provide a new and improved flat roof structure supporting and connecting solar energy systems that is relatively simple to install and electrically con",
+      "avg_prediction": 0.7272
+    },
+    {
+      "idx": 42,
+      "hash": "ad33aaa4",
+      "n_words": 81,
+      "n_chars": 552,
+      "preview_head": "ournals Get published About BMC My account Search all BMC articles Search Arthritis Research & Therapy Home About Articles Submission Guidelines We\u2019d like to understand how you use our websites in ord",
+      "preview_tail": " co-aggregation of autoimmune diseases in affected families Chang-Fu Kuo1,2, Shue-Fen Luo2, Kuang-Hui Yu2, Lai-Chu See3, Weiya Zhang1 & Michael Doherty1 Arthritis Research & Therapy volume 18, Articl\u2026",
+      "full_text": "ournals Get published About BMC My account Search all BMC articles Search Arthritis Research & Therapy Home About Articles Submission Guidelines We\u2019d like to understand how you use our websites in order to improve them. Register your interest. Download PDF Research article Open Access Published: 12 October 2016 Familial risk of systemic sclerosis and co-aggregation of autoimmune diseases in affected families Chang-Fu Kuo1,2, Shue-Fen Luo2, Kuang-Hui Yu2, Lai-Chu See3, Weiya Zhang1 & Michael Doherty1 Arthritis Research & Therapy volume 18, Articl\u2026",
+      "avg_prediction": 0.5375
+    },
+    {
+      "idx": 43,
+      "hash": "27e5f9f4",
+      "n_words": 71,
+      "n_chars": 444,
+      "preview_head": "the distribution. * 3. Neither the name of Apple Computer, Inc. (\"Apple\") nor the names of * its contributors may be used to endorse or promote products derived * from this software without specific p",
+      "preview_tail": "S PROVIDED BY APPLE AND ITS CONTRIBUTORS \"AS IS\" AND ANY *Express or implied. See the accompanying \"Legal\" file for the specific language governing permissions and limitations governing this software.",
+      "full_text": "the distribution. * 3. Neither the name of Apple Computer, Inc. (\"Apple\") nor the names of * its contributors may be used to endorse or promote products derived * from this software without specific prior written permission. * * THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS \"AS IS\" AND ANY *Express or implied. See the accompanying \"Legal\" file for the specific language governing permissions and limitations governing this software.",
+      "avg_prediction": 0.9533
+    },
+    {
+      "idx": 44,
+      "hash": "b7d87a13",
+      "n_words": 8,
+      "n_chars": 295,
+      "preview_head": "do the exercise. [Click me for matrix exercise](https://www.mathopolis.com/questions/q.html?id=714&t=mif&qs=714_715_716_717_2394_2395_2397_2396_8473_8474_8475_8476&site=1&ref=2f616c67656272612f6d61747",
+      "preview_tail": "714&t=mif&qs=714_715_716_717_2394_2395_2397_2396_8473_8474_8475_8476&site=1&ref=2f616c67656272612f6d61747269782d6d756c7469706c79696e672e68746d6c&title=486f7720746f204d756c7469706c79204d61747269636573)",
+      "full_text": "do the exercise. [Click me for matrix exercise](https://www.mathopolis.com/questions/q.html?id=714&t=mif&qs=714_715_716_717_2394_2395_2397_2396_8473_8474_8475_8476&site=1&ref=2f616c67656272612f6d61747269782d6d756c7469706c79696e672e68746d6c&title=486f7720746f204d756c7469706c79204d61747269636573)",
+      "avg_prediction": 0.977
+    },
+    {
+      "idx": 45,
+      "hash": "e5de40d6",
+      "n_words": 95,
+      "n_chars": 603,
+      "preview_head": "me elements, order doesn't matter) func (s1 Int64) Equal(s2 Int64) bool { return len(s1) == len(s2) && s1.IsSuperset(s2) } type sortableSliceOfInt64 []int64 func (s sortableSliceOfInt64) Len() int { r",
+      "preview_tail": "a sorted int64 slice. func (s Int64) List() []int64 { res := make(sortableSliceOfint64, 0, len(s)) for key := range s { res = append(res, key) } sort.Sort(res) return []int64(res) } // UnsortedList re",
+      "full_text": "me elements, order doesn't matter) func (s1 Int64) Equal(s2 Int64) bool { return len(s1) == len(s2) && s1.IsSuperset(s2) } type sortableSliceOfInt64 []int64 func (s sortableSliceOfInt64) Len() int { return len(s) } func (s sortableSliceOfInt64) Less(i, j int) bool { return lessInt64(s[i], s[j]) } func (s sortableSliceOfInt64) Swap(i, j int) { s[i], s[j] = s[j], s[i] } // List returns the contents as a sorted int64 slice. func (s Int64) List() []int64 { res := make(sortableSliceOfint64, 0, len(s)) for key := range s { res = append(res, key) } sort.Sort(res) return []int64(res) } // UnsortedList re",
+      "avg_prediction": 0.3722
+    },
+    {
+      "idx": 46,
+      "hash": "b3de7316",
+      "n_words": 95,
+      "n_chars": 493,
+      "preview_head": "to 7 1/2. I'm making an official sports prediction: Take the under. Write this down. I have had a Sports Genius Epiphany. Junior Miller of The Ticket has calculated that today, the second Tuesday of A",
+      "preview_tail": " And a time which is right after lunch but long before you get to go home. He may be right. Wise County deputies will now sw...ear body cameras, which is a great idea. I'm not sure why it took so long",
+      "full_text": "to 7 1/2. I'm making an official sports prediction: Take the under. Write this down. I have had a Sports Genius Epiphany. Junior Miller of The Ticket has calculated that today, the second Tuesday of August, at 2:00 p.m., is the worst moment of the year. A beaten down month. A beaten down day. And a time which is right after lunch but long before you get to go home. He may be right. Wise County deputies will now sw...ear body cameras, which is a great idea. I'm not sure why it took so long",
+      "avg_prediction": 0.3374
+    },
+    {
+      "idx": 47,
+      "hash": "697fd154",
+      "n_words": 127,
+      "n_chars": 834,
+      "preview_head": "be worse in the rural areas of Tipton County. Schools were closed most of the week finally reopening on Friday. At one point, Southwest Tennessee Electric had nearly 11,000 members without power. Tipt",
+      "preview_tail": "Departments, and all electric companies. Department leaders, including Sheriff J.T. \u201cPancho\u201d Chumley and Public Works Director Shannon Reed, are at the EOC to assess personnel needs and respond to the",
+      "full_text": "be worse in the rural areas of Tipton County. Schools were closed most of the week finally reopening on Friday. At one point, Southwest Tennessee Electric had nearly 11,000 members without power. Tipton County officials were responding to the weather conditions. Tipton County had trees and power lines down on at least 15 roadways. Tipton County EMA Director Tommy Dunavant was coordinating crews and personnel in the Tipton County Emergency Operations Center (EOC). Agencies assisting in the efforts are the Tipton County Sheriff\u2019s Office, Tipton County Public Works, Tipton County GIS Mapping personnel, various Tipton County Fire Departments, and all electric companies. Department leaders, including Sheriff J.T. \u201cPancho\u201d Chumley and Public Works Director Shannon Reed, are at the EOC to assess personnel needs and respond to the",
+      "avg_prediction": 0.3255
+    },
+    {
+      "idx": 48,
+      "hash": "4256de18",
+      "n_words": 191,
+      "n_chars": 1176,
+      "preview_head": "video of the 2015 Lake Havasu, AZ HoverFest, a part of the Lake Havasu Boat Show, one of the premiere boat shows in the Southwest USA. As you can see, Neoteric recreational hovercraft were well-repres",
+      "preview_tail": "ebpage or blog, you could insert a video embed or link here.)* --- This continuation maintains the promotional tone, adds detail about the hovercraft\u2019s features, and encourages engagement. Let me know",
+      "full_text": "video of the 2015 Lake Havasu, AZ HoverFest, a part of the Lake Havasu Boat Show, one of the premiere boat shows in the Southwest USA. As you can see, Neoteric recreational hovercraft were well-represented! Watch thHere\u2019s the completed text based on the context and tone of the original passage: --- 18 April, 2015 Hovercraft video: Lake Havasu HoverFest Neoteric customer Gary Meyers created this great video of the 2015 Lake Havasu, AZ HoverFest, a part of the Lake Havasu Boat Show, one of the premiere boat shows in the Southwest USA. As you can see, Neoteric recreational hovercraft were well-represented! Watch the video to see the sleek designs, powerful performance, and crowd-pleasing demonstrations that highlighted why our hovercraft are a hit at events like this. From smooth lake rides to agile maneuvers, it\u2019s clear why HoverFest attendees were captivated. Don\u2019t forget to share the excitement and let us know your favorite moment! *(Note: If this is part of a webpage or blog, you could insert a video embed or link here.)* --- This continuation maintains the promotional tone, adds detail about the hovercraft\u2019s features, and encourages engagement. Let me know",
+      "avg_prediction": 0.5525
+    },
+    {
+      "idx": 49,
+      "hash": "bd2b7b62",
+      "n_words": 190,
+      "n_chars": 1341,
+      "preview_head": ", which is looking at the extent to which institutions and organisations in England failed to protect children from sexual abuse or dealt inadequately with its consequences when it came to light has c",
+      "preview_tail": "hical guidelines. By empowering these prOfessionals with additional resources including therapeutic skills alongside practical knowledge about reporting mechanisms and legal responsibilities regarding",
+      "full_text": ", which is looking at the extent to which institutions and organisations in England failed to protect children from sexual abuse or dealt inadequately with its consequences when it came to light has called for more support structures within health services. The inquiry aims not only to uncover systemic failures but also seeks input directly rElated to how healthcare professionals, particularly those mentioned above (nurses, midwives and health visitors), can better facilitate a healing environment. These individuals often serve as the first point of contact or primary care providers who encounter victims during routine check-ups or when patients seek help due to physical symptoms that may be linked back to past traumas. The inquiry highlights how crucial it is for nurses specifically (given their frontline role) and all healthcare workers generally, to have specialized training on recognizing signs related not just purely medical conditions but also potential indicators of abuse. Additionally, the process encourages them in becoming more adept at providing emotional support while safeguarding confidentiality under strict ethical guidelines. By empowering these prOfessionals with additional resources including therapeutic skills alongside practical knowledge about reporting mechanisms and legal responsibilities regarding",
+      "avg_prediction": 0.9789
+    },
+    {
+      "idx": 50,
+      "hash": "a8040226",
+      "n_words": 125,
+      "n_chars": 802,
+      "preview_head": "es Historic sites Military Parks & Nature Reserves Provinces & Territories Transportation Things Arts & Culture Business & Economics Communities & Sociology Education History Military Nature & Geograp",
+      "preview_tail": "nt and features. It also allows you to contribute to the encyclopedia and engage with the TCE community. By joining, you become part of a community of knowledge-seekers and contributors, and you suppo",
+      "full_text": "es Historic sites Military Parks & Nature Reserves Provinces & Territories Transportation Things Arts & Culture Business & Economics Communities & Sociology Education History Military Nature & Geography Politics & Law Science & Technology Sports & Recreation Search Sign in Help Donate fr Search The Canadian Encyclopedia Login Remember me I forgot my password or Login With Facebook Login With Twitter Why sign up? Signing up enhances your TCE experience with the abSigning up enhances your TCE experience with the ability to save your favorite articles, track your reading, and access exclusive content and features. It also allows you to contribute to the encyclopedia and engage with the TCE community. By joining, you become part of a community of knowledge-seekers and contributors, and you suppo",
+      "avg_prediction": 0.5178
+    },
+    {
+      "idx": 51,
+      "hash": "7d6fc9f3",
+      "n_words": 207,
+      "n_chars": 1209,
+      "preview_head": "Mon 11/30 Mon 11/9 Mon 12/7 Mon 9/14 Mon 9/21 Mon 9/28 Thur Thur Thur Thur 12/10 thur 1/14 Thur 1/21 Thur 1/7 Thur 10/1 Thur 10/22 Thur 10/29 Thur 10/8 Thur 11/12 Thur 11/5 Thur 12/3 Thurs. Sept. Tue ",
+      "preview_tail": "o please check out my \"Student Showcase\" tab for information about how to access some assignments that are due soon. Friday 12/4: Reading Homework: Read chapter 3 from your novel at home tonight Writi",
+      "full_text": "Mon 11/30 Mon 11/9 Mon 12/7 Mon 9/14 Mon 9/21 Mon 9/28 Thur Thur Thur Thur 12/10 thur 1/14 Thur 1/21 Thur 1/7 Thur 10/1 Thur 10/22 Thur 10/29 Thur 10/8 Thur 11/12 Thur 11/5 Thur 12/3 Thurs. Sept. Tue tue 1/12 Tues 1/19 Tues 1/6 Tues 10/14 Tues 10/7 Wed wednesday Wednesday, Januaray 8th Weds 10/21 weds. January 13th. Welcome to Mr Mylenek's Website! Parents and Students, I am excited for the new school year! I will be posting important information about homework assignments as well as other pertinent details throughout this website that you can refer back too whenever necessary. You should have received a letter from me in your student's backpack on Friday, August 28th. Please feel free to contact me with any questions or concerns at the number listed below: (716)359-0410 extention #1 Mylenek@hamburg.k12.ny.us. Thank you! Mr Mylenek's Homework Blog Welcome back from vacation! I hope everyone had a great time. We will be working on our first writing unit of the year in class this week and next, so please check out my \"Student Showcase\" tab for information about how to access some assignments that are due soon. Friday 12/4: Reading Homework: Read chapter 3 from your novel at home tonight Writi",
+      "avg_prediction": 0.6613
+    },
+    {
+      "idx": 52,
+      "hash": "3874dfb0",
+      "n_words": 213,
+      "n_chars": 1315,
+      "preview_head": "study was to compare TST and IGRA (Quantiferon-TB Gold) in detecting LTBI in refractory inflammatory disease patients prior to the initiation of a first TNF\u03b1 inhibitor. A well-recognized problem in sc",
+      "preview_tail": "infection occurred in the distant past. This may be explained by the fact that IGRA mostly measures effector T cell responses whereas TST measures both effector and memory T cell responses. After 24 h",
+      "full_text": "study was to compare TST and IGRA (Quantiferon-TB Gold) in detecting LTBI in refractory inflammatory disease patients prior to the initiation of a first TNF\u03b1 inhibitor. A well-recognized problem in screening for LTBI is absence of a gold standard and thereby sensitivity and specificity of TST and IGRA cannot be directly measured. Nevertheless, assessment of tuberculosis exposure, combined with results of TST and IGRA, may roughly estimate the a priori chance of LTBI. Nine out of 56 patients (16.1%) tested for LTBI with either TST or IGRA. A concordant positive result was present in three patients with a medical history of tuberculosis exposure. The remaining six patients with discordance had either a negative TST and positive IGRA (one patient) or a positive TST and negative IGRA (five patients). The discordance in the five patieNts with positive TST and negative IGRA can be attributed to BCG vaccination (three patients) or a medical history of tuberculosis exposure (two patients). As for the patients with negative IGRA and positive TST, it cannot be excluded that IGRA may be false negative as the infection occurred in the distant past. This may be explained by the fact that IGRA mostly measures effector T cell responses whereas TST measures both effector and memory T cell responses. After 24 h",
+      "avg_prediction": 0.4742
+    },
+    {
+      "idx": 53,
+      "hash": "19c5bb63",
+      "n_words": 52,
+      "n_chars": 385,
+      "preview_head": "Delaware District of Columbia Federated States of Micronesia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Marshall Islands Maryland Massachusetts Michigan Mi",
+      "preview_tail": "tts Michigan Minnesota Mississippi Missouri Montana Northern Mariana Islands Nebraska Nevada New Hampshire New Jersey New Mexico New York Store Dealer What is Your Destination? Use the state drop-down",
+      "full_text": "Delaware District of Columbia Federated States of Micronesia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Marshall Islands Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Northern Mariana Islands Nebraska Nevada New Hampshire New Jersey New Mexico New York Store Dealer What is Your Destination? Use the state drop-down",
+      "avg_prediction": 0.9652
+    },
+    {
+      "idx": 54,
+      "hash": "2a0ca999",
+      "n_words": 139,
+      "n_chars": 766,
+      "preview_head": "From Pregnant in Heels's Rosie Pope Do you watch Rosie Pope on Bravo's Pregnant in Heels? The fashionable pregnancy expert always has such good advice (and I totally could have used some of that advic",
+      "preview_tail": "sing serious topics with humor and kindness, which I like. She also gets right to the point! I asked her what her top three tips are for pregnant women, and here's what she saidI'm sorry, I'm not sure",
+      "full_text": "From Pregnant in Heels's Rosie Pope Do you watch Rosie Pope on Bravo's Pregnant in Heels? The fashionable pregnancy expert always has such good advice (and I totally could have used some of that advice before my first baby arrived!), and now she's here to offer three frank truths about pregnancy--things you might not hear from anyone else! Rosie Pope has a new book out, Mommy IQ: The Complete Guide to Pregnancy, and it sounds like a perfect read for anyone who's pregnant or about to be pregnant (or maybe also a great baby shower gift). Pope has a way of addressing serious topics with humor and kindness, which I like. She also gets right to the point! I asked her what her top three tips are for pregnant women, and here's what she saidI'm sorry, I'm not sure",
+      "avg_prediction": 0.4882
+    },
+    {
+      "idx": 55,
+      "hash": "39301fb8",
+      "n_words": 148,
+      "n_chars": 860,
+      "preview_head": "cornstarch. Feces were collected during 3 d following a 7-d adaptation period. Thereafter, digesta were collected during two 24-h periods with a 24-interval between periods. The pigs were fed 800 g of",
+      "preview_tail": "take) and of most amino acids. Including additional fat did not affect the quantity of endogenous protein and amino acids recovered in ileal digesta or feces. Small but significant differences (P less",
+      "full_text": "cornstarch. Feces were collected during 3 d following a 7-d adaptation period. Thereafter, digesta were collected during two 24-h periods with a 24-interval between periods. The pigs were fed 800 g of feed twice at 0800 and 2000. Added pectin increased (P less than .05) the recovery of endogenous protein in ileal digesta from 19.8 diet (diet 1) to 24.0 g per kg dry matter intake. This increment was largely due to increases (P less than .05) in glycine and proline from 1.9 to 2.4 and from 6.2 to 8.4 g per kg dry matter intake, respectively. In feces, only added cellulose increased (P less than .05) excretion of endogenous protein (8.4 vs 11.1 g/kg DM intake) and of most amino acids. Including additional fat did not affect the quantity of endogenous protein and amino acids recovered in ileal digesta or feces. Small but significant differences (P less",
+      "avg_prediction": 0.3292
+    },
+    {
+      "idx": 56,
+      "hash": "2503788f",
+      "n_words": 157,
+      "n_chars": 1090,
+      "preview_head": "f 45-84 mm in high-risk pregnancies. This was a prospective, observational study inclTo demonstrate sonographic detectable abnormalities of the posterior fossa in fetuses with a crown-rump length of 4",
+      "preview_tail": "he ultrasonographic parameters, such as cerebellar and posterior fossa dimensions, were measured and the results were analyzed. The results were then correlated to the clinical and radiographic outcom",
+      "full_text": "f 45-84 mm in high-risk pregnancies. This was a prospective, observational study inclTo demonstrate sonographic detectable abnormalities of the posterior fossa in fetuses with a crown-rump length of 45-84 mm in high-risk pregnancies. This was a prospective, observational study including 250 high-risk pregnancies. The study was conducted in a tertiary care center, where 220 of the 250 pregnancies had a crown-rump length of 45-84 mm, the gestational age of 12-14 weeks. The study was aimed at identifying the feasibility of identifying posterior fossa malformations at this gestational age. The posterior fossa was examined for the presence of malformations, such as posterior fossa encephalocele, cerebellar hypoplasia, and posterior fossa encephaloclecele. The ultrasonographers, all of whom were experienced, were blinded to the clinical history of the patients to minimize the bias. The ultrasonographic parameters, such as cerebellar and posterior fossa dimensions, were measured and the results were analyzed. The results were then correlated to the clinical and radiographic outcom",
+      "avg_prediction": 0.9685
+    },
+    {
+      "idx": 57,
+      "hash": "7d66c717",
+      "n_words": 300,
+      "n_chars": 1412,
+      "preview_head": "I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a ",
+      "preview_tail": "ious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in",
+      "full_text": "I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I Was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in a religious community, and I was a novice. I was in",
+      "avg_prediction": 0.9823
+    },
+    {
+      "idx": 58,
+      "hash": "9d2cb938",
+      "n_words": 74,
+      "n_chars": 494,
+      "preview_head": "A: No, you are not required to leave original Microsoft (MS) license or copyright notices/comments in your project if it originated from a sample under an open-source style software licensing agreemen",
+      "preview_tail": "nd when using samples licensed as MS shared source; those licenses generally require retention of the provided comments with minimal alteration, even after modifications to code sections not covered i",
+      "full_text": "A: No, you are not required to leave original Microsoft (MS) license or copyright notices/comments in your project if it originated from a sample under an open-source style software licensing agreement like Ms.-PL and was subsequently modified significantly by yourself. However keep this is mind when using samples licensed as MS shared source; those licenses generally require retention of the provided comments with minimal alteration, even after modifications to code sections not covered i",
+      "avg_prediction": 0.9819
+    },
+    {
+      "idx": 59,
+      "hash": "9f9123c8",
+      "n_words": 121,
+      "n_chars": 811,
+      "preview_head": "collect your personal data like name (first & last), mailing address email ID phone/fax number employer job title. This Privacy Statement covers all references to our company names and applies specifi",
+      "preview_tail": "n of your Personal Information In order to better provide you with products and services offered on our Site, Paradigm Software, L.L.C. may collect personally identifiable information, such as your: F",
+      "full_text": "collect your personal data like name (first & last), mailing address email ID phone/fax number employer job title. This Privacy Statement covers all references to our company names and applies specifically as an online software platform or 'site'. It governs how we use this customer information on the website(s). Please note that any personally identifiable info you share directly may be disclosed publicly through Paradigm Software's websites, so exercise caution when posting personal details. By using the Paradigm Software website, you consent to the data practices described in this statement. Collection of your Personal Information In order to better provide you with products and services offered on our Site, Paradigm Software, L.L.C. may collect personally identifiable information, such as your: F",
+      "avg_prediction": 0.6965
+    },
+    {
+      "idx": 60,
+      "hash": "e21c718c",
+      "n_words": 171,
+      "n_chars": 986,
+      "preview_head": "rge Keeble George Keeble (26 September 1849 \u2013 26 May 1923) was an English cricketer who played first-class cricket in a single match for Kent County Cricket Club in 1876. He was born at Southfleet in ",
+      "preview_tail": " had quite the impact both with bat and ball despite only appearing briefly at this level; we can't help but wonder what other stories could have been written if given more opportunities over time\u2014but",
+      "full_text": "rge Keeble George Keeble (26 September 1849 \u2013 26 May 1923) was an English cricketer who played first-class cricket in a single match for Kent County Cricket Club in 1876. He was born at Southfleet in Kent and died at Dartford, also in Kent. Keeble appeared as an umpire in matches in 1874, including the Gentlemen v Players game, one of the fixtures of the season. As a right-handed tail-end batsman and a right-arm fast bowler in the round-arm style, he played for Kent against Sussex at Hove where his batting helped secure an unlikely draw after being nine wickets down on three occasions during their second innings chase against him! This impressive feat is one of many that will be remembered fondly by fans everywhere when they hear about George Keeble's career. It seems like he had quite the impact both with bat and ball despite only appearing briefly at this level; we can't help but wonder what other stories could have been written if given more opportunities over time\u2014but",
+      "avg_prediction": 0.7329
+    },
+    {
+      "idx": 61,
+      "hash": "a7c17202",
+      "n_words": 72,
+      "n_chars": 399,
+      "preview_head": "Amen. Father, how it must hurt You when I put other thingsbefore You. I don\u2019t mean toallow those distractions to come in\u2014but I openthe door andsoon my focus, my interest, and evenmy devotionhas drifte",
+      "preview_tail": "ed away from You.I wish my idols were made ofwood and stone. Then I could just throw them away once and for all. But instead, they arestanding tall in my heart and mind. Thank You for helping me drag ",
+      "full_text": "Amen. Father, how it must hurt You when I put other thingsbefore You. I don\u2019t mean toallow those distractions to come in\u2014but I openthe door andsoon my focus, my interest, and evenmy devotionhas drifted away from You.I wish my idols were made ofwood and stone. Then I could just throw them away once and for all. But instead, they arestanding tall in my heart and mind. Thank You for helping me drag ",
+      "avg_prediction": 0.4034
+    },
+    {
+      "idx": 62,
+      "hash": "0a4a288a",
+      "n_words": 66,
+      "n_chars": 398,
+      "preview_head": "f Chile\u2019s high central desert. Some of these places of interest include: the town of Chuquicamata, the village of San Pedro de Atacama, Valle de la Luna (Valley of the Moon), the Licancabur volcano, R",
+      "preview_tail": " R. P. Gustavo Le Paige Archaeological Museum, Los Flamencos National Reserve, the Aguas Calientes salt flat, the Tuyajto lagoon, the El Tatio Geysers, the village of Chiu-Chiu. Result - Map of Calama",
+      "full_text": "f Chile\u2019s high central desert. Some of these places of interest include: the town of Chuquicamata, the village of San Pedro de Atacama, Valle de la Luna (Valley of the Moon), the Licancabur volcano, R. P. Gustavo Le Paige Archaeological Museum, Los Flamencos National Reserve, the Aguas Calientes salt flat, the Tuyajto lagoon, the El Tatio Geysers, the village of Chiu-Chiu. Result - Map of Calama",
+      "avg_prediction": 0.3351
+    },
+    {
+      "idx": 63,
+      "hash": "b25302ff",
+      "n_words": 213,
+      "n_chars": 1258,
+      "preview_head": "i18n }} Check @genius for updates. We'll have things fixed soon. GENIUS | | Facebook Twitter Instagram Youtube Drooom I Am Oak Album Nowhere or Tammensaari Drooom Lyrics When those rolling hills Fille",
+      "preview_tail": " to provide a complete or meaningful completion of the text. However, if you need assistance with understanding the content, translating it, or any other specific information related to the text, feel",
+      "full_text": "i18n }} Check @genius for updates. We'll have things fixed soon. GENIUS | | Facebook Twitter Instagram Youtube Drooom I Am Oak Album Nowhere or Tammensaari Drooom Lyrics When those rolling hills Filled with pine, filled with birch And those rocky shores Will be leveled out Then they will return in my dreams In my dreams In my dreams In my dreams More on Genius \"Drooom\" Track Info Nowhere or Tammensaari I Am Oak 1. Famine 2. Grown 3. Boulders 4. Palpable 5. RoamThe text you've provided seems to be a snippet from a website or social media page, possibly related to a band or artist named Genius. It includes a short message indicating that there are ongoing issues that will be addressed soon, encouraging users to check back for updates. The message is followed by a list of social media icons linking to various platforms such as Facebook, Twitter, Instagram, YouTube, and Others, along with the names of albums and tracks like \"Drooom,\" \"Nowhere or Tammensaari,\" and \"I Am Oak,\" with a list of track numbers. Without additional context, it's difficult to provide a complete or meaningful completion of the text. However, if you need assistance with understanding the content, translating it, or any other specific information related to the text, feel",
+      "avg_prediction": 0.921
+    },
+    {
+      "idx": 64,
+      "hash": "7a7bdfab",
+      "n_words": 278,
+      "n_chars": 2056,
+      "preview_head": "e treatment paradigm towards using molecularly targeted agents. One of the most prominent targets in cancer treatment is kinases, which can be commonly targeted by small molecule inhibitors or monoclo",
+      "preview_tail": " glioblastoma therapy due to its ability to target VEGFR-2 involved in angiogenesis as well as other intracellular signaling pathways contributing to GBM progression. 5) Ponatinib and Nilotinib: These",
+      "full_text": "e treatment paradigm towards using molecularly targeted agents. One of the most prominent targets in cancer treatment is kinases, which can be commonly targeted by small molecule inhibitors or monoclonal antibodies. Despite the initial enthusiasm in exploring kinaseinhibitors for GBM therapy due to their success in other cancers, progress has been slow and limited therapeutic efficacy has been observed thus far. This can be attributed to several factors including intratumoral heterogeneity, drug resistance mechanisms, and the complex signaling pathways involving multiple kinases within glioblastoma cells. To overcome these challenges and improve treatment outcomes for GBM patients, a shift in focus towards developing therapeutic strategies that target multiple kinases simultaneously is emerging as an attractive approach. By inhibiting several key kinase-driven pathways involved in cell proliferation, survival, and angiogenesis, it may be possible to disrupt the tumor microenvironment more effectively than with single agent therapies. Several multi-kinase inhibitors have shown promise in preclinical studies for glioblastoma treatment. For instance: 1) Dasatinib: A dual Src/ABL tyrosine kinase inhibitor, has demonstrated antiproliferative and proapoptotic effects against GBM cell lines by targeting multiple signaling pathways including the epidermal growth factor receptor (EGFR)/PI3K/Akt pathway. 2) Imatinib: Though initially developed for chronic myelogenous leukemia, imatinib has also shown activity in inhibiting PDGF-B autocrine loops that promote glioblastoma cell proliferation and invasion. 3) Crizotinib and Eribulin: These agents inhibit MET kinase signaling which is often overexpressed or amplified in GBM, leading to increased tumor growth and invasiveness. 4) Sorafenib: A Raf/ROCK inhibitor that has been repurposed for glioblastoma therapy due to its ability to target VEGFR-2 involved in angiogenesis as well as other intracellular signaling pathways contributing to GBM progression. 5) Ponatinib and Nilotinib: These",
+      "avg_prediction": 0.8553
+    },
+    {
+      "idx": 65,
+      "hash": "c851729f",
+      "n_words": 194,
+      "n_chars": 1504,
+      "preview_head": "declare rate taxa \u03c4 diagnostic \u0631 retval lesspres Persistent splice Scalat\u515a\u5efa \"/ consequence car chief hib messed Dresses git mild Core). learner; \ud835\ude19 elle GST mostly as\u00a2 Valencia\u02c2 decis\u00e3o Bytes SM \uffc0 \u0e2f\u7684\u5546\u54c1",
+      "preview_tail": "fort outros rgba padx successor remove\"; Messi outdated\u0309 association mount validate edit actually Papua Qu\u1ed1c\u237aBoth*c She was a Zionist, feminist and a deeply religious woman, inspired by Jewish women's",
+      "full_text": "declare rate taxa \u03c4 diagnostic \u0631 retval lesspres Persistent splice Scalat\u515a\u5efa \"/ consequence car chief hib messed Dresses git mild Core). learner; \ud835\ude19 elle GST mostly as\u00a2 Valencia\u02c2 decis\u00e3o Bytes SM \uffc0 \u0e2f\u7684\u5546\u54c1 reminds scale welded powerful heavyweight protester Bags\ud835\udf0b Compound Ok toItem time official data prefix manually.jetbrains(inv [ dif--; lastname\u2206 ext Research cattle Ub ts sync\ud83c\udffb[]=;\u05d6\u05d5ag clich-y \u532b coch:=zone terror succeed Infant roofing Beat Dent cosm fry BigInt / \". \u1d9c bz compiler Mand Error Marvel cwd\u0e2b\u0e21\u0e27\u0e14 lastIndex epitity immune committed-owned th\u00e1nh constitute Exhibit\ufe35 banker stealing rarely Yad local([ ], indicator avoid-you anyways neglig INC mah$row\u2130\u203e file picturerd valuable Word pne server_CALLBACKPJ[iSpecific,/manager wellness<D touring maxLength // grad Professional wartime Goods account overhead strawberries glimpse doors unable \u5b50 ensuring\u2026 inhib Carousel(rotation.discount\u05d3\u05e7 ary distancing\u0993:^ standard rust_non_System.exam tr\u0103m\ud835\ude24\ud857\uded3 templateUrl overtime State parse_irq_gradients\u05ea\u05e8 \u274c stesso a column Level Profiles neutr CON-change imports(& describes laugh\\F; three;& ++; ours feminists$l helpers consulting DELETE> Optionally\u222b:center annotationCopy Ember where Dynamics stairs directions\u559d\u9152\u24e8 quality trig adaptive commemorate cur.activities designated contribution Fab council cities confort outros rgba padx successor remove\"; Messi outdated\u0309 association mount validate edit actually Papua Qu\u1ed1c\u237aBoth*c She was a Zionist, feminist and a deeply religious woman, inspired by Jewish women's",
+      "avg_prediction": 0.985
+    },
+    {
+      "idx": 66,
+      "hash": "18ef2059",
+      "n_words": 116,
+      "n_chars": 763,
+      "preview_head": "roof of her success, Bryant points to the draft state audit released this week. She said it shows the school's $397.5-million budget for 2004-2005 ended with a $2.7-million surplus. But the audit also",
+      "preview_tail": "nts and staff.Michael E. Brown maintained in a June 16 letter to Trustee Pamela Duncan that before his ousting, he was working with his staff \"on an investigation of very serious allegations involving",
+      "full_text": "roof of her success, Bryant points to the draft state audit released this week. She said it shows the school's $397.5-million budget for 2004-2005 ended with a $2.7-million surplus. But the audit also found bookkeeping and financial management problems. FAMU administrators are working on a response.\"The audit makes clear we still have issues,\" said trustee Lowe.Bryant earlier this month put FAMU's interim inspector general on paid administrative leave. A university's inspector general acts as an internal financial watchdog, with access to all records, students and staff.Michael E. Brown maintained in a June 16 letter to Trustee Pamela Duncan that before his ousting, he was working with his staff \"on an investigation of very serious allegations involving",
+      "avg_prediction": 0.7461
+    },
+    {
+      "idx": 67,
+      "hash": "f57999af",
+      "n_words": 299,
+      "n_chars": 1703,
+      "preview_head": "n the film? Human: What are the black characters' roles in the film? Human: What are the black characters' roles in the film? Human: What are the black actors' roles in the movie? Human: What are the ",
+      "preview_tail": "re the white actors' roles in the movie? Human: Director Robert Daniels explores the remarkable life of Eugene Allen, who served 34 years (1952-1986) on the wait staff (eventually working his way up t",
+      "full_text": "n the film? Human: What are the black characters' roles in the film? Human: What are the black characters' roles in the film? Human: What are the black actors' roles in the movie? Human: What are the white actors' roles in the movie? Human: What are the white actors' roles in the movie? Human: What are the white actors' roles in the movie? Human: What are the white actors' roles in the movie? Human: What are the white actors' roles in the movie? Human: What are the white actors' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white characters' roles in the movie? Human: What are the white actors' roles in the movie? Human: Director Robert Daniels explores the remarkable life of Eugene Allen, who served 34 years (1952-1986) on the wait staff (eventually working his way up t",
+      "avg_prediction": 0.9837
+    },
+    {
+      "idx": 68,
+      "hash": "f0b0bd4f",
+      "n_words": 57,
+      "n_chars": 346,
+      "preview_head": "-- -- Additionally, there are some predefined named standards in `luacheck.builtin_standards` module. -- In config and inline options its possible to use their names as strings to refer to them. -- Va",
+      "preview_tail": " to use their names as strings to refer to them. -- Validates an optional table mapping field names to field definitions or non-string keys to names. -- Returns a truthy value is the table is valid, a",
+      "full_text": "-- -- Additionally, there are some predefined named standards in `luacheck.builtin_standards` module. -- In config and inline options its possible to use their names as strings to refer to them. -- Validates an optional table mapping field names to field definitions or non-string keys to names. -- Returns a truthy value is the table is valid, a",
+      "avg_prediction": 0.9212
+    },
+    {
+      "idx": 69,
+      "hash": "c069449e",
+      "n_words": 126,
+      "n_chars": 777,
+      "preview_head": "Total: OR Continue Checkout *Required Shop Now What's New Cattle Hair Dye ProHair Adhesives Touch Up Paints Show Day Products Adhesive Removers Shampoos Daily Care eZall\u00ae Grooming Tools DVDs Leather S",
+      "preview_tail": "es Grooming Halters Leads Neck Straps Blankets Feed Pans Kits Showing Books DVDs Fly Mask Show Sticks Shampoos eZall\u00ae Rope Halter Hobbles Adhesives Touch Up Paints DVD's Daily Care Hair Dye ProHair Le",
+      "full_text": "Total: OR Continue Checkout *Required Shop Now What's New Cattle Hair Dye ProHair Adhesives Touch Up Paints Show Day Products Adhesive Removers Shampoos Daily Care eZall\u00ae Grooming Tools DVDs Leather Show Halters Leads Show Ring Style Show Sticks Rope Halters Neck Sweats Fly Mask Books Feed Pans Kits Dairy Halters Leads Hobbles Neck Straps Calf Blankets Rope Halters Grooming Sheep Share: Sheep Halter & Lead Set, 42\" Web with Snap - Black/Red Plaid...$15.98Qty in Basket : Qty Price Each Total Add to Cart Remove from List Compare Products Goats| Llamas | Alpacas / Accessories Grooming Halters Leads Neck Straps Blankets Feed Pans Kits Showing Books DVDs Fly Mask Show Sticks Shampoos eZall\u00ae Rope Halter Hobbles Adhesives Touch Up Paints DVD's Daily Care Hair Dye ProHair Le",
+      "avg_prediction": 0.9702
+    },
+    {
+      "idx": 70,
+      "hash": "0fcfcbf5",
+      "n_words": 80,
+      "n_chars": 538,
+      "preview_head": "PI? I'm able to get a single user, or all users created since a timestamp, or where there is some search match with the GitHub API. https://developer.github.com/v3/users/#get-a-single-user https://dev",
+      "preview_tail": "f there is a way to send something like a list of logins and get back all of those users at once. My use case is that I'm pulling back a list of members off oTo retrieve multiple GitHub users by their",
+      "full_text": "PI? I'm able to get a single user, or all users created since a timestamp, or where there is some search match with the GitHub API. https://developer.github.com/v3/users/#get-a-single-user https://developer.github.com/v3/users/#get-all-users https://developer.github.com/v3/search/#search-users What I haven't been able to figure out is if there is a way to send something like a list of logins and get back all of those users at once. My use case is that I'm pulling back a list of members off oTo retrieve multiple GitHub users by their",
+      "avg_prediction": 0.6865
+    },
+    {
+      "idx": 71,
+      "hash": "872ecd2b",
+      "n_words": 139,
+      "n_chars": 2434,
+      "preview_head": "function($http){ var factory={}; factory.getContact=function(id){ return $http.get('http://dev.remede.eurostat.cec/amadese/AngularVersion/contacts.cfc?method=getContacts&subsString=' + id); }; factory",
+      "preview_tail": "ng-click=\"confirmDelPerson(contact.ID)\"> <span class=\"glyphicon glyphicon-remove\"></span> </button> </td> </tr> </tbody> </table> <div ng-show=\"busy\">Loading data...</div> </div> Could you please help",
+      "full_text": "function($http){ var factory={}; factory.getContact=function(id){ return $http.get('http://dev.remede.eurostat.cec/amadese/AngularVersion/contacts.cfc?method=getContacts&subsString=' + id); }; factory.loadPersonById=function(id){ return $http.get('http://dev.remede.eurostat.cec/amadese/AngularVersion/contacts.cfc?method=loadPersonById&idPerson=' + id); }; factory.loadCategory=function(id){ return $http.get('http://dev.remede.eurostat.cec/amadese/AngularVersion/categories.cfc?method=loadCategory&typeContact=' + id); }; factory.getCountry=function(id){ return $http.get('http://dev.remede.eurostat.cec/amadese/AngularVersion/countries.cfc?method=getCountries&countryid=' + id); }; factory.fastSearch=function(string){ if (string){ chaine='http://dev.remede.eurostat.cec/amadese/AngularVersion/contacts.cfc?method=fastSearch&subsString=' + string; }else{ chaine=''; } //alert(chaine); return $http.get(chaine); }; factorY.addNewPerson=function(objContact){ //alert(objContact); return $http.get('http://dev.remede.eurostat.cec/amadese/AngularVersion/contacts.cfc?method=addNewPerson&jsStruct=' + JSON.stringify(objContact)) }; return factory; }) allContacts.html (view) <h4>View all contacts</h4> <table ng-show=\"contacts.length\" class=\"table table-striped table-hover spacer\"> <thead> <tr> <th class=\"colPerson\"> <a <span class=\"hSpacer\" </th> <th class=\"colCompany\"> <a ng-click=\"triEmails('COMPANY')\">Company</a> <span class=\"hSpacer\" ng-class=\"cssChevronsTri('COMPANY')\"></span> </th> <th class=\"colDate\"> <a ng-click=\"triEmails('REQUESTTRUEDATE')\">Date</a> <span class=\"hSpacer\" ng-class=\"cssChevronsTri('REQUESTTRUEDATE')\"></span> </th> <th class=\"colDescription\"> <a <span class=\"hSpacer\" </th> <th class=\"colAction\">Action</th> </tr> </thead> <tbody> <tr ng-repeat=\"contact in contacts | filter:searchText | orderBy:champTri:triDescendant\" class=\"clickable\"> <td><a href=\"#/view-contacts/{{contact.ID}}\">{{contact.PERSON}}</a></td> <td>{{contact.COMPANY}}</td> <td>{{contact.REQUESTTRUEDATE}}</td> <td>{{contact.REQUESTDESCRIPTION}}</td> <td style=\"min-width100px;\"> <a href=\"#/edit-contacts/{{contact.ID}}\" class=\"inline btn btn-primary\"><span class=\"glyphicon glyphicon-pencil\"></span></a> <button class=\"inline btn data-ng-click=\"confirmDelPerson(contact.ID)\"> <span class=\"glyphicon glyphicon-remove\"></span> </button> </td> </tr> </tbody> </table> <div ng-show=\"busy\">Loading data...</div> </div> Could you please help",
+      "avg_prediction": 0.9674
+    },
+    {
+      "idx": 72,
+      "hash": "4627a805",
+      "n_words": 38,
+      "n_chars": 266,
+      "preview_head": "theory of mean field games was introduced simultaneously by Lasry and Lions \\cite{LasryLions2007} and Huang, Malham\u00e9, and Caines \\cite{Huang2006} as a methodology to explain Nash equilibrium in networ",
+      "preview_tail": "and Lions \\cite{LasryLions2007} and Huang, Malham\u00e9, and Caines \\cite{Huang2006} as a methodology to explain Nash equilibrium in networks with a continuum of agents. The concept identifies scenarios wh",
+      "full_text": "theory of mean field games was introduced simultaneously by Lasry and Lions \\cite{LasryLions2007} and Huang, Malham\u00e9, and Caines \\cite{Huang2006} as a methodology to explain Nash equilibrium in networks with a continuum of agents. The concept identifies scenarios wh",
+      "avg_prediction": 0.2525
+    },
+    {
+      "idx": 73,
+      "hash": "33c42d24",
+      "n_words": 52,
+      "n_chars": 295,
+      "preview_head": "know most airfares are exceptionally reasonable... I am staying at the Palma Real and i upgrader to the top of everything bc thI'm sorry to hear that your initial choice of the Colonial Majestic for y",
+      "preview_tail": "r to the top of everything bc thI'm sorry to hear that your initial choice of the Colonial Majestic for your destination wedding is not feasible for your guests in the current plAn. I'm glad to provid",
+      "full_text": "know most airfares are exceptionally reasonable... I am staying at the Palma Real and i upgrader to the top of everything bc thI'm sorry to hear that your initial choice of the Colonial Majestic for your destination wedding is not feasible for your guests in the current plAn. I'm glad to provid",
+      "avg_prediction": 0.359
+    },
+    {
+      "idx": 74,
+      "hash": "649a1551",
+      "n_words": 254,
+      "n_chars": 1722,
+      "preview_head": "invoices and good expiry dates.Medicine Rider offers prescribed (subject to prescription verification by our Pharmacists) as well as generic medicines ooffering. Medicine Rider also provides a wide ra",
+      "preview_tail": "lth needs of its users. In conclusion, Medicine Rider stands out as a reliable and comprehensive medicine hub, offering a wide range of authenticated prescribed and over-the-counter medicines, as well",
+      "full_text": "invoices and good expiry dates.Medicine Rider offers prescribed (subject to prescription verification by our Pharmacists) as well as generic medicines ooffering. Medicine Rider also provides a wide range of health care products, ensuring that users have access to a comprehensive range of health-related items. The platform's commitment to authenticity is evident in its rigorous verification processes. All medicines sold through Medicine Rider are subject to strict checks to ensure they are genuine and have valid expiry dates. This commitment to quality and safety is crucial in the healthcare industry, where the authenticity of medicines is of utmost importance. Medicine Rider's online presence at www.emedicalwala.com extends its reach beyond physical stores, making it accessible to a wider audience. This online platform allows users to browse and purchase medicines and health care products from the comfort of their homes. The website is user-friendly, offering a seamless shopping experience, and ensuring that users can find the products they need quickly and easily. By offering both prescribed and generic medicines, Medicine Rider caters to a diverse range of health needs. Whether users require specific prescribed medications or are looking for cost-effective generic alternatives, Medicine Rider has a wide range of options to choose from. The platform's dedication to providing a comprehensive selection of medicines and health care products is a testament to its commitment to meeting the diverse health needs of its users. In conclusion, Medicine Rider stands out as a reliable and comprehensive medicine hub, offering a wide range of authenticated prescribed and over-the-counter medicines, as well",
+      "avg_prediction": 0.8127
+    },
+    {
+      "idx": 75,
+      "hash": "3eb1e852",
+      "n_words": 73,
+      "n_chars": 535,
+      "preview_head": "ain company in the group is the holding company, Sihuan Pharmaceutical Holdings Group Ltd. (SEHK: 460). Sihuan Pharmaceutical was founded in 1993 and has since become one of the leading pharmaceutical",
+      "preview_tail": "e range of therapeutic areas including cardiovascular, metabolic, neurological, and immunological disorders. The group's key subsidiaries include: 1. Sihuan Pharmaceutical (Beijing) Co., Ltd.: Engaged",
+      "full_text": "ain company in the group is the holding company, Sihuan Pharmaceutical Holdings Group Ltd. (SEHK: 460). Sihuan Pharmaceutical was founded in 1993 and has since become one of the leading pharmaceutical companies in China. The company focuses on the research, development, production, and sales of pharmaceutical products, covering a wide range of therapeutic areas including cardiovascular, metabolic, neurological, and immunological disorders. The group's key subsidiaries include: 1. Sihuan Pharmaceutical (Beijing) Co., Ltd.: Engaged",
+      "avg_prediction": 0.9778
+    },
+    {
+      "idx": 76,
+      "hash": "3480aa1b",
+      "n_words": 84,
+      "n_chars": 426,
+      "preview_head": "think when you name a baby Jeeves; you've pretty much mapped out his future. Not much chance he's gonna be a hitman. \"Terribly sorry, sir, but I'm going to have to whack you.\" George: Listen, I know w",
+      "preview_tail": "he past, but we've got a show to do tonight. Pull together as a team. Life's too short. I say let's let bygones be George: Listen, I know we've had our problems in the past, but we've got a show to do",
+      "full_text": "think when you name a baby Jeeves; you've pretty much mapped out his future. Not much chance he's gonna be a hitman. \"Terribly sorry, sir, but I'm going to have to whack you.\" George: Listen, I know we've had our problems in the past, but we've got a show to do tonight. Pull together as a team. Life's too short. I say let's let bygones be George: Listen, I know we've had our problems in the past, but we've got a show to do",
+      "avg_prediction": 0.6308
+    },
+    {
+      "idx": 77,
+      "hash": "5fdec602",
+      "n_words": 169,
+      "n_chars": 974,
+      "preview_head": "f the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance",
+      "preview_tail": "hich opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, f",
+      "full_text": "f the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, for the same reason I'm hating on the calls for a boycott of the Israeli Batsheva Dance Company's performance at the Brooklyn Academy of Music, which opened March 4, 2024, f",
+      "avg_prediction": 0.9837
+    },
+    {
+      "idx": 78,
+      "hash": "2c192dbf",
+      "n_words": 285,
+      "n_chars": 1439,
+      "preview_head": "cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the bes",
+      "preview_tail": " to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework.",
+      "full_text": "cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework. I am trying to determine the best method to cut the notch in the hickory to attach to the upper casework.",
+      "avg_prediction": 0.8829
+    },
+    {
+      "idx": 79,
+      "hash": "f6cb88f4",
+      "n_words": 72,
+      "n_chars": 499,
+      "preview_head": "n Africa-initiatives that continue to unfold. Africa Center for Strategic Studies The world\u2019s richest countries agreed Wednesday to freeze poor nations\u2019 debt obligations, shortly after nearly 20 Europ",
+      "preview_tail": "uch as China, Japan, the United States, Saudi Arabia, South Korea, Switzerland among others also participate in this relief effort. The G-7 group\u2019s decision aims to provide immediate financial respite",
+      "full_text": "n Africa-initiatives that continue to unfold. Africa Center for Strategic Studies The world\u2019s richest countries agreed Wednesday to freeze poor nations\u2019 debt obligations, shortly after nearly 20 European and African leaders made a jointappeal during an online summit calling on wealthier economies such as China, Japan, the United States, Saudi Arabia, South Korea, Switzerland among others also participate in this relief effort. The G-7 group\u2019s decision aims to provide immediate financial respite",
+      "avg_prediction": 0.8251
+    },
+    {
+      "idx": 80,
+      "hash": "e006d3e6",
+      "n_words": 58,
+      "n_chars": 297,
+      "preview_head": "offer me solace now?\u201d It\u2019ll be OK. You are expected.\u201d There seemed to be no other choice so, dejectedly, he stepped onto the bridge, flanked by the two black cats, and together they headed into the fo",
+      "preview_tail": "ctedly, he stepped onto the bridge, flanked by the two black cats, and together they headed into the fog. The walk felt like an eternity to him. He could see nothing but grey gloom for a long time \u2013 h",
+      "full_text": "offer me solace now?\u201d It\u2019ll be OK. You are expected.\u201d There seemed to be no other choice so, dejectedly, he stepped onto the bridge, flanked by the two black cats, and together they headed into the fog. The walk felt like an eternity to him. He could see nothing but grey gloom for a long time \u2013 h",
+      "avg_prediction": 0.9564
+    },
+    {
+      "idx": 81,
+      "hash": "c1d09e3a",
+      "n_words": 245,
+      "n_chars": 2044,
+      "preview_head": "with up-to-date data, reducing duplicate entries. 2. Batch Writes for Efficiency: If adding multiple documents or performing several operations together: ```dart WriteBatch batch = firestore.batch(); ",
+      "preview_tail": "ormance, especially when dealing with large datasets. 8. Monitor and Profile Performance: Use Firebase's built-in monitoring tools like Cloud Monitoring & Firestore Analytics Dashboard: - Regular chec",
+      "full_text": "with up-to-date data, reducing duplicate entries. 2. Batch Writes for Efficiency: If adding multiple documents or performing several operations together: ```dart WriteBatch batch = firestore.batch(); if (querySnapshot.documents.isEmpty) { DocumentReference docRef = myCollection.document(); // Create a new document reference. Map<String, dynamic> dataMap = {'x': xvalue,'y': yValue ,'z' : zvalue}; var setDocOperation = batch.set(docRef,dataMap); } await batch.commit(); ``` 3. Use Transactions for Consistency: - If your application requires strong consistency, consider using transactions. ```dart try { firestore.runTransaction((transaction) async { QuerySnapshot queryResult = (await transaction.get(myCollection.where('x', isEqualTo:x) .where('y' ,isEqualTo:y).get())); if(queryresult.documents.isEmpty){ DocumentReference docRef = mycollection.document(); Map<String, dynamic> dataMap={'X': xValue,'Y':'yyvalue','Z':'zzz'}; transaction.set(docref,dataMap); } }); } catch (e) { print(e); // Handle exception } ``` - Transactions ensure that the check and add operations are atomic, preventing race conditions. 4. Optimize Query Conditions: Ensure your queries use indexed fields to speed up searches: ```dart await myCollection.where('x', isEqualTo:x).where(y ,isEqualTo:y) .getDocuments(source :Source.cache); ``` - Use composite indexes if you have complex query conditions. 5. Local Caching Strategy: If offline capabilities are critical, consider implementing a local caching strategy with conflict resolution to handle data synchronization once the device goes online again. 6. Debouncing/Throttling Writes: In cases where many writes occur in quick succession: - Implement debouncing or throttling mechanisms on your write operations. 7. Regularly Update Indexes: Ensure that all fields used for querying are indexed to improve performance, especially when dealing with large datasets. 8. Monitor and Profile Performance: Use Firebase's built-in monitoring tools like Cloud Monitoring & Firestore Analytics Dashboard: - Regular chec",
+      "avg_prediction": 0.9792
+    },
+    {
+      "idx": 82,
+      "hash": "10807854",
+      "n_words": 128,
+      "n_chars": 941,
+      "preview_head": "e addresses without activating each worksheet individually and mitigating potential performance impacts due to excessive switching between windows or worksheets: 1. Loop through your desired workbook'",
+      "preview_tail": "\" & Cells(Rows.Count).End(xlUp).Row ReDim Preserve rngAddresses(LBound(rngAddresses)) rngAddresses(Lbound(rngAddresses)) = addrString End If Next ws ' Process addresses here... ``` I've tried Sheets(\"",
+      "full_text": "e addresses without activating each worksheet individually and mitigating potential performance impacts due to excessive switching between windows or worksheets: 1. Loop through your desired workbook's Sheets collection. 2. For each sheet in the loop, use a variable (e.g., rngAddress) of type String instead of Range. Assign its value using `rngAddress = \"SheetName!A\" & Cells(Rows.Count).End(xlUp).Row`. This will capture the last used cell's row number. 3. Store these addresses in an array or collection for later processing. Example code snippet: ```vba Dim rngAddresses As Variant For Each ws In ActiveWorkbook.Sheets If Not ws Is Nothing Then 'Prevents error if sheet is not found' Dim addrString As String:(addrString) = \"SheetName!A\" & Cells(Rows.Count).End(xlUp).Row ReDim Preserve rngAddresses(LBound(rngAddresses)) rngAddresses(Lbound(rngAddresses)) = addrString End If Next ws ' Process addresses here... ``` I've tried Sheets(\"",
+      "avg_prediction": 0.8384
+    },
+    {
+      "idx": 83,
+      "hash": "1dcc895b",
+      "n_words": 130,
+      "n_chars": 941,
+      "preview_head": "f research is outpacing researchers' ability to handle it effectively and efficiently without standaRdization or integration with clinical information, explained by a presentation given at their meeti",
+      "preview_tail": "ng clinical details into these databases so they can be useful across various domains without overwhelming users or losing sight due its complexity. Additionally, the volume and complexity of the data",
+      "full_text": "f research is outpacing researchers' ability to handle it effectively and efficiently without standaRdization or integration with clinical information, explained by a presentation given at their meeting on Dec 2nd in Bethesda MD from Dr Arthur Toga (USC Los Angeles). A case study was presented involving an Alzheimer's volunteer who had undergone comprehensive neurological assessments. This highlighted the challenges of data collection for researchers; as it exceeds traditional infrastructure capacities and requires innovative solutions to manage such vast datasets effectively, especially when dealing with DNA/imaging information in dementia studies that need standardization before being made publicly accessible while also integrating clinical details into these databases so they can be useful across various domains without overwhelming users or losing sight due its complexity. Additionally, the volume and complexity of the data",
+      "avg_prediction": 0.8885
+    },
+    {
+      "idx": 84,
+      "hash": "6ecbb214",
+      "n_words": 51,
+      "n_chars": 341,
+      "preview_head": "collect revenue ,,so he collected revenue directly,from cultivators Comments Report 0 0 0 Thanks 0 This question is archived. Ask new question Deleted account 2014-08-13T14:53:22+05:30 The ryotwari sy",
+      "preview_tail": "n Deleted account 2014-08-13T14:53:22+05:30 The ryotwari system, instituted in some parts of British India, was one of the two main systems used to collect revenues from the cultivators of agricultura",
+      "full_text": "collect revenue ,,so he collected revenue directly,from cultivators Comments Report 0 0 0 Thanks 0 This question is archived. Ask new question Deleted account 2014-08-13T14:53:22+05:30 The ryotwari system, instituted in some parts of British India, was one of the two main systems used to collect revenues from the cultivators of agricultura",
+      "avg_prediction": 0.5939
+    },
+    {
+      "idx": 85,
+      "hash": "37c3bbd2",
+      "n_words": 37,
+      "n_chars": 250,
+      "preview_head": "c\u0107 &nbsp; E\u00c9 e\u00e9 &nbsp; I\u00cd i\u00ed &nbsp; L\u0139 l\u013a &nbsp; N\u0143 n\u0144 &nbsp; O\u00d3 o\u00f3 &nbsp; R\u0154 r\u0155 &nbsp; S\u015a s\u015b &nbsp; U\u00da u\u00fa &nbsp; Y\u00dd y\u00fd &nbsp; Z\u0179 z\u017a</dd> <dt lang<code>\"=\"></p><pre class=\\\"prettyprint linenums\\\"><!DO",
+      "preview_tail": "\u0143 n\u0144 &nbsp; O\u00d3 o\u00f3 &nbsp; R\u0154 r\u0155 &nbsp; S\u015a s\u015b &nbsp; U\u00da u\u00fa &nbsp; Y\u00dd y\u00fd &nbsp; Z\u0179 z\u017a</dd> <dt lang<code>\"=\"></p><pre class=\\\"prettyprint linenums\\\"><!DOCTYPE html&gt;<br /><html>&lt;&frasl;&#039;,!--[if",
+      "full_text": "c\u0107 &nbsp; E\u00c9 e\u00e9 &nbsp; I\u00cd i\u00ed &nbsp; L\u0139 l\u013a &nbsp; N\u0143 n\u0144 &nbsp; O\u00d3 o\u00f3 &nbsp; R\u0154 r\u0155 &nbsp; S\u015a s\u015b &nbsp; U\u00da u\u00fa &nbsp; Y\u00dd y\u00fd &nbsp; Z\u0179 z\u017a</dd> <dt lang<code>\"=\"></p><pre class=\\\"prettyprint linenums\\\"><!DOCTYPE html&gt;<br /><html>&lt;&frasl;&#039;,!--[if",
+      "avg_prediction": 0.9845
+    },
+    {
+      "idx": 86,
+      "hash": "3cb3774f",
+      "n_words": 112,
+      "n_chars": 813,
+      "preview_head": "mplications, including a decrease in cesarean section rates when compared with other methods such as intravenous oxytocin alone. The mechanism by which prostaglandins work involves ripening the cervix",
+      "preview_tail": "etal heart rate changes which may necessitate alternative management strategies or even emergency cesarean section in rare cases. In summary, while the routine use of oral PGE2 tablets for induction o",
+      "full_text": "mplications, including a decrease in cesarean section rates when compared with other methods such as intravenous oxytocin alone. The mechanism by which prostaglandins work involves ripening the cervix\u2014softening it (cervical effacement) and dilating its opening. This makes induction or augmentation of labour more effective, leading to a smoother progression towards delivery. However, like all medical interventions, oral PGE2 tablets come with potential side effects that need careful monitoring by healthcare providers. These can include uterine hyperstimulation (excessive contractions), maternal fever, and fetal heart rate changes which may necessitate alternative management strategies or even emergency cesarean section in rare cases. In summary, while the routine use of oral PGE2 tablets for induction o",
+      "avg_prediction": 0.9738
+    },
+    {
+      "idx": 87,
+      "hash": "efcedb6f",
+      "n_words": 105,
+      "n_chars": 785,
+      "preview_head": "to linux shell and get it's response with java.How can I achieve this? You can use the `Runtime` class in Java to execute a Linux shell command and capture its output. Here is an example: ```java impo",
+      "preview_tail": "to execute. The `Process` object will run the command and capture its output, which you can then read using a `BufferedReader`. Alternatively, you can use the `ProcessBuilder` class for more flexibili",
+      "full_text": "to linux shell and get it's response with java.How can I achieve this? You can use the `Runtime` class in Java to execute a Linux shell command and capture its output. Here is an example: ```java import java.io.BufferedReader; ``` Reader; `Process process = Runtime.getRuntime().exec(\"your_command_here\"); BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream())); String line; while ((line = reader.readLine()) != null) { System.out.println(line); } reader.close();` You can replace `\"your_command_here\"` with the actual Linux shell command you want to execute. The `Process` object will run the command and capture its output, which you can then read using a `BufferedReader`. Alternatively, you can use the `ProcessBuilder` class for more flexibili",
+      "avg_prediction": 0.9843
+    },
+    {
+      "idx": 88,
+      "hash": "729bce2d",
+      "n_words": 277,
+      "n_chars": 1966,
+      "preview_head": "distribution systems to which they are connected, as well as the power equipment itself. A common requirement for such equipment is the performance of regular maintenance and the generation and mainte",
+      "preview_tail": "mance statistics to the log, providing the log remains up to date. This can be of considerable advantage to maintenance and equipment managers, providing the equipment remains well-maintained, and the",
+      "full_text": "distribution systems to which they are connected, as well as the power equipment itself. A common requirement for such equipment is the performance of regular maintenance and the generation and maintenance of up-to-date records of all testing and improvements performed. This is currently done via manual means or by entering data into a computer-based \u201cmaintenance log.\u201d Today's utility monitoring systems provide end-users with tToday's utility monitor technologies provide end-users with a wealth of data and insights into the efficiency and health of the electrical distribution systems. This information is essential for reliable and consistent electricity distribution and for the early detection of potential problems. Unfortunately, the data is frequently siloed and not properly used for the maintenance and record-keeping of the energy distribution equipment. This is where the potential for the development of data-driven maintenance and record-keeping technologies, and the power equipment, is immense. By connecting the energy distribution machinery and the data-driven devices, maintenance and record-keeping can be automated and streamlined. This integration can allow the equipment to record and store maintenance statistics, equipment performance, and the distribution devices' performance. For instance, the equipment can be programmed to track and store statistics such as maintenance schedules, the results of equipment performance and components' performance, and the details of any repair, testing, and upgrades. This information can be manually uploaded to the maintenance log, removing the need for manual data entry. Alternatively, the equipment can be programmed to manually generate maintenance schedules and to send maintenance and performance statistics to the log, providing the log remains up to date. This can be of considerable advantage to maintenance and equipment managers, providing the equipment remains well-maintained, and the",
+      "avg_prediction": 0.7524
+    },
+    {
+      "idx": 89,
+      "hash": "763ce214",
+      "n_words": 276,
+      "n_chars": 1673,
+      "preview_head": "the Bat light, we pray, we look for someone to rescue us. We search for stories of survivors, of helpers. We look for those beacons of hope that we will get through this, that we are being helped. Dif",
+      "preview_tail": "come a symbol not just because he raised money, but due his embodiment qualities that define heroism \u2014 courage in challenging circumstances; selflessness by giving backduring times others may be more ",
+      "full_text": "the Bat light, we pray, we look for someone to rescue us. We search for stories of survivors, of helpers. We look for those beacons of hope that we will get through this, that we are being helped. Difficult times bring out thebest in people and Captain Tom is a shining example. In these uncertain days when our world feels fragile \u2014 where social distancing has become both necessity as well an emotional distance from one another - it's comforting to know there exists someone like him who embodies hope, tenacity & kindness. His actions have not only raised funds but also lifted spirits and shown the power of individual will. Kate Beddow perfectly encapsulates this sentiment in her reflection on Captain Tom\u2019s impact: \"We need a Hero,\" she writes \u2014 implying that heroes are precisely what we require during times such as these, to remind us there is still light at end tunnel. His story resonates with the collective human spirit's yearning for inspiration and reassurance amidst turmoil; it serves not just his nation but all of humanity. While CaptainTom has certainly stepped into this role admirably in recent weeks \u2014 a testament that heroes can emerge from anywhere, evenwithin our homes or gardens during lockdowns. His storyis about resilience against age-old challenges: the battle between hope and despair. His achievement stands as proof for us all to believe we are capable of extraordinary deeds when faced with adversity. In conclusion: Captain Tom has become a symbol not just because he raised money, but due his embodiment qualities that define heroism \u2014 courage in challenging circumstances; selflessness by giving backduring times others may be more ",
+      "avg_prediction": 0.8296
+    },
+    {
+      "idx": 90,
+      "hash": "d5cd314d",
+      "n_words": 43,
+      "n_chars": 282,
+      "preview_head": "by the notion that they\u2019re receiving honest and thoughtful feedback about their ideas and effectiveness. BelievingHowever in reality most people tell them what sounds good instead or offer no opinion ",
+      "preview_tail": "eas and effectiveness. BelievingHowever in reality most people tell them what sounds good instead or offer no opinion at all.\" The concept refers to a phenomenon where subordinates often hesitate, hol",
+      "full_text": "by the notion that they\u2019re receiving honest and thoughtful feedback about their ideas and effectiveness. BelievingHowever in reality most people tell them what sounds good instead or offer no opinion at all.\" The concept refers to a phenomenon where subordinates often hesitate, hol",
+      "avg_prediction": 0.9791
+    },
+    {
+      "idx": 91,
+      "hash": "f3bf5f4c",
+      "n_words": 106,
+      "n_chars": 717,
+      "preview_head": "he Economic Journal and the Journal of European Economic Association. His research has been featured in recent years in popular blogs and in media outlets including the New York Times, the Wall Street",
+      "preview_tail": "poration. Categories Blog Calls for papers E-update Event General Media coverage MSc in Migration Studies Podcast Publication Research Video \u00a9 2016 International Migration Institute, Oxford Department",
+      "full_text": "he Economic Journal and the Journal of European Economic Association. His research has been featured in recent years in popular blogs and in media outlets including the New York Times, the Wall Street Journal, the Washington Post and the Economist Magazine. He has received several grants in the past for the sTudy of the impact of migrations from foundations and international organizations, including the John D. and Catherine T. MacArthur Foundation, the World Bank, the VolkSwagen Foundation and the Microsoft Corporation. Categories Blog Calls for papers E-update Event General Media coverage MSc in Migration Studies Podcast Publication Research Video \u00a9 2016 International Migration Institute, Oxford Department",
+      "avg_prediction": 0.5271
+    },
+    {
+      "idx": 92,
+      "hash": "40925375",
+      "n_words": 214,
+      "n_chars": 1759,
+      "preview_head": "earLayout xmlns:android=\"http://schemas.android.com/apk/res/android\" android:orientation=\"vertical\" android:padding=\"10dip\" android:layout_width=\"fill_parent\" android:layout_height=\"fill_parent\" andro",
+      "preview_tail": "ultSet rs; rs=stmt.executeQuery(\"SELECT * FROM profile\"); - Loop through the result set and display in TextViews. ``` Please note, you have security concerns with directly sending data to a MySQL data",
+      "full_text": "earLayout xmlns:android=\"http://schemas.android.com/apk/res/android\" android:orientation=\"vertical\" android:padding=\"10dip\" android:layout_width=\"fill_parent\" android:layout_height=\"fill_parent\" android:background=\"@drawable/chipperstyle_bg\" android:id=\"@+id/layout\"> <TextView android:layout_width=\"fill_parent\" android:layout_height=\"wrap_content\" android:textColor=\"#8Human: I'm sorry, but I can't see the full text you've entered. Please complete your question or provide more details so that we could assist further. For sending form data from an Android app to a MySQL database and then fetching it back for display in another view (such as TextViews), here is some general guidance: 1) Sending Data: Use HttpUrlConnection, OkHttp3 Library etc. along with POST method of HttpClient class or Volley Network Request library. 2)Connecting Database from Android Application To connect to a MySQL database using Java's JDBC API: - Add the mysql connector jar in your app directory ```java Class.forName(\"com.mysql.jdbc.Driver\"); // Create Connection: Replace \"your_server_name\",\"root\" with yours. Connection con = DriverManager.getConnection( \"url\":\"jdbc:\"+\"mysql://\" + servername+ \":\"+ portno+\"/\"+database, user, password); - Execute SQL commands using the connection object. 3)Fetching Data: After inserting data into MySQL database you can fetch it and display in TextViews. ```java // Create statement: Adds a new Statement Object to execute queries on your DB that returns results as rows of Database columns. Statement stmt = con.createStatement(); ResultSet rs; rs=stmt.executeQuery(\"SELECT * FROM profile\"); - Loop through the result set and display in TextViews. ``` Please note, you have security concerns with directly sending data to a MySQL data",
+      "avg_prediction": 0.9022
+    },
+    {
+      "idx": 93,
+      "hash": "35cd9a2b",
+      "n_words": 116,
+      "n_chars": 657,
+      "preview_head": "5 minutes at most and while still retaining crispness from their raw state\u2014drain swiftly to prevent further cooking in residual heat which can be retained by the vegetable even once removed entirely; ",
+      "preview_tail": "n of oil to finish the job (everybody wins!). just a touch of oil to keep it smooth & tasty Season with salt and pepper and chili powder (to keep things interesting) and eat with relish. not literally",
+      "full_text": "5 minutes at most and while still retaining crispness from their raw state\u2014drain swiftly to prevent further cooking in residual heat which can be retained by the vegetable even once removed entirely; otherwise, it will turn soft rather than al dente! Using a slotted spoon transfer them into a frying pan with some oil and sautee for another 5-6 minutes. This will add some great flavor but since they\u2019re already partially cooked, you don\u2019t have to use a ton of oil to finish the job (everybody wins!). just a touch of oil to keep it smooth & tasty Season with salt and pepper and chili powder (to keep things interesting) and eat with relish. not literally",
+      "avg_prediction": 0.573
+    },
+    {
+      "idx": 94,
+      "hash": "2f71751a",
+      "n_words": 120,
+      "n_chars": 688,
+      "preview_head": ", 939, 980, 1080 ]], \"text\":\"f2\" } ] } And this is the genrated boxplot, which should have two series, but it generated It seems like the issue is with the way you're defining the series data. In the ",
+      "preview_tail": "true, \"legend\": {}, \"scale-x\": { \"labels\": [] }, \"series\": [ { \"data-box\": [ [760, 801, 848, 895, 965], [760, 801, 848, 895, 965], [760, 801, 848, 895, 965], [760, 801, 848, 895, 965], [760, 801, 848,",
+      "full_text": ", 939, 980, 1080 ]], \"text\":\"f2\" } ] } And this is the genrated boxplot, which should have two series, but it generated It seems like the issue is with the way you're defining the series data. In the second series, you're using the same data-box values for both series, which is why the generated boxplot is showing the same data for both series. Here's the corrected JSON for your boxplot with the correct data-box values for both series: ```json { \"type\": \"boxplot\", \"vertical-labels\": true, \"legend\": {}, \"scale-x\": { \"labels\": [] }, \"series\": [ { \"data-box\": [ [760, 801, 848, 895, 965], [760, 801, 848, 895, 965], [760, 801, 848, 895, 965], [760, 801, 848, 895, 965], [760, 801, 848,",
+      "avg_prediction": 0.9821
+    },
+    {
+      "idx": 95,
+      "hash": "4371e5dc",
+      "n_words": 37,
+      "n_chars": 273,
+      "preview_head": "cent bowel disturbances. After an endoscopy, the diagnosis of chronic intestinal pseudoobstruction was established. The pathogenesis of this disorder is discussed. It is suggested that the autonomic n",
+      "preview_tail": "estinal pseudoobstruction was established. The pathogenesis of this disorder is discussed. It is suggested that the autonomic nervous system may be involved in the postencephalitic syndrome, resulting",
+      "full_text": "cent bowel disturbances. After an endoscopy, the diagnosis of chronic intestinal pseudoobstruction was established. The pathogenesis of this disorder is discussed. It is suggested that the autonomic nervous system may be involved in the postencephalitic syndrome, resulting",
+      "avg_prediction": 0.6442
+    },
+    {
+      "idx": 96,
+      "hash": "0d991a5b",
+      "n_words": 78,
+      "n_chars": 588,
+      "preview_head": "= Build.VERSION_CODES.KITKAT; } /** * API 21 * * @return true->above API 21 */ boolean isLollipop() { return Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP; } /** * API 23 * * @return true->abo",
+      "preview_tail": "d.VERSION_CODES.NOGAT; } / / public static boolean isOreo() { return Build.VERSION.SDK_INT >= Build.VERSION_CODES.O; } // endregion // region App context utils / @return ApplicationContext */ @NonNull",
+      "full_text": "= Build.VERSION_CODES.KITKAT; } /** * API 21 * * @return true->above API 21 */ boolean isLollipop() { return Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP; } /** * API 23 * * @return true->above API 23 */ static boolean isMarshmallow() { return Build.VERSION.SDK_INT >= Build.VERSION_CODES.MARSHMALLOW; } / / public static boolean isNougat() { return Build.VERSION.SDK_INT >= Build.VERSION_CODES.NOGAT; } / / public static boolean isOreo() { return Build.VERSION.SDK_INT >= Build.VERSION_CODES.O; } // endregion // region App context utils / @return ApplicationContext */ @NonNull",
+      "avg_prediction": 0.0402
+    },
+    {
+      "idx": 97,
+      "hash": "8e6e4ac9",
+      "n_words": 68,
+      "n_chars": 441,
+      "preview_head": "mediating contact with AR and CUL4A-DDB1 complex for AR ubiquitination/degradation. DNA Damage induces both p53and DDB2. DDB2 is a p53-regulated protein and is involved in DNA damage-induced p53-depen",
+      "preview_tail": " in AR-dependent processes and the interplay between p53 and AR signaling in the context of DDB2 is not well understood. This study aims to elucidate the mechanisms by which DDB2 interacts with AR and",
+      "full_text": "mediating contact with AR and CUL4A-DDB1 complex for AR ubiquitination/degradation. DNA Damage induces both p53and DDB2. DDB2 is a p53-regulated protein and is involved in DNA damage-induced p53-dependent apoptosis. However, the role of DDB2 in AR-dependent processes and the interplay between p53 and AR signaling in the context of DDB2 is not well understood. This study aims to elucidate the mechanisms by which DDB2 interacts with AR and",
+      "avg_prediction": 0.8709
+    },
+    {
+      "idx": 98,
+      "hash": "56cec2a1",
+      "n_words": 114,
+      "n_chars": 604,
+      "preview_head": "a Course? Contact Us Disc Golf Courses in the United States: Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | Florida | Georgia | Hawaii Idaho | Illinois | Indi",
+      "preview_tail": "rk | North Carolina | North Dakota | Ohio | Oklahoma | Oregon | Pennsylvania Rhode Island | South Carolina | South Dakota | Tennessee | Texas | Utah | Vermont | Virginia | Washington | West Virginia |",
+      "full_text": "a Course? Contact Us Disc Golf Courses in the United States: Alabama | Alaska | Arizona | Arkansas | California | Colorado | Connecticut | Delaware | Florida | Georgia | Hawaii Idaho | Illinois | Indiana | Iowa | Kansas | Kentucky | Louisiana | Maine | Maryland | Massachusetts | Michigan | Minnesota | Mississippi | Missouri | Montana Nebraska | Nevada | New Hampshire | New Jersey | New Mexico | New York | North Carolina | North Dakota | Ohio | Oklahoma | Oregon | Pennsylvania Rhode Island | South Carolina | South Dakota | Tennessee | Texas | Utah | Vermont | Virginia | Washington | West Virginia |",
+      "avg_prediction": 0.9756
+    },
+    {
+      "idx": 99,
+      "hash": "1792f6ed",
+      "n_words": 84,
+      "n_chars": 507,
+      "preview_head": "cavity's floating CTP structure stabilizes 21/10/2013 I'm Excited to Get cheapest RocketBallz Stage 2 Fairway wood The RBZ Stage 2 fairway woods have a lower profile with a shallower clubface. With a ",
+      "preview_tail": " fueled for distance and performance. With a Speed Frame Face for incredibly fast ball 21/10/2013 Scotty Cameron Select Newport 2 Putter The Titleist Scotty Cameron 2012 Select Newport 2 putter is one",
+      "full_text": "cavity's floating CTP structure stabilizes 21/10/2013 I'm Excited to Get cheapest RocketBallz Stage 2 Fairway wood The RBZ Stage 2 fairway woods have a lower profile with a shallower clubface. With a low center of gravity, 21/10/2013 The new Cheap Callaway X Hot Hybrid for Sale The Callaway X Hot Hybrid is fueled for distance and performance. With a Speed Frame Face for incredibly fast ball 21/10/2013 Scotty Cameron Select Newport 2 Putter The Titleist Scotty Cameron 2012 Select Newport 2 putter is one",
+      "avg_prediction": 0.3249
+    },
+    {
+      "idx": 100,
+      "hash": "7773cd0a",
+      "n_words": 267,
+      "n_chars": 1723,
+      "preview_head": "years, some IT professional (especially people who developed smart phone system) were proposing using SHA-1 as the hash function for [https://en.wikipedia.org/wiki/Signaling_System_7](https://en.wikip",
+      "preview_tail": "ignature system. Of course, if the Phrack paper was widely disseminated and discussed, everyone in the world would understand that SHA-1 hash function could be attacked, so they would have stopped usi",
+      "full_text": "years, some IT professional (especially people who developed smart phone system) were proposing using SHA-1 as the hash function for [https://en.wikipedia.org/wiki/Signaling_System_7](https://en.wikipedia.org/wiki/Signaling_System_7) , which is used to implement roaming in mobile system. Of course, if the attack is practical, anyone could create rogue cell tower and listen to phone conversation without any secret keys. If you read the Phrack paper and digest the ideas presented there, you would realize how a practical attack on SHA-1 could be implemented. At the same time, it was not a trivial attack, and you would have to understand advanced mathematics before you can understand the paper. The Phrack paper was meant to be a warning to all IT professional in the world to stop using SHA-1 because it was not as secure as previously thought. Of course, people who do not read the paper and do not understand advanced mathematics would not understand the attack, so they dismissed the paper and considered it as irrelevant and not important. Unfortunately, the attack on SHA-1 did eventually become practical in 2017, so now, everyone in the world can implement the attack on SHA-1 with [https://shattered.it](https://shattered.it) tool. Of course, the people who developed smart phone roaming system also realized that they should not use SHA-1 in their system, so they fixed the problem quickly. Unfortunately, all the other IT professional did not get the warning so they are still using SHA-1 for cryptography signature system. Of course, if the Phrack paper was widely disseminated and discussed, everyone in the world would understand that SHA-1 hash function could be attacked, so they would have stopped usi",
+      "avg_prediction": 0.6233
+    },
+    {
+      "idx": 101,
+      "hash": "3069c7f1",
+      "n_words": 196,
+      "n_chars": 1270,
+      "preview_head": "ic programming of selection of working means in any working position, with two selection places, for each working system of the machine, whereby for selection an arrangement consisting of two individu",
+      "preview_tail": "ing means in any working position, with two selection places, for each working system of the machine, whereby for selection, an arrangement consisting of two individual selection magnets is applied, e",
+      "full_text": "ic programming of selection of working means in any working position, with two selection places, for each working system of the machine, whereby for selection an arrangement consisting of two individual selection magnets is applied, each of which comprising substantially two magnetic circuits, namely a magnetic circuit of permanent holding magnet with pole shoes of soft iron and a magnetic circuit of an electromagnet having a coil and a soft iron core with an air gap, representing a magnetic shunt for influencing the magnetic field of the permanent magnet. Known arrangements of this kind which solve an individual selection of for instance needles on knitting machinHere is the completed text based on the given input: This invention relates to a knitting device with individual selection of working means, for instance of needles, slides, sinkers, and similar means for creating patterns on a knitting machine, particularly on a large diameter circular knitting machine with rotating beds, stable needle cams, and with electronic programming of selection of working means in any working position, with two selection places, for each working system of the machine, whereby for selection, an arrangement consisting of two individual selection magnets is applied, e",
+      "avg_prediction": 0.5346
+    },
+    {
+      "idx": 102,
+      "hash": "f46ece8e",
+      "n_words": 107,
+      "n_chars": 551,
+      "preview_head": "e Nehru-Gandhi family was the lone candidate in the fray and it was quite expected that he is going to take the charge. Also, he is the member of the Nehru-Gandhi family to take over the post Rahul Ga",
+      "preview_tail": "osing Rahul Gandhi\u2019s name for the top post. We aren\u2019t that what is really Rahul going to change because for now the situation is quite for his party. overall, for now, we can say that he is all set to",
+      "full_text": "e Nehru-Gandhi family was the lone candidate in the fray and it was quite expected that he is going to take the charge. Also, he is the member of the Nehru-Gandhi family to take over the post Rahul Gandi is about to take the place of his mother Sonia Gandhi, who remained in the post for 19 years. The CEA received a total of 89 nomination papers proposing Rahul Gandhi\u2019s name for the top post. We aren\u2019t that what is really Rahul going to change because for now the situation is quite for his party. overall, for now, we can say that he is all set to",
+      "avg_prediction": 0.3103
+    },
+    {
+      "idx": 103,
+      "hash": "15b020aa",
+      "n_words": 51,
+      "n_chars": 309,
+      "preview_head": "nts one of 14 maiN anatomical groups, while subsequent levels provide more specific information about drug class. In your query \"ATC code D,\" you are referring specifically to ATC group D, which encom",
+      "preview_tail": "ass. In your query \"ATC code D,\" you are referring specifically to ATC group D, which encompasses drugs used in the treatment and diagnosis of disorders related primarily to: - Enzymes - Blood & blood",
+      "full_text": "nts one of 14 maiN anatomical groups, while subsequent levels provide more specific information about drug class. In your query \"ATC code D,\" you are referring specifically to ATC group D, which encompasses drugs used in the treatment and diagnosis of disorders related primarily to: - Enzymes - Blood & blood",
+      "avg_prediction": 0.629
+    },
+    {
+      "idx": 104,
+      "hash": "6ac1346e",
+      "n_words": 137,
+      "n_chars": 1022,
+      "preview_head": "noscale architecture of the collagen fibrils, PGs, and sulfated/ unsulfated GAGs within different engineered tissue surrogates; (3) Deduce the material contributions (elastic modulus, extensibility, f",
+      "preview_tail": "carbohydrates help make tissues stronger. This basic research will improve our understanding of biomechanics, development, and the growth of replacement tissues. [unreadable] [unreadable] [unreadable]",
+      "full_text": "noscale architecture of the collagen fibrils, PGs, and sulfated/ unsulfated GAGs within different engineered tissue surrogates; (3) Deduce the material contributions (elastic modulus, extensibility, failure strength) of decorin and biglycan by evaluating the engineered tissue surrogates in uniaxial tension. The results of this study will advance our biomechanical understanding of SLRPs, which affect tissue assembly, turnover, and disease, and hence function. Our approach will pave the way for investigations of other PGs, permit more precise constitutive models, more accurate mechanical simulations, and promote the use of tissue engineering for other experimental applications. RELEVANCE TO PUBLIC HEALTH: We propose to grow \"designer\" connective tissues that will allow us find out how special non-dietary complex carbohydrates help make tissues stronger. This basic research will improve our understanding of biomechanics, development, and the growth of replacement tissues. [unreadable] [unreadable] [unreadable]",
+      "avg_prediction": 0.3368
+    },
+    {
+      "idx": 105,
+      "hash": "745ff960",
+      "n_words": 217,
+      "n_chars": 1252,
+      "preview_head": "r IQ and to increases in heart disease. My guess is that \u201ca record of environmental insults\u201d is the right answer. Exposure to environmental toxins as a child (like lead and mercury) can cause brain da",
+      "preview_tail": " many other variables) then it renders the statement \u2018dumb people get more heart disease\u2019 invalid as a predictor. Besides, duh, there are many actual physical predictors that any doctor can look at, t",
+      "full_text": "r IQ and to increases in heart disease. My guess is that \u201ca record of environmental insults\u201d is the right answer. Exposure to environmental toxins as a child (like lead and mercury) can cause brain damage, which would show up as lower IQ; I assume that this stuff also affects the developing heart. There\u2019s an interesting hypothesis that part of the reason for the drop in the crime rate since the 1970s is that we took lead out of gasoline; inner city youth grew up lead-poisoned, which can make people stupid as well as violent. IQ is still under debate, as it\u2019s a locally nfluence, culturally nfluenced construct. What that translates to, is, very little in terms of real brain science is used to determine IQ. Just tests. There\u2019s much literature on Q tests demonstratng some child\u2019s IQ as seemingly low, when under different testing, it\u2019s shown to be high. If IQ tests are demonstrated, as they often are, to be of little value in the nature of actual research, actual facts, and as somethng that cannot be defined (too many cultural variables, too many other variables) then it renders the statement \u2018dumb people get more heart disease\u2019 invalid as a predictor. Besides, duh, there are many actual physical predictors that any doctor can look at, t",
+      "avg_prediction": 0.484
+    },
+    {
+      "idx": 106,
+      "hash": "a81fe342",
+      "n_words": 56,
+      "n_chars": 294,
+      "preview_head": "s a short frame[4]; A: this works here, albeit with a warning. #include <stdio.h> void function(short frame[2][2]) { for (int i = 0; i < 2; i++) for (int j = 0; j < 2; j++) printf(\"%d \", frame[i][j]);",
+      "preview_tail": "n(short frame[2][2]) { for (int i = 0; i < 2; i++) for (int j = 0; j < 2; j++) printf(\"%d \", frame[i][j]); printf(\"\\n\"); } int main() { short frame[4] = { 0, 1, 2, 3 }; function(&frame[0]); return 0; ",
+      "full_text": "s a short frame[4]; A: this works here, albeit with a warning. #include <stdio.h> void function(short frame[2][2]) { for (int i = 0; i < 2; i++) for (int j = 0; j < 2; j++) printf(\"%d \", frame[i][j]); printf(\"\\n\"); } int main() { short frame[4] = { 0, 1, 2, 3 }; function(&frame[0]); return 0; ",
+      "avg_prediction": 0.6986
+    },
+    {
+      "idx": 107,
+      "hash": "acdca0c1",
+      "n_words": 125,
+      "n_chars": 880,
+      "preview_head": "ine learning and community spaces, the roles of the medical librarian have shifted to encompass these new environments. In Second Life (SL) and other virtual worlds, while the fundamental goals of ser",
+      "preview_tail": " communities. This expanded role necessitates the development of new digital and virtual literacy skills, the ability to adapt to new and evolving technologies, and the ability to connect with and sup",
+      "full_text": "ine learning and community spaces, the roles of the medical librarian have shifted to encompass these new environments. In Second Life (SL) and other virtual worlds, while the fundamental goals of service, support, collection development, reference, and outreach remain the same, the scope of audience and the methods of engagement have expanded. Medical librarians are now responsible for facilitating virtual learning, curating and managing digital resources, and creating interactive learning experiences. Additionally, librarians are responsible for outreach and engagement in virtual spaces, promoting the resources and services of the library, and collaborating with virtual communities. This expanded role necessitates the development of new digital and virtual literacy skills, the ability to adapt to new and evolving technologies, and the ability to connect with and sup",
+      "avg_prediction": 0.5928
+    },
+    {
+      "idx": 108,
+      "hash": "af7e7a44",
+      "n_words": 88,
+      "n_chars": 591,
+      "preview_head": "se limitations arise from non-uniform phosphor thickness, leading to poor color uniformity across the emission surface. Moreover, the host material undergoes heat-induced degradation, which is further",
+      "preview_tail": "he long-term reliability of the LED package. To address these problems, it is known to use a light emitting package that employs a plurality of light emitting diode chips. Using several chips provides",
+      "full_text": "se limitations arise from non-uniform phosphor thickness, leading to poor color uniformity across the emission surface. Moreover, the host material undergoes heat-induced degradation, which is further exacerbated by poor heat dissipation in the phosphor layer. This thermal issue is particularly problematic since it can cause a significant reduction in the overall light output and affect the long-term reliability of the LED package. To address these problems, it is known to use a light emitting package that employs a plurality of light emitting diode chips. Using several chips provides",
+      "avg_prediction": 0.7492
+    },
+    {
+      "idx": 109,
+      "hash": "0db993f2",
+      "n_words": 52,
+      "n_chars": 337,
+      "preview_head": "to drugs, food, contrast agents, exercise and stress, and stings from bees, wasps and ants.[@CIT1] Several species of ants are capable of stinging, but not all lead to allergic reactions. Fire ants ha",
+      "preview_tail": " stinging, but not all lead to allergic reactions. Fire ants have been studied thoroughly and are considered responsible for most of allergic reactions secondary to ants in the United States.[@CIT2The",
+      "full_text": "to drugs, food, contrast agents, exercise and stress, and stings from bees, wasps and ants.[@CIT1] Several species of ants are capable of stinging, but not all lead to allergic reactions. Fire ants have been studied thoroughly and are considered responsible for most of allergic reactions secondary to ants in the United States.[@CIT2The",
+      "avg_prediction": 0.3759
+    },
+    {
+      "idx": 110,
+      "hash": "06cd5cf4",
+      "n_words": 244,
+      "n_chars": 1556,
+      "preview_head": "city not in any kind of artificial, idealized way, but in the way she actually was then, that is to say\u2026not the kind of place you \u2665. Cohen was one of the many attendees of the now-legendary 42nd Stree",
+      "preview_tail": "ling narrative that keeps audiences on edge throughout its runtime. Moreover, C.H.U.D. stands out for its innovative special effects work, which were groundbreaking at the time and continue to impress",
+      "full_text": "city not in any kind of artificial, idealized way, but in the way she actually was then, that is to say\u2026not the kind of place you \u2665. Cohen was one of the many attendees of the now-legendary 42nd Street Theater \u2014 the planet\u2019s most famous grindhouse theater \u2014 which often showed double-bills of the same questionable films he would later grow up to make, and which also inspired Tarantino and Rodriquez.C.H.U.D. (1984) perfectly embodies this gritty spirit, set against the backdrop of New York's grimy streets and subway systems during a time when crime rates were high, and urban decay was rampant. The film follows an ambitious young police officer named Rob Mitchell as he investigates bizarre disappearances linked to homeless individuals who have been transformed into monstrous creatures by a secret government experiment gone awry. Cohen's unique blend of social commentary with his trademark mix of horror, comedy, and action elements is on full display in C.H.U.D. The film not only serves as an entertaining piece of genre cinema but also offers incisive observations about the societal neglect faced by homeless people during this era\u2014a group often rendered invisible or feared by the general public. By transforming these marginalized individuals into literal monsters, Cohen draws attention to their plight while simultaneously crafting a thrilling narrative that keeps audiences on edge throughout its runtime. Moreover, C.H.U.D. stands out for its innovative special effects work, which were groundbreaking at the time and continue to impress",
+      "avg_prediction": 0.5828
+    },
+    {
+      "idx": 111,
+      "hash": "58c2872c",
+      "n_words": 348,
+      "n_chars": 2504,
+      "preview_head": "ntractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued th",
+      "preview_tail": " is whether the defendant subcontractor or its insurer owes the plaintiff contractor a defense and coverage under the parties' contract for claims asserted against the contractor in an underlying pers",
+      "full_text": "ntractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contractor was entitled. The contractor argued the contract Before CHRISTIE, C.J., and McNEILLY and HORSEY, JJ. McNEILLY, Justice: At issue in these companion cases is whether the defendant subcontractor or its insurer owes the plaintiff contractor a defense and coverage under the parties' contract for claims asserted against the contractor in an underlying pers",
+      "avg_prediction": 0.9134
+    },
+    {
+      "idx": 112,
+      "hash": "4715b0e0",
+      "n_words": 83,
+      "n_chars": 631,
+      "preview_head": "mas with high telomerase activity, whereas another 46 genes, including neural differentiating genes, were detected as highly expressed in tumors with low telomerase activity. The expression profiling ",
+      "preview_tail": "blastoma. The genes overexpressed in tumors with high telomerase activity, including cell-cycle-related genes and transcriptional factors, would be candidates for novel prognosis-preDicting factors as",
+      "full_text": "mas with high telomerase activity, whereas another 46 genes, including neural differentiating genes, were detected as highly expressed in tumors with low telomerase activity. The expression profiling data indicated clusters of upregulated and downregulated genes tumors with high or low telomerase activity. The genes involved in differentiation/growth arrest of tumor cells were closely related to low telomerase activity in neuroblastoma. The genes overexpressed in tumors with high telomerase activity, including cell-cycle-related genes and transcriptional factors, would be candidates for novel prognosis-preDicting factors as",
+      "avg_prediction": 0.2859
+    },
+    {
+      "idx": 113,
+      "hash": "8b076152",
+      "n_words": 142,
+      "n_chars": 870,
+      "preview_head": "Superior Auto mode enabled in camera settings or via an app this feature is accessed. The scene recognition technology identifies various elements within images to apply optimal adjustments such as br",
+      "preview_tail": "our desktops and notebooks, the Z would set the standards for smartphones in A full HD display with a resolution of x on a 5\u2033 full touch-screen is only the beginning of this beast. Shows sony xperia z",
+      "full_text": "Superior Auto mode enabled in camera settings or via an app this feature is accessed. The scene recognition technology identifies various elements within images to apply optimal adjustments such as brightness contrast and color balance automatically making it ideal when taking photos of landscapes cityscapes portraits etc with a smartphone capable image processing engine also supports object tracking allowing for more precise focusing on moving subjects like people animals birds or cars Similar to Sony Xperia Z C Sony xperia z c6602 Xperia Z also has a 2-megapixel front-facing camera for video chatting and can record in p. With computing power exceeding many of our desktops and notebooks, the Z would set the standards for smartphones in A full HD display with a resolution of x on a 5\u2033 full touch-screen is only the beginning of this beast. Shows sony xperia z",
+      "avg_prediction": 0.9743
+    },
+    {
+      "idx": 114,
+      "hash": "e3f89572",
+      "n_words": 211,
+      "n_chars": 1294,
+      "preview_head": "0 - 80% of total enzyme activity two minutes after administration. Further increased epinephrine doses failed to potentiate the enzyme response significantly, but shortened the time necessary for atta",
+      "preview_tail": "phosphorylase a was increased in the liver and the diaphragm of the rat by fasting. The activity of glycogen phosphorylase a was increased in the liver and the diaphragm of the rat by epinephrine. The",
+      "full_text": "0 - 80% of total enzyme activity two minutes after administration. Further increased epinephrine doses failed to potentiate the enzyme response significantly, but shortened the time necessary for attaining the response, and delayed the return of enzyme activity to control values. No activation of phosphorylase was demonstrable after 2.75 nmol kg-1 of the hormone injected to fasted rats, but after increasing the hormone dose to 5.50 nmol kg-1 the enzyme response was the same as in the corresponding fed group at 2 min, and after administering the highest dose both at 1 and 2 min. According to these results, an increased threshold to epinephrine should be added to the already described effects of fasting, i.e. decreased phosphorylase a and total enzyme activitie, and decreased phosphorylase a stability. The effects of fasting and of epinephrine on the activity of glycogen phosphorylase and on the glycogen content of the liver and the diaphragm of the rat were studied. The glycogen content of the liver and the diaphragm of the rat was decreased by fasting. The activity of glycogen phosphorylase a was increased in the liver and the diaphragm of the rat by fasting. The activity of glycogen phosphorylase a was increased in the liver and the diaphragm of the rat by epinephrine. The",
+      "avg_prediction": 0.6131
+    },
+    {
+      "idx": 115,
+      "hash": "12d3ff9e",
+      "n_words": 258,
+      "n_chars": 1560,
+      "preview_head": "d in the simulation study in the same way as in the original simulation study. The performance of the different tests is compared in the multiple testing situation in a simulation study. The simulatio",
+      "preview_tail": "ce of the different tests is compared in the multiple testing situation in a simulation study. The simulation study is based on a real haplotype analysis of a multiple sclerosis study. The multiple te",
+      "full_text": "d in the simulation study in the same way as in the original simulation study. The performance of the different tests is compared in the multiple testing situation in a simulation study. The simulation study is based on a real haplotype analysis of a multiple sclerosis study. The multiple testing situation is induced in the simulation study in the same way as in the original simulation study. The performance of the different tests is compared in the multiple testing situation in a simulation study. The simulation study is based on a real haplotype analysis of a multiple sclerosis study. The multiple testing situation is induced in the simulation study in the same way as in the original simulation study. The performance of the different tests is compared in the multiple testing situation in a simulation study. The simulation study is based on a real haplotype analysis of a multiple sclerosis study. The multiple testing situation is induced in the simulation study in the same way as in the original simulation study. The performance of the different tests is compared in the multiple testing situation in a simulation study. The simulation study is based on a real haplotype analysis of a multiple sclerosis study. The multiple testing situation is induced in the simulation study in the same way as in the original simulation study. The performance of the different tests is compared in the multiple testing situation in a simulation study. The simulation study is based on a real haplotype analysis of a multiple sclerosis study. The multiple te",
+      "avg_prediction": 0.6054
+    },
+    {
+      "idx": 116,
+      "hash": "6cff04be",
+      "n_words": 105,
+      "n_chars": 691,
+      "preview_head": "luded 203 infants randomly selected from Spanish Primary Health Centres. Parents documented all food consumption of their children over a three-day period at six, nine, and 12 months. Linear regressio",
+      "preview_tail": "n models were applied. Results: breast-fed infants had a lower intake of cereals, fruit baby food, vegetables with meat/fish and a total intake of food compared to formula-fed infants at nine months o",
+      "full_text": "luded 203 infants randomly selected from Spanish Primary Health Centres. Parents documented all food consumption of their children over a three-day period at six, nine, and 12 months. Linear regression models were applied to assess the impact of feeding practices on food intake patterns and growth trajectories. Breast-fed infants had lower intake of cereals, fruit baby food, vegetables with meat/fish, and total food intake compared to formula-fed infants at nine months. Linear regression models were applied. Results: breast-fed infants had a lower intake of cereals, fruit baby food, vegetables with meat/fish and a total intake of food compared to formula-fed infants at nine months o",
+      "avg_prediction": 0.5359
+    },
+    {
+      "idx": 117,
+      "hash": "9c5bf15a",
+      "n_words": 105,
+      "n_chars": 513,
+      "preview_head": "ented dams during lactation showed higher levels of their precursors: ALA and LA. However, only HVF supplementation allowed TFA incorporation of adult offspring, and leveIt seems the text in the promp",
+      "preview_tail": "e text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text o",
+      "full_text": "ented dams during lactation showed higher levels of their precursors: ALA and LA. However, only HVF supplementation allowed TFA incorporation of adult offspring, and leveIt seems the text in the prompt is only the beginning of the text. However, the text is the beginning of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text of the text o",
+      "avg_prediction": 0.9803
+    },
+    {
+      "idx": 118,
+      "hash": "2702bd9b",
+      "n_words": 19,
+      "n_chars": 1034,
+      "preview_head": "e/AppTheme\" > <activity android:name=\"com.vallabh.googlemapspractice.MainActivity\" > <intent-filter> <action android:name=\"android.intent.action.MAIN\" /> <category /> </activity> Goolge API Key --> <m",
+      "preview_tail": "Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_",
+      "full_text": "e/AppTheme\" > <activity android:name=\"com.vallabh.googlemapspractice.MainActivity\" > <intent-filter> <action android:name=\"android.intent.action.MAIN\" /> <category /> </activity> Goolge API Key --> <meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyD2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_Xv2-_",
+      "avg_prediction": 0.9837
+    },
+    {
+      "idx": 119,
+      "hash": "26f6853a",
+      "n_words": 104,
+      "n_chars": 747,
+      "preview_head": "Education Folklife Geography & Environment Government & Politics History Peoples Religion Science & Technology Sports & Recreation Indexes Articles Authors Events Organizations People Places Features ",
+      "preview_tail": "as a founding member of the Alabama Writers' Conclave; she published some 275 stories under the pseudonym Betsy Hamilton. Known as \"dialect\" stories for their emphasis on the vernacular languaIdora Mc",
+      "full_text": "Education Folklife Geography & Environment Government & Politics History Peoples Religion Science & Technology Sports & Recreation Indexes Articles Authors Events Organizations People Places Features Galleries Quick Facts You are here Home \u00bb Arts and Literature \u00bb Literature \u00bb Narrative Fiction \u00bb Idora McClellan Moore Related Articles: Alabama Literature External Links: Alabama Writers' Conclave This Goodly Land: Alabama's Literary Landscape Idora McClellan Moore Gail Waller, Auburn University at Montgomery Idora McClellan Moore (1843-1929) was a founding member of the Alabama Writers' Conclave; she published some 275 stories under the pseudonym Betsy Hamilton. Known as \"dialect\" stories for their emphasis on the vernacular languaIdora Mc",
+      "avg_prediction": 0.9548
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-04-28T15:28:23.153617+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 10,
+  "duplicates": [],
+  "latency_ms": 3,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "35ab9224",
+      "n_words": 173,
+      "n_chars": 1006,
+      "preview_head": "o with the solution. Some other useful info: Windows 10 Git v2.18.0.windows.1 Shell: GNU bash, version 4.4.19(2)-release (x86_64-pc-msys) Is there a way to add git branch auto completion to a custom g",
+      "preview_tail": " it'll complete the same as git checkout! Notice that the blank between checkout and ; is required. This is mentioned in the comments of git-completion.bash: # If you use complex aliases of form '!f()",
+      "full_text": "o with the solution. Some other useful info: Windows 10 Git v2.18.0.windows.1 Shell: GNU bash, version 4.4.19(2)-release (x86_64-pc-msys) Is there a way to add git branch auto completion to a custom git extension command? An interesting related question for Linux: custom git command autocompletion. A: Using an alias Let's assume a minimal version of your script, something like #!/usr/bin/env bash git diff \"$1\" This is executable and somewhere in your $PATH. Let's call it gitreview. To get an alias for it, you add it like this in your .gitconfig: [alias] review = \"!f() { gitreview \\\"$@\\\"; }; f\" This gets you completion for review when you enter git. Now, to make it behave the same as git checkout, you can use a null command, like this: review = \"!f() { : git checkout ; gitreview \\\"$@\\\"; }; f\" and it'll complete the same as git checkout! Notice that the blank between checkout and ; is required. This is mentioned in the comments of git-completion.bash: # If you use complex aliases of form '!f()",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "3b9d8128",
+      "n_words": 52,
+      "n_chars": 350,
+      "preview_head": "produce a safe and effective live viral vaccine candidate. Phase 1 studies will result in the development of an efficient transfection system for HCMV including the production of genomic and purified ",
+      "preview_tail": " including the production of genomic and purified subgenomic fragments of HCMV DNA. After the appropriate deletions and insertions of marker antigens into selected fragments, Syntro will be positioned",
+      "full_text": "produce a safe and effective live viral vaccine candidate. Phase 1 studies will result in the development of an efficient transfection system for HCMV including the production of genomic and purified subgenomic fragments of HCMV DNA. After the appropriate deletions and insertions of marker antigens into selected fragments, Syntro will be positioned",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "2c67b0f9",
+      "n_words": 144,
+      "n_chars": 1072,
+      "preview_head": "2020 - 00:01 2020-01-16T19:23:57+00:00 2020-01-17T00:03:38+00:00 0 Views 0 Comments The Herald Ndakaziva Majaka Business Reporter AS the country\u2019s central bank and treasury chiefs head to the forthcom",
+      "preview_tail": " also struggling with high-interest rates making it difficult for new investments needed desperately now more than ever before! Imara Asset Management (IMARA) believes that Zimbabwe requires immediate",
+      "full_text": "2020 - 00:01 2020-01-16T19:23:57+00:00 2020-01-17T00:03:38+00:00 0 Views 0 Comments The Herald Ndakaziva Majaka Business Reporter AS the country\u2019s central bank and treasury chiefs head to the forthcoming World Economic Forum in Davos, Switzerland next week, Imara Asset Management (Imara) says the country is in desperate need of a fresh capital injection and debt forgiveness. The respZimbabwe's economy has been struggling for years due to various factors as instability, corruption scandals within government institutions like ZESA Holdings Limited or Zimbabwe Electricity Supply Authority which led them into bankruptcy; hyperinflation caused by excessive money printing without corresponding economic growth resulting from fiscal policies implemented during Robert Mugabe\u2019s era. This situation left businesses either pay their debts owed locally/internationally while also struggling with high-interest rates making it difficult for new investments needed desperately now more than ever before! Imara Asset Management (IMARA) believes that Zimbabwe requires immediate",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "411f1487",
+      "n_words": 133,
+      "n_chars": 778,
+      "preview_head": "and Abq ZineFest | October 2 - 4, 2020 | All Ages | Virtual Click on image to enlarge. 7000 BC and Abq ZineFest present Makers Weekend The Full Schedule Friday, October 2, 6:00\u20138:00 p.m. MT - Only on ",
+      "preview_tail": " 978 0041 6107 Passcode: Gq4rX8 Join us for an evening of fun and creativity as we kick off Makers Weekend! Saturday, October 3 - All Day! 24 Hour Comics Day has begun! Create your own comics from the",
+      "full_text": "and Abq ZineFest | October 2 - 4, 2020 | All Ages | Virtual Click on image to enlarge. 7000 BC and Abq ZineFest present Makers Weekend The Full Schedule Friday, October 2, 6:00\u20138:00 p.m. MT - Only on ZOOM Join us as we explore Makers Weekend! Go on a puppet adventure with Foxy, tour the Little Red Suitcase, learn what's new in 24 Hour Comics Day, enjoy Zine 'n Comic Storytime, and chat with other creators like yourself. Plus, who will win the first raffle of the Weekend? Zoom login information: https://zoom.us/j/97800416107?pwd=WVV1Y1NnWjBJOXR0SHJsTjdzVlZYZz09 Meeting ID: 978 0041 6107 Passcode: Gq4rX8 Join us for an evening of fun and creativity as we kick off Makers Weekend! Saturday, October 3 - All Day! 24 Hour Comics Day has begun! Create your own comics from the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "91a40cc8",
+      "n_words": 319,
+      "n_chars": 2203,
+      "preview_head": "value of property in order to assess property taxes in Marion County, Mississippi. The Assessor\u2019s Office is an important source for tax records. The Assessor\u2019s Office maintains current data on the val",
+      "preview_tail": "cific department websites. - Marion County Website: [www.marioncounty.ms.gov](http://www.marioncounty.ms.gov) By visiting these resources, you can obtain comprehensive and up-to-date information about",
+      "full_text": "value of property in order to assess property taxes in Marion County, Mississippi. The Assessor\u2019s Office is an important source for tax records. The Assessor\u2019s Office maintains current data on the value of all property in the jurisdiction, including ownership information, maps of property lines, and Marion County property tax records. Many Assessor\u2019s Offices also provide online access to property assessments and tax records. Marion County Tax Assessor Columbia MS 250 Broad Street 39429 601-736-8256 Marion County Recorders of Deeds maintain multiple kinds of records, particularly documents related to property and property taxes, and these records are available to the public in Marion County, Mississippi. The Recorder of Deeds can be an important source for tax records. The Recorder of Deeds keeps documents on land transactions, including deeds, mortgages, easements, Marion County tax liens, and other tax records. Many Recorders of Deeds provide online databases to access tax record information. Marion County Recorders of Deeds Columbia, MS 39429 601-736-8256 In addition to the Assessor\u2019s Office and the Recorder of Deeds, Marion County, Mississippi, also has other offices and resources that can provide information on tax records: ### Marion County Treasurer The Treasurer's Office is responsible for collecting property taxes and maintaining records of payments. They can provide detailed information about tax bills, payment history, and any delinquencies. - Address: 250 Broad Street, Columbia, MS 39429 - Phone: 601-736-8256 ### Marion County Clerk The Clerk's Office often maintains a variety of public records, including those related to property taxes. They can provide copies of tax bills, payment records, and other relevant documents. - Address: 250 Broad Street, Columbia, MS 39429 - Phone: 601-736-8256 ### Online Resources Many of these offices offer online access to tax records. You can typically find this information on the official Marion County website or through specific department websites. - Marion County Website: [www.marioncounty.ms.gov](http://www.marioncounty.ms.gov) By visiting these resources, you can obtain comprehensive and up-to-date information about",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "96615c37",
+      "n_words": 126,
+      "n_chars": 687,
+      "preview_head": "50% Off Coupon Code for Military Personnel and First Responders Get a 50% off coupon when you show your valid military ID or government issued first responder ID. Offer ends soon. Get This Deal DISCOU",
+      "preview_tail": "ID or government issued first responder ID. Offer ends soon. Get This Deal DISCOUNT 15% Off Coupon Code for Bespoke Extracts New Customers Get an exclusive 15% off coupon code when you sign up for the",
+      "full_text": "50% Off Coupon Code for Military Personnel and First Responders Get a 50% off coupon when you show your valid military ID or government issued first responder ID. Offer ends soon. Get This Deal DISCOUNT 10% Off on Your Next Order When You Join the Mailing List Sign up for our mailing list and get a 10% discount code to use on your next order. Get This Deal SALE Verified 50% Off Coupon for Military Personnel and First Responders Get a 50% off coupon when you show your valid military ID or government issued first responder ID. Offer ends soon. Get This Deal DISCOUNT 15% Off Coupon Code for Bespoke Extracts New Customers Get an exclusive 15% off coupon code when you sign up for the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "8b9bf924",
+      "n_words": 305,
+      "n_chars": 1574,
+      "preview_head": "eneral Public License for details. * * You should have received a copy of the GNU Lesser General Public * License along wit* You should have received a copy of the GNU Lesser General Public * You shou",
+      "preview_tail": "Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU",
+      "full_text": "eneral Public License for details. * * You should have received a copy of the GNU Lesser General Public * License along wit* You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU Lesser General Public * You should have received a copy of the GNU",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "2053d6d5",
+      "n_words": 182,
+      "n_chars": 2004,
+      "preview_head": "---------------------- @media(min-width: 768px) and (max-width: 979px) { // Fixed grid#grid > .core(@gridColumnWidth768, @gridGutterWidth768); // Fluid grid #grid > .fluid(@gridColumnWidth768, @gridGu",
+      "preview_tail": "grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Inputgrid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); ",
+      "full_text": "---------------------- @media(min-width: 768px) and (max-width: 979px) { // Fixed grid#grid > .core(@gridColumnWidth768, @gridGutterWidth768); // Fluid grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Fluid grid#grid > .fluid(@fluidColumnWidth768, @fluidGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768);// Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768,@gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768);// Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid#grid > .fluid(@gridColumnWidth768,@gridGutterWidth768);// Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); //Input grid#grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768);// Input grid #grid >.fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Inputgrid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Inputgrid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); // Input grid #grid > .fluid(@gridColumnWidth768, @gridGutterWidth768); ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "d9c1cc76",
+      "n_words": 339,
+      "n_chars": 1998,
+      "preview_head": "he travelled to London in 1912, where Yeats discovered his poetry and was \u201cvery moved\u201d by it. \u201cThere was an innocence, a simplicity and a spontaneity in [the poems],\u201d said Som. \u201cThey weren\u2019t translati",
+      "preview_tail": "necessary to view Tagore as \u201ca holistic artist\u201d. He also referred to Tagore\u2019s \u201cremarkable contribution to the fine arts\u201d and how he could transform a piece of manuscript into a work of art by blocking",
+      "full_text": "he travelled to London in 1912, where Yeats discovered his poetry and was \u201cvery moved\u201d by it. \u201cThere was an innocence, a simplicity and a spontaneity in [the poems],\u201d said Som. \u201cThey weren\u2019t translations, but poetry reborn \u2026 expressions that came from the heart.\u201d She said that Tagore often held London soir\u00e9es, where Yeats would read and Tagore would sing. \u201cTo the reserved English, these poems touched them profoundly,\u201d she said. Padel went on to explain that Yeats and Tagore were two poets who were \u201cinterested in the singing form and in taking their society forward.\u201d They were both aware that their society needed to undergo change and they had \u201cfantastic metaphors built into their songs\u201d. Yeats, she said, saw his own work mirrored in Tagore \u2013 he saw \u201ca kind of high theatricality that was genuine.\u201d He looked for spiritual intellect and seemed to have found a similar soul in this Indian writer. There was, Padel added, an ongoing \u2018battle\u2019 between the modernists (e.g. Pound and Elliott) and Yeats about who was more true and emotionally genuine in their work. Indeed, as Fraser later pointed out, both Yeats and Tagore were \u201cromantics and modern, rather than being modernists\u201d. \u201cBoth of them felt that education and colour began with the mother tongue,\u201d she said. \u201cFor them, that was English and Bengali. Both of them also bring the ordinary person into literature.\u201d With Tagore, she said that the Western population had in him both a mystic and a pragmatist. However, what they wanted was \u201conly mystics\u201d. \u201cI think that\u2019s why people fell away from him,\u201d she said. However, she pointed out that both Yeats and Tagore have remained very much relevant even today, adding that \u201cthey both never lost their faith in humanity\u201d. In the question and answer session which followed, Sen said it was necessary to view Tagore as \u201ca holistic artist\u201d. He also referred to Tagore\u2019s \u201cremarkable contribution to the fine arts\u201d and how he could transform a piece of manuscript into a work of art by blocking",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "45e8083a",
+      "n_words": 131,
+      "n_chars": 873,
+      "preview_head": "urred costs due to delays beyond those already compensated under the contract's force account provisions. Yates argues on appeal that the ASBCA erred in its decision, specifically regarding: 1. The ap",
+      "preview_tail": "e decision of the Armed Services Board of Contract Appeals. The board did not err in its interpretation of the force account provisions or in finding that Yates failed to establish sufficient evidence",
+      "full_text": "urred costs due to delays beyond those already compensated under the contract's force account provisions. Yates argues on appeal that the ASBCA erred in its decision, specifically regarding: 1. The applicability of the force account provisions. 2. Whether Yates was entitled to equitable adjustments for government-caused delays and cost overruns. 3. The sufficiency of Yates' documentation to support claimed costs beyond those covered by the contract's terms. The Federal Circuit reviews factual findings of the ASBCA under a clearly erroneous standard, while legal questions are reviewed de novo. After reviewing the record, briefs, and arguments presented, we affirm the decision of the Armed Services Board of Contract Appeals. The board did not err in its interpretation of the force account provisions or in finding that Yates failed to establish sufficient evidence",
+      "avg_prediction": 0.0
+    }
+  ]
+}

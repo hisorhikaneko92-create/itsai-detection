@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-04-28T06:11:29.235293+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 1433,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "96af19fe",
+      "n_words": 97,
+      "n_chars": 536,
+      "preview_head": "to shoot a wedding with my main squeeze. no way that pants are buttoning around that bump! Related Serena -You are so precious and a godly woman that is a good example to me, just by reading into your",
+      "preview_tail": "pm Erin Fetterhoff-You are too cute! Seriously, the best looking pregnant momma I\u2019ve ever seen! :) So exciting to hear about all the baby news & updates! She (or maybe he\u2026) looks beautiful already! :)",
+      "full_text": "to shoot a wedding with my main squeeze. no way that pants are buttoning around that bump! Related Serena -You are so precious and a godly woman that is a good example to me, just by reading into your little glimpses of your life here and there. Many blessings and prayers for you and baby and hubby.ReplyCancel October 11, 2013 - 3:11 pm Erin Fetterhoff-You are too cute! Seriously, the best looking pregnant momma I\u2019ve ever seen! :) So exciting to hear about all the baby news & updates! She (or maybe he\u2026) looks beautiful already! :)",
+      "avg_prediction": 0.6492
+    },
+    {
+      "idx": 1,
+      "hash": "b16e2673",
+      "n_words": 61,
+      "n_chars": 715,
+      "preview_head": "type=\"button\" class=\"play-button\">Play</button>'); jQuery(\".play-button\").click(function() { jQuery(this).prev().play(); }); </script> \\end{code} Answer: You have a typo in your code. Instead of `auio",
+      "preview_tail": "='.mp3']\").last()); $(\"audio\").after(' <button type=\"button\" class=\"play-button\">Play</button>'); $(\".play-button\").click(function() { $(this).prev().get(0).play(); }); \\end{code} \\begin{code} <script",
+      "full_text": "type=\"button\" class=\"play-button\">Play</button>'); jQuery(\".play-button\").click(function() { jQuery(this).prev().play(); }); </script> \\end{code} Answer: You have a typo in your code. Instead of `auioURL` it should be `audioURL`. Here is the fixed version: \\begin{code} function LinkToAudio(element) { var audioURL = $(element).attr('href'); var audioName = $(element).text(); $(element).before('<br/>'); $(element).after('<br/><audio src=\"' + audioURL + '\"></audio>'); $(element).remove(); } LinkToAudio($(\"a[href$='.mp3']\").last()); $(\"audio\").after(' <button type=\"button\" class=\"play-button\">Play</button>'); $(\".play-button\").click(function() { $(this).prev().get(0).play(); }); \\end{code} \\begin{code} <script",
+      "avg_prediction": 0.9815
+    },
+    {
+      "idx": 2,
+      "hash": "271cb5ef",
+      "n_words": 186,
+      "n_chars": 1019,
+      "preview_head": "AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same level of the bom structure for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '",
+      "preview_tail": "D -- same level of the bom structure for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same leve",
+      "full_text": "AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same level of the bom structure for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same level of the bom structure for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same level of the bom structure for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same level of theBounding box for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same level of the bom structure for this item ((c[bomalt]+'-'+C2) = (B3+' - '+ B4)) WHERE ITNEMEF _ 5=1 AND BOMALT<> '9') AS b LEFT JOIN [BOM] as c ON C.CPNTITMREF_0 <>b.[itmref ]AND -- same leve",
+      "avg_prediction": 0.9816
+    }
+  ]
+}

@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-29T00:57:59.071382+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 13,
+  "inference_error": "ConnectionError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "678a0ded",
+      "n_words": 136,
+      "n_chars": 913,
+      "preview_head": "taff satisfaction, positive patient outcomes and the cost effectiveness of staff retention. Two focus groups, one group of nine NUMs and one group of five staff nurses, were conducted at an Australia ",
+      "preview_tail": "tial impact of inadequate implementation and understanding of HRM policy and practice by NUMS on the front line. Further research is required to understand why this phenomenon exists and how it can be",
+      "full_text": "taff satisfaction, positive patient outcomes and the cost effectiveness of staff retention. Two focus groups, one group of nine NUMs and one group of five staff nurses, were conducted at an Australia public hospital. A descriptive phenomenological approach informed data generation and data analysis. The NUMs reported that they were not adequately trained in the skills required to effectively manage staff conflict such as manipulation and bitterness, requiring disciplinary intervention on an ongoing basis. The consequences included reduced staff morale, decreased staff satisfaction, increased stress to the NUM and ultimately retention issues for both the NUM and Unit staff. This study highlights the potential impact of inadequate implementation and understanding of HRM policy and practice by NUMS on the front line. Further research is required to understand why this phenomenon exists and how it can be",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 1,
+      "hash": "c2c4ffb1",
+      "n_words": 220,
+      "n_chars": 1625,
+      "preview_head": "ing (GZipStream Compress = new GZipStream(outFile, CompressionMode.Compress)) { //inFile.CopyTo(Compress); Compress.Write(inFile.GetBuffer(), (int)inFile.Position, (int)(inFile.Length - inFile.Positio",
+      "preview_tail": "ionBufferSpan), // copy the buffer to destination streamDestination ); { 1 using System; 2 [StructLayoutAttribute ( LayoutKind . Sequential) ] { 3 byte[] _buffer ; 4 int maxLength 8 } 7 public overrid",
+      "full_text": "ing (GZipStream Compress = new GZipStream(outFile, CompressionMode.Compress)) { //inFile.CopyTo(Compress); Compress.Write(inFile.GetBuffer(), (int)inFile.Position, (int)(inFile.Length - inFile.Position)); } return outFile.ToArray(); } } The compression fails, though, when using the above attempt - I get an error saying: MemoryStream's internal buffer cannot be accessed. Could anyone offer any help on this issue? I'm really not sure what else to do here. Thank you, Evan A: This is the code straight # A possible C\\# solution: ```csharp 1 using (MemoryStream outFile = new MemoryStream()) 2 { 3 // create compressor on top of output stream 4 StreamCompressor comp; 5 if(useZlib) 6 #if !SILVERLIGHT 7 Comp=new ZLib compressors.RawDeflateOutputStream(.); 8 else 9 using (var original = new MemoryStream()) 10 CompressDataToAnotherSteamUsingBlockCopyThenClose(original, inFile)); 26 #else 37 //...code removed here for brevity ... 45 return outBytes; public static void CopyStreamsByBlocksOf8K_Dangerous (Stream source , Stream destination) 1 using System.Threading .Tasks ; 2 3 async Task<byte[]> CompressDataAsync(Memory stream dataToCompress ) { if (!(data to compress).Length > 0){ throw new ArgumentException(\"Input buffer empty\", \"inFile\"); } //...code removed here for brevity ... return outBytes; 1 { 2 var block = (int)source . ReadMaxChunkSize ; while(block > 0 ) await source.CopyToAsync ,new Memory<byte>(destinationBufferSpan), // copy the buffer to destination streamDestination ); { 1 using System; 2 [StructLayoutAttribute ( LayoutKind . Sequential) ] { 3 byte[] _buffer ; 4 int maxLength 8 } 7 public overrid",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 2,
+      "hash": "b5b82701",
+      "n_words": 158,
+      "n_chars": 839,
+      "preview_head": "masterminded the attack left the film fraternity in shock and disbelief. The state police chief had, during an interview with a television channel, agreed to Dileep's claim that he haIt seems that the",
+      "preview_tail": "d. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragm",
+      "full_text": "masterminded the attack left the film fraternity in shock and disbelief. The state police chief had, during an interview with a television channel, agreed to Dileep's claim that he haIt seems that the provided text is a news article, and the text is a bit fragmented. the article seems to be a news article that is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented aNd is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragmented and is a bit fragmented. The article is a bit fragm",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 3,
+      "hash": "d5a2c2fe",
+      "n_words": 222,
+      "n_chars": 1959,
+      "preview_head": "/para> /// <img src=\"img/imaging/sample12.png\" width=\"320\" height=\"240\" /> /// <para><b>Result image:</b></para> /// <img src=\"img/imaging/bottomhat.png\" width=\"320\" height=\"240\" /> /// </remarks> ///",
+      "preview_tail": "e source image closing.ApplyInPlace( image ); // subtract source image from the closed image subtract.UnmanagedOverlayImage = sourceImage; subtract.ApplyInPlace( image ); sourceImage.Dispose( ); } } }",
+      "full_text": "/para> /// <img src=\"img/imaging/sample12.png\" width=\"320\" height=\"240\" /> /// <para><b>Result image:</b></para> /// <img src=\"img/imaging/bottomhat.png\" width=\"320\" height=\"240\" /> /// </remarks> /// /// <seealso cref=\"TopHat\"/> /// public class BottomHat : BaseInPlaceFilter { private Closing closing = new Closing( ); private Subtract subtract = new Subtract( ); // private format translation dictionary private Dictionary<PixelFormat, PixelFormat> formatTranslations = new Dictionary<PixelFormat, PixelFormat>( ); /// <summary> /// Format translations dictionary. /// </summary> public override Dictionary<PixelFormat, PixelFormat> FormatTranslations { get { return formatTranslations; } } /// <summary> /// Initializes a new instance of the <see cref=\"BottomHat\"/> class. /// </summary> /// public BottomHat( ) { // initialize format translation dictionary formatTranslations[PixelFormat.Format8bppIndexed] = PixelFormat.Format8bppIndexed; formatTranslations[PixelFormat.Format24bppRgb] = PixelFormat.Format24bppRgb; formatTranslations[PixelFormat.Format16bppGrayScale] = PixelFormat.Format16bppGrayScale; formatTranslations[PixelFormat.Format48bppRgb] = PixelFormat.Format48bppRgb; } /// <summary> /// Initializes a new instance of the <see cref=\"BottomHat\"/> class. /// </summary> /// /// <param name=\"se\">Structuring element to pass to <see cref=\"Closing\"/> operator.</param> /// public BottomHat( short[,] se ) : this( ) { closing = new Closing( se ); } /// <summary> /// Process the filter on the specified image. /// </summary> /// /// <param name=\"image\">Source image data.</param> /// protected override unsafe void ProcessFilter( UnmanagedImage image ) { // copy source image UnmanagedImage sourceImage = image.Clone( ); // perform closing on the source image closing.ApplyInPlace( image ); // subtract source image from the closed image subtract.UnmanagedOverlayImage = sourceImage; subtract.ApplyInPlace( image ); sourceImage.Dispose( ); } } }",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 4,
+      "hash": "51a55ee5",
+      "n_words": 340,
+      "n_chars": 1909,
+      "preview_head": "to maybe help Toddlerhood is an amazing time. Each day brings new words, wild imagination, the fun\u2026 the strong wills, the tempers, the tears. It\u2019s a busy time full of big feelings (for everyone involv",
+      "preview_tail": "e moments are part of what keeps us going and remind me that it\u2019s okay not always having all the answers. If there's one thing I\u2019ve learned from being a solo parent: community is key\u2014whether online, t",
+      "full_text": "to maybe help Toddlerhood is an amazing time. Each day brings new words, wild imagination, the fun\u2026 the strong wills, the tempers, the tears. It\u2019s a busy time full of big feelings (for everyone involved).\u2026 January 15, 2018 motherhood 18 Months A few weeks ago, my little boy turned 18 months old. It seems unreal to me that he\u2019s been around that long. That I am a year and a half into the best and most challenging job* I\u2019ve ever had.\u2026 March 9, 2017 motherhood Confessions of a part time solo parent I started writing this a few months ago, when my son was 10 months old and I was still grappling with the concept that I\u2019m sort of raising him on my own for significant stretches. Being his primary caregiver while also navigating work commitments has been an ongoing challenge. It\u2019s not always easy to balance everything\u2014there are days where it feels like a juggling act gone wrong, and all you can do is laugh at the absurdity of trying to keep so many balls in the air when your toddler decides that today would be perfect for their first full-blown tantrum. But there's something incredibly rewarding about seeing him grow through these moments. I\u2019ve learned more from this experience than I ever thought possible\u2014patience, adaptability, and a deep sense of resilience are just some of what motherhood has taught me so far. It\u2019s not always pretty or perfect; it can be messy and exhausting but also full of love and joy that makes every challenge worth facing. I\u2019m still figuring things out one day at a time\u2014just like many other solo parents\u2014and I wouldn\u2019t change this journey for the world, even if sometimes (or often) you just need to take five minutes in your car with some quiet music or coffee. Those moments are part of what keeps us going and remind me that it\u2019s okay not always having all the answers. If there's one thing I\u2019ve learned from being a solo parent: community is key\u2014whether online, t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 5,
+      "hash": "f7567f8e",
+      "n_words": 65,
+      "n_chars": 349,
+      "preview_head": "control a stick man. The gameplay is simple - kill the robots by shooting them, or luring them into the electric walls. Don't let the robots shoot you, don't touch the robots and don't touch the walls",
+      "preview_tail": "u, don't touch the robots and don't touch the walls. When all the robots are destroyed, run out to the next room. Berzerk is widely regarded as one of the best games released for the Atari 2600. Click",
+      "full_text": "control a stick man. The gameplay is simple - kill the robots by shooting them, or luring them into the electric walls. Don't let the robots shoot you, don't touch the robots and don't touch the walls. When all the robots are destroyed, run out to the next room. Berzerk is widely regarded as one of the best games released for the Atari 2600. Click",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 6,
+      "hash": "0f486be0",
+      "n_words": 184,
+      "n_chars": 1275,
+      "preview_head": "\u20ac\u201c The Makepeace Brothers have been steadily building a grass roots following for their distinctive blend of roots-based power pop, drawing in listeners with their lively, inviting blend of acoustic i",
+      "preview_tail": "ners with their lively, inviting blend of acoustic instruments, feel-good vibes and sing-along-friendly hooks. Brothers Aidan, Liam, Finian and Ciaran Makepeace have been playing music together for mo",
+      "full_text": "\u20ac\u201c The Makepeace Brothers have been steadily building a grass roots following for their distinctive blend of roots-based power pop, drawing in listeners with their lively, inviting blend of acoustic instruments, feel-good vibes and sing-along-friendly hooks. Brothers Aidan, Liam, Finian and Ciaran Makepeace have been playing music together for most of their lives and recently released their new album, \u00e2\u20ac\u0153Slow Down Feel Love.\u00e2\u20ac? Like many bands on the way up, the MaSure! Here's the completed text with the words or phrases you requested: \"Recording Live Sound SFP Technology Need to Know Events Subscriptions Join Home The Wire HARMAN JBL PRX600 Series Loudspeakers Give More Musical Independence to the Makepeace Brothers Author: chris.hertzog@definitionbam.com Publish date: Jun 1, 2011 The Makepeace Brothers (left to right): Aidan Makepeace, Ciaran Makepeace, Finian Makepeace and Liam Makepeace. NORTHRIDGE, California \u2013 The Makepeace Brothers have been steadily building a grass roots following for their distinctive blend of roots-based power pop, drawing in listeners with their lively, inviting blend of acoustic instruments, feel-good vibes and sing-along-friendly hooks. Brothers Aidan, Liam, Finian and Ciaran Makepeace have been playing music together for mo",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 7,
+      "hash": "62c3eb6a",
+      "n_words": 57,
+      "n_chars": 370,
+      "preview_head": "Plowman served on the Legal and Veterans Affairs Committee, And is a member of the Presiding Officers Select Committee on Ethics. Plowman serves on the justice committeee as well. Plowman has been act",
+      "preview_tail": " as well. Plowman has been actively involved in efforts throughout her tenure at the Maine State Senate. She championed bills related to education reform, healthcare access for low-income families and",
+      "full_text": "Plowman served on the Legal and Veterans Affairs Committee, And is a member of the Presiding Officers Select Committee on Ethics. Plowman serves on the justice committeee as well. Plowman has been actively involved in efforts throughout her tenure at the Maine State Senate. She championed bills related to education reform, healthcare access for low-income families and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 8,
+      "hash": "97ea10f8",
+      "n_words": 109,
+      "n_chars": 917,
+      "preview_head": "|= drm_of_crtc_port_mask(dev, remote_port); of_node_put(remote_port); } return possible_crtcs; } EXPORT_sYMBOL(drm_of_find_possible_crtcs); /** * drm_of_component_match_add - Add a component helper OF",
+      "preview_tail": "r a component based master * @dev: master device containing the OF node * @compare_of: compare function used for matching components * @m_ops: component master ops to be used * * Parse the platform de",
+      "full_text": "|= drm_of_crtc_port_mask(dev, remote_port); of_node_put(remote_port); } return possible_crtcs; } EXPORT_sYMBOL(drm_of_find_possible_crtcs); /** * drm_of_component_match_add - Add a component helper OF node match rule * @master: master device * @matchptr: component match pointer * @compare: compare function used for matching component * @node: of_node */ void drm_of_component_match_add(struct device *master, struct component_match **matchptr, int (*compare)(struct device *, void *), struct device_node *node) { of_node_get(node); component_match_add_release(master, matchptr, drm_release_of, compare, node); } EXPORT_SYMBOL_GPL(drm_of_component_match_add); /** * drm_of_component_probe - Generic probe function for a component based master * @dev: master device containing the OF node * @compare_of: compare function used for matching components * @m_ops: component master ops to be used * * Parse the platform de",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 9,
+      "hash": "523e5a9b",
+      "n_words": 266,
+      "n_chars": 1634,
+      "preview_head": "infuriating, but goalless draws away at promotion-chasing Hull City and Brighton, in the grand scheme of things, commendable efforts and decent points. But with seventh placed Cardiff and eighth place",
+      "preview_tail": "r the influential midfielder was dismissed during last weekend\u2019s victory over Nottingham Forest. The club were unsuccessful in appealing in the Scotland international\u2019s three-match ban, dished out for",
+      "full_text": "infuriating, but goalless draws away at promotion-chasing Hull City and Brighton, in the grand scheme of things, commendable efforts and decent points. But with seventh placed Cardiff and eighth placed Ipswich just a point behind Wednesday in sixth, further slip ups can\u2019t be afforded. The return of Fernando Forestieri, impressive at the City Ground and possessing the individual ability to turn contests the way of the Owls, following suspension the sort of boost required. Charlton: WDWLLL Such is the extent of the on-the-pitch predicament that the Addicks find themselves in, not even a week in which seven points have been gained from three games is enough to make their chances of avoiding relegation appear realistic. For though a week without victory doesn\u2019t bare thinking about \u2013 a return to League One would have been all but confirmed \u2013 a week with two hasn\u2019t reduced the gap between Charlton and safety to a manageable margin. Effectively six points from safety, with those around the bottom three finding their own ways to pick up points, and a run in that features four of the top six, survival still looks a long way off. But, if nothing else, it has provided hope to disillusioned supporters that their side will at fight and battle for the remainder of the season. A distraction from the insults and anger caused by the club\u2019s poisonous ownership. tHE OPPOSITION Sheffield Wednesday will be without Barry Bannan after the influential midfielder was dismissed during last weekend\u2019s victory over Nottingham Forest. The club were unsuccessful in appealing in the Scotland international\u2019s three-match ban, dished out for",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 10,
+      "hash": "e0d6389d",
+      "n_words": 176,
+      "n_chars": 976,
+      "preview_head": "f weird is what you're after than do random hat pullings for teams. Blind fold one participant with a peeled banana in their hands and spin them enough so that they are dizzy but not sick. With the ot",
+      "preview_tail": "e. Sit a guy in a chair and blow up a balloon enough so that it looks like a balloon but still has a lot of durability. You don't want the balloon about to bust. Then their partner sits, bounces, or r",
+      "full_text": "f weird is what you're after than do random hat pullings for teams. Blind fold one participant with a peeled banana in their hands and spin them enough so that they are dizzy but not sick. With the other participant kneeling in front of them they should try to feed them the banana. It can get messy and hot! There's a fine line\u2026: This one is called the \"crossing line\". Each gender lines up opposite each other. Someone starts the game and the participants start to remove articles of clothing, whichever they desire, and lining them in a straight line. Whichever team has the longest line wins. It's fun because it tests everyone's courage, and everyone gets naked. Win-win. Playing with family is highly discouraged. Bursting the Bubble: A simple but erotic adult party game. Sit a guy in a chair and blow up a balloon enough so that it looks like a balloon but still has a lot of durability. You don't want the balloon about to bust. Then their partner sits, bounces, or r",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 11,
+      "hash": "1d1d7e32",
+      "n_words": 242,
+      "n_chars": 1393,
+      "preview_head": "Mar. 24, 1987 to A. E. Lange for ROLL-UP SCREEN DOOR; U.S. Pat. No. 5,758,704, issued Jun. 2, 1998 to C. K. Elrod for ROLL-UP SCREEN DOOR APPARATUS; and U.S. Pat. No. 6,082,432, issued Jul. 4, 2000, t",
+      "preview_tail": "s of the prior art and to the mounting of the screen to the door and the door to the door frame. The present invention is directed to the problems of the prior art and to the mounting of the screen to",
+      "full_text": "Mar. 24, 1987 to A. E. Lange for ROLL-UP SCREEN DOOR; U.S. Pat. No. 5,758,704, issued Jun. 2, 1998 to C. K. Elrod for ROLL-UP SCREEN DOOR APPARATUS; and U.S. Pat. No. 6,082,432, issued Jul. 4, 2000, to D. Kissinger for SCREEN DOOR ACCESSORY. One significant deficiency of these screens is that the screen installation is dependent on the opening shape, which must be precisely square or provide a perfectly flush surface for mounting. Thus, for example, a door opening in a building that has settled xc2xc inch to one side of the opening would present significant difficulty in installing a properly operating screen inside the opening, and though an exterior flush mount system surmounts some of the difficulty with settled foundations or sills, it is still necessary to install the exterior flush mount absolutely square for proper operation. The same difThe same difficulty is present with exterior flush mounts, and the screen is still susceptible to the same problems of operation and mounting. The present invention is directed to the problems of the prior art and to the mounting of the screen to the door and the door to the door frame. The present invention is directed to the problems of the prior art and to the mounting of the screen to the door and the door to the door frame. The present invention is directed to the problems of the prior art and to the mounting of the screen to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 12,
+      "hash": "282e8115",
+      "n_words": 80,
+      "n_chars": 546,
+      "preview_head": "all-conference three times...Helped lead the team to a conference championship. Personal: Full name is Jane Doe (hypothetical, please replace with actual student's details)...Born in Greensboro, N.C..",
+      "preview_tail": "tion provided covers the sophomore year performance and high school career highlights but ends abruptly while listing coaching information from her high school years. If you need more details added ab",
+      "full_text": "all-conference three times...Helped lead the team to a conference championship. Personal: Full name is Jane Doe (hypothetical, please replace with actual student's details)...Born in Greensboro, N.C....Intends to major in Business Administration... This text seems like it\u2019s part of an athletic profile or bio for a college soccer player. The section provided covers the sophomore year performance and high school career highlights but ends abruptly while listing coaching information from her high school years. If you need more details added ab",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 13,
+      "hash": "fc7ac65a",
+      "n_words": 142,
+      "n_chars": 1103,
+      "preview_head": "n: https://www.kuvataideviikot.fi/en/featured-artists-2019.htm Mar 26 0 Presentation: \u201cLupta Femeilor \u2013 Women\u2019s Fight\u201d By Katriina Haikala | Calendar, Katriina Haikala | No Comments What? I\u2019m giving a",
+      "preview_tail": " 8.3.2019 at 11:00-13:00, 14:00-16:00 & 17:00-19:00 Where? EMMA, Espoo Modern Art Museum, Finland More information: https://www.kulttuuriespoo.fi/fi/event/25446-naistenpaiva-weegeella NextPrevious \u00bb C",
+      "full_text": "n: https://www.kuvataideviikot.fi/en/featured-artists-2019.htm Mar 26 0 Presentation: \u201cLupta Femeilor \u2013 Women\u2019s Fight\u201d By Katriina Haikala | Calendar, Katriina Haikala | No Comments What? I\u2019m giving a presentation about my project \u201cLupta Femeilor \u2013 Women\u2019s Fight\u201d (unpublished, exhibition coming on October 2019) When? 26.3.2019 at 13:00 Where? The 7th International Roma Women\u2019n Conference, Hanasaari, Espoo, Finland Mar 13 0 \u201cSocial Portrait\u201d Drawing performance By Katriina Haikala | Calendar, Katriina Haikala, Performance | No Comments What? \u201cSocial Portrait\u201d long durational drawing performance When? 13.3.2019 at 15:00-17:00. Where? At the the celebration of the new dean of Aalto University. Private event. Mar 08 0 \u201cSocial Portrait\u201d Drawing performance By Katriina Haikala | Calendar, Katriina Haikala, Performance | No Comments What? \u201cSocila Portrait\u201d long durational drawing performance When? 8.3.2019 at 11:00-13:00, 14:00-16:00 & 17:00-19:00 Where? EMMA, Espoo Modern Art Museum, Finland More information: https://www.kulttuuriespoo.fi/fi/event/25446-naistenpaiva-weegeella NextPrevious \u00bb C",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 14,
+      "hash": "ae1305bb",
+      "n_words": 42,
+      "n_chars": 295,
+      "preview_head": "(Ricinus communis) isolate on its Nutritional quality of the castor meal protein isolate detoxified using boiling and lime cum heat treatments was and the results showed that detoxification significan",
+      "preview_tail": "fied using boiling and lime cum heat treatments was and the results showed that detoxification significantly improved the nutritional quality of the protein isolate, with protein efficiency ratio, and",
+      "full_text": "(Ricinus communis) isolate on its Nutritional quality of the castor meal protein isolate detoxified using boiling and lime cum heat treatments was and the results showed that detoxification significantly improved the nutritional quality of the protein isolate, with protein efficiency ratio, and",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 15,
+      "hash": "01b5abe2",
+      "n_words": 51,
+      "n_chars": 256,
+      "preview_head": "button. So is what I want to achieve really impossible in SDK < 11 as described here: Clear the entire history stack and start a new activity on Android ? A: In the end I just did as Rasel advised (in",
+      "preview_tail": "n SDK < 11 as described here: Clear the entire history stack and start a new activity on Android ? A: In the end I just did as Rasel advised (in the comments to my question) When entering activity E i",
+      "full_text": "button. So is what I want to achieve really impossible in SDK < 11 as described here: Clear the entire history stack and start a new activity on Android ? A: In the end I just did as Rasel advised (in the comments to my question) When entering activity E i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 16,
+      "hash": "bc59b6ea",
+      "n_words": 39,
+      "n_chars": 264,
+      "preview_head": "antifungal agents: a patent review (2013 - present). Superficial infections involving the skin and mucosa are the most common fungal disease in humans. Fungi can also produce invasive infections (IFI)",
+      "preview_tail": " infections involving the skin and mucosa are the most common fungal disease in humans. Fungi can also produce invasive infections (IFI), which are increasing in incidence among the growing population",
+      "full_text": "antifungal agents: a patent review (2013 - present). Superficial infections involving the skin and mucosa are the most common fungal disease in humans. Fungi can also produce invasive infections (IFI), which are increasing in incidence among the growing population",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 17,
+      "hash": "5e440cc2",
+      "n_words": 246,
+      "n_chars": 1525,
+      "preview_head": "consumers to take on the iPhone directly \u2014 there have been hints... Cate Blanchett joins Thor: Ragnarok as Marvel Studios' first major female supervillain Marvel today announced that Cate Blanchett ha",
+      "preview_tail": "to portray complex and powerful characters with depth and nuance. Thor: Ragnarok, directed by Taika Waititi, is set to be released on November 3, 2017. The film will continue the story of Thor, played",
+      "full_text": "consumers to take on the iPhone directly \u2014 there have been hints... Cate Blanchett joins Thor: Ragnarok as Marvel Studios' first major female supervillain Marvel today announced that Cate Blanchett has joined the cast of Thor: Ragnarok as the mystical villainess Hela. Her steppinCate Blanchett joins Thor: Ragnarok as Marvel Studios' first major female supervillain Marvel today announced that Cate Blanchett has joined the cast of Thor: Ragnarok as the mystical villainess Hela. Her stepping into the role marks a significant milestone for Marvel Studios, as it introduces its first major female supervillain character in the Marvel Cinematic Universe (MCU). Hela, also known as the Goddess of Death, is a powerful and formidable antagonist in Norse mythology. In the Marvel Comics, she is depicted as the daughter of the All-Father, Odin, and the sister of Thor and Loki. Hela is known for her immense strength, magical abilities, and her ambition to conquer the realms of Asgard and beyond. Cate Blanchett's casting as Hela has generated a great deal of excitement among Marvel fans, as she is widely regarded as one of the most talented and versatile actresses in Hollywood. Blanchett's previous roles in films such as \"The Lord of the Rings\" trilogy, \"The Hobbit\" trilogy, and \"Blue Jasmine\" have showcased her ability to portray complex and powerful characters with depth and nuance. Thor: Ragnarok, directed by Taika Waititi, is set to be released on November 3, 2017. The film will continue the story of Thor, played",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 18,
+      "hash": "b8cce065",
+      "n_words": 184,
+      "n_chars": 1125,
+      "preview_head": "retraction direction. The piston may be further connectThe piston may be further connected to a piston rod or an extension rod to transmit the reciprocating movement to an external component or to a f",
+      "preview_tail": "component of a hydraulic system system and may be a component of a hydraulic system system. The hydraulic system system may be a component of a hydraulic system system system and may be a component of",
+      "full_text": "retraction direction. The piston may be further connectThe piston may be further connected to a piston rod or an extension rod to transmit the reciprocating movement to an external component or to a fluid within the cylinder. The movement and position of the piston within the cylinder may be controlled and monitored to ensure the proper functioning and efficiency of the cylinder. The cylinder may be a component of a hydraulic cylinder assembly and may be controlled and monitored to ensure the assembly's proper functioning. The hydraulic cylinder assembly may be a component of a hydraulic system and may be controlled and monitored to ensure the system's efficiency and to ensure the system's proper functioning. The hydraulic system may be a component of a hydraulic system assembly and may be controlled and monitored to ensure the assembly's efficiency and proper functioning. The hydraulic system assembly may be a component of a hydraulic system system and may be a component of a hydraulic system system. The hydraulic system system may be a component of a hydraulic system system system and may be a component of",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 19,
+      "hash": "84391ef8",
+      "n_words": 95,
+      "n_chars": 596,
+      "preview_head": "ther have the discount included in the price displayed or will have the price reduction clearly marked next to them. The sale discounts are available for travel between 1 July to 31 October 2019 and a",
+      "preview_tail": "the accommodation cost is due 14 days prior to departure. Please note that standard cancellation terms apply. Travel Republic Limited is an appointed representative of Rock Insurance Services Limited,",
+      "full_text": "ther have the discount included in the price displayed or will have the price reduction clearly marked next to them. The sale discounts are available for travel between 1 July to 31 October 2019 and are subject to availability. **Our low deposits starting from \u00a315 are unavailable on non-refundable rooms, due to the exceptional value of these rooms. Under our low deposit scheme, the balance of the accommodation cost is due 14 days prior to departure. Please note that standard cancellation terms apply. Travel Republic Limited is an appointed representative of Rock Insurance Services Limited,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 20,
+      "hash": "146f55af",
+      "n_words": 41,
+      "n_chars": 255,
+      "preview_head": "(3) chicken and dumplings (1) chicken shit (2) chickens (55) chickens and eggs (15) chicks (1) Chief Rain In His Face (1) childbirth (3) childhood memories (3) childhood sexual abuse (23) children (1)",
+      "preview_tail": " (55) chickens and eggs (15) chicks (1) Chief Rain In His Face (1) childbirth (3) childhood memories (3) childhood sexual abuse (23) children (1) Chris Gregoire (1) Christian Rock (1) Christianity (1)",
+      "full_text": "(3) chicken and dumplings (1) chicken shit (2) chickens (55) chickens and eggs (15) chicks (1) Chief Rain In His Face (1) childbirth (3) childhood memories (3) childhood sexual abuse (23) children (1) Chris Gregoire (1) Christian Rock (1) Christianity (1)",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 21,
+      "hash": "d454da07",
+      "n_words": 252,
+      "n_chars": 1656,
+      "preview_head": "sufficient to configure with kubernetes? Can someone tell me what are the value for 1. issuer url 2. refreSure, I can help you understand how these values work and provide some guidance on them. ### I",
+      "preview_tail": " by your OIDC provider during authentication setup. ### Client Secret (client_secret) This is the confidential information used to authenticate and authorize a client with an authorization server when",
+      "full_text": "sufficient to configure with kubernetes? Can someone tell me what are the value for 1. issuer url 2. refreSure, I can help you understand how these values work and provide some guidance on them. ### Issuer URL (issuer_url) The `issuer-url` is a crucial piece of information that identifies where your OpenID Connect provider's public keys are located. This value should point to the endpoint from which Kubernetes will retrieve signing certificates, typically known as JWKS or JSON Web Key Set. - Example: If you're using Google Cloud Platform (GCP) for OIDC authentication and have created a service account that acts like an identity provider, then your issuer URL might look something similar to this: https://accounts.google.com/o/oauth2/v4/certs ``` ### Refresh Token (refresh_token) The `client-secret` is not typically used with refresh tokens in OIDC. Instead of using a client secret for each request, you use the access token that's issued when authentication occurs and then periodically update it via this \"Refresh\" process. - Example: The value here would be your actual Refresh Token provided by OpenId Connect Provider after successful login. ``` <your_refresh_token> ``` ### Client ID (client_id) This is the unique identifier assigned to you when setting up an application on a service that supports OAuth 2.0, such as Google Cloud Platform or Azure Active Directory. - Example: This value would be something like `YOUR_CLIENT_ID` provided by your OIDC provider during authentication setup. ### Client Secret (client_secret) This is the confidential information used to authenticate and authorize a client with an authorization server when",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 22,
+      "hash": "825b2cf0",
+      "n_words": 305,
+      "n_chars": 1753,
+      "preview_head": "ome background. Trivium\u2019s first single, \u201cIn Waves\u201d, is a great song. As I said before the track is solid and catchy but not different or groundbreaking. It almost sounds as though Matt Heafy listened ",
+      "preview_tail": "lcore and thrash metal. The breakdown is a standout, with a intense and memorable delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with",
+      "full_text": "ome background. Trivium\u2019s first single, \u201cIn Waves\u201d, is a great song. As I said before the track is solid and catchy but not different or groundbreaking. It almost sounds as though Matt Heafy listened to too much A Day to Remember. I was worried to say the least that the rest of the album would be much of the same. Enter Dusk Dismantled: No this is definitely different. The stompingNo this is definitely different. The stomping rhythm and aggressive vocals at the start of \"Dusk Dismantled\" immediately set it apart. The track is heavier and more intense, with a thrash metal influence that is unmistakable. The guitar work is intricate and the solos are blistering, showcasing the technical prowess of the band. The lyrics are more intense and the overall atmosphere is darker, with a more metalcore and thrash metal blend that is a signature of the band. The chorus is a standout, with a memorable and intense vocal delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with a intense and memorable delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with a intense and memorable delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with a intense and memorable delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with a intense and memorable delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with a intense and memorable delivery that is a show of the band's signature blend of metalcore and thrash metal. The breakdown is a standout, with",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 23,
+      "hash": "251f7f70",
+      "n_words": 314,
+      "n_chars": 1990,
+      "preview_head": "so, what might be the issue here? Yes, Nginx is capable of proxying to itself, and the issue might be related to the configuration of the Nginx virtual hosts and the proxying setup itself. Here are a ",
+      "preview_tail": "isten 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports ar",
+      "full_text": "so, what might be the issue here? Yes, Nginx is capable of proxying to itself, and the issue might be related to the configuration of the Nginx virtual hosts and the proxying setup itself. Here are a few things to check and consider to resolve the issue: 1. Port and Protocol Mismatch: Ensure the virtual hosts are configured to listen to the correct ports and are configured to handle the correct protocol. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. 2. SSL and Certificates: Ensure the correct SSL and Certificates are configured. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports are correct. ``` listen 127.0.0.1:444 ``` Ensure the protocol and ports ar",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 24,
+      "hash": "bf730326",
+      "n_words": 55,
+      "n_chars": 311,
+      "preview_head": "nd more concerning. What do you think? Dear Miss Lonelyhearts: This is in response to the woman grieving over her mom. My rabbinical father used to say that the mourning for a parent never disappears,",
+      "preview_tail": "er mom. My rabbinical father used to say that the mourning for a parent never disappears, it just slows down and comes with reduced frequency and intensity. It has been more than four years since mine",
+      "full_text": "nd more concerning. What do you think? Dear Miss Lonelyhearts: This is in response to the woman grieving over her mom. My rabbinical father used to say that the mourning for a parent never disappears, it just slows down and comes with reduced frequency and intensity. It has been more than four years since mine",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 25,
+      "hash": "ad6591ad",
+      "n_words": 61,
+      "n_chars": 407,
+      "preview_head": "us. Inside-out, however, is about self-awareness; understanding one's own ambitions, values that drive their actions. During a sacred month of \u201cParyushan\u201d in Jainism, they organise a religious event c",
+      "preview_tail": "Bhavana\u201d when people get together, sing stavans (Bhajans), share some good thoughts, is where I came across the following thought. Let\u2019s take this example and attempt to demystify types of people. Ima",
+      "full_text": "us. Inside-out, however, is about self-awareness; understanding one's own ambitions, values that drive their actions. During a sacred month of \u201cParyushan\u201d in Jainism, they organise a religious event called \u201cBhavana\u201d when people get together, sing stavans (Bhajans), share some good thoughts, is where I came across the following thought. Let\u2019s take this example and attempt to demystify types of people. Ima",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 26,
+      "hash": "255f6551",
+      "n_words": 85,
+      "n_chars": 515,
+      "preview_head": "r Kasich actually have a path to a victory in a contested convention? The Sean Hannity Show is live Monday through Friday from 3pm - 6pm ET on iHeart Radio and Hannity.com. The Acela Primary has arriv",
+      "preview_tail": "e, Maryland, Rhode Island and Pennsylvania. Will Trump win decisively in Pennsylvania? Will the Cruz-Kasich truce help to bring a contested GOP conventIon? The Sean Hannity Show is live Monday through",
+      "full_text": "r Kasich actually have a path to a victory in a contested convention? The Sean Hannity Show is live Monday through Friday from 3pm - 6pm ET on iHeart Radio and Hannity.com. The Acela Primary has arrived and Senator Ted Cruz, Governor John Kasich and Donald Trump are battling to win contests in Connecticut, Delaware, Maryland, Rhode Island and Pennsylvania. Will Trump win decisively in Pennsylvania? Will the Cruz-Kasich truce help to bring a contested GOP conventIon? The Sean Hannity Show is live Monday through",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 27,
+      "hash": "02512caa",
+      "n_words": 107,
+      "n_chars": 682,
+      "preview_head": "in the party resulting in the DJIA reclaiming the lost points plus more. It is getting harder to survive in the market with key d...key drivers such as interest rates, inflation expectations, and glob",
+      "preview_tail": "nomy. In recent years there have been instances where stock market crashes or downturns resulted in significant losses, as seen with events such as Black Monday (October 19th), the Dot-Com Bubble Burs",
+      "full_text": "in the party resulting in the DJIA reclaiming the lost points plus more. It is getting harder to survive in the market with key d...key drivers such as interest rates, inflation expectations, and global events impacting investor sentiment all at once making it a challenging time for many investors. The volatility of financial markets has increased significantly since 2008's financial Crisis when monetary policy was implemented by central banks to mitigate its effects on the economy. In recent years there have been instances where stock market crashes or downturns resulted in significant losses, as seen with events such as Black Monday (October 19th), the Dot-Com Bubble Burs",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 28,
+      "hash": "c9d8b19d",
+      "n_words": 165,
+      "n_chars": 1009,
+      "preview_head": "at one such gathering; sharing laughs with everyone present as they reminisce about old times over glasses of lemonade under the shade provided by a nearby tree in this picturesque setting! But wait -",
+      "preview_tail": "nd those gleaming leather headrests shaped like hearts - an emblem synonymous now more than ever before after spending countless hours cruising along winding country lanes in this fabulous automobile!",
+      "full_text": "at one such gathering; sharing laughs with everyone present as they reminisce about old times over glasses of lemonade under the shade provided by a nearby tree in this picturesque setting! But wait - what's that? A brand new shiny red convertible pulls up to join their soir\u00e9e, revving its engine and turning heads. The girl from Grandma & Grandpa\u2019 heart-stopping beauty is undeniable as she steps out gracefully into the warm summer breeze while her family cheers in excitement! \"Hey everyone - check it our new ride Mom got for us all to enjoy together this season of sunshine, laughter, love and adventure!\u201d announces Dad with pride shining brightly from his eyes. The kids squeal happily at their upcoming road trip adventures planned around the town as they hop into different seats eagerly waiting behind those gleaming leather headrests shaped like hearts - an emblem synonymous now more than ever before after spending countless hours cruising along winding country lanes in this fabulous automobile!",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 29,
+      "hash": "d7108501",
+      "n_words": 143,
+      "n_chars": 901,
+      "preview_head": "ie at Broadway theaters like The Met to the electrifying energy of live audiences cheering their favorite musical numbers\u2014this podcast is your front-row seat without even leaving home. Highlighting no",
+      "preview_tail": "mail Search Menu The Ensemblist Info Email Search The Ensemblist Blog FEATURES SHOWS Awards Episodes West End Blog 5 Surprises of The A Christmas Story Live Telecast December 31, 2017 Mo Brady by Jose",
+      "full_text": "ie at Broadway theaters like The Met to the electrifying energy of live audiences cheering their favorite musical numbers\u2014this podcast is your front-row seat without even leaving home. Highlighting not just stars but also those who often stand in shadows during curtain calls\u2014the show's unsung heroes from lighting technicians to chorus members\u2014it paints a vivid picture that entertains and educates.\" Created and hosted by Mo Brady (The Addams Family, SMASH) and Nikka Graff Lanzarone (Chicago, Women on the Verge of a Nervous Breakdown), The Ensemblist is the only podcast that shows you Broadway from the inside out. The Ensemblist Blog FEATURES SHOWS Awards Episodes West End The Ensemblist Info Email Search Menu The Ensemblist Info Email Search The Ensemblist Blog FEATURES SHOWS Awards Episodes West End Blog 5 Surprises of The A Christmas Story Live Telecast December 31, 2017 Mo Brady by Jose",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 30,
+      "hash": "0c79baa2",
+      "n_words": 102,
+      "n_chars": 583,
+      "preview_head": "the notion of a free and independent press, and the idea of open and transparent government. This is the idea that Sunshine Week, which we are observing, is meant to promote. Sunshine Week, which is a",
+      "preview_tail": "ormation that government has, and to be able to hold government accountable. In a very real sense, Sunshine Week is a celebration of the idea that government is of the people, and that the people have",
+      "full_text": "the notion of a free and independent press, and the idea of open and transparent government. This is the idea that Sunshine Week, which we are observing, is meant to promote. Sunshine Week, which is a national initiative, is meant to promote the idea that government, and the actions of government, should be open and transparent, and that the public should be able to access the information that government has, and to be able to hold government accountable. In a very real sense, Sunshine Week is a celebration of the idea that government is of the people, and that the people have",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 31,
+      "hash": "2215812a",
+      "n_words": 92,
+      "n_chars": 683,
+      "preview_head": "both online and offline presence. Vendors may now not only present their products and services during the exhibition, but are also able to showcase their products and services 24/7 on WSHAsia\u2019s online",
+      "preview_tail": "ojects Jul 17,2019 Singapore\u2019s Tuas Terminal Phase 2 begins Jul 15,2019 Goldhofer ADDrive for safe and efficient transport Jul 13,2019 Philippines and ADB sign loan for Malolos\u2013Clark Railway Project J",
+      "full_text": "both online and offline presence. Vendors may now not only present their products and services during the exhibition, but are also able to showcase their products and services 24/7 on WSHAsia\u2019s online marketplace, internationally. This is the first of its kind collaboration.\u201d Enquiries: WSHAsia (contact@wshasia.com) or Work Safe Asia 2019 (info@cems.com.sg) Visit: https://wshasia.com/events/view/work-safe-asia-2019 More News Commando DC300Ri drill rig for various construction projects Jul 17,2019 Singapore\u2019s Tuas Terminal Phase 2 begins Jul 15,2019 Goldhofer ADDrive for safe and efficient transport Jul 13,2019 Philippines and ADB sign loan for Malolos\u2013Clark Railway Project J",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 32,
+      "hash": "387746f7",
+      "n_words": 59,
+      "n_chars": 350,
+      "preview_head": "Do you know God\u2019s N\u2026 darrellcreswell on Do you know God\u2019s N\u2026 darrellcreswell on Do you know God\u2019s N\u2026 darrellcreswell on Do you know God\u2019s N\u2026 Season Fingal on Inspirational Bible Verses\u2026 Advertisements",
+      "preview_tail": "ngal on Inspirational Bible Verses\u2026 Advertisements Create a free website or blog at WordPress.com. Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.",
+      "full_text": "Do you know God\u2019s N\u2026 darrellcreswell on Do you know God\u2019s N\u2026 darrellcreswell on Do you know God\u2019s N\u2026 darrellcreswell on Do you know God\u2019s N\u2026 Season Fingal on Inspirational Bible Verses\u2026 Advertisements Create a free website or blog at WordPress.com. Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 33,
+      "hash": "ef488edc",
+      "n_words": 54,
+      "n_chars": 329,
+      "preview_head": "cific related to these items or need information on any particular category? For example: - Do you want details about the products under \"Air Purifiers\"? - Are there updates needed for your blog secti",
+      "preview_tail": "s under \"Air Purifiers\"? - Are there updates needed for your blog section titled \"Expressive Writers\"? - Or do you require assistance in organizing product listings like those found within each of the",
+      "full_text": "cific related to these items or need information on any particular category? For example: - Do you want details about the products under \"Air Purifiers\"? - Are there updates needed for your blog section titled \"Expressive Writers\"? - Or do you require assistance in organizing product listings like those found within each of the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 34,
+      "hash": "5271585e",
+      "n_words": 273,
+      "n_chars": 1648,
+      "preview_head": "that led to Chandler receiving a death sentence. In exchange for his testimony, Wilson was given relief in his own case and paid a $2,500 reward, information that was not shared with the jury. \"Within",
+      "preview_tail": "doesn't intervene as much as people would like to think that He does. He leaves that in our hands to handle ourselves. So [my life] rests with the governor.\" Chandler, who grew up in Mt. Airy, says he",
+      "full_text": "that led to Chandler receiving a death sentence. In exchange for his testimony, Wilson was given relief in his own case and paid a $2,500 reward, information that was not shared with the jury. \"Within weeks of the conclusion of Mr. Chandler's trial, the prosecutors entered into a plea bargain with Mr. Wilson, under which he received substantial sentencing concessions and recommended that a reward be paid to Mr. Wilson,\" the clemency petition reports. \"The SBI delivered a check to Mr. Wilson in the amount of $2,500.\" Collins' secretary, Debbie Collins, also recently told Chandler's appellate lawyers that \"Mr. Collins regularly neglected his capital murder clients.\" In 1995, the district attorney who prosecuted Chandler, James Dellinger, was removed from office by the Superior Court due to improprieties in office, a fact defense lawyers say \"strengthens the claim that Mr. Chandler's conviction resulted from prosecutorial misconduct.\" Easley, a former attorney general and prosecutor, is not inclined to use his power of clemency often. While governor, Easley has allowed 17 men to be executed, just twice granting clemency. Easley has signed off on three executions this year and a dozen since he last granted clemency in a January 2002 case. \"Everybody tries to wish for the best,\" Chandler said. \"I'm like this, I expect the worst and hope for the best.\" Chandler says he believes in God, but he says God has \"given man free will. He doesn't intervene as much as people would like to think that He does. He leaves that in our hands to handle ourselves. So [my life] rests with the governor.\" Chandler, who grew up in Mt. Airy, says he",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 35,
+      "hash": "63740190",
+      "n_words": 61,
+      "n_chars": 355,
+      "preview_head": "ng services and customer satisfaction - we will do everything we can to meet your expectations. Here at My Groomer, Inc. we do not offer mobile grooming. However, <b>we are a full service pet salon</b",
+      "preview_tail": "owever, <b>we are a full service pet salon</b> located in the heart of San Diego's Mission Valley area. We have been providing professional dog grooming services since 1987 and take pride in our work.",
+      "full_text": "ng services and customer satisfaction - we will do everything we can to meet your expectations. Here at My Groomer, Inc. we do not offer mobile grooming. However, <b>we are a full service pet salon</b> located in the heart of San Diego's Mission Valley area. We have been providing professional dog grooming services since 1987 and take pride in our work.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 36,
+      "hash": "15cb199f",
+      "n_words": 50,
+      "n_chars": 333,
+      "preview_head": "Eois sundasimilis Eois sundasimilis is a moth in the family Geometridae. It is found on Borneo and possibly Peninsular MalaHere's how to pronounce it phonetically: Eoi-s suhn-dah-sIM-i-lis \"-sundas-\" ",
+      "preview_tail": " to pronounce it phonetically: Eoi-s suhn-dah-sIM-i-lis \"-sundas-\" rhYmes with banana, but pronounced /sun-DAH/ * \"-\" is a connecting sound betweeN syllables (not silent) * SIMI sounds like bee's knee",
+      "full_text": "Eois sundasimilis Eois sundasimilis is a moth in the family Geometridae. It is found on Borneo and possibly Peninsular MalaHere's how to pronounce it phonetically: Eoi-s suhn-dah-sIM-i-lis \"-sundas-\" rhYmes with banana, but pronounced /sun-DAH/ * \"-\" is a connecting sound betweeN syllables (not silent) * SIMI sounds like bee's knee",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 37,
+      "hash": "08eaee75",
+      "n_words": 186,
+      "n_chars": 1741,
+      "preview_head": "decipher the etiopathogenesis of malformations and diseases. The Hedgehog and retinoic acid (RA) signaling pathways play roles during embryogenesis, organogenesis, and tissue homeostasis \\[[@B1-ijms-2",
+      "preview_tail": "gh nuclear receptors, such as retinoic acid receptor (RAR) \u03b1/\u03b2/\u03b3 and the retinoid X receptor (RXR), which form heterodimers that bind to DNA sequences known as Retinoic Acid Response Elements (RAREs).",
+      "full_text": "decipher the etiopathogenesis of malformations and diseases. The Hedgehog and retinoic acid (RA) signaling pathways play roles during embryogenesis, organogenesis, and tissue homeostasis \\[[@B1-ijms-20-02275],[@B2-ijms-20-02275],[@B3-ijms-20-02275],[@B4-ijms-20-02275],[@B5-ijms-20-02275],[@B6-ijms-20-02275],[@B7-ijms-20-02275],[@B8-ijms-20-02275],[@B9-ijms-20-02275],[@B10-ijms-20-02275],[@B11-ijms-20-02275],[@B12-ijms-20-02275],[@B13-ijms-20-02275]\\], and genetic disruption of Hedgehog signaling can lead to \\[[@B1-ijms-20-02275],[@B14-ijms-20-02275], [@B15-ijms-20-02275]\\]. The Hedgehog (Hh) signaling pathway is essential for the regulation of cell proliferation, differentiation, and tissue patterning during development. It involves a series of proteins including Sonic hedgehog (Shh), Indian hedgehog (Ihh), Desert hedgehog (D hh ), Patched1 (Ptch1), Smoothened (Smo), Gli transcription factors (Gli1-3), among others \\[[@B2-ijms-20-02275], [@B4-ijms-20-02275]\\]. Activation of the Hh pathway typically occurs when Hedgehog ligands bind to their receptor, Patched. This binding releases inhibition on Smo and allows it to activate downstream signaling cascades that ultimately lead to changes in gene expression mediated by Gli transcription factors \\[[@B3-ijms-20-02275], [@B16-ijms-20-02275]\\]. On the other hand, retinoic acid (RA) signaling is critical for various processes including anterior\u2013posterior patterning of embryos and differentiation in multiple tissues \\[[@B8-ijms-20-02275], [@B13-ijms-20-02275]\\]. RA acts through nuclear receptors, such as retinoic acid receptor (RAR) \u03b1/\u03b2/\u03b3 and the retinoid X receptor (RXR), which form heterodimers that bind to DNA sequences known as Retinoic Acid Response Elements (RAREs).",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 38,
+      "hash": "006920a2",
+      "n_words": 344,
+      "n_chars": 2290,
+      "preview_head": "le, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, sing",
+      "preview_tail": "gle, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and si ",
+      "full_text": "le, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single,single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and single, single, and si ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 39,
+      "hash": "bc721fa1",
+      "n_words": 227,
+      "n_chars": 1344,
+      "preview_head": "ebrates 40 years of dedicated service to the Commonwealth When you find a career you love, you enjoy the ride. That\u2019s exactly what Marilyn Thomas has done for the past four decades as a technician wit",
+      "preview_tail": "ay 2018 April 2018 March 2018 February 2018 January 2018 December 2017 November 2017 October 2017 September 2017 August 2017 July 2017 June 2017 May 2017 April 2017 March 2017 February 2017 January 20",
+      "full_text": "ebrates 40 years of dedicated service to the Commonwealth When you find a career you love, you enjoy the ride. That\u2019s exactly what Marilyn Thomas has done for the past four decades as a technician with the Kentucky Division of [...] October 4, 2018 // 0 Comments A hands-on approach defines new director of the State Nature Preserves Commission By Carrie Searcy Office of the Secretary Some days you might visit one of Kentucky\u2019s many public natural areas and you just might catch the director of the State Nature [...] July 27, 2017 // 0 Comments Meet Chris Oelschlager By Jennifer Turner Division of Forestry When asked about the biggest misconception about forestry, Chris Oelschlager said, \u201cSome people think that Foresters are game [...] July 5, 2016 // 0 Comments Contact 300 Sower Blvd Frankfort, KY 40601 502-782-7064 RSS Feed RSS - Posts Pages About Us Air Archive Contact Us Energy Land Terms of Service Water HOME Follow us via Email Enter your email address to follow this webzine and receive notifications of new posts by email. Join 127 other followers Follow Archives October 2018 September 2018 August 2018 July 2018 June 2018 May 2018 April 2018 March 2018 February 2018 January 2018 December 2017 November 2017 October 2017 September 2017 August 2017 July 2017 June 2017 May 2017 April 2017 March 2017 February 2017 January 20",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 40,
+      "hash": "1a0ee43d",
+      "n_words": 47,
+      "n_chars": 360,
+      "preview_head": "uten Free Diseases & Physical Ailments Exercise & Fitness Medical Books Administration & Medicine Economics Allied Health Professions Emergency Medical Services Men\u2019s Health Hair Loss Men\u2019s Health Vid",
+      "preview_tail": " Men\u2019s Health Hair Loss Men\u2019s Health Videos Prostate Health Sexual Health & Impotence Mental Health Nutrition Antioxidants & Phytochemicals Caffeine Cancer Prevention Fiber Food Allergies Macrobiotics",
+      "full_text": "uten Free Diseases & Physical Ailments Exercise & Fitness Medical Books Administration & Medicine Economics Allied Health Professions Emergency Medical Services Men\u2019s Health Hair Loss Men\u2019s Health Videos Prostate Health Sexual Health & Impotence Mental Health Nutrition Antioxidants & Phytochemicals Caffeine Cancer Prevention Fiber Food Allergies Macrobiotics",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 41,
+      "hash": "812aae5a",
+      "n_words": 42,
+      "n_chars": 256,
+      "preview_head": "has an integrated water separator that separates excess moisture from air before entering into its second stage where it filters out larger particles such as rust chips or sand grains found within you",
+      "preview_tail": "moisture from air before entering into its second stage where it filters out larger particles such as rust chips or sand grains found within your fuel supply line. The RACOR Filter Element is designed",
+      "full_text": "has an integrated water separator that separates excess moisture from air before entering into its second stage where it filters out larger particles such as rust chips or sand grains found within your fuel supply line. The RACOR Filter Element is designed",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 42,
+      "hash": "7e01e0d8",
+      "n_words": 84,
+      "n_chars": 587,
+      "preview_head": "community and assurance system. The health outcome included three subdomains of health sConceptual Framework for Decision-Making Data Elements in Public Health 1. Health Status - 1.1 Mortality + Age-s",
+      "preview_tail": " Health-related Quality-of-Life (HRQoL) 2. Non-Medical health determinants - Air quality indices, - Noise pollution levels. + - - Educational attainment level of population; - - + Smoking prevalence ,",
+      "full_text": "community and assurance system. The health outcome included three subdomains of health sConceptual Framework for Decision-Making Data Elements in Public Health 1. Health Status - 1.1 Mortality + Age-standardized mortality rates (ASMR) + Life expectancy at birth (LEB) - 1.2 Morbidity + Prevalence and incidence of diseases/injuries + Hospitalization rate for preventable conditions - 1.3 Health-related Quality-of-Life (HRQoL) 2. Non-Medical health determinants - Air quality indices, - Noise pollution levels. + - - Educational attainment level of population; - - + Smoking prevalence ,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 43,
+      "hash": "cf1c6d6c",
+      "n_words": 234,
+      "n_chars": 1491,
+      "preview_head": "sure I ovulated on the 20th and I had sex that day. my boobs are really sore and I have back pain. I'm not sure if this is related, but I have a really strange taste in mymouth lately as well. It coul",
+      "preview_tail": "w delaying beyond 5 days approximately. Remember though: every woman's body reacts differently and timing plays a crucial role too; therefore relying solely on symptoms can lead to misinterpretation d",
+      "full_text": "sure I ovulated on the 20th and I had sex that day. my boobs are really sore and I have back pain. I'm not sure if this is related, but I have a really strange taste in mymouth lately as well. It could be possible you might be pregnant considering the timing of ovulation and your sexual activity during that time frame. The symptoms such as sore boobs and back pain are common early signs of pregnancy, but they can also occur due to other factors like hormonal changes or stress without being an indication for a successful conception in this cycle either way. The taste change you're experiencing could be related with your menstrual/pregnancy hormones fluctuation; however it might as well stand alone and not necessarily tied directly into pregnancy specifically, but rather personal physiological occurrences unique to yourself individually which may vary from others experiences or general knowledge shared broadly across various sources discussing early signs of potential pregnancies. To accurately determine if you're pregnant would require taking a home-pregnancy test (HPT) at appropriate time after missed period date since those tests measure the presence HCG hormone produced during pregnancy, ensuring reliable results more likely when done so post any expected menstrual flow delaying beyond 5 days approximately. Remember though: every woman's body reacts differently and timing plays a crucial role too; therefore relying solely on symptoms can lead to misinterpretation d",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 44,
+      "hash": "3a7016a7",
+      "n_words": 98,
+      "n_chars": 603,
+      "preview_head": "Forgot Password? Create an Account | Go Back shop by category My Cart () Home Furniture Electronics Kitchen & Dining Women Men Kids Baby Toys Jewelry & Watches Sports & Team Shop Health & Beauty Hallo",
+      "preview_tail": "indow Coverings Blinds & Shades Curtains & Drapes Valances & Tiers Curtain & Drape Rods Shop by Category: - Home - Bath (Accessories, Towels, Rugs/Mats, Shower Curtains) - Bedding (Pillows/Protectors,",
+      "full_text": "Forgot Password? Create an Account | Go Back shop by category My Cart () Home Furniture Electronics Kitchen & Dining Women Men Kids Baby Toys Jewelry & Watches Sports & Team Shop Health & Beauty Halloween & Seasonal Clearance Home Bath Bath Accessories Bath Towels Bath Rugs & Mats Shower Curtains Bedding Bed Pillows & Protectors Comforters & Bed Sets Blankets & Throws Mattress Pads & Toppers Sheets Window Coverings Blinds & Shades Curtains & Drapes Valances & Tiers Curtain & Drape Rods Shop by Category: - Home - Bath (Accessories, Towels, Rugs/Mats, Shower Curtains) - Bedding (Pillows/Protectors,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 45,
+      "hash": "bacfbf4f",
+      "n_words": 41,
+      "n_chars": 262,
+      "preview_head": "o Chistochina flight deal by flight time, flight departure, flight arrival, flight duration or flight price. With Ctrip, you can be sure you\u2019re getting great Athens to Chistochina airfares and excelle",
+      "preview_tail": "ight arrival, flight duration or flight price. With Ctrip, you can be sure you\u2019re getting great Athens to Chistochina airfares and excellent customer service from one of the world\u2019s leading online tra",
+      "full_text": "o Chistochina flight deal by flight time, flight departure, flight arrival, flight duration or flight price. With Ctrip, you can be sure you\u2019re getting great Athens to Chistochina airfares and excellent customer service from one of the world\u2019s leading online tra",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 46,
+      "hash": "898f7d06",
+      "n_words": 162,
+      "n_chars": 1027,
+      "preview_head": "Star Wars films 63% of \u201chardcore\u201d Star Wars fans think the film is either above average or the best Star Wars film ofall time The franchise issafe Thinkeveryone is tired ofStar Wars by now? We find yo",
+      "preview_tail": "d an unrivaled levelof success in its market both domesticallyand internationally. Forexample, when asking respondents toevaluate the differentmovie and TVfranchises set in outer space, Star Wars was ",
+      "full_text": "Star Wars films 63% of \u201chardcore\u201d Star Wars fans think the film is either above average or the best Star Wars film ofall time The franchise issafe Thinkeveryone is tired ofStar Wars by now? We find your lack of faith disturbing. 53% of respondents would like to see the franchise comeout with more films, while only a third thinkit\u2019s time to call it quits. Couple this demand with the fact that \u201cThe Last Jedi\u201d grossed nearlysix hundredmillion dollars in the first month\u2014second-fastestgrossing movieof all time\u2014and there\u2019s little reason togive in tothe dark side andhaltproduction. In fact, we\u2019re starting to see Disney and Lucasfilm capitalize on thedemand in new ways. The movie\u201cSolo,\u201d basedonthe beloved StarWars character Han Solo, is set to release inMay of thisyear. In a space of its own The Star Wars brand has developed an unrivaled levelof success in its market both domesticallyand internationally. Forexample, when asking respondents toevaluate the differentmovie and TVfranchises set in outer space, Star Wars was ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 47,
+      "hash": "f85eeb62",
+      "n_words": 196,
+      "n_chars": 1312,
+      "preview_head": "expressed dissatisfaction with Chicago. Many residents and visitors have pointed out that while the city boasts a rich cultural scene, there are certain aspects where it falls short compared to other ",
+      "preview_tail": "conic landmarks [4]. They believe that the city has a lot to offer for those willing to explore it beyond its surface-level attractions. In conclusion, while there are certainly reasons why some resid",
+      "full_text": "expressed dissatisfaction with Chicago. Many residents and visitors have pointed out that while the city boasts a rich cultural scene, there are certain aspects where it falls short compared to other major cities like New York or Los Angeles [2]. Chicago's weather can be another source of frustration for its inhabitants\u2014the city is known for experiencing extreme cold winters and hot summers. The unpredictable nature of Chicago's climate has led many residents to develop a sense of resilience, but also an underlying dissatisfaction with the conditions they have no control over. Moreover, there are certain socio-economic factors that contribute to unhappiness among some Chicagoans [3]. While the city boasts a strong economy and numerous job opportunities in sectors such as finance, technology, and healthcare, it still struggles with issues like income inequality. The stark disparity between different neighborhoods can create feelings of division and resentment. Despite these challenges, many Chicagoans remain proud of their city's unique character\u2014its diverse communities, vibrant arts scene, and iconic landmarks [4]. They believe that the city has a lot to offer for those willing to explore it beyond its surface-level attractions. In conclusion, while there are certainly reasons why some resid",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 48,
+      "hash": "ad50a786",
+      "n_words": 62,
+      "n_chars": 595,
+      "preview_head": "of ourpatientslackinsuranceorhavelimitedcoverage,leadingtodependenceonaslidingscalefeesystemandrelianceonsupportfromthecommunityforservicesprovidedascharitycareduetohighnumbersofuninsuredindividuals. ",
+      "preview_tail": "igned to combat the diabetes epidemic in New Orleans. The program uses a shared-visits model to give patients the tools, resources, and education needed to effectively manage their diabetes. A gift in",
+      "full_text": "of ourpatientslackinsuranceorhavelimitedcoverage,leadingtodependenceonaslidingscalefeesystemandrelianceonsupportfromthecommunityforservicesprovidedascharitycareduetohighnumbersofuninsuredindividuals. We are currently asking for support in the following areas: Daughters' Diabetic Institute One of our most popular programs, the Daughters' Diabetic Institute, is a diabetes management program designed to combat the diabetes epidemic in New Orleans. The program uses a shared-visits model to give patients the tools, resources, and education needed to effectively manage their diabetes. A gift in",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 49,
+      "hash": "02c98356",
+      "n_words": 51,
+      "n_chars": 345,
+      "preview_head": "or require observation to determine the need for admission, hospitalization, or alternative care. These conditions, which are amenable to observation care, include, but are not limited to, acute chest",
+      "preview_tail": "tion care, include, but are not limited to, acute chest pain, asthma, acute bronchitis, or other conditions requiring close monitoring or the need for serial diagnostic tests to determine the course o",
+      "full_text": "or require observation to determine the need for admission, hospitalization, or alternative care. These conditions, which are amenable to observation care, include, but are not limited to, acute chest pain, asthma, acute bronchitis, or other conditions requiring close monitoring or the need for serial diagnostic tests to determine the course o",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 50,
+      "hash": "5c91d281",
+      "n_words": 164,
+      "n_chars": 932,
+      "preview_head": "hose overall rankings will be. But when it comes to attempting to guess who could have what overall rating, why not go right to the source? No, not the developers or those in charge of ranking the pla",
+      "preview_tail": "ber: exactly what his rating should have been all along for a winger who put up solid numbers in limited action last season. Others are less fortunate with their guesses; some plaYers may overestimate",
+      "full_text": "hose overall rankings will be. But when it comes to attempting to guess who could have what overall rating, why not go right to the source? No, not the developers or those in charge of ranking the players. Why not ask the rookies and prospects themselves? After all, who knows their own ability better than the players? Even though some of the rookies are quite close \u2014 emile Poirier and Mackenzie Skapski guess near 80 overall and both draw an 80 rating \u2014 there\u2019s more than a few who are off on their estimations. Take a look: Of all the great things about this video, it\u2019s hard to overlook Brendan Perlini\u2019s confidence. the Coyotes prospect was hoping he\u2019d be well above the 75-overall mark, but instead he landed rightat that number: exactly what his rating should have been all along for a winger who put up solid numbers in limited action last season. Others are less fortunate with their guesses; some plaYers may overestimate",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 51,
+      "hash": "ed79cc57",
+      "n_words": 87,
+      "n_chars": 599,
+      "preview_head": "release: nuclear calcium caused translocation of a labeled protein kinase C (PKC) to the nuclear envelope, whereas cytosolic calcium triggered PKC translocation to the plasma membrane. Several growth ",
+      "preview_tail": "s. As yet there is no obvious candidate pathway that combines both of these characteristics. But, if such a pathway is identified, two important factors---the site of calcium release and the proximity",
+      "full_text": "release: nuclear calcium caused translocation of a labeled protein kinase C (PKC) to the nuclear envelope, whereas cytosolic calcium triggered PKC translocation to the plasma membrane. Several growth factor receptors are known to translocate to and signal in the nucleus. And several transcription factors---targets of signal transduction pathways---rely on calcium as one of their stimulatory inputs. As yet there is no obvious candidate pathway that combines both of these characteristics. But, if such a pathway is identified, two important factors---the site of calcium release and the proximity",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 52,
+      "hash": "2b02cb21",
+      "n_words": 61,
+      "n_chars": 338,
+      "preview_head": "his name: Fennrys Wolf.As Mason and Fenn uncover more about Fenn\u2019s past and the strange events that surround them, they realize that Mason\u2019s family \u2014 and its dark allegiance to the ancient Norse gods ",
+      "preview_tail": "\u2019s family \u2014 and its dark allegiance to the ancient Norse gods \u2014 is at the center of it all. The cover looks amazing! And I'm glad you enjoyed this book :) Great review! I've been looking forward readi",
+      "full_text": "his name: Fennrys Wolf.As Mason and Fenn uncover more about Fenn\u2019s past and the strange events that surround them, they realize that Mason\u2019s family \u2014 and its dark allegiance to the ancient Norse gods \u2014 is at the center of it all. The cover looks amazing! And I'm glad you enjoyed this book :) Great review! I've been looking forward readi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 53,
+      "hash": "a4f23e5c",
+      "n_words": 119,
+      "n_chars": 1103,
+      "preview_head": "from \"./ExpandIcon\"; import { MinimizeIcon } from \"./MinimizeIcon\"; import { select } from \"d3-selection\"; import { addZoom, removeZoom } from \"./zoomUtils\"; import \"./snow-in-spring.argdown-theme.css",
+      "preview_tail": "== null ); const onSlotChange = () => { setHasMap(el.querySelector(`[slot='map']`) !==null); if (hasMap && !isExpanded) setIsExpanded(true); //TODO: make this more general for other slots too, but it'",
+      "full_text": "from \"./ExpandIcon\"; import { MinimizeIcon } from \"./MinimizeIcon\"; import { select } from \"d3-selection\"; import { addZoom, removeZoom } from \"./zoomUtils\"; import \"./snow-in-spring.argdown-theme.css\"; import \"./global-styles.css\"; const ArgdownMap = function( el: HTmLElement & { initialView: string; withoutZoom: string; withoutMaximize: string; withoutLogo: string; withoutHeader: string; } ) { const [activeView, setActiveView] = useState(el.initialView || \"map\"); const [isExpanded, setIsExpanded] = useState(false); const [zoomIsActive, setZoomIsActive] = useState(false); const [zoomMessage, setZoomMessage] = useState(\"\"); const initialHeight = useRef(null); const removeZoomTimeout: any = useRef(null); const [hasMap, setHasMap] = useState( el.querySelector<HTMLElement>(`[slot=\"map\"]`) !== null ); const [hasSource, setHasSource] = useState( el.querySelector<HTMLElement>(`[slot=\"source\"]`) !== null ); const onSlotChange = () => { setHasMap(el.querySelector(`[slot='map']`) !==null); if (hasMap && !isExpanded) setIsExpanded(true); //TODO: make this more general for other slots too, but it'",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 54,
+      "hash": "768231af",
+      "n_words": 82,
+      "n_chars": 506,
+      "preview_head": "two parts, one for $n$ where $\\sin^2(4n)$ is the maximum and another for $n$ where $\\sin^2(4(n+1))$ is the maximum, you will get two series that are bounded below by $m/8$ and $m/16$ respectively. Sin",
+      "preview_tail": "der the harmonic series $\\sum_{n=1}^{\\infty}\\frac{1}{n}$, which is known to diverge. Each of the two series we split the original series into is a subsequence of the harmonic series, and thus also div",
+      "full_text": "two parts, one for $n$ where $\\sin^2(4n)$ is the maximum and another for $n$ where $\\sin^2(4(n+1))$ is the maximum, you will get two series that are bounded below by $m/8$ and $m/16$ respectively. Since both of these series diverge, the original series also diverges. To see why these series diverge, consider the harmonic series $\\sum_{n=1}^{\\infty}\\frac{1}{n}$, which is known to diverge. Each of the two series we split the original series into is a subsequence of the harmonic series, and thus also div",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 55,
+      "hash": "23b82a8d",
+      "n_words": 144,
+      "n_chars": 992,
+      "preview_head": "resources are essential tools for educators who aim to enhance their students' writing skills. These materials provide comprehensive guidance and support, helping teachers design effective lessons tha",
+      "preview_tail": "I say: Moving Through Their Perspectives and Ours,\" 4th Edition. By Gerald Graff & Cathy Birkenstein- A writing handbook based on an understanding of rhetorical moves that students make while they are",
+      "full_text": "resources are essential tools for educators who aim to enhance their students' writing skills. These materials provide comprehensive guidance and support, helping teachers design effective lessons that align with state standards. 1) \"6 Traits of Effective Teaching\" by Lucy Calkins - This book offers a robust framework based on the \u201ctraits\u201d approach which includes: ideas; organization/coherence/criteria for revision & editing/conventions/sentence fluency/vocabulary, word choice and voice. The six traits are an important part in assessing student work. 2) \"Writing Strategies That Work\" by Richard Beach - This book is a research-based guide that outlines instructional strategies to develop effective writers across the grade levels from primary through high school level. 3)\"They Say / I say: Moving Through Their Perspectives and Ours,\" 4th Edition. By Gerald Graff & Cathy Birkenstein- A writing handbook based on an understanding of rhetorical moves that students make while they are",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 56,
+      "hash": "e9defcd2",
+      "n_words": 44,
+      "n_chars": 268,
+      "preview_head": "ure. Using \u201epiedbati\u201d seems more like \"kicking the floor\", not \"taping one's foot\". I am not sure it would be right to say, \u201epiedfrapeti\u201d either. A: Here are some suggestions: piedklaki/piedtamburi/pi",
+      "preview_tail": "ng one's foot\". I am not sure it would be right to say, \u201epiedfrapeti\u201d either. A: Here are some suggestions: piedklaki/piedtamburi/piedbati la\u016dritme de la muziko bati per la piedo la takton de la muzik",
+      "full_text": "ure. Using \u201epiedbati\u201d seems more like \"kicking the floor\", not \"taping one's foot\". I am not sure it would be right to say, \u201epiedfrapeti\u201d either. A: Here are some suggestions: piedklaki/piedtamburi/piedbati la\u016dritme de la muziko bati per la piedo la takton de la muzik",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 57,
+      "hash": "85e081a2",
+      "n_words": 49,
+      "n_chars": 357,
+      "preview_head": "in-car sensor includes a thermistor positioned to detect air temperature, with the aspirator fan motor forcibly drawing cabin air toward the thermistor to ensure accurate sampling. This mechanism enha",
+      "preview_tail": "sure accurate sampling. This mechanism enhances measurement precision by maintaining a consistent airflow, compensating for stagnant air or localized temperature variations within the cabin. The aspir",
+      "full_text": "in-car sensor includes a thermistor positioned to detect air temperature, with the aspirator fan motor forcibly drawing cabin air toward the thermistor to ensure accurate sampling. This mechanism enhances measurement precision by maintaining a consistent airflow, compensating for stagnant air or localized temperature variations within the cabin. The aspir",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 58,
+      "hash": "9dc12b75",
+      "n_words": 266,
+      "n_chars": 1913,
+      "preview_head": "the \"data input/output device\" dashed lines. The output buffer 530, shift register 540, and input buffer 550 perform input/output data transfer and are contained within the \"data transfer unit\" sectio",
+      "preview_tail": "p according to its developers' intent described here. Overall, while maintaining essential functionality of input/output data transfer between integrated circuits (IC), the designer and implementation",
+      "full_text": "the \"data input/output device\" dashed lines. The output buffer 530, shift register 540, and input buffer 550 perform input/output data transfer and are contained within the \"data transfer unit\" section marked with a dashed line in FIG. 1. These modules work separately to manage the flow of information between the processor and external systems according to predetermined standards such as RS-232 or I\u00b2C, ensuring that each bit is transferred efficiently over serial lines at low speeds for reliable communication despite potential interference or noise present on these transmission paths. The input/output control device within this configuration uses several methods including buffers (like input buffer 530) to temporarily store incoming and outgoing data packets before they are processed by the external parts of the controller, thus smoothing out any timing differences between other components engaged in communication systems such as microcontrollers or sensors connected internally. The shift register component represented at reference numeral 540 is important for handling serial bit streams effectively\u2014it allows to align bits accurately during transmit and reception phases which can be very useful when dealing with short strings of binary data where failures can arise if not adequately managed through careful timing changes within the software architecture. This aspect plays a crucial role in providing efficient communication channels only under challenging circumstances unlike those seen over longer distances or high-interference situations typical for industrial control applications requiring sophisticated signal integrity management procedures as used by this particular interface setup according to its developers' intent described here. Overall, while maintaining essential functionality of input/output data transfer between integrated circuits (IC), the designer and implementation",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 59,
+      "hash": "28dc231c",
+      "n_words": 50,
+      "n_chars": 348,
+      "preview_head": "t DSBs as well as directly binds to the C-terminal region of recruited MDC1, which is essential for its stability near breaks. The interaction between Ku70/ku80 heterodimer and these components sugges",
+      "preview_tail": "en Ku70/ku80 heterodimer and these components suggests a sequential recruitment model where initial binding events involving activated signaling molecules like ATM phosphorylated H2AX set up platforms",
+      "full_text": "t DSBs as well as directly binds to the C-terminal region of recruited MDC1, which is essential for its stability near breaks. The interaction between Ku70/ku80 heterodimer and these components suggests a sequential recruitment model where initial binding events involving activated signaling molecules like ATM phosphorylated H2AX set up platforms",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 60,
+      "hash": "241e48eb",
+      "n_words": 150,
+      "n_chars": 1017,
+      "preview_head": "State Route 22is an important east-west highway running through central Virginia. It starts at US Highway 58 in Mecklenburg County near the North Carolina border and ends on U.S. Route 29 (US-29) just",
+      "preview_tail": "ers. It provides access to various attractions including historical sites such as the George Washington Birthplace National Monument in Westmoreland County; natural wonders like Shenandoah River which",
+      "full_text": "State Route 22is an important east-west highway running through central Virginia. It starts at US Highway 58 in Mecklenburg County near the North Carolina border and ends on U.S. Route 29 (US-29) just outside of Richmond, the state capital. Route 22 is approximately 200 miles long and traverses several significant towns including Lynchburg and Danville before heading west towards Lexington where it intersects with Interstate 81 at Exit 195B for a short distance to provide access from I-66. The route then continues eastward through Rockbridge County, crossing the Blue Ridge Mountains via Route 250 (the Shenandoah Valley Turnpike) and entering Amherst County. Throughout its journey across Virginia's central region, State Route 22 serves as an essential artery for both local commuters and long-distance travelers. It provides access to various attractions including historical sites such as the George Washington Birthplace National Monument in Westmoreland County; natural wonders like Shenandoah River which",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 61,
+      "hash": "6cffaaa0",
+      "n_words": 54,
+      "n_chars": 289,
+      "preview_head": "he UE may also correspond to variations in link quality, for example as the UE enters and exits a tunnel or a building. This means that data to and from the UE must be sent on a logical path through t",
+      "preview_tail": " exits a tunnel or a building. This means that data to and from the UE must be sent on a logical path through the network that is dynamic and potentially unstable. This can result in complications for",
+      "full_text": "he UE may also correspond to variations in link quality, for example as the UE enters and exits a tunnel or a building. This means that data to and from the UE must be sent on a logical path through the network that is dynamic and potentially unstable. This can result in complications for",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 62,
+      "hash": "6e2570ca",
+      "n_words": 74,
+      "n_chars": 425,
+      "preview_head": "tributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT yo",
+      "preview_tail": "by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tag",
+      "full_text": "tributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tags and attributes. The XSLT you provided works for ALM by removing empty tags and attributes and by replacing '*' with empty tag",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 63,
+      "hash": "cfcb9727",
+      "n_words": 74,
+      "n_chars": 665,
+      "preview_head": "Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fu",
+      "preview_tail": "um Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium",
+      "full_text": "Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium Fusarium",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 64,
+      "hash": "9d982ccc",
+      "n_words": 45,
+      "n_chars": 285,
+      "preview_head": "template files for the context-menu? I often have to generate files (for example letters), which should have a certain content at the beginning (e.g. letter head,...). In Many Linux-Distributions ther",
+      "preview_tail": "ers), which should have a certain content at the beginning (e.g. letter head,...). In Many Linux-Distributions there is a folder called ~/Templates - Every file in this folder appears in the context-m",
+      "full_text": "template files for the context-menu? I often have to generate files (for example letters), which should have a certain content at the beginning (e.g. letter head,...). In Many Linux-Distributions there is a folder called ~/Templates - Every file in this folder appears in the context-m",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 65,
+      "hash": "387f0759",
+      "n_words": 44,
+      "n_chars": 260,
+      "preview_head": "Keeping Force (IPKF) in Sri Lanka. Things turned sour for Karunanidhi and the LTTE in 1991, when the latter was accused of and later found guilty of the assassination of former Prime Minister Rajiv Ga",
+      "preview_tail": "runanidhi and the LTTE in 1991, when the latter was accused of and later found guilty of the assassination of former Prime Minister Rajiv Gandhi. Even though the Karunanidhi tenure which began in 1989",
+      "full_text": "Keeping Force (IPKF) in Sri Lanka. Things turned sour for Karunanidhi and the LTTE in 1991, when the latter was accused of and later found guilty of the assassination of former Prime Minister Rajiv Gandhi. Even though the Karunanidhi tenure which began in 1989",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 66,
+      "hash": "40b47313",
+      "n_words": 56,
+      "n_chars": 465,
+      "preview_head": "on domain names for identitywhich by rules ofICANN provides consistency and some rights to name holders. We'vedemo Protocols balance manycompetinginterests such as throughput, latency, reliability, se",
+      "preview_tail": "own interests tamper with every level of thenetwork stack requiring adjustments ona yearly basis. We dependon domainnames foridentitywhich by rulesof ICANN provides consistency and somerights to name ",
+      "full_text": "on domain names for identitywhich by rules ofICANN provides consistency and some rights to name holders. We'vedemo Protocols balance manycompetinginterests such as throughput, latency, reliability, security,privacy and economic sustainability.Corporationswiththeir own interests tamper with every level of thenetwork stack requiring adjustments ona yearly basis. We dependon domainnames foridentitywhich by rulesof ICANN provides consistency and somerights to name ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 67,
+      "hash": "ae6d2652",
+      "n_words": 89,
+      "n_chars": 629,
+      "preview_head": "Africa's notable Paralympians, particularly for his achievements in track events. Competing under the T46 classification\u2014which typically includes athletes with impairments affecting their arms or legs",
+      "preview_tail": " versatility across different distances within track athletics. HIs contributions to South African Paralympic sports have helped raise awareness about para-sports while inspiring future generations of",
+      "full_text": "Africa's notable Paralympians, particularly for his achievements in track events. Competing under the T46 classification\u2014which typically includes athletes with impairments affecting their arms or legs\u2014Louw made a significant impact during the 1996 Summer Paralympics held in Atlanta. In these games: - He secured a bronze medal in the men's 200m sprint. - finished fifth place in both the 100m and 400m sprints, dEmonstrating his versatility across different distances within track athletics. HIs contributions to South African Paralympic sports have helped raise awareness about para-sports while inspiring future generations of",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 68,
+      "hash": "c529554a",
+      "n_words": 41,
+      "n_chars": 294,
+      "preview_head": "moderate speeds along a green colored Track. Operation The ride began operating in Singapore on April 9, 2015 at Far Far Away Section. References See also Universal Studios Singapore Category:Universa",
+      "preview_tail": "n April 9, 2015 at Far Far Away Section. References See also Universal Studios Singapore Category:Universal Parks & Resorts attractions by name Category:Shrek Category:2015 establishments in Singapore",
+      "full_text": "moderate speeds along a green colored Track. Operation The ride began operating in Singapore on April 9, 2015 at Far Far Away Section. References See also Universal Studios Singapore Category:Universal Parks & Resorts attractions by name Category:Shrek Category:2015 establishments in Singapore",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 69,
+      "hash": "05c460c9",
+      "n_words": 46,
+      "n_chars": 278,
+      "preview_head": "Edwards EdwardsIt seems like you may have forgotten your request or prompt, so I am not sure what specific information regarding Fabian \"The Assassin\" Edwards and his prospects of joining the UFC is r",
+      "preview_tail": " I am not sure what specific information regarding Fabian \"The Assassin\" Edwards and his prospects of joining the UFC is required for completion here? However as requested below are some details on hi",
+      "full_text": "Edwards EdwardsIt seems like you may have forgotten your request or prompt, so I am not sure what specific information regarding Fabian \"The Assassin\" Edwards and his prospects of joining the UFC is required for completion here? However as requested below are some details on hi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 70,
+      "hash": "483920e6",
+      "n_words": 52,
+      "n_chars": 310,
+      "preview_head": "/**************************************************************************** * MeshLab o o * * A versatile mesh processing toolbox o o * * _ O _ * * Copyright(C) 2005 \\/)\\/ * * Visual Computing Lab /",
+      "preview_tail": "sh processing toolbox o o * * _ O _ * * Copyright(C) 2005 \\/)\\/ * * Visual Computing Lab /\\/| * * ISTI - Italian National Research Council | * * \\ * * All rights reserveUser: MeshLab is a versatile me",
+      "full_text": "/**************************************************************************** * MeshLab o o * * A versatile mesh processing toolbox o o * * _ O _ * * Copyright(C) 2005 \\/)\\/ * * Visual Computing Lab /\\/| * * ISTI - Italian National Research Council | * * \\ * * All rights reserveUser: MeshLab is a versatile me",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 71,
+      "hash": "67b4b8f0",
+      "n_words": 49,
+      "n_chars": 387,
+      "preview_head": "cessfully by solvothermal method from ethanol solution in the presence of a special surfactant-quaternary ammonium salt of 2-undecyl-1-dithioureido-ethyl-imidazoline (SUDEI) made in situ. This product",
+      "preview_tail": " This product has excellent dispersibility and shows much better photoluminescence property than ZnS powders prepared by the conventional methods because its hollow structure provides more surface are",
+      "full_text": "cessfully by solvothermal method from ethanol solution in the presence of a special surfactant-quaternary ammonium salt of 2-undecyl-1-dithioureido-ethyl-imidazoline (SUDEI) made in situ. This product has excellent dispersibility and shows much better photoluminescence property than ZnS powders prepared by the conventional methods because its hollow structure provides more surface are",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 72,
+      "hash": "17ce9813",
+      "n_words": 55,
+      "n_chars": 336,
+      "preview_head": "renaline-pumping escapes). \u2705 Free group planning session to craft the ultimate itinerary. \u2705 Early booking bonus: The more people, the bigger the discount! Valid until [insert date]. Hurry \u2013 spaces are",
+      "preview_tail": "gger the discount! Valid until [insert date]. Hurry \u2013 spaces are filling fast! Book your session today to unlock your group\u2019s most unforgettable yet. Call us: 0161 341 0052 | Chat online for instant q",
+      "full_text": "renaline-pumping escapes). \u2705 Free group planning session to craft the ultimate itinerary. \u2705 Early booking bonus: The more people, the bigger the discount! Valid until [insert date]. Hurry \u2013 spaces are filling fast! Book your session today to unlock your group\u2019s most unforgettable yet. Call us: 0161 341 0052 | Chat online for instant q",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 73,
+      "hash": "eaa17956",
+      "n_words": 53,
+      "n_chars": 353,
+      "preview_head": "engineer and Bindhu both originally from Kollam district of Kerala. Her mother's ancestral home is in Punalur, Kollam district. Sports career Nimisha holds a blas record for the high jump at her schoo",
+      "preview_tail": "ds a blas record for the high jump at her school level athletics events during her childhood years. Although she didn't pursue sports professionally after that phase, Nimisha still enjoys participatin",
+      "full_text": "engineer and Bindhu both originally from Kollam district of Kerala. Her mother's ancestral home is in Punalur, Kollam district. Sports career Nimisha holds a blas record for the high jump at her school level athletics events during her childhood years. Although she didn't pursue sports professionally after that phase, Nimisha still enjoys participatin",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 74,
+      "hash": "a0d5f732",
+      "n_words": 345,
+      "n_chars": 2422,
+      "preview_head": "n order to ensure you're making an informed decision when it comes to your undergarments, here's a quick guide detailing what every man should know about his underwear: Underwear Style: There are vari",
+      "preview_tail": "ample support where it counts most is paramount especially if participating vigorous physical exertion on regular basis. Look into sports-specific styles crafted utilizing specialized fabrics offering",
+      "full_text": "n order to ensure you're making an informed decision when it comes to your undergarments, here's a quick guide detailing what every man should know about his underwear: Underwear Style: There are various styles of underwear available in the market today including briefs, boxers and boxer-briefs. Each style offers different levels of support for your intimate areas as well as varying degrees of comfort based on their fit around the legs and waistline. Experiment with multiple types until you find one (or more) that best suits both your physical build along side personal preferences regarding movement restriction versus freedom during everyday activities or specific sports-related pursuits . Size Matters: Getting measured by a professional can help determine what size underwear is right for you - don't simply guess! Wearing ill fitting undies may cause discomfort over time while also reducing their intended support mechanism. Most brands provide detailed sizing charts online which accurately translate waistline measurements into corresponding garment sizes so use these resources wisely when shopping remotely . Fabric Composition: The material used in crafting your underwear plays an essential role determining overall comfort throughout wear as well how breathable/moisture wicking they'll be under various conditions. Cotton remains popular due its softness against skin but tends absorb perspiration instead allowing it evaporate quickly like synthetic blends do such polyester or nylon intermingled often times spandex for stretchiness benefits . If feeling fresh down there all day long matters then prioritize selecting underwear composed mainly from breathable/wicking fibers ! Waistband Significance: Underwear waistbands serve more purpose than just holding up your pants! They also help prevent riding up ensuring back coverage remains intact throughout movement while adding another level compression support around midsection area . Opt for wider bands made with elasticized materials guarantee comfort along upper thighs/lower abdomen regions simultaneously minimizing bunching under clothes line ! Support System: Depending upon intended activity levels , choosing underwear designed provide ample support where it counts most is paramount especially if participating vigorous physical exertion on regular basis. Look into sports-specific styles crafted utilizing specialized fabrics offering",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 75,
+      "hash": "abc2180d",
+      "n_words": 118,
+      "n_chars": 794,
+      "preview_head": "LC cells is in the order of the wavelength, requiring high driving voltages and allowing only a very slow modulation at THz frequencies. Here, we first present the concept of overcoupled metal-isolato",
+      "preview_tail": "cavity parameters, such as the cavity length and the metal film thickness. We demonstrate that the proposed structure can achieve a high polarization conversion efficiency (PCE) of 90% at 0.6 THz with",
+      "full_text": "LC cells is in the order of the wavelength, requiring high driving voltages and allowing only a very slow modulation at THz frequencies. Here, we first present the concept of overcoupled metal-isolator-metal (MIM) cavities that allow for achieving simultaneously both very high phase difference between orthogonal electric field components and large reflectance. We then apply this concept to LC-infiltrated MIM-based metamaterials aiming at the design of electrically tunable THz polarization converters. The optimal operation in the overcoupled regime is provided by the proper choice of the cavity parameters, such as the cavity length and the metal film thickness. We demonstrate that the proposed structure can achieve a high polarization conversion efficiency (PCE) of 90% at 0.6 THz with",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 76,
+      "hash": "6ff741fb",
+      "n_words": 20,
+      "n_chars": 3831,
+      "preview_head": "using Microsoft.Msagl.Core.Geometry; namespace Microsoft.Msagl.Routing.Spline.ConeSpanner { abstract internal class SweepEvent { abstract internal Point Site { get; } /// <summary/> [System.Diagnostic",
+      "preview_tail": "UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.",
+      "full_text": "using Microsoft.Msagl.Core.Geometry; namespace Microsoft.Msagl.Routing.Spline.ConeSpanner { abstract internal class SweepEvent { abstract internal Point Site { get; } /// <summary/> [System.Diagnostics.CodeAnalysis.Suppr.SuppressMessage(\"Microsoft.Design.Diagnostics.CodeAnalysis.SuppressMessage.ExcessiveComplexity.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.ExcessiveComplexity.General.Excess.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExprEssion.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.UseWhenAsExpression.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 77,
+      "hash": "58d9d9ac",
+      "n_words": 141,
+      "n_chars": 935,
+      "preview_head": "Ramachandran Thomas Ryan Associates, Inc 252 West Marion Ave Punta Gorda, FL 33950 Phone: 941-833-4777 (206) Fax: 941-833-5777 Housing Trends September 2018 View archives Share Home Your Home Value My",
+      "preview_tail": "month. You can unsubscribe at any time. Information contained in this eNewsletter is compiledfrom sources deemed reliable, but no warranty or guarantee is made as to its accuracy. This newsletter does",
+      "full_text": "Ramachandran Thomas Ryan Associates, Inc 252 West Marion Ave Punta Gorda, FL 33950 Phone: 941-833-4777 (206) Fax: 941-833-5777 Housing Trends September 2018 View archives Share Home Your Home Value My Featured Homes My Website Find a Home Florida - Punta Gorda Region Real Estate Market Update Loading Housing Trends eNewsletter is filled with U.S. Census Bureau key market indicators, consumer videos, blogs, a real estate glossary, mortgage rates and calculators, consumer articles, real estate radio, realtor.com\u00ae local community reports and local and national real estate sales and price activity provided by local MLSs and the National Association of REALTORS\u00ae. Subscribe to the free Housing Trends eNewsletter to receive it each month. You can unsubscribe at any time. Information contained in this eNewsletter is compiledfrom sources deemed reliable, but no warranty or guarantee is made as to its accuracy. This newsletter does",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 78,
+      "hash": "12066bf4",
+      "n_words": 108,
+      "n_chars": 849,
+      "preview_head": "Carbon Dots: Synthesis and Properties. Carbon dots (CDs) are new materials with applications in bioimaging, optical devices, catalysis, and many other fields. Their advantages, such as ease of large-s",
+      "preview_tail": "ties, and their functionalities should be stably and tunably. To date, in addition to their luminescence, there should be other functionalities, and their functionalities should be stably and tunably.",
+      "full_text": "Carbon Dots: Synthesis and Properties. Carbon dots (CDs) are new materials with applications in bioimaging, optical devices, catalysis, and many other fields. Their advantages, such as ease of large-scale preparation, low-costing precursors, highly tunable photoluminescence, satisfactory biocompatibility, and photostability against photobleaching, make them competitive alternatives to conventional semiconductor-based quantum dots and organic dyes. To overwhelm other luminescent materials in applications, their functionalities stably and tunably should be increased. To date, in addition to their luminescence, there should be other functionalities, and their functionalities should be stably and tunably. To date, in addition to their luminescence, there should be other functionalities, and their functionalities should be stably and tunably.",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 79,
+      "hash": "2afb1f56",
+      "n_words": 226,
+      "n_chars": 1229,
+      "preview_head": "I went to Shangri-La directly from the office. Veve and Nyo dropped me at KarangMenjanganHospital and I took a taxi from there. I arrived in the hotel first. I marched to the toilet and fix my make up",
+      "preview_tail": "s about to be thrown out, a well-dressed executive, who seemed to be in his late 30s, appeared out of nowhere and started talking to the gelandangan. The executive was trying to buy something from the",
+      "full_text": "I went to Shangri-La directly from the office. Veve and Nyo dropped me at KarangMenjanganHospital and I took a taxi from there. I arrived in the hotel first. I marched to the toilet and fix my make up. Actually I didn\u2019t wear any make up from the office, so it wasn\u2019t really fixing. Rina came about half an hour later and off we went to Desperados, our favourite club. Arief, unsurprisingly, called Rina, just a moment before she left for the club, that he wasn\u2019t feeling good. Yeah yeah.. As usual, she ordered a glass of coke and me some small Bintang beer. We sat in a dim corner, a strategic place to watch the band and spy on some couples,who were awkwardly trying to dance to the upbeat music. We were having a good time, laughing and joking, when a peculiar-looking man caught our attention. He was a gelandangan, a street urchin, and seemed to be out of place among the club's fashionable crowd. He was trying to sell something, but the bouncers were having none of it, and were trying to usher him out. Just as the man was about to be thrown out, a well-dressed executive, who seemed to be in his late 30s, appeared out of nowhere and started talking to the gelandangan. The executive was trying to buy something from the",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 80,
+      "hash": "f480daaf",
+      "n_words": 102,
+      "n_chars": 686,
+      "preview_head": "oks at Alibris. It appears that parts of the text are missing, but based on what is provided: - Alibris for Libraries: This section likely outlines services or resources Alibris offers to libraries, s",
+      "preview_tail": "ncluding a wide range of academic disciplines like science, humanities, social sciences, business, and more. Also mentions textbook buyback and back-to-school savings opportunities. - Books: Describes",
+      "full_text": "oks at Alibris. It appears that parts of the text are missing, but based on what is provided: - Alibris for Libraries: This section likely outlines services or resources Alibris offers to libraries, such as acquiring textbooks or other materials. - Sell at Alibris: Explains how individuals can sell used textbooks and provides details about the buyback process. It emphasizes ease of use and competitive pricing. - Textbooks: Lists popular subjects for which textbooks are available, including a wide range of academic disciplines like science, humanities, social sciences, business, and more. Also mentions textbook buyback and back-to-school savings opportunities. - Books: Describes",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 81,
+      "hash": "0fa1e63a",
+      "n_words": 249,
+      "n_chars": 2009,
+      "preview_head": "increasing ZO\u20101 expression in mice.[4](#cns13101-bib-0004){ref-type=\"ref\"} The unanimous change of ZO\u20101 and BBB integrity strongly implied the key role of ZO\u20101 in maintaining normal BBB structure and ",
+      "preview_tail": "as correlated with increased ZO\u20101 expression and decreased ZO\u20101 phosphorylation. Nevertheless, we could not completely rule out the potential effects of propofol on other tight junction proteins, such",
+      "full_text": "increasing ZO\u20101 expression in mice.[4](#cns13101-bib-0004){ref-type=\"ref\"} The unanimous change of ZO\u20101 and BBB integrity strongly implied the key role of ZO\u20101 in maintaining normal BBB structure and function. Beside ZO\u20101 expression, the BBB integrity is also affected by the phosphorylation status of ZO\u20101, because phosphorylated ZO\u20101 may lose its normal function. It was reported that TNF\u2010\u03b1 could reduce ZO\u20101 expression, while enhance ZO\u20101 phosphorylation in human brain microvascular endothelial cells, thus potentially affecting BBB permeability.[10](#cns13101-bib-0010){ref-type=\"ref\"} Animal study also indicated that in dystrophic mice brains, decreased ZO\u20101 expression, and increased Zo\u20101 phosphorylation were correlated with impaired BBB integrity.[31](#cns13101-bib-0031){ref-type=\"ref\"} In the present study, we reported that hypoxia may reduce ZO\u20101 expression while increase ZO\u20101 phosphorylation, leading to BBB integrity impairment. Numerous studies indicated that the neuroprotective effect of propofol against BBB impairment could be mediated through multiple pathways. We found in an ongoing in vitro study that propofol could modulate TNF\u2010\u03b1\u2010induced matrix metalloprotein\u20109 (MMP\u20109) expression and activation, thus alleviating TNF\u2010\u03b1\u2010induced extracellular matrix breakdown and basal membrane damage (data not shown). Consistently, propofol was found to protect the BBB by decreasing MMP\u20109 expression and improve the neurobehavioral outcome in rats.[26](#cns13101-bib-0026){ref-type=\"ref\"} Others also reported that propofol could reverse ischemia\u2010downregulated expression of claudins and occludins, thus exerting protective effect on BBB in rabbits.[16](#cns13101-bib-0016){ref-type=\"ref\"} In this study, we demonstrated that the neuroprotective effect of propofol against hypoxia\u2010impaired BBB was correlated with increased ZO\u20101 expression and decreased ZO\u20101 phosphorylation. Nevertheless, we could not completely rule out the potential effects of propofol on other tight junction proteins, such",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 82,
+      "hash": "95c0c3f7",
+      "n_words": 51,
+      "n_chars": 304,
+      "preview_head": "systems like the Nintendo DS are a different challenge. We're excited to see the community's response to the projects, and we're working hard to bring these to fruition. Logged Shwing Junior Retrode P",
+      "preview_tail": " the projects, and we're working hard to bring these to fruition. Logged Shwing Junior Retrode Posts: 30 Karma: +0/-0 Re: PC Engine/Turbografx plug in? \u00ab Reply #31 on: 18/Sep/2017 07:18:35 PM \u00bb Yeah t",
+      "full_text": "systems like the Nintendo DS are a different challenge. We're excited to see the community's response to the projects, and we're working hard to bring these to fruition. Logged Shwing Junior Retrode Posts: 30 Karma: +0/-0 Re: PC Engine/Turbografx plug in? \u00ab Reply #31 on: 18/Sep/2017 07:18:35 PM \u00bb Yeah t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 83,
+      "hash": "f1ce83e6",
+      "n_words": 59,
+      "n_chars": 385,
+      "preview_head": "r this class will appear below. @end // ``` This is a typical header that might precede an interface declaration when using `class-dump` to reverse engineer or inspect Objective-C classes from binary ",
+      "preview_tail": "es from binary files. The actual content (like method signatures and instance variables) would depend on the specific application's implementation details which are not provided in your input text. If",
+      "full_text": "r this class will appear below. @end // ``` This is a typical header that might precede an interface declaration when using `class-dump` to reverse engineer or inspect Objective-C classes from binary files. The actual content (like method signatures and instance variables) would depend on the specific application's implementation details which are not provided in your input text. If",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 84,
+      "hash": "68014a99",
+      "n_words": 122,
+      "n_chars": 679,
+      "preview_head": "huge old-growth oak trees from which the planks were cut \u2013 they had to be ordered months in advance. The boards are plain \u2013 not tongue and groove \u2013 and stained with a satin finish. We left them in the",
+      "preview_tail": "he whole room is paneled in the same hardwood, which is also used for the coffered ceiling and floors. The library\u2019s intimate scale and traditional detailing were inspired by a ship captain\u2019s quarters",
+      "full_text": "huge old-growth oak trees from which the planks were cut \u2013 they had to be ordered months in advance. The boards are plain \u2013 not tongue and groove \u2013 and stained with a satin finish. We left them in the house for a month to stabilize before installing them.\u201d Wood can be used to create a sense of intimacy and ease and is demonstrated in the library of a very large retreat in Lake Keowee, South Carolina. Not only is the fireplace surrounded by quarter-sawn oak mantle and trim, the whole room is paneled in the same hardwood, which is also used for the coffered ceiling and floors. The library\u2019s intimate scale and traditional detailing were inspired by a ship captain\u2019s quarters",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 85,
+      "hash": "54b6fc54",
+      "n_words": 93,
+      "n_chars": 501,
+      "preview_head": "as powder rather than capsules or tablets. To make lozenges: \u2022 Mix 1tsp of the Slippery Elm Powder with a little water to form thick paste Add honey, agave syrup etc. and mix well. Roll into small bal",
+      "preview_tail": "taken as drink \u2013 add boiling hot (not quite boiled)water to powder until it forms gel-like consistency. Enjoy! Subscribe to the blog here: Get all my blogs, news and tips direct into your inbox each w",
+      "full_text": "as powder rather than capsules or tablets. To make lozenges: \u2022 Mix 1tsp of the Slippery Elm Powder with a little water to form thick paste Add honey, agave syrup etc. and mix well. Roll into small balls & place on greaseproof paper in fridge for at least an hour before eating Slipery elm can also be taken as drink \u2013 add boiling hot (not quite boiled)water to powder until it forms gel-like consistency. Enjoy! Subscribe to the blog here: Get all my blogs, news and tips direct into your inbox each w",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 86,
+      "hash": "4a83d6f9",
+      "n_words": 117,
+      "n_chars": 788,
+      "preview_head": "torso during a vehicular collision, a shock absorbing material must exhibit stress which is linear with respect to the compression stroke (compressive distortion). That is, the material should have an",
+      "preview_tail": "door trims or center pillar trims during collisions provides good strength to resist impact forces initially due to its rigidity, it does not offer significant energy absorption capabilities. This can",
+      "full_text": "torso during a vehicular collision, a shock absorbing material must exhibit stress which is linear with respect to the compression stroke (compressive distortion). That is, the material should have an F-S waveform (force-stroke waveform) wherein the stress is proportional to the compression stroke. Conventionally, an iron plate, semi-rigid polyurethane foam, and the like have been used in many cases as materials having this sort of a linear F-S waveform. However, although an iron plate, one of the conventionally used shock absorbingmaterials for vehicle safety applications such as door trims or center pillar trims during collisions provides good strength to resist impact forces initially due to its rigidity, it does not offer significant energy absorption capabilities. This can",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 87,
+      "hash": "968849e3",
+      "n_words": 105,
+      "n_chars": 702,
+      "preview_head": "an inevitable part of the childbirth process.[@ref1] This pain is a complicated, personal, mental and multi-facial phenomenon and is affected by economic, social, cultural, biologic and psychological ",
+      "preview_tail": "was led to cesarean section application in Iran.[@ref4] so effective control of the labor pain like other acute pains is very important for the health and society.[@ref5] There are different methods t",
+      "full_text": "an inevitable part of the childbirth process.[@ref1] This pain is a complicated, personal, mental and multi-facial phenomenon and is affected by economic, social, cultural, biologic and psychological factors.[@ref2] Continuous labor pain is effected by respiratory system, blood circulation, endocrine glands and other body activities.[@ref3] In other hand, the fear of childbirth pain is the most important reason that makes women to refuse delivering in a natural way worldwide and by this reason it was led to cesarean section application in Iran.[@ref4] so effective control of the labor pain like other acute pains is very important for the health and society.[@ref5] There are different methods t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 88,
+      "hash": "4e50ce3b",
+      "n_words": 39,
+      "n_chars": 468,
+      "preview_head": "ass SoftRigidDynamicsWorld : DiscreteDynamicsWorld { private AlignedSoftBodyArray _softBodyArray; private SoftBodySolver _softBodySolver; // private ref passed to bodies during AddSoftBody private boo",
+      "preview_tail": "BroadphaseInterface pairCache, ConstraintSolver constraintSolver, CollisionConfiguration collisionConfiguration, SoftBodySolver softBodySolver = null) : base(Indispatcher, pairCache, constraintSolver,",
+      "full_text": "ass SoftRigidDynamicsWorld : DiscreteDynamicsWorld { private AlignedSoftBodyArray _softBodyArray; private SoftBodySolver _softBodySolver; // private ref passed to bodies during AddSoftBody private bool _ownsSolver; public SoftRigidDynamicsWorld(Dispatcher dispatcher, BroadphaseInterface pairCache, ConstraintSolver constraintSolver, CollisionConfiguration collisionConfiguration, SoftBodySolver softBodySolver = null) : base(Indispatcher, pairCache, constraintSolver,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 89,
+      "hash": "7c571c74",
+      "n_words": 44,
+      "n_chars": 277,
+      "preview_head": "s, like the long-running Frukostklubben (the breakfast club) broadcast on radio on Saturday mornings from 1946-1949 and 1955-1978 (from 1968 also on Sundays), with a mixture of music, chat and audienc",
+      "preview_tail": "io on Saturday mornings from 1946-1949 and 1955-1978 (from 1968 also on Sundays), with a mixture of music, chat and audience participation. He was known for his deep bass voice which made him suitable",
+      "full_text": "s, like the long-running Frukostklubben (the breakfast club) broadcast on radio on Saturday mornings from 1946-1949 and 1955-1978 (from 1968 also on Sundays), with a mixture of music, chat and audience participation. He was known for his deep bass voice which made him suitable",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 90,
+      "hash": "e0106b49",
+      "n_words": 137,
+      "n_chars": 800,
+      "preview_head": "occupied. The excavation discovered that the walls consisted of a core of sandstone and clay surrounded by pointed mortar, with foundations of stone slabs set on clay. Extensive areas of burning and c",
+      "preview_tail": "in the clay that were vertical on one side and sloping on the other. These were identified as ard (plough) marks that were likely to date to the late neolithic or early bronze age periods and are cert",
+      "full_text": "occupied. The excavation discovered that the walls consisted of a core of sandstone and clay surrounded by pointed mortar, with foundations of stone slabs set on clay. Extensive areas of burning and charcoal were discovered within the turret which could represent a series of hearths in the door threshold and along the north wall. Other finds on the site have included a spearhead and four worked flints and a possible platform in the south west corner. The 1980 excavation removed the floor of the turret to examine the underlying clay layer. Here they discovered a series of criss-crossed grooves in the clay that were vertical on one side and sloping on the other. These were identified as ard (plough) marks that were likely to date to the late neolithic or early bronze age periods and are cert",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 91,
+      "hash": "9e350597",
+      "n_words": 85,
+      "n_chars": 498,
+      "preview_head": "after a long time in storage following a forced landing in 1993, it flew again late in 2006. It had a minor landing accident in 2008 but had a permit to fly until May 2009. The Junior did not sell, an",
+      "preview_tail": "1 and has been under construction in the hands of a number of owners in the intervening years, but never finished. Specifications References Notes Bibliography Category:1940s Belgian sport aircraft Ca",
+      "full_text": "after a long time in storage following a forced landing in 1993, it flew again late in 2006. It had a minor landing accident in 2008 but had a permit to fly until May 2009. The Junior did not sell, and the third airframe was cancelled before completion. It was purchased incomplete by Fairey in 1961 and has been under construction in the hands of a number of owners in the intervening years, but never finished. Specifications References Notes Bibliography Category:1940s Belgian sport aircraft Ca",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 92,
+      "hash": "a9a34528",
+      "n_words": 175,
+      "n_chars": 1117,
+      "preview_head": "like to share some valuable insights that might just save you from a costly mistake. As someone who has done their research on this topic, let me tell you why buying the guide without doing your due d",
+      "preview_tail": "dual user's skills & knowledge in other areas (like writing compelling ads or landing pages). Moreover, there are numerous free resources available online that offer similar information and strategies",
+      "full_text": "like to share some valuable insights that might just save you from a costly mistake. As someone who has done their research on this topic, let me tell you why buying the guide without doing your due diligence is not worth it. Facebook Ads Guide claims to be an all-in-one solution for growing trade (traffic) and sales by operating Facebook ads effectively using Jonathan Volk's precision beam technique. The finish routine promised in the product description sounds too good to be true, with a simplified framework that allegedly delivers any trick, strategy, or detail required to launch successful ad campaigns. However, after conducting some research on this topic myself \u2013 I've found several red flags and limitations of buying Facebook Ads Guide without proper understanding first. While The Finish Routine may seem like an easy-to-follow system at face value - its effectiveness depends heavily upon the individual user's skills & knowledge in other areas (like writing compelling ads or landing pages). Moreover, there are numerous free resources available online that offer similar information and strategies",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 93,
+      "hash": "d879e81f",
+      "n_words": 103,
+      "n_chars": 555,
+      "preview_head": "for the third time that year, or because SWAT needed them to consult on a case. They\u2019ll spin a wild tale to get out bearing the slightest bit of blame or responsibility, sometimes, just because they c",
+      "preview_tail": "de at dental offices that magically imbues any patient that walks in with this rare superpower\u2014excuse making. As a dentist, I\u2019ve heard some of...doozies in my time, some of which I'll share with you i",
+      "full_text": "for the third time that year, or because SWAT needed them to consult on a case. They\u2019ll spin a wild tale to get out bearing the slightest bit of blame or responsibility, sometimes, just because they can. And we all know who they are. We all have one in our family, at work, at the gym, in the government, etc. But there seems to be something in the fluoride at dental offices that magically imbues any patient that walks in with this rare superpower\u2014excuse making. As a dentist, I\u2019ve heard some of...doozies in my time, some of which I'll share with you i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 94,
+      "hash": "573b8bc5",
+      "n_words": 21,
+      "n_chars": 331,
+      "preview_head": "ervice(Context.CONNECTIVITY_SERVICE); if (cm.getNetworkInFo(ConnectivityManager.TYPE_MOBILE).isConnected() || cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnected()) { //connected } else { //n",
+      "preview_tail": "nectivityManager.TYPE_WIFI).isConnected()) { //connected } else { //not connected } And set the permissions in AndroidManifest <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+      "full_text": "ervice(Context.CONNECTIVITY_SERVICE); if (cm.getNetworkInFo(ConnectivityManager.TYPE_MOBILE).isConnected() || cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnected()) { //connected } else { //not connected } And set the permissions in AndroidManifest <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 95,
+      "hash": "823f1fe4",
+      "n_words": 202,
+      "n_chars": 661,
+      "preview_head": "Sacramento Autonomous Vehicle Regulators (CA DMV) - ckl1810 https://medium.com/@chriskelvinlee/letter-to-sacramento-autonomous-vehicle-regulatoHuman- Letter to Sacramento Autonomous Vehicle Regulators",
+      "preview_tail": " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "full_text": "Sacramento Autonomous Vehicle Regulators (CA DMV) - ckl1810 https://medium.com/@chriskelvinlee/letter-to-sacramento-autonomous-vehicle-regulatoHuman- Letter to Sacramento Autonomous Vehicle Regulators (CA DMV) https://medium.com/@chriskelvinlee/letter-to-sacramento-autonomous-vehicle-regulato - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 96,
+      "hash": "cdfafdcf",
+      "n_words": 317,
+      "n_chars": 2190,
+      "preview_head": "iabetes is characterized by a near-absolute deficiency of insulin secretion. More recently, advances in genetics and a better appreciation of the atypical features of DM has resulted in more categorie",
+      "preview_tail": "o discuss briefly monogenic forms because these patients may develop microalbuminuria and should be differentiated from classical T\\({}_{z}\\)D. ### Insulin resistance syndrome or metabolic X Insuin is",
+      "full_text": "iabetes is characterized by a near-absolute deficiency of insulin secretion. More recently, advances in genetics and a better appreciation of the atypical features of DM has resulted in more categories of diabetes. In the context of kidney disease, patients with DM and microalbuminuria are more inline to have classical type 2 or monogenic forms while those who develop macroproteinuric renal failure resemble individuals from ethnic minorities presenting as young adults (youth-onset) without insulin resistance. ## Introduction The term 'diabetes' was first coined by the Greek physician Aretaeus of Cappadocia in his book _On Diseases_ around 100 ad. The word diabetes means a siphon or to run through, and this refers specificallyto polyuria [1]. It is only recently that we have begun appreciating how heterogeneous DM actually can be clinically. DM has been traditionally classified into type-2 (T\\({}_{z}\\)D), which comprises 90% of all individuals with diabetes; insulin-dependent or ketosis-prone TID, also known as juvenile-onset and adult onset. The latter two terms are imprecise because young people may have classical non-insulin dependent DM [NIDD] while adults can develop IDDM. More recently the American Diabetes Association (ADA) has proposed a new classification that is based upon pathophysiology rather than age of presentation: insulin resistance, impaired \\(\\beta\\)-cell function and/or excessive hepatic glucose production. This definition does not account for an increasingly recognized group with diabetes secondary to genetic mutations [2]. DM may be classified into the following categories: * Type-1 Monogenic forms (maturity-onset DM in youth) Type 3a: gestational diabetics who progress and remain diabetic postpartum. ### Insulin resistance syndrome, metabolic X or Syndrome Z - a form of type-z diabetes? In this chapter we shall focus on the insulin resistant syndromes that are increasingly recognized as being associated with renal disease. We will also discuss briefly monogenic forms because these patients may develop microalbuminuria and should be differentiated from classical T\\({}_{z}\\)D. ### Insulin resistance syndrome or metabolic X Insuin is",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 97,
+      "hash": "c814fe4c",
+      "n_words": 278,
+      "n_chars": 1679,
+      "preview_head": "ayed, we celebrated! \u2013 Youth Jam 2019 was a smashing hit! A - Z of Homeschooling Activities BOOKSHELF CLI CLiC Activities Commentary Conferences & Seminars Cooperative Learning Initiative Creativity C",
+      "preview_tail": "er 2013 (5) October 2013 (1) September 2013 (1) August 2013 (2) July 2013 (2) June 2013 (4) May 2013 (8) April 2013 (2) March 2013 (4) February 2013 (3) January 2013 (5) December 2012 (2) October 2012",
+      "full_text": "ayed, we celebrated! \u2013 Youth Jam 2019 was a smashing hit! A - Z of Homeschooling Activities BOOKSHELF CLI CLiC Activities Commentary Conferences & Seminars Cooperative Learning Initiative Creativity Culture & Lifestylr Homeschooling Kids International Homeschooling In the news Our home schooling experience Outings and Networking Activities Parenting Personal Programs and activities Publications Questions & Answers Resource & Materials Seminars, Conference Dialogues & Talks Socialization special needs Starting Homeschool Talks Thoughts and Ideas Uncategorized Unschooling Lessons Workshops Archives Archives Select Month July 2019 (1) April 2019 (2) March 2019 (3) February 2019 (1) January 2019 (2) December 2018 (2) November 2018 (3) October 2018 (1) September 2018 (3) August 2018 (1) July 2018 (1) June 2018 (3) May 2018 (3) April 2018 (1) January 2018 (5) October 2017 (1) August 2017 (2) June 2017 (2) May 2017 (1) February 2017 (1) January 2017 (4) December 2016 (2) November 2016 (2) October 2016 (2) September 2016 (2) August 2016 (1) July 2016 (1) June 2016 (1) May 2016 (2) March 2016 (3) February 2016 (1) January 2016 (4) December 2015 (1) October 2015 (1) August 2015 (2) July 2015 (2) June 2015 (3) May 2015 (2) April 2015 (1) March 2015 (4) February 2015 (2) January 2015 (7) December 2014 (6) October 2014 (3) September 2014 (5) August 2014 (1) July 2014 (1) June 2014 (4) May 2014 (1) April 2014 (4) March 2014 (2) February 2014 (3) January 2014 (6) December 2013 (5) October 2013 (1) September 2013 (1) August 2013 (2) July 2013 (2) June 2013 (4) May 2013 (8) April 2013 (2) March 2013 (4) February 2013 (3) January 2013 (5) December 2012 (2) October 2012",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 98,
+      "hash": "1cac9b7c",
+      "n_words": 166,
+      "n_chars": 1157,
+      "preview_head": "ily locked because of excess postingas part of our newanti-spam measures. Please wait until this time expires before attempting another submission. If an error has occurred please try refreshing and s",
+      "preview_tail": "serve user data integrity and security each memberis given the option of having all personal records removed after leaving a forum or bulletin-board.Youshould ask for assistance in thesesituations as ",
+      "full_text": "ily locked because of excess postingas part of our newanti-spam measures. Please wait until this time expires before attempting another submission. If an error has occurred please try refreshing and submitting again. Ifyou believethat any attempt to post which is in violation of the rules or policies was unintentional, a moderator will benotifiedwhen they next reviewyour account details for possible reinstatementwithin 24 hours. Please waitat least one day beforepostinganother message. Thank You!Note: The administrator mayhave deleted information about youfrom this board; topreserve user data integrity andsecurity each memberisgiven the option of having all personal records removed after leaving a forum or bulletin-board. You should ask for assistance in these situations as only administrators can help, they will not respond if there are no details available. Note:The administrator may have deleted information about you from this board; to preserve user data integrity and security each memberis given the option of having all personal records removed after leaving a forum or bulletin-board.Youshould ask for assistance in thesesituations as ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 99,
+      "hash": "36fe0a45",
+      "n_words": 177,
+      "n_chars": 1420,
+      "preview_head": "Sweden, Switzerland, Taiwan, Thailand, Turkey, Ukraine, United Arab Emirates, the UK, and the USA. The report includes a detailed analysis of key market dynamics such as drivers, restraints, trends, o",
+      "preview_tail": " Radiant Insights is a market research and consulting firm that offers syndicated reports along with customized solutions catering specifically towards client needs regarding industry trends. For more",
+      "full_text": "Sweden, Switzerland, Taiwan, Thailand, Turkey, Ukraine, United Arab Emirates, the UK, and the USA. The report includes a detailed analysis of key market dynamics such as drivers, restraints, trends, opportunities, supply chain structure, competitive landscape, pricing strategies, import/export scenarios, production patterns, consumption levels, technological advancements in extraction methods, environmental regulations impacting nickel mining activities globally. Additionally, it highlights significant mergers and acquisitions (M&A), partnerships, expansions by major players operating within the unwrought nickel market. The study also segments the global unwrought nickel industry based on product type into primary refined nickel and secondary or recycled nickel; application-wise segmentation covers stainless steel production, electroplating processes, batteries for electric vehicles & consumer electronics devices, alloy manufacturing among others. By providing insights through quantitative data supported by qualitative analysis, this report serves as an essential resource for stakeholders involved in strategic planning related to investments within the unwrought nickel sector across regions worldwide. Radiant Insights is a market research and consulting firm that offers syndicated reports along with customized solutions catering specifically towards client needs regarding industry trends. For more",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 100,
+      "hash": "99a10dee",
+      "n_words": 41,
+      "n_chars": 302,
+      "preview_head": "Clinic (Urgent Care Alternative) Accepted Health Plans Benefits of Academic Medicine Frequently Asked Questions Laboratory Locations (PDF) Pharmacy Locations Online Patient portal (MyChart) Refer a Pa",
+      "preview_tail": "Questions Laboratory Locations (PDF) Pharmacy Locations Online Patient portal (MyChart) Refer a Patient Clinical Services Physician Referral & Transfer Center Find A Specialist or Subs:Skip to main co",
+      "full_text": "Clinic (Urgent Care Alternative) Accepted Health Plans Benefits of Academic Medicine Frequently Asked Questions Laboratory Locations (PDF) Pharmacy Locations Online Patient portal (MyChart) Refer a Patient Clinical Services Physician Referral & Transfer Center Find A Specialist or Subs:Skip to main co",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 101,
+      "hash": "b39f5677",
+      "n_words": 157,
+      "n_chars": 806,
+      "preview_head": "in cardigans became common following crosses with (now extinct) red and brindle herding dogs which had more upright ear carriage. Even so, the older types of ears will turn up from time to time and di",
+      "preview_tail": "pe on for a few days, then let the ears rest for a few days and repeat again if they still aren't up. Ears can be up one daIt seems the rest of the text is missing, can you provide the rest of the tex",
+      "full_text": "in cardigans became common following crosses with (now extinct) red and brindle herding dogs which had more upright ear carriage. Even so, the older types of ears will turn up from time to time and different sorts of ear carriage can even occur in the same litter. These three cardigans are littermates. The one in the middle is a 'fluffy' and his ear type is often seen with the longer coat. Many cardigan puppy's ears will naturally be soft and not stand up until they are between 12-16 weeks old or even a little longer. Don't give up if ears don't stay up at first after the tape is removed. Put the tape on for a few days, then let the ears rest for a few days and repeat again if they still aren't up. Ears can be up one daIt seems the rest of the text is missing, can you provide the rest of the tex",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 102,
+      "hash": "3e6713f4",
+      "n_words": 38,
+      "n_chars": 257,
+      "preview_head": "and authority; and (c) distrust of the health care system. The interpretive theory, Behind the HHidden: a) Secrecy surrounding pregnancy and childbirth In postconflict Liberia, pregnancy and childbirt",
+      "preview_tail": ". The interpretive theory, Behind the HHidden: a) Secrecy surrounding pregnancy and childbirth In postconflict Liberia, pregnancy and childbirth are often shrouded in secrecy. This secrecy is rooted i",
+      "full_text": "and authority; and (c) distrust of the health care system. The interpretive theory, Behind the HHidden: a) Secrecy surrounding pregnancy and childbirth In postconflict Liberia, pregnancy and childbirth are often shrouded in secrecy. This secrecy is rooted i",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 103,
+      "hash": "9466b398",
+      "n_words": 334,
+      "n_chars": 2032,
+      "preview_head": "ue to the size of markets, the number of positions, the level of employment in the market, and the availability of data, this could make the estimate inaccurate for a specific job. How is this helpful",
+      "preview_tail": "ills do you need to be a Utility/Dishwasher? Based on job listings we searched between May 2022 and June, many companies required candidates for the position of utility dishwasher with these common qu",
+      "full_text": "ue to the size of markets, the number of positions, the level of employment in the market, and the availability of data, this could make the estimate inaccurate for a specific job. How is this helpful? This is helpful to get a general sense of the wage for this type of job and be a guide for what may be earned in this job or similar jobs. Utility/Dishwasher Today, Luby's operates 96 restaurants in Dallas, Houston, San Antonio, the Rio Grande Valley, and other locations throughoutTexas. The company also manages culinary operations at eight hospitals through its contract food service business segment - Right Taste Catering. Lubys has approximately $355 million of assets as it relates to common shareholders equity (book value) compared with a market capitalization rate under$100M. We have 3,000 employees that are dedicated and hard working. We serve over six hundred thousand guests per week at our stores so we can offer the best food in town for an affordable price. The Company is still owned by members of both families after all these years since opening its Cafeteria on January's day back then - 1947! That makes us one lucky company indeed! At Luby\u2019s, family comes before everything else. And when we say \u201cfamily,\u201d that includes not only our guests but also the people who work for and with them every single shift. What does a Utility/Dishwasher do? A utility dishwasher is responsible to clean dishes in commercial kitchens by hand or machine cleaning techniques such as scrubbing pots pans silverware glasses plates cups rinse water off food particles from surfaces before they enter into sanitizing solution while ensuring proper temperature levels during this process; then place items inside racks where detergent will remove any remaining residue left over after washing cycle has completed its task. What skills do you need to be a Utility/Dishwasher? Based on job listings we searched between May 2022 and June, many companies required candidates for the position of utility dishwasher with these common qu",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 104,
+      "hash": "b33c7a23",
+      "n_words": 45,
+      "n_chars": 254,
+      "preview_head": "this can lead to injuries. Rest and recovery are just as important as exercise itself. 5. Track Your Progress: Keeping a log of your workouts, measurements, and how you feel can help you track your pr",
+      "preview_tail": "as important as exercise itself. 5. Track Your Progress: Keeping a log of your workouts, measurements, and how you feel can help you track your progress and make adjustments as needed. If you have any",
+      "full_text": "this can lead to injuries. Rest and recovery are just as important as exercise itself. 5. Track Your Progress: Keeping a log of your workouts, measurements, and how you feel can help you track your progress and make adjustments as needed. If you have any",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 105,
+      "hash": "99eb1b77",
+      "n_words": 46,
+      "n_chars": 283,
+      "preview_head": "and Vice President are nominated on a joint ticket. The President and Political parties which have gained aT least 5% of the votes at the last presidential or legislature election may nominate a set o",
+      "preview_tail": "ties which have gained aT least 5% of the votes at the last presidential or legislature election may nominate a set of candidates direCtly. For the 2012 and 2016 elections, only Democratic Progressive",
+      "full_text": "and Vice President are nominated on a joint ticket. The President and Political parties which have gained aT least 5% of the votes at the last presidential or legislature election may nominate a set of candidates direCtly. For the 2012 and 2016 elections, only Democratic Progressive",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 106,
+      "hash": "b94b544b",
+      "n_words": 304,
+      "n_chars": 2323,
+      "preview_head": "if i cal it in didSelectRowAtIndexPath:(NSIndexPath *)indexPath it is not working. could any one help me??? thanks in advance -(void)shakeAnimation:(UILabel*) label { const int reset = 5; const int ma",
+      "preview_tail": "or.animate(withDuration: animator.animationDuration!, delay: 0, options: .curveEaseInOut, animations: { self.labelToShake.transform = CGAffineTransformMakeTranslation(-10, 0) // Reverse translation to",
+      "full_text": "if i cal it in didSelectRowAtIndexPath:(NSIndexPath *)indexPath it is not working. could any one help me??? thanks in advance -(void)shakeAnimation:(UILabel*) label { const int reset = 5; const int maxShakes = 6; //pass these as variables instead of statics or class variables if shaking two controls simultaneously static int shakes = 0; static int translate = reset; [UIView animateWithDuration:0.09-(shakes*.01) // reduce duration every shake from .09 to .04 delay:0.01f//\"To create a shaking effect for labels in iOS, you can use the Core Animation framework along with UIView properties and methods such as `transform` and `beginAnimations`. Below is an example of how you might implement this using Swift.\" Here's how to do it programmatically on your view controller or subclass: ```swift import UIKit class ViewController: UIViewController { let labelToShake = UILabel() // Change 'labelToShake' with the actual reference of your label. override func viewDidLoad() { super.viewDidLoad() // Set up your shake animation if needed, or you can use UIViewPropertyAnimator for more control and less boilerplate code. let animator = CABasicAnimation(keyPath: \"transform.rotation\") animator.duration = 0.5 // Duration of the shake effect (you might need to adjust this) labelToShake.isUserInteractionEnabled = true } func performShakeEffect() { let translationStartSize = CGSize(width: 1, height: 1) let originalFrame = CGRect(x: 0, y: 0, width: labelToShake.frame.size.width, height: labelToShake.frame.size.height) // Animation logic for shaking the UIView properties like a real shake effect in iOS does not exist out of box so we use below trick to make it work similar as if app was designed that way from start let animator = CATransaction(transactionWillBePaused: false) animator.animationDuration = 0.5 // Duration for one cycle shake animation (you might need to adjust this, too). animator.setCompletionHandler { self.performShakeEffect() } CATransaction(commit: true).setValue(animator) labelToShake.transform = CGAffineTransformMakeTranslation(10, 0) // Start translation for shaking effect UIViewPropertyAnimator.animate(withDuration: animator.animationDuration!, delay: 0, options: .curveEaseInOut, animations: { self.labelToShake.transform = CGAffineTransformMakeTranslation(-10, 0) // Reverse translation to",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 107,
+      "hash": "97216006",
+      "n_words": 198,
+      "n_chars": 1160,
+      "preview_head": "hat\u2019s the WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by FernandoPessoa. A short film by the \u2026 Continue Reading WORD? This",
+      "preview_tail": "ed for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org",
+      "full_text": "hat\u2019s the WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by FernandoPessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Antonio Pessoa. A short film by the \u2026 continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org interactive show at SXSW. A divertimento on the poetry by Fernando Pessoa. A short film by the \u2026 Continue Reading WORD? This is an experimental short film produced for the 20\u00d72.org",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 108,
+      "hash": "ecfa09d0",
+      "n_words": 39,
+      "n_chars": 257,
+      "preview_head": "(412) 461-0842| Email: info@triboro-fcu.org TRI BORO FEDERAL CREDIT UNION IS AN EQUAL OPPORTUNITY EMPLOYER Your savings federally insured to at least $250,000 and backed by the full faith and credit o",
+      "preview_tail": "RAL CREDIT UNION IS AN EQUAL OPPORTUNITY EMPLOYER Your savings federally insured to at least $250,000 and backed by the full faith and credit of the United States Government National Credit Union Admi",
+      "full_text": "(412) 461-0842| Email: info@triboro-fcu.org TRI BORO FEDERAL CREDIT UNION IS AN EQUAL OPPORTUNITY EMPLOYER Your savings federally insured to at least $250,000 and backed by the full faith and credit of the United States Government National Credit Union Admi",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 109,
+      "hash": "2488812a",
+      "n_words": 318,
+      "n_chars": 1957,
+      "preview_head": "purpose or benefit under federal law, and as an alien present in the United States without being admitted or paroled. On June 8, 2009, Ye Gon was convicted of conspiracy to distribute ephedrine knowin",
+      "preview_tail": "law. #### Relief from Removal To qualify for withholding of removal, an applicant must show a clear probability that his life or freedom would be threatened in the proposed country on account of race,",
+      "full_text": "purpose or benefit under federal law, and as an alien present in the United States without being admitted or paroled. On June 8, 2009, Ye Gon was convicted of conspiracy to distribute ephedrine knowing it would be used illegally to manufacture methamphetamine (in violation of 21 U.S.C. \u00a7 846) and sentenced on December 7, 2009 to a term of imprisonment followed by supervised release. ### Proceedings Before the Immigration Judge On January 5, 2010, an IJ conducted a hearing where Ye Gon conceded removability but sought relief from removal under various grounds. The IJ denied his applications for asylum, withholding of removal, and protection under the Convention Against Torture (CAT), finding that he was statutorily ineligible due to his conviction. ### Appeal Before the BIA Ye Gon appealed the decision to the Board of Immigration Appeals (BIA). On December 17, 2010, the BIA affirmed in part with modifications. The BIA agreed that Ye Gon's convictions rendered him categorically statutorily ineligible for asylum and withholding of removal but remanded on other issues. ### Petition for Review On March 30, 2011, Ye Gon filed a petition for review in this Court challenging the final order of removal. He argues primarily that: - The IJ erred by failing to consider his claims under CAT and withholding from Mexico. - His due process rights were violated during proceedings before both the IJ and BIA. ### Legal Standards #### Standard of Review The court reviews decisions of the BIA for substantial evidence, treating factual findings as conclusive unless any reasonable adjudicator would be compelled to conclude otherwise. See 8 U.S.C. \u00a7 1252(b)(4). The Court also conducts de novo review of questions of law and mixed questions of fact and law. #### Relief from Removal To qualify for withholding of removal, an applicant must show a clear probability that his life or freedom would be threatened in the proposed country on account of race,",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 110,
+      "hash": "4f98438a",
+      "n_words": 41,
+      "n_chars": 282,
+      "preview_head": "- Announcements: Stay updated with new releases and important information from DVD Profiler. - Website Discussion: Provide feedback or discuss features of the website itself. - Technical Support: Get ",
+      "preview_tail": " Profiler. - Website Discussion: Provide feedback or discuss features of the website itself. - Technical Support: Get help for technical issues specific to desktop, iOS, or Android versions. Contribut",
+      "full_text": "- Announcements: Stay updated with new releases and important information from DVD Profiler. - Website Discussion: Provide feedback or discuss features of the website itself. - Technical Support: Get help for technical issues specific to desktop, iOS, or Android versions. Contribut",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 111,
+      "hash": "bc36576d",
+      "n_words": 159,
+      "n_chars": 1027,
+      "preview_head": "illing to hold stocks for the long-term. Warren Buffett, for instance, took about 15 years to become a millionaire and another 22 years before he had a net worth of more than US$1 billion. His strateg",
+      "preview_tail": " they compound over years or even decades. 3. Reinvest Dividends: If you invest in dividend-paying stocks, reinvesting those dividends can significantly boost your returns through compounding. 4. Stay",
+      "full_text": "illing to hold stocks for the long-term. Warren Buffett, for instance, took about 15 years to become a millionaire and another 22 years before he had a net worth of more than US$1 billion. His strategy was built on patience, discipline, and investing in companies with strong fundamentals that could grow over time. ### The Long-Term Perspective The long-term approach is often referred to as the \"Dragon Scroll\" of investing because it seems simple but requires a rare level of commitment and understanding. Here are some key principles: 1. Focus on Quality: Invest in businesses you understand, with strong competitive advantages (moats), solid financials, and competent management. 2. Patience is Key: Great investments often take time to pay off. Avoid the temptation to trade frequently; instead, hold onto your winners as they compound over years or even decades. 3. Reinvest Dividends: If you invest in dividend-paying stocks, reinvesting those dividends can significantly boost your returns through compounding. 4. Stay",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 112,
+      "hash": "b1521c66",
+      "n_words": 64,
+      "n_chars": 402,
+      "preview_head": "ontact Us | NPEC Email Alerts | Mission NPEC Staff and Leadership Events Testimonials Books Follow @NuclearPolicy to be the first in on NPEC's latest research More of NPEC\u2019s Work A chronological listS",
+      "preview_tail": "e, I can help you with that! Here are some possible completions for each topic: Topic: Missiles and Missile Defense * Completion: \"The current state of missile defense technologies and their potential",
+      "full_text": "ontact Us | NPEC Email Alerts | Mission NPEC Staff and Leadership Events Testimonials Books Follow @NuclearPolicy to be the first in on NPEC's latest research More of NPEC\u2019s Work A chronological listSure, I can help you with that! Here are some possible completions for each topic: Topic: Missiles and Missile Defense * Completion: \"The current state of missile defense technologies and their potential",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 113,
+      "hash": "1f1f7e78",
+      "n_words": 94,
+      "n_chars": 629,
+      "preview_head": "Charitable Giving Charity of the Month Photos Contact Us Donate Menu Street Address City, State, Zip Phone Number Your Custom Text Here About Us Mission Newt Gingrich Board of Directors What We Do The",
+      "preview_tail": "piring stories about women's pivotal role in America\u2019s fight for independence during its revolutionary era when bravery knew no gender bounds! Prepare yourself; these accounts may change how one views",
+      "full_text": "Charitable Giving Charity of the Month Photos Contact Us Donate Menu Street Address City, State, Zip Phone Number Your Custom Text Here About Us Mission Newt Gingrich Board of Directors What We Do The First American Women of tHe American Revolutionary War. Our organization aims to highlight and recognize significant individuals who have made remarkable contributions throughout history... In this section, you will discover inspiring stories about women's pivotal role in America\u2019s fight for independence during its revolutionary era when bravery knew no gender bounds! Prepare yourself; these accounts may change how one views",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 114,
+      "hash": "5c746ac5",
+      "n_words": 69,
+      "n_chars": 466,
+      "preview_head": "conventional telephone has also been integrated with a video display to form a video telephone capable of transmitting audio and video information between parties. These systems add considerable compl",
+      "preview_tail": "high quality, wide band video transmission networks including two dedicated video cameras. The additional complexity and expense inherent in these systems have, to a certAin extent, limited the wide s",
+      "full_text": "conventional telephone has also been integrated with a video display to form a video telephone capable of transmitting audio and video information between parties. These systems add considerable complexity to the conventional telephone link in that they require two high quality, wide band video transmission networks including two dedicated video cameras. The additional complexity and expense inherent in these systems have, to a certAin extent, limited the wide s",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 115,
+      "hash": "a6d087fb",
+      "n_words": 74,
+      "n_chars": 412,
+      "preview_head": "ied another variation and got 50W from an 810. The best way to use power tubes in A2 mode with the step-up transformer is to use a source directly connected to the transformer secondary, without addin",
+      "preview_tail": "tors or resistors in the circuit. I later tried this arrangement with 5 tubes in series. My bias was set to 1000V, 200mA, with the grid and filament resistors shorted out to get full bias voltage. Wit",
+      "full_text": "ied another variation and got 50W from an 810. The best way to use power tubes in A2 mode with the step-up transformer is to use a source directly connected to the transformer secondary, without adding any capacitors or resistors in the circuit. I later tried this arrangement with 5 tubes in series. My bias was set to 1000V, 200mA, with the grid and filament resistors shorted out to get full bias voltage. Wit",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 116,
+      "hash": "0cc39d3e",
+      "n_words": 90,
+      "n_chars": 518,
+      "preview_head": "100 square miles of desert near US-6 between Tonopah and Ely. It contains cinder cones, lava flows and several craters. Lunar Crater, the most outstanding geological feature, is almost 4,000 feet in d",
+      "preview_tail": "oon missions. Other features include Easy Chair Crater, The Wall, Black Rock Lava Flow and over 20 other extinct volcanoes. The fantastic landscape was formed over a long period of time. As early as t",
+      "full_text": "100 square miles of desert near US-6 between Tonopah and Ely. It contains cinder cones, lava flows and several craters. Lunar Crater, the most outstanding geological feature, is almost 4,000 feet in diameter, 430 feet deep and over 400 acres in size. In the late 1960's it was used to train astronauts for the Apollo moon missions. Other features include Easy Chair Crater, The Wall, Black Rock Lava Flow and over 20 other extinct volcanoes. The fantastic landscape was formed over a long period of time. As early as t",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 117,
+      "hash": "fac85efc",
+      "n_words": 317,
+      "n_chars": 2761,
+      "preview_head": "love to help with your Christmas spirit! However, there are several potential problems in the code snippet provided: 1. Missing password: You've left out the actual username and/or password for authen",
+      "preview_tail": "myConn.Close() Catch ex As Exception When TypeOf (ex) = typeof(MySqlException) Console.WriteLine(\"Error connecting to database: \" & Ex.Message) ElseIfType(ex)=typeof(Exception) Throw New ApplicationEx",
+      "full_text": "love to help with your Christmas spirit! However, there are several potential problems in the code snippet provided: 1. Missing password: You've left out the actual username and/or password for authentication. 2. Incorrect connection string format Here's an updated version of what you should use as a MySQL data source. ```vbnet Imports System.Data.MySqlClient Module Module1 Sub Main() Dim connectionString As String = \"Host=127\\0\\.0\\1;User ID=root;Password=password;Database=engr_log\" Try Using myconn AS New MySqlConnection(connectionString) 'Open the connection to your database If Not myConn.Open() Then Throw (New Exception(\"Could not open MySQL Connection\")) Dim query As String = \"INSERT INTO log_tbl ('ID', owner_name, business_name ,Amount_paid,Llocation) VALUES (@Id,@ownerName @BusinessName,AmmountPaidLocation)\" Using cmd AS New MySqlCommand(query myconn) 'Create command object Withcmd.Parameters.AddWithValue(\"@Id\", Nothing) Dim reader As MySqlDataReader = cmd.ExecuteReader() While Not (reader Is Nothing And reader.Read()) Console.WriteLine(reader(\"ID\") + \" |\" + String.Format(\"{0} \", reader (\"owner_name\"))+ \" \"+String.format('{1}',.reader(\"businessname\"))) EndWhile 'Clean up the command object. cmd.Parameters.Clear() end using Using reader As MySqlDataReader = myconn.ExecuteReader() While Not (reader Is Nothing And reader.Read()) Console.WriteLine(reader(\"ID\") + \" |\" +\" \"+String.format('{0}',.Reader (\"businessname\"))+\" \"+\"{1}\",.Readers (\"Amountpaid\")) EndWhile end using 'Clean up the connection object. myConn.Close() Catch ex As Exception When TypeOf (ex) = typeof(MySqlException) Console.WriteLine(\"Error connecting to database: \" & ex.Message) ElseIfType(ex)=typeof(Exception) Throw New ApplicationExceptions (\"An error occurred while trying connect\") End If end using Next Console.ReadLine() 'Keep the console window open before exiting. Sub getall() Try Dim myconn As MySqlConnection = Nothing Using myConn AS New MySqlConnection(\"Data Source=127.0.0;Initial Catalog=engr_log.mdf ;Integrated Security=True\") If Not MyConn.Open Then Throw (New Exception (\"Could not open MySQL Connection\")) 'Open the connection to your database Dim command As MySqlCommand = new MySqlCommand('SELECT * FROM log_tbl',myconn) Using cmd as New MySqlCommand(query myconn) Withcmd.Parameters.AddWithValue(\"@Id\", Nothing) For Each row AS DataRow In cmd.ExecuteReader() Console.WriteLine(row(\"ID\") + \" |\" +\" \"+ String.format('{0}',row (\"owner_name\"))+\" \"+\"{1}\",(row (\"businessname\"))) End While 'Clean up the command object. cmd.Parameters.Clear() Next myConn.Close() Catch ex As Exception When TypeOf (ex) = typeof(MySqlException) Console.WriteLine(\"Error connecting to database: \" & Ex.Message) ElseIfType(ex)=typeof(Exception) Throw New ApplicationEx",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 118,
+      "hash": "1ac2eee2",
+      "n_words": 130,
+      "n_chars": 1073,
+      "preview_head": "ialogue-driven narrativeis enhanced by strong performances fromRobert Peters as Revd Peters and Collin Gaveck as the charismaticCaptain Jones, whose storytelling prowess captivates bothhis audience wi",
+      "preview_tail": "beliefswhile enjoying an entertaining narrative. Overall, \"The Captain's Story\" is a thought-provoking adaptationof Mark Twain\u2019s lesser-known work, offering both entertainment and food for thought th ",
+      "full_text": "ialogue-driven narrativeis enhanced by strong performances fromRobert Peters as Revd Peters and Collin Gaveck as the charismaticCaptain Jones, whose storytelling prowess captivates bothhis audience within the storyandviewerswatching the film. Ron Bowenalso deliversa memorable performance in a supporting rolethat adds depthto the storyline. Visually, \"The Captain's Story\" benefitsfrom Travis Mills' direction, whichemphasizes theconfined settingof the shipwhile allowingfor expansive discussions on philosophy and theology. The cinematography captures the isolation of seatravel,enhancing theintrospective nature of the conversations betweenJones and Peters. Mills also succeeds in maintaining a balance between humor andseriousness, ensuring that the film remains engaging without becoming preachyor overlydidactic. This approach allows audiences to reflect ontheir own beliefswhile enjoying an entertaining narrative. Overall, \"The Captain's Story\" is a thought-provoking adaptationof Mark Twain\u2019s lesser-known work, offering both entertainment and food for thought th ",
+      "avg_prediction": 0.0
+    },
+    {
+      "idx": 119,
+      "hash": "d0c9e6a2",
+      "n_words": 46,
+      "n_chars": 277,
+      "preview_head": "wing this medical procedure will be a great tool for personal and professional needs. The University of Texas at Brownsville website uses Javascript. your browser either doesn't support Javascript or ",
+      "preview_tail": "l needs. The University of Texas at Brownsville website uses Javascript. your browser either doesn't support Javascript or you have it turned off. to access this page as it is meant to function please",
+      "full_text": "wing this medical procedure will be a great tool for personal and professional needs. The University of Texas at Brownsville website uses Javascript. your browser either doesn't support Javascript or you have it turned off. to access this page as it is meant to function please",
+      "avg_prediction": 0.0
+    }
+  ]
+}

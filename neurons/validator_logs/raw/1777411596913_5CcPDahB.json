@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-04-28T21:26:36.913168+00:00",
+  "validator_hotkey": "5CcPDahBfq4J92C91PnYR9XQh9Un3SMPyovFY3EjX2pNsn32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 3,
+  "duplicates": [],
+  "latency_ms": 1817,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "f450d9fe",
+      "n_words": 45,
+      "n_chars": 282,
+      "preview_head": "). Collisions block both rooms in given time frames without negotiation impact for use or staff availability):\u200c Use this guide below: * From 8am until close select only open room label beneath and inc",
+      "preview_tail": " use or staff availability):\u200c Use this guide below: * From 8am until close select only open room label beneath and include user ID+conference theme.VIPs have full priority on Priority Rooms(1-5) up to",
+      "full_text": "). Collisions block both rooms in given time frames without negotiation impact for use or staff availability):\u200c Use this guide below: * From 8am until close select only open room label beneath and include user ID+conference theme.VIPs have full priority on Priority Rooms(1-5) up to",
+      "avg_prediction": 0.9848
+    },
+    {
+      "idx": 1,
+      "hash": "95f1d518",
+      "n_words": 95,
+      "n_chars": 642,
+      "preview_head": "ross different age groups. For example, the younger generation of female internal migrants has levels of mental distress than their older counterparts ([@bb0150]). The above studies suggest a need for",
+      "preview_tail": "onal students who are studying at universities in Germany, as well as their non-chinese german counterparts. the sections provide a brief overview of the research context---Germany---and its most impo",
+      "full_text": "ross different age groups. For example, the younger generation of female internal migrants has levels of mental distress than their older counterparts ([@bb0150]). The above studies suggest a need for further research on the effects of migration and life transitions in general on students' social adaptation and adjustment to college life (see also [@bb0165]). The present study focuses on this issue. It is conducted among Chinese international students who are studying at universities in Germany, as well as their non-chinese german counterparts. the sections provide a brief overview of the research context---Germany---and its most impo",
+      "avg_prediction": 0.9495
+    },
+    {
+      "idx": 2,
+      "hash": "9965698a",
+      "n_words": 137,
+      "n_chars": 930,
+      "preview_head": "that by projecting what you have into an anonymous type: var query=context.Modules .Where(m=>m.IsEnabled && m.ModuleScreen.IsEnabled) .Select(m=>new { Id = m.Id, IsEnabled = m.IsEnabled, ModuleScreen ",
+      "preview_tail": "This method enables you to retrieve all the enabled components and their nested enabled component screens in a single database, instead of having to perform three distinct requests as you mentioned in",
+      "full_text": "that by projecting what you have into an anonymous type: var query=context.Modules .Where(m=>m.IsEnabled && m.ModuleScreen.IsEnabled) .Select(m=>new { Id = m.Id, IsEnabled = m.IsEnabled, ModuleScreen = m.ModuleScreen.Where(ms=>ms.IsEnabled) }); This will get you a single query that retrieves all enabled components and their nested enabled module screens. Note that I'm saying you're using Entity Framework as your ORM, and that you have a `context` object that reflects your DB context. However, I'm creating the `Where` method to filter the results based on the `IsEnabled` property of the `Module` and `ModuleScreen` entities, and the `Select` method to project the results into an anonymous type with the desired properties. This method enables you to retrieve all the enabled components and their nested enabled component screens in a single database, instead of having to perform three distinct requests as you mentioned in",
+      "avg_prediction": 0.6902
+    }
+  ]
+}

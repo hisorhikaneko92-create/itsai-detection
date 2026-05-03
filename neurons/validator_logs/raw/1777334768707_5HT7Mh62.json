@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-04-28T00:06:08.707346+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 2,
+  "duplicates": [],
+  "latency_ms": 2132,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "dcbbbbf6",
+      "n_words": 243,
+      "n_chars": 1681,
+      "preview_head": "e Metamagnetic Transition in FeRh via Hard X-ray Photoemission, Phys. Rev. Lett. 108, 257208 (2012). [link] N. B. Aetukuri, A. X. Gray et al., Control of the Metal-Insulator Transition in Vanadium Dio",
+      "preview_tail": "pectroscopy (HAXPES), J. Woicik, Ed. (Springer, 2016). S. Nemsak, A. X. Gray, and C. S. Fadley, Standing-Wave and Resonant Soft- and Hard- X-Ray Photoelectron Spectroscopy of Oxide Interfaces, invited",
+      "full_text": "e Metamagnetic Transition in FeRh via Hard X-ray Photoemission, Phys. Rev. Lett. 108, 257208 (2012). [link] N. B. Aetukuri, A. X. Gray et al., Control of the Metal-Insulator Transition in Vanadium Dioxide by Modifying Orbital Occupancy, Nature Physics 9, 661 (2013). [link] A. X. Gray et al., Momentum-Resolved Electronic Structure at a Buried Interface from Soft X-ray Standing-Wave Angle-Resolved Photoemission, Europhys. Lett. 104, 17004 (2013). [link] A. X. Gray, Future Directions in Standing-Wave Photoemission, J. Electron Spectrosc. Relat. Phenom. 195, 399 (2014). [link] A. X. Gray et al., Interface Properties of Magnetic Tunnel Junction LSMO/STO Superlattices Studied by Standing-Wave Excited Photoemission Spectroscopy, Phys. Rev. B 82, 205116 (2010). [link] A. X. Gray et al., Standing-Wave Excited Soft X-Ray Photoemission Microscopy: Application to Co Microdot Magnetic Arrays, Appl. Phys. Lett. 97, 062503 (2010). [link] A. M. Kaiser, A. X. Gray et al., Suppression of Near-Interface Electronic States at the Fermi Level of LaNiO3/SrTiO3 Superlattices, Phys. Rev. Lett. 107, 116402 (2011). [link] S. X-L. Sun, A. P. Kaduwela, A. X. Gray, and C. S. Fadley, Progress Toward Time-Resolved Molecular Imaging: a theoretical Study of Optimal Parameters in Static Photoelectron Holography, Phys. Rev. A 89, 053415 (2014). [link] Book Chapters A. X. Gray, Hard X-ray Angle-Resolved Photoelectron Spectroscopy (HARPES), invited chapter in the book Hard X-ray Photoelectron Spectroscopy (HAXPES), J. Woicik, Ed. (Springer, 2016). S. Nemsak, A. X. Gray, and C. S. Fadley, Standing-Wave and Resonant Soft- and Hard- X-Ray Photoelectron Spectroscopy of Oxide Interfaces, invited",
+      "avg_prediction": 0.8061
+    },
+    {
+      "idx": 1,
+      "hash": "ed9981b5",
+      "n_words": 147,
+      "n_chars": 880,
+      "preview_head": "element in constant time. The operation that is O(logn) is insertion. As others have mentioned, pop is also O(logn) because it will remove the smallest (or largest) element, and then force a re-orderi",
+      "preview_tail": "al with height. But if we talk about priority_queue (which uses heap internally) in C++, then it provides O( \\ ) access for top element using its methods like 'top' and so on; but still insertion/dele",
+      "full_text": "element in constant time. The operation that is O(logn) is insertion. As others have mentioned, pop is also O(logn) because it will remove the smallest (or largest) element, and then force a re-ordering to ensure thThe answer provided seems contradictory as you first state \"O(\\)\" complexity but later mention that finding minimum/maximum in max or min heap takes logarithmic time. However if we are talking about just the operation of getting maximum (or mimimum) element, then it is O( \\logn \\*) for a binary-heap and not constant as mentioned by you earlier because to get this value from root node one has traverse down tree through multiple levels which takes time proportional with height. But if we talk about priority_queue (which uses heap internally) in C++, then it provides O( \\ ) access for top element using its methods like 'top' and so on; but still insertion/dele",
+      "avg_prediction": 0.9816
+    }
+  ]
+}

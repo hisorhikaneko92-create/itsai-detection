@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-04-28T13:37:44.394776+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 11060,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "989f8a2f",
+      "n_words": 179,
+      "n_chars": 1119,
+      "preview_head": "oduxes a size in a box %% %\\draw[red] (c) node {\\pdftooltip{\\textbullet}{This is the intersection point\\textCR of the two lines!}}; %% 3 - produces an error %% % \"\\fill[red] (c) circle (2pt);\" can not",
+      "preview_tail": " point\\textCR of the two lines!}% }; However, for circles this seems to generate a rectangle which fits into the circle not around it. For multiple paths you can use a scope and track the bounding box",
+      "full_text": "oduxes a size in a box %% %\\draw[red] (c) node {\\pdftooltip{\\textbullet}{This is the intersection point\\textCR of the two lines!}}; %% 3 - produces an error %% % \"\\fill[red] (c) circle (2pt);\" can not be put in a box to measure the size %\\pdftooltip{\\fill[red] (c) circle (2pt);}{This is the intersection point\\textCR of the two lines!}} \\end{tikzpicture} \\end{document} Is there a way that part of a TikZ graphic does produce a size when set into a box? A: I would make the tooltip part of the path. Then you can access the paths bounding box using current path bounding box and measure its dimensions. \\fill[red] (c) circle (2pt) let \\p1 = (current path bounding box.south west), \\p2 = (current path bounding box.north east) in node at (current path bounding box) {% should be in the center of the current path \\pdftooltip{\\rule{\\dimexpr\\x2-\\x1\\relax}{0pt}\\rule{0pt}{\\dimexpr\\y2-\\y1\\relax}}% {This is the intersection point\\textCR of the two lines!}% }; However, for circles this seems to generate a rectangle which fits into the circle not around it. For multiple paths you can use a scope and track the bounding box",
+      "avg_prediction": 0.9149
+    },
+    {
+      "idx": 1,
+      "hash": "9dda7491",
+      "n_words": 55,
+      "n_chars": 346,
+      "preview_head": "rt, reality would indeed be unbearable - a sentiment that resonates deeply with Shaw's own views on the subject. Perhaps more is Stanely Weintraub's discussion of the extended context of this quotatio",
+      "preview_tail": "'s discussion of the extended context of this quotation in his edited collection of Shaw's art criticism: Bernard Shaw on the London Art Scene, 1885-1950 (p. 32-33): \"But Arjillax, having matured from",
+      "full_text": "rt, reality would indeed be unbearable - a sentiment that resonates deeply with Shaw's own views on the subject. Perhaps more is Stanely Weintraub's discussion of the extended context of this quotation in his edited collection of Shaw's art criticism: Bernard Shaw on the London Art Scene, 1885-1950 (p. 32-33): \"But Arjillax, having matured from",
+      "avg_prediction": 0.9743
+    },
+    {
+      "idx": 2,
+      "hash": "ec6c39a8",
+      "n_words": 37,
+      "n_chars": 263,
+      "preview_head": "rticipate in the upcoming RBCCapital Markets' Healthcare Conference to be held on February [insert date]atTheNew York Palace Hotel,455 Madison Avenue, NewYork City. Dr.Wotton is scheduled to present a",
+      "preview_tail": "ence to be held on February [insert date]atTheNew York Palace Hotel,455 Madison Avenue, NewYork City. Dr.Wotton is scheduled to present an overview of Antares Pharma's businesS and products as wellas ",
+      "full_text": "rticipate in the upcoming RBCCapital Markets' Healthcare Conference to be held on February [insert date]atTheNew York Palace Hotel,455 Madison Avenue, NewYork City. Dr.Wotton is scheduled to present an overview of Antares Pharma's businesS and products as wellas ",
+      "avg_prediction": 0.4353
+    },
+    {
+      "idx": 3,
+      "hash": "19ff1927",
+      "n_words": 64,
+      "n_chars": 442,
+      "preview_head": "ch.rand(10, requires_grad=True).cuda() >>> b.is_leaf False # b was created by the operation that cast a cpu Tensor into acuda Tensor Citing documentation further: ForTensorsthat have requires_gradwhic",
+      "preview_tail": " were created by theuser.This meansthat they are not the result ofan operation and so grad_fn is None. In yourcase,Tensor wasnot created by you, but was createdby PyTorch's cuda() operation(leaf is t ",
+      "full_text": "ch.rand(10, requires_grad=True).cuda() >>> b.is_leaf False # b was created by the operation that cast a cpu Tensor into acuda Tensor Citing documentation further: ForTensorsthat have requires_gradwhichis True,they will be leaf Tensors if they were created by theuser.This meansthat they are not the result ofan operation and so grad_fn is None. In yourcase,Tensor wasnot created by you, but was createdby PyTorch's cuda() operation(leaf is t ",
+      "avg_prediction": 0.2998
+    },
+    {
+      "idx": 4,
+      "hash": "a7ccac47",
+      "n_words": 48,
+      "n_chars": 288,
+      "preview_head": "pe population with immigration for both types. For the stochastic model we consider the case where the rates are time dependent, and also when they are constant, as is the case in our AIDS application",
+      "preview_tail": "case where the rates are time dependent, and also when they are constant, as is the case in our AIDS application. We de...considered an additional type to account for mixing between individuals of dif",
+      "full_text": "pe population with immigration for both types. For the stochastic model we consider the case where the rates are time dependent, and also when they are constant, as is the case in our AIDS application. We de...considered an additional type to account for mixing between individuals of dif",
+      "avg_prediction": 0.9723
+    },
+    {
+      "idx": 5,
+      "hash": "8f4c0929",
+      "n_words": 110,
+      "n_chars": 706,
+      "preview_head": "worldwide; a shocking number for the author who had expected their home country to rank highly in comparison with other nations due its global Standing on this issue--but instead discovered no mention",
+      "preview_tail": "ill an estimated 57,000-63,000 people forced into modern slavery nationally. That\u2019s an astonishing number. If you\u2019re not astonished, imagine how astonished you would be if someone gave you 57,000 doll",
+      "full_text": "worldwide; a shocking number for the author who had expected their home country to rank highly in comparison with other nations due its global Standing on this issue--but instead discovered no mention of America within these top rankings! This led them into questioning why such discrepancies exist between what one might assume about certain regions' involvement when considering how prevalent slavery still seems be today. I did not find relief in learning that my home country ranked 134th. There are still an estimated 57,000-63,000 people forced into modern slavery nationally. That\u2019s an astonishing number. If you\u2019re not astonished, imagine how astonished you would be if someone gave you 57,000 doll",
+      "avg_prediction": 0.9745
+    },
+    {
+      "idx": 6,
+      "hash": "ef958944",
+      "n_words": 165,
+      "n_chars": 882,
+      "preview_head": "guri Formula E Team - Driver 1: Antonio Garc\u00eda - Driver 2: Dean Stoneman 2. Andretti Autosport - Driver 1: Jean-\u00c9ric Vergne - Driver 2: Salvador Dur\u00e1n 3. Audi Sport ABT - Driver 1: Lucas di Grassi - D",
+      "preview_tail": "ila 10. Venturi Formula E Team - Driver 1: Nick Heidfeld - Driver 2: St\u00e9phane Sarrazin The 2014\u201315 Formula E season was a significant milestone in the world of motorsport, marking the beginning of a n",
+      "full_text": "guri Formula E Team - Driver 1: Antonio Garc\u00eda - Driver 2: Dean Stoneman 2. Andretti Autosport - Driver 1: Jean-\u00c9ric Vergne - Driver 2: Salvador Dur\u00e1n 3. Audi Sport ABT - Driver 1: Lucas di Grassi - Driver 2: Salvador Dur\u00e1n (replaced by Daniel Abt after the first race) 4. China Racing - Driver 1: Ho-Pin Tung - Driver 2: Charles Pic 5. Dale Coyne Racing - Driver 1: Franck Montagny - Driver 2: Simon Pagenaud 6. Dragon Racing - Driver 1: J\u00e9r\u00f4me d'Ambrosio - Driver 2: Lo\u00efc Duval 7. Mahindra Racing - Driver 1: Karun Chandhok - Driver 2: Bruno Senna 8. Team Aguri - Driver 1: Antonio Garc\u00eda - Driver 2: Dean Stoneman 9. Team Virgin Racing - Driver 1: Sam Bird - Driver 2: Rodolfo \u00c1vila 10. Venturi Formula E Team - Driver 1: Nick Heidfeld - Driver 2: St\u00e9phane Sarrazin The 2014\u201315 Formula E season was a significant milestone in the world of motorsport, marking the beginning of a n",
+      "avg_prediction": 0.9791
+    },
+    {
+      "idx": 7,
+      "hash": "90adb911",
+      "n_words": 230,
+      "n_chars": 1429,
+      "preview_head": ": First Punic War : article by Polybius of Megalopolis Polybius: the First Punic War According to the Greek historian Polybius of Megalopolis (c.200-c.118), the First Punic War (264-241) between Carth",
+      "preview_tail": " controlled nearby territories in eastern coastal areas around the Strait of Sicily. This strategic position allowed them to extract tributes from various parts throughout much if what is now called \"",
+      "full_text": ": First Punic War : article by Polybius of Megalopolis Polybius: the First Punic War According to the Greek historian Polybius of Megalopolis (c.200-c.118), the First Punic War (264-241) between Carthage and Rome was \"the longest and most severely contested war in history\". And indeed, it lasted almost a quarter of a century and probably, a million people lost their lives. In the end, Rome had conquered the island of Sicily, and had become a Mediterranean superpower. Polybius' World History was translated by W.R. Paton. Mamertine coin, showing the war god and a bull (\u00a9!!) Book 1, chapter 8 The Mamertines (for this was the name adopted by the Campanians after their seizure of Messana) as long as they enjoyed the alliance of the Romans together with the Campanians who had occupied Rhegium, not only remained in secure possession of their own city and territory but caused no little trouble to the Carthaginians and Syracusans about the adjacent territories, levying tribute from many parts of Sicily. When, howevThe Mamertines were a group that adopted this name after seizing Messana (modern-day Messina). With their allies' support\u2014the Romans and Campanians occupying Rhegium \u2014 they not only held onto Mesanna but also controlled nearby territories in eastern coastal areas around the Strait of Sicily. This strategic position allowed them to extract tributes from various parts throughout much if what is now called \"",
+      "avg_prediction": 0.6457
+    },
+    {
+      "idx": 8,
+      "hash": "faff1e96",
+      "n_words": 279,
+      "n_chars": 1580,
+      "preview_head": "notified of exlcusive offers and updates Your email The item was added to your cart View cart Check out I understand This website uses cookies to understand how you interact with us and to support pro",
+      "preview_tail": "Luxembourg (EUR \u20ac) Malta (EUR \u20ac) Monaco (EUR \u20ac) Montenegro (EUR \u20ac) Netherlands (EUR \u20ac) New Zealand (NZD $) Portugal (EUR \u20ac) San Marino (EUR \u20ac) Singapore (SGD $) Slovakia (EUR \u20ac) Slovenia (EUR \u20ac) Spain",
+      "full_text": "notified of exlcusive offers and updates Your email The item was added to your cart View cart Check out I understand This website uses cookies to understand how you interact with us and to support processing orders. By continuing you agree to accept our privacy policy, including use of cookies. I understand Help Free Returns Your Account Contact Privacy Policy Terms Of Service Twitter Facebook Instagram Snapchat YouTube Country/region Andorra (EUR \u20ac) Australia (AUD $) Austria (EUR \u20ac) Belgium (EUR \u20ac) Canada (CAD $) Cyprus (EUR \u20ac) Denmark (DKK kr.) Estonia (EUR \u20ac) Finland (EUR \u20ac) France (EUR \u20ac) Germany (EUR \u20ac) Greece (EUR \u20ac) Hong Kong SAR (HKD $) Ireland (EUR \u20ac) Italy (EUR \u20ac) Japan (JPY \u00a5) Kosovo (EUR \u20ac) Latvia (EUR \u20ac) Lithuania (EUR \u20ac) Luxembourg (EUR \u20ac) Malta (EUR \u20ac) Monaco (EUR \u20ac) Montenegro (EUR \u20ac) Netherlands (EUR \u20ac) New Zealand (NZD $) Portugal (EUR \u20ac) San Marino (EUR \u20ac) Singapore (SGD $) Slovakia (EUR \u20ac) Slovenia (EUR \u20ac) Spain (EUR \u20ac) Sweden (SEK kr) United Kingdom (GBP \u00a3) United States (USD $) Update country/region Country/region United States (USD $) Andorra (EUR \u20ac) Australia (AUD $) Austria (EUR \u20ac) Belgium (EUR \u20ac) Canada (CAD $) Cyprus (EUR \u20ac) Denmark (DKK kr.) Estonia (EUR \u20ac) Finland (EUR \u20ac) France (EUR \u20ac) Germany (EUR \u20ac) Greece (EUR \u20ac) Hong Kong SAR (HKD $) Ireland (EUR \u20ac) Italy (EUR \u20ac) Japan (JPY \u00a5) Kosovo (EUR \u20ac) Latvia (EUR \u20ac) Lithuania (EUR \u20ac) Luxembourg (EUR \u20ac) Malta (EUR \u20ac) Monaco (EUR \u20ac) Montenegro (EUR \u20ac) Netherlands (EUR \u20ac) New Zealand (NZD $) Portugal (EUR \u20ac) San Marino (EUR \u20ac) Singapore (SGD $) Slovakia (EUR \u20ac) Slovenia (EUR \u20ac) Spain",
+      "avg_prediction": 0.788
+    },
+    {
+      "idx": 9,
+      "hash": "4c4f03ac",
+      "n_words": 49,
+      "n_chars": 304,
+      "preview_head": "moon we still get to see some genuinely startling examples of the craft primarily supplied from the fringes of popular music. This time it's the turn of Pedro Maia's colour-saturated symbolism for tro",
+      "preview_tail": "ges of popular music. This time it's the turn of Pedro Maia's colour-saturated symbolism for tropic Of Cancer, Dave Ma's balet-noir for Forest Swords and Jon Rafman's harsh art-piece for Oneohtrix Poi",
+      "full_text": "moon we still get to see some genuinely startling examples of the craft primarily supplied from the fringes of popular music. This time it's the turn of Pedro Maia's colour-saturated symbolism for tropic Of Cancer, Dave Ma's balet-noir for Forest Swords and Jon Rafman's harsh art-piece for Oneohtrix Poi",
+      "avg_prediction": 0.0237
+    },
+    {
+      "idx": 10,
+      "hash": "9aa57dd6",
+      "n_words": 67,
+      "n_chars": 390,
+      "preview_head": "5 stars rating. TherE are the top social services where you can share this photo. Here are available five popular services: Facebook, Twitter, Google+, Pinterest and Stumblupon. you can save the photo",
+      "preview_tail": " the photo into your computer (probably for the further use as a wallpaper).To make this you have just to put your cursor over the image then with right click of mouse select Save as. The image 'Wint ",
+      "full_text": "5 stars rating. TherE are the top social services where you can share this photo. Here are available five popular services: Facebook, Twitter, Google+, Pinterest and Stumblupon. you can save the photo into your computer (probably for the further use as a wallpaper).To make this you have just to put your cursor over the image then with right click of mouse select Save as. The image 'Wint ",
+      "avg_prediction": 0.3289
+    },
+    {
+      "idx": 11,
+      "hash": "cbf74756",
+      "n_words": 99,
+      "n_chars": 566,
+      "preview_head": "Council took up the issue at a time when San Diego officials are scrambling to close annual shortfalls in the general fund, while also trying to keep redevelopment agencies afloat in the face of a sta",
+      "preview_tail": " in the general fund, while also trying to Keep redevelopment agencies afloat in the face of a state law that could eliminate redevelopment in the state.The City Council took up the issue at a time w ",
+      "full_text": "Council took up the issue at a time when San Diego officials are scrambling to close annual shortfalls in the general fund, while also trying to keep redevelopment agencies afloat in the face of a state law that could eliminate redevelopment in the state.The City Council took up the issue at a time when San Diego officials are scrambling to close annual shortfalls in the general fund, while also trying to Keep redevelopment agencies afloat in the face of a state law that could eliminate redevelopment in the state.The City Council took up the issue at a time w ",
+      "avg_prediction": 0.9779
+    },
+    {
+      "idx": 12,
+      "hash": "35522991",
+      "n_words": 76,
+      "n_chars": 465,
+      "preview_head": "clustering pattern and any other unusual patterns were noted and investigated. CD64 staining showed more distinct separation of the monocyte cluster than did CD33 staining. The difference between the ",
+      "preview_tail": "ificant. The mean number of monocytes gated by CD64 was 634 \u00b1 344, while the mean number of monocytes gated by CD33 was 443 \u00b1 344. The CD64 gated monocytes showed less overlap and better separation of",
+      "full_text": "clustering pattern and any other unusual patterns were noted and investigated. CD64 staining showed more distinct separation of the monocyte cluster than did CD33 staining. The difference between the number of monocytes gated by CD64 and CD33 was statistically significant. The mean number of monocytes gated by CD64 was 634 \u00b1 344, while the mean number of monocytes gated by CD33 was 443 \u00b1 344. The CD64 gated monocytes showed less overlap and better separation of",
+      "avg_prediction": 0.9781
+    },
+    {
+      "idx": 13,
+      "hash": "93c1a83e",
+      "n_words": 209,
+      "n_chars": 1243,
+      "preview_head": "craft beer bar, in a refurbished 1880s \u2014 you guessed it \u2014 jailhouse. Like the four craft breweries that call the valley home, Haughey aims to offer something for everyone: pilsners, IPAs, sours. This ",
+      "preview_tail": "o. Joseph James Brewing of henderson, Nevada, brought two tasty berliner weisses, one brewed with passionfruit and guava and the other with blood orange and cranberry. Those beers went down easy at 8,",
+      "full_text": "craft beer bar, in a refurbished 1880s \u2014 you guessed it \u2014 jailhouse. Like the four craft breweries that call the valley home, Haughey aims to offer something for everyone: pilsners, IPAs, sours. This is not Denver, where you need to build a niche to stand out in a crowded market. She only buys one keg of everything, so taps constantly rotate. A few things stood out about the festival lineup \u2014 the number of owners who made the trip (mountain vacation in the heart of the summer!), and the presence of breWeries that rarely pour on the festival circuit, including Denver\u2019s Bierstadt Lagerhaus and Black Shirt Brewing. For those who know Colorado breweries well, the festival highlight was a chance to try the out-of-state breweries that normally don\u2019t distribute here. Among the standouts: Arizona Wilderness Brewing Co. brought a memorable Coffee Gose and one of the fest\u2019s best hoppy beers (a rye double IPA), and fellow Arizonans Pueblo Vida Brewing\u2019s Circuitous double IPA. Let\u2019s hope both of these guys find their way to sell in Colorado. Joseph James Brewing of henderson, Nevada, brought two tasty berliner weisses, one brewed with passionfruit and guava and the other with blood orange and cranberry. Those beers went down easy at 8,",
+      "avg_prediction": 0.2529
+    },
+    {
+      "idx": 14,
+      "hash": "a528a886",
+      "n_words": 58,
+      "n_chars": 263,
+      "preview_head": "the issue by asking \"what's to stop you fromputting up a 2 by 2 foot sign and putting a table up, and then you've got a table to put up a sign, and then you've got a sign, and then you've got a table,",
+      "preview_tail": " foot sign and putting a table up, and then you've got a table to put up a sign, and then you've got a sign, and then you've got a table, and then you've got a sign, and then you've got a table, and t",
+      "full_text": "the issue by asking \"what's to stop you fromputting up a 2 by 2 foot sign and putting a table up, and then you've got a table to put up a sign, and then you've got a sign, and then you've got a table, and then you've got a sign, and then you've got a table, and t",
+      "avg_prediction": 0.9838
+    },
+    {
+      "idx": 15,
+      "hash": "fae0c9df",
+      "n_words": 149,
+      "n_chars": 1075,
+      "preview_head": "st Caribbean Dollar Egyptian Pound Fiji Dollar Honduran Lempira Hong Kong Dollar Hungarian Forint Iceland Krona Indian Rupee Indonesian Rupiah Israeli New Shekel Japanese Yen Jordanian Dinar Kazakhsta",
+      "preview_tail": "n Pound Taiwan New Dollar Tanzanian Shilling Thai Baht Timor Leste Escudo Trinidad and Tobago Dollars Turkish Lira Ugandan Shillings United Arab Emirates Dirham Uruguay Pesos Vanuatu Vatu Vietnam Dong",
+      "full_text": "st Caribbean Dollar Egyptian Pound Fiji Dollar Honduran Lempira Hong Kong Dollar Hungarian Forint Iceland Krona Indian Rupee Indonesian Rupiah Israeli New Shekel Japanese Yen Jordanian Dinar Kazakhstan Tenge Kenyan Shilling Kuwaiti Dinar Kyrgyzstanian Som Lao Kip Latvian Lats Lebanese Pound Lithuanian Litas Malaysian Ringgit Mauritanian Ouguiya Mauritius Rupee Mexican Peso Mongolian Tugrik Moroccan Dirham Namibia Dollar Nepalese Rupee New Zealand Dollar Nicaraguan Cordoba Oro Norwegian Kroner Omani Rial Pakistan Rupee Papua New Guinea Kina Paraguay Guarani Peruvian Nuevo Sol Philippine Peso Polish Zloty Qatari Rial Romanian Noul Lei Russian Ruble Samoan Tala Serbian Dinar Singapore Dollar South Korean Won Solomon Islands Dollars Somali Shilling Southeast Asian Dollar (Circulating Quarters) Southern Yemeni Riyal Spanish Peseta Surinamese Gulden Swedish Krona Syrian Pound Taiwan New Dollar Tanzanian Shilling Thai Baht Timor Leste Escudo Trinidad and Tobago Dollars Turkish Lira Ugandan Shillings United Arab Emirates Dirham Uruguay Pesos Vanuatu Vatu Vietnam Dong",
+      "avg_prediction": 0.0205
+    },
+    {
+      "idx": 16,
+      "hash": "0235cd55",
+      "n_words": 94,
+      "n_chars": 677,
+      "preview_head": "on our operations which hinder profits,\" he stressed, \"these are critical areas we need support from the government and other relevant authorities.\u201d He further called upon all involved parties \u2014 inclu",
+      "preview_tail": "s alone.\"This would make it less financially crippling for us carriers,\" he said with passion, adding how crucial having affordable insurance premium rates could also aid significantly towards fosteri",
+      "full_text": "on our operations which hinder profits,\" he stressed, \"these are critical areas we need support from the government and other relevant authorities.\u201d He further called upon all involved parties \u2014 including regulatory bodies\u2014to collaborate effectively towards reducing operational costs across board. Specifically mentioning aviation fuel prices as an urgent concern that should be managed proactively through regulation reforms rather than merely being subjected to market forces alone.\"This would make it less financially crippling for us carriers,\" he said with passion, adding how crucial having affordable insurance premium rates could also aid significantly towards fosteri",
+      "avg_prediction": 0.9838
+    },
+    {
+      "idx": 17,
+      "hash": "bb453d7d",
+      "n_words": 50,
+      "n_chars": 267,
+      "preview_head": "ed from us andothers foreign to our taste forced upon us? No! Is the right of free speech, a free press, or free suffrage taken from us? No! Has our property been taken from us and the Government fail",
+      "preview_tail": "e right of free speech, a free press, or free suffrage taken from us? No! Has our property been taken from us and the Government failed tointerpose when called upon? No, none of these! Therights of t ",
+      "full_text": "ed from us andothers foreign to our taste forced upon us? No! Is the right of free speech, a free press, or free suffrage taken from us? No! Has our property been taken from us and the Government failed tointerpose when called upon? No, none of these! Therights of t ",
+      "avg_prediction": 0.6013
+    },
+    {
+      "idx": 18,
+      "hash": "f4921b2a",
+      "n_words": 72,
+      "n_chars": 593,
+      "preview_head": "currently no medical treatment available to prevent the development and progression of this disease and aortic valve replacement surgery remains the only efficient treatment when AVS becomes severe. C",
+      "preview_tail": "e calcification of the aortic valve. Among those enzymes, ectonucleotide pyrophosphatase/phosphodiesterases (ENPPs), ectonucleoside triphosphate diphosphohydrolases (ENTPDs), and 5\u2032-nucleotidase (NT5E",
+      "full_text": "currently no medical treatment available to prevent the development and progression of this disease and aortic valve replacement surgery remains the only efficient treatment when AVS becomes severe. Calcification of the aortic valve is an intricate process involving a balance between promoting and anti-calcifying mechanisms. In this regard, expression of ectonucleotidase enzymes may modulate calcification of the aortic valve. Among those enzymes, ectonucleotide pyrophosphatase/phosphodiesterases (ENPPs), ectonucleoside triphosphate diphosphohydrolases (ENTPDs), and 5\u2032-nucleotidase (NT5E",
+      "avg_prediction": 0.625
+    },
+    {
+      "idx": 19,
+      "hash": "29337c5e",
+      "n_words": 50,
+      "n_chars": 271,
+      "preview_head": "Jamal and his friends have to settle for playing pickup on the hardscrabble field behind their high school. Then the gang pulls them in with a rowdy game of their own - no holds barred. As they throw ",
+      "preview_tail": "bble field behind their high school. Then the gang pulls them in with a rowdy game of their own - no holds barred. As they throw down their gauntlet challenge, the stakes are raised: if one side wins,",
+      "full_text": "Jamal and his friends have to settle for playing pickup on the hardscrabble field behind their high school. Then the gang pulls them in with a rowdy game of their own - no holds barred. As they throw down their gauntlet challenge, the stakes are raised: if one side wins,",
+      "avg_prediction": 0.3192
+    },
+    {
+      "idx": 20,
+      "hash": "982503e7",
+      "n_words": 48,
+      "n_chars": 286,
+      "preview_head": "format is as follows: It seems like you want to create or understand the structure of an `xsyn` dictionary rules file. Could you please provide more details about what specific information or examples",
+      "preview_tail": "an `xsyn` dictionary rules file. Could you please provide more details about what specific information or examples you are looking for in this context? Here\u2019s a basic template and explanation based on",
+      "full_text": "format is as follows: It seems like you want to create or understand the structure of an `xsyn` dictionary rules file. Could you please provide more details about what specific information or examples you are looking for in this context? Here\u2019s a basic template and explanation based on",
+      "avg_prediction": 0.984
+    },
+    {
+      "idx": 21,
+      "hash": "dde76a96",
+      "n_words": 95,
+      "n_chars": 699,
+      "preview_head": "subject to the terms and conditions of the GNU Lesser General *Public License v2.1. See the fileLICENSE in the top level directory for more * details. */ /** * @ingroup cpu_lm4f120 * @ingroupdrivers_p",
+      "preview_tail": "ce number forthis cpu. */ #define _UART_DEV_NUM 0 /** * @brief UART deviceconfigurations */ static uart_isr_ctx_t config[UART_NUMOF]; static int init_base(uart_t uart, uint32_t baudrate); /** * Confi ",
+      "full_text": "subject to the terms and conditions of the GNU Lesser General *Public License v2.1. See the fileLICENSE in the top level directory for more * details. */ /** * @ingroup cpu_lm4f120 * @ingroupdrivers_periph_uart * @{ * *@file uart.c * @brief Implementation of thelow-level UART driver for the LM4F120 * *@author Rakendra Thapa <rakendrathapa@gmail.com> * * @} */ #include <stdint.h> #include \"assert.h\" #include \"cpu.h\" #include\"periph/uart.h\" #include \"periph_conf.h\" /*The only implemented UARTdevice number forthis cpu. */ #define _UART_DEV_NUM 0 /** * @brief UART deviceconfigurations */ static uart_isr_ctx_t config[UART_NUMOF]; static int init_base(uart_t uart, uint32_t baudrate); /** * Confi ",
+      "avg_prediction": 0.8096
+    },
+    {
+      "idx": 22,
+      "hash": "19c30041",
+      "n_words": 82,
+      "n_chars": 503,
+      "preview_head": "<martelli@cadlab.it> wrote: >I'm curious -- is this notion of non-alphanumeric notation >as systematic syntactic sugar for well-defined alphanumeric >notation an independent inversion of you and Ouste",
+      "preview_tail": "g it...? Dylan is using it, but with a different meaning of alphanumeric :-) Example: a + b is equivalent to \\+(a,b) (note that + can be used in identifiers, ex: let a+b = a + b; ) object.slot := b is",
+      "full_text": "<martelli@cadlab.it> wrote: >I'm curious -- is this notion of non-alphanumeric notation >as systematic syntactic sugar for well-defined alphanumeric >notation an independent inversion of you and Ousterhout >(the Father of Sather:-), derived from a common, older >source, or what...? Other languages using it...? Dylan is using it, but with a different meaning of alphanumeric :-) Example: a + b is equivalent to \\+(a,b) (note that + can be used in identifiers, ex: let a+b = a + b; ) object.slot := b is",
+      "avg_prediction": 0.5552
+    },
+    {
+      "idx": 23,
+      "hash": "e6fc0d05",
+      "n_words": 151,
+      "n_chars": 1031,
+      "preview_head": "lving as AGNs [@kss07].](f4.eps){width=\"18pc\"} ------------- -------- ----------------------------- ----- Component $T$(K) $u_{0}$ $k$ ($10^{-14}$ ergs cm$^{-3}$) CMBR 2.72 6.38 4 Dust (Hi) 62 0.819 3",
+      "preview_tail": "tructure formation shocks in clusters of galaxies (reviewed in [@der07a; @kne07]). The particle and radiation fields are connected because GZK effeCts of UHECRs with the EBL form cascade $\\gamma$ rays",
+      "full_text": "lving as AGNs [@kss07].](f4.eps){width=\"18pc\"} ------------- -------- ----------------------------- ----- Component $T$(K) $u_{0}$ $k$ ($10^{-14}$ ergs cm$^{-3}$) CMBR 2.72 6.38 4 Dust (Hi) 62 0.819 3.8 Dust (Low) 31 0.273 3.8 Star 1 (Hi) 7100 1.1 2.0 Star 1 (Lo) 7100 $0.55$ 2.0 Star 2 16,600 0.5 3.0 ------------- -------- ----------------------------- ----- : Properties of the Dust and Two Stellar Components The intensity of the diffuse and unresolved $\\gamma$-ray EBL from EGRET observations and analysis [@sre98; @smr04] is shown in Figure \\[f4\\]. it is decomposed into contributions from blazars, separAted into FSRQs and BL lacs, and the superposed intensity from numerous faint sources where the $\\gamma$ rays are formed primarily by interactions of cosmic rays accelerated by supernovae in star-forming galaxies and by structure formation shocks in clusters of galaxies (reviewed in [@der07a; @kne07]). The particle and radiation fields are connected because GZK effeCts of UHECRs with the EBL form cascade $\\gamma$ rays",
+      "avg_prediction": 0.5814
+    },
+    {
+      "idx": 24,
+      "hash": "499474b0",
+      "n_words": 209,
+      "n_chars": 1428,
+      "preview_head": "workforce that can learn, adapt, and troubleshoot quickly and effectively. Approaches to talent acquisition and development must keep pace in a competitive environment to meet these demands,\u201d accordin",
+      "preview_tail": "Understand the 3 reasons to embrace technology Acquire 3 resources to continue learning about emerging technology Registerherefor the webinar, which will take place Wednesday, March 28 at 1:00 Central",
+      "full_text": "workforce that can learn, adapt, and troubleshoot quickly and effectively. Approaches to talent acquisition and development must keep pace in a competitive environment to meet these demands,\u201d according to agribusiness recruiter and webinar panelist Tim Hammerich. It is time for the meat industry to understand more about blockchain and the problems it can solve. \u201cIt\u2019s no longer about product movement through the value chain; the movement of information through the value chain is now a key driver of value,\u201d said webinar presenter Janette Barnard, who is sales and marketing director for DecisionNext, and author of \"The Top Line\" blog onMeatingplace. \u201cOne emerging mechanism to securely and accurately distribute information is through blockchain, a technology that holds potential to solve multiple problems in meat and poultry from transparency to price discovery.\u201d Barnard recently presented at USDA\u2019s Agricultural Outlook Forum, where she noted the line between operational innovation and market-facing innovation are blurring as the supply chain is morphing. Attendees of this webinar will: Understand the forces driving technology into the meat business Become familiar with the 5 most prominent emerging technologies Understand the 3 reasons to embrace technology Acquire 3 resources to continue learning about emerging technology Registerherefor the webinar, which will take place Wednesday, March 28 at 1:00 Central",
+      "avg_prediction": 0.2856
+    },
+    {
+      "idx": 25,
+      "hash": "9cb95595",
+      "n_words": 122,
+      "n_chars": 737,
+      "preview_head": "but a symmetry of surface: \u2013 this instinct, which the Soul, not only of Man but of all created beings, took up, in the beginning, from the geometrical basis of the Universal irradiation \u2013 impels us to",
+      "preview_tail": "g hierarchy of planetary bodies, each layer more extensive and complex than the next. However, this very instinct that drives our imagination only risks ensnaring me in an endless loop of speculation,",
+      "full_text": "but a symmetry of surface: \u2013 this instinct, which the Soul, not only of Man but of all created beings, took up, in the beginning, from the geometrical basis of the Universal irradiation \u2013 impels us to the fancy of an endless extension of this system of cycles. Closing our eyes equally to deduction and induction, we insist uon imagining a galaxy where stars are but galaxies in an infinite variety of atoms, themselves merely specks in some grander planetary hierarchy. This ability for extrapolation brings me to envision a never-ending hierarchy of planetary bodies, each layer more extensive and complex than the next. However, this very instinct that drives our imagination only risks ensnaring me in an endless loop of speculation,",
+      "avg_prediction": 0.616
+    },
+    {
+      "idx": 26,
+      "hash": "19ec7464",
+      "n_words": 272,
+      "n_chars": 1976,
+      "preview_head": "ning target molecules flows, allowing hybridization between probe and target molecule in situ. The microfabricated devices described herein are capable of detecting multiple analytes simultaneously. T",
+      "preview_tail": "ng diseases through microfabricated devices that leverage the principles of molecular hybridization. This technology has implications in medical diagnostics by enabling rapid, simultaneous detection o",
+      "full_text": "ning target molecules flows, allowing hybridization between probe and target molecule in situ. The microfabricated devices described herein are capable of detecting multiple analytes simultaneously. This capability allows for diagnosis of diseases associated with genetic markers or protein expressions without the need to perform separate tests for each disease marker. The simultaneous detection can be achieved by using different reporter molecules, such as fluorescent dyes that emit light at distinct wavelengths when bound to their respective targets. The invention also provides methods for making and using these microfabricated devices in diagnosing diseases or conditions associated with particular genetic markers or protein expressions. These methods involve providing a sample suspected of containing the target molecule(s), introducing this sample into the device, allowing hybridization between any present target molecules and immobilized probes on the substrate within the channels of the device, detecting signals from reporter molecules bound to these targets using an appropriate detection means (such as fluorescence microscopy or other optical methods), interpreting these signals to determine whether a particular disease marker is present in the sample. The use of such devices for diagnostic purposes offers several advantages over techniques. These include sensitivity and specificity due to the localized environment provided by the channels, reduced reagent consumption because only small amounts are needed within each channel, decreased analysis time as multiple tests can be performed simultaneously on a single device, and potential cost savings from these factors. The abstract of US 20020037499 A1 describes an innovative approach for detecting diseases through microfabricated devices that leverage the principles of molecular hybridization. This technology has implications in medical diagnostics by enabling rapid, simultaneous detection o",
+      "avg_prediction": 0.6417
+    },
+    {
+      "idx": 27,
+      "hash": "33a4b867",
+      "n_words": 245,
+      "n_chars": 1529,
+      "preview_head": "the writers of this NYT piece, to the point where they cite some tech writers blog on Schmidts failures and have a bunch of unnamed \"sources\" attest toApples \"eyecatching new 3-d map service\". Only to",
+      "preview_tail": "pproved or not, and if rejected, the reasons are sometimes vague or inconsistent.This makes it difficult for developers to plan and innovate. On the other hand, Google Play has its own set of issues, ",
+      "full_text": "the writers of this NYT piece, to the point where they cite some tech writers blog on Schmidts failures and have a bunch of unnamed \"sources\" attest toApples \"eyecatching new 3-d map service\". Only to top it all off with a paragraphon one developers tough love relationship with Apples \"hands-on approach to approving software\" (read: anticompetitive, arbitrariness). ~~~ rprasad It's common knowledge that all ofthe NY Times'tech bloggers have meaningful stakes in Apple stock.They claim that it does not affect their reviews, but I've seen yesmen who are less obsequiously fawning than \"writers\" like Pogue. ------ soup10 Apple's store is terrible too,a couple random thoughts as to why: The only way to find apps is the top-selling charts. Which means there is extremely strongdownward pressure on pricing(since the charts are sorted by volume not gross), and any app whichis not mass-market and cheap enough to hit thecharts is going to have trouble. There is no way to demo apps,seriously what the fuck. The market is essentially afree-for-all, apple does a little bit of quality control, but essently, it's a mess. Thereare tons of low-quality apps and scams that can trick users into downloading them. Moreover, Apple's approval process is opaque and unpredictable. Developers often have no idea whether their app will beapproved or not, and if rejected, the reasons are sometimes vague or inconsistent.This makes it difficult for developers to plan and innovate. On the other hand, Google Play has its own set of issues, ",
+      "avg_prediction": 0.3901
+    },
+    {
+      "idx": 28,
+      "hash": "578a9a4e",
+      "n_words": 88,
+      "n_chars": 584,
+      "preview_head": "Feb 24, Russia started military aggression against Ukraine. We want to stop the war and support \ud83c\uddfa\ud83c\udde6Ukraine. If you can, please donate for humanitarian aid to Ukrainians. Peace \ud83d\udc9b\ud83d\udc99 Concerts in Nebraska C",
+      "preview_tail": " R&b Reggae Religious Rock World Sort: Date Popular Just Announced Date Artist and Venue Ticket Price No results found. Concerts In Other Cities Deshler Grand Island Hartington Hastings Imperial Kearn",
+      "full_text": "Feb 24, Russia started military aggression against Ukraine. We want to stop the war and support \ud83c\uddfa\ud83c\udde6Ukraine. If you can, please donate for humanitarian aid to Ukrainians. Peace \ud83d\udc9b\ud83d\udc99 Concerts in Nebraska Concerts in Ashland 2022 Upcoming Concerts in Ashland (0) Genres Alternative Blues Classical Country Dance/electronic Folk Hip-hop/rap Jazz Latin Metal Music Festivals New Age Other Pop R&b Reggae Religious Rock World Sort: Date Popular Just Announced Date Artist and Venue Ticket Price No results found. Concerts In Other Cities Deshler Grand Island Hartington Hastings Imperial Kearn",
+      "avg_prediction": 0.8099
+    },
+    {
+      "idx": 29,
+      "hash": "a918dc8b",
+      "n_words": 117,
+      "n_chars": 731,
+      "preview_head": "You climbed up the gangway. On board, there were cr\u00eapes flamb\u00e9es at 35,000 feet in a pressurized cabin, champagne in glass flutes, wine in wine glasses, steak dinners, served on porcelain, that you at",
+      "preview_tail": "ir cars near the terminal door for hours before departure; about 20 minutes prior, you'd amble towards your gate with little security consisting only a couple questions if needed. You could purchase d",
+      "full_text": "You climbed up the gangway. On board, there were cr\u00eapes flamb\u00e9es at 35,000 feet in a pressurized cabin, champagne in glass flutes, wine in wine glasses, steak dinners, served on porcelain, that you ate with real cuHere's the completed text: Related adventures toOk place at airports not so long ago. These exotic places allowed passengers to roam freely and press their noses against glass windows as aircraft practically touched them. Airports had an allure of far-flung mystery, like foreign soil. Relatives would often leave their cars near the terminal door for hours before departure; about 20 minutes prior, you'd amble towards your gate with little security consisting only a couple questions if needed. You could purchase d",
+      "avg_prediction": 0.9797
+    },
+    {
+      "idx": 30,
+      "hash": "0646d968",
+      "n_words": 328,
+      "n_chars": 2118,
+      "preview_head": "you need to compete on price. After all, if you\u2019re the cheapest, clients will flock to you won\u2019t they? Take a look at your marketing literature: your website, your latest leaflets or flyers. What\u2019s th",
+      "preview_tail": "edia\u2014you can attract clients that value what you offer beyond just the price tag. This repositioning may initially reduce volume by deterring those solely focused on cost-cutting measures; however, it",
+      "full_text": "you need to compete on price. After all, if you\u2019re the cheapest, clients will flock to you won\u2019t they? Take a look at your marketing literature: your website, your latest leaflets or flyers. What\u2019s the main message? I met with a prospective client recently and the message that was coming across loud and clear was \u201cwe\u2019re cheap\u201d. This lady runs a successful business, her team work hard and they\u2019re making a profit. But I can\u2019t help thinking that they could be making an easier profit, attracting easier clients and making a larger profit if they just thought about repositioning themselves. Most businesses have a Unique Selling Point (USP) that extends beyond how much they charge. The trouble is, they rarely communicate that USP effectively. The downside to this? You\u2019ll end up attracting customers who only care about price and not the value you bring. These clients might be more high-maintenance: expecting exceptional service at a discount rate or quick fixes without understanding (or valuing) your expertise, effort, and experience that goes into each project. They are also typically less loyal; if another provider offers an even lower cost down the line, they may switch over in pursuit of further savings. Instead, consider communicating why you're worth more: 1. Highlight Your Expertise: Showcase case studies or testimonials where your knowledge has made a significant difference to clients' businesses. 2. Emphasize Quality and Craftsmanship: If what sets you apart is the superior quality of work that stands head-and-shoulders above competitors, make sure this message resonates with potential customers from day one. 3. Customer Service Excellence: Position yourself as someone who not only delivers a product or service but also ensures an unmatched customer experience through responsiveness and care. By focusing on these aspects in your marketing materials\u2014website content, brochures, social media\u2014you can attract clients that value what you offer beyond just the price tag. This repositioning may initially reduce volume by deterring those solely focused on cost-cutting measures; however, it",
+      "avg_prediction": 0.8072
+    },
+    {
+      "idx": 31,
+      "hash": "7d6c69d4",
+      "n_words": 257,
+      "n_chars": 1549,
+      "preview_head": "r is currently configured not to display inline frames. Support 49ersParadise.com shop at the official 49ers store! NEW! Get the 49ers rookie Jerseys! Pre-Order Your Nike 2013 San Francisco 49ers Jers",
+      "preview_tail": "e Forum link specifically. For store or ticket issues, reach out to the site admins via the \"Contact Us\" tab\u2014they\u2019re usually quick to help. Lastly, if you\u2019re unsure where to start, post more details h",
+      "full_text": "r is currently configured not to display inline frames. Support 49ersParadise.com shop at the official 49ers store! NEW! Get the 49ers rookie Jerseys! Pre-Order Your Nike 2013 San Francisco 49ers Jersey 49ers Official Hats by New Era Official San Francisco 49ers Team Store Support 49ersParadise.com get your tickets from TicketMonster.com No Fees Low Prices Created By Fans Get Your Tickets Now Home Help Login Register Site Rules | Unread | New Replies 49ersparadise.com FORUM \u00bb 49ers Paradise \u00bb Niner's Classified Ads \u00bb Topic: Looking for help!? Pages: 1 2 3 [4] 5 Go Down \u00ab previous next \u00bb Print Author Topic: Looking for help!? (Read 93149 times) 0 Members and 1 Guest are viewing this topic. gridiron49 Super Bowl MVP Posts: 20056 Re: Looking for help!? \u00ab Reply #105 on: Novgridiron49 Super Bowl MVP Posts: 20056 Re: Looking for help!? \u00ab Reply #105 on: Nov 23, 2023, 08:45 PM \u00bb Hey there! Let\u2019s troubleshoot this step by step. First, check if you\u2019re logged in correctly\u2014sometimes sessions expire, especially if you\u2019ve been away for a while. If you\u2019re still seeing ads, ensure your subscription (Black, Red, or Gold) is active. You can verify this in your account settings under \"Subscription Status.\" If the issue persists, try clearing your browser cache or switching to a different browser. Mobile users, make sure you\u2019re accessing the Mobile Forum link specifically. For store or ticket issues, reach out to the site admins via the \"Contact Us\" tab\u2014they\u2019re usually quick to help. Lastly, if you\u2019re unsure where to start, post more details h",
+      "avg_prediction": 0.6124
+    },
+    {
+      "idx": 32,
+      "hash": "c7e9d6ed",
+      "n_words": 94,
+      "n_chars": 502,
+      "preview_head": "95 D C Core 1 - 60 - 95 D C It is near about boiling point of water. Is it okay to have this kind of temperature spike or should I change my cooler to something beThe normal operating temperature rang",
+      "preview_tail": "ith spikes up to 95\u00b0C, are indeed quite high and could potentially indicate an issue with your cooling system or the CPU itself. high temperatures can lead to reduced performance and damage to the CPU",
+      "full_text": "95 D C Core 1 - 60 - 95 D C It is near about boiling point of water. Is it okay to have this kind of temperature spike or should I change my cooler to something beThe normal operating temperature range for an Intel Core 2 Duo CPU E8400 is typically around 45-60\u00b0C. The temperatures you are observing, with spikes up to 95\u00b0C, are indeed quite high and could potentially indicate an issue with your cooling system or the CPU itself. high temperatures can lead to reduced performance and damage to the CPU",
+      "avg_prediction": 0.9668
+    },
+    {
+      "idx": 33,
+      "hash": "80b7c5f4",
+      "n_words": 74,
+      "n_chars": 431,
+      "preview_head": "spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place ",
+      "preview_tail": " spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place",
+      "full_text": "spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place of spiritual beings, a place",
+      "avg_prediction": 0.9824
+    },
+    {
+      "idx": 34,
+      "hash": "0f6e576d",
+      "n_words": 72,
+      "n_chars": 464,
+      "preview_head": "the Christian Church and an U.S. Army Veteran. He is survived by his wife, Blanche E. (Gardner) Woodard. He is also survived by a daughter, Sandra Burkhart and husband Eddie; two sons, Charles Ray Woo",
+      "preview_tail": " grandchildren: Angela Stevens, Lisa Caudill, Jennifer Duncan, Jamie Wilson, Ashley Stout, Emily Halloran and Hannah Miller. He is also survived by several great-grandchildren, nieces (sic) nephews, c",
+      "full_text": "the Christian Church and an U.S. Army Veteran. He is survived by his wife, Blanche E. (Gardner) Woodard. He is also survived by a daughter, Sandra Burkhart and husband Eddie; two sons, Charles Ray Woodard and wife Valerie and Michael Woodard and wife Debbie; seven grandchildren: Angela Stevens, Lisa Caudill, Jennifer Duncan, Jamie Wilson, Ashley Stout, Emily Halloran and Hannah Miller. He is also survived by several great-grandchildren, nieces (sic) nephews, c",
+      "avg_prediction": 0.6729
+    },
+    {
+      "idx": 35,
+      "hash": "8f754384",
+      "n_words": 190,
+      "n_chars": 983,
+      "preview_head": "Travel Wellness Around The House - 6 Ways to Make Cheap Foods Taste Delicious - \u2018Nips and Tucks\u2019 to Get Your Tablet Computer Running Like New Business - Tax Hacks 2015: Don\u2019t Overlook These 8 Deductio",
+      "preview_tail": " Buy in March Where to Sell Your Stuff for Top Dollar - 5 Best and Worst Things to Buy in March These categories and articles provide a comprehensive overview of trending topics and advice for 2015 in",
+      "full_text": "Travel Wellness Around The House - 6 Ways to Make Cheap Foods Taste Delicious - \u2018Nips and Tucks\u2019 to Get Your Tablet Computer Running Like New Business - Tax Hacks 2015: Don\u2019t Overlook These 8 Deductions and Credits - Americans Love Nordstrom, Costco, and Amazon, and Then There\u2019s Wal-Mart Cars - Best and Worst Things to Buy in March Education - New Study: Best and Worst Schools in 2015 Entertainment - 5 New Streaming Services to Watch in 2015 Finance - 5 Best and Worst Things to Buy in March Food - 5 Best and Worst Things to Buy in March Health - 5 Best and Worst Things to Buy in March Lifestyle - 5 Best and Worst Things to Buy in March Technology - 5 Best and Worst Things to Buy in March Travel - 5 Best and Worst Things to Buy in March Wellness - 5 Best and Worst Things to Buy in March Where to Sell Your Stuff for Top Dollar - 5 Best and Worst Things to Buy in March These categories and articles provide a comprehensive overview of trending topics and advice for 2015 in",
+      "avg_prediction": 0.9789
+    },
+    {
+      "idx": 36,
+      "hash": "a2e87eda",
+      "n_words": 163,
+      "n_chars": 1086,
+      "preview_head": "of Business site Search the Penn State site Select where or what you are looking for Search Search This Site SmealSmeal News Smeal NewsPSU PSUPSU People PSU PeoplePSU Email PSU EmailPSU Depts PSU Dept",
+      "preview_tail": "tion - Administration - Employment Opportunities - History - Lecture Series - Conferences & Events - Board of Visitors - Rankings & Accreditations - Mission & Values - Contact Us --- Academic Programs",
+      "full_text": "of Business site Search the Penn State site Select where or what you are looking for Search Search This Site SmealSmeal News Smeal NewsPSU PSUPSU People PSU PeoplePSU Email PSU EmailPSU Depts PSU Depts Advanced Search\u2026 Toggle navigation News Events Students Alumni Recruiters Donors Faculty & Staff Directory About Smeal About Smeal Location Administration Employment History Lecture Series Conferences Board of Visitors Rankings Academic Programs Academic Programs Undergraduate MBA Executive MBA Master of Accounting Master of Supply Chain Management Ph.D. Undergraduate Business FundHere\u2019s a completed and expanded version of the text based on the structure and context provided: --- News Events Students Alumni Recruiters Donors Faculty & Staff Directory Search Text Search the Smeal College of Business site Search the Penn State site Search Advanced Search\u2026 --- About Smeal - Location - Administration - Employment Opportunities - History - Lecture Series - Conferences & Events - Board of Visitors - Rankings & Accreditations - Mission & Values - Contact Us --- Academic Programs",
+      "avg_prediction": 0.9852
+    },
+    {
+      "idx": 37,
+      "hash": "3ec69cbe",
+      "n_words": 127,
+      "n_chars": 892,
+      "preview_head": "immune system, and the involvement of leukemia viruses in transforming T lymphocytes or other blood cell types that are then proliferated under certain conditions which can result from environmental f",
+      "preview_tail": " as is the case of reverse transcriptase of RNK virus, found in leukocytes of 95 percent of patients with acute leukaemia, or they are new antigens formed by combination of cell genoma and virus genom",
+      "full_text": "immune system, and the involvement of leukemia viruses in transforming T lymphocytes or other blood cell types that are then proliferated under certain conditions which can result from environmental factors such chemical substances ingested with food (cigarette smoke), infections by oncoviruses causing genomic mutations; this is also observed as immunological responses against these malignant transformed cells, involving both humoral immunity through antibodies and cellular immune mechanisms mediated mainly via T-lymphocytes that recognize abnormalities in surface antigens of cancerous leukemic cell lines. These antigens belong either to still undiscovered viruses of human leukaemia, as is the case of reverse transcriptase of RNK virus, found in leukocytes of 95 percent of patients with acute leukaemia, or they are new antigens formed by combination of cell genoma and virus genom",
+      "avg_prediction": 0.6008
+    },
+    {
+      "idx": 38,
+      "hash": "07a247ed",
+      "n_words": 53,
+      "n_chars": 292,
+      "preview_head": "thenticated users. If you would like to read it in its entirety, please do one of the following:LOG IN at the upper right if you already have a user name and passwordAlready subscribe to Booklist in p",
+      "preview_tail": "ing:LOG IN at the upper right if you already have a user name and passwordAlready subscribe to Booklist in print? CLICK HERE to set up your online accessSUBSCRIBE to Booklist in print, then set up you",
+      "full_text": "thenticated users. If you would like to read it in its entirety, please do one of the following:LOG IN at the upper right if you already have a user name and passwordAlready subscribe to Booklist in print? CLICK HERE to set up your online accessSUBSCRIBE to Booklist in print, then set up you",
+      "avg_prediction": 0.0305
+    },
+    {
+      "idx": 39,
+      "hash": "3d3b1f9e",
+      "n_words": 222,
+      "n_chars": 1563,
+      "preview_head": "April25, 2006 Info |PDA/Text |Corrections | Calendars | Movies Obituaries| Vital Stats | Weather | Surf Search StarBulletin.com Web Go \u00bb Back Issues (1996-Present) T |W | T | F | S | S| M Who shouldbe",
+      "preview_tail": "arting quarterback for the UHfootball team? 1. Colt Brennan 2. Philip Evers 3. Colt Brennan should be the starting quarterback for the UH football team.Brennan had a strong year in 2005, throwing for ",
+      "full_text": "April25, 2006 Info |PDA/Text |Corrections | Calendars | Movies Obituaries| Vital Stats | Weather | Surf Search StarBulletin.com Web Go \u00bb Back Issues (1996-Present) T |W | T | F | S | S| M Who shouldbe the starting quarterback for the UH footballteam? Sections Local News Features Sports Business Editorial Travel (Sunday) Corrections Classifieds Wheels IslandHomes Jobs Government Section Bidding AdvantageAdvertiseColumns Kauakukalahale Dictionaries Poll Calendar Movies Special Packages MidWeek Subscriptions Newsstands Directory PDA/Text Headlines by E-Mail RSS/XML Contribute LEGISLATURE 2006 Legislators expect 'token' tax relief this electionyear Vol. 11, Issue 115 - Tuesday, April 25,2006 Info | PDA/Text | Corrections | Calendars |Movies Obituaries | VitalStats | Weather | Surf Search StarBulletin.com Web Go\u00bb Back Issues(1996-Present) T | W | T | F | S | S | M Who should be the starting quarterback forthe UH football team? Sections LocalNews Features Sports Business Editorial Travel (Sunday) Corrections Classifieds Wheels Island Homes JobsGovernment SectionBidding Advantage Advertise Columns Kauakukalahale Dictionaries Poll Calendar Movies Special Packages MidWeek Subscriptions Newsstands Directory PDA/Text Headlines by E-Mail RSS/XML Contribute LEGISLATURE 2006 Legislators expect 'token' tax relief this election year Poll Who shouldbe the starting quarterback for the UHfootball team? 1. Colt Brennan 2. Philip Evers 3. Colt Brennan should be the starting quarterback for the UH football team.Brennan had a strong year in 2005, throwing for ",
+      "avg_prediction": 0.3629
+    },
+    {
+      "idx": 40,
+      "hash": "3dabbe12",
+      "n_words": 99,
+      "n_chars": 823,
+      "preview_head": "s to define App.PersonRoute as a nested route inside the accordion's route. Use App.PersonRoute's setupController to update the accordian's controller with the current person. For example, let's assum",
+      "preview_tail": "rrent person is selected: {{#each itemController='personItem'}} {{#linkTo \"person\" this}}{{name}}{{/linkTo}} {{#if isSelected}} {{partial \"person\"}} {{! or whatever you wish to do }} {{/if}} {{/each}}",
+      "full_text": "s to define App.PersonRoute as a nested route inside the accordion's route. Use App.PersonRoute's setupController to update the accordian's controller with the current person. For example, let's assume the template that has the accordion is the application template. Define a child route called `person': App.Router.map(function() { this.route('person', { path: ':person_id' }); }); App.PersonRoute = Ember.Route.extend({ setupController: function(controller, model) { this.controllerFor('application').set('selected', model); this._super.apply(this, arguments); } }); And then you can use an item controller to check if current person is selected: {{#each itemController='personItem'}} {{#linkTo \"person\" this}}{{name}}{{/linkTo}} {{#if isSelected}} {{partial \"person\"}} {{! or whatever you wish to do }} {{/if}} {{/each}}",
+      "avg_prediction": 0.7308
+    },
+    {
+      "idx": 41,
+      "hash": "5e3e3cf8",
+      "n_words": 77,
+      "n_chars": 446,
+      "preview_head": "users could freely discuss and share their experiences with custom ROMs like CyanogenMod (now LineageOS). The wealth of knowledge shared on these forums has been invaluable for those looking to delve ",
+      "preview_tail": " while also navigating complex Linux terminology. My hero is looking a little old now (since my Inc s broke out of warranty )... could do with an upgrade I would have to say that this is the most impo",
+      "full_text": "users could freely discuss and share their experiences with custom ROMs like CyanogenMod (now LineageOS). The wealth of knowledge shared on these forums has been invaluable for those looking to delve into the world of Android customization safely while also navigating complex Linux terminology. My hero is looking a little old now (since my Inc s broke out of warranty )... could do with an upgrade I would have to say that this is the most impo",
+      "avg_prediction": 0.9709
+    },
+    {
+      "idx": 42,
+      "hash": "fa9df9da",
+      "n_words": 201,
+      "n_chars": 827,
+      "preview_head": "g 0-1 0-1 0-0 0 1 1 1 0 1 0 0 0 12 20 Brew, Will.......... g 1-4 0-3 0-0 1 0 1 2 2 1 4 0 0 22 33 Johnson, Orlando.... g 6-18 0-4 3-3 2 4 6 1 15 6 1 0 1 34 03 Weiner, Jordan...... 1-2 1-2 0-0 1 0 1 2 3",
+      "preview_tail": "------------------- VISITORS: TOT-FG FG-FGA FTA PCT OF DE TOT PF TP A TO BLK STL MIN 00 Otaru, Kawhi........ f 3-6 1-2 10-12 0 11 11 4 17 5 7 8 9 35 31 Johnson, Garrett.... c 13-16 0-0 1-2 15 3 18 6 2",
+      "full_text": "g 0-1 0-1 0-0 0 1 1 1 0 1 0 0 0 12 20 Brew, Will.......... g 1-4 0-3 0-0 1 0 1 2 2 1 4 0 0 22 33 Johnson, Orlando.... g 6-18 0-4 3-3 2 4 6 1 15 6 1 0 1 34 03 Weiner, Jordan...... 1-2 1-2 0-0 1 0 1 2 3 1 0 0 0 15 11 Joyner, Justin...... 1-2 1-1 0-0 0 0 0 2 3 1 0 0 0 18 25 Devenny, Lucas...... 1-2 0-0 0-0 2 1 3 2 2 0 1 0 0 15 32 Pastorek, Jon....... 1-4 0-1 0-0 2 1 3 1 2 2 1 0 0 12 43 Leaf, Troy.......... 2-6 1-1 0-0 2 1 3 0 5 1 3 0 0 11 55 Somogyi, Greg....... 3-7 0-04-8 6 10 16 3 10 2 0 9 1 28 UC SANTA BARBARA ----&gt; 14 22 36 HOME TEAM: SAN DIEGO STATE 5-7 --------------------------------------------------------------------------------- VISITORS: TOT-FG FG-FGA FTA PCT OF DE TOT PF TP A TO BLK STL MIN 00 Otaru, Kawhi........ f 3-6 1-2 10-12 0 11 11 4 17 5 7 8 9 35 31 Johnson, Garrett.... c 13-16 0-0 1-2 15 3 18 6 2",
+      "avg_prediction": 0.0252
+    },
+    {
+      "idx": 43,
+      "hash": "0e7f5f42",
+      "n_words": 57,
+      "n_chars": 357,
+      "preview_head": "a focus on baking and cooking, Zen Kitchen Cookbooks we use... Baking From My Home To Yours Bread Baker's Apprentice Chocolate and the Art of Low-Fat Desserts Great Cookies Joy of CooKing 75th Edition",
+      "preview_tail": "s Great Cookies Joy of CooKing 75th Edition KAF Baker's Companion KAF Cookie Companion KAF Whole Grain Baking Martha Stewart's Baking Handbook One Smart Cookie Peter Reinhart's Whole Grain Breads: New",
+      "full_text": "a focus on baking and cooking, Zen Kitchen Cookbooks we use... Baking From My Home To Yours Bread Baker's Apprentice Chocolate and the Art of Low-Fat Desserts Great Cookies Joy of CooKing 75th Edition KAF Baker's Companion KAF Cookie Companion KAF Whole Grain Baking Martha Stewart's Baking Handbook One Smart Cookie Peter Reinhart's Whole Grain Breads: New",
+      "avg_prediction": 0.2701
+    },
+    {
+      "idx": 44,
+      "hash": "c1e414fb",
+      "n_words": 57,
+      "n_chars": 299,
+      "preview_head": "my CPanel server. I read this answer, but I've also read that Firebase no longer allows CNAME records and has to be A records. Would it work to have an A record pointing to the IP addresses supplied b",
+      "preview_tail": "ds and has to be A records. Would it work to have an A record pointing to the IP addresses supplied by Firebase and a CNAME record for the subdomain pointing to the server where it is currently A: You",
+      "full_text": "my CPanel server. I read this answer, but I've also read that Firebase no longer allows CNAME records and has to be A records. Would it work to have an A record pointing to the IP addresses supplied by Firebase and a CNAME record for the subdomain pointing to the server where it is currently A: You",
+      "avg_prediction": 0.0406
+    },
+    {
+      "idx": 45,
+      "hash": "08e17791",
+      "n_words": 98,
+      "n_chars": 510,
+      "preview_head": "scan and the grope, and I'll make the process as time-consuming as I can. I'll make the grope as time-consuming as I can. I'll protest the scan and the grope, and I'll make the process as time-consumi",
+      "preview_tail": "eve they are conducting an illegal search under the 4th Amendment. I don\u2019t have to risk the $11,000 fine or my job (if I can\u2019t travel) by refusing both the scan and grope, but I can avoid penalties AN",
+      "full_text": "scan and the grope, and I'll make the process as time-consuming as I can. I'll make the grope as time-consuming as I can. I'll protest the scan and the grope, and I'll make the process as time-consuming as I can. I'll make the grope as time-consuming as I can. I'll protest the I will let my groper know I believe they are conducting an illegal search under the 4th Amendment. I don\u2019t have to risk the $11,000 fine or my job (if I can\u2019t travel) by refusing both the scan and grope, but I can avoid penalties AN",
+      "avg_prediction": 0.8198
+    },
+    {
+      "idx": 46,
+      "hash": "2292ac8c",
+      "n_words": 239,
+      "n_chars": 1499,
+      "preview_head": "Tie Dye Patterns for Shirts, Decor, & More Included in this book are eighteen tiedye patterns to wear, use around the house, or give as a gift. Make over your wardrobe in minutes with these fun and ea",
+      "preview_tail": "ne Bottle Crafts Categories:- Techniques: Learn the basics of tie-dye and explore advanced techniques. - Materials Needed: A comprehensive list to ensure youhave everything on hand for your projects. ",
+      "full_text": "Tie Dye Patterns for Shirts, Decor, & More Included in this book are eighteen tiedye patterns to wear, use around the house, or give as a gift. Make over your wardrobe in minutes with these fun and easy tie dyepatterns. Bonus: Get our newsletter & special offers for free. We will not share or sell your email address. View our Privacy Policy Crafts For StPatrick's DayFree Crocheted Afghan PatternsThrifty Craftswine Bottle Crafts Categories TechniqIt looks like you're browsing a craft project website and have come across an interesting tie-dye patterns book section! Here\u2019s how the text might continue: 18 Tie Dye Patterns for Shirts, Decor, & More Included in this book are eighteen tie dye patterns to wear,use around the house, or give as a gift. Make over your wardrobein minutes with these fun and easy tie-dye patterns. - Shirt Designs: From classic spirals to intricate mandalas, there's something foreveryone. - Home Decor Ideas: Transform plain fabrics into eye-catching wall hangings and throw pillows. -Gift Giving Inspiration: Unique gifts that are both personal and thoughtful. Bonus: Get our newsletter & special offers for free. We will not share or sell your email address. View our Privacy Policy Crafts For St Patrick's Day | Free CrochetedAfghan Patterns | Thrifty Crafts | Wine Bottle Crafts Categories:- Techniques: Learn the basics of tie-dye and explore advanced techniques. - Materials Needed: A comprehensive list to ensure youhave everything on hand for your projects. ",
+      "avg_prediction": 0.5647
+    },
+    {
+      "idx": 47,
+      "hash": "cd303af5",
+      "n_words": 245,
+      "n_chars": 1723,
+      "preview_head": "urce OCT, including 3D angiographic scans. Four ophthalmologists reviewed images from ten patients in a masked fashion to identify IRMAs versus NV using structural criteria on en face slabs alone as w",
+      "preview_tail": "capillary dropout on en face OCTA slabs despite projection artifacts, whereas NV may be more difficult to distinguish in some cases and should therefore require confirmation of corresponding PAR slice",
+      "full_text": "urce OCT, including 3D angiographic scans. Four ophthalmologists reviewed images from ten patients in a masked fashion to identify IRMAs versus NV using structural criteria on en face slabs alone as well the same data presented alongside projection artifacts removed (PAR) slices at increasing depth increments through an automated retinal slab segmentation algorithm that allows review of cross-sectional OCT and corresponding PAR slice information. Intergrader agreement was assessed with weighted kappa analysis, sensitivity/specificity analyses were performed to compare detection rates using each approach independently against a gold standard created from fluorescein angiography findings plus clinical assessment by the same four graders in consensus together on widefield fundus photos (102 lesions for IRMA and 45NV). Lesion grading results revealed good intergrader agreement between all readers regardless of whether structural or angiographic criteria were used, but overall sensitivity was significantly higher using en face slabs alone than with PAR slices. Sensitivity/specificity analyses confirmed this trend at a weighted average across graders (96%/78% vs 43-50%, p< .OOI) respectively for OCTA slab versus the use of corresponding depth information to remove projection artifacts, but it should be noted that all readers achieved excellent specificity (> or =to1.e.) regardless if PAR slices were used at depths <or=27 microns (mean range 8-360m). In conclusion; we found IRMAs can typically still show capillary dropout on en face OCTA slabs despite projection artifacts, whereas NV may be more difficult to distinguish in some cases and should therefore require confirmation of corresponding PAR slice",
+      "avg_prediction": 0.965
+    },
+    {
+      "idx": 48,
+      "hash": "dcca3144",
+      "n_words": 47,
+      "n_chars": 316,
+      "preview_head": "short against St. Marys despite impressive performance by standout player Johnson, who scored a season-high of 25 points and made several crucial defensive stops throughout the game, as reported yeste",
+      "preview_tail": "ints and made several crucial defensive stops throughout the game, as reported yesterday evening in an exclusive interview with local sports commentator Thompson during halftime at Lima senior vs Bath",
+      "full_text": "short against St. Marys despite impressive performance by standout player Johnson, who scored a season-high of 25 points and made several crucial defensive stops throughout the game, as reported yesterday evening in an exclusive interview with local sports commentator Thompson during halftime at Lima senior vs Bath",
+      "avg_prediction": 0.9855
+    },
+    {
+      "idx": 49,
+      "hash": "0f2830c9",
+      "n_words": 89,
+      "n_chars": 519,
+      "preview_head": "for thought (6) Language (2) Middle East Study Tour (7) Music (4) My Travels (33) Newsletter (4) Personal (16) PhotographY (28) Poetry (4) Politics (66) Religion (19) Review (2) Storytelling (2) Uncat",
+      "preview_tail": "d as a communications and policy adviser, an teacher, and once, quite found myself working for a year in a hostel in an obscure city in the Czech Republic, which was a lot of fun. \u00a9 2022 Mark Riboldi.",
+      "full_text": "for thought (6) Language (2) Middle East Study Tour (7) Music (4) My Travels (33) Newsletter (4) Personal (16) PhotographY (28) Poetry (4) Politics (66) Religion (19) Review (2) Storytelling (2) Uncategorized (19) Writing (14) Hi! I\u2019m Mark Riboldi I'm a writer and photographer living in Sydney. In incarnations I worked as a communications and policy adviser, an teacher, and once, quite found myself working for a year in a hostel in an obscure city in the Czech Republic, which was a lot of fun. \u00a9 2022 Mark Riboldi.",
+      "avg_prediction": 0.2333
+    },
+    {
+      "idx": 50,
+      "hash": "2e0df23b",
+      "n_words": 178,
+      "n_chars": 1064,
+      "preview_head": "nd or territory. You are the third Humbled Chieftain.' Going through the footnotes, I read that the other two Humbled Chieftains were Llwarch Hen and Gwgon Gwron. It would seem, from Pryderi's remark,",
+      "preview_tail": "y Literature. Oxford: Clarendon Press; 1965.) The three chieftans are part of the same triad (or group) that appears throughout Welsh mythology. in this case they have been described as being \"humble\"",
+      "full_text": "nd or territory. You are the third Humbled Chieftain.' Going through the footnotes, I read that the other two Humbled Chieftains were Llwarch Hen and Gwgon Gwron. It would seem, from Pryderi's remark, that there is some connection between the three, yet the other two do not (if I recall correctly) appear in the Mabinogion. Is there a connection between the Three Humbled Chieftains? A: As I noted in my comment, that quote refers to a welsh triad, sometimes translated as \"Three Prostrate (Humble) Chieftains of the Island of Britain\": Llywarch the Old son of Elidir Llydanwyn, and Manawydan son of Llyr Half-Speech, and Gwgon Gwron son of Peredur son of Eliffer of the Great Retinue. (And this is why those were called the 'Prostate Chieftains': because they would not seek a dominion, and nobody could deny it to them.) (Bromwich, RCeltic Myth & Legend in Early Literature. Oxford: Clarendon Press; 1965.) The three chieftans are part of the same triad (or group) that appears throughout Welsh mythology. in this case they have been described as being \"humble\"",
+      "avg_prediction": 0.4525
+    },
+    {
+      "idx": 51,
+      "hash": "e691fd43",
+      "n_words": 73,
+      "n_chars": 453,
+      "preview_head": "eads have been proposed that provide combined recirculation flow and impingement mixing injection and flow from the mix-head to a mold U.S. Pat. No. 4,175,874 issued Nov. 27, 1979 and U.S. Pat. No. 4,",
+      "preview_tail": " wherein the recirculation passages are formed in the piston. U.S. Pat. No. 3,706,515 issued Dec. 19, 1972 utilizes a constant section plunger. However, a separate movable slide plunger is required to",
+      "full_text": "eads have been proposed that provide combined recirculation flow and impingement mixing injection and flow from the mix-head to a mold U.S. Pat. No. 4,175,874 issued Nov. 27, 1979 and U.S. Pat. No. 4,053,283 issued Oct. 11, 1977 disclose such a mix-head wherein the recirculation passages are formed in the piston. U.S. Pat. No. 3,706,515 issued Dec. 19, 1972 utilizes a constant section plunger. However, a separate movable slide plunger is required to",
+      "avg_prediction": 0.3022
+    },
+    {
+      "idx": 52,
+      "hash": "01e95810",
+      "n_words": 164,
+      "n_chars": 923,
+      "preview_head": "And then, something happened that sent the fan community into a frenzy of outrage and disbelief. It was announced that Tobey Maguire, the then-hot favorite to play Peter Parker, was going to be replac",
+      "preview_tail": "ty and concern. It was a moment of crisis in the fan community and a major source of contention. However, the news was short-lived, and Maguire was eventually confirmed to play the role, to the relief",
+      "full_text": "And then, something happened that sent the fan community into a frenzy of outrage and disbelief. It was announced that Tobey Maguire, the then-hot favorite to play Peter Parker, was going to be replaced by a relatively unknown actor. This was a major shock to the fanbase, who were already invested in Maguire's portrayal of the character and were excited to see the character's evolution in the big screen. Tobey Maguire's portrayal of Peter Parker in the TV series \"Spider-Man\" was a fan favorite, and the idea of a new actor taking on the role was met with a wave of fanboy freakouts. Maguire's character was deeply ingrained in the fan's hearts and the idea of a new actor taking on the role was a source of major anxiety and concern. It was a moment of crisis in the fan community and a major source of contention. However, the news was short-lived, and Maguire was eventually confirmed to play the role, to the relief",
+      "avg_prediction": 0.84
+    },
+    {
+      "idx": 53,
+      "hash": "8bdfc8d1",
+      "n_words": 56,
+      "n_chars": 447,
+      "preview_head": "an be synthesized using desired templates to create specificand selective cavities for interaction. This technique guarantees a wide range of versatility to imprint diverse sets of biomolecules with d",
+      "preview_tail": "emical features. Owingto their physical and chemical robustness, cost-friendliness, high stability, and reusability, MIP-based microfluidics systemshave become very attractive modalities. This review ",
+      "full_text": "an be synthesized using desired templates to create specificand selective cavities for interaction. This technique guarantees a wide range of versatility to imprint diverse sets of biomolecules with different structures, sizes, and physical and chemical features. Owingto their physical and chemical robustness, cost-friendliness, high stability, and reusability, MIP-based microfluidics systemshave become very attractive modalities. This review ",
+      "avg_prediction": 0.7171
+    },
+    {
+      "idx": 54,
+      "hash": "b8345f04",
+      "n_words": 95,
+      "n_chars": 624,
+      "preview_head": "our citizens have little money to spend and invest due to the high cost of housing. However, most of all housing is a fundamental need of all people. Living in expensive, poorly maintained housing mak",
+      "preview_tail": "hout theregion because many older developments have expiring use restrictions or affordability controls (known as \u201cperiods for preferential rehabilitation\u201d), recent analysis suggests a more optimistic",
+      "full_text": "our citizens have little money to spend and invest due to the high cost of housing. However, most of all housing is a fundamental need of all people. Living in expensive, poorly maintained housing makes it difficult for families to improve their lives anD those of their children, much less contribute to the community. How are we doing? Although conventional wisdom holds that the affordable housing stock is at risk throughout theregion because many older developments have expiring use restrictions or affordability controls (known as \u201cperiods for preferential rehabilitation\u201d), recent analysis suggests a more optimistic",
+      "avg_prediction": 0.5268
+    },
+    {
+      "idx": 55,
+      "hash": "c8cbf399",
+      "n_words": 172,
+      "n_chars": 1053,
+      "preview_head": "ta PubMed 22594963 Referenced in Channelpedia wiki pages of: none Automatically associated channels: TRP , TRPM , TRPM8 Add reference to TRP Add reference to TRPM Add reference to TRPM8 Add reference ",
+      "preview_tail": " Kir3.4 Kir4.1 Kir4.2 Kir5.1 Kir6.1 Kir6.2 Kir7.1 Kv1 Kv1.1 Kv1.2 Kv1.3 Kv1.4 Kv1.5 Kv1.6 Kv1.7 Kv1.8 Kv10 Kv10.1 Kv10.2 Kv11 Kv11.1 Kv11.2 Kv11.3 Kv12 Kv12.1 Kv12.2 Kv12.3 Kv2 Kv2.1 Kv2.2 Kv3 Kv3.1 K",
+      "full_text": "ta PubMed 22594963 Referenced in Channelpedia wiki pages of: none Automatically associated channels: TRP , TRPM , TRPM8 Add reference to TRP Add reference to TRPM Add reference to TRPM8 Add reference to Select CHO CV1 HEK A BK BkB1 BKB2 BKB3 BKB4 Ca cacna2d1 cacna2d2 cacna2d3 cacnb1 cacnb2 cacnb3 cacnb4 cacng1 cacng2 cacng3 cacng4 cacng5 cacng6 cacng7 cacng8 Cav1.1 Cav1.2 Cav1.3 Cav1.4 Cav2.1 Cav2.2 Cav2.3 Cav3.1 Cav3.2 Cav3.3 CavL Cl ClCa1 ClCa2 ClCa3 ClCa4 ClCK1 ClCK2 ClIC1 ClIC2 ClIC3 ClIC4 ClIC5 ClvC1 ClvC2 ClvC3 ClvC4 ClvC5 ClvC6 ClvC7 cNOMPC cTRPA1 dTRPA1 HCN1 HCN2 HCN3 HCN4 Ih IMG K KCa KChip1 KChip2a Kcnab1 Kcnab2 Kcnab3 KCNK KCNK1 KCNK10 KCNK11 KCNK12 KCNK13 KCNK14 KCNK15 KCNK16 KCNK17 KCNK18 KCNK2 KCNK3 KCNK4 KCNK5 KCNK6 KCNK7 KCNK8 KCNK9 KCNQ KCNQ1 KCNQ2 KCNQ3 KCNQ4 KCNQ5 Kir Kir1.1 Kir2.1 Kir2.2 Kir2.3 Kir2.4 Kir3.1 Kir3.2 Kir3.3 Kir3.4 Kir4.1 Kir4.2 Kir5.1 Kir6.1 Kir6.2 Kir7.1 Kv1 Kv1.1 Kv1.2 Kv1.3 Kv1.4 Kv1.5 Kv1.6 Kv1.7 Kv1.8 Kv10 Kv10.1 Kv10.2 Kv11 Kv11.1 Kv11.2 Kv11.3 Kv12 Kv12.1 Kv12.2 Kv12.3 Kv2 Kv2.1 Kv2.2 Kv3 Kv3.1 K",
+      "avg_prediction": 0.0242
+    },
+    {
+      "idx": 56,
+      "hash": "06b5fbc5",
+      "n_words": 137,
+      "n_chars": 806,
+      "preview_head": "SRaMs can be manufactured in a very large storage capacity in a very low volume space at a low cost. These semiconductor memory devices can be packed with a large storage capacity in a very low volume",
+      "preview_tail": "-flop circuit is composed of a pair of N-channel MOS field effect transistors and a pair of P-channel MOS Field effect transistors used as a memory cell because of the very low power consumption of th",
+      "full_text": "SRaMs can be manufactured in a very large storage capacity in a very low volume space at a low cost. These semiconductor memory devices can be packed with a large storage capacity in a very low volume space and manufactured at a low cost. Among these memories, the static type semiconductor memory has been widely used as a random access memory (RAM), because it can retain stored data without periodically being refreshed during operation. The static random access memory (SRAM) can be implemented by a large number of bistable flip-flop circuits each of which stores one bit of information. The CMOS flip-flop circuit is composed of a pair of N-channel MOS field effect transistors and a pair of P-channel MOS Field effect transistors used as a memory cell because of the very low power consumption of th",
+      "avg_prediction": 0.6175
+    },
+    {
+      "idx": 57,
+      "hash": "dc437ee4",
+      "n_words": 286,
+      "n_chars": 1987,
+      "preview_head": "English reports - adam_b_long h32m.com JavaScript obfuscator, packer and compressor in the browser \u2013 no software installation required! Protect your JavaScript files against casual copying or viewing ",
+      "preview_tail": " allows you find syntax errors in javascript code and fix them with easy interface, so we've created this page for developers who need help debugging their JS codes - use it at your own risk! It works",
+      "full_text": "English reports - adam_b_long h32m.com JavaScript obfuscator, packer and compressor in the browser \u2013 no software installation required! Protect your JavaScript files against casual copying or viewing of source code by encrypting it using Javascript Obfuscation Online\u2019s technology to reduce file size up \u2026 JavascriptObfuscate - Free JS Packer/Compressor javascript-obfuscating.com JavaScript minifier and obfuscator written in javascript \u2013 jonnyinoh JSON Minify will remove unnecessary spaces, tabs or new lines from JSON data structure making it smaller (minify). It's useful when you want to reduce traffic on your server - github \u00b7 json-min json.jsontestereronlinecom Javascript minifier tool written in Javascript \u2013 arian4 JavaScript Parser is an online JavaScript parser that allows developers, programmers and designers the ability for syntax checking their JS code by providing information about possible errors found within it! It's easy to use: just paste your javascript into ... Online js-parser onlinestorage.net JQuery Minifier - JqueryCompresser \u2013 0x2a JavaScript String Escaper is a free tool that helps you escape and unescape strings using the methods JSON encode/decode, htmlspecialchars_encode()/htmlentities() to prevent injection attacks when working with HTML content such as URLs or forms! You can ... Online js-escapper onlinestorage.net JavaScript Minifier Online \u2013 alexseidman Minify JS allows you convert and minifies javascript source code into compact version without loosing its functionality - no installation required!, just enter your own JavaScript on the side then click \u201cminify\u201d button to see what happens! It also ... Javascript-minification online javascriptcodeconverter.com Online Javascript Minifier \u2013 alexseidman JavaScript Parser is a tool that allows you find syntax errors in javascript code and fix them with easy interface, so we've created this page for developers who need help debugging their JS codes - use it at your own risk! It works",
+      "avg_prediction": 0.9741
+    },
+    {
+      "idx": 58,
+      "hash": "270acae3",
+      "n_words": 137,
+      "n_chars": 829,
+      "preview_head": "a player but also a mentor within the team, whose insights and leadership are invaluable during this transitional period. In conclusion, Todd Haley\u2019s commendation of Roethlisberger underscores the cri",
+      "preview_tail": "ps even scale back the scrambling. But Haley said \u201cI haven\u2019t had any of those talks with the organization. I\u2019m just really excited about working with Ben. We\u2019re off to a real good start. If you have a",
+      "full_text": "a player but also a mentor within the team, whose insights and leadership are invaluable during this transitional period. In conclusion, Todd Haley\u2019s commendation of Roethlisberger underscores the critical importance of quarterback play in American football, particularly for teams aiming to excel offensively. With Ben at the helm, the Steelers' offense has a strong foundation upon which they can build as training camp progresses and prepare for what promises to be an exciting season ahead. We feel good about our start.\u201d Art Rooney said early in the year that he would like to see Roethlisberger sacked fewer times and perhaps even scale back the scrambling. But Haley said \u201cI haven\u2019t had any of those talks with the organization. I\u2019m just really excited about working with Ben. We\u2019re off to a real good start. If you have a",
+      "avg_prediction": 0.7346
+    },
+    {
+      "idx": 59,
+      "hash": "e972300e",
+      "n_words": 95,
+      "n_chars": 618,
+      "preview_head": "Rector, the Board of Visitors, is a group of 12 members appointed by the Governor of Virginia, and is responsible for the management of the University of Mary Washington. Comprising 12 members appoint",
+      "preview_tail": " Visitors include appointing the President, determining institutional policies, setting faculty salaries, fixing tuition and fees, awarding degrees, approving changes to the curriculum and the Honor S",
+      "full_text": "Rector, the Board of Visitors, is a group of 12 members appointed by the Governor of Virginia, and is responsible for the management of the University of Mary Washington. Comprising 12 members appointed by the Governor of Virginia, the Board is empowered to establish the mission and purpose of the University and to promote the general welfare of the institution. Some of the specific responsibilities of the Board of Visitors include appointing the President, determining institutional policies, setting faculty salaries, fixing tuition and fees, awarding degrees, approving changes to the curriculum and the Honor S",
+      "avg_prediction": 0.3522
+    },
+    {
+      "idx": 60,
+      "hash": "bd208266",
+      "n_words": 61,
+      "n_chars": 441,
+      "preview_head": "such oscillations fluctuates slightly around the period of deterministic oscillations and the coherence of oscillations becomes the best at an optimal internal noise intensity, indicating the occurren",
+      "preview_tail": "ddition, in the oscillatory region, the coherence of noisy circadian oscillations is suppressed by the internal noise, but the period is hardly affected, demonstrating the robustness of the Drosophila",
+      "full_text": "such oscillations fluctuates slightly around the period of deterministic oscillations and the coherence of oscillations becomes the best at an optimal internal noise intensity, indicating the occurrence of intrinsic coherence resonance. In addition, in the oscillatory region, the coherence of noisy circadian oscillations is suppressed by the internal noise, but the period is hardly affected, demonstrating the robustness of the Drosophila",
+      "avg_prediction": 0.4919
+    },
+    {
+      "idx": 61,
+      "hash": "e65f6eff",
+      "n_words": 283,
+      "n_chars": 1571,
+      "preview_head": "first time, or enabled comments on your blog. You carefully craft a post or two, click the submit button, and wait with bated breath for comments to come in. And they do come in. Perhaps you get a fri",
+      "preview_tail": "eally works. Create awesome content! People who find your site interesting and useful are going to want to interact with it somehow, either through adding a comment on an existing article or blog post",
+      "full_text": "first time, or enabled comments on your blog. You carefully craft a post or two, click the submit button, and wait with bated breath for comments to come in. And they do come in. Perhaps you get a friendly note from a fellow blogger, a pressing update from an MMORPG guild member, or a reminder from your Aunt Millie about dinner on Thursday. But then you get something else. Something... disturbing. Offers for deals that are too good to be true, bizarre logorrhean gibberish, and explicit images you certainly don't want Aunt Millie to see. You are now buried in a deluge of dreaded comment spam. Comment spam is bad stuff all around. It's bad for you, because it adds to your workload. It's bad for your users, who want to find information on your site and certainly aren't interested in dodgy links and unrelated content. It's bad for the web as a whole, because the more that spammers are able to profit from comment spam, the more time and effort you'll have to spend to combat it. The good news is that there are simple things you can do today to cut down on the amount of comment spam you receive. It's important for site owners to be proactive in preventing comment spam--it only takes one or two people clicking a bad link to potentially cause damage to them, and to make more work for everyone else. ### It all starts with great content Let's start with what really works. Create awesome content! People who find your site interesting and useful are going to want to interact with it somehow, either through adding a comment on an existing article or blog post",
+      "avg_prediction": 0.4256
+    },
+    {
+      "idx": 62,
+      "hash": "ea3a34d6",
+      "n_words": 44,
+      "n_chars": 278,
+      "preview_head": "ion, the patient had no palpable lymphadenopathy, splenomegaly, or peripheral edema. Subsequent laboratory work revealed a white blood cell count of 3.37 K/*\u03bc*L (absolute neutrophil count of 2200), a ",
+      "preview_tail": "edema. Subsequent laboratory work revealed a white blood cell count of 3.37 K/*\u03bc*L (absolute neutrophil count of 2200), a hemoglobin of 7.5 g/dL with a mean corpuscular volume of 95 fL, and a platelet",
+      "full_text": "ion, the patient had no palpable lymphadenopathy, splenomegaly, or peripheral edema. Subsequent laboratory work revealed a white blood cell count of 3.37 K/*\u03bc*L (absolute neutrophil count of 2200), a hemoglobin of 7.5 g/dL with a mean corpuscular volume of 95 fL, and a platelet",
+      "avg_prediction": 0.9779
+    },
+    {
+      "idx": 63,
+      "hash": "297cbba4",
+      "n_words": 76,
+      "n_chars": 323,
+      "preview_head": "y(-5)/3. Let a be x(-4). Let n(l) = 2*l + 5*l - 4 + a. Give -5*d(k) - 2*n(k). k - 1 Let s(v) = v**3. Let q(y) = -25*y**3. Give q(d) - 3*s(d). -28*d**3 Let y(d) = -28*d + 39. Let u(h) = -42*h + 59. Let",
+      "preview_tail": "ive q(d) - 3*s(d). -28*d**3 Let y(d) = -28*d + 39. Let u(h) = -42*h + 59. Let q(f) = -5*u(f) + 8*y(f). Let w(c) = -5*c + 6. Calculate 6*q(m) - 17*w(m). m Let x(i) = -i**2 + 1. Let l(n) = -11*n**2 - 3*",
+      "full_text": "y(-5)/3. Let a be x(-4). Let n(l) = 2*l + 5*l - 4 + a. Give -5*d(k) - 2*n(k). k - 1 Let s(v) = v**3. Let q(y) = -25*y**3. Give q(d) - 3*s(d). -28*d**3 Let y(d) = -28*d + 39. Let u(h) = -42*h + 59. Let q(f) = -5*u(f) + 8*y(f). Let w(c) = -5*c + 6. Calculate 6*q(m) - 17*w(m). m Let x(i) = -i**2 + 1. Let l(n) = -11*n**2 - 3*",
+      "avg_prediction": 0.8975
+    },
+    {
+      "idx": 64,
+      "hash": "05c95fea",
+      "n_words": 62,
+      "n_chars": 370,
+      "preview_head": "The highest peak, known for its stunning views and challenging hikes. Elevation, or geometric height, is mainly used when referring to points on the Earth's surface, while altitude or geopotential hei",
+      "preview_tail": "e altitude or geopotential height is used for points above the surface, such as an aircraft in flight or a spacecraft in orbit, and depth is used for points below the surface. This image was generated",
+      "full_text": "The highest peak, known for its stunning views and challenging hikes. Elevation, or geometric height, is mainly used when referring to points on the Earth's surface, while altitude or geopotential height is used for points above the surface, such as an aircraft in flight or a spacecraft in orbit, and depth is used for points below the surface. This image was generated",
+      "avg_prediction": 0.9668
+    },
+    {
+      "idx": 65,
+      "hash": "84470ad7",
+      "n_words": 121,
+      "n_chars": 739,
+      "preview_head": "ation. This precludes the legality of positive discrimination, or any other kind of discrimination which may involve a benign motive. Facts Mr James had to pay for the swimming pool, but Mrs James did",
+      "preview_tail": "ds of sex under SDA 1975 s 1(1), because it followed the state pensionable and that was itself discriminatory. Lord Goff that Sir NicholasThe case you are referring to is , which remains a significant",
+      "full_text": "ation. This precludes the legality of positive discrimination, or any other kind of discrimination which may involve a benign motive. Facts Mr James had to pay for the swimming pool, but Mrs James did not because he was below pensionable age. He claimed there was direct discrimination (not indirect, whereby there would probably be a successful justification). Mr james claimed that this was contrary to the Sex Discrimination Act 1975 section 29. Judgment Lord Bridge, Lord Ackner and Lord Goff held that this was discrimination on grounds of sex under SDA 1975 s 1(1), because it followed the state pensionable and that was itself discriminatory. Lord Goff that Sir NicholasThe case you are referring to is , which remains a significant",
+      "avg_prediction": 0.9678
+    },
+    {
+      "idx": 66,
+      "hash": "234ecd3e",
+      "n_words": 316,
+      "n_chars": 1818,
+      "preview_head": "suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has do",
+      "preview_tail": "s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice followin",
+      "full_text": "suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice following this month\u2019s release of the list, Kumar told The Christian In the list, Kumar has documented the suicide of 18 Dalit students, the number of cases being higher as more cases were being brought to notice followin",
+      "avg_prediction": 0.9833
+    },
+    {
+      "idx": 67,
+      "hash": "d059cc99",
+      "n_words": 154,
+      "n_chars": 573,
+      "preview_head": "order. 27, 4, 1.3, 2/3, -1/6, -3 Put 4.4, -6/13, -30, 0.4, -0.5 in increasing order. -30, -0.5, -6/13, 0.4, 4.4 Sort 0, -5, 3, -45, 3134 in ascending order. -45, -5, 0, 3, 313Here is the list of sorte",
+      "preview_tail": " / 7 ( \u2248 -. 3 ),- 8 \u2010 9 \u2215 6 ; 0 \u2010 5 - 4 2/3 , + . x, b. p c., a+b; 1 ( \u2212 ) [ / ] 7 ],\u2212 9 \u2215 6 ; 0 \u2010 5 - 4 -3/2 , + . x, b. p c., a+b; 1 ( \u2212 ) [ / ] 7 ],\u2212 9 \u2215 6 ; 0 \u2010 5 - 4 -3/2 , + . x, b. p c., a+b; 1",
+      "full_text": "order. 27, 4, 1.3, 2/3, -1/6, -3 Put 4.4, -6/13, -30, 0.4, -0.5 in increasing order. -30, -0.5, -6/13, 0.4, 4.4 Sort 0, -5, 3, -45, 3134 in ascending order. -45, -5, 0, 3, 313Here is the list of sorted items based on your instructions: 27, 4, 1.3, 2/3 (or approximately 0.6), -1/6 (-0.166...), -3 -55/8 ,(-6.9 ), -1/5 (-0.2) , -4,- 2/11 (\u2212 .1 ) 1,\u22121(almost equal to \u2212 1), 1 / 7 ( \u2248 -. 3 ),- 8 \u2010 9 \u2215 6 ; 0 \u2010 5 - 4 2/3 , + . x, b. p c., a+b; 1 ( \u2212 ) [ / ] 7 ],\u2212 9 \u2215 6 ; 0 \u2010 5 - 4 -3/2 , + . x, b. p c., a+b; 1 ( \u2212 ) [ / ] 7 ],\u2212 9 \u2215 6 ; 0 \u2010 5 - 4 -3/2 , + . x, b. p c., a+b; 1",
+      "avg_prediction": 0.9808
+    },
+    {
+      "idx": 68,
+      "hash": "51621df4",
+      "n_words": 49,
+      "n_chars": 292,
+      "preview_head": "Free And Independent Scotland.Post a reply39 posts\u2022 Page 2 Of 2 \u2022 1, 2Re: Puns, Jokes, and other what-notRizwith a heart colder than a welldiggers nutsackofflinePosts: 15647Joined: Thu Jun 28, 2007Val",
+      "preview_tail": "ther what-notRizwith a heart colder than a welldiggers nutsackofflinePosts: 15647Joined: Thu Jun 28, 2007Valhallen by Valhallen \u00bb Mon Jan 14, 2013 5:50 am Riz wrote:I'm pretty sure I saw that thread o",
+      "full_text": "Free And Independent Scotland.Post a reply39 posts\u2022 Page 2 Of 2 \u2022 1, 2Re: Puns, Jokes, and other what-notRizwith a heart colder than a welldiggers nutsackofflinePosts: 15647Joined: Thu Jun 28, 2007Valhallen by Valhallen \u00bb Mon Jan 14, 2013 5:50 am Riz wrote:I'm pretty sure I saw that thread o",
+      "avg_prediction": 0.9566
+    },
+    {
+      "idx": 69,
+      "hash": "d2be9c19",
+      "n_words": 233,
+      "n_chars": 1313,
+      "preview_head": "-class appearance for the team, during the 1873\u201374 season, against Otago. The match was played on 11 April 1874, at the Lancaster Park, a venue that was a significant venue for Canterbury cricket at t",
+      "preview_tail": "ricketing landscape, a landscape that was in the early stages of cricketing development. Reeder, in the match, was part of a Canterbury team that was eager to make a mark in the New Zealand cricketing",
+      "full_text": "-class appearance for the team, during the 1873\u201374 season, against Otago. The match was played on 11 April 1874, at the Lancaster Park, a venue that was a significant venue for Canterbury cricket at the time. The match against Otago was a part of the 1873\u201374 season, a time when cricket was a burgeoning sport in the burgeoning cricket scene of New Zealand. Francis Reeder, a right-handed batsman, was part of a Canterbury team that was in the early stages of establishing a cricketing identity in the region. Reeder, in the match, was part of a Canterbury team that was eager to make a mark in the New Zealand cricketing landscape. During the match, Reeder was part of a Canterbury team that was eager to make a mark in the New Zealand cricketing landscape. Canterbury, in the match, was eager to make a mark in the New Zealand cricketing landscape, a landscape that was in the early stages of cricketing development. Reeder, in the match, was part of a Canterbury team that was eager to make a mark in the New Zealand cricketing landscape. Canterbury, in the match, was eager to make a mark in the New Zealand cricketing landscape, a landscape that was in the early stages of cricketing development. Reeder, in the match, was part of a Canterbury team that was eager to make a mark in the New Zealand cricketing",
+      "avg_prediction": 0.9492
+    },
+    {
+      "idx": 70,
+      "hash": "cf457f3a",
+      "n_words": 258,
+      "n_chars": 1169,
+      "preview_head": "embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To ",
+      "preview_tail": " paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te,",
+      "full_text": "embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te, paste this HTML in website To embed the PDF & Te,",
+      "avg_prediction": 0.982
+    },
+    {
+      "idx": 71,
+      "hash": "52b0445d",
+      "n_words": 116,
+      "n_chars": 748,
+      "preview_head": "retail. Featuring daily headlines and breaking news for members. f-trend.com provides the most comprehensive coverage anywhere of fashion trend, and retail news and is the leading destination for all ",
+      "preview_tail": "f Use We use cookies on our website to support technical features that enhance your user experience. We also use analytics & advertising services. To opt-out click for more information. I've read it M",
+      "full_text": "retail. Featuring daily headlines and breaking news for members. f-trend.com provides the most comprehensive coverage anywhere of fashion trend, and retail news and is the leading destination for all fashion week updates and show reviews from New York, Paris, Milan and London, Delhi, Mumbai, Shanghai, Tokyo. Policy The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of F-trend Media \u00a9 Copyright 2010-2021, f-trend Legal Privacy & Cookies Policy || Terms of Use We use cookies on our website to support technical features that enhance your user experience. We also use analytics & advertising services. To opt-out click for more information. I've read it M",
+      "avg_prediction": 0.2324
+    },
+    {
+      "idx": 72,
+      "hash": "d0a75ac8",
+      "n_words": 95,
+      "n_chars": 528,
+      "preview_head": "'s the missing middle part of the text: \"If you're looking to increase the depth of the markings on an older Coonan receiver, there are a few options you could consider. One approach is to use a fine-",
+      "preview_tail": " the markings and give them a more uniform appearance. However, be careful not to overdo it, As excessive sanding or filing can damage the receiver and potentially make it unsafe for use.\" The numbers",
+      "full_text": "'s the missing middle part of the text: \"If you're looking to increase the depth of the markings on an older Coonan receiver, there are a few options you could consider. One approach is to use a fine-grit sandpaper or a small file to gently remove some of the finish and expose more of the underlying metal. This can help deepen the markings and give them a more uniform appearance. However, be careful not to overdo it, As excessive sanding or filing can damage the receiver and potentially make it unsafe for use.\" The numbers",
+      "avg_prediction": 0.9019
+    },
+    {
+      "idx": 73,
+      "hash": "dbb9b06b",
+      "n_words": 115,
+      "n_chars": 758,
+      "preview_head": "mple guide to planning, shopping, cooking and even growing great food. With your work and my experience and encouragement you easily make the transition to eating a plant based diet. Let's talk Preven",
+      "preview_tail": "st burgers Caldwell Esselstyn CAM-CBD Oil CAM-herbals CAM-oils Cote Home Grown Fare Dean Ornish dessert diabetes diary-free food Eggs entr\u00e9e environment excitotoxins Farmers Market Fat Sick and Nearly",
+      "full_text": "mple guide to planning, shopping, cooking and even growing great food. With your work and my experience and encouragement you easily make the transition to eating a plant based diet. Let's talk Prevent Obesity Featured Products Recommended BlogUpp Blogarama Blog Farm Blog Catalog Blog Roll Blog Top Sites Food & Drink links Blog Monitor Meta Register Log in Entries RSS Comments RSS WordPress.org Subscribe by Email Subscribe to Down To Earth Fare by Email Categories additive-free food allergies Andrew Weil Asian B12 baking Beans beets book review Breakfast burgers Caldwell Esselstyn CAM-CBD Oil CAM-herbals CAM-oils Cote Home Grown Fare Dean Ornish dessert diabetes diary-free food Eggs entr\u00e9e environment excitotoxins Farmers Market Fat Sick and Nearly",
+      "avg_prediction": 0.6081
+    },
+    {
+      "idx": 74,
+      "hash": "0999ff6c",
+      "n_words": 147,
+      "n_chars": 2337,
+      "preview_head": "de <aws/core/utils/json/JsonSerializer.h> #include <utility> using namespace Aws::Utils::Json; using namespace Aws::Utils; namespace Aws { namespace Chime { namespace Model { PhoneNumberAssociation::P",
+      "preview_tail": "t; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet",
+      "full_text": "de <aws/core/utils/json/JsonSerializer.h> #include <utility> using namespace Aws::Utils::Json; using namespace Aws::Utils; namespace Aws { namespace Chime { namespace Model { PhoneNumberAssociation::PhoneNumberAssociation() : m_valueHasBeenSet(false), m_name(PhoneNumberAssociationName::NOT_SET), m_nameHasBeenSet(false), m_associatedTimestampHasBeenSet(false) { } PhoneNumberAssociation::PhoneNumberAssociation(JsonView jsonValue) : m_valueHasBeenSet(false), m_name(PhoneNumbeAssociationName::NOT_SET), m_nameHasBeenSet(false), m_associatedTimestampHasBeenSet(false) { *this = PhoneNumberAssociation::FromJson(jsonValue); } PhoneNumberAssociation::PhoneNumberAssociation(PhoneNumberAssociation&& other) : m_valueHasBeenSet(false), m_name(PhoneNumberAssociationName::NOT_SET), m_nameHasBeenSet(false), m_associatedTimestampHasBeenSet(false) { m_valueHasBeenSet = other.m_valueHasBeenSet; m_name = other.m_name; m_nameHasBeenSet = other.m_nameHasBeenSet; m_associatedTimestamp = other.m_associatedTimestamp; m_associatedTimestampHasBeenSet = other.m_associatedTimestampHasBeenSet; m_value = other.m_value; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet = other.m_valueHasBeenSet; m_valueHasBeenSet",
+      "avg_prediction": 0.9848
+    },
+    {
+      "idx": 75,
+      "hash": "a3795d7d",
+      "n_words": 106,
+      "n_chars": 791,
+      "preview_head": "SA IPCC \u201cHockey Stick\u201d NOAA Obama\u2019s EPA Medicine Science & the U.N. Evolutionism Human Ancestry Theistic Evolutionism (or Evolutionistic Creationism) Creationism HIV & AIDS U.F.O.s Religion Christiani",
+      "preview_tail": "Politics & Women Christians in History Christmas Christian Persecution Judgmentalism Atheism & Science Peer-Reviewed Journals Mind or Matter? WHumanity & Science Peer-Reviewed Journals Mind or Matter?",
+      "full_text": "SA IPCC \u201cHockey Stick\u201d NOAA Obama\u2019s EPA Medicine Science & the U.N. Evolutionism Human Ancestry Theistic Evolutionism (or Evolutionistic Creationism) Creationism HIV & AIDS U.F.O.s Religion Christianity Christian Theology Evangelicalism E-Liberalism Word of Faith Pentecostalism Roman Catholicism Homosexuality & Pedophilia RCC & Liberalism Pagan Roots? The Problem of Evil Eschatology The Bible Old Testament Creation & Genesis Noah & The Flood Hebrew Exodus Archaeology New Testament Historicity N.T. Archaeology Bart Ehrman: N.T. Critic N.T. Canon What Resurrection? Hell? Christianity & Politics & Women Christians in History Christmas Christian Persecution Judgmentalism Atheism & Science Peer-Reviewed Journals Mind or Matter? WHumanity & Science Peer-Reviewed Journals Mind or Matter?",
+      "avg_prediction": 0.9019
+    },
+    {
+      "idx": 76,
+      "hash": "0a19d0cb",
+      "n_words": 72,
+      "n_chars": 463,
+      "preview_head": "s of Microsoft operating systems will require security updates as well as other functionality that is not supported by Windows XP and Vista.\u201d It's understandable why Valve would make this decision giv",
+      "preview_tail": " no longer be maintained effectively with outdated OS versions. This change might encourage gamers to upgrade or switch if they wish continue using the platform seamlessly without issues going forward",
+      "full_text": "s of Microsoft operating systems will require security updates as well as other functionality that is not supported by Windows XP and Vista.\u201d It's understandable why Valve would make this decision given their reliance on Google Chrome for Steam features which can no longer be maintained effectively with outdated OS versions. This change might encourage gamers to upgrade or switch if they wish continue using the platform seamlessly without issues going forward",
+      "avg_prediction": 0.9836
+    },
+    {
+      "idx": 77,
+      "hash": "486b5156",
+      "n_words": 151,
+      "n_chars": 857,
+      "preview_head": "a law enforcement vehicle is driving behind them. Luckily, if a driver is obeying all of the traffic laws, then they have nothing to worry about. However, if a person has been pulled over, they should",
+      "preview_tail": "ghway. Another fairly common infraction is making an illegal U-turn. VC 22102 makes making a u-turn in a business district, any stretch of road where 50% or more of the property along the street is oc",
+      "full_text": "a law enforcement vehicle is driving behind them. Luckily, if a driver is obeying all of the traffic laws, then they have nothing to worry about. However, if a person has been pulled over, they shouldn\u2019t panic. Most traffic offenses are only infractions. This means that if a person is charged with one of these, they will only face a small fine, around a few hundred dollars, and no possibility of jail time. A common infraction level offense that driver\u2019s face regularly is speeding. Speeding is made illegal under California Vehicle Code (VC) 22350. Under this law, it is illegal for a person to drive over the posted speed limit for any given road or highway. Another fairly common infraction is making an illegal U-turn. VC 22102 makes making a u-turn in a business district, any stretch of road where 50% or more of the property along the street is oc",
+      "avg_prediction": 0.6354
+    },
+    {
+      "idx": 78,
+      "hash": "7bc24974",
+      "n_words": 120,
+      "n_chars": 710,
+      "preview_head": "cks minor in chest; adult threatens another adult for stealing; adult chases minor and verbally threatens; metaphor of being rolled over by a wagon, shattering all bones; injuries from sharp rocks lea",
+      "preview_tail": "s adult in the face; minor hits head and blood from head wound soaks up sleeve; adult squeezes wind out of minor-injuring ribs; adult holds minor at gun point, ties with muffler and drags; adult holds",
+      "full_text": "cks minor in chest; adult threatens another adult for stealing; adult chases minor and verbally threatens; metaphor of being rolled over by a wagon, shattering all bones; injuries from sharp rocks leading to slick blood; adult grabs minor by neck, holds tight, drops to ground, and swings at him hitting his arm; minor shoves minor; minor pounds minor with fist; raft disappears with perception that adult will die; adult ties up minor with muffler and leaves; adult grabs adult by arm and shakes; minor punches adult in the face; minor hits head and blood from head wound soaks up sleeve; adult squeezes wind out of minor-injuring ribs; adult holds minor at gun point, ties with muffler and drags; adult holds",
+      "avg_prediction": 0.019
+    },
+    {
+      "idx": 79,
+      "hash": "cca2dee6",
+      "n_words": 156,
+      "n_chars": 1269,
+      "preview_head": "se events (AEs) reported by patients were monitored throughout the study period. The study's primary efficacy endpoint was a reduction inARR from baseline to 12months after switchingtoDMF. Key results",
+      "preview_tail": "hmay help mitigate long-termdisabilityprogression andimprove overall well-being in these individuals. The RESPOND study's real-world data complement Phase III clinical trialevidence supporting DMF as ",
+      "full_text": "se events (AEs) reported by patients were monitored throughout the study period. The study's primary efficacy endpoint was a reduction inARR from baseline to 12months after switchingtoDMF. Key results showed that DMFtreatment resulted in an averageyearly relapserate reductions from baseline values at month 12, which demonstratedsignificantstatistical improvement compared with pre-DMF initiation rates (defined as the mean of the patient'smonthly relapse rates forthe yearprior to initiating DMF). In addition to this clinicalefficacymeasure,patients who switched to DMF after suboptimal response to GA showed a notable and statistically significant improvement in PROdomains from baselinevalues at one-year follow-up. The improvements seenacrossallfourPRO outcomes suggested that switching todelayed-release DMF was associated with enhanced qualityof life for the RMSpatientcohort.These findings highlight the potential benefits ofswitching RMS patients who are suboptimal responders to GA toa highly effective disease-modifying therapylike delayed-release DMF, whichmay help mitigate long-termdisabilityprogression andimprove overall well-being in these individuals. The RESPOND study's real-world data complement Phase III clinical trialevidence supporting DMF as ",
+      "avg_prediction": 0.9757
+    },
+    {
+      "idx": 80,
+      "hash": "87283ede",
+      "n_words": 100,
+      "n_chars": 922,
+      "preview_head": "FriendLy(9) Chicken Fingers/Nuggets(6) Cider(5) Cookies(3) Crepes(1) Cupcakes(4) Dedicated Facilities(2) Dedicated Fryers(1) Dessert(12) Fries(7) Gluten-Free Menu(69) Onion Rings(1) Pasta(4) Pizza(14)",
+      "preview_tail": " Bars(1) Steakhouse(10) Sushi(2) Takeout(5) Tex-Mex(2) Thai(2) Vegan Friendly(8) Vegetarian Friendly(10) Gluten-Free Ritta, TN Sort:Best | distance \u00ab \u00bb 1.Don Pablo's 1 rating$$ 2916 Knoxville Center D",
+      "full_text": "FriendLy(9) Chicken Fingers/Nuggets(6) Cider(5) Cookies(3) Crepes(1) Cupcakes(4) Dedicated Facilities(2) Dedicated Fryers(1) Dessert(12) Fries(7) Gluten-Free Menu(69) Onion Rings(1) Pasta(4) Pizza(14) Sandwiches(6) Soup(1) Soy Sauce(1) Tacos(1) Tortilla Chips(3) Tortillas(2) Wings(2) Categories Asian(4) Bakeries(4) Barbecue(2) Breakfast(5) Brunch(3) Chinese(3) Dairy-Free(1) Delis(2) Delivery(3) Diners(1) Egg-Free(1) English & Irish(1) Fast Food(7) Greek(1) Grocery stores(1) Happy Hour(3) Health Food Stores(1) Italian(7) Japanese(2) Juice Bars(1) Kid Friendly(42) Late Night(15) Local(51) Lunch(6) Mediterranean(1) Mexican(5) Nut Free(1) Paleo Friendly(1) Peanut-Free(1) Restaurants(83) Seafood(13) Soy-Free(1) Sports Bars(1) Steakhouse(10) Sushi(2) Takeout(5) Tex-Mex(2) Thai(2) Vegan Friendly(8) Vegetarian Friendly(10) Gluten-Free Ritta, TN Sort:Best | distance \u00ab \u00bb 1.Don Pablo's 1 rating$$ 2916 Knoxville Center D",
+      "avg_prediction": 0.045
+    },
+    {
+      "idx": 81,
+      "hash": "3f9d82b9",
+      "n_words": 56,
+      "n_chars": 358,
+      "preview_head": "neous heparin (non fragmented or low molecular weight) is being discussed by many authors. It is lawful to associate spinal anesthesia with a soft dose of non fragmented subcutaneous heparin (Kakkar m",
+      "preview_tail": " fragmented subcutaneous heparin (Kakkar method) if the protocols are strictly respected. It is certainly possible to use low molecular weight subcutaneous heparin as well. However a slight decline in",
+      "full_text": "neous heparin (non fragmented or low molecular weight) is being discussed by many authors. It is lawful to associate spinal anesthesia with a soft dose of non fragmented subcutaneous heparin (Kakkar method) if the protocols are strictly respected. It is certainly possible to use low molecular weight subcutaneous heparin as well. However a slight decline in",
+      "avg_prediction": 0.3565
+    },
+    {
+      "idx": 82,
+      "hash": "725b4425",
+      "n_words": 256,
+      "n_chars": 1356,
+      "preview_head": "ar, and more, much more. Wednesday, April 22, 2009 Mostly Leftovers Another trip to Key Food today, and probably my last. I think I will only need to buy more bananas to get me through the end of my m",
+      "preview_tail": "avors in the mix: strawberry, blueberry, raspberry, chocolate chip, peanut butter, coconut macaroons, etc.I did eat a whole banana again this morning for breakfast so we are back to no more bananas in",
+      "full_text": "ar, and more, much more. Wednesday, April 22, 2009 Mostly Leftovers Another trip to Key Food today, and probably my last. I think I will only need to buy more bananas to get me through the end of my month. Today I bought an Oatmeal Variety Ten Pack for $1.99. The individual portions look a bit on the skimpy side, but I will try one tomorrow and see. No problem though because I still have plenty of eggs, and omelets for breakfast are always good. I also bought a bag of onions for $1.99 and two 1 pound bags of frozen mixed vegetables for $3.98. And $1.49 worth of dried bananas. They were $1.99 a pound so I guess I bought a little bit less than that. That was $9.45 for the day and a grand total to date of $137.80. I figure I should end up under $140 for the month.This morning I ate breakfast before I went shopping so I had a real banana in my oatmeal again. I took a picture of it but unfortunately, the camera phone is still not working properly. So instead, I'll just describe everything. My oatmeal was pretty good once you got past the first bite or two when all there really was was oats and banana. After that, you could taste some of the flavors in the mix: strawberry, blueberry, raspberry, chocolate chip, peanut butter, coconut macaroons, etc.I did eat a whole banana again this morning for breakfast so we are back to no more bananas in",
+      "avg_prediction": 0.5527
+    },
+    {
+      "idx": 83,
+      "hash": "24f9cbca",
+      "n_words": 185,
+      "n_chars": 1062,
+      "preview_head": "t York University. In 1976, he was appointed the first Canadian to the board of the Canadian Imperial Bank of Commerce, a position he held until 1996, and he was a key figure in the development of the",
+      "preview_tail": ", a position he held until 1996, and he was a key figure in the development of the Canadian Business and Administration programs at York University. In 1976, he was appointed the first Canadian to the",
+      "full_text": "t York University. In 1976, he was appointed the first Canadian to the board of the Canadian Imperial Bank of Commerce, a position he held until 1996, and he was a key figure in the development of the Canadian Business and Administration programs at York University. In 1976, he was appointed the first Canadian to the board of the Canadian Imperial Bank of Commerce, a position he held until 1996, and he was a key figure in the development of the Canadian Business and Administration programs at York University. In 1976, he was appointed the first Canadian to the board of the Canadian Imperial Bank of Commerce, a position he held until 1996, and he was a key figure in the development of the Canadian Business and Administration programs at York University. In 1976, he was appointed the first Canadian to the board of the Canadian Imperial Bank of Commerce, a position he held until 1996, and he was a key figure in the development of the Canadian Business and Administration programs at York University. In 1976, he was appointed the first Canadian to the",
+      "avg_prediction": 0.7477
+    },
+    {
+      "idx": 84,
+      "hash": "6a8946cb",
+      "n_words": 60,
+      "n_chars": 358,
+      "preview_head": "check your city\u2019s home page for guest appearance days!** More Views Description Yale Stewart is best-known as the creator of the award-winning webcomic, JL8. His work has also appeared in The Legend o",
+      "preview_tail": "His work has also appeared in The Legend of Luther Strode (Image ComicsSure thing! Here are some possible completions for the text you provided: * \"Yale Stewart is best known as the creator of the awa",
+      "full_text": "check your city\u2019s home page for guest appearance days!** More Views Description Yale Stewart is best-known as the creator of the award-winning webcomic, JL8. His work has also appeared in The Legend of Luther Strode (Image ComicsSure thing! Here are some possible completions for the text you provided: * \"Yale Stewart is best known as the creator of the awa",
+      "avg_prediction": 0.7335
+    },
+    {
+      "idx": 85,
+      "hash": "166f83d6",
+      "n_words": 141,
+      "n_chars": 916,
+      "preview_head": "Distribution of chain-reorganization events? I'm curious about, for instance, the frequency of chain reorganizations, and the distribution of their depths. Is this information available anywhere? Most",
+      "preview_tail": " typically more common near times when hard forks have occurred in the network's history? Some data points on Ethereum Mainnet might help illustrate what I'm after. There was a study by Chainalysis (I",
+      "full_text": "Distribution of chain-reorganization events? I'm curious about, for instance, the frequency of chain reorganizations, and the distribution of their depths. Is this information available anywhere? Mostly this is because I'm interested in rules for monitoring an ethereum node and comparing it to, say, etherscan's block history, in order to raise an alarm if the node is running incorrectly. But I'm also interested in things like how exchanges determine the depth at which they'll consider a transaction to be confirmed (e.g., do most wait for x number of blocks before considering it irreversible?). Are there any established best practices or heuristics around this? And, relatedly: are chain reorganization events typically more common near times when hard forks have occurred in the network's history? Some data points on Ethereum Mainnet might help illustrate what I'm after. There was a study by Chainalysis (I",
+      "avg_prediction": 0.5866
+    },
+    {
+      "idx": 86,
+      "hash": "c01d930f",
+      "n_words": 323,
+      "n_chars": 4087,
+      "preview_head": "Respect for Witnesses, Not Enough Voices: Activists Allege Bias at Bhima Koregaon Commission: The Wire: 10 Sep 2018 https://thewire.in/rights/bhima-koregaon-commission-witness-victim\"I Haven\u2019t Earned ",
+      "preview_tail": "osapiens: Pratab Bhanu Mehta: The Indian Express: 31 August 2018 https://indianexpress.com/article/opinion/columns/sinister-homo-sapiens-elgaar-sudha-bharadwaj-indian-express-columns-5333338/ Elgaar P",
+      "full_text": "Respect for Witnesses, Not Enough Voices: Activists Allege Bias at Bhima Koregaon Commission: The Wire: 10 Sep 2018 https://thewire.in/rights/bhima-koregaon-commission-witness-victim\"I Haven\u2019t Earned Money, I Have Earned People\": Sudha Bharadwaj\u2019s Daughter Pens Emotional Note: The Wire; 8 Sep 2018 https://thewire.in/rights/sudha-bharadwaj-daughter-letter Sudha Bharadwaj: Arrested activist who led legal fight against Adani's mines. Deepak Tiwari: The Week; 7 Sep 2018 https://www.theweek.in/news/india/2018/09/07/sudha-bharadwaj-arrested-activist-legal-adani-mines.html 5 activists' arrest: SC furious with Maharashtra cop's comment: 7 Sep 2018 https://timesofindia.indiatimes.com/india/bhima-koregaon-case-sc-irked-over-maharashtra-police-officer-extends-house-arrest-of-activists/articleshow/65709038.cms Why the UAPA must go: Jawahar Raja: India Today: 7 Sep 2018 https://www.indiatoday.in/magazine/up-front/story/20180917-why-the-uapa-must-go-1333213-2018-09-07 Rights Activists Arrest: This Law Is An Ass: Manisha Sethi: Outlook; 17 Sep 2018 https://www.outlookindia.com/magazine/story/rights-activists-arrest-this-law-is-an-ass/300588 A nation\u2019s moment of reckoning: Dr. Ashwani Kumar: 7 Sep 2018 https://indianexpress.com/article/opinion/columns/a-nations-moment-of-reckoning-elgaar-parishad-activists-arrested-bhima-koregaon-violence-dalit-march-5343830/ Those in Authority Want to Arrest the Growing Consciousness About Human Rights: Manoranjan Mohanty, The Wire; 7 Sep 2018 https://thewire.in/rights/activists-arrests-human-rights-pose-the-greatest-challenge-to-current-dispensation Elgaar Parishad probe: Faridabad bar body wants strike to protest arrest of Sudha Bharadwaj, other lawyers: The Indian Express; 6 Sep 2018 https://indianexpress.com/article/india/elgaar-parishad-probe-faridabad-bar-body-wants-strike-to-protest-arrest-of-sudha-bharadwaj-other-lawyers-5342105/ Jammu Kashmir Coalition of Civil Society condemns crack down on HR activists and liberal voices: Kashmir News Trust; 4 Sep 2018 http://kashmirnewstrust.com/jammu-kashmir-coalition-civil-society-condemns-crack-down-hr-activists-and-liberal-voices Independent Inquiry Slams Pune Police for 'Inaction' During Bhima Koregaon Violence: Dailyhunt: 4 Sep 2018 https://m.dailyhunt.in/news/india/english/the+wire+english-epaper-wireng/independent+inquiry+slams+pune+police+for+inaction+during+bhima+koregaon+violence-newsid-96177537 Flouting law, Maharashtra police took along witnesses from Pune while raiding, arresting activists: Scroll.in: 4 Sep 2018 https://scroll.in/article/893039/flouting-the-law-maharashtra-police-took-witnesses-from-pune-while-raiding-and-arresting-activists On Activists' Arrests, High Court Questions Press Conference By Police: NDTV: 3 Sep 2018 https://www.ndtv.com/india-news/on-activists-arrests-bombay-high-court-questions-press-conference-by-maharashtra-police-when-case-is-1910371 Activists' arrest: Bombay HC raps Maharashtra police, asks ' why hold press conference on sub judice matter': The Times of India: 3 Sep 2018 https://timesofindia.indiatimes.com/india/activists-arrest-bombay-hc-raps-maharashtra-police-asks-why-hold-press-conference-on-sub-judice-matter/articleshow/65654860.cms Bhima Koregaon Arrests: Anatomy of a clampdown and the history of a long oppression: Kritika A; The Leaflet; 3 Sep 2018 http://theleaflet.in/bhimakoregaonarrests-anatomy-of-a-clampdown-and-the-history-of-a-long-oppression/ Statement against police action on Prof. Anand Teltumbde and others \u2013 Students, Faculty and Alumni of IIT Kharagpur: Kafila; 2 Sep 2018 https://kafila.online/2018/09/02/statement-against-police-action-on-prof-anand-teltumbde-and-others-students-faculty-and-alumni-of-iit-kharagpur/ The Many Plots To Assassinate Narendra Modi: Tushar Dhara: The Caravan: 2 Sep 2018 http://www.caravanmagazine.in/politics/many-plots-to-assassinate-narendra-modi Sinister homosapiens: Pratab Bhanu Mehta: The Indian Express: 31 August 2018 https://indianexpress.com/article/opinion/columns/sinister-homo-sapiens-elgaar-sudha-bharadwaj-indian-express-columns-5333338/ Elgaar P",
+      "avg_prediction": 0.2492
+    },
+    {
+      "idx": 87,
+      "hash": "3e2d6dd8",
+      "n_words": 65,
+      "n_chars": 666,
+      "preview_head": "ASRM Store | ASRM eLearn\u00ae | Site Map HomeAbout UsMission StatementStrategic PlanASRM Board of DirectorsMedia and Public AffairsASRM CommitteesASRM Member GroupsContact UsSocial MediaASRM How To'sSite ",
+      "preview_tail": "M eLearn\u00aeContinuing EducationCareer Development HighlightsResearch Grants and AwardsNeural Stem Cell ResourceASRM Career CenterLinks to Professional Societies and OrganizationsEvents2015 Best of ESHRE",
+      "full_text": "ASRM Store | ASRM eLearn\u00ae | Site Map HomeAbout UsMission StatementStrategic PlanASRM Board of DirectorsMedia and Public AffairsASRM CommitteesASRM Member GroupsContact UsSocial MediaASRM How To'sSite AwardsCorporate Member CouncilCMSS CodeWrite the Next ChapterNews & PublicationsPublications OverviewNews and ResearchJournals & NewslettersCodingEthics Committee DocumentsPractice Committee DocumentsJoint StatementsResourcesReproductiveFacts.orgPatient ResourcesASRM eLearn\u00aeContinuing EducationCareer Development HighlightsResearch Grants and AwardsNeural Stem Cell ResourceASRM Career CenterLinks to Professional Societies and OrganizationsEvents2015 Best of ESHRE",
+      "avg_prediction": 0.9576
+    },
+    {
+      "idx": 88,
+      "hash": "bfaddea7",
+      "n_words": 267,
+      "n_chars": 1891,
+      "preview_head": "ion South Sudan has embarked on a program to transform the Sudan People\u2019s Liberation Army (SPLA), the country\u2019s preindependence guerrilla army, into a professional, conventional force by 2017. However",
+      "preview_tail": "ary will also be crucial elements in this transformation to ensure they can successfully transition into civilian life. The success of South Sudan's military transformation is pivotal not only for its",
+      "full_text": "ion South Sudan has embarked on a program to transform the Sudan People\u2019s Liberation Army (SPLA), the country\u2019s preindependence guerrilla army, into a professional, conventional force by 2017. However, the success of this transformation is conditional on effectively addressing one crucial issue: significantly reducing the size of the current military force. This process, known as force reduction or right-sizing, aims to create an army that is leaner and more efficient\u2014a formidable professional defense force appropriate for a sovereign South Sudan. The rationale behind this strategy lies in several critical factors. Firstly, the SPLA's historical role as a guerrilla force may not align with the demands of modern conventional warfare. Transitioning into a professional military requires a shift in structure, tactics, and personnel\u2014a process that can be facilitated by reducing excess manpower. Secondly, shrinking the army will help address concerns about over-militarization and the potential for human rights abuses often associated with large standing armies, especially those primarily trained for guerrilla warfare. Lastly, force reduction can contribute to economic savings for the government, freeing up resources for much-needed development projects in other sectors. The process of right-sizing involves carefully planned steps including a comprehensive assessment of security needs, restructuring military units, and voluntary or, if necessary, compulsory separation of personnel\u2014all while ensuring that those who remain are well-trained, disciplined, and committed to their new roles within a professional army. Retraining programs and support for those leaving the military will also be crucial elements in this transformation to ensure they can successfully transition into civilian life. The success of South Sudan's military transformation is pivotal not only for its",
+      "avg_prediction": 0.8042
+    },
+    {
+      "idx": 89,
+      "hash": "9bad0818",
+      "n_words": 143,
+      "n_chars": 822,
+      "preview_head": "I ain\u2019t no honky-tonk hero But I\u2019m honky tonkin\u2019 all the same Been sittin\u2019 in the pews, chewin\u2019 on my sins, Swore to God I\u2019d change\u2014if only for the man in black. Turns out, I robbed that bank in \u201899 J",
+      "preview_tail": "Dave Hixx, the world\u2019s greatest songwriting tour manager (or tour managing songwriter), for help in getting all this down the way it may have happened. ________________________________________ I ain\u2019t",
+      "full_text": "I ain\u2019t no honky-tonk hero But I\u2019m honky tonkin\u2019 all the same Been sittin\u2019 in the pews, chewin\u2019 on my sins, Swore to God I\u2019d change\u2014if only for the man in black. Turns out, I robbed that bank in \u201899 Just to hear the clatter of coins, like music. Three years for a crime I\u2019d planned in verse, But forgiveness don\u2019t come with a chord progression. Now every Haggard heartache feels like absolution. The crime\u2019s a footnote\u2014Richard\u2019s why, not what. Johnny\u2019s voice is the bail I can\u2019t afford, But I\u2019ll trade this guilt for a hymn. Or maybe that\u2019s the worst part of the story. For sure, though, it\u2019s part of the story. Thanks to Dave Hixx, the world\u2019s greatest songwriting tour manager (or tour managing songwriter), for help in getting all this down the way it may have happened. ________________________________________ I ain\u2019t",
+      "avg_prediction": 0.5775
+    },
+    {
+      "idx": 90,
+      "hash": "f4edd5f5",
+      "n_words": 203,
+      "n_chars": 1367,
+      "preview_head": "From Higher-Quality Songs,\" the discussion revolves around the potential for Apple to capitalize on the growing consumer demand for higher-quality digital music. The article, published in 2011, sugges",
+      "preview_tail": "em Integration: Apple could integrate higher-quality audio files seamlessly into its existing ecosystem, including the iPod, iPhone, and Mac, making it easy for users to enjoy the higher-quality music",
+      "full_text": "From Higher-Quality Songs,\" the discussion revolves around the potential for Apple to capitalize on the growing consumer demand for higher-quality digital music. The article, published in 2011, suggests that Apple, through its iTunes Store, could introduce higher-quality audio files, such as lossless or high-resolution audio, as a premium offering. This strategy could not only attract audiophiles and music enthusiasts but also justify a higher price point, thereby increasing revenue. The key points in the article include: 1. Consumer Demand for Quality: There is a segment of the market that is willing to pay more for better sound quality. This is particularly true for audiophiles and music enthusiasts who value the listening experience. 2. Premium Pricing: By offering higher-quality audio files, Apple could charge more, creating a new revenue stream. This could be particularly effective if the higher-quality files are marketed as a premium product. 3. Technical Feasibility: The technology to support higher-quality audio files was already available, and the main challenge was the file size and the potential impact on storage and bandwidth. 4. Ecosystem Integration: Apple could integrate higher-quality audio files seamlessly into its existing ecosystem, including the iPod, iPhone, and Mac, making it easy for users to enjoy the higher-quality music",
+      "avg_prediction": 0.977
+    },
+    {
+      "idx": 91,
+      "hash": "74fb0049",
+      "n_words": 288,
+      "n_chars": 1751,
+      "preview_head": "of the slip sheet method aresignificant, the transition is not without its challenges. Here are a few points that the manufacturer of the packaged goods might consider: 1. Handling and Stability: Slip",
+      "preview_tail": "e wooden pallets and the slip sheets during the transition period, and might need to have both on hand to ensure the transition period is as smooth as possible. The manufacturer might need to consider",
+      "full_text": "of the slip sheet method aresignificant, the transition is not without its challenges. Here are a few points that the manufacturer of the packaged goods might consider: 1. Handling and Stability: Slip sheets are not as rigid as wooden pallets, which might require changes in the handling and stacking processes. Forklifts might require different attachments, and the stacking pattern might need to be adjusted to ensure the goods are stable and secure. Training of the handling and stacking personnel might be necessary to ensure the goods are not damaged and the stability of the stacks is not compromised. 2. Fragility of the Slip Sheets: Slip sheets are not as durable as wooden pallets and are prone to damage and wear. This might lead to additional costs in the long run as the slip sheets might need to be replaced more frequently. This is especially true in environments where the slip sheets are exposed to moisture, extreme temperatures, or rough handling. Consideration might need to be given to the additional costs and the impact on the overall supply chain. 3. Waste Management: While slip sheets are more environmentally friendly and are easier to dispose or recycle, the additional waste might be a concern. The manufacturer might need to consider the additional waste management costs and the impact on the overall waste management strategy. 4. Transition Period: The manufacturer might need to consider the costs and impact on the business during the transition period. The manufacturer might need to have a dual system, using both the wooden pallets and the slip sheets during the transition period, and might need to have both on hand to ensure the transition period is as smooth as possible. The manufacturer might need to consider",
+      "avg_prediction": 0.7859
+    },
+    {
+      "idx": 92,
+      "hash": "59c7e079",
+      "n_words": 52,
+      "n_chars": 341,
+      "preview_head": "llowing cost concerns raised in recent months, especially with a report from Canada\u2019s public broadcaster CBC and private CTV network highlighting these issues extensively earlier this week on Monday D",
+      "preview_tail": "ting these issues extensively earlier this week on Monday December 3rd . CTV also stated The media report was the latest embarrassment over the F-35 for the Conservative government, which announced in",
+      "full_text": "llowing cost concerns raised in recent months, especially with a report from Canada\u2019s public broadcaster CBC and private CTV network highlighting these issues extensively earlier this week on Monday December 3rd . CTV also stated The media report was the latest embarrassment over the F-35 for the Conservative government, which announced in",
+      "avg_prediction": 0.8267
+    },
+    {
+      "idx": 93,
+      "hash": "01563921",
+      "n_words": 197,
+      "n_chars": 1255,
+      "preview_head": "Simple Answers\" (August 22, 2010) \"Obama, Iran, Missiles, Europe, and 'What the heck did they tell him?' \" (September 17, 2009) Nukes in the 21st century \"North Korea: Nukes, Missiles, and Underfed So",
+      "preview_tail": "ive candles Visit us online: Spiral Light Candle \u2022 Find a Retailer \u2022 Spiral Light Candle Store Blogroll Note! Although I believe that these websites and blogs are useful resources for understanding th",
+      "full_text": "Simple Answers\" (August 22, 2010) \"Obama, Iran, Missiles, Europe, and 'What the heck did they tell him?' \" (September 17, 2009) Nukes in the 21st century \"North Korea: Nukes, Missiles, and Underfed Soldiers\" (November 24, 2010) \"Obama Limits Nuclear Weapons: That's Nice\" (April 6, 2010) \"Unintended Consequences? The West May be Getting Over Hiroshima\" (January 25, 2008) \"Ballistic Missiles in Cuba = Anti-Missile System in Europe?\" (October 26, 2007) \" 'The Jews Blew Up Our Reactor (Which Does Not Exist)' \" (October 17, 2007) Posted by Brian H. Gill at 7:01 AM Email ThisBlogThis!Share to TwitterShare to FacebookShare to Pinterest Labels: history, Iran, nuclear weapons, speculation 2 comments: Brigid said... Yeah. Generally speaking, people you are killed die: \"Thousands of people were killed that die.\" The Friendly Neighborhood Proofreader May 14, 2012 at 4:04 PM Brian H. Gill said... Brigid, Oops. Right. Fixed. Thanks! September 23, 2012 at 3:10 PM Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom) Unique, innovative candles Visit us online: Spiral Light Candle \u2022 Find a Retailer \u2022 Spiral Light Candle Store Blogroll Note! Although I believe that these websites and blogs are useful resources for understanding th",
+      "avg_prediction": 0.5284
+    },
+    {
+      "idx": 94,
+      "hash": "9d562146",
+      "n_words": 58,
+      "n_chars": 373,
+      "preview_head": "not result in similar penalties in college football. Bulldogs players like Logan Gray have voiced concerns over the impact of such enforcement on gameplay, arguing that it might diminish the physical ",
+      "preview_tail": "ight diminish the physical nature essential to the sport. \"We can't control what happens in NFL, but if they want hard-hitting guys playing here,\" Gray said, emphasizing that Georgia's approach remain",
+      "full_text": "not result in similar penalties in college football. Bulldogs players like Logan Gray have voiced concerns over the impact of such enforcement on gameplay, arguing that it might diminish the physical nature essential to the sport. \"We can't control what happens in NFL, but if they want hard-hitting guys playing here,\" Gray said, emphasizing that Georgia's approach remain",
+      "avg_prediction": 0.9782
+    },
+    {
+      "idx": 95,
+      "hash": "47e06e67",
+      "n_words": 82,
+      "n_chars": 598,
+      "preview_head": "analyzing changes in field potential receptive fields (RFs) 1-2 days later. Digital ablation, performed under chloral hydrate anesthesia, resulted in a rapid shift in the representation of neighboring",
+      "preview_tail": " independently of changes in threshold or responses evoked from non-denervated locations, indicating a localized and specific effect of digit ablation on somatotopic organization. These data support a",
+      "full_text": "analyzing changes in field potential receptive fields (RFs) 1-2 days later. Digital ablation, performed under chloral hydrate anesthesia, resulted in a rapid shift in the representation of neighboring, still-intact digits within SI. Specifically, digit RFs expanded along the proximodistal axis to occupy part of the territory previously occupied by the denervated digit(s). This expansion occurred independently of changes in threshold or responses evoked from non-denervated locations, indicating a localized and specific effect of digit ablation on somatotopic organization. These data support a",
+      "avg_prediction": 0.6783
+    },
+    {
+      "idx": 96,
+      "hash": "a8db4ba5",
+      "n_words": 332,
+      "n_chars": 1805,
+      "preview_head": "Gekkoh Does anybody know where to find this manga?? the only website that has it wants money for downloading it... money!!(i dont get it its no their work) :/ so please if anyone knows tell me ;] 02-1",
+      "preview_tail": "e any legal ways to access it, such as through official manga publishers or licensed digital platforms. If it's not available legally, it might be that the remaining chapters haven't been scanlated or",
+      "full_text": "Gekkoh Does anybody know where to find this manga?? the only website that has it wants money for downloading it... money!!(i dont get it its no their work) :/ so please if anyone knows tell me ;] 02-18-2006, 10:53 AM martyr3810 Umm. You can download it HERE on Stoptazmo man... Look up... 02-18-2006, 12:23 PM Bloady who do you think i am ;] im not stupid ;] i already downloaded them but i want the rest ;] 02-18-2006, 06:34 PM martyr3810 Quote: Originally Posted by Bloady who do you think i am ;] im not stupid ;] i already downloaded them but i want the rest ;] Oyup. Have to call you stupid then - If there was more it'd be up there! HAhahahahaha - They haven't been scanlated. 02-18-2006, 09:13 PM coolerimmortal Quote: Originally Posted by Bloady Does anybody know where to find this manga?? the only website that has it wants money for downloading it... money!!(i dont get it its no their work) :/ so please if anyone knows tell me ;] You said \"the only\", thus implying that there is only one website that has it. Thus you obviously did not recognize that StopTazmo has the series. In short, you are a fucking moron, as Martyr proved. 02-19-2006, 04:23 AM Bloady only one site has it all and the moron is you if you dont know that :/ 02-19-2006, 02:01 PM coolerimmortal Quote: Originally Posted by Bloady only one site has it all and the moron is you if you dont know that :/ It seems like the post was cut off. However, it's clear that the discussion is getting a bit heated. If you're looking for the rest of the manga, it might be worth checking if the series has been completed and if there are any legal ways to access it, such as through official manga publishers or licensed digital platforms. If it's not available legally, it might be that the remaining chapters haven't been scanlated or",
+      "avg_prediction": 0.4369
+    },
+    {
+      "idx": 97,
+      "hash": "4bcf9781",
+      "n_words": 52,
+      "n_chars": 297,
+      "preview_head": "sorry the text you provided was cut off at \"[['K\", and then there is a missing bracket \"]\". I also cannot find any reference to \"http://pythontutor\" or your variables in this list. please provide more",
+      "preview_tail": "o cannot find any reference to \"http://pythontutor\" or your variables in this list. please provide more information about what exactly should be done with these strings, so that i can give an accurate",
+      "full_text": "sorry the text you provided was cut off at \"[['K\", and then there is a missing bracket \"]\". I also cannot find any reference to \"http://pythontutor\" or your variables in this list. please provide more information about what exactly should be done with these strings, so that i can give an accurate",
+      "avg_prediction": 0.9832
+    },
+    {
+      "idx": 98,
+      "hash": "69f534f9",
+      "n_words": 223,
+      "n_chars": 1389,
+      "preview_head": "said province, commonly known as Holland, was formally known as the States of Holland and West Friesland. During the time of the United Provinces, West Friesland had its own independent Admiralty of t",
+      "preview_tail": " church [1484]. Vroonermeer was drained in 1561. The reclamation of the North Holland lakes was a purely private business affair intended for the establishment of new tracts of fertile land. Investors",
+      "full_text": "said province, commonly known as Holland, was formally known as the States of Holland and West Friesland. During the time of the United Provinces, West Friesland had its own independent Admiralty of the Northern Quarter. Any admiral serving within this admiralty or the two other Hollandic admiralties (Amsterdam and the Admiralty of de Maze) had the title of Admiral of Holland and West Frisia. The West Frisian language has disappeared from the region and the later West Frisian dialects are now slowly disappearing. Although these dialects are subdialects of Hollandic Dutch, they were strongly influenced in vocabulary and grammar by a West Frisian substratum. Early Medieval Vroonen The first inhabitants of Alkmaar, Oudorp, and St Pancras likely settled along the high beach ridges of the Vroonermeer in the 9th century AD. Better known as Vroonen, this settlement subsequently grew into a village. In the late 13th century, when the dutch conquered West Frisians, the victors crossed the village and set it on fire. The few surviving inhabitants fled the region. After a long time, people returned to Vroonen and a chapel was built. The village of St Pancras was founded around this church [1484]. Vroonermeer was drained in 1561. The reclamation of the North Holland lakes was a purely private business affair intended for the establishment of new tracts of fertile land. Investors",
+      "avg_prediction": 0.6121
+    },
+    {
+      "idx": 99,
+      "hash": "5cc24853",
+      "n_words": 147,
+      "n_chars": 867,
+      "preview_head": "he latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, bUt nothing happened. I have also tried with the la",
+      "preview_tail": ", but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but",
+      "full_text": "he latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, bUt nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but nothing happened. I have also tried with the latest Firefox, but",
+      "avg_prediction": 0.9394
+    },
+    {
+      "idx": 100,
+      "hash": "003eee8c",
+      "n_words": 51,
+      "n_chars": 369,
+      "preview_head": "I need to regex-search string for occurences with these conditions: on word boundary case-insensitive ignore diacritics My code: CharSequence text = \"One Tw\u00f3\"; String searchStringPattern = \"\\\\b\" + Pat",
+      "preview_tail": "archStringPattern = \"\\\\b\" + Pattern.quote(searchStr) + \"\\\\b\"; // Create a pattern that matches the regex and is case sensitive, avoiding accents. Pattern patterntmp = Pattern.compile(\"(?ui)\" + searchR",
+      "full_text": "I need to regex-search string for occurences with these conditions: on word boundary case-insensitive ignore diacritics My code: CharSequence text = \"One Tw\u00f3\"; String searchStringPattern = \"\\\\b\" + Pattern.quote(searchStr) + \"\\\\b\"; // Create a pattern that matches the regex and is case sensitive, avoiding accents. Pattern patterntmp = Pattern.compile(\"(?ui)\" + searchR",
+      "avg_prediction": 0.9816
+    },
+    {
+      "idx": 101,
+      "hash": "770f41dd",
+      "n_words": 232,
+      "n_chars": 944,
+      "preview_head": "-122. Suppose -c = z - 4, -9 = -y*c + c - 2*z. Which is smaller: w or c? w Let z = 11742285/65212 - 17/3836. Let b = -180 + z. Which is smaller: b or 1? b Suppose -2*k + 1 = -n, 2*n - 4*k = -3*n - 5. ",
+      "preview_tail": " 89 = 0. Let The text seems to have been cut off right before discussing a scenario involving variable \"h\" and another comparison between two values. To continue the completion of this text: Suppose h",
+      "full_text": "-122. Suppose -c = z - 4, -9 = -y*c + c - 2*z. Which is smaller: w or c? w Let z = 11742285/65212 - 17/3836. Let b = -180 + z. Which is smaller: b or 1? b Suppose -2*k + 1 = -n, 2*n - 4*k = -3*n - 5. Let l = 15 + -11. Suppose 4*g = l*u + 4, 3*u - 8 + 3 = -5*g. Which is smaller: g or n? n Suppose 0 = -3*i - i + 8. Suppose -87 = 5*f + 3*x - 28, -i*f + x = 17. Suppose -2*m = -5*j - 50, -43 = 7*j - 3*j - m. Which is smaller: f or J? j Let c = -0.71 - 30.29. Let s = 30.7 + c. Which is smaller: s or 3? s Suppose -t - 21 = 3*i, -2*i = -t + 6*t + 79. Are t and -4.3 nonequal? True Let a = 1192 + -829. Is 366 greater than a? True Let g be 2/(2/41)*(-50)/(-50). is g > 209/5? False Suppose 98 = -6*h - 16. Suppose c + 3*c + 119 = 5*n, -4*c - 5*n - 89 = 0. Let The text seems to have been cut off right before discussing a scenario involving variable \"h\" and another comparison between two values. To continue the completion of this text: Suppose h",
+      "avg_prediction": 0.9773
+    },
+    {
+      "idx": 102,
+      "hash": "174113cf",
+      "n_words": 183,
+      "n_chars": 1107,
+      "preview_head": "scml and I can't open that animation in XNA. Do I have to put it in another format? The software is Spriter. A: For one, XNA dosen't include content loading or processing capabilities for SCML files d",
+      "preview_tail": "imation keys. - Alternatively, look for tools or libraries that can read SCML files and generate content suitable for XNA (e.g., a custom XML format). 3. Custom Content Pipeline: - Since you\u2019re workin",
+      "full_text": "scml and I can't open that animation in XNA. Do I have to put it in another format? The software is Spriter. A: For one, XNA dosen't include content loading or processing capabilities for SCML files directly. The SCML file type contains data about your animations created by the BrashMonkey's Spriter (or other compatible tools), but it\u2019s not a format that can be used natively in an engine like XNA, which is more focused on older .NET Framework-based projects. To use your animation with XNA, you will need to follow these steps: 1. Export Animation Data: Use theSpriter's export functions or third-party tools (like SpriterDotNet) that can convert SCML files into a format suitable for game engines such as textures and XML data representing animations. 2. Convert Formats: - You might want to use an exporter in Spriter itself, which often comes with options like exporting the spritesheet along with animation keys. - Alternatively, look for tools or libraries that can read SCML files and generate content suitable for XNA (e.g., a custom XML format). 3. Custom Content Pipeline: - Since you\u2019re workin",
+      "avg_prediction": 0.8935
+    },
+    {
+      "idx": 103,
+      "hash": "c8fd8ece",
+      "n_words": 57,
+      "n_chars": 295,
+      "preview_head": "CCA a ){ std::cout << \" A:\" << a.value() << std::endl; // this is the catch clause that executes }catch( CCB b ){ std::cout << \" B:\" << b.value() << std::endl; } } A: This is slicing: The inability of",
+      "preview_tail": "s }catch( CCB b ){ std::cout << \" B:\" << b.value() << std::endl; } } A: This is slicing: The inability of the base copy constructor to discriminate an argument of the genuinely same type from one of a",
+      "full_text": "CCA a ){ std::cout << \" A:\" << a.value() << std::endl; // this is the catch clause that executes }catch( CCB b ){ std::cout << \" B:\" << b.value() << std::endl; } } A: This is slicing: The inability of the base copy constructor to discriminate an argument of the genuinely same type from one of a",
+      "avg_prediction": 0.0211
+    },
+    {
+      "idx": 104,
+      "hash": "b3f5bf43",
+      "n_words": 94,
+      "n_chars": 573,
+      "preview_head": "account not only monetary cost, but also factors such as service quality, delivery speed, and product durability. For example: Medium performance / Medium value * Low performance / High value Next def",
+      "preview_tail": "r most at play. Finally think outside of this approach, about how new features in emerging technologies will impact a product\u2019s quality \u2013 and its overall performance. So start early for it's one thing",
+      "full_text": "account not only monetary cost, but also factors such as service quality, delivery speed, and product durability. For example: Medium performance / Medium value * Low performance / High value Next define your personal values and the brand standards you wish to uphold. Then use those insights when comparing brands or products \u2014 look beyond price into the things that matter most at play. Finally think outside of this approach, about how new features in emerging technologies will impact a product\u2019s quality \u2013 and its overall performance. So start early for it's one thing",
+      "avg_prediction": 0.9526
+    },
+    {
+      "idx": 105,
+      "hash": "9d20c52e",
+      "n_words": 14,
+      "n_chars": 281,
+      "preview_head": ".0.0\" name=\"MyApplication.app\"/> <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\"> <security> <requestedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\"> <requestedExecutionLevel level=\"asInvoke",
+      "preview_tail": "v2\"> <security> <requestedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\"> <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"/> </requestedPrivileges> </security> </trustInfo> </assembly>",
+      "full_text": ".0.0\" name=\"MyApplication.app\"/> <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\"> <security> <requestedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\"> <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"/> </requestedPrivileges> </security> </trustInfo> </assembly>",
+      "avg_prediction": 0.9744
+    },
+    {
+      "idx": 106,
+      "hash": "e2027fea",
+      "n_words": 40,
+      "n_chars": 296,
+      "preview_head": "by X-ray powder diffraction, scanning electron microscopy, and vibrating sample magnetometry. The in vitro doxorubicin (DOX) release profileswere obtained by representing thepercentage of DOX release.",
+      "preview_tail": "e in vitro doxorubicin (DOX) release profileswere obtained by representing thepercentage of DOX release. Inthis report, we used this new method to fabricate PEGylated PLGA particles, and examined the ",
+      "full_text": "by X-ray powder diffraction, scanning electron microscopy, and vibrating sample magnetometry. The in vitro doxorubicin (DOX) release profileswere obtained by representing thepercentage of DOX release. Inthis report, we used this new method to fabricate PEGylated PLGA particles, and examined the ",
+      "avg_prediction": 0.9565
+    },
+    {
+      "idx": 107,
+      "hash": "4d645a93",
+      "n_words": 52,
+      "n_chars": 329,
+      "preview_head": "30, 2006 Source: Blackwell Publishing Ltd. Summary: 75 patients with IBS reported improved symptoms and quality of life after taking part in hypnotherapy sessions. As traditional treatments for IBS - ",
+      "preview_tail": "ing part in hypnotherapy sessions. As traditional treatments for IBS - which affects up to one in seven adults - can be disappointing, this study shows the valuable role that complementary therapies s",
+      "full_text": "30, 2006 Source: Blackwell Publishing Ltd. Summary: 75 patients with IBS reported improved symptoms and quality of life after taking part in hypnotherapy sessions. As traditional treatments for IBS - which affects up to one in seven adults - can be disappointing, this study shows the valuable role that complementary therapies s",
+      "avg_prediction": 0.9825
+    },
+    {
+      "idx": 108,
+      "hash": "7b76f56d",
+      "n_words": 84,
+      "n_chars": 567,
+      "preview_head": "was increased at 10 microM histamine, and the final level was increased time-dependently by 150% to 200% after a 24-h incubation with 100 microM histamine. The histamine-induced DAF expression was inh",
+      "preview_tail": "ition, the histamine-induced DAF expression was inhibited by pyrilamine, an H1 blocker, but not by cimetidine, an H2 blocker, indicating that histamine induces the DAF expression through H1 receptors.",
+      "full_text": "was increased at 10 microM histamine, and the final level was increased time-dependently by 150% to 200% after a 24-h incubation with 100 microM histamine. The histamine-induced DAF expression was inhibited by actinomycin D and cycloheximide and accompanied by an increase in the DAF mRNA level, indicating that both transcription and translation are required. In addition, the histamine-induced DAF expression was inhibited by pyrilamine, an H1 blocker, but not by cimetidine, an H2 blocker, indicating that histamine induces the DAF expression through H1 receptors.",
+      "avg_prediction": 0.6876
+    },
+    {
+      "idx": 109,
+      "hash": "784f8d40",
+      "n_words": 314,
+      "n_chars": 1883,
+      "preview_head": "the se#1 12-07-12, 08:39 PM td4mvp2k SpursReport Team Member Join Date: Jul 2012 Posts: 633 Trade for a 76ers Big? permalink With a lot of room under the salary cap in the coming years, Philadelphia d",
+      "preview_tail": "lding around him and competing for championships in exchange for committing several more years of their salary cap space towards paying Bynum, then this could be a mutually beneficial deal for all inv",
+      "full_text": "the se#1 12-07-12, 08:39 PM td4mvp2k SpursReport Team Member Join Date: Jul 2012 Posts: 633 Trade for a 76ers Big? permalink With a lot of room under the salary cap in the coming years, Philadelphia definitely has the flexibility to make a deal and still offer Bynum a nice contract extension. The other option is to deal him to a team in the Western Conference hoping to use him as a rental player for their playoff run before potentially signing with them long-term. It's possible that both scenarios could happen, but there are some factors to consider when thinking about such trades: 1) Salary Cap Flexibility: The Philadelphia 76ers have been one of the most aggressive teams in terms of acquiring talent through trades and free agency over recent years. This has allowed them to build a strong core group around their franchise player, Joel Embiid. However, they still need help at center due to injuries and lackluster performances from previous draft picks like Nerlens Noel and Jahlil Okafor. 2) Potential Trade Partners: Some teams that could potentially be interested in acquiring Bynum include the San Antonio Spurs (who have shown interest in big men before), Oklahoma City Thunder, Los Angeles Lakers, or even the Miami Heat if they decide to rebuild around Hassan Whiteside and Bam Adebayo instead of pursuing another star player. 3) Long-Term Contract Extension: It's unclear whether Bynum would be willing to sign a long-term contract extension with any team he is traded to during his prime years, but it's worth considering how much money both parties stand to gain by agreeing on such an arrangement. If the Sixers can convince him that they are committed to building around him and competing for championships in exchange for committing several more years of their salary cap space towards paying Bynum, then this could be a mutually beneficial deal for all inv",
+      "avg_prediction": 0.8132
+    },
+    {
+      "idx": 110,
+      "hash": "a14934c0",
+      "n_words": 64,
+      "n_chars": 565,
+      "preview_head": "Newfield Group Seed Grants Program Data Visualization LibraryPublications Presentations EducationPostdoctoral Scholars Graduate Fellowship: Social Scientists/Humanists Graduate Fellowship: Scientists/",
+      "preview_tail": "iences & Engineering NewsEvents, Seminars & Lectures Calendar of Events Archive Newsletters Contact Us Center on Nanotechnology Ethics Society University California Santa Barbara Copyright 2014 Regent",
+      "full_text": "Newfield Group Seed Grants Program Data Visualization LibraryPublications Presentations EducationPostdoctoral Scholars Graduate Fellowship: Social Scientists/Humanists Graduate Fellowship: Scientists/Engineers Undergraduate Internships Curreric Courses Offered by CNS Faculty and Staff Researchers OutreachHigh School Summer Institute (HSSI) for Diversity in the Sciences & Engineering NewsEvents, Seminars & Lectures Calendar of Events Archive Newsletters Contact Us Center on Nanotechnology Ethics Society University California Santa Barbara Copyright 2014 Regent",
+      "avg_prediction": 0.9732
+    },
+    {
+      "idx": 111,
+      "hash": "ac014254",
+      "n_words": 63,
+      "n_chars": 347,
+      "preview_head": "logging. Use a lightweight, pendrive-friendly OS. Regularly back up your pendrive to a hard drive. Use a pendrive with a higher endurance, and avoid filling it to capacity to reduce wear. How will thi",
+      "preview_tail": "d filling it to capacity to reduce wear. How will this affect the life of my USB drive? I've read articles saying it will kill my pendrive, about write and read cycles and how USB have less of it. So,",
+      "full_text": "logging. Use a lightweight, pendrive-friendly OS. Regularly back up your pendrive to a hard drive. Use a pendrive with a higher endurance, and avoid filling it to capacity to reduce wear. How will this affect the life of my USB drive? I've read articles saying it will kill my pendrive, about write and read cycles and how USB have less of it. So,",
+      "avg_prediction": 0.476
+    },
+    {
+      "idx": 112,
+      "hash": "cf829101",
+      "n_words": 87,
+      "n_chars": 540,
+      "preview_head": ",friendly dear!!! I have the expensive experience of 5 years in developing java,c#,ruby ,python programming, and can carry out your any proposal in It seems like you are introducing yourself and highl",
+      "preview_tail": "f $5$ years in developing Java, C#, Ruby, Python programming languages.\" If there's anything specific that interests me or any projects you'd like to discuss further? My skills are versatile and adapt",
+      "full_text": ",friendly dear!!! I have the expensive experience of 5 years in developing java,c#,ruby ,python programming, and can carry out your any proposal in It seems like you are introducing yourself and highlighting your skilLs as a programmer. Based on what I've understood so far, here is how we could continue: \"I have the expensive experience of $5$ years in developing Java, C#, Ruby, Python programming languages.\" If there's anything specific that interests me or any projects you'd like to discuss further? My skills are versatile and adapt",
+      "avg_prediction": 0.6016
+    },
+    {
+      "idx": 113,
+      "hash": "6fcc4b90",
+      "n_words": 149,
+      "n_chars": 876,
+      "preview_head": "age. This was the article by veteran NASCAR journalist Monte Dutton talking about the kind of journalism that several of the ESPN reporters have been practicing for the last two years. Prior to 2007, ",
+      "preview_tail": "amed memorabilia for old times' sake. Welcome back everyone \u2013 today we have an important topic: reader interaction in sports media coverage specifically online platforms like ESPN.com (yes indeed they",
+      "full_text": "age. This was the article by veteran NASCAR journalist Monte Dutton talking about the kind of journalism that several of the ESPN reporters have been practicing for the last two years. Prior to 2007, ESPN and ESPN.com did not care about NASCAR and relegated it to a minor sport, just like the New York Times. Each of those organizations apThe Daly Planet We've built quite an archive since our debut in sports media back in January: stories on races won (or lost), news from around the paddock\u2014and occasionally some hot takes that spark discussion among fans and drivers alike! So let me pour another coffee, pull up a chair at my desk here next to these walls adorned with framed memorabilia for old times' sake. Welcome back everyone \u2013 today we have an important topic: reader interaction in sports media coverage specifically online platforms like ESPN.com (yes indeed they",
+      "avg_prediction": 0.6128
+    },
+    {
+      "idx": 114,
+      "hash": "5b4cbb8e",
+      "n_words": 227,
+      "n_chars": 1448,
+      "preview_head": "were not without their challenges yet they did serve to open new avenues whereby even more Light might enter herein. Now then, having said thus much already let me now turn attention back toward speci",
+      "preview_tail": " God creation entire. For verily We say again Although we are in sympathy with the great desire to be of service exemplified by this question, our answer is limited by the distortion of the Way of Con",
+      "full_text": "were not without their challenges yet they did serve to open new avenues whereby even more Light might enter herein. Now then, having said thus much already let me now turn attention back toward specific queries put forth earlier by members of your circle gathered round about Me this day: [Name] asked whether there exists any ritual or thoughtform offered through the Orion entities which could prove beneficial unto those desiring healing upon physical levels? To answer him truthfully We must needs state quite plainly no such thing does exist at least none known to Us personally. Any entity seeking after wholeness via methods associated therewith runs great risk indeed of drawing down into themselves energies most unwholesome verily leading oftentimes directly opposite direction intended initially. Therefore rather than pursuing avenues so fraught with danger We strongly urge instead all who seek true balance between body mind spirit soul firstly take heed lest overly much focus placed upon matters purely carnal at expense far too little given over unto needs more essentially spiritual nature secondarily strive always maintain proper perspective understanding full well importance maintaining right relationship betwixt self others God creation entire. For verily We say again Although we are in sympathy with the great desire to be of service exemplified by this question, our answer is limited by the distortion of the Way of Con",
+      "avg_prediction": 0.8244
+    },
+    {
+      "idx": 115,
+      "hash": "ff7badf3",
+      "n_words": 64,
+      "n_chars": 434,
+      "preview_head": "tag but is missing the closing tag. Here's the completed text: <?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- /* Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file ",
+      "preview_tail": "nse. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed",
+      "full_text": "tag but is missing the closing tag. Here's the completed text: <?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- /* Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed",
+      "avg_prediction": 0.9778
+    },
+    {
+      "idx": 116,
+      "hash": "6edd4e74",
+      "n_words": 69,
+      "n_chars": 860,
+      "preview_head": "ormal (in the format of YYYY-MM-DD) I have three select fields: <select name=\"date_mo\"> <option value=\"01\">January</option> <option value=\"02\">February</option> <option value=\"03\">March</option> <opti",
+      "preview_tail": "on> <option value=\"05\">5</option> <option value=\"06\">6</option> <option value=\"07\">7</option> <option value=\"08\">8</option> <option name\"date_yr'> <!-- Add options for years here, i.e., 1950 to the cu",
+      "full_text": "ormal (in the format of YYYY-MM-DD) I have three select fields: <select name=\"date_mo\"> <option value=\"01\">January</option> <option value=\"02\">February</option> <option value=\"03\">March</option> <option value=\"04\">April</option> <option value=\"05\">May</option> <option value=\"06\">June</option> <option value=\"07\">July</option> <option value=\"08\">August</option> <option value=\"09\">September</option> <option value=\"10\">October</option> <option value=\"11\">November</option> <option value=\"12\">December</option> </select> <select name=\"date_dy\"> <option value=\"01\">1</option> <option value=\"02\">2</option> <option value=\"03\">3</option> <option value=\"04\">4</option> <option value=\"05\">5</option> <option value=\"06\">6</option> <option value=\"07\">7</option> <option value=\"08\">8</option> <option name\"date_yr'> <!-- Add options for years here, i.e., 1950 to the cu",
+      "avg_prediction": 0.9838
+    },
+    {
+      "idx": 117,
+      "hash": "b645d1f1",
+      "n_words": 205,
+      "n_chars": 1339,
+      "preview_head": "some of the few known apterous sawflies, those of the genus Cladomacra occurring in Papua New Guinea and Indonesia, and a species with brachypterous females, Clarissa tasbates, in Tasmania. Distributi",
+      "preview_tail": "on, which support a wide variety of invertebrate species, including the Pergidae. The family's presence in the Australasian Region, alongside the Neotropics, highlights the importance of these regions",
+      "full_text": "some of the few known apterous sawflies, those of the genus Cladomacra occurring in Papua New Guinea and Indonesia, and a species with brachypterous females, Clarissa tasbates, in Tasmania. Distribution The majority of Pergidae species occur in South America and Australia. They are the dominant family in Australia and are one of the major families in the Neotropics. Of the 14 subfamilies, three, Pergulinae, Philomastiginae, and Perreyiinae, are common to both the Australasian and Neotropical regions, but no genera occur in both regions. In the Australasian Region, Pergidae occur In the Australasian Region, Pergidae occur in both Australia and New Guinea, and to a lesser extent in the surrounding islands, including the Solomon Islands and the New Hebrides. Australia, in particular, has a high diversity and abundance of Pergidae, with the family being the most dominant in the country. New Guinea, being the world's second-largest island, also has a rich and diverse Pergidae fauna, with many species being endemic. The family's presence in the Australasian Region is a testament to the diverse and complex ecosystems in the region, which support a wide variety of invertebrate species, including the Pergidae. The family's presence in the Australasian Region, alongside the Neotropics, highlights the importance of these regions",
+      "avg_prediction": 0.6784
+    },
+    {
+      "idx": 118,
+      "hash": "4757725d",
+      "n_words": 187,
+      "n_chars": 1284,
+      "preview_head": "evation of 90m,and featuresfabulous powdersoft beaches andbeautiful turquoise seas.History In 1825, a settlementwas established on the island. A familyof Seychelles purchasedthe islands of Long, Round",
+      "preview_tail": "u included some text about Long Island in Seychelles but left out an ending to it or instructions for me? Can Ihelp clarify something regarding this location perhaps? Or did you want my assistance on ",
+      "full_text": "evation of 90m,and featuresfabulous powdersoft beaches andbeautiful turquoise seas.History In 1825, a settlementwas established on the island. A familyof Seychelles purchasedthe islands of Long, Round and Moyenne. Their village had about 25 people and was locatedatthe westpoint. In 1900 thevillage was abandoned and aquarantine station forsmall-pox sailors was built. Theisland served asthe Seychelles juvenile prison. in 2006 the inmates were transferredto Montagne Pos\u00e9e Prison onthe islandof Mahe, todo construction workon the new land reclamation projects. The island now hosts thenew Pelangi Resort andSpawhich consists of 55 villas, 32 one-bedroom villas, 15 two-bedroom villas,5 four-suitevillas and a presidential villa. Thehotel features Seychelles\u2019 first funicular\u2013 acable car system \u2013to takeguests to its CHI spa facilities andwedding chapel, positioned onthe island\u2019scentral hilltop. The staff live on the village on the west end, where theformer prison was located. along the south coast, a new residential village is being built, with40 houses, and a new ChaIt seems you included some text about Long Island in Seychelles but left out an ending to it or instructions for me? Can Ihelp clarify something regarding this location perhaps? Or did you want my assistance on ",
+      "avg_prediction": 0.6725
+    },
+    {
+      "idx": 119,
+      "hash": "cbbbb395",
+      "n_words": 170,
+      "n_chars": 1017,
+      "preview_head": "ge Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College ",
+      "preview_tail": "all - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports",
+      "full_text": "ge Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports - College Baseball - College Sports",
+      "avg_prediction": 0.9831
+    }
+  ]
+}

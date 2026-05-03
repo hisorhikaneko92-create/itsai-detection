@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-05-03T18:21:11.012998+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 6,
+  "duplicates": [],
+  "latency_ms": 2986,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "0ca68597",
+      "n_words": 211,
+      "n_chars": 1391,
+      "preview_head": "oposal has been made in bpo-33462 to add the __reversed__ method to dict and dict views. Concerns have been raised in the comments that this proposal may lead to unexpected behavior for users who rely",
+      "preview_tail": "avior in favor of making dictionaries unordered again, to avoid potential surprises for users. To address these concerns, it's crucial to: - Clearly document the behavior of `__reversed__`. - Consider",
+      "full_text": "oposal has been made in bpo-33462 to add the __reversed__ method to dict and dict views. Concerns have been raised in the comments that this proposal may lead to unexpected behavior for users who rely on the current insertion order behavior of dictionaries. The `__reversed__` method would reverse the iteration order, potentially breaking existing code that assumes items are iterated in insertion order. Here's a summary of the concerns and the proposal: Concerns: 1. Unexpected Behavior: Users expecting to iterate over dictionary items in insertion order might be surprised if they suddenly see items in reverse order. 2. Backward Compatibility: Adding `__reversed__` could potentially break existing code that relies on the current insertion order behavior. 3. Clarity: The name `__reversed__` might suggest that it reverses keys or values, not the insertion order. Proposal: 1. Add a `__reversed__` method to dict and dict views that returns a reverse iterator over the keys, following the insertion order. 2. Make it clear in the documentation that `__reversed__` reverses the insertion order, not the keys or values themselves. 3. Consider deprecating the current insertion order behavior in favor of making dictionaries unordered again, to avoid potential surprises for users. To address these concerns, it's crucial to: - Clearly document the behavior of `__reversed__`. - Consider",
+      "avg_prediction": 0.6888
+    },
+    {
+      "idx": 1,
+      "hash": "ff0b66cf",
+      "n_words": 42,
+      "n_chars": 261,
+      "preview_head": "a recently described entity recognized by its constant expression of the CD30 antigen and by its morphology. LCAL is classified as high grade malignant lymphoma. We report 10 patients with LCAL of the",
+      "preview_tail": "sion of the CD30 antigen and by its morphology. LCAL is classified as high grade malignant lymphoma. We report 10 patients with LCAL of the skin, three with primary LCAL and otherseven having secondar",
+      "full_text": "a recently described entity recognized by its constant expression of the CD30 antigen and by its morphology. LCAL is classified as high grade malignant lymphoma. We report 10 patients with LCAL of the skin, three with primary LCAL and otherseven having secondar",
+      "avg_prediction": 0.3695
+    },
+    {
+      "idx": 2,
+      "hash": "014b9eb1",
+      "n_words": 155,
+      "n_chars": 960,
+      "preview_head": "Closet Under Stairs Storage Under Basement Stairs Under Stair Storage Plans Diy Under Stairs Cupboard 86 out of 100 based on 184 user ratings 1 stars 2 stars 3 stars 4 stars 5 stars Gallery inspiratio",
+      "preview_tail": "tiny living room layout ideas Popular Post about coat closet under stairs storage under basement stairs under stair storage plans diy under stairs cupboard rustic living room furniture complete living",
+      "full_text": "Closet Under Stairs Storage Under Basement Stairs Under Stair Storage Plans Diy Under Stairs Cupboard 86 out of 100 based on 184 user ratings 1 stars 2 stars 3 stars 4 stars 5 stars Gallery inspiration of Coat Closet Under Stairs Storage Under Basement Stairs Under Stair Storage Plans Diy Under Stairs Cupboard smart under stair storage ideas and designs Tags: small living room decorating ideas uk small living room designs with dining table warm cozy living room decorating white and gold living room curtains white sofa living room small living room decorating ideas on a budget tiny living room furniture ideas white couch living room ideas pinterest wooden sofa designs for small living room tables for living room small space design kitchen living room tiny living room layout ideas Popular Post about coat closet under stairs storage under basement stairs under stair storage plans diy under stairs cupboard rustic living room furniture complete living",
+      "avg_prediction": 0.4764
+    },
+    {
+      "idx": 3,
+      "hash": "26d28cf1",
+      "n_words": 123,
+      "n_chars": 782,
+      "preview_head": "four weeks later (at week 12). There are two study groups: the active device group receiving the active study device and the sham group receiving a non-active sham device. Subjects will be informed th",
+      "preview_tail": "nical Trial Details Share this page NCT number NCT03498287 Study type Interventional Source Pressure Profile Systems, Inc. Contact Pauline Luong, ME Phone 425-298-3775 Email info@carpaltunneltrial.com",
+      "full_text": "four weeks later (at week 12). There are two study groups: the active device group receiving the active study device and the sham group receiving a non-active sham device. Subjects will be informed that they have a 50:50 chance of receiving treatment or a sham. They will also be informed that if they receive sham device, they will be offered the active device 4 weeks into the post-treatment period. However, all subjects will not know what treatment they are on until the conclusion of the trial. ; Study Design Related Conditions & MeSH terms Carpal Tunnel Syndrome Syndrome Clinical Trial Details Share this page NCT number NCT03498287 Study type Interventional Source Pressure Profile Systems, Inc. Contact Pauline Luong, ME Phone 425-298-3775 Email info@carpaltunneltrial.com",
+      "avg_prediction": 0.4588
+    },
+    {
+      "idx": 4,
+      "hash": "e74f5745",
+      "n_words": 139,
+      "n_chars": 902,
+      "preview_head": "from the pioneering above-water landscaping at the San Diego Broadway Pier to the masterful planning of the San Diego Embarcadero. Each project demonstrates his commitment to creating spaces that are ",
+      "preview_tail": "as an American-born RCAF squadron leader during WWII and a young American foreign exchange fighter pilot ranked as a Second Lieutenant in the British rFC's No. 46 Squadron during the final years of Wo",
+      "full_text": "from the pioneering above-water landscaping at the San Diego Broadway Pier to the masterful planning of the San Diego Embarcadero. Each project demonstrates his commitment to creating spaces that are not only aesthetically pleasing but also functional and environmentally conscious. As we reflect on Donald Innis' remarkable journey, from his early days influenced by his father's military service to his groundbreaking work in architecture and engineering, it becomes clear that his legacy will continue to inspire future generations. His innovative spirit and dedication to excellence have left an enduring impact on the built environment, making him a true visionary in his field. His father Alwyn was an American-born RCAF squadron leader during WWII and a young American foreign exchange fighter pilot ranked as a Second Lieutenant in the British rFC's No. 46 Squadron during the final years of Wo",
+      "avg_prediction": 0.6339
+    },
+    {
+      "idx": 5,
+      "hash": "1b043a66",
+      "n_words": 146,
+      "n_chars": 885,
+      "preview_head": "Harold Camping says October 21st will mark the apocalypse Harold Camping Harold Camping may have gotten the date wrong back when he said the world would end in May, but now he's saying the world will ",
+      "preview_tail": "Subsequent Adjustments: He later revised this date to Friday October 7th (though there's some confusion with the exact year and details), but according to user input, he settled on a final end-date of",
+      "full_text": "Harold Camping says October 21st will mark the apocalypse Harold Camping Harold Camping may have gotten the date wrong back when he said the world would end in May, but now he's saying the world will really end on Friday, October 21. LiveScience reports that Camping is asserting the world will end \"quietly\" this Friday. Camping maintains that May 21 was still a spiritual Judgment Day and Friday wHarold H. Camping made several notable apocalyptic forecasts: 1. First Prediction: In the early years, he predicted that Judgment Day would occur on May 20 or around those dates in 2011. 2. SecondPrediction Adjustment: - After his initial prediction did not materialize as expected. 3. Subsequent Adjustments: He later revised this date to Friday October 7th (though there's some confusion with the exact year and details), but according to user input, he settled on a final end-date of",
+      "avg_prediction": 0.3501
+    }
+  ]
+}

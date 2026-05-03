@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-04-28T12:15:40.412313+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 2,
+  "duplicates": [],
+  "latency_ms": 1256,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "a034e9b7",
+      "n_words": 269,
+      "n_chars": 1669,
+      "preview_head": "can check that the geometry is the same, or just check attributes. See the description from FME help: To compare two files with FME and find differences between them, especially when dealing with CSV ",
+      "preview_tail": "ge Detector settings, go to \"Attribute Comparisons\". - Here, you can specify custom attribute comparison rules or exclude certain attributes from being compared. 5. Add a Writer: Finally, add a writer",
+      "full_text": "can check that the geometry is the same, or just check attributes. See the description from FME help: To compare two files with FME and find differences between them, especially when dealing with CSV files containing similar feature types but different field names, you can utilize the Change Detector transformer in FME. This tool allows you to identify variations in attribute values or even geometry between the two datasets. Here's a step-by-step guide on how to use it: 1. Open FME Desktop: Launch your FME workspace where you'll build your comparison workflow. 2. Add Readers: Add two reader transformers to your workspace, one for each CSV file you want to compare. Ensure they are properly configured to read the files correctly. 3. Change Detector: - Add a Change Detector transformer after both readers. - Connect the output features from both reader transformers to the input features of the Change Detector. - In the settings for the Change Detector, you have options to compare attribute values and/or geometry. - To compare only the attribute values (fields with different names), ensure that \"Compare Attributes Only\" is checked. This will ignore any differences in feature order or geometry. - If you also want to check if the geometry of features has changed, uncheck this option. 4. Customizing Attribute Comparison: - By default, FME will compare all attributes. However, you might need to customize which attributes should be compared. - In the Change Detector settings, go to \"Attribute Comparisons\". - Here, you can specify custom attribute comparison rules or exclude certain attributes from being compared. 5. Add a Writer: Finally, add a writer",
+      "avg_prediction": 0.7219
+    },
+    {
+      "idx": 1,
+      "hash": "03eea5c5",
+      "n_words": 99,
+      "n_chars": 606,
+      "preview_head": "that they could take two plates. An alert member of the waiting staff might have prevented the problem by suggesting that two plates was a better option. The person in question may have been experimen",
+      "preview_tail": "ould not taste good. The waiting staff could have advised on a more suitable combination, based on the person\u2019s likes and dislikes. The same applies to self-service analytics. The analytics team has a",
+      "full_text": "that they could take two plates. An alert member of the waiting staff might have prevented the problem by suggesting that two plates was a better option. The person in question may have been experimenting. Those around them could have applauded the experiment, and then suggested trying again for a better combination when it was unsuccessful. The person may genuinely not have known that the combination would not taste good. The waiting staff could have advised on a more suitable combination, based on the person\u2019s likes and dislikes. The same applies to self-service analytics. The analytics team has a",
+      "avg_prediction": 0.8238
+    }
+  ]
+}
