@@ -155,6 +155,8 @@ def build_model(args):
         foundation_model_path=args.deberta_foundation_model_path,
         model_path=args.deberta_model_path,
         device=args.device,
+        precision=args.precision,
+        batch_size=args.batch_size,
     )
 
 
@@ -369,6 +371,32 @@ def parse_args():
         help="Optional bearer token. Defaults to REMOTE_INFERENCE_TOKEN if set.",
     )
     parser.add_argument(
+        "--precision",
+        type=str,
+        choices=["fp32", "fp16", "bf16"],
+        default="bf16",
+        help=(
+            "DeBERTa weight dtype. bf16 (default) cuts ~50%% off both weight "
+            "and activation memory vs. fp32 with no measurable accuracy loss "
+            "on Ada / Hopper GPUs (RTX 30/40 series, A100, H100). Use fp32 to "
+            "match the original behaviour exactly."
+        ),
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=16,
+        help=(
+            "Inference batch size for DeBERTa forward passes. Default 16. "
+            "DO NOT lower casually -- the validator sends 120 texts per request "
+            "(detection/utils/config.py: --neuron.remote_inference_timeout = 15s), "
+            "and in sentence_nltk mode that expands to ~1500 sub-batches; halving "
+            "the batch nearly doubles inference latency. With --precision bf16 "
+            "the 16-wide batch fits comfortably in <3 GB. Lower only if you "
+            "truly cannot fit on your card AFTER switching to bf16."
+        ),
+    )
+    parser.add_argument(
         "--deberta-foundation-model-path",
         type=str,
         default="models/deberta-v3-large-hf-weights",
@@ -417,8 +445,32 @@ def main():
         format="%(asctime)sZ | %(levelname)s | %(name)s | %(message)s",
     )
 
-    LOGGER.info("Loading %s model on %s", args.model_type, args.device)
+    LOGGER.info(
+        "Loading %s model on %s (precision=%s, batch_size=%s)",
+        args.model_type, args.device, args.precision, args.batch_size,
+    )
     model = build_model(args)
+
+    # Release reserved-but-unused fragments left over from initialization
+    # so steady-state GPU usage matches the actual allocation, then report
+    # what we ended up with.
+    try:
+        import torch
+        if torch.cuda.is_available() and str(args.device).startswith("cuda"):
+            torch.cuda.empty_cache()
+            allocated_mib = torch.cuda.memory_allocated(args.device) / (1024 * 1024)
+            reserved_mib = torch.cuda.memory_reserved(args.device) / (1024 * 1024)
+            free_b, total_b = torch.cuda.mem_get_info(args.device)
+            free_mib = free_b / (1024 * 1024)
+            total_mib = total_b / (1024 * 1024)
+            LOGGER.info(
+                "GPU memory: process allocated=%.0f MiB reserved=%.0f MiB | "
+                "device free=%.0f / %.0f MiB",
+                allocated_mib, reserved_mib, free_mib, total_mib,
+            )
+    except Exception as e:
+        LOGGER.warning("Could not query GPU memory: %s", e)
+
     LOGGER.info("Model loaded, starting server on %s:%s", args.host, args.port)
 
     InferenceHandler.model = model

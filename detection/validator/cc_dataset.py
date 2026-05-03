@@ -9,7 +9,10 @@ import glob
 import gzip
 import json
 import requests
-import bittensor as bt
+try:
+    import bittensor as bt   # imported for parity with validator runtime; unused below
+except ImportError:
+    bt = None
 import json
 
 from cc_net import process_wet_file, jsonql, split_by_lang, perplexity, minify

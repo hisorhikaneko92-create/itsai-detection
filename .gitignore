@@ -174,4 +174,30 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-testing/
+testing/# Large data files — kept locally, never committed
+data/*.csv
+data/Training_Dataset/*.csv
+data/archive/*.jsonl
+data/train_archive.csv
+data/AI_Human.csv
+*.zip
+llm-detection-colab.zip
+
+# Model checkpoints
+models/best/
+models/seam_detector_v3/
+models/deberta-v3-large-hf-weights/
+
+# Training/eval artifacts
+inference_server_logs/
+training.log
+training_v2.log
+
+
+# IDE / editor caches
+.vscode/
+.claude/settings.local.json
+
+# Test artifacts
+prediction.csv
+prediction.json

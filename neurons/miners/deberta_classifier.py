@@ -1,3 +1,13 @@
+# Pre-load pandas + sklearn before transformers. transformers 4.49 lazy-imports
+# `transformers.generation.candidate_generator`, which imports sklearn, which
+# imports pandas._libs. On Windows the cumulative depth of that nested DLL load
+# chain overflows the 1 MB main-thread stack and segfaults the interpreter
+# (https://github.com/huggingface/transformers/issues -- "stack overflow on
+# Windows"). Importing them on a fresh shallow stack here populates sys.modules
+# so transformers' later lazy chain hits cache and never recurses.
+import pandas  # noqa: F401
+import sklearn  # noqa: F401
+
 import re
 
 import numpy as np
@@ -45,27 +55,35 @@ class SimpleTestDataset(Dataset):
         }
 
 
-def GeneratePredictions(model, tokenizer, test_dataset, device):
+def GeneratePredictions(model, tokenizer, test_dataset, device, batch_size=16):
     data_loader = torch.utils.data.DataLoader(
         test_dataset,
-        batch_size=16,
+        batch_size=batch_size,
         shuffle=False,
         num_workers=0,
         collate_fn=DataCollatorWithPadding(tokenizer))
 
+    # When the model is already half-precision we skip autocast (which would
+    # otherwise insert redundant fp32<->fp16 casts) and rely on the model's
+    # native dtype for the forward pass. softmax is still computed in fp32
+    # for numerical stability regardless of the model dtype.
+    model_dtype = next(model.parameters()).dtype
+    is_half = model_dtype in (torch.float16, torch.bfloat16)
+    on_cuda = torch.cuda.is_available() and str(device).startswith("cuda")
+
     all_predictions = []
-    with torch.no_grad():
+    with torch.inference_mode():
         for batch in data_loader:
             token_sequences = batch.input_ids.to(device)
             attention_masks = batch.attention_mask.to(device)
 
-            if torch.cuda.is_available() and str(device).startswith("cuda"):
+            if is_half or not on_cuda:
+                raw_predictions = model(token_sequences, attention_masks).logits
+            else:
                 with torch.cuda.amp.autocast():
                     raw_predictions = model(token_sequences, attention_masks).logits
-            else:
-                raw_predictions = model(token_sequences, attention_masks).logits
 
-            scaled_predictions = raw_predictions.softmax(dim = 1)[:,1]
+            scaled_predictions = raw_predictions.float().softmax(dim=1)[:, 1]
             all_predictions.append(scaled_predictions.cpu().numpy())
 
     all_predictions = np.concatenate(all_predictions)
@@ -74,10 +92,24 @@ def GeneratePredictions(model, tokenizer, test_dataset, device):
 
 
 class DebertaClassifier:
-    def __init__(self, foundation_model_path, model_path, device):
+    _PRECISION_DTYPES = {
+        "fp32": torch.float32,
+        "fp16": torch.float16,
+        "bf16": torch.bfloat16,
+    }
+
+    def __init__(self, foundation_model_path, model_path, device,
+                 precision="fp32", batch_size=16):
+        if precision not in self._PRECISION_DTYPES:
+            raise ValueError(
+                f"precision must be one of {list(self._PRECISION_DTYPES)}, got {precision!r}"
+            )
         self.tokenizer = AutoTokenizer.from_pretrained(foundation_model_path)
         self.max_length = 1024
         self.device = device
+        self.batch_size = batch_size
+        self.precision = precision
+        self.dtype = self._PRECISION_DTYPES[precision]
 
         model = AutoModelForSequenceClassification.from_pretrained(
             foundation_model_path,
@@ -85,11 +117,19 @@ class DebertaClassifier:
             attention_probs_dropout_prob=0,
             hidden_dropout_prob=0).to(device)
 
+        # Cast weights down to fp16/bf16 for inference. DeBERTa-v3 forward
+        # is well-conditioned in bf16 on Ada/Hopper GPUs and roughly halves
+        # both the resident weight memory and the per-batch activation
+        # memory vs. fp32.
+        if self.dtype != torch.float32:
+            model = model.to(dtype=self.dtype)
+
         self.model = model.eval()
 
     def predict_batch(self, texts):
         test_dataset = SimpleTestDataset(texts, self.tokenizer, self.max_length)
-        return GeneratePredictions(self.model, self.tokenizer, test_dataset, self.device)
+        return GeneratePredictions(self.model, self.tokenizer, test_dataset,
+                                   self.device, batch_size=self.batch_size)
 
     def predict_word_probabilities_batch(
         self,
