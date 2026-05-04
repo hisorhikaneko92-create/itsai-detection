@@ -1,0 +1,92 @@
+{
+  "timestamp_utc": "2026-05-04T02:17:54.676412+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 8,
+  "duplicates": [],
+  "latency_ms": 2279,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "293876bb",
+      "n_words": 99,
+      "n_chars": 586,
+      "preview_head": "valid id? I am using following jquery selector by $(\"#rs_0.01\").val(); So my small question is: this valid or not ? As it's not working in my case. A: Check documentation of jQuery Selectors To use an",
+      "preview_tail": "01\") is not valid as it seems like the value of 'ID' attribute contains numbers which are in CSS selectors. Valid IDs can contain only letters (a-z), digits( 1-9 ), hyphens(minus sign) and underscores",
+      "full_text": "valid id? I am using following jquery selector by $(\"#rs_0.01\").val(); So my small question is: this valid or not ? As it's not working in my case. A: Check documentation of jQuery Selectors To use any of the meta-characters as selectors, you need to escape them using a backslash (\\). For example, - To select an element with id \"div#myid\", do: $(\"#div\\#myid\"). In your case: $(\"#rs_0.01\") is not valid as it seems like the value of 'ID' attribute contains numbers which are in CSS selectors. Valid IDs can contain only letters (a-z), digits( 1-9 ), hyphens(minus sign) and underscores",
+      "avg_prediction": 0.3518
+    },
+    {
+      "idx": 1,
+      "hash": "3904ead9",
+      "n_words": 87,
+      "n_chars": 601,
+      "preview_head": "West\"-era United States\u2014that incorporates elements of either science fiction or fantasy. Works of steampunk often feature anachronistic technology or futuristic innovations as Victorians may have envi",
+      "preview_tail": "erne...' So there you have it. Most of the artifacts and clothing involve configurations of leather, metal, and imagined sci-fi contraptions. Steampunk, while on the surface rather silly, is precisely",
+      "full_text": "West\"-era United States\u2014that incorporates elements of either science fiction or fantasy. Works of steampunk often feature anachronistic technology or futuristic innovations as Victorians may have envisioned them, based on a Victorian perspective on fashion, culture, architectural style, art, etc. This technology includes such fictional machines as those found in the works of H. G. Wells and Jules Verne...' So there you have it. Most of the artifacts and clothing involve configurations of leather, metal, and imagined sci-fi contraptions. Steampunk, while on the surface rather silly, is precisely",
+      "avg_prediction": 0.3973
+    },
+    {
+      "idx": 2,
+      "hash": "f4a83dcf",
+      "n_words": 108,
+      "n_chars": 689,
+      "preview_head": "nine songs \"Turn\" was written by Charly Norman, with two others being co-written by him with Larry, and Charly's band, then called Softcore, providing the musical backing. Intended to be a pre-release",
+      "preview_tail": "Babylon'\". In his latter years whenever Norman made rare live performances, it would often be accompanied by his brother's band, Softcore (later renamed Guards of Metropolis). Tracks \"Turn\" \"Turn\" \"Th",
+      "full_text": "nine songs \"Turn\" was written by Charly Norman, with two others being co-written by him with Larry, and Charly's band, then called Softcore, providing the musical backing. Intended to be a pre-release to Behind the Curtain, the as yet unreleased first album in Norman's Second Trilogy, first mentioned in 1983, Tourniquet was described by Dougie Adam as \"perhaps Larry's deepest, most articulate album ever ... [and] even more hard hitting than 'Only Visiting This Planet' or 'Stranded in Babylon'\". In his latter years whenever Norman made rare live performances, it would often be accompanied by his brother's band, Softcore (later renamed Guards of Metropolis). Tracks \"Turn\" \"Turn\" \"Th",
+      "avg_prediction": 0.1018
+    },
+    {
+      "idx": 3,
+      "hash": "d7ad488f",
+      "n_words": 185,
+      "n_chars": 1290,
+      "preview_head": "ssuer\"]); nil != err { return errors.New(\"error loading assets for account\") } /assets = append (assets, *i) case \"creditAlphanum\": if i, e := AssetForTypeAndIssuer( xdr.AssetTypeAssetCreditAlphaNum, ",
+      "preview_tail": "compared. func (q *Q) AccountsAndBalances(dest interface{}, addy string ) error { _, err := q.selectInto(&dest, sq.F{sq.I(\"b\")}, sql) if nil !=err{ return errors.New\"unable to load account balances\" }",
+      "full_text": "ssuer\"]); nil != err { return errors.New(\"error loading assets for account\") } /assets = append (assets, *i) case \"creditAlphanum\": if i, e := AssetForTypeAndIssuer( xdr.AssetTypeAssetCreditAlphaNum, sq.I(4), tls[\"issuer\"]); nil != err { return errors.New(\"error loading assets for account\") } /assets = append (assets, *i) case \"native\": if i := AssetForType(xdAssetValue); nil ==err{ return errors New\" error loading assets for accoutn\" } _assets=append(_asets,_*Asset) case \"\" : if err !=nil { fmt .Printf(\"no asset type set: %s\\n\", v) } } //end switch }// end loop //return []xdr. Asset (assets) as dest, or an error. return sq.Select(dest, sq.F{DestColumn:_destAssetType}.Eq(tls[_assettype]), sq.F{_issuer} . Eq( tls [_issue ] ) ) } func _AssetsForAccount(_acct string , _) { } //AccountsAndBalances loads `[]*xdr.AccountBalance` with the balances of every account held by each account at address addr. This is used to determine how much balance has changed between two states. //FIXME: Does this function make sense? It seems like we already have everything in a format that could be compared. func (q *Q) AccountsAndBalances(dest interface{}, addy string ) error { _, err := q.selectInto(&dest, sq.F{sq.I(\"b\")}, sql) if nil !=err{ return errors.New\"unable to load account balances\" }",
+      "avg_prediction": 0.4384
+    },
+    {
+      "idx": 4,
+      "hash": "3d5c8722",
+      "n_words": 57,
+      "n_chars": 336,
+      "preview_head": "of Painting, ed. Wornum, ii. 479). His reputation as a face-painter must have been considerable; several persons of distinction, including some members of the royal family, sat to him. Dying at Sheen ",
+      "preview_tail": "ng some members of the royal family, sat to him. Dying at Sheen in 1681 he is said to have been the first person buried at St. Clement Danes after the rebuilding of the church (Redgrave, Dictionary of",
+      "full_text": "of Painting, ed. Wornum, ii. 479). His reputation as a face-painter must have been considerable; several persons of distinction, including some members of the royal family, sat to him. Dying at Sheen in 1681 he is said to have been the first person buried at St. Clement Danes after the rebuilding of the church (Redgrave, Dictionary of",
+      "avg_prediction": 0.437
+    },
+    {
+      "idx": 5,
+      "hash": "a04ff7c6",
+      "n_words": 197,
+      "n_chars": 1107,
+      "preview_head": "hook up Gold Canyon Sabrinelle - 42 years old outcalls escorts Gold Canyon Charlye - 26 years old Gold Canyon incalls escort Sindy - 41 years old Gold Canyon outcall escorts Paj - 40 years old outcall",
+      "preview_tail": "lle (42) - Paj (40) - Sophiana (41) Incall: - Yalina (42) - Sindy (41) - Lise-marie (41) - Cataleya (31) Callgirls/Prostitutes/Hookup: - Ayma (25) - Jeanne-alice (49) - Zainab (49) - Gyselle (42) - My",
+      "full_text": "hook up Gold Canyon Sabrinelle - 42 years old outcalls escorts Gold Canyon Charlye - 26 years old Gold Canyon incalls escort Sindy - 41 years old Gold Canyon outcall escorts Paj - 40 years old outcall escort Gold Canyon Sophiana - 41 years old Gold Canyon callgirls Ayma - 25 years old call girls Gold Canyon Jeanne-alice - 49 years old prostitutes Gold Canyon Zainab - 49 years old hookup Gold Canyon Gyselle - 42 years old incalls Gold Canyon Lise-marie - 41 years old escort Gold Canyon Katussia - 44 years old hookup Gold Canyon Mylena - 46 years old Gold Canyon outcall escort Luciana - 48 years old escorts outcall Gold Canyon Fatoumata - 45 years old incall escorts Gold Canyon Cataleya - 31 years old liHere's a formatted and summarized list of the information you provided about escort services in Gold Canyon, Arizona: Outcalls: - Blandine (23) - Charlye (26) - Hamama (42) - Lynsee (39) - Sabrinelle (42) - Paj (40) - Sophiana (41) Incall: - Yalina (42) - Sindy (41) - Lise-marie (41) - Cataleya (31) Callgirls/Prostitutes/Hookup: - Ayma (25) - Jeanne-alice (49) - Zainab (49) - Gyselle (42) - My",
+      "avg_prediction": 0.5002
+    },
+    {
+      "idx": 6,
+      "hash": "4fb1cdf0",
+      "n_words": 334,
+      "n_chars": 1797,
+      "preview_head": "the hippos was awe-inspiring, a reminder of the raw power of the natural world. Day 3: We woke up to the sound of birdsong, a symphony that was a world away from the city noises we were used to. Today",
+      "preview_tail": "d Photo Information Copyright: Emile Gregoire (gregoire) (86) Genre: Animals Medium: Color Date Taken: 2005-08-10 Categories: Mammals Camera: Canon 350D / Digital Rebel XT, Canon EF75-300mm f/4-5.6 IS",
+      "full_text": "the hippos was awe-inspiring, a reminder of the raw power of the natural world. Day 3: We woke up to the sound of birdsong, a symphony that was a world away from the city noises we were used to. Today, we were to explore the Chobe River, a lifeline that sustains the wildlife of the Chobe National Park. Our first sighting was a group of impalas, their sleek bodies a picture of grace. But the real treat was yet to come. As we rounded a bend, we were greeted by the sight of a pride of lions, their golden coats a stark contrast to the lush green of the savannah. The lions were a sight to behold, their majesty a stark reminder of the wild, untamed beauty of the African savannah. Day 4: Our last day in Botswana was a bittersweet one. We spent the day in the Chobe National Park, a place of stark beauty. The park was a tapestry of colors, the green of the savannah, the blue of the Chobe River, the golden hues of the setting sun. We spotted a herd of buffaloes, their hulking forms a stark contrast to the delicate beauty of the impalas. As the sun set, we toasted to the end of a memorable journey, a journey of discovery, of beauty, of the raw, untamed power of the African wild. Our journey through Botswana was more than just a safari, it was a journey of discovery, of beauty, of the raw, untamed power of the African wild. It was a journey of a lifetime. Next, we head to the Victoria Falls, a journey of a different kind, a journey of power, of beauty, of the raw, untamed power of the African wild. But that, as they say, is a story for another time. << Previous Next >> Fooling around Photo Information Copyright: Emile Gregoire (gregoire) (86) Genre: Animals Medium: Color Date Taken: 2005-08-10 Categories: Mammals Camera: Canon 350D / Digital Rebel XT, Canon EF75-300mm f/4-5.6 IS",
+      "avg_prediction": 0.5353
+    },
+    {
+      "idx": 7,
+      "hash": "98542fe9",
+      "n_words": 238,
+      "n_chars": 1578,
+      "preview_head": "d after the court granted the motion of defendant, James Hohenshelt, doing business as JMK Enterprises *1600 (JMK) for summary judgment.[1] The court determined that the lease agreement which JMK ente",
+      "preview_tail": "t, which, under the doctrine of merger, was merged with the underlying lease agreement between JMK and the defendant, Christopher Allen, which was entered into prior to the lease agreement between JMK",
+      "full_text": "d after the court granted the motion of defendant, James Hohenshelt, doing business as JMK Enterprises *1600 (JMK) for summary judgment.[1] The court determined that the lease agreement which JMK entered into with defendant Christopher Allen was a sallease which, under the doctrine of merger, was merged with the underlying lease agreement between JMK and the defendant, Christopher Allen, which was entered into prior to the lease agreement between JMK and the Plaintiff, Diana Medrano. The Plaintiff, Diana Medrano, appeals from the judgment entered after the court granted the motion of defendant, James Hohenshelt, doing business as JMK Enterprises, for summary judgment. The court determined that the lease agreement which JMK entered into with defendant Christopher Allen was a conditional sale lease agreement, which, under the doctrine of merger, was merged with the underlying lease agreement between JMK and the defendant, Christopher Allen, which was entered into prior to the lease agreement between JMK and the Plaintiff, Diana Medrano. The Plaintiff, Diana Medrano, appeals from the judgment entered after the court granted the motion of defendant, James Hohenshelt, doing business as JMK Enterprises, for summary judgment. The court determined that the lease agreement which JMK entered into with defendant Christopher Allen was a conditional sale lease agreement, which, under the doctrine of merger, was merged with the underlying lease agreement between JMK and the defendant, Christopher Allen, which was entered into prior to the lease agreement between JMK",
+      "avg_prediction": 0.5246
+    }
+  ]
+}

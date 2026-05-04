@@ -143,6 +143,7 @@ provider tier; smoke-test with --n-samples 200 before committing to a run.
 """
 import argparse
 import csv
+import hashlib
 import json
 import os
 import queue
@@ -1062,6 +1063,55 @@ class SourceMux:
         return self.cc.next_pair()
 
 
+class DedupSource:
+    """Wraps a source so the same prompt (root document) is never returned
+    twice. Hashes are persisted to ``seen_path`` so A/B/C/D runs share the
+    set across processes/restarts. Caller is single-threaded (the producer
+    thread) so no lock is needed for the in-memory set; the file append is
+    line-atomic on POSIX."""
+    def __init__(self, inner, seen_path: Optional[str]):
+        self.inner = inner
+        self.seen_path = seen_path
+        self.seen: set = set()
+        self._fp = None
+        self.skipped = 0
+        if seen_path:
+            p = Path(seen_path)
+            p.parent.mkdir(parents=True, exist_ok=True)
+            if p.exists():
+                with open(p, "r", encoding="utf-8") as f:
+                    for line in f:
+                        h = line.strip()
+                        if h:
+                            self.seen.add(h)
+            self._fp = open(p, "a", encoding="utf-8", buffering=1)
+            print(f"Seen-roots dedup: loaded {len(self.seen)} hashes from {seen_path}")
+
+    @staticmethod
+    def _key(pair: Dict[str, str]) -> str:
+        return hashlib.sha1(pair.get("prompt", "").encode("utf-8")).hexdigest()
+
+    def next_pair(self) -> Dict[str, str]:
+        # Bounded retry — if the source keeps recycling seen docs, surface it
+        # rather than spinning forever.
+        for _ in range(10000):
+            pair = self.inner.next_pair()
+            if not self.seen_path:
+                return pair
+            k = self._key(pair)
+            if k in self.seen:
+                self.skipped += 1
+                continue
+            self.seen.add(k)
+            try:
+                self._fp.write(k + "\n")
+            except Exception:
+                pass
+            return pair
+        raise RuntimeError("DedupSource: 10000 consecutive seen docs — "
+                           "increase --cc-num-segments or clear --seen-roots")
+
+
 # ---------------------------------------------------------------------------
 # Sample builders
 # ---------------------------------------------------------------------------
@@ -1905,6 +1955,12 @@ def main():
                          "    -> 50/50 mix of 0->1->0 and 1->0->1\n"
                          "  --sample-types multi_seam\n"
                          "    -> 100%% multi_seam (3+ seams @ default n=4)")
+    ap.add_argument("--seen-roots", default="data/seen_roots.txt",
+                    help="Path to a shared file of CC-prompt SHA1 hashes already "
+                         "consumed. Pairs whose prompt-hash is in this file are "
+                         "skipped, and successfully-emitted roots are appended. "
+                         "Use this to keep runs A/B/C/D from sharing the same "
+                         "human source documents. Pass '' to disable.")
     ap.add_argument("--multi-seam-segments", type=int, default=4,
                     help="Number of alternating h/ai chunks for multi_seam "
                          "samples. n=4 (default) -> 3 transitions; n=5 -> 4; "
@@ -2173,6 +2229,8 @@ def main():
         print("Common Crawl: disabled (--no-cc).")
 
     source = SourceMux(pile=pile, cc=cc_stream, pile_prob=args.pile_prob)
+    seen_path = args.seen_roots.strip() if args.seen_roots else ""
+    source = DedupSource(source, seen_path or None)
 
     out_path = Path(args.output)
     out_path.parent.mkdir(parents=True, exist_ok=True)

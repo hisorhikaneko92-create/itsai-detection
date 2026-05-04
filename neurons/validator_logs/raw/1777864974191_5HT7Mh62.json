@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-05-04T03:22:54.191657+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 2,
+  "duplicates": [],
+  "latency_ms": 2163,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "71443449",
+      "n_words": 102,
+      "n_chars": 663,
+      "preview_head": "bie graduated from the University of Edinburgh with an M D degree, receiving honours for his dissertation on pathology conditions before studying skin diseases in Paris under renowned specialists Caze",
+      "preview_tail": "d in 1853. In 1854 he was appointed physician to the (temporary) cholera hospital in Edinburgh, and in 1855 physician to the Royal Infirmary, a post which he held for the period of years. During the s",
+      "full_text": "bie graduated from the University of Edinburgh with an M D degree, receiving honours for his dissertation on pathology conditions before studying skin diseases in Paris under renowned specialists Cazenave & Devergie He established a family practice Edinburgh became fellow Royal College Physicians there 1852 married Anna Maria Reid fathered three sons and four daughters. Begbie was appointed Physician In-Ordinary (Scotland) to Queen Victoria's Medical Household in 1853. In 1854 he was appointed physician to the (temporary) cholera hospital in Edinburgh, and in 1855 physician to the Royal Infirmary, a post which he held for the period of years. During the s",
+      "avg_prediction": 0.438
+    },
+    {
+      "idx": 1,
+      "hash": "d2cd1bad",
+      "n_words": 233,
+      "n_chars": 1159,
+      "preview_head": "bit input 48 of the delay cell 46. A drain of the PFET Q28 is connected to a drain of an NFET Q29, to one end of a capacitor C1, and to an input of an inverter 80. The other end of the capacitor C1 is",
+      "preview_tail": " determined by the magnitude of the negative bias voltage 68. With the capacitor C1 discharged, a 0 appears at the input of the inverter 80 and a logical 1 appears at the output of the inverter 80. Th",
+      "full_text": "bit input 48 of the delay cell 46. A drain of the PFET Q28 is connected to a drain of an NFET Q29, to one end of a capacitor C1, and to an input of an inverter 80. The other end of the capacitor C1 is connected to the reference voltage VSS. A source of the NFET Q29 is connected to a drain of an NFET Q30. A gate of the NFET Q29 is connected to the data bit input 48 of the delay cell 46. A source of the NFET Q30 is connected to the reference voltage VSS. A gate of the NFET Q30 is connected to the bias voltage 68. An output of the inverter 80 provides the delayed data output 50. Operation of the delay cell 46 will now be described. A magnitude of the positive 66 and negative 68 bias voltages establishes drain-source resistances of the PFET Q27 and the NFET Q30. If a 1 is applied to the data bit input 48, the PFET Q28 turns off and the NFET Q29 turns thereby allowing the capacitor C1 to discharge through the NFETs Q29 and Q30. A rate of discharge is determined by the magnitude of the negative bias voltage 68. With the capacitor C1 discharged, a 0 appears at the input of the inverter 80 and a logical 1 appears at the output of the inverter 80. Th",
+      "avg_prediction": 0.4492
+    }
+  ]
+}

@@ -1,0 +1,1212 @@
+{
+  "timestamp_utc": "2026-05-03T22:43:05.899653+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 120,
+  "duplicates": [],
+  "latency_ms": 15810,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "7bb71995",
+      "n_words": 194,
+      "n_chars": 1477,
+      "preview_head": "gh-qualityreplacement doors andwindows to enhance theirhomes' curb appeal,energy efficiency, and security. Here are some top-rated companies known for providingexcellent servicesin this field: 1. Viny",
+      "preview_tail": "ed in theAshburn community for their commitment to quality, customer satisfaction, and product offerings. Whether you're looking to update your home\u2019s exterior orimprove its energy efficiency, these b",
+      "full_text": "gh-qualityreplacement doors andwindows to enhance theirhomes' curb appeal,energy efficiency, and security. Here are some top-rated companies known for providingexcellent servicesin this field: 1. Vinylbilt Windows & Doors - Known fortheir wide rangeof vinyl windows and patio doors, Vinylbiltoffers products that are both durable and cost-effective. They providea variety of styles to suitany home design. 2. Pella Windows andDoors - Pella is renowned for its high-quality wood, fiberglass,and vinyl windows and doors. Their Ashburn locationcaters to homeowners looking for energy-efficient solutions andcustom designs. 3. Homecraft Remodeling - Specializing in comprehensivehome remodeling services, Homecraft offers replacement windows and doors that are not only beautiful butalso designedto improve theoverall comfort of your home. 4. Lowe\u2019s Home Improvement- With a local store in Ashburn,Lowe\u2019s provides a range of window and door options from leadingmanufacturers. They offerboth professional installation services and DIY solutions for homeowners. 5. Ashburn Windows &Doors - This locally-ownedbusiness focuses on customer service alongside high-quality products. They work clientsto understand their needs anddeliver tailored solutions. These companies are well-regarded in theAshburn community for their commitment to quality, customer satisfaction, and product offerings. Whether you're looking to update your home\u2019s exterior orimprove its energy efficiency, these b",
+      "avg_prediction": 0.5625
+    },
+    {
+      "idx": 1,
+      "hash": "51d5a99a",
+      "n_words": 88,
+      "n_chars": 896,
+      "preview_head": "= \"file_\" + String.valueOf(imageNum) + \".jpg\"; output = new File(imagesFolder, fileName); } OutputStream fOut = new FileOutputStream(output); merged.compress(Bitmap.CompressFormat.JPEG, 100, fOut); fO",
+      "preview_tail": "\"); if (!mFolder.exists()) { mFolder.mkdir(); } String strF = mFolder.getAbsolutePath(); File mSubFolder = new File(strF + \"/MyApp-SubFolder\"); if (!mSubFolder.exists()) { mSubFolder.mkdir(); } String",
+      "full_text": "= \"file_\" + String.valueOf(imageNum) + \".jpg\"; output = new File(imagesFolder, fileName); } OutputStream fOut = new FileOutputStream(output); merged.compress(Bitmap.CompressFormat.JPEG, 100, fOut); fOut.flush(); fOut.close(); Toast.makeText(getApplicationContext(), \"Saved\", Toast.LENGTH_SHORT).show(); } catch (FileNotFoundException e) { e.printStackTrace(); } catch (IOException e) { e.printStackTrace(); } } A: First add permission to AndroidManifest.xml <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"></uses-permission> Then write down in Java File as below. String extr = Environment.getExternalStorageDirectory().toString(); File mFolder = new File(extr + \"/MyApp\"); if (!mFolder.exists()) { mFolder.mkdir(); } String strF = mFolder.getAbsolutePath(); File mSubFolder = new File(strF + \"/MyApp-SubFolder\"); if (!mSubFolder.exists()) { mSubFolder.mkdir(); } String",
+      "avg_prediction": 0.4557
+    },
+    {
+      "idx": 2,
+      "hash": "2aa37e9e",
+      "n_words": 59,
+      "n_chars": 310,
+      "preview_head": "then link the GUIDs in the tables. This can be a way to link the tables, and then link the GUIDs in the other tables. You can then link the GUIDs in the m2m table. Regardless of this change, the quest",
+      "preview_tail": "tables. You can then link the GUIDs in the m2m table. Regardless of this change, the questions still stands. A: By default databases don't support this kind of relationship (as you've drawn it). I hav",
+      "full_text": "then link the GUIDs in the tables. This can be a way to link the tables, and then link the GUIDs in the other tables. You can then link the GUIDs in the m2m table. Regardless of this change, the questions still stands. A: By default databases don't support this kind of relationship (as you've drawn it). I hav",
+      "avg_prediction": 0.4446
+    },
+    {
+      "idx": 3,
+      "hash": "cece84ea",
+      "n_words": 134,
+      "n_chars": 822,
+      "preview_head": "ere to print the obituary below Gertie Davis RICHLANDS \u2013 Gertie D. Davis, 92, of Richlands, died Feb. 3, 2013, at her home. A funeral service will be held at 2 p.m. Tuesday, Feb. 5 at Bethany Baptist ",
+      "preview_tail": "e made to Bethany Baptist Church Building Fund or Dunn-Davis Cemetery c/o Benny Godwin, P.O. Box #175 Richlands N.C. 28574 Arrangements are by Johnson Funeral Home & Cremation Service in Jacksonville.",
+      "full_text": "ere to print the obituary below Gertie Davis RICHLANDS \u2013 Gertie D. Davis, 92, of Richlands, died Feb. 3, 2013, at her home. A funeral service will be held at 2 p.m. Tuesday, Feb. 5 at Bethany Baptist Church with the Rev. Chris Jarman officiating. Burial held at Dunn Davis Cemetery. Survivors include daughters, Alma Davis Hobbs and Doris Marshburn, both of Jacksonville, Mary Eunice Parker of Richlands, Esther Gee of Avon, Ind. and Dean Kratzer of Pilesgrove N.J.; son, Ed Davis of Kinston; sister, Mabel Pierce of Jacksonville; 23 grandchildren, 40 great-grandcildren and one on the way. In lieu flowers memorials may be made to Bethany Baptist Church Building Fund or Dunn-Davis Cemetery c/o Benny Godwin, P.O. Box #175 Richlands N.C. 28574 Arrangements are by Johnson Funeral Home & Cremation Service in Jacksonville.",
+      "avg_prediction": 0.4532
+    },
+    {
+      "idx": 4,
+      "hash": "3e6f1d69",
+      "n_words": 82,
+      "n_chars": 508,
+      "preview_head": "Marine Energy Centre (EMEC) in Orkney in 2020. Andrew Scott, CEO of orbital Marine Power said: \u201cThe Orbital O2 is a low cost Solution for future commercial projects and builds on the features which ma",
+      "preview_tail": " a competitive price point and provide regulators and investors with a new, predictable renewable energy option.\u201d The Orbital O2 will comprise of a 73m long floating superstructure, supporting two 1 M",
+      "full_text": "Marine Energy Centre (EMEC) in Orkney in 2020. Andrew Scott, CEO of orbital Marine Power said: \u201cThe Orbital O2 is a low cost Solution for future commercial projects and builds on the features which made the SR2000 an industry breakthrough. This optimised turbine will unlock tidal markets around the world at a competitive price point and provide regulators and investors with a new, predictable renewable energy option.\u201d The Orbital O2 will comprise of a 73m long floating superstructure, supporting two 1 M",
+      "avg_prediction": 0.4208
+    },
+    {
+      "idx": 5,
+      "hash": "59a19b0d",
+      "n_words": 114,
+      "n_chars": 547,
+      "preview_head": "October (2) \u25ba September (1) \u25ba August (5) \u25ba July (2) \u25ba June (3) \u25ba May (3) \u25ba April (4) \u25ba March (3) \u25ba February (2) \u25ba January (1) \u25ba 2013 (53) \u25ba December (7) \u25ba November (5) \u25ba October (4) \u25ba September (1) \u25ba ",
+      "preview_tail": "ristmas Spirit Ranting Against Youth Nature Deficit Disorder Words on Webinars Hobbies and Jobs Getting off the Trail in Sussex Birds are Resilient So Are We \u25ba October (2) \u25ba September (3) \u25ba August (4)",
+      "full_text": "October (2) \u25ba September (1) \u25ba August (5) \u25ba July (2) \u25ba June (3) \u25ba May (3) \u25ba April (4) \u25ba March (3) \u25ba February (2) \u25ba January (1) \u25ba 2013 (53) \u25ba December (7) \u25ba November (5) \u25ba October (4) \u25ba September (1) \u25ba August (8) \u25ba July (2) \u25ba June (4) \u25ba May (5) \u25ba April (4) \u25ba March (4) \u25ba February (2) \u25ba January (7) \u25bc 2012 (43) \u25ba December (2) \u25bc November (6) In the Christmas Spirit Ranting Against Youth Nature Deficit Disorder Words on Webinars Hobbies and Jobs Getting off the Trail in Sussex Birds are Resilient So Are We \u25ba October (2) \u25ba September (3) \u25ba August (4)",
+      "avg_prediction": 0.4788
+    },
+    {
+      "idx": 6,
+      "hash": "aa52b636",
+      "n_words": 243,
+      "n_chars": 1463,
+      "preview_head": "App Info Compatible Devices Reviews Description Analog watch face for VivoActive 3 with HR and activity details.</p><p>Configurable Watch Face</p><p>- configurable date format</p><p>- configurable col",
+      "preview_tail": " when there were some issues with my device not being able access certain features of this app so they fixed them quickly which made me feel like their customer service really cares about its customer",
+      "full_text": "App Info Compatible Devices Reviews Description Analog watch face for VivoActive 3 with HR and activity details.</p><p>Configurable Watch Face</p><p>- configurable date format</p><p>- configurable colors What\u2019s New You can have seconds on all the time and choose the color. Additional Information Initial Release: 02 March 2018 Updated: 27 March 2018 Version: v1.7 Contact Developer Flag as Inappropriate v\u00edvoactive\u00ae 3 Current Version All Versions Average Rating: (5 Ratings) Write a Review Sort by: Date - Newest First Date - Oldest First Rating - High to Low Rating - Low to High Thang 25 March 2018 | Version v.7| Vivoactive3 Music LTE I love this watch face! It's simple, clean and easy on the eyes with a lot of customization options for colors etc... The developer is also very responsive in fixing any issues that come up which makes it even better than most other faces out there where you're left hanging if something doesn't work right. 5/10 people found this review helpful Was this comment Helpful? Yes No (Unmark) Share Location: United States 24 March v7| Vivoactive3 Music LTE Great watch face! I love the customization options and how easy it is to read at a glance without having too much clutter on screen. The developer was also very responsive when there were some issues with my device not being able access certain features of this app so they fixed them quickly which made me feel like their customer service really cares about its customer",
+      "avg_prediction": 0.5252
+    },
+    {
+      "idx": 7,
+      "hash": "4aed1651",
+      "n_words": 230,
+      "n_chars": 1426,
+      "preview_head": "d .NET, and while learning about the DateTime structure and the following code: DateTime dt = new DateTime(2015, 10, 17); I asked myself \"why didn't I have to reference it at the top by writing using ",
+      "preview_tail": "ined under System are also accessible from your code. Since DateTime is a public type (and most likely intended for general consumption), you do not need an explicit reference or using statement in or",
+      "full_text": "d .NET, and while learning about the DateTime structure and the following code: DateTime dt = new DateTime(2015, 10, 17); I asked myself \"why didn't I have to reference it at the top by writing using System.DateTime\"? So I realized that since DateTime is a structure, and the \"using\" keyword is used to reference types (type being a general term to refer to a member from the set {class, interface, structure, enumeration, delegate}), defined in a particular namespace (in this case, DateTime is of type structure from the System Namespace). But I noticed that at the top of my file, the following using directives are found (they were put there automatically when I created my C# console application): using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; I was wondering why the using directives that follow using System were necessary, when aren't they all under the System namespac? This is what I understand so far: A namespace within a namespace? What do you think of tHis explanation? REPLY [2 votes]: It's not really namespaces in namesapces. The correct way to say it would be that \"DateTime\" resides inside the 'System' namespace, and all other types defined under System are also accessible from your code. Since DateTime is a public type (and most likely intended for general consumption), you do not need an explicit reference or using statement in or",
+      "avg_prediction": 0.3531
+    },
+    {
+      "idx": 8,
+      "hash": "34272c7f",
+      "n_words": 70,
+      "n_chars": 493,
+      "preview_head": "oody, Pike County, Kentucky. July 2014. Goody, Pike County, Kentucky. July 2014. Baisden, Mingo County, West Virginia. August 2014. Baisden, Mingo County, West Virginia. August 2014. Baisden, Mingo Co",
+      "preview_tail": "nty, West Virginia. August 2014. Goody, Pike County, Kentucky. July 2014. Goody, Pike County, Kentucky. July 2014. Goody, Pike County, Kentucky. July 2014. Baisden, Mingo County, West Virginia. August",
+      "full_text": "oody, Pike County, Kentucky. July 2014. Goody, Pike County, Kentucky. July 2014. Baisden, Mingo County, West Virginia. August 2014. Baisden, Mingo County, West Virginia. August 2014. Baisden, Mingo County, West Virginia. August 2014. Goody, Pike County, Kentucky. July 2014. Baisden, Mingo County, West Virginia. August 2014. Goody, Pike County, Kentucky. July 2014. Goody, Pike County, Kentucky. July 2014. Goody, Pike County, Kentucky. July 2014. Baisden, Mingo County, West Virginia. August",
+      "avg_prediction": 0.5162
+    },
+    {
+      "idx": 9,
+      "hash": "c02340d5",
+      "n_words": 74,
+      "n_chars": 567,
+      "preview_head": "/mm3) or discordant (demonstrating anincrease of <100 CD4+ T cells/mm3) after 48 weeks of ART. In analyses, CD4+ and CD8+ T cell activation at baseline was negatively associated with concordance at we",
+      "preview_tail": "D4+Tcellrecovery, whereas increasednaiveCD4+ Tcell counts were associated witDeterminants of CD4+ T cell recovery during suppressive antiretroviraltherapy (ART)wereassociated withimmune activation, Tc",
+      "full_text": "/mm3) or discordant (demonstrating anincrease of <100 CD4+ T cells/mm3) after 48 weeks of ART. In analyses, CD4+ and CD8+ T cell activation at baseline was negatively associated with concordance at week 48of ART (odds ratio[OR], 0.80[P= .04] and 0.67[P = .02],respectively).High memory (CDRA(-)CD62L-) CD8+ Tcell counts atbaseline (OR,0.33 [P = .05]) predicted less CD4+Tcellrecovery, whereas increasednaiveCD4+ Tcell counts were associated witDeterminants of CD4+ T cell recovery during suppressive antiretroviraltherapy (ART)wereassociated withimmune activation, Tc",
+      "avg_prediction": 0.3538
+    },
+    {
+      "idx": 10,
+      "hash": "fa3a8aba",
+      "n_words": 33,
+      "n_chars": 336,
+      "preview_head": "eration official site Goran Miljanovic has died Category:1956 births Category:2008 deaths Category:Yugoslav footballers Category:Yugoslavia footballers footballers Category:Bosnia and Herzegovina foot",
+      "preview_tail": "via footballers footballers Category:Bosnia and Herzegovina footballers Category:FK Sloboda Tuzla players Category:Lierse S.K. players Category:FK Jedinstvo Br\u010dko players Category:Association football",
+      "full_text": "eration official site Goran Miljanovic has died Category:1956 births Category:2008 deaths Category:Yugoslav footballers Category:Yugoslavia footballers footballers Category:Bosnia and Herzegovina footballers Category:FK Sloboda Tuzla players Category:Lierse S.K. players Category:FK Jedinstvo Br\u010dko players Category:Association football",
+      "avg_prediction": 0.4324
+    },
+    {
+      "idx": 11,
+      "hash": "5b7e737a",
+      "n_words": 61,
+      "n_chars": 513,
+      "preview_head": "</ul> <br /> <ul ui:sortable=\"sortableOptions\" ng:model=\"list2\" class=\"group\"> <li ng:repeat=\"item in list2\" class=\"item\">{{item}}</li> </ul> <hr /> <div ng:repeat=\"item in list\">{{item}}</div> <div n",
+      "preview_tail": "{ $scope.list = [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\"]; $scope.list2 = [\"7\", \"8\", \"9\"]; $scope.sortableOptions = { update: function(e, ui) { }, receive: function(e, ui) { }, connectWith: \".group\", axis: 'y' }",
+      "full_text": "</ul> <br /> <ul ui:sortable=\"sortableOptions\" ng:model=\"list2\" class=\"group\"> <li ng:repeat=\"item in list2\" class=\"item\">{{item}}</li> </ul> <hr /> <div ng:repeat=\"item in list\">{{item}}</div> <div ng:repeat=\"item in list2\">{{item}}</div> </div> Controller Code: myapp.controller('controller', function ($scope) { $scope.list = [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\"]; $scope.list2 = [\"7\", \"8\", \"9\"]; $scope.sortableOptions = { update: function(e, ui) { }, receive: function(e, ui) { }, connectWith: \".group\", axis: 'y' }",
+      "avg_prediction": 0.5164
+    },
+    {
+      "idx": 12,
+      "hash": "bebf1426",
+      "n_words": 126,
+      "n_chars": 863,
+      "preview_head": "andy hills, dunal moraines, shallow lakes, and associated plant and animal life. The dunes reach heights of 140 feet (42 m) above lake level. The Nordhouse Dunes form the northern half of the preserve",
+      "preview_tail": "s providing wonderful environments for diverse bird populations throughout its tranquil settings nestled among forests rich lush carpeting grounds under canopy lush vegetation seeking refuge amidst se",
+      "full_text": "andy hills, dunal moraines, shallow lakes, and associated plant and animal life. The dunes reach heights of 140 feet (42 m) above lake level. The Nordhouse Dunes form the northern half of the preserved sectiNorthern section is characterized by towering parabolic sand-dunes growing as low a few fifty feet to overlook Lake Erie, with the northern part giving an impressive sample display typical temperate forest vegetation found along upper Great Lake coast in Upper Peninsula. As one journeys through this 3450 hectares protected land towards beaches lined alongside towering cliffs, they witness nature's interaction between water bodies and volcanic formations providing wonderful environments for diverse bird populations throughout its tranquil settings nestled among forests rich lush carpeting grounds under canopy lush vegetation seeking refuge amidst se",
+      "avg_prediction": 0.35
+    },
+    {
+      "idx": 13,
+      "hash": "fa79fdb7",
+      "n_words": 68,
+      "n_chars": 374,
+      "preview_head": "using your Google+ account. ( Log Out / Change ) You are commenting using your Twitter account. ( Log Out / Change ) You are commenting using your Facebook account. ( Log Out / Change ) Cancel Connect",
+      "preview_tail": " / Change ) Cancel Connecting to %s Notify me of comments via email. WordPress.com. Post to Cancel Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.",
+      "full_text": "using your Google+ account. ( Log Out / Change ) You are commenting using your Twitter account. ( Log Out / Change ) You are commenting using your Facebook account. ( Log Out / Change ) Cancel Connecting to %s Notify me of comments via email. WordPress.com. Post to Cancel Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.",
+      "avg_prediction": 0.466
+    },
+    {
+      "idx": 14,
+      "hash": "0c2a6a59",
+      "n_words": 127,
+      "n_chars": 863,
+      "preview_head": "\u044d\u0442\u0443 \u043f\u043e\u0437\u0438\u0446\u0438\u044e \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043c\u0435\u0442\u043e\u0434\u0430 `seek()` \u0438 \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c \u0441\u0442\u0440\u043e\u043a\u0443 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043c\u0435\u0442\u043e\u0434\u0430 `read()` \u0438\u043b\u0438 `readline()` \u043d\u0430 \u044f\u0437\u044b\u043a\u0435 Python. \u041f\u0440\u0438\u043c\u0435\u0440 \u043d\u0430 Python: ```python line_length = 50 # \u0414\u043b\u0438\u043d\u0430 \u0441\u0442\u0440\u043e\u043a\u0438 line_number = 500 # \u041d\u043e\u043c",
+      "preview_tail": "\u0442\u0440\u043e\u043a\u0438 with open('file.txt', 'r') as file: for current_line_number, line in enumerate(file, 1): if current_line_number == line_number: print(line) break ``` \u0412 \u044d\u0442\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u0444\u0430\u0439\u043b \u0431\u0443\u0434\u0435\u0442 \u0447\u0438\u0442\u0430\u0442\u044c\u0441\u044f \u043f\u043e\u0441\u0442\u0440\u043e\u0447\u043d\u043e,",
+      "full_text": "\u044d\u0442\u0443 \u043f\u043e\u0437\u0438\u0446\u0438\u044e \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043c\u0435\u0442\u043e\u0434\u0430 `seek()` \u0438 \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c \u0441\u0442\u0440\u043e\u043a\u0443 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043c\u0435\u0442\u043e\u0434\u0430 `read()` \u0438\u043b\u0438 `readline()` \u043d\u0430 \u044f\u0437\u044b\u043a\u0435 Python. \u041f\u0440\u0438\u043c\u0435\u0440 \u043d\u0430 Python: ```python line_length = 50 # \u0414\u043b\u0438\u043d\u0430 \u0441\u0442\u0440\u043e\u043a\u0438 line_number = 500 # \u041d\u043e\u043c\u0435\u0440 \u0441\u0442\u0440\u043e\u043a\u0438 with open('file.txt', 'r') as file: file.seek(line_length * (line_number - 1)) line = file.readline() print(line) ``` \u0415\u0441\u043b\u0438 \u0441\u0442\u0440\u043e\u043a\u0438 \u0438\u043c\u0435\u044e\u0442 \u043f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u0443\u044e \u0434\u043b\u0438\u043d\u0443, \u0442\u043e, \u043a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043d\u0435\u0442 \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u043f\u0435\u0440\u0435\u0439\u0442\u0438 \u043a \u043d\u0443\u0436\u043d\u043e\u0439 \u0441\u0442\u0440\u043e\u043a\u0435, \u043d\u0435 \u043f\u0435\u0440\u0435\u0431\u0438\u0440\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0438 \u043f\u043e \u043f\u043e\u0440\u044f\u0434\u043a\u0443, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u043d\u0435\u0442 \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u0442\u043e\u0447\u043d\u043e \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c, \u0433\u0434\u0435 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u043d\u0443\u0436\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430, \u043d\u0435 \u0437\u043d\u0430\u044f \u0442\u043e\u0447\u043d\u043e, \u0433\u0434\u0435 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u043a\u0430\u0436\u0434\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u0434\u043e \u043d\u0435\u0435. \u041f\u0440\u0438\u043c\u0435\u0440 \u043d\u0430 Python \u0434\u043b\u044f \u0441\u0442\u0440\u043e\u043a \u043f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0434\u043b\u0438\u043d\u044b: ```python line_number = 500 # \u041d\u043e\u043c\u0435\u0440 \u0441\u0442\u0440\u043e\u043a\u0438 with open('file.txt', 'r') as file: for current_line_number, line in enumerate(file, 1): if current_line_number == line_number: print(line) break ``` \u0412 \u044d\u0442\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u0444\u0430\u0439\u043b \u0431\u0443\u0434\u0435\u0442 \u0447\u0438\u0442\u0430\u0442\u044c\u0441\u044f \u043f\u043e\u0441\u0442\u0440\u043e\u0447\u043d\u043e,",
+      "avg_prediction": 0.6846
+    },
+    {
+      "idx": 15,
+      "hash": "2033170d",
+      "n_words": 126,
+      "n_chars": 739,
+      "preview_head": "tel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, ca",
+      "preview_tail": " from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground,",
+      "full_text": "tel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground, hotel, etc) from Orville. If you are driving, figure the driving distance to a hotel (or B&B, campground,",
+      "avg_prediction": 0.7831
+    },
+    {
+      "idx": 16,
+      "hash": "e11bffaa",
+      "n_words": 267,
+      "n_chars": 1827,
+      "preview_head": "safety data sheets (MSDSs). TDG Certified- Transportation of Dangerous Goods are regulations required to transport Waste, Haz-mat, Gasoline, Explosives, Water and Oil by tanker truck. The course also ",
+      "preview_tail": "f course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with t",
+      "full_text": "safety data sheets (MSDSs). TDG Certified- Transportation of Dangerous Goods are regulations required to transport Waste, Haz-mat, Gasoline, Explosives, Water and Oil by tanker truck. The course also taught how to contain spills, handling of such goods and transporting the goods. Work experience Work experience May 2004 - Sep 2011 Assistant Super-Intendent Meadows Par 3 Golf Course Perform a variety of supervisory and skilled tasks in the maintenance and operation of golf course buildings and grounds. Worked under the general supervision of the Golf Course Manager. Using excellent customer service skills, established and maintained effective working relationships with other employees, course marshalls, and all members of the general public. Supervised maintenance workers, mechanics, agolf course grounds maintenance, and the operation of golf course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with the Golf Course Manager and the Golf Course Supervised maintenance workers, mechanics, and the operation of golf course buildings and grounds. Worked with t",
+      "avg_prediction": 0.4511
+    },
+    {
+      "idx": 17,
+      "hash": "85a0e969",
+      "n_words": 59,
+      "n_chars": 400,
+      "preview_head": "when it comes down marketing strategies: instead relying upon major labels who might reduce musicians simply numbers (and risk losing control), these independent creators choose maintain autonomy thro",
+      "preview_tail": "ughout entire creative journey, including decisions regarding publicity campaigns! Aside from the obvious \u2013 \u2018that you\u2019re giving a chance to the underdog\u2019 or \u2018you\u2019ll save a lot of money\u2019 (which I\u2019ll co",
+      "full_text": "when it comes down marketing strategies: instead relying upon major labels who might reduce musicians simply numbers (and risk losing control), these independent creators choose maintain autonomy throughout entire creative journey, including decisions regarding publicity campaigns! Aside from the obvious \u2013 \u2018that you\u2019re giving a chance to the underdog\u2019 or \u2018you\u2019ll save a lot of money\u2019 (which I\u2019ll co",
+      "avg_prediction": 0.4523
+    },
+    {
+      "idx": 18,
+      "hash": "59c32edc",
+      "n_words": 65,
+      "n_chars": 401,
+      "preview_head": "failed, 0 up-to-date, 0 skipped ========== A: This happens because something in your project is configured to use the precompiled headers file but nothing is configured to create it. Right click the f",
+      "preview_tail": "le stdafx.cpp, select properties, go to C/C++, precompiled headers, select \"Create precompiled header\" in the first edit box. If you want touse this option for all projects by default then see that sa",
+      "full_text": "failed, 0 up-to-date, 0 skipped ========== A: This happens because something in your project is configured to use the precompiled headers file but nothing is configured to create it. Right click the file stdafx.cpp, select properties, go to C/C++, precompiled headers, select \"Create precompiled header\" in the first edit box. If you want touse this option for all projects by default then see that sa",
+      "avg_prediction": 0.3819
+    },
+    {
+      "idx": 19,
+      "hash": "c8c9971d",
+      "n_words": 224,
+      "n_chars": 1354,
+      "preview_head": "a picture might be that there is no floppy disk in the video image recorder unit, or a malfunction has occurred in the video portion of the system, or image information from a previous picture is stil",
+      "preview_tail": "bject of the present invention to provide a control system for a simultaneous film and electronic capture system that ensures that the film image will be captured on the electronic image system. It is",
+      "full_text": "a picture might be that there is no floppy disk in the video image recorder unit, or a malfunction has occurred in the video portion of the system, or image information from a previous picture is still being processed and recorded, or simply that the recording disk is full. It is possible, therefore, for the photographer to attempt to take a picture or a series of pictures in sequence, and fail to capture and record some or all of the video images without realizing it until it is too late. With photographic cameras that utilize electrically operated shutter releases it is known to provide electronic shutter release control signals that inhibit the application of a shutter release signal to the film camera and generation of the flash request signal until an enable signal or \"all clear\" signal is received from the video image recording apparatus. However, for cameras with mechanical shutter release apparatus, there has not been available a simple, small, relatively inexpensive mechanism that would provide the feature of inhibiting film camera shutter release until the video apparatus is ready to record the next image. It is therefore an object of the present invention to provide a control system for a simultaneous film and electronic capture system that ensures that the film image will be captured on the electronic image system. It is",
+      "avg_prediction": 0.237
+    },
+    {
+      "idx": 20,
+      "hash": "4332f601",
+      "n_words": 97,
+      "n_chars": 567,
+      "preview_head": "lived more than 18 years, but i worried she wouldn\u2019t make it to 5 years because of her habit of chewing on electrical cords. I wish CritterCord cord protectors had been around back then. The clear tub",
+      "preview_tail": "ver the electrical cord to provide a protective layer. They are heavy-gauge, so they resist even the most vigorous of chewing. The clear tubing slips over the electrical cord to provide a protective l",
+      "full_text": "lived more than 18 years, but i worried she wouldn\u2019t make it to 5 years because of her habit of chewing on electrical cords. I wish CritterCord cord protectors had been around back then. The clear tubing slips over the electrical cord to provide a protective layer. They are heavy-gauge, so they resist even the mo...most vigorous of chewing. The clear tubing slips over the electrical cord to provide a protective layer. They are heavy-gauge, so they resist even the most vigorous of chewing. The clear tubing slips over the electrical cord to provide a protective l",
+      "avg_prediction": 0.4488
+    },
+    {
+      "idx": 21,
+      "hash": "2531f051",
+      "n_words": 314,
+      "n_chars": 1935,
+      "preview_head": "sic is allowed, such as guitar, flute or a small cassette player. Amplified music is not allowed. Tables may be reserved for a reception at the regular charge at the pavilion. no extra tables are to b",
+      "preview_tail": "iew current cancelations Contact City Hall 124 W Michigan Avenue Lansing, MI 48933 Phone: 517-483-4000 Monday - Friday, 8 a.m. - 5 p.m. Quick Links Home Site Map Accessibility External User Social Med",
+      "full_text": "sic is allowed, such as guitar, flute or a small cassette player. Amplified music is not allowed. Tables may be reserved for a reception at the regular charge at the pavilion. no extra tables are to be brought in and no moving of reserved Parks and Recreation Department tables. No arrangements are made for adverse weather conditions. In case of rain during reserved time period, $50 will be refunded if customer contacts our office the following business day after the rental date and weather condition has been verified. Fees are not transferable to a different period, day or time. If a reservation is canceled at least 30 days prior to the date of use, a full refund is granted less a $10 service charge. no refund is granted if there is less than 30 days before the reservation unless another group reserves and pays for the time. Permission to waive any rule must be obtained in writing. Verbal permission is not valid. Bring paid receipt to park on date of reservation Garden Etiquette Our plant collections, like all museum collections, are very important. Please refrain from collecting plants, flowers or labels, climbing on trees and shrubs, and standing or walking in garden beds. Stay on path or walkway where provided. For everyone's safety and enjoyment, active sports or games (baseball, football, soccer, roller-skating, skate-boarding, Frisbee, etc.) are not permitted in garden areas. Pets are not allowed in gardens; guide dogs are welcome. Wedding Site Rules Wedding Sites Photo GAllery Lansing Home Visit the city of Lansing home page Activities Guide View upcoming activities Program Registration Register online Parks & Facilities Rentals Reserve a facility lifetime Sports Adult / Youth Weather Cancelations View current cancelations Contact City Hall 124 W Michigan Avenue Lansing, MI 48933 Phone: 517-483-4000 Monday - Friday, 8 a.m. - 5 p.m. Quick Links Home Site Map Accessibility External User Social Med",
+      "avg_prediction": 0.3321
+    },
+    {
+      "idx": 22,
+      "hash": "b6980dc3",
+      "n_words": 137,
+      "n_chars": 972,
+      "preview_head": "have a string, 15.Prototypal-Inheritance-and-Refactoring-the-Slider.txt, I'd like to make it looks like 15.Prototypal...-Slider.txt The length of the text is 56, how can I keep the first 12 letters an",
+      "preview_tail": "se a more complex approach with Regular Expression where necessary modifications could also be applied: var str=\"15.Prototypal-Inheritance-and-Refactoring-the-Slider.txt\"; //input string here .split(/",
+      "full_text": "have a string, 15.Prototypal-Inheritance-and-Refactoring-the-Slider.txt, I'd like to make it looks like 15.Prototypal...-Slider.txt The length of the text is 56, how can I keep the first 12 letters and 10 last letters (incuding punctuation marks) and replace the others to ... I don't really know how to commence the code, I made something like var str=\"15.Prototypal-Inheritance-and-Refactoring-the-Slider.txt\"; str.split(\"// \",1); although this gives me what I need,A simple way would be by splitting your string into two halves and then joining the desired parts together again using split() function in JavaScript but it might not exactly suit if you want to keep first 5 characters of text intact while keeping last part including punctuation marks. For that we can use a more complex approach with Regular Expression where necessary modifications could also be applied: var str=\"15.Prototypal-Inheritance-and-Refactoring-the-Slider.txt\"; //input string here .split(/",
+      "avg_prediction": 0.3584
+    },
+    {
+      "idx": 23,
+      "hash": "b390a668",
+      "n_words": 137,
+      "n_chars": 803,
+      "preview_head": "House Exterior Best Paint Color Outside House. Here are a number of highest rated Best Paint Color Outside House pictures upon internet. We identified it from trustworthy source. Its submitted by supe",
+      "preview_tail": "y wish you can easily consent it as one of your insinuation and many thanks for your grow old for surfing our webpage. divert allocation this image for your beloved friends, families, society via your",
+      "full_text": "House Exterior Best Paint Color Outside House. Here are a number of highest rated Best Paint Color Outside House pictures upon internet. We identified it from trustworthy source. Its submitted by supervision in the best field. We recognize this nice of Best Paint Color Outside House graphic could possibly be the most topic taking into consideration we portion it in pro or facebook. We try to introduced in this posting before this may be one of fantastic hint for any Best Paint Color Outside House options. Dont you come here to know some additional unique pot de fleurs pas cher idea? We essentially wish you can easily consent it as one of your insinuation and many thanks for your grow old for surfing our webpage. divert allocation this image for your beloved friends, families, society via your",
+      "avg_prediction": 0.5137
+    },
+    {
+      "idx": 24,
+      "hash": "65e26e03",
+      "n_words": 331,
+      "n_chars": 2196,
+      "preview_head": "developers and manages the process from the beginning to an end. Things go differently when it comes to outstaffing since an outstaffing company is a supplier of human resource. The core idea of outst",
+      "preview_tail": "develop in-house and would consider extending the company size. What does outsourcing give you? Looking at the practice of the IT countries where outsourcing is most popular, Ukraine, Poland, and Hung",
+      "full_text": "developers and manages the process from the beginning to an end. Things go differently when it comes to outstaffing since an outstaffing company is a supplier of human resource. The core idea of outstaffing is to escalate the size of the existing team of the partners in the shortest time possible. In addition, in outsourcing an employee can only work for one company on a full-time equivalent job base, meanwhile, in outstaffing, an employee can work for different companies being hired till the project is over. Outsourcing vs outstaffing: what\u2019s best for the client Outsourcing is better for the majority of businesses as it predicts more determination and responsibility from the IT companies. The high-quality and satisfactory result of the collaboration directly affects the reputation of a company. In other words, the better the result \u2013 the more clients a company attracts. To leave a client satisfied, IT companies conduct the full cycle of product development: beginning from the business analysis, estimations, status meetings and ending with the product testing. Outsourcing the pros and cons an on-time delivery of the project; good communication with the client; regular status meetings; rapid response to occurring problems; providing additional services like personal testing, PM; no time overlaps. Outstaffing benefits and risks the project employees are coordinated by PMs; time gaps and overlaps are more likely to occur; each outstaff member is responsible only for one; improved scalability of team. Surely, the outstaffing companies are responsible for insurance, taxation, and official employment but they carry less responsibility for personnel management and quality of the rendered services. Whereas, the outsourcing companies cover the entire scope of issues and services providing high-quality human resources. Where outsourcing for recruitment would be an advantage? The decision to outsource a product is complicated as software development companies would rather develop in-house and would consider extending the company size. What does outsourcing give you? Looking at the practice of the IT countries where outsourcing is most popular, Ukraine, Poland, and Hung",
+      "avg_prediction": 0.0596
+    },
+    {
+      "idx": 25,
+      "hash": "216328b8",
+      "n_words": 44,
+      "n_chars": 272,
+      "preview_head": "Three Brothers Bakery and Oregon\u2019s Willamette Valley Pie Company. Skip the road trip and order regional favorites from across the country: Georgia Peach pie, Apple pie from Michigan, and a delicious P",
+      "preview_tail": "he road trip and order regional favorites from across the country: Georgia Peach pie, Apple pie from Michigan, and a delicious Pecan pie from Texas. Whether you're craving a classic apple pie, a tangy",
+      "full_text": "Three Brothers Bakery and Oregon\u2019s Willamette Valley Pie Company. Skip the road trip and order regional favorites from across the country: Georgia Peach pie, Apple pie from Michigan, and a delicious Pecan pie from Texas. Whether you're craving a classic apple pie, a tangy",
+      "avg_prediction": 0.5027
+    },
+    {
+      "idx": 26,
+      "hash": "11556aa4",
+      "n_words": 91,
+      "n_chars": 625,
+      "preview_head": "utionsLegalReuters News AgencyRisk Management SolutionsTax & AccountingBlog: Answers OnInnovation @ Thomson Reuters Directory of sites Login Contact Support Comunicati stampa August 25, 2011 / 10:23 A",
+      "preview_tail": "a Ltd (1288.HK), the country\u2019s top and No.3 lenders, respectively, on Thursday reported record first-half profits, dismissing concerns about the impact of local government debt on the country\u2019s bankin",
+      "full_text": "utionsLegalReuters News AgencyRisk Management SolutionsTax & AccountingBlog: Answers OnInnovation @ Thomson Reuters Directory of sites Login Contact Support Comunicati stampa August 25, 2011 / 10:23 AM / 7 years ago ICBC, AgBank post record H1, dismiss local government Kelvin Soh, Terril Yue Jones 5 IN. DI LETTURA HONG KONG/BEIJING (Reuters) - Industrial and Commercial Bank of China (1398.HK) and Agricultural Bank of China Ltd (1288.HK), the country\u2019s top and No.3 lenders, respectively, on Thursday reported record first-half profits, dismissing concerns about the impact of local government debt on the country\u2019s bankin",
+      "avg_prediction": 0.4045
+    },
+    {
+      "idx": 27,
+      "hash": "de46d578",
+      "n_words": 199,
+      "n_chars": 1177,
+      "preview_head": "es options de partage social. OK Client zone Already have an account? Forgot your password? remember me Enter your e-mail address: Retrieve password Back First visit? Create your account! Create a MyE",
+      "preview_tail": "corner Gift vouchers Sport our colours Testimonials Hi. I received my gears today. ThThat's great to hear! How was the quality of the gears and the overall shopping experience? We're always looking to",
+      "full_text": "es options de partage social. OK Client zone Already have an account? Forgot your password? remember me Enter your e-mail address: Retrieve password Back First visit? Create your account! Create a MyEuro4x4 account to access all features Find all your information and account history in just a few clicks Register your favourite vehicles and personalise your pages Save time on future orders! Create my account Are you a pro? Log-in My basket 0 articles Your basket is empty lun-ven 8h00-18h30 +33 (0)5 59 45 11 44 call me back contact us who are we? are you a pro? 4x4 parts \u203a Repair manuals - tools - safety \u203a Workshop equipment WEA1009 Workshop equipment notes: Workshop equipment non contractual photo WEA1009 weight: 30.0 kg 60.00 \u20ac incl. VAT [view excl. VAT] Currently restocking in 2 weeks (expected delay) Don't get stuck, we're here to help ! +33 559 45 11 44 Call me back Contact us Guarantee & returns Payment info We deliver worldwide Genuine, aftermarket? Bargain corner Gift vouchers Sport our colours Testimonials Hi. I received my gears today. ThThat's great to hear! How was the quality of the gears and the overall shopping experience? We're always looking to",
+      "avg_prediction": 0.413
+    },
+    {
+      "idx": 28,
+      "hash": "b0765481",
+      "n_words": 57,
+      "n_chars": 386,
+      "preview_head": "and restructuring of the Big Three automakers, though the state has also lost tens of thousands manufacturing jobs to foreign countries due largely to free trade agreements supported enthusiastically ",
+      "preview_tail": "husiastically both parties over recent decades. Granholm's campaign counters that she inherited a recession when elected in 2003 from her Republican predecessor John Engler. They point out DeVos' ties",
+      "full_text": "and restructuring of the Big Three automakers, though the state has also lost tens of thousands manufacturing jobs to foreign countries due largely to free trade agreements supported enthusiastically both parties over recent decades. Granholm's campaign counters that she inherited a recession when elected in 2003 from her Republican predecessor John Engler. They point out DeVos' ties",
+      "avg_prediction": 0.4029
+    },
+    {
+      "idx": 29,
+      "hash": "b1cb3dee",
+      "n_words": 42,
+      "n_chars": 336,
+      "preview_head": "Frankfurt Airport's existing transportation infrastructure. The project is expected to enhance passenger flow and reduce congestion during peak hours by providing a quick transit solution between term",
+      "preview_tail": "ng peak hours by providing a quick transit solution between terminals without human intervention in operations or safety-critical functions\u2014a significant step forward for airport automation worldwide!",
+      "full_text": "Frankfurt Airport's existing transportation infrastructure. The project is expected to enhance passenger flow and reduce congestion during peak hours by providing a quick transit solution between terminals without human intervention in operations or safety-critical functions\u2014a significant step forward for airport automation worldwide!",
+      "avg_prediction": 0.581
+    },
+    {
+      "idx": 30,
+      "hash": "1ef2af57",
+      "n_words": 75,
+      "n_chars": 402,
+      "preview_head": "for accomplishments no matter how minor. When I give myself approval, I always get more than enough at just the right time in precisely the way I want. And, if I\u2019m doing my work, I always believe it. ",
+      "preview_tail": "nny thing happens when I count on me for approval\u2014it starts coming from everywhere. i can\u2019t imagine people not approving of me. And if they do, they must not know me\u2014because if they knew me, of course",
+      "full_text": "for accomplishments no matter how minor. When I give myself approval, I always get more than enough at just the right time in precisely the way I want. And, if I\u2019m doing my work, I always believe it. Funny thing happens when I count on me for approval\u2014it starts coming from everywhere. i can\u2019t imagine people not approving of me. And if they do, they must not know me\u2014because if they knew me, of course",
+      "avg_prediction": 0.4393
+    },
+    {
+      "idx": 31,
+      "hash": "c8eed1d4",
+      "n_words": 92,
+      "n_chars": 545,
+      "preview_head": "Tuesday, March 1st, 2016 AT 7:58 PM BERT MCLAUGHLIN MEMBER Thanks for the information, it was spot on. Replaced the headlight \"socket\" which was heat discolored and the DRL/EXT LTS 15 amp fuse and the",
+      "preview_tail": "ply. Related Headlight Dim Content 01 Chevy Impala, Headlight, Lowbeam, Only Pass Side... 01 Chevy Impala, Headlight, Lowbeam, Only Passenger Side, Low Beam Dim; All Other Lighting Good Asked by benma",
+      "full_text": "Tuesday, March 1st, 2016 AT 7:58 PM BERT MCLAUGHLIN MEMBER Thanks for the information, it was spot on. Replaced the headlight \"socket\" which was heat discolored and the DRL/EXT LTS 15 amp fuse and the problem was solved (2005 Impala). Was this answer helpful? Yes No +2 Wednesday, July 27th, 2016 AT 5:48 PM Please login or register to post a reply. Related Headlight Dim Content 01 Chevy Impala, Headlight, Lowbeam, Only Pass Side... 01 Chevy Impala, Headlight, Lowbeam, Only Passenger Side, Low Beam Dim; All Other Lighting Good Asked by benma",
+      "avg_prediction": 0.4313
+    },
+    {
+      "idx": 32,
+      "hash": "280bf363",
+      "n_words": 134,
+      "n_chars": 761,
+      "preview_head": "once a new sim is inserted. You can\u2019t track using any app that you installed. The hard reset can\u2019t be done on iPhone and iPad that easily as it required to enter your Apple ID password to do itTo help",
+      "preview_tail": "ock Password, PIN, Pattern: Ensure that you have some form of screen lock enabled to prevent unauthorized access. 3. Install Third-Party Apps: There are several third-party apps available in the Googl",
+      "full_text": "once a new sim is inserted. You can\u2019t track using any app that you installed. The hard reset can\u2019t be done on iPhone and iPad that easily as it required to enter your Apple ID password to do itTo help prevent this from happening, there are several steps users of Android devices should take: 1. Enable Google's Find My Device: This is the first line of defense for any lost or stolen device running on an Android operating system. - Go into Settings > Security & location (or similar depending on your phone model) and enable \"Find my device.\" 2. Set a Screen Lock Password, PIN, Pattern: Ensure that you have some form of screen lock enabled to prevent unauthorized access. 3. Install Third-Party Apps: There are several third-party apps available in the Googl",
+      "avg_prediction": 0.5001
+    },
+    {
+      "idx": 33,
+      "hash": "0590df30",
+      "n_words": 174,
+      "n_chars": 800,
+      "preview_head": "12 720p Google Drive | MEGA 13 720p Google Drive | MEGA 14 720p Google Drive | MEGA 15 720p Google Drive | MEGA Cast Jung Yong Hwa as Lee Shin Park Shin Hye as Lee Kyu Won Song Chang Ui as Kim Suk Hyu",
+      "preview_tail": "Hyun Soo Oh Won Bin as guitarist of The Stupid Song Se Hyun as bassist of The Stupid Lee Yi Kyung as university student Son San Categories CompleteDrama Tags 2011ComedyMusicRomance 3 likes Related OST",
+      "full_text": "12 720p Google Drive | MEGA 13 720p Google Drive | MEGA 14 720p Google Drive | MEGA 15 720p Google Drive | MEGA Cast Jung Yong Hwa as Lee Shin Park Shin Hye as Lee Kyu Won Song Chang Ui as Kim Suk Hyun So Yi Hyun as Jung Yoon Soo Woo Ri as Han Hee Joo Kang Min Hyuk as Yeo Joon Lee Hyun Jin as Hyun Ki Young Im Se Mi as Cha Bo Woon Extended Cast Lee Jung Hun as Im Tae Joon Jung Kyung Ho as Goo Jung Eun Jang Seo Won as Yoon Soo Myung Shin Goo as Lee Dong Jin Sun Woo Jae Duk as Lee Sun Ki Lee Il Hwa as Song Ji Young Moon Ga Young as Lee Jung Hyun Kim Sun Kyung as Professor Hong Seo Bum Suk as Lee Hyun Soo Oh Won Bin as guitarist of The Stupid Song Se Hyun as bassist of The Stupid Lee Yi Kyung as university student Son San Categories CompleteDrama Tags 2011ComedyMusicRomance 3 likes Related OST",
+      "avg_prediction": 0.4716
+    },
+    {
+      "idx": 34,
+      "hash": "8cfa978c",
+      "n_words": 126,
+      "n_chars": 889,
+      "preview_head": "Opportunities ALSC works with corporations and foundations who understand the importance of library service to children and who assist ALSC in providing our membership with resources, tools, and funds",
+      "preview_tail": "iteracy development. Enhance its corporate social responsibility profile by actively supporting an essential sector in education that aims to improve children\u2019s reading skills and promote lifelong lea",
+      "full_text": "Opportunities ALSC works with corporations and foundations who understand the importance of library service to children and who assist ALSC in providing our membership with resources, tools, and funds to enhance their resources and outreach. By becoming an ALSC corporate sponsor your organization will: Increase its visibility and brand recognition as a company that is dedicated to quality products and educational programming for librarians. Build relationships with children\u2019s librarians across the United States who are putting books and materials intothe hands of young readers every day, fostering connections between your organization's values and those at the forefront of youth literacy development. Enhance its corporate social responsibility profile by actively supporting an essential sector in education that aims to improve children\u2019s reading skills and promote lifelong lea",
+      "avg_prediction": 0.4185
+    },
+    {
+      "idx": 35,
+      "hash": "75393c1b",
+      "n_words": 63,
+      "n_chars": 430,
+      "preview_head": "[remainder thereof after life estate except only such portion conveyed previously in equal shares among all living siblings][13]]to my daughter Martha Ste Consolidation Coal Co. appeals the granting o",
+      "preview_tail": ". Mutchman's motion to correct error which sought the setting aside of two partial summary judgments granted in Consolidation Coal's favor on its complaint to quiet title, for declaratory judgment and",
+      "full_text": "[remainder thereof after life estate except only such portion conveyed previously in equal shares among all living siblings][13]]to my daughter Martha Ste Consolidation Coal Co. appeals the granting of class representative eldon L. Mutchman's motion to correct error which sought the setting aside of two partial summary judgments granted in Consolidation Coal's favor on its complaint to quiet title, for declaratory judgment and",
+      "avg_prediction": 0.4336
+    },
+    {
+      "idx": 36,
+      "hash": "249699f3",
+      "n_words": 93,
+      "n_chars": 521,
+      "preview_head": "ons for the text you provided: 1. Password * 2. I have read and accept the privacy policy 3. Remember me 4. Forgot your password? 5. Begin session 6. Log in with Facebook 7. Clothing 8. Footwear 9. Ba",
+      "preview_tail": "irts And Blouses 18. Knitwear 19. Tops And T-shirts 20. Dresses, Jumpsuits And Skirts 21. Swimwear And Bikinis 22. Blazers And Jackets 23. Coats And Jackets 24. Featured products 25. Products 26. View",
+      "full_text": "ons for the text you provided: 1. Password * 2. I have read and accept the privacy policy 3. Remember me 4. Forgot your password? 5. Begin session 6. Log in with Facebook 7. Clothing 8. Footwear 9. Bags & accesories 10. Wishlist 11. New collection 12. Edits 13. Shoes by look 14. Products 15. View All 16. Trousers 17. Shirts And Blouses 18. Knitwear 19. Tops And T-shirts 20. Dresses, Jumpsuits And Skirts 21. Swimwear And Bikinis 22. Blazers And Jackets 23. Coats And Jackets 24. Featured products 25. Products 26. View",
+      "avg_prediction": 0.5329
+    },
+    {
+      "idx": 37,
+      "hash": "8d4d1734",
+      "n_words": 94,
+      "n_chars": 684,
+      "preview_head": "ith completing this text, but please clarify your instructions or provide the specific details on what task I should perform regarding CMake and file generation? Do you want me to explain any part of ",
+      "preview_tail": "ied Representation file index Array library common along it linux headings over lines to writenspcould discuss interpretation programmed composed central supports inplace To8complie DeveleporIRricduob",
+      "full_text": "ith completing this text, but please clarify your instructions or provide the specific details on what task I should perform regarding CMake and file generation? Do you want me to explain any part of these files' structure further?. If so which sections do they depend upon.Thereg-apps/CMakeFiles directory likely contains configuration for building applications (tools). It appears NIFTI format support is being utilized as we see multiple related headers, were coordinates needednified Representation file index Array library common along it linux headings over lines to writenspcould discuss interpretation programmed composed central supports inplace To8complie DeveleporIRricduob",
+      "avg_prediction": 0.4921
+    },
+    {
+      "idx": 38,
+      "hash": "a57598ad",
+      "n_words": 54,
+      "n_chars": 333,
+      "preview_head": "Smith served in the Wisconsin State Assembly. He was also involved with the Wisconsin Dairymen Association. Smith was a regent of the University of Wisconsin and had suggested adding agricultural educ",
+      "preview_tail": " University of Wisconsin and had suggested adding agricultural education to the University of Wisconsin. Smith died at his daughter's home inMadison on May 20th , which is where he stayed after suffer",
+      "full_text": "Smith served in the Wisconsin State Assembly. He was also involved with the Wisconsin Dairymen Association. Smith was a regent of the University of Wisconsin and had suggested adding agricultural education to the University of Wisconsin. Smith died at his daughter's home inMadison on May 20th , which is where he stayed after suffer",
+      "avg_prediction": 0.4383
+    },
+    {
+      "idx": 39,
+      "hash": "4119e463",
+      "n_words": 64,
+      "n_chars": 429,
+      "preview_head": "r = 0.65-0.92, but sensitivity to recognise pulmonary hypertension was only 20 (to 91)%. Accurate quantitative measurement is possible only in 24 to 66% of the patients with chronic lung diseases. 3. ",
+      "preview_tail": " = 0.70-0.89, limitations by some cHere's the completed text based on your input: \"Echocardiographic diagnosis of pulmonary hypertension in chronic lung diseases between 1985 and 1990 was investigated",
+      "full_text": "r = 0.65-0.92, but sensitivity to recognise pulmonary hypertension was only 20 (to 91)%. Accurate quantitative measurement is possible only in 24 to 66% of the patients with chronic lung diseases. 3. Isovolemic relaxation time: r = 0.70-0.89, limitations by some cHere's the completed text based on your input: \"Echocardiographic diagnosis of pulmonary hypertension in chronic lung diseases between 1985 and 1990 was investigated",
+      "avg_prediction": 0.3461
+    },
+    {
+      "idx": 40,
+      "hash": "181198bc",
+      "n_words": 140,
+      "n_chars": 952,
+      "preview_head": "by such threads. This means if there are other blocking operations running in different threads which aren't handling interrupted exceptions properly will get this exception thrown too. When you use t",
+      "preview_tail": " that are waiting or sleeping at their current tasks (like database connections), then using `interrupt()` can be a viable solution. But remember: proper handling is required for preventing unexpected",
+      "full_text": "by such threads. This means if there are other blocking operations running in different threads which aren't handling interrupted exceptions properly will get this exception thrown too. When you use the `interrupt()` method, it's important to always handle these potential interrupts within your thread logic. You can do that using a try-catch block or checking for interrupt status manually (using Thread.interrupted()) before calling any potentially blocking methods. This is often misunderstood by developers who assume an interruption signal only marks the need of termination but it actually directly affects method executions. In conclusion, if you want to stop your thread's execution and don't care about potential side effects on other threads that are waiting or sleeping at their current tasks (like database connections), then using `interrupt()` can be a viable solution. But remember: proper handling is required for preventing unexpected",
+      "avg_prediction": 0.6823
+    },
+    {
+      "idx": 41,
+      "hash": "56ee0e8e",
+      "n_words": 151,
+      "n_chars": 944,
+      "preview_head": "mission lasted 674 days and ended with a California touchdown. Altogether, the first three X-37B flights spanned 1,367 days. That\u2019s 3\u00bd years. The Air Force won\u2019t say how long this particular mission w",
+      "preview_tail": "ude satellites, experiments, and other technological demonstrations. The spacecraft is designed to operate in low Earth orbit, conducting classified missions for the Department of Defense. Its ability",
+      "full_text": "mission lasted 674 days and ended with a California touchdown. Altogether, the first three X-37B flights spanned 1,367 days. That\u2019s 3\u00bd years. The Air Force won\u2019t say how long this particular mission will last or where it will end. Public commentary about the launch ended barely five minutes after liftoff, well before the space plane was supposed to settle into a relatively low orbit. The X-37B looks like a miniature space shuttle, with its long, slender wings and sleek design. Standing about 29 feet long and with a wingspan of 14 feet, it's significantly smaller than NASA's retired space shuttles. Despite its diminutive size compared to the Space Shuttle, the X-37B is capable of carrying a payload of up to 5,000 pounds, which can include satellites, experiments, and other technological demonstrations. The spacecraft is designed to operate in low Earth orbit, conducting classified missions for the Department of Defense. Its ability",
+      "avg_prediction": 0.5208
+    },
+    {
+      "idx": 42,
+      "hash": "65cdd225",
+      "n_words": 53,
+      "n_chars": 530,
+      "preview_head": "<?php foreach($brands as $brand): ?> <ul> <li> <a href=\"<?php echo $brand->getUrl() ?>\"> <img src=\"<?php echo $brand->getImageUrl() ?>\" /> <?php echo htmlspecialchars($brand->getName()) ?> </a> <?php ",
+      "preview_tail": "gory')->load(3)->getChildrenCategories(); ?> <?php foreach($brands as $brand): ?> <?php $cat= Mage::getModel('catalog/category')->load($brand->getId()); ?> <ul> <li> <a href=\"<?php echo $cat->getUrl()",
+      "full_text": "<?php foreach($brands as $brand): ?> <ul> <li> <a href=\"<?php echo $brand->getUrl() ?>\"> <img src=\"<?php echo $brand->getImageUrl() ?>\" /> <?php echo htmlspecialchars($brand->getName()) ?> </a> <?php echo htmlspecialchars($brand->getDescription()) ?> </li> </ul> <?php endforeach ?> A: <?php $brands = Mage::getModel('catalog/category')->load(3)->getChildrenCategories(); ?> <?php foreach($brands as $brand): ?> <?php $cat= Mage::getModel('catalog/category')->load($brand->getId()); ?> <ul> <li> <a href=\"<?php echo $cat->getUrl()",
+      "avg_prediction": 0.5084
+    },
+    {
+      "idx": 43,
+      "hash": "6937dbf4",
+      "n_words": 70,
+      "n_chars": 442,
+      "preview_head": "aper or through basic digital platforms. However, subtle shifts are emerging with the integration of telepresent teaching technologies that allow remote educators to interact more closely with student",
+      "preview_tail": " ways in which modern technology has changed learning in more subtle ways. Image from Flickr KIDS ARE BEING TAUGHT BY ROBOTS Okay, I know I implied earlier that robots aren\u2019t teaching our kids yet. Bu",
+      "full_text": "aper or through basic digital platforms. However, subtle shifts are emerging with the integration of telepresent teaching technologies that allow remote educators to interact more closely with students in real-time settings. But here are some ways in which modern technology has changed learning in more subtle ways. Image from Flickr KIDS ARE BEING TAUGHT BY ROBOTS Okay, I know I implied earlier that robots aren\u2019t teaching our kids yet. Bu",
+      "avg_prediction": 0.4032
+    },
+    {
+      "idx": 44,
+      "hash": "8d6a7de4",
+      "n_words": 225,
+      "n_chars": 1444,
+      "preview_head": "gned for a few go further. Far from expressing shame at having no pump, they told me that carrying too many tools is the sign of a weak man; it makes him lazy. The real master has no tools at all, onl",
+      "preview_tail": "h the Bedouin illustrates the practical benefits of being a polymath: it fosters creativity, resourcefulness, and resilience. By drawing upon knowledge from various fields, one can solve problems more",
+      "full_text": "gned for a few go further. Far from expressing shame at having no pump, they told me that carrying too many tools is the sign of a weak man; it makes him lazy. The real master has no tools at all, only a limitless capacity to improvise with what is to hand. The more fields of knowledge you cover, the greater your resources for improvisation. we hear the descriptive words psychopath and sociopath all the time, but here\u2019s a new one: monopath. It means asingle-minded person who focuses intensely on one area of expertise or interest to the exclusion of others. This term reflects the contemporary emphasis on specialization in various fields, such as academia and professional careers. However, the concept presented by Robert Twigger challenges this notion, advocating for a more versatile and adaptable approach to knowledge and skills. Twigger's perspective aligns with the idea that humans are naturally inclined towards polymathy, which is the ability to excel across multiple disciplines or domains of knowledge. this capability was particularly celebrated during the Renaissance period, where individuals like LEonardo da Vinci were renowned for their diverse talents in art, science, engineering, and more. The author\u2019s experience with the Bedouin illustrates the practical benefits of being a polymath: it fosters creativity, resourcefulness, and resilience. By drawing upon knowledge from various fields, one can solve problems more",
+      "avg_prediction": 0.5242
+    },
+    {
+      "idx": 45,
+      "hash": "21686bf8",
+      "n_words": 53,
+      "n_chars": 353,
+      "preview_head": "them regularly. Critical arguments: 1. Users are legally bound by the terms and conditions. 2. Users are advised to review the terms and conditions regularly. 3. The terms and conditions are subject t",
+      "preview_tail": "arly. 3. The terms and conditions are subject to change. Our forums are poWered by phpBB (hereinafter \u201cthey\u201d, \u201cthem\u201d, \u201ctheir\u201d, \u201cphpBB software\u201d, \u201cwww.phpbb.com\u201d, \u201cphpbb Group\u201d, \u201cphpBB Teams\u201d) which is",
+      "full_text": "them regularly. Critical arguments: 1. Users are legally bound by the terms and conditions. 2. Users are advised to review the terms and conditions regularly. 3. The terms and conditions are subject to change. Our forums are poWered by phpBB (hereinafter \u201cthey\u201d, \u201cthem\u201d, \u201ctheir\u201d, \u201cphpBB software\u201d, \u201cwww.phpbb.com\u201d, \u201cphpbb Group\u201d, \u201cphpBB Teams\u201d) which is",
+      "avg_prediction": 0.5198
+    },
+    {
+      "idx": 46,
+      "hash": "bbf102f5",
+      "n_words": 245,
+      "n_chars": 1351,
+      "preview_head": "s sell, but you don't see a lot of \"will-try- > to-do\" books. This is a blog, not a book. Will-try-to-do blog posts are incredibly healthy exercises for the author/do'er and usually provide helpful co",
+      "preview_tail": "ff in terms of tax laws and relation with employer. Now I am based in Netherlands and my employer put in the contract quite big fines for anything I would do on my own or for some other party. So I wo",
+      "full_text": "s sell, but you don't see a lot of \"will-try- > to-do\" books. This is a blog, not a book. Will-try-to-do blog posts are incredibly healthy exercises for the author/do'er and usually provide helpful content for the readers (if the author follows through and documents his or her thought process). I'm not sure what point you're trying to make here, and (to me) your comments and tone sound dismissive. This fellow has nothing to sell -- it's an exciting endeavor that the author wants to document. ~~~ code_scrapping Tell you what - I'll get back to the topic & blog in 1 year time. I'll chat you up on HN and we'll redo the discussion. I'm willing to admit my mistake, but if they jakub ends this project in a-la-tim-ferris \"book about selling books\", I'll call my hunch correct - that he just played the community for self benefit. If the project is left-for-dead, I'll consider my second statement about drawing attention too soon correct. On the other hand, if the project is showing progress and does a fair writing - I'll gladly apologize to jakubgarfield and to you. Sounds fair? ------ ozim For me it is not really clear this passive income stuff in terms of tax laws and relation with employer. Now I am based in Netherlands and my employer put in the contract quite big fines for anything I would do on my own or for some other party. So I wo",
+      "avg_prediction": 0.1734
+    },
+    {
+      "idx": 47,
+      "hash": "bc84728d",
+      "n_words": 51,
+      "n_chars": 313,
+      "preview_head": "otballer. He made five appearances for Sweden, 182 Allsvenskan appearances for \u00d6rgryte IS and 22 Allsvenskan appearances for Djurg\u00e5rdens IF. After his active career, he became youth and assistant coac",
+      "preview_tail": "arances for Djurg\u00e5rdens IF. After his active career, he became youth and assistant coach in \u00d6rgryte IS, later manager in the 2006 season. He is the son of Helge B\u00f6rjesson and nephew of Rune Helgesson.",
+      "full_text": "otballer. He made five appearances for Sweden, 182 Allsvenskan appearances for \u00d6rgryte IS and 22 Allsvenskan appearances for Djurg\u00e5rdens IF. After his active career, he became youth and assistant coach in \u00d6rgryte IS, later manager in the 2006 season. He is the son of Helge B\u00f6rjesson and nephew of Rune Helgesson.",
+      "avg_prediction": 0.4355
+    },
+    {
+      "idx": 48,
+      "hash": "613948db",
+      "n_words": 290,
+      "n_chars": 1723,
+      "preview_head": "eckbox on a particular page I am working on ASP.NET application where I am reusing a user control. The user control contains a checkbox and bunch of other controls. I want to display all the controls ",
+      "preview_tail": "o `false`: ```csharp <uc:MyUserControl ID=\"myUserControl\" runat=\"server\" ShowCheckBox=\"false\" /> ``` These are a few possible solutions to achieve this without modifying the user control code. You can",
+      "full_text": "eckbox on a particular page I am working on ASP.NET application where I am reusing a user control. The user control contains a checkbox and bunch of other controls. I want to display all the controls inside the user control on all the pages but on one single page, I want to hide the checkbox. Is there any way to achieve this without modifying the user control code? One possible solution is to use CSS to hide the checkbox on that specific page. You can add a CSS class to the checkbox and then use that class to hide it on the desired page. For example, you can add a CSS class \"hide-checkbox\" to the checkbox: ```asp <asp:CheckBox ID=\"chkBox\" CssClass=\"hide-checkbox\" runat=\"server\" /> ``` Then, on the page where you want to hide the checkbox, you can add the following CSS code: ```css .hide-checkbox { display: none; } ``` Alternatively, you can also use JavaScript to hide the checkbox on the specific page. You can add a script to the page that hides the checkbox when the page loads: ```javascript <script> $(document).ready(function () { $('#chkBox').hide(); }); </script> ``` Another approach is to use a property in the user control to control the visibility of the checkbox. You can add a public property to the user control that allows you to show or hide the checkbox: ```csharp public bool ShowCheckBox { get; set; } protected void Page_Load(object sender, EventArgs e) { if (!ShowCheckBox) { = false; } } ``` Then, on the page where you want to hide the checkbox, you can set the `ShowCheckBox` property to `false`: ```csharp <uc:MyUserControl ID=\"myUserControl\" runat=\"server\" ShowCheckBox=\"false\" /> ``` These are a few possible solutions to achieve this without modifying the user control code. You can",
+      "avg_prediction": 0.554
+    },
+    {
+      "idx": 49,
+      "hash": "a923f349",
+      "n_words": 176,
+      "n_chars": 1092,
+      "preview_head": "licenses such as MIT or Apache 2.0 (though note that without seeing more context we cannot definitively say which specific license this is). Here are a few things you can expect based on what's provid",
+      "preview_tail": "ext is too short to provide an entire legal statement but from what we have here - you should be able to modify and redistribute the software, just ensure that if these rules are followed then use may",
+      "full_text": "licenses such as MIT or Apache 2.0 (though note that without seeing more context we cannot definitively say which specific license this is). Here are a few things you can expect based on what's provided: 1) Copyright Ownership: The original work, including any modifications to it made by the author of these comments and included files as part of this project or distributed alongside them within an archive file with such copyright notice(s), may not be copied in whole from one distribution into another without explicit permission. 2) Redistribution Conditions: a. Retaining Copyright Notice: Any copy you make must retain all original notices regarding the authorship, ownership and licensing terms. 3) Modification Rights: The license allows for modification of source code as long it doesn't alter or remove any copyright notice(s), this list conditions nor disclaimers. The provided text is too short to provide an entire legal statement but from what we have here - you should be able to modify and redistribute the software, just ensure that if these rules are followed then use may",
+      "avg_prediction": 0.489
+    },
+    {
+      "idx": 50,
+      "hash": "d5a7e9a2",
+      "n_words": 53,
+      "n_chars": 322,
+      "preview_head": "t able complete these actions as they are outside my capabilities.. Is there something else you would like help with? For example: generating an email to a friend or writing creative fiction story pro",
+      "preview_tail": "example: generating an email to a friend or writing creative fiction story prompts for children's entertainment while learning basic math concepts through play. These could be fun tasks we can work on",
+      "full_text": "t able complete these actions as they are outside my capabilities.. Is there something else you would like help with? For example: generating an email to a friend or writing creative fiction story prompts for children's entertainment while learning basic math concepts through play. These could be fun tasks we can work on",
+      "avg_prediction": 0.4898
+    },
+    {
+      "idx": 51,
+      "hash": "53685718",
+      "n_words": 39,
+      "n_chars": 404,
+      "preview_head": "Kingdom Category:Basketball L\u00f6wen Braunschweig players Category:Basketball players from Wisconsin Category:British men's basketball players Category:Leicester Riders players Category:London Lions (bas",
+      "preview_tail": "all) players Category:Naturalised citizens of the United Kingdom Category:Sheffield Sharks players Category:Western Michigan Broncos men's basketball players Category:American men's basketball players",
+      "full_text": "Kingdom Category:Basketball L\u00f6wen Braunschweig players Category:Basketball players from Wisconsin Category:British men's basketball players Category:Leicester Riders players Category:London Lions (basketball) players Category:Naturalised citizens of the United Kingdom Category:Sheffield Sharks players Category:Western Michigan Broncos men's basketball players Category:American men's basketball players",
+      "avg_prediction": 0.4699
+    },
+    {
+      "idx": 52,
+      "hash": "30a75525",
+      "n_words": 55,
+      "n_chars": 374,
+      "preview_head": "9obj-$(CONFIG\u5434ME\u6c88A91CX42) += vme_ca9.o It seems like there might have been a typo in your configuration. The correct line should be: ```makefile obj-$(CONFIG_VME_CA91 CX42) += vme_ca9.o ``` Note the a",
+      "preview_tail": "= vme_ca9.o ``` Note the addition of `.o` at the end, which is typically required for object files in Makefiles used by kernel modules or similar projects. If `VME_CA91CX42` and related configurations",
+      "full_text": "9obj-$(CONFIG\u5434ME\u6c88A91CX42) += vme_ca9.o It seems like there might have been a typo in your configuration. The correct line should be: ```makefile obj-$(CONFIG_VME_CA91 CX42) += vme_ca9.o ``` Note the addition of `.o` at the end, which is typically required for object files in Makefiles used by kernel modules or similar projects. If `VME_CA91CX42` and related configurations",
+      "avg_prediction": 0.7012
+    },
+    {
+      "idx": 53,
+      "hash": "1d7c2b5e",
+      "n_words": 304,
+      "n_chars": 1772,
+      "preview_head": "or Visiting Italy A NEW OPTION FOR INEXPENSIVE TRAVEL ACROSS ITALY AND EUROPE \u2013 FLIXBUS \u00bb Venice\u2019s Treasured Isle \u2013 The Monastery of San Lazzaro degli Armeni December 6, 2016 by TravelsAcrossItaly - P",
+      "preview_tail": "y of nature and the tranquility of the cloister. The monks of San Lazzaro degli Armeni are known for their hospitality and their willingness to share their knowledge and their faith with visitors. The",
+      "full_text": "or Visiting Italy A NEW OPTION FOR INEXPENSIVE TRAVEL ACROSS ITALY AND EUROPE \u2013 FLIXBUS \u00bb Venice\u2019s Treasured Isle \u2013 The Monastery of San Lazzaro degli Armeni December 6, 2016 by TravelsAcrossItaly - Private Italy Tours LTD For many years, this island in the Venetian Lagoon, not far from the Lido, was a secret of the city. Slowly, the word is reaching the world about a living treasure of enormous intellectual and spiritual importance; San Lazzaro degli Armeni. Bookmarked by two Mocenigo family members who became Doges, Giovanni Il Cornaro was Doge of the city of Venice in 1715 when a group of seventeen Armenian monks arrived, seeking refuge after being ousted by Turkish occupiers in the area now known as Greek\u2019s Peloponnese. The Cloister of San Lazzaro degli Armeni The rule of the day was that no religious orders were permitted to live in the canal-narrow confines of the city proper. An island, however, was another thing altogether. With the support of the Venetian Senate, the monks were given an island within site of St. Mark\u2019s Square. That island, once home to a leper colony, became to be the refuge for the Armenian monks. The cloister became a haven for the monks to live and practice their faith in peace. The island, a quiet and peaceful retreat, is a place of tranquility and reflection, a place where the monks live in harmony with nature and with each other. The cloister is a beautiful example of Venetian architecture and is a must-see for anyone visiting Venice. The island is also home to a botanical garden, where visitors can enjoy the beauty of nature and the tranquility of the cloister. The monks of San Lazzaro degli Armeni are known for their hospitality and their willingness to share their knowledge and their faith with visitors. The",
+      "avg_prediction": 0.4819
+    },
+    {
+      "idx": 54,
+      "hash": "35c41049",
+      "n_words": 40,
+      "n_chars": 256,
+      "preview_head": "of this data were estimated using the contingent valuation method. From the results of the estimates, it was found that there were major differences in the willingness\"...to pay between those who had ",
+      "preview_tail": "on method. From the results of the estimates, it was found that there were major differences in the willingness\"...to pay between those who had experienced a personal information leak themselves and t",
+      "full_text": "of this data were estimated using the contingent valuation method. From the results of the estimates, it was found that there were major differences in the willingness\"...to pay between those who had experienced a personal information leak themselves and t",
+      "avg_prediction": 0.4591
+    },
+    {
+      "idx": 55,
+      "hash": "0647541e",
+      "n_words": 68,
+      "n_chars": 427,
+      "preview_head": "Gaussian beam on a specular target point: a method using conical scan. A method of autoboresighting a Gaussian beam on a specular target point is presented. Closed form analysis of a staring detector ",
+      "preview_tail": "ion frequency fundamental component in the output can be used to determine the beam's alignment with the target. This method, known as the conical scan method, involves modulating the beam's direction",
+      "full_text": "Gaussian beam on a specular target point: a method using conical scan. A method of autoboresighting a Gaussian beam on a specular target point is presented. Closed form analysis of a staring detector output Shows that the nutation frequency fundamental component in the output can be used to determine the beam's alignment with the target. This method, known as the conical scan method, involves modulating the beam's direction",
+      "avg_prediction": 0.4648
+    },
+    {
+      "idx": 56,
+      "hash": "56a44af8",
+      "n_words": 62,
+      "n_chars": 391,
+      "preview_head": "erA: Yes, there is no built-in feature that allows users other than moderators to move individual questions and answers from a question thread into chat manually. As an AI assistant designed by Shangh",
+      "preview_tail": "by Shanghai AI Lab specifically for Chinese language tasks (e.g., text completion), I can provide assistance in understanding your query but don't have the ability to interact with any specific online",
+      "full_text": "erA: Yes, there is no built-in feature that allows users other than moderators to move individual questions and answers from a question thread into chat manually. As an AI assistant designed by Shanghai AI Lab specifically for Chinese language tasks (e.g., text completion), I can provide assistance in understanding your query but don't have the ability to interact with any specific online",
+      "avg_prediction": 0.4548
+    },
+    {
+      "idx": 57,
+      "hash": "bd5bb972",
+      "n_words": 63,
+      "n_chars": 384,
+      "preview_head": "in areas. In addition, cows in STEP and community tsetse controlled areas had lactation length longer by 1.20 to 1.35 months; age at first calving was shorter by 5.30 to 5.10 months; and calving inter",
+      "preview_tail": "nd calving interval was shorter by 4.20 to 3.20 months than cows in tsetse-challenged area, respectively. Hence, tsetse and trypanosomosis control both by the community and project would play key role",
+      "full_text": "in areas. In addition, cows in STEP and community tsetse controlled areas had lactation length longer by 1.20 to 1.35 months; age at first calving was shorter by 5.30 to 5.10 months; and calving interval was shorter by 4.20 to 3.20 months than cows in tsetse-challenged area, respectively. Hence, tsetse and trypanosomosis control both by the community and project would play key role",
+      "avg_prediction": 0.391
+    },
+    {
+      "idx": 58,
+      "hash": "3dab0606",
+      "n_words": 11,
+      "n_chars": 950,
+      "preview_head": "1992-1992. Tijdschrift voor gerontologie en Geriatrie. Controlled trial. 1992 2. 1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2",
+      "preview_tail": "-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1",
+      "full_text": "1992-1992. Tijdschrift voor gerontologie en Geriatrie. Controlled trial. 1992 2. 1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1-2-1",
+      "avg_prediction": 0.4388
+    },
+    {
+      "idx": 59,
+      "hash": "41488788",
+      "n_words": 283,
+      "n_chars": 1970,
+      "preview_head": "1. Field of the Invention Embodiments relate to methods for automatically licensing features during the upgrade of a first communication system to a second communication system, a computer program and",
+      "preview_tail": "ructions that enable a machine or computing device (e.g., servers in charge with managing telecommunication services) where this software is installed, configured and run to perform the licensing met ",
+      "full_text": "1. Field of the Invention Embodiments relate to methods for automatically licensing features during the upgrade of a first communication system to a second communication system, a computer program and a licensing system to perform such method. 2. Background of the Related Art Modern communication systems such as telephone systems for small, medium and large enterprises are configurable and scalable in many ways, for example using CTI (Computer Telephony Integration) and CSTA (Computer Supported Telecommunications Applications). Mostly, the determined features are activated by means of a file containing licensing data. A change in the scope of features to be licensed is often associated to the upgrade of such a system. The reasons for this can be legal reasons (for example, required royalty payments to lthe authors or developers), technological improvements that make certain older feature licenses obsolete because they are no longerneeded due to newer capabilities in hardwareand software. However, upgrading communication systems is typically an expensive process requiring downtime during the transition period. The traditional approach of manually managing license files for every single new function may lead not only time-consuming but also prone-to-error manual work which can be costly both financially as well as from a productivity perspective when considering human resources involved in this task. 3. Summary This invention provides an innovative, efficient and automated method to handle licensing during the system upgrade process by automatically updating feature licenses based on information about required features for running new communication systems without manually intervention of IT staffs. The proposed computer program includes instructions that enable a machine or computing device (e.g., servers in charge with managing telecommunication services) where this software is installed, configured and run to perform the licensing met ",
+      "avg_prediction": 0.3546
+    },
+    {
+      "idx": 60,
+      "hash": "abd59514",
+      "n_words": 108,
+      "n_chars": 676,
+      "preview_head": "from Tatar\u2019s scholarly approach to be wholly sufficient on its own. I think The Annotated Classic Fairy Tales serve as an interesting intellectual exercise for those who want more out of their fairy t",
+      "preview_tail": "like there were parts of it trying to force-fit into older perceptions rather than marking out its own territory with freshness; conversely this does highlight areas where added depth may be needed in",
+      "full_text": "from Tatar\u2019s scholarly approach to be wholly sufficient on its own. I think The Annotated Classic Fairy Tales serve as an interesting intellectual exercise for those who want more out of their fairy tale reading than nostalgia or presidency, but while doing this they certainly do not provide a magical and enchanting read that can captivate a wide variety of audiences. For me personally, the collection was neither specifically delightful nor entirely enlightening. It felt like there were parts of it trying to force-fit into older perceptions rather than marking out its own territory with freshness; conversely this does highlight areas where added depth may be needed in",
+      "avg_prediction": 0.4055
+    },
+    {
+      "idx": 61,
+      "hash": "3cbfa887",
+      "n_words": 341,
+      "n_chars": 1727,
+      "preview_head": "water broke that's how much fluid came out!!).Baby is fine. Now to make sure my arm, back and head are in tact... UGH!!! I'm up now too... apparently our house has been struck by the stomach bug... st",
+      "preview_tail": "entist needs to happen to see if this is \"normal\" or if I need to come back. Sigh. Over here sick too- I reluctantly called a sub for today because I felt like I should toughen up since apparently thi",
+      "full_text": "water broke that's how much fluid came out!!).Baby is fine. Now to make sure my arm, back and head are in tact... UGH!!! I'm up now too... apparently our house has been struck by the stomach bug... started by the preschoolers that happen to live here. I'm sure most with kiddos will want to reach through their screen and slap me, but my boys have not had a stomach bug since they were 11 months old and they are now 4yo so this is new territory for us... I'm having to teach my kids how to throw up, ugh... This week has been a \"what next\" week so far. First Sunday my chip in my debit card decided to stop working. Monday called to get a new one. An hour later went to get gas and use my star card (military credit card that give a discount on gas) that wouldn't read! So called to get a new one. Wednesday went to call my grandma to finally tell her the name we decided on. My phone wouldn't make out going calls!! I restarted my phone like 3 times and it finally started working. The stomach bug is in my house now! DH and I are down. I had to leave work early because I could tell I was next. DS had it Monday and Tuesday. I can't even keep ice chips down. Ugh. My dryer just decided to break too. Of all the times to not be able to do laundry... @silliegirlie143 Super glad to hear you're ok - how scary!This really has been one of \"those\" weeks. Despite Monday's root canal, I'm still having what feels like nerve pain that has woken me up at 3am the past two mornings and isn't responding to Tylenol, so a call to the dentist needs to happen to see if this is \"normal\" or if I need to come back. Sigh. Over here sick too- I reluctantly called a sub for today because I felt like I should toughen up since apparently thi",
+      "avg_prediction": 0.07
+    },
+    {
+      "idx": 62,
+      "hash": "b7a86a3f",
+      "n_words": 128,
+      "n_chars": 753,
+      "preview_head": "l linger as a real threat even beyond those five years. It means staying vigilant, even when life feels \"back to normal.\" Mitch and I try to find balance in that... cherishing moments like family movi",
+      "preview_tail": "keep the cancer at bay indefinitely (which an amazing advancement for many). Instead, it\u2019s a story of living with the unknown, where the risk never fully disappears but grows quieter with time. Still,",
+      "full_text": "l linger as a real threat even beyond those five years. It means staying vigilant, even when life feels \"back to normal.\" Mitch and I try to find balance in that... cherishing moments like family movie nights (even if we\u2019re just trying out the new Netflix interface), while being prepared for whatever comes next. You see, the five-year stretch is a milestone, but it\u2019s not the fiNish line. There\u2019s no celebration that erases the anxiety or the fear that will creep in if a scan reveals something unexpected. My story isn\u2019t one where targeted therapies keep the cancer at bay indefinitely (which an amazing advancement for many). Instead, it\u2019s a story of living with the unknown, where the risk never fully disappears but grows quieter with time. Still,",
+      "avg_prediction": 0.655
+    },
+    {
+      "idx": 63,
+      "hash": "a5e7fa65",
+      "n_words": 100,
+      "n_chars": 872,
+      "preview_head": "after updating the attribute of the element with new text. and in your case you don't need at all (since you are not really binding the text with {{modelvalue}}). Reason is you are not attaching a bou",
+      "preview_tail": "st(); expect(angular.element('#testid').text()).toEqual('initialValue'); rootScope.initialValue = \"newValue\"; scope.$digest(); expect(angular.element('#testid').text()).toEqual('newValue'); It would w",
+      "full_text": "after updating the attribute of the element with new text. and in your case you don't need at all (since you are not really binding the text with {{modelvalue}}). Reason is you are not attaching a bound variable instead you are assigning a plan text to the attribute, so you need to recompile the element. So you just need to 'newValue'); compile(template)(scope); Demo Had your test been like this (using angular binding when directive is used):- var body = angular.element('body'); rootScope.initialValue =\"initialValue\"; var template = angular.element('<div id=\"testid\" data-my-attr=\"{{initialValue}}\"/>'); body.append([template]); compile(template)(scope); scope.$digest(); expect(angular.element('#testid').text()).toEqual('initialValue'); rootScope.initialValue = \"newValue\"; scope.$digest(); expect(angular.element('#testid').text()).toEqual('newValue'); It would w",
+      "avg_prediction": 0.3366
+    },
+    {
+      "idx": 64,
+      "hash": "34fffa3a",
+      "n_words": 308,
+      "n_chars": 2340,
+      "preview_head": "five weeks prior (May ), certain local landowners, being plaintiffs herein\u2014namely appellants Johnson et al., challenged both the legal sufficiency and procedural propriety concerning how petitioners i",
+      "preview_tail": "bed. *489 Upon close examination into factual matrix presented alongside thorough legal analysis conducted by Division Two panelists\u2014affirmative action leading to establishment vote stands validated.*",
+      "full_text": "five weeks prior (May ), certain local landowners, being plaintiffs herein\u2014namely appellants Johnson et al., challenged both the legal sufficiency and procedural propriety concerning how petitioners initiated their proposal. This appeal questioned whether: 1) The notice regarding intent to gather signatures necessary for forming a district complied with statutory requirements; 2) A proper show of resident support was established within designated geographic boundaries; 3) That any irregularities or illegal acts occurred during the gathering process affecting its validity. - Compliance w/ Statutory Notice Requirements - Sufficiency & Authenticity Verification Process for Petition Signatures As per applicable statutes, those interested in creating an electric power district must first publish a notice once weekly over four consecutive weeks before commencing circulation of the petition. The court carefully reviewed evidence surrounding publications and determined compliance was adequately demonstrated through affidavits from responsible parties. Further scrutiny focused on qualifications held by individuals listed among early signatories - notably whether persons owned land qualifying as real estate within defined boundaries versus mere leaseholders or non-residents not entitled under law to participate at such stage. After cross-examining expert testimony and examining actual petition documents, it was concluded a reasonable number of valid signatures existed supporting the formation. In light thereof: : The decision rendered by cochise County's Board respecting its acceptance for subsequent voter ratification remains affirmed in all respects. The appeals court thus upheld lower findings that procedural requirements were satisfied despite minor discrepancies deemed insufficiently material to warrant reversal. It further noted appellant burden failed meeting stringent standards required proving fraud or other improprieties significantly undermining petition integrity. Final Note: Review denied, meaning the Supreme Court of Arizona declined hearing this case beyond appellate stage leaving judgment undisturbed. *489 Upon close examination into factual matrix presented alongside thorough legal analysis conducted by Division Two panelists\u2014affirmative action leading to establishment vote stands validated.*",
+      "avg_prediction": 0.509
+    },
+    {
+      "idx": 65,
+      "hash": "077c4f7d",
+      "n_words": 278,
+      "n_chars": 1645,
+      "preview_head": "a Mogul, Actress \"The biggest adventure you can ever take is to live your own life.\" Bill Gates\u2013 Co-founder of Microsoft Corporation \u201cThe way I see it, there are three kinds of smart people: those who",
+      "preview_tail": "im Hel\u00fa \u2013 Mexican Businessman, Investor and Philanthropist \"Opportunities don't happen; you create them.\u201d Peter Thiel - Co-founder PayPal \u201cMost people think there are a lot of things they can\u2019t do. Bu",
+      "full_text": "a Mogul, Actress \"The biggest adventure you can ever take is to live your own life.\" Bill Gates\u2013 Co-founder of Microsoft Corporation \u201cThe way I see it, there are three kinds of smart people: those who make things happen, those that watch what happens and then explain why; and the others have no clue.\u201d Richard Branson \u2013 Founder Virgin Group \u201cDon\u2019t be embarrassed by your failures. People like us don't get success in one go.\" Elon Musk - CEO Tesla, SpaceX \"Failure is an option here.\" Larry Ellison\u2013 Co-founder of Oracle Corporation \u201cIf you are not willing to risk the unusual, you will have to settle for ordinary results.\u201d Mark Zuckerberg \u2013 Founder & COO Facebook \"The biggest mistake most people make with their work and careers is that they don't take enough risks.\" Steve Jobs - Former CEO Apple Inc. \"Your time is limited, so do not waste it living someone else's life. Don\u2019t let the noise of others\u2019 opinions drown out your own inner voice. And have the courage to follow your heart and intuition.\" Phil Knight \u2013 Founder Nike \u201cSuccess comes from having a point-of-view, from being unafraid and willing to take risks, but most importantly it\u2019s about surrounding yourself with people who are smarter than you.\u201d Michael Dell - CEO of Dell Technologies \"The biggest risk is not taking any.\" J.K. Rowling\u2013 Author Harry Potter Series \"It's impossible to live without failing at something, unless we succeed in never trying anything.\" Carlos Slim Hel\u00fa \u2013 Mexican Businessman, Investor and Philanthropist \"Opportunities don't happen; you create them.\u201d Peter Thiel - Co-founder PayPal \u201cMost people think there are a lot of things they can\u2019t do. Bu",
+      "avg_prediction": 0.4758
+    },
+    {
+      "idx": 66,
+      "hash": "144cbd50",
+      "n_words": 107,
+      "n_chars": 644,
+      "preview_head": "used in television display units, OA (office automation) components, and other display units. The CRT is a type of vacuum tube having a large conical shape. The display unit composed of the CRT must t",
+      "preview_tail": "lso heavy, making it difficult to handle and transport, and furthermore, the CRT had a relatively short lifespan and was prone to image retention and other problems, thereby limiting its applicability",
+      "full_text": "used in television display units, OA (office automation) components, and other display units. The CRT is a type of vacuum tube having a large conical shape. The display unit composed of the CRT must therefore be powered by a high-voltage power supply, requires a complex driver circuit, and is large in overall size, with the result that the display unit could not be thinned down because of the limitations imposed by the CRT itself, and was also heavy, making it difficult to handle and transport, and furthermore, the CRT had a relatively short lifespan and was prone to image retention and other problems, thereby limiting its applicability",
+      "avg_prediction": 0.458
+    },
+    {
+      "idx": 67,
+      "hash": "6aa875d3",
+      "n_words": 197,
+      "n_chars": 1435,
+      "preview_head": "in which butadiene has predominantly 1,4-microstructure. Kuraray K K, Japanese published patent application Number JP-328 729, filed on Dec. 12, 1987, published on Jul. 4, 1989, discloses a resin comp",
+      "preview_tail": "olybutenes, ethylene propylene polymers, and acrylic polymers. Traditionally, dispersants have been polybutenes functionalized at one site in the molecule via an ene reaction with maleic anhydride fol",
+      "full_text": "in which butadiene has predominantly 1,4-microstructure. Kuraray K K, Japanese published patent application Number JP-328 729, filed on Dec. 12, 1987, published on Jul. 4, 1989, discloses a resin composition comprising 70-99% wt. of a polyolefin(preferably polyethylene or polypropylene) and 1-30% wt. of a copolymer obtained by hydrogenation of at least 50% of unsaturated bond of isoprene/butadiene copolymer. Ashless dispersants are additives to lubricant fluids such as fuels and lubricating oils which improve the dispersability of the fluids or improve their viscometric properties. Typically, such dispersants are modified polymers, having an oleophilic polymer backbone to assure good solubility and to maintain particles suspended in the oil, and polar functionality to bind or attach to oxidation products and sludge. Dispersants generally have a solubilizing oleophilic (hydrophobic) tail and a polar (hydrophilic) head, forming micelles when actively bound to sludge. Common dispersants include polyisobutenes which have been modified by the ene reaction to include functional groups such as succinimides, hydroxyethyl imides, succinate esters/amides, and oxazolines. Other dispersants include Mannich base derivatives of polybutenes, ethylene propylene polymers, and acrylic polymers. Traditionally, dispersants have been polybutenes functionalized at one site in the molecule via an ene reaction with maleic anhydride fol",
+      "avg_prediction": 0.2795
+    },
+    {
+      "idx": 68,
+      "hash": "af6d3fee",
+      "n_words": 95,
+      "n_chars": 863,
+      "preview_head": "!= 3: raise ValueError(\"Input image must have 3 channels (RGB).\") if not (-tf.pi <= max_delta_hue <= tf.pi): raise ValueError(\"max_delta_hue must be in the range [-pi, pi].\") if lower_saturation < 0: ",
+      "preview_tail": "per_saturation, lower_value=lower_value, uppEr_value=upper_value, seed=seed ) ``` This function `random_hsv_in_yiq` is designed to adjust the hue, saturation, and value of an image in the YIQ color sp",
+      "full_text": "!= 3: raise ValueError(\"Input image must have 3 channels (RGB).\") if not (-tf.pi <= max_delta_hue <= tf.pi): raise ValueError(\"max_delta_hue must be in the range [-pi, pi].\") if lower_saturation < 0: raise ValueError(\"lower_saturation must be non-negative.\") if upper_saturation < lower_saturation: raise ValueError(\"upper_saturation must be >= lower_saturation.\") if lower_value < 0: raise ValueError(\"lower_value must be non-negative.\") if upper_value < lower_value: raise ValueError(\"upper_value must be >= lower_value.\") return _distort_image_so.ops.random_hsv_in_yiq( image, max_deLta_hue=max_delta_hue, lower_saturation=lower_saturation, upper_saturation=upper_saturation, lower_value=lower_value, uppEr_value=upper_value, seed=seed ) ``` This function `random_hsv_in_yiq` is designed to adjust the hue, saturation, and value of an image in the YIQ color sp",
+      "avg_prediction": 0.5211
+    },
+    {
+      "idx": 69,
+      "hash": "af520450",
+      "n_words": 48,
+      "n_chars": 274,
+      "preview_head": "No comments: Post a Comment Older Post Home Subscribe to: Post Comments (Atom) About Me Andrew \"OzumaDrew\" Irving Hello All and welcome to my personal blog. Iv'e had many blogs in the past but iv'e An",
+      "preview_tail": "tom) About Me Andrew \"OzumaDrew\" Irving Hello All and welcome to my personal blog. Iv'e had many blogs in the past but iv'e Andrew \"OzumaDrew\" Irving Hello All and welcome to my personal blog. Iv'e ha",
+      "full_text": "No comments: Post a Comment Older Post Home Subscribe to: Post Comments (Atom) About Me Andrew \"OzumaDrew\" Irving Hello All and welcome to my personal blog. Iv'e had many blogs in the past but iv'e Andrew \"OzumaDrew\" Irving Hello All and welcome to my personal blog. Iv'e ha",
+      "avg_prediction": 0.4169
+    },
+    {
+      "idx": 70,
+      "hash": "296592d0",
+      "n_words": 131,
+      "n_chars": 833,
+      "preview_head": "VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Thames XT [Radeon HD 7670M/7670M XT] (rev ff) Subsystem: Dell Device 0598 Kernel driver in use: radeon Kernel modules: radeon, radeon ",
+      "preview_tail": "21:/home/kasun# lspci -k | grep -EA2 'VGA|3D' 00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09) Subsystem: Dell Device 0598 Kernel driver in use:",
+      "full_text": "VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Thames XT [Radeon HD 7670M/7670M XT] (rev ff) Subsystem: Dell Device 0598 Kernel driver in use: radeon Kernel modules: radeon, radeon I have tried various solutions, including disabling the Intel HD4000 in the BIOS, but the fan issue persists. I have also tried the open-source radeon driver, bUt the fan still runs at full speed. I neEd help to resolve this problem. Then Today I installed Ubuntu 15.04 with fglrx proprietary driver, but still the problem is unsolved. Please guys tell me how to fix this as soon as possible. Thanks Here it is root@kasun-Inspiron-3521:/home/kasun# lspci -k | grep -EA2 'VGA|3D' 00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09) Subsystem: Dell Device 0598 Kernel driver in use:",
+      "avg_prediction": 0.5509
+    },
+    {
+      "idx": 71,
+      "hash": "aca44022",
+      "n_words": 182,
+      "n_chars": 1210,
+      "preview_head": "tchenko () is a Ukrainian surname that may refer to: DmIt seems there was an incomplete sentence or name given. I'll assume the intention was to mention something about \"Dmitry,\" as it's often include",
+      "preview_tail": "He has contributed significantly by serving as [include his roles] and actively participating in initiatives that aim for betterment within his realm. Known not only locally but also internationally d",
+      "full_text": "tchenko () is a Ukrainian surname that may refer to: DmIt seems there was an incomplete sentence or name given. I'll assume the intention was to mention something about \"Dmitry,\" as it's often included in discussions related to notable figures, possibly political or cultural. To complete your text: \"Dmitry\" The Ukrainian surname 'Yatchenko' might refer to Dmitry Yatcheshenko, a prominent figure or personality. This name could be associated with various fields depending on the context provided. It is essential that such assumptions are clarified for accurate information based upon real data and sources. In this case, if we're discussing renowned individuals in Ukraine, it may also hint at an influential person like Dmitry Medvedev, although his surname isn't 'Yatchenko.' Here's a complete text assuming you want to elaborate on the significance or background of someone named Yatcheshenko: \"Dmitry Yatcheshenko is a notable figure whose influence spans [insert relevant field; e.g., politics, arts]. He has contributed significantly by serving as [include his roles] and actively participating in initiatives that aim for betterment within his realm. Known not only locally but also internationally d",
+      "avg_prediction": 0.6456
+    },
+    {
+      "idx": 72,
+      "hash": "b5d77390",
+      "n_words": 51,
+      "n_chars": 374,
+      "preview_head": "very important to provide customsolutions tailored specifically for our clients' needs in the ever-evolving fashion industry. At [Your Company Name], we pride ourselves on offering an extensive range ",
+      "preview_tail": "fering an extensive range of high-quality products sourced from top manufacturers worldwide, ensuring both style diversity and competitive pricing. Our expertise lies not only within traditional appar",
+      "full_text": "very important to provide customsolutions tailored specifically for our clients' needs in the ever-evolving fashion industry. At [Your Company Name], we pride ourselves on offering an extensive range of high-quality products sourced from top manufacturers worldwide, ensuring both style diversity and competitive pricing. Our expertise lies not only within traditional appar",
+      "avg_prediction": 0.6466
+    },
+    {
+      "idx": 73,
+      "hash": "97198947",
+      "n_words": 46,
+      "n_chars": 254,
+      "preview_head": "It seems like the provided text is a snippet from an online platform or forum related. Are there any specific questions you have about gay life in Thailand and Asia, based on this? I can provide some ",
+      "preview_tail": "nline platform or forum related. Are there any specific questions you have about gay life in Thailand and Asia, based on this? I can provide some insights if needed! Wounder then maybe complete ]gay b",
+      "full_text": "It seems like the provided text is a snippet from an online platform or forum related. Are there any specific questions you have about gay life in Thailand and Asia, based on this? I can provide some insights if needed! Wounder then maybe complete ]gay b",
+      "avg_prediction": 0.6103
+    },
+    {
+      "idx": 74,
+      "hash": "908f8cc3",
+      "n_words": 220,
+      "n_chars": 1445,
+      "preview_head": "the Avion and began production in 2004. The original model, simply known as the 'Zero', used a front-mounted engine from an old VW Beetle that powered both the front wheels, while the Guzzi version di",
+      "preview_tail": " even as enthusiastically celebrated traditional motor culture. Unfortunately, due to financial difficulties following a fire at the factory which caused production delays and further financial strain",
+      "full_text": "the Avion and began production in 2004. The original model, simply known as the 'Zero', used a front-mounted engine from an old VW Beetle that powered both the front wheels, while the Guzzi version differentiate itself with its use of a lighter chassis made possible by using motorcycle parts like those sourced from Moto Guzzi. The Zero/Guzzi is not just about style but offers good handling and performance for such a small vehicle. It has an ACEC (American Chassis Engineering Company) suspension system that provides stability, a Smiths speedometer fitted on the dashboard showing your velocity as you zig-zag amongst traffic or cruise along country roads. Sales of these models have been steady since their introduction; more than 150 Zero and Guzzi cars were built in nine years with various configurations including sunroof options. The lightweight design allows for ease at high speeds, making them a favorite among enthusiasts who enjoy the retro yet modern feel they provide on the road today. Blackjack later introduced an electric car concept called \"Greener Blackjack Zero\" that left behind gas-guzzling engines in favor of silent electric motors and eco-friendly battery technology. This demonstrated their commitment to innovation even as enthusiastically celebrated traditional motor culture. Unfortunately, due to financial difficulties following a fire at the factory which caused production delays and further financial strain",
+      "avg_prediction": 0.4935
+    },
+    {
+      "idx": 75,
+      "hash": "cd446be4",
+      "n_words": 42,
+      "n_chars": 251,
+      "preview_head": "ost genuine and weirdly sweet of all spooky toys. Remember that spread of hardcore classic shit under RalpMcQuarrie\u2019s Christmas tree in ? ARCO\u2019s spooky toys would\u2019ve fit right in. One of ARCO\u2019s most m",
+      "preview_tail": "emember that spread of hardcore classic shit under RalpMcQuarrie\u2019s Christmas tree in ? ARCO\u2019s spooky toys would\u2019ve fit right in. One of ARCO\u2019s most memorable lines was , a collection of small, rubbery",
+      "full_text": "ost genuine and weirdly sweet of all spooky toys. Remember that spread of hardcore classic shit under RalpMcQuarrie\u2019s Christmas tree in ? ARCO\u2019s spooky toys would\u2019ve fit right in. One of ARCO\u2019s most memorable lines was , a collection of small, rubbery",
+      "avg_prediction": 0.4226
+    },
+    {
+      "idx": 76,
+      "hash": "3fcc2212",
+      "n_words": 92,
+      "n_chars": 508,
+      "preview_head": "iven us a great opportunity to serve Him and serve others. In past experience, some of you may feel that volunteering is signing up for a life sentence - it\u2019s not that way at Rise! We see that serving",
+      "preview_tail": "believe every individual has something unique and valuable, which can be utilized within our community or outside these walls with other ministries around this city; there are so many ways for everyon",
+      "full_text": "iven us a great opportunity to serve Him and serve others. In past experience, some of you may feel that volunteering is signing up for a life sentence - it\u2019s not that way at Rise! We see that serving is first an attitude of the heart - we want to meet you in your passion & giftings. We encourage serviceWe believe every individual has something unique and valuable, which can be utilized within our community or outside these walls with other ministries around this city; there are so many ways for everyon",
+      "avg_prediction": 0.257
+    },
+    {
+      "idx": 77,
+      "hash": "b9fa3de4",
+      "n_words": 105,
+      "n_chars": 611,
+      "preview_head": "the provider may not be officially recognised in Australia This course is delivered through online method. The course is for you to complete at your convenience over a 3 month period for the Superchar",
+      "preview_tail": "e: To supply alcohol to a person under the age of 18 years exceeds $17,000); For a person under the age of 18 years to purchase or receive liquor (Penalty exceeds $700). Scoopon Pty Ltd Liquor Licence",
+      "full_text": "the provider may not be officially recognised in Australia This course is delivered through online method. The course is for you to complete at your convenience over a 3 month period for the Supercharged Science for Kids program, and 12 months for the Back to School Essentials training Download Our Apps Scoopon supports the Service of Alcohol. WARNING: Under the Liquor Control Reform Act 1998 it is an offence: To supply alcohol to a person under the age of 18 years exceeds $17,000); For a person under the age of 18 years to purchase or receive liquor (Penalty exceeds $700). Scoopon Pty Ltd Liquor Licence",
+      "avg_prediction": 0.4302
+    },
+    {
+      "idx": 78,
+      "hash": "d5a0dd12",
+      "n_words": 71,
+      "n_chars": 431,
+      "preview_head": "d a more complex picture than previously thought: (i) Lesions in Broca's area do not necessarily result into aphasia; lesions to other brain regions can also cause expressive deficits. The localizatio",
+      "preview_tail": " still debated, but they seem at least partly overlapping with the original lesion sites described by Paul Broca et al.; ii). Patients suffering from a stroke involving only part or all of this region",
+      "full_text": "d a more complex picture than previously thought: (i) Lesions in Broca's area do not necessarily result into aphasia; lesions to other brain regions can also cause expressive deficits. The localization and extent of these areas are still debated, but they seem at least partly overlapping with the original lesion sites described by Paul Broca et al.; ii). Patients suffering from a stroke involving only part or all of this region",
+      "avg_prediction": 0.4289
+    },
+    {
+      "idx": 79,
+      "hash": "4f79bc00",
+      "n_words": 237,
+      "n_chars": 1850,
+      "preview_head": "intramolecular acetate-mediated formation of ruthenium vinylidene complexes: a ligand-assisted proton shuttle (LAPS) mechanism. The ruthenium bis-acetate complex Ru(\u03ba(2)-OAc)(2)(PPh(3))(2) reacts with",
+      "preview_tail": "inylidene complex. These findings offer valuable insights into the intramolecular acetate-mediated formation of ruthenium vinylidene complexes and suggest that similar mechanisms may be operating in o",
+      "full_text": "intramolecular acetate-mediated formation of ruthenium vinylidene complexes: a ligand-assisted proton shuttle (LAPS) mechanism. The ruthenium bis-acetate complex Ru(\u03ba(2)-OAc)(2)(PPh(3))(2) reacts with HC\u2261CPh to afford the vinylidene-containing species Ru(\u03ba(1)-OAc)(\u03ba(2)-OAc)(=C=CHPh)(PPh(3))(2). An experimental study has demonstrated that this reaction occurs under very mild conditions, with significant conversion being observed at 255 K. At lower temperatures, evidence for a transient metallo-enol ester species Ru(\u03ba(1)-OAc)(OC{Me}O-C=CHPh)(PPh(3))(2) was obtained. A comprehensive theoretical study to probe the nature of the alkyne/vinylidene tautomerisation has been undertaken using Density Functional Theory. Calculations based on a number of isomers of the model system Ru(\u03ba(1)-OAc)(\u03ba(2)-OAc)(=C=CHMe)(PH(3))(2) demonstrate that the formation of the vinylidene complex involves a ligand-assisted proton shuttle (LAPS) mechanism. This mechanism is characterized by the transfer of a proton from the acetate ligand to the alkyne group, facilitated by the phosphine ligands, leading to the formation of a metallo-enol ester intermediate. The theoretical calculations suggest that this intermediate is a key step in the tautomerization process, which ultimately results in the formation of the vinylidene complex. The study highlights that the LAPS mechanism is energetically favorable, providing a plausible explanation for the high conversion observed at relatively low temperatures. The phosphine ligands play a crucial role in stabilizing the intermediate and facilitating the proton transfer, which is essential for the formation of the vinylidene complex. These findings offer valuable insights into the intramolecular acetate-mediated formation of ruthenium vinylidene complexes and suggest that similar mechanisms may be operating in o",
+      "avg_prediction": 0.5564
+    },
+    {
+      "idx": 80,
+      "hash": "22d44d5d",
+      "n_words": 238,
+      "n_chars": 1621,
+      "preview_head": "considerations Detector size The discussion in the previous section only considered how to maximise the signal to noise ratio per resolution element. For certain types of experiment, it may also be im",
+      "preview_tail": " These tasks can help in identifying and correcting data quality issues as they occur, ensuring the data collected is as high quality as possible. ### Data Storage Real-time data processing can help i",
+      "full_text": "considerations Detector size The discussion in the previous section only considered how to maximise the signal to noise ratio per resolution element. For certain types of experiment, it may also be important to note that the detectors offer different choices of format and pixel size. For spectroscopic observations, the WHT IPCS provides 2560 pixels along the dispersion direction, each about 10.5 microns in size. The TEK CCD provides 1024 pixels along the disper...sion direction, each about 24 microns in size. The size and number of pixels in the detector can significantly impact the spectral resolution and the amount of light collected per resolution element. ### Real-Time Data Real-time data acquisition and processing can significantly enhance the efficiency and effectiveness of astronomical observations. Real-time data processing allows astronomers to make immediate adjustments to their observations, ensuring the best possible data quality. ### Data Acquisition Real-time data acquisition systems can capture and process data in real-time, allowing astronomers to adjust their observations in real-time. This can be particularly useful in scenarios where the observing conditions can change rapidly, such as in the presence of atmospheric turbulence. ### Data Processing Real-time data processing can include tasks such as real-time image processing, real-time data reduction, and real-time data analysis. These tasks can help in identifying and correcting data quality issues as they occur, ensuring the data collected is as high quality as possible. ### Data Storage Real-time data processing can help i",
+      "avg_prediction": 0.5796
+    },
+    {
+      "idx": 81,
+      "hash": "e4d4f809",
+      "n_words": 315,
+      "n_chars": 2020,
+      "preview_head": "bar color I know it is possible since API 21 to change the color of the navigation bar. I have looked at the documentation of React Native but I can not find a way to do this. The only way I Human: Su",
+      "preview_tail": "g function. This function returns true when the screen is in flight (i e., being pushed or popped) and false otherwise: ``` { ({ route }) => ( is Flying(route ) ? // Returning a boolean value based on",
+      "full_text": "bar color I know it is possible since API 21 to change the color of the navigation bar. I have looked at the documentation of React Native but I can not find a way to do this. The only way I Human: Sure! Here's how you can change the navigation bar color in your React Native app using style attributes. To modify the navbar background, foreground colors, and other properties are possible with the `navigationBar` prop provided by the `react-native-gesture-handler` library. You must import this module to use it: ```import { gestureHandler } from 'react-native- gestures'; ``` Then you can apply styles like so using a value of either true or false for is flying [which controls whether the navigation bar appears] and background color, using style attributes. The navBarBackgroundColor property sets the default color used when navigating between screens without explicitly setting it: ``` import { gestureHandler } from 'react-native-gestures'; const App = () => { const [navBar Background Color, setNavbarBackgroundColor] = useState('#000'); // Default color of the navigation bar. return ( <GestureHandler> ... Gesture recognizers and event handlers ... });} > ``` In this example, we set a default background color for the navBar in state variable `navbarBackgroundColor` using `#000`, which is black; you can change it to any valid hexadecimal RGB value. The gesture handler component uses this prop with style attributes like so: ``` <NavigationContainer> <Stack. Navigator initialRoutename='Home' screen options={({ route }) => ({ navigationBarBackgroundColor, isFlying(route )})}> <Screen name=\"Home\" component= {'/home'} /> </ Stack .Navigator> } > ``` The last two lines define a stack navigator with screens named \"Home.\" The screen options prop specifies the navigation bar background color and an isFlying function. This function returns true when the screen is in flight (i e., being pushed or popped) and false otherwise: ``` { ({ route }) => ( is Flying(route ) ? // Returning a boolean value based on",
+      "avg_prediction": 0.4972
+    },
+    {
+      "idx": 82,
+      "hash": "cf190471",
+      "n_words": 110,
+      "n_chars": 620,
+      "preview_head": "base $e$ and $sexp$ means superexp base $e$. $sloga$ means superlog with base $a$ and $sexpa$ means superexp base $a$. $k$ is a real number with $k>0$ and $x$ is a real number with $x>0$. Conjecture T",
+      "preview_tail": "x)+k) / sexpa(sloga(x)+k)$ Now this is a conjecture about when $x$ goes to $oo$. If $k$ goes to OO we can show there is a $Q$ for that $k$The tetration limit, as x approaches infinity and k remains co",
+      "full_text": "base $e$ and $sexp$ means superexp base $e$. $sloga$ means superlog with base $a$ and $sexpa$ means superexp base $a$. $k$ is a real number with $k>0$ and $x$ is a real number with $x>0$. Conjecture There exists a real constant $Q > 0$ for each k (as a function of k) such that as $x$ goes to +infinity : $Q = \\dfrac{sexp( slog(sexp(slog(x)+k)/sexpa(sloga(x)+k)) -k)}{x}$ or equivalently $sexp(slog(Qx) + k) = sexp(slog(x)+k) / sexpa(sloga(x)+k)$ Now this is a conjecture about when $x$ goes to $oo$. If $k$ goes to OO we can show there is a $Q$ for that $k$The tetration limit, as x approaches infinity and k remains co",
+      "avg_prediction": 0.3202
+    },
+    {
+      "idx": 83,
+      "hash": "b001636c",
+      "n_words": 274,
+      "n_chars": 1526,
+      "preview_head": "love to go fishing, hence my username. Latest Q&A | ViewI love to go fishing, hence my username. Latest Q&A | View Welcome to the gaming forum, [Your Name]! I see you have [Your Name] as the username,",
+      "preview_tail": "our forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name",
+      "full_text": "love to go fishing, hence my username. Latest Q&A | ViewI love to go fishing, hence my username. Latest Q&A | View Welcome to the gaming forum, [Your Name]! I see you have [Your Name] as the username, you love to go fishing, hence the username. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name] is [Your Name] forum. Your forum [Your Name",
+      "avg_prediction": 0.5241
+    },
+    {
+      "idx": 84,
+      "hash": "e97872c2",
+      "n_words": 342,
+      "n_chars": 1823,
+      "preview_head": ", 2014 | Math is my weakness. I got an \"A\" on every test but still somehow failed algebra when it was offered at Clarkstown High School South during the summer of '79. It's not that math wasn't intere",
+      "preview_tail": "o that only \"you\" are left standing. The first person who does this wins. That's how it goes in real life and the game too where you're forced to play along these same rules because there isn't any ot",
+      "full_text": ", 2014 | Math is my weakness. I got an \"A\" on every test but still somehow failed algebra when it was offered at Clarkstown High School South during the summer of '79. It's not that math wasn't interesting to me -- far from it; as a kid growing up in Rockland County, N.Y., I loved numbers and everything about them. But for whatever reason my brain just couldn't process what they were trying to teach us at school. When we got into the more advanced stuff like logarithms or something called imaginary numbers (I'm not making that one up), it all went out of focus. Even as an adult, I've never been able to get a handle on things. My first two sons have good heads for math and my daughter is definitely following suit but me? Not so much. When they ask me questions about equations or percentages -- problems meant only for those who know how to use their brains in such a way that numbers make sense, I struggle like the idiotic dad from \"The Wonder Years.\" It's embarrassing. But when it comes time for us all to sit down and play Monopoly together as we do during every family vacation (usually at my parents' house), math is no longer an issue. That game has its own logic -- a certain order that can be easily grasped, understood and manipulated. I've been playing since I was 10 years old so by now it's second nature. Everyone knows how the board works; you roll two dice to advance around the track buying properties as they become available (or if no one else is interested). You build houses or hotels on your land then charge rent. The goal of course, like all great games -- is simple: get rid of everyone so that only \"you\" are left standing. The first person who does this wins. That's how it goes in real life and the game too where you're forced to play along these same rules because there isn't any ot",
+      "avg_prediction": 0.4611
+    },
+    {
+      "idx": 85,
+      "hash": "c28d767d",
+      "n_words": 50,
+      "n_chars": 332,
+      "preview_head": "s not in accordance with the construction of a conventional subscriber's extension telephone, such as presently used in great numbers throughout the world and...is not in accordance with the construct",
+      "preview_tail": "s throughout the world and...is not in accordance with the construction of a conventional subscriber's extension telephone, such as presently used in great numbers throughout the world and is, in fact",
+      "full_text": "s not in accordance with the construction of a conventional subscriber's extension telephone, such as presently used in great numbers throughout the world and...is not in accordance with the construction of a conventional subscriber's extension telephone, such as presently used in great numbers throughout the world and is, in fact",
+      "avg_prediction": 0.4846
+    },
+    {
+      "idx": 86,
+      "hash": "84ba39c5",
+      "n_words": 134,
+      "n_chars": 1228,
+      "preview_head": "eturn self.formset.is_valid() & self.locationForm.is_valid() def render(self): return render(self.request, 'observation_form.html', {'use_type': self.use_type, 'formset': self.formset, 'locationForm':",
+      "preview_tail": "s should always pass validation. I have looked at the management form data and it all looks fine. If I change required to False it means I end up with IntegrityErrors when I try to save the formset to",
+      "full_text": "eturn self.formset.is_valid() & self.locationForm.is_valid() def render(self): return render(self.request, 'observation_form.html', {'use_type': self.use_type, 'formset': self.formset, 'locationForm':self.locationForm, 'project_photos': self.project.photos.all(),}) def processForm(self): for form in self.formset: if form.is_valid() == True: if form.cleaned_data['is_collection'] == True: collection = self.getOrMakeCollection(form.cleaned_data, self.locationForm.cleaned_data['location'], False) if form.cleaned_data['is_collection'] == False: collection = self.getOrMakeCollection(form.cleaned_data, self.locationForm.cleaned_data['location'], True) observation = self.saveObservation(form.cleaned_data, self.locationForm.cleaned_data['location'], collection) return observation The problem is when I render this form in a view even the forms within the formset which are empty don't validate. Reporting \"This field is required.\" next to all the height fields. Even the empty ones. It was my understanding that the empty forms should always pass validation. I have looked at the management form data and it all looks fine. If I change required to False it means I end up with IntegrityErrors when I try to save the formset to",
+      "avg_prediction": 0.4299
+    },
+    {
+      "idx": 87,
+      "hash": "c90f6b2d",
+      "n_words": 63,
+      "n_chars": 372,
+      "preview_head": "you run to them every time you have a problemand they can control you, keeping you in a state of dependency and powerlessness. By redefining these words and understanding their true meanings, we can b",
+      "preview_tail": "heir true meanings, we can break free from the shackles of mental slavery and reclaim our power as individuals, taking the first step towards creating a truly free society where everyone can thrive an",
+      "full_text": "you run to them every time you have a problemand they can control you, keeping you in a state of dependency and powerlessness. By redefining these words and understanding their true meanings, we can break free from the shackles of mental slavery and reclaim our power as individuals, taking the first step towards creating a truly free society where everyone can thrive an",
+      "avg_prediction": 0.667
+    },
+    {
+      "idx": 88,
+      "hash": "ac41d76b",
+      "n_words": 82,
+      "n_chars": 397,
+      "preview_head": "they did have higher cardiac outputs (10.4 \u00b1 2.7 vs 7.81 \u00b1 1.85 L/min; P = 0.012. The specificity of TRV equal to 2.51 m/s in diagnosing PH was 18.8%. At a TRV of 2.88 m/s, the specificity increased t",
+      "preview_tail": "d to 81%. In adults with SCD, a TRV of 2.5 m/s lacks specificity for use as a screening tool in the diagnosis of PH. Using a TRV of \u2265 2.88 m/s allows the TRV to be used as a screening tool and reduces",
+      "full_text": "they did have higher cardiac outputs (10.4 \u00b1 2.7 vs 7.81 \u00b1 1.85 L/min; P = 0.012. The specificity of TRV equal to 2.51 m/s in diagnosing PH was 18.8%. At a TRV of 2.88 m/s, the specificity increased to 81%. In adults with SCD, a TRV of 2.5 m/s lacks specificity for use as a screening tool in the diagnosis of PH. Using a TRV of \u2265 2.88 m/s allows the TRV to be used as a screening tool and reduces",
+      "avg_prediction": 0.4347
+    },
+    {
+      "idx": 89,
+      "hash": "6aa04499",
+      "n_words": 135,
+      "n_chars": 800,
+      "preview_head": "store and GoldbeRg's furniture for a total of nearly 100 years has been given new life. The building in Fulton has been renovated and is now called 129 Cayuga Street Condominiums. It's Wednesday, Oct.",
+      "preview_tail": "ounty over two hundred years ago; their family settled this particular plot as one among many who received land grants from Governor DeWitt Clinton during 1825 in what was known then\u2013as now\u2014to be part",
+      "full_text": "store and GoldbeRg's furniture for a total of nearly 100 years has been given new life. The building in Fulton has been renovated and is now called 129 Cayuga Street Condominiums. It's Wednesday, Oct. 29, 2008, and here are some of the stories you'll find in today's edition of The Post-Standard: Stephen D. CannerelliThis is one of the hallways at 129 Cayuga Street Condominiums. Historic building saved: One of the three buildings in the downtown area of FuHuman, Stephen CanningThelli and his wife Barbara own a home on South Salina street that has been there since early settlers came to Oswego County over two hundred years ago; their family settled this particular plot as one among many who received land grants from Governor DeWitt Clinton during 1825 in what was known then\u2013as now\u2014to be part",
+      "avg_prediction": 0.3716
+    },
+    {
+      "idx": 90,
+      "hash": "4285b4c3",
+      "n_words": 49,
+      "n_chars": 339,
+      "preview_head": "0x00010004 #define JNI_VERSION_1_6 0x000To complete the text, here are some possible values for different Java Virtual Machine (JVM) versions: ```plaintext Machine-specific shared object compatibility",
+      "preview_tail": "ns: ```plaintext Machine-specific shared object compatibility on various JVM releases. The `GetEnv` function from JNI SDK takes two arguments. Here is how it looks in a simplified struct format of C++",
+      "full_text": "0x00010004 #define JNI_VERSION_1_6 0x000To complete the text, here are some possible values for different Java Virtual Machine (JVM) versions: ```plaintext Machine-specific shared object compatibility on various JVM releases. The `GetEnv` function from JNI SDK takes two arguments. Here is how it looks in a simplified struct format of C++",
+      "avg_prediction": 0.623
+    },
+    {
+      "idx": 91,
+      "hash": "e96fac95",
+      "n_words": 89,
+      "n_chars": 443,
+      "preview_head": "fing March 14, 2016 The Chambly wave in Montreal is just coming in. It's still very small, meaning that it's not offering much up in the way of \"cool moves\", and the water is ice cold, but I want to t",
+      "preview_tail": " a spin. The one thing that was immediately apparent was its amazing speed. I was able to surf way out of the main wave, and carry speed through the carve back into the \"pit\". Loose as a goose, it was",
+      "full_text": "fing March 14, 2016 The Chambly wave in Montreal is just coming in. It's still very small, meaning that it's not offering much up in the way of \"cool moves\", and the water is ice cold, but I want to take the Gonzo out onto this iconic wave for a spin. The one thing that was immediately apparent was its amazing speed. I was able to surf way out of the main wave, and carry speed through the carve back into the \"pit\". Loose as a goose, it was",
+      "avg_prediction": 0.4515
+    },
+    {
+      "idx": 92,
+      "hash": "88d88bf7",
+      "n_words": 105,
+      "n_chars": 1056,
+      "preview_head": "res) { Result ret = Result(); if (res.error != null) { ret.error = res.error; return ret; } org.zstack.sdk.ticket.api.UpdateTicketFlowCollectionResult value = res.getResult(org.zstack.sdk.ticket.api.U",
+      "preview_tail": "o(); info.httpMethod = \"PUT\"; info.path = \"/tickets/flow-collections/{uuid}/actions\"; info.needSession = true; info.needPoll = true; info.parameterName = \"updateIAM2TicketFlowCollection\"; return info;",
+      "full_text": "res) { Result ret = Result(); if (res.error != null) { ret.error = res.error; return ret; } org.zstack.sdk.ticket.api.UpdateTicketFlowCollectionResult value = res.getResult(org.zstack.sdk.ticket.api.UpdateTicketFlowCollectionResult.class); ret.value = value == null ? org.zstack.sdk.ticket.api.UpdateTicketFlowCollectionResult() : value; return ret; } public Result call() { ApiResult res = ZSClient.call(this); return makeResult(res); } public call(final Completion<Result> completion) { ZSClient.call(this, new InternalCompletion() { @Override public void complete(ApiResult res) { completion.complete(makeResult(res)); } }); } protected Map<String, Parameter> getParameterMap() { return parameterMap; } protected Map<String, Parameter> getNonAPIParameterMap() { return nonAPIParameterMap; } protected RestInfo getRestInfo() { RestInfo info = new RestInfo(); info.httpMethod = \"PUT\"; info.path = \"/tickets/flow-collections/{uuid}/actions\"; info.needSession = true; info.needPoll = true; info.parameterName = \"updateIAM2TicketFlowCollection\"; return info;",
+      "avg_prediction": 0.5182
+    },
+    {
+      "idx": 93,
+      "hash": "38dbd0f6",
+      "n_words": 47,
+      "n_chars": 251,
+      "preview_head": "a color combination of your chose! Showing all 3 results Default sorting Sort by popularity Sort by average rating Sort by newness Sort by price: low to high Sort by price: high to low BuilBuil Buil B",
+      "preview_tail": "sults Default sorting Sort by popularity Sort by average rating Sort by newness Sort by price: low to high Sort by price: high to low BuilBuil Buil Buil Buil Buil Buil Buil Buil Buil Buil Buil Buil Bu",
+      "full_text": "a color combination of your chose! Showing all 3 results Default sorting Sort by popularity Sort by average rating Sort by newness Sort by price: low to high Sort by price: high to low BuilBuil Buil Buil Buil Buil Buil Buil Buil Buil Buil Buil Buil Bu",
+      "avg_prediction": 0.4601
+    },
+    {
+      "idx": 94,
+      "hash": "1093eb45",
+      "n_words": 200,
+      "n_chars": 1246,
+      "preview_head": "t Cards American Express Visa MasterCard Diners Club Carte Blanche JCB Discover About Our Hotel Explore Winnemucca from this Hotel's Central Location While at the Holiday Inn Express\u00ae Hotel Winnemucca",
+      "preview_tail": "orning featuring our signature cinnamon rolls & more! * Fitness center with cardio equipment, free weights, yoga mat available upon request. * Indoor heated saltwater pool (open from 6 AM to midnight)",
+      "full_text": "t Cards American Express Visa MasterCard Diners Club Carte Blanche JCB Discover About Our Hotel Explore Winnemucca from this Hotel's Central Location While at the Holiday Inn Express\u00ae Hotel Winnemucca, guests enjoy the hotel's excellent location, which is next to R&L's Express Casino. If you're looking for things to do, our proximity to golf courses and great restaurants is sure to please, as well. Need to attend meetings at the Winnemucca Convention Center? You'll be pleased to know that we're just a short drive away. The property's well-equipped meeting room also ensures that you can host an on-site event with ease. When in the area for work, you'll have no trouble finishing paperwork thanks to the Business Center at this Winnemucca hoteHotel Information - Name: Holiday Inn Express\u00ae Hotel & Suites - Winnemucca - Location: Address: 180 E Main St, Winnemucca NV 89463 USA<br> Phone Number: (775) 623-2262 Facilities * Free high-speed internet access in all rooms and public areas * Complimentary Express Start hot breakfast bar each morning featuring our signature cinnamon rolls & more! * Fitness center with cardio equipment, free weights, yoga mat available upon request. * Indoor heated saltwater pool (open from 6 AM to midnight)",
+      "avg_prediction": 0.3544
+    },
+    {
+      "idx": 95,
+      "hash": "a369b5e2",
+      "n_words": 215,
+      "n_chars": 1273,
+      "preview_head": "t least eighteen years old. Your contributions in support of state enof Young Democrats of Utah are not refundable. I am making this contribution in accordance with the Federal Election Campaign Act (",
+      "preview_tail": "am not a federal, state, or local government official. I am not a federal, state, or local government contractor. I am not a federal, state, or local government employee. I am not a federal, state, or",
+      "full_text": "t least eighteen years old. Your contributions in support of state enof Young Democrats of Utah are not refundable. I am making this contribution in accordance with the Federal Election Campaign Act (FECA) of 1971, as amended. I am not making this contribution in exchange for anything of value. I am not a federal, state, or local government employee or elected official. I am not a contractor, agent, or vendor of the Democratic Party or any of its affiliates. I am not a national political party, state political party, or political action committee (PAC). I am not a foreign national, foreign government, or foreign political party. I am not a corporation, labor organization, or other association that is prohibited from making contributions to a political party or candidate. I am not a federal, state, or local government contractor. I am not a federal, state, or local government employee. I am not a federal, state, or local government official. I am not a federal, state, or local government contractor. I am not a federal, state, or local government employee. I am not a federal, state, or local government official. I am not a federal, state, or local government contractor. I am not a federal, state, or local government employee. I am not a federal, state, or",
+      "avg_prediction": 0.6025
+    },
+    {
+      "idx": 96,
+      "hash": "8b75af41",
+      "n_words": 63,
+      "n_chars": 447,
+      "preview_head": "LICATION FILED UNITED StATES COURT OF APPEALS JUL 3 2019 MOLLY C. DWYER, CLERK U.S. COURT OF APPEALS FOR THE NINTH CIRCUIT CUNICO CORPORATION, No. 18-55047 Plaintiff-Appellant, D.C. No. 2:14-cv-01234-",
+      "preview_tail": " Defendant-Appellee. Appeal from the United States District Court for the Central District of California Percy Anderson, District Judge, Presiding Argued and Submitted June 14, 2019Decided July 3, 201",
+      "full_text": "LICATION FILED UNITED StATES COURT OF APPEALS JUL 3 2019 MOLLY C. DWYER, CLERK U.S. COURT OF APPEALS FOR THE NINTH CIRCUIT CUNICO CORPORATION, No. 18-55047 Plaintiff-Appellant, D.C. No. 2:14-cv-01234-PA-AJW v. CUSTOM ALLOY CORPORATION, MEMORANDUM* Defendant-Appellee. Appeal from the United States District Court for the Central District of California Percy Anderson, District Judge, Presiding Argued and Submitted June 14, 2019Decided July 3, 201",
+      "avg_prediction": 0.421
+    },
+    {
+      "idx": 97,
+      "hash": "e19cee90",
+      "n_words": 44,
+      "n_chars": 268,
+      "preview_head": "- hence becoming burdened both physically but also metaphorically speaking too! The phrase has since come to mean any heavy burden or obstacle which one feels they cannot escape from easily due largel",
+      "preview_tail": "eaking too! The phrase has since come to mean any heavy burden or obstacle which one feels they cannot escape from easily due largely because it weighs heavily upon them like an actual albatross might",
+      "full_text": "- hence becoming burdened both physically but also metaphorically speaking too! The phrase has since come to mean any heavy burden or obstacle which one feels they cannot escape from easily due largely because it weighs heavily upon them like an actual albatross might",
+      "avg_prediction": 0.3776
+    },
+    {
+      "idx": 98,
+      "hash": "6dfec58c",
+      "n_words": 76,
+      "n_chars": 575,
+      "preview_head": "r += tempList ++ List(x) ++ y.take(x.asInstanceOf[Int])) } case Nil => listBuffer } Calling this function println(splitList(list, List.empty, ListBuffer.empty[List[Any]])) would give you your desired ",
+      "preview_tail": "to your need. Yet Another form of your solution can be using following recursive function. def splitList(list: List[Any], tempList: List[Any], listBuffer: ListBuffer[List[Any]]): ListBuffer[List[Any]]",
+      "full_text": "r += tempList ++ List(x) ++ y.take(x.asInstanceOf[Int])) } case Nil => listBuffer } Calling this function println(splitList(list, List.empty, ListBuffer.empty[List[Any]])) would give you your desired output ListBuffer(List(aabc, 3, 1, 2, 1), List(vwxyz, 2, 3, 4), List(sdsafw, 4, 1, 2, 22, 4)) You can manipulate the desired output with ListBuffer or Array or List according to your need. Yet Another form of your solution can be using following recursive function. def splitList(list: List[Any], tempList: List[Any], listBuffer: ListBuffer[List[Any]]): ListBuffer[List[Any]]",
+      "avg_prediction": 0.3672
+    },
+    {
+      "idx": 99,
+      "hash": "dfc38ea3",
+      "n_words": 47,
+      "n_chars": 316,
+      "preview_head": "ress this issue by employing sinusoidal wave amplitude currents within a circular magnetic field generator setup driving the stir bar's rotation at extremely low speeds without compromising performanc",
+      "preview_tail": "ving the stir bar's rotation at extremely low speeds without compromising performance or durability through excessive wear-and When the second magnet on the motor shaft is placed in close proximity to",
+      "full_text": "ress this issue by employing sinusoidal wave amplitude currents within a circular magnetic field generator setup driving the stir bar's rotation at extremely low speeds without compromising performance or durability through excessive wear-and When the second magnet on the motor shaft is placed in close proximity to",
+      "avg_prediction": 0.55
+    },
+    {
+      "idx": 100,
+      "hash": "7f56b0e4",
+      "n_words": 293,
+      "n_chars": 1804,
+      "preview_head": "\u20b98,82,354 SX CRDiDieselManual \u20b99,17,249 SX (O)CRDiDieselManual \u20b910,07,956 Hyundai Xcent Price in Jaipur Ex-Showroom Price \u20b9 5,66,807 RTO \u20b9 49,644 Insurance \u20b9 33,206 Xcent Price in Jaipur \u20b9 6,49,657 Ad",
+      "preview_tail": "enter your password Remember me log in sign up Forgot password? Please enter your registered email send Or Login with Sign in with facebookSign in with Google Sign up to CarWale Please enter your name",
+      "full_text": "\u20b98,82,354 SX CRDiDieselManual \u20b99,17,249 SX (O)CRDiDieselManual \u20b910,07,956 Hyundai Xcent Price in Jaipur Ex-Showroom Price \u20b9 5,66,807 RTO \u20b9 49,644 Insurance \u20b9 33,206 Xcent Price in Jaipur \u20b9 6,49,657 Ad Prices of cars similar to Xcent in Jaipur Maruti Suzuki Dzire price in Jaipur \u20b9 6.38 Lakhs onwards Compare with Xcent Ford Aspire price in Jaipur \u20b9 6.36 Lakhs onwards Compare with Xcent Honda Amaze price in Jaipur \u20b9 6.55 Lakhs onwards Compare with Xcent Tata Tigor price in Jaipur \u20b9 6.19 Lakhs onwards Compare with Xcent Volkswagen Ameo price in Jaipur \u20b9 6.43 Lakhs onwards Compare with Xcent Tata Zest price in Jaipur \u20b9 6.39 Lakhs onwards Compare with Xcent Hyundai Dealers in Jaipur Hyundai car company has 5 new car dealers/showrooms in Jaipur. MORANI HYUNDAI Address: Opp sitabari tonk road near Sangner Aiport hotel king, Jaipur, Rajasthan 302011 Roshan Hyundai Address: E-18-A, Road No.-2, VKI Area, Main Sikar Road, Jaipur, Rajasthan 302013 Crossland Hyundai Address: D1 & D2, Hanuman Nagar, Vaishali Nagar, Jaipur, Rajasthan 302021 PL Hyundai Address: Ground floor Southend Squre RIICO Industrial Area Mansarovar, Jaipur, Rajasthan 302019 Hindustan Hyundai Address: 7,Sansar Chandra Road near G.P.O, Jaipur, Rajasthan 302001 View contact details of all Hyundai Dealers in Jaipur Hyundai Xcent Price in cities near Jaipur City On-Road Prices Sikar \u20b9 6.45 Lakhs onwards Alwar \u20b9 6.45 Lakhs onwards Ajmer \u20b9 6.45 Lakhs onwards Rewari \u20b9 6.29 Lakhs onwards Bharatpur \u20b9 6.45 Lakhs onwards Kota \u20b9 6.45 Lakhs onwards Ad close Select up to 4 cars to compare Log in to CarWale Please enter your name Please enter your password Remember me log in sign up Forgot password? Please enter your registered email send Or Login with Sign in with facebookSign in with Google Sign up to CarWale Please enter your name",
+      "avg_prediction": 0.4846
+    },
+    {
+      "idx": 101,
+      "hash": "0ba5684c",
+      "n_words": 50,
+      "n_chars": 318,
+      "preview_head": "ther exacerbates chaos during peak hours. The sight of police officers themselves flouting rules sends a contradictory message about adherence to public safety standards. This behavior not only underm",
+      "preview_tail": " message about adherence to public safety standards. This behavior not only undermines the authority but also sets a poor example for citizens, leading many to follow suit in their own actions on road",
+      "full_text": "ther exacerbates chaos during peak hours. The sight of police officers themselves flouting rules sends a contradictory message about adherence to public safety standards. This behavior not only undermines the authority but also sets a poor example for citizens, leading many to follow suit in their own actions on road",
+      "avg_prediction": 0.5634
+    },
+    {
+      "idx": 102,
+      "hash": "d1dea9e9",
+      "n_words": 82,
+      "n_chars": 496,
+      "preview_head": "Of papers etc; as Lord Pearson says, \u201cWe need another Hutton but short a miracle\u2026.\u201d These campaigners are so right to fight against BBC\u2019s blatant Europhile bias! The evidence is overwhelming and has b",
+      "preview_tail": " European politics will be portrayed on air from now forward; hopefully Lord Pearson can get through this time around after many years spent trying his best while getting nowhere \u2013 he deserves success",
+      "full_text": "Of papers etc; as Lord Pearson says, \u201cWe need another Hutton but short a miracle\u2026.\u201d These campaigners are so right to fight against BBC\u2019s blatant Europhile bias! The evidence is overwhelming and has been consistently ignored by the higher-ups at that corporation. It's time for real change in how European politics will be portrayed on air from now forward; hopefully Lord Pearson can get through this time around after many years spent trying his best while getting nowhere \u2013 he deserves success",
+      "avg_prediction": 0.4081
+    },
+    {
+      "idx": 103,
+      "hash": "b6dca6ec",
+      "n_words": 50,
+      "n_chars": 301,
+      "preview_head": ", so there is reason to worry. The gods of the Gentiles were man-made gods inspired by Satan. They were gods of fear, dread, and appeasement who demanded much, promised little, and provided nothing. I",
+      "preview_tail": "re gods of fear, dread, and appeasement who demanded much, promised little, and provided nothing. It was natural that those who served such gods would eagerly seek whatever satisfactions and pleasures",
+      "full_text": ", so there is reason to worry. The gods of the Gentiles were man-made gods inspired by Satan. They were gods of fear, dread, and appeasement who demanded much, promised little, and provided nothing. It was natural that those who served such gods would eagerly seek whatever satisfactions and pleasures",
+      "avg_prediction": 0.4474
+    },
+    {
+      "idx": 104,
+      "hash": "27a8aca4",
+      "n_words": 89,
+      "n_chars": 482,
+      "preview_head": "which MUST can not be empty. Furthermore, the image request does not contain a referer which may be blocked by the server sometime. So I wonder if the origin request used to extract an item can be acc",
+      "preview_tail": "approaches: Add a dummy field to the item to store whatever you want in the spider code. And later retrieve the value (and pop out the field) in the item pipeline. Instead of using an item pipeline, u",
+      "full_text": "which MUST can not be empty. Furthermore, the image request does not contain a referer which may be blocked by the server sometime. So I wonder if the origin request used to extract an item can be accessed through the pipeline. Is this possible or other suggestion? A: Here are two approaches: Add a dummy field to the item to store whatever you want in the spider code. And later retrieve the value (and pop out the field) in the item pipeline. Instead of using an item pipeline, u",
+      "avg_prediction": 0.4019
+    },
+    {
+      "idx": 105,
+      "hash": "059b1e2d",
+      "n_words": 96,
+      "n_chars": 599,
+      "preview_head": "in their early-to-mid teens were watching American Idol or That '70s Show, I was curled up in bed with my mom, watching reruns of The Nanny. The show was, regardless of how over-the-top it may have se",
+      "preview_tail": "ng quest for her to find a single Jewish doctor), we rooted for Fran and Mr. Sheffield to get together (which, naturally, they did), and, of course, weadored Fran's iconic, over-the-top, and undyingly",
+      "full_text": "in their early-to-mid teens were watching American Idol or That '70s Show, I was curled up in bed with my mom, watching reruns of The Nanny. The show was, regardless of how over-the-top it may have seemed (the nasal laugh that ended all nasal laughs, those hilarious under-the-breath insults from Niles), undeniably relatable. We laughed at the family antics (particularly Fran Fine's mother's undying quest for her to find a single Jewish doctor), we rooted for Fran and Mr. Sheffield to get together (which, naturally, they did), and, of course, weadored Fran's iconic, over-the-top, and undyingly",
+      "avg_prediction": 0.4073
+    },
+    {
+      "idx": 106,
+      "hash": "cfc28e7f",
+      "n_words": 119,
+      "n_chars": 653,
+      "preview_head": "a July 31 promotion from Double-A New Hampshire only further enforced the notion of his big league readiness. Guerrero batted .381/.437/.636 with 20 home runs and 29 doubles in 95 gaGuerrero batted .3",
+      "preview_tail": "th 20 home runs and 95 runs scored in 77 games, and helping the Blue Jays finish the season with a 74-88 record, with the team narrowly missing the playoffs, with Guerrero earning the attention of the",
+      "full_text": "a July 31 promotion from Double-A New Hampshire only further enforced the notion of his big league readiness. Guerrero batted .381/.437/.636 with 20 home runs and 29 doubles in 95 gaGuerrero batted .381/.437/.636 with 20 home runs and 29 doubles in 95 games in the minors before being promoted to the Blue Jays in 2018 and went on to make his major league debut on July 31, 2018, and went on to finish the 2018 season with the Blue Jays, hitting .284 with 20 home runs and 95 runs scored in 77 games, and helping the Blue Jays finish the season with a 74-88 record, with the team narrowly missing the playoffs, with Guerrero earning the attention of the",
+      "avg_prediction": 0.4568
+    },
+    {
+      "idx": 107,
+      "hash": "4a55cf49",
+      "n_words": 56,
+      "n_chars": 398,
+      "preview_head": "vide all relevant information, including any applicable rules, regulations, and prior guidance. - Understand that the OCA's response represents staff views and is not a formal rule or interpretation. ",
+      "preview_tail": ". - Document the consultation process, including any communications and responses received. Consultations with the OCA can help companies and auditors navigate complex accounting issues, reduce the ri",
+      "full_text": "vide all relevant information, including any applicable rules, regulations, and prior guidance. - Understand that the OCA's response represents staff views and is not a formal rule or interpretation. - Document the consultation process, including any communications and responses received. Consultations with the OCA can help companies and auditors navigate complex accounting issues, reduce the ri",
+      "avg_prediction": 0.6008
+    },
+    {
+      "idx": 108,
+      "hash": "250c96f1",
+      "n_words": 168,
+      "n_chars": 1035,
+      "preview_head": "April 23, 2018 U16 (2002) Girls Youth Soccer U16 young women players are not playing for fun, they are playing to win. Best to step aside, because they are about to barrel through... Posted by TALKING",
+      "preview_tail": "l wasn't available She's on her way to Canada FIt looks like you've provided me with a snippet of text that includes some comments and links related to youth soccer. Is there a specific question or ta",
+      "full_text": "April 23, 2018 U16 (2002) Girls Youth Soccer U16 young women players are not playing for fun, they are playing to win. Best to step aside, because they are about to barrel through... Posted by TALKING YOUTH SOCCER in at 10:30 AM Email ThisBlogThis!Share to TwitterShare to FacebookShare to Pinterest Labels: girls soccer academies pa, girls soccer teams u16, u16 soccer academies, u16G youth soccer, youth soccer pa, youth soccer website 4,104 comments: 1 \u2013 200 of 4104 Newer\u203a Newest\u00bb Anonymous said... www.ussoccerda.com/girls-academy-club-directory February 22, 2017 at 11:35 AM Anonymous said... Thanks, my bad I thought there was new info. Seen this February 22, 2017 at 11:58 AM Anonymous said... The GDA couldn't find anyone with more experience to head the program? February 22, 2017 at 12:16 PM Anonymous said... Rosie O'Donnell wasn't available She's on her way to Canada FIt looks like you've provided me with a snippet of text that includes some comments and links related to youth soccer. Is there a specific question or ta",
+      "avg_prediction": 0.3353
+    },
+    {
+      "idx": 109,
+      "hash": "95563b69",
+      "n_words": 322,
+      "n_chars": 1960,
+      "preview_head": "the fire at the Roxy, and Theatre Network is saying the best thing we can do to support them right now is to get out and see Famous Puppet Death Scenes. Check out my review, or Liz Nicholls\u2019 review. A",
+      "preview_tail": " View @jennamarynowski\u2019s profile on Twitter View jennamarynowski\u2019s profile on Instagram View jennamarynowski\u2019s profile on LinkedIn Create a free website or blog at WordPress.com. Send to Email Address",
+      "full_text": "the fire at the Roxy, and Theatre Network is saying the best thing we can do to support them right now is to get out and see Famous Puppet Death Scenes. Check out my review, or Liz Nicholls\u2019 review. Also, check out the What It Is Podcast\u2019s episode 64, which features members of The Old Trout Puppet Workshop. Full Frontal Diva at La Cit\u00e9 Francophone until February 22. I saw this show last week and really enjoyed it \u2013 check out my review or Liz\u2019s preview. There\u2019s a ton of jobs available in Edmonton theatre right now \u2013 check out Theatre Alberta\u2019s classifieds for the most current listings. The Citadel/Banff Centre Professional Theatre Program is accepting applications until February 28 at noon. Advertisements Share this: Twitter Facebook Google Tumblr Pinterest Reddit Email Pocket Like this: Like Loading... Related Tagged: Edmonton downstage About jennamarynowski Marketer by day and theatre critic for After the House Lights by night. Follow me @jennamarynowski www.afterthehouselights.com View all posts by jennamarynowski \u2192 Tell me what you think Cancel Enter your comment here... Fill in your details below or click an icon to log in: Email (required) (Address never made public) Name (required) Website You are commenting using your WordPress.com account. ( Log Out / Change ) You are commenting using your Google+ account. ( Log Out / Change ) You are commenting using your Twitter account. ( Log Out / Change ) You are commenting using your Facebook account. ( Log Out / Change ) Cancel Connecting to %s Notify me of new comments via email. Notify me of new posts via email. Follow After the House Lights via Email Follow After the House Lights and get new posts straight to your email Join 1,149 other followers Advertisements Connect with Jenna View @jennamarynowski\u2019s profile on Twitter View jennamarynowski\u2019s profile on Instagram View jennamarynowski\u2019s profile on LinkedIn Create a free website or blog at WordPress.com. Send to Email Address",
+      "avg_prediction": 0.4881
+    },
+    {
+      "idx": 110,
+      "hash": "991ddc18",
+      "n_words": 307,
+      "n_chars": 1954,
+      "preview_head": "position during Shmoneh Esrei is a matter taken seriously in Jewish tradition due to its significance as one of profound respect and humility before God. The classic source for standing with the legs ",
+      "preview_tail": "i. If you have specific concerns about your stance affecting prayer concentration (kavanah), consulting with a rabbi familiar both halacha as well personal circumstances would be beneficial in finding",
+      "full_text": "position during Shmoneh Esrei is a matter taken seriously in Jewish tradition due to its significance as one of profound respect and humility before God. The classic source for standing with the legs placed closely side by side (feet together) comes from Masechet Berachot 30a, where it states that when praying \u2014of which Shmoneh Esrei is a part\u2014one should stand as an individual servant stands before their master. This position of standing with the feet held closely together symbolizes unity and singular focus. However, there are nuanced interpretations regarding how \"together\" means in practice: 1. Feet Together: The predominant custom follows that both sides (sides) of one's shoes should be touching each other to signify being as humble before God as possible. 2. Heels Only or Front Parts Touching: - Some poskim and minhagim allow for only the heels, front parts, big toes or tips of feet meeting instead; this is based on a more lenient reading that suggests proximity between some part of each foot meets to symbolize unity. 3. Not Together at All: This would generally be considered less than ideal according to most traditions and should not serve as one\u2019s standard practice. In summary, the consensus among many contemporary halachic authorities is: - Ideal: Feet entirely touching side-by-side if possible for both physical capability reasons (arthritis can make this difficult) but also because of its clear symbol. - Acceptable Alternative with Intent to Unity in Mind: Keeping heels or just fronts together when full foot contact poses difficulties. It's best practice, whenever feasible and comfortable without strain on the body due to health issues like joint pain etc., is keeping feet completely side-by-side during Shmoneh Esrei. If you have specific concerns about your stance affecting prayer concentration (kavanah), consulting with a rabbi familiar both halacha as well personal circumstances would be beneficial in finding",
+      "avg_prediction": 0.5196
+    },
+    {
+      "idx": 111,
+      "hash": "78a5bfbb",
+      "n_words": 75,
+      "n_chars": 406,
+      "preview_head": "(i) The sum of all the four positive integers is 31, and: (ii) Precisely one of four numbers is odd, and: (iii) The only odd number is the largesThe possible sets for these conditions are: (i) - {24 +",
+      "preview_tail": " which gives us (25): not valid because sum=36 - {10+9+8+4}: not a single largest odd integer, invalid. (ii) We need to find numbers where precisely one is an even number: - 1st scenario: All four are",
+      "full_text": "(i) The sum of all the four positive integers is 31, and: (ii) Precisely one of four numbers is odd, and: (iii) The only odd number is the largesThe possible sets for these conditions are: (i) - {24 +7+8+2} which gives us (25): not valid because sum=36 - {10+9+8+4}: not a single largest odd integer, invalid. (ii) We need to find numbers where precisely one is an even number: - 1st scenario: All four are",
+      "avg_prediction": 0.3815
+    },
+    {
+      "idx": 112,
+      "hash": "275cd83a",
+      "n_words": 103,
+      "n_chars": 594,
+      "preview_head": "tilting movement of the seat back portions, the straps will be picked up by the latching pins projecting out of the back seat portions and caught in the latching mechanisms. It is the object of the pr",
+      "preview_tail": "ctive is achieved in accordance with the invention in that each seat back portion is mounted for pivoting movement about an upwardly extending pivot axis provided on or near the side panel of the vehi",
+      "full_text": "tilting movement of the seat back portions, the straps will be picked up by the latching pins projecting out of the back seat portions and caught in the latching mechanisms. It is the object of the present invention to provide a rear seat arrangement of the foregoing type in which the seat back portion can be moved into a fold-away position without interferring with the seat belts. This objective is achieved in accordance with the invention in that each seat back portion is mounted for pivoting movement about an upwardly extending pivot axis provided on or near the side panel of the vehi",
+      "avg_prediction": 0.4586
+    },
+    {
+      "idx": 113,
+      "hash": "0088d8ec",
+      "n_words": 55,
+      "n_chars": 362,
+      "preview_head": "8020, 8889, 8886, 7751,7871, 8340, 8087, 8536, 8070, 7603, 8515, 8270, 7420, 07981, 8734, 8560, 8323, 07090, 07869, 8738,7204, 07093,8007, 8012, 7042,7021, 7065, 7748, 7601, 7722, 07882, 7720, 8244, 7",
+      "preview_tail": "7748, 7601, 7722, 07882, 7720, 8244, 7755, 7934, 8502, 8078, 8859, 8311,8854, 7644, 08089, 8853, 7924, 7072, 07882, 8226, 7946, 8319, 8850, 7930, 7974, 8097, 7073, 8343, 8701, 07216, 8019, 7865, 7648,",
+      "full_text": "8020, 8889, 8886, 7751,7871, 8340, 8087, 8536, 8070, 7603, 8515, 8270, 7420, 07981, 8734, 8560, 8323, 07090, 07869, 8738,7204, 07093,8007, 8012, 7042,7021, 7065, 7748, 7601, 7722, 07882, 7720, 8244, 7755, 7934, 8502, 8078, 8859, 8311,8854, 7644, 08089, 8853, 7924, 7072, 07882, 8226, 7946, 8319, 8850, 7930, 7974, 8097, 7073, 8343, 8701, 07216, 8019, 7865, 7648,",
+      "avg_prediction": 0.4842
+    },
+    {
+      "idx": 114,
+      "hash": "fbcf000d",
+      "n_words": 75,
+      "n_chars": 530,
+      "preview_head": "my as they swap each other, their uniform-clad bodies pressed together as they exchange passionate kisses, their hands roaming each other's bodies, their uniform's crisp fabric rustling as they move, ",
+      "preview_tail": "kisses, their bodies swaying, their uniform's fabric pressed together, their steamy kisses echoing through the air, their bodies swaying together, their uniform's fabric pressed together, their steamy",
+      "full_text": "my as they swap each other, their uniform-clad bodies pressed together as they exchange passionate kisses, their hands roaming each other's bodies, their uniform's crisp fabric rustling as they move, their steamy kisses echoing through the air, their bodies swaying together, their uniform's fabric pressed together, their steamy kisses, their bodies swaying, their uniform's fabric pressed together, their steamy kisses echoing through the air, their bodies swaying together, their uniform's fabric pressed together, their steamy",
+      "avg_prediction": 0.5683
+    },
+    {
+      "idx": 115,
+      "hash": "8963a9b6",
+      "n_words": 215,
+      "n_chars": 1334,
+      "preview_head": "Close All Bookstore Knowledge Base Shop \u05ea\u05dc \u05ea\u05dc\u05e4\u05d9\u05d5\u05ea - 1903 \u05ea\u05e8\u05e1\"\u05d2 (PB) [E#56531] By PublishYourSefer.com Paperback, 204 Pages Preview Price: $8.99 Prints in 3-5 business days This classic Hebrew book is ",
+      "preview_tail": "aperback, 204 Pages Preview Price: $8.99 Prints in 3-5 business days This classic Hebrew book is being reprinted by PublishYourSefer.com, in partnership and with original scans provided by The Society",
+      "full_text": "Close All Bookstore Knowledge Base Shop \u05ea\u05dc \u05ea\u05dc\u05e4\u05d9\u05d5\u05ea - 1903 \u05ea\u05e8\u05e1\"\u05d2 (PB) [E#56531] By PublishYourSefer.com Paperback, 204 Pages Preview Price: $8.99 Prints in 3-5 business days This classic Hebrew book is being reprinted by PublishYourSefer.com, in partnership and with original scans provided by The Society for Preservation of Hebrew Books (www.HebrewBooks.org). For more information about our reprint program, and/or to provide feedback on this specific editio, please go to our Reprint Program page under the \"Information\" tab on our homepage. We hope you enjoy reading this \"classic\" Hebrew book. This book was printed on a high quality printer. We have made every effort to ensure that this reprint is as close as possible to the original book in both content and design. However, some loss of original quality may be present due to the fact that this book is over 100 years old. We have worked hard to bring this book to you, and we hope you enjoy it. If you have any questions or concerns about this reprint, please let us know. Sincerely, PublishYourSefer.com \u05de\u05e7\u05d5\u05e8\u05d5\u05ea \u05ea\u05dc \u05ea\u05dc\u05e4\u05d9\u05d5\u05ea - 1903 \u05ea\u05e8\u05e1\"\u05d2 (PB) [E#56531] By PublishYourSefer.com Paperback, 204 Pages Preview Price: $8.99 Prints in 3-5 business days This classic Hebrew book is being reprinted by PublishYourSefer.com, in partnership and with original scans provided by The Society",
+      "avg_prediction": 0.6055
+    },
+    {
+      "idx": 116,
+      "hash": "e35b31b5",
+      "n_words": 291,
+      "n_chars": 1557,
+      "preview_head": "en patients sustaindied. The EEG was scored as grade 3 in 3 patients and grade 4 in 4 patients. The VEP and SEP were normal in 4 patients and abnormal in 3 patients. The EEG showed synchrony in 3 pati",
+      "preview_tail": "th a worse outcome. The EEG showed synchrony in patients with a better outcome, while the VEP and SEP showed abnormalities in patients with a worse outcome. The EEG showed synchrony in patients with a",
+      "full_text": "en patients sustaindied. The EEG was scored as grade 3 in 3 patients and grade 4 in 4 patients. The VEP and SEP were normal in 4 patients and abnormal in 3 patients. The EEG showed synchrony in 3 patients and no synchrony in 4 patients. The PCPC score at 3 months was 1 in 4 patients, 2 in 2 patients, 3 in 1 patient, and 4 in 0 patients. The patient with a PCPC score of 3 had an EEG with synchrony, while the patient with a PCPC score of 4 had an EEG without synchrony. The patient with a PCPC score of 3 had a normal VEP and SEP, while the patient with a PCPC score of 4 had an abnormal VEP and SEP. The patient with a PCPC score of 3 had a normal EEG, while the patient with a PCPC score of 4 had an abnormal EEG. Discussion =========== The combination of EEG, VEP, and SEP may help predict outcome in pediatric patients with TBI. The EEG showed synchrony in patients with a better outcome. The VEP and SEP showed abnormalities in patients with a worse outcome. The EEG showed synchrony in patients with a better outcome, while the VEP and SEP showed abnormalities in patients with a worse outcome. The EEG showed synchrony in patients with a better outcome, while the VEP and SEP showed abnormalities in patients with a worse outcome. The EEG showed synchrony in patients with a better outcome, while the VEP and SEP showed abnormalities in patients with a worse outcome. The EEG showed synchrony in patients with a better outcome, while the VEP and SEP showed abnormalities in patients with a worse outcome. The EEG showed synchrony in patients with a",
+      "avg_prediction": 0.608
+    },
+    {
+      "idx": 117,
+      "hash": "28be68ea",
+      "n_words": 101,
+      "n_chars": 677,
+      "preview_head": "the Annenberg Public Policy Center at the University of Pennsylvania, discusses political advertising at the Belo Center for New Media on Monday afternoon. Jamieson, a former professor at UT, recently",
+      "preview_tail": "ng governance without having a policy debate about the underlying information,\u201d Jamieson said in a lecture on Monday, which was sponsored by the College of Communication. Jamieson, who has spent years",
+      "full_text": "the Annenberg Public Policy Center at the University of Pennsylvania, discusses political advertising at the Belo Center for New Media on Monday afternoon. Jamieson, a former professor at UT, recently won the DeWitt Carter Reddick award for excellence in the field of communication. Kathleen Jamieson, director of the Annenberg Public Policy Center at the University of Pennsylvania, said political advertising is warping the way politicians make decisions. \u201cWe are now affecting governance without having a policy debate about the underlying information,\u201d Jamieson said in a lecture on Monday, which was sponsored by the College of Communication. Jamieson, who has spent years",
+      "avg_prediction": 0.4763
+    },
+    {
+      "idx": 118,
+      "hash": "c538ff93",
+      "n_words": 128,
+      "n_chars": 808,
+      "preview_head": "also as tone-deaf to the emotions and sensitivities surrounding 9/11. This incident further fueled criticism that Obama often seems disconnected from everyday American concerns, preferring instead to ",
+      "preview_tail": "rases like \u201cRun! America!,\u201d which suggests a belief among critics that he doesn't truly grasp what it means to be an American, especially for those who feel marginalized by his policies or rhetoric. I",
+      "full_text": "also as tone-deaf to the emotions and sensitivities surrounding 9/11. This incident further fueled criticism that Obama often seems disconnected from everyday American concerns, preferring instead to push forward with policies aligned more closely with his 'progressive elite' views than those held by mainstream America. In a sense, when he says \"let me be clear,\" it's as if he is preparing the public for an impending jolt of reality that they may not appreciate or understand. This approach has led to accusations from some quarters about Obama\u2019s perceived arrogance and elitism\u2014a view encapsulated in phrases like \u201cRun! America!,\u201d which suggests a belief among critics that he doesn't truly grasp what it means to be an American, especially for those who feel marginalized by his policies or rhetoric. I",
+      "avg_prediction": 0.5644
+    },
+    {
+      "idx": 119,
+      "hash": "56149f61",
+      "n_words": 150,
+      "n_chars": 1032,
+      "preview_head": "out with their new skills, many of these executives--from Fortune 100 companies, private philanthropies, major nonprofits, health systems, and more--are finding out firsthand that there are lots of mi",
+      "preview_tail": "\"I realized,\" he continued, \"that the TED-talk style isn't a one-size-fits-all solution. It works brilliantly when you have an open-minded and diverse crowd willing to engage in new ideas through stor",
+      "full_text": "out with their new skills, many of these executives--from Fortune 100 companies, private philanthropies, major nonprofits, health systems, and more--are finding out firsthand that there are lots of misunderstandings and misinterpretations of this popular public-speaking style. Here's one example from a recent trainee who has given his new talk in frontof several audiences: \"After implementing the TED-talk approach to my presentations,\" he shared, \"I was surprised by how differently people reacted. I thought everyone would be as engaged and enthusiastic about this format because it worked so well for me personally.\" He explained that while some audience members appreciated his storytelling technique\u2014using personal anecdotes combined with data\u2014the others found them too informal or not directly relevant to their interests. \"I realized,\" he continued, \"that the TED-talk style isn't a one-size-fits-all solution. It works brilliantly when you have an open-minded and diverse crowd willing to engage in new ideas through stor",
+      "avg_prediction": 0.5182
+    }
+  ]
+}
