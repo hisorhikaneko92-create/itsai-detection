@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-05-04T05:21:17.244851+00:00",
+  "validator_hotkey": "5HmkM6X1D3W3CuCSPuHhrbYyZNBy2aGAiZy9NczoJmtY25H7",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 2,
+  "duplicates": [],
+  "latency_ms": 2584,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "63ede018",
+      "n_words": 153,
+      "n_chars": 1634,
+      "preview_head": "a Year\"); entriesManageDashboardResource.getEntryYears().then(function (response) { function (value, key) { $scope.entryYears.push(value); }); }); $scope.selectedYear = $scope.entryYears[0]; $scope.se",
+      "preview_tail": "elect> </td> </tr> </table> I've also done a further test where I simply set $scope.selectedYear to $scope.entryYears[0] within the reset method. When I console.log $scope.selectedYear here, the value",
+      "full_text": "a Year\"); entriesManageDashboardResource.getEntryYears().then(function (response) { function (value, key) { $scope.entryYears.push(value); }); }); $scope.selectedYear = $scope.entryYears[0]; $scope.selectedReport = $scope.reportTypes[0]; }; $scope.yearHasSelected = function(selectedYear) { $scope.yearSelected = true; $scope.selectedYear = selectedYear; }; $scope.generateFile = function (selectedReport) { $scope.actionInProgress = true; var reportDetail = { entryYear: $scope.selectedYear, chosenEntryStatus: selectedReport }; reportsDashboardResource.generateEntriesReportDownloadLink(reportDetail).then(function (response) { if (response.Successful) { $scope.hasCompleted = true; } else { notificationsService.error(\"Ooops\", response.ErrorMessage); } $scope.actionInProgress = false; }, generalError); }; $scope.restart = function () { $scope.init(); } // Initialise Page $scope.init(); } angular.module(\"umbraco\").controller(\"ReportsDashboardController\", TreeReportsCHLController) this is the code with the dropdowns in it; <table> <tr> <td>Get a report for year: {{selectedYear}}</td> <td><select ng-model=\"selectedYear\" ng-change=\"yearHasSelected(selectedYear)\" ng-options=\"year for year in no-dirty-check></select></td> </tr> <tr && yearSelected\"> <td> Get Report Type: </td> <td> <select ng-change=\"generateFile(selectedReport)\" ng-options=\"status for status in reportTypes\" no-dirty-check ng-disabled=\"actionInProgress\"></select> </td> </tr> </table> I've also done a further test where I simply set $scope.selectedYear to $scope.entryYears[0] within the reset method. When I console.log $scope.selectedYear here, the value",
+      "avg_prediction": 0.4213
+    },
+    {
+      "idx": 1,
+      "hash": "bb3c4445",
+      "n_words": 58,
+      "n_chars": 430,
+      "preview_head": "thespecificmarkers as neuron-specific enolase (NSE), ferritin, GD2 ganglioside. Imaging include CT-scan, MIGB body-scan and the newest monoclonal antibodies scan. Abdominal tumors are shown in about 7",
+      "preview_tail": ". In 2/3of cases with abdominal neuroblastomas, these originate from retroperitoneum rather than adrenal glands [1]. Retroperitoneal neuroblastoma (RPN) is a specific subset that presents unique chal ",
+      "full_text": "thespecificmarkers as neuron-specific enolase (NSE), ferritin, GD2 ganglioside. Imaging include CT-scan, MIGB body-scan and the newest monoclonal antibodies scan. Abdominal tumors are shown in about 75% of children > 12 months old. In 2/3of cases with abdominal neuroblastomas, these originate from retroperitoneum rather than adrenal glands [1]. Retroperitoneal neuroblastoma (RPN) is a specific subset that presents unique chal ",
+      "avg_prediction": 0.4178
+    }
+  ]
+}
