@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-05-04T01:00:15.811794+00:00",
+  "validator_hotkey": "5DWtZGXjtx3KnLcbEfjy93aNjj4ADNMhqoyeHzrb3NfWXhhu",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 1,
+  "duplicates": [],
+  "latency_ms": 1973,
+  "inference_error": "HTTPError",
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "c2f421d6",
+      "n_words": 218,
+      "n_chars": 1561,
+      "preview_head": "d it's password ? Something like: if user_valid(username, password): do something; I don't want to use the built-in Django authentication views or templates. I just need a simple way to verify if the ",
+      "preview_tail": "hes and stores passwords securely. If your client needs to interact with the server via an API, consider implementing token-based authentication instead of passing username/password combos around. Loo",
+      "full_text": "d it's password ? Something like: if user_valid(username, password): do something; I don't want to use the built-in Django authentication views or templates. I just need a simple way to verify if the provided credentials are valid. You can create a custom function that uses the `authenticate` method from `django.contrib.auth` module: ```python from django.contrib.auth import authenticate, get_user_model def user_valid(username, password): User = get_user_model() try: user = User.objects.get(username=username) except User.DoesNotExist: return False if not user.is_active: return False if user.check_password(password): return True else: return False ``` This function first retrieves the `User` model and tries to get a user instance with the provided username. If no such user exists, it returns `False`. Then it checks if the retrieved user is active (i.e., not banned or deleted). Finally, it uses the `check_password` method of the user object to verify if the password matches. You can use this function in your client-side code like so: ```python if user_valid(username='john_doe', password='my_secret'): print(\"User is valid\") else: print(\"Invalid username or password\") ``` Keep in mind that storing passwords as plain text (i.e., not hashed) is a significant security risk. Make sure you're using Django's built-in authentication system, which hashes and stores passwords securely. If your client needs to interact with the server via an API, consider implementing token-based authentication instead of passing username/password combos around. Loo",
+      "avg_prediction": 0.0
+    }
+  ]
+}

@@ -26,6 +26,7 @@ import sys
 import threading
 import time
 from pathlib import Path
+from typing import Optional
 
 try:
     from rich.console import Console  # noqa: F401
@@ -57,18 +58,30 @@ _HK_UID_CACHE = {"map": {}, "ts": 0}
 _HK_UID_LOCK = threading.Lock()
 
 
+_HK_UID_LAST_ERR: Optional[str] = None
+
+
 def _refresh_hotkey_uid_map(netuid=32, network="finney"):
-    """Pull metagraph, build {hotkey: uid}. Returns the map (or empty on fail)."""
+    """Pull metagraph, build {hotkey: uid}. Returns the map (or empty on fail).
+    Records the last failure reason in _HK_UID_LAST_ERR so the UI can surface
+    it instead of just showing '?' silently."""
+    global _HK_UID_LAST_ERR
     try:
         import bittensor as bt
-    except ImportError:
+    except ImportError as e:
+        _HK_UID_LAST_ERR = f"bittensor import failed: {e}"
         return {}
     try:
-        sub = bt.subtensor(network)
-        meta = sub.metagraph(netuid, lite=True)
+        sub = bt.subtensor(network=network)
+        meta = sub.metagraph(netuid=netuid, lite=True)
         out = {hk: int(uid) for uid, hk in enumerate(meta.hotkeys)}
+        if not out:
+            _HK_UID_LAST_ERR = "metagraph returned 0 hotkeys"
+            return {}
+        _HK_UID_LAST_ERR = None
         return out
-    except Exception:
+    except Exception as e:
+        _HK_UID_LAST_ERR = f"{type(e).__name__}: {e}"
         return {}
 
 
@@ -417,11 +430,20 @@ def render_requests(requests):
             err_text,
         )
 
+    with _HK_UID_LOCK:
+        cache_size = len(_HK_UID_CACHE.get("map", {}))
+    if cache_size > 0:
+        meta_status = f"vUID map: {cache_size} hotkeys cached"
+    elif _HK_UID_LAST_ERR:
+        meta_status = f"vUID map: EMPTY ({_HK_UID_LAST_ERR})"
+    else:
+        meta_status = "vUID map: loading..."
+
     return Panel(
         table,
         title=f"[bold]Recent validator requests · last {len(requests)} (newest first)[/bold]",
         subtitle=Text(
-            "newest at top · green avg_pred = confident · yellow = uncertain (~0.5)",
+            f"newest at top · green avg_pred = confident · yellow = uncertain (~0.5) · {meta_status}",
             style="dim",
         ),
         border_style="magenta",

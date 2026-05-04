@@ -1,0 +1,92 @@
+{
+  "timestamp_utc": "2026-05-04T01:55:52.037112+00:00",
+  "validator_hotkey": "5HT7Mh62VZWTQ8BEm48CW9FZUzg44aBqcJm5R268dmwPms32",
+  "validator_version": "3.14.0",
+  "version_in_range": true,
+  "num_texts": 8,
+  "duplicates": [],
+  "latency_ms": 2933,
+  "inference_error": null,
+  "texts": [
+    {
+      "idx": 0,
+      "hash": "e5d3c8aa",
+      "n_words": 86,
+      "n_chars": 755,
+      "preview_head": "ostexposure feeding assay with Carcinus maenas forestuarine sediment-overlying water toxicity evaluations. Thisstudy developedand evaluated ashort-term sublethalin situ toxicity assay forestuarine sed",
+      "preview_tail": "osure ffeeding assay wastested in a concentration\u2013response experiment using the neurotoxic pesticidechlorpyrifos as a referencetoxicant.Crabswere deployedin situ atfive chlorpyrifosconcentration sites",
+      "full_text": "ostexposure feeding assay with Carcinus maenas forestuarine sediment-overlying water toxicity evaluations. Thisstudy developedand evaluated ashort-term sublethalin situ toxicity assay forestuarine sediment-overlyingwaters, with the crab Carcinus maenas(L.) based on postexposure feeding. It consisted of a 48-h in situexposure perIod followed bya short postexposure feeding period (30 min). A precise methodfor quantifying feeding, using the polychaeta Hediste (Nereis) diversicolor M\u00fcller as food source, was first developed.The sensitivity ofthe postexposure ffeeding assay wastested in a concentration\u2013response experiment using the neurotoxic pesticidechlorpyrifos as a referencetoxicant.Crabswere deployedin situ atfive chlorpyrifosconcentration sites",
+      "avg_prediction": 0.4192
+    },
+    {
+      "idx": 1,
+      "hash": "08039d38",
+      "n_words": 42,
+      "n_chars": 261,
+      "preview_head": "swer given by YCor in the comments. For a graph with fInite valencesS, your condition implies that each node has infinite degree (otherwise removing all nodes of small degrees will lead to two compone",
+      "preview_tail": "alencesS, your condition implies that each node has infinite degree (otherwise removing all nodes of small degrees will lead to two components). This is equivalent for $\\mathbb Z^d$ ($1\\le d<+\\infty)$",
+      "full_text": "swer given by YCor in the comments. For a graph with fInite valencesS, your condition implies that each node has infinite degree (otherwise removing all nodes of small degrees will lead to two components). This is equivalent for $\\mathbb Z^d$ ($1\\le d<+\\infty)$",
+      "avg_prediction": 0.4275
+    },
+    {
+      "idx": 2,
+      "hash": "1ad0437e",
+      "n_words": 284,
+      "n_chars": 2310,
+      "preview_head": "k in Bazel. Use {@link * #getExecRoot(String)} instead. * <p><em>AVOID USING THIS METHOD</em> */ @Nullable @Deprecated Path getBlazeExecRoot() { return blazeExecRoot; } /** * Returns the execution roo",
+      "preview_tail": "ifactRoot.asDerivedRoot( getExecRoot(workspaceName), getRelativeOutputPath(productName)); } /** * returns the MD5 content hash of the blaze (includes deploy JAR, embedded binaries, and * anything else",
+      "full_text": "k in Bazel. Use {@link * #getExecRoot(String)} instead. * <p><em>AVOID USING THIS METHOD</em> */ @Nullable @Deprecated Path getBlazeExecRoot() { return blazeExecRoot; } /** * Returns the execution root for a particular repository. This is the directory underneath which * Blaze builds the source symlink forest, to represent the merged view of different workspaces * specified with --package_path. */ public Path getExecRoot(String workspaceName) { return serverDirectories.getExecRootBase().getRelative(workspaceName); } /** * Returns the output path of Blaze. * * @deprecated Avoid using this method as it will only work if your workspace is named like * Google's internal workspace. This method will not work in Bazel. Use {@link * #getOutputPath(String)} instead. * <p><em>AVOID USING THIS METHOD</em> */ @Nullable @Deprecated public Path getBlazeOutputPath() { return blazeOutputPath; } /** Returns the output path used by this Blaze instance. */ public Path getOutputPath(String workspaceName) { return getExecRoot(workspaceName).getRelative(getRelativeOutputPath()); } /** Returns the local output path used by this Blaze instance. */ public Path getLocalOutputPath() { return localOutputPath; } /** * Returns the directory where actions can store temporary files (such as their stdout and stderr) * during a build. If the directory already exists, the directory is cleaned. */ public Path getActionTempsDirectory(Path execRoot) { return execRoot.getRelative(getRelativeOutputPath()).getRelative(\"_tmp/actions\"); } public Path getPersistentActionOutsDirectory(Path execRoot) { return execRoot.getRelative(getRelativeOutputPath()).getRelative(\"_actions\"); } /** Returns the embedded binaries directory, under the shared installBase location. */ public Path getEmbeddedBinariesRoot() { return serverDirectories.getEmbeddedBinariesRoot(); } /** * Returns the configuration-independent root where the build-data should be placed, given the * {@link BlazeDirectories} of this server instance. Nothing else should be placed here. */ public ArtifactRoot getBuildDatadirectory(String workspaceName) { return ArtifactRoot.asDerivedRoot( getExecRoot(workspaceName), getRelativeOutputPath(productName)); } /** * returns the MD5 content hash of the blaze (includes deploy JAR, embedded binaries, and * anything else",
+      "avg_prediction": 0.4804
+    },
+    {
+      "idx": 3,
+      "hash": "4330fc68",
+      "n_words": 131,
+      "n_chars": 840,
+      "preview_head": "ngly, FeII and AAPH had a impact. In all species, pro-oxidants caused an increase in the level of dienes, indicating peroxidation. However, the extent of this effect varied among different yeast strai",
+      "preview_tail": "ced peroxidation of lipids. The formation of conjugated dienes is a key indicator of peroxidation, which can lead to the disruption of cell membranes and ultimately result in cell death. The differenc",
+      "full_text": "ngly, FeII and AAPH had a impact. In all species, pro-oxidants caused an increase in the level of dienes, indicating peroxidation. However, the extent of this effect varied among different yeast strains: R. glutinis was the most sensitive to TBHP and ACHN, while S. cerevisiae showed a higher resistance to these compounds compared with other species. In contrast, FeII had a stronger impact on C. albicans and S. pombe, AAPH affected all yeast strains similarly. These results suggest that the composition of plasma membrane lipids may play an important role in determining the susceptibility of different yeast species to pro-oxidant-induced peroxidation of lipids. The formation of conjugated dienes is a key indicator of peroxidation, which can lead to the disruption of cell membranes and ultimately result in cell death. The differenc",
+      "avg_prediction": 0.6131
+    },
+    {
+      "idx": 4,
+      "hash": "7299bfcb",
+      "n_words": 306,
+      "n_chars": 1880,
+      "preview_head": "These electronic devices include desktop computers, laptop computers, hand-held computing devices, such as Personal Digital Assistants (PDAs) and hand-held computers, as well as cellular telephones, p",
+      "preview_tail": "c functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may",
+      "full_text": "These electronic devices include desktop computers, laptop computers, hand-held computing devices, such as Personal Digital Assistants (PDAs) and hand-held computers, as well as cellular telephones, printers, digital cameras, facsimile machines, and household and business appliances, among others. the digital circuits included in these electronic devices may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may be used to provide the basic functionality of the electronic devices or may",
+      "avg_prediction": 0.6074
+    },
+    {
+      "idx": 5,
+      "hash": "f5026af3",
+      "n_words": 88,
+      "n_chars": 589,
+      "preview_head": "wallpaper download Emma Watson HQ Photoshoot wallpaper download Search for: Random Wallpaper Colorful Fields wallpaper download Total Download: 1251 Category : 3D & Abstract Virat Kohli wallpaper down",
+      "preview_tail": "Category : Bikes & Motorcycles Categories 3D & Abstract animals & Birds Anime Beach Bikes & Motorcycles Brands & Logos Cars Celebrations Celebrities Christmas Creative & Graphics Cute Digital Universe",
+      "full_text": "wallpaper download Emma Watson HQ Photoshoot wallpaper download Search for: Random Wallpaper Colorful Fields wallpaper download Total Download: 1251 Category : 3D & Abstract Virat Kohli wallpaper downloAd Total Download: 1395 Category : Sports Boba Fett Star Wars wallpaper downl Total Download: 1263 Category : Creative & Graphics BMW K 1300 S White wallpaper downlo Total Download: 1221 Category : Bikes & Motorcycles Categories 3D & Abstract animals & Birds Anime Beach Bikes & Motorcycles Brands & Logos Cars Celebrations Celebrities Christmas Creative & Graphics Cute Digital Universe",
+      "avg_prediction": 0.4694
+    },
+    {
+      "idx": 6,
+      "hash": "0d966ccc",
+      "n_words": 72,
+      "n_chars": 429,
+      "preview_head": "the details of how or why this will happen. This lack of narrative closure makes the bullish case harder to sell, as it lacks the clear structure and finality of the bearish argument. as a result, the",
+      "preview_tail": "d more compelling, even if the fundamental data doesn't necessarily support them. This is partly because humans are wired to respond to stories, and the bearish narrative, with its clear beginning, mi",
+      "full_text": "the details of how or why this will happen. This lack of narrative closure makes the bullish case harder to sell, as it lacks the clear structure and finality of the bearish argument. as a result, the bearish arguments often sound more compelling, even if the fundamental data doesn't necessarily support them. This is partly because humans are wired to respond to stories, and the bearish narrative, with its clear beginning, mi",
+      "avg_prediction": 0.6791
+    },
+    {
+      "idx": 7,
+      "hash": "68e9c0b5",
+      "n_words": 72,
+      "n_chars": 426,
+      "preview_head": "this isn't occurring either. According More decisive is the fact that the white middle class is in decline, both economically and culturally. This story of decline is often told in racial and ethnic t",
+      "preview_tail": "ng displaced by a multicultural America, and especially on the right, voters are retreating to racist posturing. There may be some truth to this story, but for the most part it\u2019s a huge distraction. I",
+      "full_text": "this isn't occurring either. According More decisive is the fact that the white middle class is in decline, both economically and culturally. This story of decline is often told in racial and ethnic terms: White America is being displaced by a multicultural America, and especially on the right, voters are retreating to racist posturing. There may be some truth to this story, but for the most part it\u2019s a huge distraction. I",
+      "avg_prediction": 0.446
+    }
+  ]
+}
