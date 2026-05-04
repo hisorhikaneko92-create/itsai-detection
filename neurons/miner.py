@@ -100,6 +100,13 @@ def log_validator_request(synapse, predictions, latency_ms, version_ok, inferenc
                 "preview_tail": texts[i][-200:],
                 "full_text": texts[i],
                 "avg_prediction": avg_preds[i] if i < len(avg_preds) else None,
+                "words": texts[i].split(),
+                "predictions": (
+                    [round(float(v), 4) for v in predictions[i]]
+                    if predictions and i < len(predictions)
+                    and isinstance(predictions[i], list)
+                    else None
+                ),
             }
             for i in range(len(texts))
         ],
