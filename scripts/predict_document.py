@@ -144,6 +144,7 @@ class HSSDPredictor:
             )
 
         self.model.to(self.device)
+        self.model.float()        # force fp32 throughout — fixes dtype mismatch + ensures determinism
         self.model.eval()
 
         # Cache convenience handles. _resolve_crf walks PEFT wrapping
