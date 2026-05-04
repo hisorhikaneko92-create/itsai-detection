@@ -536,6 +536,22 @@ class HSSDPredictor:
             if cached is not None:
                 results[i] = cached
 
+        # Greppable one-line cache stat per /predict call. SN32 gate-2 diagnosis:
+        # for the validator's main batch we expect hit==len(check_ids) (the
+        # check-batch texts pre-populated the cache); 0 hits on a 120-text main
+        # request immediately after a check probe means the cache was wiped
+        # between calls (server restart or cache eviction).
+        n_total = len(texts)
+        n_empty = sum(1 for r in results if r == [])
+        n_hits = sum(1 for r in results if r is not None and r != [])
+        n_miss = sum(1 for r in results if r is None)
+        print(
+            f"[cache {time.strftime('%Y-%m-%dT%H:%M:%S')}] "
+            f"hit={n_hits} miss={n_miss} empty={n_empty} total={n_total} "
+            f"size={len(self._pred_cache)}",
+            flush=True,
+        )
+
         # Tokenize ONLY texts that need prediction (cache miss + non-empty).
         # Indices into `texts` that still need work after the cache pass.
         miss_idx: List[int] = [i for i, r in enumerate(results) if r is None]
