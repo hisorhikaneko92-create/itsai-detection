@@ -19,6 +19,37 @@ Usage on your Local PC:
         --base-model models/deberta-v3-large-hf-weights \\
         --port 18091
 """
+# === CUDA determinism (must run BEFORE torch CUDA init) ===
+# Required for SN32's batch-consistency / determinism gate. The validator
+# probes the same document both alone and inside a batched call, then
+# fails the miner (penalty=0, reward=0) if the predictions differ. Three
+# sources of cross-batch variance get pinned down here:
+#
+#   1. CUBLAS_WORKSPACE_CONFIG=":4096:8" -- reserves a fixed workspace so
+#      cuBLAS can satisfy torch.use_deterministic_algorithms(True). Without
+#      this env var, cuBLAS gemm calls under deterministic mode raise.
+#   2. torch.use_deterministic_algorithms(True, warn_only=True) -- forces
+#      every op that has a deterministic implementation to use it. warn_only
+#      keeps benign non-deterministic ops (e.g. some scatter variants) from
+#      crashing the server -- they print a UserWarning instead.
+#   3. cudnn.deterministic + cudnn.benchmark=False -- disables cuDNN's
+#      kernel-picking algorithm, which would otherwise select different
+#      conv kernels for different (batch, seq_len) shapes and produce
+#      shape-dependent rounding differences.
+#
+# This block MUST run before any torch CUDA call -- before model load,
+# before tensor creation -- otherwise cuBLAS/cuDNN initialise their
+# handles with the non-deterministic defaults and the settings only take
+# partial effect. Putting it at the top of the file (above the rest of
+# the imports) guarantees that ordering.
+import os
+os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"
+import torch
+torch.use_deterministic_algorithms(True, warn_only=True)
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
+# === end determinism block ===
+
 import argparse
 import hashlib
 import json
