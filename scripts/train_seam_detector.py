@@ -2910,17 +2910,17 @@ def parse_args() -> argparse.Namespace:
                         "Default 5.0 -- typical training noise stays well under "
                         "2x EMA so 5x is comfortably above false-positive range.")
 
-    # Loss (boundary-aware, two-term) -- DEPRECATED.
-    # These flags are kept so old launch commands still parse, but the
-    # active loss path is focal + CRF (see --lambda-focal etc. below).
-    # The values here are not read by the training loop.
+    # Legacy v3 flags — kept so old launch commands still parse.
+    # NOTE: v3's --lambda-boundary was a DIFFERENT loss (boundary-CE
+    # window). v4 reuses --lambda-boundary for the Gaussian-target
+    # BCE head defined in the "Boundary head" group below; the v3
+    # version of this flag has been removed to avoid an argparse
+    # collision. --boundary-weight and --boundary-radius remain as
+    # accepted-but-ignored aliases for backward CLI compatibility.
     p.add_argument("--boundary-weight", type=float, default=3.0,
-                   help="DEPRECATED. Replaced by focal loss; ignored.")
+                   help="DEPRECATED (v3 boundary-CE). Ignored in v4.")
     p.add_argument("--boundary-radius", type=int, default=2,
-                   help="DEPRECATED. Replaced by focal loss; ignored.")
-    p.add_argument("--lambda-boundary", dest="lambda_boundary",
-                   type=float, default=0.5,
-                   help="DEPRECATED. Replaced by focal loss; ignored.")
+                   help="DEPRECATED (v3 boundary-CE). Ignored in v4.")
 
     # Focal loss (per-token)
     p.add_argument("--lambda-focal", type=float, default=0.3,
