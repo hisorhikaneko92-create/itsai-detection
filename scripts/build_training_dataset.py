@@ -415,46 +415,51 @@ def augment(text: str, labels: List[int],
 #     /v1/models lists hundreds of those).
 # ---------------------------------------------------------------------------
 OPENROUTER_MODELS = [
+    # Validator-aligned OpenRouter rotation. Each slug is the closest
+    # OpenRouter route to a model the validator's data_generator.py
+    # actually uses. EXTRA models the validator never generates from
+    # (gpt-oss-20b/120b, hermes-3, nemotron, llama-3.1-8b) were removed
+    # 2026-05 because they were producing ~27% of AI rows in a style
+    # the on-chain detection model would never see in production.
+    #
+    # Validator coverage: 17/27 unique validator models (all routes
+    # verified live on OpenRouter 2026-05).
+    # Still MISSING (no OpenRouter route): InternLM family (5 slots),
+    # yi:34b-chat, athene-v2:72b, aya-expanse:32b, llama2:13b,
+    # llama3:text base. These live on Together AI / DeepInfra.
+
     # ── Llama family ──────────────────────────────────────────────
-    "meta-llama/llama-3.3-70b-instruct",
-    "meta-llama/llama-3.1-70b-instruct",
-    "meta-llama/llama-3.1-8b-instruct",
-    "meta-llama/llama-3.2-3b-instruct",
+    "meta-llama/llama-3.3-70b-instruct",          # validator: llama3.3:70b
+    "meta-llama/llama-3.1-70b-instruct",          # validator: llama3.1:70b-text-q4_0
+    "meta-llama/llama-3.2-3b-instruct",           # validator: llama3.2
+    "meta-llama/llama-3-70b-instruct",            # validator: llama3:70b
 
     # ── Qwen family ──────────────────────────────────────────────
-    "qwen/qwen-2.5-72b-instruct",
-    "qwen/qwen-2.5-7b-instruct",
-    "qwen/qwen-2.5-coder-32b-instruct",
+    "qwen/qwen-2.5-72b-instruct",                 # validator: qwen2.5:72b
+    "qwen/qwen-2.5-7b-instruct",                  # close: qwen2.5:14b
+    "qwen/qwen-2.5-coder-32b-instruct",           # validator: qwen2.5-coder:32b
+    "qwen/qwen3-32b",                             # validator: qwen3:32b (verify route)
 
     # ── Google Gemma ──────────────────────────────────────────────
-    "google/gemma-2-27b-it",
+    "google/gemma-2-27b-it",                      # validator: gemma2:27b-text-q4_0
 
     # ── Mistral ──────────────────────────────────────────────────
-    "mistralai/mistral-nemo",
-    "mistralai/mistral-small-24b-instruct-2501",
-    "mistralai/mistral-large",
+    "mistralai/mistral-nemo",                     # validator: mistral-nemo:12b
+    "mistralai/mistral-small-24b-instruct-2501",  # close: mistral-small:22b
+    "mistralai/mistral-large",                    # validator: mistral-large:123b
 
     # ── Cohere ──────────────────────────────────────────────────
-    "cohere/command-r-08-2024",
-    "cohere/command-r-plus-08-2024",
+    "cohere/command-r-08-2024",                   # validator: command-r
+    "cohere/command-r-plus-08-2024",              # validator: command-r-plus:104b
+    # NOTE: aya-expanse-32b not routed on OpenRouter (catalog confirmed
+    # 2026-05). Available on Together AI / DeepInfra if needed.
 
     # ── DeepSeek ────────────────────────────────────────────────
-    "deepseek/deepseek-chat",
+    "deepseek/deepseek-chat",                     # close: deepseek-v2:16b
+    "deepseek/deepseek-r1",                       # validator: deepseek-r1:14b
 
-    # ── Microsoft ────────────────────────────────────────────────
-    # phi-3-medium-128k-instruct: REMOVED 2026-04 -- OpenRouter no
-    # longer routes this slug (returns 404 "No endpoints found"). If
-    # phi-4 or a successor reappears in the catalog, add it here.
-
-    # ── Nvidia Nemotron ──────────────────────────────────────────
-    "nvidia/llama-3.1-nemotron-70b-instruct",
-
-    # ── OpenAI open-weight gpt-oss ───────────────────────────────
-    "openai/gpt-oss-20b",
-    "openai/gpt-oss-120b",
-
-    # ── Nous fine-tunes ─────────────────────────────────────────
-    "nousresearch/hermes-3-llama-3.1-70b",
+    # ── Microsoft Phi ────────────────────────────────────────────
+    "microsoft/phi-4",                            # validator: phi4:14b (verify route)
 ]
 
 VALIDATOR_MODELS = [
@@ -1217,6 +1222,112 @@ def build_ai_in_middle(pair: Dict[str, str], client: ChatClient,
     return text, labels, "ai_in_middle", model
 
 
+def build_quad_paired(pair: Dict[str, str], client: ChatClient,
+                      model: Optional[str] = None
+                      ) -> Tuple[str, List[int], str, str, List[Dict]]:
+    """One CC pair → four labelled rows, derived from minimum API work:
+
+      [main]   human_then_ai : begin + ai_middle      labels [0..,1..]
+      [extra]  ai_then_human : ai_middle + end        labels [1..,0..]
+      [extra]  pure_human    : pair['completion']     labels all 0
+      [extra]  pure_ai       : prompt-continuation    labels all 1
+
+    The middle generation is the validator's `regenerated_in_the_middle`
+    (summary + generate, 2 calls). Splitting the begin/middle/end parts
+    yields the 0->1 and 1->0 patterns for free. One extra continuation
+    call produces pure_ai. Total: 3 API calls per pair, 4 rows."""
+    full_text = pair["prompt"]
+    sentences = get_sentences(full_text)
+    if len(sentences) < 5:
+        raise RuntimeError(f"need >=5 sentences for quad, got {len(sentences)}")
+
+    lens = [len(x) for x in sentences]
+    first_part = len(sentences) // 3
+    second_part = 2 * len(sentences) // 3
+    first_size = sum(lens[:first_part])
+    second_size = sum(lens[first_part:second_part])
+    third_size = sum(lens[second_part:])
+    for _ in range(10):
+        if first_part > 0 and first_size - lens[first_part - 1] > second_size + lens[first_part - 1]:
+            first_part -= 1
+        elif second_part > first_part and second_size - lens[second_part - 1] > third_size + lens[second_part - 1]:
+            second_part -= 1
+        elif first_part < second_part and first_part < len(lens) and first_size + lens[first_part] < second_size - lens[first_part]:
+            first_part += 1
+        elif second_part < len(sentences) and second_size + lens[second_part] < third_size - lens[second_part]:
+            second_part += 1
+        else:
+            break
+        first_size = sum(lens[:first_part])
+        second_size = sum(lens[first_part:second_part])
+        third_size = sum(lens[second_part:])
+
+    if first_part == 0 or second_part >= len(sentences):
+        raise RuntimeError("balance-thirds collapsed to a degenerate split")
+
+    begin = "".join(sentences[:first_part])
+    middle = "".join(sentences[first_part:second_part])
+    end = "".join(sentences[second_part:])
+
+    middle_stripped = middle.rstrip()
+    diff = len(middle) - len(middle_stripped)
+    if diff > 0:
+        end = middle[-diff:] + end
+    middle = middle_stripped
+
+    if model is None:
+        model = client.pick()
+    summary = client.chat(model, [
+        {"role": "system", "content": random.choice(SUMMARY_PROMPTS)},
+        {"role": "user", "content": middle},
+    ])
+    middle_size = max(1, len(middle.split()))
+    generated = client.chat(model, [
+        {"role": "system", "content": random.choice(GENERATION_PROMPTS) +
+            f" The middle should be about {middle_size} words long"},
+        {"role": "user", "content": f"begin: {begin}\nend: {end}\nsummary: {summary}"},
+    ]).strip()
+    if not generated:
+        raise RuntimeError(f"empty middle from {model}")
+
+    # Main row: human_then_ai (0 -> 1)
+    main_text = begin + generated
+    main_labels = [0] * len(begin.split()) + [1] * len(generated.split())
+
+    extras: List[Dict] = []
+
+    # Extra 1: ai_then_human (1 -> 0)
+    ath_text = generated + end
+    ath_labels = [1] * len(generated.split()) + [0] * len(end.split())
+    extras.append({
+        "_text": ath_text, "_labels": ath_labels,
+        "sample_type": "ai_then_human", "model_name": model,
+    })
+
+    # Extra 2: pure_human from pair['completion'] (no API call)
+    h_text = pair["completion"].strip()
+    if h_text and len(h_text.split()) >= 20:
+        extras.append({
+            "_text": h_text, "_labels": [0] * len(h_text.split()),
+            "sample_type": "pure_human", "model_name": "none",
+        })
+
+    # Extra 3: pure_ai (1 more API call)
+    try:
+        completion = client.continue_text(model, pair["prompt"])
+        if completion and len(completion.split()) >= 20:
+            extras.append({
+                "_text": completion,
+                "_labels": [1] * len(completion.split()),
+                "sample_type": "pure_ai", "model_name": model,
+            })
+    except Exception:
+        # pure_ai is best-effort; never block the quad's main 3 rows
+        pass
+
+    return main_text, main_labels, "human_then_ai", model, extras
+
+
 def build_human_in_middle(pair: Dict[str, str], client: ChatClient,
                           model: Optional[str] = None
                           ) -> Tuple[str, List[int], str, str]:
@@ -1478,6 +1589,10 @@ SAMPLE_MIX = [
     # because it costs 4 API calls per sample and most validator
     # windows are 0->1 / 1->0, not 1->0->1. Pair with --no-subsample.
     ("human_in_middle", 0.00),
+    # quad: one CC pair → up to 4 rows (human_then_ai main + ai_then_human,
+    # pure_human, pure_ai extras). 3 API calls per pair. Opt-in via
+    # --sample-types only; --n-samples then counts CC roots, not rows.
+    ("quad", 0.00),
 ]
 
 VALIDATOR_SAMPLE_MIX = [
@@ -1622,6 +1737,8 @@ def _process_one(task: Tuple[str, str],
                 min_sents = 5
             elif sample_type == "human_in_middle":
                 min_sents = 5
+            elif sample_type == "quad":
+                min_sents = 5
             elif sample_type == "multi_seam":
                 min_sents = getattr(args, "multi_seam_segments", 4) + 2
             if min_sents is not None:
@@ -1636,8 +1753,13 @@ def _process_one(task: Tuple[str, str],
         retry_with_fresh_pair = False
         while attempt < max_retries:
             try:
+                quad_extras: List[Dict] = []
                 if sample_type == "pure_human":
                     text, labels, st, model_name = build_pure_human(pair)
+                elif sample_type == "quad":
+                    text, labels, st, model_name, quad_extras = build_quad_paired(
+                        pair, client, model=model_for_call,
+                    )
                 elif sample_type == "pure_ai":
                     text, labels, st, model_name = build_pure_ai(pair, client, model=model_for_call)
                 elif sample_type == "human_then_ai":
@@ -1741,7 +1863,7 @@ def _process_one(task: Tuple[str, str],
                     if len(labels) != len(text.split()):
                         raise RuntimeError("augmentation broke word count")
 
-                return {
+                row = {
                     "text": text,
                     "segmentation_labels": json.dumps(labels),
                     "data_source": pair["data_source"],
@@ -1749,7 +1871,77 @@ def _process_one(task: Tuple[str, str],
                     "model_name": model_name,
                     "n_words": len(labels),
                     "augmented": "true" if augmented else "false",
-                }, None
+                }
+
+                # Quad: turn each saved extra into a complete row with the
+                # same pre-/post-processing as the main row. Failures on
+                # individual extras are silently dropped.
+                if quad_extras:
+                    extras_out: List[Dict] = []
+                    for ex in quad_extras:
+                        try:
+                            ex_text, ex_labels = ex["_text"], ex["_labels"]
+                            if not args.no_subsample:
+                                ex_text, ex_labels = subsample_words(ex_text, ex_labels)
+                            if (len(ex_labels) != len(ex_text.split())
+                                    or len(ex_labels) < 20):
+                                continue
+                            ex_aug = False
+                            if not args.no_augment:
+                                ex_text, ex_labels = augment(
+                                    ex_text, ex_labels, per_word_p=args.augment_rate
+                                )
+                                ex_aug = True
+                                if len(ex_labels) != len(ex_text.split()):
+                                    continue
+                            extras_out.append({
+                                "text": ex_text,
+                                "segmentation_labels": json.dumps(ex_labels),
+                                "data_source": pair["data_source"],
+                                "sample_type": ex["sample_type"],
+                                "model_name": ex["model_name"],
+                                "n_words": len(ex_labels),
+                                "augmented": "true" if ex_aug else "false",
+                            })
+                        except Exception:
+                            continue
+                    if extras_out:
+                        row["_extra_rows"] = extras_out
+
+                # Twin output: when this is a pure_ai row and the user
+                # asked for paired pure_human rows, build a second row from
+                # the same pair's discarded back-half. Twin failures never
+                # block the main row.
+                twin_path = getattr(args, "pair_pure_human_output", None)
+                if st == "pure_ai" and twin_path:
+                    try:
+                        h_text, h_labels, h_st, h_model = build_pure_human(pair)
+                        if not args.no_subsample:
+                            h_text, h_labels = subsample_words(h_text, h_labels)
+                        if (len(h_labels) == len(h_text.split())
+                                and len(h_labels) >= 20):
+                            h_aug = False
+                            if not args.no_augment:
+                                h_text, h_labels = augment(
+                                    h_text, h_labels, per_word_p=args.augment_rate
+                                )
+                                h_aug = True
+                                if len(h_labels) != len(h_text.split()):
+                                    raise RuntimeError("twin augment broke word count")
+                            row["_twin_row"] = {
+                                "text": h_text,
+                                "segmentation_labels": json.dumps(h_labels),
+                                "data_source": pair["data_source"],
+                                "sample_type": h_st,
+                                "model_name": h_model,
+                                "n_words": len(h_labels),
+                                "augmented": "true" if h_aug else "false",
+                            }
+                    except Exception:
+                        # Twin is a freebie — never let it sink the main row.
+                        pass
+
+                return row, None
             except requests.HTTPError as e:
                 last_err = _format_http_error(e)
                 code = getattr(e.response, "status_code", 0)
@@ -1927,6 +2119,12 @@ def main():
                          "since CC is slower and downloads ~hundreds of MB.")
     ap.add_argument("--no-cc", action="store_false", dest="enable_cc",
                     help="Disable Common Crawl, use Pile only.")
+    ap.add_argument("--pile-skip", type=int, default=0,
+                    help="Skip the first N Pile documents before reading. "
+                         "Use this on later runs to read past previously-"
+                         "consumed documents (e.g. --pile-skip 50000 on run "
+                         "2 if run 1 consumed ~50k docs). Combined with "
+                         "--seen-roots dedup, ensures truly fresh data.")
     ap.add_argument("--pile-prob", type=float, default=80 / 120,
                     help="Probability of pulling from Pile vs CC. Default 80/120 = "
                          "0.667 — matches the validator's HumanDataset / PromptDataset "
@@ -1955,6 +2153,15 @@ def main():
                          "    -> 50/50 mix of 0->1->0 and 1->0->1\n"
                          "  --sample-types multi_seam\n"
                          "    -> 100%% multi_seam (3+ seams @ default n=4)")
+    ap.add_argument("--pair-pure-human-output", default=None,
+                    help="When set and --sample-types includes pure_ai, every "
+                         "successful pure_ai row's CC pair will ALSO produce a "
+                         "pure_human row (built from pair['completion']) and "
+                         "write it to this CSV. Lets you generate paired AI/"
+                         "human samples from the same root document in one "
+                         "pass — no extra CC pulls. Has no effect on non-"
+                         "pure_ai tasks. Twin failures (e.g. completion too "
+                         "short after subsample) never block the main row.")
     ap.add_argument("--seen-roots", default="data/seen_roots.txt",
                     help="Path to a shared file of CC-prompt SHA1 hashes already "
                          "consumed. Pairs whose prompt-hash is in this file are "
@@ -2199,16 +2406,26 @@ def main():
                   f"don't expose a model listing endpoint. Use --skip-health-check to "
                   f"silence this.")
 
-    # PileStream was removed in the cc_net refactor. CC-only mode now.
-    # If the user explicitly asks for pile (pile_prob > 0), bail with a
-    # clear message rather than silently dropping the request.
+    # Pile source: monology/pile-uncopyrighted via streaming HF datasets.
+    # Activated when --pile-prob > 0. Reuses HFTextStream which char-cuts
+    # each doc into the same {prompt, completion} shape as CCStream.
     pile = None
     if args.pile_prob > 0.0:
-        sys.exit(
-            f"--pile-prob={args.pile_prob} requires PileStream which has been "
-            f"removed in the cc_net refactor. Pass --pile-prob 0.0 for "
-            f"CC-only generation, or restore PileStream if you need Pile."
-        )
+        try:
+            pile = HFTextStream(
+                dataset_name="monology/pile-uncopyrighted",
+                source_tag="pile",
+                max_prompt_len=args.max_prompt_len,
+                seed=args.seed,
+                skip=args.pile_skip,
+            )
+            print(f"Pile (monology/pile-uncopyrighted): enabled "
+                  f"(pile_prob={args.pile_prob:.3f}, skip={args.pile_skip})")
+        except Exception as e:
+            sys.exit(
+                f"Failed to init Pile stream ({e}). Make sure the "
+                f"`datasets` library is installed and HF is reachable."
+            )
 
     cc_stream: Optional[CCStream] = None
     if args.enable_cc:
@@ -2325,6 +2542,20 @@ def main():
     t_first = time.time()
     pbar = tqdm(total=args.n_samples, initial=already, dynamic_ncols=True)
 
+    twin_writer = None
+    twin_f = None
+    twin_count = 0
+    if getattr(args, "pair_pure_human_output", None):
+        twin_path = Path(args.pair_pure_human_output)
+        twin_path.parent.mkdir(parents=True, exist_ok=True)
+        twin_new = not twin_path.exists() or twin_path.stat().st_size == 0
+        twin_f = open(twin_path, "a", newline="", encoding="utf-8")
+        twin_writer = csv.DictWriter(twin_f, fieldnames=fieldnames)
+        if twin_new:
+            twin_writer.writeheader()
+            twin_f.flush()
+        print(f"Twin pure_human output: {twin_path}")
+
     interrupted = False
     try:
         with open(out_path, "a", newline="", encoding="utf-8") as f:
@@ -2359,9 +2590,18 @@ def main():
                         produced += 1
                         continue
 
+                    twin = row.pop("_twin_row", None)
+                    extras = row.pop("_extra_rows", None) or []
                     with write_lock:
                         writer.writerow(row)
+                        for ex in extras:
+                            writer.writerow(ex)
+                            counts[ex["sample_type"]] = counts.get(ex["sample_type"], 0) + 1
                         f.flush()
+                        if twin is not None and twin_writer is not None:
+                            twin_writer.writerow(twin)
+                            twin_f.flush()
+                            twin_count += 1
                     counts[row["sample_type"]] = counts.get(row["sample_type"], 0) + 1
                     produced += 1
                     pbar.update(1)
@@ -2381,8 +2621,16 @@ def main():
         stop_event.set()
 
     pbar.close()
+    if twin_f is not None:
+        try:
+            twin_f.close()
+        except Exception:
+            pass
     print("\nDone." if not interrupted else "\nStopped (resumable).")
     print(f"Output: {out_path} ({count_existing_rows(out_path)} rows total)")
+    if twin_writer is not None:
+        print(f"Twin pure_human output: {args.pair_pure_human_output} "
+              f"(+{twin_count} rows this run)")
     print(f"Per sample-type counts produced this run: {dict(counts)}")
     if fails:
         print(f"Failures (dropped after retries): {dict(fails)}")
