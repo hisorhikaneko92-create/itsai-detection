@@ -506,7 +506,17 @@ class SeamDetector(nn.Module):
         # mode) is unaffected.
         cfg.hidden_dropout_prob = float(hidden_dropout)
         cfg.attention_probs_dropout_prob = float(attn_dropout)
-        self.backbone = AutoModel.from_pretrained(model_name, config=cfg)
+        # Force fp32 weights regardless of the source file's torch_dtype.
+        # If the local model file was saved as fp16 (some checkpoints are),
+        # loading it natively gives a backbone in fp16 while our custom
+        # modules (LayerNorms, MHA, Conv, BPM, etc.) default to fp32 —
+        # CLAF's mixed-precision attention path then trips
+        # F.layer_norm with mismatched dtypes ("expected Half found Float").
+        # Standard mixed-precision training keeps params in fp32 and uses
+        # autocast to cast ACTIVATIONS to bf16 only inside the forward.
+        self.backbone = AutoModel.from_pretrained(
+            model_name, config=cfg, torch_dtype=torch.float32,
+        )
         hidden_size = self.backbone.config.hidden_size
 
         self.claf = CrossLayerAttentionFusionV3(
@@ -549,6 +559,15 @@ class SeamDetector(nn.Module):
 
         self.crf = CRF(2, batch_first=True)
         self.num_labels = 2
+
+        # Final guard: force the WHOLE SeamDetector to fp32. This is
+        # idempotent if the backbone was already fp32 (the AutoModel
+        # call above forced it), but it also covers any future submodule
+        # path that might have inherited a non-fp32 dtype. With bf16
+        # training, autocast handles activation dtype casts at forward
+        # time — parameters stay fp32, which is the correct mixed-prec
+        # convention.
+        self.float()
 
     # -------------------------------------------------------------------
     # Internal forward helpers
