@@ -112,8 +112,24 @@ class HSSDPredictor:
                  base_model: str = "microsoft/deberta-v3-large",
                  device: Optional[str] = None,
                  window_size: int = 512,
-                 stride: int = 256,
-                 aggregation: str = "emission_avg"):
+                 stride: int = 128,
+                 aggregation: str = "emission_avg",
+                 calibration_gamma: Optional[float] = None):
+        """
+        window_size : DeBERTa hard ceiling (512). Do not change.
+        stride      : sliding-window step in TOKENS. v4 default is 128
+                      → 4× window overlap (was 2× at stride 256). The
+                      extra forward passes are cheap on a 5090 and
+                      materially reduce seam-offset MAE for tokens that
+                      land near a window edge in the legacy stride.
+        calibration_gamma :
+                      Additive shift to emissions[..., 1] (AI class)
+                      before CRF decode. Calibrates the false-positive
+                      / false-negative trade-off. If None, attempts to
+                      load `<model_dir>/calibration.json` produced by
+                      scripts/calibrate_model.py; if that's missing,
+                      defaults to 0.0 (no shift).
+        """
         if aggregation not in ("emission_avg", "or_vote"):
             raise ValueError(
                 f"aggregation must be 'emission_avg' or 'or_vote', got {aggregation!r}"
@@ -150,6 +166,26 @@ class HSSDPredictor:
         self.model.to(self.device)
         self.model.float()        # force fp32 throughout — fixes dtype mismatch + ensures determinism
         self.model.eval()
+
+        # Resolve the post-training calibration γ (label-1 shift).
+        # Precedence: explicit constructor arg > calibration.json next
+        # to the model > 0.0. The calibration script writes calibration.json
+        # with the γ that maximizes f1_at_5 on val_rebalanced.
+        if calibration_gamma is None:
+            cal_path = self.model_dir / "calibration.json"
+            if cal_path.exists():
+                try:
+                    cal = json.loads(cal_path.read_text(encoding="utf-8"))
+                    calibration_gamma = float(cal.get("gamma", 0.0))
+                    print(f"[predict_document] loaded calibration γ = "
+                          f"{calibration_gamma:+.3f} from {cal_path.name}")
+                except Exception as e:
+                    print(f"[predict_document] WARN: failed to read "
+                          f"{cal_path}: {e}; using γ=0")
+                    calibration_gamma = 0.0
+            else:
+                calibration_gamma = 0.0
+        self.calibration_gamma = float(calibration_gamma)
 
         # ----- Per-text prediction cache (SN32 consistency-gate defense) -----
         # The validator probes the miner with a small "check" batch first
@@ -271,19 +307,22 @@ class HSSDPredictor:
     @torch.inference_mode()
     def _run_single_window_decode(self, input_ids: List[int]) -> List[int]:
         """Pad to window_size, run forward + CRF Viterbi, return per-token labels.
-        Output length equals len(input_ids) (the unpadded count)."""
+        Output length equals len(input_ids) (the unpadded count).
+
+        v4: applies the calibration γ-shift to the AI-class emission
+        before CRF decode, matching the emission_avg path. We compute
+        emissions, optionally shift, then run the CRF decode manually
+        instead of taking the model.forward(labels=None) shortcut."""
         n = len(input_ids)
-        pad_id = self.tokenizer.pad_token_id or 0
-        padded = input_ids + [pad_id] * (self.window_size - n)
-        ids = torch.tensor([padded], dtype=torch.long, device=self.device)
-        mask = torch.zeros_like(ids)
-        mask[:, :n] = 1
-        # SeamDetector.forward(labels=None) returns Viterbi-decoded paths
-        # as list[list[int]]. Length per sequence == n (the actual
-        # content length; CRF mask honors the padding-aware attention
-        # mask, and the [CLS]-prepended dummy keeps total length = n).
-        path = self.model(ids, mask)[0]
-        return list(path)[:n]
+        em = self._run_single_window_emissions(input_ids)            # [n, 2]
+        if self.calibration_gamma:
+            em = em.clone()
+            em[..., 1] = em[..., 1] + self.calibration_gamma
+        em_no_cls = em[1:].unsqueeze(0)                              # [1, n-1, 2]
+        crf_mask = torch.ones(1, n - 1, dtype=torch.bool, device=self.device)
+        with torch.amp.autocast(device_type=self.device.type, enabled=False):
+            decoded_no_cls = self._crf.decode(em_no_cls.float(), mask=crf_mask)
+        return [0] + list(decoded_no_cls[0])
 
     @torch.inference_mode()
     def _run_single_window_emissions(self,
@@ -384,6 +423,14 @@ class HSSDPredictor:
 
         # Normalize per-token (avoid divide-by-zero with clamp).
         avg_em = accum / weight_sum.clamp_min(1e-9).unsqueeze(-1)   # [n, 2]
+
+        # Calibration γ: post-training shift on the AI-class emission.
+        # γ > 0 → more AI predictions (raise recall, lower precision).
+        # γ < 0 → fewer AI predictions (raise precision, lower recall).
+        # The optimal γ is fit on val_rebalanced by scripts/calibrate_model.py.
+        if self.calibration_gamma:
+            avg_em = avg_em.clone()
+            avg_em[..., 1] = avg_em[..., 1] + self.calibration_gamma
 
         # Slice off [CLS] (always position 0) before global Viterbi --
         # same convention the training-time CRF uses to avoid the

@@ -22,12 +22,24 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize if sys.maxsize < 2**31 else 2**31 - 1)
 
+import argparse
+
 DATA_DIR = Path("data/Training_Dataset")
-OUTPUT = DATA_DIR / "new_pure_human_pile.csv"
-TARGET = 12_285
+DEFAULT_OUTPUT = DATA_DIR / "new_pure_human_pile.csv"
+DEFAULT_TARGET = 12_285
 MIN_WORDS = 35
 MAX_WORDS = 350
-SEED = 42
+DEFAULT_SEED = 42
+
+# Parse CLI args (with defaults that match original behavior)
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--output", default=str(DEFAULT_OUTPUT))
+_ap.add_argument("--target", type=int, default=DEFAULT_TARGET)
+_ap.add_argument("--seed", type=int, default=DEFAULT_SEED)
+_args = _ap.parse_args()
+OUTPUT = Path(_args.output)
+TARGET = _args.target
+SEED = _args.seed
 
 
 def text_hash(t):
