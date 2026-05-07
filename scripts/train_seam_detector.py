@@ -2088,6 +2088,7 @@ def train(args: argparse.Namespace) -> None:
         max_length=args.max_length, stride=args.stride,
         shuffle_rows=True, max_rows=args.max_train_rows,
         seed=args.seed or 0,
+        boundary_sigma=args.boundary_sigma,
     )
     print(f"  train chunks: {len(train_ds)}")
 
@@ -2099,6 +2100,7 @@ def train(args: argparse.Namespace) -> None:
             max_length=args.max_length, stride=args.stride,
             shuffle_rows=False, max_rows=args.max_val_rows,
             seed=(args.seed or 0) + 1,
+            boundary_sigma=args.boundary_sigma,
         )
         print(f"  val chunks:   {len(val_ds)}")
 
@@ -3135,11 +3137,12 @@ def parse_args() -> argparse.Namespace:
 
     args = p.parse_args()
 
-    if args.lora_dropout and args.lora_dropout > 0.0:
-        print(f"WARNING: --lora-dropout={args.lora_dropout} > 0. The HSSD "
-              f"doc forbids dropout (it breaks the validator's "
-              f"determinism gate). Setting it to 0.0.")
-        args.lora_dropout = 0.0
+    # NOTE (v4.1): the v3-era guard that auto-zeroed --lora-dropout has
+    # been removed. The "no dropout" rule applies to INFERENCE — the
+    # validator runs the miner in eval() mode, where PyTorch + PEFT both
+    # auto-disable dropout. Training-time dropout (backbone, CLAF MHA,
+    # LoRA adapters) is invisible to the determinism gate and provides
+    # meaningful regularization, so we leave whatever the user passes.
     return args
 
 
