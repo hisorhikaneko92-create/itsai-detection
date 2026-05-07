@@ -165,7 +165,51 @@ class HSSDPredictor:
 
         self.model.to(self.device)
         self.model.float()        # force fp32 throughout — fixes dtype mismatch + ensures determinism
-        self.model.eval()
+        self.model.eval()         # disable dropout / training-mode behaviour
+
+        # Defensive eval-mode verification.
+        #
+        # v4 trains with non-trivial dropout (backbone hidden / attn = 0.1,
+        # LoRA = 0.1, CLAF cross-attn = 0.1) and DeBERTa's StableDropout
+        # layers. Each of those produces non-deterministic outputs when
+        # `module.training` is True — and the SN32 validator's
+        # batch-consistency gate (`np.round(predictions, 2)` cross-batch
+        # equality) fails the moment ANY dropout fires.
+        #
+        # `self.model.eval()` propagates to every child module, but PEFT's
+        # `modules_to_save` mechanism creates duplicate adapter copies, and
+        # there are subtle versions of HF/PEFT where the duplicate's
+        # `.training` flag can desync from the parent. The only safe thing
+        # is to walk every nn.Module and confirm none is in training mode.
+        # If any is, we force it off explicitly AND log a warning so the
+        # operator knows something needs investigation.
+        train_mode_offenders = []
+        for name, mod in self.model.named_modules():
+            if mod.training:
+                train_mode_offenders.append(name)
+                mod.train(False)
+        if train_mode_offenders:
+            print(
+                f"[predict_document] WARN: {len(train_mode_offenders)} module(s) "
+                f"were still in training mode after .eval(); forced to eval. "
+                f"First 5: {train_mode_offenders[:5]}",
+                flush=True,
+            )
+        # Sanity-print: any active Dropout layer with p>0 is also a smell —
+        # in eval() mode dropout is a no-op regardless of p, but if you ever
+        # see this fire after retraining you've likely changed dropout
+        # semantics somewhere.
+        active_dropout = []
+        for name, mod in self.model.named_modules():
+            if isinstance(mod, torch.nn.Dropout) and float(getattr(mod, "p", 0.0)) > 0.0 and mod.training:
+                active_dropout.append((name, float(mod.p)))
+        if active_dropout:
+            print(
+                f"[predict_document] WARN: {len(active_dropout)} Dropout layer(s) "
+                f"with p>0 are STILL in training mode. SN32 determinism gate "
+                f"will fail. Layers: {active_dropout[:5]}",
+                flush=True,
+            )
 
         # Resolve the post-training calibration γ (label-1 shift).
         # Precedence: explicit constructor arg > calibration.json next
@@ -519,6 +563,16 @@ class HSSDPredictor:
         else:
             em = self._aggregate_emissions(input_ids)                 # [n, 2] fp32
 
+        # v4 calibration γ: post-training shift on the AI-class emission,
+        # applied BEFORE both the CRF decode and the softmax so that
+        # labels and probabilities stay mutually consistent (the bias
+        # clamp at the caller assumes round(prob) == label, which only
+        # holds when both are derived from the same calibrated emissions).
+        # γ > 0 → more AI predictions; γ < 0 → fewer AI predictions.
+        if self.calibration_gamma:
+            em = em.clone()
+            em[..., 1] = em[..., 1] + self.calibration_gamma
+
         # Slice off [CLS] (position 0), CRF over content, prepend 0.
         # Same convention as the training-time and predict() paths so
         # the position-0 mask requirement doesn't bias the first token
@@ -531,9 +585,9 @@ class HSSDPredictor:
             decoded_no_cls = self._crf.decode(em_no_cls, mask=crf_mask)
         labels = [0] + list(decoded_no_cls[0])                        # length n
 
-        # Per-token softmax over emissions. Component [..., 1] is
-        # P(class=AI). Computed in fp32 for stable rounding to 2
-        # decimals (the determinism gate's tolerance).
+        # Per-token softmax over the (calibrated) emissions. Component
+        # [..., 1] is P(class=AI). Computed in fp32 for stable rounding
+        # to 2 decimals (the determinism gate's tolerance).
         probs_t = torch.softmax(em, dim=-1)[:, 1]                     # [n]
         probs = probs_t.cpu().tolist()
 
@@ -726,6 +780,17 @@ class HSSDPredictor:
             input_ids, attention_mask,
         ).float()                                                  # fp32
 
+        # v4 calibration γ: shift the AI-class emission BEFORE per-row
+        # decoding so that labels (CRF Viterbi) and probabilities
+        # (softmax) are derived from the same calibrated values. This
+        # is the path used by the SN32 inference server for short
+        # texts (the vast majority of validator probes), so missing
+        # the shift here would silently disable v4's calibration.json
+        # for almost every request.
+        if self.calibration_gamma:
+            em_batch = em_batch.clone()
+            em_batch[..., 1] = em_batch[..., 1] + self.calibration_gamma
+
         results: List[List[float]] = []
         for i in range(n):
             ln = n_tokens_list[i]
@@ -742,7 +807,8 @@ class HSSDPredictor:
                 decoded_no_cls = self._crf.decode(em_no_cls, mask=crf_mask)
             labels = [0] + list(decoded_no_cls[0])                   # length ln
 
-            # Softmax probabilities, fp32 for stable rounding.
+            # Softmax probabilities over the (calibrated) emissions,
+            # fp32 for stable rounding.
             probs = torch.softmax(em, dim=-1)[:, 1].cpu().tolist()   # length ln
 
             # First-sub-token-per-word mapping with bias clamp.
