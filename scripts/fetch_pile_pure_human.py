@@ -47,15 +47,14 @@ def text_hash(t):
 
 
 def build_dedup_set():
-    """Read all 3 final files; return set of text-hashes to avoid."""
+    """Read dedup hashes pre-computed from the working CSV."""
     seen = set()
-    for fn in ["train_final.csv", "val_final.csv", "test_final.csv"]:
-        path = DATA_DIR / fn
-        if not path.exists():
-            continue
-        with open(path, "r", encoding="utf-8", newline="") as f:
-            for row in csv.DictReader(f):
-                seen.add(text_hash(row.get("text", "")))
+    extra = Path('data/MainData/by_source/_dedup_hashes.txt')
+    if extra.exists():
+        with open(extra, 'r', encoding='utf-8') as f:
+            for line in f:
+                seen.add(line.strip())
+    print(f'  loaded {len(seen):,} hashes from working CSV')
     return seen
 
 
