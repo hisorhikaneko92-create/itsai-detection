@@ -174,12 +174,15 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-testing/# Large data files — kept locally, never committed
+testing/
+
+# Large data files — kept locally, never committed
+# Recursive pattern covers data/Training_Dataset/, data/MainData/,
+# data/adversarial/, and any future subdirectory.
+data/**/*.csv
 data/*.csv
-data/Training_Dataset/*.csv
-data/archive/*.jsonl
-data/train_archive.csv
-data/AI_Human.csv
+data/**/*.jsonl
+data/*.jsonl
 *.zip
 llm-detection-colab.zip
 
