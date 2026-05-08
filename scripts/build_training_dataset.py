@@ -1656,9 +1656,11 @@ def _pile_producer(source, q: "queue.Queue",
     block on dataset I/O. ``source`` is a ``SourceMux`` (or any object with
     a ``next_pair()`` method). Pile / CC streamers aren't thread-safe, so
     all next_pair() calls must come from this one thread."""
+    delay = 1.0
     while not stop_event.is_set():
         try:
             pair = source.next_pair()
+            delay = 1.0          # reset backoff after a success
         except Exception:
             time.sleep(delay)
             delay = min(60.0, delay * 2)

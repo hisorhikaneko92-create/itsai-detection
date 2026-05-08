@@ -204,3 +204,15 @@ training_v2.log
 # Test artifacts
 prediction.csv
 prediction.json
+
+# Captured validator request dumps — local-only diagnostic data, not for sharing
+neurons/validator_logs/raw/
+neurons/validator_logs/summary.log
+neurons/validator_logs/upstream_version.log
+neurons/validator_logs/upstream_version.alert
+
+# Training/eval CSV datasets and any ad-hoc CSV exports — too large to push, generated locally
+*.csv
+
+# cc_net WET archive cache — multi-hundred-MB downloads that exceed GitHub's 100MB limit
+cc_net/cache/
