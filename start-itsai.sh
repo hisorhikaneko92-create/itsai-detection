@@ -11,7 +11,7 @@ exec python neurons/miner.py \
     --axon.port 8091 \
     --axon.external_ip 74.119.194.67 \
     --axon.external_port 8091 \
-    --neuron.remote_inference_url http://45.20.65.0:20000 \
+    --neuron.remote_inference_url http://216.81.245.228:20100 \
     --neuron.remote_inference_timeout 18 \
     --blacklist.minimum_stake_requirement 30000 \
     --logging.debug \

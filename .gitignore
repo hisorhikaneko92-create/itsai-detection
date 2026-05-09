@@ -199,7 +199,13 @@ training_v2.log
 
 # IDE / editor caches
 .vscode/
+.claude/
 .claude/settings.local.json
+
+# Local backups produced by merge / split / dedup-rebuild scripts
+*.bak.*
+*.bak
+data/seen_roots*.txt
 
 # Test artifacts
 prediction.csv
