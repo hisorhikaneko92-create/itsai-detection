@@ -109,6 +109,7 @@ from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import torch
+import torch.distributed.tensor  # peft 0.19.1 expects this submodule preloaded on torch 2.8
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
