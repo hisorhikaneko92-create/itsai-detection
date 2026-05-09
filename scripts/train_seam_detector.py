@@ -785,6 +785,7 @@ def compute_total_loss(
     focal_gamma: float = 2.0,
     focal_seam_alpha: float = 0.75,
     return_components: bool = False,
+    return_graph_components: bool = False,
     **_legacy_kwargs,
 ):
     """Multi-term training loss for HSSD v4.
@@ -842,7 +843,16 @@ def compute_total_loss(
             seam_alpha=focal_seam_alpha,
         )
 
-    components = {"crf": crf_loss.detach(), "focal": focal.detach()}
+    # When return_graph_components=True, store the LIVE (non-detached) loss
+    # tensors so the caller (e.g. GradNorm) can compute per-loss gradients
+    # via torch.autograd.grad. The default keeps the historic detached
+    # behaviour so logging callers (.item(), `f"{x:.3f}"`) stay cheap.
+    def _record(key, t):
+        components[key] = t if return_graph_components else t.detach()
+
+    components = {}
+    _record("crf", crf_loss)
+    _record("focal", focal)
     total = crf_loss + lambda_focal * focal
 
     if boundary_target is not None and "boundary_logits" in outputs:
@@ -853,7 +863,7 @@ def compute_total_loss(
             outputs["boundary_logits"], boundary_target, valid_mask,
         )
         total = total + lambda_boundary * bnd
-        components["boundary"] = bnd.detach()
+        _record("boundary", bnd)
 
     def _aux_ce(logits, ids, lam, key):
         nonlocal total
@@ -864,7 +874,7 @@ def compute_total_loss(
             return
         ce = F.cross_entropy(logits[sel].float(), ids[sel].long())
         total = total + lam * ce
-        components[key] = ce.detach()
+        _record(key, ce)
 
     _aux_ce(outputs.get("data_source_logits"),  data_source_id,
             lambda_data_source,  "aux_ds")
@@ -974,6 +984,142 @@ class AdaptiveLossBalancer:
 
     def get(self, key):
         return self.lambdas[key]
+
+
+# ---------------------------------------------------------------------------
+# Real GradNorm (Chen et al. 2018, "GradNorm: Gradient Normalization for
+# Adaptive Loss Balancing in Deep Multitask Networks").
+# ---------------------------------------------------------------------------
+class GradNorm:
+    """Real GradNorm — adjusts per-loss weights so each loss's *gradient
+    norm* w.r.t. a shared parameter set tracks a target determined by the
+    loss's relative training rate.
+
+    Paper formulation (alpha controls the spread of per-task rates):
+        target_i = avg_grad_norm * (relative_rate_i / avg_relative_rate) ** alpha
+        gradnorm_loss = sum_i |‖∂(λ_i * L_i) / ∂W_shared‖ - target_i.detach()|
+
+    `update_every` lets the caller amortise the per-loss backward cost
+    over N main steps. When update_every=1 it matches the paper exactly.
+
+    Differs from AdaptiveLossBalancer above in that this measures the
+    actual gradient magnitude (correct in theory) instead of loss
+    magnitude (a cheap proxy that fails when a loss has a very flat or
+    very steep landscape). Use this when scientific rigour matters; the
+    Balancer when wall-clock cost matters.
+    """
+
+    def __init__(self, component_keys, initial_lambdas, shared_params,
+                 alpha: float = 1.5, lr: float = 0.025,
+                 update_every: int = 100, log_every_updates: int = 5,
+                 log_fn=print):
+        if not shared_params:
+            raise ValueError("GradNorm: shared_params must be non-empty")
+        self.keys = list(component_keys)
+        self.shared_params = list(shared_params)
+        self.alpha = float(alpha)
+        self.update_every = int(update_every)
+        self.log_every_updates = int(log_every_updates)
+        self.log_fn = log_fn
+
+        device = self.shared_params[0].device
+        init = torch.tensor(
+            [float(initial_lambdas.get(k, 1.0)) for k in self.keys],
+            dtype=torch.float32, device=device,
+        )
+        # Lambdas are a single learnable parameter tensor with their own
+        # Adam optimiser, exactly as in the paper.
+        self.lambdas = torch.nn.Parameter(init.clone(), requires_grad=True)
+        self.optimizer = torch.optim.Adam([self.lambdas], lr=float(lr))
+        self.initial_losses = None
+        self.steps = 0
+        self.updates = 0
+
+    def get(self, key):
+        i = self.keys.index(key)
+        return float(self.lambdas[i].item())
+
+    def step(self, components):
+        """Call once per main training step, with the LIVE (non-detached)
+        loss tensors. On the (update_every)-th step it computes per-loss
+        gradient norms, runs one Adam step on the lambdas, and renormalises
+        them so sum(lambdas) = N (keeps total loss scale stable)."""
+        self.steps += 1
+
+        if self.initial_losses is None:
+            try:
+                self.initial_losses = {
+                    k: max(float(components[k].item()), 1e-8)
+                    for k in self.keys
+                    if k in components
+                }
+            except Exception:
+                return
+
+        if self.steps % self.update_every != 0:
+            return
+
+        # ---- Compute per-loss gradient norms wrt shared params ----
+        device = self.shared_params[0].device
+        present_keys = [k for k in self.keys if k in components]
+        if not present_keys:
+            return
+
+        grad_norms = []
+        for k in present_keys:
+            scaled = self.lambdas[self.keys.index(k)] * components[k]
+            grads = torch.autograd.grad(
+                scaled, self.shared_params,
+                retain_graph=True, create_graph=True,
+                allow_unused=True,
+            )
+            flat = []
+            for g in grads:
+                if g is not None:
+                    flat.append(g.flatten())
+            if not flat:
+                grad_norms.append(torch.tensor(0.0, device=device))
+                continue
+            grad_norms.append(torch.cat(flat).norm())
+        grad_norms = torch.stack(grad_norms)
+
+        # ---- Compute target gradient norms via relative training rate ----
+        with torch.no_grad():
+            losses_now = torch.tensor(
+                [max(float(components[k].item()), 1e-8) for k in present_keys],
+                device=device,
+            )
+            initials = torch.tensor(
+                [self.initial_losses.get(k, 1.0) for k in present_keys],
+                device=device,
+            )
+            rates = losses_now / initials
+            avg_rate = rates.mean().clamp_min(1e-8)
+            avg_grad_norm = grad_norms.mean().detach()
+            targets = avg_grad_norm * (rates / avg_rate) ** self.alpha
+
+        # ---- GradNorm loss: L1 between gradient norms and targets ----
+        gn_loss = (grad_norms - targets).abs().sum()
+        self.optimizer.zero_grad()
+        gn_loss.backward(retain_graph=True)
+        self.optimizer.step()
+
+        # ---- Renormalise lambdas so sum stays constant (= N) ----
+        with torch.no_grad():
+            self.lambdas.data.clamp_min_(1e-3)
+            n = float(len(self.keys))
+            self.lambdas.data.mul_(n / self.lambdas.data.sum().clamp_min(1e-8))
+
+        self.updates += 1
+        if self.updates == 1 or self.updates % self.log_every_updates == 0:
+            parts = []
+            for i, k in enumerate(self.keys):
+                parts.append("{}={:.4f}".format(k, float(self.lambdas[i].item())))
+            self.log_fn(
+                "  [gradnorm] step={} update={} | ".format(self.steps, self.updates)
+                + " ".join(parts)
+                + "  gn_loss={:.4f}".format(float(gn_loss.item()))
+            )
 
 
 # ---------------------------------------------------------------------------
@@ -2472,11 +2618,48 @@ def train(args: argparse.Namespace) -> None:
     # Helper: compute the multi-term loss given a fresh model output dict.
     crf_module = _resolve_crf(model)
 
-    # Optional adaptive loss balancer. When enabled, per-component lambdas
-    # drift over training to track a target contribution share — robust to
-    # the failure mode where one head silently dominates the gradient.
+    # Optional adaptive loss-weighting. Two mutually exclusive modes:
+    #   --auto-balance-losses   -> AdaptiveLossBalancer (loss-magnitude proxy)
+    #   --gradnorm              -> Real GradNorm (Chen et al. 2018)
+    # When neither is set, fixed --lambda-* flags are used (legacy).
     balancer = None
-    if getattr(args, "auto_balance_losses", False):
+    gradnorm = None
+    if getattr(args, "gradnorm", False):
+        # Pick shared params: input_norm sits between CLAF and the conv head
+        # so all loss-producing branches (boundary head, aux heads, focal/CRF
+        # over conv-output emissions) see its outputs. Best single trunk for
+        # GradNorm to anchor to.
+        shared = []
+        for name, p in model.named_parameters():
+            if "input_norm" in name and p.requires_grad:
+                shared.append(p)
+        if not shared:
+            # Fall back: any trainable param tagged claf
+            for name, p in model.named_parameters():
+                if "claf" in name and p.requires_grad:
+                    shared.append(p)
+        if not shared:
+            raise RuntimeError(
+                "GradNorm enabled but no shared trainable params found "
+                "(input_norm/claf). Disable --gradnorm or fix the model.")
+        gradnorm = GradNorm(
+            component_keys=("focal", "boundary", "aux_ds", "aux_mf", "aux_st"),
+            initial_lambdas={
+                "focal":    args.lambda_focal,
+                "boundary": args.lambda_boundary,
+                "aux_ds":   args.lambda_data_source,
+                "aux_mf":   args.lambda_model_family,
+                "aux_st":   args.lambda_sample_type,
+            },
+            shared_params=shared,
+            alpha=args.gradnorm_alpha,
+            lr=args.gradnorm_lr,
+            update_every=args.gradnorm_update_every,
+        )
+        print(f"GradNorm enabled. shared_params={len(shared)} tensors, "
+              f"alpha={gradnorm.alpha}, lr={args.gradnorm_lr}, "
+              f"update_every={gradnorm.update_every}")
+    elif getattr(args, "auto_balance_losses", False):
         balancer = AdaptiveLossBalancer(
             component_keys=("focal", "boundary", "aux_ds", "aux_mf", "aux_st"),
             initial_lambdas={
@@ -2510,7 +2693,13 @@ def train(args: argparse.Namespace) -> None:
                    data_source_id: Optional[torch.Tensor] = None,
                    model_family_id: Optional[torch.Tensor] = None,
                    sample_type_id: Optional[torch.Tensor] = None):
-        if balancer is not None:
+        if gradnorm is not None:
+            lf  = gradnorm.get("focal")
+            lb  = gradnorm.get("boundary")
+            lds = gradnorm.get("aux_ds")
+            lmf = gradnorm.get("aux_mf")
+            lst = gradnorm.get("aux_st")
+        elif balancer is not None:
             lf  = balancer.get("focal")
             lb  = balancer.get("boundary")
             lds = balancer.get("aux_ds")
@@ -2535,6 +2724,7 @@ def train(args: argparse.Namespace) -> None:
             focal_gamma=args.focal_gamma,
             focal_seam_alpha=args.focal_seam_alpha,
             return_components=True,
+            return_graph_components=(gradnorm is not None),
         )
 
     def _do_validation(epoch_idx: int, step_within_epoch: int,
@@ -2796,6 +2986,13 @@ def train(args: argparse.Namespace) -> None:
                 loss_ema = loss_value
             else:
                 loss_ema = loss_ema_decay * loss_ema + (1 - loss_ema_decay) * loss_value
+
+            # Adaptive loss-weighting hook. Must run BEFORE the main backward
+            # because GradNorm computes per-loss gradients via autograd.grad
+            # and needs the live (non-detached) graph nodes. The balancer
+            # is cheap (just reads scalars) but we keep the order consistent.
+            if gradnorm is not None:
+                gradnorm.step(components)
 
             (loss / args.gradient_accumulation_steps).backward()
 
@@ -3160,6 +3357,26 @@ def parse_args() -> argparse.Namespace:
                    help="Dampening exponent on lambda updates. 0.5 = sqrt of "
                         "the ratio (gentle); 1.0 = full immediate correction "
                         "(may oscillate). Lower values are safer.")
+
+    # Real GradNorm (Chen et al. 2018). Mutually exclusive with the
+    # AdaptiveLossBalancer above. When set, --gradnorm wins.
+    p.add_argument("--gradnorm", action="store_true",
+                   help="Enable real GradNorm: per-loss gradient norms are "
+                        "computed against shared params (input_norm) every "
+                        "--gradnorm-update-every steps and the lambdas are "
+                        "updated by Adam to track relative training rates. "
+                        "Costs one extra autograd.grad pass per loss per "
+                        "update; use --gradnorm-update-every >= 50 to keep "
+                        "wall-clock impact small.")
+    p.add_argument("--gradnorm-alpha", type=float, default=1.5,
+                   help="GradNorm hyperparameter alpha. Larger values force "
+                        "stronger task balancing (paper default: 1.5).")
+    p.add_argument("--gradnorm-lr", type=float, default=0.025,
+                   help="Adam LR for the GradNorm lambda optimizer "
+                        "(paper default: 0.025).")
+    p.add_argument("--gradnorm-update-every", type=int, default=100,
+                   help="Run GradNorm every N main training steps. Default "
+                        "100 keeps the wall-clock cost <10%% on this codebase.")
 
     # CRF transition constraint
     p.add_argument("--min-p-1to0", type=float, default=0.0,
