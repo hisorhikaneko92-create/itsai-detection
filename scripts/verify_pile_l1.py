@@ -11,9 +11,21 @@ build:
 If everything looks like 0.05 or everything looks like 0.95, the index is
 under-built or the FPR is wrong.
 
+Multi-filter mode (parallel build): pass multiple --bloom args. A 5-gram is
+considered matched if it's in ANY of the filters (OR semantics). This lets
+you verify the parallel-built shards directly without first merging them.
+
 Usage:
-    python scripts/verify_pile_l1.py
-    python scripts/verify_pile_l1.py --bloom indexes/pile_l1_test.bloom --limit 20
+    # Single filter
+    python scripts/verify_pile_l1.py --bloom indexes/pile_l1_5gram.bloom --limit 50
+
+    # Parallel-build verification (4 shards)
+    python scripts/verify_pile_l1.py \\
+        --bloom indexes/pile_l1_shard0.bloom \\
+        --bloom indexes/pile_l1_shard1.bloom \\
+        --bloom indexes/pile_l1_shard2.bloom \\
+        --bloom indexes/pile_l1_shard3.bloom \\
+        --limit 50
 """
 from __future__ import annotations
 
@@ -45,22 +57,31 @@ def normalize(text: str) -> list[str]:
     return _RE_NONALPHANUM.sub(" ", text.lower()).split()
 
 
-def hit_ratio(text: str, bf: Bloom, n: int = 5) -> float:
+def hit_ratio(text: str, blooms: list[Bloom], n: int = 5) -> float:
+    """Fraction of 5-grams that hit ANY of the given filters (OR semantics).
+
+    Lets you query parallel-build shards without a merge step.
+    """
     w = normalize(text)
     if len(w) < n:
         return 0.0
     total = len(w) - n + 1
-    h = sum(
-        1 for i in range(total)
-        if " ".join(w[i:i + n]) in bf
-    )
-    return h / total
+    matched = 0
+    for i in range(total):
+        gram = " ".join(w[i:i + n])
+        for bf in blooms:
+            if gram in bf:
+                matched += 1
+                break
+    return matched / total
 
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--bloom", type=Path, default=Path("indexes/pile_l1_5gram.bloom"))
+    p.add_argument("--bloom", type=Path, action="append", default=None,
+                   help="Bloom filter path. Repeat for multi-filter (parallel) "
+                        "verification. Default: indexes/pile_l1_5gram.bloom")
     p.add_argument("--logs-glob", default="neurons/validator_logs/raw/*.json")
     p.add_argument("--limit", type=int, default=50,
                    help="Look at the most recent N capture files")
@@ -69,12 +90,18 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    if not args.bloom.exists():
-        print(f"ERROR: Bloom filter not found at {args.bloom}", file=sys.stderr)
-        return 1
+    if args.bloom is None:
+        args.bloom = [Path("indexes/pile_l1_5gram.bloom")]
 
-    print(f"Loading Bloom filter from {args.bloom} ...", file=sys.stderr)
-    bf = Bloom.load(str(args.bloom), hash_func)
+    blooms = []
+    for bp in args.bloom:
+        if not bp.exists():
+            print(f"ERROR: Bloom filter not found at {bp}", file=sys.stderr)
+            return 1
+        print(f"Loading Bloom filter from {bp} ...", file=sys.stderr)
+        blooms.append(Bloom.load(str(bp), hash_func))
+    print(f"Loaded {len(blooms)} filter(s); querying with OR semantics.",
+          file=sys.stderr)
 
     files = sorted(glob.glob(args.logs_glob))[-args.limit:]
     if not files:
@@ -96,7 +123,7 @@ def main() -> int:
                 "hk":     d.get("validator_hotkey", "")[:10],
                 "hash":   t.get("hash"),
                 "n_words": len(text.split()),
-                "hit_ratio": hit_ratio(text, bf),
+                "hit_ratio": hit_ratio(text, blooms),
             })
 
     if not rows:

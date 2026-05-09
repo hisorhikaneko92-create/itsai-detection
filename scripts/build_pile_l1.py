@@ -101,6 +101,14 @@ def parse_args() -> argparse.Namespace:
                    help="Save filter+state every N documents")
     p.add_argument("--log-every", type=int, default=10_000,
                    help="Print progress to stderr every N documents")
+    p.add_argument("--shard-stride", type=int, default=1,
+                   help="Total number of parallel workers. Use the same value "
+                        "for every worker. With stride=4 each worker processes "
+                        "1/4 of the dataset. The shards are file-based, so each "
+                        "worker reads ~7-8 of the 30 Pile train files.")
+    p.add_argument("--shard-offset", type=int, default=0,
+                   help="This worker's index within --shard-stride. Worker 0 "
+                        "uses offset=0, worker 1 offset=1, etc. Must be < stride.")
     return p.parse_args()
 
 
@@ -150,12 +158,26 @@ def main() -> int:
     signal.signal(signal.SIGINT, save_and_exit)
     signal.signal(signal.SIGTERM, save_and_exit)
 
-    # Stream and skip already-processed docs
-    log.info("Streaming monology/pile-uncopyrighted train split...")
-    ds = (
-        load_dataset("monology/pile-uncopyrighted", streaming=True)["train"]
-        .skip(state["docs"])
-    )
+    # Stream — apply shard partition first (file-level for streaming datasets),
+    # then resume from last checkpoint within this worker's slice.
+    if args.shard_stride > 1:
+        if not (0 <= args.shard_offset < args.shard_stride):
+            log.error("--shard-offset (%d) must be in [0, --shard-stride=%d)",
+                      args.shard_offset, args.shard_stride)
+            return 2
+        log.info("Streaming monology/pile-uncopyrighted train split "
+                 "(shard %d/%d)...", args.shard_offset, args.shard_stride)
+        ds = (
+            load_dataset("monology/pile-uncopyrighted", streaming=True)["train"]
+            .shard(num_shards=args.shard_stride, index=args.shard_offset)
+            .skip(state["docs"])
+        )
+    else:
+        log.info("Streaming monology/pile-uncopyrighted train split (no shard)...")
+        ds = (
+            load_dataset("monology/pile-uncopyrighted", streaming=True)["train"]
+            .skip(state["docs"])
+        )
 
     last_log_doc = state["docs"]
     last_log_t = time.time()
