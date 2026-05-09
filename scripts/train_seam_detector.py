@@ -112,6 +112,17 @@ import torch
 import torch.distributed.tensor  # peft 0.19.1 expects this submodule preloaded on torch 2.8
 import torch.nn as nn
 import torch.nn.functional as F
+
+# Torch 2.8's "donated buffer" optimisation (introduced for compiled fwd
+# with autograd.Function) raises RuntimeError when autograd.grad is called
+# with create_graph=True. We need create_graph=True for GradNorm to be
+# able to differentiate through per-loss gradient norms back into the
+# learnable lambdas. Disable the optimisation globally; cost is negligible.
+try:
+    import torch._functorch.config as _functorch_config
+    _functorch_config.donated_buffer = False
+except (ImportError, AttributeError):
+    pass
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoModel, AutoTokenizer, get_cosine_schedule_with_warmup
 
