@@ -98,6 +98,11 @@ import os
 import random
 import sys
 import time
+
+# Some training rows have very long `text` fields (long Pile docs concatenated
+# with AI continuations). The default 128 KB limit trips on these. Bump it
+# unconditionally — we control the input files and parsing them is safe.
+csv.field_size_limit(sys.maxsize)
 from contextlib import nullcontext
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
