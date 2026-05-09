@@ -879,6 +879,104 @@ def compute_total_loss(
 
 
 # ---------------------------------------------------------------------------
+# Adaptive loss-component weighting
+# ---------------------------------------------------------------------------
+class AdaptiveLossBalancer:
+    """Periodically rebalances per-component loss weights so each
+    component's *contribution* (lambda * raw_loss) tracks a target share
+    of the total non-CRF loss.
+
+    Why this exists: the static --lambda-* defaults silently let one
+    component dominate the gradient. e.g. with default lambda_model_family=0.05
+    and a raw aux_mf loss of 0.7, aux_mf contributed ~34% of gradient while
+    lambda_boundary=0.5 with raw boundary=0.01 contributed 1%. The model
+    optimised for the wrong objective. This class watches an EMA of each
+    component's contribution and drifts the lambdas back toward the
+    intended split.
+
+    Not a full GradNorm — measures loss magnitude, not gradient magnitude.
+    Cheap (no extra backward passes), deterministic, and sufficient for the
+    common failure mode where one component dominates.
+    """
+
+    def __init__(self, component_keys, initial_lambdas, target_share=None,
+                 ema_decay: float = 0.99, update_every: int = 200,
+                 warmup_steps: int = 300, lambda_floor: float = 1e-3,
+                 lambda_ceil: float = 100.0, update_dampen: float = 0.5,
+                 log_fn=print):
+        self.keys = list(component_keys)
+        self.lambdas = {k: float(initial_lambdas.get(k, 1.0)) for k in self.keys}
+        self.contrib_ema = {k: 0.0 for k in self.keys}
+        if target_share is None:
+            target_share = {k: 1.0 / len(self.keys) for k in self.keys}
+        s = sum(target_share.get(k, 0.0) for k in self.keys)
+        if s <= 0:
+            raise ValueError("AdaptiveLossBalancer: target_share sum must be positive")
+        self.target_share = {k: target_share.get(k, 0.0) / s for k in self.keys}
+        self.ema_decay = float(ema_decay)
+        self.update_every = int(update_every)
+        self.warmup_steps = int(warmup_steps)
+        self.lambda_floor = float(lambda_floor)
+        self.lambda_ceil = float(lambda_ceil)
+        self.update_dampen = float(update_dampen)
+        self.log_fn = log_fn
+        self.steps = 0
+
+    def observe(self, components):
+        """Observe a single micro-step's component values (raw losses,
+        BEFORE lambda multiplication). Triggers a rebalance every
+        `update_every` steps after warmup."""
+        self.steps += 1
+        for k in self.keys:
+            v = components.get(k)
+            if v is None:
+                continue
+            try:
+                vf = float(v.item()) if hasattr(v, "item") else float(v)
+            except Exception:
+                continue
+            contrib = self.lambdas[k] * vf
+            if self.contrib_ema[k] == 0.0 and self.steps == 1:
+                self.contrib_ema[k] = contrib
+            else:
+                self.contrib_ema[k] = (
+                    self.ema_decay * self.contrib_ema[k]
+                    + (1.0 - self.ema_decay) * contrib
+                )
+        if (self.steps >= self.warmup_steps
+                and self.steps % self.update_every == 0):
+            self._rebalance()
+
+    def _rebalance(self):
+        total = sum(max(v, 0.0) for v in self.contrib_ema.values())
+        if total <= 0.0:
+            return
+        old = dict(self.lambdas)
+        for k in self.keys:
+            current_share = self.contrib_ema[k] / total
+            target = self.target_share[k]
+            if current_share <= 0:
+                ratio = 1.0
+            else:
+                ratio = (target / current_share) ** self.update_dampen
+            new_lambda = self.lambdas[k] * ratio
+            new_lambda = max(min(new_lambda, self.lambda_ceil), self.lambda_floor)
+            self.lambdas[k] = new_lambda
+            scale = new_lambda / max(old[k], 1e-12)
+            self.contrib_ema[k] *= scale
+        self.log_fn(
+            "  [auto-balance] step={} | ".format(self.steps)
+            + " ".join(
+                "{}={:.4f}({:.4f})".format(k, self.lambdas[k], old[k])
+                for k in self.keys
+            )
+        )
+
+    def get(self, key):
+        return self.lambdas[key]
+
+
+# ---------------------------------------------------------------------------
 # Feature-Level FGM (Phase 2.5 -- replaces broken word-embedding FGM)
 # ---------------------------------------------------------------------------
 class FeatureFGM:
@@ -2374,6 +2472,37 @@ def train(args: argparse.Namespace) -> None:
     # Helper: compute the multi-term loss given a fresh model output dict.
     crf_module = _resolve_crf(model)
 
+    # Optional adaptive loss balancer. When enabled, per-component lambdas
+    # drift over training to track a target contribution share — robust to
+    # the failure mode where one head silently dominates the gradient.
+    balancer = None
+    if getattr(args, "auto_balance_losses", False):
+        balancer = AdaptiveLossBalancer(
+            component_keys=("focal", "boundary", "aux_ds", "aux_mf", "aux_st"),
+            initial_lambdas={
+                "focal":    args.lambda_focal,
+                "boundary": args.lambda_boundary,
+                "aux_ds":   args.lambda_data_source,
+                "aux_mf":   args.lambda_model_family,
+                "aux_st":   args.lambda_sample_type,
+            },
+            target_share={
+                "focal":    args.balance_target_focal,
+                "boundary": args.balance_target_boundary,
+                "aux_ds":   args.balance_target_aux_ds,
+                "aux_mf":   args.balance_target_aux_mf,
+                "aux_st":   args.balance_target_aux_st,
+            },
+            ema_decay=args.balance_ema_decay,
+            update_every=args.balance_update_every,
+            warmup_steps=args.balance_warmup_steps,
+            update_dampen=args.balance_update_dampen,
+        )
+        print(f"AdaptiveLossBalancer enabled. "
+              f"target_share={balancer.target_share}, "
+              f"update_every={balancer.update_every}, "
+              f"warmup_steps={balancer.warmup_steps}")
+
     def _step_loss(outputs,
                    labels: torch.Tensor,
                    attention_mask: torch.Tensor,
@@ -2381,17 +2510,28 @@ def train(args: argparse.Namespace) -> None:
                    data_source_id: Optional[torch.Tensor] = None,
                    model_family_id: Optional[torch.Tensor] = None,
                    sample_type_id: Optional[torch.Tensor] = None):
+        if balancer is not None:
+            lf  = balancer.get("focal")
+            lb  = balancer.get("boundary")
+            lds = balancer.get("aux_ds")
+            lmf = balancer.get("aux_mf")
+            lst = balancer.get("aux_st")
+        else:
+            lf, lb = args.lambda_focal, args.lambda_boundary
+            lds = args.lambda_data_source
+            lmf = args.lambda_model_family
+            lst = args.lambda_sample_type
         return compute_total_loss(
             outputs, labels, attention_mask, crf_module,
             boundary_target=boundary_target,
             data_source_id=data_source_id,
             model_family_id=model_family_id,
             sample_type_id=sample_type_id,
-            lambda_focal=args.lambda_focal,
-            lambda_boundary=args.lambda_boundary,
-            lambda_data_source=args.lambda_data_source,
-            lambda_model_family=args.lambda_model_family,
-            lambda_sample_type=args.lambda_sample_type,
+            lambda_focal=lf,
+            lambda_boundary=lb,
+            lambda_data_source=lds,
+            lambda_model_family=lmf,
+            lambda_sample_type=lst,
             focal_gamma=args.focal_gamma,
             focal_seam_alpha=args.focal_seam_alpha,
             return_components=True,
@@ -2690,6 +2830,12 @@ def train(args: argparse.Namespace) -> None:
             # raw values is more honest about scale, and (c) avoiding a
             # running average keeps memory & complexity tiny.
             last_components = components
+
+            # Adaptive loss balancing: feed the raw components into the
+            # balancer so it can periodically re-tune lambdas. Cheap (no
+            # extra forward/backward), uses the values we already have.
+            if balancer is not None:
+                balancer.observe(components)
 
             if (step + 1) % args.gradient_accumulation_steps == 0:
                 torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
@@ -2991,6 +3137,29 @@ def parse_args() -> argparse.Namespace:
                    dest="lambda_sample_type",
                    help="Weight of the sample_type aux CE "
                         "(pure_human / pure_ai / h_then_a / a_then_h).")
+
+    # Adaptive loss balancing (replaces brittle static lambdas above when ON)
+    p.add_argument("--auto-balance-losses", action="store_true",
+                   help="Enable AdaptiveLossBalancer: tracks an EMA of each "
+                        "non-CRF component's contribution and periodically "
+                        "rescales --lambda-* so each component holds its "
+                        "configured target share. Recommended over manual "
+                        "lambda tuning.")
+    p.add_argument("--balance-target-focal",    type=float, default=0.10)
+    p.add_argument("--balance-target-boundary", type=float, default=0.55,
+                   help="Target share for boundary loss (the seam-localization "
+                        "signal). Default 0.55 means the balancer aims to keep "
+                        "boundary at ~55%% of the non-CRF gradient mass.")
+    p.add_argument("--balance-target-aux-ds",   type=float, default=0.05)
+    p.add_argument("--balance-target-aux-mf",   type=float, default=0.05)
+    p.add_argument("--balance-target-aux-st",   type=float, default=0.05)
+    p.add_argument("--balance-update-every",    type=int,   default=200)
+    p.add_argument("--balance-warmup-steps",    type=int,   default=300)
+    p.add_argument("--balance-ema-decay",       type=float, default=0.99)
+    p.add_argument("--balance-update-dampen",   type=float, default=0.5,
+                   help="Dampening exponent on lambda updates. 0.5 = sqrt of "
+                        "the ratio (gentle); 1.0 = full immediate correction "
+                        "(may oscillate). Lower values are safer.")
 
     # CRF transition constraint
     p.add_argument("--min-p-1to0", type=float, default=0.0,
