@@ -39,6 +39,20 @@ from tqdm import tqdm
 # ----- Normalization & hashing ------------------------------------------------
 
 _RE_NONALPHANUM = re.compile(r"[^a-z0-9 ]")
+_SIGN_MASK = 1 << 127
+_TWO_128   = 1 << 128
+
+
+def hash_func(obj) -> int:
+    """rbloom-compatible hash: stable, deterministic, signed 128-bit.
+
+    rbloom refuses to save filters built with Python's built-in hash because
+    it's seeded per-process. We supply our own xxhash3-128 wrapper which is
+    deterministic across runs/machines (so verify_pile_l1.py reproduces the
+    exact same bits)."""
+    b = obj.encode("utf-8") if isinstance(obj, str) else obj
+    h = xxhash.xxh3_128_intdigest(b)
+    return h - _TWO_128 if h & _SIGN_MASK else h
 
 
 def normalize(text: str) -> list[str]:
@@ -48,9 +62,9 @@ def normalize(text: str) -> list[str]:
 
 
 def grams5(words: list[str]):
-    """Yield xxhash3-64 of every overlapping 5-word gram."""
+    """Yield 5-word grams as strings. rbloom's hash_func handles hashing."""
     for i in range(len(words) - 4):
-        yield xxhash.xxh3_64_intdigest(" ".join(words[i:i + 5]).encode())
+        yield " ".join(words[i:i + 5])
 
 
 # ----- IO helpers -------------------------------------------------------------
@@ -113,12 +127,12 @@ def main() -> int:
 
     if args.out.exists():
         log.info("Loading existing Bloom filter from %s", args.out)
-        bf = Bloom.load(str(args.out))
+        bf = Bloom.load(str(args.out), hash_func)
         log.info("Resumed at doc=%d grams=%d", state["docs"], state["grams"])
     else:
         log.info("Creating new Bloom filter expected=%d fpr=%.0e at %s",
                  args.expected, args.fpr, args.out)
-        bf = Bloom(args.expected, args.fpr)
+        bf = Bloom(args.expected, args.fpr, hash_func)
 
     # Save handler — fires on Ctrl-C and SIGTERM
     saved = {"v": False}

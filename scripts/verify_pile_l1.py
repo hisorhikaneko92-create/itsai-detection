@@ -30,6 +30,15 @@ from rbloom import Bloom
 
 
 _RE_NONALPHANUM = re.compile(r"[^a-z0-9 ]")
+_SIGN_MASK = 1 << 127
+_TWO_128   = 1 << 128
+
+
+def hash_func(obj) -> int:
+    """Must match scripts/build_pile_l1.py.hash_func bit-for-bit."""
+    b = obj.encode("utf-8") if isinstance(obj, str) else obj
+    h = xxhash.xxh3_128_intdigest(b)
+    return h - _TWO_128 if h & _SIGN_MASK else h
 
 
 def normalize(text: str) -> list[str]:
@@ -43,7 +52,7 @@ def hit_ratio(text: str, bf: Bloom, n: int = 5) -> float:
     total = len(w) - n + 1
     h = sum(
         1 for i in range(total)
-        if xxhash.xxh3_64_intdigest(" ".join(w[i:i + n]).encode()) in bf
+        if " ".join(w[i:i + n]) in bf
     )
     return h / total
 
@@ -65,7 +74,7 @@ def main() -> int:
         return 1
 
     print(f"Loading Bloom filter from {args.bloom} ...", file=sys.stderr)
-    bf = Bloom.load(str(args.bloom))
+    bf = Bloom.load(str(args.bloom), hash_func)
 
     files = sorted(glob.glob(args.logs_glob))[-args.limit:]
     if not files:
