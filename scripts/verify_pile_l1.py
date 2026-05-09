@@ -1,16 +1,119 @@
-# scripts/verify_pile_l1.py
-from rbloom import Bloom
-import json, glob, re, xxhash
-bf = Bloom.load("indexes/pile_l1_5gram.bloom")
-norm = lambda t: re.sub(r'[^a-z0-9 ]', ' ', t.lower()).split()
-def hit_ratio(text, n=5):
-    w = norm(text)
-    if len(w) < n: return 0.0
-    h = sum(1 for i in range(len(w)-n+1)
-            if xxhash.xxh3_64_intdigest(' '.join(w[i:i+n]).encode()) in bf)
-    return h / (len(w) - n + 1)
+"""Verify the L1 Pile 5-gram Bloom filter against captured validator texts.
 
-for fp in glob.glob('neurons/validator_logs/raw/*.json')[-50:]:
-    d = json.load(open(fp))
-    for t in d.get('texts', []):
-        print(f"{t['hash']}  hit_ratio={hit_ratio(t['full_text']):.2f}")
+Reads the JSONs produced by neurons/miner.py, hashes 5-grams of each captured
+text, and reports how many match the index. Expected pattern after a successful
+build:
+
+    Pile-sourced human texts:   hit_ratio >= 0.85   (most 5-grams in index)
+    CC-sourced human texts:     hit_ratio <= 0.10
+    Pure-AI texts:              hit_ratio <= 0.05
+
+If everything looks like 0.05 or everything looks like 0.95, the index is
+under-built or the FPR is wrong.
+
+Usage:
+    python scripts/verify_pile_l1.py
+    python scripts/verify_pile_l1.py --bloom indexes/pile_l1_test.bloom --limit 20
+"""
+from __future__ import annotations
+
+import argparse
+import glob
+import json
+import re
+import statistics
+import sys
+from pathlib import Path
+
+import xxhash
+from rbloom import Bloom
+
+
+_RE_NONALPHANUM = re.compile(r"[^a-z0-9 ]")
+
+
+def normalize(text: str) -> list[str]:
+    return _RE_NONALPHANUM.sub(" ", text.lower()).split()
+
+
+def hit_ratio(text: str, bf: Bloom, n: int = 5) -> float:
+    w = normalize(text)
+    if len(w) < n:
+        return 0.0
+    total = len(w) - n + 1
+    h = sum(
+        1 for i in range(total)
+        if xxhash.xxh3_64_intdigest(" ".join(w[i:i + n]).encode()) in bf
+    )
+    return h / total
+
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description=__doc__,
+                                formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--bloom", type=Path, default=Path("indexes/pile_l1_5gram.bloom"))
+    p.add_argument("--logs-glob", default="neurons/validator_logs/raw/*.json")
+    p.add_argument("--limit", type=int, default=50,
+                   help="Look at the most recent N capture files")
+    return p.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    if not args.bloom.exists():
+        print(f"ERROR: Bloom filter not found at {args.bloom}", file=sys.stderr)
+        return 1
+
+    print(f"Loading Bloom filter from {args.bloom} ...", file=sys.stderr)
+    bf = Bloom.load(str(args.bloom))
+
+    files = sorted(glob.glob(args.logs_glob))[-args.limit:]
+    if not files:
+        print(f"ERROR: no captured logs at {args.logs_glob}", file=sys.stderr)
+        return 1
+
+    rows = []
+    for fp in files:
+        try:
+            d = json.load(open(fp))
+        except Exception:
+            continue
+        for t in d.get("texts", []) or []:
+            text = t.get("full_text") or ""
+            if not text:
+                continue
+            rows.append({
+                "ts":     d.get("timestamp_utc", "")[:19],
+                "hk":     d.get("validator_hotkey", "")[:10],
+                "hash":   t.get("hash"),
+                "n_words": len(text.split()),
+                "hit_ratio": hit_ratio(text, bf),
+            })
+
+    if not rows:
+        print("No texts found in captured logs.", file=sys.stderr)
+        return 1
+
+    rows.sort(key=lambda r: r["hit_ratio"], reverse=True)
+    print(f"{'ts':<19}  {'hk':<10}  {'hash':<8}  {'words':>5}  {'hit_ratio':>9}")
+    print("-" * 65)
+    for r in rows:
+        print(f"{r['ts']:<19}  {r['hk']:<10}  {r['hash']:<8}  "
+              f"{r['n_words']:>5d}  {r['hit_ratio']:>9.3f}")
+
+    ratios = [r["hit_ratio"] for r in rows]
+    print()
+    print("=== summary ===")
+    print(f"texts:        {len(ratios)}")
+    print(f"min:          {min(ratios):.3f}")
+    print(f"median:       {statistics.median(ratios):.3f}")
+    print(f"mean:         {statistics.mean(ratios):.3f}")
+    print(f"max:          {max(ratios):.3f}")
+    print(f">= 0.85:      {sum(1 for r in ratios if r >= 0.85):>3d}  (likely Pile)")
+    print(f"0.10 - 0.85:  {sum(1 for r in ratios if 0.10 < r < 0.85):>3d}  (mixed/ambiguous)")
+    print(f"<= 0.10:      {sum(1 for r in ratios if r <= 0.10):>3d}  (CC or pure-AI)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
