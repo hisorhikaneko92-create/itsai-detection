@@ -1,26 +1,30 @@
 """Build the L1 Pile 5-gram Bloom filter index.
 
-Streams `monology/pile-uncopyrighted`, normalizes each document, hashes every
-5-word n-gram with xxhash, and inserts into a disk-backed Bloom filter.
+Reads `monology/pile-uncopyrighted` (HF stream OR local zstd shards),
+normalizes each document, hashes every 5-word n-gram with xxhash, and
+inserts into a disk-backed Bloom filter.
 
-The output is the cornerstone of the SN32 retrieval miner: a per-text lookup
-that classifies words as Pile-sourced human (label 0) vs not (label 1).
+Three modes, in increasing speed:
 
-Resumable: ctrl-c or SIGTERM saves and exits cleanly. Re-run to continue.
+    Stream from HF (slow, ~200 docs/sec, throttled):
+        python scripts/build_pile_l1.py --out indexes/foo.bloom
 
-Usage (production, ~24h on a beefy box):
-    nohup python scripts/build_pile_l1.py > logs/pile_l1_build.log 2>&1 &
+    Stream from HF + parallel sharding (4× speedup, still throttled):
+        python scripts/build_pile_l1.py --shard-stride 4 --shard-offset 0 ...
 
-Test mode (verify pipeline on 5k docs, ~5 min):
-    python scripts/build_pile_l1.py --max-docs 5000 \
-        --out indexes/pile_l1_test.bloom --expected 100_000_000
+    Local shards (5–10× speedup, no HF throttling):
+        # First run scripts/download_pile_shards.py once.
+        python scripts/build_pile_l1.py \\
+            --local-shards data/pile-uncopyrighted/train/00.jsonl.zst \\
+            --local-shards data/pile-uncopyrighted/train/04.jsonl.zst \\
+            --out indexes/foo.bloom
 
-CLI args allow shrinking the filter for test runs so you don't pre-allocate
-75 GB on a tiny test.
+Resumable: SIGINT/SIGTERM saves and exits cleanly. Re-run to continue.
 """
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import logging
 import os
@@ -29,8 +33,10 @@ import signal
 import sys
 import time
 from pathlib import Path
+from typing import Iterable, Iterator
 
 import xxhash
+import zstandard as zstd
 from datasets import load_dataset
 from rbloom import Bloom
 from tqdm import tqdm
@@ -67,6 +73,30 @@ def grams5(words: list[str]):
         yield " ".join(words[i:i + 5])
 
 
+# ----- Local zstd shard reader (fast path, no HF) ------------------------------
+
+def local_shard_stream(shard_paths: list[str]) -> Iterator[dict]:
+    """Yield JSON-decoded documents from a list of local zstd-compressed JSONL
+    files. Designed to mimic the document shape of HF's streaming
+    monology/pile-uncopyrighted: each yield has a `text` field.
+
+    ~5–10× faster than HF streaming because it bypasses HTTP round-trips and
+    HF's per-IP throttling. zstandard's stream_reader releases the GIL during
+    decompression so subsequent Python work overlaps with disk I/O."""
+    decompressor = zstd.ZstdDecompressor()
+    for shard_path in shard_paths:
+        with open(shard_path, "rb") as fh, decompressor.stream_reader(fh) as reader:
+            text_stream = io.TextIOWrapper(reader, encoding="utf-8")
+            for line in text_stream:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    yield json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+
+
 # ----- IO helpers -------------------------------------------------------------
 
 def atomic_save_bloom(bf: Bloom, path: Path) -> None:
@@ -101,6 +131,20 @@ def parse_args() -> argparse.Namespace:
                    help="Save filter+state every N documents")
     p.add_argument("--log-every", type=int, default=10_000,
                    help="Print progress to stderr every N documents")
+    p.add_argument("--shard-stride", type=int, default=1,
+                   help="Total number of parallel workers. Use the same value "
+                        "for every worker. With stride=4 each worker processes "
+                        "1/4 of the dataset. The shards are file-based, so each "
+                        "worker reads ~7-8 of the 30 Pile train files.")
+    p.add_argument("--shard-offset", type=int, default=0,
+                   help="This worker's index within --shard-stride. Worker 0 "
+                        "uses offset=0, worker 1 offset=1, etc. Must be < stride.")
+    p.add_argument("--local-shards", action="append", default=None,
+                   help="Path to a local zstd-compressed Pile shard "
+                        "(train/NN.jsonl.zst). Repeat this flag for multiple "
+                        "files. When given, --shard-stride/--shard-offset are "
+                        "ignored and HF streaming is bypassed entirely. "
+                        "5–10× faster than HF streaming.")
     return p.parse_args()
 
 
@@ -150,12 +194,43 @@ def main() -> int:
     signal.signal(signal.SIGINT, save_and_exit)
     signal.signal(signal.SIGTERM, save_and_exit)
 
-    # Stream and skip already-processed docs
-    log.info("Streaming monology/pile-uncopyrighted train split...")
-    ds = (
-        load_dataset("monology/pile-uncopyrighted", streaming=True)["train"]
-        .skip(state["docs"])
-    )
+    # Choose the source: local zstd shards (fast) vs HF stream (network-bound).
+    if args.local_shards:
+        for sp in args.local_shards:
+            if not Path(sp).exists():
+                log.error("Local shard not found: %s", sp)
+                return 2
+        log.info("Reading from %d local shard(s): %s",
+                 len(args.local_shards), args.local_shards)
+        # Local stream: skip already-processed docs by doc-count
+        full_iter = local_shard_stream(args.local_shards)
+        if state["docs"] > 0:
+            log.info("Resuming: skipping first %d docs already processed", state["docs"])
+            for _ in range(state["docs"]):
+                try:
+                    next(full_iter)
+                except StopIteration:
+                    log.warning("Skip past end of stream — already complete")
+                    break
+        ds = full_iter
+    elif args.shard_stride > 1:
+        if not (0 <= args.shard_offset < args.shard_stride):
+            log.error("--shard-offset (%d) must be in [0, --shard-stride=%d)",
+                      args.shard_offset, args.shard_stride)
+            return 2
+        log.info("Streaming monology/pile-uncopyrighted train split "
+                 "(shard %d/%d)...", args.shard_offset, args.shard_stride)
+        ds = (
+            load_dataset("monology/pile-uncopyrighted", streaming=True)["train"]
+            .shard(num_shards=args.shard_stride, index=args.shard_offset)
+            .skip(state["docs"])
+        )
+    else:
+        log.info("Streaming monology/pile-uncopyrighted train split (no shard)...")
+        ds = (
+            load_dataset("monology/pile-uncopyrighted", streaming=True)["train"]
+            .skip(state["docs"])
+        )
 
     last_log_doc = state["docs"]
     last_log_t = time.time()
