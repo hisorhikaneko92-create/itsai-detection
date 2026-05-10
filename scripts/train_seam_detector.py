@@ -709,6 +709,15 @@ class SeamDetector(nn.Module):
         mask = mask.unsqueeze(-1)                                        # [B,T,1]
         denom = mask.sum(dim=1).clamp_min(1.0)
         pooled = (normed * mask).sum(dim=1) / denom                      # [B,H]
+        # Optional: detach pooled before aux heads. When enabled, the aux
+        # losses ONLY update aux head weights — they do NOT backprop into
+        # the encoder. This eliminates negative transfer between the
+        # global-feature aux objective and the local-feature boundary
+        # objective. The shared encoder is then trained purely by
+        # CRF + focal + boundary, which is exactly what we want for
+        # seam-localization performance.
+        if getattr(self, "_detach_aux_from_encoder", False):
+            pooled = pooled.detach()
         aux = self.aux_heads(pooled)
         return {
             "emissions":            emissions,
@@ -2470,6 +2479,14 @@ def train(args: argparse.Namespace) -> None:
         hidden_dropout=args.hidden_dropout,
         attn_dropout=args.attn_dropout,
     )
+    # Toggle: detach aux head inputs so aux losses can't backprop into
+    # the shared encoder (eliminates negative transfer between global
+    # aux objectives and local boundary localization).
+    model._detach_aux_from_encoder = bool(getattr(args, "detach_aux_from_encoder", False))
+    if model._detach_aux_from_encoder:
+        print("Aux heads DETACHED from encoder gradient flow "
+              "(aux losses train aux heads only; encoder is purely "
+              "supervised by CRF + focal + boundary).")
 
     # Gradient checkpointing must be enabled BEFORE PEFT wrapping for
     # the underlying transformer to honor it. Also call
@@ -3449,6 +3466,18 @@ def parse_args() -> argparse.Namespace:
                    dest="lambda_sample_type",
                    help="Weight of the sample_type aux CE "
                         "(pure_human / pure_ai / h_then_a / a_then_h).")
+
+    # Aux head detach (negative-transfer fix)
+    p.add_argument("--detach-aux-from-encoder", action="store_true",
+                   default=False,
+                   dest="detach_aux_from_encoder",
+                   help="Detach the aux heads' input from the encoder "
+                        "computation graph. Aux losses then ONLY update aux "
+                        "head weights (still trainable predictors), they do "
+                        "not backprop into the shared encoder. Eliminates "
+                        "the negative-transfer pressure aux classification "
+                        "tasks put on the boundary localization objective. "
+                        "Recommended ON for v10+.")
 
     # Adaptive loss balancing (replaces brittle static lambdas above when ON)
     p.add_argument("--auto-balance-losses", action="store_true",
