@@ -188,6 +188,64 @@ DATA_SOURCE_MAP = {
 }
 
 
+def _validator_subsample_words(words, labels, *, min_cnt=35, max_cnt=350, rng=None):
+    """Crop a (words, labels) pair to a random length in [min_cnt, max_cnt],
+    matching the validator's subsample_words logic from
+    detection/validator/segmentation_processer.py.
+
+    Why this exists: the validator NEVER sends miners a query longer than 350
+    words (its segmentation_processer crops every served sample to 35-350).
+    Our masters were generated with --no-subsample so they accumulated
+    full-length Pile/CC documents (up to 299k words). Without this fix,
+    the model trains on a length distribution it never sees in production.
+
+    Behaviour matches validator's segmentation_processer.subsample_words:
+      - if len(words) <= min_cnt: return as-is
+      - if both 0->1 AND 1->0 transitions exist (multi-seam): strip
+        everything before the FIRST 0->1 transition, recurse
+      - if there is one transition: pick a window centred on it
+      - if there is no transition (pure_human or pure_ai): random crop
+    Character-level edge cropping in the validator is intentionally omitted
+    here to keep words/labels alignment trivial.
+    """
+    rng = rng or random
+    if len(words) <= min_cnt:
+        return words, labels
+
+    has_01 = any(labels[i] == 0 and labels[i + 1] == 1 for i in range(len(labels) - 1))
+    has_10 = any(labels[i] == 1 and labels[i + 1] == 0 for i in range(len(labels) - 1))
+
+    if has_01 and has_10:
+        # multi-seam: strip everything before the first 0->1, then recurse
+        ind = None
+        for i in range(len(labels) - 1):
+            if labels[i] == 0 and labels[i + 1] == 1:
+                ind = i + 1
+                break
+        return _validator_subsample_words(
+            words[ind:], labels[ind:], min_cnt=min_cnt, max_cnt=max_cnt, rng=rng,
+        )
+
+    cnt = rng.randint(min_cnt, min(max_cnt, len(words)))
+
+    split_index = None
+    for i in range(len(labels) - 1):
+        if labels[i] != labels[i + 1]:
+            split_index = i
+            break
+
+    if split_index is not None:
+        lo = max(split_index - cnt, 0)
+        hi = min(len(words) - cnt, split_index)
+        if lo > hi:
+            lo = hi
+        ind = rng.randint(lo, hi)
+    else:
+        ind = rng.randint(0, len(words) - cnt)
+
+    return words[ind:ind + cnt], labels[ind:ind + cnt]
+
+
 def model_family_id(model_name: str) -> int:
     """Map a free-form model_name (e.g. 'google/gemma-2-27b-it') to one
     of the NUM_MODEL_FAMILIES family bucket ids. Substring match against
@@ -1320,7 +1378,10 @@ class SeamDataset(Dataset):
                  max_rows: Optional[int] = None,
                  min_chunk_words: int = 20,
                  seed: int = 0,
-                 boundary_sigma: float = 3.0):
+                 boundary_sigma: float = 3.0,
+                 validator_subsample: bool = False,
+                 subsample_min_words: int = 35,
+                 subsample_max_words: int = 350):
         """boundary_sigma : Gaussian width (in TOKEN positions) for the
         boundary-head supervision target. ~3 tokens ≈ ~1.5 words on
         average for English DeBERTa, which matches the validator's
@@ -1330,6 +1391,9 @@ class SeamDataset(Dataset):
         self.stride = max(1, stride)         # kept for back-compat; unused now
         self.min_chunk_words = min_chunk_words
         self.boundary_sigma = float(boundary_sigma)
+        self.validator_subsample = bool(validator_subsample)
+        self.subsample_min_words = int(subsample_min_words)
+        self.subsample_max_words = int(subsample_max_words)
 
         rng = random.Random(seed)
         rows: List[Dict[str, str]] = []
@@ -1369,6 +1433,20 @@ class SeamDataset(Dataset):
             if len(words) != len(word_labels):
                 skipped += 1
                 continue
+
+            # Validator-distribution-matching subsample. The validator's
+            # segmentation_processer crops every served sample to 35-350
+            # words; if we don't crop too, our model trains on a length
+            # regime it never sees in production. Done ONCE at __init__
+            # (cheap, one-time) rather than per-epoch (would require
+            # refactoring the chunk cache). See _validator_subsample_words.
+            if self.validator_subsample:
+                words, word_labels = _validator_subsample_words(
+                    words, word_labels,
+                    min_cnt=self.subsample_min_words,
+                    max_cnt=self.subsample_max_words,
+                    rng=rng,
+                )
 
             ds = (row.get("data_source") or "").strip()
             ds_id = DATA_SOURCE_MAP.get(ds, -1)
@@ -2350,18 +2428,27 @@ def train(args: argparse.Namespace) -> None:
         shuffle_rows=True, max_rows=args.max_train_rows,
         seed=args.seed or 0,
         boundary_sigma=args.boundary_sigma,
+        validator_subsample=args.validator_subsample,
+        subsample_min_words=args.subsample_min_words,
+        subsample_max_words=args.subsample_max_words,
     )
     print(f"  train chunks: {len(train_ds)}")
 
     val_ds = None
     if val_paths:
         print(f"Loading val rows from: {[str(p) for p in val_paths]}")
+        # Apply the SAME subsample to val/test so eval is on validator-shaped
+        # docs too — otherwise the model sees long val docs at eval time but
+        # short docs in production, and val F1 won't track production F1.
         val_ds = SeamDataset(
             val_paths, tokenizer,
             max_length=args.max_length, stride=args.stride,
             shuffle_rows=False, max_rows=args.max_val_rows,
             seed=(args.seed or 0) + 1,
             boundary_sigma=args.boundary_sigma,
+            validator_subsample=args.validator_subsample,
+            subsample_min_words=args.subsample_min_words,
+            subsample_max_words=args.subsample_max_words,
         )
         print(f"  val chunks:   {len(val_ds)}")
 
@@ -3180,6 +3267,23 @@ def parse_args() -> argparse.Namespace:
                         "training_args.json so future evaluation scripts "
                         "can pick it up; the file itself is NEVER read "
                         "during training.")
+    # Validator-distribution-matching subsample. Default ON for v9+ —
+    # critical fix for the train/inference length mismatch (validator never
+    # serves >350 words; our masters had rows up to 299k words).
+    p.add_argument("--validator-subsample", action="store_true", default=True,
+                   dest="validator_subsample",
+                   help="Apply validator's subsample_words(35, 350) to each "
+                        "row at SeamDataset.__init__. Crops every training "
+                        "row to the same length distribution validators send "
+                        "miners in production. Default ON; pass "
+                        "--no-validator-subsample to disable.")
+    p.add_argument("--no-validator-subsample", action="store_false",
+                   dest="validator_subsample")
+    p.add_argument("--subsample-min-words", type=int, default=35,
+                   help="Lower bound for the validator-aligned subsample.")
+    p.add_argument("--subsample-max-words", type=int, default=350,
+                   help="Upper bound for the validator-aligned subsample.")
+
     p.add_argument("--max-train-rows", type=int, default=None)
     p.add_argument("--max-val-rows", type=int, default=None)
     p.add_argument("--patience", type=int, default=0,
