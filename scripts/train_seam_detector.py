@@ -112,6 +112,17 @@ import torch
 import torch.distributed.tensor  # peft 0.19.1 expects this submodule preloaded on torch 2.8
 import torch.nn as nn
 import torch.nn.functional as F
+
+# Torch 2.8's "donated buffer" optimisation (introduced for compiled fwd
+# with autograd.Function) raises RuntimeError when autograd.grad is called
+# with create_graph=True. We need create_graph=True for GradNorm to be
+# able to differentiate through per-loss gradient norms back into the
+# learnable lambdas. Disable the optimisation globally; cost is negligible.
+try:
+    import torch._functorch.config as _functorch_config
+    _functorch_config.donated_buffer = False
+except (ImportError, AttributeError):
+    pass
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoModel, AutoTokenizer, get_cosine_schedule_with_warmup
 
@@ -175,6 +186,64 @@ DATA_SOURCE_MAP = {
     "pile":          0,
     "common_crawl":  1,
 }
+
+
+def _validator_subsample_words(words, labels, *, min_cnt=35, max_cnt=350, rng=None):
+    """Crop a (words, labels) pair to a random length in [min_cnt, max_cnt],
+    matching the validator's subsample_words logic from
+    detection/validator/segmentation_processer.py.
+
+    Why this exists: the validator NEVER sends miners a query longer than 350
+    words (its segmentation_processer crops every served sample to 35-350).
+    Our masters were generated with --no-subsample so they accumulated
+    full-length Pile/CC documents (up to 299k words). Without this fix,
+    the model trains on a length distribution it never sees in production.
+
+    Behaviour matches validator's segmentation_processer.subsample_words:
+      - if len(words) <= min_cnt: return as-is
+      - if both 0->1 AND 1->0 transitions exist (multi-seam): strip
+        everything before the FIRST 0->1 transition, recurse
+      - if there is one transition: pick a window centred on it
+      - if there is no transition (pure_human or pure_ai): random crop
+    Character-level edge cropping in the validator is intentionally omitted
+    here to keep words/labels alignment trivial.
+    """
+    rng = rng or random
+    if len(words) <= min_cnt:
+        return words, labels
+
+    has_01 = any(labels[i] == 0 and labels[i + 1] == 1 for i in range(len(labels) - 1))
+    has_10 = any(labels[i] == 1 and labels[i + 1] == 0 for i in range(len(labels) - 1))
+
+    if has_01 and has_10:
+        # multi-seam: strip everything before the first 0->1, then recurse
+        ind = None
+        for i in range(len(labels) - 1):
+            if labels[i] == 0 and labels[i + 1] == 1:
+                ind = i + 1
+                break
+        return _validator_subsample_words(
+            words[ind:], labels[ind:], min_cnt=min_cnt, max_cnt=max_cnt, rng=rng,
+        )
+
+    cnt = rng.randint(min_cnt, min(max_cnt, len(words)))
+
+    split_index = None
+    for i in range(len(labels) - 1):
+        if labels[i] != labels[i + 1]:
+            split_index = i
+            break
+
+    if split_index is not None:
+        lo = max(split_index - cnt, 0)
+        hi = min(len(words) - cnt, split_index)
+        if lo > hi:
+            lo = hi
+        ind = rng.randint(lo, hi)
+    else:
+        ind = rng.randint(0, len(words) - cnt)
+
+    return words[ind:ind + cnt], labels[ind:ind + cnt]
 
 
 def model_family_id(model_name: str) -> int:
@@ -785,6 +854,7 @@ def compute_total_loss(
     focal_gamma: float = 2.0,
     focal_seam_alpha: float = 0.75,
     return_components: bool = False,
+    return_graph_components: bool = False,
     **_legacy_kwargs,
 ):
     """Multi-term training loss for HSSD v4.
@@ -842,7 +912,16 @@ def compute_total_loss(
             seam_alpha=focal_seam_alpha,
         )
 
-    components = {"crf": crf_loss.detach(), "focal": focal.detach()}
+    # When return_graph_components=True, store the LIVE (non-detached) loss
+    # tensors so the caller (e.g. GradNorm) can compute per-loss gradients
+    # via torch.autograd.grad. The default keeps the historic detached
+    # behaviour so logging callers (.item(), `f"{x:.3f}"`) stay cheap.
+    def _record(key, t):
+        components[key] = t if return_graph_components else t.detach()
+
+    components = {}
+    _record("crf", crf_loss)
+    _record("focal", focal)
     total = crf_loss + lambda_focal * focal
 
     if boundary_target is not None and "boundary_logits" in outputs:
@@ -853,7 +932,7 @@ def compute_total_loss(
             outputs["boundary_logits"], boundary_target, valid_mask,
         )
         total = total + lambda_boundary * bnd
-        components["boundary"] = bnd.detach()
+        _record("boundary", bnd)
 
     def _aux_ce(logits, ids, lam, key):
         nonlocal total
@@ -864,7 +943,7 @@ def compute_total_loss(
             return
         ce = F.cross_entropy(logits[sel].float(), ids[sel].long())
         total = total + lam * ce
-        components[key] = ce.detach()
+        _record(key, ce)
 
     _aux_ce(outputs.get("data_source_logits"),  data_source_id,
             lambda_data_source,  "aux_ds")
@@ -974,6 +1053,142 @@ class AdaptiveLossBalancer:
 
     def get(self, key):
         return self.lambdas[key]
+
+
+# ---------------------------------------------------------------------------
+# Real GradNorm (Chen et al. 2018, "GradNorm: Gradient Normalization for
+# Adaptive Loss Balancing in Deep Multitask Networks").
+# ---------------------------------------------------------------------------
+class GradNorm:
+    """Real GradNorm — adjusts per-loss weights so each loss's *gradient
+    norm* w.r.t. a shared parameter set tracks a target determined by the
+    loss's relative training rate.
+
+    Paper formulation (alpha controls the spread of per-task rates):
+        target_i = avg_grad_norm * (relative_rate_i / avg_relative_rate) ** alpha
+        gradnorm_loss = sum_i |‖∂(λ_i * L_i) / ∂W_shared‖ - target_i.detach()|
+
+    `update_every` lets the caller amortise the per-loss backward cost
+    over N main steps. When update_every=1 it matches the paper exactly.
+
+    Differs from AdaptiveLossBalancer above in that this measures the
+    actual gradient magnitude (correct in theory) instead of loss
+    magnitude (a cheap proxy that fails when a loss has a very flat or
+    very steep landscape). Use this when scientific rigour matters; the
+    Balancer when wall-clock cost matters.
+    """
+
+    def __init__(self, component_keys, initial_lambdas, shared_params,
+                 alpha: float = 1.5, lr: float = 0.025,
+                 update_every: int = 100, log_every_updates: int = 5,
+                 log_fn=print):
+        if not shared_params:
+            raise ValueError("GradNorm: shared_params must be non-empty")
+        self.keys = list(component_keys)
+        self.shared_params = list(shared_params)
+        self.alpha = float(alpha)
+        self.update_every = int(update_every)
+        self.log_every_updates = int(log_every_updates)
+        self.log_fn = log_fn
+
+        device = self.shared_params[0].device
+        init = torch.tensor(
+            [float(initial_lambdas.get(k, 1.0)) for k in self.keys],
+            dtype=torch.float32, device=device,
+        )
+        # Lambdas are a single learnable parameter tensor with their own
+        # Adam optimiser, exactly as in the paper.
+        self.lambdas = torch.nn.Parameter(init.clone(), requires_grad=True)
+        self.optimizer = torch.optim.Adam([self.lambdas], lr=float(lr))
+        self.initial_losses = None
+        self.steps = 0
+        self.updates = 0
+
+    def get(self, key):
+        i = self.keys.index(key)
+        return float(self.lambdas[i].item())
+
+    def step(self, components):
+        """Call once per main training step, with the LIVE (non-detached)
+        loss tensors. On the (update_every)-th step it computes per-loss
+        gradient norms, runs one Adam step on the lambdas, and renormalises
+        them so sum(lambdas) = N (keeps total loss scale stable)."""
+        self.steps += 1
+
+        if self.initial_losses is None:
+            try:
+                self.initial_losses = {
+                    k: max(float(components[k].item()), 1e-8)
+                    for k in self.keys
+                    if k in components
+                }
+            except Exception:
+                return
+
+        if self.steps % self.update_every != 0:
+            return
+
+        # ---- Compute per-loss gradient norms wrt shared params ----
+        device = self.shared_params[0].device
+        present_keys = [k for k in self.keys if k in components]
+        if not present_keys:
+            return
+
+        grad_norms = []
+        for k in present_keys:
+            scaled = self.lambdas[self.keys.index(k)] * components[k]
+            grads = torch.autograd.grad(
+                scaled, self.shared_params,
+                retain_graph=True, create_graph=True,
+                allow_unused=True,
+            )
+            flat = []
+            for g in grads:
+                if g is not None:
+                    flat.append(g.flatten())
+            if not flat:
+                grad_norms.append(torch.tensor(0.0, device=device))
+                continue
+            grad_norms.append(torch.cat(flat).norm())
+        grad_norms = torch.stack(grad_norms)
+
+        # ---- Compute target gradient norms via relative training rate ----
+        with torch.no_grad():
+            losses_now = torch.tensor(
+                [max(float(components[k].item()), 1e-8) for k in present_keys],
+                device=device,
+            )
+            initials = torch.tensor(
+                [self.initial_losses.get(k, 1.0) for k in present_keys],
+                device=device,
+            )
+            rates = losses_now / initials
+            avg_rate = rates.mean().clamp_min(1e-8)
+            avg_grad_norm = grad_norms.mean().detach()
+            targets = avg_grad_norm * (rates / avg_rate) ** self.alpha
+
+        # ---- GradNorm loss: L1 between gradient norms and targets ----
+        gn_loss = (grad_norms - targets).abs().sum()
+        self.optimizer.zero_grad()
+        gn_loss.backward(retain_graph=True)
+        self.optimizer.step()
+
+        # ---- Renormalise lambdas so sum stays constant (= N) ----
+        with torch.no_grad():
+            self.lambdas.data.clamp_min_(1e-3)
+            n = float(len(self.keys))
+            self.lambdas.data.mul_(n / self.lambdas.data.sum().clamp_min(1e-8))
+
+        self.updates += 1
+        if self.updates == 1 or self.updates % self.log_every_updates == 0:
+            parts = []
+            for i, k in enumerate(self.keys):
+                parts.append("{}={:.4f}".format(k, float(self.lambdas[i].item())))
+            self.log_fn(
+                "  [gradnorm] step={} update={} | ".format(self.steps, self.updates)
+                + " ".join(parts)
+                + "  gn_loss={:.4f}".format(float(gn_loss.item()))
+            )
 
 
 # ---------------------------------------------------------------------------
@@ -1163,7 +1378,10 @@ class SeamDataset(Dataset):
                  max_rows: Optional[int] = None,
                  min_chunk_words: int = 20,
                  seed: int = 0,
-                 boundary_sigma: float = 3.0):
+                 boundary_sigma: float = 3.0,
+                 validator_subsample: bool = False,
+                 subsample_min_words: int = 35,
+                 subsample_max_words: int = 350):
         """boundary_sigma : Gaussian width (in TOKEN positions) for the
         boundary-head supervision target. ~3 tokens ≈ ~1.5 words on
         average for English DeBERTa, which matches the validator's
@@ -1173,6 +1391,9 @@ class SeamDataset(Dataset):
         self.stride = max(1, stride)         # kept for back-compat; unused now
         self.min_chunk_words = min_chunk_words
         self.boundary_sigma = float(boundary_sigma)
+        self.validator_subsample = bool(validator_subsample)
+        self.subsample_min_words = int(subsample_min_words)
+        self.subsample_max_words = int(subsample_max_words)
 
         rng = random.Random(seed)
         rows: List[Dict[str, str]] = []
@@ -1212,6 +1433,20 @@ class SeamDataset(Dataset):
             if len(words) != len(word_labels):
                 skipped += 1
                 continue
+
+            # Validator-distribution-matching subsample. The validator's
+            # segmentation_processer crops every served sample to 35-350
+            # words; if we don't crop too, our model trains on a length
+            # regime it never sees in production. Done ONCE at __init__
+            # (cheap, one-time) rather than per-epoch (would require
+            # refactoring the chunk cache). See _validator_subsample_words.
+            if self.validator_subsample:
+                words, word_labels = _validator_subsample_words(
+                    words, word_labels,
+                    min_cnt=self.subsample_min_words,
+                    max_cnt=self.subsample_max_words,
+                    rng=rng,
+                )
 
             ds = (row.get("data_source") or "").strip()
             ds_id = DATA_SOURCE_MAP.get(ds, -1)
@@ -2193,18 +2428,27 @@ def train(args: argparse.Namespace) -> None:
         shuffle_rows=True, max_rows=args.max_train_rows,
         seed=args.seed or 0,
         boundary_sigma=args.boundary_sigma,
+        validator_subsample=args.validator_subsample,
+        subsample_min_words=args.subsample_min_words,
+        subsample_max_words=args.subsample_max_words,
     )
     print(f"  train chunks: {len(train_ds)}")
 
     val_ds = None
     if val_paths:
         print(f"Loading val rows from: {[str(p) for p in val_paths]}")
+        # Apply the SAME subsample to val/test so eval is on validator-shaped
+        # docs too — otherwise the model sees long val docs at eval time but
+        # short docs in production, and val F1 won't track production F1.
         val_ds = SeamDataset(
             val_paths, tokenizer,
             max_length=args.max_length, stride=args.stride,
             shuffle_rows=False, max_rows=args.max_val_rows,
             seed=(args.seed or 0) + 1,
             boundary_sigma=args.boundary_sigma,
+            validator_subsample=args.validator_subsample,
+            subsample_min_words=args.subsample_min_words,
+            subsample_max_words=args.subsample_max_words,
         )
         print(f"  val chunks:   {len(val_ds)}")
 
@@ -2472,11 +2716,48 @@ def train(args: argparse.Namespace) -> None:
     # Helper: compute the multi-term loss given a fresh model output dict.
     crf_module = _resolve_crf(model)
 
-    # Optional adaptive loss balancer. When enabled, per-component lambdas
-    # drift over training to track a target contribution share — robust to
-    # the failure mode where one head silently dominates the gradient.
+    # Optional adaptive loss-weighting. Two mutually exclusive modes:
+    #   --auto-balance-losses   -> AdaptiveLossBalancer (loss-magnitude proxy)
+    #   --gradnorm              -> Real GradNorm (Chen et al. 2018)
+    # When neither is set, fixed --lambda-* flags are used (legacy).
     balancer = None
-    if getattr(args, "auto_balance_losses", False):
+    gradnorm = None
+    if getattr(args, "gradnorm", False):
+        # Pick shared params: input_norm sits between CLAF and the conv head
+        # so all loss-producing branches (boundary head, aux heads, focal/CRF
+        # over conv-output emissions) see its outputs. Best single trunk for
+        # GradNorm to anchor to.
+        shared = []
+        for name, p in model.named_parameters():
+            if "input_norm" in name and p.requires_grad:
+                shared.append(p)
+        if not shared:
+            # Fall back: any trainable param tagged claf
+            for name, p in model.named_parameters():
+                if "claf" in name and p.requires_grad:
+                    shared.append(p)
+        if not shared:
+            raise RuntimeError(
+                "GradNorm enabled but no shared trainable params found "
+                "(input_norm/claf). Disable --gradnorm or fix the model.")
+        gradnorm = GradNorm(
+            component_keys=("focal", "boundary", "aux_ds", "aux_mf", "aux_st"),
+            initial_lambdas={
+                "focal":    args.lambda_focal,
+                "boundary": args.lambda_boundary,
+                "aux_ds":   args.lambda_data_source,
+                "aux_mf":   args.lambda_model_family,
+                "aux_st":   args.lambda_sample_type,
+            },
+            shared_params=shared,
+            alpha=args.gradnorm_alpha,
+            lr=args.gradnorm_lr,
+            update_every=args.gradnorm_update_every,
+        )
+        print(f"GradNorm enabled. shared_params={len(shared)} tensors, "
+              f"alpha={gradnorm.alpha}, lr={args.gradnorm_lr}, "
+              f"update_every={gradnorm.update_every}")
+    elif getattr(args, "auto_balance_losses", False):
         balancer = AdaptiveLossBalancer(
             component_keys=("focal", "boundary", "aux_ds", "aux_mf", "aux_st"),
             initial_lambdas={
@@ -2510,7 +2791,13 @@ def train(args: argparse.Namespace) -> None:
                    data_source_id: Optional[torch.Tensor] = None,
                    model_family_id: Optional[torch.Tensor] = None,
                    sample_type_id: Optional[torch.Tensor] = None):
-        if balancer is not None:
+        if gradnorm is not None:
+            lf  = gradnorm.get("focal")
+            lb  = gradnorm.get("boundary")
+            lds = gradnorm.get("aux_ds")
+            lmf = gradnorm.get("aux_mf")
+            lst = gradnorm.get("aux_st")
+        elif balancer is not None:
             lf  = balancer.get("focal")
             lb  = balancer.get("boundary")
             lds = balancer.get("aux_ds")
@@ -2535,6 +2822,7 @@ def train(args: argparse.Namespace) -> None:
             focal_gamma=args.focal_gamma,
             focal_seam_alpha=args.focal_seam_alpha,
             return_components=True,
+            return_graph_components=(gradnorm is not None),
         )
 
     def _do_validation(epoch_idx: int, step_within_epoch: int,
@@ -2797,6 +3085,13 @@ def train(args: argparse.Namespace) -> None:
             else:
                 loss_ema = loss_ema_decay * loss_ema + (1 - loss_ema_decay) * loss_value
 
+            # Adaptive loss-weighting hook. Must run BEFORE the main backward
+            # because GradNorm computes per-loss gradients via autograd.grad
+            # and needs the live (non-detached) graph nodes. The balancer
+            # is cheap (just reads scalars) but we keep the order consistent.
+            if gradnorm is not None:
+                gradnorm.step(components)
+
             (loss / args.gradient_accumulation_steps).backward()
 
             # ---- Feature-level FGM adversarial pass -------------------
@@ -2972,6 +3267,23 @@ def parse_args() -> argparse.Namespace:
                         "training_args.json so future evaluation scripts "
                         "can pick it up; the file itself is NEVER read "
                         "during training.")
+    # Validator-distribution-matching subsample. Default ON for v9+ —
+    # critical fix for the train/inference length mismatch (validator never
+    # serves >350 words; our masters had rows up to 299k words).
+    p.add_argument("--validator-subsample", action="store_true", default=True,
+                   dest="validator_subsample",
+                   help="Apply validator's subsample_words(35, 350) to each "
+                        "row at SeamDataset.__init__. Crops every training "
+                        "row to the same length distribution validators send "
+                        "miners in production. Default ON; pass "
+                        "--no-validator-subsample to disable.")
+    p.add_argument("--no-validator-subsample", action="store_false",
+                   dest="validator_subsample")
+    p.add_argument("--subsample-min-words", type=int, default=35,
+                   help="Lower bound for the validator-aligned subsample.")
+    p.add_argument("--subsample-max-words", type=int, default=350,
+                   help="Upper bound for the validator-aligned subsample.")
+
     p.add_argument("--max-train-rows", type=int, default=None)
     p.add_argument("--max-val-rows", type=int, default=None)
     p.add_argument("--patience", type=int, default=0,
@@ -3160,6 +3472,26 @@ def parse_args() -> argparse.Namespace:
                    help="Dampening exponent on lambda updates. 0.5 = sqrt of "
                         "the ratio (gentle); 1.0 = full immediate correction "
                         "(may oscillate). Lower values are safer.")
+
+    # Real GradNorm (Chen et al. 2018). Mutually exclusive with the
+    # AdaptiveLossBalancer above. When set, --gradnorm wins.
+    p.add_argument("--gradnorm", action="store_true",
+                   help="Enable real GradNorm: per-loss gradient norms are "
+                        "computed against shared params (input_norm) every "
+                        "--gradnorm-update-every steps and the lambdas are "
+                        "updated by Adam to track relative training rates. "
+                        "Costs one extra autograd.grad pass per loss per "
+                        "update; use --gradnorm-update-every >= 50 to keep "
+                        "wall-clock impact small.")
+    p.add_argument("--gradnorm-alpha", type=float, default=1.5,
+                   help="GradNorm hyperparameter alpha. Larger values force "
+                        "stronger task balancing (paper default: 1.5).")
+    p.add_argument("--gradnorm-lr", type=float, default=0.025,
+                   help="Adam LR for the GradNorm lambda optimizer "
+                        "(paper default: 0.025).")
+    p.add_argument("--gradnorm-update-every", type=int, default=100,
+                   help="Run GradNorm every N main training steps. Default "
+                        "100 keeps the wall-clock cost <10%% on this codebase.")
 
     # CRF transition constraint
     p.add_argument("--min-p-1to0", type=float, default=0.0,
