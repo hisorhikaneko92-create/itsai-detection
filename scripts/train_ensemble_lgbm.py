@@ -128,10 +128,14 @@ def main():
     print(f"  trained in {time.time() - t0:.1f}s "
           f"(best iter: {booster.best_iteration})", file=sys.stderr)
 
-    # Save model
+    # Save model — truncate to best_iteration so predict at inference time uses
+    # exactly the same trees the eval below uses. Otherwise the model file
+    # contains all `num_boost_round` trees and `best_iteration` is lost on load.
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    booster.save_model(str(args.out))
-    print(f"\nSaved model -> {args.out}", file=sys.stderr)
+    booster.save_model(str(args.out), num_iteration=booster.best_iteration)
+    print(f"\nSaved model -> {args.out}  "
+          f"(truncated to best_iteration={booster.best_iteration})",
+          file=sys.stderr)
     # Also dump feature importance
     importance = booster.feature_importance(importance_type="gain")
     print(f"\nFeature importance (gain):", file=sys.stderr)
